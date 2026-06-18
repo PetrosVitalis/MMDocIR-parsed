@@ -1,0 +1,1 @@
+<table><tr><td rowspan="3"></td><td colspan="3">For the Year Ended December 31,</td></tr><tr><td>2019</td><td>2020 2021</td></tr><tr><td>(in millions)</td><td></td></tr><tr><td>Online music mobile MAUs</td><td>653 644</td><td>622</td></tr><tr><td>Social entertainment mobile MAUs</td><td>240 240</td><td>203</td></tr></table>

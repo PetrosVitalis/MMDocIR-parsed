@@ -1,0 +1,9 @@
+OBS Console Operation,Dependency,Role/Policy Required
+Listing existingdomain names(required whenyou configure auser-defineddomain nameor anaccelerationdomain name),Domain NameService (DNS),Domains:domains:getDetails
+Configuringmirroring back-to-source rules,Object StorageService (OBS),"·Tenant Administratorobs:object:HeadObject andobs:object:PutObject assigned by theIAM agency for OBS to pull data from itsorigin serverkms:cmk:get, kms:cmk:list,kms:cmk:create, kms:dek:create,kms:dek:crypto,and kms:dek:cryptoconfigured for the agency of OBS whenSSE-KMS is enabled fora bucket"
+Obtainingmirroring back-to-source rules,ObjectStorageService (OBS),Tenant Administrator
+Deletingmirroring back-to-source rules,ObjectStorageService (OBS),Tenant Administrator
+Configuringonlinedecompression policies,ObjectStorageService (OBS),Tenant Administrator
+Obtainingonlinedecompression policies,ObjectStorageService (OBS),Tenant Administrator
+Deleting onlinedecompressionpolicies,ObjectStorageService (OBS),Tenant Administrator
+Uploading ordownloadingencryptedobjects,KeyManagementService (KMS),"kms:cmk:get, kms:cmk:list,kms:cmk:create, kms:dek:create,kms:dek:crypto, and kms:dek:crypto foruploading or downloading objects encryptedwith SSE-KMS"

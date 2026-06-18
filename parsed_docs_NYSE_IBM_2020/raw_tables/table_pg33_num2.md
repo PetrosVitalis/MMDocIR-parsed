@@ -1,0 +1,1 @@
+<table><tr><td colspan="5">Yr.-to-Yr.</td></tr><tr><td>For the year ended December 31:</td><td>2020</td><td>2019</td><td>Percent Change</td><td>Percent Change Adjusted for Currency</td></tr><tr><td>Total signings</td><td>$38,770</td><td>$40,741</td><td>(4.8)%</td><td>(5.1)%</td></tr></table>

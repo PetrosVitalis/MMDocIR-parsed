@@ -1,0 +1,1430 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.276,
+      0.172,
+      0.722
+    ],
+    "text": "MIMIC-IT: Multi-Modal In-Context Instruction Tuning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.223,
+      0.256,
+      0.776
+    ],
+    "text": "Bo Li∗,♠,1 Yuanhan Zhang∗,♠,1 Liangyu Chen∗,1 Jinghao Wang∗,1 Fanyi Pu∗,1 Jingkang Yang1 Chunyuan Li2 Ziwei Liu1,B",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.186,
+      0.299,
+      0.813
+    ],
+    "text": "1S-Lab, Nanyang Technological University, Singapore 2Microsoft Research, Redmond {libo0013, yuanhan002, lchen025, c190209, fpu001, ziwei.liu}@ntu.edu.sg chunyl@microsoft.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.354,
+      0.311,
+      0.642
+    ],
+    "text": "https://github.com/Luodian/Otter",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.46,
+      0.364,
+      0.537
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.377,
+      0.228,
+      0.655,
+      0.767
+    ],
+    "text": "High-quality instructions and responses are essential for the zero-shot performance of large language models on interactive natural language tasks. For interactive vision-language tasks involving intricate visual scenes, a large quantity of diverse and creative instruction-response pairs should be imperative to tune visionlanguage models (VLMs). Nevertheless, the current availability of vision-language instruction-response pairs in terms of quantity, diversity, and creativity remains limited, posing challenges to the generalization of interactive VLMs. Here we present MultI-Modal In-Context Instruction Tuning (MIMIC-IT), a dataset comprising 2.8 million multimodal instruction-response pairs, with 2.2 million unique instructions derived from images and videos. Each pair is accompanied by mu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.676,
+      0.173,
+      0.693,
+      0.312
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.707,
+      0.169,
+      0.847,
+      0.826
+    ],
+    "text": "The recent advancements in artificial intelligence have focused on conversational assistants [42, 31, 30, 13, 17] that possess a strong ability to understand user intentions [35] and then execute actions [5, 51]. In addition to the strong generalization ability of large language models (LLMs), the notable achievements of these conversational assistants can be attributed to the practice of instruction tuning [47, 14, 46, 45, 42, 13, 34]. It involves fine-tuning LLMs on a range of tasks specified through diverse and high-quality instructions [14, 45]. By incorporating instruction tuning, LLMs acquire a heightened comprehension of user intentions [35], enabling them to exhibit improved zero-shot capabilities even in previously unseen tasks [47]. One potential reason for the zero-shot performa",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.852,
+      0.169,
+      0.881,
+      0.826
+    ],
+    "text": "Conversational assistants that excel in language tasks have achieved remarkable success. However, an optimal conversational assistant should be able to address tasks involving multiple modalities. This requires access to a diverse and high-quality multi-modal instruction-following dataset. The LLaVA-Instruct-150K dataset [28], also known as LLaVA, is the pioneering vision-language instructionfollowing dataset. It is constructed using COCO [27] images, instructions and responses obtained from GPT-4 [30] based on image captions and object bounding boxes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.088,
+      0.176,
+      0.381,
+      0.821
+    ],
+    "text": "Figure 1: MIMIC-IT overview. The MIMIC-IT dataset comprises 2.8M multi-modal instructionresponse pairs spanning fundamental capabilities: perception, reasoning, and planning. Each instruction is accompanied by multi-modal conversational context, allowing VLMs trained on MIMIC-IT to demonstrate strong proficiency in interactive instruction following with zero-shot generalization.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.559,
+      0.169,
+      0.714,
+      0.828
+    ],
+    "text": "Although inspiring, LLaVA-Instruct-150K exhibits three limitations. (1) Limited visual diversity: The dataset’s visual diversity is constrained due to its exclusive reliance on the COCO image. (2) Single image as visual data: it utilizes a single image as visual data, while a multi-modal conversational assistant should possess the capability to process multiple images or even extensive videos. For instance, it should effectively provide answers when a user presents a collection of images (or a sequence of images, such as a video) alongside the instruction: \"Help me think of an album title for these images.\" (3) Language-only in-context information: it depends solely on language for in-context information, whereas a multi-modal conversational assistant should integrate multi-modal in-contex",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.169,
+      0.915,
+      0.828
+    ],
+    "text": "Addressing these limitations, we introduce MultI-Modal In-Context Instruction Tuning (MIMIC-IT). MIMIC-IT is characterized by: (1) Diverse visual scenes, incorporating images and videos from general scenes, egocentric view scenes, and indoor RGB-D images across various datasets. (2) Multiple images (or a video) as visual data, supporting instruction-response pairs accompanied by any number of images or videos. (3) Multi-modal in-context information, featuring in-context information formulated in multi-modal formats, including multiple instruction-response pairs and multiple images or videos (see Fig. 2 for data format clarification). To efficiently generate instructionresponse pairs, we introduce Sythus, an automated pipeline for instruction-response annotation inspired by the self-instruc",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.204,
+      0.826
+    ],
+    "text": "On MIMIC-IT, we train a multi-modal model Otter based on OpenFlamingo [6]. We evaluate Otter’s multi-modal capabilities in two aspects: (1) ChatGPT evaluation on the MMAGIBenchmark [43], comparing Otter’s perception and reasoning abilities with other recent vision-language models (VLMs), where Otter demonstrates the strongest performance. (2) Human evaluation on the Multi-Modality Arena [32], where Otter outperforms other VLMs, achieving the highest Elo rating. Furthermore, we assess Otter’s few-shot in-context learning ability using the COCO Caption dataset [12], with results showing Otter’s superior performance over OpenFlamingo in all few-shot settings. In summary, our contributions include:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.218,
+      0.215,
+      0.26,
+      0.826
+    ],
+    "text": "• MultI-Modal In-Context Instruction Tuning (MIMIC-IT) dataset, a dataset comprising \\~ 2.8M multi-modal in-context instruction-response pairs, with 2.2 million unique instructions, across various real-life scenes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.261,
+      0.215,
+      0.287,
+      0.825
+    ],
+    "text": "• Syphus, an automatic pipeline built with LLMs to generate high-quality and multi-lingual instruction-response pairs based on visual context.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.215,
+      0.318,
+      0.828
+    ],
+    "text": "• Otter, a multi-modal model demonstrates robust multi-modal perception and reasoning capabilities, effectively following human intent while exhibiting adeptness in-context learning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.345,
+      0.171,
+      0.362,
+      0.325
+    ],
+    "text": "2 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.171,
+      0.398,
+      0.495
+    ],
+    "text": "2.1 Multi-modal Instruction Tuning Dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.412,
+      0.169,
+      0.58,
+      0.828
+    ],
+    "text": "The notion of instruction tuning in multi-modal models was initially introduced in the work called Multi-Instruct [50], which encompassed a wide range of multi-modal tasks [18, 56, 41, 27, 12] involving visual understanding and multi-modal reasoning, such as Visual Question Answering [18, 56, 23]. Similarly, Mini-GPT4 [54] created its instruction-based dataset by merging Conceptual Caption [38, 8], SBU [33], and LAION [36] with handwritten instruction templates. More recently, LLaVA-Instruct-150K [28] has elevated the quality of instruction tuning datasets by utilizing selfinstruct and GPT-4 [30], along with handwritten seed instructions on COCO images [27]. While these previous works on multi-modal instruction tuning primarily focused on general scene images, our approach categorizes our ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.171,
+      0.621,
+      0.442
+    ],
+    "text": "2.2 Multi-modal Foundation Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.636,
+      0.169,
+      0.803,
+      0.826
+    ],
+    "text": "With the recent success of ChatGPT [31], GPT-4 [30], and other LLMs [44, 42, 13], recent studies start to explore incorporating information from other modalities into pretrained language models. These studies extend the capabilities of LLM to more tasks and modalities and can be categorized into two classes: (i) Multi-model Aggregation. These approaches [48, 39, 11, 57, 57, 52] take an LLM as a dispatch scheduler and connect different expert models through it to allow for different tasks. Language serves as an interface to call expert visual-language models within their respective task domains. However, this approach is limited that each model cannot be trained individually on new tasks. (ii) End-to-End Trainable Models. These approaches [2, 6, 25, 30, 3, 37, 7, 54, 53, 28] connect models ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.832,
+      0.171,
+      0.849,
+      0.633
+    ],
+    "text": "3 Multi-modal In-context Instruction Tuning Dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.868,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "We aim to build MIMIC-IT dataset to support more VLMs in acquiring the ability to comprehend the real world. In this section, we provide an overview of the MIMIC-IT dataset, starting with the data format in Sec. 3.1 and our automatic instruction generation pipeline, Sythus, in Sec. 3.2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-1",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.174,
+      0.53,
+      0.82
+    ],
+    "text": "Figure 2: Data Format Comparison: LLaVA-Instruct-150K vs. MIMIC-IT. (a) LLaVA-Instruct-150K consists of a single image with corresponding language-only in-context information (yellow box). (b) MIMIC-IT accommodates multiple images or videos within the input data and supports multi-modal in-context information, i.e., considering both images/videos and language inputs as in-context information.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.171,
+      0.65,
+      0.387
+    ],
+    "text": "3.1 MIMIC-IT Data Format",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.169,
+      0.761,
+      0.826
+    ],
+    "text": "Each instance i in the MIMIC-IT dataset comprises an instruction-response pair and a set of N images. We regard it as query example with a tuple: $( I _ { q } , R _ { q } , X _ { q } )$ , where $\\{ x _ { i = 1 } ^ { N } \\} \\in X _ { q } .$ Here, $I _ { q }$ denotes the q-th instruction in our dataset, $R _ { q }$ represents the response, and $\\grave { X _ { q } }$ refers to the images or videos 1. Our primary objective is to develop a visual language model $p _ { \\theta } ( R _ { q } \\mid ( I _ { q } , X _ { q } ) )$ parametrized by trainable parameters θ, the model generates the response $R _ { i }$ for each query $( \\dot { I } _ { q } , \\dot { X } _ { q } )$ . With above example denotes the standard instruction tuning process of a visual language model. Further, we could define a set of ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.767,
+      0.169,
+      0.811,
+      0.826
+    ],
+    "text": "We then define a context function $C _ { \\psi } : ( I _ { q } , X _ { q } ) \\mapsto \\{ ( I _ { k } , X _ { k } ) \\} _ { k = 1 } ^ { M }$ to represent the in-context examples with current query example. In summary, all data in the MIMIC-IT dataset will be represented in the following format, query example with its corresponding in-context examples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-5",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_0.jpg",
+    "bbox_norm": [
+      0.83,
+      0.326,
+      0.847,
+      0.668
+    ],
+    "text": "$$\nd _ { q } = ( I _ { q } , R _ { q } , X _ { q } , C _ { \\psi } ( I _ { q } , X _ { q } ) ) , \\quad d _ { q } \\sim D _ { \\mathrm { M I M I C - I T } }\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.857,
+      0.169,
+      0.887,
+      0.826
+    ],
+    "text": "Now the visual language model that incorporates in-context examples can be denoted as $p _ { \\theta } ( R _ { q }$ $( I _ { q } , X _ { q } , C _ { \\psi } ( I _ { q } , X _ { q } ) ) )$ $C _ { \\psi }$ is task-dependent, we apply different approaches to organize the in-",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-1",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.088,
+      0.181,
+      0.262,
+      0.813
+    ],
+    "text": "Figure 3: Sythus overview. We employ a cold-start stage to identify the optimal system message and in-context example for querying instruction-response pairs in a given dataset. Subsequently, Sythus, spanning steps 1 to 4, generates high-quality instruction-response pairs in eight languages.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:table-2",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.455,
+      0.173,
+      0.626,
+      0.823
+    ],
+    "text": "Table 1: Comparison between MIMIC-IT and other multi-modal instruction datasets. MIMIC-IT stands out with the following features: (1) The largest vision-language instruction dataset. (2) The first instruction dataset including video data. (3) Supporting multi-modal in-context scenarios (see Fig. 2 for the data format). (4) Supporting eight languages including: English, Chinese, Spanish, Japanese, French, German, Korean, and Arabic. The data source of MIMIC-IT includes seven datasets: COCO [27], Spot-the-diff [21] (SD), ScanNetV2 [15] (SN), VisualStorytelling [20] (VIST), DenseCaption/Activity caption [22] (DC), TVCaption [24] (TVC), and Ego4D [19] (E4D). lang. indicates language and vis. indicates vision.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.656,
+      0.169,
+      0.685,
+      0.825
+    ],
+    "text": "context examples with the current query example. The details will be presented in Sec. 3.3 and illustrative examples will be showcased in Fig. 2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.704,
+      0.171,
+      0.719,
+      0.64
+    ],
+    "text": "3.2 Sythus: Automatic Instruction-Response Generation Pipeline",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.169,
+      0.914,
+      0.828
+    ],
+    "text": "We present Sythus (see Figure 3), an automated pipeline for generating high-quality instructionresponse pairs in multiple languages. Building upon the framework proposed by LLaVA [28], we utilize ChatGPT to generate instruction-response pairs based on visual content. To ensure the quality of the generated instruction-response pairs, our pipeline incorporates system messages, visual annotations, and in-context examples as prompts for ChatGPT. System messages define the desired tone and style of the generated instruction-response pairs, while visual annotations provide essential image information such as bounding boxes and image descriptions. In-context examples assist ChatGPT in learning within the context. Since the quality of coreset impacts subsequent data collection process [10], we emp",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.121,
+      0.826
+    ],
+    "text": "Spanish (es), German (de), French (fr), Korean (ko), and Arabic (ar). For further details, please refer to Appendix C, and task-specific prompts can be found in Appendix D.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.146,
+      0.171,
+      0.161,
+      0.383
+    ],
+    "text": "3.3 Visual Data Exploration",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.169,
+      0.303,
+      0.826
+    ],
+    "text": "Acknowledging the importance of high-quality visual annotations and the need for diverse visionlanguage instructions that align with the distribution of real-world visual content, we curate a collection of seven image and video datasets spanning a wide spectrum of scenes, from general to specific. Encompassing various topics, the MIMIC-IT dataset includes general scene understanding and reasoning, spoting general and subtle differences, as well as facilitating egocentric view comprehension to assist VLMs in future AR headsets, etc. In the subsequent sections, we will present the application scenarios of our dataset: General Scene Understanding in Sec. 3.3.1 and General Scene Understanding in Sec. 3.3.2. In each sub-task, we elaborate on the process of organizing various data into an in-con",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.171,
+      0.34,
+      0.436
+    ],
+    "text": "3.3.1 General Scene Understanding",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.353,
+      0.169,
+      0.382,
+      0.825
+    ],
+    "text": "For understanding the general scenes, we include four tasks: (1) LLaVA-Interleaved. (2) Spot The Difference. (3) Visual Story Telling. (4) Dense Captions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.169,
+      0.472,
+      0.826
+    ],
+    "text": "LLaVA-Interleaved (LA-I). Learning with in-context examples is essential for effective instruction tuning. To achieve this, we refine the LLaVA-Instruct-150K [28] dataset by retrieving ten in-context examples for each instruction-response pair in LLaVA-Instruct-150K, building LLaVA-Interleaved (LA-I). We identify each data’s in-context examples based on instruction text-to-text similarity or image-image similarity. Further details on locating in-context examples and the data sources for LA-I can be found in the Appendix.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.477,
+      0.169,
+      0.617,
+      0.826
+    ],
+    "text": "Spot The Difference (SD). Learning to discern differences between images is vital for understanding real-world changes. Our study encompasses two interrelated task types in Scene Difference (SD), addressing varying complexity levels in difference identification. The first type, General Scene Difference, involves creating a pair of images by determining the most similar one to the current image, utilizing image-to-image similarity relationships from the COCO2017 [27]. The second type, Subtle Difference, features pairs of similar images with subtle distinctions sourced from the Spot-the-Diff[21], extracted from surveillance footage. For the first type, we prompt ChatGPT using original image captions and object detection annotations, while for the second type, we employ natural language diffe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.621,
+      0.169,
+      0.734,
+      0.826
+    ],
+    "text": "Visual Story Telling (VIST). Beyond traditional scene understanding, the ability to generate coherent and engaging narratives based on visual input expands the context comprehension of Visual Language Models (VLMs). To enable this, we propose a task using the Visual Storytelling datase [20], which includes event-based image sequences and corresponding inquiry questions. Given that image annotations often contain narratives and timelines not directly observable, we instruct ChatGPT to act as a viewer answering questions about the images. The prompts also incorporate thought-provoking inquiries to promote creativity. Each task instance comprises multiple images and instruction-response pairs, providing in-context examples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.738,
+      0.169,
+      0.809,
+      0.826
+    ],
+    "text": "Dense Captions (DC). Expanding the scope of video understanding, DC features dense captions from [22] corresponding to clips within longer videos. The instructions pose a diverse set of questions, addressing the general visual content of the video, human actions, and behaviors, the chronological sequence of events, and causal relationships. This approach encourages VLMs to delve deeper into the intricacies of video content.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "TV Show Captions (TVC). The primary purpose of incorporating TV show clips with high-level captions into the training process of VLMs is to enhance their social reasoning abilities and deepen their understanding of complex character dynamics. By organizing drama clips from [24] to analyze character relationships and motivations, we aim to challenge VLMs to move beyond mere perception and demonstrate their reasoning capabilities within the context of TV show narratives. This focused approach is crucial for fostering advanced VLMs capable of effectively handling diverse real-world situations and user queries.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-1",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.088,
+      0.207,
+      0.305,
+      0.491
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:figure-2",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_1.jpg",
+    "bbox_norm": [
+      0.088,
+      0.54,
+      0.306,
+      0.825
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.531,
+      0.171,
+      0.546,
+      0.449
+    ],
+    "text": "3.3.2 Egocentric View Understanding",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.559,
+      0.169,
+      0.671,
+      0.826
+    ],
+    "text": "Indoor Event Planning (IEP). Emphasizing the planning capabilities of virtual assistants, we utilize visual inputs consisting of a collection of 2D photos depicting a room. We gather indoor scene RGB-D images from ScanNetv2 [15] and sample them into multiple 2D visual inputs, representing a room’s layout from a first-person perspective. We prompt ChatGPT to generate instructions that direct humans to perform various activities in indoor spaces. Initially, we have ChatGPT create a personality for the room owner. Subsequently, the planning should be intimately related to the room’s layout and the generated room owner, underlining the importance of context awareness in VLMs. This approach ensures that models can effectively support users across diverse indoor scenarios.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.675,
+      0.169,
+      0.775,
+      0.826
+    ],
+    "text": "Ego4D (E4D) [19]. Utilizing E4D’s egocentric videos, we strive to enable VLMs to function effectively as augmented reality (AR) assistants in real-life scenarios. By prompting ChatGPT to generate instructions based on visual descriptions, our goal is to simulate practical interactions between users and AR assistants. To this end, we devise assistant-related questions and tasks that demand context-aware responses. For instance, Instruction: What should I do now? Response: Based on my observation, you can now proceed to do.... This focused approach underscores the potential of VLMs in providing valuable insights and assistance across a diverse range of daily life situations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.171,
+      0.813,
+      0.333
+    ],
+    "text": "3.4 Dataset Statistics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.827,
+      0.169,
+      0.914,
+      0.828
+    ],
+    "text": "Table 1 presents the essential statistics pertaining to the generated data. Our dataset comprises over 2.8 million instruction-response pairs, wherein each pair includes at least one multi-modal in-context example and one language-only in-context example. Among these pairs, there are 2.2M unique instructions. Furthermore, to examine the characteristics and diversity of the instructions (refer to Fig. 4 (a)) and responses (refer to Fig. 4 (b)), we analyze the verb-noun structure present in them, refering to [45]. Specifically, we employ spaCy for parsing the instructions, extracting the verb closest to the root, and retrieving its first direct noun object2. We plot the top 20 most frequently occurring root verbs alongside their top 4 direct noun objects. Our findings reveal that the sentenc",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-1",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.09,
+      0.174,
+      0.397,
+      0.82
+    ],
+    "text": "Figure 5: Otter’s response examples in different scenarios. Trained on the MIMIC-IT dataset, Otter is able to serve for situation understanding and reasoning, learning with in-context examples, and egocentric visual assistant.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.561,
+      0.171,
+      0.579,
+      0.387
+    ],
+    "text": "4 Empricial Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.169,
+      0.678,
+      0.826
+    ],
+    "text": "In this section, we showcase the diverse applications of the MIMIC-IT dataset and the potential capabilities of a vision-language model (VLM) trained on it. Firstly, in Sec. 4.1, we introduce Otter, an in-context instruction-tuned model developed using the MIMIC-IT dataset. Next, in Sec. 4.2, we explore various methods for training Otter on the MIMIC-IT dataset and discuss numerous scenarios in which Otter can be effectively employed. Finally, in Sec. 4.3 to Sec. 4.5, we present a comparative analysis of Otter’s performance against other VLMs across an array of benchmarks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.691,
+      0.171,
+      0.707,
+      0.622
+    ],
+    "text": "4.1 Otter: A Multi-Modal In-context Instruction Tuned Model",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.169,
+      0.761,
+      0.826
+    ],
+    "text": "Otter is designed to support multi-modal in-context instruction tuning based on the OpenFlamingo [6] model, which involves conditioning the language model on the corresponding media, such as an image that corresponds to a caption or an instruction-response pair.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.171,
+      0.79,
+      0.473
+    ],
+    "text": "4.2 Usage Examples and Demonstrations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.169,
+      0.857,
+      0.826
+    ],
+    "text": "Scene Understanding and Reasoning. The MIMIC-IT dataset comprises approximately 2.8 million in-context instruction-response pairs, which are structured into a cohesive template to facilitate various tasks. The following template encompasses images, user instructions, and model-generated responses, utilizing the Human and Assistant role labels to enable seamless user-assistant interactions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.861,
+      0.171,
+      0.876,
+      0.766
+    ],
+    "text": "<image>Human:{instruction} Assistant:<answer>{response}<endofchunk>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-1",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_0.jpg",
+    "bbox_norm": [
+      0.126,
+      0.176,
+      0.234,
+      0.821
+    ],
+    "text": "Table 2: MMAGIBench evaluation results. Otter outperforms all baseline models by achieving the highest average accuracy in both perception and reasoning tasks.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.169,
+      0.333,
+      0.826
+    ],
+    "text": "Training the Otter model on the MIMIC-IT dataset allows it to acquire different capacities, as demonstrated by the LA and SD tasks. Trained on the LA task, the model exhibits exceptional scene comprehension, reasoning abilities, and multi-round conversation capabilities. Meanwhile, on the SD task, the model can acquire the ability to adeptly spot general differences or subtle distinctions within daily scenes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.338,
+      0.169,
+      0.369,
+      0.826
+    ],
+    "text": "We showcase response examples from the Otter after training on the MIMIC-IT dataset in Fig. 5, highlighting its ability to understand situations and reasoning in a multi-round conversation style.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.169,
+      0.43,
+      0.826
+    ],
+    "text": "Learning with In-context Examples. As mentioned in Sec. 3.1, regarding the concept of organizing visual-language in-context examples, we demonstrate here the acquired ability of the Otter model to follow inter-contextual instructions after training on the LA-T2T task (refer to Appx. for other tasks). The organized input data format is as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.169,
+      0.558,
+      0.825
+    ],
+    "text": "The Otter model’s demonstration of regulating its expressions by referencing in-context examples is illustrated in Fig. 5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.169,
+      0.633,
+      0.826
+    ],
+    "text": "Egocentric Visual Assistant. A distinctive feature of the MIMIC-IT dataset is its inclusion of a comprehensive collection of videos and sequential images in an egocentric view, derived from the IEP, E4D scenarios. In the IEP scenario, the content emphasizes understanding and planning within indoor environments, incorporating instructions and responses designed to guide the model in event planning based on interior layouts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.169,
+      0.766,
+      0.826
+    ],
+    "text": "The E4D scenario, on the other hand, tailors instructions and responses specifically for first-person augmented reality (AR) headset assistant applications. These two datasets collectively serve to bolster the model’s proficiency in perceiving scenes from a first-person viewpoint, strategizing for impending tasks, and providing valuable insights and suggestions to AR headset users. Tailored this part of data, we train an egocentric visual assistant, termed Otter-E, which is specifically designed for AR headset applications. MIMIC-IT bolsters the model’s proficiency in perceiving scenes from a first-person viewpoint, strategizing for impending tasks, and providing valuable insights and suggestions to AR headset users. As a result, the Otter-E model emerges as an exceptional and visionary Vi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.169,
+      0.813,
+      0.826
+    ],
+    "text": "In the bottom image of Fig. 5, Otter-E demonstrates its ability to perceive the first-person view and respond to users’ questions, such as guiding users to land a small aircraft (In real-life scenarios, you are not encouraged to consult visual assistants for such hazardous actions).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.829,
+      0.171,
+      0.844,
+      0.362
+    ],
+    "text": "4.3 ChatGPT Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "In Tab. 2, we utilize the MMAGIBench framework [43] to provide an extensive evaluation of the perception and reasoning capabilities of vision-language models. The perception benchmark consists of data derived from COCO images and social network images (e.g., , Twitter), covering tasks such as coarse scene and object recognition, fine-grained OCR, celebrity identification, and recognition of well-known locations. The reasoning benchmark, on the other hand, is performed across three dimensions: attribute reasoning, relation reasoning, and future prediction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.169,
+      0.462,
+      0.826
+    ],
+    "text": "Current evaluation metrics for vision-language models, like VQAv2 [4], exhibit shortcomings in terms of robustness. For instance, VQAv2 primarily assesses single-word or phrase responses, while many modern models generate sentence outputs. To bridge this gap, we evaluate the models by asking ChatGPT to compare their label predictions with the ground truth labels for each input. A test sample is considered correct if ChatGPT’s response indicates that the prediction aligns with the corresponding label. For a more in-depth understanding of MMAGIBench, we recommend referring to the original source [43]. Fig. 6 (a) demonstrates that Otter outperforms VideoChatGPT [26] by 6.8% accuracy and 1.8% on MSVD [9] 0-shot question answering and captioning benchmarks respectively. Similar substantial marg",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.171,
+      0.491,
+      0.348
+    ],
+    "text": "4.4 Human Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.169,
+      0.601,
+      0.826
+    ],
+    "text": "Multi-Modality Arena [32] uses an Elo rating system to evaluate the usefulness and alignment of VLM responses. The Elo rating system calculates the relative skill levels of players, as commonly used in chess and other competitive games. The difference in Elo ratings between the two models predicts the outcome if they were matched against each other. This system works well for evaluating conversational AI models, because multiple models can have pairwise \"battles\" responding to the same inputs in a user-blind evaluation. Fig. 6(b) shows that Otter demonstrates superior usefulness and alignment, achieving the highest Elo rating among recent VLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.613,
+      0.171,
+      0.628,
+      0.552
+    ],
+    "text": "4.5 Few-shot In-context Learning Metric Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-9",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.169,
+      0.698,
+      0.826
+    ],
+    "text": "Otter is finetuned based on OpenFlamingo, an architecture designed for multi-modal in-context learning. Finetuned with the MIMIC-IT dataset, Otter outperforms OpenFlamingo by a substantial margin on COCO caption (CIDEr) [27] few-shot evaluation (see Fig. 6(c)). As expected, the finetuning also brings marginal performance gain on zero-shot evaluation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-10",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.171,
+      0.731,
+      0.295
+    ],
+    "text": "5 Discussion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-11",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.169,
+      0.789,
+      0.826
+    ],
+    "text": "Limitations. Though we have iteratively refined the system message and instruction-response examples, ChatGPT is prone to language hallucinations therefore it might generate incorrect responses. Generally, more trustworthy language models are desired for self-instruct data generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-12",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.794,
+      0.169,
+      0.838,
+      0.828
+    ],
+    "text": "Future Works. In the future, we plan to support more embodied AI datasets such as Language-Table [29] and SayCan [1]. We also consider improving the instruction collection with more trustworthy language models or generation techniques.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-13",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.842,
+      0.169,
+      0.911,
+      0.826
+    ],
+    "text": "Conclusion. In this work, we propose MIMIC-IT, a large-scale multi-modal in-context instruction tuning dataset. We leverage an automatic pipeline, Syphus, to enable this dataset to cover a diverse set of visual scenes and creative instructions in eight languages. MIMIC-IT empowers our model, Otter, to achieve state-of-the-art performances in perception and reasoning benchmarks as well as human evaluations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.171,
+      0.107,
+      0.555
+    ],
+    "text": "Acknowledgments and Disclosure of Funding",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.169,
+      0.205,
+      0.826
+    ],
+    "text": "This study is supported by the Ministry of Education, Singapore, under its MOE AcRF Tier 2 (MOE-T2EP20221- 0012), NTU NAP, and under the RIE2020 Industry Alignment Fund – Industry Collaboration Projects (IAF-ICP) Funding Initiative, as well as cash and in-kind contribution from the industry partner(s). We thank Peiyu Fu, Xuli Chen, and Mehdi Cherti for their professional advice on the in-context example of the translation query of Japanese, French, German, Spanish, Korean, and Arabic.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.173,
+      0.241,
+      0.269
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.181,
+      0.304,
+      0.826
+    ],
+    "text": "[1] Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, et al. Do as i can, not as i say: Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691, 2022. 10 [2] Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katherine Millican, Malcolm Reynolds, et al. Flamingo: a visual language model for few-shot learning. Advances in Neural Information Processing Systems, 35:23716–23736, 2022. 3 [3] Alibaba. Tongyi qianwen. 2023. 3 [4] Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C Lawrence Zitnick, and Devi Parikh. Vqa: Visual question answering. In Proceedings of the IEEE internationa",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.173,
+      0.135,
+      0.826
+    ],
+    "text": "[14] Hyung Won Chung, Le Hou, Shayne Longpre, Barret Zoph, Yi Tay, William Fedus, Eric Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, et al. Scaling instruction-finetuned language models. arXiv preprint arXiv:2210.11416, 2022. 1 [15] Angela Dai, Angel X Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, and Matthias Nießner. Scannet: Richly-annotated 3d reconstructions of indoor scenes. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 5828–5839, 2017. 5, 7, 15 [16] Wenliang Dai, Junnan Li, Dongxu Li, Anthony Meng Huat Tiong, Junqi Zhao, Weisheng Wang, Boyang Li, Pascale Fung, and Steven C. H. Hoi. Instructblip: Towards general-purpose vision-language models with instruction tuning. CoRR, abs/2305.06500, 2023. 9 [17] Danny Driess, Fei Xia, ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.171,
+      0.135,
+      0.826
+    ],
+    "text": "[29] Corey Lynch, Ayzaan Wahid, Jonathan Tompson, Tianli Ding, James Betker, Robert Baruch, Travis Armstrong, and Pete Florence. Interactive language: Talking to robots in real time. arXiv preprint arXiv:2210.06407, 2022. 10 [30] OpenAI. Gpt-4 technical report. 2023. 1, 2, 3 [31] OpenAI. Introducing chatgpt. 2023. 1, 3 [32] OpenGVLab. Multi-modality arena. https://github.com/OpenGVLab/ Multi-Modality-Arena, 2023. 3, 10 [33] Vicente Ordonez, Girish Kulkarni, and Tamara Berg. Im2text: Describing images using 1 million captioned photographs. Advances in neural information processing systems, 24, 2011. 3 [34] Baolin Peng, Chunyuan Li, Pengcheng He, Michel Galley, and Jianfeng Gao. Instruction tuning with GPT-4. arXiv preprint arXiv:2304.03277, 2023. 1 [35] Andy Rosenbaum, Saleh Soltan, Wael Ha",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.173,
+      0.133,
+      0.825
+    ],
+    "text": "[47] Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M. Dai, and Quoc V. Le. Finetuned language models are zero-shot learners. In ICLR. OpenReview.net, 2022. 1 [48] Chenfei Wu, Shengming Yin, Weizhen Qi, Xiaodong Wang, Zecheng Tang, and Nan Duan. Visual chatgpt: Talking, drawing and editing with visual foundation models. arXiv preprint arXiv:2303.04671, 2023. 3 [49] Jun Xu, Tao Mei, Ting Yao, and Yong Rui. Msr-vtt: A large video description dataset for bridging video and language. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 5288–5296, 2016. 10 [50] Zhiyang Xu, Ying Shen, and Lifu Huang. Multiinstruct: Improving multi-modal zero-shot learning via instruction tuning. arXiv preprint arXiv:2212.10773, 2022. ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.171,
+      0.106,
+      0.488
+    ],
+    "text": "A Total Cost and ChatGPT Version",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.119,
+      0.169,
+      0.162,
+      0.826
+    ],
+    "text": "We construct MIMIC-IT using the ChatGPT-0301 version. Overall, we query 1,006,746,240 tokens (859,677,150 and 147,069,090 for input and output tokens respectively). The estimated total cost is \\$20134.9248.3",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.181,
+      0.171,
+      0.199,
+      0.473
+    ],
+    "text": "B Content Copyright and License",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.169,
+      0.228,
+      0.619
+    ],
+    "text": "The license of the datasets we used in this work is illustrated below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:table-5",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_0.jpg",
+    "bbox_norm": [
+      0.241,
+      0.189,
+      0.354,
+      0.807
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.171,
+      0.402,
+      0.637
+    ],
+    "text": "C Sythus: Automatic Instruction Generation Pipeline",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.169,
+      0.473,
+      0.826
+    ],
+    "text": "Safety and Ethical Filtering Since we use GPT to generate instructions and responses, we generally follow the GPT content policy for safe and ethical use. This policy eliminates output that is suspicious for unfair opportunities, stereotyping, overrepresentation/underrepresentation, explicit content, disinformation, or unreliable information.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.486,
+      0.169,
+      0.53,
+      0.826
+    ],
+    "text": "Multi-lingual Support We enrich the datasets by translating the English instruction-response pairs by GPT into 7 additional languages: Chinese, Japanese, Spanish, German, French, Korean, and Arabic. See the prompt for multi-lingual translation query in Fig. 7.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-9",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.547,
+      0.171,
+      0.565,
+      0.375
+    ],
+    "text": "D Annotation Prompt",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-10",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.169,
+      0.608,
+      0.826
+    ],
+    "text": "In this section, we will present prompts for querying ChatGPT of all datasets in detail. Each prompt contains system message, in-context emample.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:figure-1",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_0.jpg",
+    "bbox_norm": [
+      0.188,
+      0.171,
+      0.786,
+      0.823
+    ],
+    "text": "Figure 7: In-context examples for multi-lingual translation query.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-1",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.212,
+      0.173,
+      0.755,
+      0.821
+    ],
+    "text": "Table 3: System message and in-context exemplars for TV show Captions (TVC) query.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-1",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.137,
+      0.173,
+      0.83,
+      0.821
+    ],
+    "text": "Table 4: System message and in-context exemplars for Dense Caption (DC) query .",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:figure-1",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.098,
+      0.173,
+      0.866,
+      0.821
+    ],
+    "text": "Table 5: System message and in-context exemplars for Ego4D (E4D) query.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-1",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.14,
+      0.169,
+      0.829,
+      0.82
+    ],
+    "text": "Table 6: System message and in-context exemplars for Indoor Event Planning (IEP) query.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:figure-1",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.194,
+      0.173,
+      0.771,
+      0.823
+    ],
+    "text": "Table 7: System message and in-context exemplars for Spot The Defference (SD) query.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:figure-1",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.107,
+      0.173,
+      0.861,
+      0.821
+    ],
+    "text": "Table 8: System message and in-context exemplars for Visual Storytelling (VIST) query.",
+    "source_type": "image"
+  }
+]

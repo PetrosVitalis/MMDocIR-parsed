@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3"></td></tr><tr><td></td><td>2020</td><td></td><td>2019</td></tr><tr><td>Shipper A () $ Shipper B (2)</td><td>11,003,853 5,699,662</td><td>42 % $ 20%</td><td>13,345,576 48 % 5,578,152 20 %</td></tr></table>

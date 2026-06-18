@@ -1,0 +1,11 @@
+Error codes,Solutions
+0001: Reset eror (platform reset not de-asserted),"1. Remove all power resources (the ac poweradapter, removable battery,and coin-cell battery).If your computer has a built-in battery, reset thecomputer by inserting a straightened paper clip into the emergency-reset hole. Wait for oneminute. Then reconnect all power resources.2. Replace the system board (service provider only)."
+0002: Internal bus error,Replace the system board (service provider only).
+0281: General embedded controller error,Replace the system board (service provider only).
+0282: Memory module error,1. Reinstall or replace the memory module.2. Replace the system board (service provider only).
+0283: PCl resource error,"1. Remove PCle devices (the M.2 card, PCle card,and so on) (service provider only).2. Replace the system board (service provider only)."
+0284: TCG-compliant functionality-related error (might bethe BlOS code validation failure),Replace the system board (service provider only).
+0285: TCG-compliant functionality-related error (might bethe TPM initialization failure),Replace the system board (service provider only).
+0286: Integrated graphics error,Replace the system board (service provider only).
+0287: Discrete graphics error,1. Reinstall or replace the discrete graphics card(service provider only). 2. Replace the system board (service provider only).
+0288: Computer display error,1. Reconnect the display cable on both the systemboard side and the computer display side (serviceprovider only). 2. Replace the system board (service provider only).

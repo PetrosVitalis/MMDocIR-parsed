@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">Useful Life</td></tr><tr><td></td><td>Fair Value</td><td>(in years)</td></tr><tr><td>Developed technology</td><td>$ 102</td><td>9</td></tr><tr><td>Customer relations</td><td>2</td><td>9</td></tr><tr><td>Trade name Total intangible assets</td><td>1 $ 105</td><td>10</td></tr></table>

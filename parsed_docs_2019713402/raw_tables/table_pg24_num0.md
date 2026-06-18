@@ -1,0 +1,1 @@
+<table><tr><td>Item</td><td>Qualification</td><td>Number of points</td></tr><tr><td>6D121</td><td>The applicant has been invited to apply for a Subclass 190 (Skilled— Nominated) visa, and the nominating State or Territory government agency has not withdrawn the nomination</td><td>5</td></tr></table>

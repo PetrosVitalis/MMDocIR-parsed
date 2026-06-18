@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">For the Years Ended December 31,</td></tr><tr><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Risk-free interest rate (a)</td><td>1.4 %</td><td>2.4 %</td><td>2.3 %</td></tr><tr><td>Expected volatility</td><td>23.5% (b)</td><td>21.4 % (b)</td><td>（c) 19.6%</td></tr></table>

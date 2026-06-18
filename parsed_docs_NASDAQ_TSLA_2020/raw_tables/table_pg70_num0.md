@@ -1,0 +1,1 @@
+<table><tr><td>Solar energy systems in service</td><td> 30 to 35 years</td></tr><tr><td>Initial direct costs related to customer</td><td></td></tr><tr><td>solar energy system lease acquisition</td><td>Lease term (up to 25</td></tr><tr><td>costs</td><td>years)</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">(in millions)</td><td colspan="2">December 31,</td></tr><tr><td>2021</td><td>2020</td></tr><tr><td>Total domestic and Non-U.S.</td><td>$ 30,012</td><td>52,807</td></tr><tr><td>Time deposits $250,000 or more</td><td>5,527</td><td>9,033</td></tr></table>

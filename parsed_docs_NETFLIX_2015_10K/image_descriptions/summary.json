@@ -1,0 +1,19 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NETFLIX_2015_10K",
+  "total_images": 2,
+  "non_figure_images_skipped": 53,
+  "processed": 2,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_15_Asset_0.jpg",
+      "output": "image_descriptions/_page_15_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_21_Figure_0.jpg",
+      "output": "image_descriptions/_page_21_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

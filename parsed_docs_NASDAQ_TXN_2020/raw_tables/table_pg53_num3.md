@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Assumed health care cost trend rate for next year</td><td>6.75%</td><td>7.00%</td></tr><tr><td>Ultimate trend rate.</td><td>5.00%</td><td>5.00%</td></tr><tr><td>Yearinwhichultimate trend rate is reached</td><td>2028</td><td>2028</td></tr></table>

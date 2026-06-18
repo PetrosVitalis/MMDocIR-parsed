@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions 2020</td></tr><tr><td>2019 2018</td></tr><tr><td>U.S. $ 10,027 $ 9,464 $ 7,804</td></tr><tr><td>Non-U.S.1 4,391 1,837 3,433 Total $14,418 $11,301 $ 11,237</td></tr></table>

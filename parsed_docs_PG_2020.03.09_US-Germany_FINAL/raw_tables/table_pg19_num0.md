@@ -1,0 +1,1 @@
+<table><tr><td>Group</td><td>Unweighted sample size</td><td>Weighted %</td><td>Plus or minus ...</td></tr><tr><td>Total sample</td><td>1004</td><td>100</td><td>3.35 percentage points</td></tr><tr><td>Rep/Lean Rep</td><td>369</td><td>42</td><td>5.54 percentage points</td></tr><tr><td>Dem/Lean Dem</td><td>511</td><td>58</td><td>4.71 percentage points</td></tr></table>

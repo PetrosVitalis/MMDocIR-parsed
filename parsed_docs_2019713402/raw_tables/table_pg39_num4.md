@@ -1,0 +1,1 @@
+<table><tr><td>Certificate of qualification (for people in trade occupations)</td><td>Points per factor (Maximum 50 points)</td></tr><tr><td>With good/strong official languages proficiency and a certificate of qualification</td><td>50</td></tr></table>

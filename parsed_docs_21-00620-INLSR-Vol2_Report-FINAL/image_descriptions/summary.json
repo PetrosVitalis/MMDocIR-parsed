@@ -1,0 +1,14 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_21-00620-INLSR-Vol2_Report-FINAL",
+  "total_images": 1,
+  "non_figure_images_skipped": 3,
+  "processed": 1,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

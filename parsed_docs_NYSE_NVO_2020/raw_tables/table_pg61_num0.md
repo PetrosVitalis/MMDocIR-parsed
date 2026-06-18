@@ -1,0 +1,1 @@
+<table><tr><td>DKK million</td><td>2020</td><td>2019</td></tr><tr><td>Retirement benefit obligations</td><td>2,624</td><td>2,508</td></tr><tr><td>Fair value of plan assets</td><td>1,225</td><td>1,174</td></tr><tr><td>Net retirement benefitobligations</td><td></td><td></td></tr><tr><td>at the end of the year</td><td>1,399</td><td>1,334</td></tr></table>

@@ -1,0 +1,6 @@
+Task,# neg,# pos,ratio
+CoNLL03 NER,170K,34K,4.98
+OntoNotes5.0 NER,1.96M,239K,8.18
+SQuAD 1.1 (Rajpurkar et al., 2016),10.3M,"175K,55.9"
+SQuAD 2.0 (Rajpurkar et al., 2018),15.4M,"188K,82.0"
+QUOREF (Dasigi et al., 2019),6.52M,"38.6K,169"

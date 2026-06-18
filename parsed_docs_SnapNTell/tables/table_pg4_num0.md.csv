@@ -1,0 +1,4 @@
+Dataset,Categories,Unique Entity,QA Pairs,Images,,Average Ans Length丨Number of Images /Entity丨Anonymity,
+ViQuAE,3,"2,400","3,700",3.300,1.8,*,xx
+Encyclopedic VQA (test),12,*,"5,750","5,750",3.2,*,
+SnapNTell (Ours),22,"7,568","75,680",75.680,25.7,10,√

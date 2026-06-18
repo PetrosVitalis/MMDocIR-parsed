@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Acc.</td></tr><tr><td>CAUSALCOT</td><td>66.64</td></tr><tr><td>w/o Step ①</td><td>64.54</td></tr><tr><td>w/o Step ②</td><td>63.74</td></tr><tr><td>w/o Step ③</td><td>63.43</td></tr><tr><td>w/o Step ④</td><td>64.47</td></tr></table>

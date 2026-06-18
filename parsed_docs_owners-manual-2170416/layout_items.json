@@ -1,0 +1,7520 @@
+[
+  {
+    "layout_id": "page-0:figure-1",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.276,
+      0.2,
+      0.799,
+      0.803
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.154,
+      0.58,
+      0.476
+    ],
+    "text": "A Note to You. 2   \nRefrigerator Safety . .3   \nParts and Features 4-5   \nBefore Using Your Refrigerator ..6   \nCleaning your refrigerator . .6   \nPlugging it in 6   \nInstalling it properly 7   \nLeveling it.. 7   \nUsing Your Refrigerator .. 8   \nSetting the controls 8   \nChanging the control settings 8   \nRemoving the door trim.. .9   \nAdjusting the wine rack.. .9   \nAdjusting the door bins 10   \nAdjusting the refrigerator shelves.....10   \nAdjusting the EZ-Track\\* shel.. 11   \nRemoving the crisper and   \ncrisper cover . 12   \nAdjusting the crisper humidity   \ncontrol ... 13   \nRemoving the meat drawer   \nand cover 13   \nAdjusting the meat drawer   \ntemperature. 13   \nRemoving the snack bin . 14   \nRemoving the freezer baskets .14   \nUsing the ice cube trays. 15   \nUsing the optional autom",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.049,
+      0.171,
+      0.089,
+      0.511
+    ],
+    "text": "A Note to You",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.102,
+      0.17,
+      0.122,
+      0.638
+    ],
+    "text": "Thank you for buying a Whirlpool\\* appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.124,
+      0.17,
+      0.192,
+      0.832
+    ],
+    "text": "You have purchased a quality，world-class home appliance. Years of engineering experience went into its manufacturing.To ensure that you enjoy many years of trouble-free operation, we developed this Use and Care Guide. It is full of valuable information on how to operate and maintain your appliance properly and safely. Please read it carefully.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.205,
+      0.171,
+      0.225,
+      0.41
+    ],
+    "text": "Help when you need it.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.226,
+      0.17,
+      0.358,
+      0.839
+    ],
+    "text": "If you ever have a question concerning your appliance's operation, or if you need service, first see “Requesting Service\"on page 29.If you need further help,feel free to callan authorized Whirlpool service center. When caling, you will need to know your appliance's complete model number and serial number. You can find this information on the model and serial number label (see diagram on pages 4-5). For your convenience, we have included a handy place below for you to record these numbers,the purchase date from the sales slip,and your dealer's name and telephone number. Keep this book and the sales slip together in a safe place for future reference.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.36,
+      0.17,
+      0.379,
+      0.49
+    ],
+    "text": "Model Number",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.36,
+      0.514,
+      0.378,
+      0.832
+    ],
+    "text": "Dealer Name",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.17,
+      0.402,
+      0.488
+    ],
+    "text": "Serial Number",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.405,
+      0.17,
+      0.425,
+      0.488
+    ],
+    "text": "Purchase Date",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.514,
+      0.402,
+      0.834
+    ],
+    "text": "Dealer Phone\\_",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.154,
+      0.09,
+      0.612
+    ],
+    "text": "Refrigerator Safety",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.099,
+      0.151,
+      0.119,
+      0.472
+    ],
+    "text": "Your safety is important to us.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.12,
+      0.151,
+      0.206,
+      0.471
+    ],
+    "text": "This guide contains statements under warning symbols. Please pay special attention to these symbols and follow any instructions given. Here is a brief explanation of the use of the symbol.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.593,
+      0.136,
+      0.729
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.149,
+      0.517,
+      0.202,
+      0.805
+    ],
+    "text": "This symbol alerts you to such dangers as personal injury, burns, fire,and electrical shock",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.152,
+      0.281,
+      0.715
+    ],
+    "text": "IMPORTANT SAFETY INSTRUCTIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.173,
+      0.313,
+      0.31
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.337,
+      0.323,
+      0.781
+    ],
+    "text": "To reduce the risk of fire, electrical shock, or injury when using your refrigerator, follow these basic precautions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.337,
+      0.172,
+      0.37,
+      0.453
+    ],
+    "text": "· Read all instructions before using the refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.375,
+      0.172,
+      0.409,
+      0.451
+    ],
+    "text": "· Never allow children to operate, play with,or crawl inside the refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.41,
+      0.17,
+      0.462,
+      0.471
+    ],
+    "text": "· Never clean refrigerator parts with flammable fluids.The fumes can create a fire hazard or explosion.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.336,
+      0.565,
+      0.352,
+      0.747
+    ],
+    "text": "·FOR YOUR SAFETY·",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.498,
+      0.456,
+      0.81
+    ],
+    "text": "DO NOT STORE OR USE GASOLINE OR OTHER FLAMMABLE VAPORS AND LIQUIDS IN THE VICINITY OF THIS OR ANY OTHER APPLIANCE.THE FUMES CAN CREATE A FIRE HAZARD OR EXPLOSION.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.466,
+      0.336,
+      0.488,
+      0.646
+    ],
+    "text": "- SAVE THESE INSTRUCTIONS -",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.518,
+      0.152,
+      0.538,
+      0.327
+    ],
+    "text": "Help us help you",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-16",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.54,
+      0.152,
+      0.557,
+      0.212
+    ],
+    "text": "Please:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-17",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.558,
+      0.151,
+      0.61,
+      0.463
+    ],
+    "text": "· Install and level the refrigerator on a floor that will hold the weight and in an area suitable for its size and use.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-18",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.149,
+      0.646,
+      0.432
+    ],
+    "text": "· Do not install the refrigerator near an oven,radiator,or other heat source.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-19",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.647,
+      0.149,
+      0.698,
+      0.471
+    ],
+    "text": "· Do not use the refrigerator in an area where the room temperature will fall below 13℃ (55°F).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-20",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.699,
+      0.149,
+      0.718,
+      0.453
+    ],
+    "text": "· Keep the refrigerator out of the weather.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-21",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.149,
+      0.788,
+      0.469
+    ],
+    "text": "· Connect the refrigerator only to the proper kind of outlet, with the correct electrical supply and grounding. (Refer to p. 6, “Piugging it in.\")",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-22",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.558,
+      0.496,
+      0.594,
+      0.784
+    ],
+    "text": "· Do not load the refrigerator with food before it has time to get properly cold.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-23",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.594,
+      0.498,
+      0.629,
+      0.781
+    ],
+    "text": "· Use the refrigerator only for the uses described in this manual.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-24",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.498,
+      0.649,
+      0.757
+    ],
+    "text": "· Properly maintain the refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-25",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.65,
+      0.496,
+      0.686,
+      0.786
+    ],
+    "text": "· Be sure the refrigerator is not used by anyone unable to operate it properly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.053,
+      0.174,
+      0.091,
+      0.622
+    ],
+    "text": "Parts and Features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.17,
+      0.143,
+      0.82
+    ],
+    "text": "Below are illustrations of your appliance with the parts and features called out. Your model may have all of some of the features shown and it may not be exactly as illstrated.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.171,
+      0.183,
+      0.25
+    ],
+    "text": "Style 1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-4",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.2,
+      0.168,
+      0.713,
+      0.85
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:figure-1",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.154,
+      0.148,
+      0.635,
+      0.811
+    ],
+    "text": "Style 2",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.705,
+      0.176,
+      0.746,
+      0.79
+    ],
+    "text": "Please read this Use and Care Guide before you do anything else.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.746,
+      0.177,
+      0.834,
+      0.455
+    ],
+    "text": "This booklet tells you how to start your refrigerator, clean it,move shelves, and adjust controls. It even tells you what new sounds to expect from your refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.745,
+      0.491,
+      0.799,
+      0.782
+    ],
+    "text": "Treat your new refrigerator with care. Use it only to do what home refrigerators are designed to do.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.176,
+      0.137,
+      0.612
+    ],
+    "text": "Before Using Your Refrigerator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.147,
+      0.173,
+      0.183,
+      0.796
+    ],
+    "text": "It is important to prepare your refrigerator for use.This section tells you how to clean it, connect it to a power source, install it, and level it.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.174,
+      0.275,
+      0.568
+    ],
+    "text": "Cleaning your refrigerator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.174,
+      0.297,
+      0.496
+    ],
+    "text": "Removing packaging materials",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.173,
+      0.355,
+      0.488
+    ],
+    "text": "Remove tape and any inside labels (except the model and serial number label) before using the refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.174,
+      0.378,
+      0.418
+    ],
+    "text": "To remove any remaining glue:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.379,
+      0.174,
+      0.414,
+      0.461
+    ],
+    "text": "· Rub briskly with thumb to make a ball, then remove.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.174,
+      0.432,
+      0.205
+    ],
+    "text": "OR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.435,
+      0.173,
+      0.554,
+      0.475
+    ],
+    "text": "· Soak area with liquid hand-dishwashing detergent before removing glue as described above. Do not use sharp instruments,rubbing alcohol, flammable fluids or abrasive cleaners.These can damage the material. See \"Important Safety Instructions\"on page 3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.565,
+      0.174,
+      0.594,
+      0.379
+    ],
+    "text": "Plugging it in",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.173,
+      0.616,
+      0.443
+    ],
+    "text": "Recommended Grounding Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.171,
+      0.769,
+      0.498
+    ],
+    "text": "A 115 Volt/60 Hz (Plug 1),220/240 Volt/50 Hz (Plug 2or 3) or 220 Volt/60 Hz (Plug 3) AC only 15 or 20 ampere fused and properly grounded electrical supply is required. It is recommended that a separate circuit serving only this appliance be provided. Use a receptacle which cannot be turned off with a switch or pull chain. Do not use an extension cord.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.519,
+      0.371,
+      0.841
+    ],
+    "text": "NOTE: Do not remove any permanent instruction labels inside your refrigerator. Do not remove the Tech Sheet fastened under the refrigerator at the front.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-14",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.383,
+      0.52,
+      0.404,
+      0.753
+    ],
+    "text": "Cleaning it before use",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-15",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.406,
+      0.519,
+      0.491,
+      0.75
+    ],
+    "text": "After removing all packaging materials,clean your refrigerator before using it, if necessary. See cleaning instructions on pages 21-22.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-16",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.408,
+      0.756,
+      0.484,
+      0.841
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:figure-17",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_1.jpg",
+    "bbox_norm": [
+      0.636,
+      0.522,
+      0.716,
+      0.58
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:figure-18",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_2.jpg",
+    "bbox_norm": [
+      0.598,
+      0.592,
+      0.72,
+      0.658
+    ],
+    "text": "Plug 1",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:figure-19",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_3.jpg",
+    "bbox_norm": [
+      0.621,
+      0.692,
+      0.7,
+      0.809
+    ],
+    "text": "Plug 2",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:figure-20",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_4.jpg",
+    "bbox_norm": [
+      0.803,
+      0.61,
+      0.873,
+      0.73
+    ],
+    "text": "Plug 3",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.11,
+      0.147,
+      0.138,
+      0.455
+    ],
+    "text": "Installing it properly",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.141,
+      0.147,
+      0.19,
+      0.456
+    ],
+    "text": "1.Allow 1.25 cm (/ inch) space on each side and at the top of the refrigerator for ease of installation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.193,
+      0.145,
+      0.258,
+      0.467
+    ],
+    "text": "2. If the hinge side of the refrigerator is to be against a wall, you might want to leave extra space so the door can be opened wider.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.26,
+      0.145,
+      0.293,
+      0.456
+    ],
+    "text": "3.The refrigerator can be flush against the back wall.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.145,
+      0.347,
+      0.463
+    ],
+    "text": "4.Make sure the ice maker water supply has been connected. Refer to Installation Instructions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.379,
+      0.147,
+      0.406,
+      0.307
+    ],
+    "text": "Leveling it",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.412,
+      0.145,
+      0.477,
+      0.463
+    ],
+    "text": "Your refrigerator has 2 front leveling screws - one on the right and one on the left. To adjust one or both of these, follow the directions below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.147,
+      0.497,
+      0.424
+    ],
+    "text": "1. Remove base grille. (See page 16.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.499,
+      0.145,
+      0.516,
+      0.426
+    ],
+    "text": "2. To raise front, turn screw clockwise.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.145,
+      0.55,
+      0.451
+    ],
+    "text": "3. To lower front, turn screw counterclockwise.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.145,
+      0.57,
+      0.291
+    ],
+    "text": "4. Check with level.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.573,
+      0.145,
+      0.592,
+      0.423
+    ],
+    "text": "5. Replace base grille. (See page 16.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-13",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.137,
+      0.495,
+      0.369,
+      0.714
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:figure-14",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_1.jpg",
+    "bbox_norm": [
+      0.412,
+      0.49,
+      0.609,
+      0.812
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.174,
+      0.089,
+      0.741
+    ],
+    "text": "Using Your Refrigerator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.097,
+      0.171,
+      0.15,
+      0.834
+    ],
+    "text": "To obtain the best possible results from your refrigerator, it is important that you operate it properly.This section tells you how to set the temperature control,remove,and adjust some of the features in your refrigerator,and how to save energy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:figure-3",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.155,
+      0.277,
+      0.241,
+      0.735
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.271,
+      0.173,
+      0.298,
+      0.479
+    ],
+    "text": "Setting the controls",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.304,
+      0.173,
+      0.354,
+      0.486
+    ],
+    "text": "Controls for the refrigerator and freezer are in the refrigerator. When you plug in the refrigerator for the first time:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.173,
+      0.408,
+      0.479
+    ],
+    "text": "1. Set the Refrigerator Control to 3. Refrigerator Control adjustments range from 1 (warmest) to 5 (coldest).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.408,
+      0.173,
+      0.459,
+      0.486
+    ],
+    "text": "2. Set the Freezer Control to B. Freezer Control adjustments range from A (warmest) to C (coldest).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.173,
+      0.512,
+      0.495
+    ],
+    "text": "3. Give the refrigerator time to cool down completely before adding food. (This may take several hours.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.518,
+      0.42,
+      0.842
+    ],
+    "text": "The settings indicated above should be correct for normal, household refrigerator usage.The controls will be set correctly when milk or juice is as cold as you like and when ice cream is firm. If you need to adjust these settings, see “Changing the control settings\"below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.426,
+      0.518,
+      0.512,
+      0.845
+    ],
+    "text": "NOTE:The Automatic Exterior Moisture control continuously guards against moisture buildup on the outside of your refrigerator cabinet. This control does not have to be set or adjusted.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.173,
+      0.556,
+      0.626
+    ],
+    "text": "Changing the control settings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-12",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.558,
+      0.171,
+      0.61,
+      0.495
+    ],
+    "text": "If you need to adjust temperatures in the refrigerator or freezer, use the settings listed in the chart below as a guide.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-13",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.558,
+      0.52,
+      0.577,
+      0.789
+    ],
+    "text": "·Adjust the Refrigerator Control first.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-14",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.52,
+      0.596,
+      0.842
+    ],
+    "text": "· Wait at least 24 hours between adjustments.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-15",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.52,
+      0.616,
+      0.839
+    ],
+    "text": "·Then adjust the Freezer Control if needed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-16",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_0.jpg",
+    "bbox_norm": [
+      0.617,
+      0.174,
+      0.955,
+      0.842
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.117,
+      0.154,
+      0.143,
+      0.509
+    ],
+    "text": "Removing the door trim",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.149,
+      0.154,
+      0.169,
+      0.284
+    ],
+    "text": "Drop-in trim",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.172,
+      0.154,
+      0.191,
+      0.353
+    ],
+    "text": "To remove the trim piece:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.193,
+      0.154,
+      0.21,
+      0.404
+    ],
+    "text": "1. Remove all items from the shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.211,
+      0.152,
+      0.244,
+      0.46
+    ],
+    "text": "2. Pull straight up on the trim piece at each end.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.152,
+      0.286,
+      0.35
+    ],
+    "text": "To replace the trim piece:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.152,
+      0.321,
+      0.457
+    ],
+    "text": "1. Locate each end of the trim piece above the trim pocket opening.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.321,
+      0.152,
+      0.355,
+      0.457
+    ],
+    "text": "2. Push the trim piece straight down until it stops.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-9",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_0.jpg",
+    "bbox_norm": [
+      0.174,
+      0.492,
+      0.263,
+      0.709
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-10",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.152,
+      0.375,
+      0.367
+    ],
+    "text": "3.Replace items on the shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-11",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_1.jpg",
+    "bbox_norm": [
+      0.269,
+      0.492,
+      0.359,
+      0.71
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-12",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.152,
+      0.4,
+      0.301
+    ],
+    "text": "Snap-on trivet",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-13",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.403,
+      0.15,
+      0.42,
+      0.314
+    ],
+    "text": "To remove the trivet:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-14",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.15,
+      0.44,
+      0.402
+    ],
+    "text": "1. Remove allitems from the shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-15",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.15,
+      0.459,
+      0.44
+    ],
+    "text": "2. Pull out on the inside tab at each end.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-16",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.459,
+      0.15,
+      0.478,
+      0.322
+    ],
+    "text": "3. Lift trivet straight out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-17",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_2.jpg",
+    "bbox_norm": [
+      0.404,
+      0.492,
+      0.53,
+      0.666
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-18",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.533,
+      0.15,
+      0.55,
+      0.312
+    ],
+    "text": "To replace the trivet:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-19",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.552,
+      0.15,
+      0.586,
+      0.455
+    ],
+    "text": "1. Line up ends of the trivet with the button on the door liner wall.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-20",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.588,
+      0.149,
+      0.622,
+      0.437
+    ],
+    "text": "2. Push trivet straight back until it snaps securely into place.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-21",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.623,
+      0.149,
+      0.641,
+      0.364
+    ],
+    "text": "3.Replace items on the shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-22",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_3.jpg",
+    "bbox_norm": [
+      0.535,
+      0.488,
+      0.679,
+      0.663
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-23",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.693,
+      0.149,
+      0.723,
+      0.687
+    ],
+    "text": "Adjusting the wine rack (on some models)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-24",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.724,
+      0.149,
+      0.743,
+      0.344
+    ],
+    "text": "To remove the wine rack:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-25",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.149,
+      0.761,
+      0.325
+    ],
+    "text": "1. Lift front of wine rack.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-26",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.147,
+      0.781,
+      0.35
+    ],
+    "text": "2. Pull rack off rear-support.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-27",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.146,
+      0.801,
+      0.35
+    ],
+    "text": "3. Replace in reverse order.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-28",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_4.jpg",
+    "bbox_norm": [
+      0.726,
+      0.487,
+      0.85,
+      0.682
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.174,
+      0.141,
+      0.712
+    ],
+    "text": "Adjusting the door bins (on some models)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.174,
+      0.162,
+      0.343
+    ],
+    "text": "To remove door bins:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.165,
+      0.176,
+      0.18,
+      0.273
+    ],
+    "text": "1. Lift bin up.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.183,
+      0.174,
+      0.2,
+      0.34
+    ],
+    "text": "2. Pull bin straight out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.207,
+      0.176,
+      0.225,
+      0.343
+    ],
+    "text": "To replace door bins:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.226,
+      0.176,
+      0.245,
+      0.492
+    ],
+    "text": "1. Slide bin in above desired support button.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.176,
+      0.264,
+      0.372
+    ],
+    "text": "2.Push down until it stops.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-8",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_0.jpg",
+    "bbox_norm": [
+      0.142,
+      0.518,
+      0.272,
+      0.836
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-9",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.176,
+      0.307,
+      0.682
+    ],
+    "text": "Adjusting the refrigerator shelves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-10",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.174,
+      0.377,
+      0.496
+    ],
+    "text": "Adjust the shelves to match the way you use your refrigerator. Glass shelves are strong enough to hold botles,milk,and other heavy food items.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.384,
+      0.176,
+      0.4,
+      0.322
+    ],
+    "text": "To remove a shelf:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-12",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.403,
+      0.176,
+      0.42,
+      0.381
+    ],
+    "text": "1.Remove items from shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-13",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.176,
+      0.44,
+      0.341
+    ],
+    "text": "2. Tilt shelf up at front.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-14",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.176,
+      0.458,
+      0.321
+    ],
+    "text": "3. Lift shelf at back.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-15",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.176,
+      0.478,
+      0.352
+    ],
+    "text": "4. Pull shelf straight out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-16",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_1.jpg",
+    "bbox_norm": [
+      0.394,
+      0.521,
+      0.534,
+      0.75
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-17",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.559,
+      0.176,
+      0.576,
+      0.322
+    ],
+    "text": "To replace a shelf:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-18",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.521,
+      0.397,
+      0.613
+    ],
+    "text": "Wire shelves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-19",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.578,
+      0.178,
+      0.628,
+      0.483
+    ],
+    "text": "1. Guide the rear shelf hooks into the slots in the shelf supports on the back liner wall.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-20",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.178,
+      0.663,
+      0.484
+    ],
+    "text": "2.Tilt front of shelf up until hooks drop into slots.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-21",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.666,
+      0.178,
+      0.685,
+      0.468
+    ],
+    "text": "3.Lower front of shelf to a level position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-22",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.178,
+      0.726,
+      0.472
+    ],
+    "text": "NOTE: Glass shelves are heavy. Handle them carefully.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-23",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.732,
+      0.178,
+      0.75,
+      0.451
+    ],
+    "text": "To slide shelf out (on some models):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-24",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.178,
+      0.77,
+      0.465
+    ],
+    "text": "· Carefully pull front of shelf toward you.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-25",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.178,
+      0.794,
+      0.44
+    ],
+    "text": "To slide shelf in (on some models):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-26",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.796,
+      0.178,
+      0.814,
+      0.379
+    ],
+    "text": "· Push shelf in until it stops.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-27",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_2.jpg",
+    "bbox_norm": [
+      0.558,
+      0.521,
+      0.682,
+      0.764
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:figure-28",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_3.jpg",
+    "bbox_norm": [
+      0.73,
+      0.521,
+      0.887,
+      0.801
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.144,
+      0.137,
+      0.768
+    ],
+    "text": "Adjusting the EZ-Track\\* shelf (on some models)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.144,
+      0.159,
+      0.356
+    ],
+    "text": "To slide shelf side-to-side:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.16,
+      0.144,
+      0.179,
+      0.349
+    ],
+    "text": "1.Lift slightly on shelf front.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.181,
+      0.144,
+      0.198,
+      0.348
+    ],
+    "text": "2. Slide to desired location.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.199,
+      0.144,
+      0.218,
+      0.41
+    ],
+    "text": "3.Lower shelf front to level position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.144,
+      0.277,
+      0.47
+    ],
+    "text": "NOTE: You do not have to remove small items from the shelf before moving it side-to-side. You may need to remove larger items.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.146,
+      0.341,
+      0.311
+    ],
+    "text": "To remove the shelf:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.343,
+      0.146,
+      0.362,
+      0.404
+    ],
+    "text": "1.Remove all items from the shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.363,
+      0.146,
+      0.38,
+      0.409
+    ],
+    "text": "2. Hold back of shelf with one hand.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-10",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.146,
+      0.4,
+      0.383
+    ],
+    "text": "3.Lift front of shelf to $4 5 ^ { \\circ }$ angle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-11",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.146,
+      0.454,
+      0.459
+    ],
+    "text": "4.Lower shelf slightly to release shelf from upper channel track.Then pull shelf straight out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-12",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.459,
+      0.146,
+      0.495,
+      0.454
+    ],
+    "text": "NOTE: Shelf is heavy. Make sure you use both hands when removing shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-13",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.147,
+      0.518,
+      0.325
+    ],
+    "text": "To remove shelf track:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-14",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.521,
+      0.147,
+      0.538,
+      0.386
+    ],
+    "text": "1. Lift both sides of track slightly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-15",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.54,
+      0.146,
+      0.558,
+      0.329
+    ],
+    "text": "2. Pull track straight out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-16",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.721,
+      0.147,
+      0.738,
+      0.325
+    ],
+    "text": "To replace shelf track:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-17",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.739,
+      0.147,
+      0.827,
+      0.471
+    ],
+    "text": "1. Guide track hooks into the shelf support slots on the back wall of the cabinet. NOTE: Make sure both track hooks are in slots and that the slots are parallel to each other.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-18",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.829,
+      0.147,
+      0.844,
+      0.402
+    ],
+    "text": "2.Push track backward and down.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-19",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.847,
+      0.147,
+      0.882,
+      0.459
+    ],
+    "text": "3. Check that track is completely seated in the shelf supports.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-20",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.136,
+      0.494,
+      0.297,
+      0.797
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:figure-21",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_1.jpg",
+    "bbox_norm": [
+      0.32,
+      0.495,
+      0.459,
+      0.796
+    ],
+    "text": "Hold with both hands and lift front to 45°angle.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:figure-22",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_2.jpg",
+    "bbox_norm": [
+      0.498,
+      0.497,
+      0.669,
+      0.794
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:figure-23",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_3.jpg",
+    "bbox_norm": [
+      0.716,
+      0.494,
+      0.908,
+      0.797
+    ],
+    "text": "Make sure both sets of hooks are in support slots.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.181,
+      0.122,
+      0.318
+    ],
+    "text": "To reinstall shelf:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.125,
+      0.181,
+      0.142,
+      0.401
+    ],
+    "text": "1. Hold shelf at front and back.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.181,
+      0.175,
+      0.462
+    ],
+    "text": "2. Tilt front of shelf up to a 45° angle to track.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.18,
+      0.212,
+      0.47
+    ],
+    "text": "3. Insert both rear shelf slides into upper channel of track.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-5",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.215,
+      0.181,
+      0.232,
+      0.47
+    ],
+    "text": "4. Lower front of shelf to a level position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-6",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.181,
+      0.288,
+      0.489
+    ],
+    "text": "NOTE:Make sure both rear shelf slides are securely in the track before letting go of shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-7",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.557,
+      0.22,
+      0.716
+    ],
+    "text": "Upper channel of track.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-8",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.518,
+      0.265,
+      0.705
+    ],
+    "text": "Insert rear shelf slides into upper channel of track. —",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-9",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.181,
+      0.33,
+      0.761
+    ],
+    "text": "Removing the crisper and crisper cover",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-10",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.334,
+      0.181,
+      0.351,
+      0.357
+    ],
+    "text": "To remove the crisper:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-11",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.354,
+      0.181,
+      0.371,
+      0.482
+    ],
+    "text": "1. Slide the crisper straight out to the stop.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-12",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.18,
+      0.389,
+      0.346
+    ],
+    "text": "2. Lift the front slightly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-13",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.392,
+      0.181,
+      0.409,
+      0.404
+    ],
+    "text": "3. Slide out the rest of the way.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-14",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.41,
+      0.181,
+      0.428,
+      0.384
+    ],
+    "text": "4. Replace in reverse order.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-15",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.336,
+      0.526,
+      0.514,
+      0.727
+    ],
+    "text": "Pull out to the stop, lift the front, and pull again.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-16",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.509,
+      0.181,
+      0.528,
+      0.257
+    ],
+    "text": "Style 1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-17",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.531,
+      0.181,
+      0.548,
+      0.347
+    ],
+    "text": "To remove the cover:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-18",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.551,
+      0.181,
+      0.583,
+      0.489
+    ],
+    "text": "1. Hold cover firmly with both hands and lift front of cover off supports.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-19",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.586,
+      0.18,
+      0.604,
+      0.449
+    ],
+    "text": "2. Lift cover out by pulling up and out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-20",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.61,
+      0.181,
+      0.627,
+      0.346
+    ],
+    "text": "To replace the cover:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-21",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.181,
+      0.662,
+      0.481
+    ],
+    "text": "1. Fit back of cover into notch supports on walls of refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-22",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.663,
+      0.181,
+      0.682,
+      0.36
+    ],
+    "text": "2. Lower front into place.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-23",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.725,
+      0.181,
+      0.744,
+      0.258
+    ],
+    "text": "Style 2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-24",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.748,
+      0.181,
+      0.763,
+      0.346
+    ],
+    "text": "To remove the cover:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-25",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.181,
+      0.8,
+      0.467
+    ],
+    "text": "1.Push up glass insert from the bottom, then slide out with both hands.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-26",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.801,
+      0.18,
+      0.819,
+      0.371
+    ],
+    "text": "2. Lift front of cover frame.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-27",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.821,
+      0.18,
+      0.838,
+      0.396
+    ],
+    "text": "3. Lift cover frame up and out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-28",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.845,
+      0.181,
+      0.862,
+      0.344
+    ],
+    "text": "To replace the cover:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-29",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.864,
+      0.181,
+      0.914,
+      0.484
+    ],
+    "text": "1. Fit back of cover frame into notch supports on walls of refrigerator, then lower front into place.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-30",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.915,
+      0.18,
+      0.949,
+      0.49
+    ],
+    "text": "2. Slide back of glass insert into place, then . lower front into place.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-31",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.945,
+      0.183,
+      0.959,
+      0.202
+    ],
+    "text": "12",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-32",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_1.jpg",
+    "bbox_norm": [
+      0.534,
+      0.525,
+      0.708,
+      0.724
+    ],
+    "text": "Lift the cover front, then the back.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:figure-33",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_2.jpg",
+    "bbox_norm": [
+      0.749,
+      0.521,
+      0.901,
+      0.752
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.146,
+      0.14,
+      0.719
+    ],
+    "text": "Adjusting the crisper humidity control",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.146,
+      0.163,
+      0.331
+    ],
+    "text": "(on some models)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.166,
+      0.146,
+      0.231,
+      0.447
+    ],
+    "text": "You can control the amount of humidity in the moisture-sealed crispers.Adjust the control to any setting between LOW and HIGH.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.146,
+      0.284,
+      0.468
+    ],
+    "text": "· LOW (open) lets moist air out of the crisper for best storage of fruits and vegetables with skins.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.285,
+      0.146,
+      0.337,
+      0.426
+    ],
+    "text": "· HIGH (closed) keeps moist air in the crisper for best storage of fresh, leafy vegetables.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-6",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.166,
+      0.488,
+      0.273,
+      0.742
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.389,
+      0.144,
+      0.416,
+      0.706
+    ],
+    "text": "Removing the meat drawer and cover",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.422,
+      0.144,
+      0.439,
+      0.365
+    ],
+    "text": "To remove the meat drawer:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-9",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.44,
+      0.144,
+      0.475,
+      0.426
+    ],
+    "text": "1. Slide the meat drawer straight out to the stop.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.144,
+      0.495,
+      0.311
+    ],
+    "text": "2. Lift the front slightly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-11",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.144,
+      0.513,
+      0.371
+    ],
+    "text": "3. Slide out the rest of the way.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.514,
+      0.144,
+      0.533,
+      0.349
+    ],
+    "text": "4. Replace in reverse order.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-13",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.539,
+      0.146,
+      0.556,
+      0.312
+    ],
+    "text": "To remove the cover:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-14",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.559,
+      0.144,
+      0.577,
+      0.409
+    ],
+    "text": "1. Remove meat drawer and crisper.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-15",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.144,
+      0.596,
+      0.382
+    ],
+    "text": "2. Lift front of cover off supports.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-16",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.144,
+      0.615,
+      0.415
+    ],
+    "text": "3. Lift cover out by pulling up and out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-17",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.621,
+      0.146,
+      0.64,
+      0.312
+    ],
+    "text": "To replace the cover:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-18",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.641,
+      0.144,
+      0.675,
+      0.447
+    ],
+    "text": "1. Fit back of cover into notch supports on walls of refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-19",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.675,
+      0.144,
+      0.694,
+      0.326
+    ],
+    "text": "2. Lower front into place.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-20",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.144,
+      0.714,
+      0.409
+    ],
+    "text": "3. Replace meat drawer and crisper.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-21",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.487,
+      0.458,
+      0.676
+    ],
+    "text": "Pull out to the stop, lift the front, and pull again.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-22",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_1.jpg",
+    "bbox_norm": [
+      0.467,
+      0.53,
+      0.654,
+      0.752
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-23",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.144,
+      0.763,
+      0.738
+    ],
+    "text": "Adjusting the meat drawer temperature",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-24",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.768,
+      0.144,
+      0.833,
+      0.46
+    ],
+    "text": "Cold air from the freezer flows into the meat drawer. This helps keep the meat drawer colder than the rest of the refrigerator for better storage of meats.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-25",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.144,
+      0.867,
+      0.442
+    ],
+    "text": "Slide the control from side to side to let more or less cold air through.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-26",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.487,
+      0.817,
+      0.625
+    ],
+    "text": "Use control to adjust meat drawer temperature.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-27",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_2.jpg",
+    "bbox_norm": [
+      0.778,
+      0.607,
+      0.96,
+      0.782
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.115,
+      0.174,
+      0.142,
+      0.719
+    ],
+    "text": "Removing the snack bin (on some models)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.148,
+      0.174,
+      0.165,
+      0.374
+    ],
+    "text": "To remove the snack bin:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.166,
+      0.174,
+      0.201,
+      0.469
+    ],
+    "text": "1. Slide snack bin straight out to the stop with an even, constant motion.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.176,
+      0.219,
+      0.29
+    ],
+    "text": "2. Lift the front.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.176,
+      0.239,
+      0.426
+    ],
+    "text": "3. Slide bin out the rest of the way.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.176,
+      0.259,
+      0.38
+    ],
+    "text": "4.Replace in reverse order.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-7",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.148,
+      0.52,
+      0.285,
+      0.738
+    ],
+    "text": "Pull out to the stop, lift the front, and pull again.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.176,
+      0.375,
+      0.804
+    ],
+    "text": "Removing the freezer baskets (on some models)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-9",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.379,
+      0.176,
+      0.398,
+      0.338
+    ],
+    "text": "To remove a basket:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-10",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.399,
+      0.176,
+      0.416,
+      0.4
+    ],
+    "text": "1. Slide basket out to the stop.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-11",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.419,
+      0.176,
+      0.436,
+      0.407
+    ],
+    "text": "2. Lift the front to clear the stop.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-12",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.437,
+      0.176,
+      0.456,
+      0.453
+    ],
+    "text": "3. Slide basket out the rest of the way.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-13",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.463,
+      0.176,
+      0.479,
+      0.336
+    ],
+    "text": "To replace a basket:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-14",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.177,
+      0.499,
+      0.392
+    ],
+    "text": "1. Place basket on the slides.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-15",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.177,
+      0.534,
+      0.48
+    ],
+    "text": "2.Make sure the wire stops clear the front of the slides.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-16",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.536,
+      0.177,
+      0.554,
+      0.39
+    ],
+    "text": "3. Slide basket in all the way.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-17",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.615,
+      0.409,
+      0.803
+    ],
+    "text": "Pull out to the stop, lift the front, and pull again.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-18",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_1.jpg",
+    "bbox_norm": [
+      0.396,
+      0.523,
+      0.57,
+      0.688
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-19",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.603,
+      0.179,
+      0.629,
+      0.582
+    ],
+    "text": "Removing the freezer shelf",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-20",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.634,
+      0.177,
+      0.651,
+      0.339
+    ],
+    "text": "To remove the shelf:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-21",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.654,
+      0.177,
+      0.671,
+      0.441
+    ],
+    "text": "1. Lift right side of shelf off supports.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-22",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.673,
+      0.177,
+      0.69,
+      0.463
+    ],
+    "text": "2. Slide shelf out of shelf support holes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-23",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.693,
+      0.177,
+      0.71,
+      0.382
+    ],
+    "text": "3.Replace in reverse order.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-24",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_2.jpg",
+    "bbox_norm": [
+      0.633,
+      0.542,
+      0.758,
+      0.788
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.145,
+      0.139,
+      0.695
+    ],
+    "text": "Using the ice cube trays (on some models)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.144,
+      0.209,
+      0.459
+    ],
+    "text": "If cubes are not used, they may shrink.The moving cold air starts a slow evaporation. The longer you store cubes, the smaller they get.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.216,
+      0.145,
+      0.232,
+      0.264
+    ],
+    "text": "To remove ice:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.235,
+      0.145,
+      0.252,
+      0.331
+    ],
+    "text": "1. Hold tray at both ends.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-5",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.145,
+      0.272,
+      0.264
+    ],
+    "text": "2. Twist slightly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:figure-6",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_0.jpg",
+    "bbox_norm": [
+      0.142,
+      0.493,
+      0.268,
+      0.697
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:text-7",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.145,
+      0.315,
+      0.743
+    ],
+    "text": "Using the optional automatic ice maker",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-8",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.318,
+      0.145,
+      0.387,
+      0.467
+    ],
+    "text": "If your refrigerator has an automatic ice maker,or if you plan to add one later (contact the dealer for ice maker kit number),here are a few things you should know.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-9",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.145,
+      0.404,
+      0.442
+    ],
+    "text": "· The ON/OFF lever is a wire signal arm.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-10",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.407,
+      0.169,
+      0.423,
+      0.413
+    ],
+    "text": "DOWN to make ice automatically",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-11",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.169,
+      0.44,
+      0.378
+    ],
+    "text": "UP to shut off the ice maker",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-12",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.155,
+      0.477,
+      0.45
+    ],
+    "text": "IMPORTANT: Do not turn ice maker on until you connect it to the water supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-13",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.145,
+      0.562,
+      0.456
+    ],
+    "text": "· If you remove the ice bin, raise the signal arm to shut off the ice maker. When you replace the bin,push it in all the way and lower the ice maker signal arm to the ON position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-14",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.145,
+      0.73,
+      0.459
+    ],
+    "text": "· Good water quality is important for good ice quality. Try to avoid connecting the ice maker to a softened water supply.Water softener chemicals (such as salt from a malfunctioning softener) can damage the ice maker mold and lead to poor ice quality. If you cannot avoid a softened water supply, make sure the water softener is operating properly and is well maintained.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:figure-15",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_1.jpg",
+    "bbox_norm": [
+      0.387,
+      0.493,
+      0.591,
+      0.782
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.113,
+      0.181,
+      0.141,
+      0.556
+    ],
+    "text": "Removing the base grille",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.18,
+      0.164,
+      0.345
+    ],
+    "text": "To remove the grille:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.165,
+      0.181,
+      0.182,
+      0.331
+    ],
+    "text": "1. Open both doors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.184,
+      0.181,
+      0.218,
+      0.472
+    ],
+    "text": "2. Pull base grille forward to release the support tabs from the metal clips.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.22,
+      0.181,
+      0.254,
+      0.475
+    ],
+    "text": "3.Do not remove Tech Sheet fastened behind the grille.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.261,
+      0.181,
+      0.279,
+      0.344
+    ],
+    "text": "To replace the grille:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-7",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.28,
+      0.181,
+      0.315,
+      0.467
+    ],
+    "text": "1. Line up grille support tabs with metal clips.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-8",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.316,
+      0.181,
+      0.335,
+      0.421
+    ],
+    "text": "2. Push firmly to snap into place.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-9",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.336,
+      0.181,
+      0.353,
+      0.323
+    ],
+    "text": "3. Close the doors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-10",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.18,
+      0.397,
+      0.506
+    ],
+    "text": "See cleaning instructions for defrost pan and condenser coils on page 22.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-11",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.142,
+      0.528,
+      0.351,
+      0.853
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-12",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.41,
+      0.181,
+      0.461,
+      0.85
+    ],
+    "text": "Using the THIRSTCRUSHER\\* dispensing system (on some models)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-13",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.48,
+      0.181,
+      0.5,
+      0.366
+    ],
+    "text": "The ice dispenser",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-14",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.18,
+      0.667,
+      0.503
+    ],
+    "text": "Ice dispenses from the ice maker storage bin in the freezer. When the dispenser bar is pressed,a trapdoor opens in a chute between the dispenser and the ice bin. Ice moves from the bin and falls through the chute.When the dispenser bar is released, a buzzing sound may be heard for a few seconds as the trapdoor closes. The dispenser system will not operate when the freezer door is open.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-15",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.667,
+      0.18,
+      0.751,
+      0.504
+    ],
+    "text": "For crushed ice,cubes are crushed before being dispensed.This may cause a slight delay when dispensing crushed ice. Noise from the ice crusher is normal,and pieces of ice may vary in size.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-16",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.749,
+      0.18,
+      0.801,
+      0.504
+    ],
+    "text": "When changing from CRUSHED to CUBE, a few ounces of crushed ice will be dispensed along with the first cubes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-17",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.807,
+      0.181,
+      0.825,
+      0.313
+    ],
+    "text": "To dispense ice:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-18",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.827,
+      0.181,
+      0.86,
+      0.501
+    ],
+    "text": "1. For cubed ice, move Ice Selector Switch to CUBE position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-19",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.199,
+      0.897,
+      0.509
+    ],
+    "text": "For crushed ice (on some models), move Ice Selector Switch to CRUSHED position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-20",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.486,
+      0.62,
+      0.509,
+      0.76
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-21",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.599,
+      0.538,
+      0.781
+    ],
+    "text": "Personal Injury Hazard",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-22",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.539,
+      0.546,
+      0.592,
+      0.827
+    ],
+    "text": "Tumbling ice and pressure on a fragile glass can break it. Use a sturdy glass when dispensing ice or water.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-23",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.546,
+      0.63,
+      0.836
+    ],
+    "text": "Failure to do so could result in personal injury or breakage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-24",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_1.jpg",
+    "bbox_norm": [
+      0.805,
+      0.562,
+      0.882,
+      0.824
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.106,
+      0.142,
+      0.173,
+      0.439
+    ],
+    "text": "2.Press a sturdy glass against the ice dispenser bar. Hold glass close to dispenser opening so ice does not fall outside of glass.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.144,
+      0.193,
+      0.435
+    ],
+    "text": "3. Remove the glass to stop dispensing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.2,
+      0.142,
+      0.285,
+      0.467
+    ],
+    "text": "NOTE: The first few batches of ice may have an off-flavor from new plumbing and parts. Throw the ice away. Aiso, large amounts of ice should be taken from the ice bin, not through the dispenser.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-4",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.106,
+      0.493,
+      0.287,
+      0.682
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-5",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.297,
+      0.144,
+      0.316,
+      0.357
+    ],
+    "text": "The water dispenser",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-6",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.144,
+      0.368,
+      0.459
+    ],
+    "text": "Chilled water comes from a tank behind the meat drawer. It holds approximately 1.5 L (11/2 quarts).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-7",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.144,
+      0.451,
+      0.472
+    ],
+    "text": "When you first hook up the refrigerator, press the water dispenser bar with a glass or jar until you have drawn and discarded 1.9 to 2.8 L (2 or 3 quarts). The water you draw and discard wil rinse the tank and pipes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-8",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.451,
+      0.158,
+      0.467,
+      0.456
+    ],
+    "text": "Allow several hours to chill a new tankful.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-9",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.475,
+      0.144,
+      0.542,
+      0.455
+    ],
+    "text": "NOTE: The small tray beneath the dispenser is designed to evaporate small spills.There is no drain in this tray. Do not pour water into it.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-10",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.145,
+      0.567,
+      0.296
+    ],
+    "text": "To dispense water:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-11",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.145,
+      0.601,
+      0.448
+    ],
+    "text": "1. Press a sturdy glass against the water dispenser bar.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-12",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.145,
+      0.623,
+      0.435
+    ],
+    "text": "2. Remove the glass to stop dispensing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-13",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.144,
+      0.664,
+      0.459
+    ],
+    "text": "NOTE: Dispense enough water every week to maintain a fresh supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-14",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_1.jpg",
+    "bbox_norm": [
+      0.55,
+      0.509,
+      0.734,
+      0.682
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-15",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.769,
+      0.144,
+      0.789,
+      0.347
+    ],
+    "text": "The dispenser light",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-16",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.79,
+      0.144,
+      0.858,
+      0.448
+    ],
+    "text": "To turn on night light, slide dispenser LIGHT switch to the left. See page 20 for directions for changing the dispenser light bulb.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-17",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_2.jpg",
+    "bbox_norm": [
+      0.789,
+      0.572,
+      0.881,
+      0.657
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-18",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_3.jpg",
+    "bbox_norm": [
+      0.67,
+      0.82,
+      0.997,
+      0.879
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:table-1",
+    "page_id": 18,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_18_Table_0.jpg",
+    "bbox_norm": [
+      0.171,
+      0.181,
+      0.75,
+      0.846
+    ],
+    "text": "Solving common ice maker/dispenser problems",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.113,
+      0.153,
+      0.143,
+      0.518
+    ],
+    "text": "Changing the light bulbs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.16,
+      0.242,
+      0.183,
+      0.38
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.225,
+      0.21,
+      0.41
+    ],
+    "text": "Electrical Shock Hazard",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.17,
+      0.28,
+      0.451
+    ],
+    "text": "Before removing a light bulb, either unplug the refrigerator or disconnect the electricity leading to the refrigerator at the main power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.28,
+      0.17,
+      0.317,
+      0.454
+    ],
+    "text": "Failure to do so could result in electrical shock or personal injury.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-6",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.337,
+      0.153,
+      0.356,
+      0.369
+    ],
+    "text": "To change refrigerator light:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-7",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.152,
+      0.376,
+      0.473
+    ],
+    "text": "1. Disconnect refrigerator from power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-8",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.152,
+      0.41,
+      0.44
+    ],
+    "text": "2.Reach behind the Control Console to remove bulb.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-9",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.152,
+      0.429,
+      0.479
+    ],
+    "text": "3. Replace bulb with a 40-watt appliance bulb.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-10",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.152,
+      0.449,
+      0.452
+    ],
+    "text": "4.Reconnect refrigerator to power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-11",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.49,
+      0.152,
+      0.508,
+      0.474
+    ],
+    "text": "To change crisper light (on some models):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-12",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.152,
+      0.528,
+      0.473
+    ],
+    "text": "1. Disconnect refrigerator from power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-13",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.528,
+      0.15,
+      0.56,
+      0.432
+    ],
+    "text": "2.Pull top of light shield forward until it snaps free.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-14",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.15,
+      0.581,
+      0.474
+    ],
+    "text": "3. Lower light shield to clear bottom supports.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-15",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.581,
+      0.15,
+      0.599,
+      0.443
+    ],
+    "text": "4. Pull light shield straight out to remove.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-16",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.601,
+      0.15,
+      0.619,
+      0.479
+    ],
+    "text": "5. Replace bulb with a 40-watt appliance bulb.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-17",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.152,
+      0.637,
+      0.432
+    ],
+    "text": "6. Replace light shield in reverse order.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-18",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.639,
+      0.15,
+      0.657,
+      0.451
+    ],
+    "text": "7. Reconnect refrigerator to power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-19",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.152,
+      0.71,
+      0.382
+    ],
+    "text": "To change light below ice bin:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-20",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.712,
+      0.15,
+      0.73,
+      0.471
+    ],
+    "text": "1. Disconnect refrigerator from power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-21",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.73,
+      0.15,
+      0.762,
+      0.46
+    ],
+    "text": "2. Push in sides of light shield until it snaps free.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-22",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.765,
+      0.15,
+      0.785,
+      0.478
+    ],
+    "text": "3. Replace bulb with a 40-watt appliance bulb.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-23",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.15,
+      0.801,
+      0.316
+    ],
+    "text": "4. Replace light shield.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-24",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.803,
+      0.15,
+      0.823,
+      0.451
+    ],
+    "text": "5. Reconnect refrigerator to power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-25",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.339,
+      0.495,
+      0.48,
+      0.78
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-26",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_1.jpg",
+    "bbox_norm": [
+      0.49,
+      0.496,
+      0.65,
+      0.777
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-27",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_2.jpg",
+    "bbox_norm": [
+      0.695,
+      0.492,
+      0.806,
+      0.755
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.173,
+      0.143,
+      0.442
+    ],
+    "text": "To change dispenser area light (on some models):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.174,
+      0.163,
+      0.496
+    ],
+    "text": "1. Disconnect refrigerator from power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.165,
+      0.174,
+      0.197,
+      0.431
+    ],
+    "text": "2.Reach through.dispenser area to remove bulb.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.199,
+      0.174,
+      0.25,
+      0.48
+    ],
+    "text": "3. Replace with a heavy-duty 10-watt bulb, which can be purchased from your Whirlpool dealer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.174,
+      0.27,
+      0.477
+    ],
+    "text": "4. Reconnect refrigerator to power supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-6",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.275,
+      0.174,
+      0.327,
+      0.477
+    ],
+    "text": "NOTE: Not all appliance bulbs will fit your refrigerator. Be sure to replace a bulb with one of the same size and shape.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-7",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.517,
+      0.294,
+      0.682
+    ],
+    "text": "Dispenser area light",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.176,
+      0.375,
+      0.779
+    ],
+    "text": "Understanding the sounds you may hear",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.379,
+      0.174,
+      0.479,
+      0.509
+    ],
+    "text": "Your new refrigerator may make sounds that your old one didn't. Because the sounds are new to you,youmightbe concerned about them.Don't be.Most of the new sounds are normal. Hard surfaces like the floor,walls,and cabinets can make the sounds seem louder.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.477,
+      0.174,
+      0.529,
+      0.504
+    ],
+    "text": "The following describes the kinds of sounds that might be new to you, and what may be making them.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-11",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.541,
+      0.176,
+      0.561,
+      0.393
+    ],
+    "text": "Slight hum, soft hiss",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-12",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.176,
+      0.598,
+      0.504
+    ],
+    "text": "You may hear the refrigerator's fan motor and moving air.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-13",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.613,
+      0.176,
+      0.633,
+      0.471
+    ],
+    "text": "Clicking or snapping sounds",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-14",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.634,
+      0.176,
+      0.701,
+      0.511
+    ],
+    "text": "The thermostat makes a definite click when the refrigerator stops running. It also makes a sound when the refrigerator starts. The defrost timer will click when the defrost cycle starts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-15",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.716,
+      0.179,
+      0.743,
+      0.393
+    ],
+    "text": "Saving energy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-16",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.745,
+      0.176,
+      0.779,
+      0.457
+    ],
+    "text": "You can help your refrigerator use less electricity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-17",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.78,
+      0.177,
+      0.815,
+      0.487
+    ],
+    "text": "· Check door gaskets for a tight seal. Level the cabinet to be sure of a good seal.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-18",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.817,
+      0.177,
+      0.834,
+      0.446
+    ],
+    "text": "·Clean the condenser coils regularly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-19",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.836,
+      0.177,
+      0.935,
+      0.48
+    ],
+    "text": "· Open the door as few times as possible. Think about what you need before you open the door. Get everything out at one time.Keep food organized so you won't have to search for what you want. Close door as soon as food is removed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-20",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.379,
+      0.53,
+      0.398,
+      0.674
+    ],
+    "text": "Water sounds",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-21",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.53,
+      0.485,
+      0.839
+    ],
+    "text": "When the refrigerator stops running,you may hear gurgling in the tubing for a few minutes after it stops.You may also hear defrost water running into the defrost water pan.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-22",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.49,
+      0.53,
+      0.509,
+      0.715
+    ],
+    "text": "Ice maker sounds",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-23",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.512,
+      0.531,
+      0.529,
+      0.647
+    ],
+    "text": "· trickling water",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-24",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.531,
+      0.547,
+      0.68
+    ],
+    "text": "· thud (clatter of ice)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-25",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.53,
+      0.603,
+      0.838
+    ],
+    "text": "You may hear buzzing (from the water valve), trickling water,and the clatter of ice dumped into the bin.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-26",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.615,
+      0.531,
+      0.635,
+      0.7
+    ],
+    "text": "Running sounds",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-27",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.637,
+      0.53,
+      0.705,
+      0.822
+    ],
+    "text": "Your refrigerator has a high-efficiency compressor and motor. It will run longer than older designs. It may even seem to run most of the time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-28",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.745,
+      0.531,
+      0.795,
+      0.833
+    ],
+    "text": "· Go ahead and fill up the refrigerator, but don't overcrowd it so air movement is blocked.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-29",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.798,
+      0.531,
+      0.88,
+      0.842
+    ],
+    "text": "· It is a waste of electricity to set the refrigeratorand freezer to temperatures colder than they need to be. If ice cream is firm in the freezer and drinks are as cold as your family likes them, that's cold enough.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-30",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.883,
+      0.531,
+      0.95,
+      0.838
+    ],
+    "text": "· Make sure your refrigerator is not next to a heat source such as a range,water heater,furnace,radiator,or in direct sunlight.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.053,
+      0.156,
+      0.097,
+      0.787
+    ],
+    "text": "Caring for Your Refrigerator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.152,
+      0.161,
+      0.805
+    ],
+    "text": "Your refrigerator is built to give you many years of dependable service. However, there are a few things you can do to help extend its product life. This section tells you how to clean your refrigerator and what to do when going on holiday,moving, or during a power outage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.198,
+      0.154,
+      0.226,
+      0.544
+    ],
+    "text": "Cleaning your refrigerator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.229,
+      0.154,
+      0.326,
+      0.38
+    ],
+    "text": "Both the refrigeratorand freezer sections defrost automatically. However, clean both about once a month to prevent odors from building up.Wipe up spills right away.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-5",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.326,
+      0.154,
+      0.391,
+      0.46
+    ],
+    "text": "To clean your refrigerator, unplug it, take out all removable parts,and clean the refrigerator according to the following directions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-6",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.23,
+      0.386,
+      0.305,
+      0.471
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-7",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.585,
+      0.257,
+      0.72
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-8",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.264,
+      0.57,
+      0.282,
+      0.747
+    ],
+    "text": "Personal Injury Hazard",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-9",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.285,
+      0.512,
+      0.376,
+      0.798
+    ],
+    "text": "Refrigeration system tubes are near the defrost pan and can become hot. Remove and install defrost pan carefully. Failure to do so could result in personal injury.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:table-10",
+    "page_id": 21,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_21_Table_0.jpg",
+    "bbox_norm": [
+      0.408,
+      0.156,
+      0.772,
+      0.812
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-21:text-11",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.78,
+      0.632,
+      0.799,
+      0.813
+    ],
+    "text": "continued on next page",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:table-1",
+    "page_id": 22,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_22_Table_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.179,
+      0.636,
+      0.838
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.663,
+      0.179,
+      0.691,
+      0.549
+    ],
+    "text": "Holiday and moving care",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.698,
+      0.179,
+      0.718,
+      0.331
+    ],
+    "text": "Short holidays",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.72,
+      0.177,
+      0.754,
+      0.496
+    ],
+    "text": "No need to shut off the refrigerator if you wil be away for less than four weeks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.755,
+      0.179,
+      0.774,
+      0.374
+    ],
+    "text": "1. Use up any perishables.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-6",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.177,
+      0.792,
+      0.339
+    ],
+    "text": "2. Freeze other items.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-7",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.794,
+      0.179,
+      0.828,
+      0.446
+    ],
+    "text": "3.Raise ice maker signal arm to OFF (up) position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-8",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.829,
+      0.179,
+      0.846,
+      0.445
+    ],
+    "text": "4. Shut off water supply to ice maker.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-9",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.848,
+      0.179,
+      0.866,
+      0.329
+    ],
+    "text": "5. Empty the ice bin.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.149,
+      0.124,
+      0.298
+    ],
+    "text": "Long holidays",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.126,
+      0.149,
+      0.144,
+      0.412
+    ],
+    "text": "If you will be gone a month or more:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-3",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.144,
+      0.149,
+      0.163,
+      0.443
+    ],
+    "text": "1. Remove all food from the refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.149,
+      0.199,
+      0.471
+    ],
+    "text": "2. Turn off the water supply to the ice maker at least one day ahead of time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.2,
+      0.149,
+      0.266,
+      0.454
+    ],
+    "text": "3.When the last load of ice drops, turn off the ice maker. Make sure all ice is dispensed out of the ice maker mechanism.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-6",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.269,
+      0.15,
+      0.287,
+      0.341
+    ],
+    "text": "4. Unplug the refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-7",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.149,
+      0.306,
+      0.372
+    ],
+    "text": "5. Clean it, rinse well,and dry.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-8",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.308,
+      0.149,
+      0.376,
+      0.471
+    ],
+    "text": "6.Tape rubber or wood blocks to the tops of both doors to prop them open far enough for air to get in. This stops odor and mold from building up.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-9",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.391,
+      0.242,
+      0.414,
+      0.38
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-10",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.422,
+      0.221,
+      0.441,
+      0.404
+    ],
+    "text": "Personal Injury Hazard",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-11",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.168,
+      0.494,
+      0.444
+    ],
+    "text": "Do not allow children to climb on,play near,or climb inside the refrigerator when the doors are blocked open.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-12",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.168,
+      0.515,
+      0.443
+    ],
+    "text": "They may become injured or trapped.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-13",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.149,
+      0.568,
+      0.433
+    ],
+    "text": "To restart refrigerator, see “Using Your Refrigerator' on page 8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-14",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.152,
+      0.613,
+      0.455
+    ],
+    "text": "Power interruptions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-15",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.149,
+      0.651,
+      0.449
+    ],
+    "text": "If electricity goes off, call the power company. Ask how long power will be off.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-16",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.15,
+      0.703,
+      0.457
+    ],
+    "text": "1. If service will be interrupted 24 hours or less,keep both doors closed. This helps foods stay frozen.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-17",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.704,
+      0.149,
+      0.739,
+      0.459
+    ],
+    "text": "2. If service will be interrupted longer than 24 hours:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-18",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.739,
+      0.168,
+      0.775,
+      0.467
+    ],
+    "text": "(a) Remove all frozen food and store in a frozen food locker.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-19",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.168,
+      0.792,
+      0.2
+    ],
+    "text": "OR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-20",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.17,
+      0.895,
+      0.465
+    ],
+    "text": "(b) Place 32 grams of dry ice in freezer for every liter (2 Ibs. for every cubic foot) of freezer space.This will keep food frozen for 2 to 4 days.Wear gloves to protect your hands from dry ice burns.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-21",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.103,
+      0.495,
+      0.124,
+      0.579
+    ],
+    "text": "Moving",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-22",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.124,
+      0.495,
+      0.159,
+      0.8
+    ],
+    "text": "When you are moving the refrigerator to a new home:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-23",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.16,
+      0.507,
+      0.196,
+      0.8
+    ],
+    "text": "1.Turn off the water supply to the ice maker at least one day ahead of time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-24",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.507,
+      0.214,
+      0.715
+    ],
+    "text": "2. Disconnect the water line.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-25",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.216,
+      0.507,
+      0.25,
+      0.797
+    ],
+    "text": "3. After the last load of ice drops,lift the signal arm to the OFF (up) position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-26",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.507,
+      0.269,
+      0.797
+    ],
+    "text": "4.Remove all food from the refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-27",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.27,
+      0.507,
+      0.287,
+      0.746
+    ],
+    "text": "5. Pack all frozen food in dry ice.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-28",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.29,
+      0.507,
+      0.309,
+      0.696
+    ],
+    "text": "6. Unplug the refrigerator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-29",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.309,
+      0.507,
+      0.328,
+      0.81
+    ],
+    "text": "7. Clean it thoroughly. Rinse well and dry.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-30",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.329,
+      0.507,
+      0.379,
+      0.818
+    ],
+    "text": "8.Take out ali removable parts,wrap them well,and tape them together so they don't shift and rattle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-31",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.507,
+      0.399,
+      0.731
+    ],
+    "text": "9. Screw in the leveling rollers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-32",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.5,
+      0.435,
+      0.818
+    ],
+    "text": "10. Tape the doors shut and tape the power supply cord to the cabinet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-33",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.495,
+      0.507,
+      0.781
+    ],
+    "text": "When you get to your new home,put everything back and refer to page 6. Also,remember to reconnect the water supply line.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-34",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.516,
+      0.634,
+      0.547
+    ],
+    "text": "OR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-35",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.636,
+      0.516,
+      0.687,
+      0.791
+    ],
+    "text": "(c) If neither a food locker or dry ice is available,use or can perishable food at once.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-36",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.689,
+      0.495,
+      0.825,
+      0.82
+    ],
+    "text": "3.A full freezer stays cold longer than a partly filled one.A freezer full of meat stays cold longer than a freezer full of baked goods. If food contains ice crystals, it may be safely refrozen,although the quality and flavor may be affected. If the condition of the food is poor, or if you feel it is unsafe,dispose of it.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.054,
+      0.175,
+      0.098,
+      0.649
+    ],
+    "text": "Food Storage Guide",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-2",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.106,
+      0.173,
+      0.145,
+      0.781
+    ],
+    "text": "There is a correct way to package and store refrigerated or frozen food. To keep food fresher, longer,take the time to study these recommended steps.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-3",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.182,
+      0.173,
+      0.209,
+      0.453
+    ],
+    "text": "Storing fresh food",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.214,
+      0.173,
+      0.315,
+      0.474
+    ],
+    "text": "Wrap or store food in the refrigerator in air-tight and moisture-proof material. This prevents food odor and taste transfer throughout the refrigerator. For dated products,check code date to ensure freshness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-5",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.175,
+      0.348,
+      0.353
+    ],
+    "text": "Leafy vegetables",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-6",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.349,
+      0.175,
+      0.418,
+      0.487
+    ],
+    "text": "Remove store wrapping and trim or tear off bruised and discolored areas.Wash in cold water and drain. Place in plastic bag or plastic container and store in crisper.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-7",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.431,
+      0.176,
+      0.469,
+      0.407
+    ],
+    "text": "Vegetables with skins (carrots, peppers)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-8",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.469,
+      0.176,
+      0.503,
+      0.457
+    ],
+    "text": "Store in crisper,plastic bags,or plastic container.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-9",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.176,
+      0.536,
+      0.232
+    ],
+    "text": "Fruit",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-10",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.539,
+      0.176,
+      0.64,
+      0.49
+    ],
+    "text": "Wash, let dry,and store in refrigerator in plastic bags or crisper. Do not wash or hull berries until they are ready to use. Sort and keep berries in their original container in a crisper,or store ina loosely closed paper bag on a refrigerator shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-11",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.178,
+      0.672,
+      0.234
+    ],
+    "text": "Eggs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-12",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.672,
+      0.176,
+      0.708,
+      0.488
+    ],
+    "text": "Store without washing in the original carton on interior shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-13",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.721,
+      0.178,
+      0.741,
+      0.229
+    ],
+    "text": "Milk",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-14",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.742,
+      0.176,
+      0.778,
+      0.482
+    ],
+    "text": "Wipe milk cartons.For best storage, place milk on interior shelf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-15",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.792,
+      0.178,
+      0.812,
+      0.385
+    ],
+    "text": "Butter or margarine",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-16",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.176,
+      0.88,
+      0.463
+    ],
+    "text": "Keep opened butter in covered dish or closed compartment.When storing an extra supply,wrap in freezer packaging and freeze.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-17",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.214,
+      0.519,
+      0.233,
+      0.598
+    ],
+    "text": "Cheese",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-18",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.517,
+      0.287,
+      0.834
+    ],
+    "text": "Store in the original wrapping until you are ready to use it. Once opened,rewrap tightly in plastic wrap or aluminum foil.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-19",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.519,
+      0.318,
+      0.622
+    ],
+    "text": "Leftovers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-20",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.32,
+      0.519,
+      0.372,
+      0.842
+    ],
+    "text": "Cover leftovers with plastic wrap or aluminum foil. Plastic containers with tight lids can also be used.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-21",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.52,
+      0.405,
+      0.578
+    ],
+    "text": "Meat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-22",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.405,
+      0.519,
+      0.475,
+      0.842
+    ],
+    "text": "Store most meat in original wrapping as long as it is airtight and moisture-proof. Rewrap if necessary. See the following chart for storage times.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:table-23",
+    "page_id": 24,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_24_Table_0.jpg",
+    "bbox_norm": [
+      0.476,
+      0.523,
+      0.671,
+      0.84
+    ],
+    "text": "† When storing meat longer than the times given,follow the directions for freezing. NOTE:Use fresh fish and shellfish the same day as purchased.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.108,
+      0.15,
+      0.137,
+      0.449
+    ],
+    "text": "Storing frozen food",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-2",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.149,
+      0.19,
+      0.471
+    ],
+    "text": "The freezer section is designed for storage of commercially frozen food and for freezing food at home.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-3",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.191,
+      0.149,
+      0.244,
+      0.471
+    ],
+    "text": "NOTE:For further information about preparing food for freezing or food storage times, check a freezer guide or reliable cookbook.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-4",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.257,
+      0.152,
+      0.277,
+      0.264
+    ],
+    "text": "Packaging",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-5",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.15,
+      0.393,
+      0.47
+    ],
+    "text": "The secret of successful freezing is in the packaging. The way you close and seal the package must not allow air or moisture in or out. Packaging done in any other way could cause food odor and taste transfer throughout the refrigerator and drying of frozen food.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-6",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.152,
+      0.419,
+      0.415
+    ],
+    "text": "Packaging recommended for use:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-7",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.421,
+      0.15,
+      0.439,
+      0.473
+    ],
+    "text": "· Rigid plastic containers with tight-fitting lids",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-8",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.15,
+      0.459,
+      0.422
+    ],
+    "text": "· Straight-sided canning/freezing jars",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-9",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.15,
+      0.478,
+      0.351
+    ],
+    "text": "· Heavy-duty aluminum foil",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-10",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.152,
+      0.497,
+      0.317
+    ],
+    "text": "·Plastic-coated paper",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-11",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.498,
+      0.152,
+      0.532,
+      0.465
+    ],
+    "text": "· Non-permeable plastic wraps (made from a saran film)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-12",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.537,
+      0.152,
+      0.571,
+      0.468
+    ],
+    "text": "Follow package or container instructions for proper freezing methods.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-13",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.152,
+      0.594,
+      0.247
+    ],
+    "text": "Do not use:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-14",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.15,
+      0.614,
+      0.284
+    ],
+    "text": "· Bread wrappers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-15",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.616,
+      0.15,
+      0.633,
+      0.422
+    ],
+    "text": "· Non-polyethylene plastic containers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-16",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.636,
+      0.15,
+      0.653,
+      0.365
+    ],
+    "text": "· Containers without tight lids",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-17",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.654,
+      0.15,
+      0.671,
+      0.247
+    ],
+    "text": "·Wax paper",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-18",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.15,
+      0.691,
+      0.349
+    ],
+    "text": "· Wax-coated freezer wrap",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-19",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.693,
+      0.15,
+      0.712,
+      0.364
+    ],
+    "text": "· Thin, semi-permeable wrap",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-20",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.15,
+      0.765,
+      0.444
+    ],
+    "text": "The use of these wrappings could cause food odor,taste transfer,and drying of frozen food.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-21",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.499,
+      0.16,
+      0.592
+    ],
+    "text": "Freezing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-22",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.497,
+      0.31,
+      0.818
+    ],
+    "text": "Do not expect your freezer to quick-freeze any large quantity of food. Put no more unfrozen food into the freezer than will freeze within 24 hours (no more than 32 to 48 grams of food per liter [2 to 3 Ibs. per cubic foot] of freezer space). Leave enough space for air to circulate around packages. Be careful to leave enough room at the front so the door can close tightly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-23",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.309,
+      0.497,
+      0.393,
+      0.818
+    ],
+    "text": "Storage times will vary according to the quality of the food, the type of packaging or wrap used (airtight and moisture-proof),and the storage temperature,which should be -17.8C (0°F).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-1",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.172,
+      0.092,
+      0.661
+    ],
+    "text": "Removing the Doors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-2",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.17,
+      0.171,
+      0.803
+    ],
+    "text": "Please read these helpful hints before you start",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-3",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.176,
+      0.172,
+      0.243,
+      0.487
+    ],
+    "text": "·Before you start, either unplug the refrigerator or disconnect the electricity leading to it at the main power supply and remove any food from door shelves.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-4",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.245,
+      0.172,
+      0.279,
+      0.492
+    ],
+    "text": "·When removing hinges, keep doors closed until ready to lift free from cabinet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-5",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.281,
+      0.172,
+      0.315,
+      0.466
+    ],
+    "text": "·To remove doors, start at the top hinge and work down.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-6",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.316,
+      0.174,
+      0.35,
+      0.49
+    ],
+    "text": "· To replace doors, start at the bottom hinge and work up.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-7",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.352,
+      0.174,
+      0.403,
+      0.479
+    ],
+    "text": "· Line up doors so they are centered between the sides of the cabinet and are parallel with each other.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-8",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.405,
+      0.174,
+      0.455,
+      0.474
+    ],
+    "text": "·If refrigerator light does not go out when door is closed, the door may be too low. Use a thicker spacer if necessary.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:figure-9",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_0.jpg",
+    "bbox_norm": [
+      0.174,
+      0.517,
+      0.402,
+      0.819
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:text-10",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.456,
+      0.174,
+      0.507,
+      0.472
+    ],
+    "text": "· Door seal may be adjusted by removing the top hinge and adding or removing shims to the bottom hinge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-11",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.507,
+      0.174,
+      0.559,
+      0.471
+    ],
+    "text": "· Set the door gap at 17.5 mm (1/16 inch).   \nThe diameter of a dime is about right. See figure.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-12",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.174,
+      0.594,
+      0.477
+    ],
+    "text": "·The refrigerator must be level and sitting on a solid floor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:figure-13",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_1.jpg",
+    "bbox_norm": [
+      0.607,
+      0.215,
+      0.74,
+      0.277
+    ],
+    "text": "8 mm (5/16\") hex-head hinge screw",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:figure-14",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_2.jpg",
+    "bbox_norm": [
+      0.643,
+      0.34,
+      0.738,
+      0.389
+    ],
+    "text": "Countersink handle screw",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:figure-15",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_3.jpg",
+    "bbox_norm": [
+      0.641,
+      0.474,
+      0.74,
+      0.53
+    ],
+    "text": "Oval sealing screw (use on bottoms of doors)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:figure-16",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_4.jpg",
+    "bbox_norm": [
+      0.643,
+      0.615,
+      0.737,
+      0.677
+    ],
+    "text": "Handle screw",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:figure-17",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_5.jpg",
+    "bbox_norm": [
+      0.641,
+      0.739,
+      0.737,
+      0.801
+    ],
+    "text": "Oval sealing screw (use on tops of doors)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:text-1",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.155,
+      0.186,
+      0.797
+    ],
+    "text": "Removing the doors without damaging. water line and electrical wiring in the door hinges",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-2",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.193,
+      0.155,
+      0.227,
+      0.357
+    ],
+    "text": "Things you need to know:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-3",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.155,
+      0.262,
+      0.361
+    ],
+    "text": "Two persons are needed to remove and replace the doors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-4",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.155,
+      0.293,
+      0.361
+    ],
+    "text": "Read all directions carefully before you begin.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-5",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.297,
+      0.155,
+      0.312,
+      0.248
+    ],
+    "text": "Tools required:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-6",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.312,
+      0.155,
+      0.352,
+      0.361
+    ],
+    "text": "·Open-end or hex-head socket wrenches (6.5 cm [/4\"] and8 mm [5/16\"])",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-7",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.355,
+      0.157,
+      0.395,
+      0.337
+    ],
+    "text": "·2 adjustable wrenches (or 13 mm [12\"]and 11 mm [/16\"] open-end wrenches)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-8",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.157,
+      0.409,
+      0.284
+    ],
+    "text": "· Phillips screwdriver",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-9",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.157,
+      0.426,
+      0.202
+    ],
+    "text": "· Knife",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-10",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.435,
+      0.155,
+      0.477,
+      0.362
+    ],
+    "text": "Remove all door shelves and compartments before removing the doors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-11",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.492,
+      0.157,
+      0.626,
+      0.364
+    ],
+    "text": "1.Open the doors and remove the base grille at the bottom of the refrigerator. Disconnectthe union in the water line hose by removing the nut atthe left.Pulithe tube out of the clamp.Remove the rubber“O\"rings and nut from the freezer door water line and remove the protective spring. (See figure 1.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:figure-12",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_0.jpg",
+    "bbox_norm": [
+      0.631,
+      0.162,
+      0.825,
+      0.365
+    ],
+    "text": "WATER TUBING BEHIND BASE GRILLE",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:figure-13",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_1.jpg",
+    "bbox_norm": [
+      0.191,
+      0.386,
+      0.391,
+      0.592
+    ],
+    "text": "2.Remove the screw that holds the upper freezer hinge cover. Disconnect the electrical plug.(See figure 2.) FREEZER DOOR TOP HINGE",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:text-14",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.386,
+      0.477,
+      0.595
+    ],
+    "text": "3.Remove the three screws that hold the top hinge.Open the freezerdoorand lift itup off lower hinge.Be careful not to damage the water line.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-15",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.478,
+      0.388,
+      0.518,
+      0.595
+    ],
+    "text": "4.Carefully set the freezer door to one side.Be careful not to kink the water line hose.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-16",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.386,
+      0.626,
+      0.597
+    ],
+    "text": "5．Now，remove the refrigerator door.Pryoff the hinge cover,starting at the back of it. Hold the door while youremove the three screws that hold the top hinge and shim. Save the nylon spacer. Lift the door up off the bottom hinge and carefully set it aside.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-17",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.386,
+      0.684,
+      0.595
+    ],
+    "text": "NOTE:On some models,the top hinge is permanently attached to the inside of the door and must not be removed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-18",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.691,
+      0.388,
+      0.706,
+      0.529
+    ],
+    "text": "To reinstall the doors:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-19",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.707,
+      0.388,
+      0.799,
+      0.597
+    ],
+    "text": "1.With the freezer door held upright next to its hinge,feed the water line carefully through the hinge hole.Lower the door onto the bottom hinge while pulling the remaining water line through the bottom. Close the door.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-20",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.8,
+      0.388,
+      0.866,
+      0.597
+    ],
+    "text": "2．While the freezer door is still held in place,reinsertthe three screws to reattach the top hinge to the cabinet. Reconnect the electrical wires at the top.(See figure 3.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-21",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.868,
+      0.388,
+      0.922,
+      0.595
+    ],
+    "text": "3.Reconnect the water line.Replace the protective spring,nut, and \"O\"rings.Tighten the union. (Must be water tight.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-22",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.189,
+      0.619,
+      0.257,
+      0.828
+    ],
+    "text": "4．Reattach the refrigerator door.Lift refrigerator door onto bottom hinge pin.While holding the door in the closed position，reinstall the top hinge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:figure-23",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_2.jpg",
+    "bbox_norm": [
+      0.265,
+      0.621,
+      0.464,
+      0.823
+    ],
+    "text": "FREEZER DOOR ELECTRICAL PLUG",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:text-24",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.494,
+      0.619,
+      0.56,
+      0.828
+    ],
+    "text": "5．Align the doors and adjust the door seal. Loosen the top hinge screws and line up the doors so theyare parallel with the sides of the cabinet and with each other.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-25",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.561,
+      0.619,
+      0.627,
+      0.828
+    ],
+    "text": "To adjust the door seal, move the top hinges slightly and add shims to the bottom hinge as required.Make sure the water line and electrical wire are not interfered with.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-26",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.621,
+      0.681,
+      0.828
+    ],
+    "text": "6．Check the alignment by plugging in therefrigerator to make sure the lights go out as the doors close.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-27",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.683,
+      0.619,
+      0.763,
+      0.828
+    ],
+    "text": "When the doors are aligned properly,retighten all hinge screws securely and replace the hinge covers. (Replace the screw on the freezer hinge cover.） Reattach the door shelves and compartments.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-28",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.619,
+      0.833,
+      0.828
+    ],
+    "text": "Do not replace the base grille until the water line is hooked up.Check the union for leakage when water is flushed through the cold water tank. Tighten the connection if needed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-1",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.047,
+      0.17,
+      0.091,
+      0.561
+    ],
+    "text": "Troubleshooting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-2",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.1,
+      0.168,
+      0.153,
+      0.829
+    ],
+    "text": "Listed in this chart are the most common problems consumers run into with their appliances. Please read through this and see if it can solve your problem.It could save you the cost of a service call.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:table-3",
+    "page_id": 28,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_28_Table_0.jpg",
+    "bbox_norm": [
+      0.164,
+      0.173,
+      0.72,
+      0.839
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-29:text-1",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.05,
+      0.158,
+      0.096,
+      0.614
+    ],
+    "text": "Requesting Service",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-2",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.103,
+      0.158,
+      0.157,
+      0.467
+    ],
+    "text": "1. If the problem is not due to one of the items listed in Troubleshooting...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-3",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.157,
+      0.155,
+      0.208,
+      0.465
+    ],
+    "text": "Contact the dealer from whom you purchased the unit or an authorized Whirlpool\\* service company.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-4",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.167,
+      0.256,
+      0.424
+    ],
+    "text": "tWhen asking for help or service:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-5",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.257,
+      0.166,
+      0.358,
+      0.459
+    ],
+    "text": "Please provide a detailed description of the problem, your appliance's complete model and serial numbers,and the purchase date. (See page 2.) This information will help us respond properly to your request.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-6",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.103,
+      0.499,
+      0.141,
+      0.784
+    ],
+    "text": "2. If you need FSP\\* replacement partst ...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-7",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.497,
+      0.274,
+      0.819
+    ],
+    "text": "FSP is a registered trademark of Whirlpool Corporation for quality parts. Look for this symbol of quality whenever you need a replacement part for your Whirlpool appliance.FSP replacement parts will fit right and work right because they are made to the same exacting specifications used to build every new Whirlpool appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-8",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.273,
+      0.497,
+      0.341,
+      0.805
+    ],
+    "text": "To locate FSP replacement parts in your area, contact the dealer from whom you purchased the unit or an authorized Whirlpool service company.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-1",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.029,
+      0.247,
+      0.119,
+      0.76
+    ],
+    "text": "WHIRLPOOL Refrigerator Warranty",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:table-2",
+    "page_id": 30,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_30_Table_0.jpg",
+    "bbox_norm": [
+      0.122,
+      0.167,
+      0.615,
+      0.832
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-30:text-3",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.62,
+      0.164,
+      0.657,
+      0.795
+    ],
+    "text": "WHIRLPOOL CORPORATION SHALL NOT BE LIABLE FOR INCIDENTAL OR CONSE-QUENTIAL DAMAGES.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-4",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.164,
+      0.698,
+      0.803
+    ],
+    "text": "Outside the United States, a different warranty may apply. For details, please contact your authorized Whirlpool distributor or military exchange.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:figure-1",
+    "page_id": 31,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_31_Figure_0.jpg",
+    "bbox_norm": [
+      0.634,
+      0.481,
+      0.689,
+      0.544
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-31:text-2",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.796,
+      0.341,
+      0.828,
+      0.698
+    ],
+    "text": "Printed on recycled paper-10% Post-consumer waste/ 50% Recovered materials",
+    "source_type": "text"
+  }
+]

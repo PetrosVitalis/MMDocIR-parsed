@@ -1,0 +1,1 @@
+<table><tr><td>Asset description</td><td>Useful life (years)</td></tr><tr><td>Buildings</td><td>25 to50</td></tr><tr><td>Fixtures,furniture and machinery</td><td>8to20</td></tr><tr><td> Other property, plant and equipment</td><td>4to13</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Deposit</td><td>Proved Reserves</td><td>Probable Reserves</td></tr><tr><td>Mt Arthur Coal</td><td colspan="2">200mto800m(geophysicallogged,z95%corerecovery) 400mto1550m(geophysicallogged,z95%corerecovery)</td></tr><tr><td>Cerrejon</td><td>&gt;6 drill holes per 100ha</td><td>2to6 drill holes per 100ha</td></tr></table>

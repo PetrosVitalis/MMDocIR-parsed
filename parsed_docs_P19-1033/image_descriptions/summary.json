@@ -1,0 +1,64 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_P19-1033",
+  "total_images": 11,
+  "non_figure_images_skipped": 8,
+  "processed": 11,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_7_Asset_0.jpg",
+      "output": "image_descriptions/_page_7_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_7_Asset_1.jpg",
+      "output": "image_descriptions/_page_7_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_7_Asset_3.jpg",
+      "output": "image_descriptions/_page_7_Asset_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_7_Asset_2.jpg",
+      "output": "image_descriptions/_page_7_Asset_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Asset_1.jpg",
+      "output": "image_descriptions/_page_8_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Asset_0.jpg",
+      "output": "image_descriptions/_page_8_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_1.jpg",
+      "output": "image_descriptions/_page_6_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_0.jpg",
+      "output": "image_descriptions/_page_6_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_2_Figure_0.jpg",
+      "output": "image_descriptions/_page_2_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Figure_0.jpg",
+      "output": "image_descriptions/_page_3_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

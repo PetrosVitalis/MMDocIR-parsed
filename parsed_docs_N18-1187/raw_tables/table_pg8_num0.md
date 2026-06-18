@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>Score</td></tr><tr><td>SL</td><td> $\overline { { 3 . 9 8 7 \pm 0 . 0 8 6 } }$ </td></tr><tr><td>SL + IL 1000</td><td> $4 . 3 7 8 \pm 0 . 0 8 2$ </td></tr><tr><td> $\mathrm { S L } + \mathrm { I L } \ 1 0 0 0 + \mathrm { R L }$ </td><td> $4 . 6 0 3 \pm 0 . 0 6 7$ </td></tr></table>

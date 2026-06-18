@@ -1,0 +1,1 @@
+<table><tr><td></td><td>August 31, 2020</td><td>August 31, 2019</td><td>August 31, 2018</td></tr><tr><td>United States</td><td>27 %</td><td>26%</td><td>27 %</td></tr><tr><td>India</td><td>18</td><td>18</td><td>19</td></tr><tr><td>Ireland</td><td>7</td><td>7</td><td>7</td></tr></table>

@@ -1,0 +1,54 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_PIP_Seniors-and-Tech-Use_040314",
+  "total_images": 9,
+  "non_figure_images_skipped": 13,
+  "processed": 9,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_2_Asset_0.jpg",
+      "output": "image_descriptions/_page_2_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Asset_0.jpg",
+      "output": "image_descriptions/_page_10_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Asset_0.jpg",
+      "output": "image_descriptions/_page_13_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Asset_0.jpg",
+      "output": "image_descriptions/_page_4_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Asset_0.jpg",
+      "output": "image_descriptions/_page_1_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Asset_0.jpg",
+      "output": "image_descriptions/_page_11_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_0.jpg",
+      "output": "image_descriptions/_page_6_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Asset_0.jpg",
+      "output": "image_descriptions/_page_3_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Asset_0.jpg",
+      "output": "image_descriptions/_page_5_Asset_0.md",
+      "status": "success"
+    }
+  ]
+}

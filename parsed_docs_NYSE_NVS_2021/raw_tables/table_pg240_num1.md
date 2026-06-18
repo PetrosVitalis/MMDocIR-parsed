@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions) 2021</td><td>2020</td></tr><tr><td>US dollar (USD) 15 862</td><td>15 848</td></tr><tr><td>Euro (EUR) 7 930</td><td>10888</td></tr><tr><td>Japanese yen (JPY)</td><td>174 194</td></tr><tr><td>Swiss franc (CHF) 1505</td><td>1563</td></tr><tr><td>Others</td><td>52 38</td></tr><tr><td>Total 25 523</td><td>28 531</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Dialogue Turn</td><td>Baseline</td><td>+ GAtt</td></tr><tr><td>2</td><td>100%</td><td>100%</td></tr><tr><td>4</td><td>10%</td><td>100%</td></tr><tr><td>6</td><td>0%</td><td>100%</td></tr><tr><td>20</td><td>0%</td><td>100%</td></tr></table>

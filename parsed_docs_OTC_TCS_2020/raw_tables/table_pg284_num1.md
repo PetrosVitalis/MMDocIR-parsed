@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Year ended March 31, 2020</td></tr><tr><td>Leasehold land</td><td>4</td></tr><tr><td>Buildings</td><td>837</td></tr><tr><td>Leasehold improvement</td><td>5</td></tr><tr><td>Vehicles</td><td>1</td></tr><tr><td></td><td>847</td></tr><tr><td></td><td></td></tr></table>

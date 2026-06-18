@@ -1,0 +1,29 @@
+[
+  {
+    "table_id": "table_6",
+    "reason": "LLM returned empty/non-table JSON",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": \"[[\",\"source\\\",\\\"reference\\\",\\\"bi:std\\\",\\\"multi:pre-align\\\"],[\":\",\",\",\":\",\"  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t}"
+      }
+    ]
+  }
+]

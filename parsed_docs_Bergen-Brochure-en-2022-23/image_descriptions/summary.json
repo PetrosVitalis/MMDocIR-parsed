@@ -1,0 +1,1904 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_Bergen-Brochure-en-2022-23",
+  "total_images": 379,
+  "non_figure_images_skipped": 1,
+  "processed": 379,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_13_Figure_24.jpg",
+      "output": "image_descriptions/_page_13_Figure_24.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_2.jpg",
+      "output": "image_descriptions/_page_23_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_18.jpg",
+      "output": "image_descriptions/_page_13_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_16.jpg",
+      "output": "image_descriptions/_page_12_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_2.jpg",
+      "output": "image_descriptions/_page_24_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_13.jpg",
+      "output": "image_descriptions/_page_11_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_21.jpg",
+      "output": "image_descriptions/_page_10_Figure_21.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_7.jpg",
+      "output": "image_descriptions/_page_13_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_15.jpg",
+      "output": "image_descriptions/_page_9_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Figure_5.jpg",
+      "output": "image_descriptions/_page_22_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_8.jpg",
+      "output": "image_descriptions/_page_11_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_15_Figure_0.jpg",
+      "output": "image_descriptions/_page_15_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_40_Figure_0.jpg",
+      "output": "image_descriptions/_page_40_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_17.jpg",
+      "output": "image_descriptions/_page_16_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_13.jpg",
+      "output": "image_descriptions/_page_28_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_31_Figure_3.jpg",
+      "output": "image_descriptions/_page_31_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_5.jpg",
+      "output": "image_descriptions/_page_25_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_8.jpg",
+      "output": "image_descriptions/_page_16_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_0.jpg",
+      "output": "image_descriptions/_page_12_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_1.jpg",
+      "output": "image_descriptions/_page_12_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_9.jpg",
+      "output": "image_descriptions/_page_16_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_31_Figure_2.jpg",
+      "output": "image_descriptions/_page_31_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_12.jpg",
+      "output": "image_descriptions/_page_28_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_4.jpg",
+      "output": "image_descriptions/_page_25_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_16.jpg",
+      "output": "image_descriptions/_page_16_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_9.jpg",
+      "output": "image_descriptions/_page_11_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Figure_4.jpg",
+      "output": "image_descriptions/_page_22_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_14.jpg",
+      "output": "image_descriptions/_page_9_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_20.jpg",
+      "output": "image_descriptions/_page_10_Figure_20.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_6.jpg",
+      "output": "image_descriptions/_page_13_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_12.jpg",
+      "output": "image_descriptions/_page_11_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_3.jpg",
+      "output": "image_descriptions/_page_24_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_26.jpg",
+      "output": "image_descriptions/_page_8_Figure_26.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_17.jpg",
+      "output": "image_descriptions/_page_12_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_19.jpg",
+      "output": "image_descriptions/_page_13_Figure_19.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_3.jpg",
+      "output": "image_descriptions/_page_23_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_1.jpg",
+      "output": "image_descriptions/_page_23_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_0.jpg",
+      "output": "image_descriptions/_page_1_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Figure_4.jpg",
+      "output": "image_descriptions/_page_14_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_15.jpg",
+      "output": "image_descriptions/_page_12_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_1.jpg",
+      "output": "image_descriptions/_page_24_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_24.jpg",
+      "output": "image_descriptions/_page_8_Figure_24.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Figure_0.jpg",
+      "output": "image_descriptions/_page_6_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_10.jpg",
+      "output": "image_descriptions/_page_11_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_18.jpg",
+      "output": "image_descriptions/_page_8_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_4.jpg",
+      "output": "image_descriptions/_page_13_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_22.jpg",
+      "output": "image_descriptions/_page_10_Figure_22.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_9.jpg",
+      "output": "image_descriptions/_page_20_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_16.jpg",
+      "output": "image_descriptions/_page_9_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_36_Figure_0.jpg",
+      "output": "image_descriptions/_page_36_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Figure_6.jpg",
+      "output": "image_descriptions/_page_22_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_14.jpg",
+      "output": "image_descriptions/_page_16_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_6.jpg",
+      "output": "image_descriptions/_page_25_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_10.jpg",
+      "output": "image_descriptions/_page_28_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_31_Figure_0.jpg",
+      "output": "image_descriptions/_page_31_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_3.jpg",
+      "output": "image_descriptions/_page_12_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_2.jpg",
+      "output": "image_descriptions/_page_12_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_7.jpg",
+      "output": "image_descriptions/_page_25_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_31_Figure_1.jpg",
+      "output": "image_descriptions/_page_31_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_11.jpg",
+      "output": "image_descriptions/_page_28_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_15.jpg",
+      "output": "image_descriptions/_page_16_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_17.jpg",
+      "output": "image_descriptions/_page_9_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_8.jpg",
+      "output": "image_descriptions/_page_20_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_5.jpg",
+      "output": "image_descriptions/_page_13_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_11.jpg",
+      "output": "image_descriptions/_page_11_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_19.jpg",
+      "output": "image_descriptions/_page_8_Figure_19.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_25.jpg",
+      "output": "image_descriptions/_page_8_Figure_25.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_0.jpg",
+      "output": "image_descriptions/_page_24_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_14.jpg",
+      "output": "image_descriptions/_page_12_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Figure_5.jpg",
+      "output": "image_descriptions/_page_14_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_0.jpg",
+      "output": "image_descriptions/_page_23_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_22.jpg",
+      "output": "image_descriptions/_page_13_Figure_22.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_4.jpg",
+      "output": "image_descriptions/_page_23_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_9.jpg",
+      "output": "image_descriptions/_page_10_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_10.jpg",
+      "output": "image_descriptions/_page_12_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Figure_1.jpg",
+      "output": "image_descriptions/_page_14_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_41_Figure_1.jpg",
+      "output": "image_descriptions/_page_41_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_15.jpg",
+      "output": "image_descriptions/_page_11_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_4.jpg",
+      "output": "image_descriptions/_page_24_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_21.jpg",
+      "output": "image_descriptions/_page_8_Figure_21.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_9.jpg",
+      "output": "image_descriptions/_page_17_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_13.jpg",
+      "output": "image_descriptions/_page_9_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_1.jpg",
+      "output": "image_descriptions/_page_13_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Figure_3.jpg",
+      "output": "image_descriptions/_page_22_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_11.jpg",
+      "output": "image_descriptions/_page_16_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_15.jpg",
+      "output": "image_descriptions/_page_28_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_31_Figure_5.jpg",
+      "output": "image_descriptions/_page_31_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_3.jpg",
+      "output": "image_descriptions/_page_25_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_6.jpg",
+      "output": "image_descriptions/_page_12_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_7.jpg",
+      "output": "image_descriptions/_page_12_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_31_Figure_4.jpg",
+      "output": "image_descriptions/_page_31_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_14.jpg",
+      "output": "image_descriptions/_page_28_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_2.jpg",
+      "output": "image_descriptions/_page_25_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_10.jpg",
+      "output": "image_descriptions/_page_16_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Figure_2.jpg",
+      "output": "image_descriptions/_page_22_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_0.jpg",
+      "output": "image_descriptions/_page_13_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_12.jpg",
+      "output": "image_descriptions/_page_9_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_20.jpg",
+      "output": "image_descriptions/_page_8_Figure_20.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_8.jpg",
+      "output": "image_descriptions/_page_17_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_5.jpg",
+      "output": "image_descriptions/_page_24_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_14.jpg",
+      "output": "image_descriptions/_page_11_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_41_Figure_0.jpg",
+      "output": "image_descriptions/_page_41_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Figure_0.jpg",
+      "output": "image_descriptions/_page_14_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_11.jpg",
+      "output": "image_descriptions/_page_12_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_8.jpg",
+      "output": "image_descriptions/_page_10_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_23.jpg",
+      "output": "image_descriptions/_page_13_Figure_23.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_5.jpg",
+      "output": "image_descriptions/_page_23_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_7.jpg",
+      "output": "image_descriptions/_page_23_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_21.jpg",
+      "output": "image_descriptions/_page_13_Figure_21.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_13.jpg",
+      "output": "image_descriptions/_page_12_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Figure_2.jpg",
+      "output": "image_descriptions/_page_14_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_41_Figure_2.jpg",
+      "output": "image_descriptions/_page_41_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_16.jpg",
+      "output": "image_descriptions/_page_11_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_22.jpg",
+      "output": "image_descriptions/_page_8_Figure_22.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_7.jpg",
+      "output": "image_descriptions/_page_24_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_10.jpg",
+      "output": "image_descriptions/_page_9_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_18.jpg",
+      "output": "image_descriptions/_page_10_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_2.jpg",
+      "output": "image_descriptions/_page_13_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Figure_0.jpg",
+      "output": "image_descriptions/_page_22_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_12.jpg",
+      "output": "image_descriptions/_page_16_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_8.jpg",
+      "output": "image_descriptions/_page_26_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_0.jpg",
+      "output": "image_descriptions/_page_25_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_16.jpg",
+      "output": "image_descriptions/_page_28_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_5.jpg",
+      "output": "image_descriptions/_page_12_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_4.jpg",
+      "output": "image_descriptions/_page_12_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_1.jpg",
+      "output": "image_descriptions/_page_25_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_17.jpg",
+      "output": "image_descriptions/_page_28_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_7_Figure_0.jpg",
+      "output": "image_descriptions/_page_7_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_9.jpg",
+      "output": "image_descriptions/_page_26_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_13.jpg",
+      "output": "image_descriptions/_page_16_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Figure_1.jpg",
+      "output": "image_descriptions/_page_22_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_3.jpg",
+      "output": "image_descriptions/_page_13_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_11.jpg",
+      "output": "image_descriptions/_page_9_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_19.jpg",
+      "output": "image_descriptions/_page_10_Figure_19.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_6.jpg",
+      "output": "image_descriptions/_page_24_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_23.jpg",
+      "output": "image_descriptions/_page_8_Figure_23.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_17.jpg",
+      "output": "image_descriptions/_page_11_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_41_Figure_3.jpg",
+      "output": "image_descriptions/_page_41_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Figure_3.jpg",
+      "output": "image_descriptions/_page_14_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_12.jpg",
+      "output": "image_descriptions/_page_12_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_6.jpg",
+      "output": "image_descriptions/_page_23_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_20.jpg",
+      "output": "image_descriptions/_page_13_Figure_20.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_37_Figure_0.jpg",
+      "output": "image_descriptions/_page_37_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_1.jpg",
+      "output": "image_descriptions/_page_28_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_8.jpg",
+      "output": "image_descriptions/_page_9_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_6.jpg",
+      "output": "image_descriptions/_page_29_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_13.jpg",
+      "output": "image_descriptions/_page_25_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_16.jpg",
+      "output": "image_descriptions/_page_26_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_17.jpg",
+      "output": "image_descriptions/_page_26_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_12.jpg",
+      "output": "image_descriptions/_page_25_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_7.jpg",
+      "output": "image_descriptions/_page_29_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_9.jpg",
+      "output": "image_descriptions/_page_9_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_0.jpg",
+      "output": "image_descriptions/_page_28_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_2.jpg",
+      "output": "image_descriptions/_page_28_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_5.jpg",
+      "output": "image_descriptions/_page_29_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_10.jpg",
+      "output": "image_descriptions/_page_25_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_15.jpg",
+      "output": "image_descriptions/_page_26_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_19_Figure_0.jpg",
+      "output": "image_descriptions/_page_19_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_14.jpg",
+      "output": "image_descriptions/_page_26_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_11.jpg",
+      "output": "image_descriptions/_page_25_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_4.jpg",
+      "output": "image_descriptions/_page_29_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_3.jpg",
+      "output": "image_descriptions/_page_28_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_7.jpg",
+      "output": "image_descriptions/_page_28_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_0.jpg",
+      "output": "image_descriptions/_page_29_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_15.jpg",
+      "output": "image_descriptions/_page_25_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_10.jpg",
+      "output": "image_descriptions/_page_26_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_9.jpg",
+      "output": "image_descriptions/_page_8_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_8.jpg",
+      "output": "image_descriptions/_page_8_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_11.jpg",
+      "output": "image_descriptions/_page_26_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_14.jpg",
+      "output": "image_descriptions/_page_25_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_1.jpg",
+      "output": "image_descriptions/_page_29_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_6.jpg",
+      "output": "image_descriptions/_page_28_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_4.jpg",
+      "output": "image_descriptions/_page_28_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_18.jpg",
+      "output": "image_descriptions/_page_24_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_3.jpg",
+      "output": "image_descriptions/_page_29_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_16.jpg",
+      "output": "image_descriptions/_page_25_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_13.jpg",
+      "output": "image_descriptions/_page_26_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_12.jpg",
+      "output": "image_descriptions/_page_26_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_17.jpg",
+      "output": "image_descriptions/_page_25_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_2.jpg",
+      "output": "image_descriptions/_page_29_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_19.jpg",
+      "output": "image_descriptions/_page_24_Figure_19.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_18_Figure_0.jpg",
+      "output": "image_descriptions/_page_18_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_5.jpg",
+      "output": "image_descriptions/_page_28_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_15.jpg",
+      "output": "image_descriptions/_page_20_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_8.jpg",
+      "output": "image_descriptions/_page_28_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_10.jpg",
+      "output": "image_descriptions/_page_23_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_1.jpg",
+      "output": "image_descriptions/_page_9_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_14.jpg",
+      "output": "image_descriptions/_page_24_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_6.jpg",
+      "output": "image_descriptions/_page_8_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_7.jpg",
+      "output": "image_descriptions/_page_8_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_39_Figure_0.jpg",
+      "output": "image_descriptions/_page_39_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_15.jpg",
+      "output": "image_descriptions/_page_24_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_0.jpg",
+      "output": "image_descriptions/_page_9_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_11.jpg",
+      "output": "image_descriptions/_page_23_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_9.jpg",
+      "output": "image_descriptions/_page_28_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_14.jpg",
+      "output": "image_descriptions/_page_20_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_16.jpg",
+      "output": "image_descriptions/_page_20_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_13.jpg",
+      "output": "image_descriptions/_page_23_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_2.jpg",
+      "output": "image_descriptions/_page_9_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_17.jpg",
+      "output": "image_descriptions/_page_24_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_5.jpg",
+      "output": "image_descriptions/_page_8_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_4.jpg",
+      "output": "image_descriptions/_page_8_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_16.jpg",
+      "output": "image_descriptions/_page_24_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_3.jpg",
+      "output": "image_descriptions/_page_9_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_12.jpg",
+      "output": "image_descriptions/_page_23_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_17.jpg",
+      "output": "image_descriptions/_page_20_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_13.jpg",
+      "output": "image_descriptions/_page_20_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_38_Figure_0.jpg",
+      "output": "image_descriptions/_page_38_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_7.jpg",
+      "output": "image_descriptions/_page_9_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_12.jpg",
+      "output": "image_descriptions/_page_24_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_9.jpg",
+      "output": "image_descriptions/_page_29_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_0.jpg",
+      "output": "image_descriptions/_page_8_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_1.jpg",
+      "output": "image_descriptions/_page_8_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_18.jpg",
+      "output": "image_descriptions/_page_26_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_8.jpg",
+      "output": "image_descriptions/_page_29_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_13.jpg",
+      "output": "image_descriptions/_page_24_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_6.jpg",
+      "output": "image_descriptions/_page_9_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_38_Figure_1.jpg",
+      "output": "image_descriptions/_page_38_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_12.jpg",
+      "output": "image_descriptions/_page_20_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_10.jpg",
+      "output": "image_descriptions/_page_20_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_4.jpg",
+      "output": "image_descriptions/_page_9_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_11.jpg",
+      "output": "image_descriptions/_page_24_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_3.jpg",
+      "output": "image_descriptions/_page_8_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_2.jpg",
+      "output": "image_descriptions/_page_8_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_10.jpg",
+      "output": "image_descriptions/_page_24_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_5.jpg",
+      "output": "image_descriptions/_page_9_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_11.jpg",
+      "output": "image_descriptions/_page_20_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_11.jpg",
+      "output": "image_descriptions/_page_13_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_6.jpg",
+      "output": "image_descriptions/_page_10_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_23.jpg",
+      "output": "image_descriptions/_page_12_Figure_23.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_33_Figure_5.jpg",
+      "output": "image_descriptions/_page_33_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_12.jpg",
+      "output": "image_descriptions/_page_8_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_6.jpg",
+      "output": "image_descriptions/_page_17_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_14.jpg",
+      "output": "image_descriptions/_page_10_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_20.jpg",
+      "output": "image_descriptions/_page_9_Figure_20.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Figure_5.jpg",
+      "output": "image_descriptions/_page_34_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_3.jpg",
+      "output": "image_descriptions/_page_20_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_10.jpg",
+      "output": "image_descriptions/_page_17_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_1.jpg",
+      "output": "image_descriptions/_page_11_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_32_Figure_2.jpg",
+      "output": "image_descriptions/_page_32_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_4.jpg",
+      "output": "image_descriptions/_page_26_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_43_Figure_1.jpg",
+      "output": "image_descriptions/_page_43_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_1.jpg",
+      "output": "image_descriptions/_page_16_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_14.jpg",
+      "output": "image_descriptions/_page_29_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_9.jpg",
+      "output": "image_descriptions/_page_12_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_8.jpg",
+      "output": "image_descriptions/_page_12_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_15.jpg",
+      "output": "image_descriptions/_page_29_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_0.jpg",
+      "output": "image_descriptions/_page_16_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_43_Figure_0.jpg",
+      "output": "image_descriptions/_page_43_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_32_Figure_3.jpg",
+      "output": "image_descriptions/_page_32_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_5.jpg",
+      "output": "image_descriptions/_page_26_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_0.jpg",
+      "output": "image_descriptions/_page_11_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_44_Figure_0.jpg",
+      "output": "image_descriptions/_page_44_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_11.jpg",
+      "output": "image_descriptions/_page_17_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Figure_4.jpg",
+      "output": "image_descriptions/_page_34_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_2.jpg",
+      "output": "image_descriptions/_page_20_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_15.jpg",
+      "output": "image_descriptions/_page_10_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_7.jpg",
+      "output": "image_descriptions/_page_17_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_13.jpg",
+      "output": "image_descriptions/_page_8_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_22.jpg",
+      "output": "image_descriptions/_page_12_Figure_22.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_33_Figure_4.jpg",
+      "output": "image_descriptions/_page_33_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_7.jpg",
+      "output": "image_descriptions/_page_10_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_10.jpg",
+      "output": "image_descriptions/_page_13_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_12.jpg",
+      "output": "image_descriptions/_page_13_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_5.jpg",
+      "output": "image_descriptions/_page_10_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_8.jpg",
+      "output": "image_descriptions/_page_23_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Figure_1.jpg",
+      "output": "image_descriptions/_page_5_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_20.jpg",
+      "output": "image_descriptions/_page_12_Figure_20.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_11.jpg",
+      "output": "image_descriptions/_page_8_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_19.jpg",
+      "output": "image_descriptions/_page_11_Figure_19.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_5.jpg",
+      "output": "image_descriptions/_page_17_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_8.jpg",
+      "output": "image_descriptions/_page_24_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_17.jpg",
+      "output": "image_descriptions/_page_10_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_0.jpg",
+      "output": "image_descriptions/_page_20_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Figure_6.jpg",
+      "output": "image_descriptions/_page_34_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_13.jpg",
+      "output": "image_descriptions/_page_17_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_2.jpg",
+      "output": "image_descriptions/_page_11_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_7.jpg",
+      "output": "image_descriptions/_page_26_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_21.jpg",
+      "output": "image_descriptions/_page_16_Figure_21.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_32_Figure_1.jpg",
+      "output": "image_descriptions/_page_32_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_43_Figure_2.jpg",
+      "output": "image_descriptions/_page_43_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_2.jpg",
+      "output": "image_descriptions/_page_16_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_17.jpg",
+      "output": "image_descriptions/_page_29_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_35_Figure_0.jpg",
+      "output": "image_descriptions/_page_35_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_16.jpg",
+      "output": "image_descriptions/_page_29_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_3.jpg",
+      "output": "image_descriptions/_page_16_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_43_Figure_3.jpg",
+      "output": "image_descriptions/_page_43_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Figure_18.jpg",
+      "output": "image_descriptions/_page_28_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_6.jpg",
+      "output": "image_descriptions/_page_26_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_32_Figure_0.jpg",
+      "output": "image_descriptions/_page_32_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_20.jpg",
+      "output": "image_descriptions/_page_16_Figure_20.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_3.jpg",
+      "output": "image_descriptions/_page_11_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_12.jpg",
+      "output": "image_descriptions/_page_17_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_1.jpg",
+      "output": "image_descriptions/_page_20_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_16.jpg",
+      "output": "image_descriptions/_page_10_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_2_Figure_0.jpg",
+      "output": "image_descriptions/_page_2_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_9.jpg",
+      "output": "image_descriptions/_page_24_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_24.jpg",
+      "output": "image_descriptions/_page_11_Figure_24.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_4.jpg",
+      "output": "image_descriptions/_page_17_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_10.jpg",
+      "output": "image_descriptions/_page_8_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_18.jpg",
+      "output": "image_descriptions/_page_11_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_21.jpg",
+      "output": "image_descriptions/_page_12_Figure_21.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Figure_0.jpg",
+      "output": "image_descriptions/_page_5_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Figure_9.jpg",
+      "output": "image_descriptions/_page_23_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_4.jpg",
+      "output": "image_descriptions/_page_10_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_13.jpg",
+      "output": "image_descriptions/_page_13_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_45_Figure_0.jpg",
+      "output": "image_descriptions/_page_45_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_0.jpg",
+      "output": "image_descriptions/_page_10_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_17.jpg",
+      "output": "image_descriptions/_page_13_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_33_Figure_3.jpg",
+      "output": "image_descriptions/_page_33_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_19.jpg",
+      "output": "image_descriptions/_page_12_Figure_19.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_42_Figure_0.jpg",
+      "output": "image_descriptions/_page_42_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_20.jpg",
+      "output": "image_descriptions/_page_11_Figure_20.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_0.jpg",
+      "output": "image_descriptions/_page_17_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_14.jpg",
+      "output": "image_descriptions/_page_8_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Figure_3.jpg",
+      "output": "image_descriptions/_page_34_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_5.jpg",
+      "output": "image_descriptions/_page_20_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_8.jpg",
+      "output": "image_descriptions/_page_13_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_12.jpg",
+      "output": "image_descriptions/_page_10_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_7.jpg",
+      "output": "image_descriptions/_page_11_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_16.jpg",
+      "output": "image_descriptions/_page_17_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_2.jpg",
+      "output": "image_descriptions/_page_26_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_18.jpg",
+      "output": "image_descriptions/_page_16_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_7.jpg",
+      "output": "image_descriptions/_page_16_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_12.jpg",
+      "output": "image_descriptions/_page_29_Figure_12.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_13.jpg",
+      "output": "image_descriptions/_page_29_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_6.jpg",
+      "output": "image_descriptions/_page_16_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_19.jpg",
+      "output": "image_descriptions/_page_16_Figure_19.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_3.jpg",
+      "output": "image_descriptions/_page_26_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_17.jpg",
+      "output": "image_descriptions/_page_17_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_6.jpg",
+      "output": "image_descriptions/_page_11_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_13.jpg",
+      "output": "image_descriptions/_page_10_Figure_13.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_9.jpg",
+      "output": "image_descriptions/_page_13_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Figure_2.jpg",
+      "output": "image_descriptions/_page_34_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_4.jpg",
+      "output": "image_descriptions/_page_20_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_15.jpg",
+      "output": "image_descriptions/_page_8_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_1.jpg",
+      "output": "image_descriptions/_page_17_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_21.jpg",
+      "output": "image_descriptions/_page_11_Figure_21.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_18.jpg",
+      "output": "image_descriptions/_page_12_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_33_Figure_2.jpg",
+      "output": "image_descriptions/_page_33_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_16.jpg",
+      "output": "image_descriptions/_page_13_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_1.jpg",
+      "output": "image_descriptions/_page_10_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_3.jpg",
+      "output": "image_descriptions/_page_10_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_14.jpg",
+      "output": "image_descriptions/_page_13_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_33_Figure_0.jpg",
+      "output": "image_descriptions/_page_33_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_23.jpg",
+      "output": "image_descriptions/_page_11_Figure_23.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_3.jpg",
+      "output": "image_descriptions/_page_17_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_17.jpg",
+      "output": "image_descriptions/_page_8_Figure_17.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_6.jpg",
+      "output": "image_descriptions/_page_20_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Figure_0.jpg",
+      "output": "image_descriptions/_page_34_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_11.jpg",
+      "output": "image_descriptions/_page_10_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_19.jpg",
+      "output": "image_descriptions/_page_9_Figure_19.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_4.jpg",
+      "output": "image_descriptions/_page_11_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_15.jpg",
+      "output": "image_descriptions/_page_17_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_1.jpg",
+      "output": "image_descriptions/_page_26_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_0.jpg",
+      "output": "image_descriptions/_page_4_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_4.jpg",
+      "output": "image_descriptions/_page_16_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_9.jpg",
+      "output": "image_descriptions/_page_25_Figure_9.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_11.jpg",
+      "output": "image_descriptions/_page_29_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Figure_0.jpg",
+      "output": "image_descriptions/_page_3_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Figure_10.jpg",
+      "output": "image_descriptions/_page_29_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_21_Figure_0.jpg",
+      "output": "image_descriptions/_page_21_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Figure_8.jpg",
+      "output": "image_descriptions/_page_25_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_5.jpg",
+      "output": "image_descriptions/_page_16_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_1.jpg",
+      "output": "image_descriptions/_page_4_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_0.jpg",
+      "output": "image_descriptions/_page_26_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_14.jpg",
+      "output": "image_descriptions/_page_17_Figure_14.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_5.jpg",
+      "output": "image_descriptions/_page_11_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_10.jpg",
+      "output": "image_descriptions/_page_10_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Figure_18.jpg",
+      "output": "image_descriptions/_page_9_Figure_18.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_7.jpg",
+      "output": "image_descriptions/_page_20_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Figure_1.jpg",
+      "output": "image_descriptions/_page_34_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Figure_16.jpg",
+      "output": "image_descriptions/_page_8_Figure_16.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_2.jpg",
+      "output": "image_descriptions/_page_17_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_22.jpg",
+      "output": "image_descriptions/_page_11_Figure_22.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_33_Figure_1.jpg",
+      "output": "image_descriptions/_page_33_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Figure_15.jpg",
+      "output": "image_descriptions/_page_13_Figure_15.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Figure_2.jpg",
+      "output": "image_descriptions/_page_10_Figure_2.md",
+      "status": "success"
+    }
+  ]
+}

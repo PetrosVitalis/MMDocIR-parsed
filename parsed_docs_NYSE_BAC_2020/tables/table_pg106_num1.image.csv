@@ -1,0 +1,7 @@
+Short Rate (bps),Long Rate (bps),December 31,2020,December 31,2019
+Parallel Shifts,+100 bps instantaneous shift,+100,+100,$,"10,468,$,4,190"
+Parallel Shifts,-25 bps instantaneous shift,-25,-25,(2,"766),(1,500)"
+Flatteners,Short-end instantaneous change,+100,--,6,"321,2,641"
+Flatteners,Long-end instantaneous change,--,25,(1,"686),(653)"
+Steepeners,Short-end instantaneous change,-25,--,1,"084,(844)"
+Steepeners,Long-end instantaneous change,--,100,4,"333,1,561"

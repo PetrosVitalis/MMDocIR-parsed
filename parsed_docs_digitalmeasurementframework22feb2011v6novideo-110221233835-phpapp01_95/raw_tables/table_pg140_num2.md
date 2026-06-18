@@ -1,0 +1,1 @@
+<table><tr><td>DSAT AtRisk 16% 2%</td><td>Neutral 54%</td><td>Leaning 3%</td><td>VSAT 25%</td></tr><tr><td>DSAT AtRisk</td><td>Neutral</td><td>Leaning</td><td>VSAT</td></tr><tr><td>15% 2%</td><td>51%</td><td>6%</td><td>26%</td></tr></table>

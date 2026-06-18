@@ -1,0 +1,1 @@
+<table><tr><td>Taxable income in euros (€)</td><td>Rates</td></tr><tr><td>From over 80,000 to 250,000 (appr0x. US$87,625 to US$273,829)</td><td>2.5%</td></tr><tr><td>Over 250,000 (appr0x. US$273,830)</td><td>5.0%16</td></tr></table>

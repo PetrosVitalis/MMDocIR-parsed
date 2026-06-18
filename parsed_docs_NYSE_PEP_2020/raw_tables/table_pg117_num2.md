@@ -1,0 +1,1 @@
+<table><tr><td></td><td></td><td>2020</td><td>2019</td></tr><tr><td>Cash and cash equivalents</td><td>$</td><td>8,185 $</td><td>5,509</td></tr><tr><td>Restricted cash included in other assets (a)</td><td></td><td>69</td><td>61</td></tr><tr><td>Total cash and cash equivalents and restricted cash</td><td>$</td><td>8,254$</td><td>5,570</td></tr></table>

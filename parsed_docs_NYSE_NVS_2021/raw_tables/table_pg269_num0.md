@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td></tr><tr><td>5% increase in currency exchange rates against USD</td><td>3</td><td>5</td></tr><tr><td>5% decrease in currency exchange rates</td><td></td><td></td></tr><tr><td>against USD</td><td>-3</td><td>-5</td></tr><tr><td></td><td></td><td></td></tr></table>

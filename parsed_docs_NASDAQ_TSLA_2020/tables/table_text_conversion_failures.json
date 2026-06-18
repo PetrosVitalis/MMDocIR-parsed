@@ -1,0 +1,43 @@
+[
+  {
+    "table_id": "table_97",
+    "reason": "row_count_out_of_bounds(expected~1, got=29)",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "column_count_out_of_bounds(expected~2, got=30)"
+        ],
+        "raw_llm_output": "[\n  [\"Exhibit A-1\", \"Exhibit A-2\", \"Exhibit B-1\", \"Exhibit B-2\", \"Exhibit B-3\", \"Exhibit B-4\", \"Exhibit B-5\", \"Exhibit C\", \"Exhibit D-1\", \"Exhibit D-2\", \"Exhibit D-3\", \"Exhibit D-4\", \"Exhibit E-1\", \"Exhibit E-2\", \"Exhibit F\", \"Exhibit G-1\", \"Exhibit G-2\", \"Exhibit H\", \"Exhibit I-1\", \"Exhibit I-2\", \"Exhibit I-3\", \"Exhibit I-4\", \"Exhibit J\", \"Exhibit K\", \"Exhibit L\", \"Exhibit M\", \"Exhibit N\", \"Exhibit O\", \"Exhibit P\", \"Exhibit Q\"],\n  [\"Form of Notice of Borrowing\", \"Form of Notice of Conversion/Continuation\", \"Form of U.S.Borrower Revolving Note\", \"Form of Dutch Borrower Revolving Note\", \"Form of U.S.Borrower Swingline Note\", \"Form of Dutch Borrower Swingline Note\", \"Form of UK Borrower Revolving Note\", \"Form ofLetter of Credit Request\", \"Form of U.S.Tax Compliance Certificate\", \"Form of U.S.Tax Compliance Certificate\", \"Formof U.S.Tax Compliance Certificate\", \"Form of U.S.Tax Compliance Certificate\", \"Form of Officer's Certificate - Company\", \"Form of Officer's Certificate-Credit Parties\", \"Form ofIncremental Commitment Agreement\", \"Form of Dutch Guaranty\", \"Form of U.S.Guaranty [Reserved]\", \"Form of Dutch Inventory Security Agreement\", \"Form of Dutch Receivables Security Agreement\", \"Form of Dutch General Security Agreement\", \"Form of U.S.Security Agreement\", \"Form of Solvency Certificate\", \"Form of Compliance Certificate\", \"Form of Assignment and Assumption Agreement\", \"Form of Landlord Personal Property Collateral Access Agreement\", \"Form of Joinder Agreement\", \"Form of Borrowing Base Certificate\", \"Form of UK Guaranty\", \"Form of UK Security Agreement\"]\n]"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "row_count_out_of_bounds(expected~1, got=29)"
+        ],
+        "raw_llm_output": "{\n  \"table\": [\n    [\"Exhibit A-1\", \"Form of Notice of Borrowing\"],\n    [\"Exhibit A-2\", \"Form of Notice of Conversion/Continuation\"],\n    [\"Exhibit B-1\", \"Form of U.S.Borrower Revolving Note\"],\n    [\"Exhibit B-2\", \"Form of Dutch Borrower Revolving Note\"],\n    [\"Exhibit B-3\", \"Form of U.S.Borrower Swingline Note\"],\n    [\"Exhibit B-4\", \"Form of Dutch Borrower Swingline Note\"],\n    [\"Exhibit B-5\", \"Form of UK Borrower Revolving Note\"],\n    [\"Exhibit C\", \"Form ofLetter of Credit Request\"],\n    [\"Exhibit D-1\", \"Form of U.S.Tax Compliance Certificate\"],\n    [\"Exhibit D-2\", \"Form of U.S.Tax Compliance Certificate\"],\n    [\"Exhibit D-3\", \"Formof U.S.Tax Compliance Certificate\"],\n    [\"Exhibit D-4\", \"Form of U.S.Tax Compliance Certificate\"],\n    [\"Exhibit E-1\", \"Form of Officer's Certificate - Company\"],\n    [\"Exhibit E-2\", \"Form of Officer's Certificate-Credit Parties\"],\n    [\"Exhibit F\", \"Form ofIncremental Commitment Agreement\"],\n    [\"Exhibit G-1\", \"Form of Dutch Guaranty\"],\n    [\"Exhibit G-2\", \"[Reserved]\"],\n    [\"Exhibit H\", \"Form of Dutch Inventory Security Agreement\"],\n    [\"Exhibit I-1\", \"Form of Dutch Receivables Security Agreement\"],\n    [\"Exhibit I-2\", \"Form of Dutch General Security Agreement\"],\n    [\"Exhibit I-3\", \"Form of U.S.Security Agreement\"],\n    [\"Exhibit I-4\", \"Form of Solvency Certificate\"],\n    [\"Exhibit J\", \"Form of Compliance Certificate\"],\n    [\"Exhibit K\", \"Form of Assignment and Assumption Agreement\"],\n    [\"Exhibit L\", \"Form of Landlord Personal Property Collateral Access Agreement\"],\n    [\"Exhibit M\", \"Form of Joinder Agreement\"],\n    [\"Exhibit N\", \"Form of Borrowing Base Certificate\"],\n    [\"Exhibit O\", \"Form of UK Guaranty\"],\n    [\"Exhibit P\", \"Form of UK Security Agreement\"]\n  ]\n}"
+      }
+    ]
+  }
+]

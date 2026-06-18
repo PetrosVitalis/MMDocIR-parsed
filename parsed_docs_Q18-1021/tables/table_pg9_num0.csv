@@ -1,0 +1,8 @@
+Model,WIKIHOP standard test,WIKIHOP standard test*,WIKIHOP masked test,WIKIHOP masked test*,MEDHOP standard test,MEDHOP standard test*,MEDHOP masked test,MEDHOP masked test*
+Random,11.5,12.2,12.2,13.0,13.9,20.4,14.1,22.4
+Max-mention,10.6,15.9,13.9,20.1,9.5,16.3,9.2,16.3
+Majority-candidate-per-query-type,38.8,44.2,12.0,13.7,58.4,67.3,10.4,6.1
+TF-IDF,25.6,36.7,14.4,24.2,9.0,14.3,8.8,14.3
+Document-cue,36.7,41.7,7.4,20.3,44.9,53.1,15.2,16.3
+FastQA,25.7,27.2,35.8,38.0,23.1,24.5,31.3,30.6
+BiDAF,42.9,49.7,54.5,59.8,47.8,61.2,33.7,42.9

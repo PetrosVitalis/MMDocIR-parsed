@@ -1,0 +1,16 @@
+```
+Dataset\tNamed Entity Recognition\tRelation Extraction\tEvent Detection\tEvent Arg Extraction
+CONLL\t4\t41\t33\t33
+OntoNotes\t18\t41\t168\t139
+FewNERD\t66\t41\t38\t38
+TACRE\t\t\t\t
+TACRED\t\t\t\t
+ACE05\t\t\t\t
+MAVEN\t\t\t\t
+ERE\t\t\t\t
+#Label Type\t4\t18\t66\t41\t41\t33\t168\t38\t33\t139\t38
+#Sents\tTrain\t14,041\t49,706\t131,965\t68,124\t68,124\t14,024\t32,360\t14,736\t14,024\t7329\t14,736
+\tTest\t3,453\t10,348\t37,648\t15,509\t15,509\t728\t8,035\t1,163\t728\t871\t1,163
+#Mentions\tTrain\t23,499\t128,738\t340,247\t13,012\t13,012\t5,349\t77,993\t6,208\t4859\t17026\t8924
+\tTest\t5,648\t12,586\t96,902\t3,123\t3,123\t424\t18,904\t551\t576\t2023\t822
+```

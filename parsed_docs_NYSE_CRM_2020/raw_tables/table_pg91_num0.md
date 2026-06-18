@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Current</td><td>Noncurrent</td><td>Total</td></tr><tr><td>As of January 31,2020 (1)</td><td>$15.0</td><td>$15.8</td><td>$30.8</td></tr><tr><td>As of January 31, 2019</td><td>$11.9</td><td>$13.8</td><td>$25.7</td></tr></table>

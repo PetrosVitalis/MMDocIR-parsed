@@ -1,0 +1,10 @@
+```csv
+Item,"Description"
+"Resource packages","A resource package can be used only in the specified region and cannot be shared across regions. So select an appropriate region when purchasing a resource package."
+,"OBS provides resource packages only for some billing items. For other billing items, the pay-per-use billing mode applies. For details, see Resource Package Overview."
+,"Any resource usage beyond your package quotas in the current month is billed in the pay-per-use mode. A newly purchased resource package cannot cover the already generated resource usage."
+,"A resource package must match your bucket's data redundancy policy (single-AZ storage or multi-AZ storage) and storage class (Standard, Infrequent Access, Archive, or Deep Archive), or the pay-per-use billing applies."
+,"Your Standard storage, Archive storage, and Internet outbound traffic packages can cover the fees incurred by both your parallel file systems and buckets. The pull traffic and cross-region replication traffic packages are currently not available for parallel file systems."
+"Access rules","In consideration of the DNS resolution performance and reliability, OBS requires that the bucket name must precede the domain when a request carrying a bucket name is constructed to form a three-level domain name, also mentioned as virtual-hosted-style access domain name."
+,"For example, you have a bucket named test-bucket in the ap-southeast-1 region, and you want to access the ACL of an object named test-object in the bucket. The correct URL is https://test-bucket.obs.ap-southeast-1.myhuaweicloud.com/test-object?acl."
+```

@@ -1,0 +1,1 @@
+<table><tr><td>&lt;Ssemtings</td><td>Buetooth</td></tr><tr><td></td><td></td></tr><tr><td>Bluetooth</td><td>□</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></table>

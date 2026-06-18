@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3">Dev</td><td colspan="3">Test</td></tr><tr><td>Model</td><td>P</td><td>R</td><td>F1</td><td>P</td><td>R</td><td>F1</td></tr><tr><td>E2E Coref</td><td>59.4</td><td>52.0</td><td>55.4</td><td>60.9</td><td>37.3</td><td>46.2</td></tr><tr><td>ScIIE</td><td>61.5</td><td>54.8</td><td>58.0</td><td>52.0</td><td>44.9</td><td>48.2</td></tr></table>

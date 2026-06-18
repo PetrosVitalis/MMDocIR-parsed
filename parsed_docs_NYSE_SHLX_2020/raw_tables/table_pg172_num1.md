@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="4">December31,</td></tr><tr><td>2020</td><td></td><td>2019</td><td></td></tr><tr><td>Shipper A</td><td>$ 9,265,464</td><td>50.0%</td><td>$ 13,956,228</td><td>58.0%</td></tr><tr><td>Shipper B</td><td>3,109,365</td><td>17.0 %</td><td>5,451,978</td><td>22.7 %</td></tr></table>

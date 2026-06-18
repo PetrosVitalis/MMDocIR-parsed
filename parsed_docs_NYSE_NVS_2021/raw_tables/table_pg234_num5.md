@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td></tr><tr><td>Total gross trade receivables</td><td>8088</td><td>8310</td></tr><tr><td>Provisions for doubtful trade receivables</td><td>-83</td><td>-93</td></tr><tr><td>Total trade receivables, net</td><td>8 005</td><td>8 217</td></tr></table>

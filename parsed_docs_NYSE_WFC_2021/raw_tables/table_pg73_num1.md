@@ -1,0 +1,1 @@
+<table><tr><td>(in millions)</td><td>December 31,2021</td><td>December 31,2020</td></tr><tr><td>Federal funds purchased and securities sold under agreements to repurchase</td><td></td><td>46,362</td></tr><tr><td>Other short-term borrowings</td><td>13,218</td><td>12,637</td></tr><tr><td>Total</td><td>34,409</td><td>58,999</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>We Back Our Customers</td><td>We Embrace Diversity</td></tr><tr><td>We Make It Great</td><td>We Stand for Inclusion</td></tr><tr><td>We Do What&#x27;s Right</td><td>We Win as A Team</td></tr><tr><td>We Respect People</td><td>We Support Our Communities</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>($ millions)</td><td rowspan=1 colspan=1>Adjusted FreeCash Flow</td><td rowspan=1 colspan=1>NetEarnings</td><td rowspan=1 colspan=1>Adjusted FreeCash FlowProductivity</td></tr><tr><td rowspan=1 colspan=1>FY2022</td><td rowspan=1 colspan=1>$13,792</td><td rowspan=1 colspan=1>$14,793</td><td rowspan=1 colspan=1>93%</td></tr></table>

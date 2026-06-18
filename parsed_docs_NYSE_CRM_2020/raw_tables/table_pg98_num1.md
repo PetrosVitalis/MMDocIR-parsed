@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Fair Value</td></tr><tr><td>Cash</td><td>$ 1</td></tr><tr><td>Common stock issued Fair value of stock options and restricted stock awards</td><td>14,552</td></tr><tr><td>assumed</td><td>292</td></tr><tr><td>Total</td><td>$14,845</td></tr></table>

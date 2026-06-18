@@ -1,0 +1,1 @@
+<table><tr><td>At December 31, 20201</td></tr><tr><td>$in millions To be recognized in:</td></tr><tr><td>2021 $ 383</td></tr><tr><td>2022 159</td></tr><tr><td>Thereafter 28</td></tr><tr><td>Total $ 570</td></tr></table>

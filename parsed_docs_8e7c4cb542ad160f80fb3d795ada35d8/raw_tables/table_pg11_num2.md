@@ -1,0 +1,1 @@
+<table><tr><td>All CDs in NYC</td><td>CDs with Upzoned Lots*</td><td>CDs with Downzoned Lots*</td><td>CDs with Contextual-only Rezoned Lots*</td></tr><tr><td>757</td><td>723</td><td>546</td><td>968</td></tr></table>

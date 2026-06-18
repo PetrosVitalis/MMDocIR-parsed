@@ -1,0 +1,39 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_2020.findings-emnlp.139",
+  "total_images": 6,
+  "non_figure_images_skipped": 23,
+  "processed": 6,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_6_Figure_0.jpg",
+      "output": "image_descriptions/_page_6_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Asset_1.jpg",
+      "output": "image_descriptions/_page_10_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Asset_0.jpg",
+      "output": "image_descriptions/_page_10_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_1.jpg",
+      "output": "image_descriptions/_page_11_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_0.jpg",
+      "output": "image_descriptions/_page_11_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Figure_0.jpg",
+      "output": "image_descriptions/_page_3_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<table><tr><td>SI. No.</td><td>Date</td><td>Committee Strength</td><td>No.of Members present</td></tr><tr><td>1</td><td>25th &amp; 26th May， 2006</td><td>5</td><td>4</td></tr><tr><td>2</td><td>21st July, 2006</td><td>5</td><td>4</td></tr><tr><td>3</td><td>29th &amp; 30th October,2006</td><td>5</td><td>5</td></tr></table>

@@ -1,0 +1,5 @@
+,SST-2,SST-5
+Model,Acc,Acc
+$\mathbf { B E R T + C E }$,94.90,55.57
+$\mathrm { B E R T + D L }$,94.37,54.63
+$\mathrm { B E R T + D S C }$,94.84,55.19

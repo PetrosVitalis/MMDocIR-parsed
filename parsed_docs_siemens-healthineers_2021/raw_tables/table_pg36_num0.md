@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">Fiscal year</td></tr><tr><td>(in millions of €)</td><td>2021</td><td>2020</td></tr><tr><td>Cash flows from:</td><td></td><td></td></tr><tr><td>Operating activities</td><td>952</td><td>1,188</td></tr><tr><td>Investing activities</td><td>-14,009</td><td>-1,000</td></tr><tr><td>Financing activities</td><td>9,613</td><td>1,834</td></tr></table>

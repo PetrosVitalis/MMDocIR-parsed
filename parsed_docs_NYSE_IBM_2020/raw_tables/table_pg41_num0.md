@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Additions/ (Releases) **</td><td>Write-offs +</td><td>Other ++</td><td></td></tr><tr><td>January1,2020* $612</td><td></td><td>$(85)</td><td>$10</td><td>December31,2020</td></tr><tr><td></td><td>$108</td><td></td><td></td><td>$644</td></tr></table>

@@ -1,0 +1,4 @@
+Model,Dev,Dev,Dev,Dev,Test,Test,Test,Test
+Model,MRR,P,R,F1,MRR,P,R,F1
+AttentiveNER,0.221,53.7,15.0,23.5,0.223,54.2,15.2,23.7
+Our Model,0.229,48.1,23.2,31.3,0.234,47.1,24.2,32.0

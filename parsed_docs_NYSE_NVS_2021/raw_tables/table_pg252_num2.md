@@ -1,0 +1,1 @@
+<table><tr><td colspan="5">Amounts recognized in the consolidated balance sheet</td></tr><tr><td>Prepaid benefit cost</td><td>1415</td><td>202</td><td></td><td></td></tr><tr><td>Accrued benefit liability</td><td>-2 640</td><td>-3 538</td><td>-487</td><td>-543</td></tr></table>

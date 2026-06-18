@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2019 RMB&#x27;million</td><td>2020 RMB&#x27;million</td><td>2021 RMB&#x27;million</td></tr><tr><td> Short-term employee benefits</td><td>65</td><td>62</td><td>70</td></tr><tr><td> Share-based compensation</td><td>233</td><td>205</td><td>153</td></tr><tr><td></td><td>298</td><td>267</td><td>223</td></tr></table>

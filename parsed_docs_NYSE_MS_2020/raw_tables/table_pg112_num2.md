@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions 2020 2019 2018</td></tr><tr><td>Trading revenues $(5,135) $ (6,932) $ 2,679</td></tr><tr><td>Interest expense 341 375 321</td></tr><tr><td>Net revenues1 $ (5,476) $ (7,307) $ 2,358</td></tr></table>

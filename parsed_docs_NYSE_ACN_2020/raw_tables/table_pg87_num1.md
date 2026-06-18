@@ -1,0 +1,1 @@
+<table><tr><td></td><td> August 31, 2020</td><td>August 31, 2019</td><td></td></tr><tr><td>Net derivative assets</td><td>$ 129,520</td><td>$</td><td>88,811</td></tr><tr><td>Net derivative liabilities</td><td></td><td>13,789</td><td>37,985</td></tr><tr><td>Total fair value</td><td>$</td><td>115,731 $</td><td>50,826</td></tr></table>

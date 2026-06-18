@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">(12) Predicted metallurgical recoveries for the projects were:</td></tr><tr><td>Deposit</td><td>Metallurgicalrecovery</td></tr><tr><td>Leinster UG</td><td>88%</td></tr></table>

@@ -1,0 +1,5 @@
+Domain,Hotel,Train,Restaurant,Attraction,Taxi
+Slots,price rangetypeparkingbook staybook daybook peopleareastarsinternetname,destinationdaydeparturearrive bybook peopleleave at,foodprice rangeareanamebook timebook daybook people,areanametype,leave atdestinationdeparturearrive by
+Train,3381,3103,3813,2717,1654
+Validation,416,484,438,401,207
+Test,394,494,437,395,195

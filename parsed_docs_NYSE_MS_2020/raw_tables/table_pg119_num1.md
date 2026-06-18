@@ -1,0 +1,1 @@
+<table><tr><td>$inmillions</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Gross realized gains</td><td>$</td><td>168 $</td><td>113 $ 12</td></tr><tr><td>Gross realized (losses)</td><td></td><td>(31)</td><td>(10) (4)</td></tr><tr><td>Total&#x27;</td><td>$</td><td>137$</td><td>103$ 8</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">Year Ended December</td><td rowspan="2">%of consolidated net revenues</td><td colspan="3">Year Ended December 31,2018</td><td rowspan="2">consolidated Increase (Decrease) 1% $ (97)</td></tr><tr><td>Interest and other expense (income), net</td><td>31,2019 $</td><td>(26)</td><td>1% $</td><td>net revenues 71</td></tr></table>

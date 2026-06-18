@@ -1,0 +1,8 @@
+Name,Size (train/dev/test),Tokens,Comp?
+Evidence Inference,7958 / 972 / 959,4761,∅
+BoolQ,6363 / 1491 / 2817,3583,∅
+Movie Reviews,1600 / 200 / 200,774,◆
+FEVER,97957 / 6122 / 6111,327,
+MultiRC,24029 / 3214 / 4848,303,✓
+CoS-E,8733 / 1092 / 1092,28,✓
+e-SNLI,911938 / 16449 / 16429,16,✓

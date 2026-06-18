@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td>Spain</td><td>0.23%</td><td>0.63%</td></tr><tr><td>Rest of Europe</td><td>0.91%</td><td>0.94%</td></tr><tr><td>Americas</td><td>3.80%</td><td>3.53%</td></tr><tr><td>Asia and rest of the world</td><td>2.03%</td><td>2.86%</td></tr></table>

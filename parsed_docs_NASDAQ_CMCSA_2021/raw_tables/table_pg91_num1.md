@@ -1,0 +1,1 @@
+<table><tr><td>December 31 (in millions)</td><td></td><td>2021</td><td>2020</td></tr><tr><td>United States</td><td>$</td><td>41,187 $</td><td>40,580</td></tr><tr><td>Other</td><td></td><td>12,860</td><td>11,415</td></tr><tr><td>Property and equipment, net</td><td>$</td><td>54,047 $</td><td>51,995</td></tr></table>

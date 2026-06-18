@@ -1,0 +1,1 @@
+<table><tr><td>Rating Agency</td><td>Rating</td><td>Outlook</td></tr><tr><td>Standard&amp;Poor&#x27;s</td><td>BBB+</td><td>Stable</td></tr><tr><td>Moody&#x27;s</td><td>A3</td><td>Stable</td></tr></table>

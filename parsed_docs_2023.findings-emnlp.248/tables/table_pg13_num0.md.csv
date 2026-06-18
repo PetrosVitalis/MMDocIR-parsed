@@ -1,0 +1,11 @@
+Name,FOL Notation
+Constant,lowercase letters
+Variable,"一 $x , y , z , \cdots$"
+Atom,"一 $P ( a _ { 1 } , \cdots , a _ { n } )$"
+Negation,-P
+Conjunction,"$P _ { 1 } \land P _ { 2 }$ $P _ { 1 } { \land } , \cdots , { \land } P _ { n }$"
+Disjunction,"$P _ { 1 } \lor P _ { 2 }$ $P _ { 1 } \lor , \cdots , \lor P _ { n }$"
+Implication,$P _ { 1 } P _ { 2 }$
+Equivalence,$P _ { 1 } P _ { 2 }$
+Existential Quantifier,"$\exists x P ( x , \cdots )$"
+Universal Quantifier,"$\forall x P ( x , \cdots )$"

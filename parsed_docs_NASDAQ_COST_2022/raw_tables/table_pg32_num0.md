@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">Provision for income taxes</td><td>2022</td><td rowspan="2"></td><td rowspan="2">2021</td><td rowspan="2"></td><td>2020</td></tr><tr><td>$ 1,925 $</td><td>1,601</td><td>1,308</td></tr><tr><td>Effective taxrate</td><td>24.6 %</td><td></td><td>24.0 %</td><td>$</td><td>24.4 %</td></tr></table>

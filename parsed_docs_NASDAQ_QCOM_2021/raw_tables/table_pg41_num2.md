@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3">2021</td></tr><tr><td>$</td><td>7,176</td><td>2020 5,975</td><td>Change</td></tr><tr><td>Research and development % of revenues</td><td>21%</td><td>$ 25%</td><td>$ 1,201</td></tr></table>

@@ -1,0 +1,6 @@
+dataset,Question,Answer
+MMLU Physics,"A point charge, Q1 = +1 mC, is fixed at the origin. How much work is required to move another charge, Q2 = +8 μC, from the point (0, 4 meters) to the point (3 meters, 0)?","Sure, let's think step by step. 1. Calculate the electric potential energy of Q2 at the initial position. The electric potential energy (U) of a point charge Q2 at a distance r from another point charge Q1 is given by the following equation: U = k * Q1 * Q2 / r, where k is Coulomb's constant. Therefore, the electric potential energy of Q2 at the initial position is: U_initial = (9 × 10^9 Nm^2/C^2) * (1 × 10^-3 C) * (8 × 10^-6 C) / 4m = 18 J 2. Calculate the electric potential energy of Q2 at the final position. The electric potential energy of Q2 at the final position is: U_final = (9 × 10^9 Nm^2/C^2) * (1 × 10^-3 C) * (8 × 10^-6 C) / 3m = 24 J 3. Calculate the work required to move Q2 from the initial position to the final position. The work (W) required to move a charge from one position to another is equal to the change in electric potential energy (∆U) between the two positions. W = ∆U = U_final - U_initial = 24 J - 18 J = 6 J Therefore, the answer is 1) 6.0 J."
+,0) 3.5 J,
+,1) 6.0 J,
+,2) 22.5 J,
+,3) 40 J,

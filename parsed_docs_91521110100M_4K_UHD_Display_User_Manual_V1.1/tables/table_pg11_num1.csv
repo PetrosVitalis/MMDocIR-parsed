@@ -1,0 +1,11 @@
+Brightness,Adjusts the overall image and background brightness,Value: 0-100
+Contrast,Adjusts the image contrast in relationship to the background,Value: 0-100
+Sharpness,Adjusts the crispness of the image,Value: 0 to 4
+ADC Brightness,Adjusts the Auto Display Control (ADC) brightness,Value: 0-100
+Temperature,Adjusts the color temperature of the entire screen.,"USER/5600/6500/7600/9300,Note: low color temperature makes the screen reddish.,High color temperature makes the screen bluish."
+Color Control,"Adjusts the level of red, green, blue, yellow, magenta, and cyan colors","RGB Slide Bar,Value: 0-100"
+Gamma,Select a display gamma value for best picture quality.,"Native 1.8 / 2.0 / 2.2 / 2.4 / DICOM (Optional),*DICOM Can be calibrated using optional calibration software"
+Scheme Adjust,Select scheme for different default setting combination.,Adjust the appearance of the Active Scheme
+Hue,Adjust the level of hue,Value: 0-100
+Saturation,Adjust the level of saturation,Value: 0-100
+Region,Select the multi-source,"1P,1/2P,2/2P ,1+2/2P,1/4P,2+3+4/4P,2/4P, 1+3+4/4P,3/4P, 1+2+4/4P,4/4P,1+2+3/4P,1+2+3+4/4P"

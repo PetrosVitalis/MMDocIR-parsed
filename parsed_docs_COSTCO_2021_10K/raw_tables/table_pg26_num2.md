@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">2021</td><td colspan="2">2020</td><td colspan="2">2019</td></tr><tr><td> Interest expense</td><td>$</td><td>171</td><td>$</td><td>160</td><td>$</td><td>150</td></tr></table>

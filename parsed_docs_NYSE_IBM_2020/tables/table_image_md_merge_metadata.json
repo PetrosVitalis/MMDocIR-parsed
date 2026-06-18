@@ -1,0 +1,15 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NYSE_IBM_2020",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_16_Table_0.jpg",
+      "raw_md": "table_pg16_num0.md",
+      "csv_base": "table_pg16_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "deterministic_skip_reason": "missing_metadata",
+      "status": "vision_failed",
+      "vision_error": "Model timeout after 5s"
+    }
+  ]
+}

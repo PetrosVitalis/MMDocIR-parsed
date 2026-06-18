@@ -1,0 +1,772 @@
+<span id="page-0-0"></span>
+# Restrictions on Land Ownership by Foreigners in Selected Jurisdictions
+
+June 2023
+
+LL File No. 2023-022255   
+LRA-D-PUB-002612
+
+<span id="page-1-0"></span>
+This report is provided for reference purposes only.   
+It does not constitute legal advice and does not represent the official   
+opinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.
+
+<span id="page-2-0"></span>
+## Contents
+
+I. Introduction..   
+Figure 1: Restrictions on Land Ownership by Foreign Nationals .. 3   
+Map: Restrictions on Land Ownership by Foreign Nationals .. 4   
+Comparative Summary Table.. .. 5   
+II. Jurisdictional Surveys ... . 12   
+Argentina.... . 12   
+Australia ...... ..... 13   
+Austria ..... ..... 15   
+Belgium.... ... 16   
+Brazil .. .... 16   
+Canada... . 17   
+Chile ... ... 19   
+China... . 19   
+Egypt ...... ... 21   
+Finland... . 23   
+France... .. 24   
+Germany.... ... 24   
+Greece ....... ..... 24   
+India ..... .. 25   
+Indonesia .. . 28   
+Iran ... ... 30   
+Ireland.. . 32   
+Israel... . 32   
+Italy ... .. 34   
+Japan .... . 35   
+Mexico..... ... 36   
+Netherlands..... ..... 36   
+Nigeria ..... ..... 36   
+Norway.... .. 38   
+Philippines .. ... 38   
+Poland .... . 39   
+Portugal .. ..... 40   
+Russian Federation.. . 40   
+Saudi Arabia .... ... 42   
+South Africa .. .. 43   
+South Korea... ... 43   
+Spain ..... .. 44   
+Sweden ...... ..... 45   
+Switzerland ... ..... 46   
+Taiwan ..... .... 47   
+Thailand... ... 48   
+Turkey.... .. 50   
+United Arab Emirates... ...... 51   
+United Kingdom . 52
+
+<span id="page-4-0"></span>
+# Restrictions on Land Ownership by Foreigners in Selected Jurisdictions
+
+Staff of the Global Legal Research Directorate
+
+## I. Introduction
+
+This report, prepared by the research staff of the Law Library of Congress, surveys 39 jurisdictions regarding whether, and if so how, they restrict ownership of land by foreigners.1 The jurisdictions surveyed were among those with the highest gross domestic product according to 2021 World Bank data, selected to ensure broadly representative coverage.2
+
+We identified 10 countries that do not restrict land ownership by foreigners: Belgium, France, Germany, Ireland, Japan, the Netherlands, Norway, Portugal, Sweden, and the United Kingdom.
+
+We found that the following countries do not permit foreign ownership of land, although exceptions may apply in some cases or other rights to land may be acquired: China, Indonesia, Nigeria, Philippines, and Thailand.
+
+Among the other jurisdictions surveyed, some have restrictions that apply to different types of land, including agricultural, residential, and commercial land. Other types of restriction are based on the location of the land, such as near the border or military establishments. Some jurisdictions restrict particular categories of foreigners from land ownership. Some require special permission or approval for foreigners before they can acquire land.
+
+Ownership of agricultural land by foreigners is restricted by some provinces of Canada, and by Egypt, India (restricted for diplomatic personnel, nonresidents of Indian origin and nonresident citizens without registration), Iran, Poland (permit required), and Russia. Argentina, Brazil, and Turkey restrict ownership of rural or local land to a percentage of the total land of the local jurisdiction.
+
+Article XVII of the General Agreement on Trade in Services (GATS) obligates members to provide national treatment to other members, i.e., “treatment no less favourable than that it accords to its own.”3 If land ownership restrictions result in less favorable treatment of foreigners, GATS members should specify this in their schedule of specific commitments.4 Reservation of the ability to lease or own land to nationals is one such treatment; therefore, it should be listed in the schedule as a limitation on national treatment.5 This applies to services that the GATS covers.6
+
+<span id="page-5-0"></span>
+Some jurisdictions do not list foreign land ownership on their schedules, but restrict it for national security or similar interests.7 Such jurisdictions include Australia and Finland (national interest), Chile and Greece (border area), Russia (national security), and Spain (zones of interest to national defense and the military). Several other jurisdictions that also restrict ownership for national security purposes have entered restrictions on their GATS schedules. Such jurisdictions include Argentina and Mexico (border area), Iran (sensitive areas), South Korea (military bases and installation protection zones), Taiwan (lands within fortified and military areas and adjacent to the national frontiers), and Turkey (designated military zones).
+
+There are other various restrictions on foreigners’ land ownership. Figure 1 below shows in simplified format the surveyed jurisdictions that impose particular categories of restrictions. On page 4, a color-coded map sets forth which jurisdictions permit foreign acquisition, prohibit it, or impose restrictions. A Comparative Summary Table beginning on page 5 presents the essential findings of our study for each jurisdiction. Lastly, the textual surveys for each jurisdiction provide further detail.
+
+<span id="page-6-0"></span>
+![](assets/_page_6_Figure_0.jpg)
+
+> **AI Description:**
+> **Source:** `assets/_page_6_Figure_0.jpg`
+> 
+> **Generated:** 2026-05-15 22:28:30
+> 
+> ---
+> 
+> The image is a Venn diagram with four overlapping circles representing different categories: Residential, Agricultural, Rural, and National Interest/Security. Each circle contains countries that fall under one or more of these categories. Countries like Canada, India, and Brazil are shown in the Residential and Agricultural sections. The diagram also includes annotations such as "Foreign Ownership Prohibited," "reciprocity condition," and "among other considerations for approval," which provide additional context to the categories. The diagram visually represents the intersection of various criteria for foreign investment or land ownership, highlighting countries that meet multiple conditions.
+
+
+Figure 1: Restrictions on Land Ownership by Foreign Nationals
+
+<span id="page-7-0"></span>
+## Restrictions on Land Ownership by Foreign Nationals
+
+
+<span id="page-8-0"></span>
+## Comparative Summary Table
+
+![](tables/table_pg8_num0.csv)
+
+<span id="page-15-0"></span>
+## II. Jurisdictional Surveys
+
+## Argentina
+
+The general rule is that natural and legal foreign nationals have the same rights as Argentine citizens to obtain property rights in the country, with exceptions established in Law No. 26.737 of 2011.8 This law prohibits foreign ownership of property that contains or borders large and permanent bodies of water and land located in border security zones.9
+
+Before acquiring rural land, a foreign person must ask the National Rural Land Registry to issue the corresponding enabling certificate.10 The agency will issue that certificate depending on the following restrictions:
+
+• The total percentage of foreign ownership of rural lands in the national, provincial, or departmental territory must not exceed 15%.11
+
+• Foreigners of the same nationality must not exceed 30% of the total limit on foreigners owning or possessing land.12
+
+• A foreign owner may not possess more than a certain number of hectares that varies according to where the rural lands are located, under a system of equivalences defined by the authorities.13
+
+The following individuals—not legal persons—of foreign nationality are exempt from these restrictions:
+
+• Those who have 10 years of continuous, permanent, and proven residence in the country.14
+
+• Those who have Argentine children and demonstrate a permanent, continuous, and proven residence in the country for five years.15
+
+• Those married to an Argentine citizen within five years before the constitution or transmission of the pertinent rights who demonstrate continuous, permanent, and proven residence in Argentina for the same term.16 Individuals in civil unions and individuals in marriages are treated equally under the exemption.17
+
+<span id="page-16-0"></span>
+## Australia
+
+The acquisition of land in Australia by foreign persons,18 including residential, commercial, and agricultural land, is subject to the Foreign Acquisitions and Takeovers Act 1975 (Cth) (FATA)19 and the Foreign Acquisitions and Takeovers Regulation 2015 (Cth) (Regulations). 20 The Australian Parliamentary Library, in a guide on foreign acquisition of residential land, explains that FATA regulates the following actions:
+
+a significant action being an action taken by a foreign person to acquire interests in securities, assets or Australian land (which includes residential land) provided that the threshold test is met [section 43]. Importantly, the threshold value for residential land has been set at \$0. An action is a significant action if it results in a change in control involving a foreign person   
+[section 39]
+
+a notifiable action being an action to acquire an interest in Australian land provided that the threshold test is met. Unlike significant actions, notifiable actions do not require a change in control [section 47] and
+
+a notifiable national security action being an action that is taken, or proposed to be taken, by a foreign person such as acquiring an interest in Australian land that, at the time of acquisition, is national security land (defined in section 5 of the Regulations) [section 55B].21
+
+Under the legislation, foreign persons generally require investment approval from the Treasurer
+
+• “before acquiring an interest in residential land, regardless of its value”
+
+“before acquiring an interest in agricultural land, where the cumulative value of their agricultural land holdings exceeds (or would exceed with the proposed investment) [AU]\$15 million [about US\$10 million]”
+
+• “before acquiring an interest in commercial land, where the value of that investment is above a certain monetary threshold”
+
+<span id="page-17-0"></span>
+• “before acquiring an interest in a tenement or the underlying land used to carry on a mining operation.”22
+
+The Treasurer receives recommendations on proposed investments from the Foreign Investment Review Board (FIRB).23 The Treasurer may make an order prohibiting a significant action that is found to be contrary to the national interest.24
+
+With respect to residential and agricultural land, the following notifications are required:25
+
+• “All acquisitions (and sales) of residential land by foreign persons must be notified to the Register of Foreign Ownership of Residential Land.”26
+
+“All acquisitions (and sales) of agricultural land by foreign persons, regardless of whether they required prior approval, must be registered on the Register of Foreign Ownership of Agricultural Land. Foreign persons must also separately notify the Government once they have acquired an interest in agricultural land that was the subject of a foreign investment approval.”27
+
+• “Foreign persons must also register certain interests they acquire in water entitlements and water rights on the Register of Foreign Ownership of Water Entitlements.”28
+
+In March 2023, the Australian Taxation Office, which administers the above-referenced foreign investment registers, announced that a new Register of Foreign Ownership of Australian Assets will commence in mid-2023 and will “replace existing foreign investment registers we manage (relating to agricultural and residential land, and water interests),” as well as “expand on assets to be registered.”29 This follows amendments made to FATA by the Foreign Investment Reform (Protecting Australia’s National Security) Act 2020 (Cth).30
+
+<span id="page-18-0"></span>
+The legislation and Australian government policies contain various detailed definitions, tests, exemptions, and practices with respect to land acquisition by foreign persons. 31 These are explained in several guidance notes produced by the FIRB.32 To ensure compliance with the obligations contained in the legislation, FATA “provides for a range of enforcement options, including criminal offenses and civil penalties.”33
+
+## Austria
+
+Foreign nationals who wish to acquire real property in Austria must obtain prior authorization. No restrictions apply to citizens from European Union (EU) and European Economic Area (EEA) countries.34 In addition, Austria has concluded bilateral agreements that exempt certain thirdcountry citizens from the prior authorization requirement.35
+
+The Austrian Federal Constitutional Act (Bundes-Verfassungsgesetz, B-VG) provides that the Austrian federal states are competent to legislate in all matters not expressly assigned to the Federation.36 Regulations for real property transactions of foreigners are explicitly exempt from the competency of the Federation, meaning the nine states have enacted different acts for the acquisition of real property by foreigners and requirements may vary.37 Some states have enacted specific acts for the acquisition of real property by foreign nationals, such as Vienna,38 whereas others have integrated provisions on foreign nationals into the general real property acquisition act, such as Tyrol.39 Some provinces, such as Styria, do not require an authorization for foreign nationals depending on the location of the property, for example no authorization is required in Graz, the capital of Styria.40
+
+In general, an authorization for the acquisition of real property by foreign nationals is granted if there is a “cultural, social or economic interest in concluding the legal transaction” and provided that it does not contradict national public policy interests, such as establishing a company to serve as a front for money laundering.41
+
+<span id="page-19-0"></span>
+## Belgium
+
+A search of relevant Belgian law did not reveal any regulation limiting foreigners’ rights to own land.
+
+## Brazil
+
+In Brazil, Law No. 5,709 of October 7, 2021, regulates the acquisition of rural property by an alien resident in the country or by a pessoa jurídica estrangeira (foreign company) authorized to operate there.42 Decree No. 74,965 of November 26, 1974, regulates Law No. 5,709,43 and states further that Brazilian companies in which foreign persons or companies hold the majority of its share capital and reside or have their headquarters abroad are also subject to the regime established by Decree No. 74,965.44
+
+The acquisition of rural property by an alien individual may not exceed 50 modules for indefinite exploration (Módulo de Exploração Indefinida, MEI), in a continuous or discontinuous area.45 In the case of a property with an area not exceeding three modules, the acquisition will be free, regardless of any authorization or license, subject to the general requirements determined by law.46 Article 3 § 2 states that the executive branch will issue rules for the acquisition of an area between three and 50 MEI.47
+
+Law No. 8,629 of February 25, 1993, provides for the regulation of constitutional provisions related to agrarian reform, as set forth in Chapter III, Title VII, of the Federal Constitution of 1988.48 According to article 23, foreigners residing in the country and legal entities authorized to operate in Brazil may only lease rural property pursuant to Law No. 5709, of October 7, 1971.49 All limits, restrictions, and conditions applicable to the acquisition of rural properties by aliens contained in Law No. 5,709, also apply to leasing.50 It is incumbent upon the National Congress to authorize either the acquisition or lease beyond the limits of area and percentage established in Law No. 5,709, of October 7, 1971, such as the acquisition or leasing, by a foreign company, of an area greater than 100 MEI.51
+
+<span id="page-20-0"></span>
+The sum of rural areas belonging to foreign persons, individuals or legal entities may not exceed a quarter of the surface of the municipalities where they are located, proven by a certificate from the Registro de Imóveis (Real Estate Registry).52 Persons of the same nationality may not own, in each municipality, more than 40% of this limit.53
+
+## Canada
+
+The Prohibition on the Purchase of Residential Property by Non-Canadians Act (PRPNCA), which came into force on January 1, 2023, states at section 4 that
+
+4 (1) Despite section 34 of the Citizenship Act, it is prohibited for a non-Canadian to purchase, directly or indirectly, any residential property.
+
+(2) Subsection (1) does not apply to
+
+(a) a temporary resident within the meaning of the Immigration and Refugee Protection Act who satisfies prescribed conditions;
+
+(b) a protected person within the meaning of subsection 95(2) of that Act;
+
+(c) an individual who is a non-Canadian and who purchases residential property in Canada with their spouse or common-law partner if the spouse or common law-partner is a Canadian citizen, person registered as an Indian under the Indian Act, permanent resident or person referred to in paragraph (a) or (b); or
+
+(d) a person of a prescribed class of persons.54
+
+Under the Prohibition on the Purchase of Residential Property by Non-Canadians Regulations promulgated by the government under section 8 of the PRPNCA exempts certain temporary residents from the general prohibition, namely
+
+(a) if they are enrolled in a program of authorized study at a designated learning institution, as defined in section 211.1 of the Immigration and Refugee Protection Regulations,
+
+<span id="page-21-0"></span>
+(i) they filed all required income tax returns under the Income Tax Act for each of the five taxation years preceding the year in which the purchase was made,
+
+(ii) they were physically present in Canada for a minimum of 244 days in each of the five calendar years preceding the year in which the purchase was made,
+
+(iii) the purchase price of the residential property does not exceed \$500,000, and
+
+(iv) they have not purchased more than one residential property; or
+
+(b) if they hold a work permit, as defined in section 2 of the Immigration and Refugee Protection Regulations, or are authorized to work in Canada under section 186 of those Regulations,
+
+(i) they have 183 days or more of validity remaining on their work permit or work authorization on the date of purchase, and
+
+(ii) they have not purchased more than one residential property.55
+
+The provisions also do not apply to permanent residents of Canada.
+
+Section 236 of the Budget Implementation Act, 2022, No.1 repeals the PRPNCA as of January 1, 2025.56
+
+Various provinces have restrictions on foreigners owning property. Many of these rules protect agricultural land, for example the Foreign Ownership of Land Regulations in Alberta, which excludes certain residential developments from the prohibition on the ownership of more than 20 hectares (approximately 50 acres) of land.57 Manitoba, Quebec, and Saskatchewan have similar restrictions.58
+
+In Prince Edward Island, the Lands Protection Act limits foreign land ownership to no more than five acres and a maximum shoreline of 165 feet, unless an exemption is given by the Lieutenant-Governor in Council (i.e. the provincial cabinet).59
+
+<span id="page-22-0"></span>
+## Chile
+
+The general rule is that natural and legal foreign nationals have the same rights as Chilean citizens to acquire property rights over land in the country. However, some exceptions in Chilean law restrict foreigners’ acquisition of real estate.
+
+Decree Law No. 1.939,60 which lays down rules on the acquisition, administration, and disposal of public property, establishes the following main limitations:
+
+• Public lands located up to 10 kilometers from the border may only be owned or leased by Chilean natural or legal persons.61
+
+Public lands located up to 5 kilometers from the coast may only be owned or leased by Chilean natural or legal persons, except that foreigners domiciled in Chile may do so subject to a favorable report from the Undersecretariat of the Navy.62
+
+Nationals of bordering countries, that is, Argentines, Bolivians, and Peruvians, may not acquire the domain and other property rights or possess tenancy of real estate located totally or partially in areas of the currently declared border, unless a presidential decree expressly exempts nationals of neighboring countries.63
+
+The prohibition described above also extends to companies or legal persons with their principal place of business in a neighboring country (Argentina, Bolivia, or Peru), or whose capital is 40% or more owned or whose effective control is in the hands of nationals of those countries.64 The president of the republic may expressly exempt nationals of neighboring countries from this prohibition.65
+
+## China
+
+Individuals cannot privately own land in the People’s Republic of China (PRC or China). According to the PRC Constitution, land in urban areas is owned by the state, whereas land in rural and suburban areas is owned by rural collectives, except where ownership belongs to the state according to law.66 The Land Management Law proclaims that the land of the PRC is subject to socialist public ownership, “namely, ownership by the whole people or collective ownership of the working masses.”67
+
+<span id="page-23-0"></span>
+In urban areas, the state grants (churang in Chinese, also translated as “assigns”) land use rights to land users for a certain number of years, where land users pay the state granting fees.68 Land use rights may also be allocated (huabo in Chinese), which is limited to such purposes as government or military use, urban infrastructure, or public utilities. For allocated land-use rights, land users pay no fee or only compensation or resettlement expenses.69 Foreign individuals and enterprises may obtain urban land use rights and engage in land development, unless otherwise provided by law, according to the Urban Land Assignment Regulations.70
+
+Individuals can privately own residential houses and apartments, although not the land on which the buildings and structures are situated.71 Foreign individuals who work or study in China as well as the branches and representative offices established by foreign entities in China may purchase residential houses or offices in China for their own use, according to a circular jointly issued by several central government authorities in 2015.72 In those cities that implement policies restricting house purchases, such policies also apply to foreign individuals.73
+
+Foreign individuals may also incorporate foreign-invested enterprises in accordance with the Foreign Investment Law to invest in real estate in China. 74 Anyone engaging in real estate development or other related activities in China, domestic or foreign, must obtain a qualification certification for real estate development enterprises from the government.75
+
+In rural areas, China has implemented a “contractual management system” regarding agricultural land.76 Agricultural land includes cultivated land, forestland, grassland, and other land in rural areas that is used for agricultural production according to law.77 Under the system, the members of a rural collective have the right to use agricultural land by entering into a contract with the rural collective economic organization or village committee. 78 After the land is contracted, ownership of the land remains unchanged, and the contracted land may not be purchased or sold.79 Because the “contractual management right” over agricultural land is, in principle, only granted to households of the collective, 80 no other individuals, domestic or foreign, can acquire the contractual management right.
+
+<span id="page-24-0"></span>
+The country is building a system of “circulating the land management right” regarding agricultural land. The system would allow the holder of the contractual management right, while still retaining that right, to transfer (“circulate”) the “land management right” to others by means permitted by law, such as a lease (subcontract).81 In January 2021, China’s Ministry of Agriculture and Rural Affairs (MARA) issued the Administrative Measures for the Circulation of Rural Land Management Right. The measures require the transferees of land management rights to be “organizations and individuals with agricultural management capabilities or qualifications,” and “under the same conditions, members of the collective economic organization enjoy priority.”82 While MARA’s measures do not specifically exclude foreign-invested enterprises or overseas investors as transferees, they would be subject to conditions provided by other laws and regulations.83
+
+## Egypt
+
+Law No. 230 of 1996 regulates the ownership of a foreign national to real properties and lands in Egypt for residential purposes. The Law sets a number of conditions governing the ownership of land or a residential property by a foreign national.84 Those conditions include the following:
+
+• A foreign national must not own more than two pieces of land or two real estate properties for residential purposes.85
+
+<span id="page-25-0"></span>
+• The size of the land or the property owned by the foreign national must not exceed 4,000 square meters.86
+
+• The property owned by the foreign national should not be considered as a land that includes an antiquity, which is regulated by the Antiquities Protection Law.87
+
+• A foreign national has no right to dispose of the owned property before five years of the purchase date of this property.88
+
+• A foreign national purchasing land for a residential purpose must begin the construction on this land within five years from the purchase date.89
+
+Prime Minister Resolution No. 548 of 2005 waives the restrictions under Law No. 230 of 1996 for the purpose of allowing foreigners seeking to acquire land and real estate in touristic areas, such as the city of Sharm El Sheik.90 Additionally, Prime Minister Resolution No. 548 stipulates that a foreigner national has the right to obtain a usufruct right of any property in an area allocated as touristic for a period of 99 years.91 However, before the foreign national purchases any piece of land or property in touristic areas, he or she must obtain the approval of the Ministry of Defense, Ministry of Interior, and the National Security Authority.92
+
+Law No. 143 of 1981 regulates the ownership of foreign entities and nationals to desert lands. Ownership of desert lands by foreigners must be a joint ownership with an Egyptian party. The Law limits the right to ownership of desert lands by foreign entities and foreign nationals to 49% and 51% by the Egyptian party.93
+
+Law No. 15 of 1963 prohibits the ownership of agriculture lands by foreign nationals.94 Moreover, Prime Minister Resolution No. 215 of 2017, on the ownership of land by foreigners in the Sinai Peninsula, prohibits the ownership of any properties and lands in Sinai by foreign nationals. It limits the ownership of land and properties in Sinai to Egyptian citizens who are born to an Egyptian mother and father.95
+
+<span id="page-26-0"></span>
+Law No. 72 of 2017 applies to Investment Zones, Technological Zones, or Free Zones. 96 Apparently, the law does not impose restrictions on the ownership of real properties and land located in the aforementioned zones by foreign nationals. Pursuant to Law No. 72 of 2017, a foreign investor has the right to own, manage, use, and dispose of the investment projects located in the aforementioned zones.97
+
+## Finland
+
+Finland does not restrict the purchase or sale of property to or from foreign legal persons or entities in general. 98 However, the Act on Monitoring of Foreigner’s Corporate Acquisitions specifies that a foreigner’s purchase of certain businesses with vital interests for Finland must receive prior approval from the Ministry of Economic Affairs and Employment before the purchase is completed. 99 This could include land. Businesses with vital interests for Finland include defense industry corporations, businesses that produce or supply critical products or services to Finnish government agencies, or a business or organization that is critical to securing vital functions of society.100 The Ministry must approve any sale in which a vital interest is at stake; further, it cannot deny applications where vital interests are not at risk.101
+
+However, the autonomous region of Åland (the Åland Islands), which is part of Finland but enjoys autonomy, restricts land ownership to Ålandic citizens (persons with Åländsk hembygdsrätt).102 In order to own land on Åland, a person must prove that he or she is a Finnish citizen, has lived on Åland for a minimum of five years, and speaks Swedish.103 A person without hembygdsrätt, including foreigners, can only acquire real property with the prior approval from the Government of Åland (Ålands landskapsregering).104
+
+Finland has made no reservation on land ownership under GATS XVII.105
+
+<span id="page-27-0"></span>
+## France
+
+A search of relevant French law did not reveal any regulation limiting foreigners’ rights to own land.
+
+## Germany
+
+Currently, Germany does not impose any restrictions on foreigners buying property in Germany. The Introductory Act to the Civil Code (Einführungsgesetz zum Bürgerlichen Gesetzbuche, EBGBG) provides that starting July 30, 1998, provisions that restrict the acquisition of property rights by foreigners or foreign legal persons or that make them dependent on obtaining prior authorization will no longer apply.106 However, the federal government, with the consent of the German Bundesrat, is authorized to enact ordinances imposing such restrictions on or requiring prior authorization from foreigners if the country in question imposes restrictions on Germans or German legal persons with regard to acquiring rights and foreign policy reasons, in particular the right to retorsion, require it.107 Such restrictions cannot be imposed on foreigners and foreign legal persons from the European Union.108 No such ordinance has been enacted.
+
+Articles 86 and 88 of the Introductory Act to the Civil Code used to provide that various state level laws that were enacted before the German Basic Law, the country’s constitution, entered into force in 1949 and imposed restrictions on foreigners buying property would remain in force.109 As a reason for amending the law, the German Bundestag (parliament) stated in 1998 that such restrictions “impede the relocation of foreign embassies [from Bonn] to Berlin and complicate negotiations with other countries to remove barriers for German companies to acquire property abroad.”110
+
+## Greece
+
+There appears to be no general prohibition on foreign persons’ acquisition of real property in Greece. The only legal restriction on acquisition of real property based on the owner’s nationality is provided in Law 1892/1990.111 This law designates certain localities and islands as “border areas” and prohibits the acquisition of real estate in these areas by non-Greek natural and legal persons. 112 Citizens of European Union (EU) member states and the member states of the European Free Trade Association (EFTA), and legal persons registered in these countries, are exempted from the prohibition. 113 Citizens of the non-exempted countries and legal persons registered in these countries may request a waiver from the prohibition by submitting an application to a committee established in each decentralized administration and which includes representatives of several governmental ministries, with the representative of the Ministry of National Defense having a veto right. 114 The committee may lift the prohibitions for certain transactions and limit the prohibitions in terms of value or location of the property, or specify terms or conditions for waivers.115 The acquisition of public property in border areas by legal entities registered in non-EU and non-EFTA countries for the purposes of privatization under Law 3986/2011 requires a special approval of the Ministry of National Defense.116
+
+<span id="page-28-0"></span>
+## India
+
+Restrictions on foreigners buying immovable property and agricultural land in India can be found in the Foreign Exchange Management Act (FEMA), 1999117 and its subsidiary regulation the Foreign Exchange Management (Acquisition and Transfer of Immovable Property in India) Regulations, 2018.118
+
+The Law appears to allow the Reserve Bank of India (RBI) to issue regulations to limit and restrict the ownership of immovable property. Below are some restrictions placed on foreigners and nonresident Indians.
+
+Section 4 of the 2018 Regulations stipulates that “No person being a citizen of Pakistan, Bangladesh, Sri Lanka, Afghanistan, China, Iran, Nepal or Bhutan shall acquire or transfer immovable property in India, other than lease, not exceeding five years without prior permission of Reserve Bank.”119 However, certain minorities from these countries who have a long term visa appear to make an exception, as follows:
+
+<span id="page-29-0"></span>
+[a] person being a citizen of Afghanistan, Bangladesh or Pakistan belonging to minority communities in those countries, namely, Hindus, Sikhs, Buddhists, Jains, Parsis and Christians who is residing in India and has been granted a Long Term Visa (LTV) by the Central Government may purchase only one residential immovable property in India as dwelling unit for self-occupation and only one immovable property for carrying out selfemployment subject to the following conditions:
+
+a. the property should not be located in and around restricted/protected areas so notified by the Central Government and cantonment areas;
+
+b. the person submits a declaration to the Revenue Authority of the district where the property is located, specifying the source of funds and that he/she is residing in India on LTV;
+
+c. the registration documents of the property should mention the nationality and the fact that such person is on LTV;
+
+d. the property of such person may be attached/confiscated in the event of his/her indulgence in anti-India activities;
+
+e. a copy of the documents of the purchased property shall be submitted to the Deputy Commissioner of Police (DCP)/Foreigners Registration Office (FRO)/Foreigners Regional Registration Office (FRRO) concerned and to the Ministry of Home Affairs (Foreigners Division);
+
+f. such person shall be eligible to sell the property only after acquiring Indian citizenship. However, transfer of the property before acquiring Indian citizenship shall require prior approval of DCP/FRO/FRRO concerned.120
+
+## According to the Ministry of Foreign Affairs
+
+[f]oreign nationals of non-Indian origin resident outside India are not permitted to acquire any immovable property in India unless such property is acquired by way of inheritance from a person who was resident in India. Foreign Nationals of non Indian origin who have acquired immovable property in India by way of inheritance with the specific approval of RBI can not transfer such property without prior permission of RBI.121
+
+This rule appears to be derived by Section 6(5) of the Act, which allows a person residing outside of India to hold immovable property in India if it was acquired when the person was resident in India
+
+(5) A person resident outside India may hold, own, transfer or invest in Indian currency, security or any immovable property situated in India if such currency, security or property was acquired, held or owned by such person when he was resident in India or inherited from a person who was resident in India.122
+
+Diplomatic personal associated with a foreign embassy or consulate in India are allowed to purchase and sell immovable property in India other than agricultural land, plantation property, and farm house, provided that
+
+<span id="page-30-0"></span>
+(i) clearance from Government of India, Ministry of External Affairs is obtained for such purchase/sale, and
+
+(ii) the consideration for acquisition of immovable property in India is paid out of funds remitted from abroad through banking channel.123
+
+According to the Ministry of External Affairs, a person resident outside India who is a person of Indian Origin (PIO) can acquire any immovable property in India other than agricultural land, farm house, and plantation property
+
+i. By way of purchase out of funds received by way of inward remittance through normal banking channels or by debit to his NRE/FCNR(B)/NRO account.
+
+ii. By way of gift from a person resident in India or a NRI or a PIO. By way of inheritance from any a person resident in India or a person resident outside India who had acquired such property in accordance with the provisions of the foreign exchange law in force or FEMA regulations at the time of acquisition of the property. A PIO may transfer any immoveable property other than agricultural land/Plantation property/farm house in India
+
+a) By way of sale to a person resident in India.
+
+b) By way of gift to a person resident in India or a Non resident Indian or a PIO. A PIO may transfer agricultural land / Plantation property / farm house in India by way of sale or gift to person resident in India who is a citizen of India.124
+
+An Indian citizen residing outside India is designated as a Non-resident Indian (NRI). Overseas Citizen of India (OCI), on the other hand, refers to an Indian citizen residing outside India who is registered as an Overseas Citizen of India Cardholder under India’s Citizenship law. The OCI cardholder has certain rights and benefits including lifelong visa to visit India, “exemption from reporting to Police authorities for any length of stay in India” and certain financial, economic and educational benefits.125 Section 3 of the 2018 Regulations apply to NRIs and OCIs.126 According to the Ministry of External Affairs
+
+[a] person resident outside India who is a citizen of India (NRI) can acquire by way of purchase, any immovable property in India other than agricultural land/plantation property/farm house. He can transfer any immovable property other than agricultural or plantation property or farm house to:
+
+a) A person resident outside India who is a citizen of India or
+
+b) A person of Indian origin resident outside India or c) A person resident in India. He may transfer agricultural land/plantation property/farm house acquired by way of inheritance, only to Indian citizens permanently residing in India.127
+
+<span id="page-31-0"></span>
+## Indonesia
+
+The Indonesian Agrarian Law (Law No. 5 of 1960 on Basic Agrarian Principles128) provides for different types of land ownership.129 Two of the strongest rights, Ownership Right (Hak Malik or HM) and Right to Build (Hak Guna Bangunan or HGB) are not available to foreign individuals.130 In addition, the Cultivation Right (Hak Guna Usaha or HGU) can only be obtained by Indonesian citizens and legal entities established under Indonesian law and domiciled in Indonesia.131 HM land is owned exclusively by Indonesian individuals, whose right is considered inheritable.132 HGB is the right to establish and have buildings on particular land; the land is not owned by the building owner.133
+
+Resident foreigners and foreign legal entities with representation in Indonesia can obtain a Utilization Right (Hak Pakai or HP)134 and Lease Right (Hak Sewa).135
+
+A 2021 government regulation (Government Regulation No. 18 of 2021 on Right of Land Management, Land Rights, Condominium Units, and Land Registration136 (GR 18/2021)) “made it easier for foreigners to own real estate” in Indonesia. 137 Under this regulation, a resident foreigner138 can hold HP over HM land, HP over state land, or HP originating from the conversion of HM or HGB.139
+
+<span id="page-32-0"></span>
+## An ASEAN briefing on the regulation states that
+
+[a] notable provision under GR 18/2021 stipulates that foreigners and foreign legal entities can now own apartments and landed houses. However, foreigners will only be able to own apartments located in special economic zones, free trade zones, industrial estates, and other economic zones. Further, the property must be worth more than the minimum threshold – which differs depending on the province where the property is located.140
+
+The briefing further explains that
+
+[t]here are two types of right to use (HP) titles:
+
+Right to use within a certain period; and
+
+Right to use for land used for specific purposes.
+
+This land title usually refers to the right to use/harvest land directly owned by the state or private land. This land could also be used for a building site in addition to agricultural purposes.
+
+The right to use the title for a certain period can be granted to foreign legal entities that have a representative office, foreign citizens, as well as local entities and citizens. This encompasses state land, freehold title land, and the right to manage land.
+
+If granted for state land and the right to manage land, the title is for a maximum term of 30 years and extendable for another 20. Once the time period expires, the title can be extended for another 30 years (total 80 years). Previously, an HP title could only be granted for 25 years, and extended for another 20 years, before another renewal of 25 years (total 70 years).
+
+The right to build (HGB) is a title that is granted over state or freehold land to Indonesian citizens and foreign companies (PT PMA) for the purpose of erecting or using a building on the land. The maximum term for an HGB title is 30 years and is extendable for another 20 years. Once this expires, it can be renewed again for another 30 years (80 years in total).
+
+The right to cultivate (HGU) is normally granted to state land for the development of plantations and can be granted to foreign companies. The maximum term for this land title is 35 years and is extendable for another 25 years. Upon expiry, this can then be extended by another 35 years.
+
+GR 18/2021 requires that HGU, HGB, and HP title holders must commence activities on the land, whether building construction, cultivation, or other use of land, within two years of the title being granted.141
+
+“PT PMA” refers to foreign investment companies (Penanaman Modal Asing). Such companies are domiciled and established under the laws of Indonesia and have one or more foreign shareholders.142 Therefore, although a foreign individual cannot own land, “any foreign investor can “purchase” land leases through their PMA company thereafter such PMA company will be the party in the sale-and-purchase agreement.”143 As noted above, under the 2021 regulation, an HM holder can grant HGB over the land to such companies for up to a total of 80 years.144
+
+<span id="page-33-0"></span>
+A Baker McKenzie real estate guide provides additional information on the ability for foreign residents to obtain HP with respect to residential property:
+
+[u]nder the new HP related regulations, if a house or apartment currently under HM or HGB title is purchased by a resident foreigner, then the conversion of the title to become HP will automatically happen, and if the house or apartment is then transferred to an Indonesian, the title can be re-converted to a HM and HGB title.
+
+If a resident foreigner buys a residential property (built on land with HGB title), the title of the residential property will be deemed to be converted into HP upon the signing of the sale and purchase document before a PPAT [land deed official, Pejabat Pembuat Akta Tanah]. The PPAT will then register the transaction at the relevant Land Office so that the Land Office can manually update the title certificate to reflect the change of the residential property from HGB to HP.
+
+For strata title apartments or HMSRS, the title of the underlying land will remain HGB title. So upon a purchase by a resident foreigner, only that particular unit will be converted into a HP strata title (Hak Pakai Atas Satuan Rumah Susun). Only if all apartment units are owned by resident foreigners can the underlying land be converted to HP title.
+
+The government stipulates minimum prices for houses or apartments that can be purchased by resident foreigners depending on the location of the house or apartment. For example, in Jakarta the price of a house must be IDR 10 billion or more while for an apartment it must be IDR 3 billion or more. For the Banten and Bali provinces, the price of a house must be IDR 5 billion or more while for an apartment IDR 2 billion or more.
+
+Resident foreigners (except for foreign country representatives or international agency representatives) can only have one plot of land per person/family and the maximum land area is 2,000 square meters (which can be increased subject to approval from the Minister of Agrarian Affairs and Spatial Planning/Head of Land Office).145
+
+## Iran
+
+Iranian laws provide for restriction of foreigners’ ownership rights, usually depending on reciprocity and bilateral agreements with foreign countries. Ownership of agricultural lands, investment properties, and land in sensitive areas, including free trade-industrial zones, is prohibited.146 However, foreign-owned companies registered in Iran as resident legal entities are exempt from most of the restrictions. It appears that there is no differentiation between the ownership rights of foreign nationals generally and those of citizens of particular countries. As a general principle, the Iranian Constitution prohibits any agreements that could result in domination and control of the country’s economic, cultural, natural, military, and other resources by foreign nationals or governments.147 Stricter measures are imposed against Iranian nationals who obtain dual citizenship without the Iranian government’s permission. They lose all their rights to real estate properties in Iran. These properties will be sold under the supervision of the local public prosecutor, and the proceeds will be paid to the dual citizens after deduction of the expenses of the sale.148
+
+<span id="page-34-0"></span>
+The Civil Code does not directly establish foreign nationals’ ownership rights pertaining to immovable properties; however, it implies that such rights are possible with some limitations, which should be explicitly provided by national laws. According to the Foreign Nationals Ownership Regulations of 1949, foreign nationals legally resident in Iran can petition the General Bureau for Registration of Deeds and Landed Properties for permission to purchase real estate for residential or business purposes. Foreign legal persons that are registered in Iran can submit similar applications for purchasing real estate. 149 Foreign citizens who change their resident status in Iran and move out of the country should transfer their real estate rights to an Iranian citizen within six months of moving. Otherwise, the government will hold a real estate auction and provide the remittances to the foreign national owners or their heirs. The sale option is not required if the foreign national is from a country that liberally allows property ownership rights to Iranian nationals.150
+
+Inherited property can be transferred to non-Iranian heirs of foreign nationals, if the application is filed within two years of the passing of the original foreign national owner. Otherwise, the property will be auctioned, and the remittances will be given to the heirs after deduction of the costs.151
+
+Nonresident foreigners (visitors) who have regularly and continually traveled to Iran for recreational purposes throughout the years can apply for permission to purchase real estate suitable for their living needs in Iran without obtaining a resident permit. The property cannot be an investment property, and its purchase is subject to approval from the Ministries of Foreign Affairs, Interior, and Intelligence and the Council of Ministers.152
+
+<span id="page-35-0"></span>
+The Law on Foreign Nationals Immovable Properties of 1931 (1310 Solar Year) forbade ownership of any agricultural immovable properties by foreign nationals, which include agricultural irrigation canals and spring waters. Foreign nationals who inherit agricultural land must put it up for auction according to the law. Another real estate ownership ban extends to real estate in Iranian Muslim holy sites. According to the Law on Protection of Schemes for Improvement/Renovation of the Muslim Holy Sites of 2006, the government can approve the sale of up to 4% of real estate properties in these areas, and only to Muslim foreign nationals for residential developmental projects.153
+
+## Ireland
+
+There appear to be no prohibitions on the foreign ownership of property across the Republic of Ireland and a search of GATTS XVII reveals no reservations on land ownership in the country.154 There is a distinction in the payment of taxes between nonresident and resident landlords. Tenants of nonresident owners are required to hold 20% of the annual rent and pay this withholding tax directly to Revenue, 155 unless a resident person acts as a collection agent. Collection agents may deduct the withholding tax from the rent paid and remit this, and other information, to Revenue.156
+
+## Israel
+
+The Basic Law: Israel Lands prohibits the transfer of “Israel’s lands” by sale or by any other way, except with regard to “categories of real estate and categories of transactions prescribed on this matter by law.”157 “Israel’s lands” consist of “the real estate belonging to the State, [to] the Development Authority, or [to] the Jewish National Fund.”158
+
+The Israel Lands Authority manages Israeli lands based on policies issued by the Israel Lands Council (ILC), which is appointed by the government.159 The grant or transfer of rights in Israeli lands to a foreigner requires approval by the ILC in accordance with procedures issued by the
+
+<span id="page-36-0"></span>
+ILC.160 The Israel Land Law, 5720-1960161 defines a “foreigner” as a person who is not an Israeli citizen or a resident; not eligible to immigrate to Israel under the Law of Return 5710-1950;162 or is a corporation, the control of which is vested in an individual or a group who is either of the above, or anybody acting on their behalf.163
+
+The ILC chair may approve a request for purchase or transfer of rights in land to a foreigner, based on the recommendation of the ILC subcommittee, and after consultation with the Minister of Defense and the Minister of Foreign Affairs, and other entities as relevant, depending on the designation of the land and the identity of the applicant.164
+
+In reviewing an application, the ILC chair must consider
+
+(a) the public welfare and security;
+
+(b) the foreigner’s connection to Israel, including his personal data, his periods of residence in Israel and his family proximity to a non-foreigner;
+
+(c) the purpose for which the foreigner wishes the land to be vested or transferred to him;
+
+(d) the extent of the land purchased by such foreigner or transferred to him, prior to the date of the application;
+
+(e) the characteristics of the requested land, including the size of the requested area, the location and purpose of the land . . . .165
+
+The Director of the ILC or the director’s designee may further approve the acquisition or transfer of rights in Israeli lands to a foreigner who is not a corporation, who wishes to purchase one residential unit on land designated for residential use according to a plan, provided that the foreigner does not have rights in the land in another residential unit. Approval may similarly be granted to a foreigner that has received “a grant under the Encouragement of Capital Investments Law, for the purpose of implementing the program for which the grant was approved . . . .”166
+
+Until 2009, “almost all of Israel's residents lived in homes built on land owned by the State of Israel, which was leased to them for many years.” 167 Amendment No. 7 to the Israel Land Administration Law was adopted on August 10, 2009. The amendment law authorizes the ILC to grant ownership in land to lessees of residential and employment properties on urban land.168 The reform thus enabled
+
+<span id="page-37-0"></span>
+the transfer of land ownership from the state to the residents of the cities, free of charge or for a very low price compared to the prices of private land today . . . the reform . . . [was] supposed to cut off a large part of citizens from dependence on the administration every time they sell the property or make a change to it.169
+
+Amendment No. 7 established a mechanism that enabled limiting the transfer of ownership to foreigners by registering a notice in the land registry. The notice prevents the transfer of private ownership to foreigners without the approval of the ILC.170
+
+## Italy
+
+Concerning the acquisition of land by non-Italian citizens, Italian law distinguishes between foreigners in general, EU and EEA citizens, as well as stateless persons and refugees under certain conditions.
+
+The prologue of the Civil Code contains a general principle (so-called preleggi; that is, applicable to all legislation) concerning the treatment of foreigners in Italy, in the following terms:
+
+[t]he foreigner is allowed to enjoy the civil rights attributed to the [Italian] citizen on condition of reciprocity and without prejudice to the provisions contained in special laws.
+
+This provision also applies to foreign legal entities.171
+
+Only foreigners holding certain residence permits may acquire land in Italy on the same terms provided to Italian citizens, even in the absence of the reciprocity condition. According to the Ministry of Foreign Affairs,172 the following persons are deemed as legally equal to Italian citizens and, therefore, are exempt from the condition of reciprocity for the acquisition of land in Italy173:
+
+<span id="page-38-0"></span>
+• citizens (both physical persons and legal entities) of European Union member states, as well as citizens of European Economic Area countries;174
+
+non-EU citizens who reside in Italian territory and hold a residence card or a regular residence permit issued for reasons of employment, self-employment, for the exercise of an individual business, or for family, humanitarian, or study reasons; and
+
+• stateless persons or refugees residing in Italy for at least three years.175
+
+The verification of the reciprocity condition is addressed in article 1 of Presidential Decree No. 394 of 1999, 176 which provides that government agents responsible for the administrative procedure applicable to the admission of foreign natural persons to the full enjoyment of the civil rights attributed to Italian citizens, as well as the notaries who draw up the deeds involving the exercise of some of those rights or who provide assistance to such foreigners, must request the assessment of the reciprocity condition from the Ministry of Foreign Affairs. However, this only applies in the situations contemplated in Presidential Decree No. 394 of 1999 and in international agreements that include the reciprocity condition.177
+
+Foreigners lawfully residing in Italy but who do not hold one of the residence permits indicated above are unable to acquire real estate in Italy, unless the reciprocity condition between Italy and the foreigner’s country is fulfilled; that is, if the law of the foreigner’s country of origin allows Italian citizens, on equal terms, to purchase real estate in the foreigner’s national territory.
+
+## Japan
+
+There appear to be no prohibitions on the foreign ownership of property in Japan. Though there is the Act on Foreign Nationals’ Rights in Relation to Land, which states that the government can prohibit the acquisition of land-related rights by foreigners or foreign corporations by a cabinet order,178 no such order has been enacted yet. In 2021, a law to restrict certain uses of lands around facilities and remote islands that are important for national security was enacted.179 The Diet and the government aimed to prevent threats to important facilities by foreign land owners,180 but the law applies to both Japanese nationals and foreigners.
+
+<span id="page-39-0"></span>
+## Mexico
+
+Mexico’s Constitution provides that the government may grant foreigners the right to own land provided that they agree before Mexico’s Department of Foreign Relations to consider themselves Mexican nationals with respect to such property and not to invoke the protection of the governments of their countries with respect to such property, under penalty of its forfeiture to Mexico in case of noncompliance.181
+
+The Constitution also provides that foreigners may not acquire direct ownership over lands located within 100 kilometers of the country’s borders and 50 kilometers of the country’s coasts.182 Notably, Mexico’s Foreign Investment Law provides that foreign individuals or entities may obtain a permit from the Ministry of Foreign Relations whereby they may use and enjoy real property in these restricted zones, without having ownership rights over it, through a trust arrangement in which the foreign party is the beneficiary and a Mexican bank is the trustee of the land.183
+
+## Netherlands
+
+Currently, the Netherlands does not impose any restrictions on foreigners buying property in the Netherlands. However, a civil law notary must perform and register the transfer of the property in question.184 The deed is generally executed in the Dutch language.185 If one of the parties does not have sufficient command of Dutch, the law requires an interpreter to be present during the signing to translate. The interpreter co-signs the notarial deed.186
+
+## Nigeria
+
+Nigeria is a federation of 36 states. It has a three-tiered government structure, including the federal government, 36 states, and a federal capital (Abuja), as well as 768 local government areas within the states.187 The federal Land Use Act No. 6 of 1978 vests ownership of land in the states through the governors of the constituent states. 188 Governors have the authority to “grant statutory rights of occupancy to any person for all purposes . . . .”189 While land control and management (this includes allocation of land) in urban areas is vested with the governors of states, local governments enjoy similar authority with regard to lands within the area of jurisdiction in which the land is located.190
+
+<span id="page-40-0"></span>
+In a 2018 decision, the Supreme Court of Nigeria upheld a lower court decision that the Land Use Act restricts ownership of land to Nigerians and bars aliens from applying for statutory or customary right of occupancy.191
+
+Nonetheless, it appears that aliens may be able to apply for and acquire short term occupancy rights under state laws.192 For instance, the Lagos State Acquisition of Lands by Aliens Law provides for acquisition of occupancy rights by aliens under specific circumstances.193 This law allows an alien to acquire an interest in a land so long as the acquisition is approved by the governor and the interest is for less than three years, stating that
+
+1) Except as provided by this law and any regulation or orders made under the law─
+
+a) An alien may not acquire any interest or right in or over land from a citizen of Nigeria unless the transaction under which the interest or right is acquired has been previously approved in writing by the Governor.
+
+b) Provided that where any such interest or right to be acquired by an alien is less than three (3) years (including any option for renewal) the provisions of the law will not apply; and
+
+c) Where such interest or right has been lawfully acquired by an alien, that interest or right will not be transferred, alienated, demised or otherwise disposed of to any other alien or be sold to any other alien under any process of law, without prior approval in writing by the Governor of the transaction or sale as the case may be.
+
+2) Any agreement and any instrument in writing or under seal by or under which an alien purports to acquire any interest or right in or over any land (other than any interest or right acquired pursuant to the provisions of this law and regulations and orders made under this law) and which forms part of or gives effect to a transaction that has not been duly approved in accordance with the provisions of this law will be void and of no effect.194
+
+<span id="page-41-0"></span>
+The law also states that a foreigner may not acquire an interest or right of ownership in any land from a citizen of Nigeria.195 If a foreigner acquires interest or right of ownership lawfully, “that interest or right must not be transferred, alienated demised or otherwise disposed of” by another foreigner.196
+
+Regulations issued under the law include a number of conditions for the approval of transactions for the acquisition of lands by foreigners. One of the conditions states that a term of interest or right acquired by a foreigner “shall not exceed, including any option to renew, twenty-five (25) years . . . .”197
+
+The law accords the governor of the State broad discretionary powers to exempt a foreigner from the application of the above-described restrictive land acquisition provisions.198
+
+## Norway
+
+There are no restrictions on land ownership due to nationality of physical or legal persons in Norway. However, the acquisition of certain businesses that may have a security interest for Norway must be reported to the National Security Authority. 199 This act is currently under review.200
+
+Norway has made no reservation on land ownership under GATS XVII.201
+
+## Philippines
+
+The Philippines Constitution provides that “lands may be transferred or conveyed to individuals, corporations, or associations qualified to acquire or hold lands in the public domain.”202 It also provides that Congress has the authority to reserve certain areas of investments to citizens of the Philippines or to corporations or associations at least 60 percent of whose capital is owned by such citizens.203 These constitutional provisions have been implemented by statutory law, which provides that those qualified to own land are individuals who are citizens of the Philippines or Philippine corporations at least 60 percent of whose stock is owned by Philippine citizens.204
+
+<span id="page-42-0"></span>
+## Poland
+
+In Poland, the acquisition of real estate by foreigners is regulated by the Act on the Acquisition of Real Estate by Foreigners of 1920.205 According to this act, the purchase of real estate means “acquisition of the ownership rights to real estate or the right of perpetual usufruct, on the basis of any legal event.”206 The act was significantly amended after Poland joined the European Union (EU).207 Purchase of agricultural real estate by foreigners should be in line with provisions of the so-called National Agricultural Constitution of April 11, 2003.208
+
+Under the 1920 Act, ownership of real estate by foreign nationals, including land and forests, required a special permit issued by the Ministry of Interior and Administration of the Republic of Poland. Since May 1, 2016, due to Poland’s joining the EU, the permit requirement has been lifted for legal entities registered in the countries of the European Economic Area and Switzerland and citizens of these states. However, the exemption does not cover acquisition of real estate located in the border areas or agricultural land if the area of purchased land exceeds one hectare (approximately 2.47 acres.)209 Such land acquisitions require prior government authorization. The Ministry of Interior and Administration issues its approval of the land transaction in the form of an administrative decision, if there is no objection by the minister of National Defense regarding the sale of land in the border zone and by the minister of Rural Development in the case of agricultural real estate.210
+
+European Economic Area and Swiss citizens are exempt from the requirement to obtain a permit for land acquisition if, prior to the purchase, they were leasing this land, legally resided in Poland, and conducted agricultural activities personally for an established number of years. The required minimum term of land lease and residency in Poland varies for different Polish provinces and is between three and seven years.211
+
+<span id="page-43-0"></span>
+The act also limits the size of non-agricultural land that can be purchased by a foreign national for personal living needs by 0.5 hectares (approximately 1.23 acres).212 Current Polish legislation imposes serious restrictions on sale of agricultural land in state ownership, but they apply equally to Polish and foreign nationals.213
+
+## Portugal
+
+Research of relevant Portuguese legislation did not reveal any restriction to foreign land ownership.
+
+## Russian Federation
+
+The Constitution of the Russian Federation declares that foreign nationals and stateless persons have the same rights and obligations as Russian citizens. Exceptions from this rule can be made in cases specifically determined by federal legislation or international agreements of the Russian Federation.1
+
+Major legal acts regulating property rights in Russia are the Civil Code,214 Land Code,215 and laws regulating the registration of land and real estate ownership. 216 While confirming the constitutional principle of property rights equality and declaring the equal rights of Russian citizens and foreign states, foreign legal entities, international organizations, and foreign individuals to own real estate in the Russian Federation, 217 these acts provide for the possibility of having special rules for foreigners exercising their property rights in Russia. 218 Current legislation stipulates some restrictions to foreigners’ ownership rights, mainly based on the type of property, its use, and location. These restrictions are general and do not single out individuals from a particular country in their ownership right.
+
+<span id="page-44-0"></span>
+Currently, individual regulations prohibit foreign ownership of agricultural land and land located in areas not accessible by foreigners due to national security reasons or designated as of national security significance.
+
+Foreigners are prohibited from purchasing land and residential and industrial real estate in the following categories:
+
+agricultural land,219
+
+• land plots located near the state border of the Russian Federation,220
+
+• land plots located in areas of military purpose or defense significance,221 and
+
+• real estate located on the territory of administrative urban areas closed to foreigners.222
+
+The government regulates the mechanism for establishing the price of land in state or municipal possession that is sold to foreigners. In such cases, the price can be established by government authorities without considering the market value of the property in question.223
+
+Concerning agricultural land, foreign nationals, foreign companies, and Russian companies with foreign capital exceeding 50% of charter capital can possess agricultural land plots under leasehold conditions only. The length of the lease cannot be longer than 49 years.224 However, the prohibition on possession of agricultural land does not apply to garden plots and other small land areas used for personal needs.225
+
+Private possession of forests is not allowed in Russia; however, non-Russian individuals and companies are not included in the list of those who might be involved in legal relations regarding forests.226
+
+In February 2022, restrictive measures against citizens and companies from so-called “unfriendly nations” were introduced by the Russian Government as an attempt to counter sanctions imposed on Russia after it attacked Ukraine.227 The list of unfriendly states includes Australia, Canada, Japan, the United Kingdom, the United States, the states of the European Union, and a number of other countries.228 A decree by Russia’s president established a new procedure for real estate transactions with the participation of individuals and companies from these countries. Under the new rules, all transactions related to land and immovable property, including purchase, gifting, exchange, testing, etc., as well as purchase of any type of securities in Russia, require approval from the Government Commission for Foreign Investments Supervision upon submission of a special application. The decree grants the commission the authority to impose special conditions and requirements for such transactions.229
+
+<span id="page-45-0"></span>
+## Saudi Arabia
+
+The Law on Real Estate Ownership and Investment by Non-Saudis is one of the main legal instruments regulating the right of foreign nationals to own land and real estate property in Saudi Arabia.230
+
+The Law allows a non-Saudi investor (whether an entity or a person) to own real estate property or a piece of land necessary to establish an investment activity or for residential purposes. The purchased land or property for investment purposes must not be less than 30 million Saudi Riyals (approx. US\$7.9 million). The foreign national must complete all constructions and developments of the investment property within five years from the purchase date.231
+
+It is not permissible for a non-Saudi by any means other than inheritance to acquire the right of ownership or the right of easement or usufruct over a property or land located within the borders of the cities of Mecca and Al-Madinah Al-Munawwarah.232
+
+Royal Decree No. 22 of 2011, promulgating Cabinet Decree No. 91 of 2011, regulates real estate ownership in Saudi Arabia by citizens of Gulf Cooperation Council (GCC) countries, including Oman, Kuwait, Bahrain, United Arab Emirates and Qatar. 233 A citizen of one of the aforementioned GCC countries (whether an entity or person) is allowed to rent and own built real estate and lands for the purpose of housing or investment in Saudi Arabia.234
+
+<span id="page-46-0"></span>
+If a GCC citizen purchases land, its construction or exploitation must be completed within four years from the date it was registered in his or her name.235 A GCC citizen who owns a real estate property (building) may dispose of this property at any time. However, if he or she owns land, the GCC citizen has the right to dispose of it after finishing its construction. If a GCC citizen has not conducted any constructions on the purchased land, he or she may dispose of it after four years from the date he or she registers the land under his or her name.236
+
+## South Africa
+
+South Africa permits foreigners to own land.237 The only restriction placed on land ownership by foreigners is the prohibition under the Immigration Act on “letting or selling or in any manner making available any immoveable property in the Republic” to “illegal foreigners.”238
+
+In 2017, the South African government proposed a bill, among others, aimed at barring acquisition of agricultural land by certain foreign persons.239 The restrictions as written would not extend to “Africans, Coloureds and Indians.”240 The restrictions would also not be applicable to permanent residents or juristic persons over which South African citizens or permanent residents have controlling interests.241 This bill has not been enacted.242
+
+## South Korea
+
+Under the Act on Report on Real Estate Transaction, a sales contract involving real estate must be reported to a competent local government within 30 days from the date of the contract.243 This applies to Korean nationals and foreigners. Foreigners must also report the acquisition or possession of real estate by means other than a sales contract (such as inheritance) to the local government within 60 days from the conclusion date of the transfer or the possession.244 When a foreigner intends to acquire land in military bases and installation protection zones, designated cultural heritage protection zones, ecological and scenery conservation areas, or special districts for protection of wildlife, prior permission from a competent local government is required.245 If the acquisition would not disrupt attainment of the purpose of the designation of the relevant zone or area, permission is granted. If it would disrupt the attainment, the foreigner cannot own the land.246 The principle of reciprocity also applies to land acquisition by foreigners.247
+
+<span id="page-47-0"></span>
+In the case of farmland, a person, including a foreigner, can obtain farmland for one’s own farming248 upon obtaining a qualification certificate from the local government, 249 except for acquisition by inheritance and auction of mortgaged farmland, among others. 250
+
+Under the Foreign Exchange Transactions Act, non-residents who intend to acquire real estate in South Korea must file a report with the Minister of Economy and Finance.251
+
+## Spain
+
+The general rule is that natural and legal foreign nationals have the same rights as Spanish citizens to acquire property rights over land in the country, with the exceptions provided by Law 8/1975 over Zones of National Defense Interest.252
+
+Under article 1 of the law, acquisition by foreigners of the following three types of land is restricted:
+
+zones of interest to the national defense,
+
+• zones of security for military installations or civilian installations declared of military interest, and
+
+zones of restricted access by foreigners to the property.253
+
+<span id="page-48-0"></span>
+Foreigners are banned from acquiring the first two types of property. Foreign nationals may acquire the third type of property, but only with prior military authorization.254
+
+Finally, article 13 of the law establishes that the military authorization required in zones of restricted access to the property by foreigners applies even to Spanish companies if their capital belongs to foreign natural or legal persons that are not nationals of a Member State of the European Economic Community in a proportion greater than 50%. The same is true when foreign partners from states that are not in the European Union have a situation of dominance or prevalence in the company, as ascertained from any circumstance that allows verifying the existence of their decisive influence in the management of the company.255
+
+## Sweden
+
+Sweden does not restrict the ownership of land based on nationality or citizenship. Specifically, the Code of Land Law does not restrict transfer of land based on citizenship.256 Moreover, the Property Development Act does not restrict property realignment, resizing, or transfer based on citizenship.257
+
+However, there is currently a proposal pending before the Swedish parliament that would restrict foreign ownership in certain companies that operate in Sweden.258 It would require the prior notification of foreign ownership in businesses that pursue “activities worthy of protection.”259 Specifically, section 3 of the proposed act states that the following activities would be worthy of protection:
+
+3 § In this Act, activities worthy of protection refer to
+
+1. socially important activity,
+
+2. security-sensitive activities according to the Security Protection Act (2018:585),
+
+3. exploration, extraction, enrichment or sale of critical raw materials or metals or minerals that are otherwise strategically important for Sweden’s livelihood,
+
+4. large-scale processing of sensitive personal data or location data in or through a good or service,
+
+5. manufacturing or development of, research into or provision of dual-use products or provision of technical assistance for such products;
+
+6. manufacturing or development of, research into or provision of military equipment according to the Act (1992:1300) on military equipment or providing maintenance of technical support regarding such military equipment, or
+
+<span id="page-49-0"></span>
+7. research on or provision of products or technology within emerging technologies or other strategically protectable technology or business with the ability to manufacture or develop such products or such technology.260
+
+The government includes the following justification in the proposal:
+
+Foreign direct investment is of great importance to Sweden’s economy and competitiveness, but there are also risks associated with foreign actors acquiring Swedish companies that conduct activities worthy of protection. Today, [Sweden] lacks a regulatory framework that provides sufficient conditions to prevent foreign investors’ strategic acquisition of companies whose operations, information or technology has significance for Sweden’s security or for public order or public safety in Sweden.261
+
+The Swedish Law Council, which reviews proposed legislation, has recommended that the law be adopted but recommended that the law be clarified.262 If adopted, the law is scheduled to enter into force on December 1, 2023.263 The legislation comes following EU Regulation (EU) 2019/452 establishing a framework for the screening of foreign direct investments into the Union.264
+
+Sweden has made no reservation with regard to land ownership under GATS XVII.265
+
+## Switzerland
+
+Switzerland places restrictions on the acquisition of real property by foreigners to prevent the “foreign infiltration of native lands.”266 The Federal Act on the Acquisition of Real Estate by Persons Abroad (Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland, BewG) and its related ordinance (Verordnung über den Erwerb von Grundstücken durch Personen im Ausland, BewV) provide that foreigners must obtain prior authorization from the competent cantonal authority to acquire real property. 267 Purchasing shares in a legal entity whose real purpose is the acquisition of real estate also qualifies as acquisition of real estate, among other cases.268 No authorization is needed when the property will serve as a permanent establishment for a commercial or manufacturing business or any other form of commercial operation, craft undertaking, or a liberal profession; the property will serve as a primary residence for the buyer; or an exception applies, such as propery transfers to legal heirs as part of the estate or cross-border commuters from the European Union, European Economic Area (EEA),269 or Great Britain who purchase a secondary residence.270
+
+<span id="page-50-0"></span>
+The acquisition will generally be authorized if the real estate will serve as capital investment for the domestic business of a foreign or a foreign-controlled insurance company; if it will be used for retirement plans benefiting staff in Switzerland or will be exclusively used for charitable purposes; or if it will serve as collateral for a claim encumbered with a real estate mortgage of foreign or foreign-controlled banks or insurance companies in a foreclosure or a liquidation settlement.271 Beneficiaries who are not legal heirs will be granted an authorization if they sell within two years.272 In addition, there are hardship cases.273 The cantons may add additional reasons for granting an authorization, such as property intended for subsidized public housing or purchasing a secondary residence in a place with which the buyer has exceptionally close ties worthy of protection.274 In addition, the purchase of holiday homes and serviced flats can be authorized to promote tourism if they stay within the annual quota assigned to the cantons.275
+
+The Swiss Federal Office of Justice has published non-binding guidelines for the acquisition of real property by foreigners in English.276
+
+## Taiwan
+
+Taiwan applies the principle of reciprocity concerning foreigners’ land ownership. According to the Land Act, only foreigners from countries that, by treaties or their domestic laws, allow the people of Taiwan to acquire land there may enjoy the same rights to acquire land in Taiwan.277
+
+<span id="page-51-0"></span>
+The Act specifies certain lands that cannot be privately owned, such as lands lying within certain limits of the seacoast and the public roads.278 Foreigners are further prohibited by the Act from acquiring the following lands:
+
+(1) Forest lands.
+
+(2) Fisheries.
+
+(3) Hunting grounds.
+
+(4) Salt fields.
+
+(5) Lands with mineral deposit.
+
+(6) Sources of water.
+
+(7) Lands lying within fortified and military areas and lands adjacent to the national frontiers.279
+
+Foreigners may acquire lands of the following usages for self-use, investment, or public welfare, while the area and location of such lands are subject to restrictions imposed by the relevant authorities:
+
+(1) Residences.
+
+(2) Business place, office buildings, shops and factories.
+
+(3) Churches.
+
+(4) Hospitals.
+
+(5) Schools for the children of foreigners.
+
+(6) Diplomatic and consular buildings and office buildings of organizations for the promotion of public welfare.
+
+(7) Cemeteries.
+
+(8) Investments helping important construction in the country, the economy as a whole, and agriculture and pasture, which have been approved by the central authority in charge of the business.280
+
+The government publishes a list of reciprocal nations for foreigners acquiring land in Taiwan.281 Nationals from the fully reciprocal nations on the list may be exempted from providing the required reciprocal documents when acquiring land.282
+
+## Thailand
+
+In Thailand, ownership of land by a foreigner is not allowed other than in specific exceptional cases. Under the Land Code, a foreigner or a foreign company may acquire land only “by virtue of the provisions of a treaty that provides for ownership of immovable property.”283 However, “the last treaty allowing foreigners to own land in Thailand was terminated in 1970.”284
+
+<span id="page-52-0"></span>
+A company is regarded as a foreign company if more than 49% of the total issued shares in the company are held by foreigners or one whose alien shareholders are more than one-half of the total number of its shareholders.285
+
+The Land Code also allows foreigners who bring in capital for investment equaling more than 40 million Baht (about US\$1.18 million) to acquire land for residential purposes. In addition, the following conditions must be satisfied:
+
+• the types of businesses to be invested in must benefit the nation economically and socially or be businesses eligible for investment promotion under the law on investment promotion;
+
+• the period for maintenance of the investment must be at least three years;
+
+• the area of land permitted to be acquired by aliens must be located within an area designated as a residential area under the law on town planning.286
+
+Other laws also allow foreign ownership of land if conditions are met. A foreign company is eligible to obtain a certificate of promotion from the Board of Investment if the conditions under the Investment Promotion Act are met.287 A company that obtains the certificate is permitted to own the land required for the promoted business.288
+
+In addition, under the Financial Institution Business Act, “commercial bank” includes a subsidiary of a foreign commercial bank and a branch of a foreign commercial bank that is licensed to carry on commercial banking business in Thailand.289 A commercial bank can own immovable properties if the properties are for reasonable use as business premises or as places of residence or welfare for its officers and employees, are acquired by the bank as a result of debt settlement (limited term for five years), or are purchased or held by a finance company engaging in the housing finance business.290
+
+<span id="page-53-0"></span>
+Further, under the Industrial Estate Authority of Thailand Act, a foreign industrial or commercial operator who is permitted by the Board of the Industrial Estate Authority of Thailand may hold ownership of land in an industrial zone, for operation of a business.291
+
+## Turkey
+
+Law No. 2644 on Title Deeds (LTD) provides the legal framework governing the acquisition of real property in Turkey by foreign persons.292 The law provides different rules for foreign natural persons, foreign business associations, and business associations registered in Turkey in which foreign persons have a controlling interest.
+
+Foreign natural persons who are citizens of countries designated by the president in light of the interests of the country and bilateral foreign relations may acquire real property in Turkey, provided that the total acreage of the property owned by foreigners in any administrative district does not surpass 10% of the total land acreage subject to private property in that district, and the total acreage owned individually by a foreign natural person in Turkey does not surpass 30 hectares (approx. 74.13 acres).293 The president of the republic has the power to increase the individual ownership limit to 60 hectares.294
+
+Business associations with legal personality established in foreign countries under their laws may only acquire real property in Turkey in accordance with special laws.295 Examples of special laws that allow foreign business associations to acquire real property in Turkey are the Law on the Incentivization of Tourism and the Law on Industrial Zones.296 The LTD does not allow foreign legal entities other than business associations, such as nonprofit civil associations, to acquire real property in Turkey.
+
+<span id="page-54-0"></span>
+Foreign natural persons and business associations established in foreign countries that have acquired undeveloped land must submit a development plan for approval by the ministry relevant to the development within two years of the acquisition. The start and end dates of the development project as approved by the relevant ministry must be recorded in the land registry, and the ministry must follow up on whether the project was completed in time.297
+
+The president of the republic has the authority to further partially limit or completely suspend or prohibit the acquisition of real property by foreign natural persons or foreign business associations established in foreign countries in terms of the country of nationality, identity of the person, geographical region, duration, number of immovables, ratio of acreage, type, quality, acreage and total quantity, where the interests of the country so require.298
+
+Legal entities that are registered in Turkey in which foreign natural persons, foreign legal entities, or international organizations hold 50% or more ownership interest, or have the right to appoint or dismiss a majority of the persons who have management rights, may acquire real property in Turkey only in relation with the carrying out of the fields of activity specified in their articles of association.299
+
+Foreign natural persons and foreign business associations may not acquire real property located within prohibited military zones as designated in accordance with the Law on Military Forbidden Zones and Security Zones.300 Turkish legal entities with foreign controlling interest may acquire real property in such zones only with permission of the Office of the General Staff.301
+
+## United Arab Emirates
+
+There is no federal legislation regulating the ownership by foreign nationals of lands and real estate properties in the United Arab Emirates. However, the Emirate of Abu Dhabi and the Emirate of Dubai have their own regional laws regulating foreigners’ right to own lands and real estate properties.302
+
+<span id="page-55-0"></span>
+Law No. 19 of 2005, as amended, regulates the right of foreigners to own pieces of land and real estate properties in the emirate of Abu Dhabi. Pursuant to article 3 of the law, the right to own real estate is limited to citizens of the United Arab Emirates. 303
+
+The same law restricts the right of ownership by a foreign national to buildings only and not to the lands where those buildings are constructed. Also, the right of a foreign national to own a property is limited to investment zones only.304 Foreigners have the right to usufruct of their residential units for 99 years.305 A foreign national has no right to dispose of the unit or the building before 10 years from the initial exercise of the right to usufruct or ownership.306
+
+In contrast to Law No. 19 of 2005, which allows foreigners to own only the property (building) and not the land on which the property was built, Law No. 13 of 2019, amending Law No. 19 of 2015, permits foreign nationals and entities to own and acquire all rights over properties in the investment zones of Abu Dhabi.307 Article 3(2) of Law No. 13 of 2019 stipulates that a foreign national (whether a person or an entity) has the right to own and acquire all original and in-kind rights in real estate properties located within investment zones.
+
+Additionally, Law No. 7 of 2006, on the registration of the ownership of a real estate property in the Emirate of Dubai, restricts the ownership by foreign nationals of lands and real estate properties, except in designated locations where the foreign nationals are allowed to own land or a real estate property.308
+
+Law No. 7 of 2006 stipulates that the right to own a real property in Dubai shall be restricted to emeriti citizens and citizens of the Gulf Cooperation Council countries, including Oman, Kuwait, Qatar, Saudi Arabia and Bahrain. Foreign nationals may be granted free right of ownership in certain locations, as determined by the Ruler of the Emirate.309
+
+## United Kingdom
+
+There appear to be no prohibitions on the foreign ownership of property across the UK and a search of GATTS XVII reveals no reservations on land ownership.310 The only restriction on the foreign ownership of property in the UK is that “overseas entities that own land or property in the UK [must] declare their beneficial owners and/or managing officers”311 on the Register of Overseas Entities.312 Without such registration, which is kept on a publicly available register held by the Companies House, an overseas entity will not be able to buy, sell, lease, or create a charge against land in the UK.313 The register brings the regime for beneficial owners of overseas entities into line with the regime for UK entities, which has a register for the beneficial owners of entities known as the “people with significant control” register.314

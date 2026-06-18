@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td></tr><tr><td></td><td>(millions of dollars)</td></tr><tr><td>Balance at January 1</td><td></td></tr><tr><td>Additions/adjustments</td><td>450</td></tr><tr><td>Payments made</td><td>(47)</td></tr><tr><td>Balance at December 31</td><td>403</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Error Type</td><td>Estimated Proportion (%)</td></tr><tr><td>I. Grounding errors</td><td>50</td></tr><tr><td>II.Ambiguity errors</td><td>22</td></tr><tr><td>III . Calculation errors</td><td>20</td></tr><tr><td>IV.Program errors</td><td>8</td></tr></table>

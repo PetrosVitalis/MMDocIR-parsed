@@ -1,0 +1,3096 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.087,
+      0.132,
+      0.128,
+      0.867
+    ],
+    "text": "Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.141,
+      0.268,
+      0.16,
+      0.736
+    ],
+    "text": "Yubo Ma1, Yixin Cao2, YongChing Hong1, Aixin Sun1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.321,
+      0.227,
+      0.68
+    ],
+    "text": "1 S-Lab, Nanyang Technological University 2 Singapore Management University yubo001@e.ntu.edu.sg",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.26,
+      0.268,
+      0.342
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.278,
+      0.141,
+      0.693,
+      0.462
+    ],
+    "text": "Large Language Models (LLMs) have made remarkable strides in various tasks. Whether LLMs are competitive few-shot solvers for information extraction (IE) tasks, however, remains an open problem. In this work, we aim to provide a thorough answer to this question. Through extensive experiments on nine datasets across four IE tasks, we demonstrate that current advanced LLMs consistently exhibit inferior performance, higher latency, and increased budget requirements compared to fine-tuned SLMs under most settings. Therefore, we conclude that LLMs are not effective few-shot information extractors in general 1. Nonetheless, we illustrate that with appropriate prompting strategies, LLMs can effectively complement SLMs and tackle challenging samples that SLMs struggle with. And moreover, we propos",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.703,
+      0.115,
+      0.719,
+      0.26
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.728,
+      0.112,
+      0.875,
+      0.49
+    ],
+    "text": "Large Language Models (LLMs, Brown et al. 2020; Chowdhery et al. 2022; Touvron et al. 2023) have shown remarkable abilities on various NLP applications such as factual question answering (Yu et al., 2023; Sun et al., 2023), arithmetic reasoning (Chen et al., 2022a; Qian et al., 2023) and logical reasoning (Jung et al., 2022; Pan et al., 2023). Given the reasoning, memorization, instruction-following and few-shot adaption capabilities emerging from",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.507,
+      0.3,
+      0.885
+    ],
+    "text": "LLMs, it prompts a compelling question: Can LLMs be used to boost performance in few-shot information extraction (IE) tasks?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.507,
+      0.688,
+      0.887
+    ],
+    "text": "To answer this question, we conduct an extensive empirical study to compare the performance between LLMs using in-context learning 2 (ICL) and fine-tuned Small Language Models (SLMs). We fairly evaluate SLMs-based and LLMs-based methods across nine datasets spanning four common IE tasks: (1) Named Entity Recognition, (2) Relation Extraction, (3) Event Detection and (4) Event Argument Extraction. For each dataset, we explored four to six settings to encompass typical low-resource extents, from 1-shot to 20-shot or even more. Given the potential sensitivity of LLMs’ performance to the prompt context, we meticulously considered variations in instruction, demonstration number and selection strategy, prompt format, etc. Our study reveals that LLMs excel over SLMs only when annotations are extre",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.689,
+      0.507,
+      0.835,
+      0.887
+    ],
+    "text": "We further investigate whether LLMs and SLMs exhibit different abilities to handle various types of samples. We categorize samples according to their difficulty measured by SLMs’ confidence scores, and compare LLMs’ and SLMs’ results within each group. We find that LLMs are good at hard samples, though bad at easy samples. We posit that the knowledge and reasoning abilities in LLMs enable them to handle hard samples (which are simply beyond SLMs’ capabilities) well. Nevertheless, LLMs demonstrate strong predisposition to falsepositive predictions on negative samples. Since most negative samples are easy samples (which could be solved readily by SLMs), the performance of LLMs on easy samples sometimes collapses and are usually much worse than fine-tuned SLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.198,
+      0.11,
+      0.537,
+      0.49
+    ],
+    "text": "Leveraging these findings, we pursue an approach to incorporate LLMs and SLMs within a single system and combine their merits. To this end, we propose a novel filter-then-rerank framework. The basic idea is that SLMs serve as a filter and LLMs as a reranker. Specifically, SLMs initially predict and determine the difficulty of each sample. If the sample is a hard one, we further pass the top-N most-likely candidate labels from SLMs to LLMs for reranking. Otherwise we view the prediction from SLMs as the final decision. By providing easy/hard samples with different solution strategies, our system utilizes each model’s strengths to complement each other. Also, it reranks only a small subset of samples and minimizes the extra latency and budgets for calling LLMs. With a modest cost increase, o",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.114,
+      0.565,
+      0.272
+    ],
+    "text": "2 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.114,
+      0.592,
+      0.426
+    ],
+    "text": "2.1 LLMs for Information Extraction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.598,
+      0.112,
+      0.921,
+      0.492
+    ],
+    "text": "Recent studies have increasingly explored Information Extraction (IE) tasks using LLMs. Drawing inspiration from instruction tuning (Wei et al., 2022a), several methods (Wadhwa et al., 2023; Wang et al., 2023a; Lu et al., 2023) transform annotated samples into instruction-answer pairs and then finetune LLMs, such as FlanT5 (Chung et al., 2022), on them. Nonetheless, this method necessitates a vast range of samples with diverse schemas and often yields suboptimal results in low-resource scenarios. In the context of few-shot IE tasks, prevalent strategies bifurcate into two main streams. The first approach perceives LLMs as efficient annotators (Ding et al., 2023; Josifoski et al., 2023). In these methods, they produce a plethora of pseudolabeled samples through LLMs and leverage the enhance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.509,
+      0.099,
+      0.729
+    ],
+    "text": "2.2 Few-shot IE with ICL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.507,
+      0.299,
+      0.887
+    ],
+    "text": "Regarding few-shot IE tasks, recent studies intensively compare the performance between SLMs and LLMs but yield inconsistent conclusions. Some studies favor LLMs as competent few-shot extractors (Agrawal et al., 2022; Wang et al., 2023b; Li et al., 2023; Zhang et al., 2023a; Wadhwa et al., 2023), while others dispute this claim (Jimenez Gutierrez et al., 2022; Qin et al., 2023; Wei et al., 2023; Gao et al., 2023). This discrepancy leaves the question of whether LLMs perform competitively on few-shot IE tasks unresolved, thus hindering the advances of this domain.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.507,
+      0.478,
+      0.887
+    ],
+    "text": "We attribute such disagreement to the absence of an comprehensive and unified benchmark. Existing studies usually vary in tasks, datasets, and few-shot settings. Furthermore, some studies rely on overly simplistic datasets (Jimenez Gutierrez et al., 2022; Li et al., 2023) and may exaggerate the effectiveness of LLMs. Driven by these findings, our research undertakes comprehensive experiments across four IE tasks, nine datasets with various schema complexities (from coarse-grained to fine-grained) and low-resource settings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.507,
+      0.655,
+      0.887
+    ],
+    "text": "In addition to the empirical study, we develop an innovative filter-then-rerank paradigm to combine the strengths of both LLMs and SLMs. It utilizes prompting strategies akin to QA4RE (Zhang et al., 2023a), transforming IE tasks into multi-choice questions. However, our method stands apart by integrating SLMs and LLMs within a single framework. This incorporation (1) enables our paradigm applicable to various IE tasks by providing candidate spans in the text and (2) achieves promising performance under low-resource IE scenarios.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.667,
+      0.509,
+      0.683,
+      0.776
+    ],
+    "text": "3 Large LMs v.s. Small LMs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-11",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.507,
+      0.744,
+      0.885
+    ],
+    "text": "In this section, we compare the performance between LLMs and SLMs to evaluate whether LLMs perform competitively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-12",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.753,
+      0.509,
+      0.77,
+      0.788
+    ],
+    "text": "3.1 Task, Dataset and Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-13",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "We run experiments on nine widely-used datasets across four IE tasks. (1) Named Entity Recognition (NER): CONLL03 (Tjong Kim Sang and De Meulder, 2003), OntoNotes (Weischedel et al., 2013) and FewNERD (Ding et al., 2021). (2) Relation Extraction (RE): TACRED (Zhang et al., 2017) and TACREV (Alt et al., 2020). (3) Event Detection (ED): ACE05 (Doddington et al., 2004), MAVEN (Wang et al., 2020) and ERE (Song et al.,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-1",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.093,
+      0.146,
+      0.374,
+      0.847
+    ],
+    "text": "Figure 1: Examples of prompts used. The green, blue and black parts in the top boxes represent the instruction, demonstration (demo) and test sentence in the prompt respectively. The red parts represent the outputs from LLMs. We plot only 1 example for convenience of visualization. The actual demo number is usually much larger than 1.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.112,
+      0.533,
+      0.49
+    ],
+    "text": "2015). (4) Event Argument Extraction (EAE): ACE05, ERE and RAMS (Ebner et al., 2020). With label numbers ranging from 4 to 168, we assess LLMs’ performance under different schema complexities. See their details in Appendix A.1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.535,
+      0.112,
+      0.695,
+      0.49
+    ],
+    "text": "Few-shot Set We construct few-shot datasets from the original datasets above. For training and validation set, we adopt K-shot sampling strategy, i.e., sampling K samples for each label type. See more details in Appendix A.2. For test set, we downsample their original test sets to reduce the cost of LLMs. We randomly sample 500 sentences for RE tasks, and 250 sentences for other task. We ensure that each label has at least one corresponding sample to avoid the absence of rare labels.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.112,
+      0.808,
+      0.49
+    ],
+    "text": "Evaluation We adopt micro-F1 score in NER, RE and ED tasks. For EAE task, we follow previous work (Wang et al., 2023b) and adopt head-F1 score, which merely considers matching of the head word rather than the whole content of a text span. We report averaged score w.r.t 5 sampled train/validation sets unless otherwise stated.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.819,
+      0.112,
+      0.835,
+      0.351
+    ],
+    "text": "3.2 Small Language Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.112,
+      0.921,
+      0.489
+    ],
+    "text": "We adopt five supervised methods to evaluate the abilities of SLMs. (1) Vanilla fine-tuning for all tasks, (2) FSLS (Ma et al., 2022a) for NER and ED tasks, (3) KnowPrompt (Chen et al., 2022b) for RE task, (4) PAIE (Ma et al., 2022b) for EAE task, and (5) UIE (Lu et al., 2022c) for all tasks. See their details in Appendix B.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.498,
+      0.509,
+      0.514,
+      0.749
+    ],
+    "text": "3.3 Large Language Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.519,
+      0.507,
+      0.601,
+      0.887
+    ],
+    "text": "Detailed in Appendix C, we evaluate the ICL abilities of LLMs. Given labeled sentences D = {(si, yi)} and a test sentence s, our goal is to predict structured information y from s using a frozen LLM L. We feed LLM with prompt $\\mathcal { P } _ { \\mathcal { E } , I , f } ( D , s )$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-10",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_0.jpg",
+    "bbox_norm": [
+      0.63,
+      0.556,
+      0.648,
+      0.833
+    ],
+    "text": "$$\n\\mathcal { P } _ { \\mathcal { E } , I , f } ( D , s ) = [ I ; f ( \\mathcal { E } ( D , s ) ) ; f ( s ) ]\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.507,
+      0.838,
+      0.885
+    ],
+    "text": "We give examples of prompts on four IE tasks in Figure 1. The prompts consist of three parts: instruction I (color in green in Figure 1), demonstration $f ( \\mathcal { E } ( D , s ) )$ (demo; color in blue) and the question f(x) (color in black). Here E denotes demo selector and $\\mathcal { E } ( D , s ) \\subset D$ denotes selected sentences as the demo to predict s. Prompt format f 5 refers to the template which converts demo E(D, s) and sample s to input context for LLMs. Then LLM generates f(y) (color in red) from which we could readily parse the extraction results y.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.838,
+      0.507,
+      0.871,
+      0.885
+    ],
+    "text": "Models L: We explore six LLMs from two sources. (1) OpenAI models 6: we employ Chat-",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.11,
+      0.794,
+      0.492
+    ],
+    "text": "GPT, CODEX (Chen et al., 2022a) and Instruct-GPT (Ouyang et al., 2022) for main experiments. We also evaluate GPT-4 in Appendix D.3. (2) Open-source models: we use LLaMA-13B (Touvron et al., 2023) and its instruction-tuned counterpart, Vicuna-13B (Chiang et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.794,
+      0.112,
+      0.86,
+      0.49
+    ],
+    "text": "Instruction I: The instruction (1) describes the task and (2) enumerates all possible labels for reference. we adopt instructions shown in Figure 1. Demo selector E: The maximum input length of",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.505,
+      0.827,
+      0.887
+    ],
+    "text": "LLMs usually limits the sentence number in demos even under few-shot settings. Therefore for each test sentence s, we demand a demo retriever E(D, s) which selects a small subset from D as the sentences in demo. Following previous methods (Liu et al., 2022; Su et al., 2022), we retrieve demos according to their sentence embedding similarity to the test samples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Prompt format f: We use simple textual templates to format the demos and the test sample in main experiments. For example, the template for NER is “Sentence: [S], Entities: ([type1], [entity1]), ([type2], [entity2])...\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.114,
+      0.321,
+      0.265
+    ],
+    "text": "3.4 Main Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.331,
+      0.112,
+      0.508,
+      0.489
+    ],
+    "text": "We summarize the main experimental outcomes in Figure 2, indicating that LLMs only outperform SLMs in environments with restricted labels and samples. Conversely, SLMs are generally more effective. Given (1) the practicality of fine-grained IE tasks and the manageable effort of obtaining 10- 20 annotations per label and (2) the excessive time and budget demands of LLM inference, we conclude that LLMs are not as effective as supervised SLMs for few-shot IE tasks under real scenarios. We detail our findings as below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.512,
+      0.112,
+      0.706,
+      0.49
+    ],
+    "text": "Performance w.r.t sample number. The performance dynamics of SLMs and LLMs are influenced by variations in sample size. Under extremely lowresource (1-shot or 5-shot) settings, LLMs sometimes present superior performance than SLMs. Yet, LLMs tend to reach a performance plateau with only modest increases in sample size. Conversely, SLMs demonstrate marked performance enhancement as sample sizes grow. This trend is evident in Figure 2, where the SLM trajectories (represented by dashed lines) ascend more steeply compared to the LLM ones (solid lines).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.708,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Performance w.r.t label number. Compared with SLMs, LLMs tend to struggle on fine-grained datasets. For instance, LLMs perform relatively worse on MAVEN and RAMS datasets (with 168/139 labels) than on CONLL (4 labels only). Detailed quantitative results are shown in Appendix E.1, illustrating a clear negative correlation between the label number and the result disparity between LLMs and SLMs across various IE tasks. Comparisons among LLMs. We observe performance variability among LLMs. (1) Open-source models, LLaMA and Vicuna, significantly lag behind proprietary LLMs across all few-shot IE tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.507,
+      0.468,
+      0.885
+    ],
+    "text": "(2) Among proprietary LLMs, ChatGPT performs better on NER and EAE tasks, but poorer so on RE and ED tasks. InstructGPT and CODEX demonstrate comparable performance across these tasks. LLMs show limited inference speed. We compare the inference speed of different methods and show their results in Table 1. We observe that LLMs is much slower than SLMs since they have much more parameters, longer input contexts and extra response decay (if external APIs applied).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.509,
+      0.495,
+      0.798
+    ],
+    "text": "3.5 Analysis on Prompt Sensitivity",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.507,
+      0.777,
+      0.887
+    ],
+    "text": "Previous work (Lu et al., 2022b) indicates that the efficacy of LLMs on specific tasks can be significantly influenced by the construction of the prompt. To ensure that LLMs’ suboptimal outcomes are not erroneously ascribed to inappropriate prompt designs, we meticulously examine the impact of diverse prompt variations from four aspects, i.e., instruction format, demo number, demo selector and prompt format. We leave comprehensive details of the variants and their results to Appendix E.2- E.5, and illustrate salient findings in Figure 3. Our findings include that (1) diverse instruction strategies yield comparable results in IE task; (2) increasing the number of samples in demonstrations does not unequivocally enhance performance; and (3) The selection strategy of demonstration matters, an",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:table-11",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.853,
+      0.531,
+      0.915,
+      0.858
+    ],
+    "text": "Table 1: The inference seconds over 500 sentences (run on single V100 GPU). Here LLaMA is extremely slow since we set batch size as 1 due to memory limit.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.112,
+      0.193,
+      0.467
+    ],
+    "text": "3.6 Discussion: Why LLMs Fail to Obtain Satisfactory Performance on IE Tasks?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.199,
+      0.112,
+      0.489,
+      0.49
+    ],
+    "text": "Underutilized Annotations. We notice that LLMs appear to benefit less from additional annotations, i.e., more training samples and label types, than SLMs. We speculate that LLMs are constrained by ICL in two ways. (1) More samples: The number of effective samples for LLMs, those in demos, is limited by maximum input length. Moreover, we also observe LLMs’ performance plateaus in some tasks before reaching this limit (see Appendix E.3). Meanwhile, SLMs can continually learn from more samples through supervised learning, widening the performance gap as annotated samples increase. (2) More labels: LLMs struggle with fine-grained datasets. It suggests a difficulty in understanding numerous labels and their subtle interactions merely from the given instruction and exemplars for LLMs. Also, the ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.491,
+      0.112,
+      0.62,
+      0.489
+    ],
+    "text": "Unexplored Task format. As stated in Zhang et al. (2023a), IE-related tasks are scarce in the widely-used instruction tuning datasets like Wei et al. (2022a) and Wang et al. (2022). Furthermore, the highly-flexible format of NER and ED tasks impair the ICL abilities 7. Therefore it is likely that instruction-tuned LLMs are not well-acquainted with such IE-related task formats.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.633,
+      0.112,
+      0.65,
+      0.458
+    ],
+    "text": "4 LLMs are Good Few-shot Reranker",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.114,
+      0.676,
+      0.388
+    ],
+    "text": "4.1 Filter-then-rerank Paradigm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:figure-7",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.693,
+      0.136,
+      0.854,
+      0.465
+    ],
+    "text": "Figure 4: Multi-choice question (MCQ) prompt.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.894,
+      0.114,
+      0.92,
+      0.489
+    ],
+    "text": "7These two tasks require unfixed numbers of (label, span) tuple. Furthermore, the length of each span is also unfixed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.507,
+      0.441,
+      0.887
+    ],
+    "text": "To mitigate LLMs’ drawbacks mentioned above, we propose a filter-then-rerank paradigm to integrate both SLMs and LLMs within the same system. This paradigm uses SLMs as filters to select the top-N candidate labels, then LLMs rerank them to make final decisions. By using SLM-generated candidate answers, the focus of LLMs shifts from sentence-level (i.e., identifying all entities/events in the sentence) to sample-level (i.e., determining single entity/event candidate provided). Each question now corresponds to a single sample, allowing us to reframe prompts as multi-choice questions (MCQ; shown in Figure 4) problem. Under such format, each candidate label is converted to a choice by pre-defined templates. We claim filter-then-rerank paradigm is more likely to elicit the powers of LLMs and sm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.454,
+      0.509,
+      0.47,
+      0.798
+    ],
+    "text": "4.2 LLMs are Hard Sample Solver",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.478,
+      0.507,
+      0.719,
+      0.887
+    ],
+    "text": "Our filter-then-rerank paradigm, unfortunately, presents unsatisfactory performance (and even suffers longer latency since LLMs rerank candidates per sample). Given LLMs’ abilities in memorization and reasoning, however, we still believe that LLMs are potential to solve some, if not most, IE samples effectively. We hypothesize that LLMs are more proficient than SLMs on hard samples. These samples are characterized by their requisite for external knowledge acquisition or sophisticated reasoning strategies, areas where LLMs can leverage their extensive parametric knowledge bases and inherent reasoning mechanisms. In contrast, SLMs often falter with such samples, constrained by their restricted modeling capacities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.72,
+      0.507,
+      0.784,
+      0.885
+    ],
+    "text": "We leverage an unsupervised metric from SLMs to evaluate the difficulty of samples. Given a sample x in the sentence s, we define the highest probability across all labels as the confidence score:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:equation-13",
+    "page_id": 5,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_5_Equation_0.jpg",
+    "bbox_norm": [
+      0.8,
+      0.583,
+      0.825,
+      0.808
+    ],
+    "text": "$$\n\\operatorname { c o n f } ( x ) = \\operatorname* { m a x } _ { l \\in L } P _ { S L M } ( l | x ; s )\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-5:text-14",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "where L denotes the label set and $P _ { S L M } ( l | x ; s )$ the probability of a span x (in the sentence s) referring to label l computed by SLMs. We classify samples with low confidence scores as hard samples. Otherwise we view them as easy samples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.112,
+      0.56,
+      0.49
+    ],
+    "text": "We conduct experiments to confirm our hypothesis that LLMs excel on hard samples. We group samples by confidence scores and compare two methods within each group: (a) SLM-based methods without LLM reranking, and (b) SLMs as the filter and LLMs as the reranker. Method (b) differs from (a) by adding a single LLM to rerank the top-N SLM predictions, using MCQ prompts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.11,
+      0.82,
+      0.492
+    ],
+    "text": "The results in Figure 5 substantiate our assumption. (1) LLM-based reranking (blue lines) enhances performance on hard samples (left areas in the figure). We provide a detailed analysis of specific challenging instances where LLM rerankers prove advantageous in Appendix F.1. These instances demonstrate the efficacy of LLMs in harnessing external knowledge and complex reasoning to rectify erroneous predictions initially made by SLMs (red lines). (2) Conversely, LLM-based reranking impedes performance on easy samples (right areas), resulting in a significant degradation, particularly for very easy samples (rightmost areas). In conclusion, LLMs exhibit greater proficiency in handling hard samples compared to SLMs, yet they underperform relative to SLMs on easy samples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.832,
+      0.112,
+      0.848,
+      0.425
+    ],
+    "text": "4.3 Why LLMs Fail on Easy Samples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "We investigate why LLMs (relatively) fail on easy samples in this section. As shown in Table 2, we observe significant higher negative sample ratios for easy samples across diverse IE tasks. In other words, most negative samples are easy samples for SLMs. Here we refer negative samples to those labeled as None. We speculate that the proficiency of SLMs with negative samples stems from their ability to adeptly discern apparent patterns during the fine-tuning stages. Therefore, SLMs could predict negative samples with (relatively) high confidence and accuracy. Due to LLMs’ predisposition to false-positive predictions on negative samples, however, the performance of LLMs on easy samples collapses. We attribute such false-positive predictions to (1) hallucination and (2) span boundary mismatch",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-8",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.136,
+      0.521,
+      0.199,
+      0.872
+    ],
+    "text": "Table 2: Comparative ratios of negative to positive samples across various datasets and subsets. We set fixed threshold τ here for simplicity.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.509,
+      0.479,
+      0.878
+    ],
+    "text": "5 Adaptive Filter-then-rerank Paradigm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.487,
+      0.507,
+      0.618,
+      0.885
+    ],
+    "text": "Above findings can be summarized as: (1) SLMs generally outperform LLMs, especially with more training samples and fine-grained labels. (2) SLMs are much more time- and cost-efficient. (3) LLMs serve as powerful rerankers on hard samples that challenge SLMs. Based on them, we propose a simple, efficient, and effective adaptive reranker that combines the strengths of SLMs and LLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.509,
+      0.642,
+      0.621
+    ],
+    "text": "5.1 Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.648,
+      0.507,
+      0.826,
+      0.887
+    ],
+    "text": "Our adaptive filter-then-rerank approach, shown in Figure 6, uses supervised SLMs as a filter to make preliminary decisions. Samples with confidence scores exceeding threshold are viewed as easy samples otherwise hard ones. For easy samples, we retain SLM predictions as final results. For hard samples, top-N predictions from SLMs are reranked via LLMs using ICL. Here LLMs employ MCQ prompts (Figure 4), containing demos and a sample to be reranked. The LLMs then generate the final answer and optionally provide an explanation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-14",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.834,
+      0.509,
+      0.852,
+      0.715
+    ],
+    "text": "5.2 Experimental Setup",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-15",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "We conduct experiments on FewNERD for NER task, TACREV for RE task and ACE05 for ED task. We employ top-performing SLM-based methods from Section 3 (FSLS or KnowPrompt) as the filter, and Vicuna-13B, InstructGPT or GPT-4 as the reranker. The threshold τ to determine sample difficulty is optimized on the valid set. For hard sample, the top-3 SLM predictions and None (if not included) are feed to LLMs for reranking. Each LLM prompt has 4-shot demos. See demo examples in Appendix G.1. We follow templates in Lu et al. (2022a) for TACREV and carefully design others. See these templates in Appendix G.2. We adopt chain-of-thought reasoning (Wei et al., 2022b), i.e., prefacing the answer with an explanation, to facilitate LLMs’ reranking procedure.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-1",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.083,
+      0.115,
+      0.304,
+      0.877
+    ],
+    "text": "Figure 6: The overall architecture of our adaptive filter-then-rerank paradigm. We color easy samples in orange and hard samples in pink. For easy samples, the final predictions are exactly from the SLM-based methods. For hard samples, the top-N predictions from SLMs are fed into LLMs as the format of multiple-choice questions (pink box). The question is paired with demos (green box). LLMs rerank these N candidates and generate the final prediction.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.112,
+      0.624,
+      0.489
+    ],
+    "text": "Baseline We compare our method with two kinds of baselines to validate its effectiveness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.625,
+      0.112,
+      0.772,
+      0.49
+    ],
+    "text": "(1) LLMs with ICL: We follow the prompts in Section 3.3 and conduct experiments on three LLMs. (2) Supervised SLMs: We follow previous SoTA methods shown in Section 3.4 (FSLS or Know-Prompt). We additionally combine two SLMs with ensemble or reranking approach (i.e., replace the LLM with another SLM as the reranker) to verify that improvements from our SLM-LLM integrated system are not solely due to the ensemble effects.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.784,
+      0.114,
+      0.8,
+      0.267
+    ],
+    "text": "5.3 Main Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.807,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Table 3 shows that our filter-then-rerank method consistently improves performance across three datasets and nine settings. For instance, with InstructGPT, reranking provides an average F1 gain of 2.4% without SLM ensemble (Lines 4 vs. 7). Based on ensemble SLMs as the filter, our method still achieves 2.1% (Lines 5 vs. 8) gains on average. This confirms (1) the effectiveness of the LLM reranking and (2) its gains are different and (almost) orthogonal to the SLM ensemble.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.509,
+      0.474,
+      0.625
+    ],
+    "text": "5.4 Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.507,
+      0.609,
+      0.885
+    ],
+    "text": "Few makes big difference Our method selectively reranks hard samples. Table 4 shows that (1) only a minor fraction (0.5%\\~10%) of samples are deemed hard and are reranked by LLMs. (2) Despite their limited quantity, reranking results in a substantial performance boost on these samples (10%\\~25% absolute F1 gains). This uplift on a small subset significantly enhances the overall performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.507,
+      0.724,
+      0.887
+    ],
+    "text": "GPT-4 is more aggressive From Tables 3 and 4, GPT-4 generally improves more on hard samples, yet InstructGPT surpasses GPT-4 in NER and RE tasks when evaluated overall. This discrepancy arises from GPT-4’s aggressive reranking which introduces more true positives. InstructGPT, however, focuses more on reducing false positives.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.725,
+      0.507,
+      0.822,
+      0.887
+    ],
+    "text": "Few makes small cost Figure 7 demonstrates that our method impressively reduces budget and latency by approximately 80%\\~90% compared to direct ICL. This reduction is due to (1) fewer LLM callings (only for hard samples) and (2) shorter prompts (fewer candidate labels and demos).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.509,
+      0.848,
+      0.677
+    ],
+    "text": "5.5 Ablation Study",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-13",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.507,
+      0.921,
+      0.885
+    ],
+    "text": "We investigate the effectiveness of the modules in adaptive filter-then-rerank system by removing each of them in turn: (1) CoT: We exclude the explantion for each examples in demo. (2) Demo:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-1",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_0.jpg",
+    "bbox_norm": [
+      0.136,
+      0.119,
+      0.367,
+      0.877
+    ],
+    "text": "Table 3: Overall results of LLM-based ICL methods, SLM-based supervised methods, and our proposed filter-thenrerank (SLM+LLM) methods. The best results are in bold face and the second best are underlined. All results except InstructGPT and GPT-4 are averaged over 5 runs, and sample standard deviations are in the round bracket.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-8:table-2",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_1.jpg",
+    "bbox_norm": [
+      0.444,
+      0.115,
+      0.518,
+      0.489
+    ],
+    "text": "Table 4: The F1-score differences before and after reranking on the reranked samples, as well as their proportion of the total samples.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.112,
+      0.646,
+      0.489
+    ],
+    "text": "We remove all examples, rendering the reranking a zero-shot problem. (3) LF (label filtering): We retain all labels as candidate choices for reranking, instead of only the top-N labels from the SLMs. (4) AD (adaptive): We feed all samples, not just hard ones, to the LLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.649,
+      0.11,
+      0.746,
+      0.49
+    ],
+    "text": "We show their results in Table 5 and see that (1) Demos with explanations consistently enhance the reranking ability of LLMs across all datasets. (2) Demos without explanations also contribute to performance improvement. (3) Label filtering results in gains and notably reduces the demo length, hence cutting inference costs. (4) The performance collapses without a filter to identify sample difficulty, reiterating the need for an integrated SLM-LLM system to complement each other.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-7",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_2.jpg",
+    "bbox_norm": [
+      0.43,
+      0.512,
+      0.552,
+      0.878
+    ],
+    "text": "Table 5: Ablation study on three datasets. The filter is ensembled SLMs and the reranker is GPT-4.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.509,
+      0.669,
+      0.643
+    ],
+    "text": "6 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.677,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Through an extensive empirical study on nine datasets spanning four IE tasks, we find that LLMs, despite their superiority in extreme low-resource scenarios, are not effective few-shot information extractors in general. They struggle with IE-related prompts, have limited demonstration capacity, and incur high inference costs. However, LLMs significantly improve the performance on hard samples when combined with SLM. Building on these insights, we propose an adaptive filter-then-rerank paradigm to leverage the strengths of SLMs and LLMs and mitigate their limitations. This approach consistently achieves promising results, with an average 2.4% F1 gain across multiple few-shot IE tasks, while minimizing latency and budget costs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.099,
+      0.22
+    ],
+    "text": "Limitations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.112,
+      0.273,
+      0.489
+    ],
+    "text": "We do work hard to find better prompts to elicit the power of LLMs on few-shot IE tasks in Section 3.5, by exploring various kinds of LLMs, demonstration strategies and prompt formats. We find that different prompt variants do not significantly impact in-context learning abilities. As an empirical study, we acknowledge the potential existence of a lottery prompt superior to our explored prompts. However, it seems unlikely that an improved prompt would substantially alter our conclusions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.275,
+      0.112,
+      0.436,
+      0.489
+    ],
+    "text": "Another common risk when evaluating LLMs on public benchmark is their potential memorization of samples tested. To mitigate such potential contamination, we use earlier and stable versions of these models rather than the newer and updated ones (for example, gpt-4-0314 instead of gpt-4). Even if such contamination makes abilities of LLMs overestimated, our primary conclusions remain unchanged because we find that LLMs are NOT good few-shot information extractors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.437,
+      0.112,
+      0.615,
+      0.489
+    ],
+    "text": "Regarding our adaptive filter-then-rerank paradigm, a key limitation lies in how to assess sample difficulty. In this work, we employ a simple unsupervised metric, i.e., the maximum probabilities from SLMs. This is predicated on the assumption that SLMs are well-calibrated (Guo et al., 2017). However, it is an obviously imperfect assumption. We envision that calibrating SLMsbased filters or developing an advanced difficulty metric could substantially enhance LLM rerankers’ performance. We leave them for future work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.114,
+      0.646,
+      0.268
+    ],
+    "text": "Acknowlegement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.658,
+      0.112,
+      0.771,
+      0.49
+    ],
+    "text": "This study is supported under the RIE2020 Industry Alignment Fund – Industry Collaboration Projects (IAF-ICP) Funding Initiative, the Singapore Ministry of Education (MOE) Academic Research Fund (AcRF) Tier 1 grant, as well as cash and in-kind contribution from the industry partner(s).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.801,
+      0.115,
+      0.816,
+      0.215
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.827,
+      0.115,
+      0.92,
+      0.489
+    ],
+    "text": "Monica Agrawal, Stefan Hegselmann, Hunter Lang, Yoon Kim, and David Sontag. 2022. Large language models are few-shot clinical information extractors. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 1998–2022, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics. Christoph Alt, Aleksandra Gabryszak, and Leonhard Hennig. 2020. TACRED revisited: A thorough evaluation of the TACRED relation extraction task. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 1558– 1569, Online. Association for Computational Linguistics. Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhi",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.112,
+      0.487
+    ],
+    "text": "Conference 2022, Virtual Event, Lyon, France, April 25 - 29, 2022, pages 2778–2788. ACM. Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng, Zhanghao Wu, Hao Zhang, Lianmin Zheng, Siyuan Zhuang, Yonghao Zhuang, Joseph E. Gonzalez, Ion Stoica, and Eric P. Xing. 2023. Vicuna: An opensource chatbot impressing gpt-4 with 90%\\* chatgpt quality. Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, Parker Schuh, Kensen Shi, Sasha Tsvyashchenko, Joshua Maynez, Abhishek Rao, Parker Barnes, Yi Tay, Noam Shazeer, Vinodkumar Prabhakaran, Emily Reif, Nan Du, Ben Hutchinson, Reiner Pope, James Bradbury, Jacob Austin, Michael Isard, Guy Gur-Ari, Pengcheng Yin, Toju Duke, Anselm Levskaya, Sanjay Ghemawat",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.114,
+      0.489
+    ],
+    "text": "pages 7871–7880, Online. Association for Computational Linguistics. Peng Li, Tianxiang Sun, Qiong Tang, Hang Yan, Yuanbin Wu, Xuanjing Huang, and Xipeng Qiu. 2023. CodeIE: Large code generation models are better few-shot information extractors. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 15339–15353, Toronto, Canada. Association for Computational Linguistics. Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, and Weizhu Chen. 2022. What makes good in-context examples for GPT-3? In Proceedings of Deep Learning Inside Out (DeeLIO 2022): The 3rd Workshop on Knowledge Extraction and Integration for Deep Learning Architectures, pages 100–114, Dublin, Ireland and Online. Association for Computational ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.14,
+      0.489
+    ],
+    "text": "events. In Proceedings of the The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation, pages 89–98, Denver, Colorado. Association for Computational Linguistics. Hongjin Su, Jungo Kasai, Chen Henry Wu, Weijia Shi, Tianlu Wang, Jiayi Xin, Rui Zhang, Mari Ostendorf, Luke Zettlemoyer, Noah A. Smith, and Tao Yu. 2022. Selective annotation makes language models better few-shot learners. Zhiqing Sun, Xuezhi Wang, Yi Tay, Yiming Yang, and Denny Zhou. 2023. Recitation-augmented language models. In International Conference on Learning Representations. Erik F. Tjong Kim Sang and Fien De Meulder. 2003. Introduction to the CoNLL-2003 shared task: Language-independent named entity recognition. In Proceedings of the Seventh Conference on Natural Language Learning at HLT-NAACL 2",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.114,
+      0.322,
+      0.489
+    ],
+    "text": "Zhuosheng Zhang, Aston Zhang, Mu Li, and Alex Smola. 2023b. Automatic chain of thought prompting in large language models. In The Eleventh International Conference on Learning Representations (ICLR 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.114,
+      0.351,
+      0.23
+    ],
+    "text": "A Datasets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.114,
+      0.378,
+      0.268
+    ],
+    "text": "A.1 Full Datasets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.384,
+      0.112,
+      0.45,
+      0.489
+    ],
+    "text": "We construct few-shot IE datasets and conduct the empirical study on nine datasets spanning four tasks, with varying schema complexities ranging from 4 to 168. We show their statistics in Table 6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.114,
+      0.478,
+      0.411
+    ],
+    "text": "A.2 Details of Few-shot IE Datasets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.11,
+      0.887,
+      0.49
+    ],
+    "text": "Sampling Algorithm for Train/Valid Datasets. We downsample sentences from original training dataset to construct few-shot training and valid datasets. We adopt K-shot sampling strategy that each label has (at least) K samples. We set 6 Kvalues (1, 5, 10, 20, 50, 100) for RE tasks and 4 K-values (1, 5, 10, 20) for other tasks. For RE task, each sentence has exactly one relation and we simply select K sentences for each label. For NER, ED and EAE tasks, each sentences is possible to contain more than one entities/events/arguments. Since our sampling is at sentence-level, the algorithm of accurate sampling , i.e., finding exactly K samples for each label, is NP-complete8 and unlikely to find a practical solution. Therefore we follow Yang and Katiyar (2020) adopting a greedy sampling algorithm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.507,
+      0.615,
+      0.887
+    ],
+    "text": "Based on the subsets constructed above, we optionally further split them into training and valid sets. For few-shot datasets with more than 300 sentences, we additionally split 10% sentences as the valid set and the remaining sentences as training set. Otherwise, we do not construct valid set and conduct 5-fold cross validation to avoid overfitting.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-11",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.629,
+      0.509,
+      0.645,
+      0.692
+    ],
+    "text": "B Details on SLMs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.656,
+      0.507,
+      0.788,
+      0.885
+    ],
+    "text": "We adopt five representative supervised methods to evaluate the ability of SLMs on few-shot IE tasks. (1). Fine-tuning (FT): Add a classifier head on SLMs to predict the labels of each sentence/word. (2). FSLS (Ma et al., 2022a): The state-of-the-art extractive-based method for few-shot NER task. Ma et al. (2023) also validate its competitive performance on few-shot ED tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-13",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.788,
+      0.509,
+      0.82,
+      0.885
+    ],
+    "text": "(3). KnowPrompt (Chen et al., 2022b): The best extractive-based method for few-shot RE task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-14",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.821,
+      0.509,
+      0.853,
+      0.885
+    ],
+    "text": "(4). PAIE (Ma et al., 2022b): The best extractivebased method for few-shot EAE task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-15",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.509,
+      0.902,
+      0.885
+    ],
+    "text": "(5). UIE (Lu et al., 2022c): A competitive unified generation-based method for few-shot IE tasks. We introduce their implementation details below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-16",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.904,
+      0.509,
+      0.92,
+      0.885
+    ],
+    "text": "Fine-tuning/FSLS. We implement these two methods by ourselves. We use RoBERTa-large (Liu et al., 2019) as the backbones. We adopt Automatic Mixed Precision (AMP) training strategy9 to save memory. We run each experiment on a single NVIDIA V100 GPU. We train each model with the AdamW (Loshchilov and Hutter, 2019) optimizer with linear scheduler and 0.1 warm-up steps. We set the weight-decay coefficient as 1e-5 and maximum gradient norms as 1.0. We set the batch size as 64, the maximum input length as 192, the training step as 500 and the learning rate as 5e-5. KnowPrompt We implement this method based on original source code10, and use RoBERTa-large as our backbones. We set 10 maximum epochs for 50- and 100-shot datasets, and as 50 epochs for other datasets. We keep all other hyperparameter",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:table-1",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_0.jpg",
+    "bbox_norm": [
+      0.123,
+      0.117,
+      0.235,
+      0.878
+    ],
+    "text": "Table 6: Statistics of nine datasets used. Note that the #mentions for event detection tasks refers to the number of trigger words, while the #mentions for event argument extraction tasks refers to the number of arguments.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:table-2",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_1.jpg",
+    "bbox_norm": [
+      0.322,
+      0.114,
+      0.907,
+      0.5
+    ],
+    "text": "Table 7: The statistics of few-shot training sets. We set different random seeds and generate 5 training sets for each setting. We report their average statistics.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.507,
+      0.777,
+      0.887
+    ],
+    "text": "PAIE We implement this method on original source code11, and use BART-large (Lewis et al., 2020) as backbones. We keep all hyperparameters as default for ACE and RAMS dataset. For ERE dataset, we set the training step as 1000, the batch size as 16 and the learning rate as 2e-5. We run each experiment on a single NVIDIA V100 GPU. UIE We implement this method based on original source code12, and use T5-large (Raffel et al., 2020) as the backbones. We run each experiment on a single NVIDIA Quadro RTX8000 GPU. We set the batch size as 4 with 4000 training steps. We set the maximum input length as 800 and the learning rate as 1e-4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.509,
+      0.803,
+      0.756
+    ],
+    "text": "C LLMs Implementations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.812,
+      0.509,
+      0.86,
+      0.885
+    ],
+    "text": "Regarding our empirical study, we explore the ICL abilities of LLMs on few-shot IE tasks. We mainly use five LLMs from two sources. (1) OpenAI models: CODEX (code-davinci-002; Chen et al. 2021), InstructGPT (text-davinci-003; Ouyang et al. 2022), and ChatGPT (gpt-3.5-turbo-0301). (2) Open-source models: LLaMA-13B (Touvron et al., 2023) and its instruction-tuned counterpart, Vicuna-13B (Chiang et al., 2023). We detail their implementation details in the next sections below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.211,
+      0.114,
+      0.227,
+      0.329
+    ],
+    "text": "C.1 Open-source Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.11,
+      0.397,
+      0.489
+    ],
+    "text": "We implement multiple ICL approaches on LLaMA-13B and Vicuna-13B without fine-tuning. We set the maximum input length as 2048 and the batch size as 1. We run each experiment on a single NVIDIA V100 GPU. To achieve this, we leverage the Accelerate 13 framework and fp16 inference to save memory. We set maximum output length as 96 and sampling temperature as 0 (i.e., greedy decoding). We set both frequency\\_penalty and presence\\_penalty as 0.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.112,
+      0.425,
+      0.292
+    ],
+    "text": "C.2 OpenAI Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-5",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.431,
+      0.11,
+      0.577,
+      0.49
+    ],
+    "text": "We implement multiple ICL approaches on OpenAI models by calling their official APIs 14. We set the maximum input length as 3600 for all tasks and models. The only exception occurs when we use CODEX on RE tasks, where we set the maximum input length as 7000. We unify the maximum output length as 32 for RE task, and 96 for other three tasks. We set the sampling temperature coefficient as 0, i.e., greedy decoding.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-6",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.114,
+      0.608,
+      0.4
+    ],
+    "text": "D Pivot Experiments on LLMs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-7",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.114,
+      0.636,
+      0.347
+    ],
+    "text": "D.1 Sampling Temperature",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-8",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.642,
+      0.112,
+      0.772,
+      0.489
+    ],
+    "text": "Existing prompt-engineering discussion15 suggests setting the sampling temperature t = 0 for tasks with structured outputs, including IE tasks. We validate this conclusion in Table 8, from which we could see the generated quality when t = 0 is much higher than the quality when t ̸= 0. Therefore we set t = 0 in all main experiments, and do not take self-consistency (Wang et al., 2023c) into account.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-9",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.784,
+      0.112,
+      0.8,
+      0.389
+    ],
+    "text": "D.2 Automatic Chain-of-thought",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-10",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.807,
+      0.112,
+      0.857,
+      0.489
+    ],
+    "text": "We additionally investigate whether rationales could facilitate LLMs’ performance on few-shot IE tasks. Since there exists no golden rationales in original datasets, we follow Automatic Chain-ofthought (Auto-CoT; Zhang et al. 2023b) method as below. Regarding each sample, we query LLMs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:table-11",
+    "page_id": 15,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_15_Table_0.jpg",
+    "bbox_norm": [
+      0.121,
+      0.531,
+      0.203,
+      0.858
+    ],
+    "text": "Table 8: F1-scores across different t values. Experiments run on 10-shot settings with CODEX.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-15:text-13",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.507,
+      0.512,
+      0.887
+    ],
+    "text": "According to [sentence], Why [span] is a [label]. For example, given the sentence “DSC and Traction Control on all Speed3 models is also standard.”, we would feed LLM the query that “Could you explain why Speed3 is a kind of car”. Then we insert the bootstrapped rationales between the sentences and ground-truth answers. If a sentence has no positive labels, however, we do not ask LLMs and keep the original format as the vanilla ICL approach. Here we prompt InstructGPT to generate the rationales with temperature t = 0.7. We compare the performance with and without Auto-CoT as shown in Table 9.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:table-14",
+    "page_id": 15,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_15_Table_1.jpg",
+    "bbox_norm": [
+      0.601,
+      0.542,
+      0.663,
+      0.848
+    ],
+    "text": "Table 9: The F1-score difference between with and without Auto-CoT. We generate rationales by Instruct-GPT, then adopt ICL w. Auto-CoT approach and use CODEX as our backbone for inference.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-15:text-15",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "We are frustrated to find Auto-CoT degrades the performance with a large margin. We speculate this degration could be attributed to three main reasons. (1) The rationale increase the length of each sample and thus decrease the overall example number in demos. (2) There exists an obvious discrepancy between sentences with and without positive labels. The rationales are only provided for sentences with positive labels because it is hard to explain why a sentence dose not contain any label. (3) Some auto-generated rationales are low-quality, especially for RE tasks. We would explore better strategy to exploit auto-genertaed rationales in the future work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:table-1",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_0.jpg",
+    "bbox_norm": [
+      0.108,
+      0.127,
+      0.202,
+      0.868
+    ],
+    "text": "Table 10: F1-scores difference among GPT-4, CODEX and InstructGPT.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.112,
+      0.242,
+      0.307
+    ],
+    "text": "D.3 GPT-4 v.s. Others",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.11,
+      0.428,
+      0.49
+    ],
+    "text": "We tend to minimize the GPT-4 calls due to its high price. Thus we utilize 20-/100-shot settings across each dataset to compare GPT-4’s performance with other LLMs. Table 10 reveals that GPT-4 does not outperform other LLMs significantly, except on OntoNotes and MAVEN. However, even on these datasets, GPT-4 still falls behind supervised SLMs by a significant margin. Consequently, the exclusion of GPT-4 does not undermine the conclusions drawn from our main experiments, and we omit it from our empirical study.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.112,
+      0.457,
+      0.351
+    ],
+    "text": "E Auxiliary Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.112,
+      0.485,
+      0.484
+    ],
+    "text": "E.1 LLMs struggle on Fine-grained Datasets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.11,
+      0.604,
+      0.49
+    ],
+    "text": "Based on the results shown in Figure 2, we additionally provide a quantitative analysis to show that LLMs struggle with fine-grained datasets. Under the 5-shot setting, we compare the performance difference of LLMs (ChatGPT) and SLMs (SoTA few-shot models) among different datasets. For each IE task, we observe a clear negative correlation between the label number (row 2) and the performance difference (row 5). In other words, with more label types, LLMs tend to perform relatively worse than SLMs. Therefore we conclude that LLMs struggle on fine-grained datasets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:table-7",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_1.jpg",
+    "bbox_norm": [
+      0.681,
+      0.132,
+      0.757,
+      0.468
+    ],
+    "text": "Table 11: Performance comparison between LLMs (ChatGPT) and SLM-based methods among datasets with various schema complexities.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:table-8",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_2.jpg",
+    "bbox_norm": [
+      0.762,
+      0.132,
+      0.835,
+      0.468
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:table-9",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_3.jpg",
+    "bbox_norm": [
+      0.839,
+      0.132,
+      0.915,
+      0.468
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:text-11",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.317,
+      0.509,
+      0.334,
+      0.769
+    ],
+    "text": "E.2 Finding Better Instruction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-12",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.338,
+      0.507,
+      0.403,
+      0.885
+    ],
+    "text": "To investigate whether LLMs would benefit from complex instructions, we explored six instruction variants from simple to complex. Take NER task as an example, we illustrate them as below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-13",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.404,
+      0.509,
+      0.418,
+      0.689
+    ],
+    "text": "Instruction0: [empty]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-14",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.419,
+      0.507,
+      0.532,
+      0.887
+    ],
+    "text": "Instruction1: Identify the entities expressed by each sentence, and locate each entity to words in the sentence. The possible entity types are: [Type\\_1], [Type\\_2], ..., [Type\\_N]. If you do not find any entity in this sentence, just output ‘Answer: No entities found.’",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-15",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.507,
+      0.598,
+      0.887
+    ],
+    "text": "Instruction2: Identify the entities expressed by each sentence, and locate each entity to words in the sentence. The possible entity types are:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-16",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.529,
+      0.623,
+      0.774
+    ],
+    "text": "• [Type\\_1]: [Definition\\_1]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-17",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.529,
+      0.649,
+      0.773
+    ],
+    "text": "• [Type\\_2]: [Definition\\_2]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-19",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.684,
+      0.529,
+      0.701,
+      0.773
+    ],
+    "text": "• [Type\\_N]: [Definition\\_N]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-20",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.507,
+      0.758,
+      0.885
+    ],
+    "text": "If you do not find any entity in this sentence, just output ‘Answer: No entities found.’",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-21",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Instruction3: Assume you are an entity-instance annotator. Given a sentence, you need to (1) identify the word or phrase about the entity in the sentence, and (2) classify its entity type. The possible entity types are listed as below: [Type\\_1], [Type\\_2], . . . , [Type\\_N]. Please note that your annotation results must follow such format: ”’Answer: ([Type\\_1] <SEP> identified\\_entity:[Entity\\_1]), ([Type\\_2] <SEP> identified\\_entity:[Entity\\_2]), .”’. If you do not find any entity in this sentence, just output ‘Answer: No entities found.’",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.167,
+      0.11,
+      0.472,
+      0.49
+    ],
+    "text": "Instruction4: Assume you are an entity-instance annotator. Your objective is to perform a series of intricate steps for Named Entity Recognition. Firstly, you have to identify a particular word or phrase in the sentence that corresponds to an entity. Following this, classify the entity into one of the potential entity types. The potential entity types are provided as below: [Type\\_1], [Type\\_2], . . . , [Type\\_N]. Please note that your annotation results must follow such format: ‘Answer: ([Type\\_1] <SEP> identified\\_entity:[Entity\\_1]), ([Type\\_2] <SEP> identified\\_entity:[Entity\\_2]), ..’. If you do not find any entity in this sentence, just output ‘Answer: No entities found.’",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.474,
+      0.11,
+      0.587,
+      0.489
+    ],
+    "text": "Instruction5: Assume you are an entity-instance annotator. Given a sentence, you need to (1) identify the word or phrase about the entity in the sentence, and (2) classify its entity type. The possible entity types are listed as below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.134,
+      0.618,
+      0.378
+    ],
+    "text": "• [Type\\_1]: [Definition\\_1]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-5",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.134,
+      0.649,
+      0.378
+    ],
+    "text": "• [Type\\_2]: [Definition\\_2]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-7",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.134,
+      0.711,
+      0.378
+    ],
+    "text": "• [Type\\_N]: [Definition\\_N]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-8",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.726,
+      0.11,
+      0.853,
+      0.489
+    ],
+    "text": "Please note that your annotation results must follow such format: ‘Answer: ([Type\\_1] <SEP> identified\\_entity:[Entity\\_1]), ([Type\\_2] <SEP> identified\\_entity:[Entity\\_2]), If you do not find any entity in this sentence, just output ‘Answer: No entities found.’",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-9",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "Regarding these six instructions, we evaluate their performance of ChatGPT on four 20-shot IE tasks. As shown in Table 12, there is no significant correlation between the instruction complexity and LLMs’ performance. Even the prompt without instruction (I0) leads to comparable, if not better, results than prompt with complex instructions. Therefore, we use simple instruction (I1) in our main experiment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:table-10",
+    "page_id": 17,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_17_Table_0.jpg",
+    "bbox_norm": [
+      0.122,
+      0.515,
+      0.231,
+      0.873
+    ],
+    "text": "Table 12: F1-scores across six instruction formats. Experiments run on 20-shot settings with ChatGPT.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-17:text-12",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.507,
+      0.365,
+      0.83
+    ],
+    "text": "E.3 Do More Samples in Demos Help?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-13",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.505,
+      0.613,
+      0.887
+    ],
+    "text": "We wonder whether longer demos bring more powerful ICL abilities for LLMs. Thus we investigate the impact of increasing the number of demonstrations on LLMs’ performance in Figure 8. We observe that: (1) The performance of the RE task consistently improves with more demos, indicating its potential benefiting from additional annotations. (2) The NER and ED tasks reach a stable or degraded performance with increased demo numbers, suggesting that they are limited even before reaching the maximum input length. (3) Open-source LLMs, i.e., LLaMA and Vicuna, have more limited capacities in leveraging demos compared to OpenAI models, with their performance stagnating or even collapsing with only a few (2-4) demos.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-14",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.621,
+      0.507,
+      0.638,
+      0.872
+    ],
+    "text": "E.4 Finding Better Demo Selection Strategy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-15",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.642,
+      0.505,
+      0.821,
+      0.887
+    ],
+    "text": "The maximum input length of LLMs usually limits the sentence number in demos even under fewshot settings. For each test sentence s, we demand a demo retriever ${ \\mathcal { E } } ( D , s )$ which selects a subset from D as the sentences in demo. Following previous work, we consider three commonly-used strategies. (1) Random sampling. (2) Sentenceembedding (Liu et al., 2022; Su et al., 2022): retrieving the top-K nearest sentences measured by sentence embedding. We compute the embeddings by SimCSE-RoBERTa-large (Gao et al., 2021).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:equation-16",
+    "page_id": 17,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_17_Equation_0.jpg",
+    "bbox_norm": [
+      0.831,
+      0.517,
+      0.848,
+      0.852
+    ],
+    "text": "$$\n\\mathcal { E } ( D , s ) = \\mathrm { a r g } \\mathrm { - } \\mathrm { t o p K } _ { s ^ { \\prime } \\in D } [ \\mathrm { S e n t } \\mathrm { - } \\mathrm { e m b e d } ( s ^ { \\prime } , s ) ]\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-17:text-17",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.859,
+      0.507,
+      0.892,
+      0.885
+    ],
+    "text": "(3) Efficient Prompt Retriever (Rubin et al., 2022): retrieving by a neural retriever R trained on D.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:equation-18",
+    "page_id": 17,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_17_Equation_1.jpg",
+    "bbox_norm": [
+      0.903,
+      0.559,
+      0.921,
+      0.831
+    ],
+    "text": "$$\n\\begin{array} { r } { \\boldsymbol { \\mathcal { E } } ( D , \\boldsymbol { s } ) = \\mathrm { a r g } \\mathrm { - } \\mathrm { t o p } \\mathrm { K } _ { \\boldsymbol { s } ^ { \\prime } \\in D } [ R _ { D } ( \\boldsymbol { s } ^ { \\prime } , \\boldsymbol { s } ) ] } \\end{array}\\tag{4}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-18:text-7",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.445,
+      0.112,
+      0.682,
+      0.49
+    ],
+    "text": "For each test sentence $s ,$ we pre-retrieve M similar sentences $\\bar { D } ~ = ~ \\{ ( s _ { i } ^ { \\prime } , y _ { i } ^ { \\prime } ) \\bar  \\} _ { i = 1 } ^ { M } ~ \\subset ~ D$ . Then we score each sentence in D¯ by their likelihoods $P \\mathcal { L } ( f ( y _ { i } ^ { \\prime } ) | f ( s _ { i } ^ { \\prime } ) )$ where $f$ denotes the prompt format adopted and $\\mathcal { L }$ the scoring LM. We randomly select positive samples $s _ { i } ^ { \\prime } { \\bf \\Pi } _ { i } ^ { ( \\mathrm { p o s } ) }$ from the top- $K _ { D }$ sentences and hard negative samples $s _ { i } ^ { \\prime ( \\mathrm { h a r d - n e g } ) }$ from the bottom- $K _ { D }$ ones. Then we train $R _ { D }$ by inbatch contrastive learning (Chen et al., 2020). For each sentence $s _ { i } ^ { \\prime }$ within the b",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:table-8",
+    "page_id": 18,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_18_Table_0.jpg",
+    "bbox_norm": [
+      0.732,
+      0.119,
+      0.806,
+      0.48
+    ],
+    "text": "Table 13: F1-scores on three demo-selection strategies. Experiments run on 20-shot settings with ChatGPT.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-18:text-9",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.112,
+      0.921,
+      0.489
+    ],
+    "text": "Table 13 demonstrates the F1-score performance on different selection strategies. We find that both the sentence embedding and EPR surpass random sampling by a large margin. Given the simplicity of the sentence embedding, we adopt it, rather than EPR, as our selection strategy in main experiment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:table-10",
+    "page_id": 18,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_18_Table_1.jpg",
+    "bbox_norm": [
+      0.483,
+      0.551,
+      0.545,
+      0.84
+    ],
+    "text": "Table 14: F1-scores across three prompt formats. Experiments run on 20-shot settings with ChatGPT.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-18:text-11",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.573,
+      0.509,
+      0.589,
+      0.803
+    ],
+    "text": "E.5 Finding Better Prompt Format",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-12",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.596,
+      0.507,
+      0.758,
+      0.885
+    ],
+    "text": "Previous studies on LLMs for few-shot IE tasks have explored different prompt formats and highlighted the importance of selecting an appropriate format for achieving competitive performance. Therefore, we investigate two commonly-used variants in previous work: (1) Text prompt as shown in Figure 1. (2) Code prompt: We follow Wang et al. (2023b); Li et al. (2023) and recast the output of IE tasks in the form of code. See more details about this format in their original papers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-13",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.507,
+      0.808,
+      0.885
+    ],
+    "text": "Table 14 shows comparable performance across all formats. Based on simplicity, we choose the text prompt for our main experiment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-14",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.821,
+      0.509,
+      0.838,
+      0.645
+    ],
+    "text": "F Case Study",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-15",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.848,
+      0.509,
+      0.865,
+      0.67
+    ],
+    "text": "F.1 Hard Samples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-16",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.872,
+      0.507,
+      0.921,
+      0.885
+    ],
+    "text": "Table 15 showcases some hard examples which benefits from our LLM reranking. In accordance with our intuition, we observe that the LLM rerankers correct two kinds of erroneous predictions made by LLMs. (1) The lack of external knowledge, such as the first (Triptolemus is a figure in Greek mythology) and third examples (Minas Gerais is a state instead of city). (2) Limited reasoning abilities, such as the second (His wife’s children are his children) and the fourth (The word \"fought\" in this sentence does not involve any physical violence) examples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.273,
+      0.114,
+      0.29,
+      0.27
+    ],
+    "text": "F.2 Easy Samples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.313,
+      0.112,
+      0.43,
+      0.49
+    ],
+    "text": "As discussed in Section 4.3, we attribute the inferior performance of LLMs on easy samples to their false-positive predictions for negative samples. Upon examining the incorrect cases, we speculate that two main reasons are responsible: (1) LLM hallucination and (2) span boundary mismatch. We provide details on them with specific cases below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.436,
+      0.112,
+      0.552,
+      0.492
+    ],
+    "text": "LLM Hallucination. The most distinctive mistakes made by LLMs. Without specific fine-tuning on IE tasks, LLMs (with in-context learning approaches) sometimes hallucinate and provide meaningless, even confusing explanations or answers. For instance, LLMs might predict a verb, preposition or even special symbols as an entity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.558,
+      0.112,
+      0.594,
+      0.489
+    ],
+    "text": "Case 1: LLMs predict the word die as entity person-other (Ground truth: None)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-6",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.131,
+      0.731,
+      0.473
+    ],
+    "text": "Sentence: Flavius Rumoridus (died 5th century AD) was a Roman soldier who was appointed consul in AD 403 in the Western Roman Empire at the same time as the eastern emperor Theodosius II served in the same capacity in the East.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-7",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.134,
+      0.762,
+      0.295
+    ],
+    "text": "Candidate Choices:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-8",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.139,
+      0.806,
+      0.47
+    ],
+    "text": "(a) died do/does not belong to any known entities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-9",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.139,
+      0.833,
+      0.438
+    ],
+    "text": "(b) died is a kind of geopolitical entity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-10",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.141,
+      0.907,
+      0.472
+    ],
+    "text": "(c) died is a person, but not affiliated with following professions: actor, artist, athlete, author, director, politician, scholar, soldier.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-11",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.526,
+      0.259,
+      0.867
+    ],
+    "text": "Analysis: The sentence provides information about Flavius Rumoridus, who was a Roman soldier and appointed consul in AD 403. The sentence also mentions that he died in the 5th century AD, which is a statement about his death. Therefore, the correct answer is (c) because the sentence does not provide any information about Flavius Rumoridus being affiliated with any of the professions listed in option (c).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-12",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.272,
+      0.529,
+      0.29,
+      0.695
+    ],
+    "text": "Correct Answer: (c)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-13",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.312,
+      0.507,
+      0.346,
+      0.884
+    ],
+    "text": "Case 2: LLMs predict the word of as entity organization-other (Ground truth: None)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-14",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.366,
+      0.527,
+      0.419,
+      0.867
+    ],
+    "text": "Sentence: During these years he studied at the South Kensington Schools of the Royal College of Art.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-15",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.432,
+      0.529,
+      0.451,
+      0.692
+    ],
+    "text": "Candidate Choices:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-16",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.534,
+      0.494,
+      0.867
+    ],
+    "text": "(a) of do/does not belong to any known entities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-17",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.536,
+      0.521,
+      0.784
+    ],
+    "text": "(b) of is an educational institute.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-18",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.529,
+      0.536,
+      0.629,
+      0.867
+    ],
+    "text": "(c) of pertains to an organization that does not fall under the categories of company, educational institution, government, media, political party, religion, sports league, sports team, band or musical group.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-19",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.526,
+      0.802,
+      0.868
+    ],
+    "text": "Analysis: In the given sentence, of is a preposition that indicates the relationship between South Kensington Schools and Royal College of Art. None of the candidate choices directly address the correct relationship between these entities or state that they are not applicable. Therefore, the correct answer is (c): of does not pertain to any known entities mentioned in the choices provided.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-20",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.529,
+      0.833,
+      0.695
+    ],
+    "text": "Correct Answer: (c)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-21",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Span boundary mismatch. Different from sentence-level approaches which take one or multiple sentences as an unit and assign each word’s label globally, LLMs under our filter-then-rerank paradigm adopt sample-level approaches. In other words, LLMs only consider each word/span candidate independently. The sample-level approaches enable LLMs to rerank candidates with the help of multi-choice question prompt. However, they also aggravate the span boundary mismatching problem in NER and ED tasks. We empirically find easy samples suffering much more from boundary mismatching problem than hard samples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.112,
+      0.318,
+      0.49
+    ],
+    "text": "Case 3: LLMs predict Baron, a subspan of Baron Carl Hurleman, as the entity person-other (The ground-truth entity type of Baron is None. And the ground-truth entity type of Baron Carl Hurleman is person-artist/author).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.343,
+      0.132,
+      0.38,
+      0.47
+    ],
+    "text": "Sentence: Additions in the 1740s were by Baron Carl Hurleman (1700 - 1753).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.392,
+      0.134,
+      0.412,
+      0.297
+    ],
+    "text": "Candidate Choices:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.419,
+      0.139,
+      0.456,
+      0.47
+    ],
+    "text": "(a) Baron do/does not belong to any known entities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-6",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.462,
+      0.139,
+      0.531,
+      0.472
+    ],
+    "text": "(b) Baron is a person, but not affiliated with following professions: actor, artist, athlete, author, director, politician, scholar, soldier.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-7",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.537,
+      0.141,
+      0.558,
+      0.448
+    ],
+    "text": "(c) Baron is a kind of geopolitical entity",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.581,
+      0.131,
+      0.764,
+      0.473
+    ],
+    "text": "Analysis: In the given sentence, Baron is a title given to a person named Carl Hurleman, who is mentioned as the one who made additions in the 1740s. The sentence does not provide any information about connections to geopolitical entities or any other known entities mentioned in the choices provided. Therefore, the correct answer is (b): Baron is a person, but not affiliated with following professions: actor, artist, athlete, author, director, politician, scholar, soldier.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.134,
+      0.795,
+      0.3
+    ],
+    "text": "Correct Answer: (b)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "Case 4: LLMs predict 65th, a subspan of 65th British Academy Film Awards, as the entity other-awards (The ground-truth entity type of 65th is None. And the ground-truth entity type of 65th British Academy Film Awards is other-awards).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-11",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.526,
+      0.162,
+      0.867
+    ],
+    "text": "Sentence: Ralph Fiennes was nominated for the BAFTA Award for Outstanding Debut by a British Writer, Director or Producer at the 65th British Academy Film Awards.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-12",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.529,
+      0.193,
+      0.692
+    ],
+    "text": "Candidate Choices:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-13",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.2,
+      0.534,
+      0.236,
+      0.865
+    ],
+    "text": "(a) 65th do/does not belong to any known entities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-14",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.536,
+      0.263,
+      0.747
+    ],
+    "text": "(b) 65th is a kind of award.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-15",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.271,
+      0.536,
+      0.323,
+      0.867
+    ],
+    "text": "(c) 65th refers to some event except attack, election, natural disaster, protest, revolution and sports.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-16",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.346,
+      0.526,
+      0.498,
+      0.867
+    ],
+    "text": "Analysis: The sentence mentions the 65th British Academy Film Awards, which is an event that recognizes outstanding achievements in the film industry. Therefore, option (c) is incorrect as it excludes events like award ceremonies. Option (a) is also incorrect as the number 65th is associated with the event. Hence, the correct answer is (b) as 65th refers to the specific edition of the BAFTA Awards.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-17",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.529,
+      0.527,
+      0.697
+    ],
+    "text": "Correct Answer: (b)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-18",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.556,
+      0.509,
+      0.592,
+      0.878
+    ],
+    "text": "G Details on Adaptive Filter-then-rerank Paradigm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-19",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.599,
+      0.509,
+      0.617,
+      0.763
+    ],
+    "text": "G.1 Demonstration Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-20",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.507,
+      0.703,
+      0.885
+    ],
+    "text": "We convert few-shot IE tasks to multiple-choice questions in our filter-then-rerank paradigm. We show 4 examples used in demonstrations for FewN-ERD dataset in Table 16, for TACREV dataset in Table 17, and for ACE05 datasets in Table 18.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-21",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.709,
+      0.509,
+      0.728,
+      0.638
+    ],
+    "text": "G.2 Template",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-22",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.507,
+      0.814,
+      0.887
+    ],
+    "text": "In our filter-then-rerank paradigm, we utilize templates converting candidate labels to question options. We list the template for FewNERD dataset in Table 19, for TACREV dataset in Table 20, and for ACE05 datasets in Table 21.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:table-1",
+    "page_id": 21,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_21_Table_0.jpg",
+    "bbox_norm": [
+      0.329,
+      0.121,
+      0.737,
+      0.877
+    ],
+    "text": "Table 15: Examples of the samples corrected by LLM reranking. We sample four examples from NER, RE and ED tasks, respectively. Sentences: The sentences in which samples locate. We color the samples (entities or trigger words) to be identified. Before: The prediction before LLM reranking. Based on SLM-based methods. After: The reranked prediction using LLMs. Rationales: LLM-generated Explanations.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-22:table-1",
+    "page_id": 22,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_22_Table_0.jpg",
+    "bbox_norm": [
+      0.248,
+      0.126,
+      0.777,
+      0.872
+    ],
+    "text": "Table 16: Demo examples used in FewNERD dataset. We color the entity in blue.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-23:table-1",
+    "page_id": 23,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_23_Table_0.jpg",
+    "bbox_norm": [
+      0.242,
+      0.126,
+      0.781,
+      0.872
+    ],
+    "text": "Table 17: Demo examples used in TACREV dataset. We color the subject and object entities in blue.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-24:table-1",
+    "page_id": 24,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_24_Table_0.jpg",
+    "bbox_norm": [
+      0.206,
+      0.126,
+      0.819,
+      0.87
+    ],
+    "text": "Table 18: Demo examples used in ACE05 dataset. We color the trigger word in blue.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-25:table-1",
+    "page_id": 25,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_25_Table_0.jpg",
+    "bbox_norm": [
+      0.108,
+      0.131,
+      0.925,
+      0.867
+    ],
+    "text": "Table 19: Templates for FewNERD dataset, where {ent} is the placeholder for entity type.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-27:table-1",
+    "page_id": 27,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_27_Table_0.jpg",
+    "bbox_norm": [
+      0.123,
+      0.141,
+      0.926,
+      0.855
+    ],
+    "text": "Table 20: Templates for TACREV dataset, where {subj} and {obj} are the placeholders for subject and object entities. Copied from (Lu et al., 2022a)",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-28:table-1",
+    "page_id": 28,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_28_Table_0.jpg",
+    "bbox_norm": [
+      0.108,
+      0.129,
+      0.964,
+      0.867
+    ],
+    "text": "Table 21: Templates for ACE05 dataset, where {evt} is the placeholder for event type.",
+    "source_type": "table"
+  }
+]

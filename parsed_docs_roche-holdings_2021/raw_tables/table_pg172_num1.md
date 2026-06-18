@@ -1,0 +1,1 @@
+<table><tr><td>Choice 1</td><td>Choice 2</td><td>Choice 3</td></tr><tr><td>80% S-SARs</td><td>50% S-SARs</td><td>20% S-SARs</td></tr><tr><td>20% RSUs</td><td>50% RSUs</td><td>80% RSUs</td></tr></table>

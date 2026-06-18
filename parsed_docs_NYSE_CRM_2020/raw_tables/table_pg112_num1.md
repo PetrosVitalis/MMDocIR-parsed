@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">Fiscal Year Ended January 31,</td></tr><tr><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Domestic</td><td>$686</td><td>$839</td><td>$160</td></tr><tr><td>Foreign</td><td>20</td><td>144</td><td>260</td></tr><tr><td></td><td>$706</td><td>$983</td><td>$420</td></tr></table>

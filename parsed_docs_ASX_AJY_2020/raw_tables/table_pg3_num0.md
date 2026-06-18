@@ -1,0 +1,1 @@
+<table><tr><td>Tenement</td><td>Location</td></tr><tr><td>Silverstone Project</td><td>Datian County, Sanming City</td></tr><tr><td></td><td>Fujian Province China</td></tr><tr><td>Beikeng Mine</td><td></td></tr><tr><td></td><td>Datian County, Sanming City</td></tr><tr><td></td><td>Fujian Province China</td></tr></table>

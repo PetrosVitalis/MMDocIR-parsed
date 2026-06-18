@@ -1,0 +1,2116 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.135,
+      0.217,
+      0.692,
+      0.817
+    ],
+    "text": "Electronic Fuel Injection By Dr.S.John Alexis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.069,
+      0.066,
+      0.381,
+      0.946
+    ],
+    "text": "A modern gasoline injection system uses pressure from an electric fuel pump to spray fuel into the engine intake manifold.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.067,
+      0.067,
+      0.279,
+      0.942
+    ],
+    "text": "Like a carburetor, it must provide the engine with the correct air-fuel mixture for specific operating conditions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.352,
+      0.067,
+      0.564,
+      0.946
+    ],
+    "text": "Unlike a carburetor, however,PRESSURE,not engine vacuum,is used to feed fuel into the engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.633,
+      0.067,
+      0.776,
+      0.933
+    ],
+    "text": "This makes the gasoline injection system very efficient",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.057,
+      0.026,
+      0.262,
+      0.97
+    ],
+    "text": "A gasoline injection system has several possible advantages over a carburetor type of fuel system.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.027,
+      0.347,
+      0.653
+    ],
+    "text": "Some advantages are as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.364,
+      0.028,
+      0.546,
+      0.97
+    ],
+    "text": "\\* Improved atomization. Fuel is forced into the intake manifold under pressure that helps break fuel droplets into a fine mist.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.031,
+      0.694,
+      0.968
+    ],
+    "text": "\\* Better fuel distribution. Equal flow offuel vapors into each cylinder.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.028,
+      0.901,
+      0.971
+    ],
+    "text": "\\* Smoother idle. Lean fuel mixture can be used without rough idle because of better fuel distribution and lowspeed atomization.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.055,
+      0.196,
+      0.944
+    ],
+    "text": "\\* Lower emissions. Lean efficient air-fuel mixture reduces exhaust pollution.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.211,
+      0.055,
+      0.392,
+      0.944
+    ],
+    "text": "\\* Better cold weather drivability. Injection provides better control ofmixture enrichment thana carburetor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.055,
+      0.593,
+      0.945
+    ],
+    "text": "\\* Increased engine power. Precise metering of fuel to each cylinder and increased air flow can result in more horsepower output.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.054,
+      0.793,
+      0.945
+    ],
+    "text": "\\* Fewer parts. Simpler， late model，electronic fuel injection system have fewer parts than modern computer-controlled carburetors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.053,
+      0.267,
+      0.917
+    ],
+    "text": "There are many types of gasoline injection systems.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.08,
+      0.359,
+      0.886
+    ],
+    "text": "A basic knowledge of the different classifications :",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.265,
+      0.444,
+      0.795
+    ],
+    "text": "\\* single- or multi-point injection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.266,
+      0.539,
+      0.735
+    ],
+    "text": "\\* indirect or direct injection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.053,
+      0.149,
+      0.697
+    ],
+    "text": "Single and Multipoint EFl Systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.197,
+      0.053,
+      0.241,
+      0.645
+    ],
+    "text": "Fuel injection systems classifiedby point of injection.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.053,
+      0.321,
+      0.734
+    ],
+    "text": "Single Point Fuel Injection (Throttle Body Injection-TBl)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.053,
+      0.456,
+      0.304
+    ],
+    "text": "Injectorlocated inside throttlebody,sitson topof inletmanifold.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.494,
+      0.053,
+      0.616,
+      0.236
+    ],
+    "text": "Injectorsprays fuel fromabove throttlevalve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.053,
+      0.737,
+      0.246
+    ],
+    "text": "ECUcontrols injectoropening.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-7",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.385,
+      0.339,
+      0.842,
+      0.917
+    ],
+    "text": "Inletmanifold",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.062,
+      0.171,
+      0.707
+    ],
+    "text": "Single and Multipoint EFl Systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.22,
+      0.062,
+      0.262,
+      0.359
+    ],
+    "text": "Multipoint Fuel Injection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.274,
+      0.061,
+      0.397,
+      0.335
+    ],
+    "text": "Injectorlocatedineach branchof inletmanifold, belowthrottlevalve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.061,
+      0.55,
+      0.315
+    ],
+    "text": "Injectorsspray fuel directly into each port.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.062,
+      0.703,
+      0.295
+    ],
+    "text": "ECU controls opening of injectors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-6",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.338,
+      0.335,
+      0.817,
+      0.938
+    ],
+    "text": "Inletmanifold",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:figure-1",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.065,
+      0.049,
+      0.862,
+      0.953
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.032,
+      0.016,
+      0.137,
+      0.959
+    ],
+    "text": "A multi-point injection system, also called port injection, has an injector in the port (air-fuel passage) going to each cylinder.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.016,
+      0.348,
+      0.96
+    ],
+    "text": "Gasoline is sprayed into each intake port and toward each intake valve.Thereby, the term multipoint (more than one location) fuel injection is used.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.355,
+      0.359,
+      0.39,
+      0.761
+    ],
+    "text": "Multipoint fuel injection (MPI)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-4",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_0.jpg",
+    "bbox_norm": [
+      0.392,
+      0.363,
+      0.996,
+      0.951
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:figure-1",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_0.jpg",
+    "bbox_norm": [
+      0.055,
+      0.042,
+      0.932,
+      0.941
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.039,
+      0.114,
+      0.104,
+      0.519
+    ],
+    "text": "Electronic Injectors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.001,
+      0.321,
+      0.993
+    ],
+    "text": "The injectors can survive the excessive temperature and pressure of combustion by using the fuel that passes through it as a coolant",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-3",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.343,
+      0.298,
+      0.88,
+      0.962
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.002,
+      0.35,
+      0.488
+    ],
+    "text": "An indirect injection system sprays fuel into the engine intake manifold. Most gasoline injection systems are of this type.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.001,
+      0.633,
+      0.485
+    ],
+    "text": "Direct injection forces fuel into the engine combustion chambers. Diesel injection systems are direct type.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.005,
+      0.798,
+      0.433
+    ],
+    "text": "So Gasoline electronic Direct Injection System",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-4",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.019,
+      0.614,
+      0.329,
+      0.963
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:figure-5",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_1.jpg",
+    "bbox_norm": [
+      0.345,
+      0.61,
+      0.727,
+      0.964
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-6",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.81,
+      0.001,
+      0.869,
+      0.903
+    ],
+    "text": "is Classified as : multi-point and Direct injection systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.055,
+      0.046,
+      0.114,
+      0.778
+    ],
+    "text": "Fuel System Diagrams and Schematics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.173,
+      0.045,
+      0.218,
+      0.433
+    ],
+    "text": "Fuel System Block Diagrams - 1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.232,
+      0.045,
+      0.317,
+      0.325
+    ],
+    "text": "Each block representsa system.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.434,
+      0.044,
+      0.557,
+      0.289
+    ],
+    "text": "Lines represent connectionsbetween systems.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.675,
+      0.045,
+      0.758,
+      0.346
+    ],
+    "text": "Arrows represent direction of flow.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.182,
+      0.51,
+      0.291,
+      0.635
+    ],
+    "text": "Systemand subsystem blocks",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-7",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.295,
+      0.304,
+      0.921,
+      0.898
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.05,
+      0.053,
+      0.095,
+      0.444
+    ],
+    "text": "Fuel System Block Diagrams-2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.053,
+      0.197,
+      0.333
+    ],
+    "text": "Each block representsa component.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.312,
+      0.053,
+      0.395,
+      0.375
+    ],
+    "text": "Linesrepresent connections between systems.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.054,
+      0.597,
+      0.253
+    ],
+    "text": "Arrowsrepresent direction of flow.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-5",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.05,
+      0.399,
+      0.873,
+      0.873
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.034,
+      0.027,
+      0.111,
+      0.587
+    ],
+    "text": "Electronic control unit",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.154,
+      0.002,
+      0.395,
+      0.996
+    ],
+    "text": "· In automotive electronics, electronic control unit (ECU) is a generic term for any embedded system that controls one or more of the electrical systems or subsystems in a motor vehicle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.002,
+      0.913,
+      0.997
+    ],
+    "text": "· An engine control unit (ECU), also known as power-train control module (PCM), or engine control module (ECM) is a type of electronic control unit that determines the amount of fuel, ignition timing and other parameters an internal combustion engine needs to keep running. It does this by reading values from multidimensional maps which contain values calculated by sensor devices monitoring the engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.053,
+      0.032,
+      0.137,
+      0.44
+    ],
+    "text": "Working of ECU",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.002,
+      0.569,
+      0.998
+    ],
+    "text": "Control of fuel injection: ECU willdetermine the quantity of fuel to inject based on a number of parameters. If the throttle pedal is pressed further down, this will open the throttle body and allow more air to be pulled into the engine. The ECU will inject more fuel according to how much air is passing into the engine. If the engine has not warmed up yet, more fuel will be injected .",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.003,
+      0.878,
+      0.996
+    ],
+    "text": "Control of ignition timing : A spark ignition engine requires a spark to initiate combustion in the combustion chamber. An ECU can adjust the exact timing of the spark (called ignition timing) to provide better power and economy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.013,
+      0.0,
+      0.463,
+      0.998
+    ],
+    "text": "· Control of idle speed : Most engine systems have idle speed control built into the ECU. The engine RPM is monitored by the crankshaft position sensor which plays a primary role in the engine timing functions for fuel injection，spark events,and valve timing. Idle speed is controlled by a programmable throtte stop or an idle air bypass control stepper motor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-2",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.506,
+      0.498,
+      0.937,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.041,
+      0.039,
+      0.109,
+      0.805
+    ],
+    "text": "Common rail and Pressure sensor",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.003,
+      0.463,
+      0.996
+    ],
+    "text": "The term \"common rail\" refers to the fact that all of the fuel injectors are supplied by a common fuel rail which is nothing more than a pressure accumulator where the fuel isstored at high pressure. This accumulator supplies multiple fuel injectors with high pressure fuel.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:figure-3",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.494,
+      0.307,
+      0.953,
+      0.93
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.281,
+      0.109,
+      0.717
+    ],
+    "text": "Fuel Injection System",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.028,
+      0.234,
+      0.694
+    ],
+    "text": "Electronic Fuel Injection uses various engine sensorsand control module to regulate theopeningand closing of injector valve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.216,
+      0.336,
+      0.44
+    ],
+    "text": "·Fuel delivery system",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-4",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.34,
+      0.0,
+      0.777,
+      0.235
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-5",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_1.jpg",
+    "bbox_norm": [
+      0.26,
+      0.498,
+      0.546,
+      0.997
+    ],
+    "text": "·Sensor system",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-6",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.282,
+      0.612,
+      0.507
+    ],
+    "text": "·Air induction system",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-7",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_2.jpg",
+    "bbox_norm": [
+      0.621,
+      0.325,
+      0.98,
+      0.614
+    ],
+    "text": "·Computer control system",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.289,
+      0.105,
+      0.707
+    ],
+    "text": "Fuel Delivery system",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-2",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.062,
+      0.023,
+      0.322,
+      0.259
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.119,
+      0.348,
+      0.197,
+      0.742
+    ],
+    "text": "·Electrical Fuel Pumpdrawsfuel from tank and forces it into the regulator.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.331,
+      0.031,
+      0.447,
+      0.485
+    ],
+    "text": "·PressureRegulatorcontrolstheamount of pressure thatentersthe injectorand any extrafuel isreturnedtothefuel tank.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-5",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_1.jpg",
+    "bbox_norm": [
+      0.22,
+      0.64,
+      0.506,
+      0.963
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:figure-6",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_2.jpg",
+    "bbox_norm": [
+      0.461,
+      0.031,
+      0.98,
+      0.334
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-7",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.372,
+      0.654,
+      0.792
+    ],
+    "text": "·Fuel Injector is simplyacoil or solenoid \\_operatedvalve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.372,
+      0.727,
+      0.809
+    ],
+    "text": "·Spring pressure holds the injectorclosed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.373,
+      0.843,
+      0.789
+    ],
+    "text": "·When engaged,the injector sprays fuel into the engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.373,
+      0.968,
+      0.835
+    ],
+    "text": "InjectorPulseWidth indicatesthe timeeach Injector isenergized (KeptOpen).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-1",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.041,
+      0.143,
+      0.585,
+      0.885
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.654,
+      0.036,
+      0.76,
+      0.927
+    ],
+    "text": "·Monitorsengine operatingcondition andreportsthis information to ECM (computer).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.821,
+      0.005,
+      0.927,
+      0.973
+    ],
+    "text": "·Sensors are electrical devices that change resistance or voltage with change in condition such as temperature, pressure and position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.341,
+      0.107,
+      0.657
+    ],
+    "text": "Engine Sensors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.125,
+      0.035,
+      0.236,
+      0.911
+    ],
+    "text": "Oxygen Sensor measures the oxygen content in engine exhaust.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.26,
+      0.029,
+      0.362,
+      0.635
+    ],
+    "text": "·Mounted on the exhaust system before the catalyticconverter.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.432,
+      0.031,
+      0.536,
+      0.625
+    ],
+    "text": "·Voltage out-put of O2 sensor changes with the change in oxygen content of exhaust.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.029,
+      0.659,
+      0.54
+    ],
+    "text": "·Lean mixture decreases the voltage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-6",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.23,
+      0.617,
+      0.805,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-7",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.664,
+      0.029,
+      0.713,
+      0.527
+    ],
+    "text": "·Rich mixture increases the voltage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-8",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.812,
+      0.029,
+      0.913,
+      0.971
+    ],
+    "text": "·Signalis sent to ECMand the ECM changes the time thatan injector is open or close.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.343,
+      0.109,
+      0.654
+    ],
+    "text": "Engine Sensors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.159,
+      0.028,
+      0.218,
+      0.411
+    ],
+    "text": "Throttle Position Sensor(TPS)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-3",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.272,
+      0.071,
+      0.375,
+      0.55
+    ],
+    "text": "·Variableresisterconnected to the throttle plate.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.494,
+      0.079,
+      0.598,
+      0.453
+    ],
+    "text": "·Change in throttle angle = change in resistance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.677,
+      0.074,
+      0.781,
+      0.494
+    ],
+    "text": "·Based on the resistance,ECM richens or leans the mixture.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-6",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.138,
+      0.597,
+      0.227,
+      0.871
+    ],
+    "text": "Throttle Position SENSORS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:figure-7",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_0.jpg",
+    "bbox_norm": [
+      0.218,
+      0.593,
+      0.513,
+      0.925
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-23:figure-8",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_1.jpg",
+    "bbox_norm": [
+      0.543,
+      0.57,
+      0.958,
+      0.947
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.342,
+      0.109,
+      0.656
+    ],
+    "text": "Engine Sensors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-2",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.163,
+      0.053,
+      0.218,
+      0.503
+    ],
+    "text": "Engine Temperature Sensor",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:figure-3",
+    "page_id": 24,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_24_Figure_0.jpg",
+    "bbox_norm": [
+      0.166,
+      0.55,
+      0.581,
+      0.781
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.063,
+      0.668,
+      0.891
+    ],
+    "text": "·Monitors the operating temperature of the engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-5",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.701,
+      0.063,
+      0.755,
+      0.515
+    ],
+    "text": "·Exposed to engine coolant.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-6",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.789,
+      0.063,
+      0.845,
+      0.787
+    ],
+    "text": "·Engine cold = Low Resistance = Rich Mixture",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-7",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.88,
+      0.063,
+      0.934,
+      0.8
+    ],
+    "text": "·Engine Hot = High Resistance= Lean Mixture.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.345,
+      0.105,
+      0.653
+    ],
+    "text": "Engine Sensors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-2",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.048,
+      0.199,
+      0.44
+    ],
+    "text": "MassAir FlowSensor(MAF)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:figure-3",
+    "page_id": 25,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_25_Figure_0.jpg",
+    "bbox_norm": [
+      0.208,
+      0.023,
+      0.696,
+      0.49
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-25:figure-4",
+    "page_id": 25,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_25_Figure_1.jpg",
+    "bbox_norm": [
+      0.208,
+      0.507,
+      0.699,
+      0.957
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-25:text-5",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.065,
+      0.769,
+      0.854
+    ],
+    "text": "·Measures the amount of outside air entering the engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-6",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.812,
+      0.065,
+      0.859,
+      0.894
+    ],
+    "text": "·Containsan air flap or door that operatesa variableresistor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-7",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.901,
+      0.065,
+      0.947,
+      0.841
+    ],
+    "text": "·Helps computer to determine how much fuel is needed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-1",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.343,
+      0.109,
+      0.654
+    ],
+    "text": "Engine Sensors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-2",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.163,
+      0.045,
+      0.215,
+      0.515
+    ],
+    "text": "Inlet Air Temperature Sensor",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:figure-3",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_0.jpg",
+    "bbox_norm": [
+      0.3,
+      0.072,
+      0.586,
+      0.446
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:figure-4",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_1.jpg",
+    "bbox_norm": [
+      0.208,
+      0.481,
+      0.675,
+      0.949
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:text-5",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.756,
+      0.089,
+      0.814,
+      0.957
+    ],
+    "text": "·Measures the temperature of air entering the engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-6",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.868,
+      0.082,
+      0.925,
+      0.945
+    ],
+    "text": "·Cold air (more dense) = More fuel for proper AF ratio.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-1",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.345,
+      0.107,
+      0.653
+    ],
+    "text": "Engine Sensors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-2",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.006,
+      0.187,
+      0.381
+    ],
+    "text": "Crankshaft Position Sensor",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:figure-3",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_0.jpg",
+    "bbox_norm": [
+      0.196,
+      0.048,
+      0.569,
+      0.524
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:text-4",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.055,
+      0.68,
+      0.376
+    ],
+    "text": "·Detects engine speed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-5",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.055,
+      0.782,
+      0.587
+    ],
+    "text": "·Changes injector timing and duration.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-6",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.855,
+      0.055,
+      0.904,
+      0.522
+    ],
+    "text": "·Higher engine speed =More fuel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:figure-7",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_1.jpg",
+    "bbox_norm": [
+      0.199,
+      0.589,
+      0.565,
+      0.958
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:figure-8",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_2.jpg",
+    "bbox_norm": [
+      0.585,
+      0.589,
+      0.961,
+      0.964
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-28:figure-1",
+    "page_id": 28,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_28_Figure_0.jpg",
+    "bbox_norm": [
+      0.024,
+      0.016,
+      0.965,
+      0.98
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:text-1",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.263,
+      0.107,
+      0.734
+    ],
+    "text": "Throttle Body Injection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-2",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.187,
+      0.032,
+      0.232,
+      0.415
+    ],
+    "text": "·Uses one or two injectors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-3",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.027,
+      0.38,
+      0.529
+    ],
+    "text": "·Injectors (pulse) spray fuel into the top of throttle body air horn.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-4",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.432,
+      0.033,
+      0.534,
+      0.509
+    ],
+    "text": "·Atomized fuel mixes with air and drawn into the engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-5",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.588,
+      0.027,
+      0.69,
+      0.591
+    ],
+    "text": "·Fuel pressure regulator is spring loaded and is part of the housing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-6",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.781,
+      0.026,
+      0.937,
+      0.554
+    ],
+    "text": "Fuel is being injected whenever the engine is running, also called CIS: Continuous Injection System.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:figure-7",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_0.jpg",
+    "bbox_norm": [
+      0.147,
+      0.545,
+      0.567,
+      0.91
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:figure-8",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_1.jpg",
+    "bbox_norm": [
+      0.574,
+      0.592,
+      0.958,
+      0.98
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:text-1",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.003,
+      0.19,
+      0.437
+    ],
+    "text": "EFI Multi port Injection System",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-2",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.22,
+      0.037,
+      0.322,
+      0.605
+    ],
+    "text": "·lnjector is pressed into the runner(Port) in the intake manifold.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-3",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.343,
+      0.037,
+      0.446,
+      0.527
+    ],
+    "text": "·lnjector sprays towards an engine intake valve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-4",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.032,
+      0.593,
+      0.434
+    ],
+    "text": "Each cylinder has it’s own injector",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-5",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.621,
+      0.003,
+      0.67,
+      0.44
+    ],
+    "text": "EFI Direct fuel Injection System",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-6",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.732,
+      0.035,
+      0.892,
+      0.572
+    ],
+    "text": "·Injectorsare pressed into the combustion chamber and spray fuel directly into the combustion chamber.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:figure-7",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_0.jpg",
+    "bbox_norm": [
+      0.097,
+      0.592,
+      0.503,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-8",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_1.jpg",
+    "bbox_norm": [
+      0.51,
+      0.614,
+      0.998,
+      0.983
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-31:figure-1",
+    "page_id": 31,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_31_Figure_0.jpg",
+    "bbox_norm": [
+      0.032,
+      0.083,
+      0.916,
+      0.906
+    ],
+    "text": "",
+    "source_type": "image"
+  }
+]

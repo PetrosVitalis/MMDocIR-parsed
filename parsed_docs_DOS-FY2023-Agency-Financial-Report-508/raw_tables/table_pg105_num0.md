@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2023</td><td>2022</td></tr><tr><td>Discount Rate</td><td>2.54%</td><td>2.42%</td></tr><tr><td>Rate of inflation</td><td>Varies</td><td>Varies</td></tr><tr><td>Salary Increase</td><td>3.00-12.00%</td><td>3.00%-12.00%</td></tr></table>

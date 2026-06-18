@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td> Discount rate</td><td>2.1 %</td><td>3.1 %</td></tr><tr><td>Medical trend rate - initial</td><td>5.5%</td><td>5.7%</td></tr><tr><td>Medical trend rate - grading period</td><td>17 years</td><td> 18 years</td></tr><tr><td>Medical trend rate -ultimate</td><td>4.5 %</td><td>4.5%</td></tr></table>

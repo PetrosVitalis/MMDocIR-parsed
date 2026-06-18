@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td></td><td>2021 vs.2020 Change</td></tr><tr><td> Equipment and services revenues</td><td>$</td><td>45 $</td><td>36 $</td><td>9</td></tr><tr><td>EBT</td><td></td><td>916</td><td>(11)</td><td>927</td></tr></table>

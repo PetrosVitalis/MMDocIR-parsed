@@ -1,0 +1,1 @@
+<table><tr><td>(As a percentage)</td><td>Innovative Medicines</td><td>Sandoz</td></tr><tr><td>Terminal growth rate</td><td>1.5</td><td>1.5</td></tr><tr><td>Discount rate (post-tax)</td><td>6.5</td><td>6.5</td></tr></table>

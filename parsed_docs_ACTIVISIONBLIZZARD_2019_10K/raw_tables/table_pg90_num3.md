@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">Acquired indefinite-lived intangible assets:</td></tr><tr><td>Activision trademark</td><td> Indefinite</td><td>$ 386</td></tr><tr><td> Acquired trade names</td><td> Indefinite</td><td>47</td></tr><tr><td>Total indefinite-lived intangible assets</td><td>$</td><td>433</td></tr><tr><td>Total intangible assets, net</td><td>$</td><td>735</td></tr></table>

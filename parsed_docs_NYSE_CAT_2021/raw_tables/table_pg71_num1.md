@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3">Years ended December 31,</td></tr><tr><td>(Millions of dollars)</td><td>2021</td><td></td><td>2020</td></tr><tr><td>Machinery, Energy &amp;Transportation</td><td>$</td><td>5,085</td><td>$</td><td>3,553</td></tr><tr><td>Financial Products</td><td>$</td><td>13,852</td><td>$</td><td>11,260</td></tr></table>

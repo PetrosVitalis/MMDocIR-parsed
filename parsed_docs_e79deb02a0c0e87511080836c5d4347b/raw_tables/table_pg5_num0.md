@@ -1,0 +1,1 @@
+<table><tr><td>Strategy</td><td>Objective</td></tr><tr><td>2.1.1 Increase the healthy weight of children and adults.</td><td>A By December 31, 2018, increase the division&#x27;s number of Healthiest Weight Activities from 34 (2015) to 37.</td></tr></table>

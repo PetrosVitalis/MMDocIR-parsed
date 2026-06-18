@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At December 31, 2020</td><td>At December 31,</td></tr><tr><td>$in millions Basis point change</td><td></td><td>2019</td></tr><tr><td>+100</td><td>$</td><td>1,540 $ 151</td></tr><tr><td>-100</td><td>(654)</td><td>(642)</td></tr></table>

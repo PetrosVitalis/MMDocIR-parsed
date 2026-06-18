@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">As at March 31,2019</td></tr><tr><td>Tata Sons Private Limited</td><td>Subsidiaries of Tata Sons Private Limited</td><td>Associates / joint ventures of Tata Sons Private Limited and their subsidiaries</td><td>Total</td></tr><tr><td>170</td><td>106</td><td>129</td><td>405</td></tr><tr><td></td><td>14</td><td>53</td><td>67</td></tr></table>

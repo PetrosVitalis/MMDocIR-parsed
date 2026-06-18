@@ -1,0 +1,1 @@
+<table><tr><td>Names of directors with experience</td><td>Ms Pilar López Alvarez, Bns. Denise Patricia Kingsmill, Ms Anne Lange,Mr José Arnau Sierra,Mr José Luis Duran Schulz, Mr Rodrigo Echenique Gordillo and Mr Emilio Saracho Rodriguez de Torres</td></tr><tr><td>Date of appointment of the chairperson</td><td>14/07/2020</td></tr></table>

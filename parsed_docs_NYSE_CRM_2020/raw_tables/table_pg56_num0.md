@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">(in millions)</td><td colspan="2">Fiscal Year Ended January 31,</td><td rowspan="2">Variance Dollars</td></tr><tr><td>2020</td><td>2019</td></tr><tr><td>Gains on strategic investments,net</td><td>$427 (18)</td><td>$542 (94)</td><td>$(115) 76</td></tr></table>

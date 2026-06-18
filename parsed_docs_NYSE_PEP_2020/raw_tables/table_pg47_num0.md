@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td><td>Change</td></tr><tr><td>Net revenue</td><td>$ 70,7</td><td>$ 67,161</td><td>5%</td></tr><tr><td> Operating profit</td><td>$10,080</td><td>$10,291</td><td>(2)%</td></tr><tr><td>Operating profit margin</td><td>14.3 %</td><td>15.3 %</td><td>(1.0)</td></tr></table>

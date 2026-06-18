@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td>Discount Rate</td><td>2.52%</td><td>2.74%</td></tr><tr><td>Rate of inflation</td><td>Varies</td><td>1.69%</td></tr><tr><td>Salary Increase</td><td>3.00-12.00%</td><td>4.86%</td></tr></table>

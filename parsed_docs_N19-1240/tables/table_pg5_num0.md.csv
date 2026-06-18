@@ -1,0 +1,12 @@
+Model,Unmasked,Masked
+Model,Test Dev,Test Dev
+"Human (Welbl et al., 2018)FastQA (Welbl et al., 2018)BiDAF (Welbl et al., 2018)Coref-GRU (Dhingra et al., 2018)MHPGM (Bauer et al., 2018)Weaver / Jenga (Raison et al., 2018)MHQA-GRN (Song et al., 2018)",74.1,
+"Human (Welbl et al., 2018)FastQA (Welbl et al., 2018)BiDAF (Welbl et al., 2018)Coref-GRU (Dhingra et al., 2018)MHPGM (Bauer et al., 2018)Weaver / Jenga (Raison et al., 2018)MHQA-GRN (Song et al., 2018)",25.7 1,35.8 /
+"Human (Welbl et al., 2018)FastQA (Welbl et al., 2018)BiDAF (Welbl et al., 2018)Coref-GRU (Dhingra et al., 2018)MHPGM (Bauer et al., 2018)Weaver / Jenga (Raison et al., 2018)MHQA-GRN (Song et al., 2018)",42.9 一,54.5 1
+"Human (Welbl et al., 2018)FastQA (Welbl et al., 2018)BiDAF (Welbl et al., 2018)Coref-GRU (Dhingra et al., 2018)MHPGM (Bauer et al., 2018)Weaver / Jenga (Raison et al., 2018)MHQA-GRN (Song et al., 2018)",59.3 56.0,
+"Human (Welbl et al., 2018)FastQA (Welbl et al., 2018)BiDAF (Welbl et al., 2018)Coref-GRU (Dhingra et al., 2018)MHPGM (Bauer et al., 2018)Weaver / Jenga (Raison et al., 2018)MHQA-GRN (Song et al., 2018)",1 58.2,1
+"Human (Welbl et al., 2018)FastQA (Welbl et al., 2018)BiDAF (Welbl et al., 2018)Coref-GRU (Dhingra et al., 2018)MHPGM (Bauer et al., 2018)Weaver / Jenga (Raison et al., 2018)MHQA-GRN (Song et al., 2018)",65.3 64.1,1
+"Human (Welbl et al., 2018)FastQA (Welbl et al., 2018)BiDAF (Welbl et al., 2018)Coref-GRU (Dhingra et al., 2018)MHPGM (Bauer et al., 2018)Weaver / Jenga (Raison et al., 2018)MHQA-GRN (Song et al., 2018)",65.4 62.8,1
+Entity-GCN without coreference (single model)Entity-GCN with coreference (single model)Entity-GCN* (ensemble 5 models),67.6 64.8,70.51
+Entity-GCN without coreference (single model)Entity-GCN with coreference (single model)Entity-GCN* (ensemble 5 models),66.4 65.3,70.51
+Entity-GCN without coreference (single model)Entity-GCN with coreference (single model)Entity-GCN* (ensemble 5 models),71.2 68.5,1 71.6

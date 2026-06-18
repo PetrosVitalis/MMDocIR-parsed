@@ -1,0 +1,1 @@
+<table><tr><td>($ in millions)</td><td>December 31, 2018</td><td></td><td>2019 Additions</td><td>December 31, 2019</td><td></td><td>2020 Rgduction</td><td></td><td>December 31, 2020 (2)</td></tr><tr><td>Deferred revenue - related party</td><td>$</td><td>18.3 $</td><td></td><td>4.5$</td><td></td><td>22.8 $</td><td>(5.2) $</td><td></td></tr></table>

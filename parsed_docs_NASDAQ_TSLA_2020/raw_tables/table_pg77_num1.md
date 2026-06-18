@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="5">YearEndedDecember31,</td><td rowspan="2">2018</td></tr><tr><td></td><td>2020</td><td></td><td>2019</td><td></td></tr><tr><td>Gross losses</td><td>$</td><td>42</td><td>1 $</td><td></td><td>51 $</td><td>12</td></tr><tr><td>Gross gains</td><td>$</td><td>6</td><td>$</td><td>11</td><td>$</td><td>22</td></tr></table>

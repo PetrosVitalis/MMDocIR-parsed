@@ -1,0 +1,9 @@
+Model,Model,Uyghur Unsequestered Set,Extra Resources
+*,Mayhew et al. (2017),51.32,"Wikipedia,100K dict."
+*,Mayhew et al. (2017) (only Eng. data),27.20,"Wikipedia,100K dict."
+,BWET,$\overline { { 2 5 . 7 3 \pm 0 . 8 9 } }$,5K dict.
+,BWET+ self-att.,$2 6 . 3 8 \pm 0 . 3 4$,5K dict.
+,BWET on data from Mayhew et al. (2017),$3 0 . 2 0 \pm 0 . 9 8$,"Wikipedia,100K dict."
+*,BWET + self-att. on data from Mayhew et al. (2017),$3 0 . 6 8 \pm 0 . 4 5$,"Wikipedia,100K dict."
+* *,Combined (see text),$\overline { { 3 1 . 6 1 \pm 0 . 4 6 } }$,"Wikipedia, 100K dict., 5K dict."
+* *,Combined + self-att.,$\mathbf { 3 2 . 0 9 \pm 0 . 6 1 }$,"Wikipedia,100K dict.,5K dict."

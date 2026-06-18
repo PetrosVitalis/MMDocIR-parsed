@@ -1,0 +1,1 @@
+<table><tr><td>Online users 1 year</td></tr><tr><td>Corporate customer relationship 3-4years</td></tr><tr><td>Supplier resources 3- 6 years</td></tr><tr><td>Non-compete agreements 4-7 years</td></tr><tr><td>Copyrights 3-7 years</td></tr></table>

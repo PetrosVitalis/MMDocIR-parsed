@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At December 31， 2020</td><td>At December 31, 2019</td></tr><tr><td>$ in millions Senior</td><td>$ 148,885 $</td><td>137,138</td></tr><tr><td>Subordinated</td><td>11,094</td><td>10,570</td></tr><tr><td>Total</td><td>$ 159,979 $</td><td>147,708</td></tr></table>

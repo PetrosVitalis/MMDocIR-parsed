@@ -1,0 +1,129 @@
+[
+  {
+    "table_id": "table_28",
+    "reason": "missing_data_rows; row_count_out_of_bounds(expected~1, got=1)",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "column_count_out_of_bounds(expected~6, got=1)"
+        ],
+        "raw_llm_output": "[\"[\"Cost of goods sold\",\"- 15 867\",\"3655\",\"18\",\"414\",\"-11780\"]]\""
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "[[\"Cost of goods sold\", \"- 15 867\", \"3655\", \"18\", \"414\", \"-11780\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_36",
+    "reason": "missing_data_rows; row_count_out_of_bounds(expected~1, got=1)",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "{\"header\":[\"Cost of goods sold\",\"- 11751\",\"3419\",\"344\",\"-7 988\"],\"rows\":[[\"Cost of goods sold\",\"- 11751\",\"3419\",\"344\",\"-7 988\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "{\n  \"table\": [\n    [\"Cost of goods sold\", \"- 11751\", \"3419\", \"344\", \"-7 988\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_39",
+    "reason": "missing_data_rows; row_count_out_of_bounds(expected~1, got=1)",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "column_count_out_of_bounds(expected~7, got=1)"
+        ],
+        "raw_llm_output": "[\"[\"Cost of goods sold\",\"- 10 927\",\"2935\",\"250\",\"48\",\"146\",\"-7548\"]\"]"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "{\n  \"table\": [\n    [\"Cost of goods sold\", \"- 10 927\", \"2935\", \"250\", \"48\", \"146\", \"-7548\"]\n  ]\n}"
+      }
+    ]
+  }
+]

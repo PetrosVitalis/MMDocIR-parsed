@@ -1,0 +1,71 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_owners-manual-2170416",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_8_Table_0.jpg",
+      "raw_md": "table_pg8_num0.md",
+      "csv_base": "table_pg8_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_18_Table_0.jpg",
+      "raw_md": "table_pg18_num0.md",
+      "csv_base": "table_pg18_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_8_got_3)"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_21_Table_0.jpg",
+      "raw_md": "table_pg21_num0.md",
+      "csv_base": "table_pg21_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_22_Table_0.jpg",
+      "raw_md": "table_pg22_num0.md",
+      "csv_base": "table_pg22_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_9_got_3)"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_24_Table_0.jpg",
+      "raw_md": "table_pg24_num0.md",
+      "csv_base": "table_pg24_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_28_Table_0.jpg",
+      "raw_md": "table_pg28_num0.md",
+      "csv_base": "table_pg28_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_7_got_2)"
+    },
+    {
+      "table_id": "table_7",
+      "image": "_page_30_Table_0.jpg",
+      "raw_md": "table_pg30_num0.md",
+      "csv_base": "table_pg30_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_8_got_2)"
+    }
+  ]
+}

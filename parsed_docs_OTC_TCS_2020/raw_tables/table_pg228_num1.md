@@ -1,0 +1,1 @@
+<table><tr><td>Year ended March31,2020</td><td>Year ended March31,2019</td></tr><tr><td>12,937 2,702 3,296 1,592</td><td>11,330 4,262 3,474 1,321</td></tr><tr><td>144</td><td>187</td></tr><tr><td>6,312 26,983</td><td>5.867 26,441</td></tr></table>

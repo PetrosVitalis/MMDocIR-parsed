@@ -1,0 +1,8 @@
+OBS Console Operation,Dependency,Role/Policy Required
+Listing existing domain names (required when you configure a user-defined domain name or an acceleration domain name),Domain Name Service (DNS),Domains:domains:getDetails
+Configuring mirroring back-to-source rules,Object Storage Service (OBS),"Tenant Administrator,obs:object:HeadObject and obs:object:PutObject assigned by the IAM agency for OBS to pull data from its origin server,kms:cmk:get, kms:cmk:list, kms:cmk:create, kms:dek:create, kms:dek:crypto, and kms:dek:crypto configured for the agency of OBS when SSE-KMS is enabled for a bucket"
+Obtaining mirroring back-to-source rules,Object Storage Service (OBS),Tenant Administrator
+Deleting mirroring back-to-source rules,Object Storage Service (OBS),Tenant Administrator
+Configuring online decompression policies,Object Storage Service (OBS),Tenant Administrator
+Obtaining online decompression policies,Object Storage Service (OBS),Tenant Administrator
+Deleting online decompression policies,Object Storage Service (OBS),Tenant Administrator

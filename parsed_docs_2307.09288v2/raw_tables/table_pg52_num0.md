@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Avg</td><td>Safe Chosen Unsafe Rejected</td><td>Safe Chosen Safe Rejected</td><td>Unsafe Chosen Unsafe Rejected</td><td>Unsafe Response Recall</td></tr><tr><td>Baseline</td><td>63.7</td><td>93.0</td><td>56.0</td><td>59.5</td><td>73.0</td></tr><tr><td>+ Auxiliary Safety Loss</td><td>64.5</td><td>94.3</td><td>56.9</td><td>59.9</td><td>90.4</td></tr></table>

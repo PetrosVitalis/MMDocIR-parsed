@@ -1,0 +1,6 @@
+Symbol,Parameter,12 MHz Oscillator,Variable Oscillator,Units,Min,Max
+TXLXL,Serial Port Clock Cycle Time,1.0,,12TCLCL,,us
+TQVXH,Output Data Setup to Clock Rising Edge,700,,10TCLCL-133,,ns
+TXHQX,Output Data Hold after Clock Rising Edge,50,,2TCLCL-117,,ns
+TXHDX,Input Data Hold after Clock Rising Edge,0,,0,,ns
+TXHDV,Clock Rising Edge to Input Data Valid,,700,10TCLCL-133,,ns

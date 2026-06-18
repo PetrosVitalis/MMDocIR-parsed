@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td></tr><tr><td> Balance at beginning of period</td><td>1,131</td></tr><tr><td>Issued</td><td>18</td></tr><tr><td> Repurchased</td><td>(24)</td></tr><tr><td>Balance at end of period</td><td>1,125</td></tr></table>

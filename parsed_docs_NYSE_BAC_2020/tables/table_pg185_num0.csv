@@ -1,0 +1,46 @@
+Financial Instrument,Fair Value,Valuation Technique,Significant Unobservable Inputs,Ranges of Inputs,Weighted Average (1)
+Instruments backed by residential real estate assets,1407,"Discounted cash flow, Market comparables",Yield,0% to 25%,6%
+"Trading account assets – Mortgage trading loans, ABS and other MBS",332,"Discounted cash flow, Market comparables",Prepayment speed,1% to 27% CPR,17% CPR
+Loans and leases,281,"Discounted cash flow, Market comparables",Default rate,0% to 3% CDR,1% CDR
+Loans held-for-sale,4,"Discounted cash flow, Market comparables",Loss severity,0% to 47%,14%
+"AFS debt securities, primarily non-agency residential",491,"Discounted cash flow, Market comparables",Price,$0 to $160,$94
+Other debt securities carried at fair value - Non-agency residential,299,"Discounted cash flow, Market comparables",,,
+Instruments backed by commercial real estate assets,303,Discounted cash flow,Yield,0% to 30%,14%
+"Trading account assets – Corporate securities, trading loans and other",201,Discounted cash flow,Price,$0 to $100,$55
+"Trading account assets – Mortgage trading loans, ABS and other MBS",85,Discounted cash flow,,,
+Loans held-for-sale,17,Discounted cash flow,,,
+"Commercial loans, debt securities and other",3798,"Discounted cash flow, Market comparables",Yield,1% to 20%,6%
+"Trading account assets – Corporate securities, trading loans and other",1306,"Discounted cash flow, Market comparables",Prepayment speed,10% to 20%,13%
+Trading account assets – Non-U.S. sovereign debt,482,"Discounted cash flow, Market comparables",Default rate,3% to 4%,4%
+"Trading account assets – Mortgage trading loans, ABS and other MBS",1136,"Discounted cash flow, Market comparables",Loss severity,35% to 40%,38%
+AFS debt securities – Tax-exempt securities,108,"Discounted cash flow, Market comparables",Price,$0 to $142,$72
+Loans and leases,412,"Discounted cash flow, Market comparables",Long-dated equity volatilities,35%,n/a
+Loans held-for-sale,354,"Discounted cash flow, Market comparables",,,
+"Other assets, primarily auction rate securities",815,"Discounted cash flow, Market comparables",Price,$10 to $100,$96
+MSRs,1545,Discounted cash flow,"Weighted-average life, fixed rate (5)",0 to 14 years,5 years
+"Weighted-average life, variable rate (5)",,,,0 to 9 years,3 years
+"Option-adjusted spread, fixed rate",,,,7% to 14%,9%
+"Option-adjusted spread, variable rate",,,,9% to 15%,11%
+Structured liabilities,-,-,-,-,-
+Long-term debt,1149,"Discounted cash flow, Market comparables, Industry standard derivative pricing (3)",Yield,2% to 6%,5%
+Equity correlation,,,,9% to 100%,63%
+Long-dated equity volatilities,,,,4% to 101%,32%
+Price,,,,$0 to $116,$74
+Natural gas forward price,,,,1/MMBtu to 5/MMBtu,$3/MMBtu
+Net derivative assets (liabilities),-,-,-,-,-
+Credit derivatives,13,"Discounted cash flow, Stochastic recovery correlation model",Yield,5%,n/a
+Upfront points,,,,0 to 100 points,63 points
+Prepayment speed,,,,15% to 100% CPR,22% CPR
+Default rate,,,,1% to 4% CDR,2% CDR
+Loss severity,,,,35%,n/a
+Price,,,,$0 to $104,$73
+Equity derivatives,1081,Industry standard derivative pricing (3),Equity correlation,9% to 100%,63%
+Long-dated equity volatilities,,,,4% to 101%,32%
+Commodity derivatives,1357,"Discounted cash flow, Industry standard derivative pricing (3)",Natural gas forward price,1/MMBtu to 5/MMBtu,$3/MMBtu
+Correlation,,,,30% to 69%,68%
+Volatilities,,,,14% to 54%,27%
+Interest rate derivatives,113,Industry standard derivative pricing (4),Correlation (IR/IR),15% to 94%,52%
+Correlation (FX/IR),,,,0% to 46%,2%
+Long-dated inflation rates,,,,23% to 56%,16%
+Long-dated inflation volatilities,,,,0% to 1%,1%
+Total net derivative assets (liabilities),2538,-,-,-,-

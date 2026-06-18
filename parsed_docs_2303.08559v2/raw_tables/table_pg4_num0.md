@@ -1,0 +1,1 @@
+<table><tr><td>Dataset (Task)</td><td>Roberta</td><td>T5</td><td>LLaMA CODEX</td></tr><tr><td>FewNERD (NER)</td><td>2.8</td><td>39.4</td><td>1135.4 179.4</td></tr><tr><td>TACREV (RE)</td><td>1.4</td><td>45.6</td><td>1144.9 151.6</td></tr><tr><td>ACE05 (ED)</td><td>6.6</td><td>62.5</td><td>733.4 171.7</td></tr></table>

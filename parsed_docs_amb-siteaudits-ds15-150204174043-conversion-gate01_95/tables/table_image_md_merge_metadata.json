@@ -1,0 +1,109 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_amb-siteaudits-ds15-150204174043-conversion-gate01_95",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_11_Table_0.jpg",
+      "raw_md": "table_pg11_num0.md",
+      "csv_base": "table_pg11_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_13_Table_0.jpg",
+      "raw_md": "table_pg13_num0.md",
+      "csv_base": "table_pg13_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_15_Table_0.jpg",
+      "raw_md": "table_pg15_num0.md",
+      "csv_base": "table_pg15_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_16_Table_0.jpg",
+      "raw_md": "table_pg16_num0.md",
+      "csv_base": "table_pg16_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_row_count_lt_relaxed_3)"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_17_Table_0.jpg",
+      "raw_md": "table_pg17_num0.md",
+      "csv_base": "table_pg17_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_18_Table_0.jpg",
+      "raw_md": "table_pg18_num0.md",
+      "csv_base": "table_pg18_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_10_got_4)"
+    },
+    {
+      "table_id": "table_7",
+      "image": "_page_19_Table_0.jpg",
+      "raw_md": "table_pg19_num0.md",
+      "csv_base": "table_pg19_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_10_got_2)"
+    },
+    {
+      "table_id": "table_8",
+      "image": "_page_20_Table_0.jpg",
+      "raw_md": "table_pg20_num0.md",
+      "csv_base": "table_pg20_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_12_got_4)"
+    },
+    {
+      "table_id": "table_9",
+      "image": "_page_22_Table_0.jpg",
+      "raw_md": "table_pg22_num0.md",
+      "csv_base": "table_pg22_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_row_count_lt_relaxed_13)"
+    },
+    {
+      "table_id": "table_10",
+      "image": "_page_23_Table_0.jpg",
+      "raw_md": "table_pg23_num0.md",
+      "csv_base": "table_pg23_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_11",
+      "image": "_page_24_Table_0.jpg",
+      "raw_md": "table_pg24_num0.md",
+      "csv_base": "table_pg24_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_10_got_5)"
+    }
+  ]
+}

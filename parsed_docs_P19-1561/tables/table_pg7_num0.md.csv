@@ -1,0 +1,9 @@
+Backoff,Swap Drop,Add,Key,All
+Closed Vocabulary Models (word-only),,,,
+Pass-Through,17.6,19.7,0.8 7.3,11.3
+Background,19.5,22.3,1.1 9.5,13.1
+Neutral,17.5,19.7,0.8 7.2,11.3
+Open Vocab. Models (char/word+char/word-piece),,,,
+Pass-Through,39.6,35.3,19.2 26.9,30.3
+Background,20.7,25.1,1.3 11.6,14.7
+Neutral,17.5,19.7,0.8 7.2,11.3

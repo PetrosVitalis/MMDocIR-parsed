@@ -1,0 +1,1 @@
+<table><tr><td>Metric (full score)</td><td>General</td><td>Specific</td></tr><tr><td>Authenticity (1)</td><td>1.00</td><td>1.00</td></tr><tr><td>Relevance (1)</td><td>0.73</td><td>0.84</td></tr><tr><td>Naturalness (5)</td><td>4.38</td><td>3.52</td></tr><tr><td>Significance (5)</td><td>3.94</td><td>3.68</td></tr></table>

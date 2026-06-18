@@ -1,0 +1,144 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_finalmediafindingspdf-141228031149-conversion-gate02_95",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_8_Table_0.jpg",
+      "raw_md": "table_pg8_num0.md",
+      "csv_base": "table_pg8_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_8_got_3)"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_9_Table_0.jpg",
+      "raw_md": "table_pg9_num0.md",
+      "csv_base": "table_pg9_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_9_Table_1.jpg",
+      "raw_md": "table_pg9_num1.md",
+      "csv_base": "table_pg9_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_9_Table_2.jpg",
+      "raw_md": "table_pg9_num2.md",
+      "csv_base": "table_pg9_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_9_Table_3.jpg",
+      "raw_md": "table_pg9_num3.md",
+      "csv_base": "table_pg9_num3",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_9_Table_4.jpg",
+      "raw_md": "table_pg9_num4.md",
+      "csv_base": "table_pg9_num4",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_7",
+      "image": "_page_10_Table_0.jpg",
+      "raw_md": "table_pg10_num0.md",
+      "csv_base": "table_pg10_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_8",
+      "image": "_page_10_Table_1.jpg",
+      "raw_md": "table_pg10_num1.md",
+      "csv_base": "table_pg10_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_9",
+      "image": "_page_10_Table_2.jpg",
+      "raw_md": "table_pg10_num2.md",
+      "csv_base": "table_pg10_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_10",
+      "image": "_page_10_Table_3.jpg",
+      "raw_md": "table_pg10_num3.md",
+      "csv_base": "table_pg10_num3",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_11",
+      "image": "_page_10_Table_4.jpg",
+      "raw_md": "table_pg10_num4.md",
+      "csv_base": "table_pg10_num4",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_12",
+      "image": "_page_10_Table_5.jpg",
+      "raw_md": "table_pg10_num5.md",
+      "csv_base": "table_pg10_num5",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_13",
+      "image": "_page_10_Table_6.jpg",
+      "raw_md": "table_pg10_num6.md",
+      "csv_base": "table_pg10_num6",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_14",
+      "image": "_page_16_Table_0.jpg",
+      "raw_md": "table_pg16_num0.md",
+      "csv_base": "table_pg16_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

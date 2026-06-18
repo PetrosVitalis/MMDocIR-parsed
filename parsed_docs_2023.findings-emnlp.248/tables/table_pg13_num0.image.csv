@@ -1,0 +1,11 @@
+Name,FOL Notation
+Constant,lowercase letters
+Variable,"x, y, z, ···"
+Atom,"P(a₁, ··· , aₙ)"
+Negation,¬P
+Conjunction,"P₁ ∧ P₂,P₁∧, ··· ,∧Pₙ"
+Disjunction,"P₁ ∨ P₂,P₁∨, ··· ,∨Pₙ"
+Implication,P₁ → P₂
+Equivalence,P₁ ↔ P₂
+Existential Quantifier,"∃xP(x, ···)"
+Universal Quantifier,"∀xP(x, ···)"

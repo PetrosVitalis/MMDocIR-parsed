@@ -1,0 +1,1 @@
+<table><tr><td colspan="5">Cash Payments for Interest and Income Taxes</td></tr><tr><td>Year ended December 31(in millions)</td><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Interest</td><td>$$</td><td>3,908 $</td><td>3,878 $</td><td>4,254</td></tr><tr><td>Income taxes</td><td></td><td>2,628 $</td><td>3,183 $</td><td>3,231</td></tr></table>

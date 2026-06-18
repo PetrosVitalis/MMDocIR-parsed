@@ -1,0 +1,1985 @@
+<span id="page-0-0"></span>
+# Taxation of Cryptocurrency Block Rewards in Selected Jurisdictions
+
+January 2021
+
+LL File No. 2021-019649   
+LRA-D-PUB-002450
+
+<span id="page-1-0"></span>
+This report is provided for reference purposes only.   
+It does not constitute legal advice and does not represent the official   
+opinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.
+
+<span id="page-2-0"></span>
+## Contents
+
+Comparative Summary ...   
+Map: Taxation of Cryptocurrency Block Rewards in Selected Jurisdictions ... 5   
+Argentina.... .. 6   
+Australia ... .. 8   
+Brazil ..... ... 16   
+Canada .... . 21   
+Chile .... . 25   
+Colombia ... .. 26   
+Denmark ... .. 28   
+Finland ..... ...... 31   
+France .. .. 36   
+Germany ..... .. 39   
+Gibraltar . .. 44   
+India ... ... 46   
+Ireland ... ... 50   
+Israel .... .. 53   
+Italy ...... ... 59   
+Japan ..... ... 67   
+Jersey .... .. 68   
+Kenya .. .. 71   
+Luxembourg... ... 73   
+Malta .. . 74   
+New Zealand . . 78   
+Norway ..... ... 88   
+Russian Federation.. . 91   
+Singapore ... . 99   
+South Africa . . 103   
+Spain . . 105   
+Sweden .. . 107   
+Switzerland . . 111   
+Turkey ... . 115   
+United Kingdom . . 118   
+Venezuela. . 123
+
+<span id="page-4-0"></span>
+# Comparative Summary
+
+Laney Zhang Foreign Law Specialist
+
+## I. Introduction
+
+This report by the foreign law specialists of the Law Library of Congress surveys the tax treatment of new tokens obtained by cryptocurrency mining or staking, often known as “block rewards,” in 31 countries around the globe. It also addresses the tax implications of cryptocurrency tokens acquired through airdrops and hard forks (also referred to as a “chain split”) in various jurisdictions. This report complements a broader comparative study on regulatory approaches to cryptoassets, including the application of tax laws to cryptocurrency activities, published by the Law Library in April 2019.1
+
+The report shows that while tax authorities of a number of countries have published guidance on the taxation of mined tokens such as Bitcoin and other “proof-of-work” cryptocurrencies, only a few specifically address the taxation of tokens received through staking, a term used to describe the process of obtaining reward tokens in the newer “proof-of-stake” cryptocurrencies. For countries where no explicit taxation rules on block rewards are available, the report provides information such as general taxation rules, proposed legislation, official statements, and comments from legal scholars and tax experts, which may be helpful in understanding how block rewards may be treated for tax purposes.
+
+Cryptocurrency is variously treated by the surveyed countries as investment property, a financial instrument, an intangible asset or property, a financial asset, a commodity, etc., as the table below shows. Italy treats exchanges of cryptoassets like exchanges of foreign fiat currencies for tax purposes. The taxation of cryptocurrency is dependent not only upon its nature, but also on other factors such as ho w it is acquired or used.
+
+<table><tr><td rowspan=1 colspan=1>Treatments of Cryptocurrency</td><td rowspan=1 colspan=1>Jurisdiction(s)</td></tr><tr><td rowspan=1 colspan=1> investment property</td><td rowspan=1 colspan=1>Denmark, Norway, Finland</td></tr><tr><td rowspan=1 colspan=1> capital asset</td><td rowspan=1 colspan=1> Australia</td></tr><tr><td rowspan=1 colspan=1>financial instrument</td><td rowspan=1 colspan=1>Germany</td></tr><tr><td rowspan=1 colspan=1> intangible asset</td><td rowspan=1 colspan=1> Luxembourg, Switzerland</td></tr><tr><td rowspan=1 colspan=1> intangible property</td><td rowspan=1 colspan=1> Singapore</td></tr><tr><td rowspan=1 colspan=1> investment capital</td><td rowspan=1 colspan=1>Sweden</td></tr><tr><td rowspan=1 colspan=1> property</td><td rowspan=1 colspan=1>New Zealand</td></tr><tr><td rowspan=1 colspan=1>financial asset</td><td rowspan=1 colspan=1>Venezuela</td></tr><tr><td rowspan=1 colspan=1>commodity</td><td rowspan=1 colspan=1>Canada</td></tr></table>
+
+<span id="page-5-0"></span>
+## II. Taxation of Tokens Received Through Mining
+
+Specific rules or guidance on the application of major types of taxes, including income, capital gains, and value-added tax (VAT), to tokens received through mining have been located in Australia, Canada, Denmark, Finland, France, Germany, Israel, Italy, Japan, Jersey, New Zealand, Norway, Singapore, Sweden, Switzerland, and the United Kingdom (UK).
+
+Most of these countries provide different tax treatment to small-scale cryptocurrency mining by individuals (often treated as a hobby) and large-scale or commercial mining activities. In Finland and Denmark, mined cryptocurrencies are taxed as income derived from a hobby unless the mining is done on a commercial scale. Norway taxes income from mining and staking cryptocurrencies when done on a commercial scale and taxes profits from their sale, while the tax authority typically treats mining as a hobby, the income from which is not taxed. In Sweden, mined cryptoassets on a personal scale are subject to income tax based on the current market value at the time they are mined as personal income from employment, while large-scale mining may be considered commercial activity and is taxed as such.
+
+Some surveyed countries have clearly stated that reward tokens generated from mining by individuals on a small scale or as a hobby are not taxable until their disposal or are not taxable at all. In Australia and Canada, where a person mines cryptocurrency as a hobby, mined tokens are not taxable until their disposal, with tax then payable on the capital gains. The government of Jersey states that income generated from mining cryptoassets on a small or irregular scale is generally not to be considered as a trading activity, and that mining alone does not make a person liable for income tax. Singapore specifies that a miner’s profits from the rewarded payment tokens is taxed at the point of disposal of the tokens and not when the tokens are mined, because while the miner is entitled to a right to own a payment token at the point of successful mining, no income is derived by merely holding the payment token. Singapore presumes an individual engaging in mining activities to be undertaking the activity as a hobby and does not tax the gains from the individual’s sale of the mined payment tokens, unless the individual shows a habitual and systematic effort to make a profit from the activities.
+
+In other countries, even where mining is not a business or a profit-making scheme, a person may need to pay income tax on the mining rewards upon receipt. In New Zealand, any profit made from subsequently selling or exchanging the mining rewards is also taxable, if this was the purpose for mining them. In the UK, if the mining activity does not amount to a taxable trade, the value at the time of receipt of any cryptoassets awarded as a result of mining will be taxed as miscellaneous income. The UK may also impose capital gains tax on individuals who mine cryptoassets when they are later sold.
+
+The tax authority of Japan has stated that virtual currency acquired by mining is taxed on its market value at the time of acquisition. In France, while non-professional investors are taxed on the value added of their cryptocurrency when they sell it, professional miners are taxed on the value of the cryptocurrency when they receive it. They can also be taxed again on the value added when they sell the same cryptocurrency into fiat currency later on.
+
+<span id="page-6-0"></span>
+The income tax treatment of mining is currently under discussion in Germany, but the federal ministry of finance held that mining is a nontaxable transaction under VAT law. In Italy, while the exchange of virtual currencies is not subject to VAT, the receipt of new tokens via mining is subject to VAT. Similarly, in Israel, while individual investors in virtual currencies are not liable for VAT, those engaging in mining will be classified as dealers and could be subject to VAT. A number of the other surveyed countries, including Australia, Chile, Colombia, Malta, New Zealand, Norway, Singapore, Switzerland, and Spain, have addressed the treatment of cryptocurrencies under the VAT or goods and services tax through guidance or the introduction of specific rules.
+
+## III. Taxation of Tokens Received Through Staking
+
+Tax authorities of Australia, Finland, New Zealand, Norway, and Switzerland have addressed the tax treatment of tokens received through staking.
+
+For tax purposes, staked tokens are treated differently from mined tokens in Australia and Finland. In Australia, tokens acquired through mining cryptocurrencies as a hobby do not need to be reported as income and taxes are only payable upon their disposal through the capital gains tax system. Tokens received by an individual as a payment or reward for forging or staking are treated as ordinary income on receipt, and the sale of such tokens in the future will also trigger a capital gains tax event. Finland treats mined cryptocurrencies as income from hobby, whereas staked cryptocurrencies are taxed as capital gains, as the tax authority considers the staked asset as value created on top of the cryptocurrencies already held.
+
+New Zealand’s updated guidance on the tax treatment of cryptoassets published in September 2020 includes reference to cryptoassets received through mining, staking, airdrops, and forks, with consideration given to the purpose of the activity, including whether it was part of a business or profit-making scheme. Staking rewards may be taxable upon receipt, and income earned on their disposal may also be taxable, depending on the circumstances. Switzerland mentions staked tokens separately in the federal VAT guidance, which provides general remarks about block rewards and explains differences between pool mining and pool staking more in detail. The taxation is the same, however.
+
+## IV. Taxation of Tokens Received Through Airdrops or Hard Forks
+
+Countries that have provided guidance on the tax treatment of new cryptocurrency tokens received from airdrops or hard forks include Australia, Finland, Japan, New Zealand, Singapore, and the UK.
+
+Airdropped tokens are treated in Australia the same as staking rewards, as ordinary income for tax purposes. In Singapore, on the contrary, they are not regarded as income of the recipient and therefore not taxable, as long as the tokens are not received in return for any goods or services performed.
+
+<span id="page-7-0"></span>
+According to the official guidance from Finland, cryptoassets created through hard forks are not taxed at the time of creation but at the time of transfer. Thus, a forked cryptocurrency asset is valued at zero until it is transferred (sold or exchanged). Japan’s tax authority has explained that when a person acquires a virtual currency from a fork, the person will not be deemed to receive taxable income at that time. The acquisition price of the new virtual currency is zero yen. Income will be generated at the time of selling or using the virtual currency. In Australia, new cryptocurrency received by an investor as a result of a chain split is only taxable on disposal, with the capital gains tax rules applicable to any resulting gain or loss.
+
+The countries in this report that have issued rules or guidance on the tax treatment of mining, or on the tax treatment of staking, airdrops, or hard forks, are shown on the accompanying map.
+
+<span id="page-8-0"></span>
+## Taxation of Cryptocurrency Block Rewards in Selected Jurisdictions
+
+<table><tr><td rowspan=1 colspan=1>ISOCode</td><td rowspan=1 colspan=1>Country</td></tr><tr><td rowspan=1 colspan=1>AR</td><td rowspan=1 colspan=1>Argentina</td></tr><tr><td rowspan=1 colspan=1>AU</td><td rowspan=1 colspan=1>Australia</td></tr><tr><td rowspan=1 colspan=1>BR</td><td rowspan=1 colspan=1>Brazil</td></tr><tr><td rowspan=1 colspan=1>CA</td><td rowspan=1 colspan=1>Canada</td></tr><tr><td rowspan=1 colspan=1>CL</td><td rowspan=1 colspan=1>Chile</td></tr><tr><td rowspan=1 colspan=1>CO</td><td rowspan=1 colspan=1>Colombia</td></tr><tr><td rowspan=1 colspan=1>DK</td><td rowspan=1 colspan=1>Denmark</td></tr><tr><td rowspan=1 colspan=1>FI</td><td rowspan=1 colspan=1>Finland</td></tr><tr><td rowspan=1 colspan=1>FR</td><td rowspan=1 colspan=1>France</td></tr><tr><td rowspan=1 colspan=1>DE</td><td rowspan=1 colspan=1>Germany</td></tr><tr><td rowspan=1 colspan=1>GI</td><td rowspan=1 colspan=1>Gibraltar</td></tr><tr><td rowspan=1 colspan=1>IN</td><td rowspan=1 colspan=1>India</td></tr><tr><td rowspan=1 colspan=1>IE</td><td rowspan=1 colspan=1>Ireland</td></tr><tr><td rowspan=1 colspan=1>IL</td><td rowspan=1 colspan=1>Israel</td></tr><tr><td rowspan=1 colspan=1>IT</td><td rowspan=1 colspan=1>Italy</td></tr><tr><td rowspan=1 colspan=1>JP</td><td rowspan=1 colspan=1>Japan</td></tr><tr><td rowspan=1 colspan=1>JE</td><td rowspan=1 colspan=1>Jersey</td></tr><tr><td rowspan=1 colspan=1>KE</td><td rowspan=1 colspan=1>Kenya</td></tr><tr><td rowspan=1 colspan=1>LU</td><td rowspan=1 colspan=1>Luxembourg</td></tr><tr><td rowspan=1 colspan=1>MT</td><td rowspan=1 colspan=1>Malta</td></tr><tr><td rowspan=1 colspan=1>NZ</td><td rowspan=1 colspan=1>New Zealand</td></tr><tr><td rowspan=1 colspan=1>NO</td><td rowspan=1 colspan=1>Norway</td></tr><tr><td rowspan=1 colspan=1>RU</td><td rowspan=1 colspan=1>Russia</td></tr><tr><td rowspan=1 colspan=1>SG</td><td rowspan=1 colspan=1>Singapore</td></tr><tr><td rowspan=1 colspan=1>ZA</td><td rowspan=1 colspan=1>South Africa</td></tr><tr><td rowspan=1 colspan=1>ES</td><td rowspan=1 colspan=1>Spain</td></tr><tr><td rowspan=1 colspan=1>SE</td><td rowspan=1 colspan=1>Sweden</td></tr><tr><td rowspan=1 colspan=1>CH</td><td rowspan=1 colspan=1>Switzerland</td></tr><tr><td rowspan=1 colspan=1>TR</td><td rowspan=1 colspan=1>Turkey</td></tr><tr><td rowspan=1 colspan=1>UK</td><td rowspan=1 colspan=1>UnitedKingdom</td></tr><tr><td rowspan=1 colspan=1>VE</td><td rowspan=1 colspan=1>Venezuela</td></tr></table>
+
+![](assets/_page_8_Figure_0.jpg)
+
+> **AI Description:**
+> **Source:** `assets/_page_8_Figure_0.jpg`
+> 
+> **Generated:** 2026-05-15 21:19:43
+> 
+> ---
+> 
+> The image is a world map with various countries color-coded to indicate different regulatory statuses regarding cryptocurrency. The map uses a legend to categorize countries based on their regulations: yellow for rules/guidance on tokens received through mining, light blue for rules/guidance on tokens received through staking, airdrops, or hard forks, and red for general statements on cryptocurrency taxation. The map highlights specific regions with zoomed-in views, providing more detail on the regulatory landscape in those areas. The map includes an ISO code list on the left side, which correlates country codes to their respective names. The Library of Congress logo is present in the bottom left corner.
+
+Source & Note: Susan Taylor, Law Library of Congress. Map reflects results for the 31 jurisdictions reviewed in in Taxation of Cryptocurrency Block Rewards in Selected Jurisdictions (Law Library of Congress, January 2021).
+
+<span id="page-9-0"></span>
+# Argentina
+
+Graciela Rodriguez-Ferrand Senior Foreign Law Specialist
+
+## I. Introduction
+
+Under the National Constitution of Argentina1 the only authority capable of issuing legal currency is the Central Bank.2 Bitcoins are not legal currency, since they are not issued by the government monetary authority and thus are not legal tender.3 Therefore, they may be considered money but not legal currency, since they are not a mandatory means of cancelling debts or obligations.4 According to some experts,5 a Bitcoin may be considered a good or a thing under the Civil Code,6 and transactions with Bitcoins may be governed by the rules of the sale of goods under the Civil Code.7 Although Bitcoins are not specifically regulated, they are increasingly being used in Argentina, a country that has strict control over foreign currencies.8
+
+A bill on the regulatory framework for all transactions and civil and commercial operations that involve cryptoassets was submitted in Congress on November 11, 2020.9
+
+## II. Tax Treatment of Cryptocurrency Miners
+
+Companies carrying out cryptocurrency mining are subject to the corporate rate of the Income Tax Law (LIG), which is 30% for fiscal years beginning between January 1, 2018, and December 31, 2020, and 25% for fiscal years beginning in 2021.10
+
+<span id="page-10-0"></span>
+The gain obtained from the subsequent sale of the cryptocurrencies obtained through mining will be considered of Argentine source if the issuer is domiciled, established, or based in the country.11
+
+In order to determine the net profit from mining, the cryptocurrencies obtained as compensation for services provided to the network will be valued at the market price on the date the transaction entered the network, expressed in national currency.12 The miner may deduct all the expenses necessary to obtain, maintain and preserve the taxed profits, such as electricity, amortization of equipment, and staff salaries.13
+
+If a company owns computer equipment and only rents the mining power to third parties by depositing the mined cryptocurrencies directly into its clients’ wallet in exchange for a fee, such fee would be subject to income tax.14
+
+With respect to individuals engaged in cryptocurrency mining with their own computer equipment, software, and other assets who obtain earnings in the form of cryptocurrencies that are the product of the service provided to the network, if the activity is carried out within Argentina, such profits will be considered Argentine–source income,15 and they will be taxed as income at 35 percent.16
+
+<span id="page-11-0"></span>
+## Australia
+
+## Kelly Buchanan Foreign Law Specialist
+
+## SUMMARY
+
+The Australian Taxation Office has provided guidance on several matters related to the taxation of cryptocurrencies, including the treatment of new tokens received through staking, airdrops, and chain splits. The guidance reflects the difference in treatment between personal investments and transactions involving cryptocurrencies and holding or using cryptocurrencies in the course of carrying on a business. However, while tokens acquired through mining cryptocurrencies as a hobby are only taxed on disposal, through the capital gains tax system, tokens received by an individual as a payment or reward for forging, staking, or voting are treated as ordinary income. Airdropped tokens are also treated as ordinary income. The disposal of such tokens will also trigger a capital gains tax event. New cryptocurrency received by an investor as a result of a chain split is only taxable on disposal, with the capital gains tax rules applicable to any resulting gain or loss.
+
+Where cryptocurrency is held in the course of carrying on a business, the trading stock rules, rather than the capital gains tax rules, apply. Thus, the proceeds from the disposal of any cryptocurrency is ordinary income, and the cost of acquiring any cryptocurrency is deductible. Cryptocurrency used in business activities is treated the same as other assets or payments. Any new cryptocurrency received by a business as a result of a chain split is considered trading stock and subject to income tax.
+
+## I. Introduction
+
+The Australian Taxation Office (ATO) issued several rulings and began publishing nonbinding guidance on the application of Australia’s tax laws to Bitcoin and other cryptocurrencies in 2014.1 Since then, the guidance has been updated and the Goods and Services Tax (GST) legislation was amended in 2017 to remove double taxation of digital currencies.2
+
+<span id="page-12-0"></span>
+Broadly, “cryptocurrencies are subject to capital gain tax (CGT) and ordinary income tax in Australia, depending on the circumstances of the transaction.”3 The ATO’s cryptocurrency guidance provides the following general information regarding transacting with cryptocurrency:
+
+A capital gains tax (CGT) event occurs when you dispose of your cryptocurrency. A disposal can occur when you:
+
+> sell or gift cryptocurrency
+
+> trade or exchange cryptocurrency (including the disposal of one cryptocurrency for another cryptocurrency)
+
+> convert cryptocurrency to fiat currency (a currency established by government regulation or law), such as Australian dollars, or
+
+> use cryptocurrency to obtain goods or services.
+
+If you make a capital gain on the disposal of cryptocurrency, some or all of the gain may be taxed. Certain capital gains or losses from disposing of a cryptocurrency that is a personal use asset are disregarded.
+
+If the disposal is part of a business you carry on, the profits you make on disposal will be assessable as ordinary income and not as a capital gain.4
+
+## A. Investing in Cryptocurrencies
+
+With respect to investing in cryptocurrencies, the guidance further states that,
+
+[i]f you acquire cryptocurrency as an investment, you may have to pay tax on any capital gain you make on disposal of the cryptocurrency.
+
+You will make a capital gain if the capital proceeds from the disposal of the cryptocurrency are more than its cost base. Even if the market value of your cryptocurrency changes, you do not make a capital gain or loss until you dispose of it.
+
+If you hold the cryptocurrency as an investment, you will not be entitled to the personal use asset exemption. However, if you hold your cryptocurrency as an investment for 12 months or more, you may be entitled to the CGT discount to reduce a capital gain you make when you dispose of it.5
+
+This reflects the fact that, under existing legislation, “cryptocurrency is considered to be a capital asset” for tax purposes, rather than a form of money or currency.6
+
+<span id="page-13-0"></span>
+## B. Personal Use Asset
+
+The ATO explains that “[c]ryptocurrency is a personal use asset if it is kept or used mainly to purchase items for personal use or consumption.”7 If it is kept or used mainly as an investment, in a profit-making scheme, or in the course of carrying on a business, it will not be considered a personal use asset and will be subject to tax.8
+
+## C. Capital Gains Tax
+
+ATO guidance on capital gains explains that,
+
+[f]or most CGT events, your capital gain is the difference between your capital proceeds and the cost base of your CGT asset. (The cost base of a CGT asset is largely what you paid for it, together with some other costs associated with acquiring, holding and disposing of it.)9
+
+There are three methods for working out a capital gain, including a discount method for assets held for 12 months or more.10
+
+## D. Cryptocurrency Used in Operating a Business
+
+As indicated above, where cryptocurrency is held in the course of carrying on a business, this is treated differently for tax purposes compared to personally investing in cryptocurrencies. The ATO provides separate guidance on determining whether a person is operating a business,11 as well as specific guidance on the tax treatment of cryptocurrency used in business.12 Broadly, “[i]f you hold cryptocurrency for sale or exchange in the ordinary course of your business the trading stock rules apply, and not the CGT rules. Proceeds from the sale of cryptocurrency held as trading stock in a business are ordinary income, and the cost of acquiring cryptocurrency held as trading stock is deductible.”13 Furthermore,
+
+<span id="page-14-0"></span>
+[i]f you are carrying on a business that is not a cryptocurrency business, but use cryptocurrency in your activities you need to account for cryptocurrency as you would for other assets or items used in your business.
+
+If you receive cryptocurrency for goods or services you provide as part of your business, you need to include the value of the cryptocurrency in Australian dollars as part of your ordinary income. This is the same process as receiving any other non-cash consideration under a barter transaction.14
+
+## E. Salary Payments
+
+Salary or wage payments in the form of cryptocurrency may be regarded as either ordinary income or a fringe benefit, depending on whether the employee has a valid salary sacrifice arrangement with the employer.15
+
+## F. Mining
+
+The difference in the tax treatment depending on whether or not the cryptocurrency activities involve carrying on a business is also applicable in the context of cryptocurrency mining: Where a person mines cryptocurrency as a hobby, mined coins do not need to be reported as income; taxes are only payable upon their disposal (i.e., a CGT event).16 Business miners, however, must report the fair market value of the tokens received at the time of receipt, and may deduct miningrelated business expenses, such as equipment and electricity.17
+
+## G. GST Treatment
+
+There is also a difference in the GST treatment of cryptocurrency depending on the type of transaction and the nature of the parties involved:
+
+Sales and purchases of digital currency are not subject to GST from 1 July 2017. This means that you do not charge GST on your sales of digital currency and similarly, you are not entitled to GST credits for purchases of digital currency.
+
+You do not have any GST consequences in relation to buying or selling digital currency, or using it as a payment, if you are not carrying on a business.
+
+<span id="page-15-0"></span>
+If you are carrying on a business in relation to digital currency, or as part of your existing business, or if you are accepting digital currency as a payment in your business, you need to consider any GST consequences that may arise.18
+
+The ATO further explains the GST treatment of sales of digital currency, and of receiving digital currency as payment, and provides several examples.
+
+## II. Tax Treatment of Block Rewards
+
+The ATO website provides specific guidance on staking rewards and similar mechanisms that provide rewards to existing token holders:
+
+Proof of Stake is a form of ‘consensus mechanism’ that requires forgers (similar to miners) to hold units of a cryptocurrency so they can validate transactions and create new blocks. Forgers participate in consensus by staking their existing tokens.
+
+A forger who is selected to forge a new block is rewarded with additional tokens when the new block has been created. The additional tokens are received from holding the original tokens. The money value of those additional tokens is ordinary income of the forger at the time they are derived.
+
+Other consensus mechanisms that reward existing token holders for their role in maintaining the network will have the same tax outcomes. This would include rewards derived through Proof of Authority and Proof of Credit mechanisms by Validators, Agent Nodes, Guardian Nodes, Premium Stakers and other entities performing comparable roles.
+
+Token holders who participate in ‘proxy staking’ or who vote their tokens in delegated consensus mechanisms, and receive a reward by doing so, also derive ordinary income equal to the money value of the tokens they receive.19
+
+The ATO also provides an example of the application of the rules to staked tokens:
+
+Anastasia holds 50,000 NULS tokens, which she stakes to a NULS pool as a premium staker. Anastasia receives additional NULS tokens when her pool participates in consensus, including a small payment of tokens from the node leader for supporting their node.
+
+The money value of the additional NULS tokens Anastasia receives is assessable income of Anastasia at the time the tokens are derived.
+
+The cost base of Anastasia’s additional NULS tokens will be their market value at the time they were derived.20
+
+<span id="page-16-0"></span>
+Therefore, cryptocurrency rewards received through forging, staking, or voting are treated differently from tokens acquired through mining as a hobbyist: the reward tokens are treated as ordinary income on receipt. The sale of such tokens in the future will also trigger a CGT event.21
+
+## III. Tax Treatment of Airdrops and Chain Splits
+
+## A. Airdrops
+
+The ATO’s guidance includes a brief reference to airdrops, stating that
+
+[s]ome projects ‘airdrop’ new tokens to existing token holders as a way of increasing the supply of tokens (for example, Pundi X and Tron). The money value of an established token received through an airdrop is ordinary income of the recipient at the time it is derived.22
+
+The following example is provided:
+
+Merindah has held TRX tokens since December 2018, entitling her to receive monthly BTT airdrops from February 2019.
+
+The money value of the BTT tokens Merindah receives as a result of holding her TRX tokens is assessable income of Merindah at the time the tokens are derived.
+
+The cost base of Merindah’s airdropped BTT tokens will be their market value at the time they were derived.23
+
+Thus, airdropped tokens are treated the same as staking rewards for tax purposes. A question submitted to the ATO Community forum in October 2020 sought clarification of the tax treatment of staking rewards, airdrops, and farming rewards, including their classification as ordinary income on receipt and the situation where such rewards are sold at a loss in the future. The ATO community manager responded as follows:
+
+Generally yes, they are classified as ordinary income where the cryptocurrency receipt arises from either undertaking activities that result in payment, or payments arising because of your ownership of particular cryptocurrency. We have information on our website on Staking rewards and airdrops.
+
+Where you have declared the received cryptocurrency as income, the ‘cost’ of the received cryptocurrency will be its market value at time of receipt- on the assumption that you are not carrying on a business of trading the cryptocurrency. In these circumstances, where you hold the cryptocurrency as an investment, when you sell the cryptocurrency at a loss you can offset any capital losses arising against any current year or future year capital gains.24
+
+<span id="page-17-0"></span>
+## B. Chain Splits
+
+The ATO guidance also explains the tax treatment of new cryptocurrency received as a result of a chain split, with the treatment depending on whether the new cryptocurrency is held as an investment or in a business carried on by the holder. It provides three examples of investment scenarios. The ATO states that “[a] chain split refers to the situation where there are two or more competing versions of a blockchain. These competing versions share the same history up to the point where their core rules diverged.”25
+
+## 1. Cryptocurrency Held as an Investment
+
+The ATO guidance states the following with respect to holding cryptocurrency as an investment and receiving new cryptocurrency as a result of a chain split:
+
+If you hold cryptocurrency as an investment, and receive a new cryptocurrency as a result of a chain split (such as Bitcoin Cash being received by Bitcoin holders), you do not derive ordinary income or make a capital gain at that time as a result of receiving the new cryptocurrency.
+
+If you hold the new cryptocurrency as an investment, you will make a capital gain when you dispose of it. When working out your capital gain, the cost base of a new cryptocurrency received as a result of a chain split is zero. If you hold the new cryptocurrency as an investment for 12 months or more, you may be entitled to the CGT discount.
+
+[Example 1]
+
+Working out which cryptocurrency is the new asset received as a result of a chain split requires examination of the rights and relationships existing in each cryptocurrency you hold following the chain split. If one of the cryptocurrencies you hold as a result of the chain split has the same rights and relationships as the original cryptocurrency you held, then it will be a continuation of the original asset. The other cryptocurrency you hold as a result of the chain split will be a new asset.
+
+[Example 2]
+
+<span id="page-18-0"></span>
+Where none of the cryptocurrencies you hold following the chain split has the same rights and relationships as the original cryptocurrency you held, then the original asset may no longer exist. CGT event C2 will happen for the original asset. In that case, each of the cryptocurrencies you hold as a result of the chain split will be acquired at the time of the chain split with a cost base of zero.
+
+[Example 3]26
+
+Therefore, new tokens received by an individual investor as a result of a chain split are treated similarly to those obtained through hobby mining, with additional considerations in terms of determining whether or not the relevant cryptocurrency involved is a new asset or a continuation of the original asset.
+
+## 2. Cryptocurrency Held in a Business Operated by the Holder
+
+## The ATO guidance explains that
+
+[a] new cryptocurrency you receive as a result of a chain split in relation to cryptocurrency held in a business you carry on will be treated as trading stock where it is held for sale or exchange in the ordinary course of the business. The new cryptocurrency must be brought to account at the end of the income year.27
+
+<span id="page-19-0"></span>
+## Brazil
+
+## Eduardo Soares Senior Foreign Law Specialist
+
+## SUMMARY
+
+Cryptocurrencies have yet to be regulated in Brazil. Financial authorities have issued statements regarding the risks posed by this type of currency and its lack of guarantee by the monetary authorities, and they have advised that companies that trade in virtual currencies are not regulated, supervised, or licensed to operate by the central bank.
+
+According to the instructions of the Brazilian Secretariat of Federal Revenue, virtual currencies must be declared to the Secretariat and taxes must be paid if gains obtained from the sale of virtual currencies in one month exceed a certain amount. Recently, a Normative Instruction issued by the Secretariat made it mandatory to provide information related to operations carried out with cryptoassets to the Secretariat.
+
+So far, Brazil’s tax authority has not provided any detailed instructions on the taxation of rewards tokens or tokens acquired by mining or staking or regarding the tax treatment of tokens received through airdrops and hard forks.
+
+## I. Introduction
+
+## A. Brazilian Central Bank Policy Statement No. 25,306 of February 19, 2014
+
+On February 19, 2014, the Brazilian Central Bank (Banco Central do Brasil, BACEN) issued Policy Statement No. 25,306 on the risks related to the acquisition of so-called “virtual currencies” or “encrypted currencies” and transactions carried out with these currencies.1 The purpose of the statement was, inter alia, to clarify that virtual currencies should not be confused with electronic money (moeda eletrônica) as defined in Law No. 12,865 of October 9, 2013, and its regulations.2
+
+“Electronic money” is defined in article 6(VI) of Law No. 12,865 as a resource stored in a device or electronic system that allows the final user to make payment transactions in the national currency (Brazilian Real).3 The statement explained that, in contrast, virtual currencies are denominated in a different unit of account from the currencies issued by sovereign governments and are not stored in a device or electronic system in national currency.4
+
+<span id="page-20-0"></span>
+## According to the statement,
+
+the usage of virtual currencies and whether regulations applicable to financial and payments systems apply to them have been the theme of international debate and public announcements by monetary authorities and other public institutions, with few concrete conclusions thus far;
+
+• virtual currencies are not issued or guaranteed by a monetary authority;
+
+• these virtual assets are not regulated or supervised by the monetary authorities of any country;
+
+• there is no government mechanism that guarantees the value in official currency of those instruments known as virtual currencies; and
+
+BACEN is monitoring the evolution of the usage of these instruments, as well as the related discussions in international forums—especially regarding their nature, ownership, and functioning—in order to possibly adopt measures within its sphere of legal competency, if necessary.5
+
+## B. Brazilian Central Bank Communiqué 31,379 of November 16, 2017
+
+On November 16, 2017, BACEN issued Communiqué 31,379 reaffirming that virtual currencies are neither issued nor guaranteed by any monetary authority.6 The document further states that although virtual currencies have been the subject of international debate and statements from both monetary and other public authorities, international organizations have found no need so far to regulate those assets. In Brazil, for the time being, no relevant risks to the National Financial System have been observed. Nevertheless, the Central Bank of Brazil remains alert to the use of virtual currencies and continues to follow international discussions on this matter in order to adopt the required measures, if necessary, while observing other bodies’ and entities’ mandates.7
+
+## II. Taxation
+
+## A. Personal Income Tax
+
+A booklet prepared by the Brazilian Secretariat of Federal Revenue (Secretaria Especial da Receita Federal do Brasil, RFB),8 containing questions and answers regarding personal income tax for
+
+<span id="page-21-0"></span>
+2019, includes information on how to declare virtual currencies on a person’s income tax return and the appropriate taxation.9
+
+The document states that virtual currencies must be declared. It explains that virtual currencies (bitcoins, for example), although not considered as currency under the current regulatory framework, should be declared in the Assets and Rights Tab as “other assets,” since they can be treated as a financial asset. The acquisition value of the assets must be stated. This type of “currency” does not have an official conversion rate, because there is no organ responsible for controlling its issue, so there is no legal rule for the conversion of amounts for tax purposes. However, the taxpayer must keep documentation proving the authenticity of these values.10
+
+A question in the booklet asks whether gains obtained from the sale of virtual currency are taxed. The answer provided indicates that where the gains obtained from the sale of virtual currencies (bitcoins, for example) in one month is more than BRL35,000.00 (about US\$6,573.63), these are taxed as capital gains, with progressive rates applying, and income tax must be paid before the last business day of the month following the month of the transaction. The taxpayer must keep documentation proving the authenticity of the transactions.11
+
+## B. Cryptoassets
+
+Normative Instruction No. 1888 issued by the RFB on May 3, 2019, creates the obligation to provide information related to operations carried out with cryptoassets to the RFB and establishes penalties for noncompliance.12 For the purposes of Normative Instruction No. 1888, the following definitions are provided:
+
+I - cryptoasset: the digital representation of value denominated in its own unit of account, the price of which can be expressed in local or foreign sovereign currency, negotiated electronically with the use of cryptography and distributed registration technologies, which can be used as a means of investment, instrument of transfer of values or access to services, and which does not constitute legal tender currency; and
+
+II - cryptoasset exchange: the company (pessoa jurídica), even if not financial, that offers services related to transactions carried out with cryptoassets, including intermediation, negotiation or custody, and that can accept any means of payment, including other cryptoassets.13
+
+These definitions are included in the concept of intermediation of operations carried out with cryptoassets, which is the provision of environments for carrying out purchases and sales of cryptoassets among the users of such services.14
+
+<span id="page-22-0"></span>
+According to article 6,
+
+[t]he provision of information is mandatory for:
+
+I - the cryptoassets exchange domiciled for tax purposes in Brazil;
+
+II - a natural or legal person residing or domiciled in Brazil when:
+
+a) the transactions are carried out on an exchange domiciled abroad; or
+
+b) the transactions are not carried out in exchange.15
+
+In the case of article 6(II) discussed above, the information must be provided whenever the monthly value of the operations, alone or jointly, exceeds BRL30,000.00 (about US\$5,634.54).16
+
+Under article 6,
+
+[t]he obligation to provide information applies to a natural or legal person who carries out any of the operations with cryptoassets listed below:
+
+I - buying and selling;
+
+II - exchange;
+
+III - donation;
+
+IV - transfer of cryptoasset to the exchange;
+
+V - withdrawal of cryptoassets from the exchange;
+
+VI - temporary assignment (rent);
+
+VII - payment in kind;
+
+VIII - issuance; and
+
+IX - other operations that involve the transfer of cryptoassets.17
+
+Article 7 of Normative Instruction No. 1888 specifies the information that must be provided for each operation,18 while article 10 details the penalties applicable to a natural or legal person who fails to provide the mandatory information pursuant to article 6, provides them outside the deadlines set in article 8, or omits information or provides inaccurate, incomplete or incorrect information.19
+
+<span id="page-23-0"></span>
+## III. Tax Treatment of Block Rewards
+
+As discussed in Part II.A., above, apparently, block rewards have yet to be clearly regulated in Brazil. The tax treatment provided by the tax authority in the country only determines that gains obtained from the sale of virtual currencies are taxed if they exceed a certain amount. No specific information was found regarding the taxation of reward tokens, tokens acquired by mining or staking, or the tax treatment of tokens received through airdrops and hard forks.
+
+<span id="page-24-0"></span>
+## Canada
+
+## Tariq Ahmad Foreign Law Specialist
+
+## SUMMARY
+
+Canada’s tax laws and rules, including the Income Tax Act, apply to cryptocurrency transactions. The Canada Revenue Agency (CRA) has treated cryptocurrency as a commodity rather than a government-issued currency. Accordingly, the use of cryptocurrency to pay for goods or services is treated as a barter transaction.
+
+CRA’s cryptocurrency guide only makes explicit reference to the tax treatment of mining. Law firms appear to note that since staking is similar in nature to the mining of cryptocurrencies, one should treat received coins from staking in a similar fashion to those from mining. The mining of cryptocurrencies can be undertaken for profit (as a business) or as a personal hobby. Virtual currencies acquired via commercial mining activities are considered business income, and the mined assets are considered inventory of the business. Mining as a hobby or personal activity is first taxable upon the disposal of the asset, and a profit from sale of the asset is taxable as a capital gain.
+
+## I. Introduction
+
+Canada allows the use of digital currencies, including blockchain-based cryptocurrencies,1 as a means of payment.2 According to the Government of Canada webpage on digital currencies, “[y]ou can use digital currencies to buy goods and services on the Internet and in stores that accept digital currencies. You may also buy and sell digital currency on open exchanges, called digital currency or cryptocurrency exchanges.”3 However, cryptocurrencies are not considered legal tender in Canada.4 “Legal tender,” as defined by the Currency Act,5 means “bank notes issued by the Bank of Canada under the Bank of Canada Act” and “coins issued under the Royal Canadian Mint Act.”6 Mining of cryptocurrencies can also be undertaken for profit (as a business) or as a personal hobby.
+
+Canada’s tax laws and rules, including the Income Tax Act,7 apply to cryptocurrency transactions. The Canada Revenue Agency (CRA), which administers tax laws and policies, “has characterized cryptocurrency as a commodity and not a government-issued currency. Accordingly, the use of cryptocurrency to pay for goods or services is treated as a barter transaction”8 for income tax purposes, and the CRA recommends consulting its Interpretation Bulletin IT-4909 for more information on the tax implications of barter transactions.10 According to the CRA, “[a]ny income from transactions involving cryptocurrency is generally treated as business income or as a capital gain, depending on the circumstances. Similarly, if earnings qualify as business income or as a capital gain then any losses are treated as business losses or capital losses.”11 Cryptocurrency “may be accepted as payment for a taxable good or service by a GST/HST registrant. In such a case, the GST/HST rules require that the fair market value of the consideration that was received for the good or service be determined and GST/HST calculated based on that value.”12
+
+<span id="page-25-0"></span>
+## II. Tax Treatment of Block Rewards or Reward Tokens
+
+The CRA website on virtual currencies has a section on “[w]hat tax rules apply when virtual currency is earned from mining or staking?,”13 and it goes on to define each activity:
+
+Mining involves using computers to solve mathematical problems that confirm cryptocurrency transactions. Miners will place cryptocurrency transactions in blocks and try to guess the number that will create a valid block. A valid block is accepted by the corresponding cryptocurrency’s network and becomes part of a public ledger, known as a blockchain. When a miner successfully creates a valid block, they will receive two amounts in one payment. One amount will represent the creation of a new cryptocurrency on the network and the other amount will represent the fees from transactions included in the newly validated block. Those who do the mining are paid in the cryptocurrency that they are validating.
+
+Staking (proof of stake) is a different process to earn cryptocurrency payments but may still result in earnings that have tax implications. Proof of stake is an alternative distributed consensus mechanism where a person is selected out of a group of participants (forgers) to validate a block of transactions. Much like mining, when the selected person successfully creates a valid block, they will receive two amounts in one payment. One amount will represent the creation of a new cryptocurrency on the network and the other amount will represent the fees from transactions included in the newly validated block.14
+
+<span id="page-26-0"></span>
+For the tax implications of each activity, it makes reference to the cryptocurrency guide. However, the guide only makes explicit reference to the tax treatment of mining. One law firm notes that the CRA “has not released specific guidance for staking of cryptocurrency. Because staking is similar in nature to mining of cryptocurrencies, the safest approach is to treat received coins from staking in a similar fashion to mining.”15
+
+Mining of cryptocurrencies can be undertaken for profit (as a business) or as a personal hobby (which is nontaxable).16 According to the CRA,
+
+[t]he income tax treatment for cryptocurrency miners is different depending on whether their mining activities are a personal activity (a hobby) or a business activity. This is decided case by case. A hobby is generally undertaken for pleasure, entertainment or enjoyment, rather than for business reasons. But if a hobby is pursued in a sufficiently commercial and businesslike way, it can be considered a business activity and will be taxed as such.17
+
+Virtual currencies acquired via commercial mining activities are considered business income, and the mined assets are considered inventory of the business.18 According to the lawyers from Gowling WLG,
+
+[i]f the taxpayer mines in a commercial manner, the income from that business must be included in the taxpayer’s income for the year. Such income will be determined with reference to the value of the taxpayer’s inventory at the end of the year, established pursuant to the rules in section 10 of the ITA and Part XVIII of the Regulations regarding valuing inventory.19
+
+CRA mentions two methods for valuing inventory consistently from year to year:
+
+value each item in the inventory at its cost when it was acquired or its fair market value at the end of the year, whichever is lower
+
+value the entire inventory at its fair market value at the end of the year (generally, the price that you would pay to replace an item or the amount that you would receive if you sold an item)20
+
+<span id="page-27-0"></span>
+Businesses also have the “ability to deduct their expenses from business income. For instance, mining hardware, electricity and other costs can be calculated on a per coin basis and deducted against the sales proceeds.”
+
+Mining as a hobby or personal activity is considered a “speculative investment,” and the “first taxable event occurs on the disposal of the asset.”21 According to CRA guidance,
+
+[i]f the sale of a cryptocurrency does not constitute carrying on a business, and the amount it sells for is more than the original purchase price or its adjusted cost base, then the taxpayer has realized a capital gain. Capital gains from the sale of cryptocurrency are generally included in income for the year, but only half of the capital gain is subject to tax. This is called the taxable capital gain. Any capital losses resulting from the sale can only be offset against capital gains; you cannot use them to reduce income from other sources, such as employment income. You can carry forward your capital losses if you do not have any capital gains against which to offset those losses for the year or any of the preceding three years.22
+
+## III. Tax Treatment of Airdrops and Hard Forks
+
+There does not appear to be specific mention of the tax treatment for airdrops and hard forks by the CRA. However, one tax guide states that “in Canada the cost basis is zero for these coins. Therefore when the coins are disposed the entire proceeds are considered capital gains (for individuals) or income (for businesses).”23
+
+<span id="page-28-0"></span>
+# Chile
+
+# Graciela Rodriguez-Ferrand Senior Foreign Law Specialist
+
+## I. Introduction
+
+According to the Central Bank of Chile, virtual currencies have no specific legal recognition in the country and trade and transactions involving cryptocurrency are not subject to the regulation or supervision of the monetary authority.1
+
+A draft Fintech bill that would, among other things, regulate digital assets and cryptocurrency, was submitted to the Ministry of Finance on November 11, 2020, and is expected to be presented to the legislature this year.2
+
+## II. Tax Treatment of Cryptocurrency Mining
+
+The Internal Revenue Service (SII) issued a ruling on whether cryptocurrencies are subject to the value added tax (VAT) and income tax.3 Under the ruling, Bitcoin and other cryptocurrencies are considered digital or virtual assets, and since they do not have “corporeality,” their sale is not subject to VAT.4 Income derived from the purchase and sale of cryptocurrencies is, however, subject to income tax.5
+
+There is no regulation on cryptocurrency mining in Chile. The draft Fintech bill includes a section on mining and digital assets.6
+
+Although mining is not prohibited, there seems to be not much interest for it in Chile, mainly because of the high cost of electricity it requires.7
+
+No reference to the regulation or taxation of staking in Chile has been found.
+
+<span id="page-29-0"></span>
+# Colombia
+
+# Graciela Rodriguez-Ferrand Senior Foreign Law Specialist
+
+## I. Introduction
+
+There is no legal framework in Colombia with specific rules on cryptocurrencies.1 However, some government bodies have made statements regarding their use.2 The Banco de la República (Colombia’s central bank) classifies digital currencies as cryptoassets, clarifying that they are not legal tender, foreign currency, securities, or financial instruments. The bank has stated it neither promotes nor prohibits their use in the country.3
+
+The Superintendencia Financiera (SF), which supervises the banking system in Colombia, warned in a June 2017 circular that bitcoin is not currency and therefore may not be considered legal tender susceptible of cancelling debts.4 The SF emphasized that the Colombian peso is the only legal currency, and that the Banco de la República has the exclusive authority to issue money in Colombia.5 According to the SF, cryptocurrencies have no value under capital market laws and therefore are also not recognized as securities.6 The SF warned controlled financial institutions that they are not authorized to protect, invest, broker, or manage virtual money operations.7 The SF called on persons to become informed that they assume the risks related to virtual currencies if they choose to trade them, since these currencies do not have any private or state guarantee.8
+
+Currently, several of lawmakers and interest groups are actively promoting bills aimed at adopting rules for operations with digital currencies in the country.9
+
+<span id="page-30-0"></span>
+## II. Tax Treatment of Cryptocurrency Mining
+
+The National Tax and Customs Directorate (DIAN), which administers revenue laws in Colombia, considers bitcoin and digital currencies to be assets, giving them the status for tax purposes similar to material goods.10 It has said that mining activities are subject to income tax on the profits received by the operators.11 The tax applies on the compensation derived from mining either by means of obtaining new coins as a result of the transaction confirmation and validation service or the receipt of a fee.12
+
+The high cost of electricity, the drop in the price of digital currencies, the high price of mining hardware and the difficulty levels of the networks to earn rewards make mining not profitable in Colombia on a small scale.13
+
+No reference to staking has been found in Colombia.
+
+<span id="page-31-0"></span>
+## Denmark
+
+## Elin Hofverberg Foreign Law Specialist
+
+## SUMMARY
+
+Danish authorities do not recognize cryptocurrencies as financial instruments or legal currency. The Danish Tax Authority typically treats cryptocurrencies as investment property and taxes income from sale of cryptocurrency similar to capital gains, allowing deductions for losses.
+
+The Tax Authority has determined that income from mining of cryptocurrencies is to be treated as income from a hobby, unless done on a commercial scale. The Tax Authority appears not to have issued tax guidance specifically for staked cryptocurrencies, air drops of cryptocurrencies, or hard forks. The Tax Authority has stated that the taxation of gifted cryptocurrencies must be determined on an individual basis. The realization of certain gifted cryptocurrencies is not subject to tax.
+
+## I. Introduction
+
+Denmark has no laws specifically addressing cryptocurrencies and no regulatory proposals on cryptocurrencies are pending before the Danish Parliament. Danish authorities do not recognize cryptocurrency a currency,1 and treat cryptocurrencies as a form of financial speculation, i.e. property acquired with the purpose of making a financial profit at time of sale.2 The term cryptocurrency is not legally defined for purposes of determining income taxation, and how cryptocurrencies are taxed depends on how they were received and how they are divested. While typically cryptocurrencies are considered a form of financial speculation, the National Tax Tribunal has found that this must be determined on a case-by-case basis.3
+
+The Danish Tax Authority (Skatteforvaltningen) and Danish courts have determined that in order for cryptocurrency to qualify as an investment property, making a financial profit at the time of sale need not be the only reason for the investment.4 Because cryptocurrencies do not have many other uses compared to other collectable property, cryptocurrencies are typically taxed as investment property subject to capital gains.5 However, mining of cryptocurrencies (i.e., the creation or discovery of cryptocurrency) qualifies as income from a hobby unless carried out on a commercial scale.6 If carried out on a commercial scale, mined cryptocurrencies instead are treated as income from commercial activity.7
+
+<span id="page-32-0"></span>
+Denmark classifies income in categories, including income from employment, income from commercial activity, income from hobbies, and income as capital gains.8 Losses made in commercial activity and on capital holdings are deductible.9
+
+## II. Tax Treatment of Block Rewards
+
+## A. Tax Treatment of Mined and Staked Cryptocurrencies
+
+The Danish Tax Authority (Skatteforvaltningen) has issued guidance for the tax treatment of mined cryptocurrencies. The guidance treats mining as a hobby.10 When carried out on a large scale over an extended period, mining is considered a commercial activity.11 The Income Tax Act provides that a person must report and pay income tax on proceeds from hobbies.12 Financial losses incurred as part of a hobby (a.k.a. non-commercial) activity are not deductible.13 Costs associated with the procurement of income from hobbies are typically not deductible.14 Costs incurred in mining on a commercial scale, such as the cost of electricity and of the mining computer, are deductible.15 When cryptocurrencies are received as payment for goods or services, losses in value may not be deducted as a business expense as the cryptocurrencies are not held as investment property but used as a form of payment.16
+
+<span id="page-33-0"></span>
+No guidance by the Tax Authority specifically addressing staked cryptocurrencies was located.
+
+## B. Tax Treatment of Tokens Received Through “Airdrops” and “Hard Forks”
+
+The Danish Tax Authority appears not to have issued any guidance specifically on the tax treatment of tokens received through airdrops or hard forks. However, the discussion of the tax treatment of mining discussed above could also apply to these forms of acquiring cryptocurrency if they could be considered rewards for previous work or previous holdings.17
+
+The Tax Authority has stated that the question of who is responsible for tax payments in connection with a cryptocurrency gift is subject to an individual determination.18 The Tax Authority provides a link for applying for a binding ruling19 on how to treat a cryptocurrency gift for tax purposes.20 Thus, whether an airdrop or hard fork be considered more analogous to a gift or mining may depend on the situation in a given case. Under Danish law, gifts are not subject to income tax.21
+
+## C. Tax Treatment of Cryptocurrencies at Time of Sale
+
+Cryptocurrency tokens are treated as investment property and capital gains are taxed upon their sale.22 The taxation of each cryptocurrency is determined individually, using the first in first out (FIFO) principle to determine the cost basis.23 For tokens that have no purchase value, the fair market value at the time of mining will apply.24 Depending on how they were acquired, cryptocurrencies received as gifts may not be subject to tax upon realization.25
+
+<span id="page-34-0"></span>
+## Finland
+
+Elin Hofverberg Foreign Law Specialist
+
+## SUMMARY
+
+The Finnish Tax Authority considers cryptocurrencies “a medium of exchange” and does not recognize cryptoassets as currencies or financial instruments. Finland taxes both the acquisition and transfer of cryptocurrencies. How cryptocurrency is treated for tax purposes depends on how the asset was acquired or sold. For example, mined cryptocurrencies are treated differently than staked cryptocurrencies. Mined cryptocurrencies are treated as income from a hobby, whereas staked cryptocurrencies are taxed as capital gains, as the Finnish Tax Authority considers the staked asset value created on top of the cryptocurrencies already held. Losses are deductible following a Finnish Supreme Court decision in 2019. According to its guidance on taxation of virtual currencies, cryptoassets created through hard forks are not taxed at the time of creation but at the time of transfer. Thus, a forked cryptocurrency asset is valued at zero until it is transferred (sold or exchanged). The Finnish Tax Authority has not issued specific guidance for the taxation of airdrops. Depending on whether airdrops are considered most similar to a mined asset, a staked or forked asset, or a gift, such assets may be taxed as income either from a hobby or from capital gain, or not taxed, as the receipt of gifts are not taxed in Finland.
+
+## I. Introduction
+
+## A. Regulation of Cryptocurrencies Generally
+
+Finland does not recognize cryptocurrencies as a financial instrument or a currency, but recognizes their use as a “medium of exchange.”1 Companies that provide access to cryptocurrencies are separately regulated in a special Act on Virtual Currency Providers.2 The Act on Virtual Currency Providers defines virtual currency in the following manner:
+
+For the purposes of this Act
+
+1) virtual currency a value in digital form
+
+(a) which has not been issued by a central bank or any other authority and which does not constitute a legal tender;
+
+<span id="page-35-0"></span>
+(b) which a person can use as a payment instrument; and
+
+(c) which can be transmitted, stored and exchanged electronically[.]3
+
+However, the Act on Virtual Currency Providers does not address income taxation related to cryptocurrencies, which is governed by the Income Tax Act.4 Specifically, cryptocurrencies are subject to several income tax provisions, including 32 § (on capital gains), 45 § 1 para. (on transfer gain), and 46 § 1 para. (on calculation of transfer gain).5 Because cryptoassets are not recognized as legal monetary currencies, cryptocurrencies are not covered by the exemption to tax liability for currency gains of less than €500 (about US\$610).6 Reportedly, in 2017, Bitcoins generated millions in tax revenue for the Finnish State.7
+
+## B. Finnish Tax System
+
+Finland taxes individual income from employment, self-employment, commercial activity, and hobbies.8 The distinction between hobbies and commercial activity is based on the size of the activity, and the purpose, i.e., whether the main goal is profit.9 In addition, Finland also taxes income from capital gains.10 Finland does not tax income received as gifts.11 Taxpayers are taxed at two levels, local and nationally.12 Whereas individuals pay both local and state tax on income derived through employment, tax on income from capital gains is only paid to the Finnish State.13 Capital gains are taxed at 30%.14
+
+## II. Tax Treatment of Block Rewards
+
+## A. Overview of Taxation of Mined Cryptocurrencies
+
+Finland taxes cryptocurrencies both at the acquisition stage and at the realization stage. It has been described as the “Crypto Tax Super Power.”15 In a March 2019 judgment, the Finnish
+
+<span id="page-36-0"></span>
+Supreme Administrative Court held that a sale of the cryptocurrency Ether that had been purchased with the goal of making a profit was not taxable as a capital gain but as income from a transfer of property.16 The Supreme Administrative Court also found that costs associated with the mining of cryptoassets are deductible in relation to the income derived from mining. For example, mining generally requires a lot of electricity, and thus the electricity cost for mining is deductible, as are costs for computers and other equipment needed in the mining.17
+
+The Finnish Tax Authority has issued guidelines specifically for the taxation of virtual currencies.18 The guidelines were most recently updated on January 22, 2020, and apply to the 2020 taxation year.19 In the guidelines, the Finnish Tax Authority distinguishes cryptocurrencies based on their use and their method of acquisition. For example, mined cryptocurrencies are taxed as income derived from a hobby unless the mining is done for profit on a larger scale, when it may be treated as a commercial activity.20 The Tax Authority has also issued guidelines reminding taxpayers to specify the income received from virtual currencies in their tax returns.21 In accordance with the Tax Authority guidance, mined cryptocurrencies must be included as income in the current tax year and “substantiated by ‘proof of work’ protocols.”22
+
+## B. Tax Treatment of Staked Cryptocurrencies
+
+Staked cryptocurrencies are cryptocurrencies gained as a result of fighting off the mining of additional cryptocurrencies by others. Typically, the miner both protects the value of currencies already held and also gains additional cryptocurrencies.23 The Finnish Tax Authority has described the activity in the following way in its guidance on taxation of virtual currencies: “From the perspective of taxation, this is a direct gain on a previously held asset, and consequently, it is regarded as a capital gain.”24 According to the guidance,
+
+[t]he point in time when income is realized for purposes of taxation is when the miner gains possession of the new units of virtual currency. The income is valued at the market value of the virtual currency at that time. The amount of income received is also the gross acquisition cost for the newly acquired virtual currency. The acquisition cost of the miner’s old virtual currency remains unchanged. The same principle can also be applied to other situations where a taxpayer’s income is based solely on a gain on previously owned virtual currency.25
+
+<span id="page-37-0"></span>
+## C. Tax Treatment of Tokens Received Through “Hard Forks,” “Airdrops,” or as Gifts
+
+## 1. Hard Forks
+
+The Finnish Tax Authority describes the creation of new virtual currencies through hard forks as follows:
+
+Sometimes the blockchains of virtual currencies have become forked. In these circumstances, any owners of the original virtual currency are given new virtual currency that have a different denomination, which corresponds to their original holding or a percentage thereof, for free, without losing any of their original virtual currency, and without having changed or divided the value of the original virtual currency. Such an operation does not involve a distribution of actual assets or existing virtual-currency positions across various other virtual currencies. Instead, this is a process that generates an addition to the owner’s existing virtual currency.
+
+From the perspective of taxation, the acquisition cost of the original virtual currency remains unchanged, and the acquisition cost of the new currency is €0.00. In situations like the above, if the taxpayer uses or exercises their new position (when taxes are assessed as provided in the act on income tax, i.e. the taxpayer is an individual or an estate of a deceased person), the tax calculation must be based on a deemed acquisition cost of the position.26
+
+Thus, cryptocurrencies created through hard forks are taxed at the time of transfer, using an acquisition cost of zero. A forked cryptocurrency is therefore not taxed at the time of acquisition, unlike the taxation of mining discussed above in Part II.A.
+
+## 2. “Airdrops”
+
+The Finnish Tax Authority has not issued specific guidance on the tax treatment of tokens received through airdrops. Treatment of airdrops for taxation purposes will depend on whether they are treated as mined cryptocurrencies, staked cryptocurrencies, forked cryptocurrencies, or as a gift. The Finnish Tax Authority specifies that the principle that applies to staked cryptocurrencies, discussed above in Part II.B., may also apply in other cases when the “income is based solely on a gain on previously owned virtual currency.”27 Thus, an airdrop offered only to current holders of a currency might be considered a gain on previously held property and treated as staked currency taxable as a capital gain.
+
+<span id="page-38-0"></span>
+## 3. Gifts
+
+The Finnish Tax Authority recognizes that cryptocurrencies may be transferred as a gift.28 Finland does not tax gifts or lottery winnings (provided the winnings come from a Finnish or European Economic Area lottery and do not require any work from the winner).29 For purposes of transfers of cryptoassets within a year of receipt as a gift, the value of the cryptoasset at the time of receipt as a gift will be determined by the value at the time when the giver acquired the asset.30 For example, if Person A acquired the asset when it was worth \$10 dollars, and gave it to Person B when it was worth \$20 dollars who within a year sells it for \$15, Person B is required to pay taxes on a \$5 profit.
+
+<span id="page-39-0"></span>
+## France
+
+## Nicolas Boring Foreign Law Specialist
+
+## SUMMARY
+
+France adopted a basic legislative framework to regulate cryptocurrencies in 2019, but this regulation remains largely embryonic. Taxation of cryptocurrency differs according to whether the holder is an occasional investor or is a miner or professional trader. Nonprofessional investors are taxed a 30% flat tax on the value added of their cryptocurrency when they sell them. Miners are taxed on the value of the cryptocurrency when they receive it. They can also be taxed again on the value added when they sell the same cryptocurrency into fiat currency later on. It appears that professional cryptocurrency traders are taxed on the value of their cryptocurrency when it is traded for official currency.
+
+## I. Introduction
+
+For several years, cryptocurrencies remained largely unregulated in France. As recently as 2017, the French Financial Market Authority (Autorité des marchés financiers, AMF) and Prudential Supervisory Authority (Autorité de contrôle prudentiel et de résolution, ACPR) were warning investors about the unregulated nature of cryptocurrencies.1 This has recently started to change, however. A 2019 law, referred to as the PACTE Law (Loi Pacte), includes several amendments to the French Monetary and Financial Code to establish a nascent legal framework for cryptoassets.2
+
+One of the principal innovations of the PACTE Law is to define the concept of digital assets, which are now described as either tokens (with a couple of exceptions), or “any digital representation of an asset which is not emitted or guaranteed by a central bank or by a government authority, which is not necessarily linked to a legal currency, and which does not have the legal status of a currency, but which is accepted by physical or corporate persons as a means of exchange and which can be transferred, stocked or exchanged electronically.”3 The law also defines tokens as “any incorporeal property which represents, in digital form, one or several rights that can be emitted, recorded, conserved, or transferred through the means of a shared electronic recording system that allows the owner of said property to be directly or indirectly identified.”4
+
+<span id="page-40-0"></span>
+The PACTE Law also addresses initial coin offerings (ICOs). It allows the AMF to confer an optional certification on certain token investments.5 A company wishing to obtain an AMF certification for token investments will have to provide a white paper with sufficiently precise and clear information on the token issuer and on the offer. Certifications will be valid for up to six months, and the AMF will publish on its website a list of certified token offerings.6
+
+Additionally, the PACTE Law introduces regulations on digital assets service providers (DASPs). The law separates DASPs into two categories. On one hand are DASPs that hold, stock or transfer cryptocurrencies, and DASPs that buy or sell cryptocurrencies for legal currencies. These service providers must register with the AMF, and must abide by certain regulations established by the AMF to prevent certain illegal activities such as money laundering or the funding of terrorism.7 On the other hand are DASPs that engage in other activities, including cryptocurrency exchange platforms, investment services, or investment advisors. These service providers may apply for an optional certification if they fulfill certain criteria meant to guarantee a level of trustworthiness.8
+
+Despite the adoption of the PACTE Law, the French government still describes the current regulatory framework for crypto-assets as “embryonic,” and continues to warn investors that cryptocurrencies are largely unregulated and therefore particularly risky investments.9
+
+## II. Taxation of Cryptocurrency
+
+There appears to be a different tax treatment for occasional cryptocurrency investors and those for whom cryptocurrency investing or dealing is their professional activity.10
+
+## A. Non-professionals
+
+Since January 1, 2018, the global value added of all taxable operations realized by nonprofessional cryptocurrency investors during the year is subject to a flat tax of 30%.11 The sale of cryptocurrency for euros or other legal currencies is the operation that generates the obligation to pay the tax.12 Cryptocurrency owners who hold onto their crypto-assets without converting them into fiat currency therefore do not have to pay taxes.13
+
+<span id="page-41-0"></span>
+## B. Professionals
+
+Different tax regimes apply to cryptocurrency miners and professional cryptocurrency traders (i.e., those whose regular professional activity is to buy or sell cryptocurrencies).
+
+## 1. Cryptocurrency Miners
+
+Cryptocurrency miners are taxed differently according to whether their revenue is above or below 70,000 euros (approximately US\$85,000).14 If their revenue for a given year is no more than 70,000 euros, they are simply taxed according to the income tax scale, but after a flat 34% abatement.15 For example, if a miner receives 50,000 euros in a cryptocurrency for his or her mining activities, he or she will be taxed only on the basis of 33,000 euros after the abatement is applied.16 If a cryptocurrency miner’s revenue is above 70,000 euros, he or she no longer qualifies for the flat abatement and must instead itemize deductions.17 Furthermore, he or she is not taxed according to the income tax scale, but according to the corporate tax scale.18
+
+In either case, for tax purposes, the cryptocurrency mined is valued at the point in time when the miner receives it.19 However, if the cryptocurrency is not immediately converted into fiat currency, any value added may be taxed later when it is converted.20
+
+## 2. Cryptocurrency Traders
+
+Professional cryptocurrency traders whose total revenues are not over 170,000 euros (approximately US\$206,500) may claim a flat abatement of 71%, and are taxed according to the French income tax scale for the remainder.21 Traders whose total revenues exceed 170,000 euros are taxed according to the corporate tax scale, after itemized deductions instead of the flat abatement.22 It appears that, for purposes of taxing professional traders, cryptocurrencies are valuated when they are traded for official currency.23
+
+<span id="page-42-0"></span>
+## Germany
+
+## Jenny Gesley Foreign Law Specialist
+
+## SUMMARY
+
+German law qualifies cryptoassets as financial instruments. Mining and the sale of tokens are in general not activities that require authorization from the German Federal Financial Supervisory Authority.
+
+The German federal ministry of finance, in guidance issued in 2018, held that bitcoin mining is a nontaxable transaction under value-added tax law. With regard to the income tax treatment of mining, the federal minister of finance and the tax authorities of the German states are currently discussing that issue, and respective guidance will be published once an agreement has been reached. In December 2017, then-Parliamentary State Secretary in the Federal Ministry of Finance Michael Meister stated that occasionally performed mining could qualify as “other income” within the meaning of the Income Tax Act, which is only taxable if it exceeds 256 Euros (about US\$310) in a calendar year. On the other hand, if cryptocurrencies are acquired or generated in the course of business with the aim of making a profit, proceeds from the disposal or exchange represent assessable income.
+
+It appears that there is no official guidance with regard to the tax treatment of staked tokens, airdrops, or forks.
+
+## I. Introduction
+
+The German Banking Act qualifies cryptoassets as financial instruments.1 Cryptoassets are defined as “a digital representation of value that is not issued or guaranteed by a central bank or a public authority and does not possess a legal status of currency or money, but is accepted by natural or legal persons as a means of exchange or payment instrument or serves investment purposes due to an agreement or established practice, and which can be transferred, stored, and traded electronically.’’2 Undertakings and persons who arrange the acquisition of tokens, sell or purchase tokens on a commercial basis, or carry out principal brokering services in tokens via online trading platforms, among others, are generally required to obtain authorization from the German Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) in advance.3 Mining and the sale of mined or acquired tokens are generally not transactions that require authorization from BaFin.4 However, additional factors might trigger the obligation to obtain prior authorization, for example, in a mining pool.5
+
+<span id="page-43-0"></span>
+In February 2018, the German federal ministry of finance published guidance on the value-added tax (VAT) treatment of bitcoin and other virtual currencies. It determined that transactions to exchange a traditional currency for bitcoin or other virtual currencies and vice versa constitute the taxable supply of other services for consideration, but fall under the exemption from VAT. It stated that bitcoin or other virtual currencies that are used simply as a means of payment are treated the same as traditional means of payment. Using bitcoin or other virtual currencies for no other purpose than as a means of payment is therefore not taxable.6 Virtual gaming money, meaning in-game currencies, particularly in online games, is not exempt, because it does not constitute a means of payment within the meaning of VAT law.7 This guidance is in line with the European Court of Justice Hedqvist decision from October 22, 2015.8 The German VAT Application Decree was amended accordingly.9
+
+The federal ministry of finance in its guidance also addressed several follow-up questions regarding the VAT treatment of mining, digital wallets, and online trading platforms.10
+
+The governing coalition parties Christian Democratic Union/Christian Social Union (CDU/CSU) and Social Democratic Party (SPD) have stated that the taxation of blockchain technologies must be addressed and clarified.11
+
+## II. Tax Treatment of Block Rewards
+
+## A. VAT
+
+With regard to mining, the federal ministry of finance in its 2018 guidance held that bitcoin mining is a nontaxable transaction.12 It noted that miners fulfill a service that is central to maintaining the bitcoin system. They make their processing power available to a mining pool, record transactions in a “block,” and subsequently add it to a “blockchain.” The ministry of finance stated that the transaction fee, which miners can receive from other users of the system, is paid on a voluntary basis and is not directly related to the services provided by the miners. It further added that receiving new bitcoin from the bitcoin system (block rewards) cannot be classified as payment for mining services because there is no exchange of services, as that requires an identifiable beneficiary.13
+
+<span id="page-44-0"></span>
+## B. Income Tax
+
+## 1. Relevant Law
+
+The German Income Tax Act taxes income earned in a calendar year from agriculture and forestry, business operations, self-employment, dependent employment, capital assets, rentals and leases, and other income as stated in section 22 of the German Income Tax Act (Einkommenssteuergesetz, EStG).14 A person operates a business if the activity is performed with the aim of making a profit, is sustainable, there is participation in economic transactions, and the work is performed independently.15
+
+## 2. Official Statements
+
+In response to a parliamentary inquiry submitted by the Free Democratic Party (FDP) concerning the income tax treatment of cryptocurrency-related activities in February 2020, the federal government stated that the federal minister of finance and the tax authorities of the German states were currently discussing the taxation of mining of cryptoassets and other issues.16 Once an agreement has been reached, the federal ministry of finance will publish respective guidance.17
+
+In December 2017, then-Parliamentary State Secretary in the Federal Ministry of Finance Michael Meister stated in response to a written question from a member of the Green Party concerning the income tax treatment of mining and block rewards that occasionally performed mining could qualify as “other income” within the meaning of section 22, number 3 of the Income Tax Act.18 Such income is only taxable if it exceeds 256 Euros (about US\$310) in a calendar year.19
+
+On the other hand, if cryptocurrencies are acquired or generated in the course of business with the aim of making a profit, proceeds from the disposal or exchange represent assessable income according to the parliamentary state secretary.20 Expenses incurred in respect to the mining activity are deductible as business expenses.21 Profits are calculated using the first-in, first-out inventory cost method.22
+
+<span id="page-45-0"></span>
+The tax authorities in the German state of North Rhine-Westphalia have published guidance and held that mining of cryptocurrencies should generally be regarded as a business activity, in particular due to the required high computing power and energy costs.23 However, they point out that there are ongoing discussions between the federal ministry of finance and the state tax authorities as mentioned above.24
+
+## 3. Court Decisions
+
+The lower tax courts are also not in agreement with regard to the income tax treatment of cryptoassets, as the Federal Fiscal Court has not yet ruled on the issue. The fiscal court in Berlin-Brandenburg, for example, held that capital gains from cryptoassets are without a doubt taxable according to sections 22 and 23 of the Income Tax Act, because the term “commodity” must be interpreted widely.25 The fiscal court in Nuremberg, on the other hand, stated that “a particular cryptocurrency might be a commodity and the acquisition and sale therefore taxable according to section 22, no. 2, section 23, paragraph 1, sentence 1, no. 2, sentence 1 of the Income Tax Act. Jurisprudence of tax courts as well as from the Federal Fiscal Court in this sense does not exist.”26
+
+## III. Differences in the Tax Treatment of Mined Tokens and Staked Tokens
+
+It appears that there is no official separate guidance with regard to the tax treatment of staked tokens. However, legal scholars have opined that income received from occasional staking should be regarded as other income, which is only taxable if it exceeds 256 Euros.27 Furthermore, the 10- year speculation period applies, meaning that income tax must be paid on profits from a sale during that time frame.28 On the other hand, it is pointed out that staking cannot generate income from business operations, because the agreement to use already existing digital currency units does not represent an active, independently performed activity.29
+
+<span id="page-46-0"></span>
+## IV. Tax Treatment of Tokens Received Through Airdrops and Forks
+
+It appears that there is no official guidance with regard to the tax treatment of airdrops and forks. Airdrops are generally distributed without compensation to increase awareness of a new token. Legal scholars therefore qualify them as donations that have to be reported to the tax authorities.30
+
+Forks create a new version of the blockchain alongside the old version. Participants receive a credit equivalent to the amount of their coins in the old version. There is no agreement among legal scholars about how to qualify forks. Some state that the new tokens were not “acquired,” and the old tokens were not “sold,” within the meaning of section 23 of the Income Tax Act, resulting in a tax-neutral event.31 They treat the situation as analogous to the taxation of a stock split, meaning the tokens are not taxable at the time of the fork.32 Once sold, the date of acquisition for all tokens is the date the old tokens were acquired. The costs of acquisition are split between the total portfolio of tokens according to the ratio of old and new tokens.33 Others contend that these proceeds are also not taxable, because the old and new tokens are not identical (Nämlichkeit) and because the receipt of new tokens happens without the active participation of the participant.34
+
+<span id="page-47-0"></span>
+# Gibraltar
+
+Clare Feikert-Ahalt Senior Foreign Law Specialist
+
+## I. Introduction
+
+Gibraltar has taken a proactive approach to regulating cryptocurrency. The government of Gibraltar introduced regulations governing the use of distributed ledger technology (DLT) in order to provide legal certainty to those operating within this framework, help with consumer confidence, and ensure that Gibraltar’s reputation and its financial sector is protected.1 Gibraltar has established a regulatory framework for cryptocurrency exchanges, and is striving to “transform Gibraltar into an international centre of excellence for business working with DLT and in the cryptospace.”2
+
+The Gibraltar Financial Services Commission (GFSC) is the regulator of the financial services market in Gibraltar and is responsible for regulating providers of such services that conduct business in Gibraltar and overseas. The GFSC must undertake this responsibility “in an effective and efficient manner in order to promote good business, protect the public from financial loss and enhance Gibraltar’s reputation as a quality financial centre.”3
+
+## II. Tax Treatment of Block Rewards
+
+Gibraltar currently does not have any taxation legislation or rules that apply specifically to cryptocurrencies.4 Gibraltar is a low-tax jurisdiction with a territorial tax system in which companies are only taxed on profits that accrue in, or derive from, Gibraltar.5 Tax legislation provides that any profits resulting from activities of a business that require a license and regulation under any law of Gibraltar are considered to derive from Gibraltar.6
+
+Gibraltar does not impose capital gains, dividends, value added, or withholding taxes, including with respect to cryptocurrency transactions. While Gibraltar does have an income tax, if the “badges of trade” test is not met with respect to the sale of any cryptoassets, the activity would be deemed noncommercial and would represent a capital gain rather than income, and thus no tax would be chargeable.7 Crypto exchanges are subject to the corporate income tax of 10% on any profits accrued in or derived from Gibraltar.8
+
+<span id="page-48-0"></span>
+## A. Mining
+
+There appear to be no taxation laws or policies that apply specifically to the mining of cryptoassets in Gibraltar. The government has stated “Gibraltar does not regulate mining operations primarily due to the unattractiveness of operating a mining operation in Gibraltar due to the high power costs required for substantive mining hardware.”9
+
+## B. Airdrops, Staking, Forging, and Forks
+
+There appear to be no specific tax laws or policies in Gibraltar on airdrops, staking or forging for proof of stake cryptocurrencies, or forks in blockchains.
+
+<span id="page-49-0"></span>
+## India
+
+## Tariq Ahmad Foreign Law Specialist
+
+## SUMMARY
+
+India’s “levy, administration, collection and recovery” of income tax is governed by the Income Tax Act, 1961. The Income Tax Department is a government agency headed by the Central Board of Direct Taxes and is part of the Ministry of Finance’s Department of Revenue, responsible for direct tax collection. Tax authorities do not appear to have issued any clear guidance on the taxation of cryptocurrencies and mining-related activities. Despite this lack of clarity on the legality and tax treatment of cryptocurrencies, it appears that cryptocurrencies are taxable.
+
+No official tax guidance was found on activities such as mining, staking, airdrops, and forking. Some experts treat cryptocurrency acquired through mining as a self-acquired capital asset considered taxable as “capital gains” under Section 45 of the Income Tax Act. However, some tax experts have found that, in order to determine “the cost of acquisition” (COA) for self-generated assets, reference needs to be made to section 55 of the Act, which does not include cryptocurrencies within its ambit so the COA is not determinable and, therefore, no capital gains tax arises.
+
+## I. Introduction
+
+India’s government stated in early 2018 that cryptocurrencies such as Bitcoin are not legal tender in India.1 Although the government has not enacted a regulatory framework for cryptocurrencies,2 a bill, which is titled “Banning of Cryptocurrency and Regulation of Official Digital Currency Bill, 2019,”3 has been drafted by an interministerial government committee and is pending examination by all concerned departments and regulatory authorities before it is introduced in Parliament.4 The bill seeks to “prohibit mining, holding, selling, trade, issuance, disposal or use of cryptocurrency in the country.”5
+
+<span id="page-50-0"></span>
+The Reserve Bank of India (RBI) has issued a number of notifications advising caution on the use of cryptocurrencies.6 RBI has warned “users, holders and traders on the risk of these currencies and clarified that it has not given any licence or authorisation to any entity or company to operate such schemes or deals.”7
+
+On April 6, 2018, the RBI issued a notification prohibiting banks, lenders, and other regulated financial institutions from “dealing with virtual currencies,” which stipulated that “[i]n view of the associated risks, it has been decided that, with immediate effect, entities regulated by the Reserve Bank shall not deal in VCs or provide services for facilitating any person or entity in dealing with or settling VCs. Such services include maintaining accounts, registering, trading, settling, clearing, giving loans against virtual tokens, accepting them as collateral, opening accounts of exchanges dealing with them and transfer/receipt of money in accounts relating to purchase/sale of VCs.”8 Moreover, the RBI stated that “[r]egulated entities which already provide such services shall exit the relationship within three months from the date of this circular.”9 However, the Supreme Court of India overturned the RBI’s 2018 circular prohibiting banks from dealing with cryptocurrency exchanges.10 The Court found that a blanket ban “was disproportionate and that virtual currencies had caused no visible damage to banks regulated by the RBI.”11
+
+## II. Tax Treatment
+
+## A. General Treatment
+
+India’s “levy, administration, collection and recovery” of income tax is governed by the Income Tax Act, 1961.12 The Income Tax Department is a government agency headed by the Central Board of Direct Taxes and is part of the Ministry of Finance’s Department of Revenue, responsible for direct tax collection. Tax authorities do not appear to have issued any clear guidance on the taxation of cryptocurrencies and mining-related activities. Despite this lack of clarity on the legality and tax treatment of cryptocurrencies, it appears that cryptocurrencies are taxable. According to a tax expert quoted in an industry publication, “[t]ax laws in India are applicable irrespective of the legal status of income,” and “[e]ven if a ban is introduced, taxes would continue to apply to crypto income and it would not stop” tax authorities from “chasing unaccounted or untaxed income earned from dealing in crypto assets.”13 The Indian Ministry of Finance’s Office of the Deputy Director of Income Tax, an Investigation Division of the Income Tax Department, “has reportedly been sending letters to Indians asking a long list of questions regarding their dealings in cryptocurrencies,” and the expert observed that such notices are issued when tax authorities have “reason to believe that a person has concealed or is likely to conceal a particular income.”14
+
+<span id="page-51-0"></span>
+In regard to tax treatment, according to an article in an Indian online legal publication, “one must analyze the nature and the manner in which the crypto-currency is held by the assessee. If it is held as an investment, then the same may be considered as a capital asset chargeable to capital gains tax when sold. However, if the cryptocurrency is held as stock-in-trade in the regular course of business, then any income will be considered business income chargeable to tax under the head of profits and gains from business or profession. The period of holding for classification as long term or short term capital asset can be 12 months.”15
+
+## B. Mining, Staking, Airdrops, and Forking
+
+No official tax guidance was found on activities such as mining, staking, airdrops, and forking. Some experts treat cryptocurrency acquired through mining as a self-acquired capital asset considered taxable as a “capital gain” under Section 45 of the Income Tax Act. According to one accounting firm in India, “[i]ncome earned by trading cryptocurrency is not considered as a normal income. It is, instead, treated as a capital gain. Typically, capital gains apply to profits earned from the sales of a moveable or immovable asset.”16 Cryptocurrency assets created by mining are “self-generated capital assets. Subsequent sale of such bitcoins would, in the ordinary course, give rise to capital gains.”17
+
+However, in order to determine “the cost of acquisition” (COA) for self-generated assets, reference needs to be made to section 55 of the Act, which does not include cryptocurrencies within its ambit, so the COA is not determinable and, therefore, no capital gains tax arises. According to an India-based chartered accountants firm:
+
+However, one may note that the cost of acquisition of a bitcoin cannot be determined as it is a self-generated asset. Furthermore, it does not fall under the provisions of Section 55 of the Income-tax Act, 1961 which specifically defines the cost of acquisition of certain selfgenerated assets.
+
+<span id="page-52-0"></span>
+Therefore, the capital gains computation mechanism fails following the Supreme Court decision in the case of B.C.Srinivasa Shetty. Hence, no capital gains tax would arise on the mining of bitcoins.
+
+This position would hold till such time the government thinks of coming up with an amendment to Section 55 of the Act. At this juncture, given that the Indian tax laws are silent on the taxability of bitcoins completely, we thought it right to comment on a probable contrary view by the income tax authorities. There is a possibility that the department may not consider bitcoins as capital assets at all. Hence, the provisions of capital gains would not apply at all. Accordingly, the income tax authorities may choose to tax the value of bitcoins received from mining under the head “Income from other sources[.]” [Emphasis in the original.]18
+
+According to one law journal article, “it is difficult to say that such gains would be exempt from tax for long” and “reference may be made to valuation officer under §55A of the Act to ascertain the fair market value at the time of creation of cryptocurrencies and that would constitute the COA of the capital asset.”19
+
+In 2018, the Indian government considered imposing a goods and services tax (GST) on the trade of cryptocurrencies, which would include treating mining “as a supply of service since it generates cryptocurrency and involves rewards and transaction fees” and requiring that “[t]ax should be collected from the miner on transaction fees or reward, and if value of the reward exceeds Rs 20 lakh [about US\$0.27], individual miners will have to register under GST.”20 At the end of December 2020, the Central Economic Intelligence Bureau, which acts as a think tank arm of the Ministry of Finance, conducted a study and introduced a proposal to impose an 18% GST on bitcoin transactions.21
+
+<span id="page-53-0"></span>
+# Ireland
+
+Clare Feikert-Ahalt Senior Foreign Law Specialist
+
+## SUMMARY
+
+Ireland has yet to implement a regulatory regime for cryptoassets and has instead adopted a wait-and-see approach. There is no taxation legislation or rules that apply specifically to cryptocurrencies, and the current tax structure, such as the income tax, corporation tax, and capital gains tax, applies to cryptocurrencies and assets. The particular tax that applies depends upon the activities for which the assets are used.
+
+## I. Introduction
+
+The Irish government is taking steps to make Ireland a global leader in financial services1 and “to demonstrate its support of the development and adoption of new technologies, including blockchain, as a way to encourage digitalisation and foster innovation.”2 Ireland has yet to implement a regulatory regime for cryptoassets, instead opting for a wait-and-see approach.3
+
+In 2018, the Department of Finance issued a discussion paper on virtual assets.4 One of the key considerations it noted was the need for a “clear legal & regulatory environment to ensure compliance when investing in blockchain linked businesses [and] Guidance in relation to tax and consumer protection matters.”5
+
+The government introduced an Intra-Departmental Working Group to identify the risks and economic opportunities for Ireland, monitor developments into virtual currencies, and consider whether policy recommendations are required.6
+
+## II. Tax Treatment of Block Rewards
+
+There is no taxation legislation or rules in Ireland that apply specifically to cryptocurrencies.7 The current tax structure, such as the income tax, corporation tax and capital gains tax, applies to cryptocurrencies and cryptoassets, with the particular tax depending upon the activities the assets are used for and the nature of the taxpayer.8 Thus, any profits and losses of cryptocurrency transactions are accounted for using the income tax or corporation tax rule that must be determined on the individual facts of the case.9 The corporation tax does not allow companies to prepare their accounts in cryptocurrencies, thus functional currencies must be used when preparing accounts.10
+
+<span id="page-54-0"></span>
+Any profits are subject to the capital gains tax for an individual or the corporation tax for a company, and losses may be written off.11 The Office of Revenue Commissioners’ Tax and Duty Manual notes that profits and losses on cryptoassets are chargeable or allowable for capital gains tax for individuals, or for corporation tax on chargeable gains if they accrue to a company.12 The Manual also notes that “profits and losses of a non-incorporated business on cryptocurrency transactions must be reflected in their accounts and will be taxable on normal [income tax] rules.”13
+
+The Tax and Duty Manual notes that, in spite of a judgment from the Court of Justice of the European Union that bitcoin constitutes a currency for the purposes of value added tax (VAT), cryptocurrencies are considered to be negotiable instruments for the purses of VAT and are thus exempt, in most circumstances, from this tax.14 The exemption from VAT also applies to financial services that exchange bitcoins for fiat currency, provided the company that performs the exchange buys and sells cryptocurrencies as the owner.15 Any goods sold, or services performed, in exchange for cryptocurrency are chargeable for the purposes of VAT.16 The taxable amount is calculated from the value of the cryptocurrency at the time of the transaction.17 As the value of cryptocurrencies can vary across different exchanges, “[a] reasonable effort should be made to use an appropriate valuation for the transaction in question.”18
+
+<span id="page-55-0"></span>
+## A. Mining
+
+There are no taxation laws or rules that specifically apply to the mining of cryptoassets in Ireland. If virtual currencies are mined, any virtual assets acquired as a result of mining may be subject to capital gains tax.19 The only guidance from the Office of the Revenue Commissioners on mining, contained in the Tax and Duty Manual, notes that any income received from mining is typically “outside the scope of VAT on the basis that the activity does not constitute an economic activity for VAT purposes.”20
+
+## B. Airdrops, Staking, Forging, and Forks
+
+There appear to be no specific tax laws or policies in Ireland on airdrops of cryptoassets. Tax may be chargeable depending upon the circumstances of the airdrop. There also appear to be no specific tax laws or policies that apply to staking or forging for proof of stake cryptocurrencies, or to forks in blockchains.
+
+<span id="page-56-0"></span>
+## Israel
+
+## Ruth Levush Senior Foreign Law Specialist
+
+Taxation of block rewards in Israel depends on the objective and timing of their distribution, as well as on whether they constitute a consideration for an activity carried out by a dealer who engages in virtual currencies as a business or an occupation.
+
+Tax liability arises upon the receipt of virtual currency as payment for goods and services, as well as upon its sale, conversion into local or foreign currency, or the receipt of other virtual currency or another asset as consideration for it. Different tax rates apply to individuals and to corporations depending on whether the income derives from a business or qualifies as a capital gain. Most persons who engage in mining and verification of transactions appear do so as a business and are taxed in accordance with their respective income tax rate. Additionally, while individual investors in virtual currencies are not liable for value-added tax (VAT), those engaging in mining will be classified as dealers and could be subject to VAT.
+
+Though there are no explicit rules governing “airdrops” and “hard forks” as a gift, it appears that their receipt would not constitute a tax event at the time of initial receipt, but rather at time of conversion with a base rate of zero. Taxation of the profit might depend on the nature of the transaction and on whether it was made in the course of the dealer’s business or not.
+
+Israeli government committees have recognized the potential contribution of distributed ledger cryptographic currency technology to the Israeli economy. A 2019 interministerial report recommended the establishment of a regulatory sandbox, to enable a more flexible regulatory environment that would allow the development and growth of fintech companies in Israel, while minimizing risks to the public.
+
+## I. Introduction
+
+The legal currency in Israel is defined as the New Shekel and does not include virtual currencies.1 Virtual currencies are also not considered “foreign currency” for the purpose of tax exemption that applies to exchange rate differences.2 The Bank of Israel (BOI, Israel’s central bank) has been monitoring international developments in central bank digital currency to examine the possibility of issuing a digital Shekel but as of the writing of this report has not done so.3
+
+<span id="page-57-0"></span>
+Israel’s existing regulatory approach to cryptoassets created through blockchain appears to depend on their particular classification.4 Tax liability for transactions involving the issue of distributed ledger cryptographic currency appears to depend on the type of activity involved and on whether it constitutes income from a business or a capital gain.
+
+Government-led committees for examination of the treatment of fintech companies have proposed the establishment of a more flexible regulatory environment that adapts to the use of the new technology.
+
+## II. Classification of Cryptoassets
+
+Israel’s Securities Authority (ISA) has identified three types of cryptoassets:
+
+Currency Tokens: used as a means of payment, clearing or barter only, do not confer additional rights (such as a yield or ownership of an additional asset) and are not controlled by a central entity. [They] will not be considered a security.
+
+Utility Tokens: embody a right to a product or service, and are purchased for the purpose of consumption and use only and not for the purpose of investment, will not be considered a security.
+
+Security Tokens: Grant similar rights to securities and will be considered securities.5
+
+## III. Proposals for Regulatory Reforms
+
+Recognizing the innovative nature of distributed ledger cryptographic currency technology and its potential contribution to the Israeli economy, an ISA report issued in March 2019 recommended the establishment of the following:
+
+• A dedicated disclosure regime for the purchase and sale of cryptocurrencies to the public in terms of prospectus and current reporting under the Securities Law,6
+
+<span id="page-58-0"></span>
+• A more flexible regulatory environment that is adapted for companies that use the new technology, and
+
+• A dedicated platform for trading cryptocurrencies that are securities.7
+
+A report issued in January 2019 by an interministerial team further addressed the need to adjust the regulatory framework to the special needs of fintech companies. The team was appointed by Israel’s finance minister and included representatives from the Ministry of Finance, the ISA, the BOI, the Tax Authority, and the Anti-Money Laundering and Terrorist Financing Authority, among others.8
+
+The report concluded that the absence of a solution tailored to the characteristics of fintech companies might constitute a significant barrier for their operations and business development. The team recommended, therefore, the establishment of a regulatory sandbox, to enable a more flexible regulatory environment that would allow the development and growth of fintech companies in Israel on the one hand, and on the other hand, minimize risks to the public. The proposed regulatory sandbox would provide qualifying companies regulatory relief for a limited period while enabling close supervision and control by the regulator.9
+
+## IV. Tax Treatment of Block Rewards
+
+In accordance with Circular No. 05/2018 issued by Israel’s Tax Authority on January 17, 2018, virtual currency constitutes an “asset”10 within its meaning under the Income Tax Ordinance (New Version), 1961.11
+
+The tax liability arising from cryptocurrency-related activities depends on their nature. A person may acquire virtual currency by a variety of ways, including by directly purchasing it from another, receiving it in exchange for providing goods and services, mining a new token or verifying transactions via blockchain.12
+
+<span id="page-59-0"></span>
+## A. Use of Virtual Currency in Exchange for Goods and Services
+
+The transfer of a virtual currency as payment for goods and services constitutes a barter. It may therefore subject the receiver to taxation for two taxable events. The first takes place upon the receipt of virtual currency in consideration for the sale of goods or the provision of a service. The second is in respect of the capital or business income, as relevant, upon the sale of the virtual currency, its conversion into local or foreign currency, or the receipt of an asset or other virtual currency as consideration for it.13
+
+## B. Trade in Virtual Currency
+
+As noted, virtual currency is recognized by Israel’s Tax Authority as an asset. An income derived from the sale of virtual currency by its owner may qualify as capital gain. The amount received from the trade in excess of the original price, after deduction of inflationary value, will be taxed at a rate of 25% for an individual and 23% for a corporation.14
+
+If, however, the income deriving from the sale of virtual currency meets the criteria for “a business” as determined in Israeli case law, it may be subject to a “yielding income tax” (YIT), at a progressive tax rate of 10-50% for an individual, or corporate tax at a rate of 23% for a corporation. 15
+
+## C. Receipt of Virtual Currency Through Mining and Blockchain Verification
+
+Mining of a new virtual currency is performed by utilizing computer technology for purpose of verifying transactions in the blockchain network. Acceptance of consideration for transaction verification is classified in one of the following two ways:
+
+• Where the consideration is received in the form of virtual currency as part of a business, it will be classified as YIT;
+
+• In a situation where the receipt of consideration in virtual currency is not part of the main business income or constitutes private income, for example, by utilizing an individual’s personal computer at home for mining or verifying transactions, no tax event occurs upon receiving or creating a new virtual currency. Capital gain, however, will accrue at the time of sale or conversion of the new virtual currency to legal tenders such as new shekels or foreign currency.16
+
+<span id="page-60-0"></span>
+According to Israel’s Tax Authority, the majority of those who engage in mining and verification of transactions do so as an occupation.17 Such dealers are subject to YIT as noted above.18
+
+For example, mining and verifying of transactions in bitcoin require an investment of working time and in computing equipment with extremely high processing capabilities, as well as electricity consumption. Verification or approval of a transaction in virtual currency like bitcoin involve the use of digital computing mechanism for analyzing and processing of the transaction’s components and encryption. The reward received for verification of a transaction depends on the speed of processing. For example, the first person who manages to verify the transaction gets the highest reward. The second gets a lower reward, and so on. The last ones to verify the transaction receive a reward that is minimal and may be lower than related expenses, such as electricity and investment costs in equipment and computing, and may even yield a loss.19
+
+## D. Value-Added Tax Liability for Transactions that Involve Cryptocurrency
+
+Similar to income tax liability, for the purpose of liability for value-added tax (VAT), virtual currency is viewed as “an asset” and is taxed in accordance with relevant transaction classifications under the Value-Added Tax Law, 5736-1975.20
+
+In accordance with Circular No. 05/2018, VAT will apply to income from virtual currencies that derive from a business.21 Therefore,
+
+[i]ndividual investors in virtual currencies are not liable for VAT, but anyone who engages in mining will be classified as a dealer and could be subject to VAT. Businesses trading in virtual currencies are classified as financial institutions for tax purposes and are exempt from VAT, so VAT on expenses is not deductible and an additional 17% wage and profit tax applies.22
+
+## E. Tax Treatment of “Airdrops” and “Hard Forks”
+
+An official guidance specifically addressing taxation relating to “airdrops” and “hard forks” has not been identified at this time.
+
+Israeli experts have suggested, however, that the receipt of virtual currency as a gift, such as in the case of “airdrops” or “hard forks,” would constitute a tax event at the time of its conversion and not at the time of its initial receipt. When calculating the taxable profit accrued upon
+
+<span id="page-61-0"></span>
+conversion, the base rate of the virtual currency received would be zero, because nothing was paid for it. The applicable type and tax rate appear to be determined under the rules that apply to transactions in virtual currencies that are described above.23
+
+<span id="page-62-0"></span>
+# Italy
+
+Dante Figueroa Senior Legal Information Analyst
+
+## SUMMARY
+
+Italian tax authorities treat cryptocurrencies similarly to foreign currencies. As a result, proceeds from speculative exchanges between cryptocurrencies or from cryptocurrencies to fiat currencies are subject to the standard rules applicable to income arising from trades of foreign fiat currencies. These rules also apply to “proceeds arising from trades of utility tokens.” The market value of cryptocurrencies must be reported annually “as if the same assets are held abroad by Italian resident individuals/non-commercial entities (the omission is potentially subject to a penalty ranging from 3% to 15%).” Certain cryptocurrency exchange services are exempt from value-added tax (VAT), as are standard services relating to foreign currencies. However, the receipt of new tokens via mining is subject to VAT. In short, all profits from cryptocurrencies are taxable but crypto transactions themselves are not.
+
+## I. Introduction
+
+Italian tax authorities treat cryptocurrencies similarly to foreign currencies.1 As a result, proceeds from speculative exchanges between cryptocurrencies or from cryptocurrencies to fiat currencies are subject to the standard rules applicable to income arising from trades of foreign fiat currencies.2 These rules also apply to “proceeds arising from trades of utility tokens.”3 The market value of cryptocurrencies must be reported annually “as if the same assets are held abroad by Italian resident individuals/non-commercial entities (the omission is potentially subject to a penalty ranging from 3% to 15%).”4
+
+Certain cryptocurrency exchange services are exempt from the value-added Tax (VAT), as are standard services relating to foreign currencies.5 However, the receipt of new tokens via mining is subject to the VAT. In sum, all profits from cryptocurrencies are taxable, but not crypto transactions themselves.6
+
+<span id="page-63-0"></span>
+Recently, domestic availability of cryptocurrencies in Italy has seen a steep increase, as local banks have made access to Bitcoin easier for millions of Italians, including companies and businesses in financial markets.7 It has been reported that “about 350 businesses in the retail and foodservice sectors . . . are accepting cryptocurrency payments, totaling 270 Italian retailers and 214 service providers.”8 In addition, there are about 17 Bitcoin automated teller machines (ATMs) throughout Italy, with Milan having the “highest number of cryptocurrency ATMs.”9
+
+In an effort to fight illegal trading in products and services, the Italian securities regulator (Commissione Nazionale per le Società e la Borsa, CONSOB) has shut down “six foreign exchange websites and two crypto investing and derivative trading sites.”10
+
+However, and in general terms, Italy is actively taking steps to “possibly become one of the most crypto-friendly venues among the bigger European countries.”11
+
+## II. Conceptual Framework
+
+Currently, no comprehensive legislation on cryptoassets or cryptocurrencies, or their taxation, exists in Italy. Tax authorities “apply the existing income tax and reporting rules generally applicable to foreign currencies.”12
+
+## A. Virtual Currencies (Cryptoassets) as Foreign Fiat Currencies
+
+For tax purposes, Italy considers virtual currencies (cryptoassets) as foreign fiat currencies.13 Italy is among the few countries that “do not consider any exchanges made by individuals to be a taxable event for the holder of the virtual currency,”14 unless they are considered to be speculative,15 as will be explained below.
+
+<span id="page-64-0"></span>
+## B. Income Tax Treatment of Revenue from Cryptocurrency Transactions
+
+Concerning corporate taxation, the Italian tax authorities have determined that the profits deriving from cryptocurrency trading are relevant for the purposes of corporate income tax (Imposta sul Reddito sulle Società) and the Italian regional production tax (Imposta Regionale sulle Attività Produttive), and such profits must be included in a company’s financial statements.”16
+
+With respect to personal income tax, “the profits generated by the trading of crypto assets are regarded as those deriving from FOREX [foreign exchange] trading for personal tax purposes.”17 As a result, “in their annual tax return, individuals residing in Italy must specify whether they have any cryptocurrencies held in e-wallets, just as they have to declare if they have money held in foreign bank accounts.”18
+
+Revenue from speculative transactions in cryptocurrencies is subject to the same rules applicable to income stemming from exchanges in foreign fiat currencies, that is, a flat 26% substitutive tax for Italian resident individuals, and it is also subject to the standard corporate income tax for businesses.19 Transactions in cryptocurrencies are deemed speculative in the following situations:
+
+(a) “when during the fiscal year and for at least seven consecutive days, the threshold of ownership of virtual currencies exceeds circa €51,000 (about US\$61,000);”
+
+(b) “if the profit from trading exceeds €51,646 (about US\$61,739) for seven consecutive days;” and
+
+(c) “companies subject to corporate income tax must pay taxes on the exchange movements between virtual currencies and fiat currencies.”20
+
+As a result, in Italy the disposal of the token for goods and services does not give rise to a taxable event for the owner of the virtual currency,21 as this country does “not consider any disposals to be a taxable event in relation to the token.”22
+
+<span id="page-65-0"></span>
+## C. VAT Treatment of Virtual Currencies in Italy
+
+In Italy, the exchange of virtual currencies is not subject to VAT,23 whether the exchange “is made for fiat currency or other virtual currencies.”24 The use of virtual currencies to acquire goods or services is also outside the scope of VAT.25 However, the receipt of new tokens via mining is subject to the VAT.26
+
+## D. Criticism of the Current Tax Treatment of Cryptocurrencies
+
+Tax experts raise the criticism that the “Italian standard tax rules applicable to fiat currency are not fit for cryptocurrencies, which are extremely volatile, far from being generally accepted as means of payment and often hard to convert to fiat currency (due to the money laundering concerns shared by the vast majority of the financial institutions).”27
+
+Critics also point out that “eventually this could result in a burdensome taxation on an accrual basis rather than on a cash basis (as it is instead for fiat currencies).”28 In addition, experts point out that “annual reporting duties generally applicable to (financial) assets held abroad are in contrast with the nature of crypto-assets, which are everywhere and nowhere.”29
+
+## III. Legislative and Regulatory Framework Relevant to Cryptocurrency Transactions
+
+## A. Law No. 58 of 2019
+
+Law No. 58 of 2019 created a ”FinTech Committee” at the Ministry of Economy and Finance, composed by representatives of that ministry, the Bank of Italy, CONSOB, the Italian Competition Authority, the Data Protection Authority, the Digital Italy Agency, and the Italian Tax Authority.”30 The FinTech Committee’s task is to identify “specific objectives, defining action plans and taking appropriate measures to facilitate techno-finance, also by way of cooperating with foreign partners, proposing statutory measures and acting as a liaison officer between industry players and the government.”31
+
+<span id="page-66-0"></span>
+## B. Legislative Decree No. 90 of 2017
+
+Legislative Decree No. 90 of 2017 subjected virtual currency providers to the regulations established for traditional money exchange operators.32 To that effect, Legislative Decree No. 90 charged the Ministry of the Economy and Finance with issuing a ministerial decree setting forth the modalities and timelines for the legal performance of such activities throughout the country.
+
+Legislative Decree No. 90 contains the following definitions:
+
+• Service Providers related to the Use of Virtual Currency: Any natural or legal person who provides to third parties, on a professional basis, services functional to the use, exchange, conservation of value (storage or deposit) of virtual currencies and their conversion from or into legal tender currencies;33
+
+Virtual Currency: The digital representation of value, not issued by a central bank or public authority or necessarily linked to a legal tender currency, that is used as a means of exchange for the purchase of goods and services and that is transferred, archived and electronically negotiated;34 and
+
+Other Non-Financial Operators: Providers of services relating to the use of virtual currencies, limited to the performance of the conversion of virtual currencies from or into fiat currencies (valute aventi corso forzoso).35
+
+Regulations imposed on traditional money exchanges also apply to cryptocurrency exchanges, giving cryptocurrencies the same treatment with foreign currency.36
+
+Experts have criticized the legal definition of cryptocurrencies provided by Legislative Decree No. 90 as the “digital representation of value not issued by a central bank or public authority,”37 since foreign currencies are fiat and, therefore, centralized and taxable.38 An additional criticism is that “assets kept in cryptowallets are not taxable since they are not foreign accounts.”39
+
+Despite its shortcomings, the mandatory registration of firms dealing with cryptocurrencies is forecast to “ease tracing in cases of money laundering, terror financing, and other illicit activities.”40
+
+<span id="page-67-0"></span>
+## C. Ministerial Resolution of 2016
+
+A 2016 ministerial resolution issued by the Revenue Agency (Agenzia delle Entrate) regulates certain aspects of the tax treatment of bitcoin and other cyber currencies and, in particular, implements a European Court of Justice decision,41 which held that no VAT “can be imposed on the exchanges of crypto to fiat and vice versa.”42 Therefore, any transaction involving the exchange of crypto assets against fiat would not be taxable but, as explained above, for income tax purposes profits are taxable and losses are deductible on these transactions.43
+
+## D. Implementation of Anti-Money-Laundering (AML) Directive (EU) 2018/843
+
+In 2019, Italy implemented EU Directive 2018/843,44 and since then “cryptocurrency exchanges and service providers are subject to the standard customer due diligence and related reporting duties on suspicious transactions.”45 Also in 2019, it was reported that the Italian Ministry of Finance was considering “establishing a special registry to collect information from the market for cryptocurrencies in Italy.”46
+
+## IV. Pending Bills on Cryptocurrencies
+
+## A. Bill of 2020 (Decreto Semplificazioni)
+
+On February 7, 2020, the Italian Parliament approved the crypto regulation bill, defining blockchain technology and distributed ledger technologies. As of July 2020, the Digital Italy Agency was preparing specific technical standards for the legal compliance of smart contracts.47
+
+## B. Cryptocurrencies Bill of 2016
+
+Under a bill regarding cryptocurrencies introduced in the Italian Parliament in 2016,48 the government would:
+
+<span id="page-68-0"></span>
+• Forbid the use of total anonymization techniques in transactions in relation to payers, payees, and the amount of the transaction;49
+
+Allow the use of cryptocurrencies that involve total anonymization techniques only when they are equipped with mechanisms for recognizing outgoing conversion transactions, as long as they are available to the national judicial authorities in a manner established by law;50
+
+Prohibit the establishment of cryptocurrency exchange service providers with total anonymization as well as the offer, promotion, or facilitation of access, in any way, to currency exchange services with total anonymization that have been established abroad;51
+
+Permit the operation of suppliers and the offer of foreign exchange services only when these are equipped with mechanisms for recognizing outgoing conversion transactions, as long as they are available to national judicial authorities in a manner established by law;52
+
+Require pseudonym cryptocurrency changers to block any conversion into another cryptocurrency coming from anonymization services included in a list established in the law, and to inform the competent supervisory bodies of the identification details of the subjects requesting the money-changing operations;53
+
+Require the competent authority established by a ministerial decree to publish and keep updated, in collaboration with international organizations having a similar role, the list of the anonymization services of pseudonym cryptocurrencies;54
+
+Mandate the Ministry of Economy and Finance to issue a special decree containing operating instructions for the planning and control, by the competent supervisory authorities, of the use of cryptocurrencies with total anonymization that differ from those mentioned in the bill, in order to counter their use and dissemination, as well as to regulate the exercise, offer and promotion of pseudonymous cryptocurrency anonymization services that differ from those established in the bill;55 and
+
+• Establish penalties of fines and imprisonment for the violation of prohibitions related to cryptocurrencies.56
+
+<span id="page-69-0"></span>
+## V. Conclusion
+
+The taxation regime in Italy for decentralized cryptocurrencies like Bitcoin is unclear. As a former economy and finance minister has put it:
+
+It’s the future and you cannot stop it. Having said that, Bitcoin does not have a clear legal status, and this is clearly an obstacle. According to accounting rules, it’s an asset you should put on your financial statements. But if it’s an asset that you should put on your financial statements, should VAT be applied when it is sold? It is still an area of great uncertainty.57
+
+<span id="page-70-0"></span>
+## Japan
+
+Sayuri Umeda Senior Foreign Law Specialist
+
+For income tax purposes, profits generated by selling or using virtual currency are generally classified as miscellaneous income.1 Miscellaneous income is a part of gross income.2 The income tax rate ranges from 5 to 45%,3 and the local tax rate is 10%.4 Compared to the taxation on gains on the transfer of corporate shares, the tax rate for which is about 20%,5 cryptocurrency gains are highly taxed. On the other hand, for a corporation that earns profits from the sale of virtual currency, the corporate tax rate is 19% to 23.4%.6 A local (resident and business) tax of 10.3% is also imposed.7
+
+The National Tax Agency has stated that when virtual currency is acquired by mining, its market value at the time of acquisition is included in the total income amount in the calculation of the amount of income (or in case of a corporation, in the amount of profit for purposes of the corporate tax). The expenses incurred in mining will be included in the necessary costs for calculating the amount of income (or in the amount of a corporation’s deduction for purposes of the corporate tax).8
+
+The National Tax Agency has also explained that when a person acquires a virtual currency from a fork, the person will not be deemed to receive taxable income at that time. The new virtual currency is considered to have no value because the trading market does not exist at the time of the fork. The acquisition price of the new virtual currency is zero yen. Income will be generated at the time of selling or using the virtual currency. Similarly, with regard to corporate tax, the acquisition price of the new virtual currency will be zero yen, and no income is to be included in the amount of profit for the fiscal year.9
+
+<span id="page-71-0"></span>
+# Jersey
+
+Clare Feikert-Ahalt Senior Foreign Law Specialist
+
+## SUMMARY
+
+Jersey has introduced legislation that regulates cryptoasset exchanges with an annual turnover of £150,000 (about US\$210,000) or more. These exchanges are supervised by the Jersey Financial Services Commission and must comply with anti-money laundering and counter-financing of terrorism laws, including know-your-customer requirements. There is no taxation legislation or rules that specifically apply to cryptoassets, but to help provide clarity, guidance has been issued as to their tax treatment under the existing legislative framework.
+
+## I. Introduction
+
+The government of Jersey has opted not to introduce “a full prudential and conduct of business regime” for cryptoassets, as it considered it was too early to regulate them, given that they are in the early stages of development and doing so could restrict development and innovation.1 Instead, it followed recommendations to a 2015 consultation paper to regulate cryptoassets only insofar as necessary to ensure compliance with anti-money laundering laws and to counter the financing of terrorism.2 Jersey’s anti-money laundering and counter-financing of terrorism (AML/CFT) laws were extended to cover cryptocurrencies, with the changes coming into force on September 26, 2016.3 “Virtual currency” is defined in the Proceeds of Crime Act as a currency rather than a commodity, thus enabling it to fall within the preexisting regulatory framework and be regulated by the Jersey Financial Services Commission (JFSC).4
+
+Virtual currencies were also brought within the ambit of the Money Laundering (Jersey) Order 2008,5 which requires individuals operating a “money service business” to register with the JFSC6 and comply with the jurisdiction’s AML/CFT laws if they have an annual turnover greater than £150,000 (about US\$210,000).7 These laws require such businesses to adopt policies and procedures to prevent and detect money laundering and terrorist financing, appoint a money laundering compliance officer and reporting officer, and ensure that recordkeeping and customer due diligence measures are implemented,8 such as know-your-customer measures, prior to entering into a business relationship with a person, or before conducting a “one-off” for all transactions greater than €1,000 (about US\$1,220).9
+
+<span id="page-72-0"></span>
+## II. Taxation
+
+There do not appear to be specific legislative provisions or rules that apply solely to the taxation of cryptoassets. To help provide clarity, the government of Jersey has issued guidance on the tax treatment of cryptoassets under the existing legislative framework, particularly with regard to the mining of cryptoassets, the exchange of cryptoassets to conventional currencies, and the use of cryptoassets to pay for goods and services.10
+
+Occasional transactions that involve the exchange of cryptoassets resulting in a gain or loss are generally not taxable. The exchange of cryptoassets to and from conventional currencies or other cryptoassets by businesses or entities is subject to income tax if the activity is considered to be trading, or if features of trading are met.11 Businesses that use cryptoassets in trading transactions are taxable under income tax rules and must convert any transactions to the local currency (sterling).12 In cases where goods and services are paid for in cryptoassets, the transaction must be converted to the local currency in order to apply the correct amount of goods and service tax (GST).13
+
+## A. Mining
+
+The government states that income generated from mining cryptoassets on a small or irregular scale are generally not to be considered as a trading activity, and that mining alone does not make a person liable for income tax.14 Costs associated with mining are also typically not deductible as an expense. Mining accompanied by “trading in cryptocurrency on a sufficiently commercial scale that they would be regarded as trading on application of the ‘Badges of Trade’[15] principles”16 may be an exception to this general rule. Entities that are registered for GST and which receive income from mining cryptoassets are generally considered to be outside the scope of GST, as the government of Jersey does not consider that this is not an activity “in the course or furtherance of business.”17
+
+<span id="page-73-0"></span>
+## B. Forks, Airdrops, Staking, and Forging
+
+There do not appear to be any taxation legislation or policy in Jersey that specifically applies to forks, airdrops, staking, or forging for proof of stake.
+
+<span id="page-74-0"></span>
+# Kenya
+
+# Hanibal Goitom Chief, FCIL I
+
+Kenya recently amended its Income Tax Act to introduce what is known as a digital service tax.1 The amendment took effect on January 1, 2021.2 The amendment adds a new section 12E to the Income Tax Act that states:
+
+(1) Notwithstanding any other provision of this Act, a tax to be known as digital service tax shall be payable by a person whose income from the provision of services is derived from or accrues in Kenya through a digital market place:
+
+Provided that a resident person or a non-resident person with a permanent establishment in Kenya shall offset the digital service tax paid against the tax payable for that year of income.
+
+(2) The tax payable under subsection (1) shall be due at the time of the transfer of the payment for the service to the service provider.3
+
+The amendment provides that the applicable rate of tax “in respect of digital service tax under section 12E shall be one point five per cent of the gross transaction value.”4
+
+The Cabinet Secretary for National Treasury and Planning also recently issued the Income Tax (Digital Service Tax) Regulations, 2020, which also took effect on January 1, 2021.5 According to the Regulations, digital services subject to digital service tax include:
+
+(a) streaming and downloadable services of digital content, including but not limited to movies, videos, music, applications, online games and e-books;
+
+(b) transmission of data collected about users which has been generated from such users’ activities on a digital marketplace, however monetized;
+
+(c) provision of a digital marketplace, website or other online applications that link buyers and sellers;
+
+(d) subscription-based media including news, magazines and journals; (e) electronic data management including website hosting, online data warehousing, file-sharing and cloud storage services;
+
+(e) supply of search-engine and automated helpdesk services including supply of customized search engine services;
+
+<span id="page-75-0"></span>
+(f) tickets bought for live events, theatres, restaurants e.t.c purchased through the internet:
+
+(g) online distance teaching via pre-recorded medium or elearning, including online courses;
+
+(h) any other service provided or delivered through an online digital or electronic platform excluding any service whose payment is subject withholding tax under section 35 of the Act. 6
+
+Although neither the Act nor the Regulations expressly spell it out, an official with the Kenya Revenue Authority (the Kenyan version of the Internal Revenue Service in the United States) recently noted that the digital service tax would be applicable to cryptocurrency transactions.7
+
+The remarks appear not to have addressed block rewards or reward tokens, however.
+
+<span id="page-76-0"></span>
+# Luxembourg
+
+Nicolas Boring Foreign Law Specialist
+
+## I. Introduction
+
+While cryptocurrencies are still largely unregulated in Luxembourg, the government issued instructions on the tax treatment of cryptocurrencies on July 26, 2018.1 This circular establishes that Luxembourg does not consider cryptocurrencies to be an actual currency. Rather, cryptocurrencies are considered to be an intangible asset for tax purposes.2
+
+## II. Taxation of Non-professional Traders
+
+Buying and selling cryptocurrency is considered to be “speculation” as defined by Article 99bis of the Income Tax Law.3 As such, profit from such an operation is only taxable if the sale of cryptocurrency occurred six months or less after the purchase, and the taxpayer earned more than 500 euros (approximately US\$612) in total profits from speculation during the civil year.4 If there is more than six months between the purchase and sale of an amount of cryptocurrency, profit from that operation is not taxed.
+
+## III. Taxation of Professional Traders and Miners
+
+A person’s cryptocurrency trading activity is considered a commercial activity under the Income Tax Law if it is a “for-profit independent activity exercised on a permanent basis and participating in general economic life.”5 The 2018 circular states that “these conditions are regularly fulfilled” in cases involving cryptocurrency mining or online cryptocurrency exchange markets.6 Income derived from these activities is therefore generally taxed as commercial profits.7
+
+It appears that Luxembourg evaluates newly mined cryptocurrency for tax purposes at the time when it is received.8
+
+<span id="page-77-0"></span>
+# Malta
+
+Clare Feikert Ahalt Senior Foreign Law Specialist
+
+## SUMMARY
+
+The Maltese government enacted a series of laws in 2018 aimed at providing regulatory certainty over the use and development of cryptocurrencies within its jurisdiction. The laws provide a framework through which virtual currencies and the individuals or entities that work with them are regulated. The taxation of cryptoassets in Malta is determined based upon both the purpose and context for which the assets are used. Thus, any returns from cryptoassets classified as financial tokens are treated as income for tax purposes, and capital gains tax may be chargeable if the cryptoasset meets the definition of a security under article 5 of the Income Tax Act.
+
+## I. Introduction
+
+The Maltese government has actively encouraged the development of cryptocurrency and has issued many consultation documents and other papers that discuss its regulation and development, with the aim of providing “the necessary legal certainty to allow this industry to flourish.”1 In 2018, Malta enacted the Virtual Financial Assets Act,2 the Innovative Technology Arrangement and Services Act,3 and the Malta Digital Innovation Authority Act.4 The intention behind these laws is to provide regulatory certainty, protect those who invest in virtual currencies, and encourage development in the innovative technology sector in Malta.5
+
+## II. Taxation
+
+The Malta Commissioner for Revenue issued guidance on the taxation of distributed ledger technology (DLT) assets in 2018 that covers how the income tax, stamp duty, and value added tax (VAT) apply to cryptocurrencies.6 The guidelines divide tokens into different categories:
+
+<span id="page-78-0"></span>
+financial tokens (security tokens), which are “DLT Assets exhibiting qualities that are similar to equities, debentures, units in collective investment schemes, or derivatives and including Financial Instruments”;7
+
+Utility tokens, which are “DLT Assets whose utility, value or application is restricted solely to the acquisition of goods or services either solely within the DLT platform on, or in relation to which they are issued or within a limited network of DLT platforms”;8 and
+
+Hybrid tokens, which are a mixture of both financial and utility tokens, the treatment of which depends upon the manner in which the token is used.9
+
+The guidance notes that the taxation of any token “will not necessarily be determined by its categorisation, but will depend on the purpose for and context in which it is used.”10
+
+Any returns derived from assets classified as financial tokens are to be treated as income for tax purposes. The profits, value of any transferred assets, or consideration of any transaction that involves cryptoassets are to be determined by reference to the cryptoassets’ market value. The market value must be determined by referring to the rate established by the Maltese authorities, and in cases where this is not available, by reference to the average quoted price on reputable exchanges on the date of the transaction, or by such other methodology deemed acceptable by the Commissioner for Revenue.11
+
+The Income Tax Acts require individuals to maintain proper records, and this extends to transactions involving DLT assets. Any value in these assets must be determined in accordance with the currency the taxpayer uses to present their financial statements.12
+
+Any payments made using cryptoassets are treated in the same manner as any other currency for income tax purposes and there is no distinction in how revenue is recognized or how taxable profits are calculated. This principle applies to all forms of remuneration.13 Notably:
+
+The return derived by the owner of financial tokens on his holdings, such as payments equivalent to dividends, interest, premiums etc., in a cryptocurrency or in another currency, or in kind, is treated as income.14
+
+The tax treatment of the transfer of financial tokens hinges on whether it is a trading transaction or the transfer of a capital asset. Profits from trading transactions are taxable, but capital gains are only chargeable if the financial token meets the definition of a security under article 5 of the
+
+<span id="page-79-0"></span>
+Income Tax Act.15 Transfers made in the course of business are taxed as a trading transaction. To help determine whether the transaction is a trading or non-trading transaction, the income tax rules apply, and the “badges of trade” test (a set of principles derived from case law) may be used. Any profits derived from the sale of cryptoassets acquired with the intention of making a profit are treated as trading profits.16
+
+If the transfer of cryptoassets are not considered to be in the nature of a trading transaction, it must then be determined whether the cryptoassets meet the definition of securities under Article 5 of the Income Tax Act, which provides:
+
+“securities” shall mean shares and stocks and such like instrument that participate in any way in the profits of the company and whose return is not limited to a fixed rate of return, units in a collective investment scheme as defined in article 2 of the Investment Services Act, and units and such like instruments relating to linked long term business of insurance.17
+
+If the cryptoassets meet this definition, they are subject to capital gains tax. Cryptoassets that do not meet this definition fall outside the scope of capital gains tax.18 This analysis also applies to the transfer of convertible tokens until they are converted into securities.19
+
+VAT is applied to cryptoassets according the provisions of the VAT Act.20
+
+## A. Mining
+
+There are no taxation laws or rules that specifically apply to the mining of cryptoassets in Malta. Guidance on the VAT treatment of DLT notes that mining typically falls outside the scope of VAT unless the miner provides other services:
+
+For the purposes of VAT a chargeable event would arise where a supply of services is made for a consideration by a taxable person acting as such. Moreover, as established by caselaw, there must be a direct link between the consideration payable and the supply made, and where, there is a reciprocal performance between the supplier and the recipient of the services.
+
+Accordingly, where constituting a service for which compensation arises in the nature of newly minted coins, mining normally does not have a particular recipient of such service thereby, in that case, falling outside the scope of VAT since there would be no direct link between the compensation received and the service rendered and, there would be no reciprocal performance between a supplier and a receiver.
+
+<span id="page-80-0"></span>
+On the other hand, should miners receive payment for other activities, such as for the provision of services in connection with the verification of a specific transaction for which a specific charge to a specific customer is made, a chargeable event for VAT purposes would be triggered. In that case, in so far that such service would be deemed to take place in Malta, Maltese VAT would be applicable at the standard rate.21
+
+## B. Airdrops, Staking, Forging, and Forks
+
+There appear to be no specific tax laws or policies on airdrops of cryptoassets in Malta. Tax may be chargeable depending upon the circumstances of the airdrop. There also does not appear to be tax laws or policies that apply to staking or forging for proof of stake cryptocurrencies, or to forks in blockchains.
+
+<span id="page-81-0"></span>
+# New Zealand
+
+Kelly Buchanan Foreign Law Specialist
+
+## SUMMARY
+
+Updated guidance on the tax treatment of cryptoassets in New Zealand, published by Inland Revenue (IR) in September 2020, explains that the income gained from selling, trading, or exchanging cryptoassets is taxable if the person’s purpose for acquiring the cryptoassets was disposal, or if the person is engaged in trading cryptoassets, or if the cryptoassets were part of a “profit-making scheme.” There is no broad capital gains tax in New Zealand. Trading stock tax rules apply to cryptoassets held by cryptoasset businesses, while businesses that use cryptoassets must include them as part of their income. The guidance includes reference to cryptoassets received through mining, staking, airdrops, and forks, with similar consideration given to the purpose of the activity, and whether it was part of a business or profit-making scheme. Staking rewards may be taxable upon receipt, and income earned on their disposal may also be taxable, depending on the circumstances.
+
+In December 2020, IR published a detailed issues paper regarding the tax treatment of cryptoassets received as a result of airdrops and hard forks. The paper discusses the agency’s initial views on the application of existing tax law with respect to both the receipt and disposal of the cryptoassets received in these ways, including particular issues that arise. It seeks public comment on these views and asks whether changes to the law are needed.
+
+## I. Introduction
+
+Inland Revenue (IR), the New Zealand tax agency, published updated guidance on the tax treatment of cryptocurrencies (generally referred to as “cryptoassets”) in September 2020.1 Other recent activities in this area include four new rulings issued in 2019 regarding the provision of cryptoassets to employees.2 In addition, IR officials published a paper on goods and services tax (GST) policy issues in February 2020, which included a chapter on the GST treatment of cryptocurrencies.3 Most recently, on December 7, 2020, the IR Tax Counsel Office published an issues paper on the tax treatment of cryptoassets received from blockchain forks and airdrops, in which it presented its initial views on the application of existing law and sought public comments on these views and on whether any law changes are needed.4
+
+<span id="page-82-0"></span>
+## A. General Application of Income Tax Rules
+
+The IR cryptoasset guidance provides an overview of the different types of cryptoassets and sets out how common cryptoasset transactions performed by individuals and businesses are taxed, as well as providing information on completing tax returns and maintaining records involving cryptoassets.
+
+Upon the release of the updated guidance, IR’s spokesperson explained that
+
+[p]eople can buy, sell, and exchange cryptoassets; provide goods or services in exchange for them; mine cryptoassets; and earn staking rewards (or “crypto interest”) among other things[.] . . .
+
+There are no special tax rules for cryptoassets in New Zealand. The guidance clarifies how ordinary income tax rules apply to cryptoassets to help people understand their tax obligations.
+
+Essentially, cryptoassets are treated as a form of property for tax purposes. What people make from selling, trading or exchanging crypto-assets is taxable.5
+
+The New Zealand tax system does not include a broad capital gains tax. Instead, “taxes on capital gains are payable only if gains are generated from assets held on revenue account.”6
+
+The IR guidance includes information on calculating cryptoasset income and expenses. In terms of income, it explains that this might come from
+
+mining cryptoassets (such as block rewards and transaction fees, including income from a mining pool)
+
+staking cryptoassets or using a staking-as-a-service provider
+
+• lending cryptoassets to another person (including crypto ‘interest’)
+
+selling or exchanging cryptoassets (including mining rewards)
+
+getting paid in cryptoassets for goods or services you provide.7
+
+<span id="page-83-0"></span>
+Usually, “these amounts are income in the income year they are received.”8 In addition, if cryptoassets are held as trading stock, a person’s income includes the value of any cryptoassets held as trading stock at the end of the income year.9
+
+In terms of expenses, the types that can be deducted from cryptoasset income depend on whether or not a person is in business. However, the guidance lists expenses that can be generally deducted, including the cost of the cryptoassets, depreciation of relevant capital assets, interest charged on money borrowed to buy cryptoassets (if any profit from their sale is taxable), and other expenses related to the cryptoasset activities. In addition, if cryptoassets are held as trading stock, a person’s expenses also include the opening value of the trading stock. The guidance also provides information on methods for determining the cost of cryptoassets that are not trading stock, and on calculating the cost of cryptoassets received by a miner or as payment.10
+
+## B. Individual Income Tax Rules
+
+The income tax rules are generally applicable to the amounts that an individual gets from “selling, trading or exchanging cryptoassets,” with a person needing to pay tax (or able to claim losses) if he or she is
+
+acquiring cryptoassets for the purpose of disposal (for example to sell or exchange)
+
+• trading in cryptoassets
+
+using cryptoassets for a profit-making scheme.11
+
+Disposal includes selling or exchanging cryptoassets, using cryptoassets to pay for goods or services, and giving away cryptoassets to another person. IR considers a person’s purpose (or purposes) for acquiring cryptoassets at the time they are acquired.12 This means that whatever the individual says is the purpose must be supported by what he or she actually does and the surrounding circumstances, including the
+
+nature of the asset (for example, does it provide an income stream or any other benefits while being held)
+
+circumstances of the purchase
+
+number of similar transactions
+
+length of time you hold the asset
+
+circumstances of the use and disposal of the asset.13
+
+<span id="page-84-0"></span>
+The IR guidance provides information on determining whether an individual is in the business of trading in cryptoassets (i.e., buying and selling cryptoassets to make a profit). This involves looking at the frequency of a person’s transactions and how much time or effort is spent on buying, selling, or exchanging cryptoassets, as well as other considerations. IR states that if a person is in the business of trading in cryptoassets, the cryptoassets “are likely to be trading stock.”14
+
+In terms of using cryptoassets for a “profit-making scheme,” a cryptoasset activity will be considered part of such a scheme if “there is a coherent plan of action (a scheme)” and the individual enters into the plan for the purpose of making a profit.15
+
+Further guidance on acquiring cryptoassets through mining activities is outlined below in Part II of this report.
+
+## C. Business Income Tax Rules
+
+The IR guidance includes information for cryptoasset businesses, as well as on using cryptoassets for business transactions and providing cryptoassets to employees.
+
+As indicated above, a cryptoasset business, such as one that engages in mining or trading or has an exchange business, must pay income tax under the trading stock rules.16
+
+A business that is not a cryptoasset business, but which uses cryptoassets, must account for them in the same way as any other business asset. Where cryptoassets are received as a payment for goods or services, IR considers this a barter transaction and tax is payable on the income, with the value of the cryptoassets calculated in New Zealand dollars at the time of receipt.17 The amount earned from subsequently selling the cryptoassets is also taxable as business income:
+
+In this case, you can claim a deduction for cost equal to the value of the cryptoassets when you got them. This is the same value you paid tax on when you received the cryptoassets in the barter transaction. This means the income you earned from the barter transaction is not taxed twice.18
+
+A business that sells or exchanges cryptoassets, where this is not part of its usual business activity, does not need to include any amounts received in its usual business income. However, such amounts are “generally still taxable,” with tax being payable if the cryptoassets were acquired for the purpose of selling or exchanging them, or as part of a profit-making scheme, as discussed above.19
+
+<span id="page-85-0"></span>
+In terms of providing cryptoassets to employees, businesses need to account for PAYE (Pay-As-You-Earn, i.e., withholding tax) or fringe benefit tax, in accordance with the 2019 rulings referred to above.20
+
+## D. GST Rules
+
+The February 2020 GST issues paper “discusses proposals to exclude cryptocurrencies (cryptoassets) from GST and the financial arrangement rules to ensure these rules do not impose barriers to developing new products, raising capital or investing through crypto-assets.”21 In terms of GST, it explains that
+
+New Zealand has a broad-based GST system that applies to nearly all goods and services.   
+A service is broadly defined to mean anything which is not goods or money.
+
+GST does not apply to money or financial services, but the existing definitions of money and financial services were not designed with crypto-assets in mind. It is likely that many crypto-assets have a different GST treatment to money or financial services.
+
+When a crypto-asset is traded or sold, the GST treatment may vary depending on the specific facts and features of the crypto-asset and the residency of the buyer and seller. The supply of a crypto-asset could be an exempt financial service, subject to 15% GST, or a zerorated supply to a non-resident.
+
+In this regard, the current GST rules provide an uncertain and variable GST treatment making, using or investing in crypto-assets less attractive than using money or investing in other financial assets. The variable GST treatment may distort decisions around the type of crypto-assets a business may choose to develop and issue, whether they issue the token in New Zealand or offshore, and what type of tokens New Zealand investors choose to buy or sell.
+
+The final issue is that, because of the complexity of the GST treatment and the limited information available about the specific features of a crypto-asset and the residency of the seller or purchaser, the current GST rules can be difficult to apply or impractical to comply with.22
+
+The proposed changes involve developing a broad definition of cryptoassets that captures nearly all those that are used or invested in. This would “then be used to remove crypto-asset from both the GST rules (by making crypto-assets an exempt supply) and the financial arrangement rules (by making a “crypto-asset” a new type of excepted financial arrangement).”23 The paper notes that the proposed definition would be broader than the definition of “digital currency” in Australia’s GST rules and the proposed definition of “digital payment token” developed in Singapore.24 The paper then presents and discusses two possible approaches for removing GST on cryptoassets: either “[m]aking all supplies of cryptoassets not subject to GST,” or “[m]aking supplies of cryptoassets to New Zealand residents exempt from GST and supplies to nonresidents zero-rated supplies.”25
+
+<span id="page-86-0"></span>
+The issues paper emphasizes that, under the proposed changes, cryptoassets “would only be excluded from the GST and financial arrangement rules—they would still be subject to other tax rules,” with cryptoassets being considered property for income tax purposes.26
+
+## II. Tax Treatment of Block Rewards
+
+The IR guidance contains references to cryptoassets acquired through mechanisms such as staking, airdrops, and forks. A link in the guidance that further explains what is meant by “acquiring” cryptoassets states that the ways to acquire cryptoassets include
+
+buying cryptoassets (such as, through an online exchange, peer-to-peer or from a crypto ATM)
+
+mining or staking cryptoassets
+
+exchanging one cryptoasset for another type of cryptoasset
+
+providing goods or services in exchange for cryptoassets
+
+receiving new cryptoassets from a fork of a cryptoasset you hold
+
+receiving airdrops
+
+earning cryptoassets through cryptoasset lending or ‘staking as a service’ providers
+
+• participating in an Initial Coin Offering (ICO) or Initial Exchange Offering (IEO).27
+
+The guidance on mining cryptoassets and tax covers different consensus models, such as proof of work and proof of stake. It explains that,
+
+[i]n most cases, cryptoassets you get from mining (such as transaction fees and block rewards) are taxable. You may also need to pay income tax on any profit you make if you later sell or exchange your mined cryptoassets.
+
+When you mine cryptoassets, you may have to pay tax because you:
+
+are in the business of mining cryptoassets
+
+carry on a profit-making scheme
+
+earn ordinary income from providing mining services
+
+mine cryptoassets for the purpose of disposal (to sell or exchange).28
+
+<span id="page-87-0"></span>
+The guidance provides additional information on each of these situations. As explained above, where a person’s cryptoasset mining activity is considered a business, income tax is payable on the profits, including mining rewards when they are received and profits from selling the mining rewards, and the cryptoassets held are likely to be trading stock.29 A similar approach is taken to taxing mining rewards and profits earned where the mining activity is a profit-making scheme, with all amounts of cryptoassets and money included as income. The guidance states that, “[i]f your profit-making scheme includes proof of stake mining (staking), you may also have to pay income tax on profits from selling your staked cryptoassets.”30
+
+Even where mining cryptoassets is not a business or a profit-making scheme, a person may have “ordinary income from providing a service,” and therefore need to pay income tax on the mining rewards upon receipt, as well as paying tax on any profit made from subsequently selling or exchanging the mining rewards if this was the purpose for mining them.31 This is the case even where the mining activity is a hobby; there will only be rare circumstances where mining income is not taxable, with IR providing an example of a person once spending their spare time mining Bitcoin for the sole purpose of learning how the technology works.32
+
+## An EY Tax News Update article on the new IR guidance expressed the following views:
+
+The guidance may complicate matters for taxpayers whose cryptoassets are increasingly difficult to classify as a form of “property.” For example, products are available on the market that allow “staking” – holding cryptocurrency to verify transactions and support the network in exchange for a reward. . . .
+
+. . . For taxpayers who earn income from staking, applying this guidance would result in an obligation at the point the reward is received, and at the point of later sale of the underlying staked assets regardless of the nature of their holding. This treatment implies that these investors purchase their assets not for the purpose of income generation from staking, but for the purpose of resale; fundamentally changing the application of the capital/revenue boundary for them.
+
+Officials are faced with a difficult question then—how can they design guidance that accommodates for a constantly evolving set of products and application?
+
+The simple answer is that cryptoassets as a broad category includes a variety of different products with different uses and rights. As a consequence, fitting all of these various cryptoassets within a single pre-existing regime is challenging. To date, Inland Revenue has relied on comparisons to existing products (for example to property or to gold) to draw their legal conclusions. Increasingly, these analogies are becoming strained. This guidance illustrates how incompatible conventional tax rules are with the growing digital economy, and the need for a bespoke set of rules for the industry. Alternatively, rules that are designed more broadly with the digital world in mind would be useful.33
+
+<span id="page-88-0"></span>
+## III. Issues Paper on the Treatment of Cryptoassets Received from Hard Forks and Airdrops
+
+IR’s December 2020 issues paper contains detailed discussion about the potential application of different sections of the Income Tax Act 2007 to cryptoassets received as a result of hard forks and airdrops, and about the issues that arise from such application. It covers the potential tax treatment of the received cryptoassets both at the time of receipt and at disposal, including under the provisions on business income (with respect to both cryptoasset businesses and other businesses), profit-making schemes, “income under ordinary concepts,” and on the purpose of disposal, as well as on calculating the cost of such cryptoassets for the purposes of any deductions. It makes initial conclusions with respect to each area.
+
+## A. Hard Forks
+
+The initial conclusions regarding the tax treatment of new cryptoassets received via a hard fork at the time of receipt are as follows:
+
+In many cases, the receipt of new cryptoassets from a hard fork will not be income of the recipient.
+
+For cryptoasset businesses such as dealing and mining businesses, the new cryptoassets may be taxable on receipt if they could be said to be received as an ordinary incident of that business. In addition, they are likely to form part of the trading stock of that business.
+
+The receipt of new cryptoassets from a hard fork may also be income if they are received as part of a person’s profit-making undertaking or scheme.34
+
+In terms of the tax treatment of the new cryptoassets on disposal, the issues paper concludes as follows:
+
+The tax consequences of disposing of new cryptoassets received from a hard fork depends on the recipient’s individual circumstances.
+
+Amounts derived from the disposal of cryptoassets received from a hard fork would be taxable income of cryptoasset businesses. The amounts would be income as the sale of trading stock in the ordinary course of that business, income from the business under s CB 1 or (for a dealer) income from dealing in personal property under s CB 5.
+
+There may be instances where a disposal of cryptoassets received from a hard fork is part of a profit-making undertaking or scheme. In that event, the disposals may be taxable under s CB 3.
+
+All other disposals could be subject to s CB 4. Issues arise when applying s CB 4 to a disposal of cryptoassets that were received from a hard fork. The issues identified . . . include:
+
+<span id="page-89-0"></span>
+Does the purpose for acquiring the new cryptoassets from a hard fork take the same purpose as the original cryptoassets?
+
+Is the acquisition of cryptoassets from a hard fork passive, or do the steps taken to get possession involve a person turning their mind to acquiring the cryptoassets?
+
+Could the acquisition be compared with acquiring shares or rights under a share rights issue, share subdivision or demerger?
+
+• When are the new cryptoassets acquired?
+
+On balance, we consider that the better view is the first view set out above, that is that the new cryptoassets take the original purpose of acquisition. However, we acknowledge that these issues are subject to debate. This issues paper seeks your feedback on the issues raised in relation to the application of s CB 4 in particular.35
+
+The issues paper also summarizes the treatment of hard forks in Australia, the United Kingdom, the United States, and Singapore.36
+
+## B. Airdrops
+
+The issues paper sets out the following initial conclusions with respect to the tax treatment of airdropped cryptoassets upon their receipt:
+
+Generally, receipts of airdropped cryptoassets are unlikely to be income of the recipient. Airdropped cryptoassets may be taxable on receipt where they are received by:
+
+some cryptoasset businesses (if received as an ordinary incident of the way in which the business earns its income);
+
+a person who has an undertaking or scheme to profit from the receipt of airdropped cryptoassets;
+
+a person who has provided services and receives airdropped cryptoassets as payment for those services; or
+
+a person who receives airdrops on a regular basis, such that they have the hallmarks of income.
+
+As with the previous issue [of cryptoassets received from a hard fork], if airdropped cryptoassets are taxable on receipt, valuation and timing issues may arise.37
+
+The initial conclusions regarding the tax treatment of airdropped cryptoassets upon their disposal are as follows:
+
+The tax consequences of disposing of new cryptoassets received from an airdrop depend on the recipient’s individual circumstances.
+
+Generally, the disposal of an airdropped cryptoasset by a cryptoasset business will be the disposal of trading stock in the ordinary course of that business, or will be income derived from the business under s CB 1 (or under s CB 5 for dealers). It is also possible that disposals of airdropped cryptoassets could be part of a profit-making undertaking or scheme.
+
+<span id="page-90-0"></span>
+In most cases, the relevant provision for taxing disposals will be s CB 4. Where a person has not done anything in order to receive an airdrop, similar issues arise as set out for hard forks earlier. That is, if the person has acquired the airdropped cryptoassets passively, then it is arguable that no purpose on acquisition can be established. This may depend on whether taking steps to take possession of an airdropped cryptoasset is sufficient for an acquisition to be considered active. Where the person has performed an action of some sort in order to receive the airdrop, then a purpose on acquisition can be formed.38
+
+As with hard forks, the paper summarizes the treatment of airdropped cryptoassets in other jurisdictions.39
+
+## C. Cost of Acquisition
+
+The issues paper discusses the determination of the cost of cryptoassets received from a hard fork or airdrop in terms of claiming any deductions under part D of the Income Tax Act 2007, concluding as follows:
+
+We consider that where cryptoassets received from a hard fork or an airdrop are taxable on receipt, no deduction is allowed under s DA 1 as no expenditure is generally incurred. We also consider that no deduction is generally allowed on a disposal under s DB 23, as there was no cost of that property. This is because the person has not paid or expended anything to acquire those cryptoassets (other than any transaction fees where applicable).
+
+We consider that, where a person is taxed twice (on receipt and again on disposal), a cost should, at the time of disposal, be attributed to the cryptoasset to avoid double taxation on the original value received.40
+
+<span id="page-91-0"></span>
+# Norway
+
+Elin Hofverberg Foreign Law Specialist
+
+## SUMMARY
+
+Norwegian authorities treat cryptocurrencies as investment property. Norway taxes income from mining and staking cryptocurrencies when done on a commercial scale, and taxes profits from their sale. In addition, cryptocurrencies are subject to a wealth tax. Costs associated with mining or staking, and losses incurred at sale, are tax deductible. Norwegian authorities do not appear to have issued guidelines on airdrops or forks. The tax treatment for these types of acquisitions will depend on whether the Norwegian Tax Authority considers them more analogous to mining or to gifts. The receipt of gifts is not subject to income tax.
+
+## I. Introduction
+
+Norway treats cryptocurrencies as investment property, i.e., as assets held for profit.1 All Norwegian residents are required to report taxable income (including from capital gains such as those from cryptocurrencies) in accordance with the Norwegian Income Tax Act.2 Norway may tax cryptocurrency at the stages of mining, retention, or sale.3 However, the mining of cryptocurrencies qualifies as income from a hobby and is not taxed, unless done on a commercial scale.4 Private and legal persons must report any held cryptocurrencies in their annual income tax filing.5 Cryptocurrencies are not subject to VAT.6
+
+## II. Tax Treatment of Block Rewards
+
+## A. Tax Treatment of Mined and Staked Cryptocurrencies
+
+The Norwegian Tax Authority (Skatteetaten) has issued guidance for the tax treatment of mining of cryptocurrencies. The Tax Authority typically treats mining as a hobby, the income from which is not taxed.7 However, when mining is carried out on a large scale it may be considered a “commercial activity” and the taxpayer to be self-employed.8 Hobbies are not taxed, while commercial activity is.9 Whether mining constitutes a commercial activity will depend on its scope and duration.10 According to the Tax Authority, staked cryptocurrencies are treated as mined cryptocurrencies for purposes of income taxation.11 Holders must report their proof of work and proof of stake protocols on their tax returns.12
+
+<span id="page-92-0"></span>
+Persons must report proceeds from hobbies as well as from commercial activity.13 Income from hobby activity, such as mined virtual currencies, is reported as “other income.”14 Conversely, virtual currencies derived as part of a larger-scale activity must be reported as “commercial activity.”15 The Tax Authority has issued guidelines on how to complete the income form with respect to virtual currency income and losses.16 The value to be included for mined and staked currencies is the fair market value at the time of the mining.17 Costs incurred in mining or staking the virtual currencies, such as electricity, are deductible.18
+
+## B. Tax Treatment of Tokens Received Through “Airdrops” and “Hard Forks”
+
+The Norwegian Tax Authority has not issued specific guidance on the tax treatment of tokens received through airdrops or hard forks. In addition, no information on their tax treatment was located on the websites of cryptocurrency tax service providers.19 Whether cryptocurrency received through airdrops and hard forks is subject to income tax will depend on whether the Tax Authority finds these mechanisms analogous to mining and staking or to gifts. If they are deemed analogous to mining, the income would have to be reported but would only be taxed if received as part of a commercial activity.20 Under Norwegian law, the receipt of gifts is not subject to income tax, although gifts must be reported in income tax returns.21
+
+<span id="page-93-0"></span>
+## C. Tax Treatment of Tokens at Time of Sale
+
+Cryptocurrencies are treated the same at the time of sale for tax purposes, regardless of the way the cryptocurrency was acquired. All sales are taxable events.22 Taxes are paid on the amount the sales price exceeds the cost for acquiring the asset, i.e. the capital gain.23 Typically, the value of the capital gain is calculated by deducting the original asset purchase price from the sales price. In the cases where the asset was obtained through mining, the taxable income will be the price at the time of sale minus the market value at the time of acquisition. For cryptocurrencies acquired through gifts, the initial value is set at the value first acquired by the giver if the giver is Norwegian, or at market value at the time of receipt if the giver is not Norwegian.24 If the value of the cryptocurrency at acquisition is not known, the value will be set to zero and the entire amount the cryptocurrency is sold for will be considered taxable and subject to capital gains tax.25
+
+## D. Tax on Cryptocurrencies as a Form of Wealth
+
+Norway taxes wealth above NOK 1.5 million (about US\$ 175,000) at 0.7% (municipality tax) and 0.15% (state tax).26 Cryptoassets are considered investment assets and are taxed as such. Thus, cryptocurrency holdings must be reported annually to the Tax Authority.27 The value reported is the fair market value of the asset at the end of the tax year.28
+
+<span id="page-94-0"></span>
+# Russian Federation
+
+Iana Fremer Legal Research Analyst
+
+## SUMMARY
+
+The Russian Federation is in the early stages of crafting legislation when it comes to regulation and taxation of blockchain-related activities and products. The first step toward creation of a regulatory framework is the Federal Law of the Russian Federation on Digital Financial Assets (DFA), Digital Currency, and Amendments to Certain Legislative Acts of the Russian Federation, which entered into force on January 1, 2021.
+
+The Ministry of Finance of the Russian Federation developed a special package of amendments to financial regulations presently in force that will address further use of digital currency based on the Law on DFA. The amendments are currently under interagency discussion and public debate.
+
+The proposed amendments are more restrictive in nature than permissive. If adopted, the new rules and procedures will restrict mining, trade, and circulation of digital currency in the Russian Federation. Mining will be allowed but without receiving digital tokens as a reward of mining (stacking) activities.
+
+Also, the government of the Russian Federation has introduced a draft bill on amendments to the Tax Code of the Russian Federation, which regulates circulation and taxation of digital assets and digital currency, imposing a regime similar to personal property taxation.
+
+## I. Introduction
+
+The increased prominence of the blockchain and crypto products (currencies, tokens) and the fast-growing cryptocurrency market required introduction of regulatory measures by the Russian Federation authorities. Russia’s government and the Federal Assembly (the Parliament), as well as blockchain and crypto enthusiasts and lawyers, are engaged in discussions about the legal definitions of these products and the methods for incorporating them in the legal system, and about how to determine the applicable taxation procedures.
+
+Тhe definition of digital rights was incorporated in Russian legislation in 2019 through amendments to article 141.1 of the Civil Code of the Russian Federation. Digital rights in Russia are limited to relations regarding property rights exercised in digital format. They are applicable to the issuance and use of tokens and codes for cybercurrency operations in a way similar to general regulations on securities.1 Article 141.1 of the Civil Code states that digital rights can be used within an information system created by a financial institution for the purpose of conducting and monitoring digital operations.2
+
+<span id="page-95-0"></span>
+In 2018, Russia’s government submitted to the State Duma (the lower house of the Parliament) the draft of the Federal Law on Digital Financial Assets.3 Over the course of two years, the bill underwent significant changes. In its original version, the bill was intended to regulate the relations arising from the issuance, registration, and circulation of digital property, and the exercise of rights and fulfillment of obligations under so-called smart contracts. It also would have introduced, among other things, definitions of other related concepts, such as ”mining,“ “validation,” and ”smart-contracts.“ The bill proposed to treat tokens and cryptocurrency as types of digital financial assets. It provided for a procedure to issue and circulate tokens. The issuance of tokens would be public and accompanied by an investment memorandum.4 However, these provisions were not included in the final version of the bill signed by Russian President Vladimir Putin on July 31, 2020.5 The new Federal Law on Digital Financial Assets and Digital Currency regulates relations arising upon the issuance, recording, and circulation of digital financial assets (DFA), and relations in connection with circulation of digital currency.6
+
+## II. Definitions and Terminology of the Law
+
+Under the new Law, DFA are registered and recorded digital rights that can be viewed as analogues of securities but placed through a blockchain. DFA include monetary claims, the ability to exercise rights to emission securities (including the rights to demand the transfer of the securities), and the right to participate in the capital of nonpublic stock companies.7 Security and utility tokens are also considered digital financial assets and are treated as such. Additionally, essentially establishes procedures analogous to an Initial Token Offering but omits any procedure for an Initial Coin Offering.8 The Law recognizes tokens as DFA.
+
+<span id="page-96-0"></span>
+## A. Regulations for DFA Operations and Distribution
+
+The list of permitted transactions using DFA is not exhaustive. In particular, DFA can be sold, purchased, pledged, inherited, or exchanged for other digital rights.
+
+The Law creates specialized entities called Information System Operators (ISOs), to record and maintain information about the issuance and circulation of DFA. Transactions with DFA must be conducted through an ISO. ISOs are primarily banks or other credit organizations or exchanges.9 The Law sets out the requirements for ISOs, which must be Russian entities included in the register maintained by the Central Bank of Russia.10 The law extends other regulatory functions of Russia’s Central Bank to operations with digital currency.11
+
+The issuance of DFA is accompanied by documentation similar to the prospectus for emission securities and should contain, among other things, information on the volume of the issue and the scope of the rights possessed by DFA owners.12
+
+The Law also defines procedures for the issuance and circulation of digital currency in the Russian Federation. It requires that all transactions and other DFA-related operations be made with the use of the domain names and network addresses located in the Russian national domain zone or by the use of information systems or technical means located in the territory of Russia and included in the Russian information infrastructure. According to the Law, digital currency is a collection of electronic data representing monetary forms other than the currency of Russia or other countries.13
+
+## B. Mining, Staking, and Airdropping
+
+Article 14 of the Law deals with the circulation of digital currency. Despite the fact that the exact definitions of mining, stacking, airdropping or hard fork are not used in the text of the Law, it defines DFA operations, covering activities such as the following:
+
+[T]he organization of issuance of digital currency utilizing domain names and network addresses located in Russian domain zone and/or utilizing information systems, technical equipment and/or software-hardware systems, located on Russian territory as parts of Russian informational infrastructure.)14
+
+<span id="page-97-0"></span>
+[T]he issuance of digital currency is an activity involving Russian information infrastructure and /or user equipment located in Russia aimed at enabling the use of digital currency by third parties.15
+
+Arranging circulation of the digital currency is a provision of services with the purpose of facilitating civil law transactions and/or trading operations resulting in the transfer of digital currency from one holder to another with the use of the Russian information infrastructure.16
+
+These activities are considered services and will be regulated as such by federal legislation.17
+
+The Law explicitly prohibits use of digital currency as a means of payment for goods, works or services by Russian legal entities, Russian branches or representative offices of foreign legal entities, individual Russian taxpayers, and individuals residing in Russia more than 183 days a year.18 Enforcement of this provision began on August 26, 2020, when Russia’s government blocked the country’s top crypto exchange aggregator.19
+
+Also, under the Law, DFA cannot be advertised as a means of payment for goods, works or services in Russia.20 Article 29 (1) states ‘’ [a]n advertisement is not permitted until a decision on the DFA’s issuance has been published as prescribed by law. Any advertisement materials may not promise any profit on the DFA or contain any projections in relation to the growth of their market value and must state the name of the DFA issuer, indicate the website displaying the resolution on the DFA issue and summarize any restrictions for non-qualified investors, as well as warning the readers that the DFAs are “highly risky” financial instruments associated with a potential loss of money.21
+
+In addition, the Law outlaws exchange operations with cryptocurrency on the territory of the Russian Federation, and makes judicial protection of claims related to such operations or transactions possible only if digital currency possessions or transactions were declared in the manner prescribed by law.22 Declaration of an ownership or right of ownership of the digital assets and digital currency to the national tax agency is mandatory and is a requirement for defending digital rights in a court trial.
+
+<span id="page-98-0"></span>
+## III. Tax Treatment of Block Rewards
+
+While the Law on DFA legitimizes DFA operations and locally issued digital currency, the Central Bank and the Ministry of Finance of the Russian Federation are introducing detailed regulations in their respective fields.
+
+In November 2020, the Ministry of Finance of the Russian Federation drafted a package of documents regulating the circulation and possession of cryptocurrency, as well as defining responsibility for violation of the established rules.23
+
+In line with the approval of this package, on December 1, 2020, the government of the Russian Federation submitted to the State Duma the Bill on Amendments to the Tax Code of the Russian Federation.24 The new bill on taxation of cryptocurrency was developed on the basis of and in conformity with the provisions of the Federal Law on Digital Financial Assets and Digital Currencies.
+
+The bill would establish requirements for declaring cryptocurrency by citizens, individuals or legal entities operating in the Russian Federation and impose tax liability for unlawful failure to declare information or declaring false information about transactions with cryptocurrency. The amendments provide for the recognition of cryptocurrency as an asset and set out its taxation accordingly.
+
+Under this bill, citizens and lawful residents of the Russian Federation, registered legal and corporate entities, registered representatives of foreign companies and international institutions on the territory of the Russian Federation are obliged to declare information about obtaining the right to dispose of digital currency, including through third parties, to submit a report on transactions with digital currency, and on digital currency balances.25
+
+Article 38 states that cryptocurrency shall be treated as “assets” subject to a mandatory declaration to the Russian tax authorities.26
+
+The draft bill also introduces liability for tax offenses for unlawful failures to present, or present on time, reports about operations involving digital currencies, as well as presenting reports containing inaccurate information.27 In such cases, the penalty must be 10% of either the total value (in rubles) of the cryptocurrency received or the cryptocurrency transferred. The penalty would be deducted from the larger amount of these options. The value of the cryptocurrency reported will be calculated by the national tax agency based on the prices at the moment of transactions.28
+
+<span id="page-99-0"></span>
+Furthermore, those individuals and legal entities who have the right to use digital currencies would have an obligation to inform tax authorities of such a right, the turnover of their accounts, and the balances in cases where the amount of operations exceeds the equivalent of RUB600,000 (about US\$7,800) in a calendar year. Failure to inform is punishable by a fine of RUB50,000 (about US\$670.00). Failure to provide data on transactions with cryptocurrency, as well as nonpayment of tax on transactions that were settled using digital currency, would be fined in the amount of 40% of the unpaid tax.29
+
+Rules for mandatory tax reporting would enter into force on April 30, 2022. 30 Before that, a declaration of ownership of cryptocurrency is voluntary. 31
+
+The Bill has not been adopted yet. It is under consideration by the State Duma, where its adoption is now expected during the spring session.32
+
+## IV. Recent Regulatory Initiatives
+
+During the period from September until December 2020, a number of documents on the rules and procedures of taxation of cryptocurrency were issued by the Russian Federation.
+
+On October 6, 2020, the Department on Taxation Policy of the Ministry of Finance of the Russian Federation issued an explanatory letter on taxation of cryptocurrency operations.33
+
+According to this letter, profits received from digital currency operations should be considered income and taxed as such on individuals or enterprises. Article 41 of the Russian Tax Code defines principles for calculating the income tax and makes profits received as economic gain in monetary form or in kind the basis for calculation. However, regulations regarding taxation of income received from cryptocurrency transactions are not currently in place.34
+
+<span id="page-100-0"></span>
+In addition, the letter states that, because chapter 25 of the second part of the Tax Code, which determines taxation of profits of organizations, does not include a definition of the income tax acquired through cryptocurrency operations, taxation of this type of income will be conducted through general taxation procedures.35
+
+Also, in mid-October 2020, the Central Bank of the Russian Federation issued a draft Notice (Instruction), which would introduce rules on differentiation between “qualified” and “nonqualified” investors for acquisition of DFA if adopted.36 The text of the Notice imposes a cap for non-qualified investors on obtaining DFA in the amount of RUB600,000 (about US\$8,190) per annum.
+
+On November 11, 2020, the Ministry of Finance of the Russian Federation submitted to the government draft amendments to the Law on DFA aimed mainly at extending rules countering money laundering to transactions with digital currency, recognizing DFA as property, and applying the property tax regime to digital currency assets. 37
+
+Property tax is a local tax imposed on owners of specified possessions and calculated according to a formula prescribed by the Tax Code of the Russian Federation. Usually, this tax may vary in an amount ranging from 0.1% to 6% of the total property value.38
+
+According to the proposed amendments, it is illegal to receive reward tokens in cryptocurrency. The restriction is envisioned (as an addition to article 14) of the Law on DFA which allows ”mining” but prohibits obtaining profit from mining or stacking activities in cryptocurrency.39
+
+Under the draft amendments, legal entities and individual businesses are prohibited from conducting any type of operation with digital currency. However, the amendments provide for three exceptions: an inheritance of digital currency, acquiring digital assets through bankruptcy procedures, or obtaining such assets as a result of enforcement proceedings.40
+
+<span id="page-101-0"></span>
+The draft envisions amendments to article 151 of the Criminal Code of the Russian Federation, which prosecutes tax evasion. According to the amendments, for violation of digital currency rules, individuals would face a penalty of RUB100,000 (about US\$1,365) and up to seven years of imprisonment, and legal entities could be fined up to RUB1 million (about US\$13,650.)
+
+The Russian Association of Cryptoindustry and Blockchain (RACIB) heavily criticized the draft amendments.41
+
+Financial disclosure rules for individuals holding or aspiring public office, their spouses, and their children were recently extended to reporting digital assets, currencies or obligations.42
+
+<span id="page-102-0"></span>
+# Singapore
+
+Laney Zhang Foreign Law Specialist
+
+## SUMMARY
+
+Singapore’s tax authority considers digital payment tokens as intangible property but not legal tender. The Inland Revenue Authority of Singapore has issued guidance on the income tax treatment of payment tokens received through mining, airdrops, and hard forks, but does not appear to have provided specific guidance on tokens received through staking.
+
+A miner’s profits from the disposal of the rewarded payment tokens received through mining is taxable if the miner performs the mining activity with an intention to profit. An individual engaging in mining activities is presumed to be undertaking the activity as a hobby, and gains from sale of the mined payment tokens are not taxable, unless the individual shows a habitual and systematic effort to make a profit from the activities. A company engaging in mining activities will be taxed on profits from the sale of mined payment tokens upon disposal of the tokens. The miner’s profits are taxed at the point of disposal of the tokens and not at the point when the tokens are successfully mined, since no income is derived by merely holding the payment token.
+
+The mining of digital payment tokens does not constitute a supply of cryptocurrency for goods and services tax (Singapore’s value-added tax) purposes unless services are made to identifiable parties in return for a consideration.
+
+## I. Introduction
+
+In April 2020, the Inland Revenue Authority of Singapore (IRAS) issued guidance on the income tax treatment of digital tokens, which was recently revised in October 2020. According to the IRAS e-Tax Guide: Income Tax Treatment of Digital Tokens (Income Tax Guide), a digital payment token, such as Bitcoin or Ether, is not issued by any government and is not legal tender. IRAS views a digital payment token as an intangible property, since it usually represents a set of rights and obligations and does not have a physical form. “Hence, transactions involving the use of payment tokens as payment for goods or services are viewed as barter trade and the value of goods or services transferred should be determined at the point of transaction.”1
+
+Singapore has passed legislation to regulate cryptocurrency dealing and exchange services. According to the Payment Services Act enacted in 2019, a “digital payment token” means
+
+any digital representation of value (other than an excluded digital representation of value) that —
+
+<span id="page-103-0"></span>
+(a) is expressed as a unit;
+
+(b) is not denominated in any currency, and is not pegged by its issuer to any currency;
+
+(c) is, or is intended to be, a medium of exchange accepted by the public, or a section of the public, as payment for goods or services or for the discharge of a debt;
+
+(d) can be transferred, stored or traded electronically; and
+
+(e) satisfies such other characteristics as the Authority may prescribe[.]2
+
+## II. Tax Treatment of Block Rewards
+
+## A. Taxation of Tokens Received Through Mining
+
+According to the Income Tax Guide, a miner’s profits from the disposal of the rewarded payment tokens he or she received through mining, including those obtained from a mining pool, is taxable if the miner performs the mining activity with an intention to profit. If a miner is assessed to be trading in nature, gains from the disposal of payment tokens would be taxable, and the losses would be deductible. However, if the miner performs mining as a hobby or to hold the tokens mined as a long-term investment, the disposal gains of the payment tokens are not taxable.3
+
+A company engaging in mining activities is regarded as carrying on a business of mining, and general tax rules will apply, since a company is generally set-up with a profit-seeking motive. It will be taxed on profits from the sale of mined payment tokens upon disposal of the tokens. The mining expenses are deductible.4
+
+An individual engaging in mining activities, on the other hand, is presumed to be undertaking the activity as a hobby. Gains from sale of the mined payment tokens are treated as capital gains and are not taxable. However, if an individual shows a habitual and systematic effort to make a profit from the activities, he or she may be considered as carrying on a vocation of a miner and his profits from the sale of the mined tokens will be subject to tax.5
+
+The miner’s profits from the rewarded payment tokens, if any, will be taxed at the point of disposal of the tokens and not at the point when the tokens are successfully mined. The Income Tax Guide explains that this is because while the miner is entitled to a right to own a payment token at the point of successful mining, no income is derived by merely holding the payment token.6
+
+<span id="page-104-0"></span>
+## B. Value-Added Tax
+
+The IRAS has also issued guidance on the goods and services tax (GST, Singapore’s value-added tax) treatment of digital payment tokens. Under the IRAS e-Tax Guide: GST: Digital Payment Tokens published in November 2019 (GST Guide), and in effect from January 1, 2020, supplies of digital payment tokens are no longer subject to GST, while the GST treatment for other digital tokens, virtual currencies, or cryptocurrencies that do not qualify as digital payment tokens remains unchanged.7 Before 2020, a supply of cryptocurrencies was treated as a taxable supply of services, and a person who supplied cryptocurrencies in the course or furtherance of a business, for example, by selling them on cryptocurrency exchanges, was liable for GST registration if the annual turnover from the cryptocurrency transactions exceeded one million Singapore dollars (about US\$753,466).8
+
+According to the GST Guide, the mining of digital payment tokens does not constitute a supply for GST purposes. This is because, in the mining process, there is generally no close nexus between the service provided by the miner to the persons whose transactions are verified and the block reward, and the parties paying the mined tokens are also not identifiable.9 However, if a miner provides services to an identifiable party or parties in return for a consideration, such as a commission or transaction fee, this constitutes a taxable supply of services.10
+
+The GST Guide further states that,
+
+The subsequent sale or transfer of the mined digital payment tokens to a customer belonging in Singapore by the miner will be an exempt supply if the supply takes place on or after 1 Jan 2020. If the mined digital payment tokens are exchanged for goods or services on or after 1 Jan 2020, the miner will not be regarded as making a supply of the tokens.11
+
+## C. Proof of Staking
+
+The IRAS does not appear to have provided specific guidance on tokens received through staking. The Income Tax Guide and the GST Guide define the term “mining” to be “[a] process by which digital token transactions are verified and added to the blockchain, and the means through which new digital tokens are released.”12
+
+<span id="page-105-0"></span>
+## III. Tokens Received Through Airdrops and Hard Forks
+
+## A. Airdrops
+
+The Income Tax Guide defines airdrops as follows:
+
+An airdrop is the distribution of tokens without compensation (i.e. for free), generally undertaken as a marketing tool with a view to increase awareness of a new token, particularly amongst “influencers”, and to increase liquidity in the early stages of a new token project.13
+
+According to the Guide, if the payment token is not received in return for any goods or services performed, it would not be regarded as income of the recipient, and hence is not taxable. However, if the airdrop was given in return for, or in expectation of a service, it could be viewed as income subject to tax.14
+
+## B. Hard Forks
+
+The IRAS Guide defines hard forks as follows:
+
+A hard fork is the splitting of an existing payment token to create a second payment token which operates separately from and alongside the original token. The purpose of a hard fork is generally technical in nature and may be used to fix important security risks in older versions, add new functionality, or reverse certain transactions. Holders of the existing payment token might end up receiving a second payment token for free.
+
+According to the Guide, this can be viewed as a windfall to the recipient as he or she had received the additional token without doing anything in return. Receiving payment tokens through a hard fork is therefore not taxable to the recipient at the point of receipt, since this is not an income. However, where the recipient is trading in payment tokens, the gains from the subsequent disposal of the tokens (including tokens received through a hard fork or an airdrop) will be taxable.15
+
+<span id="page-106-0"></span>
+# South Africa
+
+Hanibal Goitom
+
+Chief, FCIL I
+
+## I. Introduction
+
+On April 6, 2018, the South African Revenue Services (SARS) issued a clarification on the tax status of virtual currencies. SARS noted that it “will continue to apply normal income tax rules to cryptocurrencies and will expect affected taxpayers to declare cryptocurrency gains as part of their taxable income.”1 Taxpayers must therefore declare all their cryptocurrency income and failure to do so could result in imposition of interest and penalties.2 It states that:
+
+Whilst not constituting cash, cryptocurrencies can be valued to ascertain an amount received or accrued as envisaged in the definition of “gross income” in the Act. Following normal income tax rules, income received or accrued from cryptocurrency transactions can be taxed on revenue account under “gross income”.
+
+Alternatively such gains may be regarded as capital in nature, as spelt out in the Eighth Schedule to the Act for taxation under the [capital gains tax] paradigm.
+
+Determination of whether an accrual or receipt is revenue or capital in nature is tested under existing jurisprudence (of which there is no shortage).3
+
+The amount of tax accrued to a person could differ a great deal depending on whether gains in virtual currencies are taxed as income or capital gains.4
+
+## II. Tax Treatment of Mining
+
+The SARS Clarification noted that gains or loses concerning cryptocurrencies fall into three situations, each leading to a different tax treatment:
+
+(i) A cryptocurrency can be acquired through so called “mining”. Mining is conducted by the verification of transactions in a computer-generated public ledger, achieved through the solving of complex computer algorithms. By verifying these transactions the “miner” is rewarded with ownership of new coins which become part of the networked ledger.
+
+This gives rise to an immediate accrual or receipt on successful mining of the cryptocurrency. This means that until the newly acquired cryptocurrency is sold or exchanged for cash, it is held as trading stock which can subsequently be realized through either a normal cash transaction (as described in (ii) or a barter transaction as described in (iii) below.
+
+<span id="page-107-0"></span>
+(ii) Investors can exchange local currency for a cryptocurrency (or vice versa) by using cryptocurrency exchanges, which are essentially markets for cryptocurrencies, or through private transactions.
+
+(iii) Goods or services can be exchanged for cryptocurrencies. This transaction is regarded as a barter transaction. Therefore the normal barter transaction rules apply.5
+
+On a Frequently Asked Questions page relating to cryptocurrencies, SARS answers the question of whether “an individual who ’mines’ cryptocurrency as a trade or business [is] subject to tax on the income derived from those activities?”6 The answer states that “[s]uch income is subject to normal tax. The person may be liable to register as a provisional taxpayer if the total taxable income received exceeds the tax threshold for the financial year.”7
+
+No laws, rules or guidance specifically addressing block rewards or reward tokens were located.
+
+<span id="page-108-0"></span>
+# Spain
+
+# Graciela Rodriguez-Ferrand Senior Foreign Law Specialist
+
+## I. Introduction
+
+Currently there is no comprehensive legislation in Spain on cryptocurrencies.1
+
+The Comisión Nacional de Valores (National Securities Commission) and the Banco de Espana (Bank of Spain) issued a joint statement regarding the use of cryptocurrencies that said there is no cryptocurrency issued, registered, authorized or verified by any regulatory agency in Spain, and cryptocurrencies are not backed by any of the guarantees or safeguards provided by regulations on banking or investment products.2
+
+Profits derived from transactions with cryptocurrencies are taxable under the Law on Income Tax of Individuals.3 However, the Dirección General de Tributos, the tax policy agency within the Ministry of Economy, has established that such transactions are exempt from the Value Added Tax.4
+
+## II. Tax Treatment of Cryptocurrency Mining
+
+Cryptocurrency mining in Spain is not popular because the high cost of the electricity required for it renders it unprofitable on a small scale.5 There are not many known cases of mining farms operating in Spain.
+
+The income obtained from mining is considered business income, and the applicable tax rate could be as much as 48% for individuals, depending on the autonomous region where they reside. The corporate income tax rate is 25%, while the non-resident income tax rate is 19% for persons from the European Union and European Economic Area and 24% for other non-residents.6
+
+<span id="page-109-0"></span>
+The Agencia Tributaria (AT), the tax collection and enforcement authority within the Ministry of Economy, issued a binding resolution in 2016 stating that mining is not subject to value added tax, since the service rendered has no relationship with any individual user of the blockchain. It also ruled that since mining is not subject to VAT, the mining company may not deduct the input VAT it paid.7 It further determined that mining is an economic activity subject to the Tax on Economic Activities, that profits thereof are subject to the income tax, and that associated expenses may be deducted.8
+
+Taxation of staking has not been specifically regulated. Therefore, according to tax professionals, staking should be evaluated in relation to similar services whose tax treatment has already been clearly defined by the tax authority.9
+
+<span id="page-110-0"></span>
+## Sweden
+
+## Elin Hofverberg Foreign Law Specialist
+
+## SUMMARY
+
+Typically, the sale of cryptocurrencies is treated similar to investment capital for tax purposes in Sweden. The mining of cryptocurrencies is taxed as income from a hobby, unless done on a sufficient scale to be taxed as a commercial activity. The Swedish Tax Authority has not issued guidance specifically dealing with staked cryptocurrencies, airdrops, or hard forks. Depending on whether these forms of receipt of cryptocurrencies are considered gifts or a form of other income, they are either not taxed or taxed as other income.
+
+## I. Introduction
+
+Cryptocurrencies are not recognized as a financial instrument or official currency in Sweden.1
+
+Sweden taxes income from employment (tjänst), commercial activity (näringsverksamhet), and capital gains, among other things, through the Income Tax Act.2 For tax purposes, at the time of sale, cryptoassets are considered “other assets” as regulated in chapter 52 of the Income Tax Act,3 which provides that the profit made at the time of sale should be taxed, similarly to capital gains.4 Mining of cryptocurrencies qualifies as income from a hobby unless done on a commercial scale.5
+
+The Supreme Administrative Court (Högsta förvaltningsdomstolen) has established that any profits made when selling Bitcoins is subject to taxation as capital gains.6 Thus, the sale of cryptocurrency is subject to the capital gains provision in the Income Tax Act.7
+
+<span id="page-111-0"></span>
+The Swedish Tax Authority has created an online tool for calculating and reporting cryptocurrencies for tax purposes.8 All holdings of cryptoassets must be reported in the annual tax filing.9
+
+## II. Tax Treatment of Block Rewards
+
+## A. Tax Treatment of Mined and Staked Cryptocurrencies
+
+The Swedish Tax Authority has issued guidelines on the taxation of cryptocurrency mining.10 In accordance with the guidelines, mined cryptoassets on a personal scale are considered income from a hobby and subject to income tax based on the current market value at the time they are mined as personal income from employment (tjänst).11 Large-scale mining may be considered commercial activity, and is taxed as such (inkomst av näringsverksamhet).12 Commercial activity is defined as “activity that is conducted professionally and independently.”13 The Swedish Tax Authority has further determined that to assess whether the activity is professional and independent, the activity must qualify as “activity that is distinguishable as being conducted enduringly, independently, and in order to make a profit.”14 To qualify as commercial the activity must meet all three conditions.15 Hobby activities that are carried out for profit for a longer period of time are typically considered commercial activity.16 The Swedish Tax Authority specifically considers the following circumstances, among others, when determining if the mining of cryptocurrencies is a hobby or a commercial activity:
+
+That the activity is undertaken in a regular, professional, and cost efficient manner during a longer period of time with expedient equipment.
+
+That the activity can be expected to generate a surplus as determined across the entire financial calculation period.
+
+That the equipment’s calculation capacity can be expected to generate more than 25 bitcoins annually (or an equitable amount in the form of transaction fees or other virtual currency).17
+
+<span id="page-112-0"></span>
+Staked cryptocurrencies are not directly addressed by the guidelines. It appears the Swedish Tax Authority has not made any other statements related to staked cryptocurrencies. Service providers that advertise tax services in relation to cryptocurrencies appear to treat staked currencies similarly to mining for tax purposes.18 However, another interpretation by one tax service provider describes the tax treatment of staking rewards as follows: “Staking is in the world of crypto the same as lending your cryptoasset and according to the Swedish Tax Authority these shall be taxed as sales during the loan and as purchases when you yourself borrow or receive back the previous lent crypto.”19 This interpretation would result in a different tax situation than if treated as mined cryptocurrencies. If considered mined cryptocurrencies the staked cryptocurrency would be taxable as income (either personal income or commercial activity depending on the scale) at the time of receipt, whereas if similar to a purchase, the receipt would not be taxable.20
+
+## B. Tax Treatment of Tokens Received Through “Airdrops” and “Hard Forks”
+
+The Swedish Tax Authority has not issued guidelines that specifically address airdrops or hard forks. The tax status of assets obtained by these means will depend on what form of income they are considered similar to. If the airdrop or hard fork, by its nature, is similar to mining, the receipt via airdrop or hard fork would be considered income from a hobby (or commercial activity if done on a larger scale) and subject to the corresponding tax.21 If they are instead considered gifts the cryptocurrency will be not be taxed at acquisition, as gifts are not subject to tax in Sweden.22
+
+Swedish tax service providers specializing in taxes related to cryptocurrency appear to take differing views of these kinds of assets. For example, the tax provider Monotax provides the following guidance on its website:
+
+How is the tax for mining, staking, air drops, and forks calculated?
+
+In accordance with the same rules that apply to other income. You must declare the market value of these crytpocurrencies at the time of receipt, how many you received, and when you received them. Is it a regular income to the extent that it is your main pursuit you may also have to pay employment payroll taxes.23
+
+Thus, Monotax equates staking, airdrops, and forks with mining, which is subject to income tax as described in part II(A) above.
+
+<span id="page-113-0"></span>
+Other Swedish crypto tax commentators have explained that airdrops and hard forks should be considered gifts:24 ”Airdrops or Hard Forks are considered gifts from the block chain owner and are most often a PR trick. You do not pay any tax on the gift and it is not until you sell [the cryptosasset] that you pay tax on the profit. The cost basis is zero.”25
+
+Thus, the determination of whether the receipt of cryptocurrencies through either airdrops or forks is a taxable event would likely depend on how often and why the taxpayer receives them, and if the taxpayer did any work for them. For example, a person whose activities qualify as commercial activity appears unlikely to have his or her receipts of cryptocurrencies considered gifts, because the Swedish Tax Authority would likely view the receipt as an event directly linked to the commercial activity, and not as an entirely separate event.26
+
+If considered a gift, a person receiving an airdropped cryptocurrency or a forked cryptoasset will not have to pay any tax on it upon receipt.27 However, when it is sold or used, the owner must pay capital gains tax on the “profit” made from the sale.28 Thus, at time of sale an airdropped asset or hard fork would generate a 30% tax on the profit. To the extent airdrops and hard forks would be considered gifts, the cost basis for the assets would be zero, and the entire amount the asset is sold for would be taxable. For example, a cryptoasset received when the fair market price is US\$100 and sold for US\$60 would be taxable at 30% of \$60; even though the value of the asset has decreased, the transaction would not qualify as a loss for tax purposes, as the cost basis for the asset is zero.29
+
+<span id="page-114-0"></span>
+# Switzerland
+
+Jenny Gesley Foreign Law Specialist
+
+## SUMMARY
+
+Switzerland classifies cryptocurrencies as intangible assets. In its August 2019 cryptocurrency tax guidance, the Swiss Federal Tax Administration (FTA) differentiates between native token/payment token, utility token, and asset token. With regard to the income tax treatment of mining of native tokens, which is subject to cantonal law, the FTA stated that block rewards received for mining are included in taxable income if the general criteria for a self-employed activity are fulfilled. The separately issued VAT guidance provides general remarks about the taxation of block rewards, but explains differences between pool mining and pool staking more in detail. Receiving a block reward is generally not a taxable event for Swiss VAT purposes. Pool mining and pool staking are both taxable under VAT law and are treated the same.
+
+It appears that there is no official guidance with regard to the tax treatment of airdrops or hard forks.
+
+In June 2020, the Swiss Federal Council, the Swiss government, stated that there is currently no need to amend Swiss tax law with regard to blockchain transactions.
+
+## I. Introduction
+
+Switzerland classifies cryptocurrencies as intangible assets (property). The Swiss Federal Tax Administration (FTA) (Eidgenössische Steuerverwaltung, EStV) differentiates between native tokens/payment tokens, utility tokens, and asset tokens.1 Native tokens are defined as “digital value rights that are suitable to be used as a means of payment depending on their circulation and infrastructure. The issuer does not have an obligation to make a certain payment or provide a service vis-à-vis the investor.”2 Asset tokens represent “monetary claims against the issuer or counterparty within the framework of an initial coin offering (ICO) or an initial token offering (ITO).”3 Their tax treatment depends on the civil law relationship between the issuer and investor.4 Utility tokens that are issued within the framework of an ICO or an ITO are those that provide investors with the right to use digital services on a (decentralized) platform service, generally by means of a blockchain-based infrastructure.5 As with asset-backed tokens, their tax treatment depends on the civil law relationship between the issuer and investor.6
+
+<span id="page-115-0"></span>
+On June 19, 2020, the Swiss Federal Council, the Swiss government, published a report prepared by the Federal Department of Finance on the need to amend Swiss tax law with regard to blockchain.7 The report concluded that there is currently no need to adopt specific tax law provisions dealing with blockchain.8
+
+## II. Tax Treatment of Block Rewards
+
+The FTA in its cryptocurrency tax guidance issued in August 2019 only discussed mining and the taxation of block rewards with regard to native tokens. However, it pointed out that the guidance is only a snapshot of the tax situation up to May 2019 and will be continuously developed as new situations arise, in particular with regard to ICOs/ITOs.9
+
+## A. Wealth Tax
+
+Native tokens are intangible assets and therefore subject to wealth tax.10 In Switzerland, the individual cantons, the Swiss states, are obligated to levy income tax and wealth tax on the total property (assets and rights with a cash value) of taxpayers that are resident in their canton.11 Property is assessed at market value at the end of the tax period.12 Tax rates vary between the individual cantons. Cryptocurrencies are treated like foreign currencies for wealth tax purposes. Holders of cryptocurrencies are taxed at the rate determined by the tax authorities on December 31st of the fiscal year. The Swiss FTA provides tax rates for Bitcoin and other common cryptocurrencies on its website.13 These rates are a recommendation to the cantonal tax authorities for wealth tax purposes, but most cantons follow them.
+
+<span id="page-116-0"></span>
+## B. Income Tax
+
+As mentioned, income tax rates are levied by the cantons and vary from canton to canton. Mined native tokens represent a reward for the mining activity. If the general criteria for a self-employed activity are fulfilled, then the rewards are included in taxable income.14
+
+## C. VAT
+
+Value-added tax (VAT) is levied according to the Federal VAT Act.15 As Liechtenstein and Switzerland form a common VAT area due to a tax agreement, the following remarks are also applicable to Liechtenstein.16
+
+Block rewards received for mining do not qualify as compensation as defined in the VAT Act, because there is no exchange of services.17 If validating blockchain transactions is only compensated with block rewards, it does not qualify as an activity aimed at making a profit and is therefore not a business activity.18 On the other hand, if the miner receives a transaction fee as compensation for the validation of a block, there is a taxable exchange of services between the miner and the network users. The validation of the transaction is subject to the general VAT rate for a beneficiary located within the tax territory.19 A block reward that is generated in addition to the transaction fee has no influence on the input tax deduction.20
+
+## III. Differences in the Tax Treatment of Mined Tokens and Staked Tokens
+
+Only the federal VAT guidance mentions staked tokens separately. The VAT guidance provides general remarks about block rewards, but explains differences between pool mining and pool staking in more detail. However, the taxation is the same.
+
+With regard to pool mining, the miner contributes his processing power to a mining pool and is compensated with block rewards. The mining pool operates the mining software and provides other additional services. According to the VAT guidance, there is a tax-relevant exchange of services between the miner and the mining pool. The place of performance is determined according to section 8, paragraph 1 of the VAT Act.21
+
+<span id="page-117-0"></span>
+The VAT guidance states that with regard to pool staking, owners of staking coins/tokens may participate in a staking pool by contributing their stakes. In general, they are compensated with a percentage in the transaction fee received for the staking. The staking pool operates the staking software. There is a tax-relevant exchange of services between the individual participants and the staking pool. The place of performance is determined according to section 8, paragraph 1 of the VAT Act.22
+
+## IV. Tax Treatment of Tokens Received Through “Airdrops” and “Hard Forks”
+
+It appears that there is no official guidance with regard to the tax treatment of airdrops and hard forks.
+
+<span id="page-118-0"></span>
+## Turkey
+
+Kayahan Cantekin Foreign Law Specialist
+
+## SUMMARY
+
+Currently no legal framework exists in Turkey providing for the taxation of cryptocurrency sales or of acquisitions through mining, airdrops, forging, or forking. Current law does not provide a clear legal basis for the taxation of revenues generated from the sale or acquisition of cryptocurrencies. The government has included the creation of a tax framework for cryptocurrency transactions in its medium term 2021- 2023 economic plan. Tax law scholarship suggests that taxation of cryptocurrency as commodities may be the most feasible approach under existing laws, while the creation of an ad hoc tax framework has also been discussed.
+
+## I. Introduction
+
+The Turkish government estimates that approximately 2.4 million people in Turkey owned at least some amount of cryptocurrencies in 2020.1 The government has so far taken a wait-and-see approach to the regulation and taxation of cryptocurrencies. Nevertheless, recent government policy statements have prominently mentioned regulation and taxation of cryptocurrencies, suggesting a possible regulatory effort in the near future. In its Eleventh Development Plan (2019- 2023) the Turkish government has set implementation of a “Blockchain-based digital central bank money” and supporting the “formation of a safe financial technology (fintech) ecosystem which provides equal opportunities for companies . . . considering international good practices” as developmental objectives in the financial sector.2
+
+## II. Tax Treatment of Cryptocurrency Under Current Law
+
+Currently no framework exists in Turkey for the taxation of value created by the acquisition, sale, exchange, or appreciation of cryptocurrency. The primary reason for this is that no formal definition of cryptocurrency is made in tax legislation, and Turkish legal principles—the constitutional principle of the legality of taxation and the general tax law principle of specificity of taxation—preclude taxation not explicitly provided for in law.3
+
+<span id="page-119-0"></span>
+The absence of a legal framework on the taxation of cryptocurrency means that there is no law on the tax treatment of cryptocurrency acquired through mining, airdrops, forging, or forking.
+
+The categorization of cryptocurrencies as ”electronic money” was precluded early on after the passage of the Law No. 6493 on Payment Systems and Electronic Money in 2013.4 That law’s definition of electronic money parallels that of the EU’s E-Money Directive, so it was uncontroversial when the Banking Regulation and Supervision Agency of Turkey released a press statement in November 2013 clarifying that cryptocurrencies did not fall under the definition of ”electronic money” in Law No. 6493 and thus could not be regulated or overseen under that law.5
+
+Nevertheless, the tax law and accounting literature has addressed the question in light of the specific characteristics of Turkish constitutional, tax, and finance laws. Relevant tax literature has identified four options that could be taken under the current tax laws (with minor amendments) for enabling the taxation of income derived from acquisition, exchange, and appreciation of cryptocurrencies, absent an ad hoc tax framework for cryptocurrencies.6 These four options are taxation as foreign exchange, as commodities, as negotiable instruments, or as intangible rights. The choice of each of these avenues have different tax implications, as they are subject to different tax regimes under the Tax Procedure Code (TPC) and the relevant substantive tax laws, such as the Law on Income Tax (LIT), Law on Corporation Tax (LCT), and the Law on Value-Added Tax (LVAT).7
+
+The predominant view in the literature appears to be that taxation of cryptocurrency as commodities is the most feasible method under the current laws.8 Previous statements from government officials support this view; for instance, the then-director of the Turkish Revenue Administration, Adnan Ertürk, noted that the Capital Markets Board and the Central Bank of Turkey objected to the categorization of cryptocurrencies as negotiable instruments or foreign exchange, and that in his view the most suitable category was as commodities.9
+
+<span id="page-120-0"></span>
+Categorization as commodities would require income generated from the sale of cryptocurrencies to be taxed as commercial revenue under the LIT if more than one sale is done in a calendar year.10 A single sale would be taxed as incidental revenue under the LIT, and benefit from the incidental income exemption up to 40,000 TRY (approx. US\$5000).11 Corporations that engage in the commercial sale of cryptocurrencies would be subject to corporate tax under the LCT.12 Furthermore, categorization as commodities would render all sales of cryptocurrency taking place within Turkey subject to value-added tax under the LVAT, with the possible exception of sales by brokerage firms provided that they are added in the exemption schedule in the LVAT; brokers would then be subject to the banking and insurance transactions tax under the Law on Expenditure Taxes.13 It is not clear how acquisition events such as mining would be taxed under a commodities paradigm.
+
+The Turkish government has recently announced its intention to engage in a regulatory effort in the field of taxation of cryptocurrency and virtual assets. The New Economic Programme (Medium Term) 2021-2023, published in September 2020, states as a policy objective that “preparatory work regarding the taxation of transactions realized by use of virtual assets representing digital value and that can be bought and sold digitally [shall be continued].”14
+
+For instance, a recently published report on cryptocurrencies by the Technology and Communication Authority intimated that the oversight of cryptocurrencies is likely to be continued primarily by the Capital Markets Board, the financial regulatory authority of Turkey, which suggests they would be categorized as either commodities or negotiable instruments, or alternatively that an ad hoc framework might be proposed.15
+
+<span id="page-121-0"></span>
+# United Kingdom
+
+Clare Feikert-Ahalt Senior Foreign Law Specialist
+
+## SUMMARY
+
+The United Kingdom (UK) has not yet introduced legislation to regulate cryptoassets. Instead, it has adopted a wait-and-see approach. Although the UK has not developed a specific set of taxation laws or regulations that apply to cryptoassets, it has issued guidance to aid in the application of existing laws. The taxation of cryptoassets is dependent upon how they are used.
+
+## I. Introduction
+
+The United Kingdom (UK) has yet to introduce legislation to regulate the use of cryptoassets. Instead, it has adopted a cautious, wait-and-see approach. The Bank of England stated it does not consider cryptocurrencies to be money as they are “too volatile to be a good store of value, they are not widely-accepted as means of exchange, and they are not used as a unit of account.”1 It has further stated that it believes the current generation of cryptoassets show little evidence of delivering any kind of benefits to the financial services and other sectors, but given the rapidly developing market, this may change in the future.2
+
+## II. Tax Treatment of Block Rewards
+
+There are no taxation laws that apply specifically to cryptoassets, rather, existing laws have been applied to them.3 HM Revenue & Customs (HMRC) issued its first policy paper detailing the tax treatment of cryptoassets acquired, held, and sold by individuals in late 2018. The policy paper focused on ensuring that the tax treatment of profits and losses from transactions involving these types of assets is clear.4 HMRC noted that the tax treatment of these tokens is dependent upon how they are used, rather than on the definition of the token.5 A task force developed a framework to take into account three potentially different uses for cryptoassets:
+
+1. As a means of exchange, functioning as a decentralised tool to enable the buying and selling of goods and services, or to facilitate regulated payment services.
+
+2. For investment, with firms and consumers gaining direct exposure by holding and trading cryptoassets, or indirect exposure by holding and trading financial instruments that reference cryptoassets.
+
+<span id="page-122-0"></span>
+3. To support capital raising and/or the creation of decentralised networks through Initial Coin Offerings (ICOs).6
+
+HMRC does not consider cryptoassets to be currency or money. Instead, it defines cryptoassets as
+
+cryptographically secured digital representations of value or contractual rights that can be:
+
+transferred
+
+stored
+
+traded electronically[.]
+
+While all cryptoassets use some form of Distributed Ledger Technology (DLT) not all applications of DLT involve cryptoassets.7
+
+## A. Taxation of Mining
+
+Mining cryptoassets is not subject to specific taxation legislation or regulations, and the taxation of mining depends upon the specific circumstances of each case. To help determine whether mining is a taxable trade, and is thus subject to deductions from the trading profits,8 HMRC has provided guidance and stated a number of factors must be considered, including the degree of activity, risk, organization and commerciality involved in the process.9 In guidance for businesses, HMRC has stated that using a home computer that has spare capacity to mine tokens does not typically amount to a trade, but that the purchase of “a bank of dedicated computers to mine tokens for an expected net profit (taking account the cost of equipment and electricity) would probably constitute trading activity.”10
+
+If mining is determined to be a taxable trade, any costs incurred in the mining activity may be deductible against any trading profits.11 Any cryptoassets mined would:
+
+initially form part of trading stock. If these cryptoassets are transferred out of trading stock, the business will be treated as if they bought them at the value used in trading accounts. Businesses should use this value as an allowable cost in calculations when they dispose of the cryptoassets.12
+
+Thus, the transfer of a cryptoasset out of trading stock counts as a sale at market value for trading purposes, and a profit or loss must be calculated at this time. If the token is subsequently disposed of, capital gains tax or corporate rate tax is calculated according to the market value at the date the cryptoasset was taken out of trading stock.13
+
+<span id="page-123-0"></span>
+HMRC notes that, if the mining activity does not amount to a taxable trade, the value at the time of receipt of any cryptoassets awarded as a result of mining will be taxed as miscellaneous income,14 and the individual will have to complete a self-assessment tax return unless the cryptoassets are worth less than £1,000 (approximately US\$1,400) or the individual has received less than £2,500 (approximately US\$3,300) from other untaxed income.15 Any expenses involved in mining may serve to reduce the amount of chargeable tax, although HMRC has stated that the typical costs of mining activities, such as computers and electricity, are not allowable costs for the purposes of corporate rate tax or capital gains tax as they cannot satisfy the requirements of section 38(1)(a) of the Taxation of Chargeable Gains Act 1992, as they are not wholly and exclusively to acquire the exchange of tokens.16
+
+In cases where individuals mining cryptoassets decide to keep any they have mined, capital gains tax may later become payable when the asset is disposed of.17 Disposal of cryptoassets may occur when selling cryptoassets for regular currency, exchanging one form of cryptoassets for another, using cryptoassets to pay for goods or services, or giving cryptoassets away to someone who is not the owner’s spouse or civil partner. In the case of cryptoassets that have been taxed as income, any capital gains tax due will be reduced by the amount of income tax.18
+
+HMRC has specified that any costs for mining are not allowable costs for the purposes of capital gains tax and thus may not be allowed as a deduction when determining whether a gain or loss has been made. HMRC has stated this is because such costs are
+
+not wholly and exclusively to acquire the cryptoassets, and so cannot satisfy the requirements of section 38(1)(a) Taxation of Capital Gains Act 1992 (but it is possible to deduct some of these costs against profits for Income Tax or on a disposal of the mining equipment itself).19
+
+Any payment, through fees or other rewards, in return for mining are also subject to income tax, either as trading or miscellaneous income, using the same criteria as above.20 If the individual mining receives cryptoassets as payment, any increase in value from the time the asset was acquired will be taken into account when computing trading profit or as a chargeable gain for capital gains tax upon the disposal of the asset. 21
+
+<span id="page-124-0"></span>
+HMRC has noted that individuals holding cryptoassets as a personal investment will be liable to pay capital gains tax when the assets are disposed of. Income tax and national insurance contributions will also be due for individuals that receive cryptoassets through mining, as a transaction confirmation, from their employer as a form of noncash payment, or through airdrops.22
+
+Section 104 of the Taxation of Chargeable Gains Act 1992 provides that certain assets that can “be dealt in without identifying the particular assets disposed of or acquired” must be pooled together to allow for the easier calculation of taxes. HMRC has stated that it believes cryptoassets meet the requirements of this section, and thus must be pooled.23
+
+## B. Taxation of Airdrops
+
+The taxation of airdrops of tokens or cryptoassets depends upon the reasons for which the assets were received. Income tax does not apply to airdrops that are received in a personal capacity if they are provided without the recipient doing anything in return for them and are not provided as part of a trade or business that involves cryptoassets or mining. 24 Airdrops received in return for, or expectation of, a service are subject to income tax as either miscellaneous income or receipts of an existing trade.25 HMRC has further noted:
+
+The disposal of a cryptoasset received through an airdrop may result in a chargeable gain for Capital Gains Tax, even if it’s not chargeable to Income Tax when it’s received. Where changes in value get brought into account as part of a computation of trade profits Income Tax will take priority over Capital Gains Tax.26
+
+Capital gains tax may become chargeable upon the disposal of any cryptoassets received, regardless of whether it was payable upon the receipt of the assets.27
+
+<span id="page-125-0"></span>
+## C. Taxation of Forging
+
+There do not appear to be any specific references to staking or forging for proof of stake cryptocurrencies in the laws or policy of the UK.
+
+## D. Taxation of Blockchain Forks
+
+HMRC has stated that “hard forks” in the blockchain resulting in the creation of new cryptoassets will lead to an individual holding the same number of cryptoassets after a fork as they held on the original blockchain. HMRC notes “[t]he value of the new cryptoassets is derived from the original cryptoassets already held by the individual. This means that section 43 Taxation of Capital Gains Act 1992 will apply”28 upon the disposal of these assets. No tax is payable upon the receipt of the new cryptoassets.29
+
+One of the main difficulties arising when such assets are disposed of is the calculation of any allowable costs. HMRC notes that any new cryptoassets created after the fork must go into their own pool,30 and that allowable costs for pooling of the original cryptoassets must be split between the pool for both the new and original cryptoassets on a just and reasonable basis.31 HMRC has not issued any guidance regarding what it considers to be a just and reasonable basis, but it has stated that it may use its power to investigate any split that it does not believe has been made on this basis.32
+
+In cases where individuals hold cryptoassets through an exchange, the exchange must make the determination whether or not to recognize any new cryptoassets created by a fork in the blockchain. These newly created cryptoassets may only be disposed of if the exchange recognizes them. HMRC has acknowledged that potential difficulties may arise if the exchange does not recognize the new cryptoasset, as the blockchain will still show the individual as the owner of the new units of cryptoassets. It notes that it “will consider cases of difficulty as they arise.”33
+
+<span id="page-126-0"></span>
+# Venezuela
+
+# Graciela Rodriguez-Ferrand Senior Foreign Law Specialist
+
+## I. Introduction
+
+Under Decree 3196 of December 8, 2017,1 the government of Venezuela was authorized to create its own cryptocurrency, the petro, which would be physically backed by Venezuelan barrels of oil.2 One petro would be backed by a purchase-sale contract for one barrel of Venezuelan oil as quoted in the OPEC Reference Basket, as well as other commodities, including gold, diamonds, gas, and the mineral coltan.3
+
+All cryptocurrencies are considered to be a financial asset subject to the rules applicable to such assets under Decree 3196; none of its provisions declare cryptocurrencies other than the petro to be illegal.4
+
+In 2019, the Constitutional Decree on Cryptoassets (CDCA) was enacted to provide a legal framework on the creation, circulation, use, and exchange of all cryptoassets by natural and legal persons in both the public or private sector.5 It assigns the National Superintendency of Cryptocurrencies (Sunacrip) as the body that regulates crypto activity, with the following powers:
+
+• regulate the constitution, issuance, organization, operation, and use of cryptoassets,
+
+create and issue cryptoassets,
+
+• allow the operation of virtual exchange houses in Venezuela that operate with cryptoassets created by the National Executive,
+
+• regulate the cryptoassets market in Venezuela, the use and creation of virtual wallets, entities dedicated to savings and virtual brokerage of cryptoassets, and virtual mining activities.6
+
+The CDCA provides that the Venezuelan State will promote, protect and guarantee the use of cryptocurrencies as a means of payment in public institutions and in private, mixed or joint companies, either in or outside Venezuela.7 It also creates the registration system for virtual miners, virtual exchange houses, and other entities dedicated to saving and virtual intermediation of cryptoassets.8 Cryptocurrency miners are also required to obtain a license to operate. 9
+
+<span id="page-127-0"></span>
+## II. Tax Treatment of Cryptocurrency Mining
+
+Venezuelan regulations have not established a clear position on the way in which cryptoassets will be taxed.10
+
+However, tax experts consider that, under the income tax law11 and its regulations, operations and transactions involving cryptocurrency would be taxed as capital gains, with respect to any cryptoassets, including the petro.12
+
+According to tax experts, the activity of miners and virtual exchange houses are subject to income tax for their business activity. The assets used by miners to generate the digital assets, such as the technology equipment used, is subject to depreciation or revaluation for income tax computation purposes.13
+
+Regarding the Value Added Tax (VAT), the transfer of cryptocurrencies between users should not be subject to this tax, since the transfer of intangibles are not considered sales operations.14 However, the acquisition of input goods or services used in mining is subject to VAT.15

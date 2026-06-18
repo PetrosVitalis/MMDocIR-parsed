@@ -1,0 +1,1 @@
+<table><tr><td> Sample size</td><td>Margin of error 95% confidence level</td></tr><tr><td></td><td></td></tr><tr><td>Total Latinos 1,500</td><td> +/- 3.3% points</td></tr><tr><td>U.S. born (incl. PR) 705</td><td>+/- 4.8% points</td></tr><tr><td>Foreign born (excl. PR) 795</td><td>+/- 4.4% points</td></tr><tr><td>PEW RESEARCH CENTER</td><td></td></tr></table>

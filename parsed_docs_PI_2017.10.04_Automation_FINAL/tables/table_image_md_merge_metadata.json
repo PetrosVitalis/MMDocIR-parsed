@@ -1,0 +1,54 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_PI_2017.10.04_Automation_FINAL",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_5_Table_0.jpg",
+      "raw_md": "table_pg5_num0.md",
+      "csv_base": "table_pg5_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_21_Table_0.jpg",
+      "raw_md": "table_pg21_num0.md",
+      "csv_base": "table_pg21_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_row_count_lt_relaxed_6)"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_40_Table_0.jpg",
+      "raw_md": "table_pg40_num0.md",
+      "csv_base": "table_pg40_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_40_Table_1.jpg",
+      "raw_md": "table_pg40_num1.md",
+      "csv_base": "table_pg40_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_59_Table_0.jpg",
+      "raw_md": "table_pg59_num0.md",
+      "csv_base": "table_pg59_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

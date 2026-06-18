@@ -1,0 +1,125 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_OTC_LVMUY_2021",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_156_Table_0.jpg",
+      "raw_md": "table_pg156_num0.md",
+      "csv_base": "table_pg156_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_156_Table_1.jpg",
+      "raw_md": "table_pg156_num1.md",
+      "csv_base": "table_pg156_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_157_Table_0.jpg",
+      "raw_md": "table_pg157_num0.md",
+      "csv_base": "table_pg157_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_157_Table_1.jpg",
+      "raw_md": "table_pg157_num1.md",
+      "csv_base": "table_pg157_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_159_Table_0.jpg",
+      "raw_md": "table_pg159_num0.md",
+      "csv_base": "table_pg159_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_159_Table_1.jpg",
+      "raw_md": "table_pg159_num1.md",
+      "csv_base": "table_pg159_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_7",
+      "image": "_page_159_Table_2.jpg",
+      "raw_md": "table_pg159_num2.md",
+      "csv_base": "table_pg159_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_8",
+      "image": "_page_159_Table_3.jpg",
+      "raw_md": "table_pg159_num3.md",
+      "csv_base": "table_pg159_num3",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_9",
+      "image": "_page_160_Table_0.jpg",
+      "raw_md": "table_pg160_num0.md",
+      "csv_base": "table_pg160_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_10",
+      "image": "_page_160_Table_1.jpg",
+      "raw_md": "table_pg160_num1.md",
+      "csv_base": "table_pg160_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_11",
+      "image": "_page_160_Table_2.jpg",
+      "raw_md": "table_pg160_num2.md",
+      "csv_base": "table_pg160_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_12",
+      "image": "_page_160_Table_3.jpg",
+      "raw_md": "table_pg160_num3.md",
+      "csv_base": "table_pg160_num3",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

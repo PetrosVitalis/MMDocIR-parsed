@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Method</td><td>Lower quartile</td><td>Median</td><td>Upper quartile</td></tr><tr><td>2020</td><td>A</td><td>139:1</td><td>85:1</td><td>43:1</td></tr><tr><td>2019</td><td>A</td><td>169:1</td><td>105:1</td><td>52:1</td></tr></table>

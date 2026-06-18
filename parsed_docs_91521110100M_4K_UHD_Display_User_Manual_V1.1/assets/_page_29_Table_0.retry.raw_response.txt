@@ -1,0 +1,13 @@
+```csv
+Problem,"Check the following"
+"There is a black dot or dead pixel dot on the screen","A missing pixel does not constitute an out of spec. defective product"
+"Cannot turn power on","Turn off the power supply, and check that the AC cord or DC cord are securely inserted. After checking, turn on the power supply again."
+"It takes time for image to appear","Since the monitor processes various signals digitally to reproduce beautiful images, it may take time before images appear when it is turned on, input is switched, or when the mode is switched to \"Multi Window\"."
+"There are spots on the screen","There may be electrical distortion from vehicles, trains, high voltage lines or fluorescent lamps."
+"Bad color","Color density or tint control may not be adjusted properly. (See the adjusted value of image.)"
+"Image appears and disappears","Input may not be connected properly."
+"When changing the scan size, the top and bottom part of the screen does not show images","When using a video software program (such as a cinema size program) with a screen wider than one in the 16:9 mode, blank areas separate from the images are formed at the top and bottom of the screen."
+"Image contour flickers","Due to the characteristics of the display control, contour of animated parts of images may seem to flicker, but that is not a breakdown."
+"Color is extremely bad","Input configuration \"RGB\"/\"YPBPR\" may not be selected properly."
+"The POWER indicator is flashing orange","After checking the number of flashes, turn off the power and contact the dealer where the monitor was purchased."
+```

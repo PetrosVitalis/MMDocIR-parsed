@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Type</td><td rowspan=1 colspan=1>Valuation technique</td><td rowspan=1 colspan=1>Significant unobservable inputs</td></tr><tr><td rowspan=1 colspan=1>Secured bank loans</td><td rowspan=1 colspan=1>Discounted cash flows.</td><td rowspan=1 colspan=1>Not applicable.</td></tr></table>

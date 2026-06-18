@@ -1,0 +1,1 @@
+<table><tr><td></td><td>December 31, 2020</td><td>December 31, 2019</td></tr><tr><td>Crude oil (barrels)</td><td>(millions)</td><td></td></tr><tr><td></td><td>40</td><td>57</td></tr><tr><td>Petroleum products (barrels) Natural gas (MMBTUs)</td><td>(46)</td><td>(38)</td></tr><tr><td></td><td>(500)</td><td>(165)</td></tr></table>

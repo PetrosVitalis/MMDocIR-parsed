@@ -1,0 +1,1 @@
+<table><tr><td></td><td> $_ \mathrm { A c c }$ </td><td> $\Delta _ { G }$ </td><td> $\Delta _ { S }$ </td></tr><tr><td>FR (Ott et al., 2018)</td><td>49.4</td><td></td><td>42.616.1</td></tr><tr><td>DE (Edunov et al., 2018)</td><td>52.5</td><td>7.3</td><td>8.4</td></tr></table>

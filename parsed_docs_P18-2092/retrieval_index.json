@@ -1,0 +1,1712 @@
+{
+  "document_md_path": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_P18-2092/document.md",
+  "index_version": 9,
+  "pages": [
+    {
+      "page_id": 0,
+      "unit_id": "page-0",
+      "text": "# Exploiting Document Knowledge for Aspect-level Sentiment Classification\n\nRuidan He†‡, Wee Sun Lee†, Hwee Tou Ng†, and Daniel Dahlmeier‡\n\n†Department of Computer Science, National University of Singapore\n\n‡SAP Innovation Center Singapore\n\n†{ruidanhe,leews,nght}@comp.nus.edu.sg ‡d.dahlmeier@sap.com\n\n## Abstract\n\nAttention-based long short-term memory (LSTM) networks have proven to be useful in aspect-level sentiment classification. However, due to the difficulties in annotating aspect-level data, existing public datasets for this task are all relatively small, which largely limits the effectiveness of those neural models. In this paper, we explore two approaches that transfer knowledge from documentlevel data, which is much less expensive to obtain, to improve the performance of aspect-level sentiment classification. We demonstrate the effectiveness of our approaches on 4 public datasets from SemEval 2014, 2015, and 2016, and we show that attention-based LSTM benefits from document-level knowledge in multiple ways.\n\n## 1 Introduction\n\nGiven a sentence and an opinion target (also called an aspect term) occurring in the sentence, aspectlevel sentiment classification aims to determine the sentiment polarity in the sentence towards the opinion target. An opinion target or target for short refers to a word or a phrase describing an aspect of an entity. For example, in the sentence “This little place has a cute interior decor but the prices are quite expensive”, the targets are interior decor and prices, and they are associated with positive and negative sentiment respectively.\n\nA sentence may contain multiple sentimenttarget pairs, thus one challenge is to separate different opinion contexts for different targets. For this purpose, state-of-the-art neural methods (Wang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) adopt attention-based LSTM networks, where the LSTM aims to capture sequential patterns and the attention mechanism aims to emphasize target-specific contexts for encoding sentence representations. Typically, LSTMs only show their potential when trained on large datasets. However, aspect-level training data requires the annotation of all opinion targets in a sentence, which is costly to obtain in practice. As such, existing public aspect-level datasets are all relatively small. Insufficient training data limits the effectiveness of neural models.\n\nDespite the lack of aspect-level labeled data, enormous document-level labeled data are easily accessible online such as Amazon reviews. These reviews contain substantial linguistic patterns and come with sentiment labels naturally. In this paper, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification. Specifically, we explore two transfer methods to incorporate this sort of knowledge – pretraining and multi-task learning. In our experiments, we find that both methods are helpful and combining them achieves significant improvements over attentionbased LSTM models trained only on aspect-level data. We also illustrate by examples that additional knowledge from document-level data is beneficial in multiple ways. Our source code can be obtained from https://github.com/ ruidan/Aspect-level-sentiment.\n\n## 2 Related Work\n\nVarious neural models (Dong et al., 2014; Nguyen and Shirai, 2015; Vo and Zhang, 2015; Tang et al., 2016a,b; Wang et al., 2016; Zhang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) have been proposed for aspect-level sentiment classification. The main idea behind these works is to develop neural architectures that are able to learn continuous features and capture the intricate relation between a target and context words. However, to sufficiently train these models, substantial aspectlevel annotated data is required, which is expensive to obtain in practice.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Exploiting Document Knowledge for Aspect-level Sentiment Classification",
+        "Abstract",
+        "1 Introduction",
+        "2 Related Work"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Exploiting Document Knowledge for Aspect-level Sentiment Classification\n\nRuidan He†‡, Wee Sun Lee†, Hwee Tou Ng†, and Daniel Dahlmeier‡\n\n†Department of Computer Science, National University of Singapore\n\n‡SAP Innovation Center Singapore\n\n†{ruidanhe,leews,nght}@comp.nus.edu.sg ‡d.dahlmeier@sap.com\n\n## Abstract\n\nAttention-based long short-term memory (LSTM) networks have proven to be useful in aspect-level sentiment classification. However, due to the difficulties in annotating aspect-level data, existing public datasets for this task are all relatively small, which largely limits the effectiveness of those neural models. In this paper, we explore two approaches that transfer knowledge from documentlevel data, which is much less expensive to obtain, to improve the performance of aspect-level sentiment classification. We demonstrate the effectiveness of our approaches on 4 public datasets from SemEval 2014, 2015, and 2016, and we show that attention-based LSTM benefits from document-level knowledge in multiple ways.\n\n## 1 Introduction\n\nGiven a sentence and an opinion target (also called an aspect term) occurring in the sentence, aspectlevel sentiment classification aims to determine the sentiment polarity in the sentence towards the opinion target. An opinion target or target for short refers to a word or a phrase describing an aspect of an entity. For example, in the sentence “This little place has a cute interior decor but the prices are quite expensive”, the targets are interior decor and prices, and they are associated with positive and negative sentiment respectively.\n\nA sentence may contain multiple sentimenttarget pairs, thus one challenge is to separate different opinion contexts for different targets. For this purpose, state-of-the-art neural methods (Wang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) adopt attention-based LSTM networks, where the LSTM aims to capture sequential patterns and the attention mechanism aims to emphasize target-specific contexts for encoding sentence representations. Typically, LSTMs only show their potential when trained on large datasets. However, aspect-level training data requires the annotation of all opinion targets in a sentence, which is costly to obtain in practice. As such, existing public aspect-level datasets are all relatively small. Insufficient training data limits the effectiveness of neural models.\n\nDespite the lack of aspect-level labeled data, enormous document-level labeled data are easily accessible online such as Amazon reviews. These reviews contain substantial linguistic patterns and come with sentiment labels naturally. In this paper, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification. Specifically, we explore two transfer methods to incorporate this sort of knowledge – pretraining and multi-task learning. In our experiments, we find that both methods are helpful and combining them achieves significant improvements over attentionbased LSTM models trained only on aspect-level data. We also illustrate by examples that additional knowledge from document-level data is beneficial in multiple ways. Our source code can be obtained from https://github.com/ ruidan/Aspect-level-sentiment.\n\n## 2 Related Work\n\nVarious neural models (Dong et al., 2014; Nguyen and Shirai, 2015; Vo and Zhang, 2015; Tang et al., 2016a,b; Wang et al., 2016; Zhang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) have been proposed for aspect-level sentiment classification. The main idea behind these works is to develop neural architectures that are able to learn continuous features and capture the intricate relation between a target and context words. However, to sufficiently train these models, substantial aspectlevel annotated data is required, which is expensive to obtain in practice."
+    },
+    {
+      "page_id": 1,
+      "unit_id": "page-1",
+      "text": "We explore both pretraining and multi-task learning for transferring knowledge from document level to aspect level. Both methods are widely studied in the literature. Pretraining is a common technique used in computer vision where low-level neural layers can be usefully transferred to different tasks (Krizhevsky and Sutskever, 2012; Zeiler and Fergus, 2014). In natural language processing (NLP), some efforts have been initiated on pretraining LSTMs (Dai and Le, 2015; Zoph et al., 2016; Ramachandran et al., 2017) for sequence-to-sequence models in both supervised and unsupervised settings, where promising results have been obtained. On the other hand, multi-task learning simultaneously trains on samples in multiple tasks with a combined objective (Collobert and Weston, 2008; Luong et al., 2015a; Liu et al., 2016), which has improved model generalization ability in certain cases. In the work of Mou et al. (2016), the authors investigated the transferability of neural models in NLP applications with extensive experiments, showing that transferability largely depends on the semantic relatedness of the source and target tasks. For our problem, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification, as these two tasks are highly related semantically.\n\n## 3 Models\n\n## 3.1 Attention-based LSTM\n\nWe first describe a conventional implementation of an attention-based LSTM model for this task. We use it as a baseline model and extend it with pretraining and multi-task learning approaches for incorporating document-level knowledge.\n\nThe inputs are a sentence $s = ( w _ { 1 } , w _ { 2 } , . . . , w _ { n } )$ consisting of n words, and an opinion target $x =$ $( x _ { 1 } , x _ { 2 } , . . . , x _ { m } )$ occurring in the sentence consisting of a subsequence of m words from s. Each word is associated with a continuous word embedding ${ \\bf e } _ { w }$ (Mikolov et al., 2013) from an embedding matrix $\\mathbf { E } \\in \\mathbb { R } ^ { V \\times d }$ , where V is the vocabulary size and d is the embedding dimension.\n\nLSTM is used to capture sequential information, and outputs a sequence of hidden vectors:\n\n$$\n[ \\mathbf { h } _ { 1 } , . . . , \\mathbf { h } _ { n } ] = \\mathrm { L S T M } ( [ \\mathbf { e } _ { w _ { 1 } } , . . . , \\mathbf { e } _ { w _ { n } } ] , \\theta _ { l s t m } )\\tag{1}\n$$\n\nAn attention layer assigns a weight $\\alpha _ { i }$ to each word in the sentence. The final target-specific representation of the sentence s is then given by:\n\n$$\n\\mathbf { z } = \\sum _ { i = 1 } ^ { n } \\alpha _ { i } \\mathbf { h } _ { i }\\tag{2}\n$$\n\nAnd $\\alpha _ { i }$ is computed as follows:\n\n$$\n\\alpha _ { i } = \\frac { \\exp ( \\beta _ { i } ) } { \\sum _ { j = 1 } ^ { n } \\exp ( \\beta _ { j } ) }\\tag{3}\n$$\n\n$$\n\\beta _ { i } = f _ { s c o r e } ( \\mathbf { h } _ { i } , \\mathbf { t } ) = t a n h ( \\mathbf { h } _ { i } ^ { T } \\mathbf { W } _ { a } \\mathbf { t } )\n$$\n\n$$\n\\mathbf { t } = \\frac { 1 } { m } \\sum _ { i = 1 } ^ { m } \\mathbf { e } _ { x _ { i } }\\tag{4}\n$$\n\n(5)\n\nwhere t is the target representation computed as the averaged word embedding of the target. $f _ { s c o r e }$ is a content-based function that captures the semantic association between a word and the target, for which we adopt the formulation used in (Luong et al., 2015b; He et al., 2017) with parameter matrix $\\mathbf { W } _ { a } \\in \\mathbb { R } ^ { d \\times d }$\n\nThe sentence representation z is fed into an output layer to predict the probability distribution p over sentiment labels on the target:\n\n$$\n\\mathbf { p } = s o f t m a x ( \\mathbf { W } _ { o } \\mathbf { z } + \\mathbf { b } _ { o } )\\tag{6}\n$$\n\nWe refer to this baseline model as LSTM+ATT. It is trained via cross entropy minimization:\n\n$$\nJ = - \\sum _ { i \\in D } \\log \\mathbf { p } _ { i } ( c _ { i } )\\tag{7}\n$$\n\nwhere D denotes the overall training corpus, $c _ { i }$ denotes the true label for sample i, and $\\mathbf { p } _ { i } ( c _ { i } )$ denotes the probability of the true label.\n\n## 3.2 Transfer Approaches\n\nLSTM+ATT is used as our aspect-level model with parameter set $\\begin{array} { r l } { \\theta _ { a s p e c t } ~ } & { { } = } \\end{array}$ $\\{ \\mathbf { E } , \\theta _ { l s t m } , \\mathbf { W } _ { a } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o } \\}$ We also build a standard LSTM-based classifier based on document-level training examples. This network is the same as the LSTM+ATT apart from the lack of the attention layer. The training objective is also cross entropy minimization as shown in equation (7) and the parameter set is $\\theta _ { d o c } = \\{ \\mathbf { E } ^ { \\prime } , \\theta _ { l s t m } ^ { \\prime } , \\mathbf { W } _ { o } ^ { \\prime } , \\mathbf { b } _ { o } ^ { \\prime } \\}$\n\nPretraining (PRET): In this setting, we first train on document-level examples. The last hidden vector from the LSTM outputs is used as the document representation. We initialize the relevant parameters E, $\\theta _ { l s t m } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o }$ of LSTM+ATT with the pretrained weights, and train it on aspect-level examples to fine tune those weights and learn ${ \\bf W } _ { a }$ which is randomly initialized.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "3 Models",
+        "3.1 Attention-based LSTM",
+        "3.2 Transfer Approaches"
+      ],
+      "table_context": "",
+      "retrieval_text": "We explore both pretraining and multi-task learning for transferring knowledge from document level to aspect level. Both methods are widely studied in the literature. Pretraining is a common technique used in computer vision where low-level neural layers can be usefully transferred to different tasks (Krizhevsky and Sutskever, 2012; Zeiler and Fergus, 2014). In natural language processing (NLP), some efforts have been initiated on pretraining LSTMs (Dai and Le, 2015; Zoph et al., 2016; Ramachandran et al., 2017) for sequence-to-sequence models in both supervised and unsupervised settings, where promising results have been obtained. On the other hand, multi-task learning simultaneously trains on samples in multiple tasks with a combined objective (Collobert and Weston, 2008; Luong et al., 2015a; Liu et al., 2016), which has improved model generalization ability in certain cases. In the work of Mou et al. (2016), the authors investigated the transferability of neural models in NLP applications with extensive experiments, showing that transferability largely depends on the semantic relatedness of the source and target tasks. For our problem, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification, as these two tasks are highly related semantically.\n\n## 3 Models\n\n## 3.1 Attention-based LSTM\n\nWe first describe a conventional implementation of an attention-based LSTM model for this task. We use it as a baseline model and extend it with pretraining and multi-task learning approaches for incorporating document-level knowledge.\n\nThe inputs are a sentence $s = ( w _ { 1 } , w _ { 2 } , . . . , w _ { n } )$ consisting of n words, and an opinion target $x =$ $( x _ { 1 } , x _ { 2 } , . . . , x _ { m } )$ occurring in the sentence consisting of a subsequence of m words from s. Each word is associated with a continuous word embedding ${ \\bf e } _ { w }$ (Mikolov et al., 2013) from an embedding matrix $\\mathbf { E } \\in \\mathbb { R } ^ { V \\times d }$ , where V is the vocabulary size and d is the embedding dimension.\n\nLSTM is used to capture sequential information, and outputs a sequence of hidden vectors:\n\n$$\n[ \\mathbf { h } _ { 1 } , . . . , \\mathbf { h } _ { n } ] = \\mathrm { L S T M } ( [ \\mathbf { e } _ { w _ { 1 } } , . . . , \\mathbf { e } _ { w _ { n } } ] , \\theta _ { l s t m } )\\tag{1}\n$$\n\nAn attention layer assigns a weight $\\alpha _ { i }$ to each word in the sentence. The final target-specific representation of the sentence s is then given by:\n\n$$\n\\mathbf { z } = \\sum _ { i = 1 } ^ { n } \\alpha _ { i } \\mathbf { h } _ { i }\\tag{2}\n$$\n\nAnd $\\alpha _ { i }$ is computed as follows:\n\n$$\n\\alpha _ { i } = \\frac { \\exp ( \\beta _ { i } ) } { \\sum _ { j = 1 } ^ { n } \\exp ( \\beta _ { j } ) }\\tag{3}\n$$\n\n$$\n\\beta _ { i } = f _ { s c o r e } ( \\mathbf { h } _ { i } , \\mathbf { t } ) = t a n h ( \\mathbf { h } _ { i } ^ { T } \\mathbf { W } _ { a } \\mathbf { t } )\n$$\n\n$$\n\\mathbf { t } = \\frac { 1 } { m } \\sum _ { i = 1 } ^ { m } \\mathbf { e } _ { x _ { i } }\\tag{4}\n$$\n\n(5)\n\nwhere t is the target representation computed as the averaged word embedding of the target. $f _ { s c o r e }$ is a content-based function that captures the semantic association between a word and the target, for which we adopt the formulation used in (Luong et al., 2015b; He et al., 2017) with parameter matrix $\\mathbf { W } _ { a } \\in \\mathbb { R } ^ { d \\times d }$\n\nThe sentence representation z is fed into an output layer to predict the probability distribution p over sentiment labels on the target:\n\n$$\n\\mathbf { p } = s o f t m a x ( \\mathbf { W } _ { o } \\mathbf { z } + \\mathbf { b } _ { o } )\\tag{6}\n$$\n\nWe refer to this baseline model as LSTM+ATT. It is trained via cross entropy minimization:\n\n$$\nJ = - \\sum _ { i \\in D } \\log \\mathbf { p } _ { i } ( c _ { i } )\\tag{7}\n$$\n\nwhere D denotes the overall training corpus, $c _ { i }$ denotes the true label for sample i, and $\\mathbf { p } _ { i } ( c _ { i } )$ denotes the probability of the true label.\n\n## 3.2 Transfer Approaches\n\nLSTM+ATT is used as our aspect-level model with parameter set $\\begin{array} { r l } { \\theta _ { a s p e c t } ~ } & { { } = } \\end{array}$ $\\{ \\mathbf { E } , \\theta _ { l s t m } , \\mathbf { W } _ { a } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o } \\}$ We also build a standard LSTM-based classifier based on document-level training examples. This network is the same as the LSTM+ATT apart from the lack of the attention layer. The training objective is also cross entropy minimization as shown in equation (7) and the parameter set is $\\theta _ { d o c } = \\{ \\mathbf { E } ^ { \\prime } , \\theta _ { l s t m } ^ { \\prime } , \\mathbf { W } _ { o } ^ { \\prime } , \\mathbf { b } _ { o } ^ { \\prime } \\}$\n\nPretraining (PRET): In this setting, we first train on document-level examples. The last hidden vector from the LSTM outputs is used as the document representation. We initialize the relevant parameters E, $\\theta _ { l s t m } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o }$ of LSTM+ATT with the pretrained weights, and train it on aspect-level examples to fine tune those weights and learn ${ \\bf W } _ { a }$ which is randomly initialized."
+    },
+    {
+      "page_id": 2,
+      "unit_id": "page-2",
+      "text": "Table 1: Dataset description.\n![](tables/table_pg2_num0.csv)\n\nMulti-task Learning (MULT): This approach simultaneously trains two tasks – document-level and aspect-level classification. In this setting, the embedding layer (E) and the LSTM layer $( \\theta _ { l s t m } )$ are shared by both tasks, and a document is represented as the mean vector over LSTM outputs. The other parameters are task-specific. The overall loss function is then given by:\n\n$$\nL = J + \\lambda U\\tag{8}\n$$\n\nwhere U is the loss function of document-level classification. $\\lambda \\in ( 0 , 1 )$ is a hyperparameter that controls the weight of U .\n\nCombined (PRET+MULT): In this setting, we first perform PRET on document-level examples. We use the pretrained weights for parameter initialization for both aspect-level model and document-level model, and then perform MULT as discussed above.\n\n## 4 Experiments\n\n## 4.1 Datasets and Experimental Settings\n\nWe run experiments on four benchmark aspectlevel datasets, taken from SemEval 2014 (Pontiki et al., 2014), SemEval 2015 (Pontiki et al., 2015), and SemEval 2016 (Pontiki et al., 2016). Following previous work (Tang et al., 2016b; Wang et al., 2016), we remove samples with conflicting polarities in all datasets1. Statistics of the resulting datasets are presented in Table 1.\n\nWe derived two document-level datasets from Yelp2014 (Tang et al., 2015) and the Amazon Electronics dataset (McAuley et al., 2015) respectively. The original reviews were rated on a 5- point scale. We consider 3-class classification and thus label reviews with rating $< 3 , > 3 ,$ and = 3 as negative, positive, and neutral respectively. Each sampled dataset contains 30k instances with exactly balanced class labels. We pair up an aspectlevel dataset and a document-level dataset when they are from a similar domain – the Yelp dataset is used by D1, D3, and D4 for PRET and MULT, and the Electronics dataset is only used by D2.\n\nIn all experiments, 300-dimension GloVe vectors (Pennington et al., 2014) are used to initialize E and $\\mathbf { E ^ { \\prime } }$ when pretraining is not conducted for weight initialization. These vectors are also used for initializing $\\mathbf { E ^ { \\prime } }$ in the pretraining phase. Values for hyperparameters are obtained from experiments on development sets. We randomly sample 20% of the original training data from the aspectlevel dataset as the development set and only use the remaining 80% for training. For all experiments, the dimension of LSTM hidden vectors is set to 300, λ is set to 0.1, and we use dropout with probability 0.5 on sentence/document representations before the output layer. We use RMSProp as the optimizer with the decay rate set to 0.9 and the base learning rate set to 0.001. The mini-batch size is set to 32.\n\n## 4.2 Model Comparison\n\nTable 2 shows the results of LSTM, LSTM+ATT, PRET, MULT, PRET+MULT, and four representative prior works (Tang et al., 2016a,b; Wang et al., 2016; Chen et al., 2017). Significance tests are conducted for testing the robustness of methods under random parameter initialization. Both accuracy and macro-F1 are used for evaluation as label distribution is unbalanced. The reported numbers are obtained as the average value over 5 runs with random initialization for each method.\n\nWe observe that PRET is very helpful, and consistently gives a 1–3% increase in accuracy over LSTM+ATT across all datasets. The improvements in macro-F1 scores are even more, especially on D3 and D4 where the labels are extremely unbalanced. MULT gives similar performance as LSTM+ATT on D1 and D2, but improvements can be clearly observed for D3 and D4. The combination (PRET+MULT) overall yields better results.\n\nThere are two main reasons why the improvements of macro-F1 scores are more significant on D3 and D4 than on D1: (1) D1 has much more neutral examples in the training set. A classifier without any external knowledge might still be able to learn some neutral-related features on D1 but it is very hard to learn from D3 and D4. (2) The numbers of neutral examples in the test sets of D3 and D4 are very small. Thus, the precision and recall on neutral class will be largely affected by even a small prediction difference (e.g., with 5 more neutral examples correctly identified, recall is increased by more than 10% on both datasets). As a result, the macro-F1 scores on D3 and D4 are affected more.",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg2_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg2_num0.csv"
+      ],
+      "headings": [
+        "4 Experiments",
+        "4.1 Datasets and Experimental Settings",
+        "4.2 Model Comparison"
+      ],
+      "table_context": "table_pg2_num0.csv: Table columns: Dataset, Pos, Neg, Neu Row labels: Restaurant14-Train, Restaurant14-Test, Laptop14-Train, Laptop14-Test, Restaurant15-Train, Restaurant15-Test, Restaurant16-Train, Restaurant16-Test Restaurant14-Train: Neg=2164; Neu=807 Restaurant14-Test: Neg=728; Neu=196 Laptop14-Train: Neg=994; Neu=870 Laptop14-Test: Neg=341; Neu=128",
+      "retrieval_text": "Table 1: Dataset description.\n![](tables/table_pg2_num0.csv)\n\nMulti-task Learning (MULT): This approach simultaneously trains two tasks – document-level and aspect-level classification. In this setting, the embedding layer (E) and the LSTM layer $( \\theta _ { l s t m } )$ are shared by both tasks, and a document is represented as the mean vector over LSTM outputs. The other parameters are task-specific. The overall loss function is then given by:\n\n$$\nL = J + \\lambda U\\tag{8}\n$$\n\nwhere U is the loss function of document-level classification. $\\lambda \\in ( 0 , 1 )$ is a hyperparameter that controls the weight of U .\n\nCombined (PRET+MULT): In this setting, we first perform PRET on document-level examples. We use the pretrained weights for parameter initialization for both aspect-level model and document-level model, and then perform MULT as discussed above.\n\n## 4 Experiments\n\n## 4.1 Datasets and Experimental Settings\n\nWe run experiments on four benchmark aspectlevel datasets, taken from SemEval 2014 (Pontiki et al., 2014), SemEval 2015 (Pontiki et al., 2015), and SemEval 2016 (Pontiki et al., 2016). Following previous work (Tang et al., 2016b; Wang et al., 2016), we remove samples with conflicting polarities in all datasets1. Statistics of the resulting datasets are presented in Table 1.\n\nWe derived two document-level datasets from Yelp2014 (Tang et al., 2015) and the Amazon Electronics dataset (McAuley et al., 2015) respectively. The original reviews were rated on a 5- point scale. We consider 3-class classification and thus label reviews with rating $< 3 , > 3 ,$ and = 3 as negative, positive, and neutral respectively. Each sampled dataset contains 30k instances with exactly balanced class labels. We pair up an aspectlevel dataset and a document-level dataset when they are from a similar domain – the Yelp dataset is used by D1, D3, and D4 for PRET and MULT, and the Electronics dataset is only used by D2.\n\nIn all experiments, 300-dimension GloVe vectors (Pennington et al., 2014) are used to initialize E and $\\mathbf { E ^ { \\prime } }$ when pretraining is not conducted for weight initialization. These vectors are also used for initializing $\\mathbf { E ^ { \\prime } }$ in the pretraining phase. Values for hyperparameters are obtained from experiments on development sets. We randomly sample 20% of the original training data from the aspectlevel dataset as the development set and only use the remaining 80% for training. For all experiments, the dimension of LSTM hidden vectors is set to 300, λ is set to 0.1, and we use dropout with probability 0.5 on sentence/document representations before the output layer. We use RMSProp as the optimizer with the decay rate set to 0.9 and the base learning rate set to 0.001. The mini-batch size is set to 32.\n\n## 4.2 Model Comparison\n\nTable 2 shows the results of LSTM, LSTM+ATT, PRET, MULT, PRET+MULT, and four representative prior works (Tang et al., 2016a,b; Wang et al., 2016; Chen et al., 2017). Significance tests are conducted for testing the robustness of methods under random parameter initialization. Both accuracy and macro-F1 are used for evaluation as label distribution is unbalanced. The reported numbers are obtained as the average value over 5 runs with random initialization for each method.\n\nWe observe that PRET is very helpful, and consistently gives a 1–3% increase in accuracy over LSTM+ATT across all datasets. The improvements in macro-F1 scores are even more, especially on D3 and D4 where the labels are extremely unbalanced. MULT gives similar performance as LSTM+ATT on D1 and D2, but improvements can be clearly observed for D3 and D4. The combination (PRET+MULT) overall yields better results.\n\nThere are two main reasons why the improvements of macro-F1 scores are more significant on D3 and D4 than on D1: (1) D1 has much more neutral examples in the training set. A classifier without any external knowledge might still be able to learn some neutral-related features on D1 but it is very hard to learn from D3 and D4. (2) The numbers of neutral examples in the test sets of D3 and D4 are very small. Thus, the precision and recall on neutral class will be largely affected by even a small prediction difference (e.g., with 5 more neutral examples correctly identified, recall is increased by more than 10% on both datasets). As a result, the macro-F1 scores on D3 and D4 are affected more.\n\nTable context: table_pg2_num0.csv: Table columns: Dataset, Pos, Neg, Neu Row labels: Restaurant14-Train, Restaurant14-Test, Laptop14-Train, Laptop14-Test, Restaurant15-Train, Restaurant15-Test, Restaurant16-Train, Restaurant16-Test Restaurant14-Train: Neg=2164; Neu=807 Restaurant14-Test: Neg=728; Neu=196 Laptop14-Train: Neg=994; Neu=870 Laptop14-Test: Neg=341; Neu=128"
+    },
+    {
+      "page_id": 3,
+      "unit_id": "page-3",
+      "text": "Table 2: Average accuracies and Macro-F1 scores over 5 runs with random initialization. The best results are in bold. ∗ indicates that PRET+MULT is significantly better than Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, and LSTM+ATT with $p < 0 . 0 5$ according to one-tailed unpaired t-test.\n![](tables/table_pg3_num0.csv)\n\nTable 3: PRET with different transferred layers. Averaged results over 5 runs are reported.\n![](tables/table_pg3_num1.csv)\n\n## 4.3 Ablation Tests\n\nTable 2 indicates that a large percentage of the performance gain comes from PRET. To better understand the transfer effects of different layers – embedding layer (E), LSTM layer $( \\theta _ { l s t m } )$ , and output layer $( \\mathbf { W } _ { o } , \\mathbf { b } _ { o } )$ – we conduct ablation tests on PRET with different layers transfered from the document-level model to the aspect-level model. Results are presented in Table 3. “LSTM only” denotes the setting where only the LSTM layer is transferred, and “Without LSTM” denotes the setting where only the embedding and output layers are transferred (excluding the LSTM layer). The key observations are: (1) Transfer is helpful in all settings. Improvements over LSTM+ATT are observed even when only one layer is transferred. (2) Overall, transfers of the LSTM and embedding layer are more useful than the output layer. This is what we expect, since the output layer is normally more task-specific. (3) Transfer of the embedding layer is more helpful on D3 and D4. One possible explanation is that the label distribution is extremely unbalanced on these two datasets. Sentiment information is not adequately captured by GloVe word embeddings. Therefore, with a small number of training examples in the negative and neutral classes, the embeddings trained by aspectlevel classification still do not effectively capture the true semantics of the relevant opinion words. Transfer of the embedding layer can greatly help in this case.\n\n## 4.4 Analysis\n\nTo show that aspect-level classification indeed benefits from document-level knowledge, we conduct experiments to vary the percentage of document-level training examples from 0.0 to 1.0 for PRET+MULT. The changes of accuracies and macro-F1 scores on the four datasets are shown in Figure 1. The improvements on accuracies with increasing number of document examples are stable across all datasets. For macro-F1 scores, the improvements on D1 and D2 are stable. We observe sharp increases in the macro-F1 scores of D3 and D4 when changing the percentage from 0 to 0.4. This may be related to their extremely unbalanced label distribution. In such cases, with the knowledge gained from a small number of balanced document-level examples, aspect-level predictions on neutral examples can be significantly improved.",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg3_num0.csv",
+        "tables/table_pg3_num1.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg3_num0.csv",
+        "tables/table_pg3_num1.csv"
+      ],
+      "headings": [
+        "4.3 Ablation Tests",
+        "4.4 Analysis"
+      ],
+      "table_context": "table_pg3_num0.csv: Table columns: Methods, D1, D1, D2, D2, D3, D3, D4, D4 Row labels: Methods, Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, LSTM+ATT, Ours: PRET Methods: D1=Acc.; D1=Macro-F1; D2=Acc. Tang et al. (2016a): D1=75.37; D1=64.51; D2=68.25 Wang et al. (2016): D1=78.60; D1=67.02; D2=68.88 Tang et al. (2016b): D1=76.87; D1=66.40; D2=68.91 table_pg3_num1.csv: Table columns: Settings, D1 Accuracy, D1 Macro-F1, D2 Accuracy, D2 Macro-F1, D3 Accuracy, D3 Macro-F1, D4 Accuracy, D4 Macro-F1 Row labels: LSTM only, Embeddings only, Output layer only, Without LSTM, Without embeddings, Without output layer LSTM only: D1 Accuracy=78.09; D1 Macro-F1=67.85; D2 Accuracy=71.04 Embeddings only: D1 Accuracy=77.12; D1 Macro-F1=67.19; D2 Accuracy=69.12 Output layer only: D1 Accuracy=76.88; D1 Macro-F1=66.81; D2 Accuracy=69.63 Without LSTM: D1 Accuracy=77.45; D1 Macro-F1=67.25; D2 Accuracy=69.82",
+      "retrieval_text": "Table 2: Average accuracies and Macro-F1 scores over 5 runs with random initialization. The best results are in bold. ∗ indicates that PRET+MULT is significantly better than Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, and LSTM+ATT with $p < 0 . 0 5$ according to one-tailed unpaired t-test.\n![](tables/table_pg3_num0.csv)\n\nTable 3: PRET with different transferred layers. Averaged results over 5 runs are reported.\n![](tables/table_pg3_num1.csv)\n\n## 4.3 Ablation Tests\n\nTable 2 indicates that a large percentage of the performance gain comes from PRET. To better understand the transfer effects of different layers – embedding layer (E), LSTM layer $( \\theta _ { l s t m } )$ , and output layer $( \\mathbf { W } _ { o } , \\mathbf { b } _ { o } )$ – we conduct ablation tests on PRET with different layers transfered from the document-level model to the aspect-level model. Results are presented in Table 3. “LSTM only” denotes the setting where only the LSTM layer is transferred, and “Without LSTM” denotes the setting where only the embedding and output layers are transferred (excluding the LSTM layer). The key observations are: (1) Transfer is helpful in all settings. Improvements over LSTM+ATT are observed even when only one layer is transferred. (2) Overall, transfers of the LSTM and embedding layer are more useful than the output layer. This is what we expect, since the output layer is normally more task-specific. (3) Transfer of the embedding layer is more helpful on D3 and D4. One possible explanation is that the label distribution is extremely unbalanced on these two datasets. Sentiment information is not adequately captured by GloVe word embeddings. Therefore, with a small number of training examples in the negative and neutral classes, the embeddings trained by aspectlevel classification still do not effectively capture the true semantics of the relevant opinion words. Transfer of the embedding layer can greatly help in this case.\n\n## 4.4 Analysis\n\nTo show that aspect-level classification indeed benefits from document-level knowledge, we conduct experiments to vary the percentage of document-level training examples from 0.0 to 1.0 for PRET+MULT. The changes of accuracies and macro-F1 scores on the four datasets are shown in Figure 1. The improvements on accuracies with increasing number of document examples are stable across all datasets. For macro-F1 scores, the improvements on D1 and D2 are stable. We observe sharp increases in the macro-F1 scores of D3 and D4 when changing the percentage from 0 to 0.4. This may be related to their extremely unbalanced label distribution. In such cases, with the knowledge gained from a small number of balanced document-level examples, aspect-level predictions on neutral examples can be significantly improved.\n\nTable context: table_pg3_num0.csv: Table columns: Methods, D1, D1, D2, D2, D3, D3, D4, D4 Row labels: Methods, Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, LSTM+ATT, Ours: PRET Methods: D1=Acc.; D1=Macro-F1; D2=Acc. Tang et al. (2016a): D1=75.37; D1=64.51; D2=68.25 Wang et al. (2016): D1=78.60; D1=67.02; D2=68.88 Tang et al. (2016b): D1=76.87; D1=66.40; D2=68.91 table_pg3_num1.csv: Table columns: Settings, D1 Accuracy, D1 Macro-F1, D2 Accuracy, D2 Macro-F1, D3 Accuracy, D3 Macro-F1, D4 Accuracy, D4 Macro-F1 Row labels: LSTM only, Embeddings only, Output layer only, Without LSTM, Without embeddings, Without output layer LSTM only: D1 Accuracy=78.09; D1 Macro-F1=67.85; D2 Accuracy=71.04 Embeddings only: D1 Accuracy=77.12; D1 Macro-F1=67.19; D2 Accuracy=69.12 Output layer only: D1 Accuracy=76.88; D1 Macro-F1=66.81; D2 Accuracy=69.63 Without LSTM: D1 Accuracy=77.45; D1 Macro-F1=67.25; D2 Accuracy=69.82"
+    },
+    {
+      "page_id": 4,
+      "unit_id": "page-4",
+      "text": "### Full Page Description (Page 4)\n\n**Source:** `assets/_page_4_Asset_0.jpg`\n\n**Generated:** 2026-05-30 10:06:04\n\n---\n\nThe image is a line graph with four distinct lines representing different datasets (D1, D2, D3, and D4). The x-axis represents a range from 0 to 1, and the y-axis represents accuracy percentage, ranging from 65 to 85. Each line shows an increasing trend as the x-axis value increases. The legend indicates that D1 and D2 are represented by blue squares, D3 by gray diamonds, and D4 by red stars. The graph visually compares the performance of these datasets across the range of x-axis values.\n\n\n### Full Page Description (Page 4)\n\n**Source:** `assets/_page_4_Asset_1.jpg`\n\n**Generated:** 2026-05-30 10:05:57\n\n---\n\nThe image is a line graph with four distinct lines representing different datasets (D1, D2, D3, and D4). The x-axis represents a range from 0 to 1, and the y-axis represents Macro-F1 percentage, which ranges from 60 to 70. The graph shows the performance of these datasets across different values on the x-axis. D1 and D3 show a general upward trend, while D2 and D4 show more fluctuating performance. The legend at the bottom identifies each dataset by color and label.\n\nTo better understand in which conditions the proposed method is helpful, we analyze a subset of test examples that are correctly classified by PRET+MULT but are misclassified by LSTM+ATT. We find that the benefits brought by document-level knowledge are typically shown in four ways.\n\nFirst of all, to our surprise, LSTM+ATT made obvious mistakes on some instances with common opinion words. Below are two examples where the target is enclosed in [] with its true sentiment indicated in the subscript:\n\n1. “I was highly disappointed in the [food]neg.”\n\n2. “This particular location certainly uses substandard [meats]neg.”\n\nIn the above examples, LSTM+ATT does attend to the right opinion words, but makes the wrong predictions. One possible reason is that the word embeddings from GloVe without PRET do not effectively capture sentiment information, while the aspect-level training samples are not sufficient to capture that for certain words. PRET+MULT eliminates this kind of errors.\n\nAnother finding is that our method helps to better capture domain-specific opinion words due to additional knowledge from documents that are\n\nfrom a similar domain:\n\n1. “The smaller $[ s i z e ] _ { p o s }$ was a bonus because of space restrictions.”\n\n2. “The [price]pos is 200 dollars down.”\n\nLSTM+ATT attends on smaller correctly for the first example but makes the wrong prediction as smaller can be negative in many cases. It does not even capture down in the second example.\n\nThirdly, we find that LSTM+ATT made a number of errors on sentences with negation words:\n\n1. I have experienced no problems, $[ w o r k s ] _ { p o s }$ as anticipated.\n\n2. [Service $J _ { { n e g } }$ not the friendliest to our party!\n\nLSTMs typically only show their potential on large datasets. Without sufficient training examples, it may not be able to effectively capture various sequential patterns. Pretraining the network on larger document-level corpus addresses this problem.\n\nLastly, PRET+MULT makes fewer errors on recognizing neutral instances. This can also be observed from the macro-F1 scores in Table 2. The lack of training examples makes the prediction of neutral instances very difficult for all previous methods. Knowledge from document-level examples with balanced labels compensates for this disadvantage.\n\n## 5 Conclusion\n\nThe effectiveness of existing aspect-level neural models is limited due to the difficulties in obtaining training data in practice. Our work is the first attempt to incorporate knowledge from documentlevel corpus for training aspect-level sentiment classifiers. We have demonstrated the effectiveness of our proposed approaches and analyzed the major benefits brought by the knowledge transfer. The proposed approaches can be potentially integrated with other aspect-level neural models to further boost their performance.\n\n## References\n\n- Peng Chen, Zhongqian Sun, Lidong Bing, and Wei Yang. 2017. Recurrent attention network on memory for aspect sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017).\n- Ronan Collobert and Jason Weston. 2008. A unified architecture for natural language processing: Deep neural networks with multitask learning. In International Conference on Machine Learning (ICML 2008).",
+      "image_refs": [
+        "assets/_page_4_Asset_0.jpg",
+        "assets/_page_4_Asset_1.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_4_Asset_0.jpg",
+        "assets/_page_4_Asset_1.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 4)",
+        "Full Page Description (Page 4)",
+        "5 Conclusion",
+        "References"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 4)\n\n**Source:** `assets/_page_4_Asset_0.jpg`\n\n**Generated:** 2026-05-30 10:06:04\n\n---\n\nThe image is a line graph with four distinct lines representing different datasets (D1, D2, D3, and D4). The x-axis represents a range from 0 to 1, and the y-axis represents accuracy percentage, ranging from 65 to 85. Each line shows an increasing trend as the x-axis value increases. The legend indicates that D1 and D2 are represented by blue squares, D3 by gray diamonds, and D4 by red stars. The graph visually compares the performance of these datasets across the range of x-axis values.\n\n\n### Full Page Description (Page 4)\n\n**Source:** `assets/_page_4_Asset_1.jpg`\n\n**Generated:** 2026-05-30 10:05:57\n\n---\n\nThe image is a line graph with four distinct lines representing different datasets (D1, D2, D3, and D4). The x-axis represents a range from 0 to 1, and the y-axis represents Macro-F1 percentage, which ranges from 60 to 70. The graph shows the performance of these datasets across different values on the x-axis. D1 and D3 show a general upward trend, while D2 and D4 show more fluctuating performance. The legend at the bottom identifies each dataset by color and label.\n\nTo better understand in which conditions the proposed method is helpful, we analyze a subset of test examples that are correctly classified by PRET+MULT but are misclassified by LSTM+ATT. We find that the benefits brought by document-level knowledge are typically shown in four ways.\n\nFirst of all, to our surprise, LSTM+ATT made obvious mistakes on some instances with common opinion words. Below are two examples where the target is enclosed in [] with its true sentiment indicated in the subscript:\n\n1. “I was highly disappointed in the [food]neg.”\n\n2. “This particular location certainly uses substandard [meats]neg.”\n\nIn the above examples, LSTM+ATT does attend to the right opinion words, but makes the wrong predictions. One possible reason is that the word embeddings from GloVe without PRET do not effectively capture sentiment information, while the aspect-level training samples are not sufficient to capture that for certain words. PRET+MULT eliminates this kind of errors.\n\nAnother finding is that our method helps to better capture domain-specific opinion words due to additional knowledge from documents that are\n\nfrom a similar domain:\n\n1. “The smaller $[ s i z e ] _ { p o s }$ was a bonus because of space restrictions.”\n\n2. “The [price]pos is 200 dollars down.”\n\nLSTM+ATT attends on smaller correctly for the first example but makes the wrong prediction as smaller can be negative in many cases. It does not even capture down in the second example.\n\nThirdly, we find that LSTM+ATT made a number of errors on sentences with negation words:\n\n1. I have experienced no problems, $[ w o r k s ] _ { p o s }$ as anticipated.\n\n2. [Service $J _ { { n e g } }$ not the friendliest to our party!\n\nLSTMs typically only show their potential on large datasets. Without sufficient training examples, it may not be able to effectively capture various sequential patterns. Pretraining the network on larger document-level corpus addresses this problem.\n\nLastly, PRET+MULT makes fewer errors on recognizing neutral instances. This can also be observed from the macro-F1 scores in Table 2. The lack of training examples makes the prediction of neutral instances very difficult for all previous methods. Knowledge from document-level examples with balanced labels compensates for this disadvantage.\n\n## 5 Conclusion\n\nThe effectiveness of existing aspect-level neural models is limited due to the difficulties in obtaining training data in practice. Our work is the first attempt to incorporate knowledge from documentlevel corpus for training aspect-level sentiment classifiers. We have demonstrated the effectiveness of our proposed approaches and analyzed the major benefits brought by the knowledge transfer. The proposed approaches can be potentially integrated with other aspect-level neural models to further boost their performance.\n\n## References\n\n- Peng Chen, Zhongqian Sun, Lidong Bing, and Wei Yang. 2017. Recurrent attention network on memory for aspect sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017).\n- Ronan Collobert and Jason Weston. 2008. A unified architecture for natural language processing: Deep neural networks with multitask learning. In International Conference on Machine Learning (ICML 2008)."
+    },
+    {
+      "page_id": 5,
+      "unit_id": "page-5",
+      "text": "- Andrew M. Dai and Quoc V. Le. 2015. Semisupervised sequence learning. In Neural Information Processing Systems (NIPS 2015).\n- Li Dong, Furu Wei, Chuanqi Tan, Duyu Tang, Ming Zhou, and Ke Xu. 2014. Adaptive recursive neural network for target-dependent Twitter sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2014).\n- Ruidan He, Wee Sun Lee, Hwee Tou Ng, and Daniel Dahlmeier. 2017. An unsupervised neural attention model for aspect extraction. In Annual Meeting of the Association for Computational Linguistics (ACL 2017).\n- Alex Krizhevsky and Ilya Sutskever. 2012. Imagenet classification with deep convolutional neural networks. In Neural Information Processing Systems (NIPS 2012).\n- Jiangming Liu and Yue Zhang. 2017. Attention modeling for target sentiment. In Conference of the European Chapter of the Association for Computational Linguistics (EACL 2017).\n- Yang Liu, Sujian Li, Xiaodong Zhang, and Zhifang Sui. 2016. Implicit discourse relation classification via multi-task neural networks. In AAAI Conference on Artificial Intelligence (AAAI 2016).\n- Minh-Tang Luong, Hieu Pham, and Christopher D. Manning. 2015b. Effective approaches to attentionbased neural machine translation. In Annual Meeting of the Association for Computational Linguistics (ACL 2015).\n- Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, and Lukasz Kaiser. 2015a. Multi-task sequence to sequence learning. In International Conference on Learning Representation (ICLR 2015).\n- Julian J. McAuley, Christopher Targett, Qinfeng Shi, and Anton van den Hengel. 2015. Image-based recommendations on styles and substitutes. In The 38th International ACM SIGIR Conference on Research and Development in Information Retrieval.\n- Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Distributed representations of words and phrases and their compositionality. In Neural Information Processing Systems (NIPS 2013).\n- Lili Mou, Zhao Meng, Rui Yan, Ge Li, Yan Xu, Lu Zhang, and Zhi Jin. 2016. How transferable are neural networks in NLP applications? In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Thien Hai Nguyen and Kiyoaki Shirai. 2015. PhraseRNN: Phrase recursive neural network for aspect-based sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).\n- Jeffrey Pennington, Richard Socher, and Christopher D Manning. 2014. GloVe: Global vectors for word representation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2014).\n- Maria Pontiki, Dimitrios Galanis, Haris Papageorgiou, Suresh Manandhar, and Ion Androutsopoulos. 2015. SemEval-2015 task 12: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2015).\n- Maria Pontiki, Dimitrios Galanis, John Pavlopoulos, Haris Papageorgiou, Ion Androutsopoulos, and Suresh Manandhar. 2014. SemEval-2014 task 4: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2014).\n- Maria Pontiki, Dimitris Galanis, Haris Papageorgiou, Ion Androutsopoulos, Suresh Manandhar, Mohammed AL-Smadi, Mahmoud Al-Ayyoub, Yanyan Zhao, Bing Qin, Orphee De Clercq, Veronique ´ Hoste, Marianna Apidianaki, Xavier Tannier, Natalia Loukachevitch, Evgeniy Kotelnikov, Nuria Bel,´ Salud Maria Jimenez-Zafra, and G ´ uls¸en Eryi ¨ git. ˘ 2016. SemEval-2016 task 5: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2016).\n- Prajit Ramachandran, Peter J. Liu, and Quoc V. Le. 2017. Unsupervised pretraining for sequence to sequence learning. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017).\n- Duyu Tang, Bing Qin, Xiaocheng Feng, and Ting Liu. 2016a. Effective LSTMs for target-dependent sentiment classification. In International Conference on Computational Linguistics (COLING 2016).\n- Duyu Tang, Bing Qin, and Ting Liu. 2015. Learning semantic representation of users and products for document level sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2015).\n- Duyu Tang, Bing Qin, and Ting Liu. 2016b. Aspect level sentiment classification with deep memory network. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Duy-Tin Vo and Yue Zhang. 2015. Target-dependent Twitter sentiment classification with rich automatic features. In International Joint Conference on Artificial Intelligence (IJCAI 2015).\n- Yequan Wang, Minlie Huang, Li Zhao, and Xiaoyan Zhu. 2016. Attention-based LSTM for aspect-level sentiment classification. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Matthew D. Zeiler and Rob Fergus. 2014. Visualizing and understanding convolutional networks. In European Conference on Computer Vision (ECCV 2014).",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "- Andrew M. Dai and Quoc V. Le. 2015. Semisupervised sequence learning. In Neural Information Processing Systems (NIPS 2015).\n- Li Dong, Furu Wei, Chuanqi Tan, Duyu Tang, Ming Zhou, and Ke Xu. 2014. Adaptive recursive neural network for target-dependent Twitter sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2014).\n- Ruidan He, Wee Sun Lee, Hwee Tou Ng, and Daniel Dahlmeier. 2017. An unsupervised neural attention model for aspect extraction. In Annual Meeting of the Association for Computational Linguistics (ACL 2017).\n- Alex Krizhevsky and Ilya Sutskever. 2012. Imagenet classification with deep convolutional neural networks. In Neural Information Processing Systems (NIPS 2012).\n- Jiangming Liu and Yue Zhang. 2017. Attention modeling for target sentiment. In Conference of the European Chapter of the Association for Computational Linguistics (EACL 2017).\n- Yang Liu, Sujian Li, Xiaodong Zhang, and Zhifang Sui. 2016. Implicit discourse relation classification via multi-task neural networks. In AAAI Conference on Artificial Intelligence (AAAI 2016).\n- Minh-Tang Luong, Hieu Pham, and Christopher D. Manning. 2015b. Effective approaches to attentionbased neural machine translation. In Annual Meeting of the Association for Computational Linguistics (ACL 2015).\n- Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, and Lukasz Kaiser. 2015a. Multi-task sequence to sequence learning. In International Conference on Learning Representation (ICLR 2015).\n- Julian J. McAuley, Christopher Targett, Qinfeng Shi, and Anton van den Hengel. 2015. Image-based recommendations on styles and substitutes. In The 38th International ACM SIGIR Conference on Research and Development in Information Retrieval.\n- Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Distributed representations of words and phrases and their compositionality. In Neural Information Processing Systems (NIPS 2013).\n- Lili Mou, Zhao Meng, Rui Yan, Ge Li, Yan Xu, Lu Zhang, and Zhi Jin. 2016. How transferable are neural networks in NLP applications? In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Thien Hai Nguyen and Kiyoaki Shirai. 2015. PhraseRNN: Phrase recursive neural network for aspect-based sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).\n- Jeffrey Pennington, Richard Socher, and Christopher D Manning. 2014. GloVe: Global vectors for word representation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2014).\n- Maria Pontiki, Dimitrios Galanis, Haris Papageorgiou, Suresh Manandhar, and Ion Androutsopoulos. 2015. SemEval-2015 task 12: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2015).\n- Maria Pontiki, Dimitrios Galanis, John Pavlopoulos, Haris Papageorgiou, Ion Androutsopoulos, and Suresh Manandhar. 2014. SemEval-2014 task 4: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2014).\n- Maria Pontiki, Dimitris Galanis, Haris Papageorgiou, Ion Androutsopoulos, Suresh Manandhar, Mohammed AL-Smadi, Mahmoud Al-Ayyoub, Yanyan Zhao, Bing Qin, Orphee De Clercq, Veronique ´ Hoste, Marianna Apidianaki, Xavier Tannier, Natalia Loukachevitch, Evgeniy Kotelnikov, Nuria Bel,´ Salud Maria Jimenez-Zafra, and G ´ uls¸en Eryi ¨ git. ˘ 2016. SemEval-2016 task 5: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2016).\n- Prajit Ramachandran, Peter J. Liu, and Quoc V. Le. 2017. Unsupervised pretraining for sequence to sequence learning. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017).\n- Duyu Tang, Bing Qin, Xiaocheng Feng, and Ting Liu. 2016a. Effective LSTMs for target-dependent sentiment classification. In International Conference on Computational Linguistics (COLING 2016).\n- Duyu Tang, Bing Qin, and Ting Liu. 2015. Learning semantic representation of users and products for document level sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2015).\n- Duyu Tang, Bing Qin, and Ting Liu. 2016b. Aspect level sentiment classification with deep memory network. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Duy-Tin Vo and Yue Zhang. 2015. Target-dependent Twitter sentiment classification with rich automatic features. In International Joint Conference on Artificial Intelligence (IJCAI 2015).\n- Yequan Wang, Minlie Huang, Li Zhao, and Xiaoyan Zhu. 2016. Attention-based LSTM for aspect-level sentiment classification. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Matthew D. Zeiler and Rob Fergus. 2014. Visualizing and understanding convolutional networks. In European Conference on Computer Vision (ECCV 2014)."
+    },
+    {
+      "page_id": 6,
+      "unit_id": "page-6",
+      "text": "- Meishan Zhang, Yue Zhang, and Duy-Tin Vo. 2016. Gated neural networks for targeted sentiment analysis. In AAAI Conference on Artificial Intelligence (AAAI 2016).\n- Barret Zoph, Deniz Yuret, Jonathan May, and Kevin Knight. 2016. Transfer learning for low-resource neural machine translation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "- Meishan Zhang, Yue Zhang, and Duy-Tin Vo. 2016. Gated neural networks for targeted sentiment analysis. In AAAI Conference on Artificial Intelligence (AAAI 2016).\n- Barret Zoph, Deniz Yuret, Jonathan May, and Kevin Knight. 2016. Transfer learning for low-resource neural machine translation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016)."
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "page-0-chunk-0",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "# Exploiting Document Knowledge for Aspect-level Sentiment Classification\n\nRuidan He†‡, Wee Sun Lee†, Hwee Tou Ng†, and Daniel Dahlmeier‡\n\n†Department of Computer Science, National University of Singapore\n\n‡SAP Innovation Center Singapore\n\n†{ruidanhe,leews,nght}@comp.nus.edu.sg ‡d.dahlmeier@sap.com",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Exploiting Document Knowledge for Aspect-level Sentiment Classification"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Exploiting Document Knowledge for Aspect-level Sentiment Classification\n\nRuidan He†‡, Wee Sun Lee†, Hwee Tou Ng†, and Daniel Dahlmeier‡\n\n†Department of Computer Science, National University of Singapore\n\n‡SAP Innovation Center Singapore\n\n†{ruidanhe,leews,nght}@comp.nus.edu.sg ‡d.dahlmeier@sap.com"
+    },
+    {
+      "chunk_id": "page-0-chunk-1",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "Abstract",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Abstract\n\nAttention-based long short-term memory (LSTM) networks have proven to be useful in aspect-level sentiment classification. However, due to the difficulties in annotating aspect-level data, existing public datasets for this task are all relatively small, which largely limits the effectiveness of those neural models. In this paper, we explore two approaches that transfer knowledge from documentlevel data, which is much less expensive to obtain, to improve the performance of aspect-level sentiment classification. We demonstrate the effectiveness of our approaches on 4 public datasets from SemEval 2014, 2015, and 2016, and we show that attention-based LSTM benefits from document-level knowledge in multiple ways.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Abstract"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Abstract\n\nAttention-based long short-term memory (LSTM) networks have proven to be useful in aspect-level sentiment classification. However, due to the difficulties in annotating aspect-level data, existing public datasets for this task are all relatively small, which largely limits the effectiveness of those neural models. In this paper, we explore two approaches that transfer knowledge from documentlevel data, which is much less expensive to obtain, to improve the performance of aspect-level sentiment classification. We demonstrate the effectiveness of our approaches on 4 public datasets from SemEval 2014, 2015, and 2016, and we show that attention-based LSTM benefits from document-level knowledge in multiple ways."
+    },
+    {
+      "chunk_id": "page-0-chunk-2",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "1 Introduction",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## 1 Introduction\n\nGiven a sentence and an opinion target (also called an aspect term) occurring in the sentence, aspectlevel sentiment classification aims to determine the sentiment polarity in the sentence towards the opinion target. An opinion target or target for short refers to a word or a phrase describing an aspect of an entity. For example, in the sentence “This little place has a cute interior decor but the prices are quite expensive”, the targets are interior decor and prices, and they are associated with positive and negative sentiment respectively.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "1 Introduction"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 1 Introduction\n\nGiven a sentence and an opinion target (also called an aspect term) occurring in the sentence, aspectlevel sentiment classification aims to determine the sentiment polarity in the sentence towards the opinion target. An opinion target or target for short refers to a word or a phrase describing an aspect of an entity. For example, in the sentence “This little place has a cute interior decor but the prices are quite expensive”, the targets are interior decor and prices, and they are associated with positive and negative sentiment respectively."
+    },
+    {
+      "chunk_id": "page-0-chunk-3",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "1 Introduction",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "A sentence may contain multiple sentimenttarget pairs, thus one challenge is to separate different opinion contexts for different targets. For this purpose, state-of-the-art neural methods (Wang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) adopt attention-based LSTM networks, where the LSTM aims to capture sequential patterns and the attention mechanism aims to emphasize target-specific contexts for encoding sentence representations. Typically, LSTMs only show their potential when trained on large datasets. However, aspect-level training data requires the annotation of all opinion targets in a sentence, which is costly to obtain in practice. As such, existing public aspect-level datasets are all relatively small. Insufficient training data limits the effectiveness of neural models.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "A sentence may contain multiple sentimenttarget pairs, thus one challenge is to separate different opinion contexts for different targets. For this purpose, state-of-the-art neural methods (Wang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) adopt attention-based LSTM networks, where the LSTM aims to capture sequential patterns and the attention mechanism aims to emphasize target-specific contexts for encoding sentence representations. Typically, LSTMs only show their potential when trained on large datasets. However, aspect-level training data requires the annotation of all opinion targets in a sentence, which is costly to obtain in practice. As such, existing public aspect-level datasets are all relatively small. Insufficient training data limits the effectiveness of neural models."
+    },
+    {
+      "chunk_id": "page-0-chunk-4",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "1 Introduction",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Despite the lack of aspect-level labeled data, enormous document-level labeled data are easily accessible online such as Amazon reviews. These reviews contain substantial linguistic patterns and come with sentiment labels naturally. In this paper, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification. Specifically, we explore two transfer methods to incorporate this sort of knowledge – pretraining and multi-task learning. In our experiments, we find that both methods are helpful and combining them achieves significant improvements over attentionbased LSTM models trained only on aspect-level data. We also illustrate by examples that additional knowledge from document-level data is beneficial in multiple ways. Our source code can be obtained from https://github.com/ ruidan/Aspect-level-sentiment.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Despite the lack of aspect-level labeled data, enormous document-level labeled data are easily accessible online such as Amazon reviews. These reviews contain substantial linguistic patterns and come with sentiment labels naturally. In this paper, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification. Specifically, we explore two transfer methods to incorporate this sort of knowledge – pretraining and multi-task learning. In our experiments, we find that both methods are helpful and combining them achieves significant improvements over attentionbased LSTM models trained only on aspect-level data. We also illustrate by examples that additional knowledge from document-level data is beneficial in multiple ways. Our source code can be obtained from https://github.com/ ruidan/Aspect-level-sentiment."
+    },
+    {
+      "chunk_id": "page-0-chunk-5",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "2 Related Work",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## 2 Related Work\n\nVarious neural models (Dong et al., 2014; Nguyen and Shirai, 2015; Vo and Zhang, 2015; Tang et al., 2016a,b; Wang et al., 2016; Zhang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) have been proposed for aspect-level sentiment classification. The main idea behind these works is to develop neural architectures that are able to learn continuous features and capture the intricate relation between a target and context words. However, to sufficiently train these models, substantial aspectlevel annotated data is required, which is expensive to obtain in practice.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "2 Related Work"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 2 Related Work\n\nVarious neural models (Dong et al., 2014; Nguyen and Shirai, 2015; Vo and Zhang, 2015; Tang et al., 2016a,b; Wang et al., 2016; Zhang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) have been proposed for aspect-level sentiment classification. The main idea behind these works is to develop neural architectures that are able to learn continuous features and capture the intricate relation between a target and context words. However, to sufficiently train these models, substantial aspectlevel annotated data is required, which is expensive to obtain in practice."
+    },
+    {
+      "chunk_id": "page-1-chunk-0",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "We explore both pretraining and multi-task learning for transferring knowledge from document level to aspect level. Both methods are widely studied in the literature. Pretraining is a common technique used in computer vision where low-level neural layers can be usefully transferred to different tasks (Krizhevsky and Sutskever, 2012; Zeiler and Fergus, 2014). In natural language processing (NLP), some efforts have been initiated on pretraining LSTMs (Dai and Le, 2015; Zoph et al., 2016; Ramachandran et al., 2017) for sequence-to-sequence models in both supervised and unsupervised settings, where promising results have been obtained. On the other hand, multi-task learning simultaneously trains on samples in multiple tasks with a combined objective (Collobert and Weston, 2008; Luong et al., 2015a; Liu et al., 2016), which has improved model generalization ability in certain cases. In the work of Mou et al. (2016), the authors investigated the transferability of neural models in NLP applications with extensive experiments, showing that transferability largely depends on the semantic relatedness of the source and target tasks. For our problem, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification, as these two tasks are highly related semantically.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "We explore both pretraining and multi-task learning for transferring knowledge from document level to aspect level. Both methods are widely studied in the literature. Pretraining is a common technique used in computer vision where low-level neural layers can be usefully transferred to different tasks (Krizhevsky and Sutskever, 2012; Zeiler and Fergus, 2014). In natural language processing (NLP), some efforts have been initiated on pretraining LSTMs (Dai and Le, 2015; Zoph et al., 2016; Ramachandran et al., 2017) for sequence-to-sequence models in both supervised and unsupervised settings, where promising results have been obtained. On the other hand, multi-task learning simultaneously trains on samples in multiple tasks with a combined objective (Collobert and Weston, 2008; Luong et al., 2015a; Liu et al., 2016), which has improved model generalization ability in certain cases. In the work of Mou et al. (2016), the authors investigated the transferability of neural models in NLP applications with extensive experiments, showing that transferability largely depends on the semantic relatedness of the source and target tasks. For our problem, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification, as these two tasks are highly related semantically."
+    },
+    {
+      "chunk_id": "page-1-chunk-1",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "3 Models",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## 3 Models",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "3 Models"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 3 Models"
+    },
+    {
+      "chunk_id": "page-1-chunk-2",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "3.1 Attention-based LSTM",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## 3.1 Attention-based LSTM\n\nWe first describe a conventional implementation of an attention-based LSTM model for this task. We use it as a baseline model and extend it with pretraining and multi-task learning approaches for incorporating document-level knowledge.\n\nThe inputs are a sentence $s = ( w _ { 1 } , w _ { 2 } , . . . , w _ { n } )$ consisting of n words, and an opinion target $x =$ $( x _ { 1 } , x _ { 2 } , . . . , x _ { m } )$ occurring in the sentence consisting of a subsequence of m words from s. Each word is associated with a continuous word embedding ${ \\bf e } _ { w }$ (Mikolov et al., 2013) from an embedding matrix $\\mathbf { E } \\in \\mathbb { R } ^ { V \\times d }$ , where V is the vocabulary size and d is the embedding dimension.\n\nLSTM is used to capture sequential information, and outputs a sequence of hidden vectors:\n\n$$\n[ \\mathbf { h } _ { 1 } , . . . , \\mathbf { h } _ { n } ] = \\mathrm { L S T M } ( [ \\mathbf { e } _ { w _ { 1 } } , . . . , \\mathbf { e } _ { w _ { n } } ] , \\theta _ { l s t m } )\\tag{1}\n$$",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "3.1 Attention-based LSTM"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 3.1 Attention-based LSTM\n\nWe first describe a conventional implementation of an attention-based LSTM model for this task. We use it as a baseline model and extend it with pretraining and multi-task learning approaches for incorporating document-level knowledge.\n\nThe inputs are a sentence $s = ( w _ { 1 } , w _ { 2 } , . . . , w _ { n } )$ consisting of n words, and an opinion target $x =$ $( x _ { 1 } , x _ { 2 } , . . . , x _ { m } )$ occurring in the sentence consisting of a subsequence of m words from s. Each word is associated with a continuous word embedding ${ \\bf e } _ { w }$ (Mikolov et al., 2013) from an embedding matrix $\\mathbf { E } \\in \\mathbb { R } ^ { V \\times d }$ , where V is the vocabulary size and d is the embedding dimension.\n\nLSTM is used to capture sequential information, and outputs a sequence of hidden vectors:\n\n$$\n[ \\mathbf { h } _ { 1 } , . . . , \\mathbf { h } _ { n } ] = \\mathrm { L S T M } ( [ \\mathbf { e } _ { w _ { 1 } } , . . . , \\mathbf { e } _ { w _ { n } } ] , \\theta _ { l s t m } )\\tag{1}\n$$"
+    },
+    {
+      "chunk_id": "page-1-chunk-3",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "3.1 Attention-based LSTM",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "An attention layer assigns a weight $\\alpha _ { i }$ to each word in the sentence. The final target-specific representation of the sentence s is then given by:\n\n$$\n\\mathbf { z } = \\sum _ { i = 1 } ^ { n } \\alpha _ { i } \\mathbf { h } _ { i }\\tag{2}\n$$\n\nAnd $\\alpha _ { i }$ is computed as follows:\n\n$$\n\\alpha _ { i } = \\frac { \\exp ( \\beta _ { i } ) } { \\sum _ { j = 1 } ^ { n } \\exp ( \\beta _ { j } ) }\\tag{3}\n$$\n\n$$\n\\beta _ { i } = f _ { s c o r e } ( \\mathbf { h } _ { i } , \\mathbf { t } ) = t a n h ( \\mathbf { h } _ { i } ^ { T } \\mathbf { W } _ { a } \\mathbf { t } )\n$$\n\n$$\n\\mathbf { t } = \\frac { 1 } { m } \\sum _ { i = 1 } ^ { m } \\mathbf { e } _ { x _ { i } }\\tag{4}\n$$\n\n(5)\n\nwhere t is the target representation computed as the averaged word embedding of the target. $f _ { s c o r e }$ is a content-based function that captures the semantic association between a word and the target, for which we adopt the formulation used in (Luong et al., 2015b; He et al., 2017) with parameter matrix $\\mathbf { W } _ { a } \\in \\mathbb { R } ^ { d \\times d }$\n\nThe sentence representation z is fed into an output layer to predict the probability distribution p over sentiment labels on the target:",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "An attention layer assigns a weight $\\alpha _ { i }$ to each word in the sentence. The final target-specific representation of the sentence s is then given by:\n\n$$\n\\mathbf { z } = \\sum _ { i = 1 } ^ { n } \\alpha _ { i } \\mathbf { h } _ { i }\\tag{2}\n$$\n\nAnd $\\alpha _ { i }$ is computed as follows:\n\n$$\n\\alpha _ { i } = \\frac { \\exp ( \\beta _ { i } ) } { \\sum _ { j = 1 } ^ { n } \\exp ( \\beta _ { j } ) }\\tag{3}\n$$\n\n$$\n\\beta _ { i } = f _ { s c o r e } ( \\mathbf { h } _ { i } , \\mathbf { t } ) = t a n h ( \\mathbf { h } _ { i } ^ { T } \\mathbf { W } _ { a } \\mathbf { t } )\n$$\n\n$$\n\\mathbf { t } = \\frac { 1 } { m } \\sum _ { i = 1 } ^ { m } \\mathbf { e } _ { x _ { i } }\\tag{4}\n$$\n\n(5)\n\nwhere t is the target representation computed as the averaged word embedding of the target. $f _ { s c o r e }$ is a content-based function that captures the semantic association between a word and the target, for which we adopt the formulation used in (Luong et al., 2015b; He et al., 2017) with parameter matrix $\\mathbf { W } _ { a } \\in \\mathbb { R } ^ { d \\times d }$\n\nThe sentence representation z is fed into an output layer to predict the probability distribution p over sentiment labels on the target:"
+    },
+    {
+      "chunk_id": "page-1-chunk-4",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "3.1 Attention-based LSTM",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "$$\n\\mathbf { p } = s o f t m a x ( \\mathbf { W } _ { o } \\mathbf { z } + \\mathbf { b } _ { o } )\\tag{6}\n$$\n\nWe refer to this baseline model as LSTM+ATT. It is trained via cross entropy minimization:\n\n$$\nJ = - \\sum _ { i \\in D } \\log \\mathbf { p } _ { i } ( c _ { i } )\\tag{7}\n$$\n\nwhere D denotes the overall training corpus, $c _ { i }$ denotes the true label for sample i, and $\\mathbf { p } _ { i } ( c _ { i } )$ denotes the probability of the true label.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "$$\n\\mathbf { p } = s o f t m a x ( \\mathbf { W } _ { o } \\mathbf { z } + \\mathbf { b } _ { o } )\\tag{6}\n$$\n\nWe refer to this baseline model as LSTM+ATT. It is trained via cross entropy minimization:\n\n$$\nJ = - \\sum _ { i \\in D } \\log \\mathbf { p } _ { i } ( c _ { i } )\\tag{7}\n$$\n\nwhere D denotes the overall training corpus, $c _ { i }$ denotes the true label for sample i, and $\\mathbf { p } _ { i } ( c _ { i } )$ denotes the probability of the true label."
+    },
+    {
+      "chunk_id": "page-1-chunk-5",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "3.2 Transfer Approaches",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## 3.2 Transfer Approaches\n\nLSTM+ATT is used as our aspect-level model with parameter set $\\begin{array} { r l } { \\theta _ { a s p e c t } ~ } & { { } = } \\end{array}$ $\\{ \\mathbf { E } , \\theta _ { l s t m } , \\mathbf { W } _ { a } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o } \\}$ We also build a standard LSTM-based classifier based on document-level training examples. This network is the same as the LSTM+ATT apart from the lack of the attention layer. The training objective is also cross entropy minimization as shown in equation (7) and the parameter set is $\\theta _ { d o c } = \\{ \\mathbf { E } ^ { \\prime } , \\theta _ { l s t m } ^ { \\prime } , \\mathbf { W } _ { o } ^ { \\prime } , \\mathbf { b } _ { o } ^ { \\prime } \\}$\n\nPretraining (PRET): In this setting, we first train on document-level examples. The last hidden vector from the LSTM outputs is used as the document representation. We initialize the relevant parameters E, $\\theta _ { l s t m } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o }$ of LSTM+ATT with the pretrained weights, and train it on aspect-level examples to fine tune those weights and learn ${ \\bf W } _ { a }$ which is randomly initialized.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "3.2 Transfer Approaches"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 3.2 Transfer Approaches\n\nLSTM+ATT is used as our aspect-level model with parameter set $\\begin{array} { r l } { \\theta _ { a s p e c t } ~ } & { { } = } \\end{array}$ $\\{ \\mathbf { E } , \\theta _ { l s t m } , \\mathbf { W } _ { a } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o } \\}$ We also build a standard LSTM-based classifier based on document-level training examples. This network is the same as the LSTM+ATT apart from the lack of the attention layer. The training objective is also cross entropy minimization as shown in equation (7) and the parameter set is $\\theta _ { d o c } = \\{ \\mathbf { E } ^ { \\prime } , \\theta _ { l s t m } ^ { \\prime } , \\mathbf { W } _ { o } ^ { \\prime } , \\mathbf { b } _ { o } ^ { \\prime } \\}$\n\nPretraining (PRET): In this setting, we first train on document-level examples. The last hidden vector from the LSTM outputs is used as the document representation. We initialize the relevant parameters E, $\\theta _ { l s t m } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o }$ of LSTM+ATT with the pretrained weights, and train it on aspect-level examples to fine tune those weights and learn ${ \\bf W } _ { a }$ which is randomly initialized."
+    },
+    {
+      "chunk_id": "page-2-chunk-0",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Table 1: Dataset description.\n![](tables/table_pg2_num0.csv)\n\nMulti-task Learning (MULT): This approach simultaneously trains two tasks – document-level and aspect-level classification. In this setting, the embedding layer (E) and the LSTM layer $( \\theta _ { l s t m } )$ are shared by both tasks, and a document is represented as the mean vector over LSTM outputs. The other parameters are task-specific. The overall loss function is then given by:\n\n$$\nL = J + \\lambda U\\tag{8}\n$$\n\nwhere U is the loss function of document-level classification. $\\lambda \\in ( 0 , 1 )$ is a hyperparameter that controls the weight of U .\n\nCombined (PRET+MULT): In this setting, we first perform PRET on document-level examples. We use the pretrained weights for parameter initialization for both aspect-level model and document-level model, and then perform MULT as discussed above.",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg2_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg2_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg2_num0.csv: Table columns: Dataset, Pos, Neg, Neu Row labels: Restaurant14-Train, Restaurant14-Test, Laptop14-Train, Laptop14-Test, Restaurant15-Train, Restaurant15-Test, Restaurant16-Train, Restaurant16-Test Restaurant14-Train: Neg=2164; Neu=807 Restaurant14-Test: Neg=728; Neu=196 Laptop14-Train: Neg=994; Neu=870 Laptop14-Test: Neg=341; Neu=128",
+      "retrieval_text": "Table 1: Dataset description.\n![](tables/table_pg2_num0.csv)\n\nMulti-task Learning (MULT): This approach simultaneously trains two tasks – document-level and aspect-level classification. In this setting, the embedding layer (E) and the LSTM layer $( \\theta _ { l s t m } )$ are shared by both tasks, and a document is represented as the mean vector over LSTM outputs. The other parameters are task-specific. The overall loss function is then given by:\n\n$$\nL = J + \\lambda U\\tag{8}\n$$\n\nwhere U is the loss function of document-level classification. $\\lambda \\in ( 0 , 1 )$ is a hyperparameter that controls the weight of U .\n\nCombined (PRET+MULT): In this setting, we first perform PRET on document-level examples. We use the pretrained weights for parameter initialization for both aspect-level model and document-level model, and then perform MULT as discussed above.\n\nTable context: table_pg2_num0.csv: Table columns: Dataset, Pos, Neg, Neu Row labels: Restaurant14-Train, Restaurant14-Test, Laptop14-Train, Laptop14-Test, Restaurant15-Train, Restaurant15-Test, Restaurant16-Train, Restaurant16-Test Restaurant14-Train: Neg=2164; Neu=807 Restaurant14-Test: Neg=728; Neu=196 Laptop14-Train: Neg=994; Neu=870 Laptop14-Test: Neg=341; Neu=128"
+    },
+    {
+      "chunk_id": "page-2-chunk-1",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "4 Experiments",
+      "nearest_asset_above": "tables/table_pg2_num0.csv",
+      "nearest_asset_below": null,
+      "text": "## 4 Experiments",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "4 Experiments"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 4 Experiments"
+    },
+    {
+      "chunk_id": "page-2-chunk-2",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "4.1 Datasets and Experimental Settings",
+      "nearest_asset_above": "tables/table_pg2_num0.csv",
+      "nearest_asset_below": null,
+      "text": "## 4.1 Datasets and Experimental Settings\n\nWe run experiments on four benchmark aspectlevel datasets, taken from SemEval 2014 (Pontiki et al., 2014), SemEval 2015 (Pontiki et al., 2015), and SemEval 2016 (Pontiki et al., 2016). Following previous work (Tang et al., 2016b; Wang et al., 2016), we remove samples with conflicting polarities in all datasets1. Statistics of the resulting datasets are presented in Table 1.\n\nWe derived two document-level datasets from Yelp2014 (Tang et al., 2015) and the Amazon Electronics dataset (McAuley et al., 2015) respectively. The original reviews were rated on a 5- point scale. We consider 3-class classification and thus label reviews with rating $< 3 , > 3 ,$ and = 3 as negative, positive, and neutral respectively. Each sampled dataset contains 30k instances with exactly balanced class labels. We pair up an aspectlevel dataset and a document-level dataset when they are from a similar domain – the Yelp dataset is used by D1, D3, and D4 for PRET and MULT, and the Electronics dataset is only used by D2.",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg2_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg2_num0.csv"
+      ],
+      "headings": [
+        "4.1 Datasets and Experimental Settings"
+      ],
+      "table_context": "table_pg2_num0.csv: Table columns: Dataset, Pos, Neg, Neu Row labels: Restaurant14-Train, Restaurant14-Test, Laptop14-Train, Laptop14-Test, Restaurant15-Train, Restaurant15-Test, Restaurant16-Train, Restaurant16-Test Restaurant14-Train: Neg=2164; Neu=807 Restaurant14-Test: Neg=728; Neu=196 Laptop14-Train: Neg=994; Neu=870 Laptop14-Test: Neg=341; Neu=128",
+      "retrieval_text": "## 4.1 Datasets and Experimental Settings\n\nWe run experiments on four benchmark aspectlevel datasets, taken from SemEval 2014 (Pontiki et al., 2014), SemEval 2015 (Pontiki et al., 2015), and SemEval 2016 (Pontiki et al., 2016). Following previous work (Tang et al., 2016b; Wang et al., 2016), we remove samples with conflicting polarities in all datasets1. Statistics of the resulting datasets are presented in Table 1.\n\nWe derived two document-level datasets from Yelp2014 (Tang et al., 2015) and the Amazon Electronics dataset (McAuley et al., 2015) respectively. The original reviews were rated on a 5- point scale. We consider 3-class classification and thus label reviews with rating $< 3 , > 3 ,$ and = 3 as negative, positive, and neutral respectively. Each sampled dataset contains 30k instances with exactly balanced class labels. We pair up an aspectlevel dataset and a document-level dataset when they are from a similar domain – the Yelp dataset is used by D1, D3, and D4 for PRET and MULT, and the Electronics dataset is only used by D2.\n\nTable context: table_pg2_num0.csv: Table columns: Dataset, Pos, Neg, Neu Row labels: Restaurant14-Train, Restaurant14-Test, Laptop14-Train, Laptop14-Test, Restaurant15-Train, Restaurant15-Test, Restaurant16-Train, Restaurant16-Test Restaurant14-Train: Neg=2164; Neu=807 Restaurant14-Test: Neg=728; Neu=196 Laptop14-Train: Neg=994; Neu=870 Laptop14-Test: Neg=341; Neu=128"
+    },
+    {
+      "chunk_id": "page-2-chunk-3",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "4.1 Datasets and Experimental Settings",
+      "nearest_asset_above": "tables/table_pg2_num0.csv",
+      "nearest_asset_below": null,
+      "text": "In all experiments, 300-dimension GloVe vectors (Pennington et al., 2014) are used to initialize E and $\\mathbf { E ^ { \\prime } }$ when pretraining is not conducted for weight initialization. These vectors are also used for initializing $\\mathbf { E ^ { \\prime } }$ in the pretraining phase. Values for hyperparameters are obtained from experiments on development sets. We randomly sample 20% of the original training data from the aspectlevel dataset as the development set and only use the remaining 80% for training. For all experiments, the dimension of LSTM hidden vectors is set to 300, λ is set to 0.1, and we use dropout with probability 0.5 on sentence/document representations before the output layer. We use RMSProp as the optimizer with the decay rate set to 0.9 and the base learning rate set to 0.001. The mini-batch size is set to 32.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "In all experiments, 300-dimension GloVe vectors (Pennington et al., 2014) are used to initialize E and $\\mathbf { E ^ { \\prime } }$ when pretraining is not conducted for weight initialization. These vectors are also used for initializing $\\mathbf { E ^ { \\prime } }$ in the pretraining phase. Values for hyperparameters are obtained from experiments on development sets. We randomly sample 20% of the original training data from the aspectlevel dataset as the development set and only use the remaining 80% for training. For all experiments, the dimension of LSTM hidden vectors is set to 300, λ is set to 0.1, and we use dropout with probability 0.5 on sentence/document representations before the output layer. We use RMSProp as the optimizer with the decay rate set to 0.9 and the base learning rate set to 0.001. The mini-batch size is set to 32."
+    },
+    {
+      "chunk_id": "page-2-chunk-4",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "4.2 Model Comparison",
+      "nearest_asset_above": "tables/table_pg2_num0.csv",
+      "nearest_asset_below": null,
+      "text": "## 4.2 Model Comparison\n\nTable 2 shows the results of LSTM, LSTM+ATT, PRET, MULT, PRET+MULT, and four representative prior works (Tang et al., 2016a,b; Wang et al., 2016; Chen et al., 2017). Significance tests are conducted for testing the robustness of methods under random parameter initialization. Both accuracy and macro-F1 are used for evaluation as label distribution is unbalanced. The reported numbers are obtained as the average value over 5 runs with random initialization for each method.\n\nWe observe that PRET is very helpful, and consistently gives a 1–3% increase in accuracy over LSTM+ATT across all datasets. The improvements in macro-F1 scores are even more, especially on D3 and D4 where the labels are extremely unbalanced. MULT gives similar performance as LSTM+ATT on D1 and D2, but improvements can be clearly observed for D3 and D4. The combination (PRET+MULT) overall yields better results.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "4.2 Model Comparison"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 4.2 Model Comparison\n\nTable 2 shows the results of LSTM, LSTM+ATT, PRET, MULT, PRET+MULT, and four representative prior works (Tang et al., 2016a,b; Wang et al., 2016; Chen et al., 2017). Significance tests are conducted for testing the robustness of methods under random parameter initialization. Both accuracy and macro-F1 are used for evaluation as label distribution is unbalanced. The reported numbers are obtained as the average value over 5 runs with random initialization for each method.\n\nWe observe that PRET is very helpful, and consistently gives a 1–3% increase in accuracy over LSTM+ATT across all datasets. The improvements in macro-F1 scores are even more, especially on D3 and D4 where the labels are extremely unbalanced. MULT gives similar performance as LSTM+ATT on D1 and D2, but improvements can be clearly observed for D3 and D4. The combination (PRET+MULT) overall yields better results."
+    },
+    {
+      "chunk_id": "page-2-chunk-5",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "4.2 Model Comparison",
+      "nearest_asset_above": "tables/table_pg2_num0.csv",
+      "nearest_asset_below": null,
+      "text": "There are two main reasons why the improvements of macro-F1 scores are more significant on D3 and D4 than on D1: (1) D1 has much more neutral examples in the training set. A classifier without any external knowledge might still be able to learn some neutral-related features on D1 but it is very hard to learn from D3 and D4. (2) The numbers of neutral examples in the test sets of D3 and D4 are very small. Thus, the precision and recall on neutral class will be largely affected by even a small prediction difference (e.g., with 5 more neutral examples correctly identified, recall is increased by more than 10% on both datasets). As a result, the macro-F1 scores on D3 and D4 are affected more.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "There are two main reasons why the improvements of macro-F1 scores are more significant on D3 and D4 than on D1: (1) D1 has much more neutral examples in the training set. A classifier without any external knowledge might still be able to learn some neutral-related features on D1 but it is very hard to learn from D3 and D4. (2) The numbers of neutral examples in the test sets of D3 and D4 are very small. Thus, the precision and recall on neutral class will be largely affected by even a small prediction difference (e.g., with 5 more neutral examples correctly identified, recall is increased by more than 10% on both datasets). As a result, the macro-F1 scores on D3 and D4 are affected more."
+    },
+    {
+      "chunk_id": "page-3-chunk-0",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Table 2: Average accuracies and Macro-F1 scores over 5 runs with random initialization. The best results are in bold. ∗ indicates that PRET+MULT is significantly better than Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, and LSTM+ATT with $p < 0 . 0 5$ according to one-tailed unpaired t-test.\n![](tables/table_pg3_num0.csv)\n\nTable 3: PRET with different transferred layers. Averaged results over 5 runs are reported.\n![](tables/table_pg3_num1.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg3_num0.csv",
+        "tables/table_pg3_num1.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg3_num0.csv",
+        "tables/table_pg3_num1.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg3_num0.csv: Table columns: Methods, D1, D1, D2, D2, D3, D3, D4, D4 Row labels: Methods, Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, LSTM+ATT, Ours: PRET Methods: D1=Acc.; D1=Macro-F1; D2=Acc. Tang et al. (2016a): D1=75.37; D1=64.51; D2=68.25 Wang et al. (2016): D1=78.60; D1=67.02; D2=68.88 Tang et al. (2016b): D1=76.87; D1=66.40; D2=68.91 table_pg3_num1.csv: Table columns: Settings, D1 Accuracy, D1 Macro-F1, D2 Accuracy, D2 Macro-F1, D3 Accuracy, D3 Macro-F1, D4 Accuracy, D4 Macro-F1 Row labels: LSTM only, Embeddings only, Output layer only, Without LSTM, Without embeddings, Without output layer LSTM only: D1 Accuracy=78.09; D1 Macro-F1=67.85; D2 Accuracy=71.04 Embeddings only: D1 Accuracy=77.12; D1 Macro-F1=67.19; D2 Accuracy=69.12 Output layer only: D1 Accuracy=76.88; D1 Macro-F1=66.81; D2 Accuracy=69.63 Without LSTM: D1 Accuracy=77.45; D1 Macro-F1=67.25; D2 Accuracy=69.82",
+      "retrieval_text": "Table 2: Average accuracies and Macro-F1 scores over 5 runs with random initialization. The best results are in bold. ∗ indicates that PRET+MULT is significantly better than Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, and LSTM+ATT with $p < 0 . 0 5$ according to one-tailed unpaired t-test.\n![](tables/table_pg3_num0.csv)\n\nTable 3: PRET with different transferred layers. Averaged results over 5 runs are reported.\n![](tables/table_pg3_num1.csv)\n\nTable context: table_pg3_num0.csv: Table columns: Methods, D1, D1, D2, D2, D3, D3, D4, D4 Row labels: Methods, Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, LSTM+ATT, Ours: PRET Methods: D1=Acc.; D1=Macro-F1; D2=Acc. Tang et al. (2016a): D1=75.37; D1=64.51; D2=68.25 Wang et al. (2016): D1=78.60; D1=67.02; D2=68.88 Tang et al. (2016b): D1=76.87; D1=66.40; D2=68.91 table_pg3_num1.csv: Table columns: Settings, D1 Accuracy, D1 Macro-F1, D2 Accuracy, D2 Macro-F1, D3 Accuracy, D3 Macro-F1, D4 Accuracy, D4 Macro-F1 Row labels: LSTM only, Embeddings only, Output layer only, Without LSTM, Without embeddings, Without output layer LSTM only: D1 Accuracy=78.09; D1 Macro-F1=67.85; D2 Accuracy=71.04 Embeddings only: D1 Accuracy=77.12; D1 Macro-F1=67.19; D2 Accuracy=69.12 Output layer only: D1 Accuracy=76.88; D1 Macro-F1=66.81; D2 Accuracy=69.63 Without LSTM: D1 Accuracy=77.45; D1 Macro-F1=67.25; D2 Accuracy=69.82"
+    },
+    {
+      "chunk_id": "page-3-chunk-1",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "4.3 Ablation Tests",
+      "nearest_asset_above": "tables/table_pg3_num1.csv",
+      "nearest_asset_below": null,
+      "text": "## 4.3 Ablation Tests",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "4.3 Ablation Tests"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 4.3 Ablation Tests"
+    },
+    {
+      "chunk_id": "page-3-chunk-2",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "4.3 Ablation Tests",
+      "nearest_asset_above": "tables/table_pg3_num1.csv",
+      "nearest_asset_below": null,
+      "text": "Table 2 indicates that a large percentage of the performance gain comes from PRET. To better understand the transfer effects of different layers – embedding layer (E), LSTM layer $( \\theta _ { l s t m } )$ , and output layer $( \\mathbf { W } _ { o } , \\mathbf { b } _ { o } )$ – we conduct ablation tests on PRET with different layers transfered from the document-level model to the aspect-level model. Results are presented in Table 3. “LSTM only” denotes the setting where only the LSTM layer is transferred, and “Without LSTM” denotes the setting where only the embedding and output layers are transferred (excluding the LSTM layer). The key observations are: (1) Transfer is helpful in all settings. Improvements over LSTM+ATT are observed even when only one layer is transferred. (2) Overall, transfers of the LSTM and embedding layer are more useful than the output layer. This is what we expect, since the output layer is normally more task-specific. (3) Transfer of the embedding layer is more helpful on D3 and D4. One possible explanation is that the label distribution is extremely unbalanced on these two datasets. Sentiment information is not adequately captured by GloVe word embeddings. Therefore, with a small number of training examples in the negative and neutral classes, the embeddings trained by aspectlevel classification still do not effectively capture the true semantics of the relevant opinion words. Transfer of the embedding layer can greatly help in this case.",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg3_num1.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg3_num1.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg3_num1.csv: Table columns: Settings, D1 Accuracy, D1 Macro-F1, D2 Accuracy, D2 Macro-F1, D3 Accuracy, D3 Macro-F1, D4 Accuracy, D4 Macro-F1 Row labels: LSTM only, Embeddings only, Output layer only, Without LSTM, Without embeddings, Without output layer LSTM only: D1 Accuracy=78.09; D1 Macro-F1=67.85; D2 Accuracy=71.04 Embeddings only: D1 Accuracy=77.12; D1 Macro-F1=67.19; D2 Accuracy=69.12 Output layer only: D1 Accuracy=76.88; D1 Macro-F1=66.81; D2 Accuracy=69.63 Without LSTM: D1 Accuracy=77.45; D1 Macro-F1=67.25; D2 Accuracy=69.82",
+      "retrieval_text": "Table 2 indicates that a large percentage of the performance gain comes from PRET. To better understand the transfer effects of different layers – embedding layer (E), LSTM layer $( \\theta _ { l s t m } )$ , and output layer $( \\mathbf { W } _ { o } , \\mathbf { b } _ { o } )$ – we conduct ablation tests on PRET with different layers transfered from the document-level model to the aspect-level model. Results are presented in Table 3. “LSTM only” denotes the setting where only the LSTM layer is transferred, and “Without LSTM” denotes the setting where only the embedding and output layers are transferred (excluding the LSTM layer). The key observations are: (1) Transfer is helpful in all settings. Improvements over LSTM+ATT are observed even when only one layer is transferred. (2) Overall, transfers of the LSTM and embedding layer are more useful than the output layer. This is what we expect, since the output layer is normally more task-specific. (3) Transfer of the embedding layer is more helpful on D3 and D4. One possible explanation is that the label distribution is extremely unbalanced on these two datasets. Sentiment information is not adequately captured by GloVe word embeddings. Therefore, with a small number of training examples in the negative and neutral classes, the embeddings trained by aspectlevel classification still do not effectively capture the true semantics of the relevant opinion words. Transfer of the embedding layer can greatly help in this case.\n\nTable context: table_pg3_num1.csv: Table columns: Settings, D1 Accuracy, D1 Macro-F1, D2 Accuracy, D2 Macro-F1, D3 Accuracy, D3 Macro-F1, D4 Accuracy, D4 Macro-F1 Row labels: LSTM only, Embeddings only, Output layer only, Without LSTM, Without embeddings, Without output layer LSTM only: D1 Accuracy=78.09; D1 Macro-F1=67.85; D2 Accuracy=71.04 Embeddings only: D1 Accuracy=77.12; D1 Macro-F1=67.19; D2 Accuracy=69.12 Output layer only: D1 Accuracy=76.88; D1 Macro-F1=66.81; D2 Accuracy=69.63 Without LSTM: D1 Accuracy=77.45; D1 Macro-F1=67.25; D2 Accuracy=69.82"
+    },
+    {
+      "chunk_id": "page-3-chunk-3",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "4.4 Analysis",
+      "nearest_asset_above": "tables/table_pg3_num1.csv",
+      "nearest_asset_below": null,
+      "text": "## 4.4 Analysis\n\nTo show that aspect-level classification indeed benefits from document-level knowledge, we conduct experiments to vary the percentage of document-level training examples from 0.0 to 1.0 for PRET+MULT. The changes of accuracies and macro-F1 scores on the four datasets are shown in Figure 1. The improvements on accuracies with increasing number of document examples are stable across all datasets. For macro-F1 scores, the improvements on D1 and D2 are stable. We observe sharp increases in the macro-F1 scores of D3 and D4 when changing the percentage from 0 to 0.4. This may be related to their extremely unbalanced label distribution. In such cases, with the knowledge gained from a small number of balanced document-level examples, aspect-level predictions on neutral examples can be significantly improved.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "4.4 Analysis"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 4.4 Analysis\n\nTo show that aspect-level classification indeed benefits from document-level knowledge, we conduct experiments to vary the percentage of document-level training examples from 0.0 to 1.0 for PRET+MULT. The changes of accuracies and macro-F1 scores on the four datasets are shown in Figure 1. The improvements on accuracies with increasing number of document examples are stable across all datasets. For macro-F1 scores, the improvements on D1 and D2 are stable. We observe sharp increases in the macro-F1 scores of D3 and D4 when changing the percentage from 0 to 0.4. This may be related to their extremely unbalanced label distribution. In such cases, with the knowledge gained from a small number of balanced document-level examples, aspect-level predictions on neutral examples can be significantly improved."
+    },
+    {
+      "chunk_id": "page-4-chunk-0",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document > Full Page Description (Page 4)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 4)\n\n**Source:** `assets/_page_4_Asset_0.jpg`\n\n**Generated:** 2026-05-30 10:06:04\n\n---\n\nThe image is a line graph with four distinct lines representing different datasets (D1, D2, D3, and D4). The x-axis represents a range from 0 to 1, and the y-axis represents accuracy percentage, ranging from 65 to 85. Each line shows an increasing trend as the x-axis value increases. The legend indicates that D1 and D2 are represented by blue squares, D3 by gray diamonds, and D4 by red stars. The graph visually compares the performance of these datasets across the range of x-axis values.\n\n### Full Page Description (Page 4)\n\n**Source:** `assets/_page_4_Asset_1.jpg`\n\n**Generated:** 2026-05-30 10:05:57\n\n---",
+      "image_refs": [
+        "assets/_page_4_Asset_0.jpg",
+        "assets/_page_4_Asset_1.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_4_Asset_0.jpg",
+        "assets/_page_4_Asset_1.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 4)",
+        "Full Page Description (Page 4)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 4)\n\n**Source:** `assets/_page_4_Asset_0.jpg`\n\n**Generated:** 2026-05-30 10:06:04\n\n---\n\nThe image is a line graph with four distinct lines representing different datasets (D1, D2, D3, and D4). The x-axis represents a range from 0 to 1, and the y-axis represents accuracy percentage, ranging from 65 to 85. Each line shows an increasing trend as the x-axis value increases. The legend indicates that D1 and D2 are represented by blue squares, D3 by gray diamonds, and D4 by red stars. The graph visually compares the performance of these datasets across the range of x-axis values.\n\n### Full Page Description (Page 4)\n\n**Source:** `assets/_page_4_Asset_1.jpg`\n\n**Generated:** 2026-05-30 10:05:57\n\n---"
+    },
+    {
+      "chunk_id": "page-4-chunk-1",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document > Full Page Description (Page 4)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "The image is a line graph with four distinct lines representing different datasets (D1, D2, D3, and D4). The x-axis represents a range from 0 to 1, and the y-axis represents Macro-F1 percentage, which ranges from 60 to 70. The graph shows the performance of these datasets across different values on the x-axis. D1 and D3 show a general upward trend, while D2 and D4 show more fluctuating performance. The legend at the bottom identifies each dataset by color and label.\n\nTo better understand in which conditions the proposed method is helpful, we analyze a subset of test examples that are correctly classified by PRET+MULT but are misclassified by LSTM+ATT. We find that the benefits brought by document-level knowledge are typically shown in four ways.\n\nFirst of all, to our surprise, LSTM+ATT made obvious mistakes on some instances with common opinion words. Below are two examples where the target is enclosed in [] with its true sentiment indicated in the subscript:\n\n1. “I was highly disappointed in the [food]neg.”\n\n2. “This particular location certainly uses substandard [meats]neg.”",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The image is a line graph with four distinct lines representing different datasets (D1, D2, D3, and D4). The x-axis represents a range from 0 to 1, and the y-axis represents Macro-F1 percentage, which ranges from 60 to 70. The graph shows the performance of these datasets across different values on the x-axis. D1 and D3 show a general upward trend, while D2 and D4 show more fluctuating performance. The legend at the bottom identifies each dataset by color and label.\n\nTo better understand in which conditions the proposed method is helpful, we analyze a subset of test examples that are correctly classified by PRET+MULT but are misclassified by LSTM+ATT. We find that the benefits brought by document-level knowledge are typically shown in four ways.\n\nFirst of all, to our surprise, LSTM+ATT made obvious mistakes on some instances with common opinion words. Below are two examples where the target is enclosed in [] with its true sentiment indicated in the subscript:\n\n1. “I was highly disappointed in the [food]neg.”\n\n2. “This particular location certainly uses substandard [meats]neg.”"
+    },
+    {
+      "chunk_id": "page-4-chunk-2",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document > Full Page Description (Page 4)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "In the above examples, LSTM+ATT does attend to the right opinion words, but makes the wrong predictions. One possible reason is that the word embeddings from GloVe without PRET do not effectively capture sentiment information, while the aspect-level training samples are not sufficient to capture that for certain words. PRET+MULT eliminates this kind of errors.\n\nAnother finding is that our method helps to better capture domain-specific opinion words due to additional knowledge from documents that are\n\nfrom a similar domain:\n\n1. “The smaller $[ s i z e ] _ { p o s }$ was a bonus because of space restrictions.”\n\n2. “The [price]pos is 200 dollars down.”\n\nLSTM+ATT attends on smaller correctly for the first example but makes the wrong prediction as smaller can be negative in many cases. It does not even capture down in the second example.\n\nThirdly, we find that LSTM+ATT made a number of errors on sentences with negation words:\n\n1. I have experienced no problems, $[ w o r k s ] _ { p o s }$ as anticipated.\n\n2. [Service $J _ { { n e g } }$ not the friendliest to our party!",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "In the above examples, LSTM+ATT does attend to the right opinion words, but makes the wrong predictions. One possible reason is that the word embeddings from GloVe without PRET do not effectively capture sentiment information, while the aspect-level training samples are not sufficient to capture that for certain words. PRET+MULT eliminates this kind of errors.\n\nAnother finding is that our method helps to better capture domain-specific opinion words due to additional knowledge from documents that are\n\nfrom a similar domain:\n\n1. “The smaller $[ s i z e ] _ { p o s }$ was a bonus because of space restrictions.”\n\n2. “The [price]pos is 200 dollars down.”\n\nLSTM+ATT attends on smaller correctly for the first example but makes the wrong prediction as smaller can be negative in many cases. It does not even capture down in the second example.\n\nThirdly, we find that LSTM+ATT made a number of errors on sentences with negation words:\n\n1. I have experienced no problems, $[ w o r k s ] _ { p o s }$ as anticipated.\n\n2. [Service $J _ { { n e g } }$ not the friendliest to our party!"
+    },
+    {
+      "chunk_id": "page-4-chunk-3",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document > Full Page Description (Page 4)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "LSTMs typically only show their potential on large datasets. Without sufficient training examples, it may not be able to effectively capture various sequential patterns. Pretraining the network on larger document-level corpus addresses this problem.\n\nLastly, PRET+MULT makes fewer errors on recognizing neutral instances. This can also be observed from the macro-F1 scores in Table 2. The lack of training examples makes the prediction of neutral instances very difficult for all previous methods. Knowledge from document-level examples with balanced labels compensates for this disadvantage.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "LSTMs typically only show their potential on large datasets. Without sufficient training examples, it may not be able to effectively capture various sequential patterns. Pretraining the network on larger document-level corpus addresses this problem.\n\nLastly, PRET+MULT makes fewer errors on recognizing neutral instances. This can also be observed from the macro-F1 scores in Table 2. The lack of training examples makes the prediction of neutral instances very difficult for all previous methods. Knowledge from document-level examples with balanced labels compensates for this disadvantage."
+    },
+    {
+      "chunk_id": "page-4-chunk-4",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "5 Conclusion",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## 5 Conclusion\n\nThe effectiveness of existing aspect-level neural models is limited due to the difficulties in obtaining training data in practice. Our work is the first attempt to incorporate knowledge from documentlevel corpus for training aspect-level sentiment classifiers. We have demonstrated the effectiveness of our proposed approaches and analyzed the major benefits brought by the knowledge transfer. The proposed approaches can be potentially integrated with other aspect-level neural models to further boost their performance.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "5 Conclusion"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 5 Conclusion\n\nThe effectiveness of existing aspect-level neural models is limited due to the difficulties in obtaining training data in practice. Our work is the first attempt to incorporate knowledge from documentlevel corpus for training aspect-level sentiment classifiers. We have demonstrated the effectiveness of our proposed approaches and analyzed the major benefits brought by the knowledge transfer. The proposed approaches can be potentially integrated with other aspect-level neural models to further boost their performance."
+    },
+    {
+      "chunk_id": "page-4-chunk-5",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "References",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## References\n\n- Peng Chen, Zhongqian Sun, Lidong Bing, and Wei Yang. 2017. Recurrent attention network on memory for aspect sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017).\n- Ronan Collobert and Jason Weston. 2008. A unified architecture for natural language processing: Deep neural networks with multitask learning. In International Conference on Machine Learning (ICML 2008).",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "References"
+      ],
+      "table_context": "",
+      "retrieval_text": "## References\n\n- Peng Chen, Zhongqian Sun, Lidong Bing, and Wei Yang. 2017. Recurrent attention network on memory for aspect sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017).\n- Ronan Collobert and Jason Weston. 2008. A unified architecture for natural language processing: Deep neural networks with multitask learning. In International Conference on Machine Learning (ICML 2008)."
+    },
+    {
+      "chunk_id": "page-5-chunk-0",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "- Andrew M. Dai and Quoc V. Le. 2015. Semisupervised sequence learning. In Neural Information Processing Systems (NIPS 2015).\n- Li Dong, Furu Wei, Chuanqi Tan, Duyu Tang, Ming Zhou, and Ke Xu. 2014. Adaptive recursive neural network for target-dependent Twitter sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2014).\n- Ruidan He, Wee Sun Lee, Hwee Tou Ng, and Daniel Dahlmeier. 2017. An unsupervised neural attention model for aspect extraction. In Annual Meeting of the Association for Computational Linguistics (ACL 2017).\n- Alex Krizhevsky and Ilya Sutskever. 2012. Imagenet classification with deep convolutional neural networks. In Neural Information Processing Systems (NIPS 2012).\n- Jiangming Liu and Yue Zhang. 2017. Attention modeling for target sentiment. In Conference of the European Chapter of the Association for Computational Linguistics (EACL 2017).\n- Yang Liu, Sujian Li, Xiaodong Zhang, and Zhifang Sui. 2016. Implicit discourse relation classification via multi-task neural networks. In AAAI Conference on Artificial Intelligence (AAAI 2016).\n- Minh-Tang Luong, Hieu Pham, and Christopher D. Manning. 2015b. Effective approaches to attentionbased neural machine translation. In Annual Meeting of the Association for Computational Linguistics (ACL 2015).\n- Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, and Lukasz Kaiser. 2015a. Multi-task sequence to sequence learning. In International Conference on Learning Representation (ICLR 2015).\n- Julian J. McAuley, Christopher Targett, Qinfeng Shi, and Anton van den Hengel. 2015. Image-based recommendations on styles and substitutes. In The 38th International ACM SIGIR Conference on Research and Development in Information Retrieval.\n- Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Distributed representations of words and phrases and their compositionality. In Neural Information Processing Systems (NIPS 2013).\n- Lili Mou, Zhao Meng, Rui Yan, Ge Li, Yan Xu, Lu Zhang, and Zhi Jin. 2016. How transferable are neural networks in NLP applications? In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Thien Hai Nguyen and Kiyoaki Shirai. 2015. PhraseRNN: Phrase recursive neural network for aspect-based sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).\n- Jeffrey Pennington, Richard Socher, and Christopher D Manning. 2014. GloVe: Global vectors for word representation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2014).\n- Maria Pontiki, Dimitrios Galanis, Haris Papageorgiou, Suresh Manandhar, and Ion Androutsopoulos. 2015. SemEval-2015 task 12: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2015).\n- Maria Pontiki, Dimitrios Galanis, John Pavlopoulos, Haris Papageorgiou, Ion Androutsopoulos, and Suresh Manandhar. 2014. SemEval-2014 task 4: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2014).\n- Maria Pontiki, Dimitris Galanis, Haris Papageorgiou, Ion Androutsopoulos, Suresh Manandhar, Mohammed AL-Smadi, Mahmoud Al-Ayyoub, Yanyan Zhao, Bing Qin, Orphee De Clercq, Veronique ´ Hoste, Marianna Apidianaki, Xavier Tannier, Natalia Loukachevitch, Evgeniy Kotelnikov, Nuria Bel,´ Salud Maria Jimenez-Zafra, and G ´ uls¸en Eryi ¨ git. ˘ 2016. SemEval-2016 task 5: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2016).\n- Prajit Ramachandran, Peter J. Liu, and Quoc V. Le. 2017. Unsupervised pretraining for sequence to sequence learning. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017).\n- Duyu Tang, Bing Qin, Xiaocheng Feng, and Ting Liu. 2016a. Effective LSTMs for target-dependent sentiment classification. In International Conference on Computational Linguistics (COLING 2016).\n- Duyu Tang, Bing Qin, and Ting Liu. 2015. Learning semantic representation of users and products for document level sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2015).\n- Duyu Tang, Bing Qin, and Ting Liu. 2016b. Aspect level sentiment classification with deep memory network. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Duy-Tin Vo and Yue Zhang. 2015. Target-dependent Twitter sentiment classification with rich automatic features. In International Joint Conference on Artificial Intelligence (IJCAI 2015).\n- Yequan Wang, Minlie Huang, Li Zhao, and Xiaoyan Zhu. 2016. Attention-based LSTM for aspect-level sentiment classification. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Matthew D. Zeiler and Rob Fergus. 2014. Visualizing and understanding convolutional networks. In European Conference on Computer Vision (ECCV 2014).",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "- Andrew M. Dai and Quoc V. Le. 2015. Semisupervised sequence learning. In Neural Information Processing Systems (NIPS 2015).\n- Li Dong, Furu Wei, Chuanqi Tan, Duyu Tang, Ming Zhou, and Ke Xu. 2014. Adaptive recursive neural network for target-dependent Twitter sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2014).\n- Ruidan He, Wee Sun Lee, Hwee Tou Ng, and Daniel Dahlmeier. 2017. An unsupervised neural attention model for aspect extraction. In Annual Meeting of the Association for Computational Linguistics (ACL 2017).\n- Alex Krizhevsky and Ilya Sutskever. 2012. Imagenet classification with deep convolutional neural networks. In Neural Information Processing Systems (NIPS 2012).\n- Jiangming Liu and Yue Zhang. 2017. Attention modeling for target sentiment. In Conference of the European Chapter of the Association for Computational Linguistics (EACL 2017).\n- Yang Liu, Sujian Li, Xiaodong Zhang, and Zhifang Sui. 2016. Implicit discourse relation classification via multi-task neural networks. In AAAI Conference on Artificial Intelligence (AAAI 2016).\n- Minh-Tang Luong, Hieu Pham, and Christopher D. Manning. 2015b. Effective approaches to attentionbased neural machine translation. In Annual Meeting of the Association for Computational Linguistics (ACL 2015).\n- Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, and Lukasz Kaiser. 2015a. Multi-task sequence to sequence learning. In International Conference on Learning Representation (ICLR 2015).\n- Julian J. McAuley, Christopher Targett, Qinfeng Shi, and Anton van den Hengel. 2015. Image-based recommendations on styles and substitutes. In The 38th International ACM SIGIR Conference on Research and Development in Information Retrieval.\n- Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Distributed representations of words and phrases and their compositionality. In Neural Information Processing Systems (NIPS 2013).\n- Lili Mou, Zhao Meng, Rui Yan, Ge Li, Yan Xu, Lu Zhang, and Zhi Jin. 2016. How transferable are neural networks in NLP applications? In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Thien Hai Nguyen and Kiyoaki Shirai. 2015. PhraseRNN: Phrase recursive neural network for aspect-based sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).\n- Jeffrey Pennington, Richard Socher, and Christopher D Manning. 2014. GloVe: Global vectors for word representation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2014).\n- Maria Pontiki, Dimitrios Galanis, Haris Papageorgiou, Suresh Manandhar, and Ion Androutsopoulos. 2015. SemEval-2015 task 12: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2015).\n- Maria Pontiki, Dimitrios Galanis, John Pavlopoulos, Haris Papageorgiou, Ion Androutsopoulos, and Suresh Manandhar. 2014. SemEval-2014 task 4: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2014).\n- Maria Pontiki, Dimitris Galanis, Haris Papageorgiou, Ion Androutsopoulos, Suresh Manandhar, Mohammed AL-Smadi, Mahmoud Al-Ayyoub, Yanyan Zhao, Bing Qin, Orphee De Clercq, Veronique ´ Hoste, Marianna Apidianaki, Xavier Tannier, Natalia Loukachevitch, Evgeniy Kotelnikov, Nuria Bel,´ Salud Maria Jimenez-Zafra, and G ´ uls¸en Eryi ¨ git. ˘ 2016. SemEval-2016 task 5: Aspect based sentiment analysis. In International Workshop on Semantic Evaluation (SemEval 2016).\n- Prajit Ramachandran, Peter J. Liu, and Quoc V. Le. 2017. Unsupervised pretraining for sequence to sequence learning. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017).\n- Duyu Tang, Bing Qin, Xiaocheng Feng, and Ting Liu. 2016a. Effective LSTMs for target-dependent sentiment classification. In International Conference on Computational Linguistics (COLING 2016).\n- Duyu Tang, Bing Qin, and Ting Liu. 2015. Learning semantic representation of users and products for document level sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2015).\n- Duyu Tang, Bing Qin, and Ting Liu. 2016b. Aspect level sentiment classification with deep memory network. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Duy-Tin Vo and Yue Zhang. 2015. Target-dependent Twitter sentiment classification with rich automatic features. In International Joint Conference on Artificial Intelligence (IJCAI 2015).\n- Yequan Wang, Minlie Huang, Li Zhao, and Xiaoyan Zhu. 2016. Attention-based LSTM for aspect-level sentiment classification. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).\n- Matthew D. Zeiler and Rob Fergus. 2014. Visualizing and understanding convolutional networks. In European Conference on Computer Vision (ECCV 2014)."
+    },
+    {
+      "chunk_id": "page-6-chunk-0",
+      "page_id": 6,
+      "page_number": 6,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "- Meishan Zhang, Yue Zhang, and Duy-Tin Vo. 2016. Gated neural networks for targeted sentiment analysis. In AAAI Conference on Artificial Intelligence (AAAI 2016).\n- Barret Zoph, Deniz Yuret, Jonathan May, and Kevin Knight. 2016. Transfer learning for low-resource neural machine translation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "- Meishan Zhang, Yue Zhang, and Duy-Tin Vo. 2016. Gated neural networks for targeted sentiment analysis. In AAAI Conference on Artificial Intelligence (AAAI 2016).\n- Barret Zoph, Deniz Yuret, Jonathan May, and Kevin Knight. 2016. Transfer learning for low-resource neural machine translation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016)."
+    }
+  ],
+  "layouts": [
+    {
+      "layout_id": "page-0:text-1",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.078,
+        0.29,
+        0.118,
+        0.71
+      ],
+      "text": "Exploiting Document Knowledge for Aspect-level Sentiment Classification",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-2",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.131,
+        0.21,
+        0.149,
+        0.796
+      ],
+      "text": "Ruidan He†‡, Wee Sun Lee†, Hwee Tou Ng†, and Daniel Dahlmeier‡",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-3",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.149,
+        0.221,
+        0.167,
+        0.786
+      ],
+      "text": "†Department of Computer Science, National University of Singapore",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-4",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.166,
+        0.357,
+        0.184,
+        0.648
+      ],
+      "text": "‡SAP Innovation Center Singapore",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-5",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.183,
+        0.275,
+        0.216,
+        0.731
+      ],
+      "text": "†{ruidanhe,leews,nght}@comp.nus.edu.sg ‡d.dahlmeier@sap.com",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-6",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.242,
+        0.262,
+        0.259,
+        0.344
+      ],
+      "text": "Abstract",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-7",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.266,
+        0.142,
+        0.574,
+        0.462
+      ],
+      "text": "Attention-based long short-term memory (LSTM) networks have proven to be useful in aspect-level sentiment classification. However, due to the difficulties in annotating aspect-level data, existing public datasets for this task are all relatively small, which largely limits the effectiveness of those neural models. In this paper, we explore two approaches that transfer knowledge from documentlevel data, which is much less expensive to obtain, to improve the performance of aspect-level sentiment classification. We demonstrate the effectiveness of our approaches on 4 public datasets from SemEval 2014, 2015, and 2016, and we show that attention-based LSTM benefits from document-level knowledge in multiple ways.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-8",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.58,
+        0.115,
+        0.595,
+        0.262
+      ],
+      "text": "1 Introduction",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-9",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.605,
+        0.114,
+        0.782,
+        0.49
+      ],
+      "text": "Given a sentence and an opinion target (also called an aspect term) occurring in the sentence, aspectlevel sentiment classification aims to determine the sentiment polarity in the sentence towards the opinion target. An opinion target or target for short refers to a word or a phrase describing an aspect of an entity. For example, in the sentence “This little place has a cute interior decor but the prices are quite expensive”, the targets are interior decor and prices, and they are associated with positive and negative sentiment respectively.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-10",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.782,
+        0.114,
+        0.912,
+        0.49
+      ],
+      "text": "A sentence may contain multiple sentimenttarget pairs, thus one challenge is to separate different opinion contexts for different targets. For this purpose, state-of-the-art neural methods (Wang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) adopt attention-based LSTM networks, where the LSTM aims to capture sequential patterns and the attention mechanism aims to emphasize target-specific contexts for encoding sentence representations. Typically, LSTMs only show their potential when trained on large datasets. However, aspect-level training data requires the annotation of all opinion targets in a sentence, which is costly to obtain in practice. As such, existing public aspect-level datasets are all relatively small. Insufficient training data limits the effectiveness of neural models",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-12",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.388,
+        0.509,
+        0.712,
+        0.887
+      ],
+      "text": "Despite the lack of aspect-level labeled data, enormous document-level labeled data are easily accessible online such as Amazon reviews. These reviews contain substantial linguistic patterns and come with sentiment labels naturally. In this paper, we hypothesize that aspect-level sentiment classification can be improved by employing knowledge gained from document-level sentiment classification. Specifically, we explore two transfer methods to incorporate this sort of knowledge – pretraining and multi-task learning. In our experiments, we find that both methods are helpful and combining them achieves significant improvements over attentionbased LSTM models trained only on aspect-level data. We also illustrate by examples that additional knowledge from document-level data is beneficial in mu",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-13",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.722,
+        0.51,
+        0.739,
+        0.668
+      ],
+      "text": "2 Related Work",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-14",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.749,
+        0.509,
+        0.912,
+        0.887
+      ],
+      "text": "Various neural models (Dong et al., 2014; Nguyen and Shirai, 2015; Vo and Zhang, 2015; Tang et al., 2016a,b; Wang et al., 2016; Zhang et al., 2016; Liu and Zhang, 2017; Chen et al., 2017) have been proposed for aspect-level sentiment classification. The main idea behind these works is to develop neural architectures that are able to learn continuous features and capture the intricate relation between a target and context words. However, to sufficiently train these models, substantial aspectlevel annotated data is required, which is expensive to obtain in practice.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-2",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.108,
+        0.114,
+        0.575,
+        0.492
+      ],
+      "text": "We explore both pretraining and multi-task learning for transferring knowledge from document level to aspect level. Both methods are widely studied in the literature. Pretraining is a common technique used in computer vision where low-level neural layers can be usefully transferred to different tasks (Krizhevsky and Sutskever, 2012; Zeiler and Fergus, 2014). In natural language processing (NLP), some efforts have been initiated on pretraining LSTMs (Dai and Le, 2015; Zoph et al., 2016; Ramachandran et al., 2017) for sequence-to-sequence models in both supervised and unsupervised settings, where promising results have been obtained. On the other hand, multi-task learning simultaneously trains on samples in multiple tasks with a combined objective (Collobert and Weston, 2008; Luong et al., 2",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-3",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.588,
+        0.115,
+        0.604,
+        0.216
+      ],
+      "text": "3 Models",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-4",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.615,
+        0.115,
+        0.63,
+        0.346
+      ],
+      "text": "3.1 Attention-based LSTM",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-5",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.637,
+        0.114,
+        0.718,
+        0.49
+      ],
+      "text": "We first describe a conventional implementation of an attention-based LSTM model for this task. We use it as a baseline model and extend it with pretraining and multi-task learning approaches for incorporating document-level knowledge.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-6",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.718,
+        0.114,
+        0.847,
+        0.489
+      ],
+      "text": "The inputs are a sentence $s = ( w _ { 1 } , w _ { 2 } , . . . , w _ { n } )$ consisting of n words, and an opinion target $x =$ $( x _ { 1 } , x _ { 2 } , . . . , x _ { m } )$ occurring in the sentence consisting of a subsequence of m words from s. Each word is associated with a continuous word embedding ${ \\bf e } _ { w }$ (Mikolov et al., 2013) from an embedding matrix $\\mathbf { E } \\in \\mathbb { R } ^ { V \\times d }$ , where V is the vocabulary size and d is the embedding dimension.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-7",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.847,
+        0.115,
+        0.879,
+        0.489
+      ],
+      "text": "LSTM is used to capture sequential information, and outputs a sequence of hidden vectors:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:equation-8",
+      "page_id": 1,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_1_Equation_0.jpg",
+      "bbox_norm": [
+        0.894,
+        0.131,
+        0.912,
+        0.452
+      ],
+      "text": "$$\n[ \\mathbf { h } _ { 1 } , . . . , \\mathbf { h } _ { n } ] = \\mathrm { L S T M } ( [ \\mathbf { e } _ { w _ { 1 } } , . . . , \\mathbf { e } _ { w _ { n } } ] , \\theta _ { l s t m } )\\tag{1}\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-1:text-9",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.076,
+        0.509,
+        0.123,
+        0.885
+      ],
+      "text": "An attention layer assigns a weight $\\alpha _ { i }$ to each word in the sentence. The final target-specific representation of the sentence s is then given by:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:equation-10",
+      "page_id": 1,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_1_Equation_1.jpg",
+      "bbox_norm": [
+        0.131,
+        0.645,
+        0.173,
+        0.751
+      ],
+      "text": "$$\n\\mathbf { z } = \\sum _ { i = 1 } ^ { n } \\alpha _ { i } \\mathbf { h } _ { i }\\tag{2}\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-1:text-11",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.183,
+        0.51,
+        0.198,
+        0.749
+      ],
+      "text": "And $\\alpha _ { i }$ is computed as follows:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:equation-12",
+      "page_id": 1,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_1_Equation_2.jpg",
+      "bbox_norm": [
+        0.206,
+        0.559,
+        0.243,
+        0.721
+      ],
+      "text": "$$\n\\alpha _ { i } = \\frac { \\exp ( \\beta _ { i } ) } { \\sum _ { j = 1 } ^ { n } \\exp ( \\beta _ { j } ) }\\tag{3}\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-1:equation-13",
+      "page_id": 1,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_1_Equation_3.jpg",
+      "bbox_norm": [
+        0.244,
+        0.559,
+        0.263,
+        0.835
+      ],
+      "text": "$$\n\\beta _ { i } = f _ { s c o r e } ( \\mathbf { h } _ { i } , \\mathbf { t } ) = t a n h ( \\mathbf { h } _ { i } ^ { T } \\mathbf { W } _ { a } \\mathbf { t } )\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-1:equation-14",
+      "page_id": 1,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_1_Equation_4.jpg",
+      "bbox_norm": [
+        0.267,
+        0.559,
+        0.307,
+        0.675
+      ],
+      "text": "$$\n\\mathbf { t } = \\frac { 1 } { m } \\sum _ { i = 1 } ^ { m } \\mathbf { e } _ { x _ { i } }\\tag{4}\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-1:text-15",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.278,
+        0.86,
+        0.292,
+        0.882
+      ],
+      "text": "(5)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-16",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.316,
+        0.509,
+        0.428,
+        0.885
+      ],
+      "text": "where t is the target representation computed as the averaged word embedding of the target. $f _ { s c o r e }$ is a content-based function that captures the semantic association between a word and the target, for which we adopt the formulation used in (Luong et al., 2015b; He et al., 2017) with parameter matrix $\\mathbf { W } _ { a } \\in \\mathbb { R } ^ { d \\times d }$",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-17",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.429,
+        0.509,
+        0.478,
+        0.885
+      ],
+      "text": "The sentence representation z is fed into an output layer to predict the probability distribution p over sentiment labels on the target:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:equation-18",
+      "page_id": 1,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_1_Equation_5.jpg",
+      "bbox_norm": [
+        0.488,
+        0.591,
+        0.505,
+        0.801
+      ],
+      "text": "$$\n\\mathbf { p } = s o f t m a x ( \\mathbf { W } _ { o } \\mathbf { z } + \\mathbf { b } _ { o } )\\tag{6}\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-1:text-19",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.516,
+        0.51,
+        0.548,
+        0.885
+      ],
+      "text": "We refer to this baseline model as LSTM+ATT. It is trained via cross entropy minimization:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:equation-20",
+      "page_id": 1,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_1_Equation_6.jpg",
+      "bbox_norm": [
+        0.557,
+        0.616,
+        0.59,
+        0.778
+      ],
+      "text": "$$\nJ = - \\sum _ { i \\in D } \\log \\mathbf { p } _ { i } ( c _ { i } )\\tag{7}\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-1:text-21",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.599,
+        0.509,
+        0.649,
+        0.885
+      ],
+      "text": "where D denotes the overall training corpus, $c _ { i }$ denotes the true label for sample i, and $\\mathbf { p } _ { i } ( c _ { i } )$ denotes the probability of the true label.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-22",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.658,
+        0.51,
+        0.674,
+        0.726
+      ],
+      "text": "3.2 Transfer Approaches",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-23",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.677,
+        0.509,
+        0.841,
+        0.885
+      ],
+      "text": "LSTM+ATT is used as our aspect-level model with parameter set $\\begin{array} { r l } { \\theta _ { a s p e c t } ~ } & { { } = } \\end{array}$ $\\{ \\mathbf { E } , \\theta _ { l s t m } , \\mathbf { W } _ { a } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o } \\}$ We also build a standard LSTM-based classifier based on document-level training examples. This network is the same as the LSTM+ATT apart from the lack of the attention layer. The training objective is also cross entropy minimization as shown in equation (7) and the parameter set is $\\theta _ { d o c } = \\{ \\mathbf { E } ^ { \\prime } , \\theta _ { l s t m } ^ { \\prime } , \\mathbf { W } _ { o } ^ { \\prime } , \\mathbf { b } _ { o } ^ { \\prime } \\}$",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-24",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.846,
+        0.509,
+        0.912,
+        0.887
+      ],
+      "text": "Pretraining (PRET): In this setting, we first train on document-level examples. The last hidden vector from the LSTM outputs is used as the document representation. We initialize the relevant parameters E, $\\theta _ { l s t m } , \\mathbf { W } _ { o } , \\mathbf { b } _ { o }$ of LSTM+ATT with the pretrained weights, and train it on aspect-level examples to fine tune those weights and learn ${ \\bf W } _ { a }$ which is randomly initialized.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:table-1",
+      "page_id": 2,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_2_Table_0.jpg",
+      "bbox_norm": [
+        0.072,
+        0.176,
+        0.174,
+        0.433
+      ],
+      "text": "Table 1: Dataset description.",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-2:text-3",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.296,
+        0.114,
+        0.426,
+        0.49
+      ],
+      "text": "Multi-task Learning (MULT): This approach simultaneously trains two tasks – document-level and aspect-level classification. In this setting, the embedding layer (E) and the LSTM layer $( \\theta _ { l s t m } )$ are shared by both tasks, and a document is represented as the mean vector over LSTM outputs. The other parameters are task-specific. The overall loss function is then given by:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:equation-4",
+      "page_id": 2,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_2_Equation_0.jpg",
+      "bbox_norm": [
+        0.434,
+        0.25,
+        0.45,
+        0.356
+      ],
+      "text": "$$\nL = J + \\lambda U\\tag{8}\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-2:text-5",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.46,
+        0.114,
+        0.51,
+        0.49
+      ],
+      "text": "where U is the loss function of document-level classification. $\\lambda \\in ( 0 , 1 )$ is a hyperparameter that controls the weight of U .",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-6",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.514,
+        0.114,
+        0.612,
+        0.49
+      ],
+      "text": "Combined (PRET+MULT): In this setting, we first perform PRET on document-level examples. We use the pretrained weights for parameter initialization for both aspect-level model and document-level model, and then perform MULT as discussed above.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-7",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.621,
+        0.115,
+        0.638,
+        0.263
+      ],
+      "text": "4 Experiments",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-8",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.646,
+        0.115,
+        0.663,
+        0.443
+      ],
+      "text": "4.1 Datasets and Experimental Settings",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-9",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.668,
+        0.114,
+        0.796,
+        0.49
+      ],
+      "text": "We run experiments on four benchmark aspectlevel datasets, taken from SemEval 2014 (Pontiki et al., 2014), SemEval 2015 (Pontiki et al., 2015), and SemEval 2016 (Pontiki et al., 2016). Following previous work (Tang et al., 2016b; Wang et al., 2016), we remove samples with conflicting polarities in all datasets1. Statistics of the resulting datasets are presented in Table 1.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-10",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.797,
+        0.114,
+        0.877,
+        0.49
+      ],
+      "text": "We derived two document-level datasets from Yelp2014 (Tang et al., 2015) and the Amazon Electronics dataset (McAuley et al., 2015) respectively. The original reviews were rated on a 5- point scale. We consider 3-class classification and thus label reviews with rating $< 3 , > 3 ,$ and = 3 as negative, positive, and neutral respectively. Each sampled dataset contains 30k instances with exactly balanced class labels. We pair up an aspectlevel dataset and a document-level dataset when they are from a similar domain – the Yelp dataset is used by D1, D3, and D4 for PRET and MULT, and the Electronics dataset is only used by D2.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-12",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.205,
+        0.509,
+        0.481,
+        0.887
+      ],
+      "text": "In all experiments, 300-dimension GloVe vectors (Pennington et al., 2014) are used to initialize E and $\\mathbf { E ^ { \\prime } }$ when pretraining is not conducted for weight initialization. These vectors are also used for initializing $\\mathbf { E ^ { \\prime } }$ in the pretraining phase. Values for hyperparameters are obtained from experiments on development sets. We randomly sample 20% of the original training data from the aspectlevel dataset as the development set and only use the remaining 80% for training. For all experiments, the dimension of LSTM hidden vectors is set to 300, λ is set to 0.1, and we use dropout with probability 0.5 on sentence/document representations before the output layer. We use RMSProp as the optimizer with the decay rate set to 0.9 and the base learning ra",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-13",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.495,
+        0.51,
+        0.512,
+        0.712
+      ],
+      "text": "4.2 Model Comparison",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-14",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.519,
+        0.509,
+        0.681,
+        0.887
+      ],
+      "text": "Table 2 shows the results of LSTM, LSTM+ATT, PRET, MULT, PRET+MULT, and four representative prior works (Tang et al., 2016a,b; Wang et al., 2016; Chen et al., 2017). Significance tests are conducted for testing the robustness of methods under random parameter initialization. Both accuracy and macro-F1 are used for evaluation as label distribution is unbalanced. The reported numbers are obtained as the average value over 5 runs with random initialization for each method.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-15",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.683,
+        0.509,
+        0.845,
+        0.887
+      ],
+      "text": "We observe that PRET is very helpful, and consistently gives a 1–3% increase in accuracy over LSTM+ATT across all datasets. The improvements in macro-F1 scores are even more, especially on D3 and D4 where the labels are extremely unbalanced. MULT gives similar performance as LSTM+ATT on D1 and D2, but improvements can be clearly observed for D3 and D4. The combination (PRET+MULT) overall yields better results.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-16",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.846,
+        0.509,
+        0.912,
+        0.887
+      ],
+      "text": "There are two main reasons why the improvements of macro-F1 scores are more significant on D3 and D4 than on D1: (1) D1 has much more neutral examples in the training set. A classifier without any external knowledge might still be able to learn some neutral-related features on D1 but it is very hard to learn from D3 and D4. (2) The numbers of neutral examples in the test sets of D3 and D4 are very small. Thus, the precision and recall on neutral class will be largely affected by even a small prediction difference (e.g., with 5 more neutral examples correctly identified, recall is increased by more than 10% on both datasets). As a result, the macro-F1 scores on D3 and D4 are affected more.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:table-1",
+      "page_id": 3,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_3_Table_0.jpg",
+      "bbox_norm": [
+        0.072,
+        0.221,
+        0.195,
+        0.783
+      ],
+      "text": "Table 2: Average accuracies and Macro-F1 scores over 5 runs with random initialization. The best results are in bold. ∗ indicates that PRET+MULT is significantly better than Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, and LSTM+ATT with $p < 0 . 0 5$ according to one-tailed unpaired t-test.",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-3:table-2",
+      "page_id": 3,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_3_Table_1.jpg",
+      "bbox_norm": [
+        0.285,
+        0.226,
+        0.376,
+        0.778
+      ],
+      "text": "Table 3: PRET with different transferred layers. Averaged results over 5 runs are reported.",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-3:text-4",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.626,
+        0.115,
+        0.642,
+        0.277
+      ],
+      "text": "4.3 Ablation Tests",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-5",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.652,
+        0.114,
+        0.912,
+        0.492
+      ],
+      "text": "Table 2 indicates that a large percentage of the performance gain comes from PRET. To better understand the transfer effects of different layers – embedding layer (E), LSTM layer $( \\theta _ { l s t m } )$ , and output layer $( \\mathbf { W } _ { o } , \\mathbf { b } _ { o } )$ – we conduct ablation tests on PRET with different layers transfered from the document-level model to the aspect-level model. Results are presented in Table 3. “LSTM only” denotes the setting where only the LSTM layer is transferred, and “Without LSTM” denotes the setting where only the embedding and output layers are transferred (excluding the LSTM layer). The key observations are: (1) Transfer is helpful in all settings. Improvements over LSTM+ATT are observed even when only one layer is transferred. (2) Overall, tr",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-7",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.675,
+        0.51,
+        0.692,
+        0.626
+      ],
+      "text": "4.4 Analysis",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-8",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.701,
+        0.509,
+        0.912,
+        0.889
+      ],
+      "text": "To show that aspect-level classification indeed benefits from document-level knowledge, we conduct experiments to vary the percentage of document-level training examples from 0.0 to 1.0 for PRET+MULT. The changes of accuracies and macro-F1 scores on the four datasets are shown in Figure 1. The improvements on accuracies with increasing number of document examples are stable across all datasets. For macro-F1 scores, the improvements on D1 and D2 are stable. We observe sharp increases in the macro-F1 scores of D3 and D4 when changing the percentage from 0 to 0.4. This may be related to their extremely unbalanced label distribution. In such cases, with the knowledge gained from a small number of balanced document-level examples, aspect-level predictions on neutral examples can be significantl",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-4",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.487,
+        0.114,
+        0.6,
+        0.49
+      ],
+      "text": "To better understand in which conditions the proposed method is helpful, we analyze a subset of test examples that are correctly classified by PRET+MULT but are misclassified by LSTM+ATT. We find that the benefits brought by document-level knowledge are typically shown in four ways.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-5",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.601,
+        0.114,
+        0.681,
+        0.49
+      ],
+      "text": "First of all, to our surprise, LSTM+ATT made obvious mistakes on some instances with common opinion words. Below are two examples where the target is enclosed in [] with its true sentiment indicated in the subscript:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-6",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.682,
+        0.134,
+        0.699,
+        0.489
+      ],
+      "text": "1. “I was highly disappointed in the [food]neg.”",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-7",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.699,
+        0.115,
+        0.732,
+        0.489
+      ],
+      "text": "2. “This particular location certainly uses substandard [meats]neg.”",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-8",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.733,
+        0.114,
+        0.862,
+        0.492
+      ],
+      "text": "In the above examples, LSTM+ATT does attend to the right opinion words, but makes the wrong predictions. One possible reason is that the word embeddings from GloVe without PRET do not effectively capture sentiment information, while the aspect-level training samples are not sufficient to capture that for certain words. PRET+MULT eliminates this kind of errors.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-9",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.862,
+        0.114,
+        0.91,
+        0.49
+      ],
+      "text": "Another finding is that our method helps to better capture domain-specific opinion words due to additional knowledge from documents that are",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-10",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.074,
+        0.51,
+        0.09,
+        0.687
+      ],
+      "text": "from a similar domain:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-11",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.091,
+        0.51,
+        0.123,
+        0.885
+      ],
+      "text": "1. “The smaller $[ s i z e ] _ { p o s }$ was a bonus because of space restrictions.”",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-12",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.123,
+        0.529,
+        0.139,
+        0.833
+      ],
+      "text": "2. “The [price]pos is 200 dollars down.”",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-13",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.14,
+        0.51,
+        0.203,
+        0.885
+      ],
+      "text": "LSTM+ATT attends on smaller correctly for the first example but makes the wrong prediction as smaller can be negative in many cases. It does not even capture down in the second example.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-14",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.204,
+        0.509,
+        0.236,
+        0.885
+      ],
+      "text": "Thirdly, we find that LSTM+ATT made a number of errors on sentences with negation words:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-15",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.236,
+        0.51,
+        0.268,
+        0.884
+      ],
+      "text": "1. I have experienced no problems, $[ w o r k s ] _ { p o s }$ as anticipated.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-16",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.269,
+        0.529,
+        0.285,
+        0.882
+      ],
+      "text": "2. [Service $J _ { { n e g } }$ not the friendliest to our party!",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-17",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.285,
+        0.509,
+        0.38,
+        0.885
+      ],
+      "text": "LSTMs typically only show their potential on large datasets. Without sufficient training examples, it may not be able to effectively capture various sequential patterns. Pretraining the network on larger document-level corpus addresses this problem.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-18",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.381,
+        0.509,
+        0.511,
+        0.887
+      ],
+      "text": "Lastly, PRET+MULT makes fewer errors on recognizing neutral instances. This can also be observed from the macro-F1 scores in Table 2. The lack of training examples makes the prediction of neutral instances very difficult for all previous methods. Knowledge from document-level examples with balanced labels compensates for this disadvantage.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-19",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.52,
+        0.51,
+        0.536,
+        0.645
+      ],
+      "text": "5 Conclusion",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-20",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.545,
+        0.509,
+        0.722,
+        0.887
+      ],
+      "text": "The effectiveness of existing aspect-level neural models is limited due to the difficulties in obtaining training data in practice. Our work is the first attempt to incorporate knowledge from documentlevel corpus for training aspect-level sentiment classifiers. We have demonstrated the effectiveness of our proposed approaches and analyzed the major benefits brought by the knowledge transfer. The proposed approaches can be potentially integrated with other aspect-level neural models to further boost their performance.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-21",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.747,
+        0.512,
+        0.763,
+        0.611
+      ],
+      "text": "References",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-22",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.77,
+        0.514,
+        0.835,
+        0.885
+      ],
+      "text": "Peng Chen, Zhongqian Sun, Lidong Bing, and Wei Yang. 2017. Recurrent attention network on memory for aspect sentiment analysis. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2017). Ronan Collobert and Jason Weston. 2008. A unified architecture for natural language processing: Deep neural networks with multitask learning. In International Conference on Machine Learning (ICML 2008).",
+      "source_type": "list"
+    },
+    {
+      "layout_id": "page-5:text-1",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.076,
+        0.117,
+        0.117,
+        0.487
+      ],
+      "text": "Andrew M. Dai and Quoc V. Le. 2015. Semisupervised sequence learning. In Neural Information Processing Systems (NIPS 2015). Li Dong, Furu Wei, Chuanqi Tan, Duyu Tang, Ming Zhou, and Ke Xu. 2014. Adaptive recursive neural network for target-dependent Twitter sentiment classification. In Annual Meeting of the Association for Computational Linguistics (ACL 2014). Ruidan He, Wee Sun Lee, Hwee Tou Ng, and Daniel Dahlmeier. 2017. An unsupervised neural attention model for aspect extraction. In Annual Meeting of the Association for Computational Linguistics (ACL 2017). Alex Krizhevsky and Ilya Sutskever. 2012. Imagenet classification with deep convolutional neural networks. In Neural Information Processing Systems (NIPS 2012). Jiangming Liu and Yue Zhang. 2017. Attention modeling for target senti",
+      "source_type": "list"
+    },
+    {
+      "layout_id": "page-6:text-1",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.077,
+        0.119,
+        0.128,
+        0.487
+      ],
+      "text": "Meishan Zhang, Yue Zhang, and Duy-Tin Vo. 2016. Gated neural networks for targeted sentiment analysis. In AAAI Conference on Artificial Intelligence (AAAI 2016). Barret Zoph, Deniz Yuret, Jonathan May, and Kevin Knight. 2016. Transfer learning for low-resource neural machine translation. In Conference on Empirical Methods in Natural Language Processing (EMNLP 2016).",
+      "source_type": "list"
+    }
+  ],
+  "stats": {
+    "num_pages": 7,
+    "num_chunks": 30,
+    "num_layouts": 77
+  }
+}

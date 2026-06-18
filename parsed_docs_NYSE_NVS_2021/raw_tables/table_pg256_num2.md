@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">Total/ weighted</td></tr><tr><td>ADR options outstanding Number outstanding (millions)</td><td>0.8 3.2</td><td>average 4.0</td></tr><tr><td>Remaining contractual life (years)</td><td>0.0 1.0</td><td>0.8</td></tr><tr><td>Exercise price (USD)</td><td>58.3 65.9</td><td>64.4</td></tr></table>

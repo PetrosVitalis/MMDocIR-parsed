@@ -1,0 +1,10 @@
+Model,Yelp Dataset,Yelp Dataset,Yelp Dataset,Yelp Dataset,Yelp Dataset,Amazon Dataset,Amazon Dataset,Amazon Dataset,Amazon Dataset,Amazon Dataset
+Model,STA↑,CS↑,wo↑,PPL,GM↑,STA,Cs↑,WO↑,PPL,GM
+"Style-Embedding (Fu et al., 2018)",0.18,0.96,0.67,124,0.10,0.40,0.93,0.36,32,0.17
+"Cross-Alignment (Shen et al., 2017)",0.78,0.89,0.21,93,0.12,0.61,0.89,0.02,202,0.04
+"Multi-Decoder (Zhao et al.,2018)",0.82†,0.88,0.27,85,0.14,0.55,0.93,0.17,75,0.11
+"Del-Ret-Gen (Li et al., 2018) ‡",0.86,0.94,0.52,70,0.19,0.43,0.98,0.80,65,0.17
+"BackTranslate (Tsvetkov et al., 2018)",0.85,0.83,0.08,206,0.07,0.83,0.82,0.02,115,0.05
+"Cycle-RL (Xu et al., 2018) ‡",0.80,0.92,0.43,470,0.09,0.72,0.91,0.22,332,0.08
+Ours (DAE),0.88,0.92,0.55,52,0.21,0.72,0.92,0.35,73,0.15
+Ours (VAE),0.93,0.90,0.47,32,0.24,0.82,0.90,0.20,63,0.14

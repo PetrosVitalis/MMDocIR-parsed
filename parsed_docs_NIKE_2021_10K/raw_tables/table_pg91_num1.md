@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">MAY 31,</td></tr><tr><td>(Dollars in millions) United States</td><td>2021 $ 4,927 $</td><td>2020 5,114</td></tr><tr><td>Belgium</td><td>676</td><td>606</td></tr><tr><td>China</td><td>518</td><td></td></tr><tr><td></td><td></td><td>457</td></tr></table>

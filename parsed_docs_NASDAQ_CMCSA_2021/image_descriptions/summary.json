@@ -1,0 +1,69 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NASDAQ_CMCSA_2021",
+  "total_images": 12,
+  "non_figure_images_skipped": 86,
+  "processed": 12,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_36_Figure_0.jpg",
+      "output": "image_descriptions/_page_36_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_42_Asset_0.jpg",
+      "output": "image_descriptions/_page_42_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_58_Asset_0.jpg",
+      "output": "image_descriptions/_page_58_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_46_Asset_0.jpg",
+      "output": "image_descriptions/_page_46_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_46_Asset_1.jpg",
+      "output": "image_descriptions/_page_46_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Asset_1.jpg",
+      "output": "image_descriptions/_page_3_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Asset_0.jpg",
+      "output": "image_descriptions/_page_3_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_39_Asset_0.jpg",
+      "output": "image_descriptions/_page_39_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_40_Asset_0.jpg",
+      "output": "image_descriptions/_page_40_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_35_Asset_0.jpg",
+      "output": "image_descriptions/_page_35_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_0.jpg",
+      "output": "image_descriptions/_page_4_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

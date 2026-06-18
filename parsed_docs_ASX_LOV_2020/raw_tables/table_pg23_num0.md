@@ -1,0 +1,1 @@
+<table><tr><td>Senior Executive</td><td>Fixed remuneration</td><td>At risk remuneration</td></tr><tr><td>Shane Fallscheer</td><td>33%</td><td>67%</td></tr><tr><td>Chris Lauder</td><td>67%</td><td>33%</td></tr></table>

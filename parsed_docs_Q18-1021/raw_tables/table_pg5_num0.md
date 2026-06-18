@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Train</td><td>Dev</td><td>Test</td><td>Total</td></tr><tr><td>WIKIHOP</td><td>43,738</td><td>5,129</td><td>2,451</td><td>51,318</td></tr><tr><td>MEDHOP</td><td>1,620</td><td>342</td><td>546</td><td>2.508</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Domestic $</td><td>4,931 $</td><td>4,204</td><td>$ 3,591</td></tr><tr><td>Foreign</td><td>1,749</td><td>1,163</td><td>1,174</td></tr><tr><td>Total $</td><td>6,680 $</td><td>5,367</td><td>$ 4,765</td></tr></table>

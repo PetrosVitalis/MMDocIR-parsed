@@ -1,0 +1,7 @@
+Footnotes,Sovereign debt securities and bills,Other debt securities and bills,Wholesale lending and derivatives,12-month Basel probability of default %,Retail lending,12 month probability-weighted PD %
+"Quality classification 1, 2",External credit rating,External credit rating,Internal credit rating,,Internal credit rating,
+Strong,BBB and above,A- and above,CRR 1 to CRR 2,0-0.169,Band 1 and 2,0.000-0.500
+Good,BBB- to BB,BBB+ to BBB-,CRR 3,0.170-0.740,Band 3,0.501-1.500
+Satisfactory,BB- to B and unrated,BB+ to B and unrated,CRR 4 to CRR 5,0.741-4.914,Band 4 and 5,1.501-20.000
+Sub-standard,B- to C,B- to C,CRR 6 to CRR 8,4.915-99.999,Band 6,20.001-99.999
+Credit impaired,Default,Default,CRR 9 to CRR 10,100,Band 7,100

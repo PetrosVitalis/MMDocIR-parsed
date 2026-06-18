@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>Area</td><td>Food</td><td>Price</td><td>Joint</td></tr><tr><td>RNN</td><td>92</td><td>86</td><td>86</td><td>69</td></tr><tr><td>RNN+sem. dict</td><td>92</td><td>86</td><td>92</td><td>71</td></tr><tr><td>NBT</td><td>90</td><td>84</td><td>94</td><td>72</td></tr><tr><td>Our SL model</td><td>90</td><td>84</td><td>92</td><td>72</td></tr></table>

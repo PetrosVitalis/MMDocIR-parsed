@@ -1,0 +1,1 @@
+<table><tr><td></td><td>January 28,2023</td><td>January 29,2022</td></tr><tr><td>Accrued liabilities $</td><td>111 $</td><td>80</td></tr><tr><td>Long-term liabilities</td><td>53</td><td>51</td></tr><tr><td>Total</td><td>$ 164</td><td>$ 131</td></tr></table>

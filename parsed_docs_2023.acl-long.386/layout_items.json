@@ -1,0 +1,2228 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.079,
+      0.159,
+      0.101,
+      0.838
+    ],
+    "text": "Fact-Checking Complex Claims with Program-Guided Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.215,
+      0.141,
+      0.788
+    ],
+    "text": "Liangming Pan1,2 Xiaobao Wu3 Xinyuan Lu4 Anh Tuan Luu3 William Yang Wang1 Min-Yen Kan4 Preslav Nakov2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.146,
+      0.275,
+      0.162,
+      0.724
+    ],
+    "text": "1 University of California, Santa Barbara 2 MBZUAI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.198,
+      0.181,
+      0.8
+    ],
+    "text": "3 Nanyang Technological University 4 National University of Singapore",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.217,
+      0.252,
+      0.234,
+      0.751
+    ],
+    "text": "kanmy@comp.nus.edu.sg preslav.nakov@mbzuai.ac.ae",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.26,
+      0.268,
+      0.342
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.278,
+      0.141,
+      0.594,
+      0.462
+    ],
+    "text": "Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning. In this paper, we present Program-Guided Fact-Checking (PROGRAMFC), a novel factchecking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions. We first leverage the in-context learning ability of large language models to generate reasoning programs to guide the verification process. Afterward, we execute the program by delegating each sub-task to the corresponding sub-task handler. This process makes our model both explanatory and data-efficient, providing clear explanations of its reasoning process and requiring minimal training data. We evaluate PRO-GRAMFC on two challenging fact-checking",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.602,
+      0.115,
+      0.618,
+      0.26
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.627,
+      0.112,
+      0.74,
+      0.489
+    ],
+    "text": "The proliferation of disinformation, e.g., in social media, has made automated fact-checking a crucial application of natural language processing (NLP). Given a claim, the goal is to find evidence and then to make a verdict about the claim’s veracity based on that evidence (Thorne and Vlachos, 2018; Glockner et al., 2022; Guo et al., 2022).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.74,
+      0.112,
+      0.887,
+      0.49
+    ],
+    "text": "Evaluating the veracity of real-world claims often involves collecting multiple pieces of evidence and applying complex reasoning (Jiang et al., 2020; Nguyen et al., 2020; Aly and Vlachos, 2022; Chen et al., 2022a). For instance, consider the claim “Both James Cameron and the director of the film Interstellar were born in Canada”. It may be challenging to find direct evidence on the web that refutes or supports this claim.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.507,
+      0.414,
+      0.887
+    ],
+    "text": "Instead, a human fact-checker needs to decompose the claim, gather multiple pieces of evidence, and perform step-by-step reasoning (Nakov et al., 2021a), as illustrated in Figure 1. This makes verifying complex claims much more challenging than the typical setting explored in previous work, where information from a single article is sufficient to support/refute the claim (Thorne et al., 2018; Saakyan et al., 2021; Schuster et al., 2021; Pan et al., 2021; Wadden et al., 2022a; Krishna et al., 2022).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.417,
+      0.507,
+      0.708,
+      0.887
+    ],
+    "text": "Besides multi-step reasoning, we still need to consider two key aspects for developing a reliable fact-checking system: (i) Explanability: The model should not only predict the veracity of the claim, but it should also provide a clear explanation of its reasoning process to help users understand and trust the results. (ii) Data efficiency: Human annotation is often time-consuming, costly, and potentially biased, making it difficult to collect sufficient highquality labeled data for model training, particularly for complex claims. Therefore, it is desirable to build a model that can perform well with minimal or no training data. Despite a few models (Zhou et al., 2019; Zhong et al., 2020; Aly and Vlachos, 2022) being proposed to facilitate multi-step reasoning in fact-checking, they either ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "In this paper, we present Program-Guided Fact-Checking (PROGRAMFC), a novel fact-checking framework that is both explanatory and dataefficient. Figure 1 illustrates our approach. To verify complex claims, PROGRAMFC decomposes them into simpler sub-tasks that can be solved using a shared library of specialized sub-task functions. To be specific, PROGRAMFC begins by generating a reasoning program for the input claim, which is a sequence of sub-tasks (e.g., S1-S4 in Figure 1) in the form of ACTION[ARGUMENT], where ACTION and ARGUMENT define the type and the content of the sub-task, respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.085,
+      0.117,
+      0.316,
+      0.88
+    ],
+    "text": "Figure 1: Overview of our PROGRAMFC model, which consists of two modules: (i) Program Generation generates a reasoning program for the input claim using Codex with in-context learning, and then (ii) Program Execution sequentially interprets the program by delegating each step to the corresponding sub-task function.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.398,
+      0.112,
+      0.527,
+      0.489
+    ],
+    "text": "The generated reasoning program serves as a step-by-step guide for verifying the claim. We then execute the program by sequentially delegating each sub-task to the corresponding sub-task handler, as shown in the functions columns in Figure 1. These sub-tasks may include answering questions, verifying simple claims, or conducting logical reasoning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.112,
+      0.821,
+      0.49
+    ],
+    "text": "PROGRAMFC combines explainability with data efficiency. It uses reasoning programs to provide clear explanations of its reasoning process. For data efficiency, Large Language Models (LLMs) can solve various tasks given only a few examples as prompts, e.g., in-context learning (Brown et al., 2020). We leverage this ability of LLMs to generate reasoning programs for a given claim by showing the model just a few dozen of (claim, program) pairs as demonstrations. PROGRAMFC is also flexible as it allows for easy swapping of subtask function implementations to work under different settings of fact-checking, without affecting the rest of the system. We can allow the functions to retrieve information from external sources (in an open-book setting) or we can ask them to generate answers based solel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "We evaluate PROGRAMFC on two challenging datasets designed for fact-checking complex claims: HOVER (Jiang et al., 2020) and FEVER-OUS (Aly et al., 2021), and we show that it outperforms seven few-shot fact-checking baselines on both datasets (§ 4.1).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.398,
+      0.507,
+      0.56,
+      0.885
+    ],
+    "text": "The strategy of program-guided reasoning becomes increasingly effective as the required reasoning depth increases (§ 4.1). In the open-domain setting, we find that reasoning programs can enhance the retrieval of relevant evidence from knowledge sources (§ 4.2). Moreover, PROGRAMFC is robust even when we use weak models as sub-task solvers (§ 4.2). We also evaluate the interpretability of the reasoning programs through human evaluation and error analysis (§ 4.3).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.571,
+      0.509,
+      0.588,
+      0.667
+    ],
+    "text": "2 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.598,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Fact-Checking. Automated fact-checking has gained significant attention in the NLP research community in recent years as a means of combating misinformation and disinformation. Various datasets have been proposed that enable the development and the evaluation of systems for automatic fact-checking, the most popular ones being based on human-crafted claims from Wikipedia content (Thorne et al., 2018; Sathe et al., 2020; Schuster et al., 2021) and naturally occurring claims in the political or in the scientific domain (Wang, 2017; Nakov et al., 2021b, 2022; Augenstein et al., 2019; Saakyan et al., 2021; Gupta and Srikumar, 2021; Wadden et al., 2020, 2022a). Notably, most of these datasets are constructed in a way that the evidence to support or to refute a claim can be found in a single docu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.11,
+      0.312,
+      0.492
+    ],
+    "text": "To bridge this gap, datasets have been proposed to study fact-checking complex claims that require multi-step reasoning (Jiang et al., 2020; Aly et al., 2021). Graph-based models (Zhou et al., 2019; Liu et al., 2020; Zhong et al., 2020; Nguyen et al., 2020; Barnabò et al., 2022, 2023) are used to facilitate the reasoning over multiple pieces of evidence. Although such models achieve sizable performance gains, they lack explanability and thet rely on large amounts of training data. To address the above problems, we propose an explainable, flexible, and data-efficient model that generates reasoning graphs as explanations and utilizes incontext learning to enable few-shot learning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.325,
+      0.11,
+      0.665,
+      0.49
+    ],
+    "text": "Explanation Generation. Facing the complexities of real-world claims, simply giving a final veracity to a claim often fails to be persuasive (Guo et al., 2022). Previous research has proposed various approaches to provide post-hoc explanations for model predictions, such as using attention weights to highlight relevant parts of the evidence (Popat et al., 2017; Cui et al., 2019; Yang et al., 2019; Lu and Li, 2020), generating justifications with logic-based systems based on knowledge graphs (Gad-Elrab et al., 2019; Ahmadi et al., 2019), and generating a summary of the retrieved relevant evidence (Atanasova et al., 2020; Kotonya and Toni, 2020; Jolly et al., 2022). In contrast, we propose to use reasoning programs to provide explanations that consist of sub-tasks described in a program-like",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.678,
+      0.11,
+      0.921,
+      0.492
+    ],
+    "text": "Chain-of-Thought Reasoning. Moreover, unlike previous work that generates post-hoc explanations, we also use reasoning programs as guidance for predicting the veracity of the claim. This is motivated by the recent success of chain-of-thought prompting (CoT) (Wei et al., 2022; Kojima et al., 2022; Wang et al., 2022), which generates step-bystep natural language reasoning steps to guide the model in answering complex questions. We adopt this idea to fact-checking complex claims. Unlike the original CoT, which uses a single LLM for both decomposition and question answering, we use the language model only to generate reasoning programs as the blueprint for problem-solving, and we delegate each sub-task to specialized functions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.507,
+      0.23,
+      0.887
+    ],
+    "text": "This approach reduces the burden on the language model and allows for more flexibility in incorporating necessary components for factchecking such as an evidence retriever. The strategy of program-guided reasoning is also in line with the recent trend of tool-augmented language models (Mialon et al., 2023; Schick et al., 2023), i.e., augmenting language models with access to external tools and resources.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.509,
+      0.256,
+      0.67
+    ],
+    "text": "3 PROGRAMFC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.266,
+      0.507,
+      0.316,
+      0.885
+    ],
+    "text": "We first formulate the problem of fact-checking and then we introduce our proposed model for Program-Guided Fact-Checking (PROGRAMFC).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.509,
+      0.34,
+      0.729
+    ],
+    "text": "3.1 Problem Formulation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.346,
+      0.507,
+      0.46,
+      0.887
+    ],
+    "text": "Given a claim C, a fact-checking model  aims to predict a label Y to evaluate the claim as TRUE or FALSE, based on a knowledge source . The model is also required to output an explanation E to justify the predicted veracity label. We summarize three different settings of fact-checking depending on the type of knowledge source .",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.507,
+      0.606,
+      0.887
+    ],
+    "text": "Gold evidence: For each claim, is the set of gold evidence documents that can support or refute the claim. This setting is also called claim verification (Pan et al., 2021; Wright et al., 2022). Open-book setting:  is a large textual corpus such as Wikipedia. The model first retrieves relevant evidence from the corpus and then predicts the veracity label based on the evidence (Jiang et al., 2021; Wadden et al., 2022b).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.607,
+      0.507,
+      0.72,
+      0.887
+    ],
+    "text": "Closed-book setting: The model does not have access to any external knowledge source ( = ). It needs to leverage the knowledge stored in its parameters (acquired during pre-training and finetuning) to verify the claim. This setting was explored in work that applies large language models for fact-checking (Lee et al., 2020, 2021).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.73,
+      0.509,
+      0.746,
+      0.779
+    ],
+    "text": "3.2 Program-Guided Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.507,
+      0.848,
+      0.887
+    ],
+    "text": "Our goal is to fact-check a complex claim C that requires multi-step reasoning. We focus on the fewshot setting, where only a small set of in-domain examples are available to teach the model. To solve this, PROGRAMFC follows a program generationand-execution paradigm, as shown in Figure 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.507,
+      0.921,
+      0.885
+    ],
+    "text": "Program Generation. At this stage, given the input claim C, a planner P generates a reasoning program $P = [ S _ { 1 } , \\cdots , S _ { n } ]$ for it, which consists of n sequentially ordered reasoning steps $S _ { i }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.112,
+      0.279,
+      0.489
+    ],
+    "text": "Each reasoning step $S _ { i } ~ \\in ~ P$ is an instruction in controlled natural language that directs $S _ { i }$ to a function in an auxiliary set of sub-task functions $\\mathcal { F }$ available to the system. To be specific, we define ${ \\cal S } _ { i } \\ : = \\ : ( f _ { i } , { \\cal A } _ { i } , V _ { i } )$ , where $f _ { i }$ specifies the sub-task function $f _ { i } \\in \\mathcal { F } , A _ { i }$ is the argument passed to the function $f _ { i } ,$ and $V _ { i }$ is the variable that stores the returned result from the function call $f _ { i } ( A _ { i } )$ . For a valid reasoning program, the return value of the last reasoning step must be a Boolean value indicating the veracity label of the claim $C$ $i . e . , V _ { n } \\in \\{ \\mathrm { T R U E } , \\mathrm { F A L S E } \\",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.285,
+      0.112,
+      0.625,
+      0.49
+    ],
+    "text": "Program Execution. In the execution stage, the reasoning program $P$ is run by an interpreter to derive the veracity label of the claim $C .$ The interpreter sequentially parses the reasoning steps in $P .$ For each step $S _ { i } = ( f _ { i } , A _ { i } , V _ { i } )$ , it calls the corresponding off-the-shelf sub-task function $f _ { i }$ and passes the argument $A _ { i }$ to it. The argument $A _ { i }$ is either a logical expression or a natural language sentence, e.g., a question or a simple claim. The result of the function call is then stored in the variable $V _ { i }$ $\\mathbf { A } \\mathbf { s }$ it is common for a subsequent step to depend on the results from previous steps, we allow the argument $A _ { i }$ to refer to variables $V _ { 1 } , \\cdots , V _ { i - 1 }$ in previ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.112,
+      0.81,
+      0.49
+    ],
+    "text": "Aggregating Reasoning Paths. Note that there might be multiple reasoning paths that can reach the final veracity label. Therefore, we generate a diverse set of N candidate reasoning programs $\\mathcal { P } = \\{ P _ { 1 } , \\cdots , P _ { N } \\}$ for the input claim. After executing all programs in $\\mathcal { P }$ , we take the majority vote over all N predicted labels as the final label. This approach is similar to how humans rely on multiple methods of validation to increase their confidence in fact-checking. It also makes the model less susceptible to errors in individual reasoning programs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.819,
+      0.114,
+      0.835,
+      0.411
+    ],
+    "text": "3.3 Reasoning Program Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.11,
+      0.921,
+      0.489
+    ],
+    "text": "We base our program generator on Codex (Chen et al., 2021), a code-pretrained LLM, which can parse natural language into symbolic representations such as SQL (Cheng et al., 2022) or Python programs (Gao et al., 2022; Chen et al., 2022b).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.507,
+      0.392,
+      0.885
+    ],
+    "text": "However, the grammar of a reasoning program is different from the grammar of a programming language. We take advantage of Codex’s few-shot generalization ability and we find that it can learn effectively from only a small number of in-context examples $\\mathcal { D } = \\{ d _ { 1 } , \\cdots , d _ { | D | } \\}$ . Each example $d _ { i }$ consists of a claim and a program. The program has a Python-like grammar, where each reasoning step is written in the format $V _ { i } = f _ { i } ( A _ { i } )$ . At inference time, we prompt Codex with an instruction of the task, K in-context examples, and the input claim C. Codex then attempts to complete the following texts, and thereby generates a program for C. The prompt template is shown in Figure 2. We use $K = 2 0$ to maintain a tradeoff between ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.399,
+      0.509,
+      0.414,
+      0.714
+    ],
+    "text": "3.4 Sub-Task Functions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.42,
+      0.507,
+      0.454,
+      0.884
+    ],
+    "text": "We implement three sub-task functions for the model to call during the program execution.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.456,
+      0.507,
+      0.634,
+      0.887
+    ],
+    "text": "• QUESTION: This sub-task function is a questionanswering module that takes a question $Q$ as the input argument and returns the answer A to the question. We use FLAN-T5 (Chung et al., 2022), an improved T5 model (Raffel et al., 2020) pretrained on more than 1.8K tasks with instruction tuning, which has achieved state-of-the-art zero/few-shot performance on many QA benchmarks. As shown in Figure 3, we prompt the model differently depending on the settings defined in Section 3.1. For the closed-book setting, the input prompt is",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.546,
+      0.655,
+      0.81
+    ],
+    "text": "Q: QUESTION ? The answer is:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.509,
+      0.676,
+      0.852
+    ],
+    "text": "For the other two settings, the input prompt is",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.507,
+      0.799,
+      0.884
+    ],
+    "text": "• VERIFY: This is a fact verification module that takes a claim C as the input argument and returns a label of either TRUE or FALSE. We also use FLAN-T5 for this module, by prompting the model with the following question-answering format.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.507,
+      0.921,
+      0.885
+    ],
+    "text": "• PREDICT: This module takes as input a logical expression that performs AND, OR, NOT operations over the variables in the previous steps. Its output is returned as the predicted veracity label.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.086,
+      0.151,
+      0.293,
+      0.831
+    ],
+    "text": "Figure 2: The Codex prompt template used to generate reasoning programs, consisting of a task instruction, in-context examples, and a prompt for the <input\\_claim>. The full templates are given in Appendix D.",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-4:figure-2",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.348,
+      0.119,
+      0.455,
+      0.484
+    ],
+    "text": "Figure 3: Implementation of the question-answering sub-task function for three different settings.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.518,
+      0.114,
+      0.535,
+      0.26
+    ],
+    "text": "4 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "Datasets. Most fact-checking datasets consist primarily of simple claims that can be substantiated through a single piece of evidence. However, here we focus on complex claims that need multi-step reasoning. Given this context, we opt to evaluate our model on the only two datasets that, to the best of our knowledge, fulfill these criteria: HOVER (Jiang et al., 2020) and FEVEROUS (Aly et al., 2021). We use the validation sets for evaluation since the test sets are not publicly released. HOVER contains claims that require integration and reasoning over multiple Wikipedia articles. We divide its validation set into three subsets based on the number of “hops” required to verify the claim: 1,126 two-hop claims, 1,835 three-hop claims, and 1,039 four-hop claims. FEVEROUS focuses on fact-checking",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.35,
+      0.507,
+      0.481,
+      0.887
+    ],
+    "text": "For evaluation in the open-book setting, we use the corresponding Wikipedia corpus constructed for these two datasets as the knowledge sources. HOVER uses the October 2017 Wikipedia dump processed by Yang et al. (2018), consisting of the introductory sections of 5.2 million Wikipedia pages. FEVEROUS uses the December 2020 dump, including 5.4 million full Wikipedia articles.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.507,
+      0.831,
+      0.887
+    ],
+    "text": "Baselines. We compare PROGRAMFC to seven baselines, categorized into three groups. (i) Pretrained models: BERT-FC (Soleimani et al., 2020) and LisT5 (Jiang et al., 2021) are two models that leverage BERT and T5 for fact verification, respectively. (ii) FC/NLI fine-tuned models: we choose three pretrained models that are fine-tuned on other fact-checking datasets or natural language inference (NLI) datasets. RoBERTa-NLI (Nie et al., 2020) uses fine-tuned RoBERTa-large on four NLI datasets; DeBERTaV3-NLI (He et al., 2021) finetunes the DeBERTaV3 model on 885,242 (claim, evidence, label) annotations from FEVER and four NLI datasets. MULTIVERS (Wadden et al., 2022b) is a LongFormer (Beltagy et al., 2020) model finetuned on FEVER. (iii) In-context learning models: one baseline is that we direct",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.507,
+      0.92,
+      0.885
+    ],
+    "text": "Few-Shot Learning. We study few-shot learning where only a few in-domain examples are available. Therefore, for a fair comparison, we restrict all models to have access to only 20 examples from HOVER or FEVEROUS-S.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.083,
+      0.124,
+      0.275,
+      0.88
+    ],
+    "text": "Table 1: Macro-F1 scores of PROGRAMFC (IV) and baselines (I-III) on the evaluation set of HOVER and FEVEROUS-S for few-shot fact-checking. Gold and Open represent the gold evidence setting and the open book setting, respectively. I: pretrained Transformers; II: FC/NLI fine-tuned models; III: in-context learning models.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.112,
+      0.454,
+      0.49
+    ],
+    "text": "We use these examples either for fine-tuning pre-trained models (BERT-FC and LisT5), for continuous fine-tuning the FC/NLI fine-tuned models, or as in-context examples for FLAN-T5 and Codex. For PROGRAMFC, we use them as in-context examples for reasoning program generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.455,
+      0.112,
+      0.618,
+      0.489
+    ],
+    "text": "We evaluate both the gold evidence setting and the open-book setting. The baseline models are the same for both settings. However, during testing in the open-book setting, the models are given the retrieved evidence rather than the ground-truth evidence. We use BM25 (Robertson and Zaragoza, 2009) implemented with the Pyserini toolkit (Lin et al., 2021) as the retriever for both PROGRAMFC and the baselines. We use as evidence the top-10 paragraphs retrieved from the knowledge corpus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.112,
+      0.648,
+      0.267
+    ],
+    "text": "4.1 Main Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.655,
+      0.11,
+      0.737,
+      0.49
+    ],
+    "text": "We report the overall results for PROGRAMFC and for the baselines for few-shot fact-checking in Table 1. PROGRAMFC achieves the best performance on 7 out of 8 evaluations, demonstrating its effectiveness. We have three more specific observations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.741,
+      0.112,
+      0.757,
+      0.475
+    ],
+    "text": "ProgramFC is more effective on deeper claims.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "On the HOVER dataset, ProgramFC (N=5) outperforms the baselines on average by 10.38%, 11.37%, and 14.77% on two-hop, three-hop, and four-hop claims, respectively. This suggests that ProgramFC becomes increasingly effective as the required reasoning depth increases. Among the baselines, DeBERTaV3-NLI performs comparably to ProgramFC on two-hop claims, indicating that large-scale pre-training on simpler claims can help the model generalize to more complex claims.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.507,
+      0.486,
+      0.887
+    ],
+    "text": "However, this generalization becomes more challenging as the complexity of the claims increases. On HOVER, the F1 score of DeBERTaV3-NLI drops from 77.22 for 2-hop claims to 60.49 for 4-hop claims, which is a decrease of 21.7%. In contrast, the performance drop for ProgramFC, which uses the strategy of program-guided reasoning, is much smaller: just 11.7%.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.497,
+      0.507,
+      0.725,
+      0.887
+    ],
+    "text": "Decomposition is more effective than one-step prediction. The ProgramFC model, which uses the same FLAN-T5 model as the sub-task functions, outperforms the baseline of directly verifying claims with FLAN-T5 on all four datasets. On average, there is a 6.0% improvement in the gold evidence setting and a 4.5% improvement in the open-book setting. This suggests that decomposing a complex claim into simpler steps with a program can facilitate more accurate reasoning. This is especially evident when the required reasoning is complex: there is a 14.9% improvement in the gold evidence setting and a 6.7% improvement in the open-book setting for 4-hop claims.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.509,
+      0.751,
+      0.855
+    ],
+    "text": "Aggregating reasoning programs is helpful.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "We find that aggregating the predictions of N = 5 reasoning programs improves the performance over using a single program by an average of 1.5%. This aligns with the findings of Wang et al. (2022), where the idea was applied for question answering: if multiple different ways of thinking lead to the same answer, we can have greater confidence that the final answer is correct. This intuition also applies to fact-checking, as each program represents a unique reasoning chain to verify the claim.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.488,
+      0.112,
+      0.505,
+      0.482
+    ],
+    "text": "4.2 How Does the Reasoning Program Help?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.514,
+      0.112,
+      0.821,
+      0.492
+    ],
+    "text": "To further understand how reasoning programs facilitate fact-checking, we compare the performance of PROGRAMFC with FLAN-T5 using different language model sizes: small, base, large, XL, and XXL. The results are shown in Figure 4 and indicate that program-guided reasoning is particularly effective when the model size is small. As smaller models have less capacity for complex reasoning, the performance of the end-to-end FLAN-T5 model decreases significantly with decreasing model size. However, this trend is less notable for PROGRAMFC. The high-level reasoning plan offered by reasoning programs substantially alleviates the demands on the subsequent subtask solvers. Our results show that the programguided model using FLAN-T5-small (80M parameters) as sub-task solvers can achieve comparable per",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "In the open-domain setting, we find that reasoning programs can enhance the retrieval of relevant evidence from the knowledge source. Figure 5 compares the retrieval performance of the one-step BM25 retriever used in the baselines to the iterative step-by-step BM25 retriever in PROGRAMFC.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.507,
+      0.495,
+      0.887
+    ],
+    "text": "We measure the recall of the gold paragraphs for the top-10 retrieved paragraphs (recall@10). For PROGRAMFC, we combine the retrieved paragraphs of all steps and we consider the top-10 results. We can see in Figure 5 that PROGRAMFC outperforms one-step retrieval on all datasets, with the largest improvement of 37.1% on HOVER 4- hop. This is because some information may not be present in the original claim, but is only revealed during the reasoning process (e.g., “Christopher Nolan” in Figure 1). Thus, iterative retrieval guided by the reasoning program yields better results.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.509,
+      0.525,
+      0.867
+    ],
+    "text": "4.3 Interpretability of Reasoning Programs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.507,
+      0.854,
+      0.887
+    ],
+    "text": "An advantage of PROGRAMFC is that it improves the interpretability of fact-checking compared to end-to-end models, as the explicit program can aid human understanding and debugging. Examples of generated reasoning programs can be found in Figure 7 of Appendix B. To assess the quality of the generated reasoning programs, we sampled 300 claims where PROGRAMFC incorrectly predicted the final veracity labels from the HOVER 2-hop, 3-hop, and 4-hop datasets, with 100 examples per dataset. We asked human annotators to analyze the error types and we classified the results into three categories: (i) Syntactic errors, where the program does not conform to the defined grammar and cannot be parsed, (ii) Semantic errors, which include incorrect or missing arguments/variables (Token), incorrect program ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "We show the error analysis in Table 2. First, no syntax errors were found in our samples, indicating that Codex effectively generates executable programs through few-shot in-context learning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.141,
+      0.221,
+      0.855
+    ],
+    "text": "Figure 6: An error case from the HOVER 4-hop dataset where the generated reasoning program has an incorrect program structure. The incorrect segment(s) are marked in red, and the correct revisions are marked in green.",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-7:table-2",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.285,
+      0.121,
+      0.404,
+      0.482
+    ],
+    "text": "Table 2: Reasoning program evaluation for incorrectlypredicted examples from each hop length in HOVER.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.47,
+      0.112,
+      0.55,
+      0.49
+    ],
+    "text": "Second, for 2-hop claims, we find that 71% of the programs are correct. The majority of the errors are the result of incorrect program execution, where the question answering or the fact-checking modules failed to return the correct answer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.112,
+      0.728,
+      0.49
+    ],
+    "text": "Third, as the complexity of the claims increases, the proportion of semantic errors in the programs also increases, with structural errors becoming particularly prevalent. This highlights the difficulty of generating the appropriate step-by-step reasoning strategies for claims that require long-chain reasoning. An example structural error is shown in Figure 6, where the model fails to parse the second sentence of the claim into correct program instructions. Additional error examples can be found in Appendix C.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.738,
+      0.114,
+      0.755,
+      0.381
+    ],
+    "text": "4.4 Closed-Book Fact-Checking",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "Finally, we evaluate the closed-book setting, where the model does not have access to any knowledge source and needs to rely on its parametric knowledge only. The baseline models from groups I and II in Table 1 are trained with (evidence, claim) pairs and thus are not applicable in this setting. We compare our method to the baselines that use large language models for in-context learning, including Codex (code-davinci-002) and FLAN-T5 from Table 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-7",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_1.jpg",
+    "bbox_norm": [
+      0.284,
+      0.519,
+      0.45,
+      0.88
+    ],
+    "text": "Table 3: Closed-book setting: macro-F1 scores for PRO-GRAMFC and for the baselines.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.507,
+      0.693,
+      0.887
+    ],
+    "text": "We also include the 175B-parameter Instruct-GPT (text-davinci-002) (Ouyang et al., 2022) with four different prompts: (i) direct prompting with the claim, (ii) CoT (Wei et al., 2022) or chain-of-thought prompting with demonstrations, (iii) ZS-CoT (Kojima et al., 2022) or zero-shot chain-of-thought with the prompt “let’s think step by step”, and (iv) Self-Ask (Press et al., 2022), which is a variant of CoT that guides the model reasoning by asking a series of questions. The detailed prompting templates are given in Appendix E.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Our results, presented in Table 3, show that most models achieve a Macro-F1 score only slightly above random guessing on the HOVER dataset, indicating the difficulty of solely relying on parametric knowledge of large language models for fact-checking complex claims. Similar to the observations in Section 4.1, we see a trend of improved performance as the number of the required reasoning hops increases. Chain-of-thought prompting scores an average 2.7 points higher than direct prompting, highlighting the importance of stepby-step reasoning for complex fact-checking. It outperforms our PROGRAMFC on HOVER 2-hop and FEVEROUS but performs worse on HOVER",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.114,
+      0.099,
+      0.247
+    ],
+    "text": "3-hop and 4-hop.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.101,
+      0.112,
+      0.184,
+      0.49
+    ],
+    "text": "This can be due to CoT generating free-form explanations, which can lead to unpredictable errors in long reasoning chains. In contrast, our program generation-and-execution strategy is more stable for longer reasoning chains.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.112,
+      0.211,
+      0.403
+    ],
+    "text": "5 Conclusion and Future Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.11,
+      0.529,
+      0.492
+    ],
+    "text": "We proposed PROGRAMFC, a few-shot neurosymbolic model for fact-checking that learns to map input claims to a reasoning program consisting of a sequence of sub-task function calls for answering a question, for fact-checking a simple claim, and for computing a logical expression. Then factchecking is performed by executing that program. PROGRAMFC combines the advantages of symbolic programs, such as explainability, with the flexibility of end-to-end neural models. Using Codex as the program generator, PROGRAMFC demonstrates promising performance on HOVER and FEVEROUS with only a small number of incontext demonstrations and no additional training. We also investigated the impact of model size and the benefits of programs for retrieval, and we analyzed the errors. The results indicated that PR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.112,
+      0.609,
+      0.49
+    ],
+    "text": "In future work, we want to adapt PROGRAMFC to more real-world fact-checking scenarios, such as fake news detection and multi-modal fact-checking, with advanced reasoning program design and subtask functionalities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.623,
+      0.112,
+      0.639,
+      0.221
+    ],
+    "text": "Limitations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.649,
+      0.11,
+      0.827,
+      0.49
+    ],
+    "text": "We identify two main limitations of PROGRAMFC. First, despite being complex in their surface form, the claims in the HOVER and FEVEROUS datasets mostly require only explicit multi-step reasoning, i.e., the decomposition can be derived from the claim’s syntactic structure or how the claim is framed. This lowers the difficulty of generating reasoning programs. However, for many real-world complex claims, the reasoning is often implicit. For example, for the claim “Aristotle couldn’t have used a laptop”, the reasoning program is:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.827,
+      0.112,
+      0.879,
+      0.49
+    ],
+    "text": "answer\\_1 = Question(“When did Aristotle live?”); answer\\_2 = Question(“When was the laptop invented?”);",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.883,
+      0.112,
+      0.92,
+      0.482
+    ],
+    "text": "fact\\_1 = Verify(“answer\\_1 is before answer\\_2.”); label = Predict(fact\\_1)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.507,
+      0.246,
+      0.887
+    ],
+    "text": "Generating reasoning programs for such implicit complex claims requires a deeper understanding of the claim and also access to world and commonsense knowledge. We conducted preliminary experiments on these types of claims, but we found that our Codex-based generator struggled to produce a correct reasoning program. This highlights the gap in applying our PROGRAMFC to fact-check real-world claims. Addressing these challenges is an important direction for future work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.507,
+      0.392,
+      0.887
+    ],
+    "text": "Second, PROGRAMFC incurs a higher computational cost than baseline end-to-end fact-checking models. It requires calling large language models for program generation and further calling multiple sub-task models. This results in the actual computational time that is 4–5 higher than for an endto-end FLAN-T5 model. Developing more efficient methods for program generation and execution is an important direction for future work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-12",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.403,
+      0.509,
+      0.418,
+      0.663
+    ],
+    "text": "Ethics Statement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-13",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.507,
+      0.479,
+      0.887
+    ],
+    "text": "Biases. We note that there might be some biases in the data used to train the LLMs, as well as in factuality judgments. Both are beyond our control.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-14",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.486,
+      0.507,
+      0.568,
+      0.887
+    ],
+    "text": "Intended Use and Misuse Potential. Our models can be of interest to the general public and could also save a lot of time to human fact-checkers. However, they could also be misused by malicious actors. We ask researchers to exercise caution.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-15",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.507,
+      0.707,
+      0.887
+    ],
+    "text": "Environmental Impact. The use of large language models requires a significant amount of energy for computation for training, which contributes to global warming. Our work performs fewshot in-context learning instead of training models from scratch, so the energy footprint of our work is less. The large language model (Codex) whose API we use for inference consumes significant energy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-16",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.509,
+      0.734,
+      0.684
+    ],
+    "text": "Acknowledgements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-17",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.507,
+      0.906,
+      0.887
+    ],
+    "text": "This work was supported in part by the National Science Foundation award #2048122 and by Singapore’s Ministry of Education Tier 3 grant “Digital Information Resilience: Restoring Trust and Nudging Behaviours in Digitalisation”. The views expressed are those of the authors and do not reflect the official policy or position of the US government. We thank Alex Mei, Xinyi Wang, Danqing Wang, Sharon Levy, Gyuwan Kim, and other members of the UCSB NLP group for their valuable feedback.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.099,
+      0.215
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.108,
+      0.115,
+      0.173,
+      0.489
+    ],
+    "text": "Naser Ahmadi, Joohyung Lee, Paolo Papotti, and Mohammed Saeed. 2019. Explainable fact checking with probabilistic answer set programming. In Proceedings of the Truth and Trust Online Conference (TTO), London, UK. Rami Aly, Zhijiang Guo, Michael Sejr Schlichtkrull, James Thorne, Andreas Vlachos, Christos Christodoulopoulos, Oana Cocarascu, and Arpit Mittal. 2021. FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information. In Proceedings of the Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks, Online. Rami Aly and Andreas Vlachos. 2022. Natural logicguided autoregressive multi-hop document retrieval for fact verification. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 6123–6",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.152,
+      0.489
+    ],
+    "text": "Yanping Huang, Andrew M. Dai, Hongkun Yu, Slav Petrov, Ed H. Chi, Jeff Dean, Jacob Devlin, Adam Roberts, Denny Zhou, Quoc V. Le, and Jason Wei. 2022. Scaling instruction-finetuned language models. CoRR, abs/2210.11416. Limeng Cui, Kai Shu, Suhang Wang, Dongwon Lee, and Huan Liu. 2019. dEFEND: A system for explainable fake news detection. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM), pages 2961–2964, Beijing, China. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), pages 4171",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.126,
+      0.489
+    ],
+    "text": "of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), pages 7342–7351, Online. Yi-Ju Lu and Cheng-Te Li. 2020. GCAN: Graph-aware co-attention networks for explainable fake news detection on social media. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), pages 505–514, Online. Grégoire Mialon, Roberto Dessì, Maria Lomeli, Christoforos Nalmpantis, Ramakanth Pasunuru, Roberta Raileanu, Baptiste Rozière, Timo Schick, Jane Dwivedi-Yu, Asli Celikyilmaz, Edouard Grave, Yann LeCun, and Thomas Scialom. 2023. Augmented language models: a survey. CoRR, abs/2302.07842. Preslav Nakov, Alberto Barrón-Cedeño, Giovanni Da San Martino, Firoj Alam, Julia Maria Struß, Thomas Mandl, Rubén Míguez, Tommaso Caselli, Mucahid Kutlu, Wajdi",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.127,
+      0.489
+    ],
+    "text": "of claims from Wikipedia. In Proceedings of the Twelfth Language Resources and Evaluation Conference (LREC), pages 6874–6882, Marseille, France. Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. 2023. Toolformer: Language models can teach themselves to use tools. CoRR, abs/2302.04761. Tal Schuster, Adam Fisch, and Regina Barzilay. 2021. Get your vitamin C! robust fact verification with contrastive evidence. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), pages 624– 643, Online. Amir Soleimani, Christof Monz, and Marcel Worring. 2020. BERT for evidence retrieval and claim verification. In Advances in ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.112,
+      0.116,
+      0.443
+    ],
+    "text": "A Implementation Details about the Baselines",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.124,
+      0.11,
+      0.222,
+      0.492
+    ],
+    "text": "In this section, we give the implementation details for the seven baselines we used in our work. Typical ways to perform few-shot fact-checking using large language models are fine-tuning and incontext learning. Thus, we categorize the baselines into three categories.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.114,
+      0.247,
+      0.319
+    ],
+    "text": "A.1 Pre-trained Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.11,
+      0.398,
+      0.492
+    ],
+    "text": "Pre-trained models use pretrained Transformers (Vaswani et al., 2017) such as BERT (Devlin et al., 2019) and T5 (Raffel et al., 2020) for factchecking. For few-shot learning, we fine-tune them using 20 randomly sampled training examples from HOVER or FEVEROUS. We ran the training 10 times with different random seeds and report the average performance on the validation set. We chose two models:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.404,
+      0.134,
+      0.533,
+      0.49
+    ],
+    "text": "• BERT-FC (Soleimani et al., 2020): It uses BERT for claim verification. The claim and the evidence are concatenated ([CLS] claim [SEP] evidence) and used as input for a binary classification task to predict the veracity label of the claim. We use the bert-large-uncased (345M parameters) model provided in HuggingFace.2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.542,
+      0.134,
+      0.719,
+      0.49
+    ],
+    "text": "• LisT5 (Jiang et al., 2021): This is a factchecking framework built with a pretrained sequence-to-sequence transformer, namely T5 (Raffel et al., 2020), as its backbone. We adopt the “listwise concatenation” proposed in the paper for label prediction, which concatenates all candidate evidence sentences into a single input and we train the t5-large model to directly classify the claim as Supported or Refuted. We use the original implementation of this model.3",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.724,
+      0.114,
+      0.74,
+      0.386
+    ],
+    "text": "A.2 FC/NLI Fine-Tuned Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.745,
+      0.11,
+      0.876,
+      0.492
+    ],
+    "text": "These models are pretrained Transformer models that have been specifically fine-tuned on singlehop fact-checking datasets (e.g., FEVER) or natural language inference (NLI) datasets. This additional training allows these models to excel at fact-checking simple claims, and thus they can generalize better to complex claims that require multihop reasoning during further few-shot fine-tuning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-9",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.507,
+      0.117,
+      0.884
+    ],
+    "text": "In this category, we selected the following three fine-tuned models:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.127,
+      0.529,
+      0.288,
+      0.887
+    ],
+    "text": "• RoBERTa-NLI (Nie et al., 2020) fine-tunes RoBERTa-large (Liu et al., 2019) on a combination of four well-known NLI datasets: SNLI (Bowman et al., 2015), MNLI (Williams et al., 2018), FEVER-NLI (Nie et al., 2019), ANLI (R1, R2, R3) (Nie et al., 2020). We used the public model checkpoint available at HuggingFace4 and we further fine-tuned it with 20 random examples from HOVER/FEVER-OUS.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-11",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.298,
+      0.529,
+      0.428,
+      0.887
+    ],
+    "text": "• DeBERTaV3-NLI (He et al., 2021) finetunes the DeBERTaV3-large model on 885,242 NLI hypothesis–premise pairs from FEVER and on four NLI datasets: MNLI, ANLI, LingNLI (Parrish et al., 2021), and WANLI (Liu et al., 2022). This is the bestperforming NLI model on HuggingFace as of 06/06/2022.5",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.437,
+      0.531,
+      0.533,
+      0.887
+    ],
+    "text": "• MULTIVERS (Wadden et al., 2022b), formerly known as LongChecker, uses the Long-Former (Beltagy et al., 2020) for claim verification to address the long input evidence problem. We use a model checkpoint finetuned on FEVER.6",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-13",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.543,
+      0.509,
+      0.56,
+      0.786
+    ],
+    "text": "A.3 In-Context Learning Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-14",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.507,
+      0.678,
+      0.887
+    ],
+    "text": "These models have recently shown strong few-shot learning ability in various NLP tasks. By prompting a large language model with a few in-context examples, the model can quickly learn a task from demonstrations. To make a fair comparison to our model, we choose two in-context learning baselines as follows.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-15",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.687,
+      0.529,
+      0.85,
+      0.887
+    ],
+    "text": "• Codex (Chen et al., 2021) is used in our model to generate reasoning programs. One straightforward baseline directly uses it for fact-checking. To this end, we prompt Codex (code-davinci-002) as follows: “<Evidence> Based on the above information, is it true that <Claim>? True or False? The answer is:”. We prefix the same 20 in-context examples for our model before the prompt as demonstrations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.134,
+      0.311,
+      0.49
+    ],
+    "text": "• FLAN-T5 (Chung et al., 2022) is an improved version of T5, which is fine-tuned on 1.8K tasks phrased as instructions, with and without exemplars, i.e., zero-shot and few-shot. The model has shown strong performance in various in-context few-shot learning NLP tasks, such as reasoning, and question-answering. We prompt the model with the same format as we used in Section 3.4: “<Evidence> Q: <Claim> Is it true that <Claim>? True or False? The answer is:”, prefixing with the same 20 in-context examples. We also use the same model size (FLAN-T5-XXL 3B) with our model for fair comparison.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.114,
+      0.356,
+      0.45
+    ],
+    "text": "B Examples of Generated Reasoning Programs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.365,
+      0.112,
+      0.414,
+      0.489
+    ],
+    "text": "Figure 7 shows six examples of generated reasoning programs by PROGRAMFC that cover diverse reasoning chains.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.425,
+      0.114,
+      0.461,
+      0.408
+    ],
+    "text": "C Error Analysis for Reasoning Programs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.468,
+      0.112,
+      0.535,
+      0.49
+    ],
+    "text": "Figure 8 shows five examples of erroneous cases where the generated reasoning programs are incorrect. We provide explanations for each of the error cases below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.543,
+      0.112,
+      0.609,
+      0.489
+    ],
+    "text": "Example 1 It generates a wrong logical reasoning operator for the final step. The correct logic should be “not (fact\\_1 and fact\\_2)” instead of “fact\\_1 and fact\\_2”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.112,
+      0.715,
+      0.49
+    ],
+    "text": "Example 2 It fails to perform co-reference resolution for the arguments in the third and the fourth reasoning steps. “This album” should be replaced with “The bluegrass” to make the sub-task contextindependent. “This musical” should be replaced with the variable “answer\\_1” from the first step.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.724,
+      0.112,
+      0.774,
+      0.49
+    ],
+    "text": "Example 3 It fails to create a meaningful problem decomposition for the claim. It generates a trivial program that simply repeats the original claim.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-9",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.112,
+      0.847,
+      0.492
+    ],
+    "text": "Example 4 It fails to generate a fine-grained reasoning structure for the input claim. It also generates a trivial program that simply separates the claim into sentences.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-10",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Example 5 It generates a redundant reasoning step “Question(\"When was the musician born?\")”, which does not add any new information to the reasoning chain.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-11",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.509,
+      0.102,
+      0.81
+    ],
+    "text": "D Program Generation Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-12",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.507,
+      0.159,
+      0.884
+    ],
+    "text": "Our manually written prompts for the HOVER and the FEVEROUS-S datasets are given in Listings 1 and 2, respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-13",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.509,
+      0.203,
+      0.768
+    ],
+    "text": "E Prompts for Closed-Book Fact-Checking",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-14",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.211,
+      0.507,
+      0.26,
+      0.887
+    ],
+    "text": "Below we show the templates for the four prompting methods used for InstructGPT for the closedbook fact-checking setting in Section 4.4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-15",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.527,
+      0.279,
+      0.673
+    ],
+    "text": "Direct Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-17",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.527,
+      0.41,
+      0.687
+    ],
+    "text": "ZS-CoT Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-19",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.529,
+      0.482,
+      0.658
+    ],
+    "text": "CoT Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-21",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.636,
+      0.529,
+      0.651,
+      0.69
+    ],
+    "text": "Self-Ask Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:figure-1",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_0.jpg",
+    "bbox_norm": [
+      0.153,
+      0.142,
+      0.816,
+      0.855
+    ],
+    "text": "Figure 7: Examples of generated reasoning programs by PROGRAMFC.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.12,
+      0.141,
+      0.839,
+      0.855
+    ],
+    "text": "Figure 8: Example error cases where the generated reasoning programs are incorrect. The incorrect segment(s) are marked in red, and the correct revisions are marked in green.",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.11,
+      0.341,
+      0.887
+    ],
+    "text": "Listing 1: The prompt used for Program Generation for HOVER.",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.086,
+      0.11,
+      0.78,
+      0.885
+    ],
+    "text": "Listing 2: The prompt used for Program Generation for FEVEROUS-S.",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.114,
+      0.159,
+      0.537
+    ],
+    "text": "A For every submission: \u0003✓ A1. Did you describe the limitations of your work? Line 587 - 620",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.127,
+      0.202,
+      0.556
+    ],
+    "text": "\u0003✓ A2. Did you discuss any potential risks of your work? Line 626 - 630",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.129,
+      0.246,
+      0.699
+    ],
+    "text": "\u0003✓ A3. Do the abstract and introduction summarize the paper’s main claims? Line 67 - 86",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.129,
+      0.288,
+      0.672
+    ],
+    "text": "\u0003✗ A4. Have you used AI writing assistants when working on this paper? Left blank.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.114,
+      0.337,
+      0.49
+    ],
+    "text": "B \u0003✓ Did you use or create scientific artifacts? Line 327 - 352",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-6",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.347,
+      0.129,
+      0.38,
+      0.532
+    ],
+    "text": "\u0003✓ B1. Did you cite the creators of artifacts you used? Line 328 - 329",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-7",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.391,
+      0.127,
+      0.425,
+      0.884
+    ],
+    "text": "\u0003 B2. Did you discuss the license or terms for use and / or distribution of any artifacts? Not applicable. The datasets used in this paper are publicly available datasets from existing works.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-8",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.432,
+      0.129,
+      0.514,
+      0.884
+    ],
+    "text": "\u0003✓ B3. Did you discuss if your use of existing artifact(s) was consistent with their intended use, provided that it was specified? For the artifacts you create, do you specify intended use and whether that is compatible with the original access conditions (in particular, derivatives of data accessed for research purposes should not be used outside of research contexts)? Line 327 - 344",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-9",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.129,
+      0.59,
+      0.884
+    ],
+    "text": "\u0003 B4. Did you discuss the steps taken to check whether the data that was collected / used contains any information that names or uniquely identifies individual people or offensive content, and the steps taken to protect / anonymize it? Not applicable. Left blank.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-10",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.127,
+      0.65,
+      0.884
+    ],
+    "text": "\u0003 B5. Did you provide documentation of the artifacts, e.g., coverage of domains, languages, and linguistic phenomena, demographic groups represented, etc.? Not applicable. Left blank.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-11",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.658,
+      0.129,
+      0.755,
+      0.885
+    ],
+    "text": "\u0003✓ B6. Did you report relevant statistics like the number of examples, details of train / test / dev splits, etc. for the data that you used / created? Even for commonly-used benchmark datasets, include the number of examples in train / validation / test splits, as these provide necessary context for a reader to understand experimental results. For example, small differences in accuracy on large test sets may be significant, while on small test sets they may not be. Line 327 - 344",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-12",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.765,
+      0.114,
+      0.783,
+      0.495
+    ],
+    "text": "C \u0003✓ Did you run computational experiments?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-13",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.787,
+      0.131,
+      0.802,
+      0.21
+    ],
+    "text": "Section 4",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-14",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.127,
+      0.863,
+      0.882
+    ],
+    "text": "\u0003✓ C1. Did you report the number of parameters in the models used, the total computational budget (e.g., GPU hours), and computing infrastructure used? Figure 4; Appendix A",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.131,
+      0.134,
+      0.882
+    ],
+    "text": "\u0003✓ C2. Did you discuss the experimental setup, including hyperparameter search and best-found hyperparameter values? Appendix A \u0003✓ C3. Did you report descriptive statistics about your results (e.g., error bars around results, summary statistics from sets of experiments), and is it transparent whether you are reporting the max, mean, etc. or just a single run? Appendix A \u0003 C4. If you used existing packages (e.g., for preprocessing, for normalization, or for evaluation), did you report the implementation, model, and parameter settings used (e.g., NLTK, Spacy, ROUGE, etc.)? Not applicable. Left blank.",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.293,
+      0.114,
+      0.331,
+      0.878
+    ],
+    "text": "D \u0003✗ Did you use human annotators (e.g., crowdworkers) or research with human participants? Left blank.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-3",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.341,
+      0.129,
+      0.391,
+      0.884
+    ],
+    "text": "\u0003 D1. Did you report the full text of instructions given to participants, including e.g., screenshots, disclaimers of any risks to participants or annotators, etc.? Not applicable. Left blank.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.399,
+      0.127,
+      0.466,
+      0.884
+    ],
+    "text": "\u0003 D2. Did you report information about how you recruited (e.g., crowdsourcing platform, students) and paid participants, and discuss if such payment is adequate given the participants’ demographic (e.g., country of residence)? Not applicable. Left blank.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.474,
+      0.127,
+      0.541,
+      0.884
+    ],
+    "text": "\u0003 D3. Did you discuss whether and how consent was obtained from people whose data you’re using/curating? For example, if you collected data via crowdsourcing, did your instructions to crowdworkers explain how the data would be used? Not applicable. Left blank.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-6",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.129,
+      0.583,
+      0.877
+    ],
+    "text": "\u0003 D4. Was the data collection protocol approved (or determined exempt) by an ethics review board? Not applicable. Left blank. \u0003 D5. Did you report the basic demographic and geographic characteristics of the annotator population that is the source of the data? Not applicable. Left blank.",
+    "source_type": "list"
+  }
+]

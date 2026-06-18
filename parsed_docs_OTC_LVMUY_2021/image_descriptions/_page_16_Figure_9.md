@@ -1,0 +1,9 @@
+# _page_16_Figure_9.jpg
+
+**Source:** `assets/_page_16_Figure_9.jpg`
+
+**Generated:** 2026-05-29 21:24:39
+
+---
+
+NO VISUAL CONTENT DETECTED

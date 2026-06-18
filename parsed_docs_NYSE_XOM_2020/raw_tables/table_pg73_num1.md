@@ -1,0 +1,1 @@
+<table><tr><td>Worldwide Average Realizations (1)</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Crude oil and NGL ($ per barrel)</td><td>35.41</td><td>56.32</td><td>62.79</td></tr><tr><td>Natural gas ($ per thousand cubic feet)</td><td>2.01</td><td>3.05</td><td>3.87</td></tr><tr><td>(l) Consolidated subsidiaries.</td><td></td><td></td><td></td></tr></table>

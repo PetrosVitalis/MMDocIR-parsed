@@ -1,0 +1,4 @@
+Model,dev F1,test F1
+ELMoBASE,95.2,95.1
+CNN Large + ELMo,95.1,95.2
+CNN Large + fine-tune,95.5,95.6

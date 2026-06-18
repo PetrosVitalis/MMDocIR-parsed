@@ -1,0 +1,5 @@
+augmentation,value
+hflip," """""
+crop,"""[0.08,1]"""
+color jitter,"""[0.4,0.4,0.4,0.1],p=0.8"""
+rotation," ""degrees=45"""

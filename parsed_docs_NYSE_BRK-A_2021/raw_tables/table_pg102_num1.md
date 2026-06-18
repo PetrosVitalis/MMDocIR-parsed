@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">2021</td><td>2020</td><td>2019</td></tr><tr><td>Insurance and other</td><td>$ 2,318</td><td>$</td><td>2,320 $</td><td>2,269</td></tr><tr><td>Railroad, utilities and energy</td><td></td><td>5,990</td><td>5,799</td><td>5,297</td></tr><tr><td></td><td>$ 8,308</td><td>$</td><td>8,119 $</td><td>7,566</td></tr></table>

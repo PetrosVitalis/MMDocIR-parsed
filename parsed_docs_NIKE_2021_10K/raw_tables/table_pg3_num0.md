@@ -1,0 +1,1 @@
+<table><tr><td>U.S. RETAIL STORES</td><td>NUMBER</td></tr><tr><td>NIKE Brand factory stores</td><td>204</td></tr><tr><td>NIKE Brand in-line stores (including employee-only stores)</td><td>30</td></tr><tr><td>Converse stores (including factory stores)</td><td>91</td></tr><tr><td>TOTAL</td><td>325</td></tr></table>

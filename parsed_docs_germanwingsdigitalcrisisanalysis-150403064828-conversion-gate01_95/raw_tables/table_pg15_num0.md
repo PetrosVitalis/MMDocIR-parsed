@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Company</td><td rowspan=1 colspan=1>Tweets</td></tr><tr><td rowspan=1 colspan=1>Germanwings</td><td rowspan=1 colspan=1>24</td></tr><tr><td rowspan=1 colspan=1>Lufthansa</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>Airbus</td><td rowspan=1 colspan=1>5</td></tr></table>

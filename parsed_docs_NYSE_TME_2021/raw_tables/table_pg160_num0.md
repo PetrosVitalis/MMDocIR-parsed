@@ -1,0 +1,1 @@
+<table><tr><td>Name of related parties</td><td>Relationship with the Group</td></tr><tr><td>Tencent and its subsidiaries other than the entities controlled by the Group (&quot;Tencent Group&quot;)</td><td>The Group&#x27;s principal owner</td></tr><tr><td>China Literature Limited (&quot;China Literature&quot;)</td><td>Tencent&#x27;s subsidiary</td></tr></table>

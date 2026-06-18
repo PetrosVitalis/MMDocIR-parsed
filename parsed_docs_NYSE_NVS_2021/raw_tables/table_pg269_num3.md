@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td></tr><tr><td>15% increase in equity prices</td><td>179</td><td>167</td></tr><tr><td>15% decrease in equity prices</td><td>-179</td><td>-167</td></tr></table>

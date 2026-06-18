@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Year Ended December 31,2019</td><td></td><td>%of consolidated net revenues</td><td>Year Ended December 31,2018</td><td>%of consolidated net revenues</td><td></td><td>Increase (Decrease)</td></tr><tr><td> Sales and marketing</td><td></td><td>926</td><td>14% $</td><td></td><td>1,062</td><td>14% $</td><td>(136)</td></tr></table>

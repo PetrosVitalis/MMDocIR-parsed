@@ -1,0 +1,45 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_L18-1269",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_1_Table_0.jpg",
+      "raw_md": "table_pg1_num0.md",
+      "csv_base": "table_pg1_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_1_Table_1.jpg",
+      "raw_md": "table_pg1_num1.md",
+      "csv_base": "table_pg1_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_3_Table_0.jpg",
+      "raw_md": "table_pg3_num0.md",
+      "csv_base": "table_pg3_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_4_Table_0.jpg",
+      "raw_md": "table_pg4_num0.md",
+      "csv_base": "table_pg4_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Query Type,sion,Symbolic Expres-Natural Language Question Template
+Rung1:Association,Rung1:Association,Rung1:Association
+Marg. Prob.,$P ( Y )$,Is the overall likelihood of $\{ v _ { \mathrm { n o u n } } ( X ~ = ~ 1 ) \}$ greater than chance?
+Cond. Prob.,$P ( { Y \vert } X )$,Is the chance of $\{ \boldsymbol { v } _ { \mathrm { n o u n } } ( Y ~ = ~ 1 ) \}$ larger when observing $\{ v _ { \mathrm { n o u n } } ( X = 1 ) \} ?$
+Rung2: Intervention Will increase the chance of,Rung2: Intervention Will increase the chance of,Rung2: Intervention Will increase the chance of
+ATE,$\mathbb { E } [ Y | d o ( \mathrm { X } = 1 ) ] -$ $\mathbb { E } \bar { [ } Y \vert d o ( \mathrm { X } = 0 ) \bar { ] }$ If S opens a back-To understand how,$\{ v _ { \mathrm { n o u n } } ( X = 1 ) \}$ $\{ v _ { \mathrm { n o u n } } ( Y = 1 ) \} ?$ $\{ v _ { \mathrm { o v e r a l l } } ( X ) \}$ affects $\{ v _ { \mathrm { o v e r a l l } } ( Y = 1 ) \}$
+Adjust. Set,door path,"should we look directly at how $\{ v _ { \mathrm { o v e r a l l } } ( X ) \}$ correlates with $\{ v _ { \mathrm { o v e r a l l } } ( Y ) \}$ in general,or this correlation case by case accord- ing to $\{ \dot { v _ { \mathrm { o v e r a l l } } } ( \bar { S } ) \} \} \ ?$"
+Rung 3:Counterfactuals Can we infer that,Rung 3:Counterfactuals Can we infer that,Rung 3:Counterfactuals Can we infer that
+Counterf. Prob.,$P ( Y _ { x } = y )$,$\{ v _ { \mathrm { s e n t } } ( Y = 1 ) \}$ had it been that $\{ v _ { \mathrm { c o n d } } ( X =$ 1)} instead of X=0?
+ATT,$\mathbb { E } [ Y _ { 1 } - Y _ { 0 } | \mathrm { X } = 1 ]$,"For $\{ v _ { \mathrm { a t t r } } ( X = 1 ) \}$ ,would it be more likely to see $\{ { v _ { \mathrm { n o u n } } } ( Y =$ $1 ) \mathfrak { Y } \ \{ v _ { \mathrm { c o n d } } ( X = 0 ) \} \ ?$"
+NDE,"$\mathbb { E } [ Y _ { 1 , M _ { 0 } } - Y _ { 1 , M _ { 0 } } ]$",If we disregard the mediation effect through $\{ v _ { \mathrm { o v e r a l l } } ( Y = 1 ) \}$ would $\{ v _ { \mathrm { n o u n } } ( X = 1 ) \}$ still positively affect $\{ v _ { \mathrm { n o u n } } ( Y = 1 ) \} ?$
+NIE,"$\mathbb { E } [ Y _ { 0 , M _ { 1 } } - Y _ { 0 , M _ { 0 } } ]$",Does $\{ v _ { \mathrm { o v e r a l l } } ( X ) \}$ affect $\{ v _ { \mathrm { o v e r a l l } } ( Y ) \}$ through $\lbrace v _ { \mathrm { o v e r a l l } } ( \mathrm { O t h e r V a r s } ) \rbrace \rbrace$
+Table 4:Example naturallangjuage templates for each query type,Table 4:Example naturallangjuage templates for each query type,Table 4:Example naturallangjuage templates for each query type

@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">2020</td><td></td><td>2019</td></tr><tr><td>Fixed operating lease expense (a) $</td><td></td><td>216 $</td><td></td><td>196</td></tr><tr><td>Variable operating lease expense</td><td></td><td>46</td><td></td><td>45</td></tr><tr><td> Total operating lease expense</td><td>$</td><td>262$</td><td></td><td>241</td></tr></table>

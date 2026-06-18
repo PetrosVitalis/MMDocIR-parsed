@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Dividend per share (in CHF)</td><td>3.00</td><td>2.95</td><td>2.85</td></tr><tr><td>Total dividend payment (in USD billion)</td><td>7.4</td><td>7.0</td><td>6.6</td></tr></table>

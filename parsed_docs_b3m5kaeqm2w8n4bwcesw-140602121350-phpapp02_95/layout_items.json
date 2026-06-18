@@ -1,0 +1,1654 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.437,
+      0.378,
+      0.56,
+      0.614
+    ],
+    "text": "Physics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.601,
+      0.407,
+      0.648,
+      0.591
+    ],
+    "text": "HalimahTasnim",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.377,
+      0.17,
+      0.652,
+      0.833
+    ],
+    "text": "Module 1: Energy for the Home",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.03,
+      0.027,
+      0.094,
+      0.52
+    ],
+    "text": "Temperature:Measured in degreesC'or Kelvin'K'",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.027,
+      0.203,
+      0.391
+    ],
+    "text": "Thermal Energyis measured Joules'J'",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.259,
+      0.027,
+      0.354,
+      0.296
+    ],
+    "text": "Things are cold because the average energy is low",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.027,
+      0.506,
+      0.29
+    ],
+    "text": "Things are hot because the average energy is high",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.555,
+      0.027,
+      0.652,
+      0.305
+    ],
+    "text": "Temperature: the average of thermal energy per particle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.027,
+      0.814,
+      0.308
+    ],
+    "text": "Thermal Energy:the total amount of energy altogether",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.027,
+      0.958,
+      0.295
+    ],
+    "text": "Temperature is an arbitrary scale.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.378,
+      0.604,
+      0.618
+    ],
+    "text": "P1a: Temperature and Energy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.359,
+      0.958,
+      0.652
+    ],
+    "text": "Arbitrary:comparing things to each other",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-10",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.025,
+      0.748,
+      0.337,
+      0.984
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.679,
+      0.865,
+      0.99
+    ],
+    "text": "Heat travels:   \nHot to Cold   \n-Thermal energy is lost by hot   \nobjects   \n-Keep losing heat until   \nequilibrium is reached   \n-Thermal energy is lost quicker   \nby hot objects than cold objects",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-1",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.006,
+      1.0,
+      0.988
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:figure-2",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.006,
+      0.005,
+      0.986,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:figure-1",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.009,
+      0.001,
+      0.988,
+      0.997
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.025,
+      0.011,
+      0.159,
+      0.272
+    ],
+    "text": "Efficiency is the amount of energy that is turned into useful energy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.245,
+      0.01,
+      0.583,
+      0.322
+    ],
+    "text": "A traditional coal fire is not the most efficient way to heat a room because for every 100Jof energy stored in the coal only 25J of energy is used to heat the room.The remaining 75J to surroundings;meaning it is 25% efficient",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-3",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.018,
+      0.365,
+      0.347,
+      0.669
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.373,
+      0.62,
+      0.626
+    ],
+    "text": "P1b: Efficiency and Payback Time",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.053,
+      0.691,
+      0.226,
+      0.953
+    ],
+    "text": "Payback time is when how long it takes for you to get that value of money- the typical cost in time",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.692,
+      0.437,
+      0.865
+    ],
+    "text": "E.g.   \nWall Cavities:   \nCost:£400   \nSave:f80 (yearly)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:equation-7",
+    "page_id": 6,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_6_Equation_0.jpg",
+    "bbox_norm": [
+      0.465,
+      0.705,
+      0.548,
+      0.815
+    ],
+    "text": "$$\n\\frac { 4 0 0 } { 8 0 } = 5\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.548,
+      0.692,
+      0.597,
+      0.945
+    ],
+    "text": "5 years to get money back",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.011,
+      0.712,
+      0.143
+    ],
+    "text": "The Formula:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.015,
+      0.847,
+      0.41
+    ],
+    "text": "Efficiency= Useful Energy output Total Energy Input",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.879,
+      0.011,
+      0.974,
+      0.436
+    ],
+    "text": "Manipulate the formula to the questions need （x100 for percentage)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.545,
+      0.712,
+      0.677
+    ],
+    "text": "The Formula:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.552,
+      0.796,
+      0.71
+    ],
+    "text": "Payback Time",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:equation-14",
+    "page_id": 6,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_6_Equation_1.jpg",
+    "bbox_norm": [
+      0.747,
+      0.773,
+      0.847,
+      0.877
+    ],
+    "text": "$$\n\\frac { \\cos \\theta } { \\sin \\theta \\sin \\theta \\cos }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-6:text-15",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.877,
+      0.545,
+      0.93,
+      0.97
+    ],
+    "text": "Manipulate the formula to the questions need",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-1",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.004,
+      0.009,
+      0.99,
+      0.983
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.041,
+      0.019,
+      0.212,
+      0.231
+    ],
+    "text": "REFRACTION: Bends the wave when entering/leaving a substance to another",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.266,
+      0.016,
+      0.435,
+      0.243
+    ],
+    "text": "REFLECTION:   \nBounces the wave back towards where it came from",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:figure-3",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.469,
+      0.007,
+      0.979,
+      0.236
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:figure-4",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_1.jpg",
+    "bbox_norm": [
+      0.027,
+      0.309,
+      0.305,
+      0.526
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.541,
+      0.293,
+      0.712
+    ],
+    "text": "They slow down because the substance would be a different density to another substance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.363,
+      0.404,
+      0.645,
+      0.597
+    ],
+    "text": "P1c: Reflection, Refraction, Diffraction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.777,
+      0.246,
+      0.828,
+      0.623
+    ],
+    "text": "All wave can be reflected and refracted",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.246,
+      0.958,
+      0.644
+    ],
+    "text": "Law of Reflection: Angleof incidence = Angle of Reflection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.041,
+      0.738,
+      0.212,
+      0.951
+    ],
+    "text": "DIFFRACTION: Spreads the wave out when going through a gap or barrier",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:figure-10",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_2.jpg",
+    "bbox_norm": [
+      0.254,
+      0.733,
+      0.574,
+      0.988
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.608,
+      0.684,
+      0.743,
+      0.962
+    ],
+    "text": "Maximum diffraction occurs when: the gap is equal to the wave.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-12",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.773,
+      0.684,
+      0.909,
+      0.95
+    ],
+    "text": "Minimum diffraction occurs when: the gap is smaller or larger than the wave.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.039,
+      0.016,
+      0.252,
+      0.565
+    ],
+    "text": "Properties of electromagnetic waves:   \n-they transfer energy from one place to another   \n-they can be reflected,refracted and diffracted   \n-they can travel through a vacuum (space)   \n-the shorter the wavelength the more dangerous theyare",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.363,
+      0.606,
+      0.638
+    ],
+    "text": "P1c: Electromagnetic Waves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-3",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_0.jpg",
+    "bbox_norm": [
+      0.349,
+      0.013,
+      0.689,
+      0.313
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.011,
+      0.803,
+      0.143
+    ],
+    "text": "The Formula:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.01,
+      0.886,
+      0.432
+    ],
+    "text": "Wave Speed = Frequency X Wavelength",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.914,
+      0.011,
+      0.967,
+      0.437
+    ],
+    "text": "Manipulate the formula to the questions need",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.037,
+      0.705,
+      0.12,
+      0.951
+    ],
+    "text": "Types of electromagnetic waves:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:table-1",
+    "page_id": 10,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_10_Table_0.jpg",
+    "bbox_norm": [
+      0.011,
+      0.013,
+      0.981,
+      0.99
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.034,
+      0.015,
+      0.25,
+      0.363
+    ],
+    "text": "Light has been used for sending messages.This allowed messages to be sent quickly. However the disadvantage of this was that a code as needed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.016,
+      0.4,
+      0.268
+    ],
+    "text": "Lasers are another way of using light.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.49,
+      0.015,
+      0.87,
+      0.32
+    ],
+    "text": "-in phase;in sync-all crsts and trough match up -Monochromatic; one colour usually red but also green,blue and purple -Coherent; in phase -Low Divergence;doesn't spread out,narrow beam of light even over long distances",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.914,
+      0.018,
+      0.965,
+      0.33
+    ],
+    "text": "Lasers are used in CDs and DVDs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-5",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.03,
+      0.411,
+      0.31,
+      0.643
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:figure-6",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_1.jpg",
+    "bbox_norm": [
+      0.016,
+      0.671,
+      0.437,
+      0.985
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.395,
+      0.576,
+      0.602
+    ],
+    "text": "P1d: Using Light",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.696,
+      0.569,
+      0.979
+    ],
+    "text": "White light spreads out when travelling long distances.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.657,
+      0.375,
+      0.96,
+      0.811
+    ],
+    "text": "CDs and Dvds have microscopic pits which act like the absence of light in morse code. The laser reflect s when it hits a shiny surface and doesn't reflect when it hits a pit. This then sends a message to computer chips which then send a visual or audio track to the player.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-10",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_2.jpg",
+    "bbox_norm": [
+      0.652,
+      0.826,
+      0.979,
+      0.986
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.032,
+      0.016,
+      0.21,
+      0.501
+    ],
+    "text": "White/Shiny:are poor radiators and poor absorbers energy   \nBlack/Matt:are good radiators and good absorbers of energy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.58,
+      0.268,
+      0.962
+    ],
+    "text": "P1e: Cooking with Infrared and Microwaves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:table-3",
+    "page_id": 12,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_12_Table_0.jpg",
+    "bbox_norm": [
+      0.245,
+      0.007,
+      0.949,
+      0.979
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.032,
+      0.018,
+      0.085,
+      0.338
+    ],
+    "text": "Phone signals travel at 3x10 m/s",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.138,
+      0.016,
+      0.314,
+      0.313
+    ],
+    "text": "The waves are transmitted and received. If the are not‘in line of sight' the signal may be lost.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.375,
+      0.016,
+      0.465,
+      0.279
+    ],
+    "text": "All types of phones receive waves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.016,
+      0.701,
+      0.319
+    ],
+    "text": "When you talk into your phone; it converts the sound into a microwave signal and is sent to the nearest phone mast.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.761,
+      0.016,
+      0.939,
+      0.317
+    ],
+    "text": "Microwave signals are affected -Poor weather conditions -large surfaces of water",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-6",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.101,
+      0.394,
+      0.354,
+      0.635
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.428,
+      0.375,
+      0.581,
+      0.625
+    ],
+    "text": "P1e: Phone Signals",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.706,
+      0.356,
+      0.967,
+      0.604
+    ],
+    "text": "Weather conditions can scatter the signal Radiowaves spread out (diffract) signals when passing through a gap i.e. between buildings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-9",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_1.jpg",
+    "bbox_norm": [
+      0.02,
+      0.671,
+      0.247,
+      0.983
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-10",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_2.jpg",
+    "bbox_norm": [
+      0.263,
+      0.673,
+      0.493,
+      0.984
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-11",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_3.jpg",
+    "bbox_norm": [
+      0.525,
+      0.673,
+      0.74,
+      0.98
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.648,
+      0.981,
+      0.964
+    ],
+    "text": "Mobile phones can damage your brain by heating;but there is not answer that is set in stone that they can radically damage your brain",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-1",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.02,
+      0.007,
+      0.972,
+      0.997
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.053,
+      0.296,
+      0.168,
+      0.632
+    ],
+    "text": "P1g: Wireless Communication",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:table-2",
+    "page_id": 15,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_15_Table_0.jpg",
+    "bbox_norm": [
+      0.189,
+      0.053,
+      0.953,
+      0.877
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.032,
+      0.015,
+      0.495,
+      0.322
+    ],
+    "text": "Wireless Technologies:   \n-appliances that communicate   \nwithout wires -televisions and radios use   \nradiowaves -mobile phones use   \nmicrowaves -laptops and computers use   \nmicrowaves   \n-smartphones use microwaves   \nand radiowaves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.523,
+      0.016,
+      0.657,
+      0.307
+    ],
+    "text": "\\*appliances that use wireless communication need an aerial to receive signals",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.699,
+      0.015,
+      0.951,
+      0.391
+    ],
+    "text": "Advantages:   \n-no wired connection needed   \n-portable and convenient   \n-can be used on the move i.e.train,bus   \n-can receive more than one signal at a   \ntime",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.032,
+      0.345,
+      0.331,
+      0.675
+    ],
+    "text": "Long distance communication -signals can be refracted by different layers in the atmosphere allowing them to travel further -ionosphere refracts radiowaves -microwaves can be used to send signals to satellites",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.363,
+      0.618,
+      0.64
+    ],
+    "text": "P1g:   \nWireless   \nCommunication",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.704,
+      0.386,
+      0.96
+    ],
+    "text": "Problems that can occur: -signal can spread out -waves can refract when passing through different layers of atmosphere -makes it difficult to send signals when you want to -drop in quality",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-7",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.675,
+      0.641,
+      0.954
+    ],
+    "text": "Appliances that use wireless   \nmeans:   \n-TVsandradios   \n-Smartphones   \n-laptops   \nDisadvantages:   \n-wireless signals can be reflected or refracted off   \nbuildings or by the atmosphere   \n-drop-in-quality: signal becomes weak or lose energy   \n-too many reflections can drop in quality   \n-signal be blocked by hillsor buildings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.034,
+      0.016,
+      0.166,
+      0.38
+    ],
+    "text": "Line of sight isa'line'that is free from any obstructions i.e.tall building or trees",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.034,
+      0.401,
+      0.164,
+      0.947
+    ],
+    "text": "We use Bluetooth or Wi-Fi for short range communication. To send long distance communication we use different methods",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.206,
+      0.322,
+      0.381,
+      0.972
+    ],
+    "text": "You can't send a signal to a receiver if it far away because the Earth's curvature gets in the way like a large wall of water between the transmitter and aerial. Also only certain waves can be reflected in different parts of the atmosphere i.e.radiowaves are reflected",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.215,
+      0.016,
+      0.597,
+      0.299
+    ],
+    "text": "When there are obstructions the signal can drop in quality; so to fix this the microwave transmitters are placed close together on high hills to avoid the obstructions. Line of sight is an assured way of sending signals but we are not always in sight of them",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-5",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.346,
+      0.583,
+      0.653
+    ],
+    "text": "P1g: Receiving Signals off the ionosphere.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-6",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.675,
+      0.013,
+      0.976,
+      0.41
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-8",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.696,
+      0.59,
+      0.964
+    ],
+    "text": "An advantage of wired communicationis that you can send rapidamount of data very qui",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-9",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_1.jpg",
+    "bbox_norm": [
+      0.618,
+      0.524,
+      0.983,
+      0.981
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.034,
+      0.016,
+      0.166,
+      0.393
+    ],
+    "text": "There are two major waves: P-Waves: they are the primary waves S-Waves:they are the secondary waves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.215,
+      0.014,
+      0.34,
+      0.342
+    ],
+    "text": "P-Waves are the 'invincible'waves as they travel through solids and liquids.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.34,
+      0.014,
+      0.469,
+      0.341
+    ],
+    "text": "S-Waves: these are the less invincible'wavesastheycanonly go through solids",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-4",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.014,
+      0.731,
+      0.312
+    ],
+    "text": "The other wave is an L-Wave: this travel the surface of the Earth.This help find the epicentre of the earthquake after looking at the Pand S waves.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-5",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.803,
+      0.015,
+      0.976,
+      0.343
+    ],
+    "text": "P-Waves are longitudinal In longitudinal waves, the vibrations are along the same direction as the direction of travel.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:figure-6",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.016,
+      0.437,
+      0.414,
+      0.757
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:text-7",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.378,
+      0.666,
+      0.608
+    ],
+    "text": "P1h: Earthquakes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-8",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.745,
+      0.384,
+      0.962,
+      0.638
+    ],
+    "text": "S-Waves are transverse In transverse waves, the vibrations are at right angles to the direction of travel.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:figure-9",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_1.jpg",
+    "bbox_norm": [
+      0.018,
+      0.769,
+      0.416,
+      0.975
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:text-10",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.683,
+      0.872,
+      0.968
+    ],
+    "text": "They are recorded by seismometers.These are embedded into bedrock (rock that doesn't fall loose).The simplest version is:a pen in a box with a roll of paper;and when a wave hits the pen will record it by marking the paper when dangling side to side",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:table-1",
+    "page_id": 19,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_19_Table_0.jpg",
+    "bbox_norm": [
+      0.002,
+      0.0,
+      0.997,
+      1.0
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.034,
+      0.016,
+      0.166,
+      0.348
+    ],
+    "text": "The ozone isa layer of gas in the atmosphere; majority of the ozone reside in the stratosphere.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.016,
+      0.293,
+      0.322
+    ],
+    "text": "The ozone is thinning though by CFCs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.337,
+      0.016,
+      0.43,
+      0.242
+    ],
+    "text": "CFCs are also known as Chlorofluorocarbons",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.304,
+      0.625,
+      0.695
+    ],
+    "text": "P1h: UV Radiation on Earth and Atmosphere",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.015,
+      0.694,
+      0.259
+    ],
+    "text": "The ozone filters the amount of radiation that goes into the Earth; however the radiation intake is increasing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-6",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.015,
+      0.976,
+      0.272
+    ],
+    "text": "Satellites are used to survey the ozone layer; this also showed scientist that the ozone was thinning in colder places i. e.Antarctica.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-7",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.034,
+      0.43,
+      0.356,
+      0.615
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.655,
+      0.3,
+      0.953,
+      0.542
+    ],
+    "text": "To stop the Ozone thinning fast an international agreement was made in 1980;to stop using CFCs This was signed by many countries",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-9",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_1.jpg",
+    "bbox_norm": [
+      0.159,
+      0.733,
+      0.627,
+      0.998
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.571,
+      0.912,
+      0.815
+    ],
+    "text": "The colder the area the faster the chemical reaction involving CFCs, the quicker the Ozone thins.The cold isa catalyst for the reaction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-11",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_2.jpg",
+    "bbox_norm": [
+      0.68,
+      0.833,
+      0.976,
+      0.984
+    ],
+    "text": "",
+    "source_type": "image"
+  }
+]

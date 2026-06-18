@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Provision for income taxes</td><td>$ 1,601 $</td><td>1,308</td><td>$ 1,061</td></tr><tr><td>Effective tax rate</td><td>24.0 %</td><td>24.4 %</td><td>22.3 %</td></tr></table>

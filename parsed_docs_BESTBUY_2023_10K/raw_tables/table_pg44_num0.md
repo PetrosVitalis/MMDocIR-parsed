@@ -1,0 +1,1 @@
+<table><tr><td>Asset Category</td><td>Useful Life</td></tr><tr><td>Buildings</td><td>5-35</td></tr><tr><td>Leasehold improvements</td><td>5-10</td></tr><tr><td>Fixtures and equipment</td><td>2-20</td></tr></table>

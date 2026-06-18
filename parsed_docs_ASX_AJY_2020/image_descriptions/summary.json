@@ -1,0 +1,29 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_ASX_AJY_2020",
+  "total_images": 4,
+  "non_figure_images_skipped": 9,
+  "processed": 4,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_5_Figure_1.jpg",
+      "output": "image_descriptions/_page_5_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Figure_0.jpg",
+      "output": "image_descriptions/_page_5_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_0.jpg",
+      "output": "image_descriptions/_page_4_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_1.jpg",
+      "output": "image_descriptions/_page_4_Figure_1.md",
+      "status": "success"
+    }
+  ]
+}

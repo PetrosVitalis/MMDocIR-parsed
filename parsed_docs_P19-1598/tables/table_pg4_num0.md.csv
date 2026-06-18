@@ -1,0 +1,10 @@
+,,Tokens xt Super Mario Land isa,,,,,,,1989,,,side - scrolling platform video game developed,,,,
+Mention type t,Mention type t,Mention type t,,new,new,,,の,related,,new,new,,related,related,D
+Entity Mentioned,Entity Mentioned,et,,SML,,,,,,,@,04-21-1989 SIDE SCROLL,,PVG,,D
+,,Relation rt,,D,D,,,,pub date,,,,,genre,,0
+,Parent Entity Pt,Parent Entity Pt,,D,D,,,の,SML,,,D,,SML,,D
+,Xt and published by Nintendo as a launch title for their Game,,,,,,,,,,,Boy,,handheld game console,,
+tt,D,D,D,related,のの,,,new,@,0,,related,,related,,①
+et,@,D,D,NIN,,,,LT,①,D,,GAME_BOY,,HGC,,①
+rt,D,D,D,pub,0,①,,①,①,0,,R:manu /platform,,instance of,,D
+Pt,D,@,0,SML,D,D,,D,四,0,NIN,SML,,GAME_BOY,,@

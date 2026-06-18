@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">For the years ending December 31,</td></tr><tr><td>2019</td><td>80</td></tr><tr><td>2020</td><td>70</td></tr><tr><td>2021</td><td>53</td></tr><tr><td>2022</td><td>45</td></tr><tr><td>2023</td><td>38</td></tr><tr><td> Thereafter</td><td>60</td></tr><tr><td>Total</td><td>$ 346</td></tr></table>

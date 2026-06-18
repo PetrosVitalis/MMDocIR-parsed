@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">($ in millions)</td></tr><tr><td>At December 31:</td><td>2020</td><td>2019</td></tr><tr><td>Finished goods</td><td>$190</td><td>$220</td></tr><tr><td>Work in process and raw materials</td><td>1,649</td><td>1,399</td></tr><tr><td>Total</td><td>$1,839</td><td>$1,619</td></tr></table>

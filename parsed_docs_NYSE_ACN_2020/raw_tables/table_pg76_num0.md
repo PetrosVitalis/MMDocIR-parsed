@@ -1,0 +1,1 @@
+<table><tr><td></td><td>August 31, 2020</td><td>August 31, 2019</td></tr><tr><td>Equity method investments</td><td>$ 240,446</td><td>$ 108,342</td></tr><tr><td>Investments without readily determinable fair values</td><td>84,068</td><td>131,971</td></tr><tr><td>Total non-current investments</td><td>$ 324,514</td><td>$ 240,313</td></tr></table>

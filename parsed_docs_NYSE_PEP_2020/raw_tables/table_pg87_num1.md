@@ -1,0 +1,1 @@
+<table><tr><td></td><td></td><td>2021</td><td></td><td>2022</td><td>2023</td><td></td><td>2024</td><td>2025</td></tr><tr><td>Five-year projected amortization</td><td>$</td><td>92</td><td>$</td><td>89 $</td><td>87</td><td>$</td><td>87</td><td>$ 84</td></tr></table>

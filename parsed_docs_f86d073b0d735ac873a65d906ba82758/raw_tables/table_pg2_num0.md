@@ -1,0 +1,1 @@
+<table><tr><td>Category</td><td>No. of Directors</td><td>Percentage to total no. of Directors</td></tr><tr><td>Executive Directors Non-Executive Independent Directors</td><td>4 7</td><td>31 54</td></tr><tr><td>Other Non-Executive Directors</td><td>2</td><td>15</td></tr><tr><td>Total</td><td>13</td><td>100</td></tr></table>

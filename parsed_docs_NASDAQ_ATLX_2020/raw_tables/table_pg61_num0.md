@@ -1,0 +1,1 @@
+<table><tr><td rowspan="6">Filed in the Office of BaboeK.ged Secretary of State State OfNevada</td><td>Business Number E0671412011-7</td></tr><tr><td>FilingNumher</td></tr><tr><td>20200790323</td></tr><tr><td>FiledOn 7/16/2020 10:31:00 AM</td></tr><tr><td>Number of Pages</td></tr><tr><td>1</td></tr></table>

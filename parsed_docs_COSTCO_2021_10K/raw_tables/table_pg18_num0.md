@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Own Land and Building</td><td>Bundng Lease Land</td><td>Total</td></tr><tr><td> United States and Puerto Rico</td><td>454</td><td>110</td><td>564</td></tr><tr><td>Canada</td><td>89</td><td>16</td><td>105</td></tr><tr><td> Other International</td><td>101</td><td>45</td><td>146</td></tr><tr><td>Total</td><td>644</td><td>171</td><td>815</td></tr></table>

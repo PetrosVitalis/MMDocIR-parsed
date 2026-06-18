@@ -1,0 +1,27 @@
+Model,No attack,Swap,Drop,Add,Key,All
+Word-Level Models,Word-Level Models,Word-Level Models,Word-Level Models,Word-Level Models,Word-Level Models,Word-Level Models
+BiLSTM,79.2,(64.3/53.6),(63.7/52.7),(60.0/43.2),(60.2/42.4),(58.6/40.2)
+BiLSTM+ ATD,79.3,(76.2/75.3),(66.5/59.9),(55.6/47.5),(62.6/57.6),(55.8/37.0)
+BiLSTM + Pass-through,79.3,(78.6/78.5),(69.1/65.3),(65.0/59.2),(69.6/65.6),(63.2/52.4)
+BiLSTM+ Background,78.8,(78.9/78.4),(69.6/66.8),(62.6/56.4),(68.2/62.2),(59.6/49.0)
+BiLSTM+ Neutral,80.1,(80.1/79.9),(72.4/70.2),(67.2/61.2),(69.0/64.6),(63.2/54.0)
+Char-Level Models,Char-Level Models,Char-Level Models,Char-Level Models,Char-Level Models,Char-Level Models,Char-Level Models
+BiLSTM,70.3,(53.6/42.9),(48.8/37.1),(33.8/14.8),(40.8/22.0),(32.6/14.0)
+BiLSTM+ATD,71.0,(66.6/65.2),(58.0/53.0),(54.6/44.4),(61.6/57.5),(46.5/35.4)
+BiLSTM+ Pass-through,70.3,(65.8/62.9),(58.3/54.2),(54.0/44.2),(58.8/52.4),(51.6/39.8)
+BiLSTM+ Background,70.1,(70.3/69.8),(60.4/57.7),(57.4/52.6),(58.8/54.2),(53.6/47.2)
+BiLSTM+ Neutral,70.7,(70.7/70.7),(62.1/60.5),(57.8/53.6),(61.4/58.0),(55.2/48.4)
+Word+Char Models,Word+Char Models,Word+Char Models,Word+Char Models,Word+Char Models,Word+Char Models,Word+Char Models
+BiLSTM,80.5,(63.9/52.3),(62.8/50.8),(57.8/39.8),(58.4/40.8),(56.6/35.6)
+BiLSTM+ATD,80.8,(78.0/77.3),(67.7/60.9),(55.6/50.5),(68.7/64.6),(48.5/37.4)
+BiLSTM+Pass-through,80.1,(79.0/78.7),(69.5/65.7),(64.0/59.0),(66.0/62.0),(61.5/56.5)
+BiLSTM+ Background,79.5,(79.6/79.0),(69.7/66.7),(62.0/57.0),(65.0/56.5),(59.4/49.8)
+BiLSTM+ Neutral,79.5,(79.5/79.4),(71.2/68.8),(65.0/59.0),(65.5/61.5),(61.5/55.5)
+Word-piece Models,Word-piece Models,Word-piece Models,Word-piece Models,Word-piece Models,Word-piece Models,Word-piece Models
+BERT,90.3,(64.1/47.4),(59.2/39.9),(46.2/26.4),(54.3/34.9),(45.8/24.6)
+BERT+DA,90.2,(68.3/50.6),(62.7/39.9),(43.6/17.0),(57.7/32.4),(41.0/15.8)
+BERT+Adv,89.6,(69.2/52.9),(63.6/40.5),(50.0/22.0),(60.1/36.6),(47.0/20.2)
+BERT +ATD,89.0,(84.5/84.5),(73.0/64.0),(77.0/69.5),(80.0/75.0),(67.0/55.0)
+BERT+Pass-through,89.8,(85.5/83.9),(78.9/75.0),(70.4/64.4),(75.3/70.3),(68.0/58.5)
+BERT+Background,89.3,(89.1/89.1),(79.3/76.5),(76.5/71.0),(77.5/74.4),(73.0/67.5)
+BERT+ Neutral,88.3,(88.3/88.3),(81.1/79.5),(78.0/74.0),(78.8/76.8),(75.0/68.0)

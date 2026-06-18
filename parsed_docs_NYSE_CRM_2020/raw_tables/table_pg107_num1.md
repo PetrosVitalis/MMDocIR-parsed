@@ -1,0 +1,1 @@
+<table><tr><td>Fiscal Period:</td></tr><tr><td>Fiscal 2021 $1,059</td></tr><tr><td>Fiscal 2022 984</td></tr><tr><td>Fiscal 2023 833</td></tr><tr><td>Fiscal 2024 750</td></tr><tr><td>Fiscal 2025 513</td></tr><tr><td>Thereafter 585</td></tr><tr><td>Total amortization expense $4,724</td></tr></table>

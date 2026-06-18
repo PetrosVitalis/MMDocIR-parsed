@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">Membership fees</td><td>2022</td><td>2021</td><td>2020</td><td></td></tr><tr><td>$</td><td>4,224 $</td><td>3,877</td><td>$ 3,541</td></tr><tr><td>Membership fees increase</td><td>9%</td><td></td><td>9%</td><td>6%</td></tr></table>

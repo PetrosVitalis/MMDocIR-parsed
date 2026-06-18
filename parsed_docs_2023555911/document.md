@@ -1,0 +1,218 @@
+<span id="page-0-0"></span>
+# Legal Mechanisms for Genocide Determinations
+
+Australia • Canada • Estonia • European Union Lithuania • United Kingdom
+
+June 2021
+
+LL File No. 2021-020338   
+LRA-D-PUB-002618
+
+The Law Library of Congress, Global Legal Research Directorate (202) 707-5080 • law@loc.gov • http://www.law.gov
+
+<span id="page-1-0"></span>
+This report is provided for reference purposes only.   
+It does not constitute legal advice and does not represent the official   
+opinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.
+
+<span id="page-2-0"></span>
+## Contents
+
+Introduction .   
+Australia .... 3   
+Canada... . 5   
+Estonia & Lithuania .   
+European Union .. 9   
+United Kingdom .............. 13
+
+<span id="page-3-0"></span>
+# Introduction
+
+Eduardo Soares Senior Foreign Law Specialist
+
+This report surveys the existence of legal frameworks or mechanisms for determinations to be made on genocide in jurisdictions around the globe. The focus of our research was whether countries have enacted legislation defining the legal requirements and processes for making genocide determinations and the possible outcomes of that process in terms of actions that a government must or may take in response to genocide.
+
+Among the countries surveyed for this report, none of them have this type of separate or distinct legal framework. However, Australia, Canada, the European Union, Estonia, Lithuania, and the United Kingdom have, or are in the process of adopting, legislation similar to the United States Global Magnitsky Human Rights Accountability Act, which authorizes the President to impose economic sanctions and deny entry into the country to any foreign person identified as engaging in human rights abuses or corruption.
+
+Australia is currently considering the adoption of legislation enabling Magnitsky-style targeted sanctions, which a parliamentary committee recommended include a broad definition of human rights abuses. Canada has enacted the “Sergei Magnitsky Law,” which grants the government the ability to restrict dealings in property and freeze assets of foreign nationals responsible for gross violations of internationally recognized human rights.
+
+The European Union very recently enacted the Global Human Rights Sanctions Regime, which is also referred to as the European Magnitsky Act, to enable sanctions to be imposed for serious human rights abuses and violations, which specifically includes genocide.
+
+Following the Sergei Magnitsky case and the actions taken by the United States, Estonia has enacted legislation to permanently prohibit the entry of a person who participated or contributed to violations of human rights. Similarly, Lithuania has enacted a law that prohibits a person involved in human rights abuses, money laundering, and corruption to enter the country for five years.
+
+The United Kingdom has recently enacted a trade law that includes a process for a parliamentary committee to investigate credible reports of genocide in countries with which the UK has entered into negotiations for bilateral trade agreements. It has also amended legislation to enable sanctions to be imposed for gross human rights abuses or violations, based on the United States Magnitsky Act.
+
+Notwithstanding the absence of a formal framework or requirement for making genocide determinations, it seems that governments or legislatures of many jurisdictions around the world have the ability to make such declarations.
+
+In addition to those referred to above, the jurisdictions surveyed for this report included examples from all regions in the world, including 11 countries in Europe; 12 jurisdictions in Asia;
+
+<span id="page-4-0"></span>
+various countries in the Middle East and North Africa, including Israel; Kenya, South Africa, and several French-speaking countries in Africa; several Caribbean countries; and Mexico and six jurisdictions in South America.
+
+<span id="page-5-0"></span>
+## Australia
+
+Kelly Buchanan Chief, Foreign, Comparative, and International Law Division II
+
+Australia does not have a legal mechanism or framework for making determinations with respect to whether certain acts constitute genocide. In terms of sanctions for such acts, however, in December 2020, the Human Rights Sub-committee of the Joint Standing Committee on Foreign Affairs, Defence and Trade of the Australian Parliament published a report in which it recommended that Australia enact legislation enabling “Magnitsky-style targeted sanctions” for serious human rights abuses and serious corruption.1 The subcommittee considered that such legislation should include a broad definition of human rights abuses with “further guidance on thresholds and applicable conduct provided in the preamble.”2 It received a draft bill that had been prepared by Geoffrey Robertson AO QC at its request,3 which included reference to provisions in the Criminal Code Act 1995 (Cth) establishing the offenses of genocide, crimes against humanity, war crimes, and slavery.4 The subcommittee considered that the inclusion of these references is “consistent with the document’s object of deterring ‘grave’ or ‘gross’ human rights abuses,”5 but did not refer to the specific inclusion of these offenses in its recommendations.
+
+Under the draft bill, and the subcommittee’s recommendations, the minister for foreign affairs would be empowered to designate and take certain actions against a person if satisfied that the person is or has been involved in “Magnitsky conduct.”6 The subcommittee recommended that “an independent advisory body be created to receive nominations, consider them and make recommendations to the Minister for a decision.”7 It also recommended that the minister “be able to impose sanctions without a recommendation by the advisory body,”8 and have broad discretion in deciding whether to do so, rather than being required to apply express considerations in the legislation.9 The subcommittee recommended that the sanctions available under the legislation include “visa/travel restrictions, limit access to assets, and restrict access to
+
+<span id="page-6-0"></span>
+Australia’s financial systems”10 and should be applicable to “all entities, including natural persons, corporate entities and both state and non-state organisations.”11 It also recommended that the legislation include a right for the sanctioned person to request a review of the decision.12
+
+The Australian government has not yet formally responded to the subcommittee’s report. The original referral of the question as to whether to enact Magnitsky-style legislation was made by the minister for foreign affairs, who told a Senate committee in March 2021 that the government is still considering the matter.13
+
+<span id="page-7-0"></span>
+## Canada
+
+## Tariq Ahmad Foreign Law Specialist
+
+Canada does not appear to have a specific law or legislative framework for the government to make declarations or determinations of the international crime of genocide. Individual cases are highlighted politically, however, as part of a parliamentary declaration or dealt with more concretely through Canada’s human rights sanctions regime and other forms of economic or trade sanctions.1
+
+Canada, like other major countries, “has a broad range of economic and financial sanctions targeting foreign states and their nationals,”2 including for gross violations of human rights. The Special Economic Measures Act (SEMA)3 enables the Government of Canada to impose sanctions on foreign states and persons when certain circumstances have occurred, including if the government is of the opinion that “gross and systematic human rights violations have been committed in a foreign state.”4 The Justice for Victims of Corrupt Foreign Officials Act (commonly known as the Sergei Magnitsky Law or SML)5 gives the Government of Canada the authority to impose targeted measures, “to make orders and regulations to restrict dealings in property and freeze the assets”6 of foreign nationals who, in the government’s opinion, “are responsible for, or complicit in, gross violations of internationally recognized human rights.”7 Designations under SML are made through the Justice for Victims of Corrupt Foreign Officials Regulations.8 Although these laws do not mention genocide specifically, they are written in language sufficiently general to include it. For example, section 4(1.1) of SEMA outlines the following circumstances under which the government can impose sanctions:
+
+(a) an international organization of states or association of states, of which Canada is a member, has made a decision or a recommendation or adopted a resolution calling on its members to take economic measures against a foreign state;
+
+<span id="page-8-0"></span>
+(b) a grave breach of international peace and security has occurred that has resulted in or is likely to result in a serious international crisis;
+
+(c) gross and systematic human rights violations have been committed in a foreign state. . . . 9
+
+Section 4(2) of Canada’s SML sets out the circumstances under which the government can impose sanctions:
+
+(a) a foreign national is responsible for, or complicit in, extrajudicial killings, torture or other gross violations of internationally recognized human rights committed against individuals in any foreign state who seek
+
+(i) to expose illegal activity carried out by foreign public officials, or
+
+(ii) to obtain, exercise, defend or promote internationally recognized human rights and freedoms, such as freedom of conscience, religion, thought, belief, opinion, expression, peaceful assembly and association, and the right to a fair trial and democratic elections;
+
+(b) a foreign national acts as an agent of or on behalf of a foreign state in a matter relating to an activity described in paragraph (a). . . . 10
+
+The laws do not set to define gross violation of human rights but Section 4(2) and the preamble to Canada’s SML does make reference to “international recognized human rights” and Canada’s commitment to “promoting international justice and respect for human rights” and “obligations and responsibilities set out in” international human rights agreements.11
+
+<span id="page-9-0"></span>
+# Estonia Lithuania
+
+Peter Roudik Director of Legal Research
+
+Iana Fremer
+
+Legal Research Analyst
+
+Generally recognized principles and rules of international law are considered a part of the Estonian legal system,1 and crimes against humanity, including genocide, are prosecuted under Estonian criminal legislation regardless of the time and place of commission of the crime, in line with Estonian international obligations.2
+
+Estonian legislation does not specifically provide a means for determining whether particular actions constitute genocide or for determining when sanctions need to be imposed on perpetrators of genocide.
+
+However, in 2016, following the “Sergei Magnitsky case and the actions of the U.S. authorities [that] have started a global movement to hold individual perpetrators accountable for their human rights violations,”3 Estonia adopted amendments to the national Obligation to Leave and Prohibition on Entry Act, allowing it to permanently prohibit entry into Estonia to a foreigner if there is good reason to believe that the person has participated in or contributed to violations of human rights in a foreign country.4 The entry ban applies to a person who committed a human rights violation that resulted in
+
+• death of a person,
+
+serious injury of a person,
+
+• unfounded conviction of a person in an offense inspired by political motives, and
+
+other serious consequences.5
+
+<span id="page-10-0"></span>
+The decision to include a person in the no-entry list is made by the Minister of Interior upon review of a request submitted by any government authority or state agency.6 The Ministry of Interior maintains a list of those who are banned from entry in Estonia. As of 2018, this list included 49 names of people accused of committing serious human rights violations.7
+
+In Lithuania, a similar law that prevents persons involved in human rights abuses, money laundering and corruption from entering the country during a five-year period was passed in 2017.8 The law specifies that the entry ban applies to aliens who have
+
+committed a serious or grave crime against a person in a foreign state thus violating the universal human rights and freedoms, or has committed a criminal act of a corruptive nature or a criminal act with indications of money laundering as defined in laws or international treaties of the Republic of Lithuania, or has instigated or otherwise participated in committing such criminal acts and/or for these reasons the alien is placed on the national no-entry list of another EU Member State, member country of the European Free Trade Association or country of the North Atlantic Treaty Organisation.9
+
+The ban can be extended beyond the five-year period. The determination is made by the Minister of Interior based on information provided by the Ministry of Foreign Affairs.10
+
+<span id="page-11-0"></span>
+# European Union
+
+Jenny Gesley
+
+Foreign Law Specialist
+
+## SUMMARY
+
+The European Union (EU) Global Human Rights Sanctions Regime, enacted in December 2020, provides a formal legal framework to hold perpetrators of serious human rights violations and abuses accountable by implementing targeted restrictive measures. Genocide is explicitly listed as one of the offenses to which the framework applies. To make the determination that genocide has taken place, the law provides that “regard should be had to customary international law and widely accepted instruments of international law. . . .” Proposals for inclusion in the sanctions list may be submitted by the EU Member States and the High Representative of the Union for Foreign Affairs and Security Policy to the Council of the European Union (Council). The Council establishes and amends the list by unanimous decision. Two types of measures comprise the sanctions regime: financial sanctions, such as asset freezes and bans on making funds and economic resources available, and restrictions on movement (travel bans).
+
+## I. Introduction
+
+On December 7, 2020, the European Union (EU) enacted its Global Human Rights Sanctions Regime, also referred to as the “European Magnitsky $\mathrm { A c t } , ^ { \prime \prime } 1$ to hold perpetrators of serious human rights violations and abuses accountable. It consists of two acts, Council Regulation (EU) 2020/1998 (Regulation) and Council Decision (CFSP) 2020/1999 (Decision).2 Genocide is explicitly listed as one of the offenses to which the framework applies.3 The sanctions regime enables the EU to implement targeted restrictive measures no matter who is responsible for the respective infringements or where they occur. The EU Global Human Rights Sanctions Regime is in addition to the existing geographic sanctions regimes that address human rights violations and abuses.
+
+<span id="page-12-0"></span>
+## II. Legal Framework for Genocide Determinations
+
+## A. Scope
+
+The EU sanctions framework applies to serious human rights violations or abuses worldwide.4 The sanctions regime provides a nonexhaustive list of offenses that qualify as such—in particular, genocide and crimes against humanity.5 Other human rights violations or abuses fall under the regime’s provisions if they “are widespread, systematic or are otherwise of serious concern” as regards article 21 of the Treaty on European Union (TEU).6 To make the determination that genocide has taken place, the law provides that “regard should be had to customary international law and widely accepted instruments of international law, such as . . . the Convention on the Prevention and Punishment of the Crime of Genocide [and] the Rome Statute of the International Criminal Court.”7
+
+The sanctions regime covers natural and legal persons, entities, or bodies that may include state actors, other actors exercising effective control or authority over a territory, or other non-state actors.8 Anyone who provides financial, technical, or material support, or is otherwise involved in a human rights abuse or violation or associated with the perpetrators may also be targeted with restrictive measures.9
+
+## B. Procedure
+
+Persons, entities, or bodies that are subject to sanctions because they committed serious human rights violations or abuses are listed in the annex to the Decision and the Regulation. Proposals for inclusion in the list may be submitted by the EU Member States and the High Representative of the Union for Foreign Affairs and Security Policy (High Representative)10 to the Council of the European Union (Council). The Council is the co-legislator of the EU together with the European Parliament. It is made up of a government minister from each EU country according to the policy area to be discussed.11
+
+<span id="page-13-0"></span>
+The Council establishes and amends the list by unanimous decision.12 The Council Implementing Regulation that contains the amendment of the list is published in the Official Journal of the European Union (O.J.). In addition, the names and identifying information of the listed persons/entities are added to the EU Sanctions Map and the Financial Sanctions Database, both of which are publicly available online free of charge.13
+
+The grounds for the listing must be communicated to the person, entity, or body concerned, followed by an opportunity for them to present their observations.14 Such a communication can be made either directly if the address is known or by public notice.15 A revision of the list must take place at least every 12 months.16 The grounds for the listing are also included in the annex.17
+
+## C. Sanctions
+
+Two types of measures comprise the sanctions regime: financial sanctions, such as asset freezes and bans on making funds and economic resources available, and restrictions on movement (travel bans).18 The Regulation deals with financial sanctions, whereas the Decision deals with travel bans. EU sanctions are applied by the EU Member States. They are obligated to inform each other and the European Commission of measures taken, in particular regarding the freezing of funds or any national enforcement problems.19 The European Commission monitors the enforcement and uniform implementation of sanctions by the Member States.
+
+The competent authorities in the EU Member States may derogate (make an exception) from the sanctions imposed in certain cases and release frozen funds or economic resources, such as when there is a specific need, for humanitarian aid, in relation with arbitral, judicial, or administrative decisions, or in connection with a prior contract.20
+
+With regard to travel bans, certain exemptions are possible as well—for example, if the Member State is bound by an obligation under international law or the entry is necessary for judicial proceedings.21 The Member State must inform the Council about any granted exemptions and, in certain cases, Council members can raise objections in writing within two working days of receiving notice of the exemption.22 In such a case, the Council decides by a qualified majority whether the proposed exemption is granted.23
+
+<span id="page-14-0"></span>
+Member States must also determine penalties for EU economic operators that do not comply with the sanctions imposed under the sanctions regime.24 The penalties provided for must be “effective, proportionate and dissuasive.”25 Non-EU operators are not obligated to comply with the sanctions imposed, unless their business is conducted at least partly within the EU.26
+
+<span id="page-15-0"></span>
+# United Kingdom
+
+Clare Feikert-Ahalt Senior Foreign Law Specialist
+
+## SUMMARY
+
+There is no formal framework in the United Kingdom (UK) to make a determination about a genocide. The government’s policy is that competent courts are the only body that can make a determination about a genocide. There are other mechanisms by which genocide may be recognized, such as parliamentary motions, but these are symbolic in nature. The UK recently enacted the Trade Act, which provides for a parliamentary committee to publish a report stating there are credible reports of a genocide committed by a prospective bilateral trade partner. The secretary of state must respond to the report and, if the select committee is not satisfied with the response, the committee may insist on a parliamentary debate and a vote on a motion. The Trade Act does not specify what happens if the secretary of state, or any subsequent motion, agrees with the finding of the report. Because the procedure does not occur in a competent court, it is likely that any such result would be merely symbolic. The impact, if any, it would have on any trade negotiations or treaties is unclear.
+
+## I. Introduction
+
+The United Kingdom (UK) is a signatory to the Convention on the Prevention and Punishment of the Crime of Genocide (the Genocide Convention) and thus has an obligation to prevent and punish genocide.1 The UK has also enacted the International Criminal Court Act 2001, which incorporates the Rome Statute of the International Criminal Court into domestic law and creates a criminal offense of genocide, which has extraterritorial jurisdiction for British citizens and residents.2
+
+## II. Government Policy on Determinations of Genocide
+
+There is no formal framework for determinations to be made about the fact of a genocide in the UK.3 The long-standing policy of the UK government is that genocide can only be determined by a competent court.4 Secretary of State for Foreign, Commonwealth and Development Affairs Dominic Raab stated in 2020 that competent courts “include international courts, such as the
+
+<span id="page-16-0"></span>
+International Criminal Court,5 the International Court of Justice, and national criminal courts that meet international standards of due process.”6
+
+This approach has been criticized by members of parliament (MPs). An MP asserted during debate that
+
+it has become clear to all of us that the Government’s policy on genocide is untenable. They cannot continue to insist that the determination of genocide is for the courts, knowing that there is no court that can actually hear these cases. The current policy far predates the current Government. We should be honest about this and look beyond party politics. It has become an embarrassment to Ministers. It is patently absurd to insist on this being a matter for courts, which will be blocked from acting.7
+
+The government has defended its approach, noting
+
+[g]enocide and crimes against humanity are subject to a restrictive legal framework under international law. In particular, a finding of genocide requires proof that relevant acts were carried out with the intent to destroy, in whole or in part, a national, ethnic, racial or religious group. Proving such intent to the required legal standard can be incredibly difficult to achieve in practice.8
+
+While there is no formal, legal framework for a determination of genocide, there are other mechanisms by which genocide can be recognized in the UK. However, these are largely political and symbolic in nature. The government can recognize genocide through a written or oral statement, or a response to a parliamentary question. A select committee could report that killings were a genocide, and the government response could include its views; an “early day motion” could be laid before parliament stating that killings amount to genocide, or parliament could pass a motion recognizing that killings were a genocide.9 A parliamentary motion occurred on April 22, 2021, when the House of Commons passed a motion declaring
+
+[t]hat this House believes that Uyghurs and other ethnic and religious minorities in the Xinjiang Uyghur Autonomous Region are suffering crimes against humanity and genocide; and calls on the Government to act to fulfil its obligations under the Convention on the Prevention and Punishment of Genocide and all relevant instruments of international law to bring it to an end.10
+
+MPs have stated that the motion instructs the government to carry out the duties contained in the Genocide Convention, which are to take reasonable steps to punish and prevent genocide;
+
+<span id="page-17-0"></span>
+however, the motion is considered largely symbolic.11 Foreign Secretary Raab was asked by the House of Lords Select Committee on International Relations and Defence whether he would accept this motion from the House of Commons. He responded: “Parliament should hold the executive to account on all these matters. That has been our position all along. Our long-standing position is that a court should make judgments on genocide. Fundamentally, genocide creates obligation at the state level.”12
+
+## III. Laws Recognizing Genocide
+
+On April 29, 2021, the UK enacted the Trade Act. This Act includes a process for a parliamentary committee to investigate credible reports of genocide in the territory of a country with which the UK has entered into formal negotiations for a bilateral free trade agreement.13 The process involves multiple steps. The first is for the relevant committee in the House of Commons to publish a report stating credible reports of genocide exist. The secretary of state is then required to respond in writing to the committee. If the committee is not satisfied by the response, it may insist on a parliamentary debate and vote on a motion. A similar process is provided for in the House of Lords if a committee in the Lords publishes a report stating credible reports of genocide exist. The term genocide used in the Trade Act has the same meaning as article 2 of the Genocide Convention.14
+
+The result of any findings, statements or motions from this process is not clear, as the implications for continuing negotiations with any country determined to have committed genocide in accordance with this process are not specified in the Trade Act. As the committee that reviews the evidence, or the secretary of state who responds, is not a competent court, the actions do not meet the threshold set by the UK government that genocide must be determined by a competent court.
+
+## IV. Responses to Genocide
+
+Where a determination of genocide has been made by a competent court, the UK may take action to “prevent and punish” such conduct in accordance with the terms of the Genocide Convention.15 Criminal actions may be taken in the domestic criminal courts against British citizens and residents who have committed acts of genocide overseas.16
+
+<span id="page-18-0"></span>
+The UK has also amended its domestic legislation to introduce elements modeled after the United States’s Magnitsky Act.17 The Proceeds of Crime Act 2002 was amended to include gross human rights abuses or violations in the definition of unlawful conduct and applies the provisions with extraterritorial application, enabling the UK to undertake a variety of actions relating to the proceeds of a crime, such as recovering or freezing them.18 The Sanctions and Anti-Money Laundering Act 2018 also include Magnitsky elements, enabling the UK to impose sanctions, including financial, trade, and immigration sanctions, against individuals or entities that have engaged in gross human rights abuses or violations.19 The House of Lords noted that, while the government deserves credit for introducing these provisions, the “sanctions are not a response to genocide . . . [and] the sanctions regime is too opaque and liable to be used against soft targets rather than the worst villains.”20

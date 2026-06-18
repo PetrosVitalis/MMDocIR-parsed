@@ -1,0 +1,4 @@
+Sitemap#,Type,Issue,Description,Issues count
+sitemap.xml,Warnings,URLsnotaccessible,"When we tested a sample of the URLs from yourSitemap,wefound that some URLs were not accessible to Googlebotdue toanHTTPstatus error.Allaccessible URLs will stillbe submitted.",159
+sitemap2.xml,Warnings,URLSunreachable,"When we tested a sample of the URLs from your Sitemap,wefound that some ofthe URLs were unreachable.Please check yourwebserver for possible misconfiguration,as these errorsmay becaused bya servererror(such asa 5xx error) ora network errorbetween Googlebot and your server.All reachable URLs willstillbesubmitted.",1732
+videositemap.xmlWarnings,,URLstimedout,"When we tested a sample of the URLs from your Sitemap,wefound that some URLs were not accessible to Googlebot due tonetwork timeouts.If this problem persists,please check thenetwork availability of your DNSand webservers.AllaccessibleURLs will still be submitted.",504

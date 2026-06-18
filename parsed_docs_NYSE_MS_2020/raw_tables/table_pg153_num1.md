@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>Aggregate balancel</td><td>$ 865$</td><td>925</td></tr><tr><td></td><td colspan="2"></td></tr></table>

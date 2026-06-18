@@ -1,0 +1,18 @@
+Model,MAVEN-ERE Micro-F1 (%),MAVEN-ERE LI (%),Causal-TimeBank Micro-F1 (%),Causal-TimeBank LI (%),Proof Writer Micro-F1 (%)
+RoBERTa-Large (one-shot),17.4,54.8,-,-,35
+RoBERTa-Large (fully fine-tuned),56.8,6.4,22.2,36.2,63
+"Turbo,vanilla ICL",18.0,53.3,19.0,"54.0,39",39
+"Turbo,vanilla ICL w. CoT",18.8,49.3,17.0,"30.3,42",42
+"Turbo,CoT w. logical constraints",25.3,37.9,27.0,"12.8,45",45
+"Davinci,vanilla ICL",21.6,49.1,18.0,"58.8,30",30
+"Davinci,vanilla ICL w. CoT",20.5,60.5,21.0,"64.7,40",40
+"Davinci,CoT w. logical constraints",24.8,5.5,23.0,"39.2,49",49
+"GPT-4,vanilla ICL",29.3,50.7,22.5,"30.5,47",47
+"GPT-4,vanilla ICL w. CoT",30.3,36.7,23.0,"35.0,67",67
+"GPT-4,CoT w. logical constraints",32.3,13.7,24.5,"24.0,70",70
+"Vicuna,vanilla ICL",13.8,25.4,4.5,"84.1,37",37
+"Vicuna,vanilla ICL w. CoT",11.6,47.4,6.0,"57.6,40",40
+"Vicuna,CoT w. logical constraints",14.9,21.7,8.0,"33.1,42",42
+"Llama2,vanilla ICL",17.0,54.6,11.5,"26.7,29",29
+"Llama2,vanilla ICL w. CoT",17.8,58.4,10.5,"33.6,31",31
+"Llama2,CoT w. logical constraints",21.5,18.9,13.0,"18.1,40",40

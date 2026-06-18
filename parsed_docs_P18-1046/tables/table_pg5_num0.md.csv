@@ -1,0 +1,5 @@
+Hyperparameter,Value
+"CNNWindow $c _ { w } ,$ kernel size $c _ { k }$","3, 100"
+"Word embedding $d _ { e } ,$ $| V |$","50,114042"
+Position embedding $d _ { p }$,5
+"Learning rate of G, D","1e-5, 1e-4"

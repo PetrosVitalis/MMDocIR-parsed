@@ -1,0 +1,1 @@
+<table><tr><td>(Dollars in millions)</td><td colspan="2">2020</td><td>2019</td></tr><tr><td>Income before income taxes</td><td>$ 18,995</td><td>$</td><td>32,754</td></tr><tr><td>Income tax expense</td><td>1,101</td><td></td><td>5,324 16.3 %</td></tr><tr><td>Effective tax rate</td><td colspan="3">5.8 %</td></tr></table>

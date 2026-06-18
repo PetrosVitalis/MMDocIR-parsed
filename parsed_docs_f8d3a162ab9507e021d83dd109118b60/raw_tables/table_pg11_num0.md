@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td rowspan="2"></td><td>charts, graphs and tables. Remember to referto them and explain them in your report.·Proofread your paper carefully for spelling and grammatical errors.</td></tr><tr><td>WRITTEN REPORT (MS Word or PDF only Please) &amp; PPT printout due the day of presentation,prior to your presentation.</td></tr></table>

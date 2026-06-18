@@ -1,0 +1,1 @@
+<table><tr><td>Regulated activity</td><td>Regulation</td></tr><tr><td rowspan="2">Accommodation for persons who require nursing or personal care</td><td>Regulation 10 HSCA (RA) Regulations 2014 Dignity and respect</td></tr><tr><td>People were not always treated with dignity and respect Regulation 10 (1)</td></tr></table>

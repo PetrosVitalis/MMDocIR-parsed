@@ -1,0 +1,9 @@
+Prefix,Package Type,Temperature Range,Burn-In
+P,Plastic,Commercial,No
+D,Cerdip,Commercial,No
+N,PLCC,Commercial,No
+TD,Cerdip,Extended,No
+TP,Plastic,Extended,No
+TN,PLCC,Extended,No
+LD,Cerdip,Extended,Yes
+LP,Plastic,Extended,Yes

@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3">Year ended December 31</td></tr><tr><td>(Millions of dollars)</td><td></td><td></td><td>2020</td></tr><tr><td>Finance lease revenue</td><td>$</td><td>485</td><td>492</td></tr><tr><td> Operating lease revenue</td><td></td><td>1,128</td><td>1,124</td></tr><tr><td>Total</td><td>$</td><td>1,613</td><td>1,616</td></tr></table>

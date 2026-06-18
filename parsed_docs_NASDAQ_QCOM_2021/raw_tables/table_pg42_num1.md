@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3"></td><td rowspan="2">2021 vs.2020 Change</td></tr><tr><td>2021</td><td></td><td>2020</td></tr><tr><td> Other (income) expense</td><td>$</td><td>$</td><td>(28)$</td><td>28</td></tr></table>

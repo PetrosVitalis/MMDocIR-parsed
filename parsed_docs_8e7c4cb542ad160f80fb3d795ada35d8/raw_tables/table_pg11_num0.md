@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">Table E: Change in Population in Census Tract Surrounding Rezoned Lot (19go-2000)</td></tr><tr><td> All NYC</td><td>Upzoned</td><td>Downzoned</td><td>Contextual-only</td></tr><tr><td>Lots</td><td>Lots</td><td>Lots</td><td>Rezoned Lots</td></tr><tr><td> 25.0%</td><td>23.0%</td><td>19.3%</td><td>20.8%</td></tr></table>

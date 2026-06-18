@@ -1,0 +1,1 @@
+<table><tr><td>2022</td><td>$ 800</td></tr><tr><td>2023</td><td>91</td></tr><tr><td>2024</td><td>1,109</td></tr><tr><td>2025</td><td>136</td></tr><tr><td>2026</td><td>100</td></tr><tr><td> Thereafter</td><td>5.295</td></tr><tr><td>Total</td><td>$ 7,531</td></tr></table>

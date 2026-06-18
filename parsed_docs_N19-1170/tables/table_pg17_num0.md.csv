@@ -1,0 +1,34 @@
+,Repetition,Repetition,Repetition,Repetition,Repetition,Specificity,Response-rel,Questions
+,External,External,Internal,Internal,Partner Rep.,,,
+,Bigram,Unigram,Bigram,Unigram,Bigram,NIDF,Cos sim,Has ‘?’
+Baselines,,,,,,,,
+Greedy Search,,,,,,,,
+Beam Search (beam size 20),,,,,,,,
+Repetition control (WD),,,,,,,,
+Extrep bigram WD -0.5,wt -0.5,,,,,,,
+Extrep bigram WD -1.25,wt -1.25,,,,,,,
+Extrep bigram WD -3.5,wt-3.5,,,,,,,
+Extrep bigram WD -inf,wt -0,,,,,,,
+Repetition-controlled baseline,wt-3.5,wt-o0,,wt-o0,,,,
+Question control (CT),,,,,,,,
+Question-controlled CT 0,wt -3.5,wt-o0,,wt-o0,,,,2=0
+Question-controlled CT 1,wt-3.5,wt-o0,,wt-o0,,,,z=1
+Question-controlled CT 4,wt-3.5,wt -o0,,wt -o0,,,,z=4
+Question-controlled CT 7 Question-controlled CT 10,wt-3.5 wt -3.5,wt-o0,,wt-o0 wt-o,,,,z=7
+Question-controlled CT 10 (boost),wt0*,wt-0 wt-o0,,wt -00,,,,z=10 z=10
+Specificity control (CT) Specificity-controlled CT 0,wt -3.5,,,,,,,
+Specificity-controlled CT 2,wt-3.5,wt-o0,,wt-o0,,x=0,,
+Specificity-controlled CT 4,wt-3.5,wt-o0 wt -o0,,wt-o0 wt -00,,z=2 z=4,,
+Specificity-controlled CT 7,wt-3.5,wt -o0,,wt -o0,,z=7,,
+Specificity-controlled CT 9,wt -3.5,wt-o0,,wt-o0,,z=9,,
+Specificity control (WD) Specificity-controlled WD -10,wt-3.5,wt-0,,wt -0,,wt -10,,
+Specificity-controlled WD -4,wt-3.5,wt-0,,wt-o,,wt-4,,
+Specificity-controlled WD 4,wt-3.5,wt-o0,,wt-o0,,wt 4,,
+Specificity-controlled WD 6,wt-3.5,wt -o0,,wt -o0,,wt6,,
+Specificity-controlled WD 8,wt-3.5,wt -o0,,wt -o0,,wt8,,
+Response-related control (WD) **,,,,,,,,
+Response-related controlled WD -10,wt -3.5,wt -o0,wt -o0,wt -o0,wt-00,,wt -10,
+Response-related controlled WD 0,wt -3.5,wt-0,wt-00,wt-o0,wt-00,,wt 0,
+Response-related controlled WD 5,wt-3.5,wt-0,wt-o,wt-0,wt-o,,wt5,
+Response-related controlled WD 10,wt-3.5,wt-o0,wt-o,wt-o0,wt-o0,,wt10,
+Response-related controlled WD 13,wt-3.5,wt-o0,wt-oo,wt-o0,wt-o0,,wt13,

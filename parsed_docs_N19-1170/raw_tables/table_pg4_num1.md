@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">Input: Do you go get coffee often Baseline Response: I do,when I am not playing the piano.</td></tr><tr><td>Wt Sim -10.0 -0.05 0.0 -0.02 5.0 0.40</td><td>Weighted Decoding Response Iam a musician. I do,when I am not playing the piano. Ido,usually at starbucks.</td></tr></table>

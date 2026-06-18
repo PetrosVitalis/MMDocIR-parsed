@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>% executive directors</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>% proprietary directors</td><td rowspan=1 colspan=1>20.00%</td></tr><tr><td rowspan=1 colspan=1>% independent directors</td><td rowspan=1 colspan=1>80.00%</td></tr></table>

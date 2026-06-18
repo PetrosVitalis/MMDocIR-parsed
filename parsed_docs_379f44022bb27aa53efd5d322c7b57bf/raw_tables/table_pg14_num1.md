@@ -1,0 +1,1 @@
+<table><tr><td> Regulated activity</td><td>Regulation</td></tr><tr><td>Accommodation for persons who require nursing or personal care</td><td>Regulation 11 HSCA (RA) Regulations 2014 Need for consent The provider did not ensure that the MCA 2005 code of practice was implemented to protect the rights of people who lacked mental capacity</td></tr></table>

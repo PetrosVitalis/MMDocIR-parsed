@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Valuation Technique</td><td>Keyassumptions</td></tr><tr><td>Common Units</td><td>Market Approach</td><td>Discount for lack of marketability; waiver discount</td></tr><tr><td>Series A Preferred Units</td><td>Income Approach</td><td>Volatility rate; expected term; yield and conversion price</td></tr></table>

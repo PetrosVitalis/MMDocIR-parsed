@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Oshot</td><td>1shot</td><td>3shot</td><td>5shot</td></tr><tr><td>OpenFlamingo</td><td>0.263</td><td>0.256</td><td>0.259</td><td>0.264</td></tr><tr><td>Otter</td><td>0.291</td><td>0.276</td><td>0.258</td><td>0.258</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>US$M</td></tr><tr><td>Increase in Deferred tax liabilities</td><td>1021</td></tr><tr><td> Increase in Goodwill(included within Intangible assets)</td><td>950</td></tr><tr><td>Decrease in Retained earnings</td><td>(71)</td></tr></table>

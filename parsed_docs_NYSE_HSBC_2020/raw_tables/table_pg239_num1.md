@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Contract date (rolling)</td><td>Notice period (Director and HSBC)</td></tr><tr><td>Noel Quinn</td><td>18 March 2020</td><td>12 months</td></tr><tr><td>Ewen Stevenson</td><td>1 December 2018</td><td>12 months</td></tr></table>

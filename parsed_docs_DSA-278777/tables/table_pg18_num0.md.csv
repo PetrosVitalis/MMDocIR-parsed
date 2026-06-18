@@ -1,0 +1,6 @@
+Lock Bits,Lock Bits,Logic Enabled
+LB1,LB2,Logic Enabled
+U,U,Minimum Program Lock featuresenabled. (Code Verify will still beencryptedby the EncryptionArray)
+P,U,"MOVC instructions executed fromexternal programmemoryaredisabled fromfetching codebytesfrominternalmemory,EA is|sampled and latched on reset,and further programming of theEPROMisdisabled"
+P,P,"Same as above,but Verify is alsodisabled"
+U,P,Reserved for Future Definition

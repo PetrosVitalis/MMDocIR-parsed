@@ -1,0 +1,1 @@
+<table><tr><td>(Millions of dolars)</td><td></td><td>2020</td><td></td></tr><tr><td>Construction Industries</td><td></td><td></td><td></td></tr><tr><td> Resource Industries</td><td></td><td>13</td><td>4</td></tr><tr><td>Energy &amp;Transportation</td><td></td><td>19 55</td><td>5 7</td></tr><tr><td>Financial Products Segment</td><td></td><td></td><td></td></tr></table>

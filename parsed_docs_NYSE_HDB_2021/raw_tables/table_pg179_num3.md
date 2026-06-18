@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">Sr. No. NAME AND ADDRESS OF THE STOCK EXCHANGE</td><td>STOCK CODE</td></tr><tr><td>1.</td><td>BSE Limited, Phiroze Jeejeebhoy Towers,Dalal Street,Fort, Mumbai 400 023.</td><td>500180</td></tr><tr><td>2.</td><td>TheNationatockEchangeofdaLiited,Ehangea,5orandraKurlaComplex,andra (East),umbi001.</td><td>HDFCBANK</td></tr></table>

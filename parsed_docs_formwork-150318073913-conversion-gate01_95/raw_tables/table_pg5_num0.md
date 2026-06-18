@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Sheeting for slabs,beam,column sideandbeambottom</td><td rowspan=1 colspan=1>25mmto40mmthick</td></tr><tr><td rowspan=1 colspan=1>Joints,ledges</td><td rowspan=1 colspan=1>50×70mmto50x150mm</td></tr><tr><td rowspan=1 colspan=1>Posts</td><td rowspan=1 colspan=1>75×100mmto100×100mm</td></tr></table>

@@ -1,0 +1,11 @@
+Method,Label Loyalty,Word Loyalty,Acc.
+ICL (GPT2-XL),100.00,100.00,51.90
+Textanchor,51.05,36.65,38.77
+Hiddenrandom,48.96,5.59,39.96
+Hiddenrandom-top,57.52,4.49,41.72
+Hiddenanchor,79.47,62.17,45.04
+ICL (GPT-J) 一,100.00,100.00,56.82
+Textanchor,53.45,43.85,40.83
+Hiddenrandom,49.03,2.16,31.51
+Hiddenrandom-top,71.10,11.36,52.34
+Hiddenanchor,89.06,75.04,55.59

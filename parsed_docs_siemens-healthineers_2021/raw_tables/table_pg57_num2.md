@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">Sept30,</td></tr><tr><td>(in millions of €)</td><td>2021</td><td>2020</td></tr><tr><td>Future minimum lease payments</td><td>319</td><td>258</td></tr><tr><td>Unearned finance income</td><td>-50</td><td>-42</td></tr><tr><td>Net investment in finance leases</td><td>270</td><td>215</td></tr></table>

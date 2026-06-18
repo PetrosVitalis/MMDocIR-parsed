@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">(in millions of dollars)</td><td colspan="2">2020</td></tr><tr><td></td><td></td></tr><tr><td>Fees Audit fees (1)</td><td>$ 3 $</td><td>2</td></tr><tr><td> Audit-related fees</td><td></td><td></td></tr><tr><td>Tax fees</td><td></td><td></td></tr><tr><td> All other fees</td><td></td><td></td></tr><tr><td>Total</td><td>$</td><td></td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td colspan="2"> Year Ended December 31,</td></tr><tr><td>2018</td><td>$ 100</td></tr><tr><td>2019</td><td>1,334</td></tr><tr><td>2020</td><td>1,258</td></tr><tr><td>2021</td><td>1,000</td></tr><tr><td>2022</td><td>1,250</td></tr><tr><td> Thereafter</td><td>20,000</td></tr><tr><td></td><td>$ 24,942</td></tr></table>

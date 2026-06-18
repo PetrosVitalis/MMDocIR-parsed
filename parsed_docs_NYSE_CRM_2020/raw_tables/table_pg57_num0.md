@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">Fiscal Year Ended January 31,</td><td rowspan="2">Variance Dollars</td></tr><tr><td>2020</td><td>2019</td></tr><tr><td>Benefit from (provision for) income taxes</td><td></td><td>$127</td><td>$(707)</td></tr><tr><td>Effective tax rate</td><td>$(580) 82%</td><td>(13)%</td><td></td></tr></table>

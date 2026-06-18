@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>$ in millions Institutional Securities</td><td>$ 753,322</td><td>$ 691,201</td></tr><tr><td>Wealth Management</td><td>355,595</td><td>197,682</td></tr><tr><td>Investment Management</td><td>6,945</td><td>6,546</td></tr><tr><td>Total1</td><td>$ 1,115,862</td><td>$ 895,429</td></tr></table>

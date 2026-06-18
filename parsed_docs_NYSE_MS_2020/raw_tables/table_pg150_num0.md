@@ -1,0 +1,1 @@
+<table><tr><td>$in millions</td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>Net cumulative unrealized performance-</td><td></td><td></td></tr><tr><td>based feesat risk of reversing</td><td>$ 735$</td><td>774</td></tr><tr><td></td><td></td><td></td></tr></table>

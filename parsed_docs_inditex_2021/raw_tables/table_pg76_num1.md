@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3">2021</td><td colspan="3">2020</td></tr><tr><td></td><td>Less than one year</td><td> One to five years</td><td>Over five years</td><td>Less than one year</td><td> One to five years</td><td>Over five years</td></tr><tr><td>Breakdown of maturity</td><td>1,562</td><td>3,674</td><td>588</td><td>1,552</td><td>3,803</td><td>797</td></tr></table>

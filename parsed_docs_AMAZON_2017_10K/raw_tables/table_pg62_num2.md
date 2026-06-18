@@ -1,0 +1,1 @@
+<table><tr><td colspan="8">Year Ended</td></tr><tr><td></td><td>2018</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>Thereafter</td><td>Total</td></tr><tr><td>Scheduled vesting-restricted stock units</td><td>7.3</td><td>7.3</td><td>3.6</td><td>1.6</td><td>0.1</td><td>0.2</td><td>20.1</td></tr></table>

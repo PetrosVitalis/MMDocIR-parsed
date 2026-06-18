@@ -1,0 +1,10 @@
+Interactive Function,Related Service,Reference
+Migrate data to OBS usingthe related services.,Direct Connect (DC),Using a DirectConnectConnection toMigrate LocalData to OBS
+Access OBS from ECS overthe intranet of HuaweiCloud.,Elastic Cloud Server (ECS),Accessing OBSover Intranet
+IAM provides the followingfunctions:·User identityauthenticationIAM user permissioncontrol IAM agencyconfiguration,Identity and AccessManagement (IAM),PermissionsManagementConfiguringUserPermissions
+"Cloud Eye monitors OBSbuckets,to collect statisticsabout the upload traffic,download traffic, number ofGET and PUT requests, theaverage TTFB of GETrequests,and the number of4xx and 5xx errors.",Cloud Eye,OBSMonitoringMetrics onCloud Eye
+"CTS collects records ofoperations on OBSresources, facilitatingquerying,audits,andbacktracking.",Cloud Trace Service (CTS),Cloud TraceService
+Tags are used to label andclassify buckets in OBS.,Tag Management Service (TMS),Tags
+KMS encrypts files uploadedto the OBS.,Data Encryption Workshop(DEW),Server-SideEncryption
+CDN accelerates thecustomized domain namesbound to OBS buckets.,Content Delivery Network(CDN),User-DefinedDomainName Binding
+DNS resolves domainnames configured for staticwebsite hosting in OBS.,Domain Name Service (DNS),Using a User-DefinedDomainName to Host a StaticWebsiteUser-DefinedDomainName Binding

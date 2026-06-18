@@ -1,0 +1,6585 @@
+[
+  {
+    "table_id": "table_1",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_2",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_3",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_4",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_5",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_6",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_7",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_8",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_9",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_10",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_11",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_12",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_13",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_14",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_15",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_16",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_17",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_18",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_19",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_20",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_21",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_22",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_23",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_24",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_25",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_26",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_27",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_28",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_29",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_30",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_31",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_32",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_33",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_34",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_35",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_36",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_37",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_38",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_39",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_40",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_41",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_42",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_43",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_44",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_45",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_46",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_47",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_48",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_49",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_50",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_51",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_52",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_53",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_54",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_55",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_56",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_57",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_58",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_59",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_60",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_61",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_62",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_63",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_64",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_65",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_66",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_67",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_68",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_69",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_70",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_71",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_72",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_73",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_74",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_75",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_76",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_77",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_78",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_79",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_80",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_81",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_82",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_83",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_84",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_85",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_86",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_87",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_88",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_89",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_90",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_91",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_92",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_93",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_94",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_95",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_96",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_97",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_98",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_99",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_100",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_101",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_102",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_103",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_104",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_105",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_106",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_107",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_108",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_109",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_110",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_111",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_112",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_113",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_114",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_115",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_116",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_117",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_118",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_119",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_120",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_121",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_122",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_123",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_124",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_125",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_126",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_127",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_128",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_129",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_130",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_131",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_132",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_133",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_134",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_135",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_136",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_137",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_138",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_139",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_140",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_141",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_142",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_143",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_144",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_145",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_146",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_147",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_148",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_149",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_150",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_151",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_152",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_153",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_154",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_155",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_156",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_157",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_158",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_159",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_160",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_161",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_162",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_163",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_164",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_165",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_166",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_167",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_168",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_169",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_170",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_171",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_172",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_173",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_174",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_175",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_176",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_177",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_178",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_179",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_180",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_181",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_182",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_183",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_184",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_185",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_186",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_187",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_188",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_189",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_190",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_191",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_192",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_193",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_194",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_195",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_196",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_197",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_198",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_199",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_200",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_201",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_202",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_203",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_204",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_205",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_206",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_207",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_208",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_209",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_210",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_211",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_212",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_213",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_214",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_215",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_216",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_217",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_218",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_219",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_220",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_221",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_222",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_223",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_224",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_225",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_226",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_227",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_228",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_229",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_230",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_231",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_232",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_233",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_234",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_235",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_236",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_237",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_238",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_239",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_240",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_241",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_242",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_243",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_244",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_245",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_246",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_247",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_248",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_249",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_250",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_251",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_252",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_253",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_254",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_255",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_256",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_257",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_258",
+    "status": "success",
+    "method": "llm_from_table",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "[\n  [\"percentage_of_tier1_suppliers_and_beyond_with_higg_fem_or_equivalent\", \"metric_reference\", \"additional_information\"],\n  [\"\", \"cg-aa-430a.2 340-344,512-514\", \"all of our suppliers and manufacturers are audited against our code of conduct for manufacturers and suppliers,which includes a section on environmental compliance. specifically,77% of the suppliers and 71% of the factories active in 2021 which carried out any wet process,and that therefore are under the scope of our green to wear standard, have been environmentally audited.this facilities process a large majority of the products that include any of these wet processes. more information on pages 159-161, 334-335,\"]\n]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_259",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_260",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_261",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_262",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_263",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_264",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_265",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_266",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_267",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_268",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_269",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_270",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_271",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_272",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_273",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_274",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_275",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_276",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_277",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_278",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_279",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_280",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_281",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_282",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_283",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_284",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_285",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_286",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_287",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_288",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_289",
+    "status": "success",
+    "method": "llm_repair",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "column_count_out_of_bounds(expected~5, got=1)"
+        ],
+        "raw_llm_output": "[\"[\"Class\", \"Number of shares\", \"Par value\", \"Number of voting rights\", \"Rights and obligationsconferred\"], [\"\", \"\", \"\", \"\", \"\"]]"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "[[\"Class\", \"Number of shares\", \"Par value\", \"Number of voting rights\", \"Rights and obligationsconferred\"], [\"\", \"\", \"\", \"\", \"\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_290",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_291",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_292",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_293",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_294",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_295",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_296",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_297",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_298",
+    "status": "success",
+    "method": "llm_repair",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.40",
+          "too_few_columns",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~2, got=1)"
+        ],
+        "raw_llm_output": "[\"[\"Name or company name\"]\", [\"Mr Amancio Ortega Gaona\"]]"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "[[\"Name or company name\"], [\"Mr Amancio Ortega Gaona\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_299",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_300",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_301",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_302",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_303",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_304",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_305",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_306",
+    "status": "success",
+    "method": "llm_repair",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "{\"header\":[\"Total number of directors\",\"\"],\"rows\":[[\"11\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "[[\"Total number of directors\"], [\"11\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_307",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_308",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_309",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_310",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_311",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_312",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_313",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_314",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_315",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[\"[\"\"Name or company nameof director\"\",\"\"Reasons\"\",\"\"Company,manager orshareholder to which orto whom the director isrelated\"\",\"\"Profile\"\"],[\"\"\",\"\",\"\",\"\"]]\""
+      }
+    ]
+  },
+  {
+    "table_id": "table_316",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_317",
+    "status": "success",
+    "method": "llm_repair",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "blank_header",
+          "column_count_out_of_bounds(expected~4, got=1)"
+        ],
+        "raw_llm_output": "[\"[\"\"Name or company name of director\"\", \"\"Date of change\"\", \"\"Previous directorshiptype\"\", \"\"Current directorshiptype\"\"],[\"\",\"\",\"\",\"\"]]\""
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "[[\"Name or company name of director\", \"Date of change\", \"Previous directorshiptype\", \"Current directorshiptype\"], [\"\", \"\", \"\", \"\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_318",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_319",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_320",
+    "status": "success",
+    "method": "llm_repair",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "blank_header",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "{\"header\":[\"Name or company name of shareholder\",\"Reason\"],\"rows\":[[\"\",\"\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "[[\"Name or company name of shareholder\", \"Reason\"], [\"\", \"\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_321",
+    "status": "success",
+    "method": "llm_repair",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "blank_header",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "{\"header\":[\"Name or company name of shareholder\",\"Explanation\"],\"rows\":[[\"\",\"\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "[[\"Name or company name of shareholder\", \"Explanation\"], [\"\", \"\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_322",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_323",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_324",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_325",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_326",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_327",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_328",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_329",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_330",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.40",
+          "too_few_columns",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[\"[\"\"Yes No X\"\",\"\"Description of requirements\"\",\"\"\"]\"]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_331",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_332",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_333",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_334",
+    "status": "failed",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "blank_header",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\"header\":[\"Number of meetings\",\"1\"],\"rows\":[[\"\",\"\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "[[\"Number of meetings\", \"1\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_335",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_336",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_337",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_338",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_339",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_340",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.40",
+          "too_few_columns",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[\"[\"\"Yes Nox\"\",\"\"\"\",\"\"\"\",\"\"\"\"]\"]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_341",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_342",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_343",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_344",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_345",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_346",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_347",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_348",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_349",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_350",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_351",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_352",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_353",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_354",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_355",
+    "status": "success",
+    "method": "llm_from_table",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "{\"rows\":[[\"Name (person or company) of directors or officers\",\"Name (person or company) ofthe related party\",\"Relationship\",\"Type oftransaction\",\"Amount (thousandeuros)\"],[\"\",\"\",\"\",\"\",\"\"]]}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_356",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_357",
+    "status": "success",
+    "method": "llm_from_table",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "{\"rows\":[[\"Company name of the relatedparty\",\"Brief description of the transaction andother information necessary for itsevaluation\",\"Amount (thousand euros)\"],[\"\",\"\",\"\"]]}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_358",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[\"[\"\"Name or company name of the memberof the Board of Directors who has notvoted for the approval of this report\"\",\"\"Reasons (against,abstention, non attendance))\"\",\"\"Explain the reasons\"\"]\"]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_359",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_360",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_361",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_362",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_363",
+    "status": "failed",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "[[\"\", \"(iv) Social, measured as the percentage of Inditex suppliers rated A or B in social audits.\"]]"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "blank_header"
+        ],
+        "raw_llm_output": "[[\"\"], [\"(iv) Social, measured as the percentage of Inditex suppliers rated A or B in social audits.\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_364",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_365",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_366",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_367",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_368",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_369",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_370",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_371",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_372",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_373",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_374",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_375",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_376",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_377",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_378",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_379",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_380",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_381",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_382",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_383",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_384",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_385",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_386",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_387",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_388",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_389",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_390",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_391",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_392",
+    "status": "success",
+    "method": "llm_repair",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "blank_header"
+        ],
+        "raw_llm_output": "[\"[\"\"Name or company name of the member of the board ofdirectors who has not voted for the approval of this report\"\",\"\"Reasons (against, abstention,non-attendance)\"\",\"\"Explain the reasons\"\"],[\"\",\"\",\"\"]]"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "[[\"Name or company name of the member of the board ofdirectors who has not voted for the approval of this report\", \"Reasons (against, abstention,non-attendance)\", \"Explain the reasons\"], [\"\", \"\", \"\"]]"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+<table><tr><td> Equity method investment (l)</td><td>174</td></tr><tr><td>Financing receivables - related parties (2)</td><td>302</td></tr><tr><td>Contract assets - related parties (3)</td><td>244</td></tr><tr><td>April 2020 Transaction $</td><td>720</td></tr></table>

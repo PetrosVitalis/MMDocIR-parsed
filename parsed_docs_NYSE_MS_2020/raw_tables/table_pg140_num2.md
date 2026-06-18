@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td>2020</td><td>2019</td></tr><tr><td>Repurchases of common stock under the Firm&#x27;s</td><td></td><td></td></tr><tr><td>Share Repurchase Program</td><td>$ 1,347</td><td>$ 5,360</td></tr></table>

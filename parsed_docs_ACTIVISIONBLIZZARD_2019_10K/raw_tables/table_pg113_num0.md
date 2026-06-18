@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Total Expected Charges</td></tr><tr><td>Activision</td><td>$ 25</td></tr><tr><td> Blizzard</td><td>105</td></tr><tr><td>King</td><td>20</td></tr><tr><td> Other segments (1)</td><td>40</td></tr><tr><td>Total</td><td>$ 190</td></tr></table>

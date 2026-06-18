@@ -1,0 +1,12 @@
+ID,WH_dev_2257,Gold answer,2003 (p = 14.1)
+Query,inception (of) Derrty Entertainment,Predicted answer,2000 (p = 15.8)
+Support 1,Derrty Entertainment is a record label founded by [...]. The first album released under Derrty Entertainment was Nelly’s Country Grammar.,,
+Support 2,"Country Grammar is the debut single by American rapper Nelly. The song was produced by Jason Epperson. It was released in 2000, [...]",,
+ID,WH_dev_2401,Gold answer,Adolph Zukor (p = 7.1e−4%)
+Query,producer (of) Forbidden Paradise,Predicted answer,Jesse L. Lask (p = 99.9%)
+Support 1,Forbidden Paradise is a [...] drama film produced by Famous Players-Lasky [...],,
+Support 2,Famous Players-Lasky Corporation was [...] from the merger of Adolph Zukor’s Famous Players Film Company [...] and the Jesse L. Lasky Feature Play Company.,,
+ID,WH_dev_3030,Gold answer,Scania (p = 0.029%)
+Query,place_of_birth (of) Erik Penser,Predicted answer,Eslöv (p = 97.3%)
+Support 1,"Nils Wilhelm Erik Penser (born August 22, 1942, in Eslöv, Skåne) is a Swedish [...]",,
+Support 2,"Skåne County, sometimes referred to as “Scania County” in English, is the [...]",,

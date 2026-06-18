@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Year ended 30 June</td><td>US$M</td><td>US$M</td><td>US$M</td></tr><tr><td>Petroleum exploration</td><td>322</td><td>564</td><td>685</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Rights under licensing agreement and software licences</td></tr><tr><td>229 172</td></tr><tr><td>■ 401</td></tr><tr><td>(90) (72)</td></tr><tr><td>■</td></tr><tr><td>(162)</td></tr><tr><td>239</td></tr></table>

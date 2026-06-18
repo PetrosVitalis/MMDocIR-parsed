@@ -1,0 +1,1 @@
+<table><tr><td>Year</td><td>25th percentile</td><td>Median</td><td>75th percentile</td></tr><tr><td>FY2021</td><td>189:1</td><td>129:1</td><td>106:1</td></tr><tr><td>FY2020</td><td>116:1</td><td>81:1</td><td>67:1</td></tr></table>

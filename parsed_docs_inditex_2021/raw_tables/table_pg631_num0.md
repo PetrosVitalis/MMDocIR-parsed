@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Name or company nameof director</td><td rowspan=1 colspan=1>Reasons</td><td rowspan=1 colspan=1>Company,manager orshareholder to which orto whom the director isrelated</td><td rowspan=1 colspan=1>Profile</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>

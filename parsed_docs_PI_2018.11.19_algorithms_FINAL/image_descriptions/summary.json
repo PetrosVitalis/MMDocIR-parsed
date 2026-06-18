@@ -1,0 +1,84 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_PI_2018.11.19_algorithms_FINAL",
+  "total_images": 15,
+  "non_figure_images_skipped": 4,
+  "processed": 15,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_12_Figure_0.jpg",
+      "output": "image_descriptions/_page_12_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_1.jpg",
+      "output": "image_descriptions/_page_24_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Figure_0.jpg",
+      "output": "image_descriptions/_page_6_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_24_Figure_0.jpg",
+      "output": "image_descriptions/_page_24_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Figure_0.jpg",
+      "output": "image_descriptions/_page_14_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Figure_0.jpg",
+      "output": "image_descriptions/_page_22_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_21_Asset_0.jpg",
+      "output": "image_descriptions/_page_21_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Asset_0.jpg",
+      "output": "image_descriptions/_page_8_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_18_Figure_0.jpg",
+      "output": "image_descriptions/_page_18_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Asset_0.jpg",
+      "output": "image_descriptions/_page_23_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_0.jpg",
+      "output": "image_descriptions/_page_16_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Figure_0.jpg",
+      "output": "image_descriptions/_page_5_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Asset_0.jpg",
+      "output": "image_descriptions/_page_20_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Figure_0.jpg",
+      "output": "image_descriptions/_page_3_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Figure_0.jpg",
+      "output": "image_descriptions/_page_26_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

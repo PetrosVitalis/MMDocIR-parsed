@@ -1,0 +1,7 @@
+Algorithms,Amazon-beauty,Amazon-beauty,Amazon-beauty,Amazon-beauty,Amazon-beauty,Amazon-beauty,Amazon-music,Amazon-music,Amazon-music,Amazon-music,Amazon-music,Amazon-music,Personality2018,Personality2018,Personality2018,Personality2018,Personality2018,Personality2018
+Rating,H@3,H@5,H@10,N@3,N@5,N@10,H@3,H@5,H@10,N@3,N@5,N@10,H@3,H@5,H@10,N@3,N@5,N@10
+NCF+Random,0.923,0.965,0.975,0.675,0.605,0.660,0.159,0.224,0.339,0.117,0.143,0.171,0.510,0.628,0.777,0.406,0.454,0.504
+NCF+Same,0.918,0.967,0.975,0.683,0.630,0.662,0.160,0.224,0.340,0.122,0.149,0.167,0.511,0.622,0.777,0.403,0.454,0.502
+NCF+Most-Salient,0.939,0.969,0.977,0.714,0.676,0.707,0.156,0.226,0.343,0.164,0.145,0.174,0.516,0.631,0.795,0.415,0.463,0.511
+NCF+Soft-labeled,0.936,0.965,0.973,0.810,0.867,0.831,0.156,0.225,0.348,0.113,0.141,0.175,0.528,0.656,0.805,0.421,0.471,0.511
+NCF+Hard-Coded,0.948,0.961,0.977,0.849,0.826,0.848,0.175,0.232,0.345,0.147,0.160,0.189,0.503,0.622,0.758,0.398,0.447,0.498

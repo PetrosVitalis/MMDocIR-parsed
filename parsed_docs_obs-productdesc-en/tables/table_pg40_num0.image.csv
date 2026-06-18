@@ -1,0 +1,13 @@
+Operation,Tenant Administrator,Tenant Guest,OBS Administrator,OBS Buckets Viewer,OBS ReadOnlyAccess,OBS Operate Access
+Listing buckets,Yes,Yes,Yes,Yes,Yes,Yes
+Creating buckets,Yes,No,Yes,No,No,No
+Deleting buckets,Yes,No,Yes,No,No,No
+Obtaining basic bucket information,Yes,Yes,Yes,Yes,Yes,Yes
+Controlling bucket access,Yes,No,Yes,No,No,No
+Managing bucket policies,Yes,No,Yes,No,No,No
+Modifying bucket storage classes,Yes,No,Yes,No,No,No
+Listing objects,Yes,Yes,Yes,No,Yes,Yes
+Listing objects with multiple versions,Yes,Yes,Yes,No,No,No
+Uploading files,Yes,No,Yes,No,No,Yes
+Creating folders,Yes,No,Yes,No,No,Yes
+Deleting files,Yes,No,Yes,No,No,Yes

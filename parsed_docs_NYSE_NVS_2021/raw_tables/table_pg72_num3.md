@@ -1,0 +1,1 @@
+<table><tr><td>Income from associated companies</td><td>15339</td><td>210</td><td>-14556</td><td>993</td></tr><tr><td>Other financial income and expense</td><td>-80</td><td></td><td>-16</td><td>55 -41</td></tr></table>

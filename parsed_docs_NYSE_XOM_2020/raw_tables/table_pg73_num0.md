@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td></td><td>(millions of dollars)</td><td></td></tr><tr><td>Capital expenditures</td><td>1,087</td><td>1,276</td></tr><tr><td>Other expenditures</td><td>3,389</td><td>3,969</td></tr><tr><td>Total</td><td>4,476</td><td>5,245</td></tr></table>

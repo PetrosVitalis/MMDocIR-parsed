@@ -1,0 +1,99 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NYSE_PM_2020",
+  "total_images": 18,
+  "non_figure_images_skipped": 108,
+  "processed": 18,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_1_Figure_3.jpg",
+      "output": "image_descriptions/_page_1_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_27_Asset_0.jpg",
+      "output": "image_descriptions/_page_27_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_139_Figure_1.jpg",
+      "output": "image_descriptions/_page_139_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_139_Figure_0.jpg",
+      "output": "image_descriptions/_page_139_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_2.jpg",
+      "output": "image_descriptions/_page_1_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_0.jpg",
+      "output": "image_descriptions/_page_1_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_139_Figure_2.jpg",
+      "output": "image_descriptions/_page_139_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_139_Figure_3.jpg",
+      "output": "image_descriptions/_page_139_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_1.jpg",
+      "output": "image_descriptions/_page_1_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_60_Asset_0.jpg",
+      "output": "image_descriptions/_page_60_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Asset_1.jpg",
+      "output": "image_descriptions/_page_28_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_28_Asset_0.jpg",
+      "output": "image_descriptions/_page_28_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_140_Figure_0.jpg",
+      "output": "image_descriptions/_page_140_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_23_Asset_0.jpg",
+      "output": "image_descriptions/_page_23_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Figure_0.jpg",
+      "output": "image_descriptions/_page_5_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Figure_0.jpg",
+      "output": "image_descriptions/_page_3_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_3_Figure_1.jpg",
+      "output": "image_descriptions/_page_3_Figure_1.md",
+      "status": "success"
+    }
+  ]
+}

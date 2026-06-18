@@ -1,0 +1,1 @@
+<table><tr><td>Segment</td><td>Goodwill Allocated*</td></tr><tr><td>Cloud&amp; Cognitive Software</td><td>$18.4</td></tr><tr><td>GlobalTechnology Services</td><td>3.1</td></tr><tr><td>Global Business Services</td><td>1.1</td></tr><tr><td>Systems</td><td>0.4</td></tr><tr><td>Total</td><td>$23.0</td></tr></table>

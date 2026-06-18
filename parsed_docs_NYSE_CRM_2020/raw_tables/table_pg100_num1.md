@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">Fair Value</td></tr><tr><td>Cash</td><td>$ 587</td></tr><tr><td>Common stock issued</td><td>663</td></tr><tr><td>Fair value of stock options assumed</td><td>81</td></tr><tr><td>Fair value of pre-existing relationship</td><td>55</td></tr><tr><td></td><td></td></tr><tr><td>Total</td><td>$1,386</td></tr></table>

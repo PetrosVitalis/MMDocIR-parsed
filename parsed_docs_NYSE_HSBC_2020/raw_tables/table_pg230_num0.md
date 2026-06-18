@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Page</td></tr><tr><td>Group Remuneration Committee Workforce remuneration</td><td>232</td></tr><tr><td>Ourapproach to Directors&#x27;remuneration</td><td>233</td></tr><tr><td>Annual report on remuneration</td><td>235</td></tr><tr><td>Additional remuneration disclosures</td><td>239 253</td></tr></table>

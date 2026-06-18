@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">Fiscal</td></tr><tr><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>U.S. sources</td><td>$ 1,352,968</td><td>$ 853,173</td><td>$ 645,943</td></tr><tr><td>Non-U.S.sources</td><td>5,421,363</td><td>5,398,624</td><td>5,162,150</td></tr><tr><td>Total</td><td>$ 6,774,331</td><td>$ 6,251,797</td><td>$ 5,808,093</td></tr></table>

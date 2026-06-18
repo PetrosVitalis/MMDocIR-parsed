@@ -1,0 +1,7310 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.395,
+      0.212,
+      0.589
+    ],
+    "text": "Brandt",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-2",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.233,
+      0.269,
+      0.457,
+      0.72
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.526,
+      0.313,
+      0.539,
+      0.48
+    ],
+    "text": "INSTRUCTION MANUAL EN",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.334,
+      0.627,
+      0.482
+    ],
+    "text": "Dishwasher",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.757,
+      0.356,
+      0.79,
+      0.473
+    ],
+    "text": "BDF534DW BDF534DX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.22,
+      0.357,
+      0.467,
+      0.642
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.362,
+      0.546,
+      0.766
+    ],
+    "text": "Dishwasher Instruction Manual",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.554,
+      0.362,
+      0.579,
+      0.665
+    ],
+    "text": "PART I:Generic Version",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.215,
+      0.205,
+      0.387
+    ],
+    "text": "CONTENTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.356,
+      0.242,
+      0.539
+    ],
+    "text": "SAFETY INFORMATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.356,
+      0.356,
+      0.58
+    ],
+    "text": "USING YOUR DISHWASHER Loading The Salt Into The Softener Basket Used Tips",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.356,
+      0.386,
+      0.602
+    ],
+    "text": "MAINTENANCE AND CLEANING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.39,
+      0.357,
+      0.439,
+      0.534
+    ],
+    "text": "External Care   \nInternal Care   \nCaring For The Dishwasher",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.45,
+      0.356,
+      0.468,
+      0.584
+    ],
+    "text": "INSTALLATION INSTRUCTION INSTALLATION INSTRUCTION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.457,
+      0.356,
+      0.571,
+      0.643
+    ],
+    "text": "About Power Connection   \nWater Supply And Drain   \nConnection Of Drain Hoses   \nPosition The Appliance   \nFree Standing Installation   \nBuilt-In Installation(for the integrated model)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.582,
+      0.359,
+      0.599,
+      0.555
+    ],
+    "text": "TROUBLESHOOTING TIPS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.622,
+      0.357,
+      0.64,
+      0.544
+    ],
+    "text": "LOADING THE BASKETS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.245,
+      0.683,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.684,
+      0.264,
+      0.717,
+      0.735
+    ],
+    "text": "Reviewing the section on troubleshooting Tips will help you solve some common problems by yourself.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.264,
+      0.748,
+      0.736
+    ],
+    "text": "·If you cannot solve the problems by yourself,please ask for help from a professional technician.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.264,
+      0.781,
+      0.787
+    ],
+    "text": "·The manufacturer, following a policy of constant development and updating of the product,may make modifications without giving prior notice.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.263,
+      0.814,
+      0.792
+    ],
+    "text": "·If lost or out-of-date,you can receive a new user manual from the manufacturer or responsible vendor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.215,
+      0.205,
+      0.571
+    ],
+    "text": "SAFETY INFORMATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.285,
+      0.244,
+      0.426
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.276,
+      0.291,
+      0.73
+    ],
+    "text": "When using your dishwasher, follow the precautions listed below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.309,
+      0.245,
+      0.353,
+      0.759
+    ],
+    "text": "· Installation and repair can only be carried out by a qualified technician",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.354,
+      0.245,
+      0.398,
+      0.763
+    ],
+    "text": "· This appliance is intended to be used in household and similar applications such as:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.263,
+      0.446,
+      0.72
+    ],
+    "text": "-staff kitchen areas in shops, offices and other Working environments;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.264,
+      0.468,
+      0.405
+    ],
+    "text": "-farm houses;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.264,
+      0.515,
+      0.79
+    ],
+    "text": "-by clients in hotels,motels and other residential type environments;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.518,
+      0.264,
+      0.539,
+      0.647
+    ],
+    "text": "-bed and breakfast type environments.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.541,
+      0.245,
+      0.679,
+      0.795
+    ],
+    "text": "· This appliance can be used by children aged from 8 years and above and persons with reduced physical, sensory or mental capabilities or lack of experience and knowledge if they have been given supervision or instruction concerning use of the appliance in a safe way and understand the hazards involved.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.681,
+      0.245,
+      0.75,
+      0.776
+    ],
+    "text": "· Children shall not play with the appliance. Cleaning and user maintenance shall not be done by children without supervision. (For EN60335-1)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.263,
+      0.797,
+      0.792
+    ],
+    "text": "This appliance is not intended for use by persons (including children ） with reduced physical, sensory or mental capabilities,or lack of experience and knowledge,unless they have been given supervision or instruction concerning use of the appliance by a person responsible for their safety. (For IEC60335-1)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.245,
+      0.287,
+      0.781
+    ],
+    "text": "· Packaging material could be dangerous for children!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.29,
+      0.245,
+      0.358,
+      0.805
+    ],
+    "text": "· This appliance is for indoor household use only. To protect against the risk of electrical shock,do not immerse the unit, cord or plug in water or other liquid.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.245,
+      0.405,
+      0.735
+    ],
+    "text": "· Please unplug before cleaning and performing maintenance on the appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.407,
+      0.245,
+      0.452,
+      0.79
+    ],
+    "text": "· Use a soft cloth moistened with mild soap,and then use a dry cloth to wipe it again.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.469,
+      0.243,
+      0.505,
+      0.581
+    ],
+    "text": "Earthing Instructions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.245,
+      0.632,
+      0.789
+    ],
+    "text": "This appliance must be earthed. In the event of a malfunction or breakdown,earthing will reduce the risk of an electric shock by providing a path of least resistance of electric current. This appliance is equipped with an earthing conductor plug.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.633,
+      0.245,
+      0.7,
+      0.767
+    ],
+    "text": "The plug must be plugged into an appropriate outlet that is installed and earthed in accordance with all local codes and ordinances.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.704,
+      0.245,
+      0.747,
+      0.784
+    ],
+    "text": "Improper connection of the equipment-earthing conductor can result in the risk of an electric shock.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.245,
+      0.819,
+      0.736
+    ],
+    "text": "Check with a qualified electrician or service representative if you are in doubt whether the appliance is properly grounded.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.245,
+      0.219,
+      0.687
+    ],
+    "text": "· Do not modify the plug provided with the appliance; If it does not fit the outlet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.22,
+      0.245,
+      0.265,
+      0.705
+    ],
+    "text": "· Have a proper outlet installed by a qualified electrician.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.245,
+      0.31,
+      0.764
+    ],
+    "text": "· Do not abuse, sit on,or stand on the door or dish rack of the dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.245,
+      0.359,
+      0.79
+    ],
+    "text": "· Do not operate your dishwasher unless all enclosure panels are properly in place.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.245,
+      0.406,
+      0.754
+    ],
+    "text": "· Open the door very carefully if the dishwasher is Operating, there is a risk of water squirting out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.407,
+      0.245,
+      0.473,
+      0.769
+    ],
+    "text": "· Do not place any heavy objects on or stand on the door when it is open. The appliance could tip forward.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.477,
+      0.245,
+      0.497,
+      0.619
+    ],
+    "text": "· When loading items to be washed:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.264,
+      0.545,
+      0.767
+    ],
+    "text": "1) Locate sharp items so that they are not likely to damage the door seal;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.264,
+      0.637,
+      0.758
+    ],
+    "text": "2)Warning: Knives and other utensils with sharp points must be loaded in the basket with their points facing down or placed in a horizontal position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.245,
+      0.753,
+      0.774
+    ],
+    "text": "· Some dishwasher detergents are strongly alkaline. They can be extremely dangerous if swallowed. Avoid contact with the skin and eyes and keep children away from the dishwasher when the door is open.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.756,
+      0.245,
+      0.801,
+      0.75
+    ],
+    "text": "· Check that the detergent powder is empty after completion of the wash cycle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.172,
+      0.245,
+      0.218,
+      0.753
+    ],
+    "text": "· Do not wash plastic items unless they are marked \"dishwasher safe\" or the equivalent.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.219,
+      0.245,
+      0.263,
+      0.789
+    ],
+    "text": "· For unmarked plastic items not so marked,check the manufacturer's recommendations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.245,
+      0.31,
+      0.803
+    ],
+    "text": "· Use only detergent and rinse agents recommended for use in an automatic dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.313,
+      0.245,
+      0.358,
+      0.782
+    ],
+    "text": "· Never use soap,laundry detergent, or hand washing detergent in your dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.359,
+      0.245,
+      0.405,
+      0.754
+    ],
+    "text": "· The door should not be left open,since this could increase the risk of tripping.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.405,
+      0.253,
+      0.474,
+      0.787
+    ],
+    "text": "If the supply cord is damaged, it must be replaced by the manufacturer or its service agent or a similarly qualified person in order to avoid a hazard.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.477,
+      0.245,
+      0.52,
+      0.756
+    ],
+    "text": "· During installation, the power supply must not be excessively or dangerously bent or flattened.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.523,
+      0.245,
+      0.542,
+      0.553
+    ],
+    "text": "· Do not tamper with controls.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.245,
+      0.613,
+      0.815
+    ],
+    "text": "· The appliance needs to be connected to the main water valve using new hose sets. Old sets should not be reused.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.616,
+      0.245,
+      0.683,
+      0.812
+    ],
+    "text": "· To save energy,in stand by mode, the appliance will switch off automatically while there is no any operation in 15 minutes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.245,
+      0.729,
+      0.797
+    ],
+    "text": "· The maximum number of place settings to be washed is 15.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.732,
+      0.245,
+      0.753,
+      0.81
+    ],
+    "text": "· The maximum permisible inlet water pressure is 1MPa.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.756,
+      0.245,
+      0.799,
+      0.74
+    ],
+    "text": "·The minimum permissible inlet water pressure is 0.04MPa.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.222,
+      0.2,
+      0.366
+    ],
+    "text": "， Disposal",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.245,
+      0.327,
+      0.681
+    ],
+    "text": "· For disposing of package and the appliance please go to a recycling center. Therefore cut off the power supply cable and make the door closing device unusable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-3",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.212,
+      0.694,
+      0.318,
+      0.79
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.33,
+      0.245,
+      0.398,
+      0.795
+    ],
+    "text": "· Cardboard packaging is manufactured from recycled paper and should be disposed in the waste paper collection for recycling.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.245,
+      0.516,
+      0.795
+    ],
+    "text": "· By ensuring this product is disposed of correctly, you will help prevent potential negative consequences for the environment and human health,which could otherwise be caused by inappropriate waste handling of this product.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.518,
+      0.245,
+      0.587,
+      0.797
+    ],
+    "text": "· For more detailed information about recycling of this product, please contact your local city office and your household waste disposal service.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.245,
+      0.685,
+      0.764
+    ],
+    "text": "· DISPOSAL: Do not dispose this product as unsorted municipal waste. Collection of such waste separately for special treatment is necessary.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.215,
+      0.207,
+      0.547
+    ],
+    "text": "PRODUCT OVERVIEW",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.245,
+      0.239,
+      0.379
+    ],
+    "text": "0 IMPORTANT:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.243,
+      0.273,
+      0.766
+    ],
+    "text": "To get the best performance from your dishwasher, read alloperating instructions before using it for the first time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:figure-4",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.291,
+      0.248,
+      0.733,
+      0.789
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.753,
+      0.245,
+      0.773,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.267,
+      0.806,
+      0.772
+    ],
+    "text": "Picturesare only for reference,different models may be different.Please prevail in kind.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.215,
+      0.207,
+      0.64
+    ],
+    "text": "USING YOUR DISHWASHER",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-2",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_0.jpg",
+    "bbox_norm": [
+      0.222,
+      0.245,
+      0.325,
+      0.794
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.332,
+      0.245,
+      0.345,
+      0.413
+    ],
+    "text": "1. Set the water softener",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.245,
+      0.363,
+      0.482
+    ],
+    "text": "2.Loading the salt Into the softener",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.364,
+      0.245,
+      0.38,
+      0.393
+    ],
+    "text": "3.Loading the basket",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.245,
+      0.397,
+      0.377
+    ],
+    "text": "4.Fill the dispenser",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-7",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_1.jpg",
+    "bbox_norm": [
+      0.401,
+      0.269,
+      0.429,
+      0.303
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.431,
+      0.267,
+      0.468,
+      0.776
+    ],
+    "text": "Please check the section 1 \"Water Softener\" of PART Il: Special Version, If you need to set the water softener .",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-9",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.223,
+      0.527,
+      0.732
+    ],
+    "text": "、Loading The Salt Into The Softener",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-10",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.537,
+      0.245,
+      0.558,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-11",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.243,
+      0.592,
+      0.74
+    ],
+    "text": "If your model does not have any water softener,you may skip this section. Always use salt intended for dishwasher use.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-12",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.593,
+      0.243,
+      0.625,
+      0.743
+    ],
+    "text": "The salt container is located beneath the lower basket and should be filled as explained in the following:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-13",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.287,
+      0.65,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-14",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.66,
+      0.264,
+      0.675,
+      0.673
+    ],
+    "text": "·Only use salt specifically designed for dishwashers use!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-15",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.676,
+      0.276,
+      0.741,
+      0.743
+    ],
+    "text": "Every other type of salt not specifically designed for dishwasher use, especially table salt,will damage the water softener.In case of damages caused by the use of unsuitable salt the manufacturer does not give any warranty nor is liable for any damages caused.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-16",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.742,
+      0.264,
+      0.757,
+      0.571
+    ],
+    "text": "· Only fill with salt before running a cydle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-17",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.758,
+      0.279,
+      0.808,
+      0.74
+    ],
+    "text": "This will prevent any grains of salt or salty water,which may have been spilled,remaining on the bottom of the machine for any period of time, which may cause corrosion.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.243,
+      0.189,
+      0.607
+    ],
+    "text": "Please follow the steps below for adding dishwasher salt:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-2",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_0.jpg",
+    "bbox_norm": [
+      0.198,
+      0.246,
+      0.296,
+      0.792
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.315,
+      0.245,
+      0.33,
+      0.627
+    ],
+    "text": "1. Remove the lower basket and unscrew the reservoir cap.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.332,
+      0.245,
+      0.362,
+      0.766
+    ],
+    "text": "2.Place the end of the funnel (supplied) into the hole and pour in about 1.5kg of dishwasher salt.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.364,
+      0.245,
+      0.396,
+      0.753
+    ],
+    "text": "3.Fill the salt container to its maximum limit with water,It is normal for a small amount of water to come out of the salt container.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.398,
+      0.245,
+      0.412,
+      0.604
+    ],
+    "text": "4.After filing the container,screw back the cap tightly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.415,
+      0.245,
+      0.43,
+      0.803
+    ],
+    "text": "5.The salt warning light will stop being after the salt container has been filled with salt.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-8",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.433,
+      0.245,
+      0.496,
+      0.797
+    ],
+    "text": "6.Immediately after filling the salt into the salt container,a washing program should be started (We suggest to use a short program). Otherwise the filter system, pump or other important parts of the machine may be damaged by salty water. This is out of warranty.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-9",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.507,
+      0.245,
+      0.527,
+      0.344
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-10",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.264,
+      0.628,
+      0.79
+    ],
+    "text": "· The salt container must only be refiled when the salt warning light(S )in the control panel comes on. Depending on how well the salt dissolves,the salt warning light may stillbe on even though the salt container is filled. If there is no salt warning light in the control panel (for some Models),you can estimate when to fillthe salt into the softener by the cycles that the dishwasher has run.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.264,
+      0.646,
+      0.66
+    ],
+    "text": "·If salt has spilled,run a soak or quick program to remove it.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.223,
+      0.2,
+      0.482
+    ],
+    "text": "、 Basket Used Tips",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.243,
+      0.243,
+      0.45
+    ],
+    "text": "Adjusting cutlery rack",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-3",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.267,
+      0.245,
+      0.395,
+      0.408
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.315,
+      0.455,
+      0.349,
+      0.782
+    ],
+    "text": "Lift the right basket up,both left and right baskets are flat.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-5",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_1.jpg",
+    "bbox_norm": [
+      0.419,
+      0.246,
+      0.472,
+      0.41
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:figure-6",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_2.jpg",
+    "bbox_norm": [
+      0.473,
+      0.246,
+      0.546,
+      0.41
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.457,
+      0.501,
+      0.792
+    ],
+    "text": "Move the right basket from right to left, two basket are overlapping.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-8",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_3.jpg",
+    "bbox_norm": [
+      0.556,
+      0.246,
+      0.686,
+      0.41
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.455,
+      0.638,
+      0.789
+    ],
+    "text": "Remove the right basket from the tray,only has the left basket.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.243,
+      0.193,
+      0.467
+    ],
+    "text": "Easy removal of cutlery",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.243,
+      0.228,
+      0.785
+    ],
+    "text": "Using the principle of crank slider mechanism,the cutlery are suspended.Convenient finger goes deep under the knife and fork,and holds several cutlery at a time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-3",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.241,
+      0.352,
+      0.285,
+      0.686
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.301,
+      0.243,
+      0.319,
+      0.47
+    ],
+    "text": "Make the most of space",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-5",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.32,
+      0.243,
+      0.353,
+      0.772
+    ],
+    "text": "It can accommodate dishes such as egg beaters,cups,etc.,and does not affect the upper basket.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-6",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_1.jpg",
+    "bbox_norm": [
+      0.358,
+      0.423,
+      0.445,
+      0.614
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-7",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.243,
+      0.484,
+      0.517
+    ],
+    "text": "Adjust the height of the rack",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-8",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.488,
+      0.243,
+      0.503,
+      0.624
+    ],
+    "text": "Loosen the four buttons on the tray and press down gently.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-9",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_2.jpg",
+    "bbox_norm": [
+      0.52,
+      0.333,
+      0.794,
+      0.717
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.245,
+      0.232,
+      0.509
+    ],
+    "text": "Adjusting the upper basket",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.245,
+      0.255,
+      0.308
+    ],
+    "text": "Type 1:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.258,
+      0.243,
+      0.29,
+      0.785
+    ],
+    "text": "The height of the upper basket can be easily adjusted to accommodate taller dishes in either the upper or lower basket.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.245,
+      0.308,
+      0.622
+    ],
+    "text": "To adjust the height of the upper rack,follow these steps:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-5",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.316,
+      0.248,
+      0.441,
+      0.504
+    ],
+    "text": "Pull out the upper basket.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-6",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_1.jpg",
+    "bbox_norm": [
+      0.316,
+      0.535,
+      0.443,
+      0.792
+    ],
+    "text": "2 Remove the upper basket.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-7",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_2.jpg",
+    "bbox_norm": [
+      0.479,
+      0.248,
+      0.602,
+      0.503
+    ],
+    "text": "Re-attach the upper basket to upper or lower rollers.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-8",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_3.jpg",
+    "bbox_norm": [
+      0.479,
+      0.535,
+      0.603,
+      0.794
+    ],
+    "text": "Push in the upper basket.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:figure-1",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.195,
+      0.246,
+      0.313,
+      0.503
+    ],
+    "text": "Type 2:",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.316,
+      0.248,
+      0.398,
+      0.501
+    ],
+    "text": "1 To raise the upper basket, just lift the upper basket at the center of each side until the basket locks into place in the upper position.It is not necessary to lift the adjuster handle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-3",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_1.jpg",
+    "bbox_norm": [
+      0.194,
+      0.535,
+      0.311,
+      0.792
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.315,
+      0.535,
+      0.382,
+      0.776
+    ],
+    "text": "2 To lower the upper basket, lift the adjust handles on each side to release the basket and lower it to the lower position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.243,
+      0.434,
+      0.514
+    ],
+    "text": "Folding back the cup shelves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.243,
+      0.486,
+      0.763
+    ],
+    "text": "To make room for taller items in the upper basket, raise the cup rack upwards. You can then lean the tall glasses against it. You can also remove it when it is not required for use.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-7",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_2.jpg",
+    "bbox_norm": [
+      0.496,
+      0.308,
+      0.582,
+      0.702
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.243,
+      0.623,
+      0.519
+    ],
+    "text": "Folding back the rack shelves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-9",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.627,
+      0.243,
+      0.66,
+      0.705
+    ],
+    "text": "The spikes of the lower basket are used for holding plates and a platter.   \nThey can be lowered to make more room for large items.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-10",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.343,
+      0.685,
+      0.426
+    ],
+    "text": "raise upwards",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-11",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.62,
+      0.684,
+      0.712
+    ],
+    "text": "fold backwards",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-12",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_3.jpg",
+    "bbox_norm": [
+      0.689,
+      0.281,
+      0.776,
+      0.767
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.217,
+      0.207,
+      0.699
+    ],
+    "text": "MAINTENANCE AND CLEANING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.222,
+      0.247,
+      0.434
+    ],
+    "text": ".External Care",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.245,
+      0.28,
+      0.5
+    ],
+    "text": "The door and the door seal",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.282,
+      0.243,
+      0.363,
+      0.794
+    ],
+    "text": "Clean the door seals regularly with a soft damp cloth to remove food deposits. When the dishwasher is being loaded,food and drink residues may drip onto the sides of the dishwasher door. These surfaces are outside the wash cabinet and are not accessed by water from the spray arms.Any deposits should be wiped off before the door is closed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-5",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.245,
+      0.397,
+      0.411
+    ],
+    "text": "The control panel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-6",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.398,
+      0.245,
+      0.415,
+      0.787
+    ],
+    "text": "If cleaning is required,the control panel should be wiped with a soft damp cloth only.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-7",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.431,
+      0.287,
+      0.45,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-8",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.457,
+      0.264,
+      0.488,
+      0.764
+    ],
+    "text": "·To avoid penetration of water into the door lock and electrical components, do not use a spray cleaner of any kind.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-9",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.263,
+      0.537,
+      0.761
+    ],
+    "text": "·Never use abrasive cleaners or scouring pads on the outer surfaces because they may scratch the finish. Some paper towels may also scratch or leave marks on the surface.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-10",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.223,
+      0.592,
+      0.426
+    ],
+    "text": "、 Internal Care",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-11",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.245,
+      0.625,
+      0.395
+    ],
+    "text": "Filtering system",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-12",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.245,
+      0.693,
+      0.766
+    ],
+    "text": "The filtering system in the base of the wash cabinet retains coarse debris from the washing cycle.The collected coarse debris may cause the filters to clog. Check the condition of the filters regularly (each months) and clean them if necessary under running water.Follow the steps below to clean the filters in the wash cabinet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-13",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.245,
+      0.722,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-14",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.726,
+      0.269,
+      0.758,
+      0.779
+    ],
+    "text": "Pictures are only for reference,different models of the filtering system and spray arms may be different.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-1",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.176,
+      0.259,
+      0.325,
+      0.491
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.332,
+      0.266,
+      0.398,
+      0.486
+    ],
+    "text": "Hold the coarse filter and rotate it anticlockwise to unlock the filter. Lift the filter upwards and out of the dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-3",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_1.jpg",
+    "bbox_norm": [
+      0.175,
+      0.537,
+      0.327,
+      0.789
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.332,
+      0.55,
+      0.431,
+      0.782
+    ],
+    "text": "The fine filter can be pulled off the bottom of the filter assembly. The coarse filter can be detached from the main filter by gently squeezing the tabs at the top and pulling it away.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-5",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_2.jpg",
+    "bbox_norm": [
+      0.445,
+      0.287,
+      0.585,
+      0.459
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-6",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_3.jpg",
+    "bbox_norm": [
+      0.445,
+      0.565,
+      0.587,
+      0.764
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-7",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.248,
+      0.679,
+      0.485
+    ],
+    "text": "3 Larger food remnants can be cleaned by rinsing the filter under running water. For a more thorough clean,use a soft cleaning brush.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-8",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.595,
+      0.535,
+      0.662,
+      0.795
+    ],
+    "text": "4 Reassemble the filters in the reverse order of the disassembly,replace the filter insert,and rotate clockwise to the close arrow.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-9",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.287,
+      0.709,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-10",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.264,
+      0.747,
+      0.746
+    ],
+    "text": "·Do not over tighten the filters. Put the filters back in sequence securely, otherwise coarse debris could get into the system and cause a blockage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-11",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.747,
+      0.264,
+      0.796,
+      0.759
+    ],
+    "text": "·Never use the dishwasher without filters in place.Improper replacement of the filter may reduce the performance level of the appliance and damage dishes and utensils.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.245,
+      0.193,
+      0.354
+    ],
+    "text": "Spray arms",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.243,
+      0.228,
+      0.795
+    ],
+    "text": "It is necessary to clean the spray arms regularly for hard water chemicals willclog the spray arm jets and bearings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.245,
+      0.25,
+      0.602
+    ],
+    "text": "To clean the spray arms,follow the instructions below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-4",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.258,
+      0.246,
+      0.439,
+      0.504
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-5",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_1.jpg",
+    "bbox_norm": [
+      0.258,
+      0.535,
+      0.44,
+      0.792
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-6",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.264,
+      0.508,
+      0.517
+    ],
+    "text": "To remove the upper spray arm, hold the nut in the center still and rotate the spray arm counterclockwise to remove it.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-7",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.443,
+      0.557,
+      0.477,
+      0.797
+    ],
+    "text": "To remove the lower spray arm, pull out the spray arm upward.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-8",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_2.jpg",
+    "bbox_norm": [
+      0.517,
+      0.246,
+      0.699,
+      0.503
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-9",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.256,
+      0.767,
+      0.498
+    ],
+    "text": "】Wash the arms in soapy and warm water and use a soft brush to clean the jets. Replace them after rinsing them thoroughly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.172,
+      0.243,
+      0.199,
+      0.62
+    ],
+    "text": "Caring For The Dishwasher",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.245,
+      0.231,
+      0.401
+    ],
+    "text": "Frost precaution",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.245,
+      0.266,
+      0.771
+    ],
+    "text": "Please take frost protection measures on the dishwasher in winter. Every time after washing cycles,please operate as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-4",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.245,
+      0.282,
+      0.696
+    ],
+    "text": "1.Cut off the electrical power to the dishwasher at the supply source.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-5",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.285,
+      0.245,
+      0.3,
+      0.795
+    ],
+    "text": "2.Turn off the water supply and disconnect the water inlet pipe from the water valve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-6",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.301,
+      0.245,
+      0.316,
+      0.799
+    ],
+    "text": "3. Drain the water from the inlet pipe and water valve.(Use a pan to gather the water)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-7",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.245,
+      0.333,
+      0.584
+    ],
+    "text": "4. Reconnect the water inlet pipe to the water valve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-8",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.245,
+      0.366,
+      0.779
+    ],
+    "text": "5. Remove the filter at the bottom of the tub and use a sponge to soak up water in the sump.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-9",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.245,
+      0.397,
+      0.411
+    ],
+    "text": "After every wash",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-10",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.243,
+      0.433,
+      0.799
+    ],
+    "text": "After every wash,turn off the water supply to the appliance and leave the door slightly open so that moisture and odors are not trapped inside.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-11",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.245,
+      0.462,
+      0.408
+    ],
+    "text": "Remove the plug",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-12",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.245,
+      0.481,
+      0.79
+    ],
+    "text": "Before cleaning or performing maintenance,always remove the plug from the socket.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-13",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.245,
+      0.511,
+      0.55
+    ],
+    "text": "No solvents or abrasive cleaning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-14",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.245,
+      0.545,
+      0.751
+    ],
+    "text": "To clean the exterior and rubber parts of the dishwasher,do not use solvents or abrasive cleaning products. Only use a cloth with warm soapy water.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-15",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.245,
+      0.579,
+      0.79
+    ],
+    "text": "To remove spots or stains from the surface of the interior, use a cloth dampened with water an a litte vinegar,or a cleaning product made specifically for dishwashers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-16",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.589,
+      0.245,
+      0.608,
+      0.54
+    ],
+    "text": "When not in use for a longtime",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-17",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.243,
+      0.674,
+      0.8
+    ],
+    "text": "It is recommend that you run a wash cycle with the dishwasher empty and then remove the plug from the socket, turn off the water supply and leave the door of the appliance slightly open.This will help the door seals to last longer and prevent odors from forming within the appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-18",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.245,
+      0.705,
+      0.452
+    ],
+    "text": "Moving the appliance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-19",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.707,
+      0.245,
+      0.739,
+      0.766
+    ],
+    "text": "If the appliance must be moved,try to keep it in the vertical position. If absolutely necessary,it can be positioned on its back.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-20",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.245,
+      0.767,
+      0.299
+    ],
+    "text": "Seals",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-21",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.245,
+      0.819,
+      0.777
+    ],
+    "text": "One of the factors that cause odours to form in the dishwasher is food that remains trapped in the seals. Periodic cleaning with a damp sponge will prevent this from occurring.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.217,
+      0.207,
+      0.663
+    ],
+    "text": "INSTALLATION INSTRUCTION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.282,
+      0.244,
+      0.426
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-3",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.265,
+      0.277,
+      0.351,
+      0.364
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.385,
+      0.271,
+      0.637
+    ],
+    "text": "Electrical Shock Hazard",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.272,
+      0.383,
+      0.354,
+      0.771
+    ],
+    "text": "Disconnect electrical power before   \ninstalling dishwasher.   \nFailure to do so could result in death or electrical shock.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-6",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.246,
+      0.388,
+      0.383
+    ],
+    "text": "A Attention",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-7",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.39,
+      0.245,
+      0.407,
+      0.794
+    ],
+    "text": "The installation of the pipes and electrical equipments should be done by professionals.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-8",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.424,
+      0.24,
+      0.449,
+      0.596
+    ],
+    "text": "About Power Connection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-9",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.464,
+      0.282,
+      0.484,
+      0.426
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-10",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.491,
+      0.295,
+      0.511,
+      0.49
+    ],
+    "text": "For personal safety:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-11",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.279,
+      0.551,
+      0.725
+    ],
+    "text": "· Do not use an extension cord or an adapter plug with this appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-12",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.277,
+      0.593,
+      0.767
+    ],
+    "text": "· Do not, under any circumstances, cut or remove the earthing connection from the power cord.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-13",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.245,
+      0.627,
+      0.46
+    ],
+    "text": "Electrical requirements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-14",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.245,
+      0.681,
+      0.802
+    ],
+    "text": "Please look at the rating label to know the rating voltage and connect the dishwasher to the appropriate power supply. Use the required fuse 10A/13A/16A,time delay fuse or circuit breaker recommended and provide separate circuit serving only this appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-15",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.245,
+      0.708,
+      0.437
+    ],
+    "text": "Electrical connection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-16",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.245,
+      0.791,
+      0.782
+    ],
+    "text": "Ensure the voltage and frequency of the power being corresponds to those on the rating plate.Only insert the plug into an electrical socket which is earthed properly. If the electrical socket to which the appliance must be connected is not appropriate for the plug,replace the socket, rather than using a adaptors or the like as they could cause overheating and burns.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-17",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.792,
+      0.245,
+      0.809,
+      0.583
+    ],
+    "text": "A Ensure that proper earthing exists before use",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.241,
+      0.199,
+      0.586
+    ],
+    "text": "Water Supply And Drain",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.214,
+      0.243,
+      0.231,
+      0.457
+    ],
+    "text": "Cold water connection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.243,
+      0.297,
+      0.493
+    ],
+    "text": "Connect the cold water supply hose to a threaded 3/4(inch) connector and make sure that it is fastened tightly in place.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.243,
+      0.412,
+      0.493
+    ],
+    "text": "If the water pipes are new or have not been used for an extended period of time,let the water run to make sure that the water is clear.This precaution is needed to avoid the risk of the water inlet to be blocked and damage the appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-5",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.256,
+      0.509,
+      0.33,
+      0.651
+    ],
+    "text": "ordinary supply hose",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:figure-6",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_1.jpg",
+    "bbox_norm": [
+      0.229,
+      0.684,
+      0.358,
+      0.769
+    ],
+    "text": "safety supply hose",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-7",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.426,
+      0.243,
+      0.444,
+      0.521
+    ],
+    "text": "About the safety supply hose",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.243,
+      0.511,
+      0.781
+    ],
+    "text": "The safety supply hose consists of the double walls.The hose's system guarantees its intervention by blocking the flow of water in case of the supply hose breaking and when the air space between the supply hose itself and the outer corrugated hose is full of water.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.284,
+      0.544,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.551,
+      0.276,
+      0.602,
+      0.745
+    ],
+    "text": "A hose that attaches to a sink spray can burst if it is installed on the same water line as the dishwasher.If your sink has one,it is recommended that the hose be disconnected and the hole plugged.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-11",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.243,
+      0.647,
+      0.612
+    ],
+    "text": "How to connect the safety supply hose",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-12",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.65,
+      0.245,
+      0.68,
+      0.782
+    ],
+    "text": "1.Pull The safety supply hoses completely out from storage compartment located at rear of dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-13",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.683,
+      0.243,
+      0.698,
+      0.761
+    ],
+    "text": "2.Tighter the screws of the safety supply hose to the faucet with thread 3/4inch.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-14",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.7,
+      0.243,
+      0.715,
+      0.589
+    ],
+    "text": "3.Turn water fully on before starting the dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-15",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.243,
+      0.752,
+      0.635
+    ],
+    "text": "How to disconnect the safety supply hose",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-16",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.756,
+      0.245,
+      0.77,
+      0.39
+    ],
+    "text": "1. Turn off the water.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-17",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.772,
+      0.245,
+      0.787,
+      0.578
+    ],
+    "text": "2.Unscrew the safety supply hose from the faucet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.222,
+      0.199,
+      0.624
+    ],
+    "text": ". Connection Of Drain Hoses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.245,
+      0.275,
+      0.787
+    ],
+    "text": "Insert the drain hose into a drain pipe with a minimum diameter of 4 cm,or let it run into the sink,making sure to avoid bending or crimping it.The height of drain pipe must be less than 10o0mm.The free end of the hose must not be immersed in water to avoid the back flow of it.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.282,
+      0.245,
+      0.299,
+      0.687
+    ],
+    "text": "A Please securely fix the drain hose in either position A or position B",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-4",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.305,
+      0.264,
+      0.532,
+      0.79
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-5",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.245,
+      0.568,
+      0.604
+    ],
+    "text": "How to drain excess water from hoses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-6",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.245,
+      0.617,
+      0.789
+    ],
+    "text": "If the sink is 10oo higher from the floor, the excess water in hoses cannot be drained directly into the sink.It will be necessary to drain excess water from hoses into a bowl or suitable container that is held outside and lower than the sink.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-7",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.245,
+      0.645,
+      0.37
+    ],
+    "text": "Water outlet",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-8",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.646,
+      0.245,
+      0.679,
+      0.787
+    ],
+    "text": "Connect the water drain hose.The drain hose must be correctly fitted to avoid water leaks.Ensure that the water drain hose is not kinked or squashed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-9",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.691,
+      0.245,
+      0.708,
+      0.39
+    ],
+    "text": "Extension hose",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-10",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.245,
+      0.753,
+      0.777
+    ],
+    "text": "If you need a drain hose extension,make sure to use a similar drain hose. It must be no longer than 4 meters; otherwise the cleaning effect of the dishwasher could be reduced.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-11",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.767,
+      0.245,
+      0.785,
+      0.428
+    ],
+    "text": "Syphon connection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-12",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.786,
+      0.245,
+      0.819,
+      0.759
+    ],
+    "text": "The waste connection must be at a height less than 10o cm (maximum) from the bottom of the dish.The water drain hose should be fixed .",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.223,
+      0.2,
+      0.566
+    ],
+    "text": "、Position The Appliance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.245,
+      0.275,
+      0.79
+    ],
+    "text": "Position the appliance in the desired location.The back should rest against the wall behind it,and the sides,along the adjacent cabinets or walls.The dishwasher is equipped with water supply and drain hoses that can be positioned either to the right or the left sides to facilitate proper installation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.285,
+      0.245,
+      0.304,
+      0.464
+    ],
+    "text": "Levelling the appliance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.304,
+      0.245,
+      0.382,
+      0.552
+    ],
+    "text": "Once the appliance is positioned for levelling, the height of the dishwasher may be altered via adjustment of the screwing level of the feet. In any case,the appliance should not be inclined more than 2°",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-5",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.296,
+      0.568,
+      0.4,
+      0.785
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-6",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.245,
+      0.412,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-7",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.415,
+      0.271,
+      0.431,
+      0.555
+    ],
+    "text": "Only apply to the free standing dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-8",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.457,
+      0.223,
+      0.481,
+      0.602
+    ],
+    "text": ".Free Standing Installation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-9",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.494,
+      0.245,
+      0.512,
+      0.545
+    ],
+    "text": "Fitting between existing carbinets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-10",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.245,
+      0.613,
+      0.532
+    ],
+    "text": "The height of the dishwasher,845 mm, has been designed in order to allow the machine to be fitted between existing cabinets of the same height in modern fitted kitchens.The feet can be adjusted so that correct height is reached.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-11",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.614,
+      0.245,
+      0.664,
+      0.524
+    ],
+    "text": "The laminated top of the machine does not require any particular care since it is heatproof,scratchproof and stainproof.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-12",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_1.jpg",
+    "bbox_norm": [
+      0.517,
+      0.544,
+      0.71,
+      0.792
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.222,
+      0.199,
+      0.738
+    ],
+    "text": "·Built-In Installation(for the integrated model)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.214,
+      0.243,
+      0.232,
+      0.743
+    ],
+    "text": "Step 1. Selecting the best location for the dishwasher",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-3",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.243,
+      0.265,
+      0.799
+    ],
+    "text": "The installation position of dishwasher should be near the existing inlet and drain hoses and power cord.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.266,
+      0.245,
+      0.281,
+      0.741
+    ],
+    "text": "Illustrations of cabinet dimensions and installation position of the dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.284,
+      0.245,
+      0.315,
+      0.772
+    ],
+    "text": "1. Less than 5 mm between the top of dishwasher and cabinet and the outer door aligned to cabinet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:figure-6",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_0.jpg",
+    "bbox_norm": [
+      0.33,
+      0.245,
+      0.536,
+      0.792
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.243,
+      0.208,
+      0.612
+    ],
+    "text": "2. If dishwasher is in stalled at the corner of the cabinet, there should be some space when the door is opened.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:figure-2",
+    "page_id": 24,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_24_Figure_0.jpg",
+    "bbox_norm": [
+      0.175,
+      0.635,
+      0.309,
+      0.792
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-3",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.304,
+      0.245,
+      0.324,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.325,
+      0.267,
+      0.357,
+      0.772
+    ],
+    "text": "Depending on where your electrical outlet is,you may need to cut a hole in the opposite cabinet side.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-5",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.243,
+      0.407,
+      0.735
+    ],
+    "text": "Step 2. Aesthetic panel's dimensions and installation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:figure-6",
+    "page_id": 24,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_24_Figure_1.jpg",
+    "bbox_norm": [
+      0.414,
+      0.284,
+      0.439,
+      0.32
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-7",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.282,
+      0.478,
+      0.738
+    ],
+    "text": "The aesthetic wooden panel could be processed according to the installation drawings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-8",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.245,
+      0.518,
+      0.431
+    ],
+    "text": "Semi-integrated model",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-9",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.243,
+      0.584,
+      0.781
+    ],
+    "text": "Magical paster A and magical paster B be disjoinedon ,magical paster A on the aesthetic wooden panel and felted magical paster B of the outer door of dishwasher (see figure A).After positioning of the panel,fix the panel onto the outer door by screws and bolts (See figure B).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:figure-10",
+    "page_id": 24,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_24_Figure_2.jpg",
+    "bbox_norm": [
+      0.593,
+      0.235,
+      0.789,
+      0.441
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:figure-11",
+    "page_id": 24,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_24_Figure_3.jpg",
+    "bbox_norm": [
+      0.594,
+      0.452,
+      0.787,
+      0.79
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.245,
+      0.19,
+      0.423
+    ],
+    "text": "Full-integrated model",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-2",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.194,
+      0.243,
+      0.242,
+      0.782
+    ],
+    "text": "Install the hook on the aesthetic wooden panel and put the hook into the slot of the outer door of dishwasher (see figure A).After positioning of the panel,fix the panel onto the outer door by screws and bolts (See figure B).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:figure-3",
+    "page_id": 25,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_25_Figure_0.jpg",
+    "bbox_norm": [
+      0.257,
+      0.235,
+      0.454,
+      0.437
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-25:figure-4",
+    "page_id": 25,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_25_Figure_1.jpg",
+    "bbox_norm": [
+      0.258,
+      0.459,
+      0.452,
+      0.79
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-25:text-5",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.488,
+      0.245,
+      0.507,
+      0.674
+    ],
+    "text": "Step 3.Tension adjustment of the door spring",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-6",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.512,
+      0.246,
+      0.609,
+      0.542
+    ],
+    "text": "1.The door springs are set at the factory to the proper tension for the outer door. If aesthetic wooden panel are installed, you will have to adjust the door spring tension. Rotate the adjusting screw to drive the adjustor to strain or relax the steel cable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-7",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.245,
+      0.675,
+      0.544
+    ],
+    "text": "2.Door spring tension is correct when the door remains horizontal in the fully opened position,yet rises to a close with the slight lift of a finger.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:figure-8",
+    "page_id": 25,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_25_Figure_2.jpg",
+    "bbox_norm": [
+      0.513,
+      0.553,
+      0.672,
+      0.794
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:text-1",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.245,
+      0.193,
+      0.589
+    ],
+    "text": "Step 4. Dishwasher installation steps",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:figure-2",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_0.jpg",
+    "bbox_norm": [
+      0.199,
+      0.284,
+      0.227,
+      0.32
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:text-3",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.284,
+      0.263,
+      0.732
+    ],
+    "text": "Please refer to the specified installation steps in the installation drawings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-4",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.245,
+      0.319,
+      0.779
+    ],
+    "text": "1.Affix the condensation strip under the work surface of cabinet. Please ensure the condensation strip is flush with edge of work surface.(Step 2)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-5",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.32,
+      0.245,
+      0.335,
+      0.575
+    ],
+    "text": "2. Connect the inlet hose to the cold water supply.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-6",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.338,
+      0.245,
+      0.352,
+      0.423
+    ],
+    "text": "3. Connect the drain hose.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-7",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.354,
+      0.245,
+      0.368,
+      0.429
+    ],
+    "text": "4.Connect the power cord.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-8",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.371,
+      0.245,
+      0.386,
+      0.542
+    ],
+    "text": "5.Place the dishwasher into position. (Step 4)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-9",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.245,
+      0.452,
+      0.777
+    ],
+    "text": "6.Level the dishwasher.The rear foot can be adjusted from the front of the dishwasher by turning the Philips screw in the middle of the base of dishwasher use an Philips screw.To adjust the front feet, use a flat screw driver and turn the front feet until the dishwasher is level. (Step 5 to Step 6)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-10",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.245,
+      0.468,
+      0.781
+    ],
+    "text": "7. Installthe furniture door to the outer door of the dishwasher.(Step 7 to Step 10)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-11",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.47,
+      0.245,
+      0.517,
+      0.787
+    ],
+    "text": "8.Adjust the tension of the door springs by using an Allen key turning in a clockwise motion to tighten the left and right door springs.Failure to do this could cause damage to your dishwasher. (Step 11)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-12",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.245,
+      0.568,
+      0.802
+    ],
+    "text": "9.The dishwasher must be secured in place.There are two ways to do this: A.Normal work surface: Put the installation hook into the slot of the side plane and secure it to the work surface with the wood screws.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-13",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.266,
+      0.584,
+      0.614
+    ],
+    "text": "B. Marble or granite work top: Fix the side with Screw.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:figure-14",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_1.jpg",
+    "bbox_norm": [
+      0.599,
+      0.297,
+      0.808,
+      0.75
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:text-1",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.243,
+      0.193,
+      0.552
+    ],
+    "text": "Step 5. Levelling the dishwasher",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-2",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.243,
+      0.212,
+      0.754
+    ],
+    "text": "Dishwasher must be level for proper dish rack operation and wash performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-3",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.214,
+      0.243,
+      0.246,
+      0.792
+    ],
+    "text": "1.Place a spirit level on door and rack track inside the tub as shown to check that the dishwasher is level.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-4",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.243,
+      0.262,
+      0.704
+    ],
+    "text": "2.Level the dishwasher by adjusting the three leveling legs individually.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-5",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.243,
+      0.279,
+      0.795
+    ],
+    "text": "3.When level the dishwasher,please pay attention not to let the dishwasher tip over.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:figure-6",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_0.jpg",
+    "bbox_norm": [
+      0.292,
+      0.313,
+      0.609,
+      0.714
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:text-7",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.616,
+      0.243,
+      0.636,
+      0.346
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-8",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.267,
+      0.655,
+      0.62
+    ],
+    "text": "The maximum adjustment height of the feet is 50 mm.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-1",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.217,
+      0.205,
+      0.602
+    ],
+    "text": "TROUBLESHOOTING TIPS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-2",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.245,
+      0.241,
+      0.485
+    ],
+    "text": "Before Calling For Service",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-3",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.245,
+      0.257,
+      0.774
+    ],
+    "text": "Reviewing the charts on the following pages may save you from calling for service.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:table-4",
+    "page_id": 28,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_28_Table_0.jpg",
+    "bbox_norm": [
+      0.263,
+      0.246,
+      0.814,
+      0.794
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-29:table-1",
+    "page_id": 29,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_29_Table_0.jpg",
+    "bbox_norm": [
+      0.176,
+      0.246,
+      0.818,
+      0.792
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-30:table-1",
+    "page_id": 30,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_30_Table_0.jpg",
+    "bbox_norm": [
+      0.176,
+      0.246,
+      0.78,
+      0.792
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-32:text-1",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.215,
+      0.237,
+      0.612
+    ],
+    "text": "LOADING THE BASKETS ACCORDING TO EN60436:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-2",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.258,
+      0.245,
+      0.28,
+      0.418
+    ],
+    "text": "1.Upper basket:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:figure-3",
+    "page_id": 32,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_32_Figure_0.jpg",
+    "bbox_norm": [
+      0.289,
+      0.236,
+      0.463,
+      0.504
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-32:table-4",
+    "page_id": 32,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_32_Table_0.jpg",
+    "bbox_norm": [
+      0.286,
+      0.534,
+      0.458,
+      0.787
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-32:text-5",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.487,
+      0.245,
+      0.507,
+      0.419
+    ],
+    "text": "2.Lower basket:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:figure-6",
+    "page_id": 32,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_32_Figure_1.jpg",
+    "bbox_norm": [
+      0.526,
+      0.241,
+      0.722,
+      0.501
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-32:table-7",
+    "page_id": 32,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_32_Table_1.jpg",
+    "bbox_norm": [
+      0.531,
+      0.534,
+      0.715,
+      0.787
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-32:text-8",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.747,
+      0.287,
+      0.767,
+      0.423
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-9",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.78,
+      0.277,
+      0.797,
+      0.714
+    ],
+    "text": "Non compliance with the loading can result to poor washing quality.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-1",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.248,
+      0.196,
+      0.406
+    ],
+    "text": "3.Cutlery rack:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:figure-2",
+    "page_id": 33,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_33_Figure_0.jpg",
+    "bbox_norm": [
+      0.219,
+      0.269,
+      0.503,
+      0.771
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-33:figure-3",
+    "page_id": 33,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_33_Figure_1.jpg",
+    "bbox_norm": [
+      0.569,
+      0.246,
+      0.694,
+      0.56
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-33:text-4",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.709,
+      0.243,
+      0.824,
+      0.531
+    ],
+    "text": "Information for comparability   \ntests in accordance with EN60436   \nCapacity: 15 place settings   \nPosition of the upper basket: lower position   \nProgram: ECO   \nRinse aid setting: 5   \nSoftener setting: H3",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:table-5",
+    "page_id": 33,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_33_Table_0.jpg",
+    "bbox_norm": [
+      0.569,
+      0.584,
+      0.789,
+      0.792
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-34:figure-1",
+    "page_id": 34,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_34_Figure_0.jpg",
+    "bbox_norm": [
+      0.116,
+      0.356,
+      0.468,
+      0.702
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-34:text-2",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.362,
+      0.546,
+      0.763
+    ],
+    "text": "Dishwasher Instruction Manual",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-3",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.362,
+      0.589,
+      0.656
+    ],
+    "text": "PART Il: Special Version",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-1",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.215,
+      0.205,
+      0.385
+    ],
+    "text": "CONTENTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-2",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.226,
+      0.352,
+      0.242,
+      0.566
+    ],
+    "text": "USING YOUR DISHWASHER",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-3",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.352,
+      0.344,
+      0.619
+    ],
+    "text": "Control Panel   \nWater Softener   \nPreparing And Loading Dishes   \nFunction Of The Rinse Aid And Detergent   \nFilling The Rinse Aid Reservoir   \nFilling The Detergent Dispenser",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-4",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.351,
+      0.378,
+      0.625
+    ],
+    "text": "PROGRAMMING THE DISHWASHER",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-5",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.352,
+      0.463,
+      0.568
+    ],
+    "text": "Wash Cycle Table   \nStarting A Cycle Wash   \nChanging The Program Mid-cycle   \nForgetTo Add A Dish?   \nAuto Open Door",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-6",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.473,
+      0.354,
+      0.489,
+      0.467
+    ],
+    "text": "ERROR CODES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-7",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.352,
+      0.531,
+      0.562
+    ],
+    "text": "TECHNICAL INFORMATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-8",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.582,
+      0.245,
+      0.603,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-9",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.264,
+      0.636,
+      0.735
+    ],
+    "text": "·If you cannot solve the problems by yourself,please ask for help from a professional technician.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-10",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.637,
+      0.264,
+      0.67,
+      0.787
+    ],
+    "text": "·The manufacturer, following a policy of constant development and updating of the product, may make modifications without giving prior notice.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-11",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.263,
+      0.702,
+      0.792
+    ],
+    "text": "· If lost or out-of-date,you can receive a new user manual from the manufacturer or responsible vendor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-1",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.215,
+      0.205,
+      0.517
+    ],
+    "text": "QUICK USER GUIDE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-2",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.243,
+      0.258,
+      0.8
+    ],
+    "text": "Please read the corresponding content on the instruction manual for detailed operating method.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:figure-3",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_0.jpg",
+    "bbox_norm": [
+      0.27,
+      0.248,
+      0.395,
+      0.671
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:figure-4",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_1.jpg",
+    "bbox_norm": [
+      0.463,
+      0.307,
+      0.569,
+      0.439
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:figure-5",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_2.jpg",
+    "bbox_norm": [
+      0.467,
+      0.568,
+      0.564,
+      0.759
+    ],
+    "text": "Removing the larger residue on the cutlery Loading the baskets",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:figure-6",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_3.jpg",
+    "bbox_norm": [
+      0.627,
+      0.248,
+      0.752,
+      0.503
+    ],
+    "text": "Filling the dispenser",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:figure-7",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_4.jpg",
+    "bbox_norm": [
+      0.627,
+      0.534,
+      0.753,
+      0.794
+    ],
+    "text": "5 Selecting a program and running the dishwasher",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-37:text-1",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.215,
+      0.207,
+      0.638
+    ],
+    "text": "USING YOUR DISHWASHER",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-2",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.226,
+      0.223,
+      0.251,
+      0.437
+    ],
+    "text": "， Control Panel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:figure-3",
+    "page_id": 37,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_37_Figure_0.jpg",
+    "bbox_norm": [
+      0.261,
+      0.235,
+      0.378,
+      0.781
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-37:table-4",
+    "page_id": 37,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_37_Table_0.jpg",
+    "bbox_norm": [
+      0.411,
+      0.245,
+      0.733,
+      0.79
+    ],
+    "text": "Operation (Button)",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-38:table-1",
+    "page_id": 38,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_38_Table_0.jpg",
+    "bbox_norm": [
+      0.183,
+      0.245,
+      0.782,
+      0.794
+    ],
+    "text": "Display",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-39:text-2",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.284,
+      0.484,
+      0.421
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-3",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.492,
+      0.261,
+      0.523,
+      0.781
+    ],
+    "text": "·Manual pre-rinsing of tableware items increases water and energy consumption and is not recommended.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-4",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.263,
+      0.574,
+      0.759
+    ],
+    "text": "·Washing tableware in a household dishwasher usually consumes less energy and water in the use phase than hand dishwashing when the household dishwasher is used according to the manufacturer's instructions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-1",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.223,
+      0.198,
+      0.464
+    ],
+    "text": ".Water Softener",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-2",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.245,
+      0.224,
+      0.702
+    ],
+    "text": "The water softener must be set manually,using the water hardness dial.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-3",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.245,
+      0.257,
+      0.771
+    ],
+    "text": "The water softener is designed to remove minerals and salts from the water,which would have a detrimental or adverse effect on the operation of the appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-4",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.257,
+      0.245,
+      0.272,
+      0.589
+    ],
+    "text": "The more minerals there are,the harder your water is.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-5",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.273,
+      0.245,
+      0.306,
+      0.782
+    ],
+    "text": "The softener should be adjusted according to the hardness of the water in your area.   \nYour local Water Authority can advise you on the hardness of the water in your area.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-6",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.329,
+      0.245,
+      0.348,
+      0.504
+    ],
+    "text": "Adjusting salt consumption",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-7",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.349,
+      0.245,
+      0.398,
+      0.781
+    ],
+    "text": "The dishwasher is designed to allow for adjustment in the amount of salt consumed based on the hardness of the water used.This is intended to optimise and customise the level of salt consumption.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-8",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.405,
+      0.245,
+      0.42,
+      0.661
+    ],
+    "text": "Please follow the steps below for adjustment in salt consumption.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-9",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.421,
+      0.245,
+      0.435,
+      0.55
+    ],
+    "text": "1. Close the door and switch on the appliance;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-10",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.245,
+      0.469,
+      0.781
+    ],
+    "text": "2. Press the Program button for more than 5 seconds to start the water softener set model within 60 seconds after the appliance was switched on;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-11",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.47,
+      0.245,
+      0.517,
+      0.727
+    ],
+    "text": "3.Press the Program button to select the proper set according to your local environment, the sets will change in the following sequence: H1->H2->H3->H4->H5->H6;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-12",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.245,
+      0.535,
+      0.575
+    ],
+    "text": "4. Press the Power button to end the set up model.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:table-13",
+    "page_id": 40,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_40_Table_0.jpg",
+    "bbox_norm": [
+      0.539,
+      0.246,
+      0.731,
+      0.79
+    ],
+    "text": "1dH=1.25 Clarke=1.78 °fH=0.178mmoll The manufactory setting: H3 Contact your local water board for information on the hardness of your water supply.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-41:figure-1",
+    "page_id": 41,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_41_Figure_0.jpg",
+    "bbox_norm": [
+      0.174,
+      0.284,
+      0.202,
+      0.32
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-41:text-2",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.205,
+      0.284,
+      0.242,
+      0.732
+    ],
+    "text": "Please check the section 3 “Loading The Salt Into The Softener\" of PART I : Generic Version, If your dishwasher lacks salt.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-3",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.246,
+      0.286,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-4",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.269,
+      0.319,
+      0.794
+    ],
+    "text": "If your model does not have any water softener, you may skip this section. Water Softener",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-5",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.321,
+      0.269,
+      0.353,
+      0.781
+    ],
+    "text": "The hardness of the water varies from place to place.If hard water is used in the dishwasher,deposits will form on the dishes and utensils.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-6",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.269,
+      0.387,
+      0.743
+    ],
+    "text": "The appliance is equipped with a special softener that uses a salt container specifically designed to eliminate lime and minerals from the water.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-7",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.223,
+      0.436,
+      0.665
+    ],
+    "text": ".Preparing And Loading Dishes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-8",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.245,
+      0.464,
+      0.686
+    ],
+    "text": "·Consider buying utensils which are identified as dishwasher-proof.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-9",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.245,
+      0.481,
+      0.743
+    ],
+    "text": "·For particular items,select a program with the lowest possible temperature.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-10",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.245,
+      0.513,
+      0.723
+    ],
+    "text": "· To prevent damage,do not take glass and cutlery out of the dishwasher immediately after the program has ended.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-11",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.245,
+      0.544,
+      0.627
+    ],
+    "text": "For washing the following cutlery/dishes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-12",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.245,
+      0.564,
+      0.362
+    ],
+    "text": "Are not suitable",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-13",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.245,
+      0.582,
+      0.651
+    ],
+    "text": "· Cutlery with wooden, horn china or mother-of-pearl handles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-14",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.584,
+      0.245,
+      0.598,
+      0.514
+    ],
+    "text": "·Plastic items that are not heat resistant",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-15",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.601,
+      0.245,
+      0.614,
+      0.674
+    ],
+    "text": "· Older cutlery with glued parts that are not temperature resistant",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-16",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.245,
+      0.631,
+      0.462
+    ],
+    "text": "·Bonded cutlery items or dishes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-17",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.633,
+      0.245,
+      0.646,
+      0.416
+    ],
+    "text": "·Pewter or cooper items",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-18",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.65,
+      0.246,
+      0.662,
+      0.348
+    ],
+    "text": "· Crystal glass",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-19",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.666,
+      0.246,
+      0.68,
+      0.45
+    ],
+    "text": "· Steel items subject to rusting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-20",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.683,
+      0.246,
+      0.695,
+      0.375
+    ],
+    "text": "·Wooden platters",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-21",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.698,
+      0.245,
+      0.712,
+      0.475
+    ],
+    "text": "·Items made from synthetic fibres",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-22",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.264,
+      0.734,
+      0.439
+    ],
+    "text": "Are of limited suitability",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-23",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.737,
+      0.245,
+      0.751,
+      0.715
+    ],
+    "text": "·Some types of glasses can become dull after a large number of washes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-24",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.245,
+      0.767,
+      0.717
+    ],
+    "text": "·Silver and aluminum parts have a tendency to discolour during washing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-25",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.768,
+      0.245,
+      0.784,
+      0.62
+    ],
+    "text": "·Glazed patterns may fade if machine washed frequently",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-1",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.245,
+      0.193,
+      0.676
+    ],
+    "text": "Recommendations for loading the dishwasher",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-2",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.264,
+      0.227,
+      0.772
+    ],
+    "text": "Scrape off any large amounts of leftover food.Soften remnants of burnt food in pans.It is not necessary to rinse the dishes under running water.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-3",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.228,
+      0.264,
+      0.242,
+      0.727
+    ],
+    "text": "For best performance of the dishwasher,follow these loading guidelines.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-4",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.244,
+      0.264,
+      0.275,
+      0.767
+    ],
+    "text": "(Features and appearance of baskets and cutlery baskets may vary from your model.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-5",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.264,
+      0.292,
+      0.576
+    ],
+    "text": "Place objects in the dishwasher in following way:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-6",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.245,
+      0.311,
+      0.681
+    ],
+    "text": "·Items such as cups, glasses,pots/pans,etc.are faced downwards.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-7",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.313,
+      0.245,
+      0.342,
+      0.789
+    ],
+    "text": "·Curved items,or ones with recesses,should be loaded aslant so that water can run off.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-8",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.345,
+      0.245,
+      0.359,
+      0.601
+    ],
+    "text": "·All utensils are stacked securely and can not tip over.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-9",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.245,
+      0.392,
+      0.751
+    ],
+    "text": "·All utensils are placed in the way that the spray arms can rotate freely during washing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-10",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.245,
+      0.425,
+      0.74
+    ],
+    "text": "·Load hollow items such as cups, glasses, pans etc.With the opening facing downwards so that water cannot collect in the container or a deep base.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-11",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.426,
+      0.245,
+      0.441,
+      0.772
+    ],
+    "text": "·Dishes and items of cutlery must not lie inside one another,or cover each other.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-12",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.443,
+      0.245,
+      0.457,
+      0.627
+    ],
+    "text": "·To avoid damage, glasses should not touch one another.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-13",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.459,
+      0.245,
+      0.489,
+      0.774
+    ],
+    "text": "·The upper basket is designed to hold more delicate and lighter dishware such as glasses,coffee and tea cups.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-14",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.492,
+      0.245,
+      0.507,
+      0.72
+    ],
+    "text": "·Long bladed knives stored in an upright position are a potential hazard!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-15",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.245,
+      0.539,
+      0.759
+    ],
+    "text": "·Long and /or sharp items of cutlery such as carving knives must be positioned horizontally in the upper basket.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-16",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.54,
+      0.245,
+      0.571,
+      0.784
+    ],
+    "text": "·Please do not overload your dishwasher.This is important for good results and for reasonable consumption of energy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-17",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.587,
+      0.245,
+      0.606,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-18",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.263,
+      0.642,
+      0.776
+    ],
+    "text": "Very small items should not be washed in the dishwasher as they could easily fall out of the basket.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-19",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.657,
+      0.245,
+      0.674,
+      0.442
+    ],
+    "text": "Removing the dishes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-20",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.678,
+      0.245,
+      0.709,
+      0.758
+    ],
+    "text": "To prevent water dripping from the upper basket into the lower basket, we recommend that you empty the lower basket first, followed by the upper basket.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-21",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.72,
+      0.287,
+      0.739,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:figure-22",
+    "page_id": 42,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_42_Figure_0.jpg",
+    "bbox_norm": [
+      0.746,
+      0.279,
+      0.79,
+      0.341
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-42:text-23",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.742,
+      0.352,
+      0.791,
+      0.75
+    ],
+    "text": "Items will be hot! To prevent damage,do not take glass and cutlery out of the dishwasher for around 15 minutes after the program has ended.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-1",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.243,
+      0.193,
+      0.486
+    ],
+    "text": "Loading the upper basket",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-2",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.245,
+      0.292,
+      0.604
+    ],
+    "text": "The upper basket is designed to hold more delicate and lighter dishware such as glasses,coffee and tea cups and saucers,as well as plates,small bowls and shallow pans (as long as they are not too dirty). Position the dishes and cookware so that they will not get moved by the spray of water.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:figure-3",
+    "page_id": 43,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_43_Figure_0.jpg",
+    "bbox_norm": [
+      0.223,
+      0.624,
+      0.27,
+      0.794
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:text-4",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.243,
+      0.328,
+      0.485
+    ],
+    "text": "Loading the lower basket",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-5",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.332,
+      0.245,
+      0.476,
+      0.611
+    ],
+    "text": "We suggest that you place large items and the most difficult to clean items are to be placed into the lower basket: such as pots,pans,lids,serving dishes and bowls, as shown in the figure below.It is preferable to place serving dishes and lids on the side of the racks in order to avoid blocking the rotation of the top spray arm. The maximum diameter advised for plates in front of the detergent dispenser is of 19 cm,this not to hamper the opening of it.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:figure-6",
+    "page_id": 43,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_43_Figure_1.jpg",
+    "bbox_norm": [
+      0.364,
+      0.625,
+      0.429,
+      0.794
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:text-7",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.243,
+      0.511,
+      0.495
+    ],
+    "text": "Loading the cutlery basket",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-8",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.243,
+      0.561,
+      0.774
+    ],
+    "text": "Cutlery should be placed in the cutlery rack separately from each other in the appropriate positions,and do make sure the utensils do not nest together,this may cause bad performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-9",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.58,
+      0.287,
+      0.599,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:figure-10",
+    "page_id": 43,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_43_Figure_2.jpg",
+    "bbox_norm": [
+      0.606,
+      0.282,
+      0.68,
+      0.385
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:text-11",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.603,
+      0.401,
+      0.642,
+      0.753
+    ],
+    "text": "Do not let any item extend through the bottom.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-12",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.642,
+      0.4,
+      0.684,
+      0.751
+    ],
+    "text": "Always load sharp utensils with the sharp point down!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:figure-13",
+    "page_id": 43,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_43_Figure_3.jpg",
+    "bbox_norm": [
+      0.7,
+      0.279,
+      0.727,
+      0.313
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:text-14",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.732,
+      0.277,
+      0.767,
+      0.766
+    ],
+    "text": "For the best washing effect, please load the baskets refer to standard loading options on last section of PART I : Generic Version",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-1",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.223,
+      0.198,
+      0.79
+    ],
+    "text": "、Function Of The Rinse Aid And Detergent",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-2",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.245,
+      0.257,
+      0.787
+    ],
+    "text": "The rinse aid is released during the final rinse to prevent water from forming droplets on your dishes,which can leave spots and streaks.It also improves drying by allowing water to roll off the dishes. Your dishwasher is designed to use liquid rinse aids.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-3",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.266,
+      0.285,
+      0.285,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-4",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.276,
+      0.342,
+      0.766
+    ],
+    "text": "Only use branded rinse aid for dishwasher.Never fill the rinse aid dispenser with any other substances (e.g. Dishwasher cleaning agent, liquid detergent). This would damage the appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-5",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.245,
+      0.375,
+      0.483
+    ],
+    "text": "When to refill the rinse aid",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-6",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.377,
+      0.245,
+      0.41,
+      0.792
+    ],
+    "text": "The regularity of the dispenser needing to be refilled depends on how often dishes are washed and the rinse aid setting used.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-7",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.245,
+      0.444,
+      0.79
+    ],
+    "text": "·The Low Rinse Aid indicator（ :)willappear in the display when more rinse aid is needed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-8",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.245,
+      0.462,
+      0.506
+    ],
+    "text": "•Do not overfill the rinse aid dispenser.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-9",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.243,
+      0.489,
+      0.45
+    ],
+    "text": "Function of detergent",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-10",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.492,
+      0.245,
+      0.541,
+      0.781
+    ],
+    "text": "The chemical ingredients that compose the detergent are necessary to remove,crush and dispense alldirt out of the dishwasher.Most of the commercial quality detergents are suitable for this purpose.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-11",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.551,
+      0.287,
+      0.569,
+      0.423
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-12",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.266,
+      0.592,
+      0.436
+    ],
+    "text": "·Proper Use of Detergent",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-13",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.593,
+      0.274,
+      0.623,
+      0.779
+    ],
+    "text": "Use only detergent specifically made for dishwashers use. Keep your detergent fresh and dry.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-14",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.622,
+      0.276,
+      0.654,
+      0.767
+    ],
+    "text": "Don't put powdered detergent into the dispenser until you are ready to wash dishes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:figure-15",
+    "page_id": 44,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_44_Figure_0.jpg",
+    "bbox_norm": [
+      0.659,
+      0.267,
+      0.695,
+      0.351
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-44:text-16",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.66,
+      0.357,
+      0.693,
+      0.728
+    ],
+    "text": "Dishwasher detergent is corrosive! Keep dishwasher detergent out of the reach of children.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-1",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.172,
+      0.222,
+      0.199,
+      0.666
+    ],
+    "text": ".Filling The Rinse Aid Reservoir",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:figure-2",
+    "page_id": 45,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_45_Figure_0.jpg",
+    "bbox_norm": [
+      0.21,
+      0.246,
+      0.334,
+      0.504
+    ],
+    "text": "1 Remove the rinse reservoir cap by lifting up the handle.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-45:figure-3",
+    "page_id": 45,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_45_Figure_1.jpg",
+    "bbox_norm": [
+      0.209,
+      0.535,
+      0.417,
+      0.792
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-45:figure-4",
+    "page_id": 45,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_45_Figure_2.jpg",
+    "bbox_norm": [
+      0.376,
+      0.246,
+      0.487,
+      0.503
+    ],
+    "text": "Close the cap after all. 2 Pour the rinse aid into the dispenser, being careful not to overfill.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-45:text-5",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.536,
+      0.245,
+      0.554,
+      0.534
+    ],
+    "text": "Adjusting the rinse aid reservoir",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-6",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.555,
+      0.245,
+      0.587,
+      0.75
+    ],
+    "text": "To achieve a better drying performance with limited rinse aid,the dishwasher is designed to adjust the consumption by user. Follow the below steps.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-7",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.588,
+      0.245,
+      0.602,
+      0.549
+    ],
+    "text": "1. Close the door and switch on the appliance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-8",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.245,
+      0.651,
+      0.771
+    ],
+    "text": "2.Within 60 seconds after step 1,press the Program button more than 5 seconds, and then press the Delay button to enter the set model, the rinse aid indication blinks as 1Hz frequency.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-9",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.654,
+      0.245,
+      0.702,
+      0.781
+    ],
+    "text": "3. Press the Program button to select the proper set according to your using habits， the sets will change in the following sequence: D1->D2->D3->D4->D5->D1. The higher the number, the more rinse aid the dishwasher uses.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-10",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.703,
+      0.245,
+      0.734,
+      0.777
+    ],
+    "text": "4.Without operation in 5 seconds or press the Power button to exit the set model, the set success.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-1",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.223,
+      0.202,
+      0.686
+    ],
+    "text": "，Filling The Detergent Dispenser",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:figure-2",
+    "page_id": 46,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_46_Figure_0.jpg",
+    "bbox_norm": [
+      0.214,
+      0.246,
+      0.58,
+      0.509
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-46:figure-3",
+    "page_id": 46,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_46_Figure_1.jpg",
+    "bbox_norm": [
+      0.215,
+      0.535,
+      0.458,
+      0.794
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-46:text-4",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.267,
+      0.614,
+      0.511
+    ],
+    "text": "Please choose an open way according to the actual situation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-5",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.553,
+      0.58,
+      0.797
+    ],
+    "text": "Add detergent into the larger cavity (A) for the main wash cycle. For better cleaning result,especially if you have very dirt items,pour a small amount of detergent onto the door. The additional detergent will activate during the pre-wash phase.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-6",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.616,
+      0.269,
+      0.647,
+      0.517
+    ],
+    "text": "1.Open the cap by sliding the release catch.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-7",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.648,
+      0.267,
+      0.68,
+      0.519
+    ],
+    "text": "2. Open the cap by pressing down the release catch.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:figure-8",
+    "page_id": 46,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_46_Figure_2.jpg",
+    "bbox_norm": [
+      0.603,
+      0.604,
+      0.689,
+      0.723
+    ],
+    "text": "Close the flap by sliding it to the front and then pressing it down.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-46:text-9",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.733,
+      0.245,
+      0.755,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-10",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.757,
+      0.251,
+      0.773,
+      0.746
+    ],
+    "text": "·Be aware that depending on the soiling of water,setting may be different.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-11",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.251,
+      0.79,
+      0.79
+    ],
+    "text": "·Please observe the manufacturer's recommendations on the detergent packaging.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-1",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.215,
+      0.207,
+      0.759
+    ],
+    "text": "PROGRAMMING THE DISHWASHER",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-2",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.226,
+      0.223,
+      0.252,
+      0.491
+    ],
+    "text": ".Wash Cycle Table",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-3",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.261,
+      0.245,
+      0.309,
+      0.779
+    ],
+    "text": "The table below shows which programs are best for the levels of food residue on them and how much detergent is needed.It also show various information about the programs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-4",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.309,
+      0.246,
+      0.327,
+      0.619
+    ],
+    "text": "(●)Means: need to fillrinse into the Rinse-Aid Dispenser.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:table-5",
+    "page_id": 47,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_47_Table_0.jpg",
+    "bbox_norm": [
+      0.335,
+      0.245,
+      0.767,
+      0.79
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-48:text-2",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.245,
+      0.338,
+      0.343
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-3",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.342,
+      0.267,
+      0.372,
+      0.789
+    ],
+    "text": "EN 60436: This program is the test cycle.The information for comparability test in accordance with EN 60436.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-4",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.373,
+      0.341,
+      0.388,
+      0.705
+    ],
+    "text": "Values other than the ECO program are purely indicative.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-5",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.397,
+      0.223,
+      0.422,
+      0.555
+    ],
+    "text": "， Starting A Cycle Wash",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-6",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.431,
+      0.246,
+      0.464,
+      0.748
+    ],
+    "text": "1.Draw out the lower and upper basket, load the dishes and push them back. It is commended to load the lower basket first, then the upper one.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-7",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.245,
+      0.479,
+      0.41
+    ],
+    "text": "2.Pour in the detergent.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-8",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.245,
+      0.513,
+      0.795
+    ],
+    "text": "3.Insert the plug into the socket. The power supply refer to last page \"Product fiche\". Make sure that the water supply is turned on to full pressure.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-9",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.515,
+      0.245,
+      0.53,
+      0.691
+    ],
+    "text": "4.Close the door,press the Power button,to switch on the machine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-10",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.531,
+      0.245,
+      0.564,
+      0.758
+    ],
+    "text": "5.Choose a program,the response light willturn on.Then press the Start/Pause button,the dishwasher will start its cycle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-11",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.222,
+      0.603,
+      0.707
+    ],
+    "text": ". Changing The Program Mid-cycle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-12",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.243,
+      0.691,
+      0.781
+    ],
+    "text": "A wash cycle can only be changed if it has been running for a short time otherwise, the detergent may have already been released and the dishwasher may have already drained the wash water.If this is the case,the dishwasher needs to be reset and the detergent dispenser must be refilled.To reset the dishwasher,follow the instructions below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-13",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.245,
+      0.709,
+      0.589
+    ],
+    "text": "1. Press the Start/Pause button to pause the washing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-14",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.245,
+      0.726,
+      0.728
+    ],
+    "text": "2.Press Program button for more than 3 seconds - the program will cancel.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-15",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.728,
+      0.245,
+      0.742,
+      0.622
+    ],
+    "text": "3.Press the Program button to select the desired program.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-16",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.245,
+      0.758,
+      0.722
+    ],
+    "text": "4.Press the Start/Pause button,after 10 seconds, the dishwasher will start.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:figure-17",
+    "page_id": 48,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_48_Figure_0.jpg",
+    "bbox_norm": [
+      0.762,
+      0.245,
+      0.827,
+      0.795
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-49:text-1",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.222,
+      0.199,
+      0.562
+    ],
+    "text": ". Forget To Add A Dish?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-2",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.243,
+      0.241,
+      0.758
+    ],
+    "text": "A forgotten dish can be added any time before the detergent dispenser opens.If this is the case,follow the instructions below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-3",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.245,
+      0.257,
+      0.589
+    ],
+    "text": "1. Press the Start/Pause button to pause the washing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-4",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.258,
+      0.245,
+      0.273,
+      0.498
+    ],
+    "text": "2.Wait 5 seconds then open the door.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-5",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.276,
+      0.245,
+      0.291,
+      0.433
+    ],
+    "text": "3. Add the forgotten dishes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-6",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.292,
+      0.245,
+      0.308,
+      0.369
+    ],
+    "text": "4. Close the door.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-7",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.309,
+      0.245,
+      0.325,
+      0.72
+    ],
+    "text": "5.Press the Start/Pause button after 10 seconds,the dishwasher will start.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:figure-8",
+    "page_id": 49,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_49_Figure_0.jpg",
+    "bbox_norm": [
+      0.332,
+      0.245,
+      0.407,
+      0.794
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-49:text-9",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.44,
+      0.285,
+      0.46,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:figure-10",
+    "page_id": 49,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_49_Figure_1.jpg",
+    "bbox_norm": [
+      0.465,
+      0.281,
+      0.535,
+      0.379
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-49:text-11",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.392,
+      0.534,
+      0.715
+    ],
+    "text": "It is dangerous to open the door mid-cycle, as hot steam may scald you.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-12",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.566,
+      0.264,
+      0.592,
+      0.5
+    ],
+    "text": "Auto Open Door",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-13",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.263,
+      0.67,
+      0.617
+    ],
+    "text": "The dishwasher door opens automatically at the end of the program,which improves the drying results.(If the dishwasher is built-in the surrounding furnishings must be resistant to any condensation.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:figure-14",
+    "page_id": 49,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_49_Figure_2.jpg",
+    "bbox_norm": [
+      0.604,
+      0.642,
+      0.705,
+      0.802
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-49:text-15",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.699,
+      0.266,
+      0.719,
+      0.364
+    ],
+    "text": "NOTE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-16",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.29,
+      0.753,
+      0.766
+    ],
+    "text": "The dishwasher door must not be blocked when set to open automatically.   \nThis can disrupt door lock functionality.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-1",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.18,
+      0.217,
+      0.205,
+      0.439
+    ],
+    "text": "ERROR CODES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-2",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.214,
+      0.243,
+      0.231,
+      0.758
+    ],
+    "text": "If there is a malfunction,the dishwasher will display error codes to identify these:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:table-3",
+    "page_id": 50,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_50_Table_0.jpg",
+    "bbox_norm": [
+      0.236,
+      0.246,
+      0.425,
+      0.79
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-50:text-4",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.443,
+      0.287,
+      0.462,
+      0.424
+    ],
+    "text": "AWARNING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-5",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.264,
+      0.482,
+      0.745
+    ],
+    "text": "· If overflow occurs,turn off the main water supply before caling a service.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-6",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.264,
+      0.515,
+      0.771
+    ],
+    "text": "·If there is water in the base pan because of an overfillor small leak,the water should be removed before restarting the dishwasher.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-1",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.209,
+      0.208,
+      0.627
+    ],
+    "text": "TECHNICAL INFORMATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:figure-2",
+    "page_id": 51,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_51_Figure_0.jpg",
+    "bbox_norm": [
+      0.265,
+      0.271,
+      0.607,
+      0.733
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-51:table-3",
+    "page_id": 51,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_51_Table_0.jpg",
+    "bbox_norm": [
+      0.63,
+      0.281,
+      0.724,
+      0.758
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-52:text-1",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.217,
+      0.205,
+      0.516
+    ],
+    "text": "DATABASE ACCESS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-2",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.215,
+      0.262,
+      0.782
+    ],
+    "text": "In order to access to your model information stored in the product database,as set out in Regulation (EU) 2019/2017 and relating to energy labelling,please log on to the website: https://eprel.ec.europa.eu/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-3",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.215,
+      0.289,
+      0.787
+    ],
+    "text": "Look for the reference of your product on the website by putting the service reference that is indicated on your product rating plate.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-4",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.214,
+      0.315,
+      0.785
+    ],
+    "text": "Another means to access this information is to flash the \"QR\" code on the energy label of your product.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-1",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.19,
+      0.207,
+      0.205,
+      0.379
+    ],
+    "text": "ENAfterSales Service:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-2",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.204,
+      0.205,
+      0.228,
+      0.629
+    ],
+    "text": "Any maintenance on your equipment should be undertaken by: -Either your dealer,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-3",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.228,
+      0.205,
+      0.279,
+      0.808
+    ],
+    "text": "-Or another qualified mechanic who is an authorized agent for the brand appliances. When making an appointment, state the fullreference of your equipment (model, type and serial number). This information appears on the manufacturer's nameplate attached to your equipment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-4",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.207,
+      0.315,
+      0.305
+    ],
+    "text": "INFORMATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-5",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.207,
+      0.352,
+      0.782
+    ],
+    "text": "The minimum period of availabilityof spare parts listed in the European Regulation 2019-2022-EU and accessible in particular to the user of the appliance,is 10 years under the conditions layed down in the same regulation.",
+    "source_type": "text"
+  }
+]

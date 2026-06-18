@@ -1,0 +1,43 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_2312.10997v5",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_5_Table_0.jpg",
+      "raw_md": "table_pg5_num0.md",
+      "csv_base": "table_pg5_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_12_Table_0.jpg",
+      "raw_md": "table_pg12_num0.md",
+      "csv_base": "table_pg12_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_13_Table_0.jpg",
+      "raw_md": "table_pg13_num0.md",
+      "csv_base": "table_pg13_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_14_Table_0.jpg",
+      "raw_md": "table_pg14_num0.md",
+      "csv_base": "table_pg14_num0",
+      "status": "md_convert_failed",
+      "error": "LLM returned empty/non-table JSON"
+    }
+  ]
+}

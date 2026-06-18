@@ -1,0 +1,60 @@
+{
+  "image": "_page_13_Table_0.jpg",
+  "reason": "model_timeout",
+  "backend": "local",
+  "model": "qwen2.5vl:7b",
+  "timeout_seconds": 90.0,
+  "run_diagnostics": {
+    "image": "_page_13_Table_0.jpg",
+    "stages": [
+      {
+        "stage": "initial_extract",
+        "elapsed_seconds": 90.07,
+        "status": "failed"
+      },
+      {
+        "stage": "timeout_fast_retry",
+        "elapsed_seconds": 28.65,
+        "status": "success"
+      },
+      {
+        "stage": "timeout_ocr_last_resort",
+        "status": "started"
+      }
+    ],
+    "shape_hint": {
+      "expected_cols": 5,
+      "min_rows": 2,
+      "confidence": "medium",
+      "source": "image_projection_heuristic",
+      "enforce": false,
+      "enforce_cols": false
+    },
+    "risk_profile": {
+      "risk": "low",
+      "score": 1,
+      "width": 732,
+      "height": 1448,
+      "area": 1059936,
+      "aspect": 0.506,
+      "expected_cols": 5,
+      "min_rows": 2,
+      "shape_confidence": "medium"
+    },
+    "strategy": "default_flow"
+  },
+  "details": {
+    "strict_repair": false,
+    "comma_safe_tsv": false,
+    "stutter_safe_tsv": false,
+    "fast_mode": false,
+    "ocr_text_only": true,
+    "max_dimension": 1400,
+    "join_timeout_seconds": 90.0,
+    "forced_kill": false,
+    "stage_context": {
+      "strategy": "timeout_ocr_last_resort",
+      "risk": "low"
+    }
+  }
+}

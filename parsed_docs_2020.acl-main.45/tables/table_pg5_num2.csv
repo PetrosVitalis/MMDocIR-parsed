@@ -1,0 +1,8 @@
+Model,Chinese MSRA Prec.,Chinese MSRA Rec.,Chinese MSRA F1
+"Lattice-LSTM (Zhang and Yang, 2018)",93.57,92.79,93.18
+"BERT-Tagger (Devlin et al., 2018)",94.97,94.62,94.80
+"Glyce-BERT (Wu et al., 2019)",95.57,95.51,95.54
+"BERT-MRC(Li et al., 2019)",96.18,95.12,95.75
+BERT-MRC+FL,95.45,95.89,95.67
+BERT-MRC+DL,96.20,96.68,96.44
+BERT-MRC+DSC,96.67,96.77,96.72

@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">2021</td><td>2020</td><td>2019</td></tr><tr><td> United States</td><td>$</td><td>8,781 $</td><td>5,004 $</td><td>7,042</td></tr><tr><td>Foreign</td><td></td><td>1,493</td><td>715</td><td>439</td></tr><tr><td></td><td>$</td><td>10,274 $</td><td>5,719 $</td><td>7,481</td></tr></table>

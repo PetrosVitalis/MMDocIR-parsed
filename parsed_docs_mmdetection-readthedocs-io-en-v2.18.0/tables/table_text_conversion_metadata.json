@@ -1,0 +1,155 @@
+[
+  {
+    "table_id": "table_1",
+    "status": "failed",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "[\n  [\"1198, 1207, 1210， 1190, 1177, 1172, 1174, 1170, 1153, 1127, 1104, 1061, 1032, 1020]， 'all_points_y': [963, 899， 841, 787, 738, 700， 663， 638, 621, 619, 643, 672, 720, 765， 800, 860, 896， 942, 990, 1035, 1079\", \"\"]\n]"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "column_count_out_of_bounds(expected~2, got=14)",
+          "numeric_token_coverage_low(0.17)"
+        ],
+        "raw_llm_output": "{\n  \"table\": [\n    [\"1198\", \"1207\", \"1210\", \"1190\", \"1177\", \"1172\", \"1174\", \"1170\", \"1153\", \"1127\", \"1104\", \"1061\", \"1032\", \"1020\"],\n    [\"963\", \"899\", \"841\", \"787\", \"738\", \"700\", \"663\", \"638\", \"621\", \"619\", \"643\", \"672\", \"720\", \"765\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_2",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.40",
+          "too_few_columns",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[[\"python tools/analysis\\_tools/analyze\\_logs.py plot\\_curve log.json --keys loss\\_cls -- -legend loss\\_cls\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_3",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_4",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_5",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_6",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_7",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  }
+]

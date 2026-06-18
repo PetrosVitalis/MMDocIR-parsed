@@ -1,0 +1,7 @@
+Models,Joint Accuracy
+"BERT-DST (Rastogi et al., 2020)",43.40%
+DS-DST,51.21%
+BERT-DST-Picklist (single turn),39.86%
+BERT-DST-Picklist (whole dialog history),46.42%
+"ToD-BERT (Wu et al., 2020)",48.00%
+DS-Picklist,53.30%

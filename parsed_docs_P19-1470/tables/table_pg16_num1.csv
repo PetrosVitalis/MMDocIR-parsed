@@ -1,0 +1,5 @@
+Organization,Description,Relations,T_1,T_2
+PERSON X/Y,The training set is split into relations for the subjects of the event (Person X) and relations for other participants in the event,"T_1={xAttr, xEffect, xIntent, xNeed, xReact, xWant}","T_1={xAttr,""xEffect,xIntent,xNeed,xReact,xWant}","T_2={oEffect,oReact,oWant}"
+PRE/POST,"Event preconditions are jointly trained (i.e., intentions, needs). Event postconditions are jointly trained.","T_1={xIntent, xNeed}","T_1={xIntent,""xNeed}","T_2={oEffect,oReact,oWant,xEffect,xReact,xWant}"
+(IN)VOLUN,"Involuntary relations are trained jointly, such as reactions and effects. Voluntary relations are trained jointly, such as needs, wants, and intents.","T_1={oWant, xIntent, xNeed, xWant}","T_1={oWant,""xIntent,xNeed,xWant}","T_2={oEffect,oReact,xAttr,xEffect,xReact}"
+FULL,The training set is made up of all relations and the model is trained jointly on all of them,"T_1={oEffect, oReact, oWant, xAttr, xEffect, xIntent, xNeed, xReact, xWant}","T_1={oEffect,""oReact,oWant,xAttr,xEffect,xIntent,xNeed,xReact,xWant}","T_2={oEffect,oReact,oWant,xAttr,xEffect,xIntent,xNeed,xReact,xWant}"

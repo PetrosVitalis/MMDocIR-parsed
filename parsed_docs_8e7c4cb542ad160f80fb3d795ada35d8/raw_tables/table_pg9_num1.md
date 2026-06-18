@@ -1,0 +1,1 @@
+<table><tr><td>All Tracts in</td><td>Tracts with Upzoned</td><td>Tracts with Downzoned</td><td>Tracts with Contextual-only</td></tr><tr><td>NYC</td><td>Lots*</td><td>Lots*</td><td>Rezoned Lots*</td></tr><tr><td></td><td></td><td>35.7%</td><td></td></tr><tr><td>44.8%</td><td>30.8%</td><td></td><td>63.5%</td></tr></table>

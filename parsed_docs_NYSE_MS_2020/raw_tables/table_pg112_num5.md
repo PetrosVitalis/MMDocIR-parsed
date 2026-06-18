@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At</td><td>At</td></tr><tr><td>$ in millions</td><td>December 31,2020</td><td>December 31,2019</td></tr><tr><td>Nonaccrual loans</td><td>$ 1,407</td><td>$ 1,100</td></tr><tr><td>Nonaccrual loans 90 or more days past due</td><td>$</td><td>239$ 330</td></tr></table>

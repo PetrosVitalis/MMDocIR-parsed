@@ -1,0 +1,1 @@
+<table><tr><td> For the years ending December 31,</td></tr><tr><td>2020 $</td></tr><tr><td>2021 650</td></tr><tr><td>2022 400</td></tr><tr><td>2023</td></tr><tr><td>2024</td></tr><tr><td>Thereafter 1,650</td></tr><tr><td>Total $ 2,700</td></tr></table>

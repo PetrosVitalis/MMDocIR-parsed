@@ -1,0 +1,1 @@
+<table><tr><td>At September 30,</td><td colspan="2">2020</td><td colspan="2">2019</td></tr><tr><td>Retirement</td><td>$</td><td>200</td><td>$</td><td>154</td></tr><tr><td>Voluntary Severance</td><td></td><td>393</td><td></td><td>309</td></tr><tr><td>Total</td><td>$</td><td>593</td><td>$</td><td>463</td></tr></table>

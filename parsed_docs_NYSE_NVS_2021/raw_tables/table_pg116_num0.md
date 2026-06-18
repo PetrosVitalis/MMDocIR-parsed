@@ -1,0 +1,1 @@
+<table><tr><td>PERFORMANCEMEASURES</td><td>TRACKING</td></tr><tr><td>Net sales CAGR (25%)</td><td>0</td></tr><tr><td>Core operating income CAGR (25%)</td><td>0</td></tr><tr><td>Innovation (25%)</td><td>·</td></tr><tr><td>Relative TSR (25%)</td><td>O</td></tr></table>

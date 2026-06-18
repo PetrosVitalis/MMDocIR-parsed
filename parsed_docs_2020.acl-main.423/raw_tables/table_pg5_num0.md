@@ -1,0 +1,1 @@
+<table><tr><td>SenseBERTBASE</td><td>SemEval-SS Fine-tuned</td></tr><tr><td>30K no OOV</td><td>81.9</td></tr><tr><td>30K average OOV</td><td>82.7</td></tr><tr><td>60K no OOV</td><td>83</td></tr></table>

@@ -1,0 +1,8 @@
+Error Code,Description,Action 1,Action 2,Action 3,Action 4,Action 5,Action 6,Action 7
+Error codes\tSolutions\n0001: Reset error (platform reset not de-asserted)\t1. Remove all power resources (the ac power adapter,removable battery,and coin-cell battery). If your computer has a built-in battery,reset the computer by inserting a straightened paper clip into the emergency-reset hole. Wait for one minute. Then reconnect all power resources.\n2. Replace the system board (service provider only).\n0002: Internal bus error\tReplace the system board (service provider only).\n0281: General embedded controller error\tReplace the system board (service provider only).\n0282: Memory module error\t1. Reinstall or replace the memory module.\n,,,,,
+0281,General embedded controller error,Replace the system board (service provider only),,,,,,
+0282,Memory module error,Reinstall or replace the memory module,Replace the system board (service provider only),,,,,
+0283,PCI resource error,Remove PCIe devices (the M.2 card,PCIe card,and so on) (service provider only),Replace the system board (service provider only),,,
+0284,TCG-compliant functionality-related error (might be the BIOS code validation failure),Replace the system board (service provider only),,,,,,
+0285,TCG-compliant functionality-related error (might be the TPM initialization failure),Replace the system board (service provider only),,,,,,
+0286,Integrated graphics error,Replace the system board (service provider only),,,,,,

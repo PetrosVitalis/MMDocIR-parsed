@@ -1,0 +1,17 @@
+Settings,Dataset,Categories,Evaluation Metrics,Source link
+Fine-Grained Visual Recog.,Bird-200,200,"cACC, sACC",Bird website
+Fine-Grained Visual Recog.,Car-196,196,"cACC, sACC",Kaggle
+Fine-Grained Visual Recog.,Dog-120,120,"cACC, sACC",Tensorflow
+Fine-Grained Visual Recog.,Flower-102,102,"cACC, sACC",Tensorflow
+Fine-Grained Visual Recog.,Pet-37,37,"cACC, sACC",Tensorflow
+Few-Shot Image Recog.,RAF-DB,7,Accuracy,RAF-DB website
+Few-Shot Image Recog.,Eurosat,10,Accuracy,Tensorflow
+Few-Shot Image Recog.,DTD,47,Accuracy,Tensorflow
+Few-Shot Image Recog.,FGVC Aircraft,100,Accuracy,FGVC website
+Few-Shot Image Recog.,Caltech101,101,Accuracy,Tensorflow
+Few-Shot Image Recog.,Food101,101,Accuracy,Tensorflow
+Few-Shot Image Recog.,UCF-101,101,Accuracy,Tensorflow
+Few-Shot Image Recog.,SUN397,397,Accuracy,Tensorflow
+Few-Shot Image Recog.,ImageNet,1000,Accuracy,Tensorflow
+Zero-Shot Region Recog.,LVIS,1203,mAP,LVIS website
+Zero-Shot Region Recog.,V3Det,13204,mAP,Github

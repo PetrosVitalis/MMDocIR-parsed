@@ -1,0 +1,1 @@
+<table><tr><td>At December 31, December 31,</td></tr><tr><td>$ in millions 2020 Loans,before ACL</td></tr><tr><td>$ 167 $ 92 27 32</td></tr><tr><td>Lending commitments Allowance for loan losses and lending</td></tr><tr><td>36 16</td></tr></table>

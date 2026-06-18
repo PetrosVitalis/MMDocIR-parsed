@@ -1,0 +1,85 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_N19-1308",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_4_Table_0.jpg",
+      "raw_md": "table_pg4_num0.md",
+      "csv_base": "table_pg4_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_5_Table_0.jpg",
+      "raw_md": "table_pg5_num0.md",
+      "csv_base": "table_pg5_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_6_Table_0.jpg",
+      "raw_md": "table_pg6_num0.md",
+      "csv_base": "table_pg6_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_6_Table_1.jpg",
+      "raw_md": "table_pg6_num1.md",
+      "csv_base": "table_pg6_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_6_Table_2.jpg",
+      "raw_md": "table_pg6_num2.md",
+      "csv_base": "table_pg6_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_7_Table_0.jpg",
+      "raw_md": "table_pg7_num0.md",
+      "csv_base": "table_pg7_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_7",
+      "image": "_page_7_Table_1.jpg",
+      "raw_md": "table_pg7_num1.md",
+      "csv_base": "table_pg7_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_8",
+      "image": "_page_8_Table_0.jpg",
+      "raw_md": "table_pg8_num0.md",
+      "csv_base": "table_pg8_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

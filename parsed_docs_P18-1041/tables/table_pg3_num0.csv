@@ -1,0 +1,4 @@
+Model,Parameters,Complexity,Sequential Ops
+CNN,$\overline { { n \cdot K \cdot d } }$,$\mathcal { O } ( n \cdot L \cdot K \cdot d )$,O(1)
+LSTM,$4 \cdot d \cdot ( K + d )$,$\mathcal { O } ( L \cdot d ^ { 2 } + L \cdot K \cdot d )$,O(L)
+SWEM,0,$\mathcal { O } ( L \cdot K )$,O(1)

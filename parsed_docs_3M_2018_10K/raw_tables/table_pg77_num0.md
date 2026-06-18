@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td colspan="2">2018</td><td colspan="2">2017</td><td colspan="2">2016</td></tr><tr><td>Amortization expense</td><td>$</td><td>249</td><td></td><td>238</td><td>$</td><td>262</td></tr></table>

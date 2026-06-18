@@ -1,0 +1,1 @@
+<table><tr><td>Noise canceling function/Ambient Sound Mode|Available operating time</td><td></td></tr><tr><td>Noise canceling function: ON</td><td>Max. 24 hours</td></tr><tr><td>Ambient Sound Mode: ON</td><td>Max. 18 hours</td></tr><tr><td>OFF</td><td>Max. 30 hours</td></tr></table>

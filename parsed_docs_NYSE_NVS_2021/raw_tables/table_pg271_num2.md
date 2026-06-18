@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2019</td></tr><tr><td>Contributions for defined</td><td></td></tr><tr><td>contribution plans</td><td></td></tr><tr><td>discontinued operations</td><td>33</td></tr></table>

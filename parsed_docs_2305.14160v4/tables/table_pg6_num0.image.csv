@@ -1,0 +1,4 @@
+Method,SST-2,TREC,AGNews,EmoC,Average
+Vanilla In-Context Learning ( 1-shot per class ),61.28,57.56,73.32,15.44,51.90
+Vanilla In-Context Learning ( 5-shot per class ),64.75,60.40,52.52,9.80,46.87
+Anchor Re-weighting ( 1-shot per class ),90.07,60.92,81.94,41.64,68.64

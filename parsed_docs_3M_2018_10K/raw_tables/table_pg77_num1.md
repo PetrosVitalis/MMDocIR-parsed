@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td><td>After 2023</td></tr><tr><td>Amortization expense</td><td>$ 240$</td><td>228</td><td>$ 219 $</td><td>205$</td><td>174</td><td>$ 950</td></tr></table>

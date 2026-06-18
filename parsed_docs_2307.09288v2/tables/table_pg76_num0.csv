@@ -1,0 +1,23 @@
+Model Details,Model Details
+Model Developers,Meta AI
+Variations,"LLAMA 2 comes in a range of parameter sizes—7B,13B,and 70B—as well aspretrained and fine-tuned variations."
+Input,Models input text only.
+Output,Models generate text only.
+Model Architecture,LLAMA 2 is an auto-regressive language model that uses an optimized transformerarchitecture.The tuned versions use supervised fine-tuning (SFT) and reinforce-ment learning with human feedback (RLHF) to align to human preferences forhelpfulness and safety.
+Model Dates,LLAMA 2 was trained between January 2023 and July 2023.
+Status,This is a static model trained on an offline dataset.Future versions of the tunedmodels will be released as we improve model safety with community feedback.
+License,A custom commercial license is available at:ai.meta.com/resources/models-and-libraries/llama-downloads/
+Where to send com-ments,"Instructions on how to provide feedback or comments on the model can befound in the model README,or by opening an issue in the GitHub repository(https://github.com/facebookresearch/ilama/)."
+,Intended Use
+IntendedUse Cases,"LLAMA 2 is intended for commercial and research use in English. Tuned modelsare intended for assistant-like chat,whereas pretrained models can be adaptedfor a variety of natural language generation tasks."
+Out-of-Scope Uses,Use in any manner that violates applicable laws or regulations (including tradecompliance laws). Use in languages other than English. Use in any other waythat is prohibited by the Acceptable Use Policy and Licensing Agreement forLLAMA 2.
+,Hardware and Software (Section 2.2)
+Training Factors,"We used custom training libraries,Meta's Research Super Cluster,and produc-tion clusters for pretraining. Fine-tuning,annotation,and evaluation were alsoperformed on third-party cloud compute."
+Carbon Footprint,"Pretraining utilized a cumulative 3.3M GPU hours of computation on hardwareof type Ai00-80GB (TDP of 350-400W).Estimated total emissions were 539tCO2eq,100% of which were offset by Meta's sustainability program."
+Training Data (Sections 2.1 and 3),Training Data (Sections 2.1 and 3)
+Overview,"LLAMA 2 was pretrained on 2 trillion tokens of data from publicly availablesources.The fine-tuning data includes publicly available instruction datasets,aswell as over one million new human-annotated examples. Neither the pretrainingnor the fine-tuning datasets include Meta user data."
+Data Freshness,"The pretraining data has a cutoff of September 2022,but some tuning data ismore recent, up to July 2023."
+Evaluation Results,Evaluation Results
+See evaluations for pretraining (Section 2); fine-tuning (Section 3);and safety (Section 4).,See evaluations for pretraining (Section 2); fine-tuning (Section 3);and safety (Section 4).
+Ethical Considerations and Limitations (Section 5.2),Ethical Considerations and Limitations (Section 5.2)
+"LLAMA 2 is a new technology that carries risks with use. Testing conducted to date has been inEnglish,and has not covered, nor could it cover allscenarios.For these reasons,as with allLLMs,LLAMA 2's potential outputs cannot be predicted in advance,and the model may in some instancesproduce inaccurate or objectionable responses to user prompts.Therefore,before deploying anyapplications of LAMA 2,developers should perform safety testing and tuning tailored to theirspecific applications of the model. Please see the Responsible Use Guide available available athttps://ai.meta.com/llama/responsible-user-guide","LLAMA 2 is a new technology that carries risks with use. Testing conducted to date has been inEnglish,and has not covered, nor could it cover allscenarios.For these reasons,as with allLLMs,LLAMA 2's potential outputs cannot be predicted in advance,and the model may in some instancesproduce inaccurate or objectionable responses to user prompts.Therefore,before deploying anyapplications of LAMA 2,developers should perform safety testing and tuning tailored to theirspecific applications of the model. Please see the Responsible Use Guide available available athttps://ai.meta.com/llama/responsible-user-guide"

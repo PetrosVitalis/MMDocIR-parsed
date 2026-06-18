@@ -1,0 +1,2 @@
+config,backbone,optimizer,optimizer momentum,weight decay,base learning rate†,learning rate schedule,warmup epochs,epochs,repeated sampling [21],augmentation,batch size,queue length [15],τ (equation 1)
+config,ResNet-50,SGD,0.9,1e-4,0.03,cosine decay,5,200,see Table 5,see Table 4,4096,65536,0.05

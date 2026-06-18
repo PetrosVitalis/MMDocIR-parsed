@@ -1,0 +1,131 @@
+[
+  {
+    "table_id": "table_1",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_2",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": \"[[\",\"(a) SemEval-SS (The team used a battery of the newly developed “gene probes&quot; ) (Ten shirt-sleeved ringers stand in a circle,one foot ahead of the other in a prize-fighter's stance) \":\",\",\",\":\"],[\",\"BERT noun.artifact (noun.quantity) \":\",\",\"SenseBERT noun.group (noun.body) \":\"],[\",\"(b) WiC \":\",\",\",\":\"],[\",\"The kick must be synchronized with the arm movements. \":\",\",\"A sidecar is a smooth drink but it has a powerful kick. \":\"],[\",\",\":\",\",\"Plant a spy in Moscow. \":\"],[\",\"Plant bugs in the dissident's apartment. \":\",\",\",\":\"]]\"}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_3",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_4",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM parse failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_5",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_6",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": [[\"Name\", \"Content\", \"Name\", \"Content\"], [\"adj.all\", \"All adjective clusters\", \"noun.quantity\", \"Nouns denoting quantities and units of measure\"], [\"adj.pert\", \"Relational adjectives (pertainyms)\", \"noun.relation\", \"Nouns denoting relations betweenpeople or things or ideas\"], [\"adv.all\", \"All adverbs\", \"noun.shape\", \"Nouns denoting two and threedimensional shapes\"], [\"noun.Tops\", \"Unique beginner for nouns\", \"noun.state\", \"Nouns denoting stable states of affairs\"], [\"noun.act\", \"Nouns denotingacts or actions\", \"noun.substance\", \"Nouns denoting substances\"], [\"noun.animal\", \"Nouns denoting animals\", \"noun.time\", \"Nouns denoting time and temporalrelations\"], [\"noun.artifact\", \"Nouns denoting man-made objects\", \"verb.body\", \"Verbs of grooming, dressingand bodily care\"], [\"noun.attribute\", \"Nouns denoting attributes of peopleand objects\", \"verb.change\", \"Verbs of size, temperature change,intensifying,etc.\"], [\"noun.body\", \"Nouns denoting body parts\", \"verb.cognition\", \"Verbs of thinking, judging,analyzing,doubting\"], [\"noun.cognition\", \"Nouns denoting cognitiveprocesses and contents\", \"verb.communication\", \"Verbs of telling,asking, ordering,singing\"], [\"noun.communication\", \"Nouns denoting communicativeprocesses and contents\", \"verb.competition\", \"Verbsof fighting,athletic activities\"], [\"noun.event\", \"Nouns denoting natural events\", \"verb.consumption\", \"Verbs of eating and drinking\"], [\"noun.feeling\", \"Nouns denoting feelingsand emotions\", \"verb.contact\", \"Verbs of touching,hitting, tying,digging\"], [\"noun.food\", \"Nouns denoting foods and drinks\", \"verb.creation\", \"Verbs of sewing,baking, painting,performing\"], [\"noun.group\", \"Nouns denoting groupings of peopleor objects\", \"verb.emotion\", \"Verbs of feeling\"], [\"noun.location\", \"Nouns denoting spatial position\", \"verb.motion\", \"Verbs of walking,flying,swimming\"], [\"noun.motive\", \"Nouns denoting goals\", \"verb.perception\", \"Verbs of seeing, hearing, feeling\"], [\"noun.object\", \"Nouns denoting natural objects(not man-made)\", \"verb.possession\", \"Verbs of buying, selling,owning\"], [\"noun.person\", \"Nouns denoting people\", \"verb.social\", \"Verbsof political and socialactivities and events\"], [\"noun.phenomenon\", \"Nouns denoting natural phenomena\", \"verb.stative\", \"Verbs of being,having,spatial relations\"], [\"noun.plant\", \"Nouns denoting plants\", \"verb.weather\", \"Verbs of raining,snowing,thawing,thundering\"], [\"noun.possession\", \"Nouns denoting possessionand transfer of possession\", \"adj.ppl\", \"Participial adjectives\"], [\"noun.process\", \"Nouns denoting natural processes\", \"\", \"\"]]}"
+      }
+    ]
+  }
+]

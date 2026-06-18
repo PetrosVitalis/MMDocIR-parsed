@@ -1,0 +1,1 @@
+<table><tr><td></td><td>ROUGE</td><td>BLEU</td><td>METEOR</td><td>BELURT</td></tr><tr><td>T</td><td>0.999</td><td>0.799</td><td>0.600</td><td>0.999</td></tr><tr><td>P_value</td><td>0.014</td><td>0.050</td><td>0.142</td><td>0.014</td></tr></table>

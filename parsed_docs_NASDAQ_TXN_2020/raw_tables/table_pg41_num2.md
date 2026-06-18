@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Shares</td><td>Exercise Price</td></tr><tr><td>Outstanding grants, December 31, 2019.</td><td>173,849</td><td>$110.14</td></tr><tr><td>Granted ..</td><td>714,680</td><td>108.74</td></tr><tr><td>Exercised .</td><td>(745,483)</td><td>103.48</td></tr><tr><td>Outstanding grants, December 31, 2020.</td><td>143,046</td><td>137.89</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td></td><td>2019</td><td>Change</td></tr><tr><td>Revenue..</td><td>$ 2,570</td><td></td><td>$2,943</td><td>(13)%</td></tr><tr><td>Operating profit .</td><td>743</td><td></td><td>907</td><td>(18)%</td></tr><tr><td>Operating profit % of revenue.</td><td></td><td>28.9%</td><td>30.8%</td><td></td></tr></table>

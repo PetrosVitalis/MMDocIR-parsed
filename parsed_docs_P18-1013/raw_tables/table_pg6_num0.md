@@ -1,0 +1,1 @@
+<table><tr><td>Method</td><td>ROUGE-1</td><td>ROUGE-2</td><td>ROUGE-L</td></tr><tr><td>pre-trained end2end w/o inconsistency loss end2end w/ inconsistency loss</td><td>73.50 72.97 78.40</td><td>35.55 35.11</td><td>68.57 67.99</td></tr><tr><td> ground-truth labels</td><td>89.23</td><td>39.45 49.36</td><td>73.83 85.46</td></tr></table>

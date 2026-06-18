@@ -1,0 +1,64 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NYSE_MS_2020",
+  "total_images": 11,
+  "non_figure_images_skipped": 306,
+  "processed": 11,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_70_Asset_0.jpg",
+      "output": "image_descriptions/_page_70_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_64_Figure_0.jpg",
+      "output": "image_descriptions/_page_64_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_70_Asset_1.jpg",
+      "output": "image_descriptions/_page_70_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_31_Asset_0.jpg",
+      "output": "image_descriptions/_page_31_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_166_Asset_0.jpg",
+      "output": "image_descriptions/_page_166_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_30_Asset_2.jpg",
+      "output": "image_descriptions/_page_30_Asset_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_30_Asset_1.jpg",
+      "output": "image_descriptions/_page_30_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_30_Asset_0.jpg",
+      "output": "image_descriptions/_page_30_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Asset_0.jpg",
+      "output": "image_descriptions/_page_29_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Asset_1.jpg",
+      "output": "image_descriptions/_page_29_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_29_Asset_2.jpg",
+      "output": "image_descriptions/_page_29_Asset_2.md",
+      "status": "success"
+    }
+  ]
+}

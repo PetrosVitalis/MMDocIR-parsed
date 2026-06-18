@@ -1,0 +1,3572 @@
+[
+  {
+    "layout_id": "page-0:table-1",
+    "page_id": 0,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_0_Table_0.jpg",
+    "bbox_norm": [
+      0.121,
+      0.119,
+      0.179,
+      0.921
+    ],
+    "text": "Complainant Information",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.117,
+      0.309,
+      0.328
+    ],
+    "text": "Name   \nPrefix (eg: Mr,Ms, Mrs)   \nMiddle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.327,
+      0.117,
+      0.347,
+      0.268
+    ],
+    "text": "Suffix (eg: Jr,III)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.359,
+      0.117,
+      0.621,
+      0.402
+    ],
+    "text": "Address   \nAddress   \nCity   \nState   \nZip Code   \nCountry   \nE-mail Address   \nTelephone (Home)   \nTelephone (Work)   \nExt.   \nTelephone (Cell)   \nDesignate Primary Contact Phone Number",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.119,
+      0.648,
+      0.348
+    ],
+    "text": "Insured Information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.117,
+      0.709,
+      0.389
+    ],
+    "text": "Are you the insured? Relationship to Insured/Covered Person",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.119,
+      0.802,
+      0.328
+    ],
+    "text": "Name   \nPrefix (eg: Mr,Ms,Mrs)   \nMiddle   \nSuffix (eg: Jr, III) Address Address City   \nState   \nRedacted byirst   \nNV DOI Last Submitting on behalf of Organization/Entity? Redacted by NV DOI Las Vegas Nevada   \nRedacted by ovince   \nNV DOI County Redacted by NV DOI Redacfed by NV DOI Redacted by NV DOI Redacted by NV DOI Designate Primary Method of Cell Communication",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.464,
+      0.668,
+      0.494
+    ],
+    "text": "No",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.688,
+      0.466,
+      0.707,
+      0.597
+    ],
+    "text": "Bail Bondsman",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.741,
+      0.431,
+      0.801,
+      0.637
+    ],
+    "text": "First Redacted by NV Doast Organization Name",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-14",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.82,
+      0.466,
+      0.893,
+      0.585
+    ],
+    "text": "Redacted by NV DOI Las Vegas Nevada",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-15",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.786,
+      0.317,
+      0.914
+    ],
+    "text": "Redacted by NY DOI Redacted by NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-16",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.815,
+      0.344,
+      0.847
+    ],
+    "text": "No",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-17",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.85,
+      0.618,
+      0.895
+    ],
+    "text": "Both",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-18",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.732,
+      0.807,
+      0.792,
+      0.914
+    ],
+    "text": "Redacted by NV DOI Redacted by NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:table-1",
+    "page_id": 1,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_1_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.112,
+      0.178,
+      0.889
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.185,
+      0.115,
+      0.206,
+      0.33
+    ],
+    "text": "Complaint Against",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:table-3",
+    "page_id": 1,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_1_Table_1.jpg",
+    "bbox_norm": [
+      0.209,
+      0.112,
+      0.289,
+      0.879
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.114,
+      0.597,
+      0.37
+    ],
+    "text": "Insurance Information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:table-5",
+    "page_id": 1,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_1_Table_2.jpg",
+    "bbox_norm": [
+      0.599,
+      0.112,
+      0.636,
+      0.872
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.647,
+      0.115,
+      0.665,
+      0.176
+    ],
+    "text": "Policy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:table-7",
+    "page_id": 1,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_1_Table_3.jpg",
+    "bbox_norm": [
+      0.744,
+      0.114,
+      0.799,
+      0.917
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.837,
+      0.114,
+      0.861,
+      0.32
+    ],
+    "text": "Complaint Details",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.098,
+      0.115,
+      0.13,
+      0.266
+    ],
+    "text": "Type of Problem Bail",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.138,
+      0.115,
+      0.155,
+      0.293
+    ],
+    "text": "Detail of Complaint",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.116,
+      0.436,
+      0.134,
+      0.728
+    ],
+    "text": "Other Problem Type Description",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.157,
+      0.122,
+      0.439,
+      0.953
+    ],
+    "text": "On 11/07/2014 RedvD0by (co-signer)cameintoouroffice (locatedatRdy Redacted byo bail out 1Redacted by ReVaooi by was being chargeaQWith Domestic Battery (1St), which was a \\$3,00o bond. So Mr. (Defendant) from Clark County Detention Center. Ms. RddXcRPby Went down to the Clark County Detention Center to post bond for Ms Redacted bythey told me NVDQI illed outallof the proper paperwork and paid S500 via credit card.Now when we another bail company hadalready posted bond for the same person. WheYPgUt back to the office,Ialledhe NvDOI toask ifthey have gone somewhere elseforthe bond or if maybe one of her friends or relatives did. They replied \"NO\" that we where the only ones that they have spoke with and did not want any other bail company to post bond for Ms.Redacted by didRedacted yoro Well",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.114,
+      0.458,
+      0.417
+    ],
+    "text": "Describe what you would consider",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.459,
+      0.114,
+      0.476,
+      0.375
+    ],
+    "text": "to be a fair resolution to your",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.114,
+      0.492,
+      0.209
+    ],
+    "text": "complaint",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.135,
+      0.579,
+      0.909
+    ],
+    "text": "Well to be fair would to let the defendant choose who she wanted to bail threw.Not to be forced to bail threw a bonding company that she did not choose or her family.I don't understand how you can self bail with out a co-signer or paying any money up front. I thought us (Bail Agents) had to follow guidelines so things like this wouldn't happen and so that it would be fair to all the other bail companies out there trying to make money.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.586,
+      0.112,
+      0.605,
+      0.468
+    ],
+    "text": "Documentation and Declaration",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.112,
+      0.635,
+      0.253
+    ],
+    "text": "Documentation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.11,
+      0.674,
+      0.439
+    ],
+    "text": "Do you have supporting documents? If so, how will you send them to us?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.112,
+      0.704,
+      0.419
+    ],
+    "text": "Declaration/Authorization/Release",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.459,
+      0.674,
+      0.83
+    ],
+    "text": "UploadFaxMailNone to supply",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.099,
+      0.114,
+      0.216,
+      0.558
+    ],
+    "text": "I certify the information provided is true and accurate to the best of my knowledge and belief. I understand a copy of this form and attachments may be forwarded to the insurance company,agent, broker or other party with information about my complaint. IAgree",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.218,
+      0.114,
+      0.319,
+      0.558
+    ],
+    "text": "I authorize my insurance company to   \nrelease to the Nevada Division of   \nInsurance any medical and financial or   \ncredit (if applicable) information   \nwhich may be pertinent to the   \nresolution of my complaint.\\* IAgree",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.115,
+      0.346,
+      0.177
+    ],
+    "text": "Other",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.114,
+      0.397,
+      0.901
+    ],
+    "text": "Note: If you check yes,a copy of your complaint will be sent to the respondent, but we will not release information regarding your complaint to anyone else.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.115,
+      0.472,
+      0.874
+    ],
+    "text": "Do you want your complaint and the   \ninformation we obtain during our   \nreview to be kept confidential? No Are you represented by an attorney? No   \nHow did you hear about us? Other",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-1",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.096,
+      0.087,
+      0.182,
+      0.211
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.106,
+      0.246,
+      0.123,
+      0.528
+    ],
+    "text": "Department of Business and Industry",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.246,
+      0.16,
+      0.795
+    ],
+    "text": "Nevada Division of Insurance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.171,
+      0.359,
+      0.19,
+      0.671
+    ],
+    "text": "CONSUMER COMPLAINT FORM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-5",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_1.jpg",
+    "bbox_norm": [
+      0.204,
+      0.063,
+      0.238,
+      0.219
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.231,
+      0.264,
+      0.446
+    ],
+    "text": "1818 E. College Pkwy #103 Carson City, NV 89706 775-687-0700 Phone 775-687-0797 Fax",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.523,
+      0.264,
+      0.843
+    ],
+    "text": "Mall to: 2501 E. Sahara Ave #302 Las Vegas. NV 89104 702-486-4009 Phone 702-486-4007 Fax",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.281,
+      0.11,
+      0.311,
+      0.926
+    ],
+    "text": "Inltial this box If you want the Divlslon of Insurance to treat records of your Consumer Complalnt as confidential.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.311,
+      0.208,
+      0.34,
+      0.82
+    ],
+    "text": "Are you represented by an attomey? Yes . No上 lf yes, please be advised the Division may not be able to intercede on your behalf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-10",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_2.jpg",
+    "bbox_norm": [
+      0.353,
+      0.065,
+      0.574,
+      0.983
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.587,
+      0.07,
+      0.604,
+      0.288
+    ],
+    "text": "Insurance Information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.665,
+      0.07,
+      0.687,
+      0.593
+    ],
+    "text": "Typepley:roupndiualnkno",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.07,
+      0.739,
+      0.518
+    ],
+    "text": "If auto related,License Plate No:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-14",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.748,
+      0.07,
+      0.767,
+      0.516
+    ],
+    "text": "Date of Logs/Accldent/incident: .",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.086,
+      0.07,
+      0.105,
+      0.271
+    ],
+    "text": "Define your problem",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.054,
+      0.276,
+      0.127,
+      0.444
+    ],
+    "text": "X agl",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.07,
+      0.128,
+      0.273
+    ],
+    "text": "Please check all that apply:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.134,
+      0.085,
+      0.148,
+      0.208
+    ],
+    "text": "□Claim denial",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.131,
+      0.35,
+      0.148,
+      0.598
+    ],
+    "text": "□Unsatisfactory claim settlement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.149,
+      0.085,
+      0.162,
+      0.244
+    ],
+    "text": "Premium increase",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.148,
+      0.35,
+      0.161,
+      0.473
+    ],
+    "text": "Ciaim Uelay",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.162,
+      0.085,
+      0.175,
+      0.293
+    ],
+    "text": "Cancellation/nnn-renewa!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.35,
+      0.175,
+      0.511
+    ],
+    "text": "门 Misrepresentation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.188,
+      0.072,
+      0.212,
+      0.362
+    ],
+    "text": "Give a brief pxplanation of the Droblem: Redacted by DOH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.193,
+      0.402,
+      0.22,
+      0.661
+    ],
+    "text": "Redacted by DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.602,
+      0.204,
+      0.976
+    ],
+    "text": "Bllling problem PhVetim □ Ohe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:figure-13",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.209,
+      0.041,
+      0.742,
+      0.986
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-14",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.745,
+      0.075,
+      0.76,
+      0.236
+    ],
+    "text": "Releaee for Intormation:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-15",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.088,
+      0.809,
+      0.946
+    ],
+    "text": "lcertifythattheinfoatonfumishedbymeinsupportofthsConsumerComplant stothebestofmyknowledgetrueandcoect IfthlsConsurComplatvdcalcdseditftioerebyuthoremysueronyteretytedical nftioeditftitidethtitevdsfsuacAyecaloaclaloaeed to the Divislon wll ba kept confidential.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-16",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.09,
+      0.832,
+      0.926
+    ],
+    "text": "lhavereadendundersandthisreleaseIfurterreprsetaamteperonflingtheConsmerComplaintandthalisysignature below. S",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-17",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.832,
+      0.077,
+      0.878,
+      0.463
+    ],
+    "text": "Redacted by Slgnature: NVDOL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-18",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.614,
+      0.871,
+      0.865
+    ],
+    "text": "Dete:-13-1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-19",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.882,
+      0.332,
+      0.938,
+      0.691
+    ],
+    "text": "Pge",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.098,
+      0.159,
+      0.286
+    ],
+    "text": "Pleasg check all that apply:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.162,
+      0.11,
+      0.175,
+      0.234
+    ],
+    "text": "□Claim deniel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-3",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.204,
+      0.085,
+      0.478,
+      0.907
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:table-4",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.555,
+      0.072,
+      0.744,
+      0.984
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.11,
+      0.787,
+      0.907
+    ],
+    "text": "IcerufythateIfoationunshedbymeinsupproftsConsComplaintig totebestfmyknowedge truendcoc IftisConsComantmedclrecodsediebtoeureeitidal infoatioditfitpviethifitoeNeadafrceAealocalieeed to the Divlslon will be kept confldential.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.114,
+      0.808,
+      0.89
+    ],
+    "text": "lavereadanddersandthisreleaselfurerepreetthepergonlngteConerCoplaintdatitiysigature below /",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.038,
+      0.929,
+      0.939
+    ],
+    "text": "ittdtthouto Redacted by 1 NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.354,
+      0.102,
+      0.674
+    ],
+    "text": "LIMITED POWER OF ATTORNEY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.123,
+      0.115,
+      0.378,
+      0.939
+    ],
+    "text": "KNOW ALL MEN BY THESE PRESENTS,that I, Redacted by   \nNV DOI   \nof Redacted by levada, do hereby NV DQI   \nnominate, constitute, and appoint Redacted by NV DOI . my true and lawful attomey in fact, for me and in my name,place and stead, and for my use and benefit forthelimitedpurposeot tlonding almy inanceal matto eeuing andmcouehg mgannom tdle iccn Compond ao wel a udnieardle.oe ard to access and emoue my mopeilylaon my otuage。",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.115,
+      0.533,
+      0.894
+    ],
+    "text": "GIVING AND GRANTING unto my said attorney in fact full power and authority to do and perform the above mentioned act as fully as I might or could do if personally present, with ful power of substitution and revocation, hereby ratifying and confirming all that my said attorney in fact shall lawfully do or cause to be done by virtue hereof;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.657,
+      0.652,
+      0.822
+    ],
+    "text": "Redacted by   \nNV DOI   \n(Your signature)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.114,
+      0.728,
+      0.38
+    ],
+    "text": "STATE OF NEVADA ） )ss. COUNTYOF WASHOE )",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.735,
+      0.112,
+      0.783,
+      0.89
+    ],
+    "text": "ThisinstrumentwasacknowtedgedbeforemeonOctbber22014 by Redacted by NVDOL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.808,
+      0.016,
+      0.878,
+      0.483
+    ],
+    "text": "His AOA was Signed g Complunents dghter",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.828,
+      0.536,
+      0.864,
+      0.909
+    ],
+    "text": "NOTARYPUBLIC,STATEOF NEVADA My Appointment Expires:f2 ·2-74",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.02,
+      0.173,
+      0.983
+    ],
+    "text": "This is a copy otthe doccrmenL /that was given'to the complainent Redacted by Dor(lst name ununown)smanagerof Redacted' by DOI:/ have recoudings oy redacted by Do1 tUW EA Ur AIIvnN;! heVehicehelongLo Redacted by DOI lmine this docciments maues",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.173,
+      0.144,
+      0.276,
+      0.901
+    ],
+    "text": "That I. the defendam.by thcsc presents do make.constiture ond appoint MKES FAMiLY BAlL BONDs my true ind lwful ntorney for me and inmy nameplace and slead toci for me in the Court ofny chargcs. the counly the Stae.in connection with thc charges l was hailed out withNow pending against me in saidConlvanel i cnter sucl plca as he may fecl is proper in conncction with the said charge. giving and granting unto my said atomcy full power and uthority todoand perform alland cvery act nnd thing whatsocver requisitc and necessary to bc donc in nd abou the promiscs as fully,tn nl iments and puposes.ns l might or could do if personally entwih tllpower cfsubtitutionand revocation.hereby tifying andconfirming all hmvsaid atorev or/ his substitute shatl lnwfully do or cause to be donc by virtue hercof. ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.283,
+      0.145,
+      0.296,
+      0.587
+    ],
+    "text": "IN WITNEsS WHEREOF. I lave hereunlo sel my hand iund scal ihis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.145,
+      0.32,
+      0.654
+    ],
+    "text": "saeNeuado",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.365,
+      0.147,
+      0.385,
+      0.697
+    ],
+    "text": "IMPORTANT! Ameriean Surety Cmnpny necepts and authorizes ils repnsematives to acept my peeifie lms nf cnlbteral as secnrir.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.147,
+      0.396,
+      0.442
+    ],
+    "text": "THIS ACCEPTABLE COLLATERAL IS LIMITED TO:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.206,
+      0.406,
+      0.577
+    ],
+    "text": "1.CASH imelrding cachiers hecks.mmev onlers.nnd certified check",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.206,
+      0.425,
+      0.441
+    ],
+    "text": "3.Properly msined SToCks ANb nONDS:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.425,
+      0.204,
+      0.445,
+      0.837
+    ],
+    "text": "REAL EsTTE cvidenced hypmperlyexeeednugeet of cofesionufdeme inennce with applientfe xlate law.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.451,
+      0.147,
+      0.48,
+      0.805
+    ],
+    "text": "MPORTANTheteraleryreipandgeentsdnhedeetinjuiieeeteral Representalives nre mot nnthorized t accet mdAmerican SunetyCmy ie erespanile fnrmyteomoeral thn clter merahwe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.491,
+      0.147,
+      0.513,
+      0.884
+    ],
+    "text": "TO DEFENDANT AND INDEMNITORISJ: YOU ARE ENTITLED TO A SIONED RECEIPT POK COLLATERAL YOU HAVE GIVEN TO THEBONDING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-12",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.147,
+      0.532,
+      0.872
+    ],
+    "text": "AGENT TO SECURE AND INDEMNIFY TIS BOND PURSUANT TO THE TERMS OF THIS AGREEMENT. ANY PROPERTY DEUD ORMORTGAGE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-13",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.147,
+      0.557,
+      0.854
+    ],
+    "text": "MUST BE TAKEN IN THE NAME OF AMERICAN SURETY COMPANY.BE SURE ALL YOUR COLLATERAL IS ITEMIZED ON YOUR COLLATERAL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-14",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.562,
+      0.449,
+      0.574,
+      0.583
+    ],
+    "text": "PROMISSORY NOTE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-15",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.145,
+      0.731,
+      0.882
+    ],
+    "text": "On demnnd nfier dntc.for valne rcceived, Promise tn pay to the order of AMERiCAN SURET'Y COMAPANY or asigns gl Mikes Family Bail Bonds, with interest theron at the rate of O%per cent, per annum from Call Datc until folly paid. Interest payable setni-anmually. The maker and cndorser of this note further agree to waive demand, notice of non-paynent nnd protest; and in case smit shall he brought for the colletton hereof or the same has to be collcted npon denand ef atorney tn pay reasirstble nttrncy's fee5 for making such culection. Deferred interest payments to henr interest from mafurity at zern per cent, per annum payable xemi-annuaily. I is further agreetl and specifically understnod that this note shall become Nall nd Void in the cvcnt thc xaid defendant. Shall appear in the proper cotrt",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-16",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.735,
+      0.147,
+      0.755,
+      0.38
+    ],
+    "text": "DATE2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-17",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.147,
+      0.799,
+      0.263
+    ],
+    "text": "Indeniitr",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:figure-20",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.763,
+      0.677,
+      0.824,
+      0.75
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-21",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.745,
+      0.775,
+      0.775,
+      0.869
+    ],
+    "text": "Redacted by NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-22",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.033,
+      0.942,
+      0.971
+    ],
+    "text": "The Vehide in questionisa 20oI VlA Geonov being hed by Auto Tiule KOen on Qlendele.ATL retuses to release vehicle to compleiient 0255",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.142,
+      0.243,
+      0.879
+    ],
+    "text": "Schaol Parents a",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.26,
+      0.144,
+      0.279,
+      0.88
+    ],
+    "text": "Audress:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.144,
+      0.315,
+      0.882
+    ],
+    "text": "Poosc",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.365,
+      0.145,
+      0.388,
+      0.887
+    ],
+    "text": "Phonc Brothers or Sisters: Pbone:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.145,
+      0.426,
+      0.885
+    ],
+    "text": "Adaress:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-10",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.149,
+      0.501,
+      0.885
+    ],
+    "text": "Addrc.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-11",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.149,
+      0.538,
+      0.89
+    ],
+    "text": "Best Friend:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-12",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.151,
+      0.61,
+      0.89
+    ],
+    "text": "DefondentsAomey. Phonc:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-13",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.623,
+      0.151,
+      0.648,
+      0.887
+    ],
+    "text": "Address:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-14",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.654,
+      0.14,
+      0.68,
+      0.672
+    ],
+    "text": "1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-15",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.174,
+      0.781,
+      0.667
+    ],
+    "text": "Redacted by DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-16",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.862,
+      0.016,
+      0.945,
+      0.963
+    ],
+    "text": "This docx ment was qivento complainent parpoutingto beproott Redacted by sibninobvertkevelide. NVDOI 0256",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.258,
+      0.173,
+      0.781
+    ],
+    "text": "Nevada Division of Insurance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.184,
+      0.364,
+      0.201,
+      0.661
+    ],
+    "text": "CONSUMER COMPLAINT FORM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.218,
+      0.127,
+      0.237,
+      0.446
+    ],
+    "text": "Mail to: 1818 E. College Pkwy #103",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.243,
+      0.247,
+      0.412
+    ],
+    "text": "Carson City， NV 89706",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.219,
+      0.52,
+      0.237,
+      0.825
+    ],
+    "text": "Mail to: 2501 E. Sahara Ave #302",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.243,
+      0.26,
+      0.404
+    ],
+    "text": "775-687-0700 Phone",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.235,
+      0.637,
+      0.248,
+      0.798
+    ],
+    "text": "Las Vegas, NV 89104",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-8",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.258,
+      0.243,
+      0.273,
+      0.385
+    ],
+    "text": "775-687-0797 Fax",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-9",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.635,
+      0.26,
+      0.796
+    ],
+    "text": "702-486-4009 Phone",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-10",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.26,
+      0.637,
+      0.273,
+      0.78
+    ],
+    "text": "702-486-4007 Fax",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.29,
+      0.125,
+      0.318,
+      0.904
+    ],
+    "text": "Initial this box if you want the Division of Insurance to treat records of your Consumer Complaint as confidential.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-12",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.318,
+      0.312,
+      0.333,
+      0.711
+    ],
+    "text": "Are you represented by an attorney? Yes\\_No",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-13",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.332,
+      0.219,
+      0.347,
+      0.803
+    ],
+    "text": "If yes, please be advised the Division may not be able to intercede on your behaif.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-14",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.085,
+      0.374,
+      0.348
+    ],
+    "text": "Your contact information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-15",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.083,
+      0.387,
+      0.439
+    ],
+    "text": "Redacted by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-16",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.384,
+      0.085,
+      0.403,
+      0.436
+    ],
+    "text": "Name: NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-17",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.085,
+      0.479,
+      0.924
+    ],
+    "text": "Home Phone: Work phone:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-18",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.083,
+      0.505,
+      0.926
+    ],
+    "text": "Redacted by Cell Phone NV DOI mail:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-19",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.515,
+      0.085,
+      0.534,
+      0.664
+    ],
+    "text": "Policyholder information (if complaint is against other party's insurance)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-20",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.085,
+      0.562,
+      0.651
+    ],
+    "text": "Name of policyholder:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-21",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.589,
+      0.085,
+      0.605,
+      0.293
+    ],
+    "text": "Insurance information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-22",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.616,
+      0.085,
+      0.633,
+      0.432
+    ],
+    "text": "Insurance company the complaint is against:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-23",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.085,
+      0.688,
+      0.587
+    ],
+    "text": "Type of policy: □Group口Individual □Unknown",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-24",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.697,
+      0.085,
+      0.714,
+      0.515
+    ],
+    "text": "Policy No:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-25",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.697,
+      0.6,
+      0.713,
+      0.859
+    ],
+    "text": "Claim No:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-26",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.723,
+      0.085,
+      0.739,
+      0.513
+    ],
+    "text": "If auto related, License Plate No:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-27",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.748,
+      0.085,
+      0.764,
+      0.513
+    ],
+    "text": "Date of Loss/Accident/lncident:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-28",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.786,
+      0.085,
+      0.801,
+      0.815
+    ],
+    "text": "insurance: □Auto口Home/Condo/Renters口Health口 Life口Dental",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-29",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.826,
+      0.253,
+      0.845,
+      0.718
+    ],
+    "text": "□Other.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-30",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.853,
+      0.085,
+      0.871,
+      0.718
+    ],
+    "text": "AgentAgency Name:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.096,
+      0.102,
+      0.114,
+      0.295
+    ],
+    "text": "Define your problem",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.102,
+      0.135,
+      0.296
+    ],
+    "text": "Please check all that apply:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.114,
+      0.179,
+      0.315
+    ],
+    "text": "Claim denial Premium increase □ Cancellation/non-renewal",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.37,
+      0.181,
+      0.609
+    ],
+    "text": "Unsatisfactory claim settlement Claim Delay 门 Misrepresentation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.102,
+      0.207,
+      0.379
+    ],
+    "text": "Give a brief expianation of the problem:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.062,
+      0.707,
+      0.981
+    ],
+    "text": "yoContacleunbasbondsal Dumerg Redacted by DoI X una Rercona ice qu- hobl a este numero Redacted by DoI mecontesta una Persongliamgdg Redacted by eee ni NV DOr Ngqome Prsentoconaqveme ayude aPodec Sacera mo delo acelclequea la Comutaora xeve q s me Va a de cxudarmedio cuonto traiad inera f6bsye goe tenig8ooyontfulode UnaCamianeta4esoCamionetgeglaa al nombre e mye X de mi marido dye eslauenXeeayudoPorgueestaa Desiredresouton:nombcemimardeluaafGmare +uloye qaFrque1O1uaarma Hagve nmesmienfros me ayedavaxG eesperadayalfnCento nonosayuo nme rava csn mentiros espse doS na me canete eekfovo mensaysYno me los Condeseva",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.741,
+      0.102,
+      0.754,
+      0.258
+    ],
+    "text": "Reiease for Information:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.115,
+      0.823,
+      0.916
+    ],
+    "text": "havereadandunderstandthiseleaselurtherrepresethatamthepersonflingtheConsumerComplaintandthatitismysignature below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.823,
+      0.619,
+      0.859,
+      0.837
+    ],
+    "text": "Date:/-81S",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.236,
+      0.146,
+      0.788
+    ],
+    "text": "Nevada Division of Insurance CONSUMER COMPLAINT FORM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.827,
+      0.128,
+      0.949
+    ],
+    "text": "DEC31204",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.162,
+      0.098,
+      0.219,
+      0.432
+    ],
+    "text": "Mail to:1818 E. College Pkwy #103 Carson City, NV 890706 775-687-0700 Phone 775-687-0797 Fax",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.165,
+      0.51,
+      0.222,
+      0.83
+    ],
+    "text": "Mail to: 2501 E. Sahara Ave #302 Las Vegas, NV 89104 702-486-4009 Phone 702-486-4007 Fax",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-5",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.245,
+      0.095,
+      0.275,
+      0.917
+    ],
+    "text": "Initial this box if you want the Division of Insurance to treat records of your Consumer Complaint as confidential.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-6",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.203,
+      0.333,
+      0.817
+    ],
+    "text": "Are you represented by an attorney? Yes No If yes, please be advised the Division may not be able to intercede on your behalf.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-7",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.343,
+      0.053,
+      0.359,
+      0.302
+    ],
+    "text": "Your contact information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-8",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.052,
+      0.391,
+      0.947
+    ],
+    "text": "Name: Redacted by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-9",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.396,
+      0.053,
+      0.419,
+      0.83
+    ],
+    "text": "Address:.. Redacted by NVDOT Apt.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-10",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.053,
+      0.451,
+      0.828
+    ],
+    "text": "City:L State: Zip: NVDOI Redacted by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-11",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.45,
+      0.05,
+      0.473,
+      0.939
+    ],
+    "text": "Home Phone: Redacted by NV DOI Work phone:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-12",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.477,
+      0.052,
+      0.504,
+      0.941
+    ],
+    "text": "Cell Phone: Redacted by Email: NV DOT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-13",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.053,
+      0.53,
+      0.489
+    ],
+    "text": "Policyholder information (if different than above)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-14",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.542,
+      0.053,
+      0.56,
+      0.234
+    ],
+    "text": "Name of policyholder:\\_",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-15",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.598,
+      0.053,
+      0.616,
+      0.271
+    ],
+    "text": "Insurance information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-16",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.05,
+      0.646,
+      0.525
+    ],
+    "text": "Insurance CompanyRedaCted by DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-17",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.657,
+      0.12,
+      0.676,
+      0.417
+    ],
+    "text": "Type of policy: □ Group",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-18",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.657,
+      0.523,
+      0.676,
+      0.854
+    ],
+    "text": "Individual □ Unknown",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-19",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.053,
+      0.705,
+      0.468
+    ],
+    "text": "Policy No:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-20",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.536,
+      0.705,
+      0.907
+    ],
+    "text": "Claim No:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-21",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.712,
+      0.053,
+      0.731,
+      0.463
+    ],
+    "text": "If DMV related,License Plate No:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-22",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.738,
+      0.053,
+      0.758,
+      0.469
+    ],
+    "text": "Date of Loss:3/8-/4",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-23",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.083,
+      0.79,
+      0.937
+    ],
+    "text": "Type of insurance: □AutoC Home/Condo/Renters HealthLife口Dental",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-24",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.092,
+      0.814,
+      0.885
+    ],
+    "text": "□ Long Term Care Medical Supplemental Ext. Warranty/Service Contract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-25",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.82,
+      0.093,
+      0.845,
+      0.587
+    ],
+    "text": "□Other: Lci",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-26",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.85,
+      0.053,
+      0.872,
+      0.843
+    ],
+    "text": "AgentAdjuster Name:Beie",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.061,
+      0.08,
+      0.081,
+      0.281
+    ],
+    "text": "Define your problem",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.078,
+      0.114,
+      0.29
+    ],
+    "text": "Please check all that apply:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.136,
+      0.078,
+      0.153,
+      0.268
+    ],
+    "text": "Premium increase",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.077,
+      0.168,
+      0.322
+    ],
+    "text": "Cancellation/non-renewal",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.123,
+      0.35,
+      0.173,
+      0.639
+    ],
+    "text": "Unsatistactory claim settlement [ Misrepresentation Claim Delay",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.127,
+      0.667,
+      0.176,
+      0.932
+    ],
+    "text": "Billing problem Refusal to insure Other:\\_",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.181,
+      0.065,
+      0.29,
+      0.984
+    ],
+    "text": "Give a brief explanation of the nrohlem Redacted by Redacted by DOI NVBOIy-1yce/ meleeieecelfeTeoeahofeerdaet Som",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.065,
+      0.747,
+      0.234
+    ],
+    "text": "Release for Information:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-9",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.093,
+      0.78,
+      0.954
+    ],
+    "text": "Icertifythattheinformationfurnishedbyme insupportof thisConsumer Complaintis tothebestofmyknowledge true and correct.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.779,
+      0.093,
+      0.819,
+      0.963
+    ],
+    "text": "If this Consumer Complaint involves medicalrecordsorcreditinformation,Iherebyauthorizemyinsureronanyotherentity withmedicalinformationorcreditinformationtoprovidetheinformationtotheNevadaDivisionof Insurance.Anymedicalor financial information released to the Division will be kept confidential.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-11",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.817,
+      0.093,
+      0.844,
+      0.961
+    ],
+    "text": "Ihave readand understand thisrelease.Ifurtherrepresent thatlamthepersonfiling the Consumer Complaint andthatitis my signature below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.847,
+      0.063,
+      0.882,
+      0.59
+    ],
+    "text": "Redacted by Signaturv NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-13",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.667,
+      0.882,
+      0.823
+    ],
+    "text": "Date:13319",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.114,
+      0.317,
+      0.16,
+      0.741
+    ],
+    "text": "APPLICATION FOR RETURN OF: COLLATERAL OR PREMIUM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.171,
+      0.333,
+      0.194,
+      0.677
+    ],
+    "text": "□COLLATERAL口PREMIUM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.219,
+      0.513,
+      0.242,
+      0.746
+    ],
+    "text": "Date:10-6-14",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.144,
+      0.263,
+      0.285
+    ],
+    "text": "INSTRUCTIONS:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.144,
+      0.311,
+      0.911
+    ],
+    "text": "1. The information below must be filed out completely by the Premium and/or Collateral depositor ） only Your signature must be notarized for return of collateral. vIuviui",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.142,
+      0.337,
+      0.911
+    ],
+    "text": "2 A legible clear copy of depositor's Government issued identification must be attched.Drivers license or Matricula Card acceptable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.336,
+      0.144,
+      0.353,
+      0.726
+    ],
+    "text": "3 A A copy of the Premium Receipt or Collateral Receipt must be attached. A=",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.35,
+      0.144,
+      0.365,
+      0.518
+    ],
+    "text": "4 All documents must be returned by mail to:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-9",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.365,
+      0.387,
+      0.381,
+      0.642
+    ],
+    "text": "Collateral / Premium Department",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-10",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.385,
+      0.393,
+      0.573
+    ],
+    "text": "Redacted by DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-11",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.387,
+      0.407,
+      0.592
+    ],
+    "text": "Las Vegas,Nevada 89101",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-12",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.404,
+      0.14,
+      0.435,
+      0.907
+    ],
+    "text": "5. If your request is returned to you and/or marked “DENIED. BOND NOT YET EXONERATED\" do not resubmit within 45 days from date of denial.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-13",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.434,
+      0.14,
+      0.452,
+      0.691
+    ],
+    "text": "6. All refunds are subject to “Fees Schedule\" deductions if applicable   \n7 A1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-14",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.448,
+      0.14,
+      0.478,
+      0.894
+    ],
+    "text": "7. Allrefunds take a minimum of 15 days to process and may take up to 30business days. NOT including holidays.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-15",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.139,
+      0.496,
+      0.815
+    ],
+    "text": "8. Collateral will be eligible for refund upon receipt of Discharge from the Court ONLY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-16",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.528,
+      0.124,
+      0.66,
+      0.916
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-17",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.124,
+      0.681,
+      0.427
+    ],
+    "text": "APPROVEDDENIED",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-18",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.12,
+      0.716,
+      0.914
+    ],
+    "text": "Reason for Deniali",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-19",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.828,
+      0.045,
+      0.846,
+      0.713
+    ],
+    "text": "SIGNATURE OF NOTORIAL OFFJCER NVDOL 心uy (OFFICIAL NOTARY SEAL)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.162,
+      0.343,
+      0.193,
+      0.728
+    ],
+    "text": "COLLATERAL RECEIPT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.723,
+      0.269,
+      0.974
+    ],
+    "text": "RECEIPT NO.:Redacted by NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.276,
+      0.088,
+      0.314,
+      0.598
+    ],
+    "text": "Redacted by DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.632,
+      0.361,
+      0.869
+    ],
+    "text": "Da1e3j18114",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-5",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.365,
+      0.145,
+      0.395,
+      0.459
+    ],
+    "text": "Redacted by NAME\\_ NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-6",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.396,
+      0.145,
+      0.433,
+      0.865
+    ],
+    "text": "ADDRESS: Redacted by NV DOL LnsvFGAs A Redacted by 1 NvDnr .DUr",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-7",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.145,
+      0.456,
+      0.864
+    ],
+    "text": "In Connection with a Bail Bond for SeLF",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-8",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.457,
+      0.144,
+      0.483,
+      0.864
+    ],
+    "text": "In the amount of: 4157",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-9",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.144,
+      0.514,
+      0.929
+    ],
+    "text": "The following described collateral O88 CasiTursoly vel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-10",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.514,
+      0.142,
+      0.553,
+      0.986
+    ],
+    "text": "REFURlEo To T'soRIegrhi DEPossToe oNlis IvEtlaur Reeive Cur. r-nexors TReTe C",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-11",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.552,
+      0.139,
+      0.625,
+      0.932
+    ],
+    "text": "Said Coliateral is deposited as security for the payment of any sums which may become due to ACME Bail Bonds or its Sureties by the terms of the Bail Bond Agreement executed for said Bond(s)by the said Depositor and Indemnitors,allof the terms which are made a part of this receipt by this reference Collateral will be returned only to depositor.No collateral willbe returned until the Court has furnished written evidence the bond has been exonerated and this receipt is returned",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-12",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.633,
+      0.137,
+      0.654,
+      0.805
+    ],
+    "text": "If collateral taken in connection with this bond, a collateral receipt must be issued.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-13",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.665,
+      0.382,
+      0.695,
+      0.619
+    ],
+    "text": "Redacted by PAID ev: . NV DOI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-14",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.382,
+      0.768,
+      0.842
+    ],
+    "text": "PAYER RECEIVED BY:\\_ AGENT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-15",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.804,
+      0.13,
+      0.82,
+      0.302
+    ],
+    "text": "Returned Collateral",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-16",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.13,
+      0.856,
+      0.518
+    ],
+    "text": "Returned By:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-17",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.808,
+      0.555,
+      0.83,
+      0.872
+    ],
+    "text": "Date Returned",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-18",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.838,
+      0.533,
+      0.861,
+      0.909
+    ],
+    "text": "Received By",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.08,
+      0.261,
+      0.171,
+      0.562
+    ],
+    "text": "CHERYL - COURT CLERK 3: Present PELAS.VERONICA- INTERPRETER: Prescm WEBSTER ESQ.STEPIENC-SENIOR DEPUTY CITYATTORNEY: Present Proseculors: CtTY ATTORNEY: Present Parties:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.171,
+      0.176,
+      0.203,
+      0.672
+    ],
+    "text": "04 03 2014 DEFENPOAS ATTORNEY PRESENT0.000.00",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.201,
+      0.176,
+      0.22,
+      0.672
+    ],
+    "text": "04 03 20I4 BENCH WARRANI STANDS 0.000.00",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.218,
+      0.176,
+      0.248,
+      0.672
+    ],
+    "text": "04 03 2014 COURTORDLRED: IF SI000 PAII) 0.00 0.00 QUASII BW & SET NEW COURT DATE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.174,
+      0.35,
+      0.671
+    ],
+    "text": "04 03 2014 EVENT COMPLETED The foltowing 0.00 0.00 event: MOl1ONS scheduled for 04r03 20141 at 8:00 am has been resulted as follows: Result: EVENT COMPI EIED Judge: HOEFFGEN. SEANI oCaIiOm: NORTH LAS VEGAS MUNICIPAI COURI DEP1.2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.351,
+      0.172,
+      0.37,
+      0.667
+    ],
+    "text": "04 03 2014 MOTION DENIED 0.000.00",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-7",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.172,
+      0.471,
+      0.667
+    ],
+    "text": "03 27 20I4 ARRAIGNMENI AND SENTENCING 0.00 0.00 HEARING SCHEDULED Event: MOTIONS Date: 04 03 2014 Time: 8:00 am Judge: HOEFFGEN. SEAN Location NORTII IAS VEGAS MUNICIPAL COURT DEPI.2 Resul: EVENT COMPLEIED",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-8",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.471,
+      0.169,
+      0.501,
+      0.666
+    ],
+    "text": "03-27.2014 MOTION IOQUASH NO PI rA AUornCY: 0.000.00 Redacted by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-9",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.169,
+      0.521,
+      0.666
+    ],
+    "text": "03 272014 CASE REACINDYD 0.000.00",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-10",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.169,
+      0.552,
+      0.664
+    ],
+    "text": "03 12 2014 WARRANT PRINTED BW NO PIEA Sent 0.000.00 on:0312 201115:14:24.97",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-11",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.552,
+      0.169,
+      0.611,
+      0.664
+    ],
+    "text": "03 12 20I4 ALERT ISSUUD ACTIVE WARRAN issued gn: 03 12 2014 For Redacted'by 0.00 0.00 Redacted by NV DOI Bond TyNY: NV. DOI Amt:0",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-12",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.167,
+      0.728,
+      0.662
+    ],
+    "text": "03 12 20I4 BENCH WARRANT ISSUED NO PI.EA - 0.00 0.00 CNOR FUl.I. BAit The following event: ARRAIGNMENT seheduled for 03 12 2014 at 8:00 am has been resulted as follows: Result:BINCII WARRANT ISSUED NO PIEA - CNOR FULL BAII. Judge: SCHULKL. KURT Location: NORTHI LAS VEGAS MUNICIPAI COURT DEPT. I",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-13",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.728,
+      0.164,
+      0.89,
+      0.659
+    ],
+    "text": "03 12 20I4 PRESIDING JUDGE AND STAFF 0.00 0.00 ATTENDING IN-COURT Court Locatiom NORTH LAS VEGAS MUNICIPAI COURT DEPT.2 Check In: Judge: SCHULKE. KURT L.ocation: NORTII LAS VEGAS MUNICIPAL COURT DEPT.2 Staff: CURTIS. DAVITA - COURT CIERK 3: Present PAl.OMO. GUILLERMO- INTERPRETER:Present PHILLIPS.KIMBERLY- DEPUTY CITY ATTORNEY: Present WALLER. DA WNA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.243,
+      0.116,
+      0.548
+    ],
+    "text": "\\- COURT ClFRK 3: Present Prosecutors: C17Y ATIORNEY: Presem Parties:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.116,
+      0.159,
+      0.249,
+      0.555
+    ],
+    "text": "02 18 2014 ARRAIGNMENT AND SLNTENCING HIEARING SCHEDULED The following event: CITATION APPLARANCE DATE scheduled for 03:262014 at 12:00 am has been rescheduled as follows: Event: ARRAIGNMENT Date: 03/12/2014 Time: 8:00 am Judge: HOEFFGEN. SEAN Location: NORTHIAS VEGAS MUNICIPAI. COURT DEPT.2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.156,
+      0.364,
+      0.562
+    ],
+    "text": "02 18 2014 CASE IS RESET W O℃ The foltowing evenI: CIIATIOV APPEARANCE DATE scheduled tor 03 26 2014 at 12:00 am has been resuited as follows: Result: HEARiNG RESET Judge: NORTH IAS VEGAS MUNICIPAL COURT Location: NORTH LAS VEGAS MUNICIPAI. COURT DEP1.1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.365,
+      0.152,
+      0.47,
+      0.652
+    ],
+    "text": "Q1 I5 2014 APPEARANCE DATE SET BY OFFICER 0.00 0.00 EvemI: CITATION APPEARANCE DATE Date: 03 26 2014 7ime: 12:00 am Judge: NORTHIAS VEGAS MUNICIPAI. COURT Location: NOR IHI IAS VEGAS MUNICIPAI. COURT DEPT. I ReSult: HEARING RISET",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:table-1",
+    "page_id": 18,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_18_Table_0.jpg",
+    "bbox_norm": [
+      0.051,
+      0.145,
+      0.699,
+      0.973
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-19:figure-1",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.051,
+      0.107,
+      0.707,
+      0.934
+    ],
+    "text": "",
+    "source_type": "image"
+  }
+]

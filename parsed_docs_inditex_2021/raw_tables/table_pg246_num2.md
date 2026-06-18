@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Training hours</td><td> Participants</td><td>Average staff</td><td>Hours per person</td></tr><tr><td>Male</td><td>717,280</td><td>82,930</td><td>43,146</td><td>16.6</td></tr><tr><td>Female</td><td>2,372,010</td><td>278,320</td><td>133,465</td><td>17.8</td></tr><tr><td>Total</td><td>3,089,290</td><td>361,250</td><td>176,611</td><td>17.5</td></tr></table>

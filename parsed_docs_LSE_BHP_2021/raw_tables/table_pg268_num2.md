@@ -1,0 +1,1 @@
+<table><tr><td>Deposit</td><td>Metallurgical recovery</td></tr><tr><td>Leinster OC</td><td>80%</td></tr><tr><td>Mt Keith</td><td>63%</td></tr><tr><td>liffs</td><td>83%</td></tr><tr><td>Yakabindie</td><td>63%</td></tr><tr><td>Venus</td><td>88%</td></tr></table>

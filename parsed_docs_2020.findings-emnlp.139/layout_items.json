@@ -1,0 +1,1710 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.078,
+      0.169,
+      0.121,
+      0.83
+    ],
+    "text": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.133,
+      0.169,
+      0.167,
+      0.835
+    ],
+    "text": "Zhangyin Feng1∗, Daya Guo2∗, Duyu Tang3, Nan Duan3, Xiaocheng Feng1   \nMing Gong4, Linjun Shou4, Bing Qin1, Ting Liu1, Daxin Jiang4, Ming Zhou3",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.167,
+      0.075,
+      0.184,
+      0.932
+    ],
+    "text": "1 Research Center for Social Computing and Information Retrieval, Harbin Institute of Technology, China",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.183,
+      0.193,
+      0.216,
+      0.813
+    ],
+    "text": "2 The School of Data and Computer Science, Sun Yat-sen University, China 3 Microsoft Research Asia, Beijing, China",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.216,
+      0.258,
+      0.267,
+      0.749
+    ],
+    "text": "4 Microsoft Search Technology Center Asia, Beijing, China {zyfeng,xcfeng,qinb,tliu}@ir.hit.edu.cn guody5@mail2.sysu.edu.cn",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.152,
+      0.285,
+      0.855
+    ],
+    "text": "{dutang,nanduan,migon,lisho,djiang,mingzhou}@microsoft.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.262,
+      0.326,
+      0.344
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.341,
+      0.142,
+      0.756,
+      0.463
+    ],
+    "text": "We present CodeBERT, a bimodal pre-trained model for programming language (PL) and natural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language code search, code documentation generation, etc. We develop Code-BERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both “bimodal” data of NL-PL pairs and “unimodal” data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results sh",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.771,
+      0.117,
+      0.788,
+      0.262
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.8,
+      0.114,
+      0.85,
+      0.49
+    ],
+    "text": "Large pre-trained models such as ELMo (Peters et al., 2018), GPT (Radford et al., 2018), BERT (Devlin et al., 2018), XLNet (Yang et al., 2019)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.509,
+      0.552,
+      0.887
+    ],
+    "text": "and RoBERTa (Liu et al., 2019) have dramatically improved the state-of-the-art on a variety of natural language processing (NLP) tasks. These pre-trained models learn effective contextual representations from massive unlabeled text optimized by self-supervised objectives, such as masked language modeling, which predicts the original masked word from an artificially masked input sequence. The success of pre-trained models in NLP also drives a surge of multi-modal pre-trained models, such as ViLBERT (Lu et al., 2019) for language-image and VideoBERT (Sun et al., 2019) for language-video, which are learned from bimodal data such as language-image pairs with bimodal self-supervised objectives.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.554,
+      0.509,
+      0.892,
+      0.889
+    ],
+    "text": "In this work, we present CodeBERT, a bimodal pre-trained model for natural language (NL) and programming language (PL) like Python, Java, JavaScript, etc. CodeBERT captures the semantic connection between natural language and programming language, and produces general-purpose representations that can broadly support NL-PL understanding tasks (e.g. natural language code search) and generation tasks (e.g. code documentation generation). It is developed with the multilayer Transformer (Vaswani et al., 2017), which is adopted in a majority of large pre-trained models. In order to make use of both bimodal instances of NL-PL pairs and large amount of available unimodal codes, we train CodeBERT with a hybrid objective function, including standard masked language modeling (Devlin et al., 2018) and",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.894,
+      0.529,
+      0.91,
+      0.887
+    ],
+    "text": "We train CodeBERT from Github code repositories in 6 programming languages, where bimodal datapoints are codes that pair with function-level natural language documentations (Husain et al., 2019). Training is conducted in a setting similar to that of multilingual BERT (Pires et al., 2019), in which case one pre-trained model is learned for 6 programming languages with no explicit markers used to denote the input programming language. We evaluate CodeBERT on two downstream NL-PL tasks, including natural language code search and code documentation generation. Results show that fine-tuning the parameters of CodeBERT achieves state-of-the-art performance on both tasks. To further investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and test CodeBE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.425,
+      0.137,
+      0.474,
+      0.492
+    ],
+    "text": "• CodeBERT is the first large NL-PL pretrained model for multiple programming languages.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.485,
+      0.137,
+      0.535,
+      0.492
+    ],
+    "text": "• Empirical results show that CodeBERT is effective in both code search and code-to-text generation tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.137,
+      0.594,
+      0.49
+    ],
+    "text": "• We further created a dataset which is the first one to investigate the probing ability of the code-based pre-trained models.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.115,
+      0.623,
+      0.258
+    ],
+    "text": "2 Background",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.115,
+      0.646,
+      0.383
+    ],
+    "text": "2.1 Pre-Trained Models in NLP",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "Large pre-trained models (Peters et al., 2018; Radford et al., 2018; Devlin et al., 2018; Yang et al., 2019; Liu et al., 2019; Raffel et al., 2019) have brought dramatic empirical improvements on almost every NLP task in the past few years. Successful approaches train deep neural networks on large-scale plain texts with self-supervised learning objectives. One of the most representative neural architectures is the Transformer (Vaswani et al., 2017), which is also the one used in this work. It contains multiple self-attention layers, and can be conventionally learned with gradient decent in an end-to-end manner as every component is differentiable. The terminology “self-supervised” means that supervisions used for pre-training are automatically collected from raw data without manual annotat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.35,
+      0.51,
+      0.367,
+      0.821
+    ],
+    "text": "2.2 Multi-Modal Pre-Trained Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.509,
+      0.717,
+      0.889
+    ],
+    "text": "The remarkable success of the pre-trained model in NLP has driven the development of multi-modal pre-trained model that learns implicit alignment between inputs of different modalities. These models are typically learned from bimodal data, such as pairs of language-image or pairs of languagevideo. For example, ViLBERT (Lu et al., 2019) learns from image caption data, where the model learns by reconstructing categories of masked image region or masked words given the observed inputs, and meanwhile predicting whether the caption describes the image content or not. Similarly, VideoBERT (Sun et al., 2019) learns from language-video data and is trained by video and text masked token prediction. Our work belongs to this line of research as we regard NL and PL as different modalities. Our method ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-11",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.509,
+      0.912,
+      0.889
+    ],
+    "text": "A concurrent work (Kanade et al., 2019) uses masked language modeling and next sentence prediction as the objective to train a BERT model on Python source codes, where a sentence is a logical code line as defined by the Python standard. In terms of the pre-training process, CodeBERT differs from their work in that (1) CodeBERT is trained in a cross-modal style and leverages both bimodal NL-PL data and unimodal PL/NL data, (2) CodeBERT is pre-trained over six programming languages, and (3) CodeBERT is trained with a new learning objective based on replaced token",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.115,
+      0.09,
+      0.193
+    ],
+    "text": "detection.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.103,
+      0.115,
+      0.12,
+      0.252
+    ],
+    "text": "3 CodeBERT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.114,
+      0.212,
+      0.492
+    ],
+    "text": "We describe the details about CodeBERT in this section, including the model architecture, the input and output representations, the objectives and data used for training CodeBERT, and how to fine-tune CodeBERT when it is applied to downstream tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.115,
+      0.239,
+      0.319
+    ],
+    "text": "3.1 Model Architecture",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.114,
+      0.375,
+      0.49
+    ],
+    "text": "We follow BERT (Devlin et al., 2018) and RoBERTa (Liu et al., 2019), and use multi-layer bidirectional Transformer (Vaswani et al., 2017) as the model architecture of CodeBERT. We will not review the ubiquitous Transformer architecture in detail. We develop CodeBERT by using exactly the same model architecture as RoBERTa-base. The total number of model parameters is 125M.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.386,
+      0.115,
+      0.403,
+      0.401
+    ],
+    "text": "3.2 Input/Output Representations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.114,
+      0.633,
+      0.492
+    ],
+    "text": "In the pre-training phase, we set the input as the concatenation of two segments with a special separator token, namely $[ C L S ] , w _ { 1 } , w _ { 2 } , . . w _ { n } , [ S E P ]$ $c _ { 1 } , c _ { 2 } , . . . , c _ { m } , [ E O S ]$ . One segment is natural language text, and another is code from a certain programming language. [CLS] is a special token in front of the two segments, whose final hidden representation is considered as the aggregated sequence representation for classification or ranking. Following the standard way of processing text in Transformer, we regard a natural language text as a sequence of words, and split it as WordPiece (Wu et al., 2016). We regard a piece of code as a sequence of tokens.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.634,
+      0.114,
+      0.715,
+      0.492
+    ],
+    "text": "The output of CodeBERT includes (1) contextual vector representation of each token, for both natural language and code, and (2) the representation of [CLS], which works as the aggregated sequence representation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.727,
+      0.115,
+      0.744,
+      0.307
+    ],
+    "text": "3.3 Pre-Training Data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.749,
+      0.114,
+      0.829,
+      0.49
+    ],
+    "text": "We train CodeBERT with both bimodal data, which refers to parallel data of natural language-code pairs, and unimodal data, which stands for codes without paired natural language texts and natural language without paired codes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.829,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "We use datapoints from Github repositories, where each bimodal datapoint is an individual function with paired documentation, and each unimodal code is a function without paired documentation. Specifically, we use a recent large dataset provided by Husain et al. (2019), which includes 2.1M bimodal datapoints and 6.4M unimodal codes across six programming languages (Python, Java, JavaScript, PHP, Ruby, and Go). Data statistics is shown in Table 1.2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:table-12",
+    "page_id": 2,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_2_Table_0.jpg",
+    "bbox_norm": [
+      0.073,
+      0.517,
+      0.181,
+      0.877
+    ],
+    "text": "Table 1: Statistics of the dataset used for training Code-BERT.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.326,
+      0.509,
+      0.487,
+      0.889
+    ],
+    "text": "The data comes from publicly available opensource non-fork GitHub repositories and are filtered with a set of constraints and rules. For example, (1) each project should be used by at least one other project, (2) each documentation is truncated to the first paragraph, (3) documentations shorter than three tokens are removed, (4) functions shorter than three lines are removed, and (5) function names with substring “test” are removed. An example of the data is given in Figure 1 3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.497,
+      0.514,
+      0.639,
+      0.884
+    ],
+    "text": "Figure 1: An example of the NL-PL pair, where NL is the first paragraph (filled in red) from the documentation (dashed line in black) of a function.",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-2:text-16",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.51,
+      0.734,
+      0.756
+    ],
+    "text": "3.4 Pre-Training CodeBERT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-17",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.74,
+      0.509,
+      0.804,
+      0.889
+    ],
+    "text": "We describe the two objectives used for training CodeBERT here. The first objective is masked language modeling (MLM), which has proven effective in literature (Devlin et al., 2018; Liu et al.,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-1",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.074,
+      0.142,
+      0.292,
+      0.86
+    ],
+    "text": "Figure 2: An illustration about the replaced token detection objective. Both NL and code generators are language models, which generate plausible tokens for masked positions based on surrounding contexts. NL-Code discriminator is the targeted pre-trained model, which is trained via detecting plausible alternatives tokens sampled from NL and PL generators. NL-Code discriminator is used for producing general-purpose representations in the finetuning step. Both NL and code generators are thrown out in the fine-tuning step.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.114,
+      0.514,
+      0.492
+    ],
+    "text": "2019; Sun et al., 2019). We apply masked language modeling on bimodal data of NL-PL pairs. The second objective is replaced token detection (RTD), which further uses a large amount of unimodal data, such as codes without paired natural language texts. Detailed hyper-parameters for model pre-training are given in Appendix B.1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.521,
+      0.114,
+      0.668,
+      0.49
+    ],
+    "text": "Objective #1: Masked Language Modeling (MLM) Given a datapoint of NL-PL pair $( { \\pmb x } =$ $\\{ w , c \\} )$ as input, where w is a sequence of NL words and c is a sequence of PL tokens, we first select a random set of positions for both NL and PL to mask out (i.e. mw and $m ^ { c }$ , respectively), and then replace the selected positions with a special $[ M A S K ]$ token. Following Devlin et al. (2018), 15% of the tokens from x are masked out.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-4",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_0.jpg",
+    "bbox_norm": [
+      0.677,
+      0.161,
+      0.696,
+      0.431
+    ],
+    "text": "$$\nm _ { i } ^ { w } \\sim \\mathrm { u n i f } \\{ 1 , | w | \\} \\mathrm { f o r } i = 1 \\mathrm { t o } | w |\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-5",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_1.jpg",
+    "bbox_norm": [
+      0.697,
+      0.164,
+      0.715,
+      0.418
+    ],
+    "text": "$$\nm _ { i } ^ { c } \\sim \\mathrm { u n i f } \\{ 1 , | c | \\} \\mathrm { f o r } i = 1 \\mathrm { t o } | c |\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-6",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_2.jpg",
+    "bbox_norm": [
+      0.718,
+      0.132,
+      0.736,
+      0.45
+    ],
+    "text": "$$\n\\pmb { w } ^ { \\mathrm { m a s k e d } } = \\mathrm { R E P L A C E } ( \\pmb { w } , \\pmb { m } ^ { w } , [ M A S K ] )\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-7",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_3.jpg",
+    "bbox_norm": [
+      0.739,
+      0.137,
+      0.757,
+      0.44
+    ],
+    "text": "$$\nc ^ { \\mathrm { m a s k e d } } = \\mathrm { R E P L A C E } ( c , m ^ { c } , [ M A S K ] )\\tag{4}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-8",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_4.jpg",
+    "bbox_norm": [
+      0.763,
+      0.176,
+      0.776,
+      0.268
+    ],
+    "text": "$$\n{ \\pmb x } = { \\pmb w } + { \\pmb c }\\tag{5}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.789,
+      0.114,
+      0.854,
+      0.492
+    ],
+    "text": "The MLM objective is to predict the original tokens which are masked out, formulated as follows, where $p ^ { D _ { 1 } }$ is the discriminator which predicts a token from a large vocabulary.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-10",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_5.jpg",
+    "bbox_norm": [
+      0.863,
+      0.117,
+      0.897,
+      0.487
+    ],
+    "text": "$$\n\\mathcal { L } _ { \\mathrm { M L M } } ( \\theta ) = \\sum _ { i \\in m ^ { w } \\cup m ^ { c } } - \\log p ^ { D _ { 1 } } ( x _ { i } | \\pmb { w } ^ { \\mathrm { m a s k e d } } , \\pmb { c } ^ { \\mathrm { m a s k e d } } )\\tag{6}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.509,
+      0.611,
+      0.887
+    ],
+    "text": "Objective #2: Replaced Token Detection (RTD) In the MLM objective, only bimodal data (i.e. datapoints of NL-PL pairs) is used for training. Here we present the objective of replaced token detection. The RTD objective (Clark et al., 2020) is originally developed for efficiently learning pre-trained model for natural language. We adapt it in our scenario, with the advantage of using both bimodal and unimodal data for training. Specifically, there are two data generators here, an NL generator $p ^ { G _ { w } }$ and a PL generator $p ^ { G _ { c } }$ , both for generating plausible alternatives for the set of randomly masked positions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-12",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_6.jpg",
+    "bbox_norm": [
+      0.619,
+      0.563,
+      0.638,
+      0.831
+    ],
+    "text": "$$\n\\hat { w } _ { i } \\sim p ^ { G _ { w } } ( w _ { i } | { \\pmb w } ^ { \\mathrm { m a s k e d } } ) \\mathrm { f o r } i \\in { \\pmb m } ^ { w }\\tag{7}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-13",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_7.jpg",
+    "bbox_norm": [
+      0.642,
+      0.568,
+      0.659,
+      0.813
+    ],
+    "text": "$$\n\\hat { c } _ { i } \\sim p ^ { G _ { c } } ( c _ { i } | c ^ { \\mathrm { m a s k e d } } ) \\mathrm { f o r } i \\in m ^ { c }\\tag{8}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-14",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_8.jpg",
+    "bbox_norm": [
+      0.681,
+      0.568,
+      0.697,
+      0.828
+    ],
+    "text": "$$\n\\pmb { w } ^ { \\mathrm { c o r r u p t } } = \\mathrm { R E P L A C E } ( \\pmb { w } , \\pmb { m } ^ { w } , \\hat { \\pmb { w } } )\\tag{9}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-15",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_9.jpg",
+    "bbox_norm": [
+      0.701,
+      0.573,
+      0.718,
+      0.81
+    ],
+    "text": "$$\nc ^ { \\mathrm { c o r r u p t } } = \\mathrm { R E P L A C E } ( c , m ^ { c } , \\hat { c } )\\tag{10}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-16",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_10.jpg",
+    "bbox_norm": [
+      0.719,
+      0.571,
+      0.737,
+      0.781
+    ],
+    "text": "$$\n\\pmb { x } ^ { \\mathrm { c o r r u p t } } = \\pmb { w } ^ { \\mathrm { c o r r u p t } } + c ^ { \\mathrm { c o r r u p t } }\\tag{11}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-17",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.749,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "The discriminator is trained to determine whether a word is the original one or not, which is a binary classification problem. It is worth noting that the RTD objective is applied to every position in the input, and it differs from GAN (generative adversarial network) in that if a generator happens to produce the correct token, the label of that token is “real” instead of “fake” (Clark et al., 2020). The loss function of RTD with regard to the discriminator parameterized by θ is given below, where $\\delta ( i )$ is an indicator function and $p ^ { D _ { 2 } }$ is the discriminator that predicts the probability of the i-th word being original.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-2",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_0.jpg",
+    "bbox_norm": [
+      0.134,
+      0.115,
+      0.214,
+      0.489
+    ],
+    "text": "$$\n\\begin{array} { l } { { \\displaystyle { \\mathcal { L } } _ { \\mathrm { R T D } } ( \\theta ) = \\sum _ { i = 1 } ^ { | \\pm | c | } \\left( \\delta ( i ) \\mathrm { l o g } p ^ { D _ { 2 } } ( x ^ { \\mathrm { c o r r u p t } } , i ) + \\right. } } \\\\ { { \\displaystyle \\left. \\left( 1 - \\delta ( i ) \\right) \\left( 1 - \\mathrm { l o g } p ^ { D _ { 2 } } ( x ^ { \\mathrm { c o r r u p t } } , i ) \\right) \\right) } } \\end{array}\\tag{12}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:equation-3",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_1.jpg",
+    "bbox_norm": [
+      0.244,
+      0.189,
+      0.286,
+      0.411
+    ],
+    "text": "$$\n\\delta ( i ) = { \\left\\{ \\begin{array} { l l } { 1 , } & { { \\mathrm { i f ~ } } x _ { i } ^ { \\mathrm { c o r r u p t } } = x _ { i } . } \\\\ { 0 , } & { { \\mathrm { o t h e r w i s e } } . } \\end{array} \\right. }\\tag{13}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.114,
+      0.535,
+      0.492
+    ],
+    "text": "There are many different ways to implement the generators. In this work, we implement two efficient n-gram language models (Jurafsky, 2000) with bidirectional contexts, one for NL and one for PL, and learn them from corresponding unimodel datapoints, respectively. The approach is easily generalized to learn bimodal generators or use more complicated generators like Transformerbased neural architecture learned in a joint manner. We leave these to future work. The PL training data is the unimodal codes as shown in Table 1, and the NL training data comes from the documentations from bimodal data. One could easily extend these two training datasets to larger amount. The final loss function are given below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-5",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_2.jpg",
+    "bbox_norm": [
+      0.545,
+      0.203,
+      0.569,
+      0.398
+    ],
+    "text": "$$\n\\operatorname* { m i n } _ { \\theta } \\mathcal { L } _ { \\mathrm { M L M } } ( \\theta ) + \\mathcal { L } _ { \\mathrm { R T D } } ( \\theta )\\tag{14}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.115,
+      0.595,
+      0.356
+    ],
+    "text": "3.5 Fine-Tuning CodeBERT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.114,
+      0.763,
+      0.492
+    ],
+    "text": "We have different settings to use CodeBERT in downstream NL-PL tasks. For example, in natural language code search, we feed the input as the same way as the pre-training phase and use the representation of [CLS] to measure the semantic relevance between code and natural language query, while in code-to-text generation, we use an encoderdecoder framework and initialize the encoder of a generative model with CodeBERT. Details are given in the experiment section.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.772,
+      0.115,
+      0.789,
+      0.255
+    ],
+    "text": "4 Experiment",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "We present empirical results in this section to verify the effectiveness of CodeBERT. We first describe the use of CodeBERT in natural language code search (§4.1), in a way that model parameters of CodeBERT are fine-tuned. After that, we present the NL-PL probing task (§4.2), and evaluate Code-BERT in a zero-shot setting where the parameters of CodeBERT are fixed. Finally, we evaluate Code-BERT on a generation problem, i.e. code documentation generation (§4.3), and further evaluate on a programming language which is never seen in the training phase (§4.4).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.51,
+      0.185,
+      0.806
+    ],
+    "text": "4.1 Natural Language Code Search",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.191,
+      0.509,
+      0.563,
+      0.889
+    ],
+    "text": "Given a natural language as the input, the objective of code search is to find the most semantically related code from a collection of codes. We conduct experiments on the CodeSearchNet corpus (Husain et al., 2019) 4. We follow the official evaluation metric to calculate the Mean Reciprocal Rank (MRR) for each pair of test data (c, w) over a fixed set of 999 distractor codes. We further calculate the macro-average MRR for all languages as an overall evaluation metric. It is helpful to note that this metric differs from the AVG metric in the original paper, where the answer is retrieved from candidates from all six languages. We fine-tune a languagespecific model for each programming language5. We train each model with a binary classification loss function, where a sof tmax layer is connect",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.573,
+      0.509,
+      0.75,
+      0.889
+    ],
+    "text": "Model Comparisons Table 2 shows the results of different approaches on the CodeSearchNet corpus. The first four rows are reported by Husain et al. (2019), which are joint embeddings of NL and PL (Gu et al., 2018; Mitra et al., 2018). NBOW represents neural bag-of-words. CNN, BIRNN and SELFATT stand for 1D convolultional neural network (Kim, 2014), bidirectional GRU-based recurrent neural network (Cho et al., 2014), and multi-head attention (Vaswani et al., 2017), respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-14",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.509,
+      0.848,
+      0.889
+    ],
+    "text": "We report the remaining numbers in Table 2. We train all these pre-trained models by regarding codes as a sequence of tokens. We also continuously train RoBERTa only on codes from Code-SearchNet with masked language modeling. Results show that CodeBERT consistently performs better than RoBERTa and the model pre-trained with code only. CodeBERT (MLM) learned from scratch performs better than RoBERTa. Unsurprisingly, initializing CodeBERT with RoBERTa improves the performance 6",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.073,
+      0.121,
+      0.23,
+      0.88
+    ],
+    "text": "Table 2: Results on natural language code retrieval. Baselines include four joint embeddings (first group) of NL and PL, RoBERTa, and RoBERTa which is continuously trained with masked language modeling on codes only (second group). PT stands for pre-training. We train CodeBERT (third group) with different settings, including using different initialization (from scratch (INIT=S) or initialized with the parameters of RoBERTa (INIT=R)) and using different learning objectives (MLM, RTD, or the combination of both).",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.115,
+      0.455,
+      0.289
+    ],
+    "text": "4.2 NL-PL Probing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.114,
+      0.558,
+      0.492
+    ],
+    "text": "In the previous subsection, we show the empirical effectiveness of CodeBERT in a setting that the parameters of CodeBERT are fine-tuned in downstream tasks. In this subsection, we further investigate what type of knowledge is learned in Code-BERT without modifying the parameters.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.114,
+      0.875,
+      0.494
+    ],
+    "text": "Task Formulation and Data Construction Following the probing experiments in NLP (Petroni et al., 2019; Talmor et al., 2019), we study NL-PL probing here. Since there is no existing work towards this goal, we formulate the problem of NL-PL probing and create the dataset by ourselves. Given an NL-PL pair (c, w), the goal of NL-PL probing is to test model’s ability to correctly predict/recover the masked token of interest (either a code token ci or word token wj) among distractors. There are two major types of distractors: one is the whole target vocabulary used for the masked language modeling objective (Petroni et al., 2019), and another one has fewer candidates which are filter or curated based on experts’ understanding about the ability to be tested (Talmor et al., 2019). We follow the se",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.509,
+      0.834,
+      0.889
+    ],
+    "text": "Specifically, we evaluate on the NL side and PL side, respectively. To ease the effort of data collection, we collect data automatically from NL-PL pairs in both validation and testing sets of Code-SearchNet, both of which are unseen in the pretraining phase. To evaluate on the NL side, we select NL-PL pairs whose NL documentations include one of the six keywords (max, maximize, min, minimize, less, greater), and group them to four candidates by merging first two keywords and the middle two keywords. The task is to ask pre-trained models to select the correct one instead of three other distractors. That is to say, the input in this setting includes the complete code and a masked NL documentation. The goal is to select the correct answer from four candidates. For the PL side, we select code",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.846,
+      0.509,
+      0.912,
+      0.889
+    ],
+    "text": "Model Comparisons Results are given in Table 3. We report accuracy, namely the number of correctly predicted instances over the number of all instances, for each programming language. Since datasets in different programming languages are extremely unbalanced, we report the accumulated metric with the same way. We use CodeBERT (MLM) here because its output layer naturally fits for probing. Results show that CodeBERT performs better than baselines on almost all languages on both NL and PL probing. The numbers with only preceding contexts are lower than that with bidirectional contexts, which suggests that code completion is challenging. We leave it as a future work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.072,
+      0.126,
+      0.286,
+      0.87
+    ],
+    "text": "Table 3: Statistics of the data for NL-PL probing and the performance of different pre-trained models. Accuracies (%) are reported. Best results in each group are in bold.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.114,
+      0.642,
+      0.492
+    ],
+    "text": "We further give a case study on PL-NL probing. We mask NL token and PL token separately, and report the predicted probabilities of RoBERTa and CodeBERT. Figure 3 illustrates the example of a python code7. We can see that RoBERTa fails in both cases, whereas CodeBERT makes the correct prediction in both NL and PL settings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.115,
+      0.668,
+      0.425
+    ],
+    "text": "4.3 Code Documentation Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.114,
+      0.852,
+      0.492
+    ],
+    "text": "Although the pre-training objective of Code-BERT does not include generation-based objectives (Lewis et al., 2019), we would like to investigate to what extent does CodeBERT perform on generation tasks. Specifically, we study code-to-NL generation, and report results for the documentation generation task on CodeSearchNet Corpus in six programming languages. Since the generated documentations are short and higher order n-grams may not overlap, we remedy this problem by using smoothed BLEU score (Lin and Och, 2004).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-6",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.348,
+      0.512,
+      0.585,
+      0.882
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:table-7",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.511,
+      0.512,
+      0.585,
+      0.882
+    ],
+    "text": "Figure 3: Case study on python language. Masked tokens in NL (in blue) and PL (in yellow) are separately applied. Predicted probabilities of RoBERTa and Code-BERT are given.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.509,
+      0.829,
+      0.889
+    ],
+    "text": "Model Comparisons We compare our model with several baselines, including a RNN-based model with attention mechanism (Sutskever et al., 2014), the Transformer (Vaswani et al., 2017), RoBERTa and the model pre-trained on code only. To demonstrate the effectiveness of CodeBERT on code-to-NL generation tasks, we adopt various pre-trained models as encoders and keep the hyperparameters consistent. Detailed hyper-parameters are given in Appendix B.3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.829,
+      0.509,
+      0.912,
+      0.889
+    ],
+    "text": "Table 4 shows the results with different models for the code-to-documentation generation task. As we can see, models pre-trained on programming language outperform RoBERTa, which illustrates that pre-trainning models on programming language could improve code-to-NL generation. Besides, results in the Table 4 show that CodeBERT pre-trained with RTD and MLM objectives brings a gain of 1.3 BLEU score over RoBERTa overall and achieve the state-of-the-art performance8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-1",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.073,
+      0.161,
+      0.181,
+      0.835
+    ],
+    "text": "Table 4: Results on Code-to-Documentation generation, evaluated with smoothed BLEU-4 score.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.318,
+      0.115,
+      0.351,
+      0.416
+    ],
+    "text": "4.4 Generalization to Programming Languages NOT in Pre-training",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.114,
+      0.568,
+      0.494
+    ],
+    "text": "We would like to evaluate CodeBERT on the programming language which is never seen in the pretraining step. To this end, we study the task of generating a natural language summary of a C# code snippet. We conduct experiments on the dataset of CodeNN (Iyer et al., 2016)9, which consists of 66,015 pairs of questions and answers automatically collected from StackOverflow. This dataset is challenging since the scale of dataset is orders of magnitude smaller than CodeSearchNet Corpus. We evaluate models using smoothed BLEU-4 score and use the same evaluation scripts as Iyer et al. (2016).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-5",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_1.jpg",
+    "bbox_norm": [
+      0.577,
+      0.126,
+      0.758,
+      0.475
+    ],
+    "text": "Table 5: Code-to-NL generation on C# language.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.114,
+      0.875,
+      0.492
+    ],
+    "text": "Model Comparisons Table 5 shows that our model with MLM and RTD pre-training objectives achieves 22.36 BLEU score and improves by 2.55 points over RoBERTa, which illustrates CodeBERT could generalize better to other programming language which is never seen in the pre-training step. However, our model achieve slightly lower results than code2seq (Alon et al., 2019). The main reason could be that code2seq makes use of compositional paths in its abstract syntax tree (AST) while Code-BERT only takes original code as the input. We have trained a version of CodeBERT by traversing the tree structure of AST following a certain order, but applying that model does not bring improvements on generation tasks. This shows a potential direction to improve CodeBERT by incorporating AST.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.51,
+      0.466,
+      0.645
+    ],
+    "text": "5 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.475,
+      0.509,
+      0.75,
+      0.889
+    ],
+    "text": "In this paper, we present CodeBERT, which to the best of our knowledge is the first large bimodal pre-trained model for natural language and programming language. We train CodeBERT on both bimodal and unimodal data, and show that finetuning CodeBERT achieves state-of-the-art performance on downstream tasks including natural language code search and code-to-documentation generation. To further investigate the knowledge embodied in pre-trained models, we formulate the task of NL-PL probing and create a dataset for probing. We regard the probing task as a cloze-style answer selection problem, and curate distractors for both NL and PL parts. Results show that, with model parameters fixed, CodeBERT performs better than RoBERTa and a continuously trained model using codes only.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.509,
+      0.912,
+      0.89
+    ],
+    "text": "There are many potential directions for further research on this field. First, one could learn better generators with bimodal evidence or more complicated neural architecture to improve the replaced token detection objective. Second, the loss functions of CodeBERT mainly target on NL-PL understanding tasks. Although CodeBERT achieves strong BLEU scores on code-to-documentation generation, the CodeBERT itself could be further improved by generation-related learning objectives.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.114,
+      0.187,
+      0.492
+    ],
+    "text": "How to successfully incorporate AST into the pretraining step is also an attractive direction. Third, we plan to apply CodeBERT to more NL-PL related tasks, and extend it to more programming languages. Flexible and powerful domain/language adaptation methods are necessary to generalize well.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.2,
+      0.115,
+      0.217,
+      0.28
+    ],
+    "text": "Acknowledgments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.114,
+      0.355,
+      0.49
+    ],
+    "text": "Xiaocheng Feng is the corresponding author of this work. We thank the anonymous reviewers for their insightful comments. Zhangyin Feng, Xiaocheng Feng, Bing Qin and Ting Liu are supported by the National Key R&D Program of China via grant 2018YFB1005103 and National Natural Science Foundation of China (NSFC) via grant 61632011 and 61772156.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.117,
+      0.399,
+      0.216
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.407,
+      0.117,
+      0.46,
+      0.49
+    ],
+    "text": "Uri Alon, Shaked Brody, Omer Levy, and Eran Yahav. 2019. code2seq: Generating sequences from structured representations of code. International Conferenceon Learning Representations. Kyunghyun Cho, Bart Van Merrienboer, Caglar Gul- ¨ cehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. 2014. Learning phrase representations using rnn encoder-decoder for statistical machine translation. arXiv preprint arXiv:1406.1078. Kevin Clark, Minh-Thang Luong, Quoc V. Le, and Christopher D. Manning. 2020. {ELECTRA}: Pretraining text encoders as discriminators rather than generators. In International Conference on Learning Representations. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language unders",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.117,
+      0.156,
+      0.507
+    ],
+    "text": "Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. 2018. Improving language understanding by generative pre-training. URL https://s3-us-west-2. amazonaws. com/openaiassets/researchcovers/languageunsupervised/language understanding paper. pdf. Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J Liu. 2019. Exploring the limits of transfer learning with a unified text-to-text transformer. arXiv preprint arXiv:1910.10683. Alexander M Rush, Sumit Chopra, and Jason Weston. 2015. A neural attention model for abstractive sentence summarization. arXiv preprint arXiv:1509.00685. Chen Sun, Austin Myers, Carl Vondrick, Kevin Murphy, and Cordelia Schmid. 2019. Videobert: A joint model for video and language representat",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.115,
+      0.851,
+      0.273
+    ],
+    "text": "A Data Statistic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.862,
+      0.114,
+      0.91,
+      0.49
+    ],
+    "text": "Data statistics of the training/validation/testing data splits for six programming languages are given in Table 6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:table-4",
+    "page_id": 9,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_9_Table_0.jpg",
+    "bbox_norm": [
+      0.073,
+      0.522,
+      0.17,
+      0.872
+    ],
+    "text": "Table 6: Data statistics about the CodeSearchNet Corpus for natural language code search.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.235,
+      0.51,
+      0.25,
+      0.663
+    ],
+    "text": "B Train Details",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.51,
+      0.279,
+      0.66
+    ],
+    "text": "B.1 Pre-training",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.285,
+      0.509,
+      0.448,
+      0.889
+    ],
+    "text": "We train CodeBERT on one NVIDIA DGX-2 machine using FP16. It combines 16 interconnected NVIDIA Tesla V100 with 32GB memory. We use the following set of hyper-parameters to train models: batchsize is 2,048 and learning rate is 5e-4. We use Adam to update the parameters and set the number of warmup steps as 10K. We set the max length as 512 and the max training step is 100K. Training 1,000 batches of data costs 600 minutes with MLM objective, 120 minutes with RTD objective.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.51,
+      0.476,
+      0.658
+    ],
+    "text": "B.2 CodeSearch",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-9",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.509,
+      0.596,
+      0.887
+    ],
+    "text": "In the fine-turning step, we set the learning rate as 1e-5, the batch size as 64, the max sequence length as 200 and the max fine-tuning epoch as 8. As the same with pre-training, We use Adam to update the parameters. We choose the model performed best on the development set, and use that to evaluate on the test set.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-10",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.51,
+      0.643,
+      0.783
+    ],
+    "text": "B.3 Code Summarization on Six Programming Languages",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-11",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.648,
+      0.509,
+      0.78,
+      0.887
+    ],
+    "text": "We use Transformer with 6 layers, 768 dimensional hidden states and 12 attention heads as our decoder in all settings. We set the max length of input and inference as 256 and 64, respectively. We use the Adam optimizer to update model parameters. The learning rate and the batch size are 5e-5 and 64, respectively. We tune hyperparameters and perform early stopping on the development set.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-12",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.51,
+      0.808,
+      0.781
+    ],
+    "text": "B.4 Code Summarization on C#",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-13",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.509,
+      0.913,
+      0.889
+    ],
+    "text": "Since state-of-the-art methods use RNN as their decoder, we choose a 2-layer GRU with an attention mechanism as our decoder for a comparison. We fine-tune models using a grid search with the following set of hyper-parameters: batchsize is in {32, 64} and learning rate is in {2e-5, 5e-5}. We report the number when models achieve best performance on the development set.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.117,
+      0.115,
+      0.135,
+      0.425
+    ],
+    "text": "C Learning Curve of CodeSearch",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.114,
+      0.208,
+      0.492
+    ],
+    "text": "From Figure 4, we can see that CodeBERT performs better at the early stage, which reflects that CodeBERT provides good initialization for learning downstream tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.424,
+      0.115,
+      0.439,
+      0.26
+    ],
+    "text": "D Late Fusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.114,
+      0.69,
+      0.494
+    ],
+    "text": "In section §4.1 , we show that CodeBERT performs well in the setting where natural languages and codes have early interactions. Here, we investigate whether CodeBERT is good at working as a unified encoder. We apply CodeBERT for natural language code search in a later fusion setting, where CodeBERT first encodes NL and PL separately, and then calculates the similarity by dotproduct. In this way, code search is equivalent to find the nearest codes in the shared vector space. This scenario also facilitates the use of CodeBERT in an online system, where the representations of codes are calculated in advance. In the runtime, a system only needs to compute the representation of NL and vector-based dot-product.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-8",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.114,
+      0.755,
+      0.492
+    ],
+    "text": "We fine-tune CodeBERT with the following objective, which maximizes the dot-product of the ground truth while minimizing the dot-product of distractors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:equation-9",
+    "page_id": 10,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_10_Equation_0.jpg",
+    "bbox_norm": [
+      0.76,
+      0.132,
+      0.8,
+      0.468
+    ],
+    "text": "$$\n- \\frac { 1 } { N } \\sum _ { i } \\log \\left( \\frac { \\exp \\bigl ( E n c ( c _ { i } ) ^ { \\intercal } E n c ( w _ { i } ) \\bigr ) } { \\sum _ { j } \\exp \\bigl ( E n c ( c _ { j } ) ^ { \\intercal } E n c ( w _ { i } ) \\bigr ) } \\right)\\tag{15}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-10:text-10",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.829,
+      0.115,
+      0.877,
+      0.49
+    ],
+    "text": "Results are given in Table 7. We just do this setting on two languages with a relatively small amount of data.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.115,
+      0.91,
+      0.49
+    ],
+    "text": "We can see that CodeBERT performs better than RoBERTa and the model pre-trained with codes only. And late fusion performs comparable with the standard way. What’s more, late fusion is more efficient and this setting could be used in an online system.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:table-12",
+    "page_id": 10,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_10_Table_0.jpg",
+    "bbox_norm": [
+      0.08,
+      0.532,
+      0.142,
+      0.86
+    ],
+    "text": "Table 7: Results on natural language code search by late fusion.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-10:text-14",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.282,
+      0.51,
+      0.299,
+      0.648
+    ],
+    "text": "E Case Study",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-15",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.509,
+      0.356,
+      0.887
+    ],
+    "text": "To qualitatively analyze the effectiveness of Code-BERT, we give some cases for code search and code documentation generation tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-16",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.509,
+      0.42,
+      0.887
+    ],
+    "text": "Considering the limited space, we only give the top2 results of the query for python programming language. As show in Figure 5, search results are very relevant with query.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-17",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.42,
+      0.509,
+      0.485,
+      0.887
+    ],
+    "text": "Figure 6 and Figure 7 show the outputs with different models for the code documentation generation task. As we can see, CodeBERT performs better than all baselines.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-1",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.073,
+      0.149,
+      0.324,
+      0.852
+    ],
+    "text": "Figure 5: Python CodeSearch example. The results are searched from 1,156,085 python code data. We only give the top2 results because space is limited.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:figure-2",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_1.jpg",
+    "bbox_norm": [
+      0.384,
+      0.147,
+      0.872,
+      0.853
+    ],
+    "text": "Figure 7: Python code documentation generation output example.",
+    "source_type": "image"
+  }
+]

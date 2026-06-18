@@ -1,0 +1,1 @@
+<table><tr><td>Entity Name</td><td>Jurisdictionof Formation</td></tr><tr><td>NIKE European Operations Netherlands B.V.</td><td>Netherlands</td></tr><tr><td>NIKE Retail Services, Inc.</td><td>Oregon</td></tr><tr><td>NIKE Sports (China) Co. Ltd.</td><td>People&#x27;s Republic of China</td></tr><tr><td>NIKE USA, Inc.</td><td>Oregon</td></tr></table>

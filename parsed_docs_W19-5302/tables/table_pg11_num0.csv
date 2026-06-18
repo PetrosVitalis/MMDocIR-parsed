@@ -1,0 +1,4 @@
+Human,s1<s2,s1=s2,s1>s2
+Metric,"e,$\mathrm{s}_{1} < \mathrm{s}_{2}$","e,S1 = S2","e,$\mathrm{s}_{1} > \mathrm{s}_{2}$"
+Metric,Conc,1 1,Disc Disc
+Metric,"Disc,Disc","—""—""—""—""",Conc

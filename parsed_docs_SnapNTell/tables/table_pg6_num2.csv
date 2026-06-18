@@ -1,0 +1,3 @@
+Method,ROUGE ↑,BLEU ↑,METEOR ↑,BELURT ↑
+w/o ED,28.02,3.73,26.26,0.45
+w/ ED,35.28,7.81,29.27,0.55

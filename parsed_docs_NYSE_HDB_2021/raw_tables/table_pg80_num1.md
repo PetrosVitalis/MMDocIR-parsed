@@ -1,0 +1,1 @@
+<table><tr><td>SI. No.</td><td>Financial Year</td><td>Amount available for set-off from preceding financial years (in )</td><td>Amount required to be set-off for the financial year, if any (in )</td></tr><tr><td>1</td><td>2020-21</td><td>NA</td><td>NA</td></tr><tr><td></td><td>Total</td><td></td><td></td></tr></table>

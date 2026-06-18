@@ -1,0 +1,1 @@
+<table><tr><td>Unique multi-step answer. Likely multi-step unique answer. Multiple plausible answers. Ambiguity due to hypernymy.</td><td>36% 9% 15% 11%</td></tr><tr><td>Only single document required.</td><td>9%</td></tr><tr><td>Answer doesnot follow. WIKIDATA/WIKIPEDIA discrepancy.</td><td>12%</td></tr><tr><td></td><td>8%</td></tr></table>

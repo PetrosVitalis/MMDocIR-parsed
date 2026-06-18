@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">2020</td><td></td><td>2019</td></tr><tr><td>Finished goods</td><td>$</td><td>1,232 $</td><td></td><td>833</td></tr><tr><td> Work in process</td><td></td><td>369</td><td></td><td>285</td></tr><tr><td>Raw materials Total</td><td>$</td><td>691</td><td>2,292$</td><td>510 1,628</td></tr></table>

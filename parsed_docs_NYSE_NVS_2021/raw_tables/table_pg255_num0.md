@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Expense related to equity-based participation plans</td><td>979</td><td>958</td><td>1067</td></tr><tr><td>Liabilities arising from equity-based</td><td></td><td></td><td></td></tr><tr><td>payment transactions</td><td>253</td><td>269</td><td>326</td></tr></table>

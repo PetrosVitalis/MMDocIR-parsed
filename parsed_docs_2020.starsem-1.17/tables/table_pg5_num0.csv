@@ -1,0 +1,15 @@
+Models,MultiWOZ 2.0,MultiWOZ 2.1
+"SpanPtr (Xu and Hu, 2018)",30.28%,29.09%
+Ptr-DST,-,42.17%
+"DSTreader (Gao et al., 2019b)",39.41%,36.40%*
+"TRADE (Wu et al., 2019)",48.62%,45.60%*
+"COMER (Ren et al., 2019)",45.72%,-
+"DSTQA w/ span (Zhou and Small, 2019)",51.36%,49.67%
+"DSTQA w/o span+ (Zhou and Small, 2019)",51.44%,51.17%
+"BERT-DST (Rastogi et al., 2020)",-,43.40%
+"MA-DST (Kumar et al., 2020)",-,51.04%
+"SST-2+ (Chen et al., 2020)",51.17%,55.23%
+"NA-DST (Le et al., 2020)",50.52%,49.04%
+DS-Span,42.59%,40.00%
+DS-DST,52.24%,51.21%
+DS-Picklist+,54.39%,53.30%

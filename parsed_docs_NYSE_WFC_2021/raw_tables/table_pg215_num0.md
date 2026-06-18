@@ -1,0 +1,1 @@
+<table><tr><td>(in millions)</td><td>Dec 31, 2021</td><td>Dec 31, 2020</td></tr><tr><td>Reserve balance for non-U.S.central banks $</td><td>382</td><td>243</td></tr><tr><td>Segregated for benefit of brokerage customers under federal and other brokerage regulations</td><td>830</td><td>957</td></tr></table>

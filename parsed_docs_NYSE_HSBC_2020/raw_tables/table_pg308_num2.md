@@ -1,0 +1,1 @@
+<table><tr><td rowspan="7">Audit of HSBC&#x27;s associated pension schemes</td><td>2020</td><td>2019</td><td></td></tr><tr><td></td><td></td><td>2018</td></tr><tr><td>$000</td><td>$000</td><td>$000</td></tr><tr><td>316</td><td>250</td><td>172</td></tr><tr><td>316</td><td>250</td><td>172</td></tr><tr><td></td><td></td><td></td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td colspan="7">Effective % of Consolidation</td></tr><tr><td>Company</td><td>ownership</td><td>Location</td><td>method</td><td>Reporting date</td><td>Concept</td><td> Line of business</td></tr></table>

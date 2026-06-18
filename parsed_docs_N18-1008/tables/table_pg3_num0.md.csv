@@ -1,0 +1,9 @@
+ASR,Model MT,Model MT,Search ASR MT,Search ASR MT,Mboshi CER,French BLEU,Ainu CER,English BLEU,Spanish CER,English BLEU
+(1),auto,text,1-best,1-best,42.3,21.4,44.0,16.4,63.2,24.2
+(2),gold,text,,1-best,0.0,31.2,0.0,19.3,0.0,51.3
+(3),single-task,single-task,1-best,1-best,丨,20.8,丨,12.0,一,21.6
+(4）,multitask,multitask,4-best,1-best,36.9,21.0,40.1,18.3,57.4,26.0
+(5),cascade,cascade,4-best,1-best,39.7,24.3,42.1,19.8,58.1,26.8
+(6) (7),triangle triangle+Ltrans,triangle triangle+Ltrans,4-best 4-best,1-best 1-best,32.3 33.0,24.1 24.7,39.9 43.3,19.2 20.2,58.9 59.3,28.6 28.6
+(8）,triangle,triangle,,,,,,,,
+（9),triangle+Ltrans,triangle+Ltrans,1-best 1-best,1-best 1-best,31.8 32.1,19.7 20.9,38.9 43.0,19.8 20.3,58.4 59.1,28.8 28.5

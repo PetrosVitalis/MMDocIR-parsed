@@ -1,0 +1,9 @@
+Error Code,Description,Action 1,Action 2,Action 3,Action 4,Action 5,Action 6,Action 7
+0001: Reset error (platform reset not de-asserted),Reset eror (platform reset not de-asserted),"Remove all power resources (the ac poweradapter, removable battery,and coin-cell battery).If your computer has a built-in battery, reset thecomputer by inserting a straightened paper clip into the emergency-reset hole. Wait for oneminute. Then reconnect all power resources.",Replace the system board (service provider only),,,,,
+0002: Internal bus error,Internal bus error,Replace the system board (service provider only),,,,,,
+0281: General embedded controller error,General embedded controller error,Replace the system board (service provider only),,,,,,
+0282: Memory module error,Memory module error,Reinstall or replace the memory module,Replace the system board (service provider only),,,,,
+0283: PCI resource error,PCI resource error,"Remove PCIe devices (the M.2 card,PCIe card,and so on) (service provider only)",Replace the system board (service provider only),,,,,
+0284: TCG-compliant functionality-related error (might be the BIOS code validation failure),TCG-compliant functionality-related error (might be the BlOS code validation failure),Replace the system board (service provider only),,,,,,
+0285: TCG-compliant functionality-related error (might be the TPM initialization failure),TCG-compliant functionality-related error (might be the TPM initialization failure),Replace the system board (service provider only),,,,,,
+0286: Integrated graphics error,Integrated graphics error,Replace the system board (service provider only),,,,,,

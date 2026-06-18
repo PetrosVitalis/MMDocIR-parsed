@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2021 vs.2020 Change</td></tr><tr><td>Licensing revenues $</td><td>6,320</td><td>$ 5,028</td><td>$ 1,292</td></tr><tr><td>EBT</td><td>4,627</td><td>3,442</td><td>1,185</td></tr><tr><td> EBT as a % of revenues</td><td>73%</td><td>68%</td><td> 5 points</td></tr></table>

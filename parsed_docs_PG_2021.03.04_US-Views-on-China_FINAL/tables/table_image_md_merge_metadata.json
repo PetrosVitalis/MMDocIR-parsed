@@ -1,0 +1,113 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_PG_2021.03.04_US-Views-on-China_FINAL",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_15_Table_0.jpg",
+      "raw_md": "table_pg15_num0.md",
+      "csv_base": "table_pg15_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_17_Table_0.jpg",
+      "raw_md": "table_pg17_num0.md",
+      "csv_base": "table_pg17_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_23_Table_0.jpg",
+      "raw_md": "table_pg23_num0.md",
+      "csv_base": "table_pg23_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_24_Table_0.jpg",
+      "raw_md": "table_pg24_num0.md",
+      "csv_base": "table_pg24_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_row_count_lt_relaxed_13)"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_34_Table_0.jpg",
+      "raw_md": "table_pg34_num0.md",
+      "csv_base": "table_pg34_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_36_Table_0.jpg",
+      "raw_md": "table_pg36_num0.md",
+      "csv_base": "table_pg36_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_7",
+      "image": "_page_37_Table_0.jpg",
+      "raw_md": "table_pg37_num0.md",
+      "csv_base": "table_pg37_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_8",
+      "image": "_page_37_Table_1.jpg",
+      "raw_md": "table_pg37_num1.md",
+      "csv_base": "table_pg37_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_9",
+      "image": "_page_38_Table_0.jpg",
+      "raw_md": "table_pg38_num0.md",
+      "csv_base": "table_pg38_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_10",
+      "image": "_page_39_Table_0.jpg",
+      "raw_md": "table_pg39_num0.md",
+      "csv_base": "table_pg39_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_11",
+      "image": "_page_39_Table_1.jpg",
+      "raw_md": "table_pg39_num1.md",
+      "csv_base": "table_pg39_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_9_got_2)"
+    }
+  ]
+}

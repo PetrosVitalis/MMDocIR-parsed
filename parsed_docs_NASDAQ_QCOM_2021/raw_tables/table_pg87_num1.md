@@ -1,0 +1,1 @@
+<table><tr><td>Cash $</td><td>174</td></tr><tr><td> In-process research and development (IPR&amp;D)</td><td>247</td></tr><tr><td>Goodwill</td><td>885</td></tr><tr><td> Other assets</td><td>26</td></tr><tr><td>Total assets</td><td>1,332</td></tr><tr><td>Liabilities</td><td>（68）</td></tr><tr><td>Net assets acquired $</td><td>1,264</td></tr></table>

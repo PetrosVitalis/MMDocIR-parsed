@@ -1,0 +1,842 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.079,
+      0.178,
+      0.102,
+      0.825
+    ],
+    "text": "NCRF++: An Open-source Neural Sequence Labeling Toolkit",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.135,
+      0.305,
+      0.203,
+      0.7
+    ],
+    "text": "Jie Yang and Yue Zhang Singapore University of Technology and Design jie yang@mymail.sutd.edu.sg yue zhang@sutd.edu.sg",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.262,
+      0.28,
+      0.344
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.29,
+      0.142,
+      0.549,
+      0.462
+    ],
+    "text": "This paper describes NCRF++, a toolkit for neural sequence labeling. NCRF++ is designed for quick implementation of different neural sequence labeling models with a CRF inference layer. It provides users with an inference for building the custom model structure through configuration file with flexible neural feature design and utilization. Built on PyTorch1, the core operations are calculated in batch, making the toolkit efficient with the acceleration of GPU. It also includes the implementations of most state-of-the-art neural sequence labeling models such as LSTM-CRF, facilitating reproducing and refinement on those methods.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.558,
+      0.117,
+      0.574,
+      0.262
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.582,
+      0.114,
+      0.759,
+      0.49
+    ],
+    "text": "Sequence labeling is one of the most fundamental NLP models, which is used for many tasks such as named entity recognition (NER), chunking, word segmentation and part-of-speech (POS) tagging. It has been traditionally investigated using statistical approaches (Lafferty et al., 2001; Ratinov and Roth, 2009), where conditional random fields (CRF) (Lafferty et al., 2001) has been proven as an effective framework, by taking discrete features as the representation of input sequence (Sha and Pereira, 2003; Keerthi and Sundararajan, 2007).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.76,
+      0.114,
+      0.89,
+      0.49
+    ],
+    "text": "With the advances of deep learning, neural sequence labeling models have achieved state-ofthe-art for many tasks (Ling et al., 2015; Ma and Hovy, 2016; Peters et al., 2017). Features are extracted automatically through network structures including long short-term memory (LSTM) (Hochreiter and Schmidhuber, 1997) and convolution neural network (CNN) (LeCun et al., 1989),",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.261,
+      0.522,
+      0.378,
+      0.857
+    ],
+    "text": "##NetworkConfiguration##   \nuse crf=True   \nword seq feature=LSTM   \nword seq layer=1   \nchar seq feature=CNN   \nfeature=[POS] emb dir=None emb size=10   \nfeature=[Cap] emb dir=%(cap emb dir)   \n##Hyperparameters##",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.39,
+      0.561,
+      0.406,
+      0.835
+    ],
+    "text": "Figure 1: Configuration file segment",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.509,
+      0.508,
+      0.887
+    ],
+    "text": "with distributed word representations. Similar to discrete models, a CRF layer is used in many state-of-the-art neural sequence labeling models for capturing label dependencies (Collobert et al., 2011; Lample et al., 2016; Peters et al., 2017).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.51,
+      0.509,
+      0.75,
+      0.887
+    ],
+    "text": "There exist several open-source statistical CRF sequence labeling toolkits, such as $\\mathrm { C R F } { + + } ^ { 2 }$ , CRF-Suite (Okazaki, 2007) and FlexCRFs (Phan et al., 2004), which provide users with flexible means of feature extraction, various training settings and decoding formats, facilitating quick implementation and extension on state-of-the-art models. On the other hand, there is limited choice for neural sequence labeling toolkits. Although many authors released their code along with their sequence labeling papers (Lample et al., 2016; Ma and Hovy, 2016; Liu et al., 2018), the implementations are mostly focused on specific model structures and specific tasks. Modifying or extending can need enormous coding.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.509,
+      0.864,
+      0.887
+    ],
+    "text": "In this paper, we present Neural CRF++ (NCRF++)3, a neural sequence labeling toolkit based on PyTorch, which is designed for solving general sequence labeling tasks with effective and efficient neural models. It can be regarded as the neural version of CRF++, with both take the CoNLL data format as input and can add handcrafted features to CRF framework conveniently. We take the layerwise implementation, which includes character sequence layer, word sequence layer and inference layer. NCRF++ is:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.074,
+      0.141,
+      0.28,
+      0.865
+    ],
+    "text": "Figure 2: NCRF++ for sentence “I love Bruce Lee”. Green, red, yellow and blue circles represent character embeddings, word embeddings, character sequence representations and word sequence representations, respectively. The grey circles represent the embeddings of sparse features.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.436,
+      0.114,
+      0.582,
+      0.49
+    ],
+    "text": "• Fully configurable: users can design their neural models only through a configuration file without any code work. Figure 1 shows a segment of the configuration file. It builds a LSTM-CRF framework with CNN to encode character sequence (the same structure as Ma and Hovy (2016)), plus POS and Cap features, within 10 lines. This demonstrates the convenience of designing neural models using NCRF++.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.114,
+      0.812,
+      0.49
+    ],
+    "text": "• Flexible with features: human-defined features have been proved useful in neural sequence labeling (Collobert et al., 2011; Chiu and Nichols, 2016). Similar to the statistical toolkits, NCRF++ supports user-defined features but using distributed representations through lookup tables, which can be initialized randomly or from external pretrained embeddings (embedding directory: emb dir in Figure 1). In addition, NCRF++ integrates several state-of-the-art automatic feature extractors, such as CNN and LSTM for character sequences, leading easy reproduction of many recent work (Lample et al., 2016; Chiu and Nichols, 2016; Ma and Hovy, 2016).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "• Effective and efficient: we reimplement several state-of-the-art neural models (Lample et al., 2016; Ma and Hovy, 2016) using NCRF++. Experiments show models built in NCRF++ give comparable performance with reported results in the literature. Besides, NCRF++ is implemented using batch calculation, which can be accelerated using GPU. Our experiments demonstrate that NCRF++ as an effective and efficient toolkit.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.418,
+      0.509,
+      0.466,
+      0.887
+    ],
+    "text": "• Function enriched: NCRF++ extends the Viterbi algorithm (Viterbi, 1967) to enable decoding n best sequence labels with their probabilities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.509,
+      0.564,
+      0.887
+    ],
+    "text": "Taking NER, Chunking and POS tagging as typical examples, we investigate the performance of models built in NCRF++, the influence of humandefined and automatic features, the performance of nbest decoding and the running speed with the batch size. Detail results are shown in Section 3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.509,
+      0.593,
+      0.741
+    ],
+    "text": "2 NCRF++ Architecture",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "The framework of NCRF++ is shown in Figure 2. NCRF++ is designed with three layers: a character sequence layer; a word sequence layer and inference layer. For each input word sequence, words are represented with word embeddings. The character sequence layer can be used to automatically extract word level features by encoding the character sequence within the word. Arbitrary handcrafted features such as capitalization [Cap], POS tag [POS], prefixes [Pre] and suffixes [Suf] are also supported by NCRF++. Word representations are the concatenation of word embeddings (red circles), character sequence encoding hidden vector (yellow circles) and handcrafted neural features (grey circles). Then the word sequence layer takes the word representations as input and extracts the sentence level features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.183,
+      0.115,
+      0.198,
+      0.258
+    ],
+    "text": "2.1 Layer Units",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.115,
+      0.218,
+      0.388
+    ],
+    "text": "2.1.1 Character Sequence Layer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.114,
+      0.35,
+      0.49
+    ],
+    "text": "The character sequence layer integrates several typical neural encoders for character sequence information, such as RNN and CNN. It is easy to select our existing encoder through the configuration file (by setting char seq feature in Figure 1). Characters are represented by character embeddings (green circles in Figure 2), which serve as the input of character sequence layer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.351,
+      0.114,
+      0.463,
+      0.49
+    ],
+    "text": "Character RNN and its variants Gated Recurrent Unit (GRU) and LSTM are supported by NCRF++. The character sequence layer uses bidirectional RNN to capture the left-to-right and right-to-left sequence information, and concatenates the final hidden states of two RNNs as the encoder of the input character sequence.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.464,
+      0.114,
+      0.513,
+      0.49
+    ],
+    "text": "• Character CNN takes a sliding window to capture local features, and then uses a max-pooling for aggregated encoding of the character sequence.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.115,
+      0.537,
+      0.352
+    ],
+    "text": "2.1.2 Word Sequence Layer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.541,
+      0.114,
+      0.717,
+      0.49
+    ],
+    "text": "Similar to the character sequence layer, NCRF++ supports both RNN and CNN as the word sequence feature extractor. The selection can be configurated through word seq feature in Figure 1. The input of the word sequence layer is a word representation, which may include word embeddings, character sequence representations and handcrafted neural features (the combination depends on the configuration file). The word sequence layer can be stacked, building a deeper feature extractor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.114,
+      0.862,
+      0.49
+    ],
+    "text": "• Word RNN together with GRU and LSTM are available in NCRF++, which are popular structures in the recent literature (Huang et al., 2015; Lample et al., 2016; Ma and Hovy, 2016; Yang et al., 2017). Bidirectional RNNs are supported to capture the left and right contexted information of each word. The hidden vectors for both directions on each word are concatenated to represent the corresponding word.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.114,
+      0.91,
+      0.49
+    ],
+    "text": "• Word CNN utilizes the same sliding window as character CNN, while a nonlinear function (Glorot et al., 2011) is attached with the extracted features. Batch normalization (Ioffe and Szegedy, 2015) and dropout (Srivastava et al., 2014) are also supported to follow the features.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.134,
+      0.51,
+      0.149,
+      0.7
+    ],
+    "text": "2.1.3 Inference Layer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.153,
+      0.509,
+      0.298,
+      0.887
+    ],
+    "text": "The inference layer takes the extracted word sequence representations as features and assigns labels to the word sequence. NCRF++ supports both softmax and CRF as the output layer. A linear layer firstly maps the input sequence representations to label vocabulary size scores, which are used to either model the label probabilities of each word through simple softmax or calculate the label score of the whole sequence.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.509,
+      0.411,
+      0.887
+    ],
+    "text": "• Softmax maps the label scores into a probability space. Due to the support of parallel decoding, softmax is much more efficient than CRF and works well on some sequence labeling tasks (Ling et al., 2015). In the training process, various loss functions such as negative likelihood loss, cross entropy loss are supported.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.412,
+      0.509,
+      0.542,
+      0.887
+    ],
+    "text": "• CRF captures label dependencies by adding transition scores between neighboring labels. NCRF++ supports CRF trained with the sentencelevel maximum log-likelihood loss. During the decoding process, the Viterbi algorithm is used to search the label sequence with the highest probability. In addition, NCRF++ extends the decoding algorithm with the support of nbest output.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-16",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.552,
+      0.51,
+      0.568,
+      0.673
+    ],
+    "text": "2.2 User Interface",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-17",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.509,
+      0.72,
+      0.887
+    ],
+    "text": "NCRF++ provides users with abundant network configuration interfaces, including the network structure, input and output directory setting, training settings and hyperparameters. By editing a configuration file, users can build most state-ofthe-art neural sequence labeling models. On the other hand, all the layers above are designed as “plug-in” modules, where user-defined layer can be integrated seamlessly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-18",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.73,
+      0.51,
+      0.745,
+      0.684
+    ],
+    "text": "2.2.1 Configuration",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-19",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.509,
+      0.877,
+      0.887
+    ],
+    "text": "• Networks can be configurated in the three layers as described in Section 2.1. It controls the choice of neural structures in character and word levels with char seq feature and word seq feature, respectively. The inference layer is set by use crf. It also defines the usage of handcrafted features and their properties in feature.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-20",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "• I/O is the input and output file directory configuration. It includes training dir, dev dir, test dir, raw dir, pretrained character or word embedding (char emb dim or word emb dim), and decode file directory (decode dir).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:table-1",
+    "page_id": 3,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_3_Table_0.jpg",
+    "bbox_norm": [
+      0.072,
+      0.117,
+      0.239,
+      0.484
+    ],
+    "text": "Table 1: Results on three benchmarks.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.355,
+      0.114,
+      0.419,
+      0.49
+    ],
+    "text": "Training includes the loss function (loss function), optimizer (optimizer)4 shuffle training instances train shuffle and average batch loss ave batch loss.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.42,
+      0.114,
+      0.582,
+      0.49
+    ],
+    "text": "• Hyperparameter includes most of the parameters in the networks and training such as learning rate (lr) and its decay (lr decay), hidden layer size of word and character (hidden dim and char hidden dim), nbest size (nbest), batch size (batch size), dropout (dropout), etc. Note that the embedding size of each handcrafted feature is configured in the networks configuration (feature=[POS] emb dir=None emb size=10 in Figure 1).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.115,
+      0.606,
+      0.257
+    ],
+    "text": "2.2.2 Extension",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.114,
+      0.771,
+      0.492
+    ],
+    "text": "Users can write their own custom modules on all three layers, and user-defined layers can be integrated into the system easily. For example, if a user wants to define a custom character sequence layer with a specific neural structure, he/she only needs to implement the part between input character sequence indexes to sequence representations. All the other networks structures can be used and controlled through the configuration file. A README file is given on this.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.115,
+      0.799,
+      0.247
+    ],
+    "text": "3 Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.807,
+      0.115,
+      0.824,
+      0.228
+    ],
+    "text": "3.1 Settings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.827,
+      0.114,
+      0.877,
+      0.492
+    ],
+    "text": "To evaluate the performance of our toolkit, we conduct the experiments on several datasets. For NER task, CoNLL 2003 data (Tjong Kim Sang and De Meulder, 2003) with the standard split is used. For the chunking task, we perform experiments on CoNLL 2000 shared task (Tjong Kim Sang and Buchholz, 2000), data split is following Reimers and Gurevych (2017). For POS tagging, we use the same data and split with Ma and Hovy (2016). We test different combinations of character representations and word sequence representations on these three benchmarks. Hyperparameters are mostly following Ma and Hovy (2016) and almost keep the same in all these experiments5. Standard SGD with a decaying learning rate is used as the optimizer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:table-10",
+    "page_id": 3,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_3_Table_1.jpg",
+    "bbox_norm": [
+      0.072,
+      0.512,
+      0.167,
+      0.88
+    ],
+    "text": "Table 2: Results using different features.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.447,
+      0.51,
+      0.462,
+      0.62
+    ],
+    "text": "3.2 Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.468,
+      0.509,
+      0.646,
+      0.887
+    ],
+    "text": "Table 1 shows the results of six CRF-based models with different character sequence and word sequence representations on three benchmarks. State-of-the-art results are also listed. In this table, “Nochar” suggests a model without character sequence information. “CLSTM” and “CCNN” represent models using LSTM and CNN to encode character sequence, respectively. Similarly, “WL-STM” and “WCNN” indicate that the model uses LSTM and CNN to represent word sequence, respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.648,
+      0.509,
+      0.873,
+      0.889
+    ],
+    "text": "As shown in Table 1, “WCNN” based models consistently underperform the “WLSTM” based models, showing the advantages of LSTM on capturing global features. Character information can improve model performance significantly, while using LSTM or CNN give similar improvement. Most of state-of-the-art models utilize the framework of word LSTM-CRF with character LSTM or CNN features (correspond to “CLSTM+WLSTM+CRF” and “CCNN+WLSTM+CRF” of our models) (Lample et al., 2016; Ma and Hovy, 2016; Yang et al., 2017; Peters et al., 2017). Our implementations can achieve comparable results, with better NER and chunking performances and slightly lower POS tagging accuracy. Note that we use almost the same hyperparameters across all the experiments to achieve the results, which demonstrates the robustness of",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.448,
+      0.115,
+      0.463,
+      0.329
+    ],
+    "text": "3.3 Influence of Features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.469,
+      0.114,
+      0.76,
+      0.492
+    ],
+    "text": "We also investigate the influence of different features on system performance. Table 2 shows the results on the NER task. POS tag and capital indicator are two common features on NER tasks (Collobert et al., 2011; Huang et al., 2015; Strubell et al., 2017). In our implementation, each POS tag or capital indicator feature is mapped as 10- dimension feature embeddings through randomly initialized feature lookup table 6. The feature embeddings are concatenated with the word embeddings as the representation of the corresponding word. Results show that both human features [POS] and [Cap] can contribute the NER system, this is consistent with previous observations (Collobert et al., 2011; Chiu and Nichols, 2016). By utilizing LSTM or CNN to encode character sequence automatically, the system can",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.772,
+      0.115,
+      0.789,
+      0.292
+    ],
+    "text": "3.4 N best Decoding",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.114,
+      0.876,
+      0.49
+    ],
+    "text": "We investigate nbest Viterbi decoding on NER dataset through the best model “CCNN+WLSTM+CRF”. Figure 3 shows the oracle entity F1-values and token accuracies with different nbest sizes. The oracle F1-value rises significantly with the increasement of nbest size, reaching 97.47% at n = 10 from the baseline of 91.35%. The token level accuracy increases from 98.00% to 99.39% in 10-best. Results show that the nbest outputs include the gold entities and labels in a large coverage, which greatly enlarges the performance of successor tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.51,
+      0.458,
+      0.734
+    ],
+    "text": "3.5 Speed with Batch Size",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.462,
+      0.509,
+      0.675,
+      0.887
+    ],
+    "text": "As NCRF++ is implemented on batched calculation, it can be greatly accelerated through parallel computing through GPU. We test the system speeds on both training and decoding process on NER dataset using a Nvidia GTX 1080 GPU. As shown in Figure 4, both the training and the decoding speed can be significantly accelerated through a large batch size. The decoding speed reaches saturation at batch size 100, while the training speed keeps growing. The decoding speed and training speed of NCRF++ are over 2000 sentences/second and 1000 sentences/second, respectively, demonstrating the efficiency of our implementation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.684,
+      0.51,
+      0.7,
+      0.647
+    ],
+    "text": "4 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.709,
+      0.507,
+      0.904,
+      0.889
+    ],
+    "text": "We presented NCRF++, an open-source neural sequence labeling toolkit, which has a CRF architecture with configurable neural representation layers. Users can design custom neural models through the configuration file. NCRF++ supports flexible feature utilization, including handcrafted features and automatically extracted features. It can also generate nbest label sequences rather than the best one. We conduct a series of experiments and the results show models built on NCRF++ can achieve state-of-the-art results with an efficient running speed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.115,
+      0.09,
+      0.216
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.098,
+      0.117,
+      0.166,
+      0.502
+    ],
+    "text": "Jason Chiu and Eric Nichols. 2016. Named entity recognition with bidirectional LSTM-CNNs. Transactions of the Association for Computational Linguistics 4:357–370. https://transacl.org/ojs/index.php/tacl/article/view/792. Ronan Collobert, Jason Weston, Leon Bottou, Michael ´ Karlen, Koray Kavukcuoglu, and Pavel Kuksa. 2011. Natural language processing (almost) from scratch. Journal of Machine Learning Research 12(Aug):2493–2537. Xavier Glorot, Antoine Bordes, and Yoshua Bengio. 2011. Deep sparse rectifier neural networks. In International Conference on Artificial Intelligence and Statistics. pages 315–323. Sepp Hochreiter and Jurgen Schmidhuber. 1997. ¨ Long short-term memory. Neural computation 9(8):1735–1780. Zhiheng Huang, Wei Xu, and Kai Yu. 2015. Bidirectional LSTM-CRF models for seque",
+    "source_type": "list"
+  }
+]

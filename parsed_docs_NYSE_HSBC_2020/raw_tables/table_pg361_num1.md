@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020 (000s)</td><td>2019 (000s)</td></tr><tr><td>Number of options held over HSBC Holdings ordinary shares under employee share plans</td><td>27</td><td>18</td></tr><tr><td>Number of HSBC Holdings ordinary shares held beneficially and non-beneficially</td><td>11,916</td><td>15,546</td></tr><tr><td>At 31 Dec</td><td>11,943</td><td>15,564</td></tr></table>

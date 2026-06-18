@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>$ in millions Derivatives</td><td>$ 7$</td><td>6</td></tr><tr><td>Funding liabilities²</td><td>50</td><td>42</td></tr></table>

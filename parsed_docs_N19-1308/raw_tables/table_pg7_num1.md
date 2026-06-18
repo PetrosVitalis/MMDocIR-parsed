@@ -1,0 +1,1 @@
+<table><tr><td>Entity Perf.on Pronouns</td><td>P</td><td>R</td><td>F1</td></tr><tr><td>DYGIE</td><td>79.0</td><td>77.1</td><td>78.0</td></tr><tr><td>DYGIE-CorefProp</td><td>73.8</td><td>72.6</td><td>73.2</td></tr></table>

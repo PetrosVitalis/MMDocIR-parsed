@@ -1,0 +1,40 @@
+{
+  "image": "_page_14_Table_1.jpg",
+  "reason": "invalid_csv_generated",
+  "backend": "local",
+  "model": "qwen2.5vl:7b",
+  "timeout_seconds": 90.0,
+  "run_diagnostics": {
+    "image": "_page_14_Table_1.jpg",
+    "stages": [
+      {
+        "stage": "initial_extract",
+        "elapsed_seconds": 29.98,
+        "status": "success"
+      }
+    ],
+    "shape_hint": {
+      "expected_cols": 5,
+      "min_rows": 2,
+      "confidence": "high",
+      "source": "image_projection_heuristic",
+      "enforce": false,
+      "enforce_cols": true
+    },
+    "risk_profile": {
+      "risk": "low",
+      "score": 1,
+      "width": 615,
+      "height": 604,
+      "area": 371460,
+      "aspect": 1.018,
+      "expected_cols": 5,
+      "min_rows": 2,
+      "shape_confidence": "high"
+    },
+    "strategy": "default_flow"
+  },
+  "details": {
+    "validation_reason": "column_count_lt_2"
+  }
+}

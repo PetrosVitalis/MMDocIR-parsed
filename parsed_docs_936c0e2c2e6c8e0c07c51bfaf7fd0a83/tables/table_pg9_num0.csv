@@ -1,0 +1,9 @@
+Idntfytotdttttetc.)roideoitp/,Idntfytotdttttetc.)roideoitp/,Idntfytotdttttetc.)roideoitp/,Idntfytotdttttetc.)roideoitp/,Idntfytotdttttetc.)roideoitp/,Idntfytotdttttetc.)roideoitp/,Idntfytotdttttetc.)roideoitp/,Idntfytotdttttetc.)roideoitp/,Idntfytotdttttetc.)roideoitp/
+AgencyComponentName,AgencyComponent Description,FEA SRMServiceDomain,FEA SRM Service Type,FEA SRMComponent (a),ServiceComponent Reused Name(b),ServiceComponent Reused UPI(b),Internal orExternalReuse? (c),BY FundingPercentage (d)
+,employees forthe organization.IPMS supportsthesecapabilities usingREETA.,,,,,,,
+ResumeManagement,Defines thesetof capabilitiesthat support themaintenance andadministration ofone'sprofessional orwork experienceandqualifications.IPMS supportsthesecapabilities usingGate toDoS/Quickhire.,Back OfficeServices,HumanResources,ResumeManagement,,,No Reuse,
+RetirementManagement,Defines the setof capabilitiesthat support thepaymentofbenefits toretirees.IPMSaccomplishesthesecapabilities usingtheGEMS/Peoplesoft8.8 for Domesticpersonnel anduses PostPersonnel foroverseasForeignServicepersonnel.,Back OfficeServices,HumanResources,RetirementManagement,,,No Reuse,3
+Ad Hoc,Defines the setof capabilitiesthat support theuse of dynamicreports on an asneeded basis.IPMS supportsthesecapabilities viathe KnowledgeCenterusingBusinessObjects.,BusinessAnalyticalServices,Reporting,Ad Hoc,,,No Reuse,2
+OLAP,Defines the setof capabilitiesthat support theanalysisofinformation thathasbeensummarized intomultidimensionalviewsandhierarchies.IPMS supportsthesecapabilities viatheKnowledgeCenterusingBusinessObjects.,BusinessAnalyticalServices,Reporting,OLAP,,,No Reuse,2
+Standardized /Canned,Defines the setof capabilitiesthat support theuse of pre-conceived orpre-writtenreports.IPMSsupports thesecapabilities viatheKnowledgeCenterusingBusinessObjects.,BusinessAnalyticalServices,Reporting,Standardized /Canned,,,No Reuse,
+Program/Project,Defines the set,Business,Managementof,Program/,,,No Reuse,

@@ -1,0 +1,1 @@
+<table><tr><td>Novartis position in the peer group</td><td>Payout range (% of target)</td><td rowspan="5">Actual ranking</td></tr><tr><td>Position 1-2</td><td>170%-200%</td></tr><tr><td>Position 3-5</td><td>130%-160%</td></tr><tr><td>Position 6-8</td><td>80%-120%</td></tr><tr><td>Position 9 -15</td><td>0%</td></tr></table>

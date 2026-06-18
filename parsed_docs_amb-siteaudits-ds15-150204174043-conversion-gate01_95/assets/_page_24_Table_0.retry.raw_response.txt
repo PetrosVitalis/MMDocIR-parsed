@@ -1,0 +1,10 @@
+```csv
+Data Type,"Source","Items","Items with Errors","Pages"
+"Blog","Markup: schema.org",135747,72441,133213
+"Article","Markup: schema.org",130554,49222,130554
+"hatom","Markup: microformats.org",137,137,137
+"hentry","Markup: microformats.org",29,29,29
+"Article","Markup: nik.io",7,0,7
+"Website","Markup: schema.org",4,0,4
+"ImageObject","Markup: schema.org",1,0,1
+```

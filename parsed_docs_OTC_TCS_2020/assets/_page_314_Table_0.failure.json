@@ -1,0 +1,87 @@
+{
+  "image": "_page_314_Table_0.jpg",
+  "reason": "model_timeout",
+  "backend": "local",
+  "model": "qwen2.5vl:7b",
+  "timeout_seconds": 90.0,
+  "run_diagnostics": {
+    "image": "_page_314_Table_0.jpg",
+    "stages": [
+      {
+        "stage": "initial_extract",
+        "elapsed_seconds": 90.09,
+        "status": "failed"
+      },
+      {
+        "stage": "timeout_fast_retry",
+        "elapsed_seconds": 85.82,
+        "status": "success"
+      },
+      {
+        "stage": "timeout_chunked_recovery",
+        "elapsed_seconds": 198.43,
+        "status": "failed"
+      },
+      {
+        "stage": "timeout_ocr_last_resort",
+        "status": "started"
+      }
+    ],
+    "shape_hint": {
+      "expected_cols": 4,
+      "min_rows": 15,
+      "confidence": "high",
+      "source": "image_projection_heuristic",
+      "enforce": true,
+      "enforce_cols": true
+    },
+    "risk_profile": {
+      "risk": "medium",
+      "score": 4,
+      "width": 1806,
+      "height": 815,
+      "area": 1471890,
+      "aspect": 2.216,
+      "expected_cols": 4,
+      "min_rows": 15,
+      "shape_confidence": "high"
+    },
+    "strategy": "staged_local_timeout_flow",
+    "chunked_band_count": 3,
+    "chunked_band_results": [
+      {
+        "band": 1,
+        "status": "success",
+        "elapsed_seconds": 26.22,
+        "mode": "fast_tsv"
+      },
+      {
+        "band": 2,
+        "status": "success",
+        "elapsed_seconds": 39.95,
+        "mode": "fast_tsv"
+      },
+      {
+        "band": 3,
+        "status": "success",
+        "elapsed_seconds": 132.26,
+        "mode": "fast_tsv_small"
+      }
+    ],
+    "chunked_stitch_status": "failed"
+  },
+  "details": {
+    "strict_repair": false,
+    "comma_safe_tsv": false,
+    "stutter_safe_tsv": false,
+    "fast_mode": false,
+    "ocr_text_only": true,
+    "max_dimension": 1400,
+    "join_timeout_seconds": 90.0,
+    "forced_kill": false,
+    "stage_context": {
+      "strategy": "timeout_ocr_last_resort",
+      "risk": "medium"
+    }
+  }
+}

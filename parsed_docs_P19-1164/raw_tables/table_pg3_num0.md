@@ -1,0 +1,1 @@
+<table><tr><td>Original</td><td>+Adj</td><td>△</td></tr><tr><td>ES</td><td>53.1 63.5</td><td>+10.4</td></tr><tr><td>RU</td><td>37.7</td><td>48.9 +11.2</td></tr><tr><td>UK</td><td>38.4 42.9</td><td>+4.5</td></tr></table>

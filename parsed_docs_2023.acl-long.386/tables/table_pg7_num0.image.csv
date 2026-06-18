@@ -1,0 +1,7 @@
+Error Type,2-hop,3-hop,4-hop
+Syntax error,0%,0%,0%
+Semantic error,29%,38%,77%
+Token,8%,20%,18%
+Structure,19%,13%,57%
+Subtask,2%,5%,2%
+Incorrect execution,71%,62%,23%

@@ -1,0 +1,6 @@
+Model,Top-1 Accuracy (%),PGR (%)
+AlexNet (weak supervisor),56.6,
+Dino ResNet50,63.7,
+Dino ViT-B/8,74.9,-
+AlexNet → DINO ResNet50,60.7,57.8
+AlexNet → DINO ViT-B/8,64.2,41.5

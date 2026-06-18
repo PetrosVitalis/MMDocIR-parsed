@@ -1,0 +1,3 @@
+Comparison (A vs. B) RetrieveNRefine++ vs.Memory Network,Win Rate 54.5%,A Wins 340,BWins 284,Tie 572,p-value 0.027 0.016
+RetrieveNRefine++ vs. Seq2Seq RetrieveNRefine++(retrieved) vs.Seq2Seq RetrieveNRefine++(generated) vs.Seq2Seq,53.7% 53.8% 53.6%,571 290 281,492 249 243,203 87 116,
+RetrieveNRefine+ vs.Memory Network RetrieveNRefine+ vs.Human Seq2Seq vs. Human,51.63% 30.13% 26.84%,492 69 62,461 160 169,243 14 22,

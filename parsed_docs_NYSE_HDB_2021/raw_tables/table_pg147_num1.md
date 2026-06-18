@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Asset</td><td rowspan=1 colspan=1>Estimated useful life</td></tr><tr><td rowspan=1 colspan=1>Vehicles</td><td rowspan=1 colspan=1>4 years</td></tr><tr><td rowspan=1 colspan=1>Network&amp;servers</td><td rowspan=1 colspan=1>4 years</td></tr></table>

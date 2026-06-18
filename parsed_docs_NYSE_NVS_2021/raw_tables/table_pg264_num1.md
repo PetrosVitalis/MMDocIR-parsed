@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td></tr><tr><td>Listed equity securities</td><td>888</td><td>862</td></tr><tr><td>Non-listed equity securities</td><td>307</td><td>249</td></tr><tr><td>Total equity securities</td><td>1 195</td><td>1111</td></tr></table>

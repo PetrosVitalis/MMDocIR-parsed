@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Total</td><td>1.76</td><td>2.26</td></tr><tr><td> From energy</td><td>1.57</td><td>1.76</td></tr><tr><td>From travel</td><td>0.19</td><td>0.5</td></tr></table>

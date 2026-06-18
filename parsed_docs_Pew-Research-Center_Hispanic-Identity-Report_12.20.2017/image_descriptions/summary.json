@@ -1,0 +1,119 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_Pew-Research-Center_Hispanic-Identity-Report_12.20.2017",
+  "total_images": 22,
+  "non_figure_images_skipped": 3,
+  "processed": 22,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_15_Asset_1.jpg",
+      "output": "image_descriptions/_page_15_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_15_Asset_0.jpg",
+      "output": "image_descriptions/_page_15_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Figure_0.jpg",
+      "output": "image_descriptions/_page_6_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Asset_2.jpg",
+      "output": "image_descriptions/_page_10_Asset_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Asset_1.jpg",
+      "output": "image_descriptions/_page_10_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_10_Asset_0.jpg",
+      "output": "image_descriptions/_page_10_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Asset_0.jpg",
+      "output": "image_descriptions/_page_13_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_21_Asset_0.jpg",
+      "output": "image_descriptions/_page_21_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_13_Asset_1.jpg",
+      "output": "image_descriptions/_page_13_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_19_Figure_0.jpg",
+      "output": "image_descriptions/_page_19_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Asset_0.jpg",
+      "output": "image_descriptions/_page_4_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Asset_0.jpg",
+      "output": "image_descriptions/_page_16_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_8_Asset_0.jpg",
+      "output": "image_descriptions/_page_8_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Asset_0.jpg",
+      "output": "image_descriptions/_page_11_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Asset_1.jpg",
+      "output": "image_descriptions/_page_11_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_18_Asset_0.jpg",
+      "output": "image_descriptions/_page_18_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Asset_0.jpg",
+      "output": "image_descriptions/_page_14_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_9_Asset_0.jpg",
+      "output": "image_descriptions/_page_9_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Asset_1.jpg",
+      "output": "image_descriptions/_page_17_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Asset_0.jpg",
+      "output": "image_descriptions/_page_17_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Asset_0.jpg",
+      "output": "image_descriptions/_page_20_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Asset_0.jpg",
+      "output": "image_descriptions/_page_12_Asset_0.md",
+      "status": "success"
+    }
+  ]
+}

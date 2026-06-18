@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Amounts</td></tr><tr><td>2021 $</td><td>587</td></tr><tr><td>2022</td><td>587</td></tr><tr><td>2023</td><td>1,100</td></tr><tr><td>2024</td><td>1,467</td></tr><tr><td>2025</td><td>1,834</td></tr><tr><td> Total remaining U.S. repatriation tax commitments</td><td>$ 5,575</td></tr></table>

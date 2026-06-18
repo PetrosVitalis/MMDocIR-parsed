@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">December 31,2020</td><td>December 31,2019</td><td></td></tr><tr><td>Accounts payable and other accruals</td><td>$</td><td>327,704 $</td><td></td><td>153,693</td></tr><tr><td>Accrued interest Total</td><td>$</td><td>324,415 652,119</td><td>$</td><td>496,448 650,141</td></tr></table>

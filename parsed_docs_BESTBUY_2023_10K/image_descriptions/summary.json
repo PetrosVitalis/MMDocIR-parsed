@@ -1,0 +1,19 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_BESTBUY_2023_10K",
+  "total_images": 2,
+  "non_figure_images_skipped": 75,
+  "processed": 2,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_21_Asset_0.jpg",
+      "output": "image_descriptions/_page_21_Asset_0.md",
+      "status": "success"
+    }
+  ]
+}

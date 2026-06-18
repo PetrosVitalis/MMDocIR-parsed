@@ -1,0 +1,1500 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.222,
+      0.172,
+      0.776
+    ],
+    "text": "Making Your First Choice: To Address Cold Start Problem in Vision Active Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.285,
+      0.241,
+      0.71
+    ],
+    "text": "Liangyu Chen1 Yutong Bai2 Siyu Huang3 Yongyi Lu2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.325,
+      0.256,
+      0.679
+    ],
+    "text": "Bihan Wen1 Alan L. Yuille2 Zongwei Zhou2,∗",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.209,
+      0.271,
+      0.787
+    ],
+    "text": "1Nanyang Technological University 2Johns Hopkins University 3Harvard University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.459,
+      0.321,
+      0.539
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.337,
+      0.23,
+      0.534,
+      0.767
+    ],
+    "text": "Active learning promises to improve annotation efficiency by iteratively selecting the most important data to be annotated first. However, we uncover a striking contradiction to this promise: active learning fails to select data as efficiently as random selection at the first few choices. We identify this as the cold start problem in vision active learning, caused by a biased and outlier initial query. This paper seeks to address the cold start problem by exploiting the three advantages of contrastive learning: (1) no annotation is required; (2) label diversity is ensured by pseudo-labels to mitigate bias; (3) typical data is determined by contrastive features to reduce outliers. Experiments are conducted on CIFAR-10-LT and three medical imaging datasets (i.e. Colon Pathology, Abdominal CT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.531,
+      0.23,
+      0.547,
+      0.598
+    ],
+    "text": "Code is available: https://github.com/c-liangyu/CSVAL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.573,
+      0.173,
+      0.589,
+      0.312
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.343,
+      0.621,
+      0.656
+    ],
+    "text": "“The secret of getting ahead is getting started.”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.72,
+      0.645,
+      0.825
+    ],
+    "text": "— Mark Twain",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.169,
+      0.839,
+      0.826
+    ],
+    "text": "The cold start problem was initially found in recommender systems [56, 39, 9, 23] when algorithms had not gathered sufficient information about users with no purchase history. It also occurred in many other fields, such as natural language processing [55, 33] and computer vision [5, 11, 38] during the active learning procedure1. Active learning promises to improve annotation efficiency by iteratively selecting the most important data to annotate. However, we uncover a striking contradiction to this promise: Active learning fails to select data as effectively as random selection at the first choice. We identify this as the cold start problem in vision active learning and illustrate the problem using three medical imaging applications (Figure 1a–c) as well as a natural imaging application (F",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.426,
+      0.169,
+      0.525,
+      0.826
+    ],
+    "text": "Random selection is generally considered a baseline to start the active learning because the randomly sampled query is independent and identically distributed (i.i.d.) to the entire data distribution. As is known, maintaining a similar distribution between training and test data is beneficial, particularly when using limited training data [25]. Therefore, a large body of existing work selects the initial query randomly [10, 61, 55, 62, 18, 17, 42, 24, 22, 60], highlighting that active querying compromises accuracy and diversity compared to random sampling at the beginning of active learning [36, 63, 44, 11, 20, 59]. Why? We attribute the causes of the cold start problem to the following two aspects:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.169,
+      0.698,
+      0.826
+    ],
+    "text": "(i) Biased query: Active learning tends to select data that is biased to specific classes. Empirically, Figure 2 reveals that the class distribution in the selected query is highly unbalanced. These active querying strategies (e.g. Entropy, Margin, VAAL, etc.) can barely outperform random sampling at the beginning because some classes are simply not selected for training. It is because data of the minority classes occurs much less frequently than those of the majority classes. Moreover, datasets in practice are often highly unbalanced, particularly in medical images [32, 58]. This can escalate the biased sampling. We hypothesize that the label diversity of a query is an important criterion to determine the importance of the annotation. To evaluate this hypothesis theoretically, we explore ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.169,
+      0.871,
+      0.828
+    ],
+    "text": "(ii) Outlier query: Many active querying strategies were proposed to select typical data and eliminate outliers, but they heavily rely on a trained classifier to produce predictions or features. For example, to calculate the value of Entropy, a trained classifier is required to predict logits of the data. However, there is no such classifier at the start of active learning, at which point no labeled data is available for training. To express informative features for reliable predictions, we consider contrastive learning, which can be trained using unlabeled data only. Contrastive learning encourages models to discriminate between data augmented from the same image and data from different images [15, 13]. Such a learning process is called instance discrimination. We hypothesize that instanc",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.231,
+      0.826
+    ],
+    "text": "Systematic ablation experiments and qualitative visualizations in §3 confirm that (i) the level of label diversity and (ii) the inclusion of typical data are two explicit criteria for determining the annotation importance. Naturally, contrastive learning is expected to approximate these two criteria: pseudolabels in clustering implicitly enforce label diversity in the query; instance discrimination determines typical data. Extensive results show that our initial query not only significantly outperforms existing active querying strategies, but also surpasses random selection by a large margin on three medical imaging datasets (i.e. Colon Pathology, Abdominal CT, and Blood Cell Microscope) and two natural imaging datasets (i.e. CIFAR-10 and CIFAR-10-LT). Our active querying strategy eliminat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.169,
+      0.32,
+      0.826
+    ],
+    "text": "To the best of our knowledge, we are among the first to indicate and address the cold start problem in the field of medical image analysis (and perhaps, computer vision), making three contributions: (1) illustrating the cold start problem in vision active learning, (2) investigating the underlying causes with rigorous empirical analysis and visualization, and (3) determining effective initial queries for the active learning procedure. Our solution to the cold start problem can be used as a strong yet simple baseline to select the initial query for image classification and other vision tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.325,
+      0.169,
+      0.55,
+      0.826
+    ],
+    "text": "Related work. When the cold start problem was first observed in recommender systems, there were several solutions to remedy the insufficient information due to the lack of user history [63, 23]. In natural language processing (NLP), Yuan et al. [55] were among the first to address the cold start problem by pre-training models using self-supervision. They attributed the cold start problem to model instability and data scarcity. Vision active learning has shown higher performance than random selection [61, 47, 18, 2, 43, 34, 62], but there is limited study discussing how to select the initial query when facing the entire unlabeled dataset. A few studies somewhat indicated the existence of the cold start problem: Lang et al. [30] explored the effectiveness of the K-center algorithm [16] to se",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.171,
+      0.584,
+      0.272
+    ],
+    "text": "2 Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.599,
+      0.169,
+      0.685,
+      0.826
+    ],
+    "text": "In this section, we analyze in-depth the cause of cold start problem in two perspectives, biased query as the inter-class query and outlier query as the intra-class factor. We provide a complementary method to select the initial query based on both criteria. §2.1 illustrates that label diversity is a favourable selection criterion, and discusses how we obtain label diversity via simple contrastive learning and K-means algorithms. §2.2 describes an unsupervised method to sample atypical (hard-to-contrast) queries from Dataset Maps.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.171,
+      0.717,
+      0.661
+    ],
+    "text": "2.1 Inter-class Criterion: Enforcing Label Diversity to Mitigate Bias",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.728,
+      0.169,
+      0.84,
+      0.826
+    ],
+    "text": "K-means clustering. The selected query should cover data of diverse classes, and ideally, select similar number of data from each class. However, this requires the availability of ground truth, which are inaccessible according to the nature of active learning. Therefore, we exploit pseudo-labels generated by a simple K-means clustering algorithm and select an equal number of data from each cluster to form the initial query to facilitate label diversity. Without knowledge about the exact number of ground-truth classes, over-clustering is suggested in recent works [51, 57] to increase performances on the datasets with higher intra-class variance. Concretely, given 9, 11, 8 classes in the ground truth, we set K (the number of clusters) to 30 in our experiments.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.844,
+      0.171,
+      0.875,
+      0.826
+    ],
+    "text": "Contrastive features. K-means clustering requires features of each data point. Li et al. [31] suggested that for the purpose of clustering, contrastive methods (e.g. MoCo, SimCLR, BYOL) are more suitable than generative methods $( e . g .$ . colorization, reconstruction) because the contrastive feature matrix can be naturally regarded as cluster representations. Therefore, we use MoCo v2 [15]— a popular self-supervised contrastive method—to extract image features.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.434,
+      0.169,
+      0.505,
+      0.826
+    ],
+    "text": "K-means and MoCo ${ \\bf v } 2$ are certainly not the only choices for clustering and feature extraction. We employ these two well-received methods for simplicity and efficacy in addressing the cold start problem. Figure 2 shows our querying strategy can yield better label diversity than other six dominant active querying strategies; similar observations are made in OrganAMNIST and BloodMNIST (Figure 7) as well as CIFAR-10 and CIFAR-10-LT (Figure 10).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.171,
+      0.535,
+      0.722
+    ],
+    "text": "2.2 Intra-class Criterion: Querying Hard-to-Contrast Data to Avoid Outliers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.169,
+      0.741,
+      0.826
+    ],
+    "text": "Dataset map. Given K clusters generated from Criterion #1, we now determine which data points ought to be selected from each cluster. Intuitively, a data point can better represent a cluster distribution if it is harder to contrast itself with other data points in this cluster—we consider them typical data. To find these typical data, we modify the original Dataset $\\mathrm { M a p } ^ { 3 }$ by replacing the ground truth term with a pseudo-label term. This modification is made because ground truths are unknown in the active learning setting but pseudo-labels are readily accessible from Criterion #1. For a visual comparison, Figure 3b and Figure 3c present the Data Maps based on ground truths and pseudo-labels, respectively. Formally, the modified Data Map can be formulated as follows. Let",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-6",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_0.jpg",
+    "bbox_norm": [
+      0.747,
+      0.356,
+      0.785,
+      0.637
+    ],
+    "text": "$$\np _ { i , j } = \\frac { \\exp ( \\sin ( z _ { i } , z _ { j } ) ) / \\tau } { \\sum _ { n = 1 } ^ { 2 N } \\mathbb { 1 } _ { [ n \\neq i ] } \\exp ( \\sin ( z _ { i } , z _ { n } ) ) / \\tau } ,\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-7",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_1.jpg",
+    "bbox_norm": [
+      0.801,
+      0.361,
+      0.83,
+      0.635
+    ],
+    "text": "$$\np _ { \\theta ^ { ( e ) } } ( y _ { n } ^ { * } | x _ { n } ) = \\frac { 1 } { 2 } [ p _ { 2 n - 1 , 2 n } + p _ { 2 n , 2 n - 1 } ] ,\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.843,
+      0.169,
+      0.875,
+      0.825
+    ],
+    "text": "where sim $\\mathbf { \\Xi } (  { \\boldsymbol { \\mathbf { u } } } , \\mathbf { \\Xi } ) =  { \\boldsymbol { \\mathbf { u } } } ^ { \\top }  { \\boldsymbol { \\mathbf { v } } } / \\|  { \\boldsymbol { \\mathbf { u } } } \\| \\|  { \\boldsymbol { \\mathbf { v } } } \\|$ is the cosine similarity between u and $v ; z _ { 2 n - 1 }$ and $z _ { 2 n }$ denote the projection head output of a positive pair for the input ${ \\pmb x } _ { n }$ in a batch; $\\mathbb { 1 } _ { [ n \\neq i ] } \\in \\{ 0 , 1 \\}$ is an indicator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.169,
+      0.474,
+      0.825
+    ],
+    "text": "function evaluating to 1 iff $n \\neq i$ and τ denotes a temperature parameter. $\\theta ^ { ( e ) }$ denotes the parameters at the end of the $e ^ { \\mathbf { \\tilde { t h } } }$ epoch. We define confidence $\\left( \\hat { \\mu } _ { m } \\right)$ across E epochs as:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-5",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_0.jpg",
+    "bbox_norm": [
+      0.478,
+      0.401,
+      0.52,
+      0.593
+    ],
+    "text": "$$\n\\hat { \\mu } _ { m } = \\frac { 1 } { E } \\sum _ { e = 1 } ^ { E } p _ { \\theta ^ { ( e ) } } ( y _ { m } ^ { * } | x _ { m } ) .\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.171,
+      0.54,
+      0.653
+    ],
+    "text": "The confidence $\\left( \\hat { \\mu } _ { m } \\right)$ is the Y-axis of the Dataset Maps (see Figure 3b-c).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.169,
+      0.714,
+      0.826
+    ],
+    "text": "Hard-to-contrast data. We consider the data with a low confidence value (Equation 3) as “hard-tocontrast” because they are seldom predicted correctly in the instance discrimination task. Apparently, if the model cannot distinguish a data point with others, this data point is expected to carry typical characteristics that are shared across the dataset [40]. Visually, hard-to-contrast data gather in the bottom region of the Dataset Maps and “easy-to-contrast” data gather in the top region. As expected, hard-to-learn data are more typical, possessing the most common visual patterns as the entire dataset; whereas easy-to-learn data appear like outliers [54, 26], which may not follow the majority data distribution (examples in Figure 3a and Figure 3c). Additionally, we also plot the original Da",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.169,
+      0.762,
+      0.826
+    ],
+    "text": "In summary, to meet the both criteria, our proposed active querying strategy includes three steps: (i) extracting features by self-supervised contrastive learning, (ii) assigning clusters by K-means algorithm for label diversity, and (iii) selecting hard-to-contrast data from dataset maps.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.779,
+      0.171,
+      0.796,
+      0.387
+    ],
+    "text": "3 Experimental Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.81,
+      0.169,
+      0.867,
+      0.826
+    ],
+    "text": "Datasets & metrics. Active querying strategies have a selection bias that is particularly harmful in long-tail distributions. Therefore, unlike most existing works [38, 54], which tested on highly balanced annotated datasets, we deliberately examine our method and other baselines on longtail datasets to simulate real-world scenarios. Three medical datasets of different modalities in MedMNIST [53] are used: PathMNIST (colorectal cancer tissue histopathological images), BloodMNIST (microscopic peripheral blood cell images), OrganAMNIST (axial view abdominal CT images of multiple organs). OrganAMNIST is augmented following Azizi et al. [3], while the others following Chen et al. [15]. Area Under the ROC Curve (AUC) and Accuracy are used as the evaluation metrics. All results were based on at ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.236,
+      0.176,
+      0.416,
+      0.826
+    ],
+    "text": "Table 1: Diversity is a significant add-on to most querying strategies. AUC scores of different querying strategies are compared on three medical imaging datasets. In either low budget (i.e. 0.5% or 1% of MedMNIST datasets) or high budget (i.e. 10% or 20% of CIFAR-10-LT) regimes, both random and active querying strategies benefit from enforcing the label diversity of the selected data. The cells are highlighted in blue when adding diversity performs no worse than the original querying strategies. Coreset [41] works very well as its original form because this querying strategy has implicitly considered the label diversity (also verified in Table 2) by formulating a K-center problem, which selects K data points to represent the entire dataset. Some results are missing (marked as “-”) because",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:table-2",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_1.jpg",
+    "bbox_norm": [
+      0.571,
+      0.176,
+      0.689,
+      0.831
+    ],
+    "text": "Table 2: Class coverage of selected data. Compared with random selection (i.i.d. to entire data distribution), most active querying strategies contain selection bias to specific classes, so the class coverage in their selections might be poor, particularly using low budgets. As seen, using 0.002% or even smaller proportion of MedMNIST datasets, the class coverage of active querying strategies is much lower than random selection. By integrating K-means clustering with contrastive features, our querying strategy is capable of covering 100% classes in most scenarios using low budgets (≤0.002% of MedMNIST). We also found that our querying strategy covers the most of the classes in the CIFAR-10-LT dataset, which is designatedly more imbalanced.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.828,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "Baselines & implementations. We benchmark a total of seven querying strategies: (1) random selection, (2) Max-Entropy [52], (3) Margin [4], (4) Consistency [18], (5) BALD [28], (6) VAAL [45], and (7) Coreset [41]. For contrastive learning, we trained 200 epochs with MoCo v2, following its default hyperparameter settings. We set τ to 0.05 in equation 2. To reproduce the large batch size and iteration numbers in [13], we apply repeated augmentation [21, 49, 50] (detailed in Table 5). More baseline and implementation details can be found in Appendix A.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.363,
+      0.171,
+      0.378,
+      0.638
+    ],
+    "text": "3.1 Contrastive Features Enable Label Diversity to Mitigate Bias",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.169,
+      0.46,
+      0.826
+    ],
+    "text": "Label coverage & diversity. Most active querying strategies have selection bias towards specific classes, thus the class coverage in their selections might be poor (see Table 2), particularly at low budgets. By simply enforcing label diversity to these querying strategies can significantly improve the performance (see Table 1), which suggests that the label diversity is one of the causes that existing active querying strategies perform poorer than random selection.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.464,
+      0.169,
+      0.507,
+      0.826
+    ],
+    "text": "Our proposed active querying strategy, however, is capable of covering 100% classes in most low budget scenarios (≤0.002% of full dataset) by integraing K-means clustering with contrastive features.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.523,
+      0.171,
+      0.54,
+      0.658
+    ],
+    "text": "3.2 Pseudo-labels Query Hard-to-Contrast Data and Avoid Outliers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.169,
+      0.773,
+      0.828
+    ],
+    "text": "Hard-to-contrast data are practical for cold start problem. Figure 4 presents the quantitative comparison of four map-based querying strategies, wherein easy- or hard-to-learn are selected by the maps based on ground truths, easy- or hard-to-contrast are selected by the maps based on pseudolabels. Note that easy- or hard-to-learn are enforced with label diversity, due to their class-stratified distributions in the projected 2D space (illustrated in Figure 3). Results suggest that selecting easy-to-learn or hard-to-contrast data contribute to the optimal models. In any case, easy- or hard-tolearn data can not be selected without knowing ground truths, so these querying strategies are not practical for active learning procedure. Selecting hard-to-contrast, on the other hand, is a label-free ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.789,
+      0.171,
+      0.805,
+      0.593
+    ],
+    "text": "3.3 On the Importance of Selecting Superior Initial Query",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.815,
+      0.169,
+      0.887,
+      0.826
+    ],
+    "text": "A good start foresees improved active learning. We stress the importance of the cold start problem in vision active learning by conducting correlation analysis. Starting with 20 labeled images as the initial query, the training set is increased by 10 more images in each active learning cycle. Figure 14a presents the performance along the active learning (each point in the curve accounts for 5 independent trials). The initial query is selected by a total of 9 different strategies5, and subsequent queries are selected by 5 different strategies. $\\mathrm { A U C } _ { n }$ denotes the AUC score achieved by the model that is trained by n labeled images. The Pearson correlation coefficient between $\\mathrm { \\bf A U C } _ { 2 0 }$ (starting) and $\\mathrm { \\bf A U C } _ { 5 0 }$ (ending) shows ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.169,
+      0.642,
+      0.826
+    ],
+    "text": "The initial query is consequential regardless of model initialization. A pre-trained model can improve the performance of each active learning cycle for both random and active selection [55], but the cold start problem remains (evidenced in Figure 14b). This suggests that the model instability and data scarcity are two independent issues to be addressed for the cold start problem. Our “hard-tocontrast” data selection criterion only exploits contrastive learning (an improved model), but also determines the typical data to be annotated first (a better query). As a result, when fine-tuning from MoCo v2, the Pearson correlation coefficient between $\\mathrm { { A U C } _ { 2 0 } }$ and $\\mathrm { \\bf A U C } _ { 5 0 }$ remains high $( r = 0 . 9 2$ 0.81, 0.70, 0.82, 0.85 for random selection, En",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.672,
+      0.171,
+      0.689,
+      0.3
+    ],
+    "text": "4 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.712,
+      0.169,
+      0.852,
+      0.826
+    ],
+    "text": "This paper systematically examines the causes of the cold start problem in vision active learning and offers a practical and effective solution to address this problem. Analytical results indicate that (1) the level of label diversity and (2) the inclusion of hard-to-contrast data are two explicit criteria to determine the annotation importance. To this end, we devise a novel active querying strategy that can enforce label diversity and determine hard-to-contrast data. The results of three medical imaging and two natural imaging datasets show that our initial query not only significantly outperforms existing active querying strategies but also surpasses random selection by a large margin. This finding is significant because it is the first few choices that define the efficacy and efficienc",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "Limitation. This study provides an empirical benchmark of initial queries in active learning, while more theoretical analyses can be provided. Yehuda et al. [54] also found that the choice of active learning strategies depends on the initial query budget. A challenge is to articulate the quantity of determining active learning strategies, which we leave for future work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.19,
+      0.826
+    ],
+    "text": "Potential societal impacts. Real-world data often exhibit long-tailed distributions, rather than the ideal uniform distributions over each class. We improve active learning by enforcing label diversity and hard-to-contrast data. However, we only extensively test our strategies on academic datasets. In many other real-world domains such as robotics and autonomous driving, the data may impose additional constraints on annotation accessibility or learning dynamics, e.g., being fair or private. We focus on standard accuracy and AUC as our evaluation metrics while ignoring other ethical issues in imbalanced data, especially in underrepresented minority classes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.171,
+      0.226,
+      0.339
+    ],
+    "text": "Acknowledgements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.169,
+      0.352,
+      0.826
+    ],
+    "text": "This work was supported by the Lustgarten Foundation for Pancreatic Cancer Research. The authors want to thank Mingfei Gao for the discussion of initial query quantity and suggestions on the implementation of consistency-based active learning framework. The authors also want to thank Guy Hacohen, Yuanhan Zhang, Akshay L. Chandra, Jingkang Yang, Hao Cheng, Rongkai Zhang, and Junfei Xiao, for their feedback and constructive suggestions at several stages of the project. Computational resources were provided by Machine Learning and Data Analytics Laboratory, Nanyang Technological University. The authors thank the administrator Sung Kheng Yeo for his technical support.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.173,
+      0.386,
+      0.269
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.396,
+      0.179,
+      0.434,
+      0.825
+    ],
+    "text": "[1] Andrea Acevedo, Anna Merino, Santiago Alférez, Ángel Molina, Laura Boldú, and José Rodellar. A dataset of microscopic peripheral blood cell images for development of automatic recognition systems. Data in Brief, 30, 2020. [2] Sharat Agarwal, Himanshu Arora, Saket Anand, and Chetan Arora. Contextual diversity for active learning. ArXiv, abs/2008.05723, 2020. [3] Shekoofeh Azizi, Basil Mustafa, Fiona Ryan, Zachary Beaver, Jan Freyberg, Jonathan Deaton, Aaron Loh, Alan Karthikesalingam, Simon Kornblith, Ting Chen, et al. Big self-supervised models advance medical image classification. arXiv preprint arXiv:2101.05224, 2021. [4] Maria-Florina Balcan, Andrei Broder, and Tong Zhang. Margin based active learning. In International Conference on Computational Learning Theory, pages 35–50. Spring",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.173,
+      0.119,
+      0.825
+    ],
+    "text": "[15] Xinlei Chen, Haoqi Fan, Ross Girshick, and Kaiming He. Improved baselines with momentum contrastive learning. arXiv preprint arXiv:2003.04297, 2020. [16] Reza Zanjirani Farahani and Masoud Hekmatfar. Facility location: concepts, models, algorithms and case studies. Springer Science & Business Media, 2009. [17] Yarin Gal, Riashat Islam, and Zoubin Ghahramani. Deep bayesian active learning with image data. In International Conference on Machine Learning, pages 1183–1192. PMLR, 2017. [18] Mingfei Gao, Zizhao Zhang, Guo Yu, Sercan Ö Arık, Larry S Davis, and Tomas Pfister. Consistency-based semi-supervised active learning: Towards minimizing labeling cost. In European Conference on Computer Vision, pages 510–526. Springer, 2020. [19] Priya Goyal, Dhruv Mahajan, Abhinav Gupta, and Ishan Mis",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.173,
+      0.132,
+      0.825
+    ],
+    "text": "[37] Vishwesh Nath, Dong Yang, Holger R Roth, and Daguang Xu. Warm start active learning with proxy labels and selection via semi-supervised fine-tuning. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 297–308. Springer, 2022. [38] Kossar Pourahmadi, Parsa Nooralinejad, and Hamed Pirsiavash. A simple baseline for low-budget active learning. arXiv preprint arXiv:2110.12033, 2021. [39] Tian Qiu, Guang Chen, Zi-Ke Zhang, and Tao Zhou. An item-oriented recommendation algorithm on cold-start problem. EPL (Europhysics Letters), 95(5):58003, 2011. [40] Joshua Robinson, Ching-Yao Chuang, Suvrit Sra, and Stefanie Jegelka. Contrastive learning with hard negative samples. arXiv preprint arXiv:2010.04592, 2020. [41] Ozan Sener and Silvio Savarese. Activ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.174,
+      0.142,
+      0.825
+    ],
+    "text": "[61] Zongwei Zhou, Jae Shin, Lei Zhang, Suryakanth Gurudu, Michael Gotway, and Jianming Liang. Finetuning convolutional neural networks for biomedical image analysis: actively and incrementally. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7340–7349, 2017. [62] Zongwei Zhou, Jae Y Shin, Suryakanth R Gurudu, Michael B Gotway, and Jianming Liang. Active, continual fine tuning of convolutional neural networks for reducing annotation efforts. Medical Image Analysis, page 101997, 2021. [63] Yu Zhu, Jinghao Lin, Shibi He, Beidou Wang, Ziyu Guan, Haifeng Liu, and Deng Cai. Addressing the item cold-start problem by attribute-driven active learning. IEEE Transactions on Knowledge and Data Engineering, 32(4):631–644, 2019.",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.171,
+      0.108,
+      0.475
+    ],
+    "text": "A Implementation Configurations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.171,
+      0.137,
+      0.289
+    ],
+    "text": "A.1 Data Split",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.169,
+      0.246,
+      0.826
+    ],
+    "text": "PathMNIST with nine categories has 107,180 colorectal cancer tissue histopathological images extracted from Kather et al. [27], with 89,996/10,004/7,180 images for training/validation/testing. BloodMNIST contains 17,092 microscopic peripheral blood cell images extracted from Acevedo et al. [1] with eight categories, where 11,959/1,712/3,421 images for training/validation/testing. OrganAMNIST consists of the axial view abdominal CT images based on Bilic et al. [8], with 34,581/6,491/17,778 images of 11 categories for training/validation/testing. CIFAR-10-LT (ρ=100) consists of a subset of CIFAR-10 [29], with 12,406/10,000 images for training/testing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.26,
+      0.171,
+      0.276,
+      0.508
+    ],
+    "text": "A.2 Training Recipe for Contrastive Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-5",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.169,
+      0.316,
+      0.825
+    ],
+    "text": "Pseudocode for Our Proposed Strategy. The algorithm 1 provides the pseudocode for our proposed hard-to-contrast initial query strategy, as elaborated in §2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-1",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.138,
+      0.187,
+      0.32,
+      0.477
+    ],
+    "text": "Table 3: Contrastive learning settings on MedMNIST and CIFAR-10-LT. (a) MedMNIST pre-training †lr = base\\_lr×batchsize / 256 per the linear lr scaling rule [19].",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:table-2",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_1.jpg",
+    "bbox_norm": [
+      0.138,
+      0.532,
+      0.321,
+      0.815
+    ],
+    "text": "(b) CIFAR-10-LT pre-training Table 4: Data augmentations.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:table-3",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_2.jpg",
+    "bbox_norm": [
+      0.417,
+      0.2,
+      0.498,
+      0.483
+    ],
+    "text": "(a) Augmentations for RGB images",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:table-4",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_3.jpg",
+    "bbox_norm": [
+      0.417,
+      0.521,
+      0.486,
+      0.803
+    ],
+    "text": "(b) Augmentations for OrganAMNIST",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.169,
+      0.631,
+      0.826
+    ],
+    "text": "Pre-training Settings. Our settings mostly follow [15, 14]. Table 3a summarizes our contrastive pre-training settings on MedMNIST, following [15]. Table 3a shows the corresponding pre-training settings on CIFAR-10-LT, following the official MoCo demo on CIFAR-10 [14]. The contrastive learning model is pre-trained on 2 NVIDIA RTX3090 GPUs with 24GB memory each. The total number of model parameters is 55.93 million, among which 27.97 million requires gradient backpropagation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.169,
+      0.705,
+      0.826
+    ],
+    "text": "Dataset Augmentation. We apply the same augmentation as in MoCo v2 [15] on all the images of RGB modalities to reproduce the optimal augmentation pipeline proposed by the authors, including PathMNIST, BloodMNIST, CIFAR-10-LT. Because OrganAMNIST is a grey scale CT image dataset, we apply the augmentation in [3] designed for radiological images, replacing random gray scale and Gaussian blur with random rotation. Table 4 shows the details of data augmentation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.169,
+      0.864,
+      0.826
+    ],
+    "text": "Repeated Augmentation. Our MoCo v2 pre-training is so fast in computation that data loading becomes a new bottleneck that dominates running time in our setup. We perform repeated augmentation on MedMNIST datasets at the level of dataset, also to enlarge augmentation space and improve generalization. [21] proposed repeated augmentation in a growing batch mode to improve generalization and convergence speed by reducing variances. This approach provokes a challenge in computing resources. Recent works [21, 50, 7] proved that fixed batch mode also boosts generalization and optimization by increasing mutiplicity of augmentations as well as parameter updates and decreasing the number of unique samples per batch, which holds the batch size fixed. Because the original contrastive learning works [1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.868,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "We only applied repeated augmentation on MedMNIST, but not CIFAR-10-LT. This is because we follow all the settings of the official CIFAR-10 demo [14] in which repeated augmentation is not employed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:table-1",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_0.jpg",
+    "bbox_norm": [
+      0.123,
+      0.173,
+      0.204,
+      0.823
+    ],
+    "text": "Table 5: Repeated augmentation. For a faster model convergence, we apply repeated augmentation [21, 49, 50] on MedMNIST by reproducing the large batch size and iteration numbers.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.171,
+      0.246,
+      0.55
+    ],
+    "text": "A.3 Training Recipe for MedMNIST and CIFAR-10",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.169,
+      0.3,
+      0.825
+    ],
+    "text": "Benchmark Settings. We evaluate the initial queries by the performance of model trained on the selected initial query, and present the results in Table 1, 7 and Figure 4. The benchmark experiments are performed on NVIDIA RTX 1080 GPUs, with the following settings in Table 6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.304,
+      0.169,
+      0.348,
+      0.826
+    ],
+    "text": "Cold Start Settings for Existing Active Querying Criteria. To compare the cold start performance of active querying criteria with random selection ( Figure 1), we trained a model with the test set and applied existing active querying criteria.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:table-5",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_1.jpg",
+    "bbox_norm": [
+      0.397,
+      0.21,
+      0.551,
+      0.782
+    ],
+    "text": "Table 6: Benchmark settings. We apply the same settings for training MedMNIST, CIFAR-10, and CIFAR-10-LT.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.171,
+      0.106,
+      0.498
+    ],
+    "text": "B Additional Results on MedMNIST",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.125,
+      0.171,
+      0.141,
+      0.687
+    ],
+    "text": "B.1 Label Diversity is a Significant Add-on to Most Querying Strategies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.154,
+      0.169,
+      0.198,
+      0.826
+    ],
+    "text": "As we present in Table 1, label diversity is an important underlying criterion in designing active querying criteria. We plot the full results on all three MedMNIST datasets in Figure 6. Most existing active querying strategies became more performant and robust in the presence of label diversity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.219,
+      0.205,
+      0.241,
+      0.297
+    ],
+    "text": "BALD (Kirsch et al., 2017)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.171,
+      0.107,
+      0.642
+    ],
+    "text": "B.2 Contrastive Features Enable Label Diversity to Mitigate Bias",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.116,
+      0.169,
+      0.174,
+      0.826
+    ],
+    "text": "Our proposed active querying strategy is capable of covering the majority of classes in most low budget scenarios by integrating K-means clustering and contrastive features, including the tail classes (e.g. femur-left, basophil). Compared to the existing active querying criteria, we achieve the best class coverage of selected query among at all budgets presented in Table 2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-3",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.186,
+      0.181,
+      0.354,
+      0.825
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-4",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_1.jpg",
+    "bbox_norm": [
+      0.367,
+      0.183,
+      0.513,
+      0.823
+    ],
+    "text": "(b) BloodMNIST Figure 7: [Continued from Figure 2] Our querying strategy yields better label diversity. Random on the leftmost denotes the class distribution of randomly queried samples, which can also reflect the approximate class distribution of the entire dataset. As seen, even with a relatively larger initial query budget (691 images, 2% of OrganAMNIST, and 2,391 images, 20% of BloodMNIST), most active querying strategies are biased towards certain classes. For example in OrganAMNIST, VAAL prefers selecting data in the femur-right and platelet class, but largely ignores data in the lung, liver and monocyte classes. On the contrary, our querying strategy not only selects more data from minority classes (e.g., femur-left and basophil) while retaining the class distribution of major class",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-1",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.09,
+      0.199,
+      0.248,
+      0.401
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-2",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_1.jpg",
+    "bbox_norm": [
+      0.092,
+      0.408,
+      0.247,
+      0.611
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-3",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_2.jpg",
+    "bbox_norm": [
+      0.092,
+      0.617,
+      0.247,
+      0.818
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-4",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_3.jpg",
+    "bbox_norm": [
+      0.252,
+      0.178,
+      0.409,
+      0.401
+    ],
+    "text": "(a) PathMNIST",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-5",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_4.jpg",
+    "bbox_norm": [
+      0.253,
+      0.408,
+      0.41,
+      0.609
+    ],
+    "text": "(b) OrganAMNIST",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-6",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_5.jpg",
+    "bbox_norm": [
+      0.253,
+      0.616,
+      0.41,
+      0.82
+    ],
+    "text": "(c) BloodMNIST Figure 8: Visualization of K-means clustering and our active selection. UMAP [35] is used to visualize the feature clustering. Colors indicate the ground truth. Contrastive features clustered by the K-means algorithm present a fairly clear separation in the 2D space, which helps enforce the label diversity without the need of ground truth. The crosses denote the selected easy- (top) and hard-to-contrast (bottom) data. Overall, hard-to-contrast data have a greater spread within each cluster than easy-to-contrast ones. In addition, we find that easy-to-contrast tends to select outlier classes that do not belong to the majority class in a cluster (see red arrows). This behavior will invalidate the purpose of clustering and inevitably jeopardize the label diversity.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-7",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.169,
+      0.705,
+      0.826
+    ],
+    "text": "Selected Query Visualization. To ease the analysis, we project the image features (extracted by a trained MoCo v2 encoder) onto a 2D space by UMAP [35]. The assigned pseudo labels have large overlap with ground truths, suggesting that the features from MoCo v2 are quite discriminative for each class. Overall, Figure 8 shows that hard-to-contrast queries have a greater spread within each cluster than easy-to-contrast ones. Both strategies can cover 100% classes. Nevertheless, we notice that easy-to-contrast selects local outliers in clusters: samples that do not belong to the majority class in a cluster. Such behavior will invalidate the purpose of clustering, which is to query uniformly by separating classes. Additionally, it possibly exposes the risk of introducing out-of-distribution dat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.171,
+      0.107,
+      0.593
+    ],
+    "text": "C Experiments on CIFAR-10 and CIFAR-10-LT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.119,
+      0.171,
+      0.136,
+      0.687
+    ],
+    "text": "C.1 Label Diversity is a Significant Add-on to Most Querying Strategies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.169,
+      0.231,
+      0.826
+    ],
+    "text": "As illustrated in Table 7 and Figure 9, label diversity is an important underlying criterion in designing active querying criteria on CIFAR-10-LT, an extremely imbalanced dataset. We compare the results of CIFAR-10-LT with MedMNIST datasets Figure 6. CIFAR-10-LT is more imbalanced than MedMNIST, and the performance gain and robustness improvement of label diversity CIFAR-10-LT is significantly larger than MedMNIST. Most of the active querying strategies fail to query all the classes even at relatively larger initial query budgets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:table-4",
+    "page_id": 18,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_18_Table_0.jpg",
+    "bbox_norm": [
+      0.348,
+      0.176,
+      0.547,
+      0.825
+    ],
+    "text": "Table 7: Diversity is a significant add-on to most querying strategies. AUC scores of different querying strategies are compared on CIFAR-10 and CIFAR-10-LT. In the low budget regime (e.g. 10% and 20% of the entire dataset), active querying strategies benefit from enforcing the label diversity of the selected data. The cells are highlighted in blue when adding diversity performs no worse than the original querying strategies. Some results are missing (marked as “-”) because the querying strategy fails to sample at least one data point for each class. Results of more sampling ratios are presented in Appendix Figure 9.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-18:text-5",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.171,
+      0.589,
+      0.642
+    ],
+    "text": "C.2 Contrastive Features Enable Label Diversity to Mitigate Bias",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-6",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.599,
+      0.169,
+      0.699,
+      0.826
+    ],
+    "text": "Our proposed active querying strategy is capable of covering the majority of classes in most low budget scenarios by integrating K-means clustering and contrastive features, including the tail classes (horse, ship, and truck). Compared to the existing active querying criteria, we achieve the best class coverage of selected query among at all budgets presented in Table 2. As depicted in Figure 9, our querying strategy has a more similar distribution to the overall distribution of dataset and successfully covers all the classes, with the highest proportion of minor classes (ship and truch) among random selection and all active querying methods.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.27,
+      0.205,
+      0.291,
+      0.299
+    ],
+    "text": "BALD (Kirsch et al., 2017)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-2",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.458,
+      0.181,
+      0.602,
+      0.823
+    ],
+    "text": "(b) CIFAR-10-LT Figure 10: Our querying strategy yields better label diversity. Random on the leftmost denotes the class distribution of randomly queried samples, which can also reflect the approximate class distribution of the entire dataset. As seen, even with a relatively larger initial query budget (5,000 images, 10% of CIFAR-10, and 1420 images, 10% of CIFAR-10-LT), most active querying strategies are biased towards certain classes. Our querying strategy, on the contrary, is capable of selecting more data from the minority classes such as horse, ship, and truck.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.179,
+      0.351,
+      0.194
+    ],
+    "text": "PathMNIST",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-2",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.224,
+      0.199,
+      0.419,
+      0.354
+    ],
+    "text": "(a) Overall distribution",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-5",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.63,
+      0.255,
+      0.79
+    ],
+    "text": "smooth muscle colorectal adenocarcinoma epithelium   \nnormal colon mucosa",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-7",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_1.jpg",
+    "bbox_norm": [
+      0.452,
+      0.199,
+      0.645,
+      0.354
+    ],
+    "text": "(d) Overall distribution",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-10",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.616,
+      0.483,
+      0.767
+    ],
+    "text": "lung-right heart pancreas lung-left spleen",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-12",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.169,
+      0.773,
+      0.826
+    ],
+    "text": "Figure 11: Active querying based on Dataset Maps. (a,d) PathMNIST and OrganAMNIST dataset overview. (b,e) Easy- and hard-to-learn data can be selected from the maps based on ground truths [26]. This querying strategy has two limitations: (1) requiring manual annotations and (2) data are stratified by classes in the 2D space, leading to a poor label diversity in the selected queries. (c,f) Easy- and hard-to-contrast data can be selected from the maps based on pseudo labels. This querying strategy is label-free and the selected “hard-to-contrast” data represent the most common patterns in the entire dataset. These data are more suitable for training and thus alleviate the cold start problem.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-1",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.333,
+      0.173,
+      0.539,
+      0.338
+    ],
+    "text": "(a) Overall distribution",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-23:text-11",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.377,
+      0.169,
+      0.449,
+      0.826
+    ],
+    "text": "Figure 13: Performance of each active learning querying strategies with different initial query strategies on BloodMNIST. Hard-to-contrast initial query strategy (red lines) outperforms other initial query strategies in every cycle of active learning. With each active learning querying strategy, the performance of the initial cycle (20 labeled images) and the last cycle (50 labeled images) are strongly correlated.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-22",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.792,
+      0.169,
+      0.864,
+      0.826
+    ],
+    "text": "Figure 14: Performance of each active learning querying strategies with different initial query strategies on PathMNIST. Hard-to-contrast initial query strategy (red lines) outperforms other initial query strategies in every cycle of active learning. With each active learning querying strategy, the performance of the initial cycle (20 labeled images) and the last cycle (50 labeled images) are strongly correlated.",
+    "source_type": "text"
+  }
+]

@@ -1,0 +1,1 @@
+<table><tr><td colspan="7">(Millions of dollars)</td></tr><tr><td>2022</td><td>2023</td><td>2024</td><td>2025-2027</td><td>2028-2042</td><td>Unlimited</td><td>Total</td></tr><tr><td>$4</td><td>$3</td><td>$14</td><td>$32</td><td>$ 844</td><td>$ 3,876</td><td>$ 4,773</td></tr></table>

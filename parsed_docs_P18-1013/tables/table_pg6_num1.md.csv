@@ -1,0 +1,9 @@
+Method,ROUGE-1,ROUGE-2,ROUGE-L
+"HierAttn (Nallapati et al., 2016b)*DeepRL (Paulus et al., 2017)*pointer-generator (See et al., 2017)GAN (Liu et al., 2017)",32.75,12.21,29.01
+"HierAttn (Nallapati et al., 2016b)*DeepRL (Paulus et al., 2017)*pointer-generator (See et al., 2017)GAN (Liu et al., 2017)",39.87,15.82,36.90
+"HierAttn (Nallapati et al., 2016b)*DeepRL (Paulus et al., 2017)*pointer-generator (See et al., 2017)GAN (Liu et al., 2017)",39.5339.92,17.28,36.3836.71
+"HierAttn (Nallapati et al., 2016b)*DeepRL (Paulus et al., 2017)*pointer-generator (See et al., 2017)GAN (Liu et al., 2017)",39.5339.92,17.65,36.3836.71
+two-stage (ours)end2end w/o inconsistency loss (ours)end2end w/ inconsistency loss (ours),39.97,17.43,36.3436.6837.13
+two-stage (ours)end2end w/o inconsistency loss (ours)end2end w/ inconsistency loss (ours),40.1940.68,17.67,36.3436.6837.13
+two-stage (ours)end2end w/o inconsistency loss (ours)end2end w/ inconsistency loss (ours),40.1940.68,17.97,36.3436.6837.13
+"lead-3 (See et al., 2017)",40.34,17.70,36.57

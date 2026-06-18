@@ -1,0 +1,1 @@
+<table><tr><td>Category</td><td>Present</td><td>Absent</td><td>p-value</td></tr><tr><td>Spatial relations Location conjunction Temporal coordination Trajectory constraints Co-reference</td><td>8.75 10.19 11.38 9.56 12.88</td><td>10.09 9.05 8.24 8.99</td><td>.262 .327 .015 .607</td></tr></table>

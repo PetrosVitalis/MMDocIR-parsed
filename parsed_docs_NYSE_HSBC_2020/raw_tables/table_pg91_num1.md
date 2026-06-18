@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">WPB wealth balances</td><td colspan="2"></td></tr><tr><td>2020</td><td>2019</td></tr><tr><td>Client assets and funds under management</td><td>$bn 1,118</td><td>$bn</td></tr><tr><td>Premier and Jade deposits1</td><td>470</td><td>988 433</td></tr><tr><td>Total</td><td>1,588</td><td>1,421</td></tr></table>

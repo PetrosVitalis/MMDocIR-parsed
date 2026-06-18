@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At 2020</td><td>At December 31，December 31, 2019</td></tr><tr><td>$ in millions Projected benefit obligation</td><td>$ 708$</td><td>637</td></tr><tr><td>Accumulated benefit obligation</td><td>692</td><td>624</td></tr><tr><td>Fair value of plan assets</td><td>76</td><td>66</td></tr></table>

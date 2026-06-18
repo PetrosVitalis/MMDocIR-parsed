@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Goodwill</td><td></td></tr><tr><td>Analog.</td><td></td><td>$4,158</td></tr><tr><td>Embedded Processing..</td><td></td><td>172</td></tr><tr><td>Other..</td><td></td><td>32</td></tr><tr><td>Total.. ·</td><td></td><td>$4,362</td></tr></table>

@@ -1,0 +1,8 @@
+English OntoNotes5.0,English OntoNotes5.0,English OntoNotes5.0,
+Model,Prec.,Rec.,F1
+"CVT (Clark et al., 2018)",-,-,88.8
+"BERT-Tagger (Devlin et al.,2018)",90.01,88.35,89.16
+"BERT-MRC(Li et al., 2019)",92.98,89.95,91.11
+BERT-MRC+FL,90.13,92.34,91.22 (+0.11)
+BERT-MRC+DL,91.70,92.06,91.88
+BERT-MRC+DSC,91.59,92.56,(+0.77) 92.07 (+0.96)

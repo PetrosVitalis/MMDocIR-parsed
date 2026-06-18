@@ -1,0 +1,1402 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.078,
+      0.193,
+      0.12,
+      0.808
+    ],
+    "text": "SPECTER: Document-level Representation Learning using Citation-informed Transformers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.141,
+      0.126,
+      0.16,
+      0.878
+    ],
+    "text": "Arman Cohan†∗ Sergey Feldman†∗ Iz Beltagy† Doug Downey† Daniel S. Weld†,‡",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.332,
+      0.185,
+      0.67
+    ],
+    "text": "†Allen Institute for Artificial Intelligence",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.187,
+      0.149,
+      0.224,
+      0.85
+    ],
+    "text": "‡Paul G. Allen School of Computer Science & Engineering, University of Washington {armanc,sergey,beltagy,dougd,danw}@allenai.org",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.262,
+      0.28,
+      0.344
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.292,
+      0.142,
+      0.692,
+      0.463
+    ],
+    "text": "Representation learning is a critical ingredient for natural language processing systems. Recent Transformer language models like BERT learn powerful textual representations, but these models are targeted towards token- and sentence-level training objectives and do not leverage information on inter-document relatedness, which limits their document-level representation power. For applications on scientific documents, such as classification and recommendation, the embeddings power strong performance on end tasks. We propose SPECTER, a new method to generate document-level embedding of scientific documents based on pretraining a Transformer language model on a powerful signal of document-level relatedness: the citation graph. Unlike existing pretrained language models, SPECTER can be easily a",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.705,
+      0.117,
+      0.72,
+      0.262
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.114,
+      0.876,
+      0.492
+    ],
+    "text": "As the pace of scientific publication continues to increase, Natural Language Processing (NLP) tools that help users to search, discover and understand the scientific literature have become critical. In recent years, substantial improvements in NLP tools have been brought about by pretrained neural language models (LMs) (Radford et al., 2018; Devlin et al., 2019; Yang et al., 2019). While such models are widely used for representing individual words or sentences, extensions to whole-document embeddings are relatively underexplored. Likewise, methods that do use inter-document signals to produce whole-document embeddings (Tu et al., 2017; Chen et al., 2019) have yet to incorporate stateof-the-art pretrained LMs. Here, we study how to leverage the power of pretrained language models to learn",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.394,
+      0.509,
+      0.57,
+      0.887
+    ],
+    "text": "A paper’s title and abstract provide rich semantic content about the paper, but, as we show in this work, simply passing these textual fields to an “off-the-shelf” pretrained language model—even a state-of-the-art model tailored to scientific text like the recent SciBERT (Beltagy et al., 2019)—does not result in accurate paper representations. The language modeling objectives used to pretrain the model do not lead it to output representations that are helpful for document-level tasks such as topic classification or recommendation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.571,
+      0.509,
+      0.878,
+      0.889
+    ],
+    "text": "In this paper, we introduce a new method for learning general-purpose vector representations of scientific documents. Our system, SPECTER,2 incorporates inter-document context into the Transformer (Vaswani et al., 2017) language models (e.g., SciBERT (Beltagy et al., 2019)) to learn document representations that are effective across a wide-variety of downstream tasks, without the need for any task-specific fine-tuning of the pretrained language model. We specifically use citations as a naturally occurring, inter-document incidental supervision signal indicating which documents are most related and formulate the signal into a triplet-loss pretraining objective. Unlike many prior works, at inference time, our model does not require any citation information. This is critical for embedding new",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.128,
+      0.114,
+      0.29,
+      0.494
+    ],
+    "text": "As an additional contribution of this work, we introduce and release SCIDOCS3 , a novel collection of data sets and an evaluation suite for documentlevel embeddings in the scientific domain. SCI-DOCS covers seven tasks, and includes tens of thousands of examples of anonymized user signals of document relatedness. We also release our training set (hundreds of thousands of paper titles, abstracts and citations), along with our trained embedding model and its associated code base.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.312,
+      0.115,
+      0.329,
+      0.208
+    ],
+    "text": "2 Model",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.347,
+      0.115,
+      0.363,
+      0.238
+    ],
+    "text": "2.1 Overview",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.114,
+      0.876,
+      0.492
+    ],
+    "text": "Our goal is to learn task-independent representations of academic papers. Inspired by the recent success of pretrained Transformer language models across various NLP tasks, we use the Transformer model architecture as basis of encoding the input paper. Existing LMs such as BERT, however, are primarily based on masked language modeling objective, only considering intra-document context and do not use any inter-document information. This limits their ability to learn optimal document representations. To learn high-quality documentlevel representations we propose using citations as an inter-document relatedness signal and formulate it as a triplet loss learning objective. We then pretrain the model on a large corpus of citations using this objective, encouraging it to output representations t",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-6",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.071,
+      0.549,
+      0.173,
+      0.847
+    ],
+    "text": "Figure 1: Overview of SPECTER.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.225,
+      0.51,
+      0.241,
+      0.865
+    ],
+    "text": "2.2 Background: Pretrained Transformers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.509,
+      0.508,
+      0.887
+    ],
+    "text": "Recently, pretrained Transformer networks have demonstrated success on various NLP tasks (Radford et al., 2018; Devlin et al., 2019; Yang et al., 2019; Liu et al., 2019); we use these models as the foundation for SPECTER. Specifically, we use SciBERT (Beltagy et al., 2019) which is an adaptation of the original BERT (Devlin et al., 2019) architecture to the scientific domain. The BERT model architecture (Devlin et al., 2019) uses multiple layers of Transformers (Vaswani et al., 2017) to encode the tokens in a given input sequence. Each layer consists of a self-attention sublayer followed by a feedforward sublayer. The final hidden state associated with the special [CLS] token is usually called the “pooled output”, and is commonly used as an aggregate representation of the sequence.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.509,
+      0.712,
+      0.889
+    ],
+    "text": "Document Representation Our goal is to represent a given paper as a dense vector v that best represents the paper and can be used in downstream tasks. SPECTER builds embeddings from the title and abstract of a paper. Intuitively, we would expect these fields to be sufficient to produce accurate embeddings, since they are written to provide a succinct and comprehensive summary of the paper.4 As such, we encode the concatenated title and abstract using a Transformer LM (e.g., SciBERT) and take the final representation of the [CLS] token as the output representation of the paper:5",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:equation-10",
+    "page_id": 1,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_1_Equation_0.jpg",
+    "bbox_norm": [
+      0.713,
+      0.557,
+      0.73,
+      0.838
+    ],
+    "text": "$$\n\\begin{array} { r } { \\mathbf { v } = \\mathtt { T r a n s f o r m e r ( i n p u t ) } _ { [ \\mathtt { C I S } ] } , } \\end{array}\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-1:text-11",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.509,
+      0.801,
+      0.887
+    ],
+    "text": "where Transformer is the Transformer’s forward function, and input is the concatenation of the [CLS] token and WordPieces (Wu et al., 2016) of the title and abstract of a paper, separated by the [SEP] token. We use SciBERT as our model initialization as it is optimized for scientific text, though our formulation is general and any Transformer language model instead of SciBERT. Using the above method with an “off-the-shelf” SciBERT does not take global inter-document information into account. This is because SciBERT, like other pretrained language models, is trained via language modeling objectives, which only predict words or sentences given their in-document, nearby textual context. In contrast, we propose to incorporate citations into the model as a signal of inter-document relatedness, ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.312,
+      0.115,
+      0.329,
+      0.457
+    ],
+    "text": "2.3 Citation-Based Pretraining Objective",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.114,
+      0.462,
+      0.492
+    ],
+    "text": "A citation from one document to another suggests that the documents are related. To encode this relatedness signal into our representations, we design a loss function that trains the Transformer model to learn closer representations for papers when one cites the other, and more distant representations otherwise. The high-level overview of the model is shown in Figure 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.463,
+      0.114,
+      0.576,
+      0.49
+    ],
+    "text": "In particular, each training instance is a triplet of papers: a query paper $\\mathcal { P } ^ { Q }$ , a positive paper ${ \\mathcal { P } } ^ { + }$ and a negative paper $\\mathcal { P } ^ { - }$ . The positive paper is a paper that the query paper cites, and the negative paper is a paper that is not cited by the query paper (but that may be cited by ${ \\mathcal { P } } ^ { + } )$ . We then train the model using the following triplet margin loss function:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-5",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_0.jpg",
+    "bbox_norm": [
+      0.576,
+      0.122,
+      0.602,
+      0.462
+    ],
+    "text": "$$\n\\mathcal { L } = \\operatorname* { m a x } \\left\\{ \\left( \\mathrm { d } \\left( \\mathcal { P } ^ { Q } , \\mathcal { P } ^ { + } \\right) - \\mathrm { d } \\left( \\mathcal { P } ^ { Q } , \\mathcal { P } ^ { - } \\right) + m \\right) , 0 \\right\\}\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.114,
+      0.653,
+      0.489
+    ],
+    "text": "where d is a distance function and m is the loss margin hyperparameter (we empirically choose $m = 1 )$ . Here, we use the L2 norm distance:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-7",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_1.jpg",
+    "bbox_norm": [
+      0.655,
+      0.193,
+      0.674,
+      0.411
+    ],
+    "text": "$$\n\\mathrm { d } ( \\mathcal { P } ^ { A } , \\mathcal { P } ^ { B } ) = \\| \\mathbf { v } _ { A } - \\mathbf { v } _ { B } \\| _ { 2 } ,\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.68,
+      0.114,
+      0.776,
+      0.49
+    ],
+    "text": "where $\\mathbf { v } _ { A }$ is the vector corresponding to the pooled output of the Transformer run on paper A (Equation $1 ) . ^ { 6 }$ Starting from the trained SciBERT model, we pretrain the Transformer parameters on the citation objective to learn paper representations that capture document relatedness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.788,
+      0.115,
+      0.803,
+      0.4
+    ],
+    "text": "2.4 Selecting Negative Distractors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.114,
+      0.875,
+      0.492
+    ],
+    "text": "The choice of negative example papers $\\mathcal { P } ^ { - }$ is important when training the model. We consider two sets of negative examples: the first set simply consists of randomly selected papers from the corpus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.509,
+      0.42,
+      0.889
+    ],
+    "text": "Given a query paper, intuitively we would expect the model to be able to distinguish between cited papers, and uncited papers sampled randomly from the entire corpus. This inductive bias has been also found to be effective in content-based citation recommendation applications (Bhagavatula et al., 2018). But, random negatives may be easy for the model to distinguish from the positives. To provide a more nuanced training signal, we augment the randomly drawn negatives with a more challenging second set of negative examples. We denote as “hard negatives” the papers that are not cited by the query paper, but are cited by a paper cited by the query paper, i.e. if $\\mathcal { P } ^ { 1 } \\xrightarrow { c i t e } \\mathcal { P } ^ { 2 }$ and $\\mathcal { P } ^ { 2 } \\ \\xrightarrow { c i t e } \\ \\ma",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.51,
+      0.445,
+      0.635
+    ],
+    "text": "2.5 Inference",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.509,
+      0.615,
+      0.887
+    ],
+    "text": "At inference time, the model receives one paper, P, and it outputs the SPECTER’s Transfomer pooled output activation as the paper representation for (Equation 1). We note that for inference, SPECTER requires only the title and abstract of the given input paper; the model does not need any citation information about the input paper. This means that SPECTER can produce embeddings even for new papers that have yet to be cited, which is critical for applications that target recent scientific papers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.51,
+      0.643,
+      0.836
+    ],
+    "text": "3 SCIDOCS Evaluation Framework",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.509,
+      0.912,
+      0.889
+    ],
+    "text": "Previous evaluations of scientific document representations in the literature tend to focus on small datasets over a limited set of tasks, and extremely high (99%+) AUC scores are already possible on these data for English documents (Chen et al., 2019; Wang et al., 2019). New, larger and more diverse benchmark datasets are necessary. Here, we introduce a new comprehensive evaluation framework to measure the effectiveness of scientific paper embeddings, which we call SCIDOCS. The framework consists of diverse tasks, ranging from citation prediction, to prediction of user activity, to document classification and paper recommendation. Note that SPECTER will not be further fine-tuned on any of the tasks; we simply plug in the embeddings as features for each task. Below, we describe each of the",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.139,
+      0.115,
+      0.154,
+      0.354
+    ],
+    "text": "3.1 Document Classification",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.162,
+      0.114,
+      0.228,
+      0.492
+    ],
+    "text": "An important test of a document-level embedding is whether it is predictive of the class of the document. Here, we consider two classification tasks in the scientific domain:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.114,
+      0.467,
+      0.492
+    ],
+    "text": "MeSH Classification In this task, the goals is to classify scientific papers according to their Medical Subject Headings (MeSH) (Lipscomb, 2000).7 We construct a dataset consisting of 23K academic medical papers, where each paper is assigned one of 11 top-level disease classes such as cardiovascular diseases, diabetes, digestive diseases derived from the MeSH vocabulary. The most populated category is Neoplasms (cancer) with 5.4K instances (23.3% of the total dataset) while the category with least number of samples is Hepatitis (1.7% of the total dataset). We follow the approach of Feldman et al. (2019) in mapping the MeSH vocabulary to the disease classes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.48,
+      0.114,
+      0.692,
+      0.494
+    ],
+    "text": "Paper Topic Classification This task is predicting the topic associated with a paper using the predefined topic categories of the Microsoft Academic Graph (MAG) (Sinha et al., 2015)8. MAG provides a database of papers, each tagged with a list of topics. The topics are organized in a hierarchy of 5 levels, where level 1 is the most general and level 5 is the most specific. For our evaluation, we derive a document classification dataset from the level 1 topics, where a paper is labeled by its corresponding level 1 MAG topic. We construct a dataset of 25K papers, almost evenly split over the 19 different classes of level 1 categories in MAG.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.705,
+      0.115,
+      0.72,
+      0.315
+    ],
+    "text": "3.2 Citation Prediction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.728,
+      0.114,
+      0.859,
+      0.492
+    ],
+    "text": "As argued above, citations are a key signal of relatedness between papers. We test how well different paper representations can reproduce this signal through citation prediction tasks. In particular, we focus on two sub-tasks: predicting direct citations, and predicting co-citations. We frame these as ranking tasks and evaluate performance using MAP and nDCG, standard ranking metrics.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.509,
+      0.286,
+      0.889
+    ],
+    "text": "Direct Citations In this task, the model is asked to predict which papers are cited by a given query paper from a given set of candidate papers. The evaluation dataset includes approximately 30K total papers from a held-out pool of papers, consisting of 1K query papers and a candidate set of up to 5 cited papers and 25 (randomly selected) uncited papers. The task is to rank the cited papers higher than the uncited papers. For each embedding method, we require only comparing the L2 distance between the raw embeddings of the query and the candidates, without any additional trainable parameters.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.292,
+      0.509,
+      0.455,
+      0.889
+    ],
+    "text": "Co-Citations This task is similar to the direct citations but instead of predicting a cited paper, the goal is to predict a highly co-cited paper with a given paper. Intuitively, if papers A and B are cited frequently together by several papers, this shows that the papers are likely highly related and a good paper representation model should be able to identify these papers from a given candidate set. The dataset consists of 30K total papers and is constructed similar to the direct citations task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.463,
+      0.51,
+      0.479,
+      0.663
+    ],
+    "text": "3.3 User Activity",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.509,
+      0.791,
+      0.889
+    ],
+    "text": "The embeddings for similar papers should be close to each other; we use user activity as a proxy for identifying similar papers and test the model’s ability to recover this information. Multiple users consuming the same items as one another is a classic relatedness signal and forms the foundation for recommender systems and other applications (Schafer et al., 2007). In our case, we would expect that when users look for academic papers, the papers they view in a single browsing session tend to be related. Thus, accurate paper embeddings should, all else being equal, be relatively more similar for papers that are frequently viewed in the same session than for other papers. To build benchmark datasets to test embeddings on user activity, we obtained logs of user sessions from a major academic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.797,
+      0.509,
+      0.912,
+      0.89
+    ],
+    "text": "Co-Views Our co-views dataset consists of approximately 30K papers. To construct it, we take 1K random papers that are not in our train or development set and associate with each one up to 5 frequently co-viewed papers and 25 randomly selected papers (similar to the approach for citations). Then, we require the embedding model to rank the co-viewed papers higher than the random papers by comparing the L2 distances of raw embeddings. We evaluate performance using standard ranking metrics, nDCG and MAP.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.148,
+      0.114,
+      0.296,
+      0.492
+    ],
+    "text": "Co-Reads If the user clicks to access the PDF of a paper from the paper description page, this is a potentially stronger sign of interest in the paper. In such a case we assume the user will read at least parts of the paper and refer to this as a “read” action. Accordingly, we define a “co-reads” task and dataset analogous to the co-views dataset described above. This dataset is also approximately 30K papers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.115,
+      0.322,
+      0.302
+    ],
+    "text": "3.4 Recommendation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.326,
+      0.114,
+      0.713,
+      0.494
+    ],
+    "text": "In the recommendation task, we evaluate the ability of paper embeddings to boost performance in a production recommendation system. Our recommendation task aims to help users navigate the scientific literature by ranking a set of “similar papers” for a given paper. We use a dataset of user clickthrough data for this task which consists of 22K clickthrough events from a public scholarly search engine. We partitioned the examples temporally into train (20K examples), validation (1K), and test (1K) sets. As is typical in clickthrough data on ranked lists, the clicks are biased toward the top of original ranking presented to the user. To counteract this effect, we computed propensity scores using a swap experiment (Agarwal et al., 2019). The propensity scores give, for each position in the ran",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.114,
+      0.876,
+      0.494
+    ],
+    "text": "We test different embeddings on the recommendation task by including cosine embedding distance9 as a feature within an existing recommendation system that includes several other informative features (title/author similarity, reference and citation overlap, etc.). Thus, the recommendation experiments measure whether the embeddings can boost the performance of a strong baseline system on an end task. For SPECTER, we also perform an online A/B test to measure whether its advantages on the offline dataset translate into improvements on the online recommendation task ( 5).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.12,
+      0.509,
+      0.136,
+      0.66
+    ],
+    "text": "4 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.146,
+      0.509,
+      0.405,
+      0.889
+    ],
+    "text": "Training Data To train our model, we use a subset of the Semantic Scholar corpus (Ammar et al., 2018) consisting of about 146K query papers (around 26.7M tokens) with their corresponding outgoing citations, and we use an additional 32K papers for validation. For each query paper we construct up to 5 training triples comprised of a query, a positive, and a negative paper. The positive papers are sampled from the direct citations of the query, while negative papers are chosen either randomly or from citations of citations (as discussed in 2.4). We empirically found it helpful to use 2 hard negatives (citations of citations) and 3 easy negatives (randomly selected papers) for each query paper. This process results in about 684K training triples and 145K validation triples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.413,
+      0.509,
+      0.802,
+      0.889
+    ],
+    "text": "Training and Implementation We implement our model in AllenNLP (Gardner et al., 2018). We initialize the model from SciBERT pretrained weights (Beltagy et al., 2019) since it is the stateof-the-art pretrained language model on scientific text. We continue training all model parameters on our training objective (Equation 2). We perform minimal tuning of our model’s hyperparameters based on the performance on the validation set, while baselines are extensively tuned. Based on initial experiments, we use a margin m=1 for the triplet loss. For training, we use the Adam optimizer (Kingma and Ba, 2014) following the suggested hyperparameters in Devlin et al. (2019) (LR: 2e-5, Slanted Triangular LR scheduler10 (Howard and Ruder, 2018) with number of train steps equal to training instances and cut",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.509,
+      0.875,
+      0.89
+    ],
+    "text": "Task-Specific Model Details For the classification tasks, we used a linear SVM where embedding vectors were the only features. The C hyperparameter was tuned via a held-out validation set.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.114,
+      0.205,
+      0.494
+    ],
+    "text": "For the recommendation tasks, we use a feedforward ranking neural network that takes as input ten features designed to capture the similarity between each query and candidate paper, including the cosine similarity between the query and candidate embeddings and manually-designed features computed from the papers’ citations, titles, authors, and publication dates.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.114,
+      0.618,
+      0.494
+    ],
+    "text": "Baseline Methods Our work falls into the intersection of textual representation, citation mining, and graph learning, and we evaluate against stateof-the-art baselines from each of these areas. We compare with several strong textual models: SIF (Arora et al., 2017), a method for learning document representations by removing the first principal component of aggregated word-level embeddings which we pretrain on scientific text; SciBERT (Beltagy et al., 2019) a state-of-the-art pretrained Transformer LM for scientific text; and Sent-BERT (Reimers and Gurevych, 2019), a model that uses negative sampling to tune BERT for producing optimal sentence embeddings. We also compare with Citeomatic (Bhagavatula et al., 2018), a closely related paper representation model for citation prediction which tr",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.115,
+      0.643,
+      0.216
+    ],
+    "text": "5 Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.114,
+      0.765,
+      0.49
+    ],
+    "text": "Table 1 presents the main results corresponding to our evaluation tasks (described in §3). Overall, we observe substantial improvements across all tasks with average performance of 80.0 across all metrics on all tasks which is a 3.1 point absolute improvement over the next-best baseline. We now discuss the results in detail.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "For document classification, we report macro F1, a standard classification metric. We observe that the classifier performance when trained on our representations is better than when trained on any other baseline. Particularly, on the MeSH (MAG) dataset, we obtain an 86.4 (82.0) F1 score which is about a ∆= + 2.3 (+1.5) point absolute increase over the best baseline on each dataset respectively. Our evaluation of the learned representations on predicting user activity is shown in the “User activity” columns of Table 1. SPECTER achieves a MAP score of 83.8 on the co-view task, and 84.5 on coread, improving over the best baseline (Citeomatic in this case) by 2.7 and 4.0 points, respectively. We observe similar trends for the “citation” and “co-citation” tasks, with our model outperforming vir",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.404,
+      0.509,
+      0.583,
+      0.889
+    ],
+    "text": "Finally, for recommendation task, we observe that SPECTER outperforms all other models on this task as well, with nDCG of 53.9. On the recommendations task, as opposed to previous experiments, the differences in method scores are generally smaller. This is because for this task the embeddings are used along with several other informative features in the ranking model (described under task-specific models in 4), meaning that embedding variants have less opportunity for impact on overall performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.589,
+      0.509,
+      0.752,
+      0.889
+    ],
+    "text": "We also performed an online study to evaluate whether SPECTER embeddings offer similar advantages in a live application. We performed an online A/B test comparing our SPECTER-based recommender to an existing production recommender system for similar papers that ranks papers by a textual similarity measure. In a dataset of 4,113 clicks, we found that SPECTER ranker improved clickthrough rate over the baseline by 46.5%, demonstrating its superiority.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.758,
+      0.509,
+      0.824,
+      0.889
+    ],
+    "text": "We emphasize that our citation-based pretraining objective is critical for the performance of SPECTER; removing this and using a vanilla SciB-ERT results in decreased performance on all tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.074,
+      0.115,
+      0.279,
+      0.884
+    ],
+    "text": "Table 1: Results on the SCIDOCS evaluation suite consisting of 7 tasks.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.33,
+      0.115,
+      0.347,
+      0.226
+    ],
+    "text": "6 Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.359,
+      0.114,
+      0.441,
+      0.492
+    ],
+    "text": "In this section, we analyze several design decisions in SPECTER, provide a visualization of its embedding space, and experimentally compare SPECTER’s use of fixed embeddings against a finetuning approach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.451,
+      0.114,
+      0.824,
+      0.492
+    ],
+    "text": "Ablation Study We start by analyzing how adding or removing metadata fields from the input to SPECTER alters performance. The results are shown in the top four rows of Table 2 (for brevity, here we only report the average of the metrics from each task). We observe that removing the abstract from the textual input and relying only on the title results in a substantial decrease in performance. More surprisingly, adding authors as an input (along with title and abstract) hurts performance.13 One possible explanation is that author names are sparse in the corpus, making it difficult for the model to infer document-level relatedness from them. As another possible reason of this behavior, tokenization using Wordpieces might be suboptimal for author names. Many author names are out-of-vocabulary ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-5",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.328,
+      0.514,
+      0.443,
+      0.88
+    ],
+    "text": "Table 2: Ablations: Numbers are averages of metrics for each evaluation task: CLS: classification, USR: User activity, CITE: Citation prediction, REC: Recommendation, Avg. average over all tasks & metrics.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.639,
+      0.509,
+      0.851,
+      0.889
+    ],
+    "text": "One design decision in SPECTER is to use a set of hard negative distractors in the citation-based finetuning objective. The fifth row of Table 2 shows that this is important—using only easy negatives reduces performance on all tasks. While there could be other potential ways to include hard negatives in the model, our simple approach of including citations of citations is effective. The sixth row of the table shows that using a strong general-domain language model (BERT-Large) instead of SciBERT in SPECTER reduces performance considerably. This is reasonable because unlike BERT-Large, SciB-ERT is pretrained on scientific text.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.862,
+      0.509,
+      0.912,
+      0.889
+    ],
+    "text": "Visualization Figure 2 shows t-SNE (van der Maaten, 2014) projections of our embeddings (SPECTER) compared with the SciBERT baseline for a random set of papers. When comparing SPECTER embeddings with SciBERT, we observe that our embeddings are better at encoding topical information, as the clusters seem to be more compact. Further, we see some examples of crosstopic relatedness reflected in the embedding space (e.g., Engineering, Mathematics and Computer Science are close to each other, while Business and Economics are also close to each other). To quantify the comparison of visualized embeddings in Figure 2, we use the DBScan clustering algorithm (Ester et al., 1996) on this 2D projection. We use the completeness and homogeneity clustering quality measures introduced by Rosenberg and Hirs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-1",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.072,
+      0.119,
+      0.2,
+      0.302
+    ],
+    "text": "(a) SPECTER",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:figure-2",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_1.jpg",
+    "bbox_norm": [
+      0.072,
+      0.304,
+      0.199,
+      0.487
+    ],
+    "text": "(b) SciBERT Figure 2: t-SNE visualization of paper embeddings and their corresponding MAG topics.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.62,
+      0.114,
+      0.913,
+      0.494
+    ],
+    "text": "Comparison with Task Specific Fine-Tuning While the fact that SPECTER does not require finetuning makes its paper embeddings less costly to use, often the best performance from pretrained Transformers is obtained when the models are finetuned directly on each end task. We experiment with fine-tuning SciBERT on our tasks, and find this to be generally inferior to using our fixed representations from SPECTER. Specifically, we finetune SciBERT directly on task-specific signals instead of citations. To fine-tune on task-specific data (e.g., user activity), we used a dataset of coviews with 65K query papers, co-reads with 14K query papers, and co-citations (instead of direct citations) with 83K query papers. As the end tasks are ranking tasks, for all datasets we construct up to 5 triplets and ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-5",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.073,
+      0.51,
+      0.158,
+      0.885
+    ],
+    "text": "Table 3: Comparison with task-specific fine-tuning.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.51,
+      0.468,
+      0.668
+    ],
+    "text": "7 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.478,
+      0.509,
+      0.607,
+      0.889
+    ],
+    "text": "Recent representation learning methods in NLP rely on training large neural language models on unsupervised data (Peters et al., 2018; Radford et al., 2018; Devlin et al., 2019; Beltagy et al., 2019; Liu et al., 2019). While successful at many sentenceand token-level tasks, our focus is on using the models for document-level representation learning, which has remained relatively under-explored.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.607,
+      0.509,
+      0.866,
+      0.889
+    ],
+    "text": "There have been other efforts in document representation learning such as extensions of word vectors to documents (Le and Mikolov, 2014; Ganesh et al., 2016; Liu et al., 2017; Wu et al., 2018; Gysel et al., 2017), convolution-based methods (Liu et al., 2018; Zamani et al., 2018), and variational autoencoders (Holmer and Marfurt, 2018; Wang et al., 2019). Relevant to document embedding, sentence embedding is a relatively well-studied area of research. Successful approaches include seq2seq models (Kiros et al., 2015), BiLSTM Siamese networks (Williams et al., 2018), leveraging supervised data from other corpora (Conneau et al., 2017), and using discourse relations (Nie et al., 2019), and BERT-based methods (Reimers and Gurevych, 2019). Unlike our proposed method, the majority of these approa",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.124,
+      0.114,
+      0.511,
+      0.492
+    ],
+    "text": "Other relevant work combines textual features with network structure (Tu et al., 2017; Zhang et al., 2018; Bhagavatula et al., 2018; Shen et al., 2018; Chen et al., 2019; Wang et al., 2019). These works typically do not leverage the recent pretrained contextual representations and with a few exceptions such as the recent work by Wang et al. (2019), they cannot generalize to unseen documents like our SPECTER approach. Context-based citation recommendation is another related application where models rely on citation contexts (Jeong et al., 2019) to make predictions. These works are orthogonal to ours as the input to our model is just paper title and abstract. Another related line of work is graphbased representation learning methods (Bruna et al., 2014; Kipf and Welling, 2017; Hamilton et al",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.512,
+      0.114,
+      0.706,
+      0.492
+    ],
+    "text": "SPECTER embeddings are based on only the title and abstract of the paper. Adding the full text of the paper would provide a more complete picture of the paper’s content and could improve accuracy (Cohen et al., 2010; Lin, 2008; Schuemie et al., 2004). However, the full text of many academic papers is not freely available. Further, modern language models have strict memory limits on input size, which means new techniques would be required in order to leverage the entirety of the paper within the models. Exploring how to use the full paper text within SPECTER is an item of future work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.707,
+      0.114,
+      0.82,
+      0.492
+    ],
+    "text": "Finally, one pain point in academic paper recommendation research has been a lack of publicly available datasets (Chen and Lee, 2018; Kanakia et al., 2019). To address this challenge, we release SCIDOCS, our evaluation benchmark which includes an anonymized clickthrough dataset from an online recommendations system.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.114,
+      0.85,
+      0.411
+    ],
+    "text": "8 Conclusions and Future Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.862,
+      0.114,
+      0.912,
+      0.494
+    ],
+    "text": "We present SPECTER, a model for learning representations of scientific papers, based on a Transformer language model that is pretrained on citations. We achieve substantial improvements over the strongest of a wide variety of baselines, demonstrating the effectiveness of our model. We additionally introduce SCIDOCS, a new evaluation suite consisting of seven document-level tasks and release the corresponding datasets to foster further research in this area.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.189,
+      0.509,
+      0.447,
+      0.887
+    ],
+    "text": "The landscape of Transformer language models is rapidly changing and newer and larger models are frequently introduced. It would be interesting to initialize our model weights from more recent Transformer models to investigate if additional gains are possible. Another item of future work is to develop better multitask approaches to leverage multiple signals of relatedness information during training. We used citations to build triplets for our loss function, however there are other metrics that have good support from the bibliometrics literature (Klavans and Boyack, 2006) that warrant exploring as a way to create relatedness graphs. Including other information such as outgoing citations as additional input to the model would be yet another area to explore in future.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.51,
+      0.478,
+      0.684
+    ],
+    "text": "Acknowledgements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.487,
+      0.509,
+      0.633,
+      0.887
+    ],
+    "text": "We thank Kyle Lo, Daniel King and Oren Etzioni for helpful research discussions, Russel Reas for setting up the public API, Field Cady for help in initial data collection and the anonymous reviewers (especially Reviewer 1) for comments and suggestions. This work was supported in part by NSF Convergence Accelerator award 1936940, ONR grant N00014-18-1-2193, and the University of Washington WRF/Cable Professorship.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.512,
+      0.677,
+      0.611
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-12",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.514,
+      0.739,
+      0.887
+    ],
+    "text": "Anant K. Agarwal, Ivan Zaitsev, Xuanhui Wang, Cheng Yen Li, Marc Najork, and Thorsten Joachims. 2019. Estimating position bias without intrusive interventions. In WSDM. Waleed Ammar, Dirk Groeneveld, Chandra Bhagavatula, Iz Beltagy, Miles Crawford, Doug Downey, Jason Dunkelberger, Ahmed Elgohary, Sergey Feldman, Vu Ha, Rodney Kinney, Sebastian Kohlmeier, Kyle Lo, Tyler C. Murray, Hsu-Han Ooi, Matthew E. Peters, Joanna Power, Sam Skjonsberg, Lucy Lu Wang, Christopher Wilhelm, Zheng Yuan, Madeleine van Zuylen, and Oren Etzioni. 2018. Construction of the literature graph in semantic scholar. In NAACL-HLT. Sanjeev Arora, Yingyu Liang, and Tengyu Ma. 2017.",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.077,
+      0.132,
+      0.103,
+      0.489
+    ],
+    "text": "A simple but tough-to-beat baseline for sentence embeddings. In ICLR. Iz Beltagy, Kyle Lo, and Arman Cohan. 2019. SciB-ERT: A Pretrained Language Model for Scientific Text. In EMNLP. Chandra Bhagavatula, Sergey Feldman, Russell Power, and Waleed Ammar. 2018. Content-Based Citation Recommendation. In NAACL-HLT. Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. 2017. Enriching word vectors with subword information. TACL. Joan Bruna, Wojciech Zaremba, Arthur Szlam, and Yann LeCun. 2014. Spectral networks and locally connected networks on graphs. ICLR. Liqun Chen, Guoyin Wang, Chenyang Tao, Dinghan Shen, Pengyu Cheng, Xinyuan Zhang, Wenlin Wang, Yizhe Zhang, and Lawrence Carin. 2019. Improving textual network embedding with global attention via optimal transport. In ACL. Tsung",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.117,
+      0.116,
+      0.49
+    ],
+    "text": "Chundi Liu, Shunan Zhao, and Maksims Volkovs. 2018. Unsupervised Document Embedding with CNNs. ArXiv, abs/1711.04168v3. Pengfei Liu, King Keung Wu, and Helen M. Meng. 2017. A Model of Extended Paragraph Vector for Document Categorization and Trend Analysis. IJCNN. Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar S. Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke S. Zettlemoyer, and Veselin Stoyanov. 2019. RoBERTa: A Robustly Optimized BERT Pretraining Approach. ArXiv, abs/1907.11692. Laurens van der Maaten. 2014. Accelerating t-SNE Using Tree-based Algorithms. Journal of Machine Learning Research. Allen Nie, Erin Bennett, and Noah Goodman. 2019. DisSent: Learning Sentence Representations from Explicit Discourse Relations. In ACL. F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. T",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.115,
+      0.091,
+      0.413
+    ],
+    "text": "A Appendix A - Baseline Details",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.098,
+      0.114,
+      0.131,
+      0.489
+    ],
+    "text": "1. Random Zero-mean 25-dimensional vectors were used as representations for each document.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.135,
+      0.114,
+      0.265,
+      0.492
+    ],
+    "text": "2. Doc2Vec Doc2Vec is one of the earlier neural document/paragraph representation methods (Le and Mikolov, 2014), and is a natural comparison. We trained Doc2Vec on our training subset using Gensim (Reh ˇ u˚ˇrek and Sojka, 2010), and chose the hyperparameter grid using suggestions from Lau and Baldwin (2016). The hyperparameter grid used:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.334,
+      0.114,
+      0.414,
+      0.492
+    ],
+    "text": "for a total of 27 models. The other parameters were set as follows: vector\\_size=300, min\\_count=3, alpha=0.025, min\\_alpha=0.0001, negative=5, dm=0, dbow=1, dbow\\_words=0.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.418,
+      0.114,
+      0.645,
+      0.492
+    ],
+    "text": "3. Fasttext-Sum This simple baseline is a weighted sum of pretrained word vectors. We trained our own 300 dimensional fasttext embeddings (Bojanowski et al., 2017) on a corpus of around 3.1B tokens from scientific papers which is similar in size to the SciBERT corpus (Beltagy et al., 2019). We found that these pretrained embeddings substantially outperform alternative off-theshelf embeddings. We also use these embeddings in other baselines that require pretrained word vectors (i.e., SIF and SGC that are described below). The summed bag of words representation has a number of weighting options, which are extensively tuned on a validation set for best performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.648,
+      0.114,
+      0.778,
+      0.492
+    ],
+    "text": "4. SIF The SIF method of Arora et al. (2017) is a strong text representation baseline that takes a weighted sum of pretrained word vectors (we use fasttext embeddings described above), then computes the first principal component of the document embedding matrix and subtracts out each document embedding’s projection to the first principal component.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.114,
+      0.912,
+      0.494
+    ],
+    "text": "We used a held-out validation set to choose a from the range [1.0e-5, 1.0e-3] spaced evenly on a log scale. The word probability p(w) was estimated on the training set only. When computing term-frequency values for SIF, we used scikit-learn’s TfidfVectorizer with the same parameters as enumerated in the preceding section. sublinear\\_tf, binary, use\\_idf, smooth\\_idf were all set to False. Since SIF is a sum of pretrained fasttext vectors, the resulting dimensionality is 300.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-10",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.128,
+      0.509,
+      0.242,
+      0.889
+    ],
+    "text": "5. ELMo ELMo (Peters et al., 2018) provides contextualized representations of tokens in a document. It can provide paragraph or document embeddings by averaging each token’s representation for all 3 LSTM layers. We used the 768-dimensional pretrained ELMo model in AllenNLP (Gardner et al., 2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-11",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.509,
+      0.378,
+      0.889
+    ],
+    "text": "6. Citeomatic The most relevant baseline is Citeomatic (Bhagavatula et al., 2018), which is an academic paper representation model that is trained on the citation graph via sampled triplets. Citeomatic representations are an L2 normalized weighted sum of title and abstract embeddings, which are trained on the citation graph with dynamic negative sampling. Citeomatic embeddings are 75-dimensional.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-12",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.509,
+      0.721,
+      0.889
+    ],
+    "text": "7. SGC Since our algorithm is trained on data from the citation graph, we also compare to a state-ofthe-art graph representation learning model: SGC (Simple Graph Convolution) (Wu et al., 2019a), which is a graph convolution network. An alternative comparison would have been Graph-SAGE (Hamilton et al., 2017b), but SGC (with no learning) outperformed an unsupervised variant of GraphSAGE on the Reddit dataset16, Note that SGC with no learning boils down to graph propagation on node features (in our case nodes are academic documents). Following Hamilton et al. (2017a), we used SIF features as node representations, and applied SGC with a range of parameter k, which is the number of times the normalized adjacency is multiplied by the SIF feature matrix. Our range of k was 1 through 8 (inclusiv",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-13",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.725,
+      0.509,
+      0.84,
+      0.889
+    ],
+    "text": "8. SciBERT To isolate the advantage of SPECTER’s citation-based fine-tuning objective, we add a controlled comparison with SciBERT (Beltagy et al., 2019). Following Devlin et al. (2019) we take the last layer hidden state corresponding to the [CLS] token as the aggregate document representation.17",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.114,
+      0.269,
+      0.494
+    ],
+    "text": "9. Sentence BERT Sentence BERT (Reimers and Gurevych, 2019) is a general-domain pretrained model aimed at embedding sentences. The authors fine-tuned BERT using a triplet loss, where positive sentences were from the same document section as the seed sentence, and distractor sentences came from other document sections. The model is designed to encode sentences as opposed to paragraphs, so we embed the title and each sentence in the abstract separately, sum the embeddings, and L2 normalize the result to produce a final 768-dimensional paper embedding.18",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.274,
+      0.114,
+      0.517,
+      0.494
+    ],
+    "text": "During hyperparameter optimization we chose how to compute TF and IDF values weights by taking the following non-redundant combinations of scikit-learn’s TfidfVectorizer (Pedregosa et al., 2011) parameters: sublinear\\_tf, binary, use\\_idf, smooth\\_idf. There were a total of 9 parameter combinations. The IDF values were estimated on the training set. The other parameters were set as follows: min\\_df=3, max\\_df=0.75, strip\\_accents=’ascii’, stop\\_words=’english’, norm=None, lowercase=True. For training of fasttext, we used all default parameters with the exception of setting dimension to 300 and minCount was set to 25 due to the large corpus.",
+    "source_type": "text"
+  }
+]

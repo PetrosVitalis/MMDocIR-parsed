@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2023</td><td>2022</td><td></td><td>2021</td></tr><tr><td>Number of Accounts</td><td>3,060</td><td>5,631</td><td></td><td>3,630</td></tr><tr><td>Amounts Referred (dollars in millions)</td><td>$ 4.2</td><td>$</td><td>8.1</td><td>6.4</td></tr><tr><td>Amounts Collected (dollars in millions)</td><td>$ 5.4</td><td>$</td><td>5.8</td><td>$ 3.2</td></tr></table>

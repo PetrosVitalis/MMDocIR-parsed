@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>$ in millions Trading assets</td><td>$ 30,954$</td><td>41,201</td></tr><tr><td>Loans,before ACL</td><td></td><td>750</td></tr><tr><td>Total</td><td>$ 30,954 $</td><td>41,951</td></tr></table>

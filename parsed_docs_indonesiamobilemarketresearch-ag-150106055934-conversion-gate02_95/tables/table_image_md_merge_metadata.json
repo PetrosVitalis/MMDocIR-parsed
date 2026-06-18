@@ -1,0 +1,64 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_3_Table_0.jpg",
+      "raw_md": "table_pg3_num0.md",
+      "csv_base": "table_pg3_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_3_Table_1.jpg",
+      "raw_md": "table_pg3_num1.md",
+      "csv_base": "table_pg3_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_12_got_7)"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_16_Table_0.jpg",
+      "raw_md": "table_pg16_num0.md",
+      "csv_base": "table_pg16_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_17_Table_0.jpg",
+      "raw_md": "table_pg17_num0.md",
+      "csv_base": "table_pg17_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_35_Table_0.jpg",
+      "raw_md": "table_pg35_num0.md",
+      "csv_base": "table_pg35_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_37_Table_0.jpg",
+      "raw_md": "table_pg37_num0.md",
+      "csv_base": "table_pg37_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sep.2014</td></tr><tr><td rowspan=1 colspan=1>Non-Madhesi</td><td rowspan=1 colspan=1>64.7</td></tr><tr><td rowspan=1 colspan=1>Madhesi</td><td rowspan=1 colspan=1>35.3</td></tr><tr><td rowspan=1 colspan=1>Total</td><td rowspan=1 colspan=1>100</td></tr></table>

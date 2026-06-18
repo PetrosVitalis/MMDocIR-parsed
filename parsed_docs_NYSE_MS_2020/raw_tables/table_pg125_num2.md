@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">At December 31, 2020</td><td></td><td>At December 31, 2019</td></tr><tr><td>$in millions Investments</td><td>$</td><td>2,410$</td><td></td><td>2,363</td></tr><tr><td></td><td>2020</td><td>2019</td><td></td><td>2018</td></tr><tr><td>$in millions Income (loss)1</td><td>$</td><td>1 $</td><td>(81)$</td><td>20</td></tr></table>

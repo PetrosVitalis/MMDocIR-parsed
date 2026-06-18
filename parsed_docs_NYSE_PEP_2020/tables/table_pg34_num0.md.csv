@@ -1,0 +1,18 @@
+,Property Type,Location,Owned/Leased
+FLNA,"Research and development facilityPlano, Texas",,Owned
+QFNA,Food plant,"Cedar Rapids, Iowa",Owned
+PBNA,"Research and development facilityValhalla,New York",,Owned
+PBNA,Concentrate plant,"Arlington, Texas",Owned
+PBNA,Tropicana plant,"Bradenton, Florida",Owned
+LatAm,Snack plant,"Celaya, Mexico",Owned
+LatAm,Two snack plants,"Vallejo, Mexico",Owned
+Europe,Snack plant,"Kashira, Russia",Owned
+Europe,Manufacturing plant,"Lehavim, Israel",Owned
+Europe,Dairy plant,"Moscow, Russia",Owned (a)
+AMESA,Snack plant,"Riyadh, Saudi Arabia",Owned (a)
+APAC,Snack plant,"Wuhan, China",Owned (a)
+"FLNA, QFNA, PBNA",Shared service center,"Winston Salem, North Carolina Leased",
+"PBNA, LatAm",Concentrate plant,"Colonia, Uruguay",Owned (a)
+"PBNA, Europe, AMESA",Two concentrate plants,"Cork, Ireland",Owned
+"PBNA, AMESA, APAC",Concentrate plant,Singapore,Owned @
+All divisions,Shared service center,"Hyderabad, India",Leased

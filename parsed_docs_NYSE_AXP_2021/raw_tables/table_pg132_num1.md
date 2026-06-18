@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3"></td></tr><tr><td></td><td>Outstanding</td><td>Exercisable</td><td>Expected to Vest</td></tr><tr><td>Weighted-average remaining contractual life (in years)</td><td>5.3</td><td>3.8</td><td>5.3</td></tr><tr><td>Aggregate intrinsic value (millions)</td><td>218$</td><td>166$</td><td>218</td></tr></table>

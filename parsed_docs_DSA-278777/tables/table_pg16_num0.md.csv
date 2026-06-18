@@ -1,0 +1,6 @@
+MODE,RST,PSEN,ALE/PROG,EA/VPP,P2.7,P2.6,P3.6,P3.7
+Program Code Data,1,0,0*,VpP,1,0,1,1
+Verify Code Data,1,0,1,1,0,0,1,1
+Program Encryption TableUse Addresses 0-1FH,1,0,0*,Vpp,1,0,0,1
+Program Lock x=1Bits (LBx) x=2,←1,00,0*0*,VppVpP,11,11,10,10
+Read Signature,1,0,1,1,0,0,0,0

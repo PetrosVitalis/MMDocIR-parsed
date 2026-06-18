@@ -1,0 +1,8 @@
+```csv
+Dataset,"Named Entity Recognition CONLL", "Named Entity Recognition OntoNotes", "Named Entity Recognition FewNERD", "Relation Extraction TACRE", "Relation Extraction TACRED", "Event Detection ACE05", "Event Detection MAVEN", "Event Detection ERE", "Event Arg Extraction ACE05", "Event Arg Extraction RAMS", "Event Arg Extraction ERE"
+#Label Type,4,18,66,41,41,33,168,38,33,139,38
+#Sents,Train,14041,49706,131965,68124,68124,14024,32360,14736,14024,7329,14736
+#Sents,Test,3453,10348,37648,15509,15509,728,8035,1163,728,871,1163
+#Mentions,Train,23499,128738,340247,13012,13012,5349,77993,6208,4859,17026,8924
+#Mentions,Test,5648,12586,96902,3123,3123,424,18904,551,576,2023,822
+```

@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">Defined benefit obligations</td></tr><tr><td rowspan="9"></td><td>279</td></tr><tr><td>294</td></tr><tr><td>332</td></tr><tr><td>363</td></tr><tr><td>411</td></tr><tr><td>2,584</td></tr></table>

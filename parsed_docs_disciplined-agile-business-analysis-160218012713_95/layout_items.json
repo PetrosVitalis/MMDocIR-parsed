@@ -1,0 +1,2704 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.119,
+      0.461,
+      0.759
+    ],
+    "text": "Disciplined Agile Business Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.184,
+      0.595,
+      0.342
+    ],
+    "text": "Scott W.Ambler",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.595,
+      0.184,
+      0.627,
+      0.43
+    ],
+    "text": "ScottAmbler+Associates",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.565,
+      0.549,
+      0.595,
+      0.651
+    ],
+    "text": "Jon Smart",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.549,
+      0.629,
+      0.638
+    ],
+    "text": "Barclays",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.093,
+      0.156,
+      0.462
+    ],
+    "text": "About Scott W. Ambler",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.093,
+      0.291,
+      0.653
+    ],
+    "text": "Pioneered Agile Modeling and Agile Database techniques in theearly2000s",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.093,
+      0.377,
+      0.618
+    ],
+    "text": "Co-creator of the Disciplined Agile Delivery (DAD) framework",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.383,
+      0.093,
+      0.422,
+      0.503
+    ],
+    "text": "·Executive Transformation Coach",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.093,
+      0.469,
+      0.32
+    ],
+    "text": "CertifiedTrainer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.526,
+      0.093,
+      0.565,
+      0.424
+    ],
+    "text": "·scott [at]scottambler.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.093,
+      0.614,
+      0.334
+    ],
+    "text": "@scottwambler",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.666,
+      0.093,
+      0.747,
+      0.641
+    ],
+    "text": "Works with organizations around the world to help IT departments become awesome",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-9",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.479,
+      0.694,
+      0.939,
+      0.94
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.093,
+      0.156,
+      0.367
+    ],
+    "text": "About Jon Smart",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.093,
+      0.252,
+      0.592
+    ],
+    "text": "·Leading Agile transformation at Barclays",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.272,
+      0.093,
+      0.313,
+      0.653
+    ],
+    "text": "·Backgroundin investment banking technology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.331,
+      0.093,
+      0.41,
+      0.894
+    ],
+    "text": "Practitioner,agileapproach to software deliverysince 1993,starting outasadeveloper on the trading floor",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.093,
+      0.508,
+      0.902
+    ],
+    "text": "Experience of leading largescaleregulatory change delivered witha ScaledAgile&DevOpsapproach",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.526,
+      0.093,
+      0.567,
+      0.559
+    ],
+    "text": "Certified Disciplined AgilePractitioner",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.644,
+      0.093,
+      0.685,
+      0.503
+    ],
+    "text": "· jonathan.smart [at] barclays.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.095,
+      0.742,
+      0.282
+    ],
+    "text": "@jonsmart",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.093,
+      0.159,
+      0.339
+    ],
+    "text": "About Barclays",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.093,
+      0.289,
+      0.861
+    ],
+    "text": "Barclays moves,lends,invests and protects money for 48 million customersworldwide",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.311,
+      0.093,
+      0.427,
+      0.89
+    ],
+    "text": "Amajor global financial services provider engaged in retail banking, credit cards,corporateand investment banking and wealth and investmentmanagement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.095,
+      0.488,
+      0.475
+    ],
+    "text": "Operating in over 50 countries",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.095,
+      0.545,
+      0.358
+    ],
+    "text": "132,000 employees",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.565,
+      0.095,
+      0.606,
+      0.552
+    ],
+    "text": "·325years of history,founded in 1690",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-7",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.631,
+      0.179,
+      0.878,
+      0.492
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:figure-8",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_1.jpg",
+    "bbox_norm": [
+      0.424,
+      0.635,
+      0.878,
+      0.869
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.158,
+      0.769,
+      0.907
+    ],
+    "text": "THINK OUTSIDE THE BOX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.895,
+      0.39,
+      0.922,
+      0.608
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.082,
+      0.407,
+      0.861
+    ],
+    "text": "Let's explore several important questions...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.496,
+      0.118,
+      0.547,
+      0.88
+    ],
+    "text": "How does disciplined agile software development work?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.552,
+      0.283,
+      0.602,
+      0.716
+    ],
+    "text": "How does agile analysis work?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.607,
+      0.19,
+      0.659,
+      0.808
+    ],
+    "text": "How do business analysts fit on agile teams?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-1",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.104,
+      0.067,
+      0.513,
+      0.492
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.518,
+      0.088,
+      0.668,
+      0.421
+    ],
+    "text": "Agile Delivery Disceplined",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.087,
+      0.703,
+      0.477
+    ],
+    "text": "APractitioner'sGuidetoAgileSoftwareDeliveryintheEnterprise",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.735,
+      0.089,
+      0.767,
+      0.291
+    ],
+    "text": "ScottW.Ambler·Mark Lines",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.774,
+      0.091,
+      0.797,
+      0.199
+    ],
+    "text": "ForewordbyDave West",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.19,
+      0.51,
+      0.319,
+      0.893
+    ],
+    "text": "Disciplined Agile Delivery (DAD) isa process decision framework",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.367,
+      0.511,
+      0.409,
+      0.873
+    ],
+    "text": "The key characteristics of DAD:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.41,
+      0.555,
+      0.451,
+      0.723
+    ],
+    "text": "-People-first",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.452,
+      0.555,
+      0.491,
+      0.726
+    ],
+    "text": "-Goal-driven",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.496,
+      0.555,
+      0.538,
+      0.73
+    ],
+    "text": "-Hybrid agile",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.54,
+      0.555,
+      0.579,
+      0.794
+    ],
+    "text": "-Learning-oriented",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.584,
+      0.555,
+      0.624,
+      0.826
+    ],
+    "text": "-Full deliverylifecycle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.555,
+      0.663,
+      0.785
+    ],
+    "text": "\\- Solution focused",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-14",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.555,
+      0.708,
+      0.809
+    ],
+    "text": "-Risk-value lifecycle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-15",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.713,
+      0.555,
+      0.752,
+      0.787
+    ],
+    "text": "-Enterprise aware",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.095,
+      0.159,
+      0.541
+    ],
+    "text": "DAD isa Hybrid Framework",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-2",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.267,
+      0.203,
+      0.508,
+      0.799
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.2,
+      0.735,
+      0.798
+    ],
+    "text": "DAD leverages proven strategies from several sources, providingadecisionframework to guideyouradoptionand tailoring of them inacontext-drivenmanner.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.208,
+      0.23,
+      0.791
+    ],
+    "text": "The Disciplined Agile framework supports four delivery lifecycles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:figure-2",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.276,
+      0.313,
+      0.466,
+      0.476
+    ],
+    "text": "Agile Delivery",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:figure-3",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_1.jpg",
+    "bbox_norm": [
+      0.276,
+      0.532,
+      0.466,
+      0.697
+    ],
+    "text": "Lean Delivery",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:figure-4",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_2.jpg",
+    "bbox_norm": [
+      0.579,
+      0.312,
+      0.772,
+      0.464
+    ],
+    "text": "Exploratory",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:figure-5",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_3.jpg",
+    "bbox_norm": [
+      0.579,
+      0.537,
+      0.772,
+      0.695
+    ],
+    "text": "Continuous Delivery",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.895,
+      0.39,
+      0.924,
+      0.609
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-1",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_0.jpg",
+    "bbox_norm": [
+      0.26,
+      0.119,
+      0.641,
+      0.861
+    ],
+    "text": "High Level Lifecycle",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.818,
+      0.352,
+      0.86,
+      0.923
+    ],
+    "text": "There's more to solution delivery than construction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.895,
+      0.39,
+      0.924,
+      0.609
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.096,
+      0.161,
+      0.424
+    ],
+    "text": "Basic/Agile Lifecycle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-2",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_0.jpg",
+    "bbox_norm": [
+      0.198,
+      0.065,
+      0.617,
+      0.94
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.818,
+      0.453,
+      0.86,
+      0.923
+    ],
+    "text": "Afull Scrum-basedagiledelivery lifecycle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-1",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.257,
+      0.101,
+      0.661,
+      0.917
+    ],
+    "text": "Sometimes it takes time to identify what your stakeholdersactuallyneed",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.095,
+      0.159,
+      0.328
+    ],
+    "text": "Lean Lifecycle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-2",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.208,
+      0.063,
+      0.728,
+      0.941
+    ],
+    "text": "A full leandelivery lifecycle",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.095,
+      0.159,
+      0.654
+    ],
+    "text": "Lean Continuous Delivery Lifecycle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-2",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.215,
+      0.114,
+      0.875,
+      0.94
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.205,
+      0.078,
+      0.287,
+      0.485
+    ],
+    "text": "SOYOU'RETELLING ME THAT EVERY TEAM IS UNIQUE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.269,
+      0.514,
+      0.659,
+      0.933
+    ],
+    "text": "DAD makes your options explicit and provides guidance to help you choose wisely",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.096,
+      0.158,
+      0.68
+    ],
+    "text": "DAD is Goal-Driven, Not Prescriptive",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:figure-2",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_0.jpg",
+    "bbox_norm": [
+      0.244,
+      0.039,
+      0.813,
+      0.958
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-1",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.186,
+      0.066,
+      0.787,
+      0.548
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.338,
+      0.558,
+      0.644,
+      0.914
+    ],
+    "text": "DAD supports manystrategies to explore requirements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-1",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.099,
+      0.088,
+      0.873,
+      0.798
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:figure-1",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.087,
+      0.117,
+      0.863,
+      0.96
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-1",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.101,
+      0.106,
+      0.878,
+      0.886
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.095,
+      0.161,
+      0.643
+    ],
+    "text": "Observations About Agile Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.093,
+      0.292,
+      0.897
+    ],
+    "text": "Analysis is so important we do it throughout the entire lifecycle, BUT wemight not have full-time analysis work every day",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.345,
+      0.093,
+      0.385,
+      0.505
+    ],
+    "text": "·Theartifactsare generally lighter",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.392,
+      0.138,
+      0.425,
+      0.46
+    ],
+    "text": "-User stories over use cases",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-5",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.434,
+      0.138,
+      0.469,
+      0.486
+    ],
+    "text": "-Sketches over detailed models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-6",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.095,
+      0.563,
+      0.545
+    ],
+    "text": "·Analysis artifacts are often transitory",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-7",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.57,
+      0.138,
+      0.606,
+      0.492
+    ],
+    "text": "-Conversations overdocuments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-8",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.138,
+      0.648,
+      0.486
+    ],
+    "text": "-Sketches overdetailed models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-9",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.306,
+      0.683,
+      0.67,
+      0.854
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-10",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.093,
+      0.786,
+      0.871
+    ],
+    "text": "Onadvanced teams,requirements“specifications”are executable -Acceptance tests over specification documents",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.093,
+      0.161,
+      0.925
+    ],
+    "text": "Analysis-Oriented Practices from AgileModeling.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-2",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.202,
+      0.062,
+      0.858,
+      0.911
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.093,
+      0.161,
+      0.631
+    ],
+    "text": "Analysis Throughout the Lifecycle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:figure-2",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_0.jpg",
+    "bbox_norm": [
+      0.21,
+      0.076,
+      0.745,
+      0.932
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.106,
+      0.095,
+      0.161,
+      0.876
+    ],
+    "text": "Functional Requirements:Potential Model Types",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-2",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.162,
+      0.437,
+      0.428
+    ],
+    "text": "Epic/User Story   \nPersona   \nUsage Scenario   \nUse Case   \nUML Use Case Diagram",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-3",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.178,
+      0.533,
+      0.411
+    ],
+    "text": "User Interface (UI)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.557,
+      0.141,
+      0.707,
+      0.447
+    ],
+    "text": "UI Flow Diagram   \nUI Prototype (Low Fidelity)   \nUI Prototype (High Fidelity) UI Specification",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-5",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.774,
+      0.283,
+      0.85,
+      0.493
+    ],
+    "text": "Impact (Mind) Map Context Diagram",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-6",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.651,
+      0.223,
+      0.756
+    ],
+    "text": "Domain",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-7",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.554,
+      0.404,
+      0.852
+    ],
+    "text": "Domain/Conceptual Model Logical Data Model(LDM) UML Class Diagram UMLComponent Diagram",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-8",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.484,
+      0.562,
+      0.742,
+      0.846
+    ],
+    "text": "Process   \nValue Stream Map   \nBusiness Process Model   \nData Flow Diagram (DFD)   \nFlow Chart   \nUMLActivity Diagram   \nUML State Chart",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-9",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.555,
+      0.85,
+      0.839
+    ],
+    "text": "Business Rule Feature/Shall Statements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-10",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.67,
+      0.917,
+      0.873
+    ],
+    "text": "And many more...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.093,
+      0.18,
+      0.531
+    ],
+    "text": "Non-Functional Requirements: Potential Viewsand Concerns",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:figure-2",
+    "page_id": 25,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_25_Figure_0.jpg",
+    "bbox_norm": [
+      0.191,
+      0.096,
+      0.841,
+      0.928
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:text-1",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.095,
+      0.161,
+      0.609
+    ],
+    "text": "Test-Driven Development (TDD)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-2",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.108,
+      0.383,
+      0.553
+    ],
+    "text": "Test-FirstDevelopment(TFD) isa technique where you writea single test and thenyou write just enough production code to fulfill that test.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-3",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.417,
+      0.109,
+      0.525,
+      0.544
+    ],
+    "text": "Canbe performed at the requirements levelwithacceptance testsand thedesign levelwithdeveloper/unit tests.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-4",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.108,
+      0.7,
+      0.553
+    ],
+    "text": "Refactoring isatechniquewhere you make asimplechange toyourcode/schemato improve its qualitywithout changing its semantics.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-5",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.735,
+      0.109,
+      0.772,
+      0.368
+    ],
+    "text": "TDD=TFD +refactoring",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:figure-6",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_0.jpg",
+    "bbox_norm": [
+      0.065,
+      0.614,
+      0.909,
+      0.938
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:text-1",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.099,
+      0.242,
+      0.235,
+      0.904
+    ],
+    "text": "How Do Business Analysts Fit On Agile Teams?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-1",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.093,
+      0.158,
+      0.902
+    ],
+    "text": "Characteristics of Disciplined Agile Team Members",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-2",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.093,
+      0.25,
+      0.591
+    ],
+    "text": "·We strive to be“generalizing specialists”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-3",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.259,
+      0.136,
+      0.294,
+      0.861
+    ],
+    "text": "-We want to gain a wide range of skils so that we're more productive",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-4",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.345,
+      0.093,
+      0.382,
+      0.498
+    ],
+    "text": "·We are willing to share our skills",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-5",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.39,
+      0.138,
+      0.424,
+      0.436
+    ],
+    "text": "-We learn fromeach other",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-6",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.095,
+      0.511,
+      0.305
+    ],
+    "text": "Weare flexible",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-7",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.523,
+      0.136,
+      0.558,
+      0.838
+    ],
+    "text": "-We realize that there is always more than one way of doing things",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-8",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.095,
+      0.644,
+      0.369
+    ],
+    "text": "Wearecollaborative",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-9",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.136,
+      0.688,
+      0.756
+    ],
+    "text": "-Wework together asa team,not asagroup of individuals",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-10",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.095,
+      0.781,
+      0.414
+    ],
+    "text": "Weare enterprise aware",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-11",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.136,
+      0.826,
+      0.867
+    ],
+    "text": "-We want to do what's best for the organization,not just for ourselves",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-1",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.159,
+      0.144,
+      0.395,
+      0.872
+    ],
+    "text": "DAD explicitly includes several roles that an existing business analyst may choose to grow intol",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:figure-2",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_0.jpg",
+    "bbox_norm": [
+      0.498,
+      0.058,
+      0.855,
+      0.332
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:figure-3",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_1.jpg",
+    "bbox_norm": [
+      0.496,
+      0.341,
+      0.853,
+      0.63
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:figure-4",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_2.jpg",
+    "bbox_norm": [
+      0.498,
+      0.645,
+      0.856,
+      0.938
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:text-1",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.095,
+      0.144,
+      0.707
+    ],
+    "text": "Disciplined Agile Delivery (DAD) Roles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-2",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.176,
+      0.096,
+      0.217,
+      0.264
+    ],
+    "text": "Primary Roles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:figure-3",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_0.jpg",
+    "bbox_norm": [
+      0.265,
+      0.139,
+      0.415,
+      0.248
+    ],
+    "text": "Team Lead",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-4",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_1.jpg",
+    "bbox_norm": [
+      0.239,
+      0.265,
+      0.481,
+      0.436
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-5",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_2.jpg",
+    "bbox_norm": [
+      0.247,
+      0.475,
+      0.395,
+      0.558
+    ],
+    "text": "Architecture Owner",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-6",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_3.jpg",
+    "bbox_norm": [
+      0.244,
+      0.589,
+      0.488,
+      0.756
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-7",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_4.jpg",
+    "bbox_norm": [
+      0.265,
+      0.77,
+      0.417,
+      0.89
+    ],
+    "text": "Stakeholder",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:text-8",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.095,
+      0.595,
+      0.44
+    ],
+    "text": "Secondary Roles (for Scaling)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:figure-9",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_5.jpg",
+    "bbox_norm": [
+      0.631,
+      0.144,
+      0.769,
+      0.255
+    ],
+    "text": "Independent Tester",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-10",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_6.jpg",
+    "bbox_norm": [
+      0.622,
+      0.286,
+      0.868,
+      0.613
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-11",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_7.jpg",
+    "bbox_norm": [
+      0.631,
+      0.636,
+      0.762,
+      0.721
+    ],
+    "text": "Technical Expert",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-12",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_8.jpg",
+    "bbox_norm": [
+      0.651,
+      0.795,
+      0.781,
+      0.878
+    ],
+    "text": "Integrator Disciplined Agile Consortium",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-31:text-1",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.093,
+      0.156,
+      0.339
+    ],
+    "text": "Product Owner",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-2",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.2,
+      0.095,
+      0.24,
+      0.41
+    ],
+    "text": "·The Stakeholder“proxy”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-3",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.095,
+      0.324,
+      0.626
+    ],
+    "text": "·Go-to person for information on the solution requirements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-4",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.095,
+      0.372,
+      0.485
+    ],
+    "text": "Prioritizesall work for the team",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-5",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.095,
+      0.42,
+      0.66
+    ],
+    "text": "·Participant in modeling and acceptance testing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-6",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.095,
+      0.468,
+      0.527
+    ],
+    "text": "·Hasaccess to expert stakeholders",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-7",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.096,
+      0.553,
+      0.589
+    ],
+    "text": "Facilitates requirements envisioning and modeling",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-8",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.096,
+      0.601,
+      0.532
+    ],
+    "text": "·Educates team in business domain",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-9",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.095,
+      0.648,
+      0.652
+    ],
+    "text": "·Maydemonstrate solution tokey stakeholders",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-10",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.654,
+      0.096,
+      0.732,
+      0.558
+    ],
+    "text": "Monitors and communicates status to stakeholders",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:figure-11",
+    "page_id": 31,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_31_Figure_0.jpg",
+    "bbox_norm": [
+      0.205,
+      0.682,
+      0.454,
+      0.895
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-31:text-12",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.742,
+      0.096,
+      0.818,
+      0.597
+    ],
+    "text": "Negotiates priorities,scope,funding,and schedule",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-1",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.095,
+      0.159,
+      0.75
+    ],
+    "text": "Product Owner isa Very Hard Role to Fill",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:figure-2",
+    "page_id": 32,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_32_Figure_0.jpg",
+    "bbox_norm": [
+      0.244,
+      0.07,
+      0.762,
+      0.929
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-33:text-1",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.141,
+      0.531,
+      0.599,
+      0.915
+    ],
+    "text": "y need someone   \ninaspecialized   \nbusiness analyst role, but these situations are rare",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-1",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.095,
+      0.159,
+      0.527
+    ],
+    "text": "Business Analysts at Scale",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-2",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.282,
+      0.071,
+      0.397,
+      0.477
+    ],
+    "text": "The role of business analyst (as aSpecialist)may reappearat scale:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-3",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.407,
+      0.115,
+      0.511,
+      0.44
+    ],
+    "text": "Product owners dealingwith complexdomainsmayneed support",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-4",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.115,
+      0.624,
+      0.466
+    ],
+    "text": "Whenstakeholdersare geographicallydistributed,you mayneed BAsat each location",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-5",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.117,
+      0.737,
+      0.467
+    ],
+    "text": "Someregulatoryregimes requireadditional requirements specificationwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:figure-6",
+    "page_id": 34,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_34_Figure_0.jpg",
+    "bbox_norm": [
+      0.292,
+      0.502,
+      0.705,
+      0.938
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-35:text-1",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.079,
+      0.093,
+      0.185,
+      0.713
+    ],
+    "text": "Eliciting Requirements from Distributed Stakeholders",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:figure-2",
+    "page_id": 35,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_35_Figure_0.jpg",
+    "bbox_norm": [
+      0.193,
+      0.169,
+      0.88,
+      0.76
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:text-1",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.093,
+      0.171,
+      0.47
+    ],
+    "text": "My parting advice....",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-2",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.117,
+      0.36,
+      0.536
+    ],
+    "text": "Recognize that Agile and Lean require a paradigm shift",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-3",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.404,
+      0.118,
+      0.454,
+      0.509
+    ],
+    "text": "Be open minded and flexible",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-4",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.118,
+      0.548,
+      0.552
+    ],
+    "text": "Be prepared to share your skills",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-5",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.117,
+      0.732,
+      0.558
+    ],
+    "text": "Collaborationand evolution,not documentation and “freezing\",is now the focus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-1",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.18,
+      0.248,
+      0.296,
+      0.764
+    ],
+    "text": "Thank You!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-2",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.377,
+      0.358,
+      0.456,
+      0.641
+    ],
+    "text": "scott [at]scottambler.com @scottwambler",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-3",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.498,
+      0.393,
+      0.537,
+      0.606
+    ],
+    "text": "AgileModeling.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-4",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.538,
+      0.42,
+      0.579,
+      0.579
+    ],
+    "text": "AgileData.org",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-5",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.58,
+      0.417,
+      0.617,
+      0.582
+    ],
+    "text": "Ambysoft.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-6",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.329,
+      0.661,
+      0.67
+    ],
+    "text": "DisciplinedAgileConsortium.org",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-7",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.663,
+      0.341,
+      0.702,
+      0.661
+    ],
+    "text": "DisciplinedAgileDelivery.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-8",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.705,
+      0.402,
+      0.742,
+      0.597
+    ],
+    "text": "ScottAmbler.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-9",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.777,
+      0.329,
+      0.867,
+      0.64
+    ],
+    "text": "nDisciplinedAgile Delivery Disciplined Agile Delivery",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-10",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.895,
+      0.39,
+      0.924,
+      0.609
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-1",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.095,
+      0.159,
+      0.757
+    ],
+    "text": "Shuhari and Disciplined Agile Certification",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:figure-2",
+    "page_id": 38,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_38_Figure_0.jpg",
+    "bbox_norm": [
+      0.198,
+      0.091,
+      0.351,
+      0.208
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-38:text-3",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.2,
+      0.239,
+      0.38,
+      0.7
+    ],
+    "text": "At the shu stage you are beginning to learn the techniquesand philosophies of disciplinedagiledevelopment.Your goal isto builda strong foundation from which to build upon.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-4",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.218,
+      0.718,
+      0.272,
+      0.851
+    ],
+    "text": "DISCIPLINEDAGILIST",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-5",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.301,
+      0.74,
+      0.353,
+      0.936
+    ],
+    "text": "CERTIFIEDDISCIPLINEDAGILIST",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:figure-6",
+    "page_id": 38,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_38_Figure_1.jpg",
+    "bbox_norm": [
+      0.478,
+      0.084,
+      0.621,
+      0.213
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-38:text-7",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.424,
+      0.239,
+      0.609,
+      0.694
+    ],
+    "text": "Atthe hastage you reflect upon and questionwhydisciplinedagile strategies work,seeking to understand the range ofstrategiesavailabletoyouand when they are best applied.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:figure-8",
+    "page_id": 38,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_38_Figure_2.jpg",
+    "bbox_norm": [
+      0.707,
+      0.102,
+      0.851,
+      0.209
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-38:text-9",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.246,
+      0.796,
+      0.69
+    ],
+    "text": "At theri stage you seek to extend and improveupondisciplinedagile   \ntechniques,sharing your learnings with others.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-1",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.098,
+      0.511,
+      0.882
+    ],
+    "text": "Would You Like This Presented to Your Organization?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-2",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.602,
+      0.25,
+      0.654,
+      0.748
+    ],
+    "text": "Contact us at ScottAmbler.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-3",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.895,
+      0.39,
+      0.922,
+      0.608
+    ],
+    "text": "Disciplined Agile Consortium",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-1",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.342,
+      0.313,
+      0.652
+    ],
+    "text": "SCOTT AMBLER +Associates",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-2",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.37,
+      0.097,
+      0.569,
+      0.893
+    ],
+    "text": "Scott Ambler +Associates is the thought leader behind the Disciplined Agile Delivery (DAD) framework and itsapplication.Wearea boutique ITmanagement consulting firm that advises organizationstobemore effectiveapplying disciplinedagileand leanprocesseswithin the context of your business.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-3",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.315,
+      0.707,
+      0.683
+    ],
+    "text": "Our website is ScottAmbler.com We can help",
+    "source_type": "text"
+  }
+]

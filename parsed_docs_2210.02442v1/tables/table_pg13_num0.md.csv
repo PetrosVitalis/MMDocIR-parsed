@@ -1,0 +1,14 @@
+config,value
+backbone optimizer,ResNet-50
+,SGD
+optimizer momentum,0.9
+weight decay base learning rate†,1e-4
+learning rate schedule,0.03
+warmup epochs,cosine decay
+,5
+epochs,200
+repeated sampling [21],see Table 5
+augmentation,see Table 4
+batch size,4096
+queue length [15],65536
+T (equation 1),0.05

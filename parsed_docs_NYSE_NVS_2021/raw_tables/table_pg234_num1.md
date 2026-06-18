@@ -1,0 +1,1 @@
+<table><tr><td>(USD milions)</td><td>2021</td><td>2020</td></tr><tr><td>Deferred compensation plans</td><td>520</td><td>471</td></tr><tr><td>Prepaid post-employment benefit plans</td><td>1415</td><td>202</td></tr><tr><td>Other non-current assets</td><td>275</td><td>219</td></tr><tr><td>Total other non-current assets</td><td>2210</td><td>892</td></tr></table>

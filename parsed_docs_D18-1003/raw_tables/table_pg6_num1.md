@@ -1,0 +1,1 @@
+<table><tr><td>Configuration</td><td>Macro Accuracy</td><td>RMSE</td></tr><tr><td>IITP (Open)</td><td>0.39</td><td>0.746</td></tr><tr><td>NileTMRG (Close)</td><td>0.54</td><td>0.673</td></tr><tr><td>DeClarE (Plain)</td><td>0.46</td><td>0.687</td></tr><tr><td>DeClarE (Full)</td><td>0.57</td><td>0.604</td></tr></table>

@@ -1,0 +1,29 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_P18-1009",
+  "total_images": 4,
+  "non_figure_images_skipped": 10,
+  "processed": 4,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_1_Figure_2.jpg",
+      "output": "image_descriptions/_page_1_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_0.jpg",
+      "output": "image_descriptions/_page_1_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_2_Asset_0.jpg",
+      "output": "image_descriptions/_page_2_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_1.jpg",
+      "output": "image_descriptions/_page_1_Figure_1.md",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">Amortization expense of intangible assets was as follows:</td></tr><tr><td>Years ended June 30</td><td>2022</td><td>2021</td><td>2020</td></tr><tr><td>Intangible asset amortization</td><td>$ 312</td><td>$ 318 $ 360</td><td></td></tr></table>

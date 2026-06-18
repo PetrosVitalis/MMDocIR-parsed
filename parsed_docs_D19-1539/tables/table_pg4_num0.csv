@@ -1,0 +1,4 @@
+Model,Parameters,Updates,Blocks,FFN Dim,Attn Heads (final layer),Query formation (final layer),Train time (days)
+CNN Base,177M,600K,6,4096,12,Sum,6
+CNN Large,330M,1M,12,4096,32,Concat,10
+BPE Large,370M,1M,12,4096,32,Concat,4.5

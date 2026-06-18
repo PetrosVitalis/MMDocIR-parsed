@@ -1,0 +1,203 @@
+[
+  {
+    "table_id": "table_315",
+    "reason": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[\"[\"\"Name or company nameof director\"\",\"\"Reasons\"\",\"\"Company,manager orshareholder to which orto whom the director isrelated\"\",\"\"Profile\"\"],[\"\"\",\"\",\"\",\"\"]]\""
+      }
+    ]
+  },
+  {
+    "table_id": "table_330",
+    "reason": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.40",
+          "too_few_columns",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[\"[\"\"Yes No X\"\",\"\"Description of requirements\"\",\"\"\"]\"]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_334",
+    "reason": "missing_data_rows; row_count_out_of_bounds(expected~1, got=1)",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "blank_header",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\"header\":[\"Number of meetings\",\"1\"],\"rows\":[[\"\",\"\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "[[\"Number of meetings\", \"1\"]]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_340",
+    "reason": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.40",
+          "too_few_columns",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[\"[\"\"Yes Nox\"\",\"\"\"\",\"\"\"\",\"\"\"\"]\"]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_358",
+    "reason": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": "[\"[\"\"Name or company name of the memberof the Board of Directors who has notvoted for the approval of this report\"\",\"\"Reasons (against,abstention, non attendance))\"\",\"\"Explain the reasons\"\"]\"]"
+      }
+    ]
+  },
+  {
+    "table_id": "table_363",
+    "reason": "blank_header",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)"
+        ],
+        "raw_llm_output": "[[\"\", \"(iv) Social, measured as the percentage of Inditex suppliers rated A or B in social audits.\"]]"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "blank_header"
+        ],
+        "raw_llm_output": "[[\"\"], [\"(iv) Social, measured as the percentage of Inditex suppliers rated A or B in social audits.\"]]"
+      }
+    ]
+  }
+]

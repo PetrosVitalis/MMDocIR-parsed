@@ -1,0 +1,68 @@
+[
+  {
+    "table_id": "table_7",
+    "reason": "LLM repair returned empty/non-table JSON",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\"rows\":[[\"If Relation(A, B)\",\"Prompt Text\"],[\"COREFERENCE\",\"If eventAand eventBareCOREFERENCE,then they won't have temporal, causal, and subevent relations,and COREFERENCE relation is bidirectional.\"],[\"NO_TEMPORAL\",\"If event A and event B do not have a temporal relation,then they won't have causal and subevent relations.\"],[\"BEFORE\",\"If event A happens BEFORE event B,then they won't have coreference and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],[\"OVERLAP\",\"If event A happens OVERLAP with event B,then they won't have coreference and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],[\"CONTAINS\",\"If event A's time CONTAINS event B's time,then they won't have coreference and causal relations,and event B has NO_TEMPORAL relation with event A.\"],[\"SIMULTANEOUS\",\"If event A and event B happen SIMULTANEOUSly,then they won't have coreference,causal, and subevent relations,and SIMULTANEOUS relationis bidirectional.\"],[\"ENDS-ON\",\"If event A ENDS-ON event B,then they won't have coreference, causal and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],[\"BEGINS-ON\",\"If event A BEGINS-ON event B,then they won't have coreference, causal and subevent relationsand BEGINS-ON relation is bidirectional.\"],[\"CAUSE\",\"If event A CAUSEs event B,then event A happens BEFORE or OVERLAP event B,and they won't have coreference and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],[\"PRECONDITION\",\"If event A is event B's PRECONDITION,then event A happens BEFORE or OVERLAP event B,and they won't have coreference and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],[\"SUBEVENT\",\"If event B is a SUBEVENT of event A,then they won't have coreference and causal relations,and event A's time should CONTAINS event B's time,and event B has NO_TEMPORAL relation with event A.\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "LLM repair returned empty/non-table JSON",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\n  \"table_data\": [\n    [\"If Relation(A, B)\", \"Prompt Text\"],\n    [\"COREFERENCE\", \"If eventAand eventBareCOREFERENCE,then they won't have temporal, causal, and subevent relations,and COREFERENCE relation is bidirectional.\"],\n    [\"NO_TEMPORAL\", \"If event A and event B do not have a temporal relation,then they won't have causal and subevent relations.\"],\n    [\"BEFORE\", \"If event A happens BEFORE event B,then they won't have coreference and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],\n    [\"OVERLAP\", \"If event A happens OVERLAP with event B,then they won't have coreference and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],\n    [\"CONTAINS\", \"If event A's time CONTAINS event B's time,then they won't have coreference and causal relations,and event B has NO_TEMPORAL relation with event A.\"],\n    [\"SIMULTANEOUS\", \"If event A and event B happen SIMULTANEOUSly,then they won't have coreference,causal, and subevent relations,and SIMULTANEOUS relationis bidirectional.\"],\n    [\"ENDS-ON\", \"If event A ENDS-ON event B,then they won't have coreference, causal and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],\n    [\"BEGINS-ON\", \"If event A BEGINS-ON event B,then they won't have coreference, causal and subevent relationsand BEGINS-ON relation is bidirectional.\"],\n    [\"CAUSE\", \"If event A CAUSEs event B,then event A happens BEFORE or OVERLAP event B,and they won't have coreference and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],\n    [\"PRECONDITION\", \"If event A is event B's PRECONDITION,then event A happens BEFORE or OVERLAP event B,and they won't have coreference and subevent relations,and event B has NO_TEMPORAL relation with event A.\"],\n    [\"SUBEVENT\", \"If event B is a SUBEVENT of event A,then they won't have coreference and causal relations,and event A's time should CONTAINS event B's time,and event B has NO_TEMPORAL relation with event A.\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_8",
+    "reason": "LLM returned empty/non-table JSON",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": [[\"If Relation(A,B) ^ Relation(B,C)\", \"Prompt Text\"], [\"COREFERENCE ^ COREFERENCECOREFERENCE^BEFORECOREFERENCE ^ OVERLAPCOREFERENCE^CONTAINSCOREFERENCE ^ SIMULTANEOUSCOREFERENCE ^ ENDS-ONCOREFERENCE ^ BEGINS-ONCOREFERENCE^CAUSECOREFERENCE ^ PRECONDITIONCOREFERENCE∧SUBEVENT\", \"If event A and event B are COREFERENCE,then the relations between event B and event Cshould be the same as that between event A and event C.\"], [\"BEFORE^BEFOREBEFORE ^OVERLAPBEFORE ^CONTAINSBEFORE ^ SIMULTANEOUSBEFORE^ENDS-ONBEFORE ^ BEGINS-ON\", \"If event A happens BEFORE event B,and Relation(B,C),then event A happens BEFORE event C.\"], [\"OVERLAP^BEFORE\", \"If event A happens OVERLAP with event B,and event B happens BEFORE event C,then event A happens BEFORE event C.\"], [\"OVERLAP ^ SIMULTANEOUS\", \"If event A happens OVERLAP with event B,and event B and event C happen SIMULTANEOUSly,then event A happens BEFORE event C.\"], [\"CONTAINS ^ CONTAINS\", \"If event A's time CONTAINS event B's time,and event B's time CONTAINS event C's time,then event A's time CONTAINS event C's time.\"], [\"CONTAINS^SIMULTANEOUS\", \"If event A's time CONTAINS event B's time,and event B and event C happen SIMULTANEOUSly,then event A's time CONTAINS event C's time.\"], [\"SIMULTANEOUS ^BEFORESIMULTANEOUS^OVERLAPSIMULTANEOUS ^ CONTAINSSIMULTANEOUS^SIMULTANEOUSSIMULTANEOUS ^ ENDS-ONSIMULTANEOUS ^ BEGINS-ON\", \"If events A and B happen SIMULTANEOUSly,and Relation(B,C),then event A's time CONTAINS event C's time.\"], [\"ENDS-ON ^ CONTAINS\", \"If event A ENDS-ON event B,and event B's time CONTAINS event C's time,then event A happens BEFORE event C.\"], [\"ENDS-ON ^ BEGINS-ONENDS-ON ^ SIMULTANEOUS\", \"If event A ENDS-ON event B,and Relation(B,C),then event A ENDS-ON event C.\"], [\"BEGINS-ON ^ SIMULTANEOUSBEGINS-ON ^ BEGINS-ON\", \"If event A BEGINS-ON event B,and Relation(B, C),then event A BEGINS-ON event C.\"], [\"CAUSE ^CAUSE\", \"If event A CAUSEs event B,and event B CAUSEs event C,then event A CAUSEs event C.\"], [\"CAUSE ^ PRECONDITION\", \"If event A CAUSEs event B,and event B is event C's PRECONDITION,then event A is event C's PRECONDITION.\"], [\"CAUSE ^ SUBEVENT\", \"If event A CAUSEs event B,and event Cis a SUBEVENTof event B,then event A CAUSEs event C.\"], [\"PRECONDITION ^ PRECONDITION\", \"If event A is event B's PRECONDITION,and event B is event C's PRECONDITION,then event A is event C's PRECONDITION.\"], [\"PRECONDITION ^ SUBEVENT\", \"If event A is event B's PRECONDITION,and event C is a SUBEVENT of event B,then event A is event C's PRECONDITION.\"], [\"SUBEVENT^ SUBEVENT\", \"If eventB is a SUBEVENTof event A,and event C is a SUBEVENT of event B,then event C is a SUBEVENT of event A.\"]]}"
+      }
+    ]
+  }
+]

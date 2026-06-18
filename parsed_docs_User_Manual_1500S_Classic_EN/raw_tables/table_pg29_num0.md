@@ -1,0 +1,1 @@
+<table><tr><td></td><td></td><td>DisplayCoffee strength</td></tr><tr><td></td><td></td><td>standard2 beansnormal,as per setting</td></tr><tr><td>touch 1x3 beans</td><td></td><td>15% stronger than the setting *</td></tr><tr><td>touch 2x1bean</td><td></td><td>15 % weaker than the setting *</td></tr></table>

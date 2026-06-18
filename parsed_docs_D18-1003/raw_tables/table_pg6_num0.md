@@ -1,0 +1,1 @@
+<table><tr><td>Configuration</td><td>MSE</td></tr><tr><td>CNN-text</td><td>0.53</td></tr><tr><td>CCRF+SVR</td><td>0.36</td></tr><tr><td>LSTM-text</td><td>0.35</td></tr><tr><td>DistantSup</td><td>0.35</td></tr><tr><td>DeClarE (Plain)</td><td>0.34</td></tr><tr><td>DeClarE (Full)</td><td>0.29</td></tr></table>

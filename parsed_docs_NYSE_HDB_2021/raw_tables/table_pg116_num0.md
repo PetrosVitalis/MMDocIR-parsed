@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">March 31, 2021</td><td colspan="2">March 31,2020</td></tr><tr><td>No. of accounts restructured</td><td> Amount outstanding</td><td>No. of accounts restructured</td><td>Amount outstanding</td></tr><tr><td>2,82,589</td><td>3,391.35</td><td>27</td><td>48.11</td></tr></table>

@@ -1,0 +1,1960 @@
+{
+  "document_md_path": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_c31e6580d0175ab3f9d99d1ff0bfa000/document.md",
+  "index_version": 9,
+  "pages": [
+    {
+      "page_id": 0,
+      "unit_id": "page-0",
+      "text": "# Medical Informatics and HIT Systems\n\nDavid Lubliner",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Medical Informatics and HIT Systems"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Medical Informatics and HIT Systems\n\nDavid Lubliner"
+    },
+    {
+      "page_id": 1,
+      "unit_id": "page-1",
+      "text": "## What is wrong with this picture?\n\n![](assets/_page_1_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_1_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:22:41\n> \n> ---\n> \n> The image contains a large stack of what appear to be medical files or patient records. The files are organized in a vertical stack, with each file having a tab at the top that likely contains patient information. The tabs are color-coded and labeled with letters and numbers, suggesting a systematic organization for easy retrieval. The files are densely packed, indicating a large volume of records, which could be indicative of a busy healthcare facility or a large database of patient information.",
+      "image_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "headings": [
+        "What is wrong with this picture?"
+      ],
+      "table_context": "",
+      "retrieval_text": "## What is wrong with this picture?\n\n![](assets/_page_1_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_1_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:22:41\n> \n> ---\n> \n> The image contains a large stack of what appear to be medical files or patient records. The files are organized in a vertical stack, with each file having a tab at the top that likely contains patient information. The tabs are color-coded and labeled with letters and numbers, suggesting a systematic organization for easy retrieval. The files are densely packed, indicating a large volume of records, which could be indicative of a busy healthcare facility or a large database of patient information."
+    },
+    {
+      "page_id": 2,
+      "unit_id": "page-2",
+      "text": "## Outline\n\n• What kinds of HIT systems are there?\n\nWhat major trends are emerging?\n\nWhat are the benefits to adoption?\n\nWhat are the barriers to adoption?\n\nWhat is the current state of adoption?\n\n• How can you learn more?",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Outline"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Outline\n\n• What kinds of HIT systems are there?\n\nWhat major trends are emerging?\n\nWhat are the benefits to adoption?\n\nWhat are the barriers to adoption?\n\nWhat is the current state of adoption?\n\n• How can you learn more?"
+    },
+    {
+      "page_id": 3,
+      "unit_id": "page-3",
+      "text": "## HIT Applications\n\n• Patient registration/ demographics\n\nInsurance validation\n\nBilling systems\n\nAppointment systems\n\nComputerized Physician Order Entry (CPOE)\n\n• EMR/EHR/CPR\n\nPharmacy systems\n\nLab systems\n\n• Imaging systems\n\nTelemedicine\n\n. Patient education\n\n• Decision Support\n\nLibrary resources\n\nSensors",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "HIT Applications"
+      ],
+      "table_context": "",
+      "retrieval_text": "## HIT Applications\n\n• Patient registration/ demographics\n\nInsurance validation\n\nBilling systems\n\nAppointment systems\n\nComputerized Physician Order Entry (CPOE)\n\n• EMR/EHR/CPR\n\nPharmacy systems\n\nLab systems\n\n• Imaging systems\n\nTelemedicine\n\n. Patient education\n\n• Decision Support\n\nLibrary resources\n\nSensors"
+    },
+    {
+      "page_id": 4,
+      "unit_id": "page-4",
+      "text": "## Sad Facts\n\n• Medical errors account for more deaths than breast cancer, AIDs and motorcycle accidents.\n\nUS has highest HC costs per capita in world\n\n• US has worst outcomes of industrialized nations. (infant mortality, lifespan, etc.)\n\n• Healthcare is 10-15 yrs behind business in adoption of IT",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Sad Facts"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Sad Facts\n\n• Medical errors account for more deaths than breast cancer, AIDs and motorcycle accidents.\n\nUS has highest HC costs per capita in world\n\n• US has worst outcomes of industrialized nations. (infant mortality, lifespan, etc.)\n\n• Healthcare is 10-15 yrs behind business in adoption of IT"
+    },
+    {
+      "page_id": 5,
+      "unit_id": "page-5",
+      "text": "## Some Hospitals are using Tablet Capture Devices\n\n## • Microsoft Office OneNote\n\n. Windows Journal\n\n• Microsoft Educational Pack for Tablet PC\n\n• Microsoft Experience Pack for Tablet PC\n\nSticky Notes\n\n• Snipping Tool",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Some Hospitals are using Tablet Capture Devices",
+        "• Microsoft Office OneNote"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Some Hospitals are using Tablet Capture Devices\n\n## • Microsoft Office OneNote\n\n. Windows Journal\n\n• Microsoft Educational Pack for Tablet PC\n\n• Microsoft Experience Pack for Tablet PC\n\nSticky Notes\n\n• Snipping Tool"
+    },
+    {
+      "page_id": 6,
+      "unit_id": "page-6",
+      "text": "## Electronic Medical Records",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Electronic Medical Records"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Electronic Medical Records"
+    },
+    {
+      "page_id": 7,
+      "unit_id": "page-7",
+      "text": "### Full Page Description (Page 7)\n\n**Source:** `assets/_page_7_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:23:53\n\n---\n\nThe image contains a horizontal bar chart with two sets of bars for each category, representing the percentage of respondents who plan to implement certain IT-related initiatives either \"Today\" or \"In Two Years.\" The categories include \"Reduce Medical Errors/Promote Patient Safety,\" \"Implement an EMR,\" \"Connecting IT at Hospital and Remote Locations,\" \"Process/Workflow Redesign,\" \"Implement Wireless Systems,\" \"Replace/Upgrade Inpatient Clinical Systems,\" \"Upgrade Network Infrastructure,\" and \"Design/Implement Strategic IT Plan.\" The chart visually compares the current status (Today) and future intentions (In Two Years) for each initiative. Notable features include the highest percentage for \"Reduce Medical Errors/Promote Patient Safety\" at 50% for \"Today\" and the lowest for \"Design/Implement Strategic IT Plan\" at 11% for \"In Two Years.\"\n\n## Projected IT Priorities\n\n(Today vs. Next Two Years)\n\nFigure 9",
+      "image_refs": [
+        "assets/_page_7_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_7_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 7)",
+        "Projected IT Priorities"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 7)\n\n**Source:** `assets/_page_7_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:23:53\n\n---\n\nThe image contains a horizontal bar chart with two sets of bars for each category, representing the percentage of respondents who plan to implement certain IT-related initiatives either \"Today\" or \"In Two Years.\" The categories include \"Reduce Medical Errors/Promote Patient Safety,\" \"Implement an EMR,\" \"Connecting IT at Hospital and Remote Locations,\" \"Process/Workflow Redesign,\" \"Implement Wireless Systems,\" \"Replace/Upgrade Inpatient Clinical Systems,\" \"Upgrade Network Infrastructure,\" and \"Design/Implement Strategic IT Plan.\" The chart visually compares the current status (Today) and future intentions (In Two Years) for each initiative. Notable features include the highest percentage for \"Reduce Medical Errors/Promote Patient Safety\" at 50% for \"Today\" and the lowest for \"Design/Implement Strategic IT Plan\" at 11% for \"In Two Years.\"\n\n## Projected IT Priorities\n\n(Today vs. Next Two Years)\n\nFigure 9"
+    },
+    {
+      "page_id": 8,
+      "unit_id": "page-8",
+      "text": "### Full Page Description (Page 8)\n\n**Source:** `assets/_page_8_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:27:53\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 for various healthcare-related topics. The chart includes categories such as Patient (Customer) Satisfaction, Medicare Cutbacks, Reducing Medical Errors, Cost Pressures, Clinical Transformation, Integration and Interoperability, Improving Quality of Care, Adoption of New Technology, Improving Operational Efficiency, and Providing IT to Ambulatory Facilities. Each category has two bars representing the percentage of results for 2005 and 2006. The chart highlights that in 2006, Patient (Customer) Satisfaction and Medicare Cutbacks had the highest percentages, while in 2005, Reducing Medical Errors had the highest percentage.\n\n# Top Business Issues Facing HealthCare\n\n(2006 vs.2005 Results)\n\nFigure 10",
+      "image_refs": [
+        "assets/_page_8_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_8_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 8)",
+        "Top Business Issues Facing HealthCare"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 8)\n\n**Source:** `assets/_page_8_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:27:53\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 for various healthcare-related topics. The chart includes categories such as Patient (Customer) Satisfaction, Medicare Cutbacks, Reducing Medical Errors, Cost Pressures, Clinical Transformation, Integration and Interoperability, Improving Quality of Care, Adoption of New Technology, Improving Operational Efficiency, and Providing IT to Ambulatory Facilities. Each category has two bars representing the percentage of results for 2005 and 2006. The chart highlights that in 2006, Patient (Customer) Satisfaction and Medicare Cutbacks had the highest percentages, while in 2005, Reducing Medical Errors had the highest percentage.\n\n# Top Business Issues Facing HealthCare\n\n(2006 vs.2005 Results)\n\nFigure 10"
+    },
+    {
+      "page_id": 9,
+      "unit_id": "page-9",
+      "text": "### Full Page Description (Page 9)\n\n**Source:** `assets/_page_9_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:29:56\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 across various challenges faced in implementing technology in healthcare. The chart lists challenges such as \"Lack of Financial Support,\" \"Lack of Staffing Resources,\" and \"Vendor's Inability to Effectively Deliver Product,\" among others. Each challenge is represented by two bars, one for 2005 and one for 2006, showing the percentage of respondents who faced each issue. The chart highlights that \"Lack of Financial Support\" was the most significant challenge in both years, with 20% in 2005 and 18% in 2006. The \"Lack of Common Data Standards\" was the least significant challenge, with only 2% in 2006.\n\n# Most Significant Barriers to Barriers to Implementing IT\n\n(2006 vs.2005 Results)\n\nFigure 11",
+      "image_refs": [
+        "assets/_page_9_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_9_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 9)",
+        "Most Significant Barriers to Barriers to Implementing IT"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 9)\n\n**Source:** `assets/_page_9_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:29:56\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 across various challenges faced in implementing technology in healthcare. The chart lists challenges such as \"Lack of Financial Support,\" \"Lack of Staffing Resources,\" and \"Vendor's Inability to Effectively Deliver Product,\" among others. Each challenge is represented by two bars, one for 2005 and one for 2006, showing the percentage of respondents who faced each issue. The chart highlights that \"Lack of Financial Support\" was the most significant challenge in both years, with 20% in 2005 and 18% in 2006. The \"Lack of Common Data Standards\" was the least significant challenge, with only 2% in 2006.\n\n# Most Significant Barriers to Barriers to Implementing IT\n\n(2006 vs.2005 Results)\n\nFigure 11"
+    },
+    {
+      "page_id": 10,
+      "unit_id": "page-10",
+      "text": "### Full Page Description (Page 10)\n\n**Source:** `assets/_page_10_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:25:41\n\n---\n\nThe image is a horizontal bar chart comparing the results of two years, 2005 and 2006, for various healthcare information systems. The chart includes the following categories: Electronic Medical Record, Bar Coded Medication Management, Computerized Practitioner Order Entry (CPOE), Enterprise-Wide Clinical Information Sharing, Clinical Data Repository, Point-of-Care Decision Support, Digital Picture Archiving (PACS), and Ambulatory Systems. Each category has two bars representing the percentage of adoption in 2005 and 2006. The Electronic Medical Record shows the highest adoption in both years, with 61% in 2005 and 62% in 2006. Ambulatory Systems shows the lowest adoption, with 22% in 2005 and 17% in 2006. The chart visually highlights the adoption trends for these healthcare information systems over the two years.\n\n## Most Important Applications\n\n(2006 vs. 2005 Results)\n\nFigure 12",
+      "image_refs": [
+        "assets/_page_10_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_10_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 10)",
+        "Most Important Applications"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 10)\n\n**Source:** `assets/_page_10_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:25:41\n\n---\n\nThe image is a horizontal bar chart comparing the results of two years, 2005 and 2006, for various healthcare information systems. The chart includes the following categories: Electronic Medical Record, Bar Coded Medication Management, Computerized Practitioner Order Entry (CPOE), Enterprise-Wide Clinical Information Sharing, Clinical Data Repository, Point-of-Care Decision Support, Digital Picture Archiving (PACS), and Ambulatory Systems. Each category has two bars representing the percentage of adoption in 2005 and 2006. The Electronic Medical Record shows the highest adoption in both years, with 61% in 2005 and 62% in 2006. Ambulatory Systems shows the lowest adoption, with 22% in 2005 and 17% in 2006. The chart visually highlights the adoption trends for these healthcare information systems over the two years.\n\n## Most Important Applications\n\n(2006 vs. 2005 Results)\n\nFigure 12"
+    },
+    {
+      "page_id": 11,
+      "unit_id": "page-11",
+      "text": "### Full Page Description (Page 11)\n\n**Source:** `assets/_page_11_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:28:38\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 regarding various concerns related to healthcare IT security and compliance. The chart includes categories such as \"Internal Breach of Security,\" \"Inadequate Business Continuity/Disaster Recovery,\" and \"HIPAA Compliance,\" among others. Each category has two bars representing the percentage of responses for each year. The chart highlights that \"Internal Breach of Security\" had the highest percentage in both years, with 51% in 2006 and 56% in 2005. \"No Concerns\" was the lowest category in both years, with 3% in both 2005 and 2006. The chart also includes \"N/A\" for certain categories, indicating data not available for those years.\n\n# Top Security Concerns of Computerized Medical Information\n\n(2006 vs.2005 Results)\n\nFigure 14",
+      "image_refs": [
+        "assets/_page_11_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_11_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 11)",
+        "Top Security Concerns of Computerized Medical Information"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 11)\n\n**Source:** `assets/_page_11_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:28:38\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 regarding various concerns related to healthcare IT security and compliance. The chart includes categories such as \"Internal Breach of Security,\" \"Inadequate Business Continuity/Disaster Recovery,\" and \"HIPAA Compliance,\" among others. Each category has two bars representing the percentage of responses for each year. The chart highlights that \"Internal Breach of Security\" had the highest percentage in both years, with 51% in 2006 and 56% in 2005. \"No Concerns\" was the lowest category in both years, with 3% in both 2005 and 2006. The chart also includes \"N/A\" for certain categories, indicating data not available for those years.\n\n# Top Security Concerns of Computerized Medical Information\n\n(2006 vs.2005 Results)\n\nFigure 14"
+    },
+    {
+      "page_id": 12,
+      "unit_id": "page-12",
+      "text": "### Full Page Description (Page 12)\n\n**Source:** `assets/_page_12_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:31:38\n\n---\n\nThe image is a horizontal bar chart comparing the current implementation (today) and projected implementation (in two years) of various security and data protection measures. The chart includes percentages for each measure, such as Firewalls (98% today, 53% in two years), User Access Controls (88% today, 53% in two years), and others. The measures include Audit Logs, Multi-Level Passcodes, Off-Site Storage, Electronic Signature, Data Encryption, and Disaster Recovery. The chart highlights the current adoption rates and projected future trends for these security measures.\n\n## Security Tools\n\n(Today vs. Next Two Years)\n\nFigure 15",
+      "image_refs": [
+        "assets/_page_12_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_12_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 12)",
+        "Security Tools"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 12)\n\n**Source:** `assets/_page_12_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:31:38\n\n---\n\nThe image is a horizontal bar chart comparing the current implementation (today) and projected implementation (in two years) of various security and data protection measures. The chart includes percentages for each measure, such as Firewalls (98% today, 53% in two years), User Access Controls (88% today, 53% in two years), and others. The measures include Audit Logs, Multi-Level Passcodes, Off-Site Storage, Electronic Signature, Data Encryption, and Disaster Recovery. The chart highlights the current adoption rates and projected future trends for these security measures.\n\n## Security Tools\n\n(Today vs. Next Two Years)\n\nFigure 15"
+    },
+    {
+      "page_id": 13,
+      "unit_id": "page-13",
+      "text": "## Technology Adoption Curve\n\n![](assets/_page_13_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_13_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:24:49\n> \n> ---\n> \n> The image is a graph illustrating the adoption curve of a new technology or product over time. It is a bell-shaped curve divided into five segments: Innovators, Early Adopters, Early Majority, Late Majority, and Laggards. The x-axis represents the time since the introduction of the product, while the y-axis represents the percentage of adoption. The graph shows that the adoption rate starts low, increases rapidly, reaches a peak, and then gradually declines as the majority of the population has adopted the product. The curve is labeled with key percentages (25%, 50%, 75%) to indicate the adoption levels at different stages.",
+      "image_refs": [
+        "assets/_page_13_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_13_Figure_0.jpg"
+      ],
+      "headings": [
+        "Technology Adoption Curve"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Technology Adoption Curve\n\n![](assets/_page_13_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_13_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:24:49\n> \n> ---\n> \n> The image is a graph illustrating the adoption curve of a new technology or product over time. It is a bell-shaped curve divided into five segments: Innovators, Early Adopters, Early Majority, Late Majority, and Laggards. The x-axis represents the time since the introduction of the product, while the y-axis represents the percentage of adoption. The graph shows that the adoption rate starts low, increases rapidly, reaches a peak, and then gradually declines as the majority of the population has adopted the product. The curve is labeled with key percentages (25%, 50%, 75%) to indicate the adoption levels at different stages."
+    },
+    {
+      "page_id": 14,
+      "unit_id": "page-14",
+      "text": "### Full Page Description (Page 14)\n\n**Source:** `assets/_page_14_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:29:21\n\n---\n\nThe image is a horizontal bar chart comparing the results of two years, 2005 and 2006, for various healthcare technology implementations. The chart includes percentages for each technology, such as Single Sign On/Identity Management (79% in 2006), Bar Code Technology (59% in 2005 and 69% in 2006), Speech Recognition (59% in 2005 and 65% in 2006), and others. The technologies listed are Single Sign On/Identity Management, Bar Code Technology, Speech Recognition, Handheld PDAs, Automated Alerts to Clinicians, Wireless Information Appliances, VoIP, and Computer on Wheels. The chart highlights the adoption rates of these technologies over the two years, with some technologies showing significant growth, such as Bar Code Technology and Speech Recognition, while others show a slight increase or no change.\n\n# Technology Adoption (Next Two Years)\n\n(2006 vs.2005 Results)",
+      "image_refs": [
+        "assets/_page_14_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_14_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 14)",
+        "Technology Adoption (Next Two Years)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 14)\n\n**Source:** `assets/_page_14_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:29:21\n\n---\n\nThe image is a horizontal bar chart comparing the results of two years, 2005 and 2006, for various healthcare technology implementations. The chart includes percentages for each technology, such as Single Sign On/Identity Management (79% in 2006), Bar Code Technology (59% in 2005 and 69% in 2006), Speech Recognition (59% in 2005 and 65% in 2006), and others. The technologies listed are Single Sign On/Identity Management, Bar Code Technology, Speech Recognition, Handheld PDAs, Automated Alerts to Clinicians, Wireless Information Appliances, VoIP, and Computer on Wheels. The chart highlights the adoption rates of these technologies over the two years, with some technologies showing significant growth, such as Bar Code Technology and Speech Recognition, while others show a slight increase or no change.\n\n# Technology Adoption (Next Two Years)\n\n(2006 vs.2005 Results)"
+    },
+    {
+      "page_id": 15,
+      "unit_id": "page-15",
+      "text": "### Full Page Description (Page 15)\n\n**Source:** `assets/_page_15_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:21:46\n\n---\n\nThe image contains a horizontal bar chart comparing the results from 2005 and 2006 for various healthcare-related services. The chart includes data for Marketing and Promotion, Employee Recruitment, Online Provider Directory, Consumer Health Information, Remote Employee Access, Physician Portal Link, Business-to-Business Transactions, Patient Scheduling, Patient Health Assessment Tools, and Patient Access to Medical Records. The percentages shown indicate the level of adoption or usage for each service in both years. Notably, the highest adoption rates are for Marketing and Promotion and Employee Recruitment, both at 95% in 2005 and 91% in 2006. The lowest adoption rates are for Patient Access to Medical Records, at 2% in 2005 and 3% in 2006.\n\n## Current Web Site Functions\n\n(2006 vs. 2005 Results)\n\nFigure 19",
+      "image_refs": [
+        "assets/_page_15_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_15_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 15)",
+        "Current Web Site Functions"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 15)\n\n**Source:** `assets/_page_15_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:21:46\n\n---\n\nThe image contains a horizontal bar chart comparing the results from 2005 and 2006 for various healthcare-related services. The chart includes data for Marketing and Promotion, Employee Recruitment, Online Provider Directory, Consumer Health Information, Remote Employee Access, Physician Portal Link, Business-to-Business Transactions, Patient Scheduling, Patient Health Assessment Tools, and Patient Access to Medical Records. The percentages shown indicate the level of adoption or usage for each service in both years. Notably, the highest adoption rates are for Marketing and Promotion and Employee Recruitment, both at 95% in 2005 and 91% in 2006. The lowest adoption rates are for Patient Access to Medical Records, at 2% in 2005 and 3% in 2006.\n\n## Current Web Site Functions\n\n(2006 vs. 2005 Results)\n\nFigure 19"
+    },
+    {
+      "page_id": 16,
+      "unit_id": "page-16",
+      "text": "### Full Page Description (Page 16)\n\n**Source:** `assets/_page_16_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:27:08\n\n---\n\nThe image contains a horizontal bar chart comparing percentages for various categories related to healthcare practices, such as \"Post Policies and Procedures,\" \"Staff Communication,\" \"Training,\" and others. The chart is divided into two categories: \"Today\" (in dark blue) and \"In Two Years\" (in light green). The percentages indicate the current and projected future adoption rates for each category. For example, \"Post Policies and Procedures\" is at 87% today and 70% in two years, while \"Don't Have an Intranet\" is at 7% today and 1% in two years. The chart highlights the projected decline in the adoption of certain practices over the next two years.\n\n## Intranet Functions\n\n(Today vs. Next Two Years)\n\nFigure 21",
+      "image_refs": [
+        "assets/_page_16_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_16_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 16)",
+        "Intranet Functions"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 16)\n\n**Source:** `assets/_page_16_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:27:08\n\n---\n\nThe image contains a horizontal bar chart comparing percentages for various categories related to healthcare practices, such as \"Post Policies and Procedures,\" \"Staff Communication,\" \"Training,\" and others. The chart is divided into two categories: \"Today\" (in dark blue) and \"In Two Years\" (in light green). The percentages indicate the current and projected future adoption rates for each category. For example, \"Post Policies and Procedures\" is at 87% today and 70% in two years, while \"Don't Have an Intranet\" is at 7% today and 1% in two years. The chart highlights the projected decline in the adoption of certain practices over the next two years.\n\n## Intranet Functions\n\n(Today vs. Next Two Years)\n\nFigure 21"
+    },
+    {
+      "page_id": 17,
+      "unit_id": "page-17",
+      "text": "### Full Page Description (Page 17)\n\n**Source:** `assets/_page_17_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:30:35\n\n---\n\nThe image contains a horizontal bar chart with percentages indicating the distribution of roles or responsibilities in a clinical informatics context. The chart lists various roles such as Network Support, Clinical Informaticists, Process/Workflow Design, Application Support, Clinical Transformation, Programmers, Systems Integration, PC/Server Support, and Clinical Champions. Each role is represented by a blue bar with a corresponding percentage value. The highest percentage is for Network Support at 27%, followed closely by Clinical Informaticists and Process/Workflow Design at 24% each. The percentages for the remaining roles are 22%, 19%, 16%, 15%, 15%, and 15% respectively. The chart effectively visualizes the relative importance or frequency of each role within the clinical informatics field.\n\n## 2006 Health IT Staffing Needs",
+      "image_refs": [
+        "assets/_page_17_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_17_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 17)",
+        "2006 Health IT Staffing Needs"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 17)\n\n**Source:** `assets/_page_17_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:30:35\n\n---\n\nThe image contains a horizontal bar chart with percentages indicating the distribution of roles or responsibilities in a clinical informatics context. The chart lists various roles such as Network Support, Clinical Informaticists, Process/Workflow Design, Application Support, Clinical Transformation, Programmers, Systems Integration, PC/Server Support, and Clinical Champions. Each role is represented by a blue bar with a corresponding percentage value. The highest percentage is for Network Support at 27%, followed closely by Clinical Informaticists and Process/Workflow Design at 24% each. The percentages for the remaining roles are 22%, 19%, 16%, 15%, 15%, and 15% respectively. The chart effectively visualizes the relative importance or frequency of each role within the clinical informatics field.\n\n## 2006 Health IT Staffing Needs"
+    },
+    {
+      "page_id": 18,
+      "unit_id": "page-18",
+      "text": "## Goals",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Goals"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Goals"
+    },
+    {
+      "page_id": 19,
+      "unit_id": "page-19",
+      "text": "## “Wiring” Healthcare\n\nCurrent system fragments patient information and creates redundant, inefficient efforts\n\n![](assets/_page_19_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_19_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:26:01\n> \n> ---\n> \n> The image is a diagram illustrating the interconnectedness of various healthcare entities. It features a central network of nodes representing hospitals, public health, laboratories, pharmacies, payers, primary care physicians, specialty physicians, and ambulatory centers (e.g., imaging centers). Arrows between the nodes indicate the flow of information or services between these entities. The diagram is accompanied by icons and labels for each category, providing a visual representation of the healthcare ecosystem and its interdependencies.\n\n\nFuture system will consolidate information and provide a foundation for unifying efforts\n\n![](assets/_page_19_Figure_1.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_19_Figure_1.jpg`\n> \n> **Generated:** 2026-05-31 01:26:24\n> \n> ---\n> \n> The image is a diagram illustrating a health information exchange system. It includes various healthcare settings and entities such as hospitals, outpatient clinics, laboratories, physicians, ambulatory care, public health, and payers. The central part of the diagram represents a data repository and network applications, with arrows pointing to these components from the surrounding healthcare settings. The diagram is designed to show how different healthcare entities contribute to and interact with the health information exchange system.",
+      "image_refs": [
+        "assets/_page_19_Figure_0.jpg",
+        "assets/_page_19_Figure_1.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_19_Figure_0.jpg",
+        "assets/_page_19_Figure_1.jpg"
+      ],
+      "headings": [
+        "“Wiring” Healthcare"
+      ],
+      "table_context": "",
+      "retrieval_text": "## “Wiring” Healthcare\n\nCurrent system fragments patient information and creates redundant, inefficient efforts\n\n![](assets/_page_19_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_19_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:26:01\n> \n> ---\n> \n> The image is a diagram illustrating the interconnectedness of various healthcare entities. It features a central network of nodes representing hospitals, public health, laboratories, pharmacies, payers, primary care physicians, specialty physicians, and ambulatory centers (e.g., imaging centers). Arrows between the nodes indicate the flow of information or services between these entities. The diagram is accompanied by icons and labels for each category, providing a visual representation of the healthcare ecosystem and its interdependencies.\n\n\nFuture system will consolidate information and provide a foundation for unifying efforts\n\n![](assets/_page_19_Figure_1.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_19_Figure_1.jpg`\n> \n> **Generated:** 2026-05-31 01:26:24\n> \n> ---\n> \n> The image is a diagram illustrating a health information exchange system. It includes various healthcare settings and entities such as hospitals, outpatient clinics, laboratories, physicians, ambulatory care, public health, and payers. The central part of the diagram represents a data repository and network applications, with arrows pointing to these components from the surrounding healthcare settings. The diagram is designed to show how different healthcare entities contribute to and interact with the health information exchange system."
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "page-0-chunk-0",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "# Medical Informatics and HIT Systems\n\nDavid Lubliner",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Medical Informatics and HIT Systems"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Medical Informatics and HIT Systems\n\nDavid Lubliner"
+    },
+    {
+      "chunk_id": "page-1-chunk-0",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "What is wrong with this picture?",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## What is wrong with this picture?\n\n![](assets/_page_1_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_1_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:22:41\n> \n> ---\n> \n> The image contains a large stack of what appear to be medical files or patient records. The files are organized in a vertical stack, with each file having a tab at the top that likely contains patient information. The tabs are color-coded and labeled with letters and numbers, suggesting a systematic organization for easy retrieval. The files are densely packed, indicating a large volume of records, which could be indicative of a busy healthcare facility or a large database of patient information.",
+      "image_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "headings": [
+        "What is wrong with this picture?"
+      ],
+      "table_context": "",
+      "retrieval_text": "## What is wrong with this picture?\n\n![](assets/_page_1_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_1_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:22:41\n> \n> ---\n> \n> The image contains a large stack of what appear to be medical files or patient records. The files are organized in a vertical stack, with each file having a tab at the top that likely contains patient information. The tabs are color-coded and labeled with letters and numbers, suggesting a systematic organization for easy retrieval. The files are densely packed, indicating a large volume of records, which could be indicative of a busy healthcare facility or a large database of patient information."
+    },
+    {
+      "chunk_id": "page-2-chunk-0",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "Outline",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Outline\n\n• What kinds of HIT systems are there?\n\nWhat major trends are emerging?\n\nWhat are the benefits to adoption?\n\nWhat are the barriers to adoption?\n\nWhat is the current state of adoption?\n\n• How can you learn more?",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Outline"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Outline\n\n• What kinds of HIT systems are there?\n\nWhat major trends are emerging?\n\nWhat are the benefits to adoption?\n\nWhat are the barriers to adoption?\n\nWhat is the current state of adoption?\n\n• How can you learn more?"
+    },
+    {
+      "chunk_id": "page-3-chunk-0",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "HIT Applications",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## HIT Applications\n\n• Patient registration/ demographics\n\nInsurance validation\n\nBilling systems\n\nAppointment systems\n\nComputerized Physician Order Entry (CPOE)\n\n• EMR/EHR/CPR\n\nPharmacy systems\n\nLab systems\n\n• Imaging systems\n\nTelemedicine\n\n. Patient education\n\n• Decision Support\n\nLibrary resources\n\nSensors",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "HIT Applications"
+      ],
+      "table_context": "",
+      "retrieval_text": "## HIT Applications\n\n• Patient registration/ demographics\n\nInsurance validation\n\nBilling systems\n\nAppointment systems\n\nComputerized Physician Order Entry (CPOE)\n\n• EMR/EHR/CPR\n\nPharmacy systems\n\nLab systems\n\n• Imaging systems\n\nTelemedicine\n\n. Patient education\n\n• Decision Support\n\nLibrary resources\n\nSensors"
+    },
+    {
+      "chunk_id": "page-4-chunk-0",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Sad Facts",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Sad Facts\n\n• Medical errors account for more deaths than breast cancer, AIDs and motorcycle accidents.\n\nUS has highest HC costs per capita in world\n\n• US has worst outcomes of industrialized nations. (infant mortality, lifespan, etc.)\n\n• Healthcare is 10-15 yrs behind business in adoption of IT",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Sad Facts"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Sad Facts\n\n• Medical errors account for more deaths than breast cancer, AIDs and motorcycle accidents.\n\nUS has highest HC costs per capita in world\n\n• US has worst outcomes of industrialized nations. (infant mortality, lifespan, etc.)\n\n• Healthcare is 10-15 yrs behind business in adoption of IT"
+    },
+    {
+      "chunk_id": "page-5-chunk-0",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "Some Hospitals are using Tablet Capture Devices",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Some Hospitals are using Tablet Capture Devices",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Some Hospitals are using Tablet Capture Devices"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Some Hospitals are using Tablet Capture Devices"
+    },
+    {
+      "chunk_id": "page-5-chunk-1",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "• Microsoft Office OneNote",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## • Microsoft Office OneNote\n\n. Windows Journal\n\n• Microsoft Educational Pack for Tablet PC\n\n• Microsoft Experience Pack for Tablet PC\n\nSticky Notes\n\n• Snipping Tool",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "• Microsoft Office OneNote"
+      ],
+      "table_context": "",
+      "retrieval_text": "## • Microsoft Office OneNote\n\n. Windows Journal\n\n• Microsoft Educational Pack for Tablet PC\n\n• Microsoft Experience Pack for Tablet PC\n\nSticky Notes\n\n• Snipping Tool"
+    },
+    {
+      "chunk_id": "page-6-chunk-0",
+      "page_id": 6,
+      "page_number": 6,
+      "parent_section": "Electronic Medical Records",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Electronic Medical Records",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Electronic Medical Records"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Electronic Medical Records"
+    },
+    {
+      "chunk_id": "page-7-chunk-0",
+      "page_id": 7,
+      "page_number": 7,
+      "parent_section": "Document > Full Page Description (Page 7)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 7)\n\n**Source:** `assets/_page_7_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:23:53\n\n---\n\nThe image contains a horizontal bar chart with two sets of bars for each category, representing the percentage of respondents who plan to implement certain IT-related initiatives either \"Today\" or \"In Two Years.\" The categories include \"Reduce Medical Errors/Promote Patient Safety,\" \"Implement an EMR,\" \"Connecting IT at Hospital and Remote Locations,\" \"Process/Workflow Redesign,\" \"Implement Wireless Systems,\" \"Replace/Upgrade Inpatient Clinical Systems,\" \"Upgrade Network Infrastructure,\" and \"Design/Implement Strategic IT Plan.\" The chart visually compares the current status (Today) and future intentions (In Two Years) for each initiative. Notable features include the highest percentage for \"Reduce Medical Errors/Promote Patient Safety\" at 50% for \"Today\" and the lowest for \"Design/Implement Strategic IT Plan\" at 11% for \"In Two Years.\"",
+      "image_refs": [
+        "assets/_page_7_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_7_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 7)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 7)\n\n**Source:** `assets/_page_7_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:23:53\n\n---\n\nThe image contains a horizontal bar chart with two sets of bars for each category, representing the percentage of respondents who plan to implement certain IT-related initiatives either \"Today\" or \"In Two Years.\" The categories include \"Reduce Medical Errors/Promote Patient Safety,\" \"Implement an EMR,\" \"Connecting IT at Hospital and Remote Locations,\" \"Process/Workflow Redesign,\" \"Implement Wireless Systems,\" \"Replace/Upgrade Inpatient Clinical Systems,\" \"Upgrade Network Infrastructure,\" and \"Design/Implement Strategic IT Plan.\" The chart visually compares the current status (Today) and future intentions (In Two Years) for each initiative. Notable features include the highest percentage for \"Reduce Medical Errors/Promote Patient Safety\" at 50% for \"Today\" and the lowest for \"Design/Implement Strategic IT Plan\" at 11% for \"In Two Years.\""
+    },
+    {
+      "chunk_id": "page-7-chunk-1",
+      "page_id": 7,
+      "page_number": 7,
+      "parent_section": "Projected IT Priorities",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Projected IT Priorities\n\n(Today vs. Next Two Years)\n\nFigure 9",
+      "image_refs": [
+        "assets/_page_7_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_7_Asset_0.jpg"
+      ],
+      "headings": [
+        "Projected IT Priorities"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Projected IT Priorities\n\n(Today vs. Next Two Years)\n\nFigure 9"
+    },
+    {
+      "chunk_id": "page-8-chunk-0",
+      "page_id": 8,
+      "page_number": 8,
+      "parent_section": "Document > Full Page Description (Page 8)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 8)\n\n**Source:** `assets/_page_8_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:27:53\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 for various healthcare-related topics. The chart includes categories such as Patient (Customer) Satisfaction, Medicare Cutbacks, Reducing Medical Errors, Cost Pressures, Clinical Transformation, Integration and Interoperability, Improving Quality of Care, Adoption of New Technology, Improving Operational Efficiency, and Providing IT to Ambulatory Facilities. Each category has two bars representing the percentage of results for 2005 and 2006. The chart highlights that in 2006, Patient (Customer) Satisfaction and Medicare Cutbacks had the highest percentages, while in 2005, Reducing Medical Errors had the highest percentage.\n\n# Top Business Issues Facing HealthCare\n\n(2006 vs.2005 Results)\n\nFigure 10",
+      "image_refs": [
+        "assets/_page_8_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_8_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 8)",
+        "Top Business Issues Facing HealthCare"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 8)\n\n**Source:** `assets/_page_8_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:27:53\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 for various healthcare-related topics. The chart includes categories such as Patient (Customer) Satisfaction, Medicare Cutbacks, Reducing Medical Errors, Cost Pressures, Clinical Transformation, Integration and Interoperability, Improving Quality of Care, Adoption of New Technology, Improving Operational Efficiency, and Providing IT to Ambulatory Facilities. Each category has two bars representing the percentage of results for 2005 and 2006. The chart highlights that in 2006, Patient (Customer) Satisfaction and Medicare Cutbacks had the highest percentages, while in 2005, Reducing Medical Errors had the highest percentage.\n\n# Top Business Issues Facing HealthCare\n\n(2006 vs.2005 Results)\n\nFigure 10"
+    },
+    {
+      "chunk_id": "page-9-chunk-0",
+      "page_id": 9,
+      "page_number": 9,
+      "parent_section": "Document > Full Page Description (Page 9)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 9)\n\n**Source:** `assets/_page_9_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:29:56\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 across various challenges faced in implementing technology in healthcare. The chart lists challenges such as \"Lack of Financial Support,\" \"Lack of Staffing Resources,\" and \"Vendor's Inability to Effectively Deliver Product,\" among others. Each challenge is represented by two bars, one for 2005 and one for 2006, showing the percentage of respondents who faced each issue. The chart highlights that \"Lack of Financial Support\" was the most significant challenge in both years, with 20% in 2005 and 18% in 2006. The \"Lack of Common Data Standards\" was the least significant challenge, with only 2% in 2006.\n\n# Most Significant Barriers to Barriers to Implementing IT\n\n(2006 vs.2005 Results)\n\nFigure 11",
+      "image_refs": [
+        "assets/_page_9_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_9_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 9)",
+        "Most Significant Barriers to Barriers to Implementing IT"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 9)\n\n**Source:** `assets/_page_9_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:29:56\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 across various challenges faced in implementing technology in healthcare. The chart lists challenges such as \"Lack of Financial Support,\" \"Lack of Staffing Resources,\" and \"Vendor's Inability to Effectively Deliver Product,\" among others. Each challenge is represented by two bars, one for 2005 and one for 2006, showing the percentage of respondents who faced each issue. The chart highlights that \"Lack of Financial Support\" was the most significant challenge in both years, with 20% in 2005 and 18% in 2006. The \"Lack of Common Data Standards\" was the least significant challenge, with only 2% in 2006.\n\n# Most Significant Barriers to Barriers to Implementing IT\n\n(2006 vs.2005 Results)\n\nFigure 11"
+    },
+    {
+      "chunk_id": "page-10-chunk-0",
+      "page_id": 10,
+      "page_number": 10,
+      "parent_section": "Document > Full Page Description (Page 10)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 10)\n\n**Source:** `assets/_page_10_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:25:41\n\n---\n\nThe image is a horizontal bar chart comparing the results of two years, 2005 and 2006, for various healthcare information systems. The chart includes the following categories: Electronic Medical Record, Bar Coded Medication Management, Computerized Practitioner Order Entry (CPOE), Enterprise-Wide Clinical Information Sharing, Clinical Data Repository, Point-of-Care Decision Support, Digital Picture Archiving (PACS), and Ambulatory Systems. Each category has two bars representing the percentage of adoption in 2005 and 2006. The Electronic Medical Record shows the highest adoption in both years, with 61% in 2005 and 62% in 2006. Ambulatory Systems shows the lowest adoption, with 22% in 2005 and 17% in 2006. The chart visually highlights the adoption trends for these healthcare information systems over the two years.",
+      "image_refs": [
+        "assets/_page_10_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_10_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 10)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 10)\n\n**Source:** `assets/_page_10_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:25:41\n\n---\n\nThe image is a horizontal bar chart comparing the results of two years, 2005 and 2006, for various healthcare information systems. The chart includes the following categories: Electronic Medical Record, Bar Coded Medication Management, Computerized Practitioner Order Entry (CPOE), Enterprise-Wide Clinical Information Sharing, Clinical Data Repository, Point-of-Care Decision Support, Digital Picture Archiving (PACS), and Ambulatory Systems. Each category has two bars representing the percentage of adoption in 2005 and 2006. The Electronic Medical Record shows the highest adoption in both years, with 61% in 2005 and 62% in 2006. Ambulatory Systems shows the lowest adoption, with 22% in 2005 and 17% in 2006. The chart visually highlights the adoption trends for these healthcare information systems over the two years."
+    },
+    {
+      "chunk_id": "page-10-chunk-1",
+      "page_id": 10,
+      "page_number": 10,
+      "parent_section": "Most Important Applications",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Most Important Applications\n\n(2006 vs. 2005 Results)\n\nFigure 12",
+      "image_refs": [
+        "assets/_page_10_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_10_Asset_0.jpg"
+      ],
+      "headings": [
+        "Most Important Applications"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Most Important Applications\n\n(2006 vs. 2005 Results)\n\nFigure 12"
+    },
+    {
+      "chunk_id": "page-11-chunk-0",
+      "page_id": 11,
+      "page_number": 11,
+      "parent_section": "Document > Full Page Description (Page 11)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 11)\n\n**Source:** `assets/_page_11_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:28:38\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 regarding various concerns related to healthcare IT security and compliance. The chart includes categories such as \"Internal Breach of Security,\" \"Inadequate Business Continuity/Disaster Recovery,\" and \"HIPAA Compliance,\" among others. Each category has two bars representing the percentage of responses for each year. The chart highlights that \"Internal Breach of Security\" had the highest percentage in both years, with 51% in 2006 and 56% in 2005. \"No Concerns\" was the lowest category in both years, with 3% in both 2005 and 2006. The chart also includes \"N/A\" for certain categories, indicating data not available for those years.\n\n# Top Security Concerns of Computerized Medical Information\n\n(2006 vs.2005 Results)\n\nFigure 14",
+      "image_refs": [
+        "assets/_page_11_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_11_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 11)",
+        "Top Security Concerns of Computerized Medical Information"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 11)\n\n**Source:** `assets/_page_11_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:28:38\n\n---\n\nThe image is a horizontal bar chart comparing results from 2005 and 2006 regarding various concerns related to healthcare IT security and compliance. The chart includes categories such as \"Internal Breach of Security,\" \"Inadequate Business Continuity/Disaster Recovery,\" and \"HIPAA Compliance,\" among others. Each category has two bars representing the percentage of responses for each year. The chart highlights that \"Internal Breach of Security\" had the highest percentage in both years, with 51% in 2006 and 56% in 2005. \"No Concerns\" was the lowest category in both years, with 3% in both 2005 and 2006. The chart also includes \"N/A\" for certain categories, indicating data not available for those years.\n\n# Top Security Concerns of Computerized Medical Information\n\n(2006 vs.2005 Results)\n\nFigure 14"
+    },
+    {
+      "chunk_id": "page-12-chunk-0",
+      "page_id": 12,
+      "page_number": 12,
+      "parent_section": "Document > Full Page Description (Page 12)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 12)\n\n**Source:** `assets/_page_12_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:31:38\n\n---\n\nThe image is a horizontal bar chart comparing the current implementation (today) and projected implementation (in two years) of various security and data protection measures. The chart includes percentages for each measure, such as Firewalls (98% today, 53% in two years), User Access Controls (88% today, 53% in two years), and others. The measures include Audit Logs, Multi-Level Passcodes, Off-Site Storage, Electronic Signature, Data Encryption, and Disaster Recovery. The chart highlights the current adoption rates and projected future trends for these security measures.",
+      "image_refs": [
+        "assets/_page_12_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_12_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 12)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 12)\n\n**Source:** `assets/_page_12_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:31:38\n\n---\n\nThe image is a horizontal bar chart comparing the current implementation (today) and projected implementation (in two years) of various security and data protection measures. The chart includes percentages for each measure, such as Firewalls (98% today, 53% in two years), User Access Controls (88% today, 53% in two years), and others. The measures include Audit Logs, Multi-Level Passcodes, Off-Site Storage, Electronic Signature, Data Encryption, and Disaster Recovery. The chart highlights the current adoption rates and projected future trends for these security measures."
+    },
+    {
+      "chunk_id": "page-12-chunk-1",
+      "page_id": 12,
+      "page_number": 12,
+      "parent_section": "Security Tools",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Security Tools\n\n(Today vs. Next Two Years)\n\nFigure 15",
+      "image_refs": [
+        "assets/_page_12_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_12_Asset_0.jpg"
+      ],
+      "headings": [
+        "Security Tools"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Security Tools\n\n(Today vs. Next Two Years)\n\nFigure 15"
+    },
+    {
+      "chunk_id": "page-13-chunk-0",
+      "page_id": 13,
+      "page_number": 13,
+      "parent_section": "Technology Adoption Curve",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Technology Adoption Curve\n\n![](assets/_page_13_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_13_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:24:49\n> \n> ---\n> \n> The image is a graph illustrating the adoption curve of a new technology or product over time. It is a bell-shaped curve divided into five segments: Innovators, Early Adopters, Early Majority, Late Majority, and Laggards. The x-axis represents the time since the introduction of the product, while the y-axis represents the percentage of adoption. The graph shows that the adoption rate starts low, increases rapidly, reaches a peak, and then gradually declines as the majority of the population has adopted the product. The curve is labeled with key percentages (25%, 50%, 75%) to indicate the adoption levels at different stages.",
+      "image_refs": [
+        "assets/_page_13_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_13_Figure_0.jpg"
+      ],
+      "headings": [
+        "Technology Adoption Curve"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Technology Adoption Curve\n\n![](assets/_page_13_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_13_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:24:49\n> \n> ---\n> \n> The image is a graph illustrating the adoption curve of a new technology or product over time. It is a bell-shaped curve divided into five segments: Innovators, Early Adopters, Early Majority, Late Majority, and Laggards. The x-axis represents the time since the introduction of the product, while the y-axis represents the percentage of adoption. The graph shows that the adoption rate starts low, increases rapidly, reaches a peak, and then gradually declines as the majority of the population has adopted the product. The curve is labeled with key percentages (25%, 50%, 75%) to indicate the adoption levels at different stages."
+    },
+    {
+      "chunk_id": "page-14-chunk-0",
+      "page_id": 14,
+      "page_number": 14,
+      "parent_section": "Document > Full Page Description (Page 14)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 14)\n\n**Source:** `assets/_page_14_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:29:21\n\n---\n\nThe image is a horizontal bar chart comparing the results of two years, 2005 and 2006, for various healthcare technology implementations. The chart includes percentages for each technology, such as Single Sign On/Identity Management (79% in 2006), Bar Code Technology (59% in 2005 and 69% in 2006), Speech Recognition (59% in 2005 and 65% in 2006), and others. The technologies listed are Single Sign On/Identity Management, Bar Code Technology, Speech Recognition, Handheld PDAs, Automated Alerts to Clinicians, Wireless Information Appliances, VoIP, and Computer on Wheels. The chart highlights the adoption rates of these technologies over the two years, with some technologies showing significant growth, such as Bar Code Technology and Speech Recognition, while others show a slight increase or no change.\n\n# Technology Adoption (Next Two Years)\n\n(2006 vs.2005 Results)",
+      "image_refs": [
+        "assets/_page_14_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_14_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 14)",
+        "Technology Adoption (Next Two Years)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 14)\n\n**Source:** `assets/_page_14_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:29:21\n\n---\n\nThe image is a horizontal bar chart comparing the results of two years, 2005 and 2006, for various healthcare technology implementations. The chart includes percentages for each technology, such as Single Sign On/Identity Management (79% in 2006), Bar Code Technology (59% in 2005 and 69% in 2006), Speech Recognition (59% in 2005 and 65% in 2006), and others. The technologies listed are Single Sign On/Identity Management, Bar Code Technology, Speech Recognition, Handheld PDAs, Automated Alerts to Clinicians, Wireless Information Appliances, VoIP, and Computer on Wheels. The chart highlights the adoption rates of these technologies over the two years, with some technologies showing significant growth, such as Bar Code Technology and Speech Recognition, while others show a slight increase or no change.\n\n# Technology Adoption (Next Two Years)\n\n(2006 vs.2005 Results)"
+    },
+    {
+      "chunk_id": "page-15-chunk-0",
+      "page_id": 15,
+      "page_number": 15,
+      "parent_section": "Document > Full Page Description (Page 15)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 15)\n\n**Source:** `assets/_page_15_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:21:46\n\n---\n\nThe image contains a horizontal bar chart comparing the results from 2005 and 2006 for various healthcare-related services. The chart includes data for Marketing and Promotion, Employee Recruitment, Online Provider Directory, Consumer Health Information, Remote Employee Access, Physician Portal Link, Business-to-Business Transactions, Patient Scheduling, Patient Health Assessment Tools, and Patient Access to Medical Records. The percentages shown indicate the level of adoption or usage for each service in both years. Notably, the highest adoption rates are for Marketing and Promotion and Employee Recruitment, both at 95% in 2005 and 91% in 2006. The lowest adoption rates are for Patient Access to Medical Records, at 2% in 2005 and 3% in 2006.",
+      "image_refs": [
+        "assets/_page_15_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_15_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 15)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 15)\n\n**Source:** `assets/_page_15_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:21:46\n\n---\n\nThe image contains a horizontal bar chart comparing the results from 2005 and 2006 for various healthcare-related services. The chart includes data for Marketing and Promotion, Employee Recruitment, Online Provider Directory, Consumer Health Information, Remote Employee Access, Physician Portal Link, Business-to-Business Transactions, Patient Scheduling, Patient Health Assessment Tools, and Patient Access to Medical Records. The percentages shown indicate the level of adoption or usage for each service in both years. Notably, the highest adoption rates are for Marketing and Promotion and Employee Recruitment, both at 95% in 2005 and 91% in 2006. The lowest adoption rates are for Patient Access to Medical Records, at 2% in 2005 and 3% in 2006."
+    },
+    {
+      "chunk_id": "page-15-chunk-1",
+      "page_id": 15,
+      "page_number": 15,
+      "parent_section": "Current Web Site Functions",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Current Web Site Functions\n\n(2006 vs. 2005 Results)\n\nFigure 19",
+      "image_refs": [
+        "assets/_page_15_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_15_Asset_0.jpg"
+      ],
+      "headings": [
+        "Current Web Site Functions"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Current Web Site Functions\n\n(2006 vs. 2005 Results)\n\nFigure 19"
+    },
+    {
+      "chunk_id": "page-16-chunk-0",
+      "page_id": 16,
+      "page_number": 16,
+      "parent_section": "Document > Full Page Description (Page 16)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 16)\n\n**Source:** `assets/_page_16_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:27:08\n\n---\n\nThe image contains a horizontal bar chart comparing percentages for various categories related to healthcare practices, such as \"Post Policies and Procedures,\" \"Staff Communication,\" \"Training,\" and others. The chart is divided into two categories: \"Today\" (in dark blue) and \"In Two Years\" (in light green). The percentages indicate the current and projected future adoption rates for each category. For example, \"Post Policies and Procedures\" is at 87% today and 70% in two years, while \"Don't Have an Intranet\" is at 7% today and 1% in two years. The chart highlights the projected decline in the adoption of certain practices over the next two years.",
+      "image_refs": [
+        "assets/_page_16_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_16_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 16)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 16)\n\n**Source:** `assets/_page_16_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:27:08\n\n---\n\nThe image contains a horizontal bar chart comparing percentages for various categories related to healthcare practices, such as \"Post Policies and Procedures,\" \"Staff Communication,\" \"Training,\" and others. The chart is divided into two categories: \"Today\" (in dark blue) and \"In Two Years\" (in light green). The percentages indicate the current and projected future adoption rates for each category. For example, \"Post Policies and Procedures\" is at 87% today and 70% in two years, while \"Don't Have an Intranet\" is at 7% today and 1% in two years. The chart highlights the projected decline in the adoption of certain practices over the next two years."
+    },
+    {
+      "chunk_id": "page-16-chunk-1",
+      "page_id": 16,
+      "page_number": 16,
+      "parent_section": "Intranet Functions",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Intranet Functions\n\n(Today vs. Next Two Years)\n\nFigure 21",
+      "image_refs": [
+        "assets/_page_16_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_16_Asset_0.jpg"
+      ],
+      "headings": [
+        "Intranet Functions"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Intranet Functions\n\n(Today vs. Next Two Years)\n\nFigure 21"
+    },
+    {
+      "chunk_id": "page-17-chunk-0",
+      "page_id": 17,
+      "page_number": 17,
+      "parent_section": "Document > Full Page Description (Page 17)",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "### Full Page Description (Page 17)\n\n**Source:** `assets/_page_17_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:30:35\n\n---\n\nThe image contains a horizontal bar chart with percentages indicating the distribution of roles or responsibilities in a clinical informatics context. The chart lists various roles such as Network Support, Clinical Informaticists, Process/Workflow Design, Application Support, Clinical Transformation, Programmers, Systems Integration, PC/Server Support, and Clinical Champions. Each role is represented by a blue bar with a corresponding percentage value. The highest percentage is for Network Support at 27%, followed closely by Clinical Informaticists and Process/Workflow Design at 24% each. The percentages for the remaining roles are 22%, 19%, 16%, 15%, 15%, and 15% respectively. The chart effectively visualizes the relative importance or frequency of each role within the clinical informatics field.",
+      "image_refs": [
+        "assets/_page_17_Asset_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_17_Asset_0.jpg"
+      ],
+      "headings": [
+        "Full Page Description (Page 17)"
+      ],
+      "table_context": "",
+      "retrieval_text": "### Full Page Description (Page 17)\n\n**Source:** `assets/_page_17_Asset_0.jpg`\n\n**Generated:** 2026-05-31 01:30:35\n\n---\n\nThe image contains a horizontal bar chart with percentages indicating the distribution of roles or responsibilities in a clinical informatics context. The chart lists various roles such as Network Support, Clinical Informaticists, Process/Workflow Design, Application Support, Clinical Transformation, Programmers, Systems Integration, PC/Server Support, and Clinical Champions. Each role is represented by a blue bar with a corresponding percentage value. The highest percentage is for Network Support at 27%, followed closely by Clinical Informaticists and Process/Workflow Design at 24% each. The percentages for the remaining roles are 22%, 19%, 16%, 15%, 15%, and 15% respectively. The chart effectively visualizes the relative importance or frequency of each role within the clinical informatics field."
+    },
+    {
+      "chunk_id": "page-17-chunk-1",
+      "page_id": 17,
+      "page_number": 17,
+      "parent_section": "2006 Health IT Staffing Needs",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## 2006 Health IT Staffing Needs",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "2006 Health IT Staffing Needs"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 2006 Health IT Staffing Needs"
+    },
+    {
+      "chunk_id": "page-18-chunk-0",
+      "page_id": 18,
+      "page_number": 18,
+      "parent_section": "Goals",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Goals",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Goals"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Goals"
+    },
+    {
+      "chunk_id": "page-19-chunk-0",
+      "page_id": 19,
+      "page_number": 19,
+      "parent_section": "“Wiring” Healthcare",
+      "nearest_asset_above": null,
+      "nearest_asset_below": "assets/_page_19_Figure_0.jpg",
+      "text": "## “Wiring” Healthcare\n\nCurrent system fragments patient information and creates redundant, inefficient efforts\n\n![](assets/_page_19_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_19_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:26:01\n> \n> ---\n> \n> The image is a diagram illustrating the interconnectedness of various healthcare entities. It features a central network of nodes representing hospitals, public health, laboratories, pharmacies, payers, primary care physicians, specialty physicians, and ambulatory centers (e.g., imaging centers). Arrows between the nodes indicate the flow of information or services between these entities. The diagram is accompanied by icons and labels for each category, providing a visual representation of the healthcare ecosystem and its interdependencies.\n\nFuture system will consolidate information and provide a foundation for unifying efforts\n\n![](assets/_page_19_Figure_1.jpg)",
+      "image_refs": [
+        "assets/_page_19_Figure_0.jpg",
+        "assets/_page_19_Figure_1.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_19_Figure_0.jpg",
+        "assets/_page_19_Figure_1.jpg"
+      ],
+      "headings": [
+        "“Wiring” Healthcare"
+      ],
+      "table_context": "",
+      "retrieval_text": "## “Wiring” Healthcare\n\nCurrent system fragments patient information and creates redundant, inefficient efforts\n\n![](assets/_page_19_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_19_Figure_0.jpg`\n> \n> **Generated:** 2026-05-31 01:26:01\n> \n> ---\n> \n> The image is a diagram illustrating the interconnectedness of various healthcare entities. It features a central network of nodes representing hospitals, public health, laboratories, pharmacies, payers, primary care physicians, specialty physicians, and ambulatory centers (e.g., imaging centers). Arrows between the nodes indicate the flow of information or services between these entities. The diagram is accompanied by icons and labels for each category, providing a visual representation of the healthcare ecosystem and its interdependencies.\n\nFuture system will consolidate information and provide a foundation for unifying efforts\n\n![](assets/_page_19_Figure_1.jpg)"
+    },
+    {
+      "chunk_id": "page-19-chunk-1",
+      "page_id": 19,
+      "page_number": 19,
+      "parent_section": "“Wiring” Healthcare",
+      "nearest_asset_above": "assets/_page_19_Figure_1.jpg",
+      "nearest_asset_below": null,
+      "text": "> **AI Description:**\n> **Source:** `assets/_page_19_Figure_1.jpg`\n> \n> **Generated:** 2026-05-31 01:26:24\n> \n> ---\n> \n> The image is a diagram illustrating a health information exchange system. It includes various healthcare settings and entities such as hospitals, outpatient clinics, laboratories, physicians, ambulatory care, public health, and payers. The central part of the diagram represents a data repository and network applications, with arrows pointing to these components from the surrounding healthcare settings. The diagram is designed to show how different healthcare entities contribute to and interact with the health information exchange system.",
+      "image_refs": [
+        "assets/_page_19_Figure_1.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_19_Figure_1.jpg"
+      ],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "> **AI Description:**\n> **Source:** `assets/_page_19_Figure_1.jpg`\n> \n> **Generated:** 2026-05-31 01:26:24\n> \n> ---\n> \n> The image is a diagram illustrating a health information exchange system. It includes various healthcare settings and entities such as hospitals, outpatient clinics, laboratories, physicians, ambulatory care, public health, and payers. The central part of the diagram represents a data repository and network applications, with arrows pointing to these components from the surrounding healthcare settings. The diagram is designed to show how different healthcare entities contribute to and interact with the health information exchange system."
+    }
+  ],
+  "layouts": [
+    {
+      "layout_id": "page-0:text-1",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.381,
+        0.116,
+        0.553,
+        0.873
+      ],
+      "text": "Medical Informatics and HIT Systems",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-2",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.64,
+        0.394,
+        0.683,
+        0.605
+      ],
+      "text": "David Lubliner",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-1",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.081,
+        0.066,
+        0.166,
+        0.929
+      ],
+      "text": "What is wrong with this picture?",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:figure-2",
+      "page_id": 1,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_1_Figure_0.jpg",
+      "bbox_norm": [
+        0.216,
+        0.112,
+        0.907,
+        0.884
+      ],
+      "text": "",
+      "source_type": "image"
+    },
+    {
+      "layout_id": "page-2:text-1",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.081,
+        0.395,
+        0.161,
+        0.604
+      ],
+      "text": "Outline",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-2",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.277,
+        0.052,
+        0.344,
+        0.893
+      ],
+      "text": "• What kinds of HIT systems are there?",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-3",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.362,
+        0.052,
+        0.433,
+        0.811
+      ],
+      "text": "What major trends are emerging?",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-4",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.448,
+        0.052,
+        0.516,
+        0.831
+      ],
+      "text": "What are the benefits to adoption?",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-5",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.533,
+        0.052,
+        0.601,
+        0.827
+      ],
+      "text": "What are the barriers to adoption?",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-6",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.618,
+        0.052,
+        0.685,
+        0.901
+      ],
+      "text": "What is the current state of adoption?",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-7",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.705,
+        0.052,
+        0.772,
+        0.643
+      ],
+      "text": "• How can you learn more?",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-1",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.081,
+        0.265,
+        0.168,
+        0.731
+      ],
+      "text": "HIT Applications",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-2",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.207,
+        0.051,
+        0.318,
+        0.418
+      ],
+      "text": "• Patient registration/ demographics",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-3",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.325,
+        0.051,
+        0.379,
+        0.426
+      ],
+      "text": "Insurance validation",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-4",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.388,
+        0.051,
+        0.446,
+        0.351
+      ],
+      "text": "Billing systems",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-5",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.453,
+        0.051,
+        0.511,
+        0.451
+      ],
+      "text": "Appointment systems",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-6",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.516,
+        0.051,
+        0.679,
+        0.454
+      ],
+      "text": "Computerized Physician Order Entry (CPOE)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-7",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.687,
+        0.052,
+        0.74,
+        0.34
+      ],
+      "text": "• EMR/EHR/CPR",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-8",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.751,
+        0.051,
+        0.809,
+        0.404
+      ],
+      "text": "Pharmacy systems",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-9",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.207,
+        0.509,
+        0.264,
+        0.766
+      ],
+      "text": "Lab systems",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-10",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.27,
+        0.509,
+        0.329,
+        0.833
+      ],
+      "text": "• Imaging systems",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-11",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.335,
+        0.511,
+        0.39,
+        0.777
+      ],
+      "text": "Telemedicine",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-12",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.398,
+        0.511,
+        0.453,
+        0.84
+      ],
+      "text": ". Patient education",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-13",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.461,
+        0.511,
+        0.52,
+        0.84
+      ],
+      "text": "• Decision Support",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-14",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.527,
+        0.511,
+        0.585,
+        0.843
+      ],
+      "text": "Library resources",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-15",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.592,
+        0.511,
+        0.644,
+        0.695
+      ],
+      "text": "Sensors",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-1",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.081,
+        0.366,
+        0.159,
+        0.631
+      ],
+      "text": "Sad Facts",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-2",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.211,
+        0.054,
+        0.418,
+        0.902
+      ],
+      "text": "• Medical errors account for more deaths than breast cancer, AIDs and motorcycle accidents.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-3",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.438,
+        0.054,
+        0.572,
+        0.85
+      ],
+      "text": "US has highest HC costs per capita in world",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-4",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.596,
+        0.052,
+        0.737,
+        0.888
+      ],
+      "text": "• US has worst outcomes of industrialized nations. (infant mortality, lifespan, etc.)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-5",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.751,
+        0.054,
+        0.89,
+        0.937
+      ],
+      "text": "• Healthcare is 10-15 yrs behind business in adoption of IT",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-1",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.05,
+        0.084,
+        0.103,
+        0.912
+      ],
+      "text": "Some Hospitals are using Tablet Capture Devices",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-2",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.209,
+        0.054,
+        0.311,
+        0.354
+      ],
+      "text": "• Microsoft Office OneNote",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-3",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.327,
+        0.054,
+        0.375,
+        0.376
+      ],
+      "text": ". Windows Journal",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-4",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.39,
+        0.052,
+        0.494,
+        0.448
+      ],
+      "text": "• Microsoft Educational Pack for Tablet PC",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-5",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.509,
+        0.054,
+        0.611,
+        0.438
+      ],
+      "text": "• Microsoft Experience Pack for Tablet PC",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-6",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.625,
+        0.054,
+        0.675,
+        0.302
+      ],
+      "text": "Sticky Notes",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-7",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.69,
+        0.054,
+        0.742,
+        0.323
+      ],
+      "text": "• Snipping Tool",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:figure-8",
+      "page_id": 5,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_5_Figure_0.jpg",
+      "bbox_norm": [
+        0.17,
+        0.529,
+        0.95,
+        0.979
+      ],
+      "text": "",
+      "source_type": "image"
+    },
+    {
+      "layout_id": "page-6:text-1",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.083,
+        0.15,
+        0.155,
+        0.848
+      ],
+      "text": "Electronic Medical Records",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:figure-2",
+      "page_id": 6,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_6_Figure_0.jpg",
+      "bbox_norm": [
+        0.194,
+        0.373,
+        0.853,
+        0.963
+      ],
+      "text": "",
+      "source_type": "image"
+    },
+    {
+      "layout_id": "page-7:text-1",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.083,
+        0.2,
+        0.164,
+        0.798
+      ],
+      "text": "Projected IT Priorities",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-2",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.255,
+        0.33,
+        0.296,
+        0.64
+      ],
+      "text": "(Today vs. Next Two Years)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-3",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.255,
+        0.834,
+        0.288,
+        0.906
+      ],
+      "text": "Figure 9",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-1",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.033,
+        0.143,
+        0.205,
+        0.858
+      ],
+      "text": "Top Business Issues Facing HealthCare",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-2",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.253,
+        0.402,
+        0.29,
+        0.665
+      ],
+      "text": "(2006 vs.2005 Results)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-3",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.251,
+        0.852,
+        0.285,
+        0.933
+      ],
+      "text": "Figure 10",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-1",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.033,
+        0.123,
+        0.214,
+        0.876
+      ],
+      "text": "Most Significant Barriers to Barriers to Implementing IT",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-2",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.255,
+        0.379,
+        0.294,
+        0.641
+      ],
+      "text": "(2006 vs.2005 Results)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-3",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.257,
+        0.827,
+        0.288,
+        0.909
+      ],
+      "text": "Figure 11",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-1",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.083,
+        0.112,
+        0.166,
+        0.884
+      ],
+      "text": "Most Important Applications",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-2",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.255,
+        0.363,
+        0.294,
+        0.626
+      ],
+      "text": "(2006 vs. 2005 Results)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-3",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.253,
+        0.813,
+        0.287,
+        0.895
+      ],
+      "text": "Figure 12",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-1",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.038,
+        0.07,
+        0.203,
+        0.926
+      ],
+      "text": "Top Security Concerns of Computerized Medical Information",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-2",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.242,
+        0.362,
+        0.281,
+        0.625
+      ],
+      "text": "(2006 vs.2005 Results)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-3",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.262,
+        0.806,
+        0.294,
+        0.89
+      ],
+      "text": "Figure 14",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-1",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.083,
+        0.306,
+        0.166,
+        0.69
+      ],
+      "text": "Security Tools",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-2",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.248,
+        0.366,
+        0.288,
+        0.676
+      ],
+      "text": "(Today vs. Next Two Years)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-3",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.248,
+        0.862,
+        0.281,
+        0.943
+      ],
+      "text": "Figure 15",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-13:text-1",
+      "page_id": 13,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.081,
+        0.125,
+        0.168,
+        0.875
+      ],
+      "text": "Technology Adoption Curve",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-13:figure-2",
+      "page_id": 13,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_13_Figure_0.jpg",
+      "bbox_norm": [
+        0.192,
+        0.113,
+        0.896,
+        0.886
+      ],
+      "text": "",
+      "source_type": "image"
+    },
+    {
+      "layout_id": "page-14:text-1",
+      "page_id": 14,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.033,
+        0.216,
+        0.212,
+        0.781
+      ],
+      "text": "Technology Adoption (Next Two Years)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-14:text-2",
+      "page_id": 14,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.251,
+        0.352,
+        0.288,
+        0.615
+      ],
+      "text": "(2006 vs.2005 Results)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-15:text-1",
+      "page_id": 15,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.083,
+        0.126,
+        0.159,
+        0.872
+      ],
+      "text": "Current Web Site Functions",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-15:text-2",
+      "page_id": 15,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.262,
+        0.356,
+        0.301,
+        0.619
+      ],
+      "text": "(2006 vs. 2005 Results)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-15:text-3",
+      "page_id": 15,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.262,
+        0.806,
+        0.296,
+        0.888
+      ],
+      "text": "Figure 19",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-16:text-1",
+      "page_id": 16,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.083,
+        0.25,
+        0.157,
+        0.748
+      ],
+      "text": "Intranet Functions",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-16:text-2",
+      "page_id": 16,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.246,
+        0.361,
+        0.285,
+        0.67
+      ],
+      "text": "(Today vs. Next Two Years)",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-16:text-3",
+      "page_id": 16,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.246,
+        0.856,
+        0.279,
+        0.936
+      ],
+      "text": "Figure 21",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-17:text-1",
+      "page_id": 17,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.081,
+        0.1,
+        0.166,
+        0.897
+      ],
+      "text": "2006 Health IT Staffing Needs",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-18:text-1",
+      "page_id": 18,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.077,
+        0.418,
+        0.162,
+        0.58
+      ],
+      "text": "Goals",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-19:text-1",
+      "page_id": 19,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.085,
+        0.22,
+        0.168,
+        0.779
+      ],
+      "text": "“Wiring” Healthcare",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-19:text-2",
+      "page_id": 19,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.222,
+        0.025,
+        0.292,
+        0.455
+      ],
+      "text": "Current system fragments patient information and creates redundant, inefficient efforts",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-19:figure-3",
+      "page_id": 19,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_19_Figure_0.jpg",
+      "bbox_norm": [
+        0.342,
+        0.016,
+        0.911,
+        0.473
+      ],
+      "text": "",
+      "source_type": "image"
+    },
+    {
+      "layout_id": "page-19:text-4",
+      "page_id": 19,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.224,
+        0.552,
+        0.296,
+        0.97
+      ],
+      "text": "Future system will consolidate information and provide a foundation for unifying efforts",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-19:figure-5",
+      "page_id": 19,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_19_Figure_1.jpg",
+      "bbox_norm": [
+        0.322,
+        0.506,
+        0.962,
+        0.969
+      ],
+      "text": "",
+      "source_type": "image"
+    }
+  ],
+  "stats": {
+    "num_pages": 20,
+    "num_chunks": 28,
+    "num_layouts": 76
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image": "_page_83_Table_0.jpg",
+  "reason": "model_timeout",
+  "backend": "local",
+  "model": "qwen2.5vl:7b",
+  "timeout_seconds": 90.0,
+  "run_diagnostics": {
+    "image": "_page_83_Table_0.jpg",
+    "stages": [
+      {
+        "stage": "initial_extract",
+        "elapsed_seconds": 90.09,
+        "status": "failed"
+      },
+      {
+        "stage": "timeout_fast_retry",
+        "status": "started"
+      }
+    ],
+    "shape_hint": {
+      "expected_cols": 7,
+      "min_rows": 26,
+      "confidence": "high",
+      "source": "image_projection_heuristic",
+      "enforce": true,
+      "enforce_cols": true
+    },
+    "risk_profile": {
+      "risk": "high",
+      "score": 6,
+      "width": 1312,
+      "height": 1909,
+      "area": 2504608,
+      "aspect": 0.687,
+      "expected_cols": 7,
+      "min_rows": 26,
+      "shape_confidence": "high"
+    },
+    "strategy": "staged_local_timeout_flow"
+  },
+  "details": {
+    "strict_repair": false,
+    "comma_safe_tsv": false,
+    "stutter_safe_tsv": false,
+    "fast_mode": true,
+    "ocr_text_only": false,
+    "max_dimension": 1200,
+    "join_timeout_seconds": 90.0,
+    "forced_kill": false,
+    "stage_context": {
+      "strategy": "timeout_fast_retry",
+      "risk": "high"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "table_id": "table_1",
+    "reason": "LLM parsing failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM parse failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_2",
+    "reason": "LLM returned empty/non-table JSON",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": \"[[\",\"Class A 305,011,252\\nClass B 1,276,789,972\\n1,581,801,224\\n\\u200b\":[[ \"\", \"\"]],\"]]([\\\\n](%5Cn))}调整后的JSON格式如下，以符合要求的矩形结构和字符串类型数据表示表格内容，并且考虑到可能存在合并单元格的情况，这里将所有值视为单独列处理，空行用空白字符表示（如\\u200b）来保持矩形结构完整性。但根据原始问题描述，更直接的转换如下所示，忽略可能的合并情况而仅基于给定数据形成矩形表格结构：{\":[\"[\",\"Class A 305,011,252\"],\":[\":\"],[\",\"Class B 1,276,789,972\\n1,581,801,224\\n\\u200b\":[\"\",\"\"]}"
+      }
+    ]
+  }
+]

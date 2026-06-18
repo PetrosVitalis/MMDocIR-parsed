@@ -1,0 +1,9 @@
+Role/Policy Name,Description,Type,Dependency
+Tenant Administrator,Allows you to perform all operations on all services except IAM.,System-defined role,None
+Tenant Guest,Allows you to perform read-only operations on all services except IAM.,System-defined role,None
+OBS Administrator,Allows you to perform any operation on all OBS resources under the account.,System-defined policy,None
+OBS Buckets Viewer,"Allows you to list buckets, and obtain basic bucket information and bucket metadata.",System-defined role,None
+OBS ReadOnlyAccess,"Allows you to list buckets, obtain basic bucket information and bucket metadata, and list objects (excluding versioned objects).",System-defined policy,None
+NOTE,"If a user with this permission fails to list objects on OBS Console, there may be multiple versions of objects in the bucket. In this case, you need to grant the user the obs:bucket:ListBucketVersions permission so that the user can view different versions of objects on OBS Console.",,None
+OBS OperateAccess,"Allows you to perform all operations defined in OBS ReadOnlyAccess and to perform basic object operations, such as uploading objects, downloading objects, deleting objects, and obtaining object ACLs.",System-defined policy,None
+NOTE,"If a user with this permission fails to list objects on OBS Console, there may be multiple versions of objects in the bucket. In this case, you need to grant the user the obs:bucket:ListBucketVersions permission so that the user can view different versions of objects on OBS Console.",,None

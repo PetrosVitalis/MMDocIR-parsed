@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td></td><td colspan="3">(millions of dollars)</td></tr><tr><td>Sales and other operating revenue</td><td>404</td><td>(412)</td><td>130</td></tr><tr><td>Crude oil and product purchases</td><td>(407)</td><td>179</td><td>(120)</td></tr><tr><td>Total</td><td>(3)</td><td>(233)</td><td>10</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>Americas $</td><td>815,048 $</td><td>622,979</td></tr><tr><td>EMEA</td><td>194,598</td><td>185,093</td></tr><tr><td>Asia</td><td>106,216</td><td>87,357</td></tr><tr><td>Total</td><td>$ 1,115,862</td><td>$ 895,429</td></tr></table>

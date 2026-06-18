@@ -1,0 +1,68 @@
+[
+  {
+    "table_id": "table_1",
+    "status": "failed",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\"rows\":[[\"Treatments of Cryptocurrency\",\"Jurisdiction(s)\"],[\"investment property\",\"Denmark, Norway, Finland\"],[\"capital asset\",\"Australia\"],[\"financial instrument\",\"Germany\"],[\"intangible asset\",\"Luxembourg, Switzerland\"],[\"intangible property\",\"Singapore\"],[\"investment capital\",\"Sweden\"],[\"property\",\"New Zealand\"],[\"financial asset\",\"Venezuela\"],[\"commodity\",\"Canada\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "LLM repair returned empty/non-table JSON",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\n  \"table_data\": [\n    [\"Treatments of Cryptocurrency\", \"Jurisdiction(s)\"],\n    [\"investment property\", \"Denmark, Norway, Finland\"],\n    [\"capital asset\", \"Australia\"],\n    [\"financial instrument\", \"Germany\"],\n    [\"intangible asset\", \"Luxembourg, Switzerland\"],\n    [\"intangible property\", \"Singapore\"],\n    [\"investment capital\", \"Sweden\"],\n    [\"property\", \"New Zealand\"],\n    [\"financial asset\", \"Venezuela\"],\n    [\"commodity\", \"Canada\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_2",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": [[\"ISOCode\", \"Country\"], [\"AR\", \"Argentina\"], [\"AU\", \"Australia\"], [\"BR\", \"Brazil\"], [\"CA\", \"Canada\"], [\"CL\", \"Chile\"], [\"CO\", \"Colombia\"], [\"DK\", \"Denmark\"], [\"FI\", \"Finland\"], [\"FR\", \"France\"], [\"DE\", \"Germany\"], [\"GI\", \"Gibraltar\"], [\"IN\", \"India\"], [\"IE\", \"Ireland\"], [\"IL\", \"Israel\"], [\"IT\", \"Italy\"], [\"JP\", \"Japan\"], [\"JE\", \"Jersey\"], [\"KE\", \"Kenya\"], [\"LU\", \"Luxembourg\"], [\"MT\", \"Malta\"], [\"NZ\", \"New Zealand\"], [\"NO\", \"Norway\"], [\"RU\", \"Russia\"], [\"SG\", \"Singapore\"], [\"ZA\", \"South Africa\"], [\"ES\", \"Spain\"], [\"SE\", \"Sweden\"], [\"CH\", \"Switzerland\"], [\"TR\", \"Turkey\"], [\"UK\", \"UnitedKingdom\"], [\"VE\", \"Venezuela\"]]}"
+      }
+    ]
+  }
+]

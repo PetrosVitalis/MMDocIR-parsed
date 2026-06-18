@@ -1,0 +1,109 @@
+[
+  {
+    "table_id": "table_1",
+    "status": "success",
+    "method": "llm_from_table",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "{\"rows\":[[\"Feature\",\"Description\"],[\"Ambient light sensor\",\"Theambient light sensor adjusts the illminated keyboard according to the availablelight in your operating environment.\"],[\"Built-in iSight camera and camera indicator light\",\"Videoconference with others using iChat AV, snap pictures with Photo Booth,or capturevideo with iMovie.The indicator light glows green when the iSight camera is operating.\"],[\"Built-in microphone\",\"Capture sounds directly with the microphone (located to the right of the iSight camera)or talk with friends live using the included iChat AV application.\"],[\"Built-in mono speaker\",\"Listen to music, movies,games,and multimedia files.\"],[\"Built-in rechargeable battery\",\"Run your MacBook Air using battery power when you are away from a power outlet.\"],[\"Trackpad and trackpad button\",\"Move the pointer, click,double-click,scroll,zoom,and more,using one or more fingerson the trackpad.For details,see &quot;Using the Trackpad and Keyboard&quot;on page 32.\"],[\"Sleep indicator light\",\"A white light pulses when your MacBook Air is in sleep.\"],[\"Built-in infrared (IR) receiver\",\"Usean optional Apple Remote (sold separately at www.apple.com/store) with theIR receiver to control Front Row and Keynote on your MacBook Air.\"],[\"G    Power button\",\"Turn your MacBook Air on or off,or put it to sleep.Pressand hold to restart yourMacBook Air during troubleshooting.\"]]}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_2",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_3",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_4",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_5",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_6",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  }
+]

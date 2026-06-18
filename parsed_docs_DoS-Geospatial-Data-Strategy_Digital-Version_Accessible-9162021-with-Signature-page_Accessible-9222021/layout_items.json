@@ -1,0 +1,2312 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.031,
+      0.431,
+      0.049,
+      0.566
+    ],
+    "text": "UNCLASSIFIED",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-2",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.117,
+      0.328,
+      0.405,
+      0.7
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.186,
+      0.526,
+      0.812
+    ],
+    "text": "United States Department of State",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.302,
+      0.683,
+      0.694
+    ],
+    "text": "Geospatial Data Strategy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.949,
+      0.431,
+      0.967,
+      0.566
+    ],
+    "text": "UNCLASSIFIED",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.111,
+      0.895,
+      0.887
+    ],
+    "text": "Table of Contents   \nGeospatial Data Strategy ... 1   \nIntroduction ....... .. 4   \nOverview 4   \nSummary of Strategic Goals and Objectives ........ .... 6   \nImplementation Approach . .. 8   \nReporting Responsibilities .. .... 8   \nBackground ..... ..... 9   \nGeospatial Data (Definition) ... ... 9   \nThe Geospatial Data Act (GDA) of 2018 ..... ..... 10   \nGeospatial Strategy Planning Approach..... .... 11   \nSummary of Department of State Geospatial Programs.. .. 11   \nAlignment with U.S. Federal Government and Department Strategic Plans ........ ........... 12   \nAlignment of DoS Geospatial Data Strategy with the National Spatial Data Infrastructure (NSDI)   \nStrategic Plan .... ... 14   \nResourcing 14   \nStrategic Goals and Objectives ..... ... 17   \nGeospatial Data Strategy Goals and O",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.111,
+      0.116,
+      0.279
+    ],
+    "text": "Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.111,
+      0.261,
+      0.883
+    ],
+    "text": "The U.S. Department of State (“Department”) recognizes the critical role that geospatial data play in achieving Department goals. Geospatial data allow the Department to visualize and analyze geographic features of interest, map geopolitical relationships, and disseminate locationspecific information to enhance the Department’s mission capabilities to make data-driven policy decisions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.111,
+      0.429,
+      0.867
+    ],
+    "text": "The primary purpose of the Geospatial Data Strategy (GDS, “the Strategy”) is to establish actionable goals and objectives that will expand the effective use of geospatial data and technologies to support the Department’s varied missions over a three-year (3-year) initial time horizon. This document will serve as the first iteration of the GDS and will be implemented through a coordinated and iterative process. Official versions of the GDS will be reviewed for approval at a minimum of every three (3) years from the publication date.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.111,
+      0.597,
+      0.872
+    ],
+    "text": "The State Department Geographer, resident in the Bureau of Intelligence and Research (INR), also serves as the OMB-mandated Senior Agency Official for Geospatial Information (SAOGI). In this capacity, the SAOGI is the formal representative of the Department to the Steering Committee of the Federal Geographic Data Committee (FGDC). The SAOGI leads the GDS and other GDA efforts, working in coordination with the Chief Data Officer (CDO), Chief Information Officer (CIO), and various geospatial stakeholders across the Department.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.111,
+      0.647,
+      0.228
+    ],
+    "text": "Overview",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.666,
+      0.111,
+      0.819,
+      0.872
+    ],
+    "text": "The U.S. Department of State (“Department”) is the lead U.S. foreign affairs agency within the Executive Branch and the lead institution to conduct American diplomacy.1 Its mission of promoting and demonstrating democratic values and advancing a free, peaceful, and prosperous world on behalf of the American people is supported by a broad range of rich and expressive data assets, including geospatial data. Geospatial data represent natural features and cultural phenomena (i.e., human activities) tied to specific locations on the earth. Geospatial data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.109,
+      0.137,
+      0.874
+    ],
+    "text": "provide critical information that enable analysis by a wide variety of Department constituents in support of foreign policy decision-making.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.151,
+      0.111,
+      0.357,
+      0.88
+    ],
+    "text": "On October 5, 2018, the President signed the Geospatial Data Act (GDA)2 into law. The GDA reflects growing recognition of the essential role of geospatial data and technology in government and society, and it highlights the need to support the continuing development and application of geospatial capabilities as critical infrastructure. The GDA identifies the Department of State as a Covered Agency (CA), meaning the Department is subject to compliance with the thirteen (13) responsibilities specified in Section 759(a) of the GDA. These responsibilities are broad in scope and require action from stakeholders with geospatial data equities across the Department. This GDS fulfills the first of the thirteen responsibilities:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.371,
+      0.169,
+      0.472,
+      0.818
+    ],
+    "text": "“prepare, maintain, publish, and implement a strategy for advancing geographic information and related geospatial data and activities appropriate to the Department’s mission, and in support of the strategic plan for the National Spatial Data Infrastructure (NSDI).”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.486,
+      0.111,
+      0.559,
+      0.857
+    ],
+    "text": "The format and contents of this GDS complies with Congressional guidance dictating specific content and Department strategic planning policies.3 Additionally, the GDS aligns with the following documents and legislation:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.14,
+      0.619,
+      0.875
+    ],
+    "text": " The Open, Public, Electronic, and Necessary Government Data Act (OPEN Government Data Act),4",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.14,
+      0.646,
+      0.838
+    ],
+    "text": " The Foundations for Evidence-Based Policymaking Act of 2018 (\"Evidence Act\"),5",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.14,
+      0.672,
+      0.418
+    ],
+    "text": " Federal Data Strategy (FDS),6",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.678,
+      0.14,
+      0.698,
+      0.65
+    ],
+    "text": " National Spatial Data Infrastructure (NSDI) Strategic Plan,7",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.704,
+      0.14,
+      0.724,
+      0.584
+    ],
+    "text": " Office of Management and Budget Circular A–16,8",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.14,
+      0.109,
+      0.781
+    ],
+    "text": " U.S. Department of State-USAID, Joint Strategic Plan FY2018-2022 (JSP),9",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.116,
+      0.14,
+      0.136,
+      0.63
+    ],
+    "text": " U.S. Department of State Enterprise Data Strategy (EDS)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.111,
+      0.199,
+      0.872
+    ],
+    "text": "These guiding documents emphasize the importance of using a data-driven approach to develop the mandated strategies.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.214,
+      0.109,
+      0.392,
+      0.882
+    ],
+    "text": "Accordingly, in late 2020, the SAOGI conducted Department-wide surveys to create a repeatable GDA reporting structure to gather both baseline metrics and qualitative input to formulate the GDS. The initial survey responses spanned fourteen (14) Department bureaus and offices and are referenced in more detail in Annex A: Geospatial Data Act Working Group (GDAWG) 2020 Survey Results. These inputs also inform the Department’s annual GDA reporting requirements, as well as respond to recommendations from the Department’s Office of the Inspector General (OIG).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.421,
+      0.111,
+      0.445,
+      0.609
+    ],
+    "text": "Summary of Strategic Goals and Objectives",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.463,
+      0.109,
+      0.667,
+      0.875
+    ],
+    "text": "The purpose of the GDS is to establish a more effective, evidence-based pursuit of U.S. foreign policy and national security interests through the generation, use, and good stewardship of geospatial data. GDS goals and objectives are directly related to requirements mandated within the GDA, while also strengthening and optimizing the efficient coordination and coherence of geospatial data management both within and outside of the Department. The GDS provides a foundational roadmap for maturing the generation, use, and stewardship of geospatial data and related technologies in the Department by achieving the strategic goals and objectives described in Table 1 below and in greater detail throughout Section 4 (Strategic Goals and Objectives).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.114,
+      0.114,
+      0.272,
+      0.879
+    ],
+    "text": "Table 1: Strategic Goal 1: Increase Geospatial Data Sharing and Accessibility",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:table-2",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.328,
+      0.114,
+      0.454,
+      0.879
+    ],
+    "text": "Table 2: Strategic Goal 2: Ensure Reliable Geospatial Data and Tools for Visualization and Analysis",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:table-3",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_2.jpg",
+    "bbox_norm": [
+      0.526,
+      0.114,
+      0.681,
+      0.88
+    ],
+    "text": "Table 3: Strategic Goal 3: Develop Foundational Geospatial Data Awareness to Promote a Sustained Geospatial Workforce",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:table-4",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_3.jpg",
+    "bbox_norm": [
+      0.741,
+      0.114,
+      0.883,
+      0.879
+    ],
+    "text": "Table 4: Strategic Goal 4: Develop a Repeatable Geospatial Data Reporting Structure to Meet All Statutory and Policy Requirements of the Geospatial Data Act (GDA) of 2018 Table 1-4: GDS Strategic Goals and Objectives",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.112,
+      0.114,
+      0.416
+    ],
+    "text": "Implementation Approach",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.132,
+      0.111,
+      0.39,
+      0.88
+    ],
+    "text": "Achieving full compliance with the GDA is a vast undertaking requiring cooperation and coordination of all Department geospatial stakeholders over the course of several years. On November 18, 2020, the Enterprise Data Council (EDC) approved the charter for a Departmental working group called the Geospatial Data Act Working Group (GDAWG). Under the auspices of the EDC, the GDAWG helps coordinate and compile the Department’s annual reporting specified in the GDA. The GDAWG brings together the Department’s technical and managerial leaders from entities with geospatial data or programs to develop processes and continually monitor progress toward achieving GDS goals and objectives. It is important to recognize that GDA compliance is an ongoing process with multiple organizational components and",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.404,
+      0.111,
+      0.45,
+      0.882
+    ],
+    "text": "More descriptive information and discussion on the implementation of GDS goals and objectives may be found in the forthcoming Annex B: Implementation Roadmap.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.112,
+      0.503,
+      0.413
+    ],
+    "text": "Reporting Responsibilities",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.522,
+      0.111,
+      0.647,
+      0.88
+    ],
+    "text": "The GDA requires the Department to report evidence of progress on the thirteen (13) GDAmandated responsibilities on an annual basis by recurrently producing the necessary artifacts (i.e., Covered Agency Report, Lead Covered Agency Report, Report to Congress) on a timeline created and maintained by the authorizing interagency body, the FGDC. A GDA-mandated OIG audit of progress every two (2) years will monitor the Department’s compliance with the law.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.111,
+      0.892,
+      0.867
+    ],
+    "text": "The GDA tasks the FGDC, under the direction and leadership from the U.S. Department of the Interior, with primary responsibility for implementing the NSDI. The National Geospatial Advisory Committee (NGAC) has been established to provide advice and recommendations on how the GDA is to be implemented. Fifteen (15) “covered agencies (CAs)” contribute to fulfilling the GDA. These agencies collect, produce, acquire, maintain, distribute, use, or preserve geospatial data on paper or in electronic form to fulfill the mission of the respective Executive department, either directly or through a relationship with another organization. The U.S. Department of State is one such CA under the GDA. Additionally, the Department qualifies as a Lead Covered Agency (LCA) through its management of the Interna",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.111,
+      0.217,
+      0.877
+    ],
+    "text": "Boundaries theme and Large Scale International Boundaries (LSIB) dataset, considered a National Geospatial Data Asset (NGDA) within the NSDI. The CA and LCA statuses require Department compliance with responsibilities covered under GDA Sections 759(a) and 756(b)(3) respectively; more descriptive information and discussion on the Department’s responsibilities for compliance may be found within forthcoming Annex C, GDA Roles and Responsibilities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.112,
+      0.279,
+      0.276
+    ],
+    "text": "Background",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.297,
+      0.111,
+      0.422,
+      0.856
+    ],
+    "text": "This GDS is statutorily mandated as part of the GDA and is also linked to the Department’s Enterprise Data Strategy. The GDS establishes actionable goals and objectives expanding the effective use of geospatial data and technologies to support both Departmental and NSDI strategic goals. The following subsections briefly introduce the concept of geospatial data as related to the GDA.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.112,
+      0.477,
+      0.434
+    ],
+    "text": "Geospatial Data (Definition)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.494,
+      0.111,
+      0.645,
+      0.867
+    ],
+    "text": "All things happen somewhere. In today’s data-driven society and economy, people and organizations benefit on a daily basis, often unknowingly, from location-based information and services. Geospatial information is a critical component of the national infrastructure and economy because it provides the means to integrate a wide variety of data and services that contribute to public health, national security, environmental sustainability, and national prosperity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.66,
+      0.112,
+      0.679,
+      0.403
+    ],
+    "text": "The GDA defines geospatial data as",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.14,
+      0.795,
+      0.88
+    ],
+    "text": "A. information that is tied to a location on the Earth, including by identifying the geographic location and characteristics of natural or constructed features and boundaries on the Earth, and that is generally represented in vector datasets by points, lines, polygons, or other complex geographic features or phenomena;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.801,
+      0.142,
+      0.847,
+      0.831
+    ],
+    "text": "B. may be derived from, among other things, remote sensing, mapping, and surveying technologies;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.14,
+      0.136,
+      0.848
+    ],
+    "text": "C. includes images and raster datasets, aerial photographs, and other forms of geospatial data or datasets in digitized or non-digitized form10.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.111,
+      0.226,
+      0.883
+    ],
+    "text": "In addition, section 2801(5)(D) of the GDA defines data and activities that are not covered by the GDA. More descriptive information and discussion on geospatial data may be found in Annex A, Geospatial Data Act Working Group (GDAWG) 2020 Survey Results.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.112,
+      0.279,
+      0.566
+    ],
+    "text": "The Geospatial Data Act (GDA) of 2018",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.111,
+      0.42,
+      0.87
+    ],
+    "text": "Congress enacted the GDA to improve collaboration across agencies, improve efficiency of operations and decision-making, increase transparency, and provide oversight of the Federal government’s investments in geospatial data. The GDA relies on the foundation laid by the National Spatial Data Infrastructure (NSDI).11 Initially envisioned in the early 1990s, the NSDI is defined as",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.168,
+      0.535,
+      0.815
+    ],
+    "text": "...the technology, policies, criteria, standards, and employees necessary to promote geospatial data sharing throughout the Federal, State, Tribal, and local governments, and the private sector (including nonprofit organizations and institutions of higher education)12.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.111,
+      0.729,
+      0.879
+    ],
+    "text": "The GDA codifies the committees, processes, and tools used to develop, drive, and manage the NSDI and recognizes inputs and responsibilities beyond the Federal government for its development. The GDA formalizes governance processes related to geospatial data, provides policy and guidance to empower the use of geospatial data and technology, and facilitates broad cooperation between the public and private sectors. Geospatial data and technology allow organizations and government at all levels to be more efficient and effective in addressing issues of national interest.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.111,
+      0.119,
+      0.62
+    ],
+    "text": "Geospatial Strategy Planning Approach",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.111,
+      0.42,
+      0.88
+    ],
+    "text": "In the spirit of enterprise collaboration, leveraging existing efforts, and evidence-based decision making, the Department SAOGI surveyed GDAWG participants about their current geospatial programs, data, and activities to help drive the creation of the GDS. The GDAWG survey was opened for responses from stakeholders with geospatial data equities across all Department entities from December 2020 through January 2021. The survey’s results were assessed and summarized into baseline metrics and informational input for formulating the GDS and to ensure alignment with aforementioned guiding documents in Section 1.1 (Overview). More descriptive information and discussion of the survey and its results may be found in Annex A, Geospatial Data Act Working Group (GDAWG) 2020 Survey Results. The Depar",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.111,
+      0.473,
+      0.735
+    ],
+    "text": "Summary of Department of State Geospatial Programs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.111,
+      0.588,
+      0.882
+    ],
+    "text": "The U.S. Department of State turned to the GDAWG to report the size, scope, and complexity of geospatial programs, data, and activities supporting the Department’s missions. Below is a list of Department bureaus and offices that provided information regarding their use of geospatial data and technologies, and that will work together to implement the GDS goals and objectives:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.14,
+      0.622,
+      0.666
+    ],
+    "text": " Bureau of Arms Control, Verification and Compliance (AVC)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.14,
+      0.648,
+      0.468
+    ],
+    "text": " Bureau of Budget and Planning (BP)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.656,
+      0.142,
+      0.674,
+      0.439
+    ],
+    "text": " Bureau of Consular Affairs (CA)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-8",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.683,
+      0.14,
+      0.7,
+      0.611
+    ],
+    "text": " Bureau of Conflict and Stabilization Operations (CSO)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-9",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.708,
+      0.142,
+      0.727,
+      0.464
+    ],
+    "text": " Bureau of Diplomatic Security (DS)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-10",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.142,
+      0.752,
+      0.419
+    ],
+    "text": " Foreign Service Institute (FSI)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.761,
+      0.142,
+      0.779,
+      0.539
+    ],
+    "text": " Bureau of Global Talent Management (GTM)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-12",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.786,
+      0.142,
+      0.805,
+      0.516
+    ],
+    "text": " Bureau of Intelligence and Research (INR)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-13",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.142,
+      0.832,
+      0.602
+    ],
+    "text": " Office of Management Strategy and Solutions (M/SS)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-14",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.142,
+      0.858,
+      0.565
+    ],
+    "text": " Bureau of Overseas Buildings Operations (OBO)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-15",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.866,
+      0.142,
+      0.883,
+      0.808
+    ],
+    "text": " Bureau of Oceans and International Environmental and Scientific Affairs (OES)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.14,
+      0.109,
+      0.475
+    ],
+    "text": " Office of U.S. Foreign Assistance (F)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.116,
+      0.14,
+      0.135,
+      0.454
+    ],
+    "text": " Office of Foreign Missions (OFM)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.14,
+      0.161,
+      0.452
+    ],
+    "text": " Office of the Secretary of State (S)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.111,
+      0.224,
+      0.867
+    ],
+    "text": "A review of the GDAWG survey results identified a list of themes characterizing the main uses of geospatial data and technologies:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.14,
+      0.261,
+      0.542
+    ],
+    "text": " Decision-making based on geospatial analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.14,
+      0.286,
+      0.549
+    ],
+    "text": " Management of mission workflows & logistics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.292,
+      0.14,
+      0.313,
+      0.673
+    ],
+    "text": " Visualization/awareness/communication of geographic context",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.142,
+      0.338,
+      0.437
+    ],
+    "text": " Monitoring & tracking resources",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.109,
+      0.402,
+      0.877
+    ],
+    "text": "More descriptive information and discussion of the survey and its results may be found in Annex A, Geospatial Data Act Working Group (GDAWG) 2020 Survey Results.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-10",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.431,
+      0.111,
+      0.489,
+      0.882
+    ],
+    "text": "Alignment with U.S. Federal Government and Department Strategic Plans",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-11",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.507,
+      0.109,
+      0.66,
+      0.879
+    ],
+    "text": "The Federal Data Strategy (FDS)13, produced in 2020, aims to fully leverage the value of federal data for mission, service, and the public good by guiding the Federal Government in practicing ethical governance, conscious design, and a learning culture. The FDS 2020 Action Plan specifically calls for integrating geospatial data practices into its strategy by leveraging the guidance set forth in the implementation of the GDA. The Department’s GDS serves as a conduit designed to link GDA requirements to the FDS Action Plan.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-12",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.109,
+      0.828,
+      0.883
+    ],
+    "text": "The GDS supports the Department’s core mission and operations, including alignment with goals and objectives specified in the State-USAID FY 2018-2022 Joint Strategic Plan (JSP).14 In particular, the GDS advances JSP Strategic Objective 4.2 (i.e., “Provide modern and secure infrastructure and operational capabilities to support effective diplomacy and development”) with multiple strategic goals expanding collaboration tools, improving IT and data governance processes, and adopting interoperable standards. By supporting the advancement of Department enterprise operations across all domains, GDS implementation empowers the Department toward meeting its strategic goals through the effective and efficient use of geospatial data.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.154,
+      0.111,
+      0.435,
+      0.879
+    ],
+    "text": "The Department aims to achieve ‘Data-Informed Diplomacy’ as a FY 2020-2021 Agency Priority Goal (APG) by advancing an enterprise data and analytics capability that enables crossfunctional continuous insights, timely and transparent reporting, and evidence-based decisionmaking.15 The Department’s APG Action Plan describes the alignment and augmentation of a data and analytics cadre that can harness data and apply cutting-edge analytics processes to foreign policy and operational challenges. The ‘Data-Informed Diplomacy’ initiative, led by the CDO, fulfills the requirements of the FDS to include building the first Department Enterprise Data Strategy (EDS) and Data Catalog. The Department’s CDO also chairs its Enterprise Data Council (EDC), comprised of representatives from across the Departm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.45,
+      0.168,
+      0.523,
+      0.812
+    ],
+    "text": "Data is a critical instrument of diplomacy, the Department’s global workforce is empowered with the skills and tools to derive actionable mission insights from data, and its data assets are securely shared and effectively managed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.539,
+      0.109,
+      0.796,
+      0.88
+    ],
+    "text": "The Department has further highlighted the importance of data in advancing U.S. foreign policy through the FY 2020-2021 ‘Data-Informed Diplomacy’ APG. Through the APG, the Department measures progress towards an enterprise data and analytics capability that enables cross-functional continuous insights, timely and transparent reporting, and evidence-based decision-making.16 In alignment with this initiative, the GDS supports the goals and objectives described in the EDS. Because geospatial data is a subset of the Department’s wider data landscape, many of the broader goals of transforming the State Department into a “data-centric organization” similarly apply to geospatial data. While some of the technological and analytical requirements of geospatial data require unique consideration, the ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.111,
+      0.151,
+      0.805
+    ],
+    "text": "Alignment of DoS Geospatial Data Strategy with the National Spatial Data Infrastructure (NSDI) Strategic Plan",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.167,
+      0.111,
+      0.318,
+      0.869
+    ],
+    "text": "The NSDI is the foundation upon which national geospatial strategies are built (background on the NSDI is included in Section 2.2). The GDA states that the NSDI “shall ensure that geospatial data from multiple sources are available and easily integrated to enhance the understanding of the physical and cultural world” (Section 2804(a)). The NSDI Strategic Plan, published in November 2020, covers the years 2021-2024, and consists of four (4) strategic goals:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.334,
+      0.142,
+      0.38,
+      0.833
+    ],
+    "text": "1. Goal 1—Implement the National Geospatial Policy and Governance Framework as Defined by the Geospatial Data Act and Related Statutes and Policies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.386,
+      0.14,
+      0.458,
+      0.88
+    ],
+    "text": "2. Goal 2—Advance the Maturity of, Accelerate the Acquisition of, and Expand the Sources of National Geospatial Data Assets (NGDA) To Ensure That They Are Findable, Accessible, Interoperable, and Reusable",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.14,
+      0.51,
+      0.854
+    ],
+    "text": "3. Goal 3—Ensure Open Standards-Based Interoperability To Enable Geospatial Shared Services",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.14,
+      0.563,
+      0.831
+    ],
+    "text": "4. Goal 4—Enable and Promote Collaborative Governance and Partnerships To Meet National Needs, Priorities, and Circumstances",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.111,
+      0.676,
+      0.877
+    ],
+    "text": "The Department’s GDS deliberately integrates each of the NSDI goals to contribute to a government-wide effort to implement the NSDI Strategic Plan. Appendix B includes Crosswalk Table 2 that explicitly maps how each of the GDS goals and objectives align with those of the NSDI.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.708,
+      0.112,
+      0.731,
+      0.246
+    ],
+    "text": "Resourcing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-9",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.111,
+      0.902,
+      0.888
+    ],
+    "text": "The Department is committed to ensuring effectiveness and accountability to the American taxpayer in its operations. Section 759(a)(5) of the GDA mandates the Department “allocate resources to fulfill the responsibilities of effective geospatial data collection, production, and stewardship with regard to related activities of the covered agency, and as necessary to support the activities of the [FGDC] Committee.” GDAWG participants noted a lack of funding for geospatial data initiatives (i.e., hiring, support, acquisition/purchasing, etc.) as well as a degree of deficient understanding of analytical techniques and/or understanding of data management tradecraft as major challenges to effective geospatial data stewardship and application. Having identified these issues across existing Depart",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.111,
+      0.409,
+      0.883
+    ],
+    "text": "INR employs temporary contract support staff in FY 2020 and FY 2021 in support of the SAOGI to lead the development of the GDS and successful execution of actions towards GDA compliance. While the initial funding for the Department’s compliance to the GDA was provided from INR’s base budget, the Department will identify and advocate for additional resources in FY 2022 and beyond. The additional funding will directly support the Department’s implementation of the GDS goals and objectives and its contributions to agency- and federallevel efforts on this topic.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.111,
+      0.489,
+      0.815
+    ],
+    "text": "Developing Building Blocks for Success: Technology, Process, and Culture",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.506,
+      0.111,
+      0.684,
+      0.877
+    ],
+    "text": "To maximize the Department’s investments in geospatial technology, the Department must implement modern workflows and cultivate a Department-wide data-centric culture that keeps pace with evolving technology. The advancement of workflow processes and methodologies for creating dynamic geospatial products (e.g. persistent web applications for decision support, interactive data visualizations, etc.) introduces new workflow processes, many borrowed from software development, that build upon and enhance the traditional cartographic workflows that accompany static map products (e.g. printed maps, static PDFs, etc.). Key considerations are:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.698,
+      0.14,
+      0.876,
+      0.883
+    ],
+    "text": " Product design research: Ensuring that the geospatial product’s design meets the requirements of the intended audience by accounting for human behavior, information architecture, optimized user-experience, and clear and compelling visualization. Product design research informs the business processes for creation, and as a best practice, instills user-centric activities over the full lifecycle of development methodologies (i.e., Agile, DevSecOps, etc.). More information can be found on the topic of user-driven business requirements within ‘Understand what people need’ in the Federal CIO’s Digital Services",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.168,
+      0.136,
+      0.862
+    ],
+    "text": "Playbook,17 and the Stages of the Geospatial Data Lifecycle pursuant to OMB Circular A–16, sections 8(e)(d), 8(e)(f), and 8(e)(g).18",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.14,
+      0.319,
+      0.883
+    ],
+    "text": " Use of Agile methodologies for delivery of software products: With the creation of dynamic geospatial applications comes the need to “manage [product development] using agile and DevOps methodologies with incremental and phased implementations to include high levels of visibility. This will reduce risk, encourage innovation, and allow for ongoing transparency and oversight.”19 More information can be found within ‘Build the service using agile and iterative practices’ in the Federal CIO’s Digital Services Playbook.20",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.325,
+      0.14,
+      0.53,
+      0.88
+    ],
+    "text": " Use of modern geospatial infrastructure architectures: As more geospatial information products are created, there is a need to more easily share both products and data and make them persistently accessible to users. Best practices include moving operations, data, and software to the cloud using professionals astute with utilizing cloud technologies, configuring technology stacks that transcend any one particular project or application (i.e., platform), and the set-up of cloud-native architectures that are performant, effective, and cost-efficient. More information can also be found in ‘Choose a modern technology stack’ in the Federal CIO’s Digital Services Playbook. 21",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.109,
+      0.671,
+      0.861
+    ],
+    "text": "As the Department continues to transform itself to effectively use modern technologies to harness increasing volumes of more complex geospatial data, it is paramount to recognize key developments needed to mature the workforce, workflow processes, and culture. The Department will focus attention and resources, as available, to support the above areas, which will also result in achieving the GDS goals and objectives (see next section).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.111,
+      0.118,
+      0.508
+    ],
+    "text": "Strategic Goals and Objectives",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.136,
+      0.111,
+      0.287,
+      0.879
+    ],
+    "text": "The following paragraphs align with the GDS goals identified in Table 1 of Section 1.2 (“Summary of Strategic Goals and Objectives”). Each of the four strategic goals is listed, along with its desired results specified as subordinate objectives. This serves as a logical framework that links GDS goals and objectives with the aforementioned guiding documents in Section 1.1 (“Overview”) and in certain cases cross-walked with relevant strategies listed in Appendix B (“Crosswalk Tables”).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.325,
+      0.111,
+      0.353,
+      0.709
+    ],
+    "text": "Geospatial Data Strategy Goals and Objectives",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.111,
+      0.411,
+      0.862
+    ],
+    "text": "Strategic Goal 1: Increase geospatial data sharing and accessibility",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.428,
+      0.111,
+      0.659,
+      0.885
+    ],
+    "text": "For the Department’s workforce to realize the full potential value of geospatial data, it must be able to securely and easily access (i.e., retrieve, modify, copy, transmit, etc.) geospatial data from within its IT systems and be empowered to share and collaborate as approved and authenticated by the organization. By enabling the Department’s geospatial data with matured platforms, technologies, standards, and operational guidance, the global workforce can better manage its geospatial data to support the Department’s missions more reliably, faster, and with higher quality analytical products. The following four objectives from Strategic Goal 1 are fundamental to increasing data sharing and accessibility across the Department and among broader geospatial communities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.111,
+      0.739,
+      0.826
+    ],
+    "text": "Objective 1A: Improve geospatial data discovery and collaboration across internal and external geospatial catalogs and platforms",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-7",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.755,
+      0.111,
+      0.906,
+      0.856
+    ],
+    "text": "The Department currently employs various software platforms and network domains to drive data discovery and collaboration and strives to integrate systems where appropriate. The Department has instantiated a Department-wide enterprise GIS on the OpenNet domain called “GeoState.” Operated and maintained by the Center for Analytics (CfA) in the Bureau of Management/Office of Management Strategy and Solutions (M/SS), with significant support from IRM, GeoState provides tools for mapping, visualization, analytics, and geospatial data management. Authorized users across the Department can make use of GeoState to discover data, publish and steward geospatial data services, create maps, and run geospatial applications. GeoState is intended to support internal operations, authorized for Sensitive ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.204,
+      0.111,
+      0.33,
+      0.885
+    ],
+    "text": "The Instability Monitoring & Analysis Program (“IMAP”) is an additional enclave authorized for SBU data on OpenNet and is owned and operated by the bureau of Conflict and Stabilization Operations (CSO). IMAP serves as an enterprise GIS supporting interagency access and collaboration using evidence-based analysis to visualize conflicts, predict outcomes, identify gaps, outline priorities, and allocate resources.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.345,
+      0.111,
+      0.577,
+      0.882
+    ],
+    "text": "Externally, the Department benefits from and supports the GeoPlatform,22 which provides access to geospatial data themes and metadata for use by U.S. agencies, partners, and the public. As statutorily mandated by the GDA, the FGDC maintains and operates the GeoPlatform to support geospatial shared services. As a contributor of data, the Department is required to leverage the GeoPlatform to make its LSIB dataset available and more discoverable. Beyond the GeoPlatform, individual elements of the Department should consider publishing their data and products to domain-specific external platforms, where appropriate. For example, INR publishes data to the United Nation’s Humanitarian Data Exchange to work more directly with the humanitarian sector.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.111,
+      0.848,
+      0.882
+    ],
+    "text": "As geospatial technologies continue to evolve rapidly, the Department will proportionally adjust its technology footprint with new tools and platforms to enable new capabilities. Web services, formatted as open standards, will be key to data federation across platforms, as will the use of open standards for data discovery and search. Building interconnectivity between different systems will allow users to discover and use data more easily across system boundaries and will help reduce duplication of data collection efforts and storage. Collaboration networks allow data producers to expand the reach of their data, fostering engagement and communication, while minimizing data management costs. In implementing this objective, the Department will preserve control over data and workflows, while ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.111,
+      0.143,
+      0.825
+    ],
+    "text": "Objective 1B: Promote interoperability by employing international geospatial data standards",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.159,
+      0.111,
+      0.494,
+      0.882
+    ],
+    "text": "This objective will define the implementation of geospatial data standards (e.g., file formats, web services, data discovery, metadata, etc.) that are broadly understood and used to describe, ingest, record, and format data. The implementation of standards is in accordance with Objective 3.3 of the Department’s EDS (i.e., “Define and Implement Data Standards”). Adopting widely accepted international standards for the Department’s use will help set the stage for internal interoperability between systems throughout bureaus as well as broader geospatial communities. There are a series of international standards, developed by the International Organization for Standardization (ISO) and the Open Geospatial Consortium (OGC) that can help the Department structure its geospatial formats, databases",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.522,
+      0.111,
+      0.575,
+      0.781
+    ],
+    "text": "Objective 1C: Implement formal data governance and lifecycle management of geospatial data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-4",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.589,
+      0.111,
+      0.767,
+      0.877
+    ],
+    "text": "The Department will take iterative strides towards maturing its geospatial data and leveraging resources and frameworks for assessments, guidance, and implementation, such as the FDS, the OMB Circular A-16, and Department’s EDS respectively. Per the guidance provided in the FDS Maturity Assessment Guide, the Department will use available Data Maturity Assessment Tools to better understand the level of maturity, data quality, and the state of maturity levels corresponding to OMB guidance. The Department will assess the following key elements to better understand the state of data governance requirements:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-5",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.784,
+      0.142,
+      0.803,
+      0.287
+    ],
+    "text": " Data Strategy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-6",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.142,
+      0.827,
+      0.343
+    ],
+    "text": " Privacy and Security",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-7",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.142,
+      0.853,
+      0.32
+    ],
+    "text": " Data Architecture",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-8",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.861,
+      0.142,
+      0.88,
+      0.281
+    ],
+    "text": " Data Quality",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-9",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.887,
+      0.142,
+      0.906,
+      0.359
+    ],
+    "text": " Metadata Management",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.14,
+      0.109,
+      0.352
+    ],
+    "text": " Records Management",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.127,
+      0.109,
+      0.252,
+      0.883
+    ],
+    "text": "To improve the geospatial data lifecycle common to most datasets, the Department will leverage guidance provided in the “Stages of the Geospatial Data Lifecycle” pursuant to OMB Circular A–16, sections 8(e)(d), 8(e)(f), and 8(e)(g). Additionally, as this objective aligns with Goal 4 of the Department’s EDS (i.e., “Enhance Enterprise Data Governance”), geospatial data governance will be implemented within the framework established under the EDS.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.28,
+      0.111,
+      0.333,
+      0.861
+    ],
+    "text": "Objective 1D: Improve the quality and the speed of geospatial support services delivery",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.111,
+      0.632,
+      0.879
+    ],
+    "text": "The GIS industry is perpetually evolving at a rapid pace to enable geospatial practitioners to spatially enable analytics and support the FY 2020-2021 ‘Data-Informed Diplomacy’ APG. The Department seeks to leverage GIS industry innovations and increase the accessibility of geospatial datasets and analytical capabilities through use of modern technology infrastructures and applications. Best practices include use of web-centric architectures making it easy for stakeholders throughout the Department to discover, use, create, and share maps and geospatial information through network domains. The Department strives to design and develop multiple platforms to be flexible and offer shared geospatial capabilities through a variety of contemporary implementation approaches. Using enterprise GIS te",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.66,
+      0.111,
+      0.718,
+      0.807
+    ],
+    "text": "Strategic Goal 2: Ensure reliable geospatial data and tools for visualization and analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-6",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.109,
+      0.888,
+      0.877
+    ],
+    "text": "As a fundamental challenge, the Department’s geospatial practitioners consistently struggle to prepare, analyze, and generate timely analytical insights. Building data capabilities is a constant process as data developers continually adapt to changing requirements and faster timelines from policymakers. To meet growing demands, the Department must cultivate a capable, modern, and technology-fluent workforce equipped with the appropriate geospatial technology, data, and policies to ensure and communicate trustworthy and accurate analytical output.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.111,
+      0.151,
+      0.79
+    ],
+    "text": "Objective 2A: Encourage best practices for the creation, collection, and structuring of geospatial data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.167,
+      0.111,
+      0.582,
+      0.882
+    ],
+    "text": "As advanced geospatial analysis tools become more user-friendly and widespread, one major challenge that remains for practitioners is to structure and manage data in an analysis-ready state. Oftentimes this can be a manually intensive process of cleaning, structuring, preparing, and evaluating the data so that they can be understood by users and ingested into applications. Geospatial data that are not properly structured and managed will be more difficult to use, suffer from issues related to poor quality or consistency, and create problems in later stages of their lifecycle. While it is important to respect the distinction between different datasets and users’ requirements and intentions, the Department’s geospatial stakeholders can nonetheless benefit from guidance on common best practic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.111,
+      0.666,
+      0.849
+    ],
+    "text": "Objective 2B: Promote robust quality assurance controls and measures",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.111,
+      0.863,
+      0.859
+    ],
+    "text": "Low quality data, data of unknown quality, or data unfit for their purpose can be more harmful than the absence of data. It is imperative that geospatial data generated by the Department be high quality, reliable, and with known integrity. Quality assurance and/or quality control (QA/QC) functions for geospatial data should be included at every stage of the lifecycle. Documenting these elements varies by dataset and processing function, which increases management costs but yields additional value as it allows datasets to be effectively reused in other workflows.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.111,
+      0.185,
+      0.834
+    ],
+    "text": "Objective 2C: Plan, fund, and deploy modern geospatial technologies, to include adopting best practices for resource acquisition and timely software approval",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.111,
+      0.563,
+      0.877
+    ],
+    "text": "The value in deploying persistent dynamic applications that show meaningful real-time geospatial data insights (e.g., data visualizations, interactive dashboards, etc.) that can be accessed by a decision maker from anywhere at a moment’s notice should be demonstrable. With the advent of modern geospatial technologies (i.e., Application Programming Interfaces or APIs, Software Developer Toolkits or SDKs, Machine-Learning models, etc.) the Department can more quickly develop the tools necessary to power its geospatial capabilities. Geospatial applications can integrate capabilities and logic from multiple systems to derive new functionality by using data leveraged from across the Department and external communities. Advanced geospatial analytics, driven by machine-learning (ML) and artificia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.111,
+      0.809,
+      0.867
+    ],
+    "text": "As geospatial tools become more mainstream and adopted across the organizational enterprise, there are associated issues of funding, resource allocation, and infrastructure management (software, network, and users). A key question the Department must address is how to fund enterprise geospatial capabilities, particularly as geospatial initiatives have previously been funded by individual bureaus and offices. Maintaining the balance between enterprise and bureau geospatial capabilities, along with the appropriate staffing, will challenge existing costsharing models of software acquisition, personnel contracting, and IT management. Additionally, funding new lines of effort related to centralized geospatial data management and GDA policy will have to be established.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.111,
+      0.896,
+      0.877
+    ],
+    "text": "The Department seeks to build a modern geospatial infrastructure, staffed with domain experts capable of advanced statistical and geospatial analysis (including ML and AI), that can help drive and meet the growing demand for data-driven analysis and visualizations. The increasing pace of new technology needed by these analysts imposes bureaucratic cost to authorize and deploy new software applications. Long delays in on-boarding new software are a common problem across nearly every agency, but there have been advancements in recent years. Led by software factories across the Department of Defense and the Intelligence Community, new models of managing software supply chain, automated “authority to operate,” and continuous integration/continuous delivery to cloud environments have been devel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.323,
+      0.111,
+      0.383,
+      0.877
+    ],
+    "text": "Strategic Goal 3: Develop foundational geospatial data awareness to promote a sustained geospatial workforce",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.398,
+      0.111,
+      0.734,
+      0.88
+    ],
+    "text": "The GDA mandates that all Covered Agencies prioritize their geospatial workforce stability and program continuity to meet the long-term goals of the NSDI. As in most large organizations, the community of geospatial practitioners is small relative to the large pool of beneficiaries of geospatial data and analysis. The Department is committed to developing and cultivating a culture to upskill its workforce, hire staff and contractors trained in spatial thinking and modern geospatial tools, and developing talent pipelines through diverse partnerships and the creative use of internship and other recruiting programs. Although some turnover is normal (and at times desirable to bring about innovation and fresh ideas), the success of the Department’s geospatial programs require predictable operati",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.762,
+      0.111,
+      0.821,
+      0.87
+    ],
+    "text": "Objective 3A: Develop a range of accessible geospatial training resources (e.g., courses, wikis, self-learning, tutorials, etc.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.111,
+      0.886,
+      0.877
+    ],
+    "text": "Bureaus and offices across the Department support assorted missions using geospatial data and technologies for various reasons. However, many cannot fully leverage their staffs because they are not current on technology advancements or have funding or operational constraints. Others may not have the geospatial language, background, or skills to manage their data in a spatial framework. This limits their ability to engage effectively with geospatial practitioners. Even if modern technologies are made available, a lack of geospatial training can lead to relying on inefficient legacy processes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.111,
+      0.435,
+      0.87
+    ],
+    "text": "Improving awareness of geospatial fundamentals, modern workflows, and methodologies empowers staffs to continually improve processes as technology advances, thus improving overall efficiency and productivity. Staffs that have been trained in spatial thinking and the use of modern geospatial technologies can demonstrate their value in achieving objectives more quickly and efficiently. They are better prepared to lead initiatives toward meeting GDS goals. The Department will develop and maintain foundation-level instructional materials to equip the workforce with spatial thinking frameworks and empower geospatial practitioners with an understanding of modern GIS tools and technologies as well as applied institutional knowledge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-3",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.464,
+      0.111,
+      0.559,
+      0.872
+    ],
+    "text": "Objective 3B: Increase the awareness, value, and use of geospatial data and analysis in the Department to build diverse partnerships across broader geospatial communities",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.575,
+      0.111,
+      0.832,
+      0.877
+    ],
+    "text": "Building partnerships with a diverse set of organizations (e.g. commercial/private, NGOs, academia, professional associations, international organizations, etc.) will promote the Department’s richer understanding of capabilities across broader geospatial communities. Engaging with organizations that are unlike the Department can expand the perspective of use cases and improve the Department’s support of its diplomatic mission and the global workforce. The Department’s set of diverse partnerships will help demonstrate the value of interoperability, the potential of increased capabilities through collaboration, and awareness of the growing complexity of geospatial communities at large. The Department will increase the number of formalized partnerships and promote the awareness of activities ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.111,
+      0.184,
+      0.869
+    ],
+    "text": "Objective 3C: Foster geospatial communities of practice across the Department for sharing geospatial analytic techniques and tradecraft",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-2",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.111,
+      0.431,
+      0.882
+    ],
+    "text": "The Department stands to benefit from creating different geospatial communities of practice (e.g., application developers, geospatial data engineers, spatial data scientists, etc.) to maximize efficiencies through knowledge-sharing. Communities of practice are excellent forums in which to engage with colleagues through shared tradecraft and to inform the larger organization of the value that is created from their work. They can help publicize successes so decision makers may understand the benefits of their contributions and expand the pool of resources that can be shared amongst the communities. The Department will expand a diverse set of geospatial communities of practice and promote awareness of activities to members of EDC working groups including the GDAWG.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-3",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.462,
+      0.111,
+      0.555,
+      0.834
+    ],
+    "text": "Strategic Goal 4: Develop a repeatable geospatial data reporting structure to meet all statutory and policy requirements of the Geospatial Data Act (GDA) of 2018",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.573,
+      0.111,
+      0.671,
+      0.862
+    ],
+    "text": "As previously described in Section 1.4 (“Reporting Responsibilities”) the Department assumes many responsibilities of the GDA with both CA and LCA statuses. The Department is committed to comply fully with the GDA and has set forth to create an optimized repeatable geospatial data reporting structure to meet all requirements.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-5",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.7,
+      0.111,
+      0.794,
+      0.831
+    ],
+    "text": "Objective 4A: Establish a sustainable cadence to update the GDS, complete GDA-mandated annual reports, and the biennial OIG audit",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-6",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.811,
+      0.111,
+      0.911,
+      0.882
+    ],
+    "text": "The Department’s SAOGI has created a Work Breakdown Structure (WBS) showing the task schedule of how each of the thirteen (13) CA responsibilities listed in Section 759(a) will be achieved by one or more goals set forth in the GDS by March 2024. This WBS provides a direct mapping of GDS goals and objectives with each of the 13 CA responsibilities and provides a",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.111,
+      0.268,
+      0.866
+    ],
+    "text": "repeatable framework for years to come (although the exact dates for annual reports will be determined from year to year by the FGDC). Upon publication of the GDS, the GDAWG will focus on an implementation plan detailing specific actions for completing outstanding CA and LCA responsibilities and adding to the WBS as needed. The Department will have in place a plan for implementing the components of the GDS and complying with the requirements of the GDA according to the timetable set by the FGDC for the time period of 2018-2021, and the necessary elements for repeating the reporting deliverables will have been created.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-2",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.111,
+      0.392,
+      0.877
+    ],
+    "text": "Objective 4B: Perform periodic outreach across all Department geospatial stakeholders to maintain the GDS and other related planning efforts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-3",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.111,
+      0.559,
+      0.864
+    ],
+    "text": "As previously described in Section 1.3 (“Implementation Approach”), a Geospatial Data Act Working Group (GDAWG) has been chartered under the EDC to maintain the policies and governance addressing U.S. Department of State geospatial data, including initiatives, artifacts and annual reports. The GDAWG will continue to meet recurrently over the lifecycle of the GDS, perform outreach to all geospatial stakeholders, and inform the GDS and other related strategic planning efforts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-4",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.588,
+      0.111,
+      0.683,
+      0.879
+    ],
+    "text": "Objective 4C: Iteratively incorporate new geospatial data management best practices, promote transparency, and develop consistent reporting metrics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-5",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.7,
+      0.111,
+      0.904,
+      0.879
+    ],
+    "text": "As new geospatial data and technologies advance and enable the Department’s workforce, geospatial data management processes must advance synchronously with industry best practices. Guidance for instituting methodologies for managing geospatial data, and the development of products from which they are derived (i.e., Agile, DevSecOps, etc.), can span a wide variety of options. The Department’s geospatial practitioners should know how to select well-suited methodologies to fit their unique project and organizational constraints. General knowledge, decision-making frameworks, and evaluation processes (i.e., Decision Analysis and Resolution), of geospatial data management best practices will be provided in several information-sharing forums to include the GDAWG, geospatial communities of practi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-1",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.094,
+      0.112,
+      0.125,
+      0.483
+    ],
+    "text": "Appendix A: Acronyms",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:table-2",
+    "page_id": 27,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_27_Table_0.jpg",
+    "bbox_norm": [
+      0.143,
+      0.114,
+      0.893,
+      0.875
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-28:table-1",
+    "page_id": 28,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_28_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.114,
+      0.723,
+      0.875
+    ],
+    "text": "Table 5: Acronyms",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-28:text-2",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.784,
+      0.112,
+      0.814,
+      0.596
+    ],
+    "text": "Appendix B: Crosswalk Tables",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-3",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.112,
+      0.853,
+      0.848
+    ],
+    "text": "Crosswalk table 1: Enterprise Data Strategy (EDS) goals and Geospatial Data Strategy (GDS) goals",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-1",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.111,
+      0.164,
+      0.883
+    ],
+    "text": "As a requirement set in the GDA Section 759(a), a crosswalk table is provided below to show the direct correlation between the Goals and Objectives described in higher order Department strategies (i.e., Enterprise Data Strategy) and the Department’s GDS.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:table-2",
+    "page_id": 29,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_29_Table_0.jpg",
+    "bbox_norm": [
+      0.178,
+      0.114,
+      0.758,
+      0.9
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-30:table-1",
+    "page_id": 30,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_30_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.114,
+      0.651,
+      0.9
+    ],
+    "text": "Table 6: GDS Strategic Goals & EDS Strategic Goals Crosswalk table 2: Geospatial Data Strategy (GDS) goals & NSDI strategic plan goals",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-30:text-2",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.111,
+      0.794,
+      0.882
+    ],
+    "text": "As a requirement set in the GDA Section 759(a), a crosswalk table is provided below to show the direct correlation between the Goals and Objectives described in both the NSDI Strategic Plan and the Department’s GDS.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:table-1",
+    "page_id": 31,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_31_Table_0.jpg",
+    "bbox_norm": [
+      0.09,
+      0.116,
+      0.893,
+      0.901
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-32:table-1",
+    "page_id": 32,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_32_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.116,
+      0.753,
+      0.901
+    ],
+    "text": "Table 7: GDS Strategic Goals & NSDI Strategic Plan Goals",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-33:text-1",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.107,
+      0.123,
+      0.732
+    ],
+    "text": "Appendix C: Document Change History",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:table-2",
+    "page_id": 33,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_33_Table_0.jpg",
+    "bbox_norm": [
+      0.141,
+      0.109,
+      0.189,
+      0.879
+    ],
+    "text": "Table 8: Document Change History",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-33:text-3",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.107,
+      0.279,
+      0.478
+    ],
+    "text": "Appendix D: Approvals",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-4",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.106,
+      0.398,
+      0.867
+    ],
+    "text": "The undersigned acknowledge that they have reviewed the Geospatial Data Strategy and agree with the information presented within this document. Changes to this Geospatial Data Strategy Document will be coordinated with, and approved by, the undersigned, or their designated representatives.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:table-5",
+    "page_id": 33,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_33_Table_1.jpg",
+    "bbox_norm": [
+      0.411,
+      0.111,
+      0.642,
+      0.883
+    ],
+    "text": "Table 9: Signatures of Approval",
+    "source_type": "table"
+  }
+]

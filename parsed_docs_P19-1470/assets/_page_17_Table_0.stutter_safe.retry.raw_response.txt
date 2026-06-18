@@ -1,0 +1,9 @@
+```
+Meta-Token\tDescription\tRelations
+<X>\tAppended to relations that describe an attribute of Person X\txAttr, xEffect, xIntent, xNeed, xReact, xWant
+<Y>\tAppended to relations that describes an attribute of a participant that is not Person X\toEffect, oReact, oWant
+<Pre>\tAppended to relations that correspond to pre-conditions of the event\txIntent, xNeed
+<Post>\tAppended to relations that correspond to post-conditions of the event\toEffect, oReact, oWant, xEffect, xReact, xWant
+<Voluntary>\tAppended to relations that correspond to voluntary dimensions of the situation\toWant, xIntent, xNeed, xWant
+<Involuntary>\tAppended to relations that correspond to involuntary dimensions of the situation\toEffect, oReact, xAttr, xEffect, xReact
+```

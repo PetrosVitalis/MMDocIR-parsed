@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Shares Repurchased (000&#x27;s)</td><td>Average Price per</td><td>Total Cost</td></tr><tr><td>2021</td><td>1,358 $</td><td>Share 364.39</td><td>$ 495</td></tr><tr><td>2020</td><td>643</td><td>308.45</td><td>198</td></tr><tr><td>2019</td><td>1,097</td><td>225.16</td><td>247</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>WEIGHTEDAVERAGE SHARES(1) OPTIONPRICE (In millions)</td></tr><tr><td>Options outstanding as of May 31, 2020</td><td>88.1 $</td></tr><tr><td></td><td>60.98</td></tr><tr><td>Exercised</td><td>(20.7) 46.31</td></tr><tr><td>Forfeited Granted</td><td>(3.8) 95.87 14.7</td></tr><tr><td>78.3 $</td><td>112.65 72.88</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Announcement date January 20,2021</td></tr><tr><td>Amount per share $0.35</td></tr><tr><td>Date paid February 12,2021</td></tr><tr><td>Shareholders of record as of January 29,2021</td></tr></table>

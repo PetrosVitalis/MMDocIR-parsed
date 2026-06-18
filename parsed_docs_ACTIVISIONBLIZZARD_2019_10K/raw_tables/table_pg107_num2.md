@@ -1,0 +1,1 @@
+<table><tr><td>Net revenues by platform:</td><td></td></tr><tr><td>Console $</td><td>2,389</td></tr><tr><td>PC</td><td>2,042</td></tr><tr><td>Mobile and ancillary (1)</td><td>2,081</td></tr><tr><td> Other (2)</td><td>505</td></tr><tr><td>Total consolidated net revenues $</td><td>7,017</td></tr></table>

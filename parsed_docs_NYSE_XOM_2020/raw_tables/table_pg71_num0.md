@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Debt to capital (percent)</td><td>29.2</td><td>19.1</td><td>16.0</td></tr><tr><td>Net debt to capital (percent)</td><td>27.8</td><td>18.1</td><td>14.9</td></tr></table>

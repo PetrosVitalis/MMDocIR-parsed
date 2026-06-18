@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">More</td><td rowspan="2">About the same</td><td rowspan="2">Less</td></tr><tr><td>Total</td><td>19%</td></tr><tr><td rowspan="2">Rep/Lean Rep</td><td></td><td>59%</td><td>21%</td></tr><tr><td>13</td><td>61</td><td>24</td></tr><tr><td>Dem/Lean Dem</td><td>24</td><td>57</td><td>18</td></tr></table>

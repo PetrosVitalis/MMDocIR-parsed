@@ -1,0 +1,28 @@
+Seed Concept,Relation,Generated,Plausible
+X holds out X's hand to Y,xAttr,helpful,✓
+X meets Y's eyes,xAttr,intense,✓
+X watches Y every __,xAttr,observant,✓
+X eats red meat,xEffect,gets fat,√
+X makes crafts,xEffect,gets dirty,
+X turns X's phone,xEffect,gets a text,
+X pours ___ over Y's head,oEffect,gets hurt,√
+X takes Y's head off,oEffect,bleeds,√
+X pisses on Y's bonfire,oEffect,gets burned,
+X spoils somebody rotten,xIntent,to be mean,
+X gives Y some pills,xIntent,to help,
+X provides for Y's needs,xIntent,to be helpful,
+X explains Y's reasons,xNeed,to know Y,√
+X fulfills X's needs,xNeed,to have a plan,
+X gives Y everything,xNeed,to buy something,
+X eats pancakes,xReact,satisfied,
+X makes ___ at work,xReact,proud,
+X moves house,xReact,happy,
+X gives birth to the Y,oReact,happy,
+X gives Y's friend ___,oReact,grateful,
+X goes ___ with friends,oReact,happy,
+X gets all the supplies,xWant,to make a list,
+X murders Y's wife,xWant,to hide the body,
+X starts shopping,xWant,to go home,
+X develops Y theory,oWant,to thank X,
+X offers Y a position,oWant,to accept the job,
+X takes ___ out for dinner,oWant,to eat,

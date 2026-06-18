@@ -1,0 +1,10 @@
+Consumption,CO2e (lbs)
+"Air travel, 1 person, NY↔SF",1984
+"Human life, avg, 1 year",11023
+"American life, avg, 1 year",36156
+"Car, avg incl. fuel, 1 lifetime",126000
+Training one model (GPU),"("""")"
+"NLP pipeline (parsing, SRL)",39
+w/ tuning & experiments,78468
+Transformer (big),192
+w/ neural arch. search,626155

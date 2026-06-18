@@ -1,0 +1,1 @@
+<table><tr><td>(S millions)</td><td>2022</td><td>2021</td><td>Change vs. 2021</td></tr><tr><td>Volume</td><td>N/A</td><td>N/A</td><td>4%</td></tr><tr><td> Net sales</td><td>$10,824</td><td>$9,956</td><td>9%</td></tr><tr><td> Net earnings</td><td> $2,006</td><td>$1,851</td><td>8%</td></tr><tr><td>% of net sales</td><td>18.5%</td><td>18.6%</td><td>(10)bps</td></tr></table>

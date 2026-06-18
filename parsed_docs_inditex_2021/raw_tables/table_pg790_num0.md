@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Level of achievement</td><td rowspan=1 colspan=1>Level of Incentive(% of Maximum Incentive)</td></tr><tr><td rowspan=1 colspan=1>Below minimum</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>Minimum</td><td rowspan=1 colspan=1>30%</td></tr><tr><td rowspan=1 colspan=1>Maximum</td><td rowspan=1 colspan=1>100%</td></tr></table>

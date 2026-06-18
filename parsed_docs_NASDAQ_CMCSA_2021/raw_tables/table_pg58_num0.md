@@ -1,0 +1,1 @@
+<table><tr><td>As of December 31,2021(in billions) $</td><td>Total</td><td>Within the next 12 months</td><td>Beyond the next 12 months</td></tr><tr><td>Debt obligations(@a)</td><td>100.8 $</td><td>2.1 $</td><td>98.7</td></tr><tr><td>Programming and production obligations</td><td>75.7</td><td>15.4</td><td>60.4</td></tr></table>

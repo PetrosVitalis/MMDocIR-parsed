@@ -1,0 +1,1 @@
+<table><tr><td>Taxable income in euros (€)</td><td>Rates</td></tr><tr><td>From over 1,500,000 to 7,500,000 (approx. US$8.21 million)</td><td>3%</td></tr><tr><td>From over 7,500 000 to 35,000,000 (appr0x. US$38.34 million)</td><td>5%</td></tr><tr><td>Over 35,000,000</td><td>9%32</td></tr></table>

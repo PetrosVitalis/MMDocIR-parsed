@@ -1,0 +1,10 @@
+Agency Component Name,Agency Component Description,FEA SRM Service Domain,FEA SRM Service Type
+Management,capabilities that manage and control a particular effort of an organization.,Management Services,Processes
+Organizational Management,defines the set of capabilities that support multiple users working on related tasks.,Business Management Services,Organizational Management
+Assistance Request,support the solicitation of support from a customer,Customer Services,Customer Initiated Assistance
+Information Mapping / Taxonomy,"defines the set of capabilities that support the creation and maintenance of relationships between data entities, naming standards and categorization. IPMS supports these capabilities using ERWIN.",Digital Asset Services,Knowledge Management
+Information Sharing,defines the set of capabilities that support the use of documents and data in a multi-user environment for use by an organization and its stakeholders. IPMS accomplishes these capabilities using the Knowledge Center/Business Objects for Domestic personnel.,Digital Asset Services,Knowledge Management
+Knowledge Capture,defines the set of capabilities that facilitate collection of data and information. IPMS supports these capabilities using Business Objects/Knowledge Center.,Digital Asset Services,Knowledge Management
+Record Linking / Association,defines the set of capabilities that support the correlation between logical data and information sets.,Digital Asset Services,Records Management
+Query,defines the set of capabilities that support retrieval of records that satisfy specific query selection criteria.,Support Services,Search
+Identification and Authentication,defines the set of capabilities that support obtaining information about those,Support Services,Security Management

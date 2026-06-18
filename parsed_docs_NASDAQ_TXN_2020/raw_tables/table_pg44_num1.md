@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">December 31,</td></tr><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Deferred tax assets.</td><td>$</td><td>343 $</td><td>197</td></tr><tr><td>Deferred tax liabilities </td><td></td><td>(90)</td><td>(78)</td></tr><tr><td>Net deferred tax asset.</td><td>$</td><td>253 $</td><td>119</td></tr></table>

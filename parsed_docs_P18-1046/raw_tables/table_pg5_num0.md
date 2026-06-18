@@ -1,0 +1,1 @@
+<table><tr><td>Hyperparameter</td><td>Value</td></tr><tr><td>CNNWindow  $c _ { w } ,$  kernel size  $c _ { k }$ </td><td>3, 100</td></tr><tr><td>Word embedding  $d _ { e } ,$   $| V |$ </td><td>50,114042</td></tr><tr><td>Position embedding  $d _ { p }$ </td><td>5</td></tr><tr><td>Learning rate of G, D</td><td>1e-5, 1e-4</td></tr></table>

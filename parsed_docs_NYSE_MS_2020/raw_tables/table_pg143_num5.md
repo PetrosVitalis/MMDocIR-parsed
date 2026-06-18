@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Conversions to common stock</td><td>$ 1,295</td><td>$ 1,497</td><td>$ 1,790</td></tr><tr><td>Vested</td><td>1,289</td><td>1,292</td><td>1,504</td></tr></table>

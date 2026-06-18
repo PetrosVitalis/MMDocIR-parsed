@@ -1,0 +1,1 @@
+<table><tr><td></td><td>ASOFMAY31,</td><td></td></tr><tr><td>Weighted-average remaining lease term (in years)</td><td>2021</td><td>2020</td></tr><tr><td>Weighted-average discount rate</td><td>8.3 2.3 %</td><td>8.7</td></tr><tr><td></td><td></td><td>2.4 %</td></tr></table>

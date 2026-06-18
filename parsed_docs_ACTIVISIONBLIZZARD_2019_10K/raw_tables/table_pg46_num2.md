@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Year Ended December 31,2019</td><td>%of consolidated net revenues</td><td></td><td>Year Ended December 31,2018</td><td>%of consolidated net revenues</td><td></td><td>Increase (Decrease)</td></tr><tr><td>General and administrative</td><td>$</td><td>732</td><td>11% $</td><td></td><td>822</td><td>11% $</td><td>(90)</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Computers,related equipment and software</td><td>2 to7years</td></tr><tr><td>Furniture and fixtures</td><td>5 to 10 years</td></tr><tr><td>Leasehold improvements</td><td>Lesser of lease term or 15 years</td></tr></table>

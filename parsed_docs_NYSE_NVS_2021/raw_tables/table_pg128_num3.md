@@ -1,0 +1,1 @@
+<table><tr><td>20211</td></tr><tr><td>20201</td></tr><tr><td>Year-end ADR price (USD) 87.47 94.43 94.69</td></tr><tr><td>High² 98.47 99.01 96.14</td></tr><tr><td>Low² 79.70 70.67 75.40</td></tr><tr><td>Number of ADRs outstanding 3 269 891321 288 755 853 315 073 094</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td></td><td>2020</td><td>2019</td><td></td><td>2018</td></tr><tr><td>United States</td><td>$</td><td>4,070 $</td><td></td><td>4,123 $</td><td>3,864</td></tr><tr><td>Foreign</td><td></td><td>4,999</td><td></td><td>5,189</td><td>5,325</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>$9,069 $ 9,312 $ 9,189</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Winogender</td><td>WinoBias</td><td>WinoMT</td></tr><tr><td>Male 240</td><td>1582</td><td>1826</td></tr><tr><td>Female 240</td><td>1586</td><td>1822</td></tr><tr><td>Neutral 240</td><td>0</td><td>240</td></tr><tr><td>Total 720</td><td>3168</td><td>3888</td></tr></table>

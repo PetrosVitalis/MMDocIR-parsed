@@ -1,0 +1,1 @@
+<table><tr><td>Other revenues</td><td>1239</td><td></td><td></td><td></td><td>-136</td><td>1103</td></tr><tr><td>Cost of goods sold</td><td>- 15 121</td><td>3301</td><td>377</td><td>70</td><td>274</td><td>-11099</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>Put options embedded in debt agreements</td><td>$ 94$</td><td>290</td></tr><tr><td>Liquidity obligations1</td><td>$ 1,483 $</td><td>1,344</td></tr></table>

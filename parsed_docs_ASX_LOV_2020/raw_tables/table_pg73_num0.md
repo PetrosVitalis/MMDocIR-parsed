@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>($000s)</td><td rowspan=1 colspan=1>Right-of-use asset</td></tr><tr><td rowspan=1 colspan=1>Balance at 1 July 2019</td><td rowspan=1 colspan=1>138,403</td></tr><tr><td rowspan=1 colspan=1>Balance at 28 June 2020</td><td rowspan=1 colspan=1>150,464</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Level 3 Assets</td><td>Fiscal 2019</td></tr><tr><td>Beginning balance</td><td>$ 114,960</td></tr><tr><td>Purchases,sales and settlements</td><td>17,428</td></tr><tr><td>Changes in fair value</td><td>1,033</td></tr><tr><td>Ending Balance</td><td>$ 133,421</td></tr></table>

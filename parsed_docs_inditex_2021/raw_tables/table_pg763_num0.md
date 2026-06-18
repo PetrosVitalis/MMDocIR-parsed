@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Name or company name of the memberof the Board of Directors who has notvoted for the approval of this report</td><td rowspan=1 colspan=1>Reasons (against,abstention, non attendance))</td><td rowspan=1 colspan=1>Explain the reasons</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>

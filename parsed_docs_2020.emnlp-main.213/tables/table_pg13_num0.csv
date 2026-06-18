@@ -1,0 +1,12 @@
+Hyper-parameter,COMET(Est-HTER/MQM),COMET-RANK
+Encoder Model,XLM-RoBERTa (base),XLM-RoBERTa (base)
+Optimizer,Adam (default parameters),Adam (default parameters)
+n frozen epochs,1,0
+Learning rate,3e-05 and 1e-05,1e-05
+Batch size,16,16
+Loss function,MSE,Triplet Margin (ε = 1.0)
+Layer-wise dropout,0.1,0.1
+FP precision,32,32
+Feed-Forward hidden units,"2304,1152",-
+Feed-Forward activations,Tanh,-
+Feed-Forward dropout,0.1,-

@@ -1,0 +1,1 @@
+<table><tr><td>augmentation</td><td>value</td></tr><tr><td>hflip</td><td></td></tr><tr><td>crop</td><td>[0.08,1]</td></tr><tr><td>color jitter</td><td>[0.4,0.4, 0.4, 0.1], p=0.8</td></tr><tr><td>gray scale</td><td></td></tr><tr><td>Gaussian blur</td><td> $\sigma _ { m i n } = 0 . 1 , \sigma _ { m a x } = 2 . 0 , \mathrm { p } { = } 0 . 5$ </td></tr></table>

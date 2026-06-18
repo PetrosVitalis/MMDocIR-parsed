@@ -1,0 +1,52 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_camry_ebrochure",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_15_Table_0.jpg",
+      "raw_md": "table_pg15_num0.md",
+      "csv_base": "table_pg15_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Timeout OCR repair failed shape validation (shape_row_count_lt_relaxed_15)"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_16_Table_0.jpg",
+      "raw_md": "table_pg16_num0.md",
+      "csv_base": "table_pg16_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Model timeout after 90s"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_17_Table_0.jpg",
+      "raw_md": "table_pg17_num0.md",
+      "csv_base": "table_pg17_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_18_Table_0.jpg",
+      "raw_md": "table_pg18_num0.md",
+      "csv_base": "table_pg18_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Model timeout after 90s"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_19_Table_0.jpg",
+      "raw_md": "table_pg19_num0.md",
+      "csv_base": "table_pg19_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Model timeout after 90s"
+    }
+  ]
+}

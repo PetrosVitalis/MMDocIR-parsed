@@ -1,0 +1,64 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_Country_Reports_2021_Complete_MASTER.no_maps-011323-Accessible",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_7_Table_0.jpg",
+      "raw_md": "table_pg7_num0.md",
+      "csv_base": "table_pg7_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_18_Table_0.jpg",
+      "raw_md": "table_pg18_num0.md",
+      "csv_base": "table_pg18_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_253_Table_0.jpg",
+      "raw_md": "table_pg253_num0.md",
+      "csv_base": "table_pg253_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_258_Table_0.jpg",
+      "raw_md": "table_pg258_num0.md",
+      "csv_base": "table_pg258_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_6_got_13)"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_329_Table_0.jpg",
+      "raw_md": "table_pg329_num0.md",
+      "csv_base": "table_pg329_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_329_Table_1.jpg",
+      "raw_md": "table_pg329_num1.md",
+      "csv_base": "table_pg329_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

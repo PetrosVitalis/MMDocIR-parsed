@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Standard</td><td>Moody&#x27;s Investors</td></tr><tr><td>IBM and IBM Credit LLC Ratings</td><td>and Poor&#x27;s</td><td>Service</td></tr><tr><td>Senior long-term debt</td><td>A</td><td>A2</td></tr><tr><td>Commercial paper</td><td>A-1</td><td>Prime-1</td></tr></table>

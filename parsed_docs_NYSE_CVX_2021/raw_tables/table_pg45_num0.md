@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">Millions of dollars</td><td colspan="3">At December 31</td></tr><tr><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Current assets</td><td>$ 33,738</td><td>$ 26,078</td><td>$ 28,329</td></tr><tr><td>Current liabilities</td><td>26,791</td><td>22,183</td><td>26,530</td></tr><tr><td>Current Ratio</td><td>1.3</td><td>1.2</td><td>1.1</td></tr></table>

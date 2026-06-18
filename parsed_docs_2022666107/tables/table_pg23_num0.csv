@@ -1,0 +1,4 @@
+Resistenze caratteristiche,,Modulo elastico parallelo medio **,"E_{0,mean}",Massa volumica caratteristica,\rho_{k}
+Trazione parallela,"\mathbf{f}_{t,0,k}",Modulo elastico parallelo caratteristico,"E_{0,05}",Massa volumica media **,\rho_{mean}
+Trazione perpendicolare,"ft,90.k",Modulo elastico perpendicolare medio **,"\mathbb{E}_{90,\mathrm{mean}}",,
+Compressione parallela,"\mathbf{f}_{c,0,k}",Compressione perpendicolare,"\mathbf{f}_{c,90,k}",Taglio,"\mathbf{f}_{v,k}"

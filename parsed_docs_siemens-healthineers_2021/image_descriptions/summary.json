@@ -1,0 +1,24 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_siemens-healthineers_2021",
+  "total_images": 3,
+  "non_figure_images_skipped": 100,
+  "processed": 3,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_93_Figure_1.jpg",
+      "output": "image_descriptions/_page_93_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_93_Figure_0.jpg",
+      "output": "image_descriptions/_page_93_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_93_Figure_2.jpg",
+      "output": "image_descriptions/_page_93_Figure_2.md",
+      "status": "success"
+    }
+  ]
+}

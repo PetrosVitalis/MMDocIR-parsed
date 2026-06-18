@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td></td><td>2019</td></tr><tr><td>Cash paid for amounts included in the measurement of operating lease liabilities</td><td>$</td><td>221 $</td><td>202</td></tr><tr><td>ROU assets obtained in exchange for operating lease obligations</td><td></td><td>246</td><td>145</td></tr></table>

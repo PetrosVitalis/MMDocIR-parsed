@@ -1,0 +1,9 @@
+```csv
+"Meta-Token","Description","xAttr","xEffect","xIntent","xNeed","xReact","xWant","oEffect","oReact","oWant","Pre","Post","Voluntary","Involuntary"
+"<X>","Appended to relations that describe an attribute of Person X","xAttr","xEffect","xIntent","xNeed","xReact","xWant","","","",
+"<Y>","Appended to relations that describes an attribute of a participant that is not Person X","","","","","","oEffect","oReact","oWant","","","",
+"<Pre>","Appended to relations that correspond to pre-conditions of the event","xIntent","xNeed","","","","","","","","Pre","",
+"<Post>","Appended to relations that correspond to post-conditions of the event","","","oEffect","oReact","oWant","xEffect","xReact","xWant","","Post","",
+"<Voluntary>","Appended to relations that correspond to voluntary dimensions of the situation","","","oWant","xIntent","xNeed","xWant","","","Voluntary","",
+"<Involuntary>","Appended to relations that correspond to involuntary dimensions of the situation","","","oEffect","oReact","xAttr","xEffect","xReact","","","Involuntary",""
+```

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Total</td><td></td><td></td><td></td><td></td><td>Years 4 to 5</td><td>More</td><td>vears</td></tr><tr><td>Operating leases</td><td>$</td><td>735</td><td>$</td><td>$</td><td>220</td><td>$</td><td>220</td><td>$ 184</td></tr></table>

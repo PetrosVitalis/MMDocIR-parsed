@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Processing Fee (non-refundable)</td><td rowspan=1 colspan=1>$30</td></tr><tr><td rowspan=1 colspan=1>Issuance Fee</td><td rowspan=1 colspan=1>$60</td></tr><tr><td rowspan=1 colspan=1> Multiple-Entry Visa fee (for visa required nationals)</td><td rowspan=1 colspan=1>$30</td></tr></table>

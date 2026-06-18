@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">Regulated activity Regulation</td></tr><tr><td>Accommodation for persons who require nursing or personal care</td><td>The provider did not ensure that sufficient numbers of</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td colspan="3"></td></tr><tr><td></td><td>Year ended March 31, 2020</td><td>Year ended March 31, 2019</td></tr><tr><td>Consultancy services</td><td>129,565</td><td>121,033</td></tr><tr><td>Sale of equipment and software licences</td><td>1,741</td><td>2,137</td></tr><tr><td></td><td>131,306</td><td>123,170</td></tr></table>

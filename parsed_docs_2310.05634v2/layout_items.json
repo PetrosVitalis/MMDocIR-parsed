@@ -1,0 +1,2382 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.144,
+      0.126,
+      0.852
+    ],
+    "text": "Towards Verifiable Generation: A Benchmark for Knowledge-aware Language Model Attribution",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.136,
+      0.223,
+      0.154,
+      0.778
+    ],
+    "text": "Xinze Li1, Yixin Cao2†, Liangming Pan3, Yubo Ma1, Aixin Sun1†",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.17,
+      0.321,
+      0.187,
+      0.678
+    ],
+    "text": "1 S-Lab, Nanyang Technological University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.186,
+      0.179,
+      0.237,
+      0.82
+    ],
+    "text": "2 Singapore Management University 3 University of California, Santa Barbara {xinze002, yubo001}@e.ntu.edu.sg axsun@ntu.edu.sg yxcao@smu.edu.sg liangmingpan@ucsb.edu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.26,
+      0.262,
+      0.277,
+      0.342
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.292,
+      0.141,
+      0.734,
+      0.462
+    ],
+    "text": "Although achieving great success, Large Language Models (LLMs) usually suffer from unreliable hallucinations. Although language attribution can be a potential solution, there are no suitable benchmarks and evaluation metrics to attribute LLMs to structured knowledge. In this paper, we define a new task of Knowledgeaware Language Model Attribution (KaLMA) that improves upon three core concerns with conventional attributed LMs. First, we extend attribution source from unstructured texts to Knowledge Graph (KG), whose rich structures benefit both the attribution performance and working scenarios. Second, we propose a new “Conscious Incompetence\" setting considering the incomplete knowledge repository, where the model identifies the need for supporting knowledge beyond the provided KG. Third, ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.114,
+      0.765,
+      0.26
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.777,
+      0.112,
+      0.923,
+      0.492
+    ],
+    "text": "Recently, Large Language Models (Brown et al., 2020) (LLMs) have exhibited great capability in open-ended question answering (Yang et al., 2019). However, the generated answers may include factual errors and are not always reliable, and is commonly known as the “hallucination” (Shuster et al., 2021; Ji et al., 2023) problem. For instance, LLMs may give wrong diagnosis to patient’s symptoms. Hallucination has severe harms especially on industries that require precision and factual knowledge like finance, law, and medical treatment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-9",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.261,
+      0.515,
+      0.497,
+      0.878
+    ],
+    "text": "Output: Artemisia Gentileschi was an Italian painter born on July 8, 1596 [NA] in Rome [Q212657, citizen: Italy, occupation: painter, place of birth: Rome]. She was a member of ... Figure 1: A demonstration of our task set up. Given a question, the system generates answers attributed from a retrieved knowledge graph. The underlines in question are the retrieved entities, and the underlines in outputs are the citations. [NA] is the “Not Applicable Citation”.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.664,
+      0.507,
+      0.923,
+      0.887
+    ],
+    "text": "To minimize the negative impacts, researchers have proposed the task of language attribution (Bohnet et al., 2023), which not only enables users to verify the generated text flexibly but also contributes to many important applications, such as situation reports (Reddy et al., 2023), academic papers (Salvagno et al., 2023), medical diagnosis (Zuccon and Koopman, 2023).Existing works mainly attribute generated outputs to unstructured documents like web pages (Nakano et al., 2021; Menick et al., 2022) or passages (Gao et al., 2023). To verify the answer quality, they typically compare with a human annotated reference answer for automatic evaluation or conduct human evaluation. We argue that there are several concerns on such task definition. Firstly, are documents the only source for attribut",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.11,
+      0.701,
+      0.49
+    ],
+    "text": "To address the first challenge, we utilize knowledge graph (KG) as a reliable source for attribution, namely Knowledge-aware Language Model Attribution (KaLMA). We show a demonstration of task in Figure 1. KGs efficiently organize world knowledge in a structured manner and has the potential to unify various formats of data. For example, databases can be easily converted into KGs, or, passages and web pages can be represented as a node in KG like Wikipedia. KaLMA differs from entity linking (Sevgili et al., 2022) since the sentences or phrases are attributed to a knowledge triplet rather than a single entity. For the second challenge, we tackle the coverage problem by making the model aware of its limitations. We introduce a new setting “Conscious Incompetence” (Curtiss and Warren, 1974), w",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.112,
+      0.866,
+      0.49
+    ],
+    "text": "To implement the above innovations, we first design an automatic dataset construction pipeline. Using this pipeline, we construct a dataset1 in the biographical domain, namely BioKaLMA, for a benchmark with all-rounded automatic measurements. Biography forms a good test-set for attribution due to its practical application and convenient evaluation. The availability of high-quality knowledge graph like WikiData also benefits our dataset construction. Derived from the biographical database2 (Plum et al., 2022) and WikiData, BioKaLMA contains 1,085 data entries. Each data entry includes question and knowledge required to answer the question. For evaluation, we separately evaluate the generated text, the generated citations, and the alignment between texts and citations. We use G-Eval (Liu et ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.507,
+      0.538,
+      0.887
+    ],
+    "text": "We summarize our contributions as follows: 1) We define the task of Knowledge-aware Language Model Attribution (KaLMA) that attributes language models to structured knowledge. 2) We design a complete benchmarking pipeline, including dataset, baseline, and evaluation metrics. 3) We conduct extensive experiments and show room for improvement of the LLMs’ ability to generate accurate and thorough citations based on provided knowledge graphs. Our experiments on “Conscious Incompetence” investigate the capability of current LLMs to identify if there are required knowledge not in knowledge graph. We highlight the necessity of incorporating this setting in future language attribution works. Furthermore, our ablation studies demonstrate the crucial role of retrieval accuracy in achieving desirable",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.509,
+      0.567,
+      0.695
+    ],
+    "text": "2 Task and Dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.509,
+      0.593,
+      0.699
+    ],
+    "text": "2.1 Task Formulation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.507,
+      0.746,
+      0.887
+    ],
+    "text": "We hereby define the task Knowledge-aware Language Model Attribution (KaLMA): Given a question q and the knowledge graph G, the system generates an output text t that answers the question. The output text consists of a list of m sentences s1, ..., $s _ { m }$ grounded with a list of n grounded knowledge $\\boldsymbol { k } _ { 1 } ~ . . ~ k _ { n }$ where $\\{ k _ { 1 } . . k _ { n } \\} \\in G$ . Each knowledge k is a sub-graph of G. Each sentence s may be grounded by zero up to multiple knowledge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.756,
+      0.507,
+      0.887,
+      0.887
+    ],
+    "text": "Setting of Conscious Incompetence We extend this task setting to include conscious incompetence. Given the same input, each sentence s in the output text t can map to a Not Applicable Citation (we use [NA] to represent it) if it includes some knowledge to be verified, but the knowledge is absent in the knowledge graph G. A sentence can map to both [NA] and a list of sub-graph knowledge if it can be partially verified by the knowledge graph G. [NA] is not a citation on conventional means, but a indicator of knowledge gap.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.148,
+      0.114,
+      0.164,
+      0.329
+    ],
+    "text": "2.2 Dataset Construction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.172,
+      0.11,
+      0.366,
+      0.49
+    ],
+    "text": "Each entry of dataset bioKaLMA includes two questions and a minimum knowledge set. The two questions enquire about the same people on similar aspects of their life stories. The minimum knowledge set is the smallest set of knowledge that is required to answer each question. One question is a general version and the other is specific. The general questions are more concise and natural for human readers, and the specific version questions have a tighter bond to the minimum knowledge set, and is hence more accurate for evaluating LLMs. An example data piece is shown in Table 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.367,
+      0.11,
+      0.739,
+      0.49
+    ],
+    "text": "We construct the dataset using an automatic pipeline consisting of three steps: Person Selection, Name Disambiguation, and Evolutionary Question Generation. In the first two steps, we use SPARQL queries to select related people from human written sentences and identify their identity in WikiData. In the third step, we iteratively construct paragraph and question about the selected people. The first iteration starts with a human written sentence about the selected people. In each next iteration, we apply a data selection algorithm to select an appropriate knowledge from WikiData based on the existing paragraph, and extend the paragraph to include the additional knowledge using LLM. Then, LLM constructs the questions using the final paragraph as an answer. The general and specific questions ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.753,
+      0.114,
+      0.769,
+      0.294
+    ],
+    "text": "2.3 Dataset Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.777,
+      0.11,
+      0.922,
+      0.49
+    ],
+    "text": "Statistics There are 1,085 data entries in BioKalMA. On average, there are 6.8 pieces of knowledge in each “minimum knowledge set”. BioKaLMA demonstrates a good demographic variation. It includes a wide range of geographical distribution of people from 196 countries and 949 cities, taking 279 kinds of different occupations. The eras of people span from 1950 B.C. to 2001 A.D.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.082,
+      0.515,
+      0.319,
+      0.885
+    ],
+    "text": "Table 1: An example for generated data entry in BioKaLMA. Q85907 and Q68753 are Richard Hertwig and Oscar Hertwig’s QIDs in WikiData",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-2:table-8",
+    "page_id": 2,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_2_Table_0.jpg",
+    "bbox_norm": [
+      0.375,
+      0.515,
+      0.457,
+      0.842
+    ],
+    "text": "Table 2: Human Evaluation on BioKaLMA dataset.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.507,
+      0.694,
+      0.887
+    ],
+    "text": "Evaluation of Dataset Quality We evaluate the BioKaLMA dataset on the following four metrics to ensure the quality of the dataset: 1) Authenticity: The generated questions should accurately reflect the objective facts. 2) Relevance: Each minimum knowledge set should provide support to the corresponding question. Each piece of knowledge from the minimum knowledge set is not redundant. 3) Naturalness: The generated question should be concise and understandable by human readers. 4) Significance: The generated question should be meaningful and helpful to users.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.507,
+      0.759,
+      0.885
+    ],
+    "text": "To our best knowledge, there is no perfect automatic evaluation for these metrics. Naturalness and significance are subjective. Hence, we apply human evaluation to ensure the dataset quality.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.76,
+      0.507,
+      0.841,
+      0.887
+    ],
+    "text": "We randomly sample 50 data entries from BioKaLMA and ask human annotators to evaluate the data entries based on the four metrics. The general and specific questions are evaluated separately. More details are given in Appendix C.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.843,
+      0.507,
+      0.923,
+      0.887
+    ],
+    "text": "The final result for each metric is taken average and reported in Table 2. For both general and specific settings, the questions from sample achieve a 100% authenticity, which indicates that the overall authenticity of BioKaLMA dataset is high. The relevance on general and specific settings are 73% and 84% respectively. The specific question normally consists of more parts and include more details than its general version, and hence some knowledge are necessary to the specific version but not to the general version. However, the general version questions sacrifice relevance to achieve better naturalness and significance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.214,
+      0.11,
+      0.375,
+      0.49
+    ],
+    "text": "In practice, it is difficult to define a precise “minimum knowledge set” for a question unless it is very specific. However, a very specific question tends to be artificial. The relevance and naturalness of a question have a trade-off relationship. It is yet challenging to generate questions that have both high relevance and high naturalness, but our generation method allows for a control on the granularity of a question on whether it tends to be more natural or more relevant.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.112,
+      0.403,
+      0.22
+    ],
+    "text": "3 Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.413,
+      0.11,
+      0.511,
+      0.49
+    ],
+    "text": "We build a baseline to enable LLMs to generate knowledge-aware attributed answers. Following the approach of many retrieval augmented generation works (Lee et al., 2022; Izacard and Grave, 2021), we utilize a pipeline consisting of three components: retrieval, re-ranking, and generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.521,
+      0.114,
+      0.537,
+      0.236
+    ],
+    "text": "3.1 Retrieval",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.543,
+      0.11,
+      0.753,
+      0.49
+    ],
+    "text": "Our baseline retrieval process consists of two parts: named entity recognition and graph retrieval. We utilize spaCy3 to identify the named entities mentioned in the question. Using these entities, we retrieve entity-centered sub-graphs using SPARQL. For each retrieved entity, we search for nodes in the graph that match the entity’s name. We use the named entity recognition (NER) entity type as a simple filter (e.g., the NER category “person” matches the “human” entity type in WikiData). Taking each selected node as the center, we retrieve one-hop sub-graphs that contain properties associated with the entity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.764,
+      0.114,
+      0.781,
+      0.253
+    ],
+    "text": "3.2 Re-ranking",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.11,
+      0.9,
+      0.49
+    ],
+    "text": "The re-ranking component plays a crucial role in disambiguating retrieved entities, as multiple entities may share the same name in the WikiData graph. Two common scenarios are different individuals with the same name (e.g., Anne Hathaway the American actress and Anne Hathaway the wife of William Shakespeare) and different references to the same word (e.g., “Chinese” the language and “Chinese” the ethnic group). When multiple entities are retrieved from the graph for a given entity name, we rank the graphs based on the Exact Match (EM) between the neighboring nodes and the question. We select the entity with the highest number of matched neighboring nodes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.206,
+      0.509,
+      0.223,
+      0.648
+    ],
+    "text": "3.3 Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.507,
+      0.696,
+      0.887
+    ],
+    "text": "The generation component effectively prompt the LLMs with the retrieved knowledge graphs (KGs) to generate answers that attribute the KG. To adapt to the input format of the LLMs, we transform the structured KGs into flat texts. We preserve the information of the retrieved sub-graphs by mapping each sub-graph to a set of triples. Each triple consists of two nodes and one edge, where one node is the centered entity, the other node is its neighbor, and the edge represents the relationship between them. For example, [Q212657 - place of birth - Q220] can be translated to [Artemisia Gentileschi - place of birth - Rome]. In this translation, we use the names of the entities for better comprehension by both the models and humans, since WikiData utilizes QIDs (e.g., Q220) to represent unique entit",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.706,
+      0.509,
+      0.722,
+      0.712
+    ],
+    "text": "4 Evaluation Metrics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.73,
+      0.507,
+      0.813,
+      0.887
+    ],
+    "text": "Our benchmark includes evaluation metrics for both the generated text and citations. We also evaluate the alignment between the text and corresponding citations. We provide more discussions on the design of evaluation metrics in subsection 4.5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.821,
+      0.509,
+      0.837,
+      0.684
+    ],
+    "text": "4.1 Text Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.841,
+      0.507,
+      0.922,
+      0.889
+    ],
+    "text": "Since our test-set has no human-written gold answers as references, we do not utilize comparisonbased metrics such as BERTScore (Zhang et al., 2019a) or MAUVE (Pillutla et al., 2021). Instead, we employ reference-free NLG evaluator G-",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-1",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.117,
+      0.268,
+      0.485
+    ],
+    "text": "Figure 2: An illustration of how we evaluate the precision and recall for generated citations.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.325,
+      0.11,
+      0.455,
+      0.49
+    ],
+    "text": "Eval (Liu et al., 2023b), which defines the following four metrics: 1) Coherence: whether the generated text is well-structured and well-organized. 2) Consistency: whether the generated text is consistent with the knowledge provided. 3) Fluency: whether the generated text is well-written and grammatical. 4) Relevance: how well is the generated text relevant to the question.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.455,
+      0.11,
+      0.537,
+      0.49
+    ],
+    "text": "We use the model text-davinci-003 for evaluation, which assigns an integer score of 1 to 5 for each metric. We follow the prompt provided in G-Eval (Liu et al., 2023b) and customize it based on our task. The full prompts are given in appendix D.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.112,
+      0.561,
+      0.317
+    ],
+    "text": "4.2 Citation Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.567,
+      0.11,
+      0.73,
+      0.49
+    ],
+    "text": "We evaluate the citation qualities from three aspects: 1) Correctness, which measures whether the generated knowledge matches the given knowledge from the knowledge graph, 2) Precision, which determines how much of the generated citations are helpful to answer the question, and 3) Recall, which measures how much of the minimum knowledge set are covered by the generated citations. We also calculate the F1-Score based on the Precision and Recall to reflect the overall quality of citations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.11,
+      0.851,
+      0.49
+    ],
+    "text": "Correctness We calculate the citation correctness for each citation (0 or 1) and average over all citations. Each citation comprises a triplet of 1) center entity QID, 2) relation 3) neighbour entity value. If the generated citation is complete with all three parts, and exactly matches a triplet from the question’s retrieved KG, correctness = 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.858,
+      0.11,
+      0.923,
+      0.489
+    ],
+    "text": "Precision We calculate citation precision for each citation (0 or 1) and average over all citations to get micro precision. Precision = 1 for a citation if and only if 1) it is correct, and 2) it matches one knowledge triplet from minimum knowledge set of the question. (See Figure 2.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-8",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_1.jpg",
+    "bbox_norm": [
+      0.082,
+      0.51,
+      0.269,
+      0.882
+    ],
+    "text": "Figure 3: An illustration of how we evaluate the precision and recall for conscious incompetence ([NA])",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.507,
+      0.45,
+      0.885
+    ],
+    "text": "Recall We calculate citation recall for each knowledge (0 or 1) in minimum knowledge set, and average over all knowledge to get micro recall. Recall = 1 if and only if the knowledge if hit by a correct citation. (See Figure 2.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.45,
+      0.507,
+      0.532,
+      0.887
+    ],
+    "text": "We average over all citations/knowledge in an answer, and average all answer-level precision/recall to get macro precision and recall. we calculate micro and macro F1-Score from corresponding precision and recall.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.544,
+      0.507,
+      0.56,
+      0.751
+    ],
+    "text": "4.3 Text-Citation Alignment",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.565,
+      0.505,
+      0.858,
+      0.887
+    ],
+    "text": "Other than the text quality and citation quality, we measure whether the generated citations provide support for the corresponding sentences. A piece of useful knowledge is not an ideal citation if it is irrelevant to the sentence it links to. Therefore, we propose the metric “Alignment” which determines whether the generated citations are aligned to the sentences to which they belong. We use a state-of-the-art natural language inference (NLI) model TRUE (Honovich et al., 2022), which is a fine-tuned T5-11B (Raffel et al., 2020) model, to check whether the generated sentence entails the generated citation. Since one sentence could have multiple citations, we run NLI on all sentencecitation pairs and report the percentage of entailment. Additionally, we conduct human evaluation in § 5.4 to ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-14",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.868,
+      0.507,
+      0.884,
+      0.842
+    ],
+    "text": "4.4 Conscious Incompetence Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-15",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.89,
+      0.507,
+      0.923,
+      0.885
+    ],
+    "text": "Theoretically, each [NA] mark should map to a piece of knowledge absent from the retrieved knowledge graph. However, it is difficult to identify if sentence requires any absent knowledge since there is no ground truth. Therefore, we conduct a three-round experiment to manually create ground truth for absent knowledge. In round 1, we select one knowledge from the minimum knowledge set, and remove it from the ground-truth knowledge graph. We let the LLMs attribute to this incomplete knowledge graph to generate answers, whereby the removed knowledge forms the “absent knowledge ground truth”. In subsequent rounds, we each remove one additional knowledge from the minimum knowledge set, simulating a knowledge graph with more serious coverage problem.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.112,
+      0.392,
+      0.489
+    ],
+    "text": "We employ the NLI model TRUE (Honovich et al., 2022) to measure the alignment between sentences and knowledge. A sentence with [NA] should be aligned to an absent knowledge. We calculate precision and recall for [NA].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.11,
+      0.5,
+      0.49
+    ],
+    "text": "[NA] precision We calculate [NA] precision for each sentence with [NA] (0 or 1) and average over all sentences with [NA]. Precision = 1 for a sentence if and only if it entails one knowledge triplet from absent knowledge set of the question. (See Figure 3.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.112,
+      0.59,
+      0.489
+    ],
+    "text": "[NA] Recall We calculate [NA] recall for each knowledge (0 or 1) in absent knowledge set and average over all absent knowledge. Recall = 1 if and only if the knowledge if entailed by a sentence with [NA]. (See Figure 3.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.601,
+      0.112,
+      0.618,
+      0.423
+    ],
+    "text": "4.5 Discussion on Evaluation metrics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.623,
+      0.11,
+      0.706,
+      0.49
+    ],
+    "text": "In this section, we discuss on the evaluation metrics of benchmark BioBaLMA. We design the evaluation metrics from multiple dimensions to incorporate different understandings on what makes a high quality citation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.134,
+      0.831,
+      0.49
+    ],
+    "text": "• One understanding argues when the answer contains mistakes, even if the citation is correctly answering the questions, it cannot represent good LLM attribution performance. In this case, citation quality is considered as a measure of overall attribution performance, including the answer quality.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.841,
+      0.134,
+      0.923,
+      0.49
+    ],
+    "text": "• The other understanding argues for a complete decoupling of answer and citation quality. In this scenario, even if the answer is wrong, the citation is valuable as long as it provides reasonable support for the question. In such cases, citations do not give advice on the correctness of the answer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.128,
+      0.507,
+      0.273,
+      0.887
+    ],
+    "text": "Both understandings are plausible, and hence we have considered both of them when we design metrics. The alignment score is designed based on the first understanding, which measures whether the citations are closely linked to the answer. The precision and recall are designed for the second understanding, where the citations are completely decoupled from the answer, and are correct if they provide support for the question.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.273,
+      0.507,
+      0.37,
+      0.887
+    ],
+    "text": "In addition, we also incorporate an edge case for design of the [NA] precision calculation. If an NA-marked sentence does not answer the question at all, it is considered correct in the [NA] precision calculation. In this case, the LLM correctly identifies a sentence that requires further verification.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.397,
+      0.509,
+      0.413,
+      0.657
+    ],
+    "text": "5 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-13",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.507,
+      0.617,
+      0.887
+    ],
+    "text": "We run through the method pipeline described in § 3 on different LLMs and present the results in this section. Since we aim to obtain a more accurate evaluation, we conduct our main experiments on the specific questions setting, since the minimum knowledge set has a higher relevance on the specific questions. However, we will also provide evaluation results for the general questions in § 5.5 as ablation studies. The implementation details are reported in appendix B. We report five model baselines from both open and closed source model families:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-14",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.624,
+      0.507,
+      0.706,
+      0.887
+    ],
+    "text": "OpenAI Models We use GPT4 (gpt-4-0314) and ChatGPT (gpt-3.5-turbo-0301) for our experiments. For ChatGPT, we experiment on temperature of 0.1, 0.5, and 0.9 to obtain different levels of randomness and creativity in generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-15",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.507,
+      0.827,
+      0.889
+    ],
+    "text": "LLaMA We conduct experiments with LLaMA-7B (Touvron et al., 2023) and LLaMA-13B since they are powerful open-source models that are widely accessible. We have also conducted human instruction tuned LLaMA models, including Alpaca-7B (Taori et al., 2023) and Vicuna-13B (Chiang et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-16",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.837,
+      0.509,
+      0.853,
+      0.663
+    ],
+    "text": "5.1 Main Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-17",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.858,
+      0.507,
+      0.923,
+      0.889
+    ],
+    "text": "Citation Quality Evaluation We present the main results in Table 3. For correctness, we report on a micro scale. For precision, recall, and F1- Score, we report on both micro and macro scales.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.08,
+      0.129,
+      0.248,
+      0.868
+    ],
+    "text": "Table 3: Citation Quality OpenAI models and LLaMA family models. The first five metrics are reported in Micro, and the last three metrics are reported in Macro. We also report text citation alignment.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.112,
+      0.334,
+      0.489
+    ],
+    "text": "The experimental results are the mean of three runs, and the standard deviation is reported in brackets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.11,
+      0.609,
+      0.49
+    ],
+    "text": "In general, there is a room of improvement for all models since no model can achieve a micro F1 Score of higher than 40. The OpenAI models outperform the LLaMA family models in almost all metrics. The correctness is above 94 for OpenAI models, but around 70 for LLaMA based models. For ChatGPT, temperature does not play a significant role since it effect on F1 Score is at most 1.2. The GPT-4 model achieves the best performance across almost all metrics, except for recall, since GPT-4 models tend to generate shorter answers with fewer citations, resulting in higher precision. While LLaMA is better at Recall by generating long answers with many citations. The F1-Score of models from the same family are close to one another, showing that our automatic evaluation metric designed is reliable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-4",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.298,
+      0.514,
+      0.444,
+      0.863
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.62,
+      0.11,
+      0.799,
+      0.49
+    ],
+    "text": "Text-Citation Alignment From Table 3, similar to citation quality, the OpenAI models also outperform the LLaMA based models on text-citation alignment. In addition, models with 7B, 13B, 175B (ChatGPT), and trillion level (GPT4) parameters have an alignment score of 40+, 60+, 80+, and 92 respectively. LLaMA-13B model has an improvement of 14.3 compared to LLaMA-7B model. This shows that parameter size may play an important role in generating sentences and citations with good alignment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-6",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_2.jpg",
+    "bbox_norm": [
+      0.474,
+      0.517,
+      0.556,
+      0.836
+    ],
+    "text": "Table 4: Evaluation on generated text quality. Table 5: Citation quality evaluation for generated texts using a KG with N pieces of knowledge removed.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.11,
+      0.923,
+      0.492
+    ],
+    "text": "Text Quality Evaluation We present the evaluation of generated text quality in Table 4. From the results, we find that OpenAI models, in general, have better text quality in all metrics compared to LLaMA family models, which corresponds to the citation evaluation results. All models exhibit rather high consistency, indicating that the LLMs are capable of generating answers that are not contradictory to the provided knowledge or selfcontradictory. However, the relevance is relatively low for smaller models, indicating the difficulty these models face in generating answers that are relevant to the questions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.509,
+      0.739,
+      0.751
+    ],
+    "text": "5.2 Conscious Incompetence",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.507,
+      0.906,
+      0.887
+    ],
+    "text": "We first evaluate citation quality of the generated text with knowledge removed using method described in § 4.4. From Table 5, the removal of required knowledge has a minimal impact on correctness, but significantly affects citation precision and recall. With more knowledge absent from provided knowledge graph, both precision and recall drops drastically, demonstrating that the coverage issue poses a considerable challenge to generating answers with high quality citations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.906,
+      0.526,
+      0.922,
+      0.885
+    ],
+    "text": "Next, we evaluate [NA] precision and recall.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.11,
+      0.499,
+      0.49
+    ],
+    "text": "From Figure 4, The recall is stable at about 15 regardless of the number of absent knowledge. This indicates that the current LLMs have ability to identify absent knowledge to a limited extent. While precision and F1-Score exhibit a clear upward trend, which shows that with more absent knowledge in KG, [NA] enables generated outputs to locate absent knowledge more accurately. Therefore, the “Conscious Incompetence” setting plays an increasingly crucial role when the coverage problem of knowledge graph is more serious.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.114,
+      0.527,
+      0.305
+    ],
+    "text": "5.3 Retrieval Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.535,
+      0.112,
+      0.712,
+      0.49
+    ],
+    "text": "We conduct an ablation study to examine the impact of retrieval accuracy on the model’s output. The experiment simulates retrieval accuracy from 100 to 20 at intervals of 20. We start with the ground truth knowledge graphs that we used for question construction. In each subsequent rounds, we randomly replace additional 20% knowledge graphs with irrelevant knowledge graphs to simulate retrieving wrong graphs. The results for citation quality are in Figure 5. Answers are generated using ChatGPT with a temperature of 0.5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.713,
+      0.112,
+      0.923,
+      0.489
+    ],
+    "text": "The results show clear downward trends in all metrics as expected when retrieval accuracy dropped. Among precision and recall, the impact of poor retrieval quality on recall (green) is much more significant than on precision (yellow). This indicates that the model has the ability to filter out incorrect knowledge to a certain extent, resulting in less noticeable impact on precision compared to recall. The reduction in recall was nearly linear as retrieval accuracy decreased, which is understandable since a knowledge cannot be cited if it is not provided. The greatest drop in recall occurred between the ground truth (57.1) and 80 accuracy (42.5), demonstrating the potential of the model to generate high-quality citations under perfect retrieval conditions. In practice, a retrieval accuracy ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-7",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.334,
+      0.51,
+      0.399,
+      0.863
+    ],
+    "text": "Table 6: Result of Human Evaluation on text-citation alignment",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.595,
+      0.509,
+      0.611,
+      0.707
+    ],
+    "text": "5.4 Human Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.615,
+      0.507,
+      0.777,
+      0.887
+    ],
+    "text": "We conduct human evaluation to verify the correlation between automatic evaluation and human judgment. We randomly sample 100 sentence-citation pairs from each of the three baselines: ChatGPT (temperature 0.5), LLaMA-7B, and Vicuna-13B. We request two proficient English annotators for each baseline to determine if the citation aligns to the sentence and provides support for it. The reason we choose metric alignment here is in appendix C, with instruction to annotators and IAA.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.777,
+      0.507,
+      0.922,
+      0.887
+    ],
+    "text": "The comparison between automatically calculated Alignment and human evaluation results is shown in Table 6. For all three baselines, the automatic and human scores are close with a gap within 2.5, despite the significant differences among the baselines. This indicates a strong correlation between the automatically calculated alignment and human judgments. The experiment results demonstrate that the automatic evaluation serves as a reliable measurement of the alignment between generated texts and citations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-1",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_0.jpg",
+    "bbox_norm": [
+      0.08,
+      0.131,
+      0.181,
+      0.86
+    ],
+    "text": "Table 7: Comparison of evaluation results on General and Specific question setting",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.114,
+      0.28,
+      0.408
+    ],
+    "text": "5.5 General and Specific Questions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.11,
+      0.675,
+      0.49
+    ],
+    "text": "We compare experiments results of text, citation (micro), and alignment between the general and specific questions in Table 7. The results show that the same model’s answers on specific questions outperform those on general questions in almost all metrics. The finding is not surprising because the specific questions provide clearer instructions to the models on which knowledge to use. In addition, the general questions in the dataset are inherently loosely bonded to the minimum knowledge set, and hence have impacts on the evaluation results. This experiment shows a trade-off between how explicitly the question context mentions the knowledge, and how irreplaceably the knowledge is required by the question. The specific questions target the knowledge more explicitly in the question context, ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.114,
+      0.702,
+      0.27
+    ],
+    "text": "6 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.713,
+      0.11,
+      0.923,
+      0.49
+    ],
+    "text": "Retrieval-augmented LLMs KiC (Pan et al., 2022) empower models with external memory of multiple formats including knowledge graph but does not explore attribution. WebGPT (Nakano et al., 2021) outsources document retrieval to Microsoft Bing and fine-tunes GPT3 to answer questions. GopherCite (Menick et al., 2022) fine-tunes a Gopher (Rae et al., 2021) model to generate text alongside quotes extracted from Google search. ALCE (Gao et al., 2023) retrieves top-k passages from Wikipedia and asks LLMs to generate outputs with citations to corresponding supporting documents. These works attribute LLMs to unstructured documents but not knowledge graph.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.254,
+      0.507,
+      0.53,
+      0.887
+    ],
+    "text": "Evaluation (Rashkin et al., 2021) define the “Attributable to Identified Sources” (AIS) to measure whether model-generated statements are supported by underlying sources. (Bohnet et al., 2022) study an automatic metric (AutoAIS) that formulates evaluation of automated question answering as a NLI task. (Yue et al., 2023) investigate the automatic evaluation of attribution by prompting LLMs and fine-tuning smaller LMs. (Liu et al., 2023a) conduct human evaluation to audit generative search engines for their citation qualities. ALCE (Gao et al., 2023) evaluates generated answers by comparing with gold answers using MAUVE, and calculates precision and recall for citations using NLI. To the best of our knowledge, our evaluation methods are the first framework that requires no human annotated da",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.509,
+      0.565,
+      0.643
+    ],
+    "text": "7 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.581,
+      0.507,
+      0.791,
+      0.887
+    ],
+    "text": "We propose KaLMA that comprises a new dataset BioKaLMA, a pipeline for generating attributed answers by retrieving from KGs, and a set of automatic evaluation metrics to assess text quality, citation quality, and text-citation alignment. We introduce the “Conscious Incompetence” setting, enabling LLMs to identify the knowledge required to support the answers but is absent from the KG. Through this benchmark, we address three challenges: incorporating diverse attribution sources, limited attribution source coverage, and the absence of human annotated ground truth for automatic evaluation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.794,
+      0.505,
+      0.923,
+      0.887
+    ],
+    "text": "Our extensive experimental results demonstrate that current LLMs still have room for improvement when utilizing KGs as attribution sources. We also highlight the increasing effectiveness of “Conscious Incompetence” setting as the coverage of attribution source becomes worse. Lastly, we prove the crucial role of retrieval accuracy in generating high-quality attributed texts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.099,
+      0.22
+    ],
+    "text": "Limitations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.11,
+      0.112,
+      0.205,
+      0.489
+    ],
+    "text": "One limitation is that our work only investigates a simple form of knowledge graph, where each node is an entity, and each sub-graph is a knowledge triple. There are more complicated forms of knowledge graph, where each node is a document. We will explore this setting in future works.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.206,
+      0.112,
+      0.367,
+      0.49
+    ],
+    "text": "Another limitation lies within the text quality evaluation. We uses ChatGPT as the model to evaluate texts, which could potentially have a bias if the model prefers the text style generated by itself. Such bias can be observed from the abnormal phenomenon that the scores of ChatGPT generated answers are higher than that of the GPT4 generated answers for all four dimensions. Due to cost considerations, we do not repeat the text quality evaluation with GPT-4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.379,
+      0.114,
+      0.395,
+      0.317
+    ],
+    "text": "Ethical Considerations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.405,
+      0.112,
+      0.551,
+      0.489
+    ],
+    "text": "The potential risk is when users leverage the automatic dataset construction pipeline to generate massive hazardous datasets. This can only happen when a structured knowledge of harmful content is available. Otherwise there is no risk as long as the benchmark is used correctly. All data are collected from WikiData which is publicly available. Hence there is no privacy issue. We also conduct human check to ensure there is no offensive content.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.114,
+      0.593,
+      0.215
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.601,
+      0.117,
+      0.719,
+      0.489
+    ],
+    "text": "Bernd Bohnet, Vinh Q. Tran, Pat Verga, Roee Aharoni, Daniel Andor, Livio Baldini Soares, Massimiliano Ciaramita, Jacob Eisenstein, Kuzman Ganchev, Jonathan Herzig, Kai Hui, Tom Kwiatkowski, Ji Ma, Jianmo Ni, Lierni Sestorain Saralegui, Tal Schuster, William W. Cohen, Michael Collins, Dipanjan Das, Donald Metzler, Slav Petrov, and Kellie Webster. 2023. Attributed question answering: Evaluation and modeling for attributed large language models. Bernd Bohnet, Vinh Q Tran, Pat Verga, Roee Aharoni, Daniel Andor, Livio Baldini Soares, Jacob Eisenstein, Kuzman Ganchev, Jonathan Herzig, Kai Hui, et al. 2022. Attributed question answering: Evaluation and modeling for attributed large language models. arXiv preprint arXiv:2212.08037. Samuel Bowman, Gabor Angeli, Christopher Potts, and Christopher D ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.115,
+      0.139,
+      0.489
+    ],
+    "text": "Yang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu. 2023b. G-eval: Nlg evaluation using gpt-4 with better human alignment. Jacob Menick, Maja Trebacz, Vladimir Mikulik, John Aslanides, Francis Song, Martin Chadwick, Mia Glaese, Susannah Young, Lucy Campbell-Gillingham, Geoffrey Irving, et al. 2022. Teaching language models to support answers with verified quotes. arXiv preprint arXiv:2203.11147. Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, et al. 2021. Webgpt: Browser-assisted questionanswering with human feedback. arXiv preprint arXiv:2112.09332. Xiaoman Pan, Wenlin Yao, Hongming Zhang, Dian Yu, Dong Yu, and Jianshu Chen. 2022. Knowledge-incontext: Towards ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.115,
+      0.139,
+      0.487
+    ],
+    "text": "Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Pu Zhao, Jiazhan Feng, Chongyang Tao, and Daxin Jiang. 2023. Wizardlm: Empowering large language models to follow complex instructions. Wei Yang, Yuqing Xie, Aileen Lin, Xingyu Li, Luchen Tan, Kun Xiong, Ming Li, and Jimmy Lin. 2019. End-to-end open-domain question answering with bertserini. arXiv preprint arXiv:1902.01718. Xiang Yue, Boshi Wang, Kai Zhang, Ziru Chen, Yu Su, and Huan Sun. 2023. Automatic evaluation of attribution by large language models. arXiv preprint arXiv:2305.06311. Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q Weinberger, and Yoav Artzi. 2019a. Bertscore: Evaluating text generation with bert. arXiv preprint arXiv:1904.09675. Yuan Zhang, Jason Baldridge, and Luheng He. 2019b. PAWS: Paraphrase adversaries from word scramb",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.509,
+      0.099,
+      0.734
+    ],
+    "text": "A Dataset Construction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.11,
+      0.507,
+      0.191,
+      0.885
+    ],
+    "text": "In this section, we will explain the detailed process and algorithms for the automatic dataset construction pipeline. Using this pipeline, we are able to construct datasets with a greater scale or in other domains.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.509,
+      0.218,
+      0.69
+    ],
+    "text": "A.1 Person Selection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.507,
+      0.548,
+      0.889
+    ],
+    "text": "To improve the complexity of the questions and difficulty to LLMs, we involve more than one person in each question. In addition, we need high quality paragraphs for subsequent dataset generation steps. Therefore, we utilize name pairs and paragraphs from the biographical database, which is a database specifically designed for the relation extraction (RE) task. Each piece of data from the biographical database includes a short paragraph, and a relation triple extracted from the paragraph. The relation triple consists of two people and their relationship such as <William Shakespeare, Spouse, Anne Hathaway>. The biographical database includes an automatically extracted set and a human annotated set. We specifically choose the human annotated set from the database to ensure highquality name p",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.558,
+      0.509,
+      0.575,
+      0.737
+    ],
+    "text": "A.2 Name Disambiguation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.58,
+      0.507,
+      0.888,
+      0.887
+    ],
+    "text": "Due to the presence of duplicate names (e.g., Anne Hathaway: the actress, or the wife of William Shakespeare), we perform name disambiguation to map each name in the triple to a unique entity from the knowledge graph. We utilize WikiData4 (Vrandeciˇ c and Krötzsch ´ , 2014) as the knowledge base and employ SPARQL (Pérez et al., 2009) queries to retrieve all entities associated with the name. Wiki-Data assigns a unique QID to each entity which distinguishes between entities with the same name. In WikiData, each entity represents a node in the knowledge graph. Since each triple consists of two names and one relation, we select the two entities obtained from the query if they are connected to each other on WikiData. Additionally, the connecting edge should align with the relation specified in",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.112,
+      0.208,
+      0.438
+    ],
+    "text": "A.3 Evolutionary Question Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.11,
+      0.536,
+      0.49
+    ],
+    "text": "We employ an “evolutionary question generation” approach inspired by WizardLM (Xu et al., 2023) and DKGen (Qian et al., 2023), where we gradually increase the set of knowledge required by injecting knowledge through iterations. In each iteration, LLMs extend the paragraph with one sentence by incorporating the additional knowledge. After the last iteration, LLMs propose two questions according to the extended paragraph, one is a general version, and the other is a specific version. The general question is more concise, and the specific question is more detailed. Both questions target the same set of knowledge. All injected knowledge form a “minimum knowledge set”, which includes the least knowledge required to answer the proposed question (Table 1). We do not throw all knowledge to LLM at ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.536,
+      0.11,
+      0.923,
+      0.492
+    ],
+    "text": "In the first iteration, LLMs annotate the original paragraph from Biographical Database with the knowledge from the “knowledge pool”. For instance, the sentence “Artemisia was born in Rome.” is annotated with knowledge [Artemisia , place of birth, Rome]. In each subsequent iteration, we select a piece of appropriate knowledge according to the existing paragraph. A sentence with appropriate knowledge should have good specificity and coherence. Specificity refers to the significance of the knowledge, such that it is not too general or trivial. Coherence refers to the naturalness of the additional knowledge. The added knowledge should not deviate from the existing paragraph and should be coherent when reading. During knowledge selection, each piece of knowledge is assigned a score by adding t",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:equation-6",
+    "page_id": 12,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_12_Equation_0.jpg",
+    "bbox_norm": [
+      0.29,
+      0.531,
+      0.326,
+      0.84
+    ],
+    "text": "$$\n\\begin{array} { c } { S c o r e _ { r } = \\alpha \\cdot \\log ( 2 \\cdot N / C o u n t _ { r } ) } \\\\ { + \\left( 1 - \\alpha \\right) \\cdot \\operatorname { s o f t m a x } ( 1 / p e r p _ { r } ) } \\end{array}\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-12:text-7",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.34,
+      0.507,
+      0.517,
+      0.887
+    ],
+    "text": "In each iteration, we leverage the “text-davinci-003” model for annotation or generation with incontext learning. We provide separate instructions and demonstrations for general and specific questions. The detailed prompt templates used is provided in the appendix D. We provide one human written demonstration. Some examples of full question evolution process are provided in appendix E. In practice, we employ five iterations to ensure sufficient complexity in the questions without making them overly tedious.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-8",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.531,
+      0.509,
+      0.548,
+      0.715
+    ],
+    "text": "B Experiment Details",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-9",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.557,
+      0.509,
+      0.574,
+      0.7
+    ],
+    "text": "B.1 Main Experiment",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-10",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.581,
+      0.507,
+      0.775,
+      0.887
+    ],
+    "text": "For the main experiments, we run reach model with different seeds for three times. The OpenAI family models are implemented using OpenAI APIs. Running one round of experiment with ChatGPT model takes approximately 1 hour, and costs about 3 USD. Running one round of experiment with GPT4 model takes approximately 1.5 to 2 hours, and costs about 60 USD. Each LLaMA family model is run on one TESLA V100 GPU, where each run takes about 6 to 8 hours for Alpaca-7B and Vicuna-13B, and about 12-16 hours for LLaMA-7B and LLaMA-13B.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-11",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.787,
+      0.509,
+      0.803,
+      0.749
+    ],
+    "text": "B.2 Text Quality Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-12",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.507,
+      0.923,
+      0.887
+    ],
+    "text": "For text quality evaluation, we use the model “textdavinci-003” with temperature 0 to ensure stability and reproducibility of the results. We randomly sample 100 outputs from each baseline and take three runs to report mean. We do not report standard deviation since most of them are mostly insignificantly small (below 0.1).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.099,
+      0.2
+    ],
+    "text": "B.3 NLI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.11,
+      0.349,
+      0.492
+    ],
+    "text": "For the automatic evaluation of text citation alignment and evaluation of the known unknown citations, we implement the TRUE model from HuggingFace5, which was trained on SNLI (Bowman et al., 2015), MNLI (Williams et al., 2018), Fever (Thorne et al., 2018), Scitail (Khot et al., 2018), PAWS (Zhang et al., 2019b), and VitaminC (Schuster et al., 2021). The model uses the prompt of “premise: {PREMISE} hypothesis: {HYPOTHESIS}”. For each sentence citation pair, we place the sentence in the “PREMISE”, and the citation to the “HYPOTHESIS”, like the following: “premise: {Hertwig served as a professor at the University of Jena for the last 40 years of his career.} hypothesis: {employer: University of Jena}”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.357,
+      0.114,
+      0.374,
+      0.319
+    ],
+    "text": "C Human Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.114,
+      0.398,
+      0.317
+    ],
+    "text": "C.1 Dataset Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.403,
+      0.112,
+      0.468,
+      0.489
+    ],
+    "text": "To evaluate the dataset quality, we have two individual annotators who are proficient in the English language. Below are the exact method for evaluating each metric:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.475,
+      0.134,
+      0.588,
+      0.489
+    ],
+    "text": "• Authenticity. We ask the annotators to check from WikiPedia and understand the background stories of the mentioned people, and decide if the generated question matches the background story. Each question is assigned score 1 if it matches the background story, and score 0 if there is contradiction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.596,
+      0.136,
+      0.743,
+      0.49
+    ],
+    "text": "• Relevance. After understanding the background stories, we ask the annotators to label each piece of knowledge from the minimum knowledge set. A piece of knowledge is labeled 1 if the annotator thinks it is necessary to answer the question, and 0 if it is redundant. The relevance score of a question is the ratio of number of necessary knowledge to the number of knowledge in the minimum set.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.134,
+      0.848,
+      0.49
+    ],
+    "text": "• Naturalness. We ask the annotators to give an integer score 1 to 5 to label each question. 5 means the question can be easily understandable, and is concise. 1 means the question is not written in natural English language or is extremely tedious.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-9",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.857,
+      0.136,
+      0.89,
+      0.489
+    ],
+    "text": "• Significance. We ask the annotators to give an integer score 1 to 5 to label each question.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.544,
+      0.134,
+      0.884
+    ],
+    "text": "5 means the annotator feels that he or she may be interested in this question under some circumstances, and 1 means the opposite.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-11",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.507,
+      0.269,
+      0.885
+    ],
+    "text": "The agreement between the two annotators are as follow: the agreement between them is 100% for authenticity and 86% for relevance. Since the evaluation for naturalness and significance are score based, in 92% and 90% of the evaluated datasets respectively, the score difference between the two annotators is no larger than 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.288,
+      0.509,
+      0.305,
+      0.773
+    ],
+    "text": "C.2 Generated Text Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-13",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.316,
+      0.507,
+      0.575,
+      0.887
+    ],
+    "text": "Among text quality evaluation, citation quality evaluation, and text-citation alignment, we conduct human evaluation on text-citation alignment. Text quality evaluation is conducted using G-Eval. We acknowledge this is not a perfect metric, but the human evaluation is conducted in (Liu et al., 2023b). The focus is this paper is not to improve G-Eval. Citation quality evaluation is conducted with looking for exact match between generated citations and minimum knowledge set, which is an objective evaluation. The text-citation alignment evaluation is conducted using NLI, which we are not certain if entailment means providing support. In addition, whether a knowledge supports a sentence can be subjective. Therefore, we conduct human evaluation on alignment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-14",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.507,
+      0.756,
+      0.887
+    ],
+    "text": "We present the Human Evaluation Instructions provided to the annotators in Table 8. We follow the implementation from (Clark et al., 2021), and provide detailed instructions and examples to improve evaluation accuracy. For this human evaluation, there are four individual annotators in total. We arrange different annotators for different baselines, and each baseline has two annotators. The Inter-Annotator Agreement for ChatGPT, LLaMA-7B, and Vicuna-13B are reported as follows: 90%, 97%, and 89% respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-15",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.509,
+      0.794,
+      0.625
+    ],
+    "text": "D Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-16",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.507,
+      0.922,
+      0.887
+    ],
+    "text": "We present the prompts and instructions we used in this section. We present the prompts for the evolutionary question construction in Table 9, 10, 11, and 12. We present the prompt for the answer generation in Table 13. We present the prompts we use for text evaluation with G-Eval in Table 14, 15, 16, and 17.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.114,
+      0.543,
+      0.452
+    ],
+    "text": "E Evolutionary Question Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.551,
+      0.114,
+      0.585,
+      0.487
+    ],
+    "text": "We provide an example of evolutionary question generation in Table 18.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.594,
+      0.114,
+      0.612,
+      0.236
+    ],
+    "text": "F Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.62,
+      0.114,
+      0.653,
+      0.489
+    ],
+    "text": "We show examples of the attributed answers generated by the LLMs in Table 19 and 20.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.126,
+      0.19,
+      0.826
+    ],
+    "text": "Instruction: Your objective is to select relevant knowledge to label the sentence and generate a question",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.815,
+      0.112,
+      0.846,
+      0.884
+    ],
+    "text": "Table 9: Instruction and demonstration for initial round of evolutionary question construction. We use brown color for the knowledge, and blue color for the demonstration of expected output.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.112,
+      0.726,
+      0.884
+    ],
+    "text": "Table 10: Instruction and demonstration for evolutionary question construction for round 2 to 5. We use brown color for the knowledge, and blue color for the demonstration of expected output.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.122,
+      0.146,
+      0.872
+    ],
+    "text": "Instruction: Your objective is to ask a question whose answer is the given paragraph. There should be only one question when possible, if not, make sure the question is as concise as possible.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.158,
+      0.122,
+      0.403,
+      0.873
+    ],
+    "text": "Paragraph: Artemisia Gentileschi was born Artemisia Gentileschi Lomi in Rome on July 8 1593 although her birth certificate from the Archivio di Stato indicated she was born in 1590 the eldest child of the Tuscan painter Orazio Gentileschi and Prudenzia di Ottaviano Montoni. Her life and work were later depicted in the film Ärtemisia¨, which brought her story to a wider audience. Her father, Orazio, was a prominent figure in the Mannerism art movement, which likely influenced Artemisia’s own artistic style. However, Artemisia herself was a part of the Caravaggisti movement, a group of artists who followed the style of Caravaggio. She was also a student of her father, Orazio Gentileschi, which further shaped her artistic development. Orazio’s influence on Artemisia’s development as a promine",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.121,
+      0.448,
+      0.781
+    ],
+    "text": "Generated Question: Who was Artemisia Gentileschi and what influences shaped her artistic style?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.448,
+      0.112,
+      0.479,
+      0.885
+    ],
+    "text": "Table 11: Instruction and demonstration for general question generation. We use blue color for the demonstration of expected output.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-5",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.124,
+      0.542,
+      0.85
+    ],
+    "text": "Instruction: Your objective is to ask a question whose answer is the given paragraph. The question should not be too tedious.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-6",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.556,
+      0.122,
+      0.869,
+      0.873
+    ],
+    "text": "Paragraph: Artemisia Gentileschi was born Artemisia Gentileschi Lomi in Rome on July 8 1593 although her birth certificate from the Archivio di Stato indicated she was born in 1590 the eldest child of the Tuscan painter Orazio Gentileschi and Prudenzia di Ottaviano Montoni. Her life and work were later depicted in the film Ärtemisia¨, which brought her story to a wider audience. Her father, Orazio, was a prominent figure in the Mannerism art movement, which likely influenced Artemisia’s own artistic style. However, Artemisia herself was a part of the Caravaggisti movement, a group of artists who followed the style of Caravaggio. She was also a student of her father, Orazio Gentileschi, which further shaped her artistic development. Orazio’s influence on Artemisia’s development as a promine",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-7",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.112,
+      0.908,
+      0.885
+    ],
+    "text": "Table 12: Instruction and demonstration for specific question generation. We use blue color for the demonstration of expected output.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.822,
+      0.112,
+      0.853,
+      0.884
+    ],
+    "text": "Table 13: Full instruction and demonstration for answer generation with citaion. We use brown color for the knowledge pool, and blue color for the expected outcome provided by the demonstration.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.121,
+      0.843,
+      0.872
+    ],
+    "text": "Table 17: Instruction for text evaluation with GPT-EVAL - Relevance",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-21:text-7",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.769,
+      0.112,
+      0.813,
+      0.884
+    ],
+    "text": "Table 18: An example of the generated questions after each round in evolutionary question construction. We use brown color for the knowledge, and blue color for the generated questions. In each round we underline the texts to the newly injected knowledge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.135,
+      0.126,
+      0.149,
+      0.228
+    ],
+    "text": "Question:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.148,
+      0.122,
+      0.23,
+      0.87
+    ],
+    "text": "What were some of Stephen Crane’s notable works that reflected his views on religion and the harsh realities of life, and how did his experiences at Syracuse University influence his writing? Also, what was the name of the sports team he was a member of at Syracuse University?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.124,
+      0.26,
+      0.351
+    ],
+    "text": "Retrieved Knowledge:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.26,
+      0.122,
+      0.487,
+      0.87
+    ],
+    "text": "[qid: Q206534, name: Stephen Crane, sex or gender: male, place of birth: Newark, place of death: Badenweiler, country of citizenship: United States of America, cause of death: Tuberculosis, place of burial: Evergreen Cemetery, alma mater: Syracuse University, instance of: human, given name: Stephen, medical condition: Tuberculosis, occupation: writer, described by source: Great Soviet Encyclopedia (1969âC“1978), manner of death: natural causes, movement: literary realism, notable works: The Red Badge of Courage, surname: Crane’, \"topic’s main category\": ’Category:Stephen Crane, religion: atheism, languages spoken: English, mother: Mary Helen Peck Crane, sport: baseball, member of sports team: Syracuse Orange baseball, father: Jonathan Townley Crane, name: Stephen Crane, date of birth: 1871",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.124,
+      0.517,
+      0.317
+    ],
+    "text": "Generated Output:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-6",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.124,
+      0.712,
+      0.862
+    ],
+    "text": "Stephen Crane was a male writer born on November 1, 1871, in Newark, United States of America, and died on June 5, 1900, in Badenweiler due to tuberculosis [Q206534, sex or gender: male, place of birth: Newark, place of death: Badenweiler, country of citizenship: United States of America, cause of death: Tuberculosis, medical condition: Tuberculosis, date of birth: 1871-11-01, date of death: 1900-06-05]. Crane was a prominent literary realist writer [Q206534, movement: literary realism] who wrote about the harsh realities of life and his atheistic views on religion [Q206534, religion: atheism]. His notable works include \"The Red Badge of Courage\" [Q206534, notable works: The Red Badge of Courage].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-7",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.725,
+      0.121,
+      0.838,
+      0.872
+    ],
+    "text": "Crane attended Syracuse University and was a member of the Syracuse Orange baseball team [Q206534, alma mater: Syracuse University, sport: baseball, member of sports team: Syracuse Orange baseball]. His experiences at Syracuse University influenced his writing, and he wrote several stories about college life, including \"The Eighty-Yard Run,\" which was based on his own experiences as a football player at Syracuse [NA].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-8",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.838,
+      0.112,
+      0.869,
+      0.884
+    ],
+    "text": "Table 19: An example of the attributed answer generated by ChatGPT (temperature 0.5). We use blue color for the question and brown color for the retrieved knowledge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.126,
+      0.158,
+      0.228
+    ],
+    "text": "Question:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.122,
+      0.239,
+      0.87
+    ],
+    "text": "What were some of Stephen Crane’s notable works that reflected his views on religion and the harsh realities of life, and how did his experiences at Syracuse University influence his writing? Also, what was the name of the sports team he was a member of at Syracuse University?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.51,
+      0.124,
+      0.525,
+      0.317
+    ],
+    "text": "Generated Output:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.524,
+      0.122,
+      0.688,
+      0.862
+    ],
+    "text": "Stephen Crane was an American writer born on November 1, 1871, in Newark, and died on June 5, 1900, in Badenweiler [Q206534, date of birth: 1871-11-01, date of death: 1900-06-05, place of birth: Newark, place of death: Badenweiler]. He was a part of the literary realism movement and is best known for his notable work, The Red Badge of Courage [Q206534, movement: literary realism, notable works: The Red Badge of Courage]. Crane’s views on religion were atheistic [Q206534, religion: atheism]. His works often reflected the harsh realities of life, such as war, poverty, and human suffering [NA].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-6",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.701,
+      0.124,
+      0.768,
+      0.86
+    ],
+    "text": "Crane attended Syracuse University [Q206534, alma mater: Syracuse University], where his experiences likely influenced his writing. He was exposed to a diverse range of ideas and perspectives, which may have contributed to his realistic approach to literature [NA].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-7",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.121,
+      0.829,
+      0.826
+    ],
+    "text": "While at Syracuse University, Stephen Crane was a member of the Syracuse Orange baseball team [Q206534, member of sports team: Syracuse Orange baseball].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-8",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.829,
+      0.112,
+      0.859,
+      0.884
+    ],
+    "text": "Table 20: An example of the attributed answer generated by GPT-4. We use blue color for the question and brown color for the retrieved knowledge.",
+    "source_type": "text"
+  }
+]

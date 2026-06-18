@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Weighted Average Useful Life (years)</td></tr><tr><td>Purchased technology</td><td>6</td></tr><tr><td>Customer contracts and relationships</td><td>8</td></tr><tr><td>Trademarks.</td><td>8</td></tr><tr><td>Acquired rights to use technology</td><td>8</td></tr><tr><td>Localization.</td><td>1</td></tr><tr><td>Other intangibles .</td><td>5</td></tr></table>

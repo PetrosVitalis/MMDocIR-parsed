@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">2021</td></tr><tr><td></td><td> SENIOR MANAGEMENT</td></tr><tr><td>Remuneration</td><td>69,204</td></tr><tr><td>Termination benefits</td><td>10,083</td></tr><tr><td>Total</td><td>79,287</td></tr></table>

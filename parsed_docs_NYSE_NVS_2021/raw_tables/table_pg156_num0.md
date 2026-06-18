@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021 USD million</td><td>2020 USD million</td></tr><tr><td>Audit services</td><td>22.2</td><td>20.5</td></tr><tr><td>Audit-related services</td><td>1.5</td><td>1.4</td></tr><tr><td>Tax services</td><td>0.1</td><td>0.4</td></tr><tr><td>Other services</td><td>1.4</td><td>1.2</td></tr><tr><td>Total</td><td>25.2</td><td>23.5</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Well</td><td>Location</td><td>Target</td><td>BHP equity</td><td>Spud date</td><td>Water depth</td><td>Total well depth</td><td>Status</td></tr><tr><td>Broadside-1</td><td>Trinidad and Tobago Block 3</td><td>Oil</td><td>65% (BHP operator)</td><td>20 August 2020</td><td>2.019m</td><td>7,064m</td><td>Dry hole; plugged and</td></tr></table>

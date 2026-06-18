@@ -1,0 +1,8 @@
+Dataset,Labels,Instances,Documents,Sentences,Tokens
+Evidence Inference,3,9889,2411,156.0,4760.6
+BoolQ,2,10661,7026,175.3,3582.5
+Movie Reviews,2,2000,1999,36.8,774.1
+FEVER,2,110190,4099,12.1,326.5
+MultiRC,2,32091,539,14.9,302.5
+CoS-E,5,10917,10917,1.0,27.6
+e-SNLI,3,568939,944565,1.7,16.0

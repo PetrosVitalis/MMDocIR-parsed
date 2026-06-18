@@ -1,0 +1,6 @@
+spatial pos. enc.,decoder,output pos. enc.,decoder,AP,Δ,AP_50,Δ
+none,none,learned at input,32.8,-7.8,55.2,-6.5,
+sine at input,sine at input,learned at input,39.2,-1.4,60.0,-1.6,
+learned at attn.,learned at attn.,learned at attn.,39.6,-1.0,60.7,-0.9,
+none,sine at attn.,learned at attn.,39.3,-1.3,60.3,-1.4,
+sine at attn.,sine at attn.,learned at attn.,40.6,-,61.6,-,

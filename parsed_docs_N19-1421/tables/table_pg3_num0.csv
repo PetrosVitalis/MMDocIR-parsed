@@ -1,0 +1,5 @@
+Measurement,# CONCEPTNET distinct question nodes,# CONCEPTNET distinct answer nodes,# CONCEPTNET distinct nodes,# CONCEPTNET distinct relation labels,# of distinct words in questions,# of distinct words in answers
+,2254,12094,12107,22,,
+average question length (tokens),13.41,,,,,
+long questions (more than 20 tokens),,10.3%,,,,
+average answer length (tokens),1.5,,,,,

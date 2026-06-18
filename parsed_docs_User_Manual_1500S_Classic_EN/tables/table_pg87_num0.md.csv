@@ -1,0 +1,13 @@
+Errornumber,Errordescription,Action instructions
+6,Brewing unitlockup current /Brewing unit stiff,"* Switch off the coffee machine* Clean the brewing unitCareClean brewing unit, page 73"
+88,Boiler:over-temperature,"* Switch off the coffee machine,allow to cool andswitch on againIf error not remedied* Switch off the coffee machine* Call WMF Service"
+89,Boiler:heat-up time error,* Switch off the coffee machine and on again* If error not remedied call WMF Service
+161,Flow error:brewing water,"Between each of the following steps switch off the coffee machine and onagain.If eror not remedied carry out the next step.* Clean the brewing unitCareClean brewing unit,page 73* Set the grinding degree coarserOther settings Set grinding degree, page 58* Reduce qualitySettings Recipes, page 37* If error not remedied call WMF Service"
+162,Flow error:when cleaning,"Between each of the following steps switch off the coffee machine and onagain. If error not remedied cary out the next step.* Clean the brewing unitCare Clean brewing unit,page 73* If error not remedied call WMF Service"
+163,Flow error:warm rinsing,"Between each of the following steps switch off the cofee machine and onagain.If error not remedied carry out the next step.* Clean the brewing unitCareClean brewing unit,page 73* If error not remedied call WMF Service"
+186,Steam boiler:level,Beverage dispensing temporarily blocked.* Check that grounds container is correctlyinserted* Switch off the coffee machine and on again
+188,Heater error,"* Switch off the coffee machine,disconnectmains plug* Call WMF Service"
+189,Steam boiler:heat-up time error,* Switch off the coffee machine and on again* If error not remedied call WMF Service
+9083,Coolertemperature is inthe frost range,* Check whether the cooler temperature is settoo low
+95169517,Right grinderblockedLeft grinderblocked,"* Switch off the coffee machine* Disconnect mains plug * Remove bean hopper* Rotate the grinder disk counterclockwise onlyby using the multitool for the hopper (two pinsmust be inserted in the corresponding recesseson the grinder; see illustration)* Replace hopper* Switch on the coffee machineCare Bean hopper cleaning,page 80If this occurs frequently:* Set grinding degree one stage coarserOther settings Set grinding degreepage 58"
+95169517,,"* Switch off the coffee machine* Disconnect mains plug * Remove bean hopper* Rotate the grinder disk counterclockwise onlyby using the multitool for the hopper (two pinsmust be inserted in the corresponding recesseson the grinder; see illustration)* Replace hopper* Switch on the coffee machineCare Bean hopper cleaning,page 80If this occurs frequently:* Set grinding degree one stage coarserOther settings Set grinding degreepage 58"

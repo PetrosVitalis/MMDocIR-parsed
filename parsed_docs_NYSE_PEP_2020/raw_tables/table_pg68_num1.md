@@ -1,0 +1,1 @@
+<table><tr><td>Assumption</td><td>Amount</td><td></td></tr><tr><td>Discount rates used in the calculation of expense</td><td>$</td><td>55</td></tr><tr><td>Expected rate of return</td><td>$</td><td>50</td></tr></table>

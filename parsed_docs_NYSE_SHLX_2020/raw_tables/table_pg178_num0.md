@@ -1,0 +1,1 @@
+<table><tr><td>($ in millions)</td><td colspan="2">January 1, 2020</td></tr><tr><td>Receivables from contracts with customers - third parties</td><td>$</td><td>5.5 $ 6.0</td></tr><tr><td>Receivables from contracts with customers -related parties</td><td></td><td>18.4 12.6</td></tr><tr><td>Deferred revenue - related party</td><td>22.8</td><td>17.6</td></tr></table>

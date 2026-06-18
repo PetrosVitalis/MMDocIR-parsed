@@ -1,0 +1,39 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NIKE_2021_10K",
+  "total_images": 6,
+  "non_figure_images_skipped": 72,
+  "processed": 6,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_27_Asset_0.jpg",
+      "output": "image_descriptions/_page_27_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Asset_2.jpg",
+      "output": "image_descriptions/_page_34_Asset_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Asset_0.jpg",
+      "output": "image_descriptions/_page_34_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_34_Asset_1.jpg",
+      "output": "image_descriptions/_page_34_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_35_Asset_0.jpg",
+      "output": "image_descriptions/_page_35_Asset_0.md",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+"Validation Overall,Test Overall",Art,Art Theory,Design,Music
+Random Choice,29.2,24.1,23.4,20.3
+Frequent Choice,23.3,26.7,24.2,23.5
+Large Multimodal Models (LMMs): Text + Image as Input,OpenFlamingo2-9B [4],40.0,31.7,36.8
+Kosmos2 [47],25.0,28.8,30.7,24.9
+Fuyu-8B [6],36.7,29.9,28.6,26.8
+MiniGPT4-Vicuna-13B [71],29.2,30.2,28.6,28.7
+LLaMA-Adapter2-7B [65],29.2,35.2,38.5,35.4
+Otter [26],37.5,37.4,40.7,35.9
+CogVLM [55],40.8,38.0,43.3,39.2
+InstructBLIP-T5-XL [14],40.0,43.3,49.8,45.0
+BLIP-2 FLAN-T5-XL [27],44.2,43.0,50.2,45.0
+mPLUG-OWL2* [60],45.8,48.5,57.6,53.4
+SPHINX* [73],48.3,-,-,-
+Qwen-VL-7B [5],51.7,47.7,57.1,49.7
+LLaVA-1.5-13B [34],51.7,49.8,58.4,51.5
+InstructBLIP-T5-XXL [14],44.2,48.5,51.9,52.7
+BLIP-2 FLAN-T5-XXL [27],41.7,49.2,54.5,51.5
+Qwen-VL-PLUS* [74],60.0,59.9,67.5,68.1
+GPT-4V (ision) (Playground) [46],65.8,65.3,74.0,75.5
+Gemini Ultra* [72],70.0,-,-,-
+Large Language Models (LLMs): Only Text as Input,Llama2 7B [53],29.2,30.7,30.3
+FLAN-T5-XXL [12],38.3,36.8,32.0,36.8
++ OCR,37.5,36.2,36.4,33.8
++ LLaVA Caption,43.3,38.4,45.9,38.2
+Vicuna-13B [10],41.7,35.1,35.1,31.5
++ OCR,39.2,37.1,35.5,32.9
++ LLaVA Caption,38.3,42.0,51.1,42.7
+GPT-4 Text [45],35.0,32.9,35.1,28.7

@@ -1,0 +1,1836 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.524,
+      0.347,
+      0.955
+    ],
+    "text": "GERMANWINGS 9525:THE FIRST6HOURS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.524,
+      0.52,
+      0.64
+    ],
+    "text": "25-03-2015",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.524,
+      0.569,
+      0.914
+    ],
+    "text": "BRENDANHODGSON+AHMEDALSHARIQI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.055,
+      0.111,
+      0.496
+    ],
+    "text": "GERMANWINGS4U9525\\~QUICKFACTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.238,
+      0.055,
+      0.284,
+      0.445
+    ],
+    "text": "Dateof incident:24th of March 2015",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.055,
+      0.372,
+      0.369
+    ],
+    "text": "Flight:Germanwings 4u9525",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.055,
+      0.458,
+      0.501
+    ],
+    "text": "Location ofcrash:Massif desTrois-Evechés",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.497,
+      0.055,
+      0.543,
+      0.432
+    ],
+    "text": "Time of crash:10:45CET(Estimate)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.057,
+      0.627,
+      0.231
+    ],
+    "text": "Fatalities:150",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.057,
+      0.715,
+      0.29
+    ],
+    "text": "Aircraft:AirbusA320",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-8",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.203,
+      0.721,
+      0.52,
+      0.976
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:figure-9",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_1.jpg",
+    "bbox_norm": [
+      0.541,
+      0.721,
+      0.868,
+      0.976
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.055,
+      0.108,
+      0.496
+    ],
+    "text": "GERMANWINGS4U9525\\~QUICKFACTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.057,
+      0.293,
+      0.346
+    ],
+    "text": "+Analysis Parameters:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.326,
+      0.106,
+      0.418,
+      0.557
+    ],
+    "text": "First6hours following crash-24-May-2015 (approx.11:00-17:00CET)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.451,
+      0.106,
+      0.541,
+      0.679
+    ],
+    "text": "Supplemented by24 hourrefresh-11AMCET-25-May-2015",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.578,
+      0.106,
+      0.668,
+      0.64
+    ],
+    "text": "Timestampsincluded inthisdocumentareestimates only.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.701,
+      0.106,
+      0.796,
+      0.647
+    ],
+    "text": "NOTE:thisanalysis is not intended asa critique of the responseeffortsofanyinvolvedparty",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-7",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.224,
+      0.734,
+      0.819,
+      0.977
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.055,
+      0.108,
+      0.382
+    ],
+    "text": "KEYFINDINGS/CONCLUSIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.055,
+      0.317,
+      0.854
+    ],
+    "text": "\\+ Asseenduringpreviousincidents,includingtheCostaConcordiaincident(2O12)，theAsianaAirlinescrash atSFO(2o13),andmorerecentaviationdisasters,theroleofsocialplatformsasback-upstoacompany's corporatesitehasbecomeincreasinglyimportant.ThecatastrophicfailureoftheGermanwingswebsitein theinitialhourscontinuestoreinforcetheimportanceof havingsocialplatformsinplaceandanimpetusto considerandreviewexisting infrastructure.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.342,
+      0.055,
+      0.412,
+      0.848
+    ],
+    "text": "However，unlikeAsianaAirlines,wherecitizen-generatedvisualslargelydrovethemediaagendaduringthe firsthours,theimmediatelack of visualstransformedthisquicklyintoamedia-drivenstory.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.437,
+      0.055,
+      0.537,
+      0.843
+    ],
+    "text": "Theactionstakenbythreeof thekeyplayers-Germanwings,LufthansaandAirbus-toquicklyadaptthe visualappearanceoftheirwebsiteandtheirsocialplatformshighlightstheimportanceof havingclear protocolsinplaceforcoordinatedbrandmanagementintimesofcatastrophiccrisis.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.055,
+      0.694,
+      0.863
+    ],
+    "text": "ThedecisionbyparentcompanyLufthansanottoadapt/updateitscorporatewebsite(oroversightindoing so)intheearlyhoursof thecrisishighlightsadilemmafacingbrandsassociatedwith，yetseparatefrom,the affectedbrand.Itsuggeststhequestion:WasitLufthansa'sresponsibilityastheparentcompanytosupport orreflect thepublicmood intheearly hoursof thecrisis?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.055,
+      0.817,
+      0.851
+    ],
+    "text": "Theincreasingintegrationofsocial“outputs”intoreal-timemediastoriese.g.tweetsor Instagramimages etc.further highlightstheimportanceofthesechannelsasopportunitiestoinsertcorporatemessagesinto theunfolding narrative.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.847,
+      0.057,
+      0.881,
+      0.722
+    ],
+    "text": "\\+ Asalways,visualsremainapowerful accelerantforsocialamplificationintimesof crisis.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.909,
+      0.055,
+      0.974,
+      0.859
+    ],
+    "text": "\\+ Clickthelinksforadditionalanalysisofpreviousincidents:CostaConcordia,AsianaAirlines214,USAirways 1549orvisit http://www.slideshare.net/Brendan",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.402,
+      0.386,
+      0.598
+    ],
+    "text": "ANALYSIS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.373,
+      0.636,
+      0.628
+    ],
+    "text": "BRENDANHODGSON AHMED ALSHARIQI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.194,
+      0.058,
+      0.245,
+      0.42
+    ],
+    "text": "+Within the first 6O minutes:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.106,
+      0.321,
+      0.548
+    ],
+    "text": "Germanwings issues firsttweetacknowledgingincident& issuesupdatetoFacebook",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.351,
+      0.106,
+      0.423,
+      0.561
+    ],
+    "text": "Atthesame time,Germanwingswebsitecrashes-remains inaccessibleforapprox.2hours",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.106,
+      0.52,
+      0.562
+    ],
+    "text": "Nochange tobrand colours/logo onsocial platformsatthis time",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:figure-5",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.638,
+      0.053,
+      0.969,
+      0.404
+    ],
+    "text": "(Germanwings.comsite)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:figure-6",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_1.jpg",
+    "bbox_norm": [
+      0.219,
+      0.675,
+      0.627,
+      0.972
+    ],
+    "text": "(Twitter)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:figure-7",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_2.jpg",
+    "bbox_norm": [
+      0.52,
+      0.493,
+      0.969,
+      0.756
+    ],
+    "text": "(Facebook)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.057,
+      0.293,
+      0.42
+    ],
+    "text": "+Within the first 90 minutes:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.105,
+      0.409,
+      0.58
+    ],
+    "text": "Within90minutesof the crash，AirbusandGermanwings parentcompanyLufthansapublishfirstacknowledgementsof theincident viaTwitteraccounts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-4",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.495,
+      0.652,
+      0.96,
+      0.949
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.057,
+      0.291,
+      0.437
+    ],
+    "text": "+Within the first 120 minutes:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.106,
+      0.372,
+      0.535
+    ],
+    "text": "Germanwingsrecoloureditslogoonboth itsTwitterand Facebookaccountstoblackand white.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.106,
+      0.451,
+      0.536
+    ],
+    "text": "ParentcompanyLufthansa followswithinasimilar timeframewithitssocial platforms",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-4",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.222,
+      0.578,
+      0.622,
+      0.983
+    ],
+    "text": "(GermanwingsFacebook)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:figure-5",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_1.jpg",
+    "bbox_norm": [
+      0.641,
+      0.579,
+      0.949,
+      0.983
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:figure-1",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.219,
+      0.096,
+      0.986,
+      0.971
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.057,
+      0.291,
+      0.437
+    ],
+    "text": "+Within the first 180 minutes:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.185,
+      0.518,
+      0.219,
+      0.679
+    ],
+    "text": "(Germanwings.comsite)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.106,
+      0.372,
+      0.455
+    ],
+    "text": "Germanwingsappearstobestrugglingtoreactivate itswebsite.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.384,
+      0.106,
+      0.523,
+      0.428
+    ],
+    "text": "Atone point,the original sitewith full marketingcontentappearsonthesitecontradictingitsmoresombresocial platforms",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-5",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_0.jpg",
+    "bbox_norm": [
+      0.226,
+      0.386,
+      0.979,
+      0.973
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:figure-1",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_0.jpg",
+    "bbox_norm": [
+      0.224,
+      0.104,
+      0.976,
+      0.979
+    ],
+    "text": "(Airbus.com site)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.057,
+      0.291,
+      0.376
+    ],
+    "text": "+Within the first 4 hours:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.106,
+      0.337,
+      0.406
+    ],
+    "text": "Germanwings.com beginsto stabilize",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.344,
+      0.106,
+      0.416,
+      0.498
+    ],
+    "text": "Bythefifth hour following the incident,thecurrent crisis site is in place",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-4",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.222,
+      0.533,
+      0.516,
+      0.949
+    ],
+    "text": "(Germanwings.com Hour 3)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:figure-5",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_1.jpg",
+    "bbox_norm": [
+      0.567,
+      0.078,
+      0.935,
+      0.527
+    ],
+    "text": "(Germanwings.com updates Hour12+)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:figure-6",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_2.jpg",
+    "bbox_norm": [
+      0.567,
+      0.536,
+      0.935,
+      0.946
+    ],
+    "text": "(Germanwings.com Hour 4.5)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.057,
+      0.291,
+      0.377
+    ],
+    "text": "+Within the first 4 hours:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.106,
+      0.375,
+      0.477
+    ],
+    "text": "Lufthansaupdatescorporate homepagewitha statementontheincident\\~nosystem failures",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.384,
+      0.106,
+      0.416,
+      0.454
+    ],
+    "text": "Statements are updated throughout theday",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.106,
+      0.495,
+      0.536
+    ],
+    "text": "Within24 hours thecorporate siteresumesactivitywith aclearbannerto informationon the incident",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-5",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.569,
+      0.113,
+      0.986,
+      0.537
+    ],
+    "text": "(Lufthansa.com Hour24)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:figure-6",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_1.jpg",
+    "bbox_norm": [
+      0.178,
+      0.559,
+      0.523,
+      0.951
+    ],
+    "text": "(Lufthansa.com Hour3)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:figure-7",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_2.jpg",
+    "bbox_norm": [
+      0.574,
+      0.559,
+      0.983,
+      0.949
+    ],
+    "text": "(Lufthansa.com Hour 4.5)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.057,
+      0.291,
+      0.376
+    ],
+    "text": "+Within the first 4 hours:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.106,
+      0.375,
+      0.464
+    ],
+    "text": "Airbus.comincorporatesapop-upnotification acknowledgingthe incident.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.106,
+      0.451,
+      0.542
+    ],
+    "text": "Thepop-up isadapted throughthecourse of thedayand within5hours linkstoAirbus'statementontheincident.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-4",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.601,
+      0.233,
+      0.932,
+      0.585
+    ],
+    "text": "(Airbus.com Hour 5+)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-5",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_1.jpg",
+    "bbox_norm": [
+      0.222,
+      0.596,
+      0.541,
+      0.962
+    ],
+    "text": "(Airbus.com Hour3)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-6",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_2.jpg",
+    "bbox_norm": [
+      0.601,
+      0.595,
+      0.93,
+      0.962
+    ],
+    "text": "(Airbus.com Hour 3)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.238,
+      0.055,
+      0.379,
+      0.471
+    ],
+    "text": "It isunclear if Dusseldorf airport experienced a failure,wasintentionallydisabledorimmediately movedtoitsdarksite.Howeverthesiteremainsina minimalstate24hourslater.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.055,
+      0.495,
+      0.476
+    ],
+    "text": "Barcelona'sElPratairportmadeonlyminor modifications intendedtopointvisitorstospecific mediaandlocalauthoritiesresponsibleforthecrisis.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.505,
+      0.31,
+      0.632
+    ],
+    "text": "seldorf DUS Airport",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.391,
+      0.552,
+      0.428,
+      0.686
+    ],
+    "text": "Aktuelle Informationen",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.439,
+      0.55,
+      0.502,
+      0.967
+    ],
+    "text": "DerInternetauftritdes DusseldorferFlughafensistderzeit nicht verfugbar.FlugunfallBetro HotlineO8oo-7766350 wenden.DesWeiterenhatdasAuswartigeAmt eineKrisenhotlineel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.541,
+      0.313,
+      0.613,
+      0.462
+    ],
+    "text": "BARCELONA Airport ElPrat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.66,
+      0.55,
+      0.747
+    ],
+    "text": "DUS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.706,
+      0.412,
+      0.736,
+      0.625
+    ],
+    "text": "WELCOMETOBARCELONAAIRPORT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-9",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.581,
+      0.656,
+      0.652,
+      0.697
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.057,
+      0.293,
+      0.395
+    ],
+    "text": "+During the first 24 hours:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.105,
+      0.409,
+      0.507
+    ],
+    "text": "Germanwings focusesthemajorityof itsdigital activityon Twitter-postinginboth English(1O)and German (14)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.105,
+      0.488,
+      0.492
+    ],
+    "text": "Germanwingsand Lufthansa both see significant spikesin followersonTwitterdueto thecrash.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:table-4",
+    "page_id": 15,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_15_Table_0.jpg",
+    "bbox_norm": [
+      0.231,
+      0.524,
+      0.442,
+      0.955
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.055,
+      0.106,
+      0.493
+    ],
+    "text": "CORPORATEACTIVITYBYTHENUMBERS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.058,
+      0.293,
+      0.313
+    ],
+    "text": "+Financialimpacts:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.105,
+      0.444,
+      0.557
+    ],
+    "text": "Almostimmediatelyfollowingthefirstreportsof the incident,thesharepricesofbothLufthansaandAirbusfell significantly-however,tradingstabilisedwithin\\~2hours after thecrash.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-4",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.224,
+      0.602,
+      0.581,
+      0.971
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-5",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_1.jpg",
+    "bbox_norm": [
+      0.608,
+      0.602,
+      0.965,
+      0.972
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.054,
+      0.108,
+      0.535
+    ],
+    "text": "MEDIA/SOCIALACTIVITYBYTHENUMBERS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.058,
+      0.291,
+      0.212
+    ],
+    "text": "+ TWITTER:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.105,
+      0.4,
+      0.575
+    ],
+    "text": "Oneof the firsttweetstobepostedaround the incidentcamefrom Flightradar,awidely trustedandusedwebsitefortrackingflights globally.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.407,
+      0.106,
+      0.472,
+      0.55
+    ],
+    "text": "Within the first9Ominutes the tweet was retweeted more than 2,000 times.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-5",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.106,
+      0.543,
+      0.557
+    ],
+    "text": "Within the first 6O minutes,#Germanwings had become the top trending topic on Twitter",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-6",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.106,
+      0.618,
+      0.54
+    ],
+    "text": "Withinthefirst6Ominutes,accordingto Sysomos,more than 60,000Tweetswereposted referencing#Germanwings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-7",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.689,
+      0.41,
+      0.979,
+      0.66
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-8",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.697,
+      0.291,
+      0.944
+    ],
+    "text": "Germanwings flight #4U9525(registration D-AIPX)was lost from Flightradar24at6800 feetat 09.39UTC time",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-9",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_1.jpg",
+    "bbox_norm": [
+      0.296,
+      0.697,
+      0.541,
+      0.944
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-10",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_2.jpg",
+    "bbox_norm": [
+      0.578,
+      0.687,
+      0.974,
+      0.945
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.055,
+      0.108,
+      0.535
+    ],
+    "text": "MEDIA/SOCIALACTIVITYBYTHENUMBERS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.238,
+      0.055,
+      0.344,
+      0.434
+    ],
+    "text": "Within six hours of the incident,the numberof tweetsreferencing#Germanwingshad reached nearly500,000globally.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.055,
+      0.502,
+      0.434
+    ],
+    "text": "Amidthemany expressions of condolencesand sharingof news,tweetssoonmovedtoward capturingimagesof theregion of the crash.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:figure-4",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.557,
+      0.136,
+      0.969,
+      0.445
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:figure-5",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_1.jpg",
+    "bbox_norm": [
+      0.224,
+      0.464,
+      0.766,
+      0.998
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.055,
+      0.108,
+      0.35
+    ],
+    "text": "TRENDSANDBEHAVIOURS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.171,
+      0.055,
+      0.349,
+      0.348
+    ],
+    "text": "Duetothe initial remoteness of the incidentandlackof immediate visuals,fake imagesand videos begantoappearonlinein increasingnumbers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.391,
+      0.055,
+      0.534,
+      0.351
+    ],
+    "text": "Questions had also arisen due to variousearlyTwitterreportsaround whetheradistresscall hadactually beenmadeby thepilots.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.171,
+      0.372,
+      0.215,
+      0.442
+    ],
+    "text": "Storyful",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.369,
+      0.307,
+      0.623
+    ],
+    "text": "Thisphoto being shared as A320 crash site actually showsan incident in Turkeyin 2007 #dailydebunk",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-6",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.335,
+      0.373,
+      0.631,
+      0.623
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-7",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_1.jpg",
+    "bbox_norm": [
+      0.159,
+      0.671,
+      0.652,
+      0.973
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-8",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.548,
+      0.731,
+      0.759
+    ],
+    "text": "Uncertainty overdistresscall",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-9",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.747,
+      0.546,
+      0.849,
+      0.94
+    ],
+    "text": "Onthe question of whethera distress call wasmade from the aircraft,thespokesman says theairline has received contradictory reports.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-10",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.865,
+      0.546,
+      0.969,
+      0.953
+    ],
+    "text": "6Wehavecontradictory informationabout that ourselves,fromthe airtrafficcontrollers,andweareuncertainas towhethera distress call was issued at all.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.055,
+      0.108,
+      0.35
+    ],
+    "text": "TRENDSANDBEHAVIOURS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.055,
+      0.405,
+      0.532
+    ],
+    "text": "Aswith otherrecent crises ormajor news events,the evolution of thelivenews feed (using tools suchasStorify)by mediahasseenan increasedrelianceanduseof 3rdparty andeye-witnesstweetstosupplement reporting-allowing themtoprovideavarietyofcommentsandreactionsby decision-makers,executives,witnessses,expertsetc.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.055,
+      0.597,
+      0.532
+    ],
+    "text": "Theimplicationswhich haveemerged over time-butwhich mustbecarefullybalancedandapplied-are the importance ofsocial channelstodrivemediacoverageandpresence within breaking news stories.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.185,
+      0.584,
+      0.254,
+      0.761
+    ],
+    "text": "theguardian",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-5",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.27,
+      0.58,
+      0.613,
+      0.949
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-6",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.58,
+      0.74,
+      0.662
+    ],
+    "text": "BBC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-7",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_1.jpg",
+    "bbox_norm": [
+      0.763,
+      0.592,
+      0.807,
+      0.619
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.055,
+      0.106,
+      0.35
+    ],
+    "text": "TRENDSANDBEHAVIOURS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.055,
+      0.344,
+      0.462
+    ],
+    "text": "Within90minutes-anddespitelack of immediate information-political leaderswerequicktoreact andprovidecommentontheincident.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.386,
+      0.057,
+      0.458,
+      0.419
+    ],
+    "text": "Francois Hollandewasthe first of theworld's political leaderstocommentontheincident.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.506,
+      0.055,
+      0.687,
+      0.468
+    ],
+    "text": "Whilethe FrenchCivil AviationAuthorities have been activethroughnon-digital channelsfromtheoutset (e.g.statementtothemedia),theirsocialmedia presencewaslimitedinthefirsthours.Afirsttweet camealmost\\~6 hoursafter thecrash.(17:31CET)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-5",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.222,
+      0.524,
+      0.967,
+      0.998
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.238,
+      0.055,
+      0.344,
+      0.523
+    ],
+    "text": "Notuntil the first helicopters had identifiedand reached the crashsitedid thestorybecomesignificantlymorevisualprovidingnewmomentumforsocialamplification.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.057,
+      0.465,
+      0.515
+    ],
+    "text": "Equallypowerful,however,havebeentheemergingimages relatedtothelossoftheGermanexchangestudents.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-3",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.504,
+      0.084,
+      0.949,
+      0.511
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:figure-4",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_1.jpg",
+    "bbox_norm": [
+      0.222,
+      0.575,
+      0.65,
+      0.993
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:figure-5",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_2.jpg",
+    "bbox_norm": [
+      0.694,
+      0.575,
+      0.962,
+      0.688
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:figure-6",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_3.jpg",
+    "bbox_norm": [
+      0.694,
+      0.705,
+      0.958,
+      0.923
+    ],
+    "text": "",
+    "source_type": "image"
+  }
+]

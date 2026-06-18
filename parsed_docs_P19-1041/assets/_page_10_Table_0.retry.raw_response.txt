@@ -1,0 +1,14 @@
+```csv
+Original (Positive),DAE Transferred (Negative),VAE Transferred (Negative)
+the food is excellent and the service is exceptional,"the food was a bit bad but the staff was exceptional","the food was bland and i am not thrilled with this"
+the waitresses are friendly and helpful,"the guys are rude and helpful","the waitresses are rude and are lazy"
+the restaurant itself is romantic and quiet,"the restaurant itself is awkward and quite crowded","the restaurant itself was dirty"
+great deal,"horrible deal","no deal"
+both times i have eaten the lunch buffet and it was outstanding,"their burgers were decent but the eggs were not the consistency","both times i have eaten here the food was mediocre at best"
+Original (Negative),DAE Transferred (Positive),VAE Transferred (Positive)
+the desserts were very bland,"the desserts were very good","the desserts were very good"
+it was a bed of lettuce and spinach with some italian meats and cheeses,"it was a beautiful setting and just had a large variety of german flavors","it was a huge assortment of flavors and italian food"
+the people behind the counter were not friendly whatsoever,"the best selection behind the register and service presentation","the people behind the counter is friendly caring"
+the interior is old and generally falling apart,"the decor is old and now perfectly","the interior is old and noble"
+they are clueless,"they are stoked","they are genuinely professionals"
+```

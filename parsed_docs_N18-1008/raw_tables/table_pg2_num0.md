@@ -1,0 +1,1 @@
+<table><tr><td>Corpus</td><td>Speakers</td><td>Segments</td><td>Hours</td></tr><tr><td>Ainu-English</td><td>1</td><td>2,668</td><td>2.5</td></tr><tr><td>Mboshi-French</td><td>3</td><td>5,131</td><td>4.4</td></tr><tr><td>Spanish-English</td><td>240</td><td>17,394</td><td>20</td></tr></table>

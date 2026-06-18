@@ -1,0 +1,4 @@
+Model,Parameters,Speed
+CNN,541K,171s
+LSTM,1.8M,598s
+SWEM,61K,63s

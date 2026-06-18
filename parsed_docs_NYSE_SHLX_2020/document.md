@@ -1,0 +1,4530 @@
+<span id="page-0-0"></span>
+# UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549
+
+FORM 10-K
+
+(Mark One) ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the transition period from to Commission file number: 001-36710
+
+Delaware (State or other jurisdiction of incorporation or organization)
+
+46-5223743 (I.R.S. Employer Identification No.)
+
+150 N. Dairy Ashford, Houston, Texas 77079 (Address of principal executive offices) (Zip Code)
+
+Registrant’s telephone number, including area code: (832) 337-2034 Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class Common Units, Representing Limited Partner Interests
+
+Trading Symbol(s) SHLX
+
+Name of each exchange on which registered New York Stock Exchange
+
+## Securities registered pursuant to Section 12(g) of the Act: None
+
+Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. x Yes ☐ No
+
+Indicate by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. ☐ Yes x No
+
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. x Yes ☐ No
+
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). x Yes ☐ No
+
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+
+Large accelerated filer x
+
+Accelerated filer
+
+Non-accelerated filer
+
+Smaller reporting company
+
+Emerging growth company
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+Indicate by check mark whether the registrant has filed a report on and attestation to its management’s assessment of the effectiveness of its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit report. ☒ Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act). ☐ Yes x No
+
+The aggregate market value of the registrant’s common units held by non-affiliates of the registrant as of June 30, 2020, was \$1,518 million, based on the closing price of such units of \$12.27 as reported on the New York Stock Exchange on such date. The registrant had 393,289,537 common units and no subordinated units outstanding as of February 22, 2021.
+
+Documents incorporated by reference: None
+
+<span id="page-1-0"></span>
+# CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS
+
+This report includes forward-looking statements. You can identify our forward-looking statements by the words “anticipate,” “estimate,” “believe,” “budget,” “continue,” “could,” “intend,” “may,” “plan,” “potential,” “predict,” “seek,” “should,” “would,” “expect,” “objective,” “projection,” “forecast,” “goal,” “guidance,” “outlook,” “effort,” “target” and similar expressions.
+
+We based the forward-looking statements on our current expectations, estimates and projections about us and the industries in which we operate in general. We caution you these statements are not guarantees of future performance as they involve assumptions that, while made in good faith, may prove to be incorrect, and involve risks and uncertainties we cannot predict. In addition, we based many of these forward-looking statements on assumptions about future events that may prove to be inaccurate. Accordingly, our actual outcomes and results may differ materially from what we have expressed in the forward-looking statements. Any differences could result from a variety of factors, including the following:
+
+The continued ability of Shell and our non-affiliate customers to satisfy their obligations under our commercial and other agreements and the impact of lower market prices for crude oil, refined petroleum products and refinery gas.
+
+• The volume of crude oil, refined petroleum products and refinery gas we transport or store and the prices that we can charge our customers.
+
+The tariff rates with respect to volumes that we transport through our regulated assets, which rates are subject to review and possible adjustment imposed by federal and state regulators.
+
+Changes in revenue we realize under the loss allowance provisions of our fees and tariffs resulting from changes in underlying commodity prices.
+
+• Our ability to renew or replace our third-party contract portfolio on comparable terms.
+
+Fluctuations in the prices for crude oil, refined petroleum products and refinery gas, including fluctuations due to political or economic measures taken by various countries.
+
+• The level of production of refinery gas by refineries and demand by chemical sites.
+
+The level of onshore and offshore (including deepwater) production and demand for crude oil by U.S. refiners.
+
+Changes in global economic conditions and the effects of a global economic downturn on the business of Shell and the business of its suppliers, customers, business partners and credit lenders.
+
+The ongoing COVID-19 pandemic and related governmental regulations and travel restrictions, and the resulting sustained reduction in the global demand for oil and natural gas.
+
+• Availability of acquisitions and financing for acquisitions on our expected timing and acceptable terms.
+
+• Changes in, and availability to us of, the equity and debt capital markets.
+
+Liabilities associated with the risks and operational hazards inherent in transporting and/or storing crude oil, refined petroleum products and refinery gas.
+
+Curtailment of operations or expansion projects due to unexpected leaks, spills or severe weather disruption; riots, strikes, lockouts or other industrial disturbances; or failure of information technology systems due to various causes, including unauthorized access or attack.
+
+Costs or liabilities associated with federal, state and local laws and regulations, including those that may be implemented by the new U.S.   
+presidential administration, relating to environmental protection and safety, including spills, releases and pipeline integrity.
+
+Costs associated with compliance with evolving environmental laws and regulations on climate change.
+
+Costs associated with compliance with safety regulations and system maintenance programs, including pipeline integrity management program testing and related repairs.
+
+• Changes in tax status or applicable tax laws.
+
+Changes in the cost or availability of third-party vessels, pipelines, rail cars and other means of delivering and transporting crude oil, refined petroleum products and refinery gas.
+
+Direct or indirect effects on our business resulting from actual or threatened terrorist incidents or acts of war.
+
+• Our adoption of the new enterprise resource planning system.
+
+• The factors generally described in Part I, Item 1A. Risk Factors of this report.
+
+<span id="page-2-0"></span>
+# GLOSSARY OF TERMS
+
+Barrel or bbl: One stock tank barrel, or 42 U.S. gallons liquid volume, used in reference to crude oil or other liquid hydrocarbons.
+
+BOEM: Bureau of Ocean Energy Management.
+
+BSEE: Bureau of Safety and Environmental Enforcement.
+
+Capacity: Nameplate capacity.
+
+Common carrier pipeline: A pipeline engaged in the transportation of crude oil, refined products or natural gas liquids as a common carrier for hire.
+
+Crude oil: A mixture of raw hydrocarbons that exists in liquid phase in underground reservoirs.
+
+DOT: Department of Transportation.
+
+EPAct: Energy Policy Act of 1992.
+
+Expansion capital expenditures: Expansion capital expenditures are cash expenditures (including transaction expenses) for capital improvements. Expansion capital expenditures do not include maintenance capital expenditures or investment capital expenditures. Expansion capital expenditures do include interest payments (including periodic net payments under related interest rate swap agreements) and related fees paid during the construction period on construction debt. Where cash expenditures are made in part for expansion capital expenditures and in part for other purposes, our general partner determines the allocation between the amounts paid for each.
+
+FERC: Federal Energy Regulatory Commission.
+
+GAAP: United States generally accepted accounting principles.
+
+HCAs: High Consequence Areas.
+
+ICA: Interstate Commerce Act of 1887, as modified by the Elkins Act.
+
+kbpd: Thousand barrels per day.
+
+kbls: Thousand barrels.
+
+klbs/d: Thousand pounds per day.
+
+Life-of-lease transportation agreement: A contract in which the producer dedicates shipments of all current and future reserves pertaining to a specific lease or area to a specific carrier.
+
+LNG: Liquefied natural gas.
+
+LPSC: Louisiana Public Service Commission.
+
+LTIP: Shell Midstream Partners, L.P. 2014 Incentive Compensation Plan.
+
+Maintenance capital expenditures: Maintenance capital expenditures are cash expenditures (including expenditures for (a) the acquisition (through an asset acquisition, merger, stock acquisition, equity acquisition or other form of investment) by the Partnership or any of its subsidiaries of existing assets or assets under construction, (b) the construction or development of new capital assets by the Partnership or any of its subsidiaries, (c) the replacement, improvement or expansion of existing capital assets by the Partnership or any of its subsidiaries or (d) a capital contribution by the Partnership or any of its subsidiaries to a person that is not a subsidiary in which the Partnership or any of its subsidiaries has, or after such capital contribution will have, directly or indirectly, an equity interest, to fund the Partnership or such subsidiary’s share of the cost of the acquisition, construction or development of new, or the replacement, improvement or expansion of existing, capital assets by such person), in each case if and to the extent such acquisition, construction, development, replacement, improvement or expansion is made to maintain, over the long-term, the operating capacity or operating income of the Partnership and its subsidiaries, in the case of clauses (a), (b) and (c), or such person, in the case of clause (d), as the operating capacity or operating income of the Partnership and its subsidiaries or such person, as the case may be, existed immediately prior to such acquisition, construction,
+
+<span id="page-3-0"></span>
+- development, replacement, improvement, expansion or capital contribution. For purposes of this definition, “long-term” generally refers to a period of not less than twelve months.
+- mscf/d: Million standard cubic feet per day.
+
+Partnership Agreement: Second Amended and Restated Agreement of Limited Partnership of Shell Midstream Partners, L.P., dated as of April 1, 2020.
+
+Pipeline loss allowance or PLA: An allowance for volume losses due to measurement difference set forth in crude oil product transportation agreements, including long-term transportation agreements and tariffs for crude oil shipments.
+
+Refined products: Hydrocarbon compounds, such as gasoline, diesel fuel, jet fuel and residual fuel that are produced by a refinery.
+
+Refinery gas: Non-condensable gas obtained during distillation of crude oil or treatment of oil products in refineries.
+
+Ship-or-pay contract: A contract requiring payment for the transportation of crude oil or refined products even if the crude oil or refined products are not transported.
+
+- Throughput: The volume of crude oil, refined products or natural gas transported or passing through a refinery, pipeline, terminal or other facility during a particular period.
+
+TRRC: Texas Railroad Commission.
+
+<span id="page-4-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P. TABLE OF CONTENTS
+
+Item Page   
+PART I   
+1 and 2. Business and Properties 6   
+1A. Risk Factors 24   
+1B. Unresolved Staff Comments 48   
+3. Legal Proceedings 48   
+4. Mine Safety Disclosures 49   
+PART II   
+5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 50   
+7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 7A. Quantitative and Qualitative Disclosures About Market Risk 52 73   
+8. Financial Statements and Supplementary Data 75   
+9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 122   
+9A. Controls and Procedures 122   
+9B. Other Information 122   
+PART III   
+10. Directors, Executive Officers and Corporate Governance 124   
+11. Executive Compensation 129   
+12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 135   
+13. Certain Relationships and Related Transactions, and Director Independence 136   
+14. Principal Accounting Fees and Services 138   
+PART IV   
+15. Exhibits, Financial Statement Schedules 140   
+16. Form 10-K Summary 143   
+Signatures 144
+
+<span id="page-5-0"></span>
+## PART I
+
+Unless the context otherwise requires, references in this report to “Shell Midstream Partners,” “the Partnership,” “us,” “our,” “we,” “SHLX” or similar expressions refer to Shell Midstream Partners, L.P. and its subsidiaries. References to “our general partner” refer to Shell Midstream Partners GP LLC, a wholly owned subsidiary of Shell Pipeline Company LP (“SPLC”). References to “RDS,” “Shell” or “Parent” refer collectively to Royal Dutch Shell plc and its controlled affiliates, other than us, our subsidiaries and our general partner.
+
+Part I should be read in conjunction with Part II, Item 7 and with the consolidated financial statements and notes thereto included in Part II, Item 8 of this report.
+
+## Items 1 and 2. BUSINESS AND PROPERTIES
+
+## Overview
+
+Shell Midstream Partners, L.P. is a Delaware limited partnership formed by Shell on March 19, 2014 to own and operate pipeline and other midstream assets, including certain assets acquired from SPLC and its affiliates. We conduct our operations either through our wholly owned subsidiary Shell Midstream Operating LLC (“Operating Company”) or through direct ownership. Our general partner is Shell Midstream Partners GP LLC (our “general partner”).
+
+Until April 1, 2020, our general partner owned an approximate 2% general partner economic interest in the Partnership, including the incentive distribution rights (“IDRs”). On April 1, 2020, we closed the transactions contemplated by the Partnership Interests Restructuring Agreement with our general partner dated February 27, 2020 (the “Partnership Interests Restructuring Agreement”), pursuant to which the IDRs were eliminated and the 2% general partner economic interest was converted into a non-economic general partner interest in the Partnership. As of December 31, 2020, our general partner holds a noneconomic general partner interest in the Partnership, and affiliates of SPLC own a 68.5% limited partner interest (269,457,304 common units) and 50,782,904 Series A perpetual convertible preferred units (the “Series A Preferred Units”) in the Partnership. These common units and preferred units, on an as-converted basis, represent a 72% interest in the Partnership.
+
+We own, operate, develop and acquire pipelines and other midstream and logistics assets. As of December 31, 2020, our assets include interests in entities that own (a) crude oil and refined products pipelines and terminals that serve as key infrastructure to transport onshore and offshore crude oil production to Gulf Coast and Midwest refining markets and deliver refined products from those markets to major demand centers and (b) storage tanks and financing receivables that are secured by pipelines, storage tanks, docks, truck and rail racks and other infrastructure used to stage and transport intermediate and finished products. The Partnership’s assets also include interests in entities that own natural gas and refinery gas pipelines that transport offshore natural gas to market hubs and deliver refinery gas from refineries and plants to chemical sites along the Gulf Coast.
+
+We generate revenue from the transportation, terminaling and storage of crude oil, refined products, and intermediate and finished products through our pipelines, storage tanks, docks, truck and rail racks, generate income from our equity and other investments and generate interest income from financing receivables on certain logistics assets. Our operations consist of one reportable segment. See Note 1 — Description of the Business and Basis of Presentation in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report.
+
+<span id="page-6-0"></span>
+The following table reflects our ownership interests as of December 31, 2020:
+
+![](tables/table_pg6_num0.csv)
+SPLC owns the remaining 7.5% ownership interest in Zydeco.(1)
+
+## Acquisitions
+
+## April 2020 Transaction
+
+On April 1, 2020, we closed the following transactions (together referred to as the “April 2020 Transaction”):
+
+Pursuant to a Purchase and Sale Agreement dated as of February 27, 2020 (the “Purchase and Sale Agreement”) between the Partnership and Triton, SPLC, Shell GOM Pipeline Company LLC (“SGOM”), Shell Chemical LP (“Shell Chemical”) and Equilon Enterprises LLC d/b/a Shell Oil Products US (“SOPUS”), we acquired 79% of the issued and outstanding membership interests in Mattox from SGOM (the “Mattox Transaction”), and SOPUS and Shell Chemical transferred to Triton, as a designee of the Partnership, certain logistics assets at the Shell Norco Manufacturing Complex located in Norco, Louisiana (such assets, the “Norco Assets,” and such transaction, the “Norco Transaction”); and
+
+Simultaneously with the closing of the transactions contemplated by the Purchase and Sale Agreement, we also closed the transactions contemplated by the Partnership Interests Restructuring Agreement pursuant to which we eliminated all of the IDRs and converted the 2% economic general partner interest in the Partnership into a non-economic general partner interest (the “GP/IDR Restructuring”). Our general partner or its assignee has also agreed to waive a portion of the distributions that would otherwise be payable on the common units issued to SPLC as part of the April 2020 Transaction, in an amount of \$20 million per quarter for each of four consecutive fiscal quarters, beginning with the distribution made with respect to the second quarter of 2020.
+
+As consideration for the April 2020 Transaction, the Partnership issued 50,782,904 Series A Preferred Units to SPLC at a price of \$23.63 per unit, plus 160,000,000 newly issued common units.
+
+See Note 3 — Acquisitions and Other Transactions in the Notes to Consolidated Financial Statements in Part II, Item 8 of this report for additional information.
+
+## Organizational Structure
+
+The following simplified diagram depicts our organizational structure as of December 31, 2020:
+
+<span id="page-7-0"></span>
+![](assets/_page_7_Figure_0.jpg)
+
+> **AI Description:**
+> **Source:** `assets/_page_7_Figure_0.jpg`
+> 
+> **Generated:** 2026-05-29 00:55:54
+> 
+> ---
+> 
+> The image is a detailed organizational chart illustrating the structure of Shell Midstream Partners, L.P. (SHLX). It shows the relationships between various entities within the company, including Shell Pipeline Company LP (SPLC), Shell Midstream Partners GP LLC, Shell Midstream LP Holdings LLC, and Shell Midstream Partners, L.P. The chart includes percentages of ownership and interest held by different parties, such as Shell, public unitholders, and limited partners. It also lists Shell-operated subsidiaries and investments, as well as third-party operated investments. The chart uses boxes and arrows to represent the hierarchical and ownership relationships between the entities.
+
+
+<span id="page-8-0"></span>
+Our assets consist of the following systems:
+
+Onshore Crude Pipelines
+![](assets/_page_8_Figure_0.jpg)
+
+> **AI Description:**
+> **Source:** `assets/_page_8_Figure_0.jpg`
+> 
+> **Generated:** 2026-05-29 00:56:22
+> 
+> ---
+> 
+> The image is a map of the United States with a focus on the Gulf Coast region, particularly Louisiana. It includes various annotations and labels for offshore and onshore locations, terminals, and storage facilities. The map highlights key cities and regions such as Baton Rouge, New Orleans, and Houston. It also shows the Permian Basin Gas Gathering area and various pipelines and gas gathering systems. The map uses different colors to distinguish between offshore locations, onshore locations, and facilities related to terminals and storage. The text provides additional information about specific locations and facilities, such as "Anacortes," "Lockport," "Norco," "Portland," "Des Plaines," and "Seattle." The map is a technical illustration used to represent the infrastructure and geographical distribution of gas gathering and processing systems in the region.
+
+
+Our onshore crude pipelines transport various grades of crude oil across more than 500 miles. Our onshore crude pipelines serve varying purposes including transporting crude oil between major onshore demand centers, as well as aggregating volume from multiple offshore pipelines and connecting this offshore production to key onshore markets, including refineries and tankage space. These pipelines are regulated by PHMSA for safety and integrity, and the FERC, LPSC and TRRC for tariff regulations.
+
+Our onshore crude pipelines transport volumes on a spot basis, as well as under transportation services and throughput and deficiency agreements (“T&D agreements”). In compliance with FERC indexing adjustments, our rates may be indexed annually.
+
+Our FERC-approved transportation services agreements entitle the customer to a specified amount of guaranteed capacity on the pipeline. This capacity cannot be pro-rated even if the pipeline is oversubscribed. In exchange, the customer makes a specified monthly payment regardless of the volume transported. If the customer does not ship its full guaranteed volume in a given month, it makes the full monthly cash payment, and it may ship the unused volume in a later month for no additional cash payment for up to 12 months, subject to availability on the pipeline. The cash payment received is recognized as deferred revenue, and therefore not included in revenue or net income until the earlier of the actual or estimated shipment of the unused volumes or the expiration of the 12-month period, as provided for in the applicable contract. If there is insufficient capacity on the pipeline to allow the unused volume to be shipped, the customer forfeits its right to ship such unused volume. We do not refund any cash payments relating to unused volumes.
+
+T&D agreements, similar to transportation services agreements, require shippers to commit to a minimum volume for a fixed term. If the shipper falls below the minimum volume for the specified term, it is required to make a payment for the volume deficiency at the agreed transportation rate. Because this payment is due at the end of the specified payment term, the timing of
+
+<span id="page-9-0"></span>
+cash flows may be affected. Unlike transportation services agreements, T&D agreements do not offer shippers firm space on the pipeline in question, and, if a segment of the pipeline system is oversubscribed, space is prorated in accordance with applicable regulations.
+
+See “— Factors Af ecting our Business and Outlook — Changes in Customer Contracting” for additional information on our transportation services and T&D agreements.
+
+## Of shore Crude Pipelines
+
+The offshore crude pipelines in which we own interests span across approximately 1,500 miles, and are regulated primarily by PHMSA, BSEE or BOEM, and in some cases by FERC or LPSC. Our offshore crude pipelines provide transportation for major oil producers and from multiple production fields in the Gulf of Mexico, offering delivery options into various pipelines, in which we may also own interests. Through the pipeline connectivity options, these pipelines provide access to desirable onshore destinations, including trading hubs and refinery complexes.
+
+Our offshore crude pipelines generate revenue under several types of long-term transportation agreements: life-of-lease transportation agreements, life-oflease transportation agreements with a guaranteed return, T&D agreements, debottleneck surcharge agreements and buy/sell agreements. Some crude oil also moves on our offshore pipelines under posted tariffs, which may be indexed annually. Inventory management fees are also charged in some cases.
+
+Our life-of-lease transportation agreements have a term equal to the life of the applicable mineral lease and require producers to transport all production from the specified fields connected to the pipeline for the entire life of the lease. This means that the dedicated production cannot be transported by any other means, such as barges or another pipeline. Some of these agreements can also include provisions to guarantee a return to the pipeline, enabling the pipeline to recover its investment in the initial years despite the uncertainty in production volumes, by providing for an annual transportation rate adjustment over a fixed period of time to achieve a fixed rate of return. The calculation for the fixed rate of return is usually based on actual project costs and operating costs. At the end of the fixed period, some rates will be locked in at the last calculated rate and adjusted thereafter based on FERC’s index.
+
+Our offshore T&D agreements require shippers to dedicate production from specific fields for a fixed term, generally for life of the facility or lease. In addition, some T&D agreements require a minimum volume to be delivered for a fixed term. If the producer falls below the minimum volume for the specified term, they are required to make a payment for the volume deficiency at the agreed transportation rate. T&D agreements may, but typically do not, offer firm space on the pipeline in question. If a segment of the pipeline system is oversubscribed, space is prorated in accordance with the then-published rules and regulations of the pipeline.
+
+Certain offshore systems provide for the transportation of crude oil through the use of buy/sell arrangements where crude is purchased at the receipt location into the pipeline and sold back to the counterparty at the destination at that price plus a transportation differential. Other systems provide for the transportation of crude oil via private Oil Transportation Agreements (“OTAs”). These OTAs are a mix of term and life-of-lease transportation agreements.
+
+## Refined Products Pipelines
+
+We own interests in several refined products pipeline systems across approximately 7,400 miles spanning from the Gulf Coast to both the Midwest and the East Coast. These pipeline systems are regulated primarily by PHMSA and FERC and transport refined products with many different specifications and for numerous shippers. The refined products pipelines connect refineries to both long-haul transportation pipelines and marketing terminals. These pipelines serve a diverse set of customers, including refiners, marketers, airports and airlines.
+
+These refined products pipeline systems generate revenue under various types of rates and contracts, including ship-or-pay contracts that are renewable at the election of the shipper and may be indexed annually, joint tariff division agreements, FERC-approved rates subject to annual indexing and market-based rates. Additionally, there is an auction program on one system for certain excess capacity when the pipeline is fully subscribed.
+
+## Terminals and Storage
+
+We own an interest in certain logistics assets in Louisiana, as well as interests in refined products and crude terminals located in Washington, Texas, Illinois and Oregon.
+
+<span id="page-10-0"></span>
+Our logistics assets are comprised of crude, chemicals, intermediate and finished product pipelines, storage tanks, docks, truck and rail racks and supporting infrastructure. We generate revenue on these assets pursuant to terminaling services agreements with related parties, which are treated as a failed sale leaseback for accounting purposes.
+
+Our refined products terminals receive refined products from pipelines and, in certain cases, barges, ships or railroads, and distribute them to third parties, who in turn deliver them to end-users and retail outlets. These terminals play a key role in moving products to the end-user market by providing efficient product receipt, storage and distribution capabilities, inventory management, ethanol and biodiesel blending, and other ancillary services that include the injection of various additives. For each of these terminals, revenue, based on throughput, is generated via a single, long-term, terminaling services agreement with a related party, which is treated as an operating lease for accounting purposes. Each agreement provides for a guaranteed minimum throughput. The contracts initially expire on November 30, 2027 with an option to extend the agreement for ten additional one-year terms.
+
+Our crude terminal feeds regional refineries and offers strategic trading opportunities by providing storage services for several customers and supplying refineries. Our storage tanks are 100% utilized via four terminal services agreements with remaining terms ranging from one to four years.
+
+## Other Midstream Assets
+
+We have interests in certain other midstream assets. We own an interest in a network of gas pipelines connecting multiple refineries and plants operated along the Gulf Coast to Shell chemical sites. The pipelines transport refinery gas which is a mix of methane, natural gas liquids and olefins. This system generates revenue under transportation services agreements that include minimum revenue commitments and are treated as operating leases for accounting purposes. The contracts require a specified monthly payment regardless of volume shipped, and shippers do not receive a credit for unused volume in a given month to use in future months.
+
+We also own interests in gas gathering systems that provide gathering and transportation for multiple gas producers and third-party gas shippers.
+
+Additionally, our interest in a pipeline that connects the LOOP Clovelly Salt Dome storage facility to the active trading hub of St. James, Louisiana allows for crude oil arriving at the terminal to be dispatched to several local refineries or to other pipeline systems.
+
+## Pipeline and Terminal Systems Capacity
+
+The following table sets forth certain information regarding our pipeline and terminal systems as of December 31, 2020:
+
+![](tables/table_pg10_num0.csv)
+
+<span id="page-12-0"></span>
+In addition to the pipeline capacity above, Mars also has storage capacity leases of storage caverns with a related party. (1)
+
+The Anacortes, Des Plaines, Portland and Seattle refined products terminals have truck racks that are not included in the above table. The Anacortes refined products (2) terminal does not have tank storage.
+
+- The capacity for the Norco Assets shown above is comprised of 104 tanks. The Norco Assets also include associated pipelines, docks, trucks and rail racks that are not (3) included in the above table.
+- The approximate capacity information presented is in kbpd with the exception of the approximate capacity related to Cleopatra gas (4)
+- gathering system and Permian Basin, which are presented in mscf/d, and Refinery Gas Pipeline, which is presented in klbs/d.
+- This capacity may change as a result of the recent shutdown of the Convent refinery. (5)
+
+## Our Relationship with Shell
+
+Shell is one of the world’s largest independent energy companies in terms of market capitalization and operating cash flow, and Shell and its joint ventures are a leading producer and transporter of onshore and offshore hydrocarbons, as well as a major refiner in the United States. As one of the largest producers in the Gulf of Mexico, Shell is currently developing several deepwater prospects and associated infrastructure. In addition to its offshore production, Shell has significant onshore exploration and production interests and produces crude oil and natural gas throughout North America. Shell’s downstream portfolio includes interests in refineries and chemical processing plants throughout the United States. Shell’s portfolio of midstream assets provides key infrastructure required to transport and store crude oil and refined products for Shell and third parties. Shell’s ownership interests in transportation and midstream assets include crude oil and refined products pipelines, crude oil and refined products terminals, chemicals pipelines, natural gas pipelines and processing plants and LNG infrastructure assets. Shell or its affiliates are customers of most of our businesses.
+
+SPLC is Shell’s principal midstream subsidiary in the United States. As of December 31, 2020, SPLC owned our general partner, a 68.5% limited partner interest in us and all of our Series A Preferred Units.
+
+## Customers
+
+See Note 14 — Transactions with Major Customers and Concentration of Credit Risk in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report.
+
+## Competition
+
+Our pipeline systems compete primarily with other interstate and intrastate pipelines and with marine and rail transportation. Some of our competitors may expand or construct transportation systems that would create additional competition for the services we provide to our customers. For example, newly constructed transportation systems in the onshore Gulf of Mexico region may increase competition in the markets where our pipelines operate. In addition, future pipeline transportation capacity could be constructed in excess of actual demand in the market areas we serve, which could reduce the demand for our services and could lead to the reduction of the rates that we receive for our services. While we do see some variation from quarter-to-quarter resulting from changes in our customers’ demand for transportation, this risk has historically been mitigated by the long-term, fixed-rate basis upon which we contracted our capacity.
+
+Competition among onshore common carrier crude oil pipelines is based primarily on posted tariffs, quality of customer service and connectivity to sources of supply and demand. We believe that our position along the Gulf Coast provides a unique level of service to our customers. Our pipelines and terminals face competition from a variety of alternative transportation methods including rail, water borne movements (including barging, shipping and imports) and other pipelines that service the same origins or destinations as our pipelines.
+
+Our offshore crude oil pipelines are primarily supported by life-of-lease transportation agreements or direct connected production, which bears high switching costs in the form of capital investment or volume dedications. However, our offshore pipelines will compete for new production on the basis of geographic proximity to the production, cost of connection, available capacity, transportation rates and access to preferred onshore markets. The principal competition for our offshore pipelines include other crude oil pipeline systems, as well as producers who may elect to build or utilize their own production handling facilities. In addition, the ability of our offshore pipelines to access future oil and gas reserves will be subject to our ability, or the producers’ ability, to fund the capital expenditures required to connect to the new production. In general, our offshore pipelines are not subject to regulatory ratemaking authority, and the rates our offshore pipeline charges for services are dependent on market conditions.
+
+Competition for refined product transportation in any particular area is affected significantly by the end market demand for the volume of products produced by refineries in that area, the availability of products in that area and the cost of transportation to
+
+<span id="page-13-0"></span>
+that area from distant refineries. In light of current market conditions, we expect greater competition in the markets in which we provide refined product transportation.
+
+Our storage terminal competes with surrounding providers of storage tank services. Some of our competitors have expanded terminals and built new pipeline connections, and third parties may construct pipelines that bypass our location. These, or similar events, could have a material adverse impact on our operations.
+
+Our refined products terminals generally compete with other terminals that serve the same markets. These terminals may be owned by major integrated oil and gas companies or by independent terminaling companies. While fees for terminal storage and throughput services are not regulated, they are subject to competition from other terminals serving the same markets. However, our contracts provide for stable, long-term revenue, which is not impacted by market competitive forces.
+
+See “Management's Discussion and Analysis of Financial Condition and Results of Operations — Factors Af ecting Our Business and Outlook” for additional information.
+
+## FERC and State Common Carrier Regulations
+
+Our interstate common carrier and intrastate pipeline systems are subject to economic regulation by various federal, state and/or local agencies.
+
+FERC regulates interstate transportation on our common carrier pipeline systems under the ICA, the EPAct and the rules and regulations promulgated under those laws. FERC regulations require that rates and terms and conditions of service for interstate service pipelines that transport crude oil and refined products (collectively referred to as “petroleum pipelines”) and certain other liquids be just and reasonable and must not be unduly discriminatory or confer any undue preference upon any shipper. FERC’s regulations also require interstate common carrier petroleum pipelines to file with FERC and publicly post tariffs stating their interstate transportation rates and terms and conditions of service.
+
+Under the ICA, FERC or interested persons may challenge existing or proposed new or changed rates, services or terms and conditions of service. FERC is authorized to investigate such charges and may suspend the effectiveness of a new rate for up to seven months. Under certain circumstances, FERC could limit a common carrier pipeline’s ability to charge rates until completion of an investigation during which FERC could find that the new or changed rate is unlawful. In contrast, FERC has clarified that initial rates and terms of service agreed upon with non-affiliated committed shippers in a transportation services agreement are not subject to protest or a cost-of-service analysis where the pipeline held an open season offering all potential shippers service on the same terms. In the case where there are only affiliated committed shippers, rates need to be justified on a cost-of-service basis.
+
+A successful rate challenge could result in a common carrier pipeline paying refunds of revenue collected in excess of the just and reasonable rate, together with interest for the period the rate was in effect, if any. FERC may also order a pipeline to reduce its rates prospectively, and may require a common carrier pipeline to pay shippers reparations retroactively for rate overages for a period of up to two years prior to the filing of a complaint. FERC also has the authority to change terms and conditions of service if it determines that they are unjust or unreasonable or unduly discriminatory or preferential.
+
+From November 2017 through 2020, twelve separate, nearly identical complaints were filed with FERC against Colonial challenging Colonial’s tariff rates, its market power, its practices and charges related to transmix and product volume loss. These complaints have been consolidated by FERC in Docket Nos. OR18-7-002, et al. and were set for hearing and settlement judge procedures. FERC also severed the review of Colonial’s market-based rates into a separate, concurrent hearing. On May 2, 2019, the Chief Administrative Law Judge terminated settlement judge procedures and established a procedural schedule for a hearing before an administrative law judge. The hearing took place in the latter part of 2020 and an initial decision from the administrative law judge is currently scheduled for August 2021, with a FERC decision anticipated by spring 2022. Since the consolidated complaint proceedings are ongoing, FERC has not taken any final action on the complaints, and the outcome is not known at this time.
+
+Additionally, EPAct deemed certain interstate petroleum pipeline rates then in effect to be just and reasonable under the ICA. These rates are commonly referred to as “grandfathered rates.” For example, Colonial’s rates in effect at the time of the passage of EPAct for interstate transportation service were deemed just and reasonable and therefore are grandfathered. New rates have since been established after EPAct for certain grandfathered pipeline systems such as Zydeco. FERC may change grandfathered rates upon complaint only after it is shown that:
+
+• a substantial change has occurred since enactment in either the economic circumstances or the nature of the services that were a basis for the rate;
+
+<span id="page-14-0"></span>
+the complainant was contractually barred from challenging the rate prior to enactment of EPAct and filed the complaint within 30 days of the expiration of the contractual bar; or
+
+• a provision of the tariff is unduly discriminatory or preferential.
+
+EPAct required FERC to establish a simplified and generally applicable methodology to adjust tariff rates for inflation for interstate petroleum pipelines. As a result, FERC adopted an indexing rate methodology which, as currently in effect, allows common carriers to change their rates within prescribed ceiling levels that are tied to changes in the U.S. Producer Price Index for Finished Goods (“PPI-FG”). The indexing methodology is applicable to existing rates, including grandfathered rates, with the exclusion of market-based rates. FERC’s indexing methodology is subject to review every five years. As a result of its prior five-year review, FERC revised its indexing methodology and determined that, during the five-year period commencing July 1, 2016 and ending June 30, 2021, common carriers charging indexed rates are permitted to adjust their indexed ceilings annually by PPI-FG plus 1.23%. In May 2020, Zydeco, Mars, LOCAP and Colonial filed with FERC to increase rates subject to FERC’s indexing adjustment methodology by approximately 2.0% starting on July 1, 2020. FERC commenced the current five-year review of its indexing methodology in June 2020. FERC reviewed the pipeline cost changes over the past five years to set an adjustment to PPI-FG so that it reflects changes to costs industry-wide. After receiving comments and reply comments on its proposed order, FERC issued an order on December 17, 2020 setting the new methodology to PPI-FG plus 0.78%, effective July 1, 2021. FERC’s order is subject to rehearing and possible judicial review.
+
+We cannot predict whether or to what extent the index factor may change in the future. A pipeline is not required to raise its rates up to the index ceiling, but it is permitted to do so; however, a pipeline must reduce its indexed rates to the extent they exceed the index ceiling when a negative index applies. Some indexed rates on our systems were reduced in 2016 in response to the negative index lowering the ceiling, such as certain spot rates on Zydeco. Rate increases made under the index methodology are presumed to be just and reasonable and require a protesting party to demonstrate that the portion of the rate increase resulting from application of the index is substantially in excess of the pipeline’s increase in costs. Despite these procedural limits on challenging the indexing of rates, the overall rates are not entitled to any specific protection against rate challenges. Under the indexing rate methodology, in any year in which the index is negative, pipelines must file to lower their rates if those rates would otherwise be above the rate ceiling.
+
+While common carrier pipelines often use the indexing methodology to change their rates, common carrier pipelines may elect to support proposed rates by using other methodologies such as cost-of-service rate making, market-based rates and settlement rates. A common carrier pipeline can propose a cost-ofservice approach when seeking to increase its rates above the rate ceiling (or when seeking to avoid lowering rates to the reduced rate ceiling), but must establish that a substantial divergence exists between the actual costs experienced by the pipeline and the rates resulting from application of the indexing methodology. A common carrier can charge market-based rates if it establishes that it lacks significant market power in the affected markets. A common carrier can establish rates under settlement if agreed upon by all current shippers. Rates for a new service on a common carrier pipeline can be established through a negotiated rate with an unaffiliated shipper or via a cost-of-service approach.
+
+The rates shown in our FERC tariffs have been established using the indexing methodology, by settlement or by negotiation. If we used cost-of-service rate making to establish or support our rates on our different pipeline systems, the issue of the proper allowance for federal and state income taxes could arise. In 2005, FERC issued a policy statement stating that it would permit common carrier pipelines, among others, to include an income tax allowance in costof-service rates to reflect the tax liability attributable to a regulated entity’s operating income, regardless of the form of ownership. Under FERC’s policy, a tax pass-through entity seeking such an income tax allowance must establish that its partners or members have an actual or potential income tax liability on the regulated entity’s income. Whether a pipeline’s owners have such income tax liability is subject to review by FERC on a case-by-case basis. Although this policy is generally favorable for common carrier pipelines that are organized as pass-through entities, it still entails rate risk due to FERC’s case-bycase review approach and recent changes to FERC’s policy following litigation in the U.S. Court of Appeals for the D.C. Circuit, as described below. The application of this policy, as well as any decision by FERC regarding our cost of service, is also subject to review in the courts.
+
+Under its current policy, FERC permits regulated interstate oil and gas pipelines to include an income tax allowance in their cost of service used to calculate cost-based transportation rates. The allowance is intended to reflect the tax liability attributable to the regulated entity’s operating income, regardless of the form of ownership. On July 1, 2016, in United Airlines, Inc. v. FERC, the United States Court of Appeals for the D.C. Circuit vacated a pair of FERC orders to the extent they permitted an interstate refined petroleum products pipeline owned by a master limited partnership (“MLP”) to include an income tax allowance in its cost-of-service rates. The D.C. Circuit held that FERC had failed to demonstrate that the inclusion of an income tax allowance in the pipeline’s rates would not lead to an over-recovery of costs attributable to regulated service. The D.C. Circuit instructed FERC on remand to fashion a remedy to ensure that the pipeline’s rates do not allow it to over-recover its costs. Following the D.C. Circuit’s decision, FERC issued its Revised Policy Statement on Treatment of Income Taxes in
+
+<span id="page-15-0"></span>
+Docket No. PL17-1-000 on March 15, 2018 (the “Revised Policy Statement”), which eliminates the recovery of an income tax allowance by MLP oil and gas pipelines in cost-of-service-based rates. FERC directed MLP oil pipelines to reflect the elimination of the income tax allowance in their Form No. 6, page 700 reporting, although FERC did not make an adjustment to pipeline industry costs to reflect the elimination of the income tax allowance in its December 17, 2020 order adopting a revised indexing adjustment for the five-year period starting July 1, 2021. FERC also stated that it would address income tax allowances for other “pass-through” entities that are not MLPs in future proceedings. On July 18, 2018, FERC clarified in Order No. 849, which was directed at gas pipelines, its general disallowance of MLP income tax allowance recovery by providing that an MLP will not be precluded in a future proceeding from making a claim that it is entitled to an income tax allowance based on a demonstration that its recovery of an income tax allowance does not result in a “double-recovery of investors’ income tax costs.” While FERC has not taken industry-wide action on oil pipeline rates, FERC could require oil pipelines to revise their rates in individual proceedings (including initial rate filing or complaint proceedings) or through other action. To the extent that we charge cost-of-service based rates, those rates could be affected by any changes in FERC’s income tax allowance policy to the extent our rates are subject to complaint or challenge by FERC acting on its own initiative, or to the extent that we propose new cost-of-service rates or changes to our existing rates.
+
+On October 20, 2016, FERC issued an Advance Notice of Proposed Rulemaking in Docket No. RM17-1-000 (the “ANOPR”) regarding changes to the oil pipeline rate index methodology and data reporting on Page 700 of FERC’s Form No. 6. On February 21, 2020, FERC withdrew the ANOPR and denied additional shipper requests seeking changes to Page 700 reporting requirements as the ANOPR’s proposed changes were not consistent with FERC’s simplified and streamlined indexing regime. No further updates are expected on this matter.
+
+Intrastate services provided by certain of our pipeline systems are subject to regulation by state regulatory authorities, such as the TRRC, which currently regulates Zydeco and Colonial pipeline rates, and the LPSC, which currently regulates the Zydeco, Mars, Delta and Colonial pipeline rates. State agencies typically require intrastate petroleum pipelines to file their rates with the agencies and permit shippers to challenge existing rates and proposed rate increases. State agencies may also investigate rates, services and terms and conditions of service on their own initiative. State regulatory commissions could limit our ability to increase our rates or to set rates based on our costs or could order us to reduce our rates and require the payment of refunds to shippers.
+
+Further, rate investigations by FERC or a state commission could result in an investigation of our costs, including the:
+
+overall cost of service, including operating costs and overhead;
+
+allocation of overhead and other administrative and general expenses to the regulated entity;
+
+appropriate capital structure to be utilized in calculating rates;
+
+appropriate rate of return on equity and interest rates on debt;
+
+• rate base, including the proper starting rate base;
+
+• throughput underlying the rate; and
+
+proper allowance for federal and state income taxes.
+
+Shippers can always file a complaint with FERC or a state agency challenging rates or conditions of services. If they were successful, FERC or a state agency could order reparations or service changes.
+
+Certain pipelines, including Auger, Na Kika, Amberjack, Odyssey, Poseidon, Proteus, Endymion, Cleopatra and parts of Mars, are located offshore in the Outer Continental Shelf. As such, they are not subject to FERC or state rate regulation but are subject to the Outer Continental Shelf Lands Act (“OCSLA”). Under the OCSLA, we must provide open and nondiscriminatory access to both pipeline owner(s) and non-owner shippers and comply with other requirements.
+
+## Pipeline and Terminal Safety
+
+Our assets are subject to strict safety laws and regulations. Our transportation and storage of crude oil, refined products and dry gas involve risks that hazardous liquids or gas may be released into the environment, potentially causing harm to the public or the environment. In turn, such incidents may result in substantial expenditures for response actions, significant government penalties, liability to government agencies for natural resources damages, liability and/or reparations to land owners and significant business interruption. PHMSA of the DOT has adopted safety regulations with respect to the design, construction, operation, maintenance, inspection and management of most of our assets. In addition, some states have adopted regulations, similar to existing PHMSA regulations, for intrastate gathering and transmission lines. The states in which most of our assets are located, Texas and Louisiana, are among the states that have developed regulatory programs that parallel the federal regulatory scheme and are applicable to intrastate pipelines transporting hazardous liquids and gases. The few assets not covered by PHMSA are regulated by the U.S. Environmental Protection Agency (“EPA”) and various state agencies and are
+
+<span id="page-16-0"></span>
+designed and maintained to industry accepted codes and standards. PHMSA regulations contain requirements for the development and implementation of pipeline integrity management programs, which include the inspection and testing of pipelines and necessary maintenance or repairs. These regulations also require that pipeline operation and maintenance personnel meet certain qualifications and are included in a drug and alcohol testing program, and that pipeline operators develop comprehensive spill response plans.
+
+We are subject to regulation by PHMSA under the Natural Gas Pipeline Safety Act of 1968 (“NGPSA”) and the Hazardous Liquid Pipeline Safety Act of 1979 (“HLPSA”). The NGPSA delegated to PHMSA through DOT the authority to regulate gas pipelines. The HLPSA delegated to PHMSA through DOT the authority to develop, prescribe, and enforce federal safety standards for the transportation of hazardous liquids by pipeline. Every four years PHMSA is up for reauthorization by Congress and with that reauthorization comes changes to the legislative requirements that Congress sets forth for the oversight of natural gas and hazardous liquid pipelines. In 2020, the Protecting our Infrastructure of Pipelines and Enhancing Safety Act of 2020 (the “Pipes Act”) was enacted. The Pipes Act reauthorized PHMSA through 2023 and imposed a few new mandates on the agency. The law establishes a PHMSA technology pilot, authorizes a new idled pipe operating status, contains process protections for operators during PHMSA enforcement proceedings and directs PHMSA to adopt regulations to address methane leaks from pipelines. There are no self-enacting portions of this act that impact our assets. We will be engaged in the regulatory process as PHMSA issues Reports and Notices of Proposed Rulemakings to meet the requirements set out in the Pipes Act. We will continue to work with industry groups to provide comments and recommendations to PHMSA on proposed regulations to help ensure improved safety without causing undue burden to operators.
+
+PHMSA administers compliance with these statutes and has promulgated comprehensive safety standards and regulations for the transportation of hazardous liquids by pipeline, including regulations for the design and construction of new pipeline systems or those that have been relocated, replaced or otherwise changed (Subparts C and D of 49 CFR § 195); pressure testing (Subpart E of 49 CFR § 195); operation and maintenance of pipeline systems, including inspecting and reburying pipelines in the Gulf of Mexico and its inlets, establishing programs for public awareness and damage prevention, managing the integrity of pipelines in HCAs, and managing the operation of pipeline control rooms (Subpart F of 49 CFR § 195); protecting steel pipelines from the adverse effects of internal and external corrosion (Subpart H of 49 CFR § 195); and integrity management requirements for pipelines in HCAs (49 CFR § 195.452). Gas pipelines have similar requirements (49 CFR § 192).
+
+On July 1, 2020, two new final rules issued by PHMSA on October 1, 2019 became effective. The two rules impose several new requirements on operators of onshore gas transmission systems and hazardous liquids pipelines. The rule concerning gas transmission extends the requirement to conduct integrity assessments beyond HCAs to pipelines in Moderate Consequence Areas (“MCAs”). It also includes requirements to reconfirm maximum allowable operating pressure (“MAOP”), report MAOP exceedances, consider seismicity as a risk factor in integrity management and use certain safety features on in-line inspection equipment. The rule concerning hazardous liquids extends the required use of leak detection systems beyond HCAs to all regulated nongathering hazardous liquid pipelines, requires reporting for gravity fed lines and unregulated gathering lines, requires periodic inspection of all lines not in HCAs, calls for inspections of lines after extreme weather events and adds a requirement to make all lines in or affecting HCAs capable of accommodating in-line inspection tools over the next 20 years. There are new MCAs on some of our gas transmission lines; however, these lines are already fully inspected due to HCAs on the lines, so these new areas do not impact our inspection or maintenance programs on the lines. On the liquid side, all onshore lines have leak detection and are currently inspected under our Integrity Management Program, so there are no new inspections required. Some of our product lines may need to be made piggable; however, the full evaluations of those lines have not been completed to fully understand potential cost implications.
+
+We monitor the structural integrity of our pipelines through a program of periodic internal assessments using a variety of internal inspection tools, as well as hydrostatic testing that conforms to federal standards. We accompany these assessments with a comprehensive data integration effort and repair anomalies, as required, to ensure the integrity of the pipeline. We conduct a thorough review of risks to the pipelines and perform sophisticated calculations to establish an appropriate reassessment interval for each pipeline. We use external coatings and impressed current cathodic protection systems to protect against external corrosion. We conduct all cathodic protection work in accordance with National Association of Corrosion Engineers standards and continually monitor, test and record the effectiveness of these corrosion inhibiting systems. We have robust third-party damage prevention and public awareness programs to help protect our lines from the risk of excavation and other outside force damage threats. Our tanks are inspected on a routine basis in compliance with PHMSA and EPA regulations. Every tank periodically receives a full out of service, internal inspection per American Petroleum Institute standard 653 and is repaired as necessary.
+
+Certain aspects of our offshore pipeline operations, such as new construction and modification, are also regulated by BOEM, BSEE and the U.S. Coast Guard. On January 20, 2021, the Acting Secretary for the Department of the Interior signed an order
+
+<span id="page-17-0"></span>
+suspending new fossil fuel leasing and permitting on federal lands for 60 days, which may cover our offshore pipeline permits. In addition, on January 27, 2021, President Biden issued an Executive Order on climate directing the Department of the Interior to pause on entering into new oil and natural gas leases on public lands or offshore waters “to the extent possible” and launch a review of all existing leasing and permitting practices related to fossil fuel development on public lands and waters. If our customers are unable to secure leases, permits, sustained reductions in exploration or production activity in our areas of operation could lead to reduced utilization of our pipeline and terminal systems or reduced rates under renegotiated transportation or storage agreements. We are still evaluating the effects of the recent order on our operations and our customers’ operations, but our inability and our customers’ inability to secure required permits could adversely affect our business, financial condition, results of operation or cash flows, including our ability to make cash distributions to our unitholders.
+
+## Product Quality Standards
+
+Refined products that we transport are generally sold by our customers for consumption by the public. Various federal, state and local agencies have the authority to prescribe product quality specifications for refined products. Changes in product quality specifications or blending requirements could reduce our throughput volumes, require us to incur additional handling costs or require capital expenditures. For example, different product specifications for different markets affect the fungibility of the refined products in our system and could require the construction of additional storage. If we are unable to recover these costs through increased revenue, our cash flows and ability to pay cash distributions could be adversely affected. In addition, changes in the product quality of the refined products we receive on our refined product pipeline systems or at our tank farms could reduce or eliminate our ability to blend refined products.
+
+## Security
+
+We are also subject to U.S. Department of Homeland Security Chemical Facility Anti-Terrorism Standards, which are designed to regulate the security of high-risk chemical facilities, and to Transportation Security Administration Pipeline Security Guidelines. We have an internal program of inspection designed to monitor and enforce compliance with all of these requirements. We believe that we are in material compliance with all applicable laws and regulations regarding the security of our facilities.
+
+## Information Technology and Cyber-security
+
+Given our dependence on Information Technology (“IT”) systems for our operations and the increasing role of digital technologies across our business, cyber-security attacks could cause significant harm to our business, e.g., in the form of loss of productivity, loss of intellectual property, regulatory fines and/or reputational damage. Shell, like many other multinational company groups, is the target of attempts to gain unauthorized access to its IT systems and data through various channels, including more sophisticated and coordinated attempts, which are often referred to as advanced persistent threats. Our business operations rely on the IT systems of our Parent, as well as third-party suppliers of IT goods and services. The security of IT services, operated by external IT companies, is managed through contractual clauses and through formal supplier assurance reports for critical IT services. In addition, we continuously measure and, where required, further improve our cyber-security capabilities, working with affiliates and key suppliers to reduce the likelihood of successful cyber-attacks. Our IT landscape is protected by various detective and protective technologies in line with industry best practices. While the arrangements described above are in place, we cannot guarantee their effectiveness. A significant cyber-attack could have a material effect on our operations.
+
+Along with our own confidential data and information in the normal course of our business, we and our affiliates collect and retain significant volumes of personal data, some of which are subject to certain laws and regulations. The regulations regarding the transfer and use of this data both domestically and across international borders are becoming increasingly complex. This data is subject to governmental regulation at the federal, state, international, national, provincial and local levels in many areas of our business, including data privacy and security laws such as the European Union (“EU”) General Data Protection Regulation (“GDPR”), the California Consumer Privacy Act (“CCPA”) and new or emerging legislation in other jurisdictions in which our Parent or its affiliates operate, such as Turkey, Brazil, China and India. These laws may also expose us to significant liabilities and penalties if any company we acquire has violated or is not in compliance with applicable data protection laws.
+
+The EU GDPR came into force in May 2018. The GDPR applies to personal data and activities that may be conducted by us, directly or indirectly through vendors and subcontractors, from an establishment in the EU. As interpretation and enforcement of the GDPR evolves, it creates a range of new compliance obligations, which could cause us to incur costs or require us to change our business practices in a manner adverse to our business. Failure to comply could result in significant penalties of up to a maximum of 4% of our global turnover, which could materially adversely affect our business, reputation, results of
+
+<span id="page-18-0"></span>
+operations and cash flows. The GDPR also requires mandatory breach notification to the appropriate regulatory authority and impacted data owners.
+
+The CCPA became effective on January 1, 2020 and gives California residents specific rights regarding their personal information, requires that companies take certain actions, including notifications of security incidents, and applies to activities regarding personal information that may be collected by us, directly or indirectly, from California residents. In addition, the CCPA grants California residents statutory private rights of action in the case of a data breach. As interpretation and enforcement of the CCPA evolves, it creates a range of new compliance obligations, which could cause us to change our business practices, with the possibility of significant financial penalties for noncompliance.
+
+In 2010, RDS adopted its Binding Corporate Rules (“BCRs”), which require every Shell company to provide a minimum standard of data protection irrespective of its jurisdiction of formation or operations. The BCRs were revised in 2019 and formulated based on the requirements of the GDPR, which ensures that each Shell entity maintains a baseline of compliance with current, new or emerging legislation on top of which processes for compliance with any specific local legislation can be addressed. We cannot ensure that our current practices and policies in the area of personal data protection will be sufficient to comply with all new or emerging rules or regulations applicable to us nor that they mitigate all of the associated risks to our business.
+
+## Environmental Matters
+
+General. Our operations are subject to extensive and frequently changing federal, state and local laws, regulations and ordinances relating to the protection of the environment. Among other things, these laws and regulations govern the emission or discharge of pollutants into or onto the land, air and water, the handling and disposal of solid and hazardous wastes and the remediation of contamination. As with the industry in general, compliance with existing and anticipated environmental laws and regulations increases our overall cost of business, including our capital costs to construct, maintain, operate and upgrade equipment and facilities. While these laws and regulations affect our maintenance capital expenditures and net income, we believe they do not affect our competitive position, as the operations of our competitors are similarly affected. We believe our facilities are in substantial compliance with applicable environmental laws and regulations. However, these laws and regulations are subject to changes, or to changes in the interpretation of such laws and regulations, by regulatory authorities, and continued and future compliance with such laws and regulations may require us to incur significant expenditures. Additionally, violation of environmental laws, regulations and permits can result in the imposition of significant administrative, civil and criminal penalties, injunctions limiting our operations, investigatory or remedial liabilities or construction bans or delays in the construction of additional facilities or equipment. Additionally, a release of hydrocarbons or hazardous substances into the environment could, to the extent the event is not insured, subject us to substantial expenses, including costs to comply with applicable laws and regulations and to resolve claims by third parties for personal injury or property damage or claims by the U.S. federal government or state governments for natural resources damages. These impacts could directly and indirectly affect our business and have an adverse impact on our financial position, results of operations and liquidity if we do not recover these expenditures through the rates and fees we receive for our services. We believe our competitors must comply with similar environmental laws and regulations. However, the specific impact on each competitor may vary depending on a number of factors, including, but not limited to, the type of competitor and location of its operating facilities.
+
+We accrue for environmental remediation activities when the responsibility to remediate is probable and the amount of associated costs can be reasonably estimated. As environmental remediation matters proceed toward ultimate resolution or as additional remediation obligations arise, charges in excess of those previously accrued may be required. New or expanded environmental requirements, which could increase our environmental costs, may arise in the future. We believe we substantially comply with all legal requirements regarding the environment; however, as not all of the associated costs are fixed or presently determinable (even under existing legislation) and may be affected by future legislation or regulations, it is not possible to predict all of the ultimate costs of compliance, including remediation costs that may be incurred and penalties that may be imposed.
+
+Air Emissions and Climate Change. Our operations are subject to the Clean Air Act and its regulations and comparable state and local statutes and regulations in connection with air emissions from our operations. Under these laws, permits may be required before construction can commence on a new source of potentially significant air emissions, and operating permits may be required for sources that are already constructed. These permits may require controls on our air emission sources, and we may become subject to more stringent regulations requiring the installation of additional emission control technologies.
+
+Future expenditures may be required to comply with the Clean Air Act and other federal, state and local requirements for our various sites, including our pipeline and storage facilities. The impact of future legislative and regulatory developments, if enacted or adopted, could result in increased compliance costs and additional operating restrictions on our business, all of which
+
+<span id="page-19-0"></span>
+could have an adverse impact on our financial position, results of operations and liquidity.
+
+In December 2007, the U.S. Congress passed the Energy Independence and Security Act that created a second Renewable Fuels Standard. This standard requires the total volume of renewable transportation fuels (including ethanol and advanced biofuels) sold or introduced annually in the United States to rise to 36 billion gallons by 2022. The requirements could reduce future demand for refined products and thereby have an indirect effect on certain aspects of our business.
+
+Currently, several legislative and regulatory measures to address greenhouse gas (“GHG”) emissions (including carbon dioxide, methane and other gases) are in various phases of discussion or implementation in the United States. These measures include requirements effective in 2010 to report GHG emissions to the EPA on an annual basis and proposed federal legislation and regulation as well as state actions to develop statewide or regional programs, each of which require or could require reductions in our GHG emissions. President Biden has issued a series of Executive Orders seeking to adopt new regulations and policies to address climate change and suspend, revise or rescind prior agency actions that are identified as conflicting with the Biden Administration’s climate policies. Requiring reductions in GHG emissions could result in increased costs to (i) operate and maintain our facilities, (ii) install new emission controls at our facilities and (iii) administer and manage any GHG emissions programs, including acquiring emission credits or allotments. New requirements to address GHG emissions and climate change may also significantly affect the oil and gas production, processing, transmission and storage industry, as well as domestic refinery operations and may have an indirect effect on our business, financial condition and results of operations.
+
+In addition, the EPA has proposed and may adopt further regulations under the Clean Air Act addressing greenhouse gases, to which some of our facilities may become subject. For example, in May 2016, EPA finalized new rules for volatile organic compound and methane emissions from the oil and gas production, processing, transmission and storage industry. In August 2020, the EPA issued two final rules that rescinded the methane-specific requirements of the rules applicable to sources in the production and processing segments and removed the transmission and storage segment from the source category. However, these 2020 rules are being challenged in the U.S. Circuit Court for the D.C. Circuit. On January 20, 2021, President Biden issued an Executive Order on “Protecting Public Health and the Environment and Restoring Science to Tackle the Climate Crisis” directing the EPA to consider rescinding or revising the 2020 rules and proposing new regulations to expand these rules for the oil and gas production, processing, transmission and storage industries. Congress continues to consider legislation on GHG emissions, which may include proposals to monitor and limit emissions of GHGs, although the ultimate adoption and form of any federal legislation cannot presently be predicted. In addition, in 2015 the U.S. participated in the United Nations Conference on Climate Change, which led to the creation of the Paris Agreement. The Paris Agreement, which was signed by the United States in April 2016, requires countries to review and “represent a progression” in their intended nationally determined contributions, which set GHG emission reduction goals, every five years beginning in 2020. In November 2019, the U.S. State Department formally informed the United Nations of the United States’ withdrawal from the Paris Agreement and withdrew from the Paris Agreement in November 2020. However, on January 20, 2021, President Biden signed an instrument that reverses this withdrawal, and the United States will formally re-join the Paris Agreement on February 19, 2021.
+
+The impact of future regulatory and legislative developments, if adopted or enacted, could result in increased compliance costs, increased utility costs, additional operating restrictions on our business and an increase in the cost of products generally. Like Shell, we actively monitor and assess these potential developments and believe we are best able to manage them when local policies provide a stable and predictable regulatory foundation for our future investments. Although such costs may impact our business directly or indirectly by impacting our facilities or operations, the extent and magnitude of that impact cannot be reliably or accurately estimated due to the present uncertainty regarding the additional measures and how they will be implemented.
+
+In addition to the regulatory efforts described above, there have also been efforts in recent years aimed at the investment community, including investment advisors, sovereign wealth funds, public pension funds, universities and other groups, promoting the divestment of fossil fuel equities, as well as pressuring lenders and other financial services companies to limit or curtail activities with fossil fuel companies. If these efforts were to continue, they could have a material adverse effect on the price of our securities and our ability to access equity capital markets. Members of the investment community have begun to screen companies such as ours for sustainability performance, including practices related to GHGs and climate change, before investing in our common units. Our efforts to improve our sustainability practices, some of which are described below, may increase our costs, and we may be forced to implement uneconomic technologies in order to improve our sustainability performance and to meet specific requirements to perform services for certain customers.
+
+RDS has publicly recognized that GHG emissions are contributing to the warming of the climate system and stated its support for the goals of the Paris Agreement. In 2017, Shell announced its “Net Carbon Footprint” ambition, and subsequently issued the Shell Energy Transition Report in 2018 and the Shell Sustainability Report in 2020, describing, among other things, Shell’s
+
+<span id="page-20-0"></span>
+approach to the energy transition and its plans to lower its overall carbon footprint through various measures. Shell is seeking cost-effective ways to manage GHG emissions in line with its “Net Carbon Footprint” ambition and intends to enable customers to make lower-carbon-intensity choices by bringing lower-carbon-intensity products to the market aligned with demand. Shell also aims to reduce the GHG intensity of its portfolio while continuing to work on improving the energy efficiency of its existing operations. Moreover, Shell has a climate change risk management structure in place, which is supported by standards, policies and controls, and actively monitors the GHG emissions of all its assets, including us, as well as the lifecycle of its products, to quantify future regulatory costs related to GHG or other climate-related policies. As a member of the RDS group of companies, we participate in and support these various measures, policies and initiatives and, as such, are evaluating the appropriate integration of these practices and procedures into our own operating framework.
+
+Waste Management and Related Liabilities. To a large extent, the environmental laws and regulations affecting our operations relate to the release of hazardous substances or solid wastes into soils, groundwater and surface water, and include measures to control pollution of the environment. These laws generally regulate the generation, storage, treatment, transportation and disposal of solid and hazardous waste. They also require corrective action, including investigation and remediation, at a facility where such waste may have been released or disposed.
+
+CERCLA. The Comprehensive Environmental Response, Compensation, and Liability Act (“CERCLA”), which is also known as Superfund, and comparable state laws impose liability, without regard to fault or to the legality of the original conduct, on certain classes of persons that contributed to the release of a “hazardous substance” into the environment. These persons include the former and present owner or operator of the site where the release occurred and the transporters and generators of the hazardous substances found at the site.
+
+Under CERCLA, these persons may be subject to joint and several liability for the costs of cleaning up the hazardous substances that have been released into the environment, for damages to natural resources and for the costs of certain health studies. CERCLA also authorizes the EPA and, in some instances, third parties to act in response to threats to the public health or the environment and to seek to recover from the responsible classes of persons the costs they incur. It is not uncommon for neighboring landowners and other third parties to file claims for personal injury and property damage allegedly caused by hazardous substances or other pollutants released into the environment. In the course of our ordinary operations, we generate waste that falls within CERCLA’s definition of a “hazardous substance” and, as a result, may be jointly and severally liable under CERCLA for all or part of the costs required to clean up sites.
+
+RCRA. We also generate solid wastes, including hazardous wastes, that are subject to the requirements of the federal Resource Conservation and Recovery Act (“RCRA”) and comparable state statutes. From time to time, the EPA considers the adoption of stricter disposal standards for non-hazardous wastes. Hazardous wastes are subject to more rigorous and costly disposal requirements than are non-hazardous wastes. Any changes in the regulations could impact our maintenance capital expenditures and operating expenses. We continue to seek methods to minimize the generation of hazardous wastes in our operations.
+
+Hydrocarbon Wastes. We currently own and lease, and SPLC has in the past owned and leased, properties where hydrocarbons are being or for many years have been handled. Although we have utilized operating and disposal practices that were standard in the industry at the time, hydrocarbons or waste may have been disposed of or released on or under the properties owned or leased by us or on or under other locations where these hydrocarbons and wastes have been taken for disposal. In addition, many of these properties have been operated by third parties whose treatment and disposal or release of hydrocarbons or wastes was not under our control. These properties and hydrocarbons and wastes disposed thereon may be subject to CERCLA, RCRA and analogous state laws. Under these laws, we could be required to remove or remediate previously disposed wastes (including wastes disposed of or released by prior owners or operators), to clean up contaminated property (including contaminated groundwater) or to perform remedial operations to prevent further contamination.
+
+Environmental Indemnity. The terms of each acquisition will vary, and in some cases we may receive contractual indemnification from the prior owner or operator for some or all of the liabilities relating to such matters, and in other cases we may agree to accept some or all of such liabilities. We do not believe that the portion of any such liabilities that the Partnership may bear with respect to any such properties previously acquired by the Partnership will have a material adverse impact on our financial condition or results of operations. For example, in connection with certain of our acquisitions from Shell, Shell agreed to indemnify us for certain environmental liabilities arising before the closing date, subject to customary deductibles and caps.
+
+SPLC’s indemnification of us for breaches of representations or warranties relating to environmental matters in connection with our Initial Public Offering (“IPO”) terminated and expired on November 3, 2017.
+
+<span id="page-21-0"></span>
+Water. Our operations can result in the discharge of pollutants, including crude oil and refined products. Regulations under the Water Pollution Control Act of 1972 (“Clean Water Act”), Oil Pollution Act of 1990 (“OPA-90”) and state laws impose regulatory burdens on our operations. Spill prevention control and countermeasure requirements of federal laws and some state laws require containment to mitigate or prevent contamination of navigable waters in the event of an oil overflow, rupture or leak. For example, the Clean Water Act requires us to maintain Spill Prevention Control and Countermeasure (“SPCC”) plans at many of our facilities. We maintain numerous discharge permits as required under the National Pollutant Discharge Elimination System program of the Clean Water Act and have implemented tracking systems to oversee our compliance efforts. In addition, the Clean Water Act and analogous state laws require individual permits or coverage under general permits for discharges of storm water runoff from certain types of facilities. We believe we are in substantial compliance with applicable storm water permitting requirements.
+
+In addition, the transportation and storage of crude oil and refined products over and adjacent to water involves risk and subjects us to the provisions of OPA-90 and related state requirements. Among other requirements, OPA-90 requires the owner or operator of a tank vessel or a facility to maintain an emergency plan to respond to releases of oil or hazardous substances. Also, in case of any such release, OPA-90 requires the responsible company to pay resulting removal costs and damages. OPA-90 also provides for civil penalties and imposes criminal sanctions for violations of its provisions. We operate facilities at which releases of oil and hazardous substances could occur. We have implemented emergency oil response plans for all of our components and facilities covered by OPA-90, and we have established SPCC plans for facilities subject to Clean Water Act SPCC requirements.
+
+Construction or maintenance of our pipelines, tank farms and storage facilities may impact wetlands, which are also regulated under the Clean Water Act by the EPA and the U.S. Army Corps of Engineers. Regulatory requirements governing wetlands (including associated mitigation projects) may result in the delay of our pipeline projects while we obtain necessary permits and may increase the cost of new projects and maintenance activities. In 2014, the EPA and the U.S. Army Corps of Engineers published proposed regulations that expand the surface waters that are regulated under the federal Clean Water Act and its various programs. While these regulations were finalized largely as proposed in 2015, the rule was stayed by the courts pending a substantive decision on the merits. In October 2019, the EPA and the U.S. Army Corps of Engineers issued a final rule that repealed the 2015 regulations and reinstated the agencies’ narrower pre-2015 scope of federal Clean Water Act jurisdiction. In April 2020, the EPA and the U.S. Army Corps of Engineers issued a new final “waters of the United States” (“WOTUS”) definition that continues to provide a narrower scope of federal Clean Water Act jurisdiction than contemplated under the 2015 WOTUS definition, while also providing for greater predictability and consistency of federal Clean Water Act jurisdiction. Judicial challenges to the EPA’s October 2019 and April 2020 final rules are currently before multiple federal district courts. If the rules are vacated and the 2015 rule is ultimately implemented, the expansion of Clean Water Act jurisdiction will result in additional costs of compliance, as well as increased monitoring, recordkeeping and recording for some of our facilities.
+
+In an April 15, 2020 ruling, amended May 11, 2020, the U.S. District Court for the District of Montana issued an order invalidating the U.S. Army Corps of Engineers (the “Corps”) 2017 reissuance of Nationwide Permit 12 (“NWP 12”), the general permit governing dredge-and-fill activities for pipeline and other utility line construction projects, to the extent it was used to authorize construction of new oil and gas pipelines. Environmental groups had alleged that the Corps failed to consult with federal wildlife agencies as required by the Endangered Species Act. The court’s decision vacated NWP 12 until the Corps completes consultation with the applicable federal wildlife agencies. On July 6, 2020, the U.S. Supreme Court granted in part and denied in part the Corps’ request to stay the U.S. District Court’s decision. The Supreme Court’s decision allows the use of NWP 12 as to construction of new oil and gas pipelines, pending the outcome of the appeal to the U.S. Court of Appeals for the Ninth Circuit and any subsequent petition for review to the U.S. Supreme Court. In addition, in January 2021, the EPA and the Corps issued a final rule reissuing and restricting NWP 12 to oil and gas pipelines. However, the NWP rulemaking is among the agency actions listed for review in accordance with the January 20, 2021 Executive Order: “Protecting Public Health and the Environment and Restoring Science to Tackle the Climate Crisis.” Limitations on the use of NWP 12 may make it more difficult to permit our projects and could cause us to lose potential and current customers and limit our growth and revenue.
+
+Workplace Safety. We are subject to the requirements of the Occupational Safety and Health Act (“OSHA”) and comparable state statutes that regulate the protection of the health and safety of workers. In addition, the OSHA hazard communication standard requires that information be maintained about hazardous materials used or produced in operations and that this information be provided to workers, state and local government authorities and citizens. We believe that our operations are in substantial compliance with OSHA requirements, including general industry standards, record keeping requirements and monitoring of occupational exposure to regulated substances.
+
+Endangered Species Act. The Endangered Species Act restricts activities that may affect endangered species or their habitats. While some of our facilities are in areas that may be designated as habitats for endangered species, we believe that we are in
+
+<span id="page-22-0"></span>
+substantial compliance with the Endangered Species Act. If endangered species are located in areas of the underlying properties where we wish to conduct development activities, such work could be prohibited or delayed or expensive mitigation may be required. In addition, the designation of new endangered species could cause us to incur additional costs or become subject to operating or development restrictions or bans in the affected area.
+
+## Inflation
+
+Inflation did not have a material impact on our results of operations in 2020.
+
+## Seasonality
+
+The volume of crude oil and refined products transported and stored utilizing our assets is directly affected by the level of supply and demand for crude oil and refined products in the markets served directly or indirectly by our assets. Additionally, producer turnarounds are often planned for certain periods during the year based on optimal, and in some cases, required weather and working conditions.
+
+## Title to Properties and Permits
+
+Substantially all of our pipelines are constructed on rights-of-way granted by the apparent record owners of the property and, in some instances, these rights-of-way are revocable at the election of the grantor. In many instances, lands over which rights-of-way have been obtained are subject to prior liens that have not been subordinated to the right-of-way grants. We have obtained permits from public authorities to cross over or under, or to lay facilities in or along, watercourses, county roads, municipal streets and state highways and, in some instances, these permits are revocable at the election of the grantor. We have also obtained permits from railroad companies to cross over or under lands or rights-of-way, many of which are also revocable at the grantor’s election. In some states and under some circumstances, we have the right of eminent domain to acquire rights-of-way and lands necessary for our common carrier pipelines.
+
+## Future Financial Assurance
+
+In July 2016, BOEM issued Notice to Lessees and Operators 2016 NOI (“NTL”) that augmented requirements above current levels for the posting of additional financial assurance by offshore lessees, among others, to assure that sufficient funds are available to perform decommissioning obligations with respect to platforms, pipelines and other facilities. In June 2017, BOEM announced that it would extend the NTL implementation timeline beyond the initial June 30, 2017 deadline, except in circumstances where there is a substantial risk of non-performance of decommissioning obligations, citing that more time was needed to work with the industry and other interested parties. In February 2017, BOEM announced that it would withdraw the orders to allow time for the Trump Administration to review BOEM’s financial assurance program. In October 2020, BOEM published a proposed rulemaking to clarify and simplify its financial assurance requirements. The issuance of a final rule is uncertain under the Biden Administration.
+
+## Insurance
+
+All assets in which we have an interest are insured for certain property damage, business interruption and third-party liabilities, inclusive of certain cyber events and pollution liabilities, in amounts which management believes are reasonable and appropriate. With the exception of Odyssey, our consolidated assets are insured at the entity level. For Odyssey, as well as our other non-consolidated interests in joint ventures, we carry commercial insurance for our pro rata interests.
+
+## Employees
+
+We do not have any employees. We are managed and operated by the directors and officers of our general partner, who, along with RDS, guide human capital management initiatives. See Part III, Item 10. Directors, Executive Of icers and Corporate Governance — Management of Shell Midstream Partners, L.P. in this report.
+
+## Control Center Operations
+
+Zydeco, Mattox, Amberjack, Mars, Odyssey, Bengal’s pipeline, Auger, Lockport, Delta, Na Kika, Proteus, Endymion, Cleopatra, Refinery Gas Pipeline and our terminals are operated by SPLC or our general partner pursuant to operating and maintenance agreements. The pipeline, storage and terminal systems that are operated by SPLC are controlled from a central control room located in Houston, Texas. The Operating Company, on behalf of Triton, engaged SPLC to operate the Norco Assets pursuant to an operating agreement, and such assets are operated by SPLC through the provision of services by employees assigned by SOPUS and located at the facilities under the terms of an employee assignment and services level agreement between SOPUS and SPLC. Colonial Pipeline Company operates its pipeline system and Bengal’s tankage in a similar manner and has its own management team based in Alpharetta, Georgia. Explorer operates its pipeline system in a
+
+<span id="page-23-0"></span>
+similar manner and has its own management team and control center operations in Tulsa, Oklahoma. Poseidon is operated by Manta Ray Gathering Company, LLC, LOCAP is operated by LOOP LLC and Permian Basin is operated by CPB Operator LLC.
+
+## Website
+
+Our Internet website address is http://www.shellmidstreampartners.com. Information contained on our Internet website is not part of this report. Our annual reports on Form 10-K, quarterly reports on Form 10-Q and current reports on Form 8-K, as well as any amendments and exhibits to these reports, filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), are available on our website, free of charge, as soon as reasonably practicable after such reports are filed with, or furnished to, the U.S. Securities and Exchange Commission. Alternatively, you may access these reports at the SEC’s website at http://www.sec.gov. We also post our beneficial ownership reports filed by officers, directors and principal security holders under Section 16(a) of the Exchange Act, corporate governance guidelines, audit committee charter, code of business ethics and conduct, code of ethics for senior financial officers and information on how to communicate directly with our board of directors on our website.
+
+## Item 1A. RISK FACTORS
+
+Limited partner interests are inherently dif erent from the capital stock of a corporation, although many of the business risks to which we are subject are similar to those that would be faced by a corporation engaged in a similar business. If any of the following risks actually occur, they may materially harm our business and our financial condition and results of operations. In this event, we might not be able to pay distributions on our common units, and the trading price of our common units could decline.
+
+## Summary of Risk Factors
+
+Our business involves certain risks and uncertainties. The following is a description of significant risks that might cause our future financial condition or results of operations to differ materially from those expected. In addition to the risks and uncertainties described below, we may face other risks and uncertainties, some of which may be unknown to us and some of which we may deem immaterial. If one or more of these risks or uncertainties occur, our business, financial condition or results of operations may be materially and adversely affected. A summary of our risk factors is as follows:
+
+• The COVID-19 pandemic, coupled with other current pressures on oil and gas prices, could adversely affect our business and results of operations.
+
+If the changes in market conditions resulting from the COVID-19 pandemic and consequential decreases in demand for and prices of crude oil and refined products continue, such conditions could trigger impairments in our property, plant and equipment and equity method and other investments.
+
+Our operations are subject to many risks and operational hazards. If a significant accident or event occurs that results in a business interruption or shutdown for which we are not adequately insured, our operations and financial results could be materially and adversely affected.
+
+If third-party pipelines, production platforms, refineries, caverns and other facilities interconnected to our pipelines, Triton’s refined product terminal and Lockport’s terminal facilities become unavailable to transport, produce, refine or store crude oil, or produce or transport refined products, our net income and cash available for distribution (“CAFD”) could be adversely affected.
+
+Any significant decrease in production of crude oil in areas in which we operate could reduce the volumes of crude oil we transport and store, which could adversely affect our net income and CAFD.
+
+Any significant decrease in the demand for crude oil, refined products and refinery gas could reduce the volumes of crude oil, refined products and refinery gas that we transport, which could adversely affect our net income and CAFD.
+
+We are subject to pipeline safety laws and regulations, compliance with which may require significant capital expenditures, increase our cost of operations and affect or limit our business plans.
+
+Compliance with and changes in environmental laws and regulations, including proposed climate change laws and regulations, could adversely affect our performance. Our customers are also subject to environmental laws and regulations, and any changes in these laws and regulations, including laws and regulations related to hydraulic fracturing, could result in significant added costs to comply with such requirements and delays or curtailment in pursuing production activities, which could reduce demand for our services.
+
+We may not have sufficient CAFD following the establishment of cash reserves and payment of fees and expenses, including cost reimbursements to our general partner and its affiliates, to enable us to pay distributions to our unitholders.
+
+We do not control certain of the entities that own our assets.
+
+<span id="page-24-0"></span>
+If we are unable to make acquisitions on economically acceptable terms from Shell or third parties, our future growth would be limited, and any acquisitions we may make could reduce, rather than increase, our cash flows and ability to make distributions to unitholders.
+
+• Our pipeline loss allowance exposes us to commodity risk.
+
+The lack of diversification of our assets and geographic locations could adversely affect our ability to make cash distributions to our unitholders. Our ability to renew or replace our third-party contract portfolio on comparable terms could materially adversely affect our business, financial condition, results of operations and cash flows, including our ability to make distributions.
+
+We are exposed to the credit risks, and certain other risks, of our customers, and any material nonpayment or nonperformance by our customers could reduce our ability to make distributions to our unitholders.
+
+If we are unable to obtain needed capital or financing on satisfactory terms to fund expansions of our asset base, our ability to make or increase quarterly cash distributions may be diminished or our financial leverage could increase. Other than our credit facilities, we do not have any contractual commitments with any of our affiliates to provide any direct or indirect financial assistance to us.
+
+We rely heavily on information technology systems for our operations, and a cyber-incident involving such systems could result in information theft, data corruption, operational disruption and/or financial loss.
+
+Terrorist or cyber-attacks and threats, or escalation of military activity in response to these attacks, could have a material adverse effect on our business, financial condition or results of operations.
+
+Our general partner and its affiliates, including Shell, have conflicts of interest with us and limited duties to us and our unitholders, and they may favor their own interests to the detriment of us and our unitholders. Additionally, we have no control over the business decisions and operations of Shell, and it is under no obligation to adopt a business strategy that favors us.
+
+• Our Partnership Agreement requires that we distribute all of our available cash, which could limit our ability to grow and make acquisitions.
+
+The fees and reimbursements due to our general partner and its affiliates, including SPLC, for services provided to us or on our behalf will reduce our CAFD. In certain cases, the amount and timing of such reimbursements will be determined by our general partner and its affiliates, including SPLC.
+
+Our Partnership Agreement replaces fiduciary duties applicable to a corporation with contractual duties and restricts the remedies available to holders of our common units for actions taken by our general partner that might otherwise constitute breaches of fiduciary duty.
+
+Our Series A Preferred Units have rights, preferences and privileges that are not held by, and are preferential to the rights of, holders of our common units.
+
+Holders of our common units have limited voting rights and are not entitled to elect our general partner or its directors.
+
+Our tax treatment depends on our status as a partnership for federal income tax purposes. If the Internal Revenue Service (“IRS”) were to treat us as a corporation for federal income tax purposes, which would subject us to entity-level taxation, or if we were otherwise subjected to a material amount of additional entity-level taxation, then our CAFD would be substantially reduced.
+
+• Our unitholders are required to pay income taxes on their share of our taxable income even if they do not receive any cash distributions from us.
+
+## Operational Risks
+
+## The COVID-19 pandemic, coupled with other current pressures on oil and gas prices, could adversely af ect our business and results of operations.
+
+During December 2019, a novel strain of coronavirus referred to as COVID-19 was reported to have surfaced in Wuhan, China and quickly spread to Italy, Iran, South Korea, the United States and other countries during the first quarter of 2020. On March 11, 2020, COVID-19 was officially declared a pandemic by the World Health Organization. In an effort to halt the outbreak, governments worldwide have placed significant restrictions on both domestic and international travel and have taken action to restrict the movement of people and suspend some business operations, ranging from targeted restrictions to full national lockdowns. The pandemic and resulting governmental responses have caused a significant slowdown in the global economy and financial markets. Concerns regarding increasing infection rates as countries and states move forward with reopening their economies has resulted in renewed lockdowns and other restrictions being imposed or a general slowdown of the reopening process in some of the affected areas and could be imposed in or affect other areas, which could lead to further economic instability and decreased demand for crude oil, refined products or refinery gas. The extent to which the COVID-19 pandemic and resulting governmental response may continue to impact our business and results of operations will depend on future developments that are highly uncertain and cannot be accurately predicted, including new information that may emerge concerning the disease (including the discovery of strains that are more transmissible or virulent), the efficacy and distribution
+
+<span id="page-25-0"></span>
+of available vaccines, evolving governmental and private sector actions to contain the pandemic or treat its health, economic and other impacts and factors.
+
+For example, the COVID-19 pandemic could adversely impact our business operations or the health of our workforce by rendering employees or contractors unable to work or unable to access our facilities due to health or regulatory reasons. While the operations and maintenance of our facilities are not covered by stay-at-home and similar orders because they generally constitute essential business excepted from such orders, we continue to closely monitor developments. Most of our office-based employees continue to be subject to stay-at-home or similar orders or Shell worksite policies adopted in response to the COVID-19 pandemic, such that this part of our workforce is largely working from home globally. If the impact of the COVID-19 pandemic continues, we could see a reduction or delay in our operational spending and capital expenditures due to our inability to execute projects and workforce limitations.
+
+Moreover, in March 2020, oil prices declined significantly due to potential increases in supply emanating from a disagreement on production cuts among members of the Organization of the Petroleum Exporting Countries (“OPEC”) and certain non- OPEC, oil-producing countries. On April 9, 2020, these countries announced supply cuts, which were extended through the end of July 2020, but such cuts have thus far been insufficient to counter all of the demand destruction in the oil and gas markets caused by the effects of COVID-19. After increasing supply through the summer of 2020, certain OPEC members announced production cuts in October 2020, potentially signaling continued pressure on demand. In January 2021, OPEC and certain other non-OPEC, oil-producing countries agreed to forgo any supply increases in February and March 2021 in response to continuing demand constraints in the oil and gas markets caused by renewed lockdowns and other global measures to curtail the rise of COVID-19 infections. The significant decline in worldwide demand for oil and gas resulting from the COVID-19 pandemic and its effects have resulted in dramatically decreased oil and gas prices, which could have substantial negative implications for our transportation revenue, allowance oil revenue and other sources of revenue related to or underpinned by commodity prices. As a result, these factors could have a material adverse effect on our results of operations, financial condition or cash flows, including our ability to make cash distributions to our unitholders. At this point, we cannot accurately predict what effects current market conditions due to the COVID-19 pandemic will have on our business, which will depend on, among other factors, the duration of the continued outbreak and the effects of new viral strains, the extent of increased infection rates in
+
+response to economic re-openings, the efficacy and timely distributions of available vaccines and the extent and overall economic effects of the continuing governmental response to the pandemic, including any lockdowns, other restrictions or a general slowdown of the reopening process in the affected areas.
+
+## If the changes in market conditions resulting from the COVID-19 pandemic and consequential decreases in demand for and
+
+prices of crude oil and refined products continue, such conditions could trigger impairments in our property, plant and equipment and equity method and other investments.
+
+During the first quarter of 2020 and continuing through the end of the year, the COVID-19 pandemic caused significant changes in the macroeconomic outlook, continued depression of commodity prices and a sustained decrease in the market price of our common units, which led us to evaluate our asset balances for impairment triggering events during the year ended December 31, 2020. We assess our equity method investments for impairment whenever changes in the facts and circumstances indicate a loss in value has occurred, if the loss is deemed to be other-than-temporary. When the loss is deemed to be other-than-temporary, the carrying value of the equity method investment is written down to fair value. We remeasure our other investments either upon the occurrence of an observable price change or upon identification of impairment.
+
+We evaluate long-lived assets of identifiable business activities, including property, plant and equipment, for impairment when events or changes in circumstances indicate, in our management’s judgment, that the carrying value of such assets may not be recoverable. These events include significant changes or projected changes in the supply and demand fundamentals of oil, natural gas, refinery gas or refined products, new technological developments, new competitors, general materially adverse changes in the U.S. and global economies and major governmental actions. If any such event occurs, which is a determination that involves judgment, we perform an impairment assessment by comparing estimated undiscounted future cash flows associated with the asset to the asset’s net book value. If the net book value exceeds our estimate of undiscounted future cash flows, an impairment is calculated as the amount the net book value exceeds the estimated fair value associated with the asset. Based on these updated evaluations, we determined that there is no impairment in property, plant and equipment, and equity method and other investments for 2020. See Note 5 — Equity Method Investments and Note 6 — Property, Plant and Equipment in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for further discussion. However, if current market conditions persist for an extended period of time, we could incur impairment charges in the future.
+
+Our operations are subject to many risks and operational hazards. If a significant accident or event occurs that results in a business interruption or shutdown for which we are not adequately insured, our operations and financial results could be materially and adversely af ected.
+
+<span id="page-26-0"></span>
+Our operations are subject to all of the risks and operational hazards inherent in transporting and storing crude oil and refined products, including:
+
+damages to pipelines, facilities, offshore pipeline equipment and surrounding properties caused by third parties, severe weather, natural disasters, including hurricanes and acts of terrorism;
+
+maintenance, repairs, mechanical or structural failures at our or SPLC’s facilities or at third-party facilities on which our customers’ or our operations are dependent, including electrical shortages, power disruptions, power grid failures and planned turnarounds;
+
+damages to, loss of availability of and delays in gaining access to interconnecting third-party pipelines, terminals and other means of delivering crude oil, refined products and refinery gas;
+
+costs and liabilities in responding to any soil and groundwater contamination that occurs on our terminal properties, even if the contamination was caused by prior owners and operators of our terminal system;
+
+disruption or failure of information technology systems and network infrastructure due to various causes, including unauthorized access or attack of the central control room from which some of our pipelines are remotely controlled;
+
+• leaks of crude oil or refined products as a result of the malfunction or age of equipment or facilities;
+
+unexpected business interruptions;
+
+• curtailments of operations due to severe seasonal weather;
+
+temporary or extended reductions in the availability of our workforce due to the health or resulting regulatory effects of a pandemic or other health crises, such as the current COVID-19 pandemic; and
+
+riots, strikes, lockouts or other industrial disturbances.
+
+These risks could result in substantial losses due to personal injury and/or loss of life, severe damage to and destruction of property and equipment and pollution or other environmental damage, as well as business interruptions or shutdowns of our facilities. Any such event or unplanned shutdown could have a material adverse effect on our business, financial condition and results of operations.
+
+If third-party pipelines, production platforms, refineries, caverns and other facilities interconnected to our pipelines, Triton’s refined product terminal, Lockport’s terminal facilities or Triton's logistics assets at the Shell Norco Manufacturing Complex become unavailable to transport, produce, refine or store crude oil, or produce or transport refined products, our revenue and available cash could be adversely af ected.
+
+We depend upon third-party pipelines, production platforms, refineries, caverns and other facilities that provide delivery options to and from our pipelines, terminal facilities and other assets. For example, Mars depends on a natural gas supply pipeline connecting to the West Delta 143 platform to power its equipment to deliver the volumes it transports to salt dome caverns in Clovelly, Louisiana. Similarly, shutdown or blockage of pipelines moving offshore gas can result in curtailment or shut-in of offshore crude production. Because we do not own these third-party pipelines, production platforms, refineries, caverns or facilities, their continuing operation is not within our control. For example, production platforms in the offshore Gulf of Mexico may be required to be shut-in by BSEE or BOEM of the U.S. Department of the Interior following incidents such as loss of well control. Additionally, due to continued macroenvironmental factors of depressed demand (due to the effects of the COVID-19 pandemic, resulting governmental response and other factors) and oversupply (due to sustained production cuts by OPEC and non-OPEC, oil-producing countries that have been insufficient to fully counter the demand destruction of COVID-19 and other factors), certain pipelines and storage facilities may approach or reach maximum capacity, causing producers to shut-in production. If these or any other pipeline or terminal connection were to become unavailable for current or future volumes of crude oil or refined products due to repairs, damage to the facility, lack of capacity, shut-in by regulators or any other reason, or if caverns to which we connect have cracks, leaks or leaching or require shut-in due to regulatory action or changes in law, our ability to operate efficiently and continue to store or ship crude oil and refined products to major demand centers could be restricted, thereby reducing revenue. Disruptions at refineries that use our pipelines, such as strikes or ship channel incidents, can also have an adverse impact on the volume of products we ship. Increases in the rates charged by the interconnected pipelines for transportation to and from our terminal facilities may reduce the utilization of our terminals. Our refined products terminals are limited to a 5% reduction in payments by the customer due to force majeure incidents. However, our customers and other counterparties may have other contractual defenses to performance available to them, including the doctrine of impossibility, impracticability of performance, frustration of performance and others, the use and success of which we cannot predict. Any temporary or permanent interruption at any key pipeline or terminal interconnect, at any key production platform or refinery, at caverns to which we deliver, termination of any connection agreement or adverse change in the terms and conditions of service, could have a material adverse effect on our business, results of operations, financial condition or cash flows, including our ability to make cash distributions to our unitholders.
+
+<span id="page-27-0"></span>
+During 2020, certain connected producers had planned turnarounds. The impact to net income and CAFD was approximately \$15 million for the year ended December 31, 2020. Further, we anticipate an impact of approximately \$10 million to net income and CAFD from planned turnaround activity in 2021.
+
+Any significant decrease in production of crude oil in areas in which we operate could reduce the volumes of crude oil we transport and store, which could adversely af ect our revenue and available cash.
+
+Our crude oil pipelines and terminal system depend on the continued availability of crude oil production and reserves, particularly in the Gulf of Mexico. Low prices for crude oil could adversely affect development of additional reserves and continued production from existing reserves that are accessible by our assets.
+
+Crude oil prices have fluctuated significantly over the past few years, often with drastic moves in relatively short periods of time. During 2020, prices decreased significantly from 2019 levels due to the volatile negotiations among OPEC member and non-member countries regarding agreed production levels and the resulting production cuts agreed upon by such countries in April 2020 (and extended through the end of July 2020) have thus far been insufficient to counter the continuing effects of the COVID-19 pandemic. Moreover, certain OPEC members announced production cuts in October 2020, potentially signaling continued pressure on demand. In January 2021, OPEC and certain other non-OPEC, oil-producing countries agreed to forgo any supply increases in February and March 2021 in response to continuing demand constraints in the oil and gas markets caused by renewed lockdowns and other global measures to curtail the rise of COVID-19 infections. The continuing effects of the COVID-19 pandemic and the resulting governmental responses worldwide have led to unprecedented demand destruction in the crude and finished products markets. These ongoing events and other current global geopolitical and economic uncertainty may contribute to further future volatility in financial and commodity markets in the near to medium term. High, low and average daily prices for West Texas Intermediate (“WTI”) crude oil at Cushing, Oklahoma during January 2021, 2020 and 2019 were as follows:
+
+WTI Crude Oil Prices
+![](tables/table_pg27_num0.csv)
+
+In general terms, the prices of crude oil and other hydrocarbon products fluctuate in response to changes in supply and demand, market uncertainty and a variety of additional factors that are beyond our control. These factors impacting crude oil prices include worldwide economic conditions (such as the continuing COVID-19 pandemic and its effects, including the response of various governments to the pandemic); weather conditions and seasonal trends; the levels of domestic production and consumer demand; the availability of imported crude oil; the availability of transportation systems with adequate capacity; the volatility and uncertainty of regional basis differentials and premiums; actions by OPEC and other oil-producing nations; the price and availability of alternative energy, including alternative energy which may benefit from government subsidies; the effect of energy conservation measures; the strength of the U.S. dollar; the nature and extent of governmental regulation and taxation; and the anticipated future prices of crude oil and other commodities.
+
+Lower crude oil prices, or expectations of declines in crude oil prices, such as the price signaling suggested by the production cuts by certain OPEC member countries in October 2020 and the agreement among OPEC and non-OPEC, oil-producing countries in January 2021 to hold production at steady levels for February and March 2021 have had and may continue to have a negative impact on exploration, development and production activity, particularly in the continental United States. If lower prices are sustained, it could lead to a material decrease in such activity both in the onshore continental United States and in the Gulf of Mexico. Sustained reductions in exploration or production activity in our areas of operation could lead to reduced utilization of our pipeline and terminal systems or reduced rates under renegotiated transportation or storage agreements. Our customers may also face liquidity and credit issues that could impair their ability to meet their payment obligations under our contracts or cause them to renegotiate existing contracts at lower rates or for shorter terms. These conditions may lead some of our customers, particularly customers that are facing financial difficulties, to seek to renegotiate existing contracts on terms that are less attractive to us. Any such reduction in demand or less attractive terms could have a material adverse effect on our results of operations, financial position and ability to make or increase cash distributions to our unitholders.
+
+In addition, production from existing areas with access to our pipeline and terminal systems will naturally decline over time. The amount of crude oil reserves underlying wells in these areas may also be less than anticipated, and the rate at which production from these reserves declines may be greater than anticipated. Accordingly, to maintain or increase the volume of crude oil transported, or throughput, on our pipelines, or stored in our terminal system, and cash flows associated with the
+
+<span id="page-28-0"></span>
+transportation and storage of crude oil, our customers must continually obtain new supplies of crude oil. In addition, we will not generate revenue under our life-of-lease transportation agreements that do not include a guaranteed return to the extent that production in the area we serve declines or is shut-in.
+
+If new supplies of crude oil are not obtained, including supplies to replace any decline in volumes from our existing areas of operations, the overall volume of crude oil transported or stored on our systems would decline, which could have a material adverse effect on our business, results of operations, financial condition or cash flows, including our ability to make cash distributions to our unitholders.
+
+Any significant decrease in the demand for crude oil, refined products and refinery gas could reduce the volumes of crude oil, refined products and refinery gas that we transport, which could adversely af ect our revenue and available cash.
+
+The volumes of crude oil, refined products and refinery gas that we transport depend on the supply of and demand for crude oil, gasoline, jet fuel, refinery gas and other refined products in our geographic areas. Demand for crude oil, refined products and refinery gas may decline in the areas we serve as a result of decreased production by our customers, depressed commodity price environment, increased competition and adverse economic factors affecting the exploration, production and refining industries. Further, crude oil, refined products and refinery gas compete with other forms of energy available to users, including electricity, coal, other fuels and alternative energy. Increased demand for such forms of energy at the expense of crude oil, refined products and refinery gas could lead to a reduction in demand for our services.
+
+Beginning in March 2020, uncertainty resulting from the effects of the COVID-19 pandemic and resulting governmental responses and volatile negotiations regarding production levels among certain OPEC and non-OPEC, oil-producing countries led to a significant decline in demand for crude oil and refined products. Although these countries reached an agreement on supply cuts in April 2020 and October 2020, and agreed to maintain these cuts for February and March 2021, such response has been insufficient to compensate for all of the demand destruction resulting from the effects of COVID-19. Further, concerns regarding increasing infection rates as countries and states move forward with reopening their economies has resulted in renewed lockdowns and other restrictions being imposed or a general slowdown of the reopening process in some of the affected areas and could be imposed in other areas, which could lead to further economic instability and decreased demand for crude oil, refined products or refinery gas. If the demand for crude oil, refined products or refinery gas continues to significantly decrease, or if there were a material increase in the price of crude oil supplied to our customers’ refineries without an increase in the value of the products produced by those refineries, either temporary or permanent, it may cause our customers to reduce production of refined products at their refineries. If production of refined products declines, there would likely be a reduction in the volumes of crude oil and refined products that we transport. Moreover, if demand for oil and refined products further decreases substantially, certain of our pipelines and storage tanks may reach maximum capacity if these commodities and products cannot be sold into markets, which may result in a forced shut-in of certain producer sites. Any of the foregoing effects or events could have a material adverse effect on our results of operations, financial position and ability to make cash distributions to our unitholders.
+
+Our insurance policies do not cover all losses, costs or liabilities that we may experience, and insurance companies that currently insure companies in the energy industry may cease to do so or substantially increase premiums.
+
+With the exception of Odyssey, our consolidated assets are insured at the entity level for certain property damage, business interruption and third-party liabilities, which includes pollution liabilities. For Odyssey, as well as our other non-consolidated interests in joint ventures, the current owners are required to carry insurance for their pro rata interest. We carry commercial insurance for our pro rata interests, which will increase our operation and maintenance expenses.
+
+All of the insurance policies relating to our assets and operations are subject to policy limits. In addition, the waiting period under the business interruption insurance policies of the entities in which we own an interest is 60 days. We and the entities in which we own an interest do not maintain insurance coverage against all potential losses and could suffer losses for uninsurable or uninsured risks or in amounts in excess of existing insurance coverage. Over time, it has been more difficult and expensive to obtain certain types of coverage, especially as a result of increasing costs related to named storms and other natural disasters. The occurrence of an event that is not fully covered by insurance, or failure by our insurer to honor its coverage commitments for an insured event, could have a material adverse effect on our business, financial condition and results of operations. Insurance companies may reduce the insurance capacity they are willing to offer or may demand significantly higher premiums or deductibles to cover our assets. If significant changes in the number or financial solvency of insurance underwriters for the energy industry occur, we may be unable to obtain and maintain adequate insurance at a reasonable cost. There is no assurance that the insurers of the entities in which we own an interest will renew their insurance coverage on acceptable terms, if at all, or that the entities in which we own an interest will be able to arrange for adequate alternative coverage in the event of non-renewal. The unavailability of full insurance coverage to cover events in which the entities in which we own an interest suffer
+
+<span id="page-29-0"></span>
+significant losses could have a material adverse effect on our business, financial condition and results of operations, including our ability to make cash distributions to our unitholders.
+
+Our expansion of existing assets and construction of new assets may not result in revenue increases and will be subject to regulatory, environmental, political, legal and economic risks, which could adversely af ect our operations and financial condition.
+
+In order to optimize our existing asset base, we intend to expand our existing pipelines and terminals, such as by adding horsepower, pump stations, new connections or additional tank storage. We also intend to evaluate and capitalize on organic opportunities for expansion projects in order to increase revenue on our assets. If we undertake these projects, they may not be completed on schedule or at all or at the budgeted cost.
+
+These expansion projects involve numerous regulatory, environmental, political and legal uncertainties, most of which are beyond our control. Moreover, we may not receive sufficient long-term contractual commitments or spot shipments from customers to provide the revenue needed to support projects, and we may be unable to negotiate acceptable interconnection agreements with third-party pipelines to provide destinations for increased throughput. Even if we receive such commitments or spot shipments or make such interconnections, we may not realize an increase in revenue for an extended period of time. As a result, new or expanded facilities may not be able to attract enough throughput to achieve our expected investment return, which could have a material adverse effect on our business, financial condition and results of operations, including our ability to make cash distributions to our unitholders.
+
+## We do not own all of the land on which our assets are located, which could result in disruptions to our operations.
+
+We do not own all of the land on which our assets are located, and we are, therefore, subject to the possibility of more onerous terms and increased costs to retain necessary land use if we do not have valid leases or rights-of-way or if such leases or rights-of-way lapse or terminate. We obtain the rights to construct and operate our assets on land owned by third parties and governmental agencies, and some of our agreements may grant us those rights for only a specific period of time. Our loss of these or similar rights, through our inability to renew leases, right-of-way contracts or otherwise, or inability to obtain easements at reasonable costs could have a material adverse effect on our business, results of operations, financial condition and cash flows, including our ability to make cash distributions to our unitholders.
+
+## Subsidence and coastal erosion could damage our pipelines along the Gulf Coast and of shore and the facilities of our customers, which could adversely af ect our operations and financial condition.
+
+Our pipeline operations along the Gulf Coast and offshore could be impacted by subsidence and coastal erosion. Such processes could cause serious damage to our pipelines, which could affect our ability to provide transportation services. Additionally, such processes could impact our customers who operate along the Gulf Coast, and they may be unable to utilize our services. Subsidence and coastal erosion could also expose our operations to increased risks associated with severe weather conditions, such as hurricanes, flooding and rising sea levels. As a result, we may incur significant costs to repair and preserve our pipeline infrastructure. Such costs could adversely affect our business, financial condition, results of operation or cash flows, including our ability to make cash distributions to our unitholders.
+
+Our assets were constructed over many decades, which may cause our inspection, maintenance or repair costs to increase in the future. In addition, there could be service interruptions due to unknown events or conditions or increased downtime associated with our pipelines that could have a material adverse ef ect on our business and results of operations.
+
+Our pipelines and storage terminals were constructed over many decades. Pipelines and storage terminals are generally long-lived assets, and construction and coating techniques have varied over time. Depending on the era of construction, some assets will require more frequent inspections, which could result in increased maintenance or repair expenditures in the future. Any significant increase in these expenditures could adversely affect our business, results of operations, financial condition or cash flows, including our ability to make cash distributions to our unitholders.
+
+## Regulatory Risks
+
+We are subject to pipeline safety laws and regulations, compliance with which may require significant capital expenditures, increase our cost of operations and af ect or limit our business plans.
+
+Our interstate and offshore pipeline operations are subject to pipeline safety regulations administered by PHMSA of the DOT. These laws and regulations require us to comply with a significant set of requirements for the design, construction, operation, maintenance, inspection and management of our crude oil, refined products and refinery gas pipelines. Certain aspects of our offshore pipeline operations, such as new construction and modification, are also regulated by BOEM, BSEE and the U.S.
+
+<span id="page-30-0"></span>
+Coast Guard. PHMSA has adopted regulations requiring pipeline operators to develop integrity management programs for transportation pipelines, with enhanced measures required for pipelines located where a leak or rupture could harm an HCA. The regulations require operators to:
+
+• perform ongoing assessments of pipeline integrity;
+
+identify and characterize applicable threats to pipeline segments that could affect an HCA;
+
+improve data collection, integration and analysis;
+
+repair and remediate the pipeline as necessary; and
+
+• implement preventive and mitigating actions.
+
+In addition, states have adopted regulations similar to existing PHMSA regulations for intrastate pipelines. For example, our intrastate pipelines in Louisiana are subject to pipeline safety regulations, including integrity management regulations administered by the Office of Conservation of the Louisiana Department of Natural Resources.
+
+At this time, we cannot predict the ultimate cost of compliance with applicable pipeline integrity management regulations, as the cost will vary significantly depending on the number and extent of any repairs found to be necessary as a result of the pipeline integrity testing. We will continue our pipeline integrity testing programs to assess and maintain the integrity of our pipelines. The results of these tests could cause us to incur significant and unanticipated capital and operating expenditures for repairs or upgrades deemed necessary to ensure the continued safe and reliable operation of our pipelines. In addition, our actual implementation costs may be affected by industry-wide demand for the associated contractors and service providers. Additionally, should any of our assets fail to comply with PHMSA regulations, they could be subject to shutdown, pressure reductions, penalties and fines. Changes to pipeline safety laws and regulations that result in more stringent or costly safety standards could have a significant adverse effect on us and similarly situated midstream operators. For example, on July 1, 2020, two new final PHMSA rules became effective. The rules impose several new requirements on operators of onshore gas transmission systems and hazardous liquids pipelines. These rules and any new rule proposals could require us to install new or modified safety controls, pursue additional capital projects or conduct maintenance programs on an accelerated basis. Any of these tasks could result in incurring increased operating costs that could be significant and have a material adverse effect on our operations or financial position.
+
+In this climate of increasingly stringent regulation, pipeline failures or failures to comply with applicable regulations could result in shutdowns, capacity constraints or operational limitations to our pipelines. Should any of these risks materialize, it could have a material adverse effect on our business, results of operations, financial condition and ability to make cash distributions to our unitholders.
+
+Compliance with and changes in environmental laws and regulations, including proposed climate change laws and regulations, could adversely af ect our performance. Our customers are also subject to environmental laws and regulations, and any changes in these laws and regulations, including laws and regulations related to hydraulic fracturing, could result in significant added costs to comply with such requirements and delays or curtailment in pursuing production activities, which could reduce demand for our services.
+
+The principal environmental risks associated with our operations are emissions into the air and releases into the soil, surface water or groundwater. Our operations are subject to extensive environmental laws and regulations, including those relating to the discharge and remediation of materials in the environment, GHG emissions, waste management, species and habitat preservation, pollution prevention, pipeline integrity and other safety-related regulations and characteristics and composition of fuels. Certain of these laws and regulations could impose obligations to conduct assessment or remediation efforts at our facilities or third-party sites where we take wastes for disposal or where our wastes migrated, or could impose strict liability on us for the conduct of third parties or for actions that complied with applicable requirements when taken, regardless of negligence or fault. Our offshore operations are also subject to laws and regulations protecting the marine environment administered by the U.S. Coast Guard and BOEM. Failure to comply with these laws and regulations could lead to administrative, civil or criminal penalties or liability and imposition of injunctions, operating restrictions or the loss of permits.
+
+Because environmental laws and regulations are becoming more stringent and new environmental laws and regulations are continuously being enacted or proposed, the level of expenditures required for environmental matters could increase in the future. Current and future legislative action and regulatory initiatives could result in changes to operating permits, material changes in operations, increased capital expenditures and operating costs, increased costs of the goods we transport and decreased demand for products we handle that cannot be assessed with certainty at this time. We may be required to make expenditures to modify operations or install pollution control equipment or release prevention and containment systems that could materially and adversely affect our business, financial condition, results of operations and liquidity if these expenditures, as with all costs, are not ultimately reflected in the tariffs and other fees we receive for our services. For example, the EPA has, in recent years, adopted final rules making more stringent the National Ambient Air Quality Standards for ozone, sulfur dioxide
+
+<span id="page-31-0"></span>
+and nitrogen dioxide. Emerging rules implementing these revised air quality standards may require us to obtain more stringent air permits and install more stringent controls at our operations, which may result in increased capital expenditures.
+
+Climate change legislation and regulations to address GHG emissions are in various phases of discussion or implementation in the United States. The outcome of federal, state and regional actions to address climate change could result in a variety of regulatory programs including potential new regulations to control or restrict emissions, taxes or other charges to deter emissions of GHGs, energy efficiency requirements or alternative energy requirements to reduce demand, or other regulatory actions. These actions could result in increased compliance and operating costs or could adversely affect demand for the crude oil and refined products that we transport. Additionally, adoption of federal, state or regional requirements mandating a reduction in GHG emissions could have far-reaching impacts on the energy industry and the U.S. economy. We cannot predict the potential impact of such laws or regulations on our future consolidated financial condition, results of operations or cash flows. Finally, some scientists have concluded that increasing concentrations of GHGs in the Earth’s atmosphere may produce climate changes that have significant physical effects, such as increased frequency and severity of storms, droughts and floods and other climatic events. If any such effects were to occur, it is uncertain if they would have an adverse effect on our financial condition and operations.
+
+Our customers are also subject to environmental laws and regulations that affect their businesses, and changes in these laws or regulations could materially adversely affect their businesses or prospects. Our crude oil pipelines serve customers who depend on production techniques, such as hydraulic fracturing, that are currently being scrutinized by federal, state and local authorities and that could be subjected to increased regulatory costs, delays or liabilities. Any changes in laws or regulations or administrative orders that impose significant costs or liabilities on our customers, or that result in delays, curtailments or cancellations of their projects, could reduce their demand for our services and materially adversely affect our business, results of operations, financial position or cash flows, including our ability to make cash distributions to our unitholders.
+
+We may be unable to obtain or renew permits necessary for our operations or for growth and expansion projects, which could inhibit our ability to do business.
+
+Our facilities operate under a number of federal and state permits, licenses and approvals with terms and conditions containing a significant number of prescriptive limits and performance standards in order to operate. In addition, we implement maintenance, growth and expansion projects as necessary to pursue business opportunities, and these projects often require similar permits, licenses and approvals. These permits, licenses, approval limits and standards require a significant amount of monitoring, record keeping and reporting in order to demonstrate compliance with the underlying permit, license, approval limit or standard. Noncompliance or incomplete documentation of our compliance status may result in the imposition of fines, penalties and injunctive relief. A decision by a government agency to deny or delay issuing a new or renewed permit or approval, or to revoke or substantially modify an existing permit or approval, could have a material adverse effect on our ability to continue operations and on our business, financial condition, results of operations and cash flows, including our ability to make cash distributions to our unitholders. For example, on January 20, 2021, the Acting Secretary for the Department of the Interior signed an order suspending new fossil fuel leasing and permitting on federal lands for 60 days, which may cover our offshore pipeline permits. Finally, our ability to secure required permits may be inhibited by increasingly stringent environmental, health and safety requirements, negative public perception or opposition from political activists through protests or other means, which could adversely affect our business, financial condition, results of operation or cash flows, including our ability to make cash distributions to our unitholders.
+
+The tarif rates and rules and regulations for service of our regulated assets, as well as our business practices for our regulated assets, are subject to review, audit and possible adjustment by federal and state regulators, which could adversely af ect our revenue and our ability to make distributions to our unitholders.
+
+We provide both interstate and intrastate transportation services for refined products and crude oil. Our interstate and intrastate pipelines are common carriers and are required to provide service to any shipper similarly situated to an existing shipper that requests transportation services on our pipelines.
+
+Zydeco, Bengal, Colonial, LOCAP, Explorer and portions of Mars provide interstate transportation services that are subject to regulation by FERC under the ICA. FERC uses prescribed rate methodologies for developing and changing regulated rates for interstate pipelines. Shippers may protest (and FERC may investigate) the lawfulness of new or changed tariff rates, or may file a complaint against existing tariff rates. FERC can suspend new or changed tariff rates, rules and regulations for up to seven months and can allow new rates to be implemented subject to refund of amounts collected in excess of the rate ultimately found to be just and reasonable. Shippers may also file complaints that existing rates are unjust and unreasonable. If FERC finds a rate to be unjust and unreasonable, it may order payment of reparations for up to two years prior to the filing of a complaint or investigation, and FERC may prescribe new rates prospectively.
+
+<span id="page-32-0"></span>
+From November 2017 through 2020, twelve separate, nearly identical complaints were filed with FERC against Colonial challenging Colonial’s tariff rates, its market power, and its practices and charges related to transmix and product volume loss. These complaints have been consolidated by FERC in Docket Nos. OR18-7-002, et al. and were set for hearing and settlement judge procedures. FERC also severed the review of Colonial’s market-based rates into a separate, concurrent hearing. On May 2, 2019, the Chief Administrative Law Judge terminated settlement judge procedures and established a procedural schedule for a hearing before an administrative law judge. The hearing took place in the latter part of 2020 and an initial decision from the administrative law judge is currently scheduled for August 2021, with a FERC decision anticipated by spring 2022. Since the consolidated complaint proceedings are ongoing, FERC has not taken any final action on the complaints and the outcome is not known at this time. If Colonial is unable to recover its full cost-ofservice as a result of the rates established in this proceeding, is no longer able to charge market-based rates or has its procedures and charges related to transmix and product volume loss modified in a way that is adverse to Colonial, it could adversely affect our financial position, results of operation and ability to make cash distributions to our unitholders.
+
+On December 22, 2017, federal legislation known as the “Tax Cuts and Jobs Act” (the “TCJA”) was enacted, which made various changes to the U.S. tax laws, including reducing the highest marginal U.S. federal corporate income tax rate from 35% to 21% for tax years beginning after December 31, 2017, adjusting the individual income tax brackets and establishing limited deductions for certain income from “pass-through” entities. In the Revised Policy Statement, FERC states that it would address the effect of the tax changes on industry-wide oil pipeline costs in the five-year review of the oil pipeline index level, which commenced in 2020. As with the corporate income tax rate reduction, FERC also has announced that it would take the MLP income tax allowance elimination into account in the next five-year review of indexed rates in 2020. Both of these factors were considered as part of the order on the five-year review that was issued on December 17, 2020, although FERC declined in that order to incorporate the effect of the income tax allowance elimination in setting the new indexing adjustment. Separately, FERC also could require oil pipelines to revise their rates in individual proceedings (including initial rate filing or complaint proceedings) or through other action. Certain of our current tariff rates on file with FERC may reflect the federal income tax rate that was in effect at the time those tariff rates were established. As with any regulatory requirements promulgated by FERC, if FERC requires us to establish new tariff rates that reflect the current federal corporate income tax rate, it is possible the rates would be reduced, which could adversely affect our financial position, results of operation and ability to make cash distributions to our unitholders.
+
+We may at any time also be required to respond to governmental requests for information, including compliance audits conducted by FERC. FERC’s Office of Enforcement concluded an audit of Colonial in Docket No. FA14-4-000 for the period from January 1, 2011 to December 31, 2014, and issued a letter order on June 17, 2015. FERC’s Office of Enforcement also concluded an audit of Explorer in Docket No. FA16-5-000 for the period from January 1, 2013 to December 31, 2016, and issued a letter order on January 12, 2018. In both cases, FERC adopted the audit’s findings and recommendations and required the submission of a compliance plan and quarterly compliance reports. Both Colonial and Explorer accepted the audit’s findings and recommendations, neither of which had a financial impact to us.
+
+State agencies may regulate the rates, terms and conditions of service for our pipelines offering intrastate transportation services, and such agencies could limit our ability to increase our rates or order us to reduce our rates and pay refunds to shippers. State agencies can also regulate whether a service may be provided or cancelled. FERC and most state agencies support light-handed regulation of common carrier pipelines and have generally not investigated the rates, terms and conditions of service of pipelines in the absence of shipper protests or complaints, and generally resolve matters informally. The LPSC has a more stringent review of rate increases, though it does allow use of FERC’s index, and may prohibit or limit future rate increases for intrastate movements regulated by Louisiana.
+
+Under our agreements with certain of our customers, we and the customer have agreed to base tariff rates for some of our pipelines, and our customers have agreed not to challenge the base tariff rates or changes to those rates during the term of the agreements, subject to certain exceptions. Some of these agreements and the underlying rates have been approved by FERC under a declaratory order. These agreements do not, however, prevent any other new or prospective shipper, FERC or a state agency from challenging our tariff rates or our terms and conditions of service on rates or services not covered by these agreements.
+
+Further, rate investigations by FERC or a state commission could result in an investigation of our costs, including the:
+
+overall cost of service, including operating costs and overhead;
+
+allocation of overhead and other administrative and general expenses to the regulated entity;
+
+appropriate capital structure to be utilized in calculating rates;
+
+appropriate rate of return on equity and interest rates on debt;
+
+<span id="page-33-0"></span>
+• rate base, including the proper starting rate base;
+
+• throughput underlying the rate; and
+
+proper allowance for federal and state income taxes.
+
+Shippers can always file a complaint with FERC or a state agency challenging rates or conditions of services. If they were successful, FERC or the state agency could order reparations. A successful challenge of any of our rates, or any changes to FERC’s approved rate or index methodologies, could adversely affect our revenue and our ability to make distributions to our unitholders. Similarly, if state agencies in the states in which we offer intrastate transportation services change their policies or aggressively regulate our rates or terms and conditions of service, it could also adversely affect our revenues, including our ability to make cash distributions to our unitholders.
+
+## We may need to implement new internal controls or modify existing ones due to the COVID-19 pandemic, which could impact the reliability and timeliness of our consolidated financial statements.
+
+Effective internal control over financial processes and reporting are necessary for us to provide reliable financial reports that prevent fraud and operate successfully. Due to the COVID-19 pandemic, we may experience issues in our control processes associated with business or facility closures, or individuals may be unable to effectively perform certain control duties due to illness or absence, and as a result we may not be able to effectually complete our financial reporting process and prepare consolidated financial statements on a timely basis. Additionally, remote working arrangements may make the performance of certain control-related duties more difficult. If our existing controls cannot be performed in an effective or timely manner, we may need to identify alternative controls to compensate for or replace such controls to prevent any deficiencies in our internal controls environment.
+
+## Risks Related to the Structure of Our Business
+
+We may not have suf icient CAFD following the establishment of cash reserves and payment of fees and expenses, including cost reimbursements to our general partner and its af iliates, to enable us to pay distributions to our unitholders.
+
+We may not generate sufficient cash flows each quarter to enable us to pay distributions to our unitholders. The amount of cash we can distribute on our units principally depends upon the amount of cash we generate from our operations, which will fluctuate from quarter to quarter based on, among other things, our throughput volumes, tariff rates and fees and prevailing economic conditions. In addition, the actual amount of cash flows we generate will also depend on other factors, some of which are beyond our control, including:
+
+• the amount of our operating expenses and general and administrative expenses, including reimbursements to SPLC with respect to those expenses;
+
+the volume of crude oil, refined products and refinery gas that we transport and the ability of our customers to meet their obligations under our contracts;
+
+• actions by FERC or other regulatory bodies that reduce our rates or increase expenses;
+
+• the amount and timing of expansion capital expenditures and acquisitions we make;
+
+• the amount of maintenance capital expenditures we make;
+
+• our debt service requirements and other liabilities, and restrictions contained in our debt agreements;
+
+• fluctuations in our working capital needs;
+
+• the amount of cash distributed to us by the entities in which we own a noncontrolling interest;
+
+• the amount of cash reserves established by our general partner; and
+
+• changes in, and availability to us, of the equity and debt capital markets.
+
+## We do not control certain of the entities that own our assets.
+
+We have no significant assets other than our ownership interests in entities that own crude oil, refined products and refinery gas pipelines and a crude tank storage and terminal system. As a result, our ability to make distributions to our unitholders depends on the performance of these entities and their ability to distribute funds to us. More specifically:
+
+many of the entities in which we own interests are managed by their respective governing board. Our ability to influence decisions with respect to the operation of such entities varies depending on the amount of control we exercise under the applicable governing agreement;
+
+we do not control the amount of cash distributed by several of the entities in which we own interests. We may influence the amount of cash distributed through our veto rights over the cash reserves made by certain of these entities;
+
+<span id="page-34-0"></span>
+we may not have the ability to unilaterally require certain of the entities in which we own interests to make capital expenditures, and such entities may require us to make additional capital contributions to fund operating and maintenance expenditures, as well as to fund expansion capital expenditures, which would reduce the amount of cash otherwise available for distribution by us or require us to incur additional indebtedness;
+
+the entities in which we own interests may incur additional indebtedness without our consent, which debt payments would reduce the amount of cash that might otherwise be available for distribution;
+
+our assets are operated by entities that we do not control; and
+
+• the operator of the assets held by each joint venture and the identity of our joint venture partners could change, in some cases without our consent.
+
+For more information on the agreements governing the management and operation of the entities in which we own an interest, see Part III, Item 13. Certain Relationships and Related Party Transactions, and Director Independence — Agreements with Shell and Part I, Items 1 and 2. Business and Properties — Our Assets and Operations in this report.
+
+If we are unable to make acquisitions on economically acceptable terms from Shell or third parties, our future growth would be limited, and any acquisitions we may make could reduce, rather than increase, our cash flows and ability to make distributions to unitholders.
+
+Our strategy to grow our business and increase distributions to unitholders is dependent in part on our ability to make acquisitions that result in an increase in CAFD per unit. The consummation and timing of any future acquisitions will depend upon, among other things, whether we are able to:
+
+• identify attractive acquisition candidates;
+
+negotiate acceptable purchase agreements;
+
+obtain financing for these acquisitions on economically acceptable terms, which may be more difficult at times when the capital markets are less accessible; and
+
+• outbid any competing bidders.
+
+We can offer no assurance that we will be able to successfully consummate any future acquisitions, whether from Shell or any third parties. If we are unable to make future acquisitions, our future growth and ability to increase distributions will be limited. Furthermore, even if we do consummate acquisitions that we believe will be accretive, they may in fact result in a decrease in CAFD per unit as a result of incorrect assumptions in our evaluation of such acquisitions, unforeseen consequences or other external events beyond our control. We may incur difficulties and additional costs in connection with integrating an acquired asset or entity. Acquisitions involve numerous risks, inefficiencies and unexpected costs and liabilities.
+
+## Our pipeline loss allowance exposes us to commodity risk.
+
+Our long-term transportation agreements and tariffs for crude oil shipments include a pipeline loss allowance. We collect pipeline loss allowance to reduce our exposure to differences in crude oil measurement between origin and destination meters, which can fluctuate widely. This arrangement exposes us to risk of financial loss in some circumstances, including when the crude oil is received from a ship or connecting carrier using different measurement techniques, or resulting from solids and water produced from the crude oil. It is not always possible for us to completely mitigate the measurement differential. If the measurement differential exceeds the loss allowance, the pipeline must make the customer whole for the difference in measured crude oil. Additionally, we take title to any excess product that we transport when product losses are within the allowed levels, and we sell that product several times per year at prevailing market prices. This allowance oil revenue is subject to more volatility than transportation revenue, as it is directly dependent on our measurement capability and prevailing commodity prices.
+
+## The lack of diversification of our assets and geographic locations could adversely af ect our ability to make cash distributions to our unitholders.
+
+A significant amount of our revenue is generated from assets located in Texas and the Louisiana Gulf Coast and offshore Louisiana. Due to our lack of diversification in assets and geographic location, an adverse development in our businesses or areas of operations, including adverse developments due to catastrophic events, weather, regulatory action and decreases in demand for crude oil and refined products, could have a significantly greater impact on our results of operations and CAFD to our common unitholders than if we maintained more diverse assets and locations.
+
+If we are deemed an “investment company” under the Investment Company Act of 1940, it could have a material adverse ef ect on our business and the price of our common units.
+
+<span id="page-35-0"></span>
+In some cases, our assets include partial ownership interests in joint ventures. If a sufficient amount of our assets, or other assets acquired in the future, are deemed to be “investment securities” within the meaning of the Investment Company Act of 1940, we may have to register as an investment company under the Investment Company Act, claim an exemption, obtain exemptive relief from the SEC or modify our organizational structure or our contract rights. Registering as an investment company could, among other things, materially limit our ability to engage in transactions with affiliates, including the purchase and sale of certain securities or other property to or from our affiliates, restrict our ability to borrow funds or engage in other transactions involving leverage and require us to add additional directors who are independent of us or our affiliates. The occurrence of some or all of these events would adversely affect the price of our common units and could have a material adverse effect on our business, results of operations, financial condition or cash flows, including our ability to make cash distributions to our unitholders.
+
+## Risks Related to Our Customers and Counterparties
+
+Our ability to renew or replace our third-party contract portfolio on comparable terms could materially adversely af ect our business, financial condition, results of operations and cash flows, including our ability to make distributions.
+
+As portions of our third-party contract portfolio come up for replacement or renewal, and capacity becomes available, adverse market conditions may prevent us from replacing or renewing the contracts on comparable terms. For example, two of our transportation services agreements on the Zydeco system expired in the fourth quarter of 2020, and have not been replaced.
+
+Our ability to achieve favorable terms when replacing these or other expiring contracts could be affected by many factors, including:
+
+prolonged lower commodity prices;
+
+• a decrease in demand for our services in the markets we serve;
+
+increased competition for our services in the markets we serve; and
+
+actions by FERC or other regulatory bodies that impact our rates or costs.
+
+If we replace expiring agreements with short-term or spot transportation or storage services, our revenues could be more volatile than they would be under long-term arrangements. If we are unable to replace expiring agreements or renew the expiring agreements on comparable terms, it could materially adversely affect our business, financial condition, results of operations and cash flows, including our ability to make cash distributions to our unitholders.
+
+We are exposed to the credit risks, and certain other risks, of our customers, and any material nonpayment or nonperformance by our customers could reduce our ability to make distributions to our unitholders.
+
+We are subject to the risks of loss resulting from nonpayment or nonperformance by our customers. If any of our most significant customers default on their obligations to us, our financial results could be adversely affected. Our customers may be highly leveraged and subject to their own operating and regulatory risks. If any of our customers were to seek protection under the U.S. Bankruptcy Code or other insolvency laws, the court could void the customer’s contracts with us or allow our customer to reject such contracts. Similarly, if, due to effects of the COVID-19 pandemic or for any other reason, any of our customers or other counterparties were to seek to assert any force majeure or similar provision in its contract with us or other contractual defenses to performance available to them, including the doctrine of impossibility, impracticability of performance, frustration of performance and others, a court could excuse some or all of such customer’s or counterparty’s performance under its contract with us. For certain of our pipelines, we may have a limited pool of potential customers and may be unable to replace any customers who default on their obligations to us. Therefore, any material deterioration in the creditworthiness of our customers or any material nonpayment or nonperformance by our customers could have a material adverse effect on our business, financial condition and results of operations, including our ability to make cash distributions to our unitholders.
+
+In addition, we are subject to political and economic risks that impact our customers. For example, the U.S. has gradually expanded sanctions that have impacted Petroleos de Venezuela, S.A. (“PdVSA”) and its subsidiaries as well as the Government of Venezuela. On January 28, 2019, the Trump Administration designated PdVSA on the Specifically Designated Nationals and Blocked Persons List administered by the U.S. Treasury Department’s Office of Foreign Asset Control (“OFAC”). As a result, U.S. persons are generally prohibited from engaging in transactions with PdVSA and its majorityowned subsidiaries. Certain of our customers are subsidiaries of PdVSA and, as a result, we and certain of our customers may be impacted if the General Licenses allowing for the temporary continuation of operations or engagements with PdVSA and its majority-owned subsidiaries expire in the future. Therefore, absent further action by the U.S. government and OFAC, the loss of customers as a result of the sanctions could have a material adverse effect on our business, financial condition and results of operations, including our ability to make cash distributions to our unitholders.
+
+<span id="page-36-0"></span>
+## Risks Related to Financing Our Business
+
+If we are unable to obtain needed capital or financing on satisfactory terms to fund expansions of our asset base, our ability to make or increase quarterly cash distributions may be diminished or our financial leverage could increase. Other than our credit facilities, we do not have any contractual commitments with any of our af iliates to provide any direct or indirect financial assistance to us.
+
+We will be required to do one of the following: use cash from our operations, incur borrowings or access the capital markets in order to fund our capital expenditures. If we do not make sufficient or effective capital expenditures, we may be unable to expand our business operations and may be unable to maintain or raise the level of our quarterly cash distributions. The entities in which we own an interest may also incur borrowings or access the capital markets to fund capital expenditures and may require that we fund our proportionate share of such expenditures. Our and their ability to obtain financing or access the capital markets may be limited by our financial condition at such time as well as the covenants in our debt agreements, general economic conditions and contingencies, or other uncertainties that are beyond our control. Furthermore, market demand for equity issued by MLPs has been significantly lower in recent years than it has been historically, which may make it more challenging for us to finance our capital expenditures and to fund acquisitions with the issuance of equity in the capital markets. Any further decline in the debt and equity capital markets may increase the cost of financing and the risks of refinancing maturing debt. In addition, lenders are facing increasing pressure to curtail their lending activities to companies in the oil and natural gas industry. There can be no assurance that the capital markets or borrowings will be available to us on acceptable terms or at all. The terms of any financing or the availability of cash on hand could limit our ability to pay distributions to our common unitholders. Incurring additional debt may significantly increase our interest expense and financial leverage, and issuing additional limited partner interests may result in significant common unitholder dilution and increase the aggregate amount of cash required to maintain the then-current distribution rate, which could materially decrease our ability to pay distributions at the then-current distribution rate.
+
+Restrictions in our credit facilities could adversely af ect our business, financial condition, results of operations, ability to make cash distributions to our unitholders and the value of our units.
+
+We will be dependent upon the earnings and cash flows generated by our operations in order to meet any debt service obligations and to allow us to make cash distributions to our unitholders. We have entered into two revolving credit facilities and three fixed rate facilities, and Zydeco has entered into a senior unsecured revolving credit facility with an affiliate of Shell with a total capacity of \$3,590 million, under which a total of \$2,694 million was drawn as of December 31, 2020. Borrowings under our credit facilities were used to fund in part our acquisitions in 2019 and 2018. Restrictions in our credit facilities and any future financing agreements could restrict our ability to finance our future operations or capital needs or to expand or pursue our business activities, which may, in turn, limit our ability to make cash distributions to our unitholders.
+
+The restrictions in our credit facilities could affect our ability to obtain future financing and pursue attractive business opportunities and our flexibility in planning for, and reacting to, changes in business conditions. In addition, a failure to comply with the provisions of our credit facilities could result in an event of default which would enable our lenders to declare the outstanding principal of that debt, together with accrued interest, to be immediately due and payable. If the payment of our debt is accelerated, defaults under our other debt instruments, if any, may be triggered, and our assets may be insufficient to repay such debt in full, and the holders of our units could experience a partial or total loss of their investment. See Part II, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations — Capital Resources and Liquidity — Credit Facilities in this report for additional information about our credit facilities.
+
+Increases in interest rates could adversely impact the price of our common units, our ability to issue equity or incur debt for acquisitions or other purposes and our ability to make cash distributions at our intended levels.
+
+Interest rates on current and future credit facilities and debt offerings could increase above current levels, causing our financing costs to increase accordingly. As with other yield-oriented securities, our unit price is impacted by our level of cash distributions and implied distribution yield. The distribution yield is often used by investors to compare and rank yield-oriented securities for investment decision-making purposes. Therefore, changes in interest rates, either positive or negative, may affect the yield requirements of investors who invest in our units, and a rising interest rate environment could have an adverse impact on the price of our common units, our ability to issue equity or incur debt for acquisitions or other purposes and our ability to make cash distributions at our intended levels.
+
+<span id="page-37-0"></span>
+## IT/Cyber-security/Data Privacy/Terrorism Risks
+
+We rely heavily on information technology systems for our operations, and a cyber-incident could result in information theft, data corruption, operational disruption and/or financial loss.
+
+Our business is increasingly dependent on electronic and digital technologies to conduct day-to-day operations, including certain midstream activities. For example, software programs are used to manage gathering and transportation systems and for compliance reporting. The use of mobile communication devices has increased rapidly. Industrial control systems such as SCADA (supervisory control and data acquisition) control large scale processes that can include multiple sites and long distances, such as oil and gas pipelines.
+
+We depend on digital technology, including information systems and related infrastructure, as well as cloud applications and services, some of which are owned or operated by third-party vendors, to process and record financial and operating data and to communicate with our employees and business partners. We use our Parent’s IT systems, which are dependent on key contractors supporting the delivery of IT services. Our business partners, including vendors, service providers and financial institutions, are also dependent on digital technology. The technologies needed to conduct midstream activities make certain information the target of theft, sabotage or misappropriation.
+
+Shell continuously strives to further improve its cyber-security capabilities to reduce the likelihood of successful cyber-attacks. Shell’s IT landscape is protected by various detective and protective technologies in line with industry best practices. Although these cybersecurity programs and protocols are in place, our technologies, systems and networks, and those of our business partners, may become the target of cyber-attacks or information security breaches that could result in the unauthorized release, gathering, monitoring, misuse, loss or destruction of proprietary and other information or other disruption of our business operations. In addition, certain cyber-incidents, such as those related to advanced persistent threats, may be difficult to detect or may remain undetected for an extended period.
+
+A cyber-incident involving our information systems and related infrastructure, or that of our business partners, could disrupt our business plans and negatively impact our operations in the following ways, among others:
+
+a cyber-attack on a vendor or service provider could result in supply chain disruptions, which could delay or halt development of additional infrastructure, effectively delaying the start of cash flows from the project;
+
+a cyber-attack on downstream pipelines could prevent us from delivering product at the tailgate of our facilities, resulting in a loss of revenues;   
+• a cyber-attack on a communications network or power grid could cause operational disruption, resulting in loss of revenues;
+
+a deliberate corruption of our financial or operational data could result in events of non-compliance, which could lead to regulatory fines or penalties; and
+
+business interruptions could result in expensive remediation efforts, distraction of management, damage to our reputation or a negative impact on the price of our units.
+
+Our implementation of various controls and processes, including incorporating a risk-based cyber security framework, to monitor and mitigate the potential impacts of security threats and vulnerabilities to increase security for our information, facilities and infrastructure is costly and labor intensive. Moreover, there can be no assurance that such measures, or measures taken by our third-party vendors, will be sufficient to prevent security breaches from occurring. As cyber threats continue to evolve, we may be required to expend significant additional resources to continue to modify or enhance our protective measures or to investigate and remediate any information security vulnerabilities or to repair or replace IT equipment or systems.
+
+Terrorist or cyber-attacks and threats, or escalation of military activity in response to these attacks, could have a material adverse ef ect on our business, financial condition or results of operations.
+
+Terrorist attacks and threats, cyber-attacks or escalation of military activity in response to these attacks may have significant effects on general economic conditions, fluctuations in consumer confidence and spending and market liquidity, each of which could materially and adversely affect our business. Strategic targets, such as energy-related assets and transportation assets, may be at greater risk of future terrorist or cyber-attacks than other targets in the United States. For example, in 2020, the U.S. Government issued an alert to asset owner-operators across all sectors after a ransomware attack on a U.S. pipeline operator caused the operator to shut down operations for two days. Due to increased technology advances, we have become more reliant on technology to increase efficiency in our business. Instability in the financial markets as a result of terrorism or war could also affect our ability to raise capital including our ability to repay or refinance debt. It is possible that any of these occurrences, or a combination of them, could have a material adverse effect on our business, results of operations, financial condition or cash
+
+<span id="page-38-0"></span>
+flows, including our ability to make cash distributions to our unitholders. Our insurance may not protect us against such occurrences, or, if coverage is available, we cannot ensure that it will fully cover all potential losses.
+
+## Our adoption of a new enterprise resource planning system could impact our internal controls over financial reporting and related processes, which in turn could impact the timeliness and reliability of our consolidated financial statements.
+
+During the second quarter of 2020, we implemented a new enterprise resource planning (“ERP”) system. In connection with this implementation, we have updated our processes related to internal control over financial reporting, as necessary, to accommodate applicable changes in our business processes. While we believe that the ERP system and related changes to internal controls will ultimately strengthen our internal control over financial reporting, there are inherent challenges in implementing a new ERP system and undertaking a transition from the legacy ERP system to the new ERP system, including the need for personnel to learn a new system, the ongoing detection and remediation of any compatibility or other issues as we utilize the new system, the use of manual processes to bridge any interim gaps within the new system and the ongoing development of testing for these control changes. Disruptions in these processes could impact our ability to provide important information to our management, send invoices and track payments, fulfill contractual obligations, accurately maintain books and records, provide accurate, timely and reliable reports on our financial and operating results or otherwise operate our business. In addition, we may experience periodic or prolonged disruption of our financial functions arising out of the implementation and conversion, general use of the ERP system, other periodic upgrades or updates or other external factors that are outside of our control. If any of these risks occur and have a material adverse effect on our internal control over financial reporting, we may not be able to effectively complete our financial reporting process and prepare consolidated financial statements on a timely basis, and we may need to revise our controls or adopt new controls to prevent any deficiencies in our internal controls environment.
+
+## Violations of data protection laws carry fines and expose us to criminal sanctions and civil suits.
+
+Along with our own confidential data and information in the normal course of our business, we and our affiliates collect and retain significant volumes of data, some of which are subject to certain laws and regulations. The regulations regarding the transfer and use of this data both domestically and across international borders are becoming increasingly complex. This data is subject to governmental regulation at the federal, state, international, national, provincial and local levels in many areas of our business, including data privacy and security laws, such as the EU GDPR, the CCPA and new or emerging legislation in other jurisdictions in which our Parent or affiliates operate, such as Turkey, Brazil, China and India. These laws may also expose us to significant liabilities and penalties if any company we acquire has violated or is not in compliance with applicable data protection laws.
+
+The EU GDPR came into force in May 2018. The GDPR applies to personal data and activities that may be conducted by us, directly or indirectly through vendors and subcontractors, from an establishment in the EU. As interpretation and enforcement of the GDPR evolves, it creates a range of new compliance obligations, which could cause us to incur costs or require us to change our business practices in a manner adverse to our business. Failure to comply could result in significant penalties of up to a maximum of 4% of our global turnover, which could materially adversely affect our business, reputation, results of operations, and cash flows. The GDPR also requires mandatory breach notification to the appropriate regulatory authority and impacted data owners.
+
+The CCPA became effective on January 1, 2020 and gives California residents specific rights regarding their personal information, requires that companies take certain actions, including notifications of security incidents, and applies to activities regarding personal information that may be collected by us, directly or indirectly, from California residents. In addition, the CCPA grants California residents statutory private rights of action in the case of a data breach. As interpretation and enforcement of the CCPA evolves, it creates a range of new compliance obligations, which could cause us to change our business practices, with the possibility of significant financial penalties for noncompliance that may materially adversely affect our business, reputation, results of operations and cash flows.
+
+In addition to imposing fines, regulators may also issue orders to stop processing personal data, which could disrupt operations. We or our Parent could also be subject to litigation from persons or corporations allegedly affected by data protection violations. Violation of data protection laws is a criminal offense in some countries, and individuals can be imprisoned or fined. We cannot ensure that our current practices and policies in the area of personal data protection will be sufficient to comply with all current, new or emerging rules or regulations applicable to us nor that they mitigate all of the associated risks to our business. Any violation of these laws or resulting harm to our reputation could have a material adverse effect on our business, results of operations, financial condition or cash flows, including our ability to make cash distributions to our unitholders.
+
+<span id="page-39-0"></span>
+## Risks Inherent in an Investment in Us
+
+Our general partner and its af iliates, including Shell, have conflicts of interest with us and limited duties to us and our unitholders, and they may favor their own interests to the detriment of us and our unitholders. Additionally, we have no control over the business decisions and operations of Shell, and it is under no obligation to adopt a business strategy that favors us.
+
+As of December 31, 2020, SPLC owned a 68.5% limited partner interest in us and owned and controlled our general partner. Although our general partner has a duty to manage us in a manner that is not adverse to the best interests of us and our unitholders, the directors and officers of our general partner also have a duty to manage our general partner in a manner that is not adverse to the best interests of its owner, SPLC. Conflicts of interest may arise between SPLC and its affiliates, including our general partner, on the one hand, and us and our unitholders, on the other hand. In resolving these conflicts, our general partner may favor its own interests and the interests of its affiliates, including SPLC, over the interests of our common unitholders. These conflicts include, among others, the following situations:
+
+neither our Partnership Agreement nor any other agreement requires SPLC to pursue a business strategy that favors us or utilizes our assets, which could involve decisions by SPLC to undertake acquisition opportunities for itself;
+
+SPLC’s directors and officers have a fiduciary duty to make these decisions in the best interests of the owners of SPLC, which may be contrary to our interests; in addition, many of the officers and directors of our general partner are also officers and/or directors of SPLC and will owe fiduciary duties to SPLC and its owners;
+
+SPLC may be constrained by the terms of its debt instruments from taking actions, or refraining from taking actions, that may be in our best interests;
+
+our Partnership Agreement replaces the fiduciary duties that would otherwise be owed by our general partner with contractual standards governing its duties, limiting our general partner’s liabilities and restricting the remedies available to our unitholders for actions that, without the limitations, might constitute breaches of fiduciary duty;
+
+except in limited circumstances, our general partner has the power and authority to conduct our business without unitholder approval;
+
+• disputes may arise under agreements pursuant to which SPLC and its affiliates are our customers;
+
+our general partner will determine the amount and timing of asset purchases and sales, borrowings, issuance of additional partnership securities and the creation, reduction or increase of cash reserves, each of which can affect the amount of cash that is distributed to our unitholders;
+
+our general partner will determine the amount and timing of many of our capital expenditures;
+
+• our general partner will determine which costs incurred by it are reimbursable by us;
+
+our general partner may cause us to borrow funds in order to permit the payment of cash distributions, even if the purpose or effect of the borrowing is to make incentive distributions;
+
+our Partnership Agreement does not restrict our general partner from causing us to pay it or its affiliates for any services rendered to us or entering into additional contractual arrangements with any of these entities on our behalf;
+
+our general partner intends to limit its liability regarding our contractual and other obligations;
+
+our general partner may exercise its right to call and purchase all of the common units not owned by it and its affiliates if it and its affiliates own more than 75% of the common units;
+
+our general partner controls the enforcement of obligations owed to us by our general partner and its affiliates, including under the Omnibus Agreement effective February 1, 2019 by and among us, our general partner, SPLC and the Operating Company (the “2019 Omnibus Agreement”) and our other agreements with SPLC and its affiliates; and
+
+our general partner decides whether to retain separate counsel, accountants or others to perform services for us.
+
+Under the terms of our Partnership Agreement, the doctrine of corporate opportunity, or any analogous doctrine, does not apply to our general partner or any of its affiliates, including its executive officers, directors and owners. Any such person or entity that becomes aware of a potential transaction, agreement, arrangement or other matter that may be an opportunity for us will not have any duty to communicate or offer such opportunity to us. Any such person or entity will not be liable to us or to any limited partner for breach of any fiduciary duty or other duty by reason of the fact that such person or entity pursues or acquires such opportunity for itself, directs such opportunity to another person or entity or does not communicate such opportunity or information to us. This may create actual and potential conflicts of interest between us and affiliates of our general partner and result in less than favorable treatment of us and our unitholders.
+
+## Our Partnership Agreement requires that we distribute all of our available cash, which could limit our ability to grow and make acquisitions.
+
+We expect that we will distribute all of our available cash to our unitholders and will rely primarily upon our cash reserves and external financing sources, including borrowings under our credit facilities and the issuance of debt and equity securities, to
+
+<span id="page-40-0"></span>
+fund future acquisitions and other expansion capital expenditures. To the extent we are unable to finance growth with external sources of capital, the requirement in our Partnership Agreement to distribute all of our available cash and our current cash distribution policy will significantly impair our ability to grow. In addition, because we will distribute all of our available cash, our growth may not be as fast as businesses that reinvest all of their available cash to expand ongoing operations.
+
+Our credit facilities restrict our ability to incur additional debt including the issuance of debt securities, except for incurring bank loans or loans from affiliates up to other certain levels. To the extent we issue additional units, the payment of distributions on those additional units may increase the risk that we will be unable to maintain or increase our cash distributions per unit. There are no limitations in our Partnership Agreement on our ability to issue additional units, including units ranking senior to our common units, and our unitholders will have no preemptive or other rights (solely as a result of their status as unitholders) to purchase any such additional units. If we incur additional debt (under our revolving credit facilities or otherwise) to finance our growth strategy, we will have increased interest expense, which in turn will reduce the available cash that we have to distribute to our unitholders.
+
+The fees and reimbursements due to our general partner and its af iliates, including SPLC, for services provided to us or on our behalf will reduce our CAFD. In certain cases, the amount and timing of such reimbursements will be determined by our general partner and its af iliates, including SPLC.
+
+Pursuant to our Partnership Agreement, we reimburse our general partner and its affiliates, including SPLC, for costs and expenses they incur and payments they make on our behalf. Pursuant to the 2019 Omnibus Agreement and our Zydeco operating and management agreement, we pay an annual fee, currently approximately \$11 million and \$9 million, respectively, to SPLC for general and administrative services. In addition, pursuant to the 2019 Omnibus Agreement, we reimburse our general partner for payments to SPLC for other expenses incurred by SPLC on our behalf to the extent the fees relating to such services are not included in the general and administrative services fee. We also reimburse our general partner and SPLC, as applicable, for certain services provided under our operating agreements related to Pecten, Sand Dollar and Triton. For the year ended December 31, 2020, we reimbursed our general partner and SPLC \$16 million and \$13 million, respectively, under these operating agreements. Each of these payments will be made prior to making any distributions on our common units. The reimbursement of expenses and payment of fees to our general partner and its affiliates will reduce our CAFD. There is no limit on the fee and expense reimbursements that we may be required to pay to our general partner and its affiliates.
+
+Our Partnership Agreement replaces fiduciary duties applicable to a corporation with contractual duties and restricts the remedies available to holders of our common units for actions taken by our general partner that might otherwise constitute breaches of fiduciary duty.
+
+Our Partnership Agreement contains provisions that replace fiduciary duties applicable to a corporation with contractual duties and restrict the remedies available to unitholders for actions taken by our general partner that might otherwise constitute breaches of fiduciary duty under state fiduciary duty law. For example, our Partnership Agreement provides that:
+
+whenever our general partner (acting in its capacity as our general partner), the board of directors of our general partner or any committee thereof (including the conflicts committee) makes a determination or takes, or declines to take, any other action in their respective capacities, our general partner, the board of directors of our general partner and any committee thereof (including the conflicts committee), as applicable, is required to make such determination, or take or decline to take such other action, in good faith, meaning that it subjectively believed that the decision was not adverse to our best interests, and, except as specifically provided by our Partnership Agreement, will not be subject to any other or different standard imposed by our Partnership Agreement, Delaware law, or any other law, rule or regulation, or equitable principle;
+
+our general partner may make a number of decisions in its individual capacity, as opposed to in its capacity as our general partner, free of any duties to us and our unitholders other than the implied contractual covenant of good faith and fair dealing, which means that a court will enforce the reasonable expectations of the partners where the language in the Partnership Agreement does not provide for a clear course of action. This provision entitles our general partner to consider only the interests and factors that it desires and relieves it of any duty or obligation to give any consideration to any interest of, or factors affecting, us, our affiliates or our limited partners. Examples of decisions that our general partner may make in its individual capacity include: how to allocate corporate opportunities among us and its other affiliates, whether to exercise its limited call right, whether to seek approval of the resolution of a conflict of interest by the conflicts committee of the board of directors of our general partner, and how to exercise its voting rights with respect to the units it owns;
+
+our general partner will not have any liability to us or our unitholders for decisions made in its capacity as a general partner so long as such decisions are made in good faith;
+
+our general partner and its officers and directors will not be liable for monetary damages to us or our limited partners resulting from any act or omission unless there has been a final and non-appealable judgment entered by a court of
+
+<span id="page-41-0"></span>
+competent jurisdiction determining that our general partner or its officers and directors, as the case may be, acted in bad faith or engaged in fraud or willful misconduct or, in the case of a criminal matter, acted with knowledge that the conduct was criminal; and
+
+our general partner will not be in breach of its obligations under the Partnership Agreement (including any duties to us or our unitholders) if a transaction with an affiliate or the resolution of a conflict of interest is:
+
+approved by the conflicts committee of the board of directors of our general partner, although our general partner is not obligated to seek such approval;
+
+approved by the vote of a majority of the outstanding common units, excluding any common units owned by our general partner and its affiliates; determined by the board of directors of our general partner to be on terms no less favorable to us than those generally being provided to or available from unrelated third parties; or
+
+determined by the board of directors of our general partner to be fair and reasonable to us, taking into account the totality of the relationships among the parties involved, including other transactions that may be particularly favorable or advantageous to us.
+
+In connection with a situation involving a transaction with an affiliate or a conflict of interest, any determination by our general partner or the conflicts committee must be made in good faith. If an affiliate transaction or the resolution of a conflict of interest is not approved by our common unitholders or the conflicts committee and the board of directors of our general partner determines that the resolution or course of action taken with respect to the affiliate transaction or conflict of interest satisfies either of the standards set forth in the third and fourth sub-bullet points above, then it will be presumed that, in making its decision, the board of directors of our general partner acted in good faith, and in any proceeding brought by or on behalf of any limited partner or the Partnership challenging such determination, the person bringing or prosecuting such proceeding will have the burden of overcoming such presumption.
+
+## Our Series A Preferred Units have rights, preferences and privileges that are not held by, and are preferential to the rights of, holders of our common units.
+
+Our Series A Preferred Units rank senior to our common units with respect to distribution rights and rights upon liquidation. These preferences could adversely affect the market price for our common units or could make it more difficult for common unitholders to sell our common units in the future.
+
+In addition, until the conversion of our Series A Preferred Units into our common units or their redemption in connection with a change of control, holders of our Series A Preferred Units will receive cumulative quarterly distributions at a rate of \$0.2363 per Series A Preferred Unit per quarter. We are not permitted to pay any distributions on any junior securities, including on any of our common units, prior to paying the quarterly distribution payable on the Series A Preferred Units, including any previously accrued and unpaid distributions.
+
+Our obligation to pay distributions on our Series A Preferred Units could impact our liquidity and reduce the amount of cash flow available for working capital, capital expenditures, growth opportunities, acquisitions, distributions on junior securities, including on our common units, and other general partnership purposes. Our obligations to the holders of our Series A Preferred Units could also limit our ability to obtain additional financing or increase our borrowing costs, which could have an adverse effect on our financial condition.
+
+## Units held by ineligible holders may be subject to redemption.
+
+We have adopted certain requirements regarding those investors who may own our common units. Eligible taxable holders are limited partners whose, or whose owners’, federal income tax status does not have or is not reasonably likely to have a material adverse effect on the rates that can be charged by us on assets that are subject to regulation by FERC or a similar regulatory body, as determined by our general partner with the advice of counsel. Ineligible holders are limited partners (a) who are not an eligible taxable holder or (b) whose nationality, citizenship or other related status would create a substantial risk of cancellation or forfeiture of any property in which we have an interest, as determined by our general partner with the advice of counsel. In certain circumstances set forth in our Partnership Agreement, units held by an ineligible holder may be redeemed by us at the then-current market price, which is the average of the daily closing prices for the 20 consecutive trading days immediately prior to the redemption date. The redemption price will be paid in cash or by delivery of a promissory note, as determined by our general partner.
+
+<span id="page-42-0"></span>
+## Our Partnership Agreement restricts the voting rights of unitholders owning 20% or more of our common units.
+
+Unitholders’ voting rights are further restricted by a provision of our Partnership Agreement providing that any units held by a person that owns 20% or more of any class of units then outstanding, other than our general partner, its affiliates, their transferees and persons who acquired such units with the prior approval of the board of directors of our general partner, cannot be used to vote on any matter.
+
+## Holders of our common units have limited voting rights and are not entitled to elect our general partner or its directors.
+
+Unlike the holders of common stock in a corporation, unitholders have only limited voting rights on matters affecting our business and, therefore, limited ability to influence management’s decisions regarding our business. For example, unlike holders of stock in a public corporation, unitholders will not have “say-on-pay” advisory voting rights. Unitholders did not elect our general partner or the board of directors of our general partner and will have no right to elect our general partner or the board of directors of our general partner on an annual or other continuing basis. The board of directors of our general partner is chosen by the member of our general partner, which is a wholly owned subsidiary of SPLC. Furthermore, if the unitholders are dissatisfied with the performance of our general partner, they will have little ability to remove our general partner. As a result of these limitations, the price at which our common units will trade could be diminished because of the absence or reduction of a takeover premium in the trading price.
+
+## Even if holders of our common units are dissatisfied, they cannot remove our general partner without its consent.
+
+Unitholders will be unable to remove our general partner without its consent because our general partner and its affiliates own sufficient units to be able to prevent its removal. The vote of the holders of at least 66 2/3% of all outstanding common units is required to remove our general partner.
+
+Our Partnership Agreement also contains provisions limiting the ability of unitholders to call meetings or to acquire information about our operations, as well as other provisions limiting the unitholders’ ability to influence the manner or direction of management.
+
+## Our general partner interest or the control of our general partner may be transferred to a third party without unitholder consent.
+
+Our Partnership Agreement does not restrict the ability of SPLC to transfer all or a portion of its general partner interest or its ownership interest in our general partner to a third party. Our general partner, or the new owner of our general partner, would then be in a position to replace the board of directors and officers of our general partner with its own designees and thereby exert significant control over the decisions made by the board of directors and officers.
+
+## We may issue additional units without unitholder approval, which would dilute unitholder interests.
+
+At any time, we may issue an unlimited number of limited partner interests of any type without the approval of our unitholders, and our unitholders will have no preemptive or other rights (solely as a result of their status as unitholders) to purchase any such limited partner interests. Further, there are no limitations in our Partnership Agreement on our ability to issue equity securities that rank equal or senior to our common units as to distributions or in liquidation or that have special voting rights and other rights. The issuance by us of additional common units or other equity securities of equal or senior rank will have the following effects:
+
+our existing unitholders’ proportionate ownership interest in us will decrease;
+
+• the amount of cash we have available to distribute on each unit may decrease;
+
+• the ratio of taxable income to distributions may increase;
+
+the relative voting strength of each previously outstanding unit may be diminished; and
+
+• the market price of our common units may decline.
+
+## SPLC may sell units in the public or private markets, and such sales could have an adverse impact on the trading price of the common units.
+
+As of December 31, 2020, SPLC held 269,457,304 common units. Additionally, we have agreed to provide SPLC with certain registration rights under applicable securities laws. The sale of these units in the public or private markets could have an adverse impact on the price of the common units or on any trading market that may develop.
+
+<span id="page-43-0"></span>
+## Our general partner’s discretion in establishing cash reserves may reduce the amount of cash we have available to distribute to unitholders.
+
+Our Partnership Agreement permits our general partner to reduce available cash by establishing cash reserves for the proper conduct of our business, to comply with applicable law or agreements to which we are a party or to provide funds for future distributions to partners. These cash reserves will affect the amount of cash we have available to distribute to unitholders.
+
+## Our general partner has a limited call right that may require you to sell your common units at an undesirable time or price.
+
+If at any time our general partner and its affiliates own more than 75% of our then-outstanding common units, our general partner will have the right, but not the obligation, which it may assign to any of its affiliates or to us, to acquire all, but not less than all, of the common units held by unaffiliated persons at a price not less than their then-current market price, as calculated pursuant to the terms of our Partnership Agreement. As a result, you may be required to sell your common units at an undesirable time or price and may not receive any return on your investment. You may also incur a tax liability upon a sale of your units. As of December 31, 2020, our general partner and its affiliates owned approximately 68.5% of our common units.
+
+## Our general partner intends to limit its liability regarding our obligations.
+
+Our general partner intends to limit its liability under contractual arrangements so that the counterparties to such arrangements have recourse only against our assets, and not against our general partner or its assets. Our general partner may therefore cause us to incur indebtedness or other obligations that are nonrecourse to our general partner. Our Partnership Agreement permits our general partner to limit its liability, even if we could have obtained more favorable terms without the limitation on liability. In addition, we are obligated to reimburse or indemnify our general partner to the extent that it incurs obligations on our behalf. Any such reimbursement or indemnification payments would reduce the amount of cash otherwise available for distribution to our unitholders.
+
+## Unitholders’ liability may not be limited if a court finds that unitholder action constitutes control of our business.
+
+A general partner of a partnership generally has unlimited liability for the obligations of the partnership, except for those contractual obligations of the partnership that are expressly made without recourse to the general partner. We are organized under Delaware law, and we conduct business in a number of other states. The limitations on the liability of holders of limited partner interests for the obligations of a limited partnership have not been clearly established in some of the other states in which we do business. A unitholder could be liable for any and all of our obligations as if a unitholder were a general partner if a court or government agency were to determine that (i) we were conducting business in a state but had not complied with that particular state’s partnership statute; or (ii) a unitholder’s right to act with other unitholders to remove or replace our general partner, to approve some amendments to our Partnership Agreement or to take other actions under our Partnership Agreement constitute “control” of our business.
+
+## Unitholders may have to repay distributions that were wrongfully distributed to them.
+
+Under certain circumstances, unitholders may have to repay amounts wrongfully distributed to them. Under Section 17-607 of the Delaware Revised Uniform Limited Partnership Act, we may not make a distribution to you if the distribution would cause our liabilities to exceed the fair value of our assets. Delaware law provides that, for a period of three years from the date of the impermissible distribution, limited partners who received the distribution and who knew at the time of the distribution that it violated Delaware law will be liable to the limited partnership for the distribution amount. Transferees of common units are liable both for the obligations of the transferor to make contributions to us that are known to the transferee at the time of the transfer and for unknown obligations if the liabilities could be determined from our Partnership Agreement. Liabilities to partners on account of their partnership interest and liabilities that are non-recourse to the partnership are not counted for purposes of determining whether a distribution is permitted.
+
+## The NYSE does not require a publicly-traded partnership like us to comply with certain of its corporate governance requirements.
+
+Because we are a publicly-traded partnership, the New York Stock Exchange (the “NYSE”) does not require us to have, and we do not intend to have, a majority of independent directors on our general partner’s board of directors or to establish a compensation committee or a nominating and corporate governance committee. Additionally, any future issuance of additional common units or other securities, including to affiliates, will not be subject to the NYSE’s shareholder approval rules that apply to a corporation. Accordingly, unitholders will not have the same protections afforded to certain corporations that are subject to all of the NYSE corporate governance requirements. See Part III, Item 10. Directors, Executive Of icers and Corporate Governance in this report.
+
+<span id="page-44-0"></span>
+## Tax Risks to Common Unitholders
+
+Our tax treatment depends on our status as a partnership for federal income tax purposes. If the IRS were to treat us as a corporation for federal income tax purposes, which would subject us to entity-level taxation, or if we were otherwise subjected to a material amount of additional entity-level taxation, then our CAFD would be substantially reduced.
+
+The anticipated after-tax economic benefit of an investment in the common units depends largely on our being treated as a partnership for federal income tax purposes.
+
+Despite the fact that we are a limited partnership under Delaware law, it is possible in certain circumstances for a partnership such as ours to be treated as a corporation for federal income tax purposes. A change in our business or a change in current law could cause us to be treated as a corporation for federal income tax purposes or otherwise subject us to taxation as an entity.
+
+If we were treated as a corporation for federal income tax purposes, we would pay federal income tax on our taxable income at the corporate tax rate, which is currently 21%, and would likely pay state and local income tax at varying rates. Distributions would generally be taxed again as corporate dividends (to the extent of our current and accumulated earnings and profits), and no income, gains, losses, deductions or credits would flow through to you. Because a tax would be imposed upon us as a corporation, our CAFD would be substantially reduced. In addition, several states are evaluating changes to current law which could subject us to additional entity-level taxation and further reduce the CAFD to unitholders.
+
+The present federal income tax treatment of publicly-traded partnerships or an investment in our common units may be modified by administrative, legislative or judicial changes or differing interpretations at any time. From time to time, members of the U.S. Congress propose and consider substantive changes to the existing federal income tax laws that affect publicly-traded partnerships. If successful, such a proposal could eliminate the qualifying income exception to the treatment of all publicly-traded partnerships as corporations upon which we rely for our treatment as a partnership for federal income tax purposes. We are unable to predict whether any of these changes or other proposals will ultimately be enacted or will materially change interpretations of the current law, but it is possible that a change in law could affect us and may, if enacted, be applied retroactively. Any such changes would have a material adverse effect on our financial condition, cash flows, ability to make cash distributions to our unitholders and the value of an investment in our common units.
+
+Our unitholders are required to pay income taxes on their share of our taxable income even if they do not receive any cash distributions from us. A unitholder’s share of our taxable income, and its relationship to any distributions we make, may be af ected by a variety of factors, including our economic performance, transactions in which we engage or changes in law and may be substantially dif erent from any estimate we make in connection with a unit of ering.
+
+A unitholders’ allocable share of our taxable income will be taxable to it, which may require the unitholder to pay federal income taxes and, in some cases, state and local income taxes, even if the unitholder receives cash distributions from us that are less than the actual tax liability that results from that income or no cash distribution at all.
+
+A unitholders’ share of our taxable income, and its relationship to any distributions we make, may be affected by a variety of factors, including our economic performance, which may be affected by numerous business, economic, regulatory, legislative, competitive and political uncertainties beyond our control, and certain transactions in which we might engage. For example, we may engage in transactions that produce substantial taxable income allocations to some or all of our unitholders without a corresponding increase in cash distributions to our unitholders, such as a sale or exchange of assets, the proceeds of which are reinvested in our business or used to reduce our debt, or an actual or deemed satisfaction of our indebtedness for an amount less than the adjusted issue price of the debt. A unitholders’ ratio of its share of taxable income to the cash received by it may also be affected by changes in law. For instance, our net interest rate deductions under the TCJA are limited to 30% of our “adjusted taxable income,” which is generally taxable income with certain modifications. If the limit applies, a unitholders’ taxable income allocations will be more (or its net loss allocations will be less) than would have been the case absent the limitation.
+
+From time to time, in connection with an offering of our units, we may state an estimate of the ratio of federal taxable income to cash distributions that a purchaser of units in that offering may receive in a given period. These estimates depend in part on factors that are unique to the offering with respect to which the estimate is stated, so the expected ratio applicable to other units will be different, and in many cases less favorable, than these estimates. Moreover, even in the case of units purchased in the offering to which the estimate relates, the estimate may be incorrect, due to the uncertainties described above, challenges by the IRS to tax reporting positions which we adopt or other factors. The actual ratio of taxable income to cash distributions could be higher or lower than expected, and any differences could be material and could materially affect the value of the common units.
+
+<span id="page-45-0"></span>
+## If the IRS contests the federal income tax positions we take, the market for our common units may be adversely impacted and the cost of any IRS contest will reduce our CAFD.
+
+Any contest with the IRS, and the outcome of any IRS contest, may have a materially adverse impact on the market for our common units and the price at which our common units trade. In addition, our costs of any contest with the IRS will be borne indirectly by our unitholders because the costs will reduce our CAFD.
+
+## Unitholders may be subject to limitation on their ability to deduct interest expense incurred by us.
+
+In general, we are entitled to a deduction for interest paid or accrued on indebtedness properly allocable to our trade or business during our taxable year. However, under the TCJA, for taxable years beginning after December 31, 2017, our deduction for “business interest” is limited to the sum of our business interest income and 30% of our “adjusted taxable income.” For purposes of this limitation, our adjusted taxable income is computed without regard to any business interest expense or business interest income, and in the case of taxable years beginning before January 1, 2022, any deduction allowable for depreciation, amortization or depletion. For our 2020 taxable year, the Coronavirus Aid, Relief, and Economic Security Act increases the 30% adjusted taxable income limitation to 50%, unless we elect not to apply such increase, and for purposes of determining our 50% adjusted taxable income limitation, we may elect to substitute our 2020 adjusted taxable income with our 2019 adjusted taxable income.
+
+## Tax gain or loss on the disposition of our common units could be more or less than expected.
+
+If our unitholders sell common units, the unitholders will recognize a gain or loss for federal income tax purposes equal to the difference between the amount realized and their tax basis in those common units. Because distributions in excess of a unitholder’s allocable share of our net taxable income decrease the unitholder’s tax basis in its common units, the amount, if any, of such prior excess distributions with respect to the common units a unitholder sells will, in effect, become taxable income to the unitholder if it sells such common units at a price greater than its tax basis in those common units, even if the price received is less than its original cost. In addition, because the amount realized includes a unitholder’s share of our nonrecourse liabilities, a unitholder that sells common units may incur a tax liability in excess of the amount of cash received from the sale.
+
+## Tax-exempt entities and non-U.S. persons face unique tax issues from owning our common units that may result in adverse tax consequences to them.
+
+Investment in common units by tax-exempt entities, such as employee benefit plans and individual retirement accounts (known as IRAs), and non-U.S. persons raises issues unique to them. For example, virtually all of our income allocated to organizations that are exempt from federal income tax, including IRAs and other retirement plans, will be unrelated business taxable income (“UBTI”) and will be taxable to them. Under the TCJA, an exempt organization is required to independently compute its UBTI from each separate unrelated trade or business which may prevent an exempt organization from utilizing losses we allocate to the organization against the organization’s UBTI from other sources and vice versa. Distributions to non-U.S. persons will be reduced by withholding taxes at the highest applicable effective tax rate, and non-U.S. persons will be required to file federal income tax returns and applicable state tax returns and pay tax on their share of our taxable income.
+
+Under the TCJA, if a unitholder sells or otherwise disposes of a common unit, the transferee is required to withhold 10.0% of the amount realized by the transferor unless the transferor certifies that it is not a foreign person, and we are required to deduct and withhold from the transferee amounts that should have been withheld by the transferee but were not withheld. However, the U.S. Department of the Treasury and the IRS have suspended these rules for transfers of certain publicly traded partnership interests, including transfers of our common units, that occur before January 1, 2022. Under recently finalized Treasury Regulations, such withholding will be required on open market transactions, but in the case of a transfer made through a broker, a partner’s share of liabilities will be excluded from the amount realized. In addition, the obligation to withhold will be imposed on the broker instead of the transferee (and we will generally not be required to withhold from the transferee amounts that should have been withheld by the transferee but were not withheld). These withholding obligations will apply to transfers of our common units occurring on or after January 1, 2022.
+
+## We will treat each purchaser of common units as having the same tax benefits without regard to the actual common units purchased. The IRS may challenge this treatment, which could adversely af ect the value of the common units.
+
+Because we cannot match transferors and transferees of common units and because of other reasons, we will adopt depreciation and amortization positions that may not conform to all aspects of existing Treasury Regulations. A successful IRS challenge to those positions could adversely affect the amount of tax benefits available to our unitholders. It also could affect the timing of these tax benefits or the amount of gain from your sale of common units and could have a negative impact on the value of our common units or result in audit adjustments to your tax returns.
+
+<span id="page-46-0"></span>
+We prorate our items of income, gain, loss and deduction between transferors and transferees of our units each month based upon the ownership of our units on the first day of each month, instead of on the basis of the date a particular unit is transferred. The IRS may challenge this treatment, which could change the allocation of items of income, gain, loss and deduction among our unitholders.
+
+We prorate our items of income, gain, loss and deduction between transferors and transferees of our units each month based upon the ownership of our units on the first day of each month, instead of on the basis of the date a particular unit is transferred. Treasury Regulations allow a similar monthly simplifying convention but do not specifically authorize the use of the proration method we have adopted. If the IRS were to challenge our proration method or new Treasury regulations were issued, we may be required to change the allocation of items of income, gain, loss and deduction among our unitholders.
+
+If the IRS makes audit adjustments to our income tax returns, it (and some states) may collect any resulting taxes (including any applicable penalties and interest) directly from us, in which case our CAFD to our unitholders might be substantially reduced.
+
+If the IRS makes audit adjustments to our income tax returns, it may collect any resulting taxes (including any applicable penalties and interest) directly from us. We will generally have the ability to shift any such tax liability to our general partner and our unitholders in accordance with their interests in us during the year under audit, but there can be no assurance that we will be able to do so (and will choose to do so) under all circumstances, or that we will be able to (or choose to) effect corresponding shifts in state income or similar tax liability resulting from the IRS adjustment in states in which we do business in the year under audit or in the adjustment year. If we make payments of taxes, penalties and interest resulting from audit adjustments, our CAFD to our unitholders might be substantially reduced. Additionally, we may be required to allocate an adjustment disproportionately among our unitholders, causing the publicly-traded units to have different capital accounts, unless the IRS issues further guidance.
+
+In the event the IRS makes an audit adjustment to our income tax returns and we do not or cannot shift the liability to our unitholders in accordance with their interests in us during the year under audit, we will generally have the ability to request that the IRS reduce the determined underpayment by reducing the suspended passive loss carryovers of our unitholders (without any compensation from us to such unitholders), to the extent such underpayment is attributable to a net decrease in passive activity losses allocable to certain partners. Such reduction, if approved by the IRS, will be binding on any affected unitholders.
+
+A unitholder whose common units are loaned to a “short seller” to ef ect a short sale of common units may be considered as having disposed of those common units. If so, the unitholder would no longer be treated for federal income tax purposes as a partner with respect to those common units during the period of the loan and may recognize gain or loss from the disposition.
+
+Because a unitholder whose common units are loaned to a “short seller” to effect a short sale of common units may be considered as having disposed of the loaned common units, the unitholder may no longer be treated for federal income tax purposes as a partner with respect to those common units during the period of the loan to the short seller, and the unitholder may recognize gain or loss from such disposition. Moreover, during the period of the loan to the short seller, any of our income, gain, loss or deduction with respect to those common units may not be reportable by the unitholder, and any cash distributions received by the unitholder as to those common units could be fully taxable as ordinary income.
+
+We have adopted certain valuation methodologies in determining a unitholder’s allocations of income, gain, loss and deduction. The IRS may challenge these methodologies, which could adversely af ect the value of the common units.
+
+In determining the items of income, gain, loss and deduction allocable to our unitholders, we must routinely determine the fair market value of our assets and allocate any unrealized gain or loss attributable to our assets to the capital accounts of our unitholders and our general partner. The IRS may challenge our valuation methods and allocations of taxable income, gain, loss and deduction between our general partner and certain of our unitholders.
+
+A successful IRS challenge to these methods or allocations could adversely affect the amount of taxable income or loss being allocated to our unitholders. It also could affect the amount of taxable gain from our unitholders’ sale of common units and could have a negative impact on the value of the common units or result in audit adjustments to our unitholders’ tax returns without the benefit of additional deductions.
+
+If our assets were subjected to a material amount of additional entity-level taxation by individual states, it would reduce our CAFD to our unitholders.
+
+<span id="page-47-0"></span>
+If our assets are subjected to a material amount of additional entity-level taxation by individual states, our CAFD would be reduced. States are continually evaluating ways to subject partnerships to entity-level taxation through the imposition of state income, franchise and other forms of taxation. We currently own assets and conduct business in certain states that impose an entity-level tax on partnerships, including Illinois, Texas and Washington. Imposition of an entity-level tax on us in other jurisdictions in which we do business, or to which we expand our operations, could substantially reduce our CAFD.
+
+As a result of investing in our common units, unitholders will likely be subject to state and local taxes and return filing requirements in jurisdictions where we operate or own or acquire properties.
+
+In addition to federal income taxes, our unitholders will likely be subject to other taxes, including state and local taxes, unincorporated business taxes and estate, inheritance or intangible taxes that are imposed by the various jurisdictions in which we conduct business or control property now or in the future. Unitholders may be subject to such taxes, even if they do not live in the jurisdiction imposing the tax. Our unitholders will likely be required to file state and local income tax returns and pay state and local income taxes in some or all of these various jurisdictions. Further, our unitholders may be subject to penalties for failure to comply with those requirements. We currently own property and conduct business in a number of states, most of which currently impose a personal income tax on individuals, and most of which also impose an income or similar tax on corporations and certain other entities. As we make acquisitions or expand our business, we may control assets or conduct business in additional states that impose an income tax or similar tax. In certain states, tax losses may not produce a tax benefit in the year incurred and also may not be available to offset income in subsequent tax years. Some states may require us, or we may elect, to withhold a percentage of income from amounts to be distributed to a unitholder who is not a resident of the state. Withholding, the amount of which may be greater or less than a particular unitholders’ income tax liability to the state, generally does not relieve a nonresident unitholder from the obligation to file an income tax return. Amounts withheld may be treated as if distributed to unitholders for purposes of determining the amounts distributed by us. It is each unitholder’s responsibility to file all federal, state and local tax returns required by applicable law to be filed by such unitholder. Our counsel has not rendered an opinion on the state or local tax consequences of an investment in our common units. Prospective unitholders should consult their own tax advisors regarding such matters.
+
+Entity level taxes on income from C corporation subsidiaries will reduce CAFD, and an individual unitholder’s share of dividend and interest income from such subsidiaries would constitute portfolio income that could not be of set by the unitholder’s share of our other losses or deductions.
+
+A portion of our taxable income is earned through LOCAP, Explorer and Colonial, which are all C corporations. Such C corporations are subject to federal income tax on their taxable income at the corporate tax rate, which is currently 21%, and will likely pay state (and possibly local) income tax at varying rates, on their taxable income. Any such entity level taxes will reduce the CAFD to our unitholders. Distributions from any such C corporation will generally be taxed again to unitholders as dividend income to the extent of current and accumulated earnings and profits of such C corporation. As of December 31, 2020, the maximum federal income tax rate applicable to such qualified dividend income that is allocable to individuals was 20% (plus a 3.8% net investment income tax that applies to certain net investment income earned by individuals, estates and trusts). An individual unitholder’s share of dividend and interest income from LOCAP, Explorer, Colonial or other C corporation subsidiaries would constitute portfolio income that could not be offset by the unitholder’s share of our other losses or deductions.
+
+## Item 1B. UNRESOLVED STAFF COMMENTS
+
+None.
+
+## Item 3. LEGAL PROCEEDINGS
+
+Although we may, from time to time, be involved in litigation and claims arising out of our operations in the ordinary course of business, we are not a party to any litigation or governmental or other proceeding that we believe will have a material adverse impact on our financial position, results of operations or cash flows. In addition, pursuant to the terms of the various agreements under which we acquired assets from Shell affiliates since our initial public offering, those affiliates, as applicable, will indemnify us for certain liabilities relating to litigation and environmental matters attributable to the ownership or operation of the acquired assets prior to our acquisition of those assets.
+
+<span id="page-48-0"></span>
+Not applicable.
+
+<span id="page-49-0"></span>
+## PART II
+
+## Item 5. MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OFEQUITY SECURITIES
+
+## Quarterly Common Unit Prices and Cash Distributions Per Unit
+
+Our common units trade on the New York Stock Exchange (the “NYSE”) under the symbol “SHLX.” As of February 22, 2021, SPLC owned 269,457,304 common units, representing an aggregate 68.5% limited partner interest in us, and 50,782,904 Series A perpetual convertible preferred units (the “Series A Preferred Units”). Pursuant to the Partnership Interests Restructuring Agreement with our general partner dated February 27, 2020 (the “Partnership Interests Restructuring Agreement”), all of the incentive distribution rights (“IDRs”) were eliminated and the 2% general partner economic interest was converted into a non-economic general partner interest in the Partnership. As of January 31, 2021, we had seven holders of record of our common units. In determining the number of unitholders, we consider clearing agencies and security position listings as one unitholder for each agency or listing.
+
+## Distributions of Available Cash
+
+## General
+
+Our Partnership Agreement requires us to distribute all of our available cash to unitholders of record on the applicable record date, within 60 days after the end of each quarter.
+
+## Definition of Available Cash
+
+Available cash generally means, for any quarter, all cash and cash equivalents on hand at the end of that quarter:
+
+• less, the amount of cash reserves established by our general partner to:
+
+provide for the proper conduct of our business (including reserves for our future capital expenditures, future acquisitions and anticipated future debt service requirements, Series A Preferred Unit quarterly distributions and refunds of collected rates reasonably likely to be refunded as a result of a settlement or hearing related to FERC rate proceedings or rate proceedings under applicable law) subsequent to that quarter;
+
+comply with applicable law, any of our or our subsidiaries’ debt instruments or other agreements; or
+
+• provide funds for distributions to our unitholders and to our general partner for any one or more of the next four quarters;
+
+plus, all cash and cash equivalents resulting from dividends or distributions received after the end of the quarter from equity interests in any person other than a subsidiary in respect of operations conducted by such person during the quarter;
+
+plus, if our general partner so determines, all or any portion of the cash on hand on the date of determination resulting from working capital borrowings after the end of the quarter.
+
+The purpose and effect of the last bullet point above is to allow our general partner, if it so decides, to use cash from working capital borrowings made after the end of the quarter but on or before the date of determination of available cash for that quarter to pay distributions to unitholders. Under our Partnership Agreement, working capital borrowings are generally borrowings that are made under a credit facility, commercial paper facility or similar financing arrangement, and in all cases are used solely for working capital purposes or to pay distributions to partners, and with the intent of the borrower to repay such borrowings within twelve months with funds other than from additional working capital borrowings.
+
+## General Partner Interest and Incentive Distribution Rights
+
+Until April 1, 2020, our general partner owned an approximate 2% general partner economic interest in the Partnership, including the IDRs. On April 1, 2020, we closed the transactions contemplated by the Partnership Interests Restructuring Agreement, pursuant to which the IDRs were eliminated and the 2% general partner economic interest was converted into a non-economic general partner interest in the Partnership. As of December 31, 2020, our general partner holds a non-economic general partner interest in the Partnership, and affiliates of SPLC own a 68.5% limited partner interest in us (269,457,304 common units), as well as 50,782,904 Series A Preferred Units. Further, under the Second Amended and Restated Partnership Agreement, our general partner or its assignee has agreed to waive a portion of the distributions that would otherwise be
+
+<span id="page-50-0"></span>
+payable on the common units issued to SPLC as part of the April 2020 Transaction, in an amount of \$20 million per quarter for four consecutive fiscal quarters, beginning with the distribution made with respect to the second quarter of 2020.
+
+See Note 3 — Acquisitions and Other Transactions, Note 4 — Related Party Transactions and Note 11 — (Deficit) Equity in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional details.
+
+## Equity Compensation Plan
+
+The information relating to our equity compensation plan required by Item 5 is incorporated by reference to such information as set forth in Item 12.   
+Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters of this report.
+
+<span id="page-51-0"></span>
+## Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+
+Management’s Discussion and Analysis of Financial Condition and Results of Operations are the analysis of our financial performance, financial condition and significant trends that may af ect future performance. It should be read in conjunction with the consolidated financial statements and notes thereto included in Part II, Item 8 of this report. It should also be read together with “Risk factors” and “Cautionary Statement Regarding Forward-Looking Statements” in this report.
+
+On January 1, 2019, we adopted Topic 842, Leases (“the lease standard”) by applying the modified retrospective approach. Results for reporting periods beginning after January 1, 2019 and balances at December 31, 2019 are presented in accordance with the lease standard, while prior period amounts are not adjusted and continue to be reported in accordance with our historical accounting under previous generally accepted accounting principles in the United States (“GAAP”). See Note 9 — Leases in the Notes to Consolidated Financial Statements included in Part II, Item 8.
+
+## Partnership Overview
+
+We own, operate, develop and acquire pipelines and other midstream assets and logistic assets. As of December 31, 2020, our assets include interests in entities that own (a) crude oil and refined products pipelines and terminals that serve as key infrastructure to transport onshore and offshore crude oil production to Gulf Coast and Midwest refining markets and deliver refined products from those markets to major demand centers and (b) storage tanks and financing receivables that are secured by pipelines, storage tanks, docks, truck and rail racks and other infrastructure used to stage and transport intermediate and finished products. Our assets also include interests in entities that own natural gas and refinery gas pipelines that transport offshore natural gas to market hubs and deliver refinery gas from refineries and plants to chemical sites along the Gulf Coast.
+
+For a description of our assets, please see Part I, Item 1 — Business and Properties of this report.
+
+## 2020 developments include:
+
+Purchase and Sale Agreement. On April 1, 2020, we closed the following transactions (collectively referred to as the “April 2020 Transaction”) pursuant to the Purchase and Sale Agreement dated as of February 27, 2020 (the “Purchase and Sale Agreement”) by and among the Partnership, Triton West LLC (“Triton”), SPLC, Shell GOM Pipeline Company LLC (“SGOM”), Shell Chemical LP (“Shell Chemical”) and Equilon Enterprises LLC d/b/a Shell Oil Products US (“SOPUS”):
+
+i. We acquired 79% of the issued and outstanding membership interests in Mattox Pipeline Company LLC from SGOM (the “Mattox Transaction”).
+
+ii. SOPUS and Shell Chemical transferred to Triton, as a designee of the Partnership, certain logistics assets at the Shell Norco Manufacturing Complex located in Norco, Louisiana, which are comprised of crude, chemicals, intermediate and finished product pipelines, storage tanks, docks, truck and rail racks and supporting infrastructure (such assets, the “Norco Assets” and such transaction, the “Norco Transaction”).
+
+Partnership Interests Restructuring Agreement. On April 1, 2020, simultaneously with the closing of the transactions contemplated by the Purchase and Sale Agreement, we also closed the transactions contemplated by the Partnership Interests Restructuring Agreement with our general partner, dated as of February 27, 2020 (the “Partnership Interests Restructuring Agreement”), eliminating all incentive distribution rights (“IDRs”) and converting the economic general partner interest in the Partnership into a non-economic general partner interest (the “GP/IDR Restructuring”). As consideration for the transactions contemplated by the Purchase and Sale Agreement and the Partnership Interests Restructuring Agreement, SPLC received 160,000,000 newly issued common units, plus 50,782,904 Series A perpetual convertible preferred units (the “Series A Preferred Units”). Our general partner (or its assignee) has also agreed to waive a portion of the distributions that would otherwise be payable on the common units issued to SPLC as part of the April 2020 Transaction, in an amount of \$20 million per quarter for four consecutive fiscal quarters, beginning with the distribution made with respect to the second quarter of 2020.
+
+Refer to Note 3 — Acquisitions and Other Transactions in the Notes to Consolidated Financial Statements included in Part II, Item 8 for more details.
+
+We generate revenue from the transportation, terminaling and storage of crude oil, refined products, and intermediate and finished products through our pipelines, storage tanks, docks, truck and rail racks, generate income from our equity and other investments, and generate interest income from financing receivables on the Norco Assets. Our revenue is generated from customers in the same industry, our Parent’s affiliates, integrated oil companies, marketers and independent exploration, production and refining companies primarily within the Gulf Coast region of the United States. We generally do not own any of the crude oil, refinery gas or refined petroleum products we handle, nor do we engage in the trading of these commodities. We
+
+<span id="page-52-0"></span>
+therefore have limited direct exposure to risks associated with fluctuating commodity prices, although these risks indirectly influence our activities and results of operations over the long-term.
+
+Notable 2020 and certain anticipated 2021 impacts to net income and cash available for distribution (“CAFD”) include:
+
+Hurricanes. As a result of several hurricanes, we incurred an impact of approximately \$20 million to net income and CAFD in the latter half 2020. Certain producers in the Gulf of Mexico elected to shut-in and evacuate as a safety precaution, while others were forced to shut-in or curtail production due to onshore closures. Further, certain onshore assets were impacted by power outages related to the storms. There was no material impact to our people or assets as a result of the storms.
+
+Planned Turnarounds. Certain connected producers had planned turnarounds during 2020. As a result, the impact to net income and CAFD from this turnaround activity was approximately \$15 million for the year ended 2020. Further, we anticipate an impact of approximately \$10 million to net income and CAFD from planned turnaround activity in 2021.
+
+The broader market environment for our customers was challenging in 2019 and continued to be challenging during 2020 given the continuing effects of the COVID-19 pandemic, which has impacted worldwide demand for oil and gas and increased downward pressure on oil prices. The responses of oil and gas producers to the lower demand for, and price of, oil and natural gas are constantly evolving and remain uncertain. The master limited partnership (“MLP”) market has also changed significantly, as capital for high growth fueled by dropdown activity continues to be constrained. We are fortunate to have the support of RDS, who has provided us favorable loan and equity terms, allowing us flexibility to acquire high quality assets from our affiliates. While we expect to retain this flexibility, we anticipate continuing to moderate inorganic growth in our asset base and focusing on the sustainable operation of our core assets, cash preservation and the organic growth of our business in 2021.
+
+## Executive Overview
+
+Net income was \$556 million and net income attributable to the Partnership was \$543 million in 2020. We generated cash from operations of \$650 million. As of December 31, 2020, we had cash and cash equivalents of \$320 million, total debt of \$2,692 million and unused capacity under our revolving credit facilities of \$896 million.
+
+Our 2020 operations and strategic initiatives demonstrated our continuing focus on our business strategies:
+
+Maintain operational excellence through prioritization of safety, reliability and efficiency;
+
+• Enhanced focus on cash optimization and reduced discretionary project spend;
+
+Focus on advantageous commercial agreements with creditworthy counterparties to enhance financial results and deliver reliable distribution growth over the long-term; and
+
+• Optimize existing assets and pursue organic growth opportunities.
+
+## How We Evaluate Our Operations
+
+Our management uses a variety of financial and operating metrics to analyze our performance. These metrics are significant factors in assessing our operating results and profitability and include: (i) revenue (including pipeline loss allowance (“PLA”) from contracted capacity and throughput); (ii) operations and maintenance expenses (including capital expenses); (iii) Adjusted EBITDA (defined below); and (iv) CAFD.
+
+## Contracted Capacity and Throughput
+
+The amount of revenue our assets generate primarily depends on our transportation and storage services agreements with shippers and the volumes of crude oil, refinery gas and refined products that we handle through our pipelines, terminals and storage tanks.
+
+<span id="page-53-0"></span>
+The commitments under our transportation, terminaling and storage services agreements with shippers and the volumes we handle in our pipelines and storage tanks are primarily affected by the supply of, and demand for, crude oil, refinery gas, natural gas and refined products in the markets served directly or indirectly by our assets. This supply and demand is impacted by the market prices for these products in the markets we serve. The COVID-19 pandemic continues to cause significant disruptions in the U.S. economy and financial and energy markets, including substantial demand destruction in the oil and gas markets. Responses of oil and gas producers to the lower demand for, and price of, oil and natural gas are constantly evolving and unpredictable, but further or continued decreases in demand (including due to renewed economic shutdowns and restrictions in response to increased COVID-19 infection rates) could force producers to shut-in certain wellheads or otherwise cease or curtail their operations. It also could reduce the volumes running through our pipelines and terminals.
+
+We utilize the commercial arrangements we believe are the most prudent under the market conditions to deliver on our business strategy. The results of our operations will be impacted by our ability to:
+
+• maintain utilization of and rates charged for our pipelines and storage facilities;
+
+• utilize the remaining uncommitted capacity on, or add additional capacity to, our pipeline systems;
+
+.： increase throughput volumes on our pipeline systems by making connections to existing or new third-party pipelines or other facilities, primarily driven by the anticipated supply of, and demand for, crude oil and refined products; and
+
+• identify and execute organic expansion projects.
+
+## Operations and Maintenance Expenses
+
+Our operations and maintenance expenses consist primarily of:
+
+• labor expenses (including contractor services);
+
+insurance costs (including coverage for our consolidated assets and operated joint ventures);
+
+• utility costs (including electricity and fuel);
+
+repairs and maintenance expenses; and
+
+major maintenance costs (related to the terminaling service agreements of the Norco Assets, which are expensed as incurred because the Partnership does not own the related assets).
+
+Certain costs naturally fluctuate based on throughput volumes and the grades of crude oil and types of refined products we handle, whereas other costs generally remain stable across broad ranges of throughput and storage volumes, but can vary depending upon the level of both planned and unplanned maintenance activity in the particular period. Our maintenance activity can be impacted by events such as turnarounds, asset integrity work and storms.
+
+Our management seeks to maximize our profitability by effectively managing operations and maintenance expenses. For example, our property and business interruption insurance is provided by a wholly owned subsidiary of Shell, which results in cost savings and improved coverage. Further, we, along with our Parent, are currently undertaking an initiative to reduce operational costs. We expect that some of these activities, such as re-scoping and/or deferring projects, evaluating third-party service contracts and reducing the use of contractors, will directly benefit our assets and their contribution to our net income. Other activities, such as the streamlining of structure and processes at the Parent level, will result in a reduction of certain costs and fees for which we reimburse and pay SPLC. While cost effectiveness has always been a focus of the business, it is of increased importance given the current operating environment.
+
+## Adjusted EBITDA and Cash Available for Distribution
+
+Adjusted EBITDA and CAFD have important limitations as analytical tools because they exclude some, but not all, items that affect net income and net cash provided by operating activities. You should not consider Adjusted EBITDA or CAFD in isolation or as a substitute for analysis of our results as reported under GAAP. Additionally, because Adjusted EBITDA and CAFD may be defined differently by other companies in our industry, our definition of Adjusted EBITDA and CAFD may not be comparable to similarly titled measures of other companies, thereby diminishing their utility.
+
+The GAAP measures most directly comparable to Adjusted EBITDA and CAFD are net income and net cash provided by operating activities. Adjusted EBITDA and CAFD should not be considered as an alternative to GAAP net income or net cash provided by operating activities. Please refer to “Results of Operations - Reconciliation of Non-GAAP Measures” for the reconciliation of GAAP measures net income and cash provided by operating activities to non-GAAP measures Adjusted EBITDA and CAFD.
+
+<span id="page-54-0"></span>
+We define Adjusted EBITDA as net income before income taxes, net interest expense, gain or loss from dispositions of fixed assets, allowance oil reduction to net realizable value, loss from revision of asset retirement obligation, and depreciation, amortization and accretion, plus cash distributed to us from equity method investments for the applicable period, less equity method distributions included in other income and income from equity method investments. We define Adjusted EBITDA attributable to the Partnership as Adjusted EBITDA less Adjusted EBITDA attributable to noncontrolling interests and Adjusted EBITDA attributable to Parent.
+
+We define CAFD as Adjusted EBITDA attributable to the Partnership less maintenance capital expenditures attributable to the Partnership, net interest paid by the Partnership, cash reserves, income taxes paid and Series A Preferred Unit distributions, plus net adjustments from volume deficiency payments attributable to the Partnership, reimbursements from Parent included in partners’ capital, principal and interest payments received on financing receivables and certain one-time payments received. CAFD will not reflect changes in working capital balances.
+
+The definition of CAFD was updated for the second quarter of 2020 due to the closing of the April 2020 Transaction, which resulted in part in the transfer of the Norco Assets to be accounted for as a failed sale leaseback under the lease standard. As a result, the Partnership recognized financing receivables from SOPUS and Shell Chemical. These assets impact CAFD since principal payments on the financing receivables are not included in net income. As a result, such principal and interest payments on the financing receivables have been included as an adjustment to CAFD since the second quarter of 2020. Also as partial consideration for the April 2020 Transaction, SPLC received 50,782,904 Series A Preferred Units. The distributions on these Series A Preferred Units have been deducted from CAFD since the second quarter of 2020.
+
+We believe that the presentation of these non-GAAP supplemental financial measures provides useful information to management and investors in assessing our financial condition and results of operations.
+
+Adjusted EBITDA and CAFD are non-GAAP supplemental financial measures that management and external users of our consolidated financial statements, such as industry analysts, investors, lenders and rating agencies, may use to assess:
+
+our operating performance as compared to other publicly-traded partnerships in the midstream energy industry, without regard to historical cost basis or, in the case of Adjusted EBITDA, financing methods;
+
+the ability of our business to generate sufficient cash to support our decision to make distributions to our unitholders;
+
+• our ability to incur and service debt and fund capital expenditures; and
+
+• the viability of acquisitions and other capital expenditure projects and the returns on investment of various investment opportunities.
+
+## Factors Affecting Our Business and Outlook
+
+We believe key factors that impact our business are the supply of, and demand for, crude oil, natural gas, refinery gas and refined products in the markets in which our business operates. We also believe that our customers’ requirements, competition and government regulation of crude oil, refined products, natural gas and refinery gas play an important role in how we manage our operations and implement our long-term strategies. In addition, acquisition opportunities, whether from Shell or third parties, and financing options, will also impact our business. These factors are discussed in more detail below.
+
+## Changes in Crude Oil Sourcing and Refined Product Demand Dynamics
+
+To effectively manage our business, we monitor our market areas for both short-term and long-term shifts in crude oil and refined products supply and demand. Changes in crude oil supply such as new discoveries of reserves, declining production in older fields, operational impacts at producer fields and the introduction of new sources of crude oil supply affect the demand for our services from both producers and consumers. In addition, general economic, broad market and worldwide health considerations, including the continuing effects of the COVID-19 pandemic, can also affect sourcing and demand dynamics for our services.
+
+One of the strategic advantages of our crude oil pipeline systems is their ability to transport attractively priced crude oil from multiple supply markets to key refining centers along the Gulf Coast. Our crude oil shippers periodically change the relative mix of crude oil grades delivered to the refineries and markets served by our pipelines. They also occasionally choose to store crude longer term when the forward price is higher than the current price (a “contango market”). While these changes in the sourcing patterns of crude oil transported or stored are reflected in changes in the relative volumes of crude oil by type handled by our pipelines, our total crude oil transportation revenue is primarily affected by changes in overall crude oil supply and demand dynamics, including the demand destruction resulting from the COVID-19 pandemic, as well as U.S. exports.
+
+<span id="page-55-0"></span>
+Similarly, our refined products pipelines have the ability to serve multiple major demand centers. Our refined products shippers periodically change the relative mix of refined products shipped on our refined products pipelines, as well as the destination points, based on changes in pricing and demand dynamics. While these changes in shipping patterns are reflected in relative types of refined products handled by our various pipelines, our total product transportation revenue is primarily affected by changes in overall refined products supply and demand dynamics, including the continuing effects of the COVID-19 pandemic. Demand can also be greatly affected by refinery performance in the end market, as refined products pipeline demand will increase to fill the supply gap created by refinery issues.
+
+We can also be constrained by asset integrity considerations in the volumes we ship. We may elect to reduce cycling on our systems to reduce asset integrity risk, which in turn would likely result in lower revenues.
+
+As these supply and demand dynamics shift, we anticipate that we will continue to actively pursue projects that link new sources of supply to producers and consumers and to create new services or capacity arrangements that meet customer requirements. For example, production from Shell’s Appomattox platform in the Gulf of Mexico, which came online during 2019, tied into our existing Proteus and Endymion systems to bring crude onshore. Similarly, we expect to continue extending our corridor pipelines to provide developing growth regions in the Gulf of Mexico with access via our existing corridors to onshore refining centers and market hubs. By way of example, in the latter part of 2019 we announced a solicitation of interest for a potential expansion of the Mars system to address growing production volumes in the Gulf of Mexico regions served by Mars. It is expected that the project would be fully operational with incremental growth volumes arriving into the Mars system in 2022. We believe this strategy will allow our offshore business to grow profitably throughout demand cycles.
+
+## Changes in Customer Contracting
+
+We generate a portion of our revenue under long-term transportation service agreements with shippers, including ship-or-pay agreements and life-of-lease transportation agreements, some of which provide a guaranteed return, and storage service agreements with marketers, pipelines and refiners. Historically, the commercial terms of these long-term transportation and storage service agreements have substantially mitigated volatility in our financial results by limiting our direct exposure to reductions in volumes due to supply or demand variability. Our business could be negatively affected if we are unable to renew or replace our contract portfolio on comparable terms, by sustained downturns or sluggishness in commodity prices, or the economy in general (as with the continuing effects of the COVID-19 pandemic, including the impacts on the demand for oil and gas), and is impacted by shifts in supply and demand dynamics, the mix of services requested by the customers of our pipelines, competition and changes in regulatory requirements affecting our operations. Our business can also be impacted by asset integrity or customer interruptions and natural disasters or other events that could lead customers to invoke force majeure or other defenses to avoid contractual performance.
+
+During the second quarter of 2019, Zydeco recontracted previously expired volumes under certain of its throughput and deficiency agreements (“T&D agreements”). Although we replaced the volumes, the rates under the new T&D agreements were lower than those previously contracted. Two of these T&D agreements expired in the fourth quarter of 2020, and have not been replaced. The T&D agreements that expired accounted for less than 10% of our revenue for 2020. There are several ways in which this revenue could be replaced in the future, such as through re-contracting or spot shipments, the outcome of which will be dependent on market and customer dynamics.
+
+The market environment at any given time will dictate the rates, terms and duration of agreements that shippers are willing to enter into, as well as the contracts that best satisfy the needs of our business. As we have grown and diversified our business over the past several years, and as recently as the second quarter of 2020 with the April 2020 Transaction, we have benefited from shifting reliance away from the results of any one asset. While Zydeco continues to serve an important market, and we strive to maximize the long-term value of the system to both shippers and the pipeline, we will continue to diversify our risk across products, customers and geographies.
+
+## Changes in Commodity Prices and Customers’ Volumes
+
+Crude oil prices have fluctuated significantly over the past few years, often with drastic moves in relatively short periods of time. During 2020, the demand for, and price of, oil and natural gas decreased significantly due to the continuing effects of the COVID-19 pandemic and the resulting governmental regulations and travel restrictions aimed at slowing the spread of the virus. The current global geopolitical and economic uncertainty continues to contribute to future volatility in financial and commodity markets. Our direct exposure to commodity price fluctuations is limited to the PLA provisions in our tariffs. Indirectly, global demand for refined products and chemicals could impact our terminal operations and refined products and refinery gas pipelines, as well as our crude pipelines that feed U.S. manufacturing demand. Likewise, changes in the global market for crude oil could affect our crude oil pipeline and terminals and require expansion capital expenditures to reach
+
+<span id="page-56-0"></span>
+growing export hubs. Demand for crude oil, refined products and refinery gas may decline in the areas we serve as a result of decreased production by our customers, depressed commodity prices, decreased third-party investment in the industry, increased competition and other adverse economic factors such as the current COVID-19 pandemic, which affect the exploration, production and refining industries. Although we have seen the earlier depressed demand due to the pandemic for crude oil and refined products level off, further increases in COVID-19 infection rates could have additional negative impacts on demand. This could force producers to shut-in certain wellheads or otherwise cease or curtail their operations. It also could reduce the volumes running through our pipelines and terminals. However, fixed contracts with volume minimums and demand for tanks for storage are expected to moderate any impact on our terminaling and storage service revenue.
+
+Certain of our assets benefit from long-term fee-based arrangements and are strategically positioned to connect crude oil volumes originating from key onshore and offshore production basins to the Texas and Louisiana refining markets, where demand for throughput has remained strong. Historically, we have not experienced a material decline in throughput volumes on our crude oil pipeline systems as a result of lower crude oil prices. However, if crude oil prices remain at lower levels for a sustained period due to the continuing effects of the COVID-19 pandemic or other factors, we will continue to see a reduction in our transportation volumes if production coming into our systems is deferred and our associated allowance oil sales decrease. Our customers may also experience liquidity and credit problems or other unexpected events, which could cause them to defer development or repair projects, avoid our contracts in bankruptcy, invoke force majeure clauses or other defenses to avoid contractual performance or renegotiate our contracts on terms that are less attractive to us or impair their ability to perform under our contracts.
+
+Our throughput volumes on our refined products pipeline systems depend primarily on the volume of refined products produced at connected refineries and the desirability of our end markets. These factors in turn are driven by refining margins, maintenance schedules and market differentials. Refining margins depend on the cost of crude oil or other feedstocks and the price of refined products, which have decreased significantly during 2020. These margins are affected by numerous factors beyond our control, including the domestic and global supply of and demand for crude oil and refined products. Our refined products pipelines are continuing to experience demand destruction in the near term due to the COVID-19 pandemic, which has resulted in a significant decrease in consumer demand for refined products such as gasoline and jet fuel.
+
+## Other Changes in Customers’ Volumes
+
+Onshore crude transportation volumes were down in 2020 versus 2019 due to demand destruction resulting from the COVID-19 pandemic.
+
+Offshore crude transportation volumes were down in 2020 versus 2019 due to planned maintenance activities, storm activity in the Gulf of Mexico and delays to new wells or well work overs due to storm activity.
+
+Onshore terminaling and storage volumes were down in 2020 versus 2019 due to lower volume throughput from our customers as a result of the demand destruction due to the COVID-19 pandemic.
+
+## Major Maintenance Projects
+
+At the end of 2019, we finalized a directional drill project on the Zydeco pipeline system to address soil erosion over a two-mile section of our 22-inch diameter pipeline under the Atchafalaya River and Bayou Shaffer in Louisiana (the “directional drill project”). Zydeco incurred approximately \$42 million in maintenance capital expenditures for the total directional drill project. In connection with the acquisitions of additional interests in Zydeco, SPLC agreed to reimburse us against our proportionate share of certain costs and expenses with respect to this project. Costs incurred and reimbursed during 2020 were not material.
+
+During 2020, we incurred costs related to the Bessie Heights project (“Bessie Heights”), which is a directional drill project on the Zydeco pipeline system to replace an exposed and suspended 22-inch diameter pipe in the low-lying marsh area between Bird Island and Bridge City, Texas, as well as to replace lap welded pipe below the Neches River. Zydeco incurred approximately \$13 million in maintenance capital expenditures in 2020 to complete the project. Any remaining spend in the first quarter of 2021 is not expected to be material.
+
+For expected capital expenditures in 2020, refer to Capital Resources and Liquidity — Capital Expenditures and Investments.
+
+## Major Expansion Projects
+
+On Mars, we announced in the latter part of 2019 a solicitation of interest for a potential expansion of the system. Letters of intent are in place, and we are now progressing definitive agreements with producers and expect to complete them by the end of the first quarter of 2021. SPLC has elected to fund the installation of the equipment necessary to enable greater throughput
+
+<span id="page-57-0"></span>
+volumes on the system, but the revenue associated with increased throughput volumes will benefit Mars. It is expected that the project would be fully operational with incremental growth volumes arriving into the Mars system in 2022.
+
+## Customers
+
+We transport and store crude oil, refined products, natural gas and refinery gas for a broad mix of customers, including producers, refiners, marketers and traders, and are connected to other crude oil and refined products pipelines. In addition to serving directly-connected U.S. Gulf Coast markets, our crude oil and refined products pipelines have access to customers in various regions of the United States through interconnections with other major pipelines. Our customers use our transportation and storage services for a variety of reasons. Refiners typically require a secure and reliable supply of crude oil over a prolonged period of time to meet the needs of their specified refining diet and frequently enter into long-term firm transportation agreements to ensure a ready supply of crude oil, rate surety and sometimes sufficient transportation capacity over the life of the contract. Similarly, chemical sites require a secure and reliable supply of refinery gas to crackers and enter into long-term firm transportation agreements to ensure steady supply. Producers of crude oil and natural gas require the ability to deliver their product to market and frequently enter into firm transportation contracts to ensure that they will have sufficient capacity available to deliver their product to delivery points with greater market liquidity. Marketers and traders generate income from buying and selling crude oil and refined products to capitalize on price differentials over time or between markets. Our customer mix can vary over time and largely depends on the crude oil and refined products supply and demand dynamics in our markets. Refer to Note 14 — Transactions with Major Customers and Concentration of Credit Risk in the Notes to the Consolidated Financial Statements included in Part II, Item 8 for additional information.
+
+## Competition
+
+Our pipeline systems compete primarily with other interstate and intrastate pipelines and with marine and rail transportation. Some of our competitors may expand or construct transportation systems that would create additional competition for the services we provide to our customers. For example, newly constructed transportation systems in the onshore Gulf of Mexico region may increase competition in the markets where our pipelines operate. In addition, future pipeline transportation capacity could be constructed in excess of actual demand in the market areas we serve, which could reduce the demand for our services, and could lead to the reduction of the rates that we receive for our services. While we do see some variation from quarter-to quarter resulting from changes in our customers’ demand for transportation, this risk has historically been mitigated by the long-term, fixed rate basis upon which we have contracted a substantial portion of our capacity.
+
+Our storage terminal competes with surrounding providers of storage tank services. Some of our competitors have expanded terminals and built new pipeline connections, and third parties may construct pipelines that bypass our location. These, or similar events, could have a material adverse impact on our operations.
+
+Our refined products terminals generally compete with other terminals that serve the same markets. These terminals may be owned by major integrated oil and gas companies or by independent terminaling companies. While fees for terminal storage and throughput services are not regulated, they are subject to competition from other terminals serving the same markets. However, our contracts provide for stable, long-term revenue, which is not impacted by market competitive forces.
+
+## Regulation
+
+Our assets are subject to regulation by various federal, state and local agencies; for example, our interstate common carrier pipeline systems are subject to economic regulation by FERC. Intrastate pipeline systems are regulated by the appropriate state agency.
+
+In May 2020, Zydeco, Mars, LOCAP and Colonial filed with FERC to increase rates subject to FERC’s indexing adjustment methodology by approximately 2.0% starting on July 1, 2020. Rate complaints are currently pending at FERC in Docket Nos. OR18-7-002, et al. challenging Colonial’s tariff rates, its market power and its practices and charges related to transmix and product volume loss. While certain procedural deadlines have been extended as a result of the impact of the COVID-19 pandemic, an initial decision by the administrative law judge in this proceeding is currently scheduled for August 2021. A FERC decision is anticipated by spring 2022.
+
+On May 21, 2020, FERC issued a Policy Statement resolving the Notice of Inquiry (“NOI”) in Docket No. PL19-4-000. The Policy Statement revises FERC’s methodology for calculating the return on equity (“ROE”) component of cost-of-service - based rates to include the Capital Asset Pricing Model (“CAPM”). FERC’s use of the discounted cash flow (“DCF”) methodology will continue to be used, but in equal weighting with CAPM. In the Policy Statement, FERC also clarified certain aspects of its requirements regarding proxy group composition and treatment of outliers. Finally, FERC encouraged carriers to
+
+<span id="page-58-0"></span>
+refile their 2019 FERC Form No. 6 either revising their ROE to include the CAPM model or stating that they used the DCF model.
+
+On July 18, 2018, FERC issued Order No. 849, which adopts procedures to address the impact of the federal legislation passed on December 22, 2017 known as the “Tax Cuts and Jobs Act” (“TCJA”) and FERC’s Revised Policy Statement on Treatment of Income Taxes in Docket No. PL17-1-000, issued on March 15, 2018 (the “Revised Policy Statement”). FERC contemporaneously issued the Order on Rehearing in Docket No. PL17-1-000, which affirms FERC’s position in the Revised Policy Statement that eliminated the recovery of an income tax allowance by MLP oil and gas pipelines in cost-of-servicebased rates. In Order No. 849, however, FERC has clarified its general disallowance of MLP income tax allowance recovery by providing that an MLP will not be precluded in a future proceeding from making a claim that it is entitled to an income tax allowance. FERC will permit an MLP to demonstrate that its recovery of an income tax allowance does not result in a “double recovery of investors’ income tax costs.” FERC affirmed Order No. 849 on rehearing on April 18, 2019. Parties sought judicial review of the Revised Policy Statement, and that challenge, initially filed in March 2019, was denied by the U.S. Court of Appeals for the D.C. Circuit on August 14, 2020. No further petitions are outstanding on this matter.
+
+As was the case with the Revised Policy Statement, FERC did not propose any industry-wide action regarding review of rates for crude oil and liquids pipelines in its July 2018 issuances. MLP owned crude oil and liquids pipelines are required to report Page 700 information in their FERC Form 6 annual reports. Both the elimination of the income tax allowance, as well as the corporate income tax reduction enacted as part of the TCJA, were considered by FERC in the order on the five-year review that was issued on December 17, 2020, although FERC declined in that order to incorporate the effect of the income tax allowance elimination in setting the new indexing adjustment. FERC will also implement the elimination of the income tax allowance in proceedings involving review of initial cost-of-service rates, rate changes and rate complaints. For crude oil and liquids pipelines owned by non-MLP partnerships and other pass-through businesses, FERC will address such issues as they arise in subsequent proceedings.
+
+On June 18, 2020, FERC issued a NOI as Docket No. RM20-14-000 regarding the five-year review of the oil pipeline rate index formula. FERC proposed a new formula of Producer Price Index for Finished Goods (“PPI-FG”) plus 0.09% based on its review of industry data provided in the annual FERC Form 6 reports from 2014 through 2019. The NOI proposal, which would take effect in July 2021, would change the current five-year formula from PPI-FG plus 1.23%. FERC invited comments regarding its proposal and any alternative methodologies for calculating the index level, including issues such as different data trimming methodologies and whether it should reflect the effects of any cost-of-service policy changes in the calculation of the index level. Comments on the NOI were filed by multiple parties by August 17, 2020, and reply comments were filed by September 11, 2020. After reviewing the comments and reply comments by interested parties, FERC issued an order on December 17, 2020 adopting a new formula of PPI-FG plus 0.78% for the next five-year period commencing on July 1, 2021. This order is subject to rehearing and possible judicial review.
+
+We believe that the recent issuances from FERC, including the Revised Policy Statement and issuances in July 2018, will not have a material impact on our operations and financial performance. Since FERC only maintains jurisdiction over interstate crude oil and liquids pipelines, the recent decisions are not expected to have an impact on rates charged through our offshore operations. FERC also does not maintain jurisdiction over certain of the onshore assets in which we have interests. Rates related to these assets should not be impacted by FERC’s decision. For our FERC-regulated rates charged through our interstate crude oil and liquids pipelines, the rates are based on either a negotiated or market-based rate and are not set through cost-of-service ratemaking subject to FERC’s approval, which are below the cost-of-service rates established by FERC. As such, neither our negotiated nor market-based rate revenue for our FERC-regulated assets would be subject to the income tax recovery disallowance. Additionally, we have evaluated the impact of FERC’s recent policy changes on our non-operated joint ventures. Due to the nature of their assets, operations and/or their entity form, we do not believe there will be any material impact to their operations and earnings.
+
+On October 20, 2016, FERC issued an Advance Notice of Proposed Rulemaking in Docket No. RM17-1-000 (the “ANOPR”) regarding changes to the oil pipeline rate index methodology and data reporting on Page 700 of FERC’s Form No. 6. On February 21, 2020, FERC withdrew the ANOPR and denied additional shipper requests seeking changes to Page 700 reporting requirements as the ANOPR’s proposed changes were not consistent with FERC’s simplified and streamlined indexing regime. No further updates are expected on this matter.
+
+On October 1, 2019, PHMSA issued three new final rules. One rule establishes procedures to implement the expanded emergency order enforcement authority set forth in an October 2016 interim final rule. Among other things, this rule allows PHMSA to issue an emergency order without advance notice or opportunity for a hearing. The other two rules impose several new requirements on operators of onshore gas transmission systems and hazardous liquids pipelines. The rule concerning gas transmission extends the requirement to conduct integrity assessments beyond HCAs to pipelines in Moderate Consequence
+
+<span id="page-59-0"></span>
+Areas (“MCAs”). It also includes requirements to reconfirm maximum allowable operating pressure (“MAOP”), report MAOP exceedances, consider seismicity as a risk factor in integrity management and use certain safety features on in-line inspection equipment. The rule concerning hazardous liquids extends the required use of leak detection systems beyond HCAs to all regulated non-gathering hazardous liquid pipelines, requires reporting for gravity fed lines and unregulated gathering lines, requires periodic inspection of all lines not in HCAs, calls for inspections of lines after extreme weather events and adds a requirement to make all onshore lines in or affecting HCAs capable of accommodating in-line inspection tools over the next 20 years. There are new MCAs on some of our gas transmission lines; however, these lines are already fully inspected due to HCAs on the lines, so these new areas do not impact inspection or maintenance programs on the lines. On the liquids side, all onshore lines have leak detection and are currently inspected under our Integrity Management Program, so there are no new inspections required. Some of our product lines may need to be made piggable; however, the full evaluations of those lines have not been completed to understand potential cost implications.
+
+## Acquisition Opportunities
+
+We may pursue acquisitions of complementary assets from Shell, as well as from third parties. We also may pursue acquisitions jointly with Shell. Given the size and scope of Shell’s footprint and its significant ownership interest in us, we expect acquisitions from Shell will be a growth mechanism for the foreseeable future. However, Shell and its affiliates are under no obligation to sell or offer to sell us additional assets or to pursue acquisitions jointly with us, and we are under no obligation to buy any additional assets from them or to pursue any joint acquisitions with them. We will continue to focus our acquisition strategy on transportation and midstream assets. We believe that we would be well positioned to acquire midstream assets from Shell, as well as from third parties, should such opportunities arise. Identifying and executing acquisitions is a key part of our strategy. However, if we do not make acquisitions on economically acceptable terms or if we incur a substantial amount of debt in connection with the acquisitions, our future growth will be limited, and the acquisitions we do make may reduce, rather than increase, our available cash. Our ability to obtain financing or access capital markets may also directly impact our ability to continue to pursue strategic acquisitions. The level of current market demand for equity issued by MLPs may make it more challenging for us to fund our acquisitions with the issuance of equity in the capital markets. However, we believe our balance sheet offers us flexibility, providing us other financing options such as hybrid securities, purchases of common units by RDS and debt. While we expect to retain this flexibility, in 2021 we anticipate continuing to moderate inorganic growth in our asset base and focusing on the sustainable operation of our core assets, cash preservation and organic growth of our business.
+
+<span id="page-60-0"></span>
+Results of Operations
+![](tables/table_pg60_num0.csv)
+For a reconciliation of Adjusted EBITDA and CAFD attributable to the Partnership to their most comparable GAAP measures, please read “—Reconciliation of Non-(1) GAAP Measures.”
+
+<span id="page-61-0"></span>
+![](tables/table_pg61_num0.csv)
+
+<table><tr><td>storage volumes Lockporttermi</td><td>223</td><td>228</td><td>226</td></tr></table>
+
+![](tables/table_pg61_num2.csv)
+Pipeline throughput is defined as the volume of delivered barrels. For additional information regarding our pipeline and terminal systems, refer to Part I, Item I —(1) Business and Properties — Our Assets and Operations.
+The actual delivered barrels for Mattox are disclosed in the above table for the comparative periods. However, Mattox is billed by monthly minimum quantity per (2) dedication and transportation agreements entered into in April 2020. Based on the contracted volume determined in the agreements, the thousands of barrels per day (for revenue calculation purposes) for Mattox are 162 thousands of barrels per day for 2020.
+Mattox came online during the second quarter of 2019 and therefore there are no volumes presented for 2018.(3)
+Terminaling throughput is defined as the volume of delivered barrels and storage is defined as the volume of stored barrels. (4)
+Refinery Gas Pipeline and our refined products terminals are not included above, as they generate revenue under transportation and terminaling service agreements, (5) respectively, that provide for guaranteed minimum throughput.
+Based on reported revenues from transportation and allowance oil divided by delivered barrels over the same time period. Actual tariffs charged are based on shipping (6) points along the pipeline system, volume and length of contract.
+Based on reported revenues from transportation and storage divided by delivered and stored barrels over the same time period. Actual rates are based on contract volume (7) and length.
+Mattox is billed at a fixed rate of \$1.52 per barrel for the monthly minimum quantity in accordance with the terms of dedication and transportation agreements entered (8) into in April 2020.
+Mattox is billed at a fixed rate (see note above) per dedication and transportation agreements. The rates for 2019 and 2018 are not applicable, as we only entered into (9) these agreements in April 2020. These agreements do not apply to 2019 and 2018.
+
+<span id="page-62-0"></span>
+## Reconciliation of Non-GAAP Measures
+
+The following tables present a reconciliation of Adjusted EBITDA and CAFD to net income and net cash provided by operating activities, the most directly comparable GAAP financial measures, for each of the periods indicated.
+
+Please read “—Adjusted EBITDA and Cash Available for Distribution” for more information.
+
+![](tables/table_pg62_num0.csv)
+Amount represents both paid and accrued interest attributable to the period. (1)
+
+<span id="page-63-0"></span>
+![](tables/table_pg63_num0.csv)
+Amount represents both paid and accrued interest attributable to the period. (1)
+
+<span id="page-64-0"></span>
+The following discussion includes a comparison of our Results of Operations and Capital Resources and Liquidity — Cash Flows from Our Operations for 2020 and 2019. A discussion of changes in our Results of Operations and Capital Resources and Liquidity — Cash Flows from Our Operations from 2018 to 2019 has been omitted from the Form 10-K, but may be found in Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations of our Form 10-K for the year ended December 31, 2019, filed with the SEC on February 20, 2020.
+
+## 2020 Compared to 2019
+
+## Revenues
+
+Total revenue decreased by \$22 million in 2020 as compared to 2019, comprised of decreases of \$53 million in transportation services revenue, \$12 million in allowance oil revenue and \$21 million attributable to product revenue, partially offset by increases of \$63 million attributable to terminaling services revenue and \$1 million in lease revenue.
+
+Transportation services revenue decreased primarily due to the ongoing effects of the COVID-19 pandemic on the crude and refined products operating environment and related prices in 2020, as well as lower rates on the Zydeco committed contracts in 2020 as compared to 2019. Additionally, the impact from planned turnaround activities, as well as the impact of storms and the related shut-ins of production, was higher in 2020 than 2019. Further, deficiency credits were primarily deferred in 2020 as compared to deficiency credits being utilized and recognized in revenue in 2019. These decreases were partially offset by new volumes brought online at NaKika and Odyssey, as well as achieving regulatory approval for an increase in tariffs on Delta in 2020.
+
+Terminaling services revenue increased primarily due to the recognition of revenue related to the service components of the new terminaling service agreement related to the Norco Assets acquired in April 2020.
+
+Lease revenue was relatively consistent in 2020 and 2019.
+
+Product revenue decreased as a result of lower sales of allowance oil for certain of our onshore and offshore crude pipelines in 2020 as compared to 2019.
+
+## Costs and Expenses
+
+Total costs and expenses increased \$24 million in 2020 primarily due to the increases of \$38 million in operations and maintenance expenses, \$3 million in property taxes and \$1 million of depreciation expense. These increases were partially offset by decreases of \$12 million in cost of products sold, \$4 million in general and administrative expenses and \$2 million of loss from the revision of asset retirement obligations and disposition of assets incurred in 2019.
+
+Operations and maintenance expenses increased mainly as a result of higher maintenance costs related to the Norco Assets in 2020 as compared to 2019.
+
+General and administrative expense decreased primarily due to reduced contractor spend in 2020 compared to 2019, partially offset by higher severance charges in 2020.
+
+Property tax expense increased as a result of the acquisition of the Norco Assets in April 2020 and was partially offset by changes in property tax appraisal estimates.
+
+Cost of product sold decreased as a result of lower sales of allowance oil coupled with the lower cost environment in 2020 as compared to 2019, which was partially offset by a higher net realizable value adjustment on allowance oil inventory in 2020.
+
+## Investment, Dividend and Other Income
+
+Investment, dividend and other income increased \$34 million in 2020 as compared to 2019. Income from equity method investments increased by \$44 million, primarily as a result of the equity earnings associated with the acquisition of additional interests in Explorer and Colonial in June 2019, as well as the acquisition of an interest in Mattox in April 2020. These increases were partially offset by a decrease in dividend income from other investments of \$14 million due to the change in accounting for Explorer and Colonial as equity method investments in 2020 rather than other investments in 2019 following the acquisition of additional interests in these entities in June 2019. We were entitled to distributions from Explorer and Colonial with respect to the period beginning April 1, 2019, as these were paid after the acquisition date and were no longer considered dividend income. Additionally, Other income increased by \$4 million related to higher distributions from Poseidon in 2020.
+
+<span id="page-65-0"></span>
+## Interest Income and Expense
+
+Interest income was \$19 million higher mainly due to interest income related to the financing receivables recorded in connection with the Norco Assets. Interest expense decreased by \$3 million due to lower interest rates in 2020 versus 2019 resulting from the ongoing effects of the COVID-19 pandemic on market interest rates, which was partially offset by additional borrowings outstanding under our credit facilities during 2020 versus 2019.
+
+## Capital Resources and Liquidity
+
+We expect our ongoing sources of liquidity to include cash generated from operations, borrowings under our credit facilities and our ability to access the capital markets. We believe this access to credit along with cash generated from operations will be sufficient to meet our short-term working capital requirements and long-term capital expenditure requirements, and to make quarterly cash distributions. However, we cannot accurately predict the effects of the continuing COVID-19 pandemic on our capital resources and liquidity due to the current significant level of uncertainty. Our liquidity as of December 31, 2020 was \$1,216 million consisting of \$320 million cash on hand and \$896 million available capacity under our revolving credit facilities.
+
+On April 1, 2020, we closed the transactions contemplated by the Partnership Interests Restructuring Agreement, which included the elimination of all the IDRs, the conversion of the economic general partner interest into a non-economic general partner interest and the establishment of the rights and preferences of the Series A Preferred Units in the Partnership’s Second Amended and Restated Agreement of Limited Partnership, effective as of April 1, 2020. Pursuant to the Partnership Interests Restructuring Agreement, our general partner (or its assignee) has agreed to waive a portion of the distributions that would otherwise be payable on the common units issued to SPLC as part of the April 2020 Transaction, in an amount of \$20 million per quarter for four consecutive fiscal quarters, beginning with the distribution made with respect to the second quarter of 2020. Refer to Note 3 — Acquisitions and Other Transactions in the Notes to Consolidated Financial Statements included in Part II, Item 8 for more details.
+
+On August 1, 2019, Zydeco entered into a senior unsecured revolving loan facility agreement with Shell Treasury Center (West) Inc. (“STCW”), effective August 6, 2019 (the “2019 Zydeco Revolver”). The 2019 Zydeco Revolver has a borrowing capacity of \$30 million and matures on August 6, 2024. Borrowings under the credit facility bear interest at the three-month LIBOR rate plus a margin or, in certain instances, including if LIBOR is discontinued, STCW may specify another benchmark rate generally accepted in the loan market to apply in relation to the advances in place of LIBOR. No issuance fee was incurred in connection with the 2019 Zydeco Revolver.
+
+On June 4, 2019, we entered into the Ten Year Fixed Facility, which bears an interest rate of 4.18% per annum and matures on June 4, 2029. No issuance fee was incurred in connection with the Ten Year Fixed Facility. The Ten Year Fixed Facility contains customary representations, warranties, covenants and events of default, the occurrence of which would permit the lender to accelerate the maturity date of amounts borrowed under the Ten Year Fixed Facility. The Ten Year Fixed Facility was fully drawn on June 6, 2019 to partially fund our acquisition of SPLC’s remaining 25.97% ownership interest in Explorer and 10.125% ownership interest in Colonial for consideration valued at \$800 million on June 6, 2019 (the “June 2019 Acquisition”).
+
+During 2018, we negotiated with STCW to increase our borrowing capacity by \$600 million through the addition of the Seven Year Fixed Facility effective July 31, 2018. The Seven Year Fixed Facility was fully drawn on August 1, 2018, and the borrowings were used to partially repay borrowings under the Five Year Revolver due December 2022.
+
+Additionally, on August 1, 2018, we amended and restated the Five Year Revolver due October 2019 such that the facility will now mature on July 31, 2023 and is now referred to as the Five Year Revolver due July 2023.
+
+<span id="page-66-0"></span>
+## Credit Facility Agreements
+
+As of December 31, 2020, we have entered into the following credit facilities:
+
+![](tables/table_pg66_num0.csv)
+Effective August 6, 2019, the senior unsecured revolving credit facility agreement between Zydeco and STCW, dated August 6, 2014, expired. In its place, Zydeco (1) entered into the 2019 Zydeco Revolver. See above for additional information.
+
+Borrowings under the Five Year Revolver due July 2023, the Five Year Revolver due December 2022 and the 2019 Zydeco Revolver bear interest at the three-month LIBOR rate plus a margin or, in certain instances (including if LIBOR is discontinued) at an alternate interest rate as described in each respective revolver. Over the next few years, LIBOR will be discontinued globally, and as such, a new benchmark will take its place. We are in discussion with our Parent to further clarify the reference rate(s) applicable to our revolving credit facilities once LIBOR is discontinued, and we are evaluating any potential impact on our facilities.
+
+Our weighted average interest rate for 2020 and 2019 was 3.3% and 3.8%, respectively. The weighted average interest rate includes drawn and undrawn interest fees, but does not consider the amortization of debt issuance costs or capitalized interest. A 1/8 percentage point (12.5 basis points) increase in the interest rate on the total variable rate debt of \$894 million as of December 31, 2020 would increase our consolidated annual interest expense by approximately \$1 million.
+
+We will need to rely on the willingness and ability of our related party lender to secure additional debt, our ability to use cash from operations and/or obtain new debt from other sources to repay/refinance such loans when they come due and/or to secure additional debt as needed.
+
+As of December 31, 2020 and 2019, we were in compliance with the covenants contained in our credit facilities, and Zydeco was in compliance with the covenants contained in the 2019 Zydeco Revolver.
+
+For definitions and additional information on our credit facilities, refer to Note 8 — Related Party Debt in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report.
+
+## Equity Issuances
+
+As consideration for the April 2020 Transaction, the Partnership issued 50,782,904 Series A Preferred Units to SPLC at a price of \$23.63 per unit, plus 160,000,000 newly issued common units.
+
+On June 6, 2019, in connection with the June 2019 Acquisition, we issued 9,477,756 common units to Shell Midstream LP Holdings LLC, an indirect subsidiary of Shell. In connection with the issuance of the common units, we issued 193,424 general partner units to our general partner in order to maintain its 2% general partner interest in us. The non-cash equity consideration from this issuance was valued at \$200 million pursuant to the May 2019 Contribution Agreement and was used to partially fund the June 2019 Acquisition.
+
+On February 6, 2018, we completed the sale of 25,000,000 common units in a registered public offering for approximately \$673 million net proceeds. Additionally, we completed the sale of 11,029,412 common units in a private placement with Shell Midstream LP Holdings LLC, an indirect subsidiary of Shell, for an aggregate purchase price of \$300 million. See Note 11 — (Deficit) Equity in the Notes to Consolidated Financial Statements included in Part II, Item 8 for additional information.
+
+## Cash Flows from Our Operations
+
+Operating Activities. We generated \$650 million in cash flow from operating activities in 2020 compared to \$597 million in 2019. The increase in cash flows was primarily driven by an increase in equity investment income related to the acquisition of
+
+<span id="page-67-0"></span>
+an interest in Mattox in April 2020 and additional interests in Explorer and Colonial in June 2019, as well as an increase related to deferred revenue in 2020. These increases were partially offset by the timing of certain prepaid expenses in 2020.
+
+Investing Activities. Our cash flow provided by investing activities was \$64 million in 2020 compared to \$87 million used in investing activities in 2019. The increase in cash flow provided by investing activities was primarily due to no cash acquisition from Parent, no contributions to investment, lower capital expenditures and higher return of investment in 2020 compared to 2019.
+
+Financing Activities. Our cash flow used in financing activities was \$684 million in 2020 compared to \$428 million in 2019. The increase in cash flow used in financing activities was primarily due to increased distributions paid to the unitholders and our general partner, no borrowings under credit facilities and lower other contributions from Parent in 2020 compared to 2019. These increases were partially offset by there being no capital distributions to our general partner in 2020.
+
+## Capital Expenditures and Investments
+
+Our operations can be capital intensive, requiring investments to maintain, expand, upgrade or enhance existing operations and to meet environmental and operational regulations. Our capital requirements consist of maintenance capital expenditures and expansion capital expenditures. Examples of maintenance capital expenditures are those made to replace partially or fully depreciated assets, to maintain the existing operating capacity of our assets and to extend their useful lives, or other capital expenditures that are incurred in maintaining existing system volumes and related cash flows. In contrast, expansion capital expenditures are those made to acquire additional assets to grow our business, to expand and upgrade our systems and facilities and to construct or acquire new systems or facilities. We regularly explore opportunities to improve service to our customers and maintain or increase our assets’ capacity and revenue. We may incur substantial amounts of capital expenditures in certain periods in connection with large maintenance projects that are intended to only maintain our assets’ capacity or revenue.
+
+We incurred capital expenditures of \$22 million, \$35 million and \$51 million for 2020, 2019 and 2018, respectively. The decrease in capital expenditures from 2019 to 2020 is primarily due to completion of the Houma tank expansion and directional drill projects for Zydeco. Further, we had no contributions to investment in 2020.
+
+A summary of our capital expenditures is shown in the table below:
+
+![](tables/table_pg67_num0.csv)
+
+We expect total capital expenditures and investments to be approximately \$21 million for 2021, a summary of which is shown in table below:
+
+![](tables/table_pg67_num1.csv)
+
+<span id="page-68-0"></span>
+## Expansion and Maintenance Expenditures
+
+Zydeco’s maintenance capital expenditures for 2020 were \$19 million, primarily for Bessie Heights, as well as an upgrade of the motor control center at Houma and various other maintenance projects. We expect Zydeco’s maintenance capital expenditures to be approximately \$11 million for 2021, of which \$6 million is related to an upgrade of the motor control center at Houma, \$2 million is related to Houma tank maintenance projects and \$1 million is for replacement of a loading arm at the Houma dock facility. The remaining spend is related to routine maintenance.
+
+Pecten’s maintenance capital expenditures for 2020 were \$1 million, and we expect Pecten’s maintenance capital expenditures to be approximately \$2 million in 2021 related to a Lockport tank maintenance project and various improvements on Delta.
+
+Triton’s maintenance capital expenditures for 2020 were \$1 million, and we expect Triton’s maintenance capital expenditures to be approximately \$4 million in 2021. The expected 2021 spend is related to Des Plaines fire prevention and protection upgrades, Seattle terminal dock line repair and replacement and routine maintenance at the various terminals.
+
+We do not expect any maintenance capital expenditures for Sand Dollar or Odyssey in 2021.
+
+We anticipate that both maintenance and expansion capital expenditures for 2021 will be funded primarily with cash from operations.
+
+## Capital Contributions
+
+In accordance with the Member Interest Purchase Agreement dated October 16, 2017 pursuant to which we acquired a 50% interest in Permian Basin, we will make capital contributions for our pro rata interest in Permian Basin to fund capital and other expenditures, as approved by supermajority (75%) vote of the members. We made no capital contributions in 2020, and expect to make capital contributions of \$4 million in 2021.
+
+## Contractual Obligations
+
+A summary of our contractual obligations as of December 31, 2020 is shown in the table below:
+
+![](tables/table_pg68_num0.csv)
+Finance leases include Port Neches storage tanks and Garden Banks 128 “A” platform. Finance leases include \$24 million in interest, \$24 million in principal and \$8 (1) million in executory costs.
+Includes a joint tariff agreement and Odyssey tie-in agreement. (2)
+See Note 8 — Related Party Debt in the Notes to Consolidated Financial Statements included in Part II, Item 8 for additional information. (3)
+Interest payments were calculated based on rates in effect at December 31, 2020 for variable rate borrowings.(4)
+
+On April 1, 2020, as partial consideration for the April 2020 Transaction, we issued 50,782,904 Series A Preferred Units to SPLC at a price of \$23.63 per preferred unit. Our Series A Preferred Units are contractually entitled to receive cumulative quarterly distributions. For the year ended December 31, 2020, cumulative preferred distributions paid to our Series A Preferred Unitholders were \$36 million. However, subject to certain conditions, we or the holders of the Series A Preferred Units may convert the Series A Preferred Units into common units at certain anniversary dates after the issuance date. Due to the uncertain timing of any potential conversion, distributions related to the Series A Preferred Units were not included in the contractual obligations table above.
+
+Odyssey entered into an operating lease dated May 12, 1999 with a third party for usage of offshore platform space at Main Pass 289C. Additionally, Odyssey entered into a tie-in agreement effective January 2012 with a third party, which allowed
+
+<span id="page-69-0"></span>
+producers to install the tie-in connection facilities and tying into the system. The agreements will continue to be in effect until the continued operation of the platform is uneconomic.
+
+On December 1, 2014, we entered into a terminal services agreement with a related party in which we were to take possession of certain storage tanks located in Port Neches, Texas, effective December 1, 2015. On October 26, 2015, the terminal services agreement was amended to provide for an interim in-service period for the purposes of commissioning the tanks in which we paid a nominal monthly fee. Our capitalized costs and related capital lease obligation commenced effective December 1, 2015, and the storage tanks were placed in-service on September 1, 2016. Under this agreement, in the eighteenth month after the in-service date, actual fixed and variable costs could be compared to premised costs. If the actual and premised operating costs differ by more than 5%, the lease would be adjusted accordingly, and this adjustment will be effective for the remainder of the lease. No adjustment has been made to date. The imputed interest rate on the capital portion of the lease is 15%.
+
+On September 1, 2016, which is the in-service date of the capital lease for the Port Neches storage tanks, a joint tariff agreement with a third party became effective. The tariff will be reviewed annually and the rate updated based on FERC’s indexing adjustment to rates effective July 1 of each year. Effective July 1, 2020 there was an approximate 2% increase to this rate based on FERC’s indexing adjustment. The initial term of the agreement is ten years with automatic one-year renewal terms with the option to cancel prior to each renewal period.
+
+## Off-Balance Sheet Arrangements
+
+We have not entered into any transactions, agreements or other contractual arrangements that would result in off-balance sheet liabilities.
+
+## Critical Accounting Policies and Estimates
+
+Critical accounting policies are those that are important to our financial condition and require management’s most difficult, subjective or complex judgments. Different amounts would be reported under different operating conditions or under alternative assumptions.
+
+We apply those accounting policies that we believe best reflect the underlying business and economic events, consistent with GAAP. Our more critical accounting policies include those related to long-lived assets, equity method investments and revenue recognition. Inherent in such policies are certain key assumptions and estimates. We periodically update the estimates used in the preparation of the financial statements based on our latest assessment of the current and projected business and general economic environment. Our significant accounting policies are summarized in Note 2 — Summary of Significant Accounting Policies in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report. We believe the following to be our most critical accounting policies applied in the preparation of our financial statements.
+
+## Long-Lived Assets
+
+Key estimates related to long-lived assets include useful lives, recoverability of carrying values and existence of any retirement obligations. Such estimates could be significantly modified. The carrying values of long-lived assets could be impaired by significant changes or projected changes in supply and demand fundamentals of oil, natural gas, refinery gas or refined products (which could have a negative impact on operating rates or margins), new technological developments, new competitors, adverse changes associated with the U.S. and global economies and with governmental actions. We evaluate long-lived assets for potential impairment indicators whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable, including when negative conditions such as significant current or projected operating losses exist. Our judgments regarding the existence of impairment indicators are based on legal factors, market conditions and the operational performance of our businesses. Actual impairment losses incurred could vary significantly from amounts estimated. Long-lived assets assessed for impairment are grouped at the lowest level for which identifiable cash flows are largely independent of the cash flows of other assets and liabilities. Additionally, future events could cause us to conclude that impairment indicators exist and that associated long-lived assets of our businesses are impaired. Any resulting impairment loss could have a material adverse impact on our financial condition and results of operations.
+
+The estimated useful lives of long-lived assets range from five to 40 years. Depreciation of these assets under the straight-line method over their estimated useful lives totaled \$50 million, \$49 million and \$46 million for 2020, 2019 and 2018, respectively. If the useful lives of the assets were found to be shorter than originally estimated, depreciation charges would be accelerated. Additional information concerning long-lived assets and related depreciation and amortization appears in Note 6 — Property, Plant and Equipment in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report.
+
+## Equity Method Investments
+
+<span id="page-70-0"></span>
+We account for investments where we have the ability to exercise significant influence, but not control, under the equity method of accounting. Income from equity method investments represents our proportionate share of net income generated by the equity method investees. Differences in the basis of the investments and the separate net asset value of the investees, if any, are amortized into net income over the remaining useful lives of the underlying assets. Equity method investments are assessed for impairment whenever changes in the facts and circumstances indicate a loss in value has occurred, if the loss is deemed to be other-than-temporary. When the loss is deemed to be other-than-temporary, the carrying value of the equity method investment is written down to fair value.
+
+Based on our updated forecast and expectations of market conditions, we determined that there was a triggering event as of December 7, 2020 for our Permian Basin equity method investment that required us to update our impairment evaluation. The updated forecast had reductions in forecasted volumes gathered and processed by Permian Basin. We utilized the services of an independent valuation specialist to assist in the fair value appraisal of our investment in Permian Basin. Based on our evaluation, we determined that the fair value of our investment in Permian Basin was in excess of the carrying value as of December 7, 2020, and, therefore, there was no other-than-temporary impairment.
+
+The fair value of the Permian Basin investment was determined based upon applying both the discounted cash flow method, which is an income approach, and a market approach. The discounted cash flow fair value estimate is based on known and knowable information at the measurement date. The significant assumptions that were used to develop the estimate of fair value under the discounted cash flow method include management's best estimates of the expected future cash flows, including prices and volumes, the weighted average cost of capital and the long-term growth rate. If the discount rate was increased by 1%, the concluded fair value would decrease by \$5 million and would remain in excess of carrying value. If the long-term growth rate was decreased by 1%, the concluded fair value would decrease by \$4 million and would remain in excess of carrying value. Fair value determinations require considerable judgment and are sensitive to changes in underlying assumptions and factors. As a result, we cannot provide assurance that actual amounts will not vary significantly from estimated amounts.
+
+## Revenue Recognition
+
+On January 1, 2018, we adopted Topic 606, Revenue from Contracts with Customers, and all related Accounting Standard Updates to this Topic (collectively, “the revenue standard”). See Note 12 — Revenue Recognition in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional information.
+
+We recognize revenue when we transfer promised goods or services to customers in an amount that reflects the consideration to which we expect to be entitled in exchange for those goods or services. We recognize revenue through the application of a five-step model, which includes: identification of the contract; identification of the performance obligations; determination of the transaction price; allocation of the transaction price to the performance obligations; and recognition of revenue as the entity satisfies the performance obligations. We generate a portion of our revenue under long-term agreements by charging fees for the transportation, terminaling and storage of crude oil and refined products, intermediate and finished products through our pipelines, storage tanks, docks, truck and rail racks, and for the transportation of refinery gas through our assets. Contract obligations are billed monthly. Transportation revenue is billed as services are rendered, and we accrue revenue based on nominations for that accounting month. We estimate this revenue based on contract data, regulatory information and preliminary throughput and allocation measurements, among other items. Additionally, we refer to our transportation services agreements and throughput and deficiency agreements as “ship-or-pay” contracts.
+
+As a result of FERC regulations, revenues we collect may be subject to refund. We establish reserves for these potential refunds based on actual expected refund amounts on the specific facts and circumstances. We had no reserves for potential refunds as of December 31, 2020 and 2019.
+
+The majority of our long-term transportation agreements and tariffs for crude oil transportation include PLA. PLA is an allowance for volume losses due to measurement differences set forth in crude oil transportation agreements. PLA is intended to assure proper measurement of the crude oil despite solids, water, evaporation and variable crude types that can cause mismeasurement. PLA provides additional revenue for us if product losses on our pipelines are within the allowed levels, and we are required to compensate our customers for any product losses that exceed the allowed levels. We take title to any excess loss allowance when product losses are within the allowed levels, and we sell that product several times per year at prevailing market prices.
+
+Certain transportation and terminaling services agreements with related parties are considered operating leases under GAAP. Revenues from these agreements are recorded within Lease revenue-related parties in the accompanying consolidated statement of income. See Note 12 — Revenue Recognition in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report.
+
+<span id="page-71-0"></span>
+## April 2020 Transaction Fair Value
+
+In connection with the April 2020 Transaction, we utilized the services of independent valuation specialists to determine the fair value of the total consideration, as well as the fair values of the Mattox Transaction, the Norco Transaction, and the GP/IDR Restructuring as of April 1, 2020. Because the components of the April 2020 Transaction were entered in contemplation of each other and were transactions among entities under common control, the fair values of the April 2020 Transaction were used solely for the purpose of allocating a portion of the total consideration on a relative fair value basis to the Norco Transaction. The Partnership issued 50,782,904 Series A Preferred Units and 160,000,000 newly issued common units to SPLC as consideration for the April 2020 Transaction. See Note 3 — Acquisitions and Other Transactions in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional details.
+
+As further described in Note 3 — Acquisitions and Other Transactions in the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report, we acquired the Mattox equity interests from SGOM as a part of the Mattox Transaction. The acquisition was accounted for as a transaction among entities under common control on a prospective basis as an asset acquisition. As a part of the Norco Transaction, SOPUS and Shell Chemical transferred certain logistics assets at the Shell Norco Manufacturing Complex to Triton, as designee of the Partnership. The transfer of the Norco Assets combined with the terminaling service agreements was accounted for as a failed sale leaseback under the lease standard, as control of the assets did not transfer to the Partnership. As a result, the transaction was treated as financing arrangement.
+
+We also recorded contract assets as of April 1, 2020 based on the difference between the consideration allocated to the Norco Transaction and the recognized financing receivables. The contract assets represent the excess of the fair value embedded within the terminaling services agreements transferred by the Partnership to SOPUS and Shell Chemical as part of entering into the terminaling services agreements. The amount of contract assets recognized was dependent on the allocated fair value of the consideration to the Norco Transaction, which was determined using the fair values of the consideration transferred and the fair values of the three components of the April 2020 Transaction. The common units were valued using a market approach based on the market opening price of the Partnership’s common units as of April 1, 2020 less a discount for the distribution waiver and lack of marketability. The Series A Preferred Units were valued using an income approach based on a trinomial lattice model. Further, the fair values of the three components of the April 2020 Transaction were determined using an income approach of discounted cash flows at an average discount rate for each of the Mattox Transaction, the Norco Transaction and the GP/IDR Restructuring components of 14%, 11% and 20%, respectively.
+
+We believe both the estimates and assumptions utilized in the fair value appraisals of the April 2020 Transaction are individually and in the aggregate reasonable; however, our estimates and assumptions are highly judgmental in nature. Further, there are inherent uncertainties related to these estimates and assumptions, and our judgment in applying them, to determine the fair values. While we believe we have made reasonable estimates and assumptions to calculate the fair values, changes in any one of the estimates, assumptions or a combination of estimates and assumptions, could result in changes to the estimated fair values utilized to determine the relative stand-alone fair value of the Norco Transaction.
+
+## Fair value of consideration
+
+The following table summarized the fair valuation approaches and key assumptions underlying those approaches to value the different components of the consideration of the April 2020 Transaction:
+
+![](tables/table_pg71_num0.csv)
+
+## Fair value of business enterprise value
+
+The following table summarizes the fair valuation approaches and key assumptions underlying those approaches to obtain the business enterprise value of the different components of the April 2020 Transaction:
+
+<span id="page-72-0"></span>
+![](tables/table_pg72_num0.csv)
+
+## Relative Stand -Alone Selling Price
+
+We allocate the arrangement consideration between the components based on the relative stand-alone selling price (“SASP”) of each component in accordance with ASC Topic 606, Revenue from Contracts with Customers. The Partnership established the stand-alone selling price for the financing components based off an expected return on the assets being financed. The Partnership established the SASP for the service components using an expected cost-plus margin approach based on the Partnership’s forecasted costs of satisfying the performance obligations plus an appropriate margin for the service. The SASP is used to allocate the annual terminaling service agreement payments between the principal payments and interest income on the financing receivables (financing components) and terminaling service revenue (service components). The key assumptions include forecasts of the future operation and maintenance costs and major maintenance costs and the expected margin with respect to the service components and the expected return on the assets with respect to the financing components.
+
+## Recent Accounting Pronouncements
+
+Please read Note 2 — Summary of Significant Accounting Policies — Recent Accounting Pronouncements included in Part II, Item 8 of this report.
+
+## Item 7A. Quantitative and Qualitative Disclosures About Market Risk
+
+Market risk is the risk of loss arising from adverse changes in market rates and prices.
+
+## Commodity Price Risk
+
+With the exception of buy/sell arrangements on some of our offshore pipelines and our allowance oil retained, we do not take ownership of the crude oil or refined products that we transport and store for our customers, and we do not engage in the trading of any commodities. We therefore have limited direct exposure to risks associated with fluctuating commodity prices.
+
+Our long-term transportation agreements and tariffs for crude oil shipments include PLA. The PLA provides additional revenue for us at a stated factor per barrel. If product losses on our pipelines are within the allowed levels, we retain the benefit, otherwise we are required to compensate our customers for any product losses that exceed the allowed levels. We take title to any excess product that we transport when product losses are within allowed level, and we sell that product several times per year at prevailing market prices. This allowance oil revenue, which accounted for approximately 4%, 6% and 6% of our total revenue in 2020, 2019 and 2018, respectively, is subject to more volatility than transportation revenue, as it is directly dependent on our measurement capability and commodity prices. As a result, the income we realize under our loss allowance provisions will increase or decrease as a result of changes in the mix of product transported, measurement accuracy and underlying commodity prices. We do not intend to enter into any hedging agreements to mitigate our exposure to decreases in commodity prices through our loss allowances.
+
+## Interest Rate Risk
+
+We are exposed to the risk of changes in interest rates, primarily as a result of variable rate borrowings under our revolving credit facilities. To the extent that interest rates increase, interest expense for these revolving credit facilities will also increase. As of both December 31, 2020 and December 31, 2019, the Partnership had \$894 million in outstanding variable rate borrowings under these revolving credit facilities. A hypothetical change of 12.5 basis points in the interest rate of our variable rate debt would impact the Partnership’s annual interest expense by approximately \$1 million for both 2020 and 2019. We do not currently intend to enter into any interest rate hedging agreements, but will continue to monitor interest rate exposure.
+
+Our fixed rate debt does not expose us to fluctuations in our results of operations or liquidity from changes in market interest rates. Changes in interest rates do affect the fair value of our fixed rate debt. See Note 8 —Related Party Debt in the accompanying Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for further discussion of our borrowings and fair value measurements.
+
+<span id="page-73-0"></span>
+## Other Market Risks
+
+We may also have risk associated with changes in policy or other actions taken by FERC. Please see Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations — Factors Af ecting our Business and Outlook — Regulation” for additional information.
+
+<span id="page-74-0"></span>
+## Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA
+
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+![](tables/table_pg74_num0.csv)
+
+<span id="page-75-0"></span>
+# Report of Independent Registered Public Accounting Firm
+
+To the Unitholders of Shell Midstream Partners, L.P. and the Board of Directors of Shell Midstream Partners GP LLC
+
+## Opinion on Internal Control Over Financial Reporting
+
+We have audited Shell Midstream Partners, L.P.’s internal control over financial reporting as of December 31, 2020, based on criteria established in Internal Control—Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013 framework) (the COSO criteria). In our opinion, Shell Midstream Partners, L.P. (the Partnership) maintained, in all material respects, effective internal control over financial reporting as of December 31, 2020, based on the COSO criteria.
+
+We also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated balance sheets of Shell Midstream Partners, L.P. as of December 31, 2020 and 2019, and the related consolidated statements of income, comprehensive income, cash flows and changes in (deficit) equity for each of the three years in the period ended December 31, 2020, and the related notes and our report dated February 22, 2021 expressed an unqualified opinion thereon.
+
+## Basis for Opinion
+
+The Partnership’s management is responsible for maintaining effective internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting included in the accompanying Management Report on Internal Control over Financial Reporting. Our responsibility is to express an opinion on the Partnership’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Partnership in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+
+We conducted our audit in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether effective internal control over financial reporting was maintained in all material respects.
+
+Our audit included obtaining an understanding of internal control over financial reporting, assessing the risk that a material weakness exists, testing and evaluating the design and operating effectiveness of internal control based on the assessed risk, and performing such other procedures as we considered necessary in the circumstances. We believe that our audit provides a reasonable basis for our opinion.
+
+## Definition and Limitations of Internal Control Over Financial Reporting
+
+A company’s internal control over financial reporting is a process designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. A company’s internal control over financial reporting includes those policies and procedures that (1) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the company; (2) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the company are being made only in accordance with authorizations of management and directors of the company; and (3) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of the company’s assets that could have a material effect on the financial statements.
+
+Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+
+## /s/ Ernst & Young LLP
+
+Houston, Texas February 22, 2021
+
+<span id="page-76-0"></span>
+# Report of Independent Registered Public Accounting Firm
+
+To the Unitholders of Shell Midstream Partners, L.P. and the Board of Directors of Shell Midstream Partners GP LLC
+
+## Opinion on the Financial Statements
+
+We have audited the accompanying consolidated balance sheets of Shell Midstream Partners, L.P. (the Partnership) as of December 31, 2020 and 2019, the related consolidated statements of income, comprehensive income, changes in (deficit) equity and cash flows for each of the three years in the period ended December 31, 2020, and the related notes (collectively referred to as the “consolidated financial statements”). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Partnership at December 31, 2020 and 2019, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2020, in conformity with U.S. generally accepted accounting principles.
+
+We also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the Partnership’s internal control over financial reporting as of December 31, 2020, based on criteria established in Internal Control-Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013 framework) and our report dated February 22, 2021 expressed an unqualified opinion thereon.
+
+## Adoption of ASU No. 2014-09
+
+As discussed in Note 5 to the consolidated financial statements, Amberjack Pipeline Company LLC, an investment accounted for by the equity method, changed its method for accounting for revenue in 2019, due to the adoption of Accounting Standards Update (ASU) No. 2014-09, Revenue from Contracts with Customers (Topic 606), and the amendments in ASUs 2015-14, 2016-08, 2016-10 and 2016-12.
+
+## Basis for Opinion
+
+These financial statements are the responsibility of the Partnership’s management. Our responsibility is to express an opinion on the Partnership’s financial statements based on our audits. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Partnership in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+
+We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. Our audits included performing procedures to assess the risks of material misstatement of the financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a reasonable basis for our opinion.
+
+## Critical Audit Matters
+
+The critical audit matters communicated below are matters arising from the current period audit of the financial statements that were communicated or required to be communicated to the audit committee and that: (1) relate to accounts or disclosures that are material to the financial statements and (2) involved our especially challenging, subjective or complex judgments. The communication of critical audit matters does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matters below, providing separate opinions on the critical audit matters or on the accounts or disclosures to which they relate.
+
+<span id="page-77-0"></span>
+## Presentation and Disclosure of Related Party Transactions
+
+As described in Note 4 to the consolidated financial statements, the Partnership has material amounts of related party transactions as it regularly transacts with Royal Dutch Shell plc and its affiliates (“Shell”) in the normal course of business.
+
+Auditing the presentation and disclosure of these related party transactions, including the completeness thereof, was challenging due to Shell’s involvement in many aspects of the Partnership’s business, including the revenue earned from providing transportation, terminaling, and storage services and lease revenues under long-term contracts with Shell, the direct and allocated expenses charged from Shell for services provided under operating and administrative management agreements, fees charged for general and administrative services provided by Shell, the acquisition of assets and equity investments from Shell, and reimbursements received under the Omnibus and other management or contribution agreements.
+
+We obtained an understanding, evaluated the design and tested the operating effectiveness of controls over the Partnership’s process of identifying and disclosing related party transactions.
+
+To test the completeness of related party transactions, we obtained a listing of all related party relationships and compared the listing to the Shell legal structure and evidence obtained from other audit procedures including, among others, inquiries of management and the audit committee, review of the board of directors and other committee meeting minutes, review of contracts and agreements, and testing of revenue and expense transactions. In addition, using the related party listing obtained, we performed procedures to test material related party account activity and account balances including, among others, testing the related and third party classification of transactions in revenue, expense and balance sheet accounts by inspecting source documentation and evaluating the aggregation and presentation of related party financial statement line items.
+
+## Accounting for the April 2020 Transaction
+
+As more fully described in Note 3 to the consolidated financial statements, the Partnership purchased certain logistics assets at the Shell Norco Manufacturing Complex (the “Norco Assets”) from Shell and entered into terminaling services agreements that leased the Norco Assets back to Shell (the “Norco Transaction”). Simultaneously with the closing of the Norco Transaction, the Partnership acquired 79% of the issued and outstanding membership interests in Mattox Pipeline Company LLC from Shell (the “Mattox Transaction), eliminated all of the incentive distribution rights, and converted the 2% economic general partner interest in the Partnership into a non-economic general partner interest (the “GP/IDR Restructuring”). As consideration for these transactions, the Partnership issued 50,782,904 Series A Preferred Units and 160,000,000 common units to Shell. Collectively, these transactions are referred to as the April 2020 Transaction.
+
+Auditing the Partnership’s accounting for the April 2020 Transaction was complex due to the significant estimation uncertainty in the Partnership’s determination of the contract assets of \$244 million recorded in connection with the April 2020 Transaction, which was dependent on the fair values of the consideration transferred and of the Norco Transaction, Mattox Transaction and GP/IDR Restructuring that were entered into simultaneously. The significant estimation uncertainty was primarily due to the sensitivity of the contract assets’ value to underlying assumptions used to fair value the components of the April 2020 Transaction. The Partnership used an income approach of discounted cash flows to estimate the fair values of the components. The significant assumptions used to estimate the fair value of the components primarily included the discount rates and certain assumptions that form the basis of forecasted cash flows, including projected revenues, operating expenses and capital expenditures. These significant assumptions are forward looking and could be affected by future economic and market conditions.
+
+<span id="page-78-0"></span>
+We obtained an understanding, evaluated the design and tested the operating effectiveness of controls over the Partnership’s process of accounting for the April 2020 Transaction. For example, we tested controls over the estimation of the fair values of the components used to determine the contract assets’ value, including the valuation models and underlying assumptions used to develop such estimates.
+
+To test the amount of contract assets recognized in the April 2020 Transaction, we performed audit procedures that included, among others, evaluating the Partnership’s methodology to determine the contract assets’ value and the use of the income approach to estimate the fair values of each component and testing the significant assumptions used in each model, including the completeness and accuracy of the underlying data. For example, we compared the significant assumptions to current industry, market and economic trends, to customer contract terms, to the historical results of the underlying assets and to other guidelines used by companies within the same industry. We also involved our valuation specialists to assist in our evaluation of the valuation methodology applied by the Partnership and the significant assumptions used in estimating the fair values that affected the determination of the contract assets’ value.
+
+/s/ Ernst & Young LLP
+
+We have served as the Partnership’s auditor since 2016.
+
+<span id="page-79-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## CONSOLIDATED BALANCE SHEETS
+
+![](tables/table_pg79_num0.csv)
+The accompanying notes are an integral part of the consolidated financial statements.
+
+<span id="page-80-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## CONSOLIDATED STATEMENTS OF INCOME
+
+![](tables/table_pg80_num0.csv)
+The accompanying notes are an integral part of the consolidated financial statements.
+
+<span id="page-81-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+
+![](tables/table_pg81_num0.csv)
+The accompanying notes are an integral part of the consolidated financial statements.
+
+<span id="page-82-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## CONSOLIDATED STATEMENTS OF CASH FLOWS
+
+![](tables/table_pg82_num0.csv)
+
+<span id="page-83-0"></span>
+![](tables/table_pg83_num0.csv)
+
+The accompanying notes are an integral part of the consolidated financial statements.
+
+<span id="page-84-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## CONSOLIDATED STATEMENTS OF CHANGES IN (DEFICIT) EQUITY
+
+![](tables/table_pg84_num0.csv)
+The accompanying notes are an integral part of the consolidated financial statements.
+
+<span id="page-85-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+Except as noted within the context of each note disclosure, the dollar amounts presented in the tabular data within these note disclosures are stated in millions of dollars.
+
+## 1. Description of the Business and Basis of Presentation
+
+Shell Midstream Partners, L.P. (“we,” “us,” “our,” “SHLX” or “the Partnership”) is a Delaware limited partnership formed by Royal Dutch Shell plc on March 19, 2014 to own and operate pipeline and other midstream assets, including certain assets received from Shell Pipeline Company LP (“SPLC”) and its affiliates. We conduct our operations either through our wholly owned subsidiary Shell Midstream Operating LLC (“Operating Company”) or through direct ownership. Our general partner is Shell Midstream Partners GP LLC (“general partner”). References to “RDS”, “Shell” or “Parent” refer collectively to Royal Dutch Shell plc and its controlled affiliates, other than us, our subsidiaries and our general partner.
+
+Until April 1, 2020, our general partner owned an approximate 2% general partner economic interest in the Partnership, including the incentive distribution rights (“IDRs”). On April 1, 2020, we closed the transactions contemplated by the Partnership Interests Restructuring Agreement with our general partner dated February 27, 2020 (the “Partnership Interests Restructuring Agreement”), pursuant to which the IDRs were eliminated and the 2% general partner economic interest was converted into a non-economic general partner interest in the Partnership. As of December 31, 2020, our general partner holds a noneconomic general partner interest in the Partnership, and affiliates of SPLC own a 68.5% limited partner interest (269,457,304 common units) and 50,782,904 Series A perpetual convertible preferred units (the “Series A Preferred Units”) in the Partnership. These common units and preferred units, on an as-converted basis, represent a 72% interest in the Partnership. See Note 3 — Acquisitions and Other Transactions and Note 11 — (Deficit) Equity for additional details.
+
+## Description of the Business
+
+We own, operate, develop and acquire pipelines and other midstream and logistics assets. As of December 31, 2020, our assets include interests in entities that own (a) crude oil and refined products pipelines and terminals that serve as key infrastructure to transport onshore and offshore crude oil production to Gulf Coast and Midwest refining markets and deliver refined products from those markets to major demand centers and (b) storage tanks and financing receivables that are secured by pipelines, storage tanks, docks, truck and rail racks and other infrastructure used to stage and transport intermediate and finished products. The Partnership’s assets also include interests in entities that own natural gas and refinery gas pipelines that transport offshore natural gas to market hubs and deliver refinery gas from refineries and plants to chemical sites along the Gulf Coast.
+
+We generate revenue from the transportation, terminaling and storage of crude oil, refined products and intermediate and finished products through our pipelines, storage tanks, docks, truck and rail racks, generate income from our equity and other investments and generate interest income from financing receivables on certain logistic assets. Our operations consist of one reportable segment.
+
+<span id="page-86-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+The following table reflects our ownership interests as of December 31, 2020:
+![](tables/table_pg86_num0.csv)
+SPLC owns the remaining 7.5% ownership interest in Zydeco.(1)
+
+## Basis of Presentation
+
+Our consolidated financial statements include all subsidiaries required to be consolidated under generally accepted accounting principles in the United States (“GAAP”). Our reporting currency is U.S. dollars, and all references to dollars are U.S. dollars. The accompanying consolidated financial statements and related notes have been prepared under the rules and regulations of the Securities and Exchange Commission (the “SEC”). These rules and regulations conform to the accounting principles contained in the Financial Accounting Standards Board’s (“FASB”) Accounting Standards Codification, the single source of GAAP.
+
+Our consolidated subsidiaries include Pecten, Sand Dollar, Triton, Zydeco, Odyssey and the Operating Company. Asset acquisitions of additional interests in previously consolidated subsidiaries and interests in equity method and other investments are included in the financial statements prospectively from the effective date of each acquisition. In cases where these types of acquisitions are considered acquisitions of businesses under common control, the financial statements are retrospectively adjusted.
+
+Expense Allocations. Our consolidated statements of income also include expense allocations for certain functions performed by SPLC and Shell on our behalf. Such costs are included in either general and administrative expenses or operations and maintenance expenses in the accompanying consolidated statements of income, depending on the nature of the employee’s role in our operations. The expense allocations have been determined on a basis that we, SPLC and Shell consider to be a reasonable reflection of the utilization of the services provided or the benefit received during the periods presented.
+
+See Note 4 — Related Party Transactions for details of operating agreements impacting expense allocations, as well as details of related party transactions.
+
+Cash. For all consolidated subsidiaries, we establish our own cash accounts for the funding of our operating and investing activities. Funds are not commingled with the cash of other entities.
+
+<span id="page-87-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## 2. Summary of Significant Accounting Policies
+
+## Principles of Consolidation
+
+Our consolidated financial statements include all subsidiaries where we have control. The assets and liabilities in the accompanying consolidated financial statements have been reflected on a historical basis. All significant intercompany accounts and transactions are eliminated upon consolidation. See Note 1 — Description of the Business and Basis of Presentation for additional details.
+
+## Regulation
+
+Certain businesses are subject to regulation by various authorities including, but not limited to, FERC. Regulatory bodies exercise statutory authority over matters such as construction, rates and ratemaking and agreements with customers.
+
+## Use of Estimates
+
+The preparation of financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the amounts reported of assets, liabilities, revenues and expenses in the accompanying consolidated financial statements and notes. Actual results could differ from those estimates.
+
+## Common Control Transactions
+
+Assets and businesses acquired from our Parent and its subsidiaries are accounted for as common control transactions whereby the net assets acquired are combined with ours at our Parent’s historical carrying value. If any recognized consideration transferred in such a transaction exceeds the carrying value of the net assets acquired, the excess is treated as a capital distribution to our general partner, similar to a dividend. If the carrying value of the net assets acquired exceeds any recognized consideration transferred including, if applicable, the fair value of any limited partner units issued, then our Parent would record an impairment, and our net assets acquired would be recorded at fair value. Cash consideration up to the carrying value of net assets acquired is presented as an investing activity in our consolidated statement of cash flows. Cash consideration in excess of the carrying value of net assets acquired is presented as a financing activity in our consolidated statement of cash flows. Assets and businesses sold to our Parent are also common control transactions accounted for using historical carrying value with any resulting gain treated as a contribution from Parent.
+
+## Revenue Recognition
+
+Our revenues are primarily generated from the transportation, terminaling and storage of crude oil, refined gas and refined petroleum products through our pipelines, terminals, storage tanks, docks, truck and rail racks. We recognize revenue when we transfer promised goods or services to customers in an amount that reflects the consideration to which we expect to be entitled in exchange for those goods or services. We recognize revenue through the application of a five-step model, which includes: identification of the contract; identification of the performance obligations; determination of the transaction price; allocation of the transaction price to the performance obligations; and recognition of revenue as the entity satisfies the performance obligations. See Note 12 — Revenue Recognition for information and disclosures related to revenue from contracts with customers.
+
+## Leases, Sale Leaseback
+
+When entering into sale-leaseback transactions as a buyer-lessor, the requirements in Accounting Standards Codification (“ASC”) Topic 606, Revenue from Contracts with Customers, and all related accounting standards updates to such Topic (collectively, “the revenue standard”) are applied in determining whether the transfer of an asset shall be accounted for as a sale of the asset by assessing whether it satisfies a performance obligation under the contract by transferring control of an asset. If the seller-lessee transfers control of an asset to us, we account for the transfer of the asset as a purchase and recognize the transferred asset. The subsequent leaseback of the asset is accounted for in accordance with ASC Topic 842, Leases (the “lease standard”), in the same manner as any other lease. If the seller-lessee does not transfer the control of an asset to us, the failed sale-leaseback transaction is accounted for as a financing arrangement. Transactions in which control of an asset is not transferred are accounted for as financing receivables in accordance with ASC Topic 310, Receivables. Since the seller-lessee did not transfer the control of assets to us in the April 2020 Transaction (defined in Note 3 — Acquisitions and Other Transactions below), we did not recognize the transferred assets, and instead they were accounted for as financing receivables. Receivables issued in exchange for the Partnership’s capital stock are presented as a component of the partners’ (deficit) equity. Since the Partnership issued common units and preferred units as consideration in exchange for the financing receivables in the April 2020 Transaction, we recorded the financing receivables as contra-equity. Refer to Note 3 — Acquisitions and Other
+
+<span id="page-88-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+Transactions and Note 11 – (Deficit) Equity for additional details. We recognize interest income on the financing receivables on the basis of the imputed interest rate determined in accordance with ASC Topic 835, Interest.
+
+## Cash and Cash Equivalents
+
+Our cash and cash equivalents includes cash and short-term highly liquid overnight deposits.
+
+## Accounts Receivable and Allowance for Doubtful Accounts
+
+Accounts receivable represent valid claims against customers for products sold or services rendered, net of allowances for doubtful accounts. We assess the creditworthiness of our counterparties on an ongoing basis and require security, including prepayments and other forms of collateral, when appropriate. We establish provisions for losses on third-party accounts receivable due from shippers and operators based on current expected credit losses. As of December 31, 2020 and 2019, we did not have a material amount of allowance for doubtful accounts.
+
+## Equity Method Investments
+
+We account for investments where we have the ability to exercise significant influence, but not control, under the equity method of accounting. Income from equity method investments represents our proportionate share of net income generated by the equity method investees. Differences in the basis of the investments and the underlying net asset value of the investees, if any, are amortized into net income over the remaining useful lives of the underlying assets. Equity method investments are assessed for impairment whenever changes in the facts and circumstances indicate a loss in value has occurred, if the loss is deemed to be other-than-temporary. When the loss is deemed to be other-than-temporary, the carrying value of the equity method investment is written down to fair value.
+
+## Property, Plant and Equipment
+
+Our property, plant and equipment is recorded at its historical cost of construction or, upon acquisition, at either the fair value of the assets acquired or the historical carrying value to the entity that placed the asset in service. Expenditures for major renewals and betterments are capitalized while those minor replacement, maintenance and repairs that do not improve or extend asset life are expensed when incurred. For constructed assets, we capitalize all construction-related direct labor and material costs, as well as indirect construction costs. We capitalize interest on certain projects. For 2020, 2019 and 2018, the total amount of interest capitalized was immaterial.
+
+We use the straight-line method to depreciate property, plant and equipment based on the estimated useful life of the asset. We report gains or losses on dispositions of fixed assets as Loss (gain) from revision of asset retirement obligations (“AROs”) and disposition of fixed assets in the accompanying consolidated statements of income.
+
+## Impairment of Long-lived Assets
+
+We evaluate long-lived assets of identifiable business activities for impairment when events or changes in circumstances indicate, in our management’s judgment, that the carrying value of such assets may not be recoverable. These events include a significant decrease in the market value of the asset, changes in the manner in which we intend to use a long-lived asset, decisions to sell an asset and adverse changes in the legal or business environment such as adverse actions by regulators. If an event occurs, which is a determination that involves judgment, we perform an impairment assessment by comparing estimated undiscounted future cash flows associated with the asset to the asset’s net book value. If the net book value exceeds our estimate of undiscounted future cash flows, an impairment is calculated as the amount the net book value exceeds the estimated fair value associated with the asset. We determined that there were no asset impairments in 2020, 2019 or 2018.
+
+## Income Taxes
+
+We are not a taxable entity for U.S. federal income tax purposes or for the majority of states that impose an income tax. Taxes on our net income are generally borne by our partners through the allocation of taxable income. Our income tax expense results from partnership activity in the state of Texas, as conducted by Zydeco, Sand Dollar and Triton. Income tax expense for 2020, 2019 and 2018 was immaterial.
+
+## Other Investments
+
+We account for equity investments in entities where we do not have control or significant influence at fair value with changes in fair value recognized in net income when the fair value is readily determinable. For investments without readily determinable fair values, we carry such investments at cost less impairments, if any. These investments are remeasured either upon the
+
+<span id="page-89-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+occurrence of an observable price change or upon identification of impairment. These investments are reported as Other investments in our consolidated balance sheets and dividends received are reported in Dividend income from other investments in our consolidated income statements. Our equity investments which are accounted for at cost as they do not have readily determinable fair values, consist of:
+
+![](tables/table_pg89_num0.csv)
+
+During the years ended December 31, 2020 and 2019, we did not identify the occurrence of an observable price change or an identification of impairment for these equity investments.
+
+## Asset Retirement Obligations
+
+AROs represent contractual or regulatory obligations associated with the retirement of long-lived assets that result from the acquisition, construction, development and/or normal use of the asset. Our AROs were zero as of both December 31, 2020 and 2019.
+
+Our assets include pipelines and terminals that have contractual or regulatory obligations that will need to be settled at retirement. The settlement date of these obligations will depend mostly on the various supply sources that connect to our systems and the ongoing demand for usage in the markets we serve. We expect these supply sources and market demands to continue for the foreseeable future. As the settlement dates of obligations are indeterminate, there is not sufficient information to make a reasonable estimate of the ARO of our remaining assets as of December 31, 2020 and 2019.
+
+We re-evaluate our AROs in each reporting period, and future developments could impact the amounts we record.
+
+## Pensions and Other Postretirement Benefits
+
+We do not have our own employees. Employees that work on our pipelines or terminals are employees of SPLC, and we share employees with other SPLCcontrolled and non-controlled entities. For presentation of these accompanying consolidated financial statements, our portion of payroll costs and employee benefit plan costs have been allocated as a charge to us by SPLC and Shell Oil Company. Shell Oil Company sponsors various employee pension and postretirement health and life insurance plans. For purposes of these accompanying consolidated financial statements, we are considered to be participating in the benefit plans of Shell Oil Company. We participate in the following defined benefits plans: Shell Oil Pension Plan, Shell Oil Retiree Health Care Plan and Pennzoil-Quaker State Retiree Medical & Life Insurance. As a participant in these benefit plans, we recognize as expense in each period an allocation from Shell Oil Company, and we do not recognize any employee benefit plan assets or liabilities. See Note 4 — Related Party Transactions for total pension and benefit expenses under these plans.
+
+## Legal
+
+We are subject to litigation and regulatory proceedings as the result of our business operations and transactions. We use both internal and external counsel in evaluating our potential exposure to adverse outcomes from orders, judgments or settlements. In general, we expense legal costs as incurred. When we identify specific litigation that is expected to continue for a significant period of time, is probable to occur and may require substantial expenditures, we identify a range of possible costs expected to be required to litigate the matter to a conclusion or reach an acceptable settlement, and we accrue for the most probable outcome. To the extent that actual outcomes differ from our estimates, or additional facts and circumstances cause us to revise our estimates, our earnings will be affected.
+
+## Environmental Matters
+
+We are subject to federal, state, and local environmental laws and regulations. Environmental expenditures are expensed or capitalized depending on their economic benefit. We expense costs such as permits, compliance with existing environmental regulations, remedial investigations, soil sampling, testing and monitoring costs to meet applicable environmental laws and regulations where prudently incurred or determined to be reasonably possible in the ordinary course of business. We are permitted to recover such expenditures through tariff rates charged to customers. We also expense costs that relate to an existing condition caused by past environmental incidents, which do not contribute to current or future revenue generation. We record environmental liabilities when environmental assessments and/or remedial efforts are probable and we can reasonably estimate the costs. Generally, our recording of these accruals coincides with our completion of a feasibility study or our
+
+<span id="page-90-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+commitment to a formal plan of action. We recognize receivables for anticipated associated insurance recoveries when such recoveries are deemed to be probable.
+
+For 2020, 2019 and 2018, the environmental cleanup costs incurred were immaterial. At both December 31, 2020 and 2019, the accruals for environmental clean-up costs pursuant to a Consent Decree issued in 1998 by the State of Washington Department of Ecology with respect to our products terminal located in Seattle, Washington were immaterial. The costs relate to ongoing groundwater compliance monitoring and other remedial activities. Refer to Note 4 — Related Party Transactions under the Omnibus Agreement (defined below) for additional details.
+
+We routinely conduct reviews of potential environmental issues and claims that could impact our assets or operations. These reviews assist us in identifying environmental issues and estimating the costs and timing of remediation efforts. In making environmental liability estimations, we consider the material effect of environmental compliance, pending legal actions against us and potential third-party liability claims. Often, as the remediation evaluation and effort progresses, additional information is obtained, requiring revisions to estimated costs. These revisions are reflected in our income statement in the period in which they are probable and reasonably estimable.
+
+## Other Contingencies
+
+We recognize liabilities for other contingencies when we have an exposure that indicates it is both probable that a liability has been incurred and the amount of loss can be reasonably estimated. Where the most likely outcome of a contingency can be reasonably estimated, we accrue a liability for that amount. Where the most likely outcome cannot be estimated, a range of potential losses is established and if no one amount in that range is more likely than any other, the lower end of the range is accrued.
+
+## Fair Value Estimates
+
+We measure assets and liabilities requiring fair value presentation or disclosure using an exit price (i.e., the price that would be received to sell an asset or paid to transfer a liability) and disclose such amounts according to the quality of valuation inputs under the following hierarchy:
+
+Level 1: Quoted prices in an active market for identical assets or liabilities.
+
+Level 2: Inputs other than quoted prices that are directly or indirectly observable.
+
+Level 3: Unobservable inputs that are significant to the fair value of assets or liabilities.
+
+We classify the fair value of an asset or liability based on the lowest level of input significant to its measurement. A fair value initially reported as Level 3 will be subsequently reported as Level 2 if the unobservable inputs become inconsequential to its measurement or corroborating market data becomes available. Asset and liability fair values initially reported as Level 2 will be subsequently reported as Level 3 if corroborating market data becomes unavailable.
+
+The carrying amounts of our accounts receivable, accounts payable and accrued liabilities approximate their fair values due to their short-term nature.
+
+## Net income per limited partner unit
+
+Prior to the April 2020 Transaction, we used the two-class method when calculating the net income per unit applicable to limited partners as there were different participating securities included in the calculation – including common units, general partner units and IDRs. After the April 2020 Transaction, the IDRs were eliminated, the 2% general partner economic interest was converted into a non-economic general partner interest in the Partnership and the newly issued Series A Preferred Units did not qualify as participating securities. Since the transaction occurred during 2020, the two-class method was still applied to the year-to-date calculation but was not applied to calculations for any quarterly periods beginning with the second quarter of 2020. See Note 11 — (Deficit) Equity for additional information.
+
+## Reclassifications
+
+Certain reclassifications have been made to prior period amounts in our consolidated statements of income and consolidated balance sheets to conform to the current period presentation. The net effect of these reclassifications was not material to our consolidated financial statements.
+
+<span id="page-91-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## Recent Accounting Pronouncements
+
+## Standards Adopted as of January 1, 2020
+
+In June 2016, the FASB issued Accounting Standards Update (“ASU”) 2016-13 to Topic 326, Financial Instruments — Credit Losses: Measurement of Credit Losses on Financial Instruments, which replaces the current incurred loss impairment method with a method that reflects expected credit losses on financial instruments. The measurement of current expected credit losses under the new guidance is applicable to financial assets measured at amortized cost, including third-party trade receivables. We adopted the new standard effective January 1, 2020, using the modified retrospective method for all financial assets measured. No cumulative-effect adjustment to retained earnings was required upon adoption. The adoption of ASU 2016-13 did not have a material impact on our consolidated financial statements.
+
+## Standards Not Adopted as of December 31, 2020
+
+In August 2020, the FASB issued ASU 2020-06, Debt — Debt with Conversion and Other Options (Subtopic 470-20) and Derivatives and Hedging — Contracts in Entity’s Own Equity. The update will simplify the accounting for convertible instruments by reducing the number of accounting models for convertible debt instruments and convertible preferred stock. Limiting the accounting models may result in fewer embedded conversion features being separately recognized from the host contract as compared with current GAAP. This update also amends the guidance for the derivatives scope exception for contracts in an entity’s own equity to reduce form-over-substance-based accounting conclusions. The update is effective for fiscal years, and interim periods within those fiscal years, beginning after December 15, 2021 for SEC filers, excluding smaller reporting companies. Early adoption is permitted, but not earlier than January 1, 2021, including interim periods within that year. Management is currently evaluating the appropriate date of adoption and the effect of the adoption of this update on our consolidated financial statements. The effect will largely depend on the composition and terms of our financial instruments at the time of adoption.
+
+## 3. Acquisitions and Other Transactions
+
+## April 2020 Transaction
+
+On April 1, 2020, we closed the following transactions (together referred to as the “April 2020 Transaction”):
+
+Pursuant to a Purchase and Sale Agreement dated as of February 27, 2020 (the “Purchase and Sale Agreement”) between the Partnership and Triton, SPLC, Shell GOM Pipeline Company LLC (“SGOM”), Shell Chemical LP (“Shell Chemical”) and Equilon Enterprises LLC d/b/a Shell Oil Products US (“SOPUS”), we acquired 79% of the issued and outstanding membership interests in Mattox from SGOM (the “Mattox Transaction”), and SOPUS and Shell Chemical transferred to Triton, as a designee of the Partnership, certain logistics assets at the Shell Norco Manufacturing Complex located in Norco, Louisiana (such assets, the “Norco Assets,” and such transaction, the “Norco Transaction”); and
+
+Simultaneously with the closing of the transactions contemplated by the Purchase and Sale Agreement, we also closed the transactions contemplated by the Partnership Interests Restructuring Agreement, pursuant to which we eliminated all of the IDRs and converted the 2% economic general partner interest in the Partnership into a non-economic general partner interest (the “GP/IDR Restructuring”). Our general partner or its assignee has also agreed to waive a portion of the distributions that would otherwise be payable on the common units issued to SPLC as part of the April 2020 Transaction, in an amount of \$20 million per quarter for each of four consecutive fiscal quarters, beginning with the distribution made with respect to the second quarter of 2020.
+
+As consideration for the April 2020 Transaction, the Partnership issued 50,782,904 Series A Preferred Units to SPLC at a price of \$23.63 per unit, plus 160,000,000 newly issued common units. Certain third-party fair value appraisals were performed to determine the fair value of the total consideration as well as the fair values of each of the Mattox Transaction, the Norco Transaction and the GP/IDR Restructuring, as of April 1, 2020. Because the components of the April 2020 Transaction were entered in contemplation of each other and were transactions among entities under common control, the fair values of the April 2020 Transaction were used solely for the purpose of allocating a portion of the consideration on a relative fair value basis to the Norco Transaction.
+
+In connection with the April 2020 Transaction, the Partnership recorded the following balances as of April 1, 2020:
+
+<span id="page-92-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+![](tables/table_pg92_num0.csv)
+Equity method investment was recorded at SGOM’s historical carrying value of the 79% interest in Mattox. See more discussion in the section entitled “Mattox (1) Transaction” below.
+Financing receivables under the failed sale leaseback were recorded at the fair value of the property, plant and equipment of the Norco Assets transferred by SOPUS and (2) Shell Chemical and recognized as a component of the Partners’ deficit. See more discussion in the section entitled “Norco Transaction” below.
+Contract assets were recorded based on the difference between the consideration allocated to the Norco Transaction and the financing receivables. See more discussion in (3) the section entitled “Norco Transaction” below.
+
+## Mattox Transaction
+
+We acquired 79% of the issued and outstanding membership interests in Mattox from SGOM. The acquisition was accounted for as a transaction among entities under common control on a prospective basis as an asset acquisition. As a result of the Mattox Transaction, we have significant influence, but not control, over Mattox and account for this investment as an equity method investment. As such, we recorded the acquired equity interests in Mattox at SGOM’s historical carrying value of \$174 million, which is included in Equity method investments in our consolidated balance sheet as of December 31, 2020. See Note 5 —Equity Method Investments for additional details.
+
+## Norco Transaction
+
+SOPUS and Shell Chemical transferred certain logistics assets at the Shell Norco Manufacturing Complex located in Norco, Louisiana, which are comprised of crude, chemicals, intermediate and finished product pipelines, storage tanks, docks, truck and rail racks and supporting infrastructure, to Triton, as a designee of the Partnership. The Partnership simultaneously leased the Norco Assets back to SOPUS and Shell Chemical pursuant to the terminaling services agreements entered into among Triton, SOPUS and Shell Chemical related to the Norco Assets. The Partnership receives an annual net payment of \$140 million, which is the total annual payment pursuant to the terminaling services agreements of \$151 million, less \$11 million, which primarily represents the allocated utility costs from SOPUS related to the Norco Assets. Both payments are subject to annual Consumer Price Index adjustments.
+
+The transfer of the Norco Assets combined with the terminaling services agreements were accounted for as a failed sale leaseback under the lease standard, as control of the assets did not transfer to the Partnership. As a result, the transaction was treated as a financing arrangement. As the Norco Transaction was entered into simultaneously and in contemplation of the Mattox Transaction and the GP/IDR Restructuring components, we allocated \$546 million of the fair value of the consideration of the April 2020 Transaction to the Norco Transaction based on its relative stand-alone fair value to the other components of the April 2020 Transaction. From this amount, we recorded financing receivables of \$302 million, based on the fair value of the Norco Assets’ property, plant and equipment transferred from SOPUS and Shell Chemical, using a combination of market and cost valuation approaches. The financing receivables were recorded as the fair value of property, plant and equipment because the annual payments received by the Partnership are directly related to the lease of the property, plant and equipment of the Norco Assets. Since the financing receivables from SOPUS and Shell Chemical arose from transactions involving the issuance of the Partnership’s common and preferred units, the financing receivables are presented as a component of (deficit) equity and not as assets on the balance sheet.
+
+As of April 1, 2020, we also recorded contract assets in the amount of \$244 million, which represent the difference between the allocated fair value of the Norco Transaction of \$546 million and the recognized financing receivables of \$302 million. The contract assets represent the excess of the fair value embedded within the terminaling services agreements transferred by the Partnership to SOPUS and Shell Chemical as part of entering into the terminaling services agreements. See Note 12 — Revenue Recognition for additional details.
+
+The amount of contract assets recognized was dependent on the allocated fair value of the consideration to the Norco Transaction, which was determined using the fair values of the consideration transferred and the fair values of each of the three components of the April 2020 Transaction. The newly issued common units were valued using a market approach based on the market opening price of the Partnership’s common units as of April 1, 2020, less a discount for the waiver described above and a marketability discount. The Series A Preferred Units were valued using an income approach based on a trinomial lattice model. Further, the fair values of the three components of the April 2020 Transaction were determined using an income
+
+<span id="page-93-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+approach of discounted cash flows at an average discount rate for each of the Mattox Transaction, the Norco Transaction and the GP/IDR Restructuring components of 14%, 11% and 20%, respectively.
+
+## GP/IDR Restructuring
+
+On April 1, 2020, we also closed the transactions contemplated by the Partnership Interests Restructuring Agreement, which included the elimination of all the IDRs and the cancellation of all of the general partner units, both of which were held by our general partner, and amended and restated our partnership agreement to reflect these and other changes (as so amended, the “Second Amended and Restated Partnership Agreement”). The 2% general partner economic interest was converted into a non-economic general partner interest. Because the components of the April 2020 Transaction were among entities under common control, our general partner’s negative equity balance of \$4 billion at April 1, 2020 was transferred to SPLC’s equity accounts, allocated between its holdings of common units and preferred units, based on the relative fair value of the consideration related to the issuance of common units and preferred units in the April 2020 Transaction.
+
+Upon the closing of the April 2020 Transaction, the Partnership had 393,289,537 common units outstanding, of which SPLC’s wholly owned subsidiary, Shell Midstream LP Holdings LLC (“LP Holdings”), owned 269,457,304 common units in the Partnership, representing an aggregate 68.5% limited partner interest. The Partnership also had 50,782,904 of Series A Preferred Units outstanding, which are entitled to receive a quarterly distribution of \$0.2363 per unit and all of which are owned by LP Holdings. See Note 11 — (Deficit) Equity for additional details.
+
+## 2019 Acquisition
+
+On June 6, 2019, we acquired SPLC’s remaining 25.97% ownership interest in Explorer and 10.125% ownership interest in Colonial for consideration valued at \$800 million (the “June 2019 Acquisition”). The June 2019 Acquisition increased our ownership interest in Explorer to 38.59% and in Colonial to 16.125%. The June 2019 Acquisition closed pursuant to a Contribution Agreement dated May 10, 2019 (the “May 2019 Contribution Agreement”) between us and SPLC, and is accounted for as a transaction between entities under common control on a prospective basis as an asset acquisition. As such, we recorded the acquired equity interests at SPLC’s historical carrying value of \$90 million, which is included in Equity method investments in our consolidated balance sheet. In addition, as a transfer between entities under common control, we recorded Accumulated other comprehensive loss of \$6 million related to historical remeasurements of pension and other postretirement benefits provided by Explorer and Colonial to their employees. We recognized \$510 million of cash consideration in excess of the historical carrying value of equity interests acquired as a capital distribution to our general partner in accordance with our policy for common control transactions. We funded the June 2019 Acquisition with \$600 million in cash consideration from borrowings under our Ten Year Fixed Facility (as defined in Note 8 — Related Party Debt) with Shell Treasury Center (West) Inc. (“STCW”) and non-cash equity consideration valued at \$200 million. Pursuant to the May 2019 Contribution Agreement, the number of common units representing the equity consideration was determined by dividing the contribution amount (25% of total consideration of \$800 million) by the price per unit of \$20.68, which represents the volume weighted average sales prices of the common units calculated for the five trading day period ended on April 30, 2019, less the general partner units issued to our general partner in order to maintain its 2% general partner interest in us. The equity issued consisted of 9,477,756 common units issued to LP Holdings, an indirect subsidiary of Shell, and 193,424 general partner units issued to our general partner in order to maintain its 2% general partner interest in us. These common and general partner units issued were assigned no book value because the cash consideration exceeded the historical carrying value of equity interests acquired. Accordingly, the units issued had no impact on partner capital accounts, other than changing ownership percentages.
+
+As a result of the June 2019 Acquisition, we now have significant influence over both Explorer and Colonial and account for these investments as equity method investments (see Note 5 — Equity Method Investments for further details).
+
+## 2018 Acquisition
+
+On May 11, 2018, we acquired SPLC’s ownership interests in Amberjack, which is comprised of 75% of the issued and outstanding Series A membership interests of Amberjack and 50% of the issued and outstanding Series B membership interests of Amberjack, for \$1,220 million (the “May 2018 Acquisition”). The May 2018 Acquisition closed pursuant to a Purchase and Sale Agreement dated May 9, 2018 between us and SPLC, and is accounted for as a transaction between entities under common control on a prospective basis as an asset acquisition. We acquired historical carrying value of net assets under common control of \$482 million, which is included in Equity method investments in our consolidated balance sheet. We recognized \$738 million of consideration in excess of the historical carrying value of net assets acquired as a capital distribution to our general partner in accordance with our policy for common control transactions. We funded the May 2018 Acquisition with \$494 million in borrowings under our Five Year Revolver due July 2023 (as defined in Note 8 — Related Party Debt) and \$726 million in borrowings under our Five Year Revolver due December 2022 (as defined in Note 8 — Related Party Debt) with STCW.
+
+<span id="page-94-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## 4. Related Party Transactions
+
+Related party transactions include transactions with SPLC and Shell, including those entities in which Shell has an ownership interest but does not have control.
+
+## Acquisition Agreements
+
+Refer to Note 3 — Acquisitions and Other Transactions for a description of other applicable agreements.
+
+## Partnership Interests Restructuring Agreement
+
+On February 27, 2020, we and our general partner entered into the Partnership Interests Restructuring Agreement, pursuant to which the IDRs were eliminated and the 2% general partner economic interest was converted into a non-economic general partner interest in the Partnership.
+
+## Purchase and Sale Agreement
+
+On February 27, 2020, we entered into the Purchase and Sale Agreement by and among Triton, SPLC, SGOM, Shell Chemical and SOPUS, pursuant to which we acquired 79% of the issued and outstanding membership interests in Mattox from SGOM and SOPUS and Shell Chemical transferred to Triton, as a designee of the Partnership, the Norco Assets.
+
+## Omnibus Agreement
+
+On November 3, 2014, we entered into an Omnibus Agreement with SPLC and our general partner concerning our payment of an annual general and administrative services fee to SPLC as well as our reimbursement of certain costs incurred by SPLC on our behalf. On February 19, 2019, we, our general partner, SPLC, the Operating Company and Shell Oil Company terminated the Omnibus Agreement effective as of February 1, 2019, and we, our general partner, SPLC and the Operating Company entered into a new Omnibus Agreement effective February 1, 2019 (the “2019 Omnibus Agreement”). On February 18, 2020, pursuant to the 2019 Omnibus Agreement, the Board of Directors of our general partner (the “Board”) approved a 3% inflationary increase to the annual general and administrative fee for 2020.
+
+The 2019 Omnibus Agreement addresses, among other things, the following matters:
+
+• our payment of an annual general and administrative fee of approximately \$11 million for the provision of certain services by SPLC;
+
+our obligation to reimburse SPLC for certain direct or allocated costs and expenses incurred by SPLC on our behalf; and
+
+our obligation to reimburse SPLC for all expenses incurred by SPLC as a result of us becoming and continuing as a publicly-traded entity; we will reimburse our general partner for these expenses to the extent the fees relating to such services are not included in the general and administrative fee.
+
+Under the 2019 Omnibus Agreement, SPLC agreed to indemnify us against tax liabilities relating to assets acquired at our initial public offering (such offering, the “IPO,” and such assets “initial assets”) that are identified prior to the date that is 60 days after the expiration of the statute of limitations applicable to such liabilities. This obligation has no threshold or cap. We in turn agreed to indemnify SPLC against events and conditions associated with the ownership or operation of our initial assets (other than any liabilities against which SPLC is specifically required to indemnify us as described above).
+
+During 2020 and 2019, neither we nor SPLC made any claims for indemnification under the 2019 Omnibus Agreement.
+
+## Trade Marks License Agreement
+
+We, our general partner and SPLC entered into a Trade Marks License Agreement with Shell Trademark Management Inc. effective as of February 1, 2019. The Trade Marks License Agreement grants us the use of certain Shell trademarks and trade names and expires on January 1, 2024 unless earlier terminated by either party upon 360 days’ notice.
+
+## Tax Sharing Agreement
+
+We have entered into a tax sharing agreement with Shell. Pursuant to this agreement, we have agreed to reimburse Shell for state and local income and franchise taxes attributable to any activity of our operating subsidiaries and reported on Shell’s state or local income or franchise tax returns filed on a combined or unitary basis. Reimbursements under this agreement equal the
+
+<span id="page-95-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+amount of tax our applicable operating subsidiaries would be required to pay with respect to such activity, if such subsidiaries were to file a combined or unitary tax return separate from Shell. Shell will compute and invoice us for the tax reimbursement amount within 15 days of Shell filing its combined or unitary tax return on which such activity is included. We may be required to make prepayments toward the tax reimbursement amount to the extent that Shell is required to make estimated tax payments during the relevant tax year. The tax sharing agreement currently in place is effective for all taxable periods ending on or after December 31, 2017. The current agreement replaced a similar tax sharing agreement between Zydeco and Shell, which was effective for all tax periods ending before December 31, 2017. Reimbursements settled in the years ended December 31, 2020, 2019 and 2018 were not material to our consolidated statements of income.
+
+## Other Agreements
+
+We have entered into several customary agreements with SPLC and Shell. These agreements include pipeline operating agreements, reimbursement agreements and services agreements.
+
+## Operating Agreements
+
+On December 1, 2019, we entered into an Operating and Administrative Management Agreement with SPLC (the “2019 Operating Agreement”). Pursuant to the 2019 Operating Agreement, SPLC provides certain operations, maintenance and administrative services for the assets wholly owned by Pecten, Sand Dollar and Triton (collectively, the “Owners”). The Owners are required to reimburse SPLC for certain costs in connection with the services that SPLC provides pursuant to the 2019 Operating Agreement. SPLC and the Owners each provide standard indemnifications as operator and asset owners, respectively. Upon entering into the 2019 Operating Agreement, certain operating agreements previously entered into between SPLC and each of the Owners were terminated.
+
+In December 2017, we were assigned an operating agreement for Odyssey, whereby SPLC performs physical operations and maintenance services and provides general and administrative services for Odyssey. Odyssey is required to reimburse SPLC for costs and expenses incurred in connection with such services. Also pursuant to the agreement, SPLC and Odyssey agree to standard indemnifications as operator and asset owner, respectively.
+
+Beginning July 1, 2014, Zydeco entered into an operating and management agreement with SPLC under which SPLC provides general management and administrative services to us. Therefore, we do not receive allocated corporate expenses from SPLC or Shell under this agreement. We receive direct and allocated field and regional expenses including payroll expenses not covered under this agreement.
+
+## Partnership Agreement
+
+Concurrently with the execution of the Partnership Interests Restructuring Agreement, on April 1, 2020, we executed the Second Amended and Restated Partnership Agreement, which amended and restated the Partnership’s First Amended and Restated Agreement of Limited Partnership dated November 3, 2014, (“First Amended and Restated Partnership Agreement”) as the same was previously amended, in its entirety. Under the Second Amended and Restated Partnership Agreement, the IDRs were eliminated, the economic general partnership interest was converted into a non-economic general partner interest, and our general partner or its assignee agreed to waive a portion of the distributions that would otherwise be payable on the common units issued to SPLC as part of the April 2020 Transaction, in an amount of \$20 million per quarter for four consecutive fiscal quarters, beginning with the distribution made with respect to the second quarter of 2020. The transaction closed simultaneously with the closing of the transactions described in Note 3 — Acquisitions and Other Transactions—April 2020 Transaction.
+
+Prior to the execution of the Second Amended and Restated Partnership Agreement, on December 21, 2018, we executed Amendment No. 2 (the “Second Amendment”) to the First Amended and Restated Partnership Agreement. Under the Second Amendment, our general partner agreed to waive \$50 million of distributions in 2019 by agreeing to reduce distributions to holders of the IDRs by: (1) \$17 million for the three months ended March 31, 2019, (2) \$17 million for the three months ended June 30, 2019 and (3) \$16 million for the three months ended September 30, 2019.
+
+## Noncontrolling Interests
+
+For Zydeco, noncontrolling interest consists of SPLC’s 7.5% retained ownership interest as of December 31, 2020, 2019 and 2018. For Odyssey, noncontrolling interest consists of GEL Offshore Pipeline LLC’s (“GEL”) 29.0% retained ownership interest as of December 31, 2020, 2019 and 2018.
+
+<span id="page-96-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## Other Related Party Balances
+
+Other related party balances consist of the following:
+
+![](tables/table_pg96_num0.csv)
+Contract assets and Financing receivables were recognized in connection with the April 2020 Transaction. Refer to the section entitled “Sale Leaseback” below for (1) additional details. Financing receivables were presented as a component of (deficit) equity.
+Accounts payable reflects amounts owed to SPLC for reimbursement of third-party expenses incurred by SPLC for our benefit.(2)
+
+As of December 31, 2020, Accrued liabilities reflects \$16 million accrued interest and \$12 million other accrued liabilities, which are primarily related to the accrued (3) operation and maintenance expenses on the Norco Assets. As of December 31, 2019, Accrued liabilities reflects \$18 million accrued interest and \$1 million other accrued liabilities.
+
+Debt payable reflects borrowings outstanding net of unamortized debt issuance costs of \$2 million as of both December 31, 2020 and December 31, 2019.(4)
+
+## Related Party Credit Facilities
+
+We have entered into five credit facilities with STCW: the Ten Year Fixed Facility, the Seven Year Fixed Facility, the Five Year Revolver due July 2023, the Five Year Revolver due December 2022 and the Five Year Fixed Facility. Zydeco has also entered into the 2019 Zydeco Revolver with STCW. See Note 8 — Related Party Debt for definitions and additional information regarding these credit facilities.
+
+## Related Party Revenues and Expenses
+
+We provide crude oil transportation, terminaling and storage services to related parties under long-term contracts. We entered into these contracts in the normal course of our business. Our revenue from related parties for 2020, 2019 and 2018 is disclosed in Note 12 — Revenue Recognition.
+
+The following table shows related party expenses, including certain personnel costs, incurred by Shell and SPLC on our behalf that are reflected in the accompanying consolidated statements of income for the indicated periods. Included in these amounts, and disclosed below, is our share of operating and general corporate expenses, as well as the fees paid to SPLC under certain agreements.
+
+<span id="page-97-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+![](tables/table_pg97_num0.csv)
+Major maintenance costs are expensed as incurred in connection with the maintenance services of the Norco Assets. Refer to section entitled “Sale Leaseback” below for (1) additional details.
+The majority of our insurance coverage is provided by a wholly owned subsidiary of Shell. The remaining coverage is provided by third-party insurers. (2)
+Other expenses primarily relate to salaries and wages, other payroll expenses and special maintenance.(3)
+
+For a discussion of services performed by Shell on our behalf, see Note 1 — Description of the Business and Basis of Presentation – Basis of Presentation – Expense Allocations.
+
+## Pension and Retirement Savings Plans
+
+Employees who directly or indirectly support our operations participate in the pension, postretirement health and life insurance and defined contribution benefit plans sponsored by Shell, which include other Shell subsidiaries. Our share of pension and postretirement health and life insurance costs for 2020, 2019 and 2018 was \$5 million, \$6 million and \$6 million, respectively. Our share of defined contribution benefit plan costs for 2020, 2019 and 2018 was \$2 million, \$2 million and \$3 million, respectively. Pension and defined contribution benefit plan expenses are included in either General and administrative – related parties or Operations and maintenance – related parties in the accompanying consolidated statements of income, depending on the nature of the employee’s role in our operations.
+
+## Severance
+
+We have recorded voluntary and involuntary severance costs of \$7 million and \$3 million in 2020 and 2018, respectively. These costs for 2019 were not material. Severance expenses are included in either General and administrative – related parties or Operations and maintenance – related parties, depending on the nature of the employee’s role in our operations.
+
+## Equity and Other Investments
+
+We have equity and other investments in various entities. In some cases we may be required to make capital contributions or other payments to these entities. See Note 5 — Equity Method Investments for additional details.
+
+## Reimbursements from Our General Partner
+
+Historically, reimbursements received were primarily related to the directional drill project on the Zydeco pipeline system (the
+
+“directional drill project”). As the directional drill project was completed at the end of 2019, the amounts incurred by the project in 2020, and associated claims for reimbursement from our Parent, were not material. In 2019 and 2018, the amounts were \$19 million and \$12 million, respectively. These reimbursements are included in Other contributions from Parent in the accompanying consolidated statements of cash flows and consolidated statements of (deficit) equity. For each of these periods, this amount reflects our proportionate share of the directional drill project costs and expenses.
+
+Further, in the fourth quarter of 2019, we received approximately \$9 million from SPLC with respect to a Mars storage revenue reimbursement provision contained in the Purchase and Sale Agreement entered into in 2016 that was recognized as an additional capital contribution. See Note 5 — Equity Method Investments for additional details.
+
+<span id="page-98-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## Sale Leaseback
+
+Pursuant to the terminaling services agreement entered into among Triton, SOPUS and Shell Chemical related to the Norco Assets acquired in the April 2020 Transaction (see Note 3 — Acquisitions and Other Transactions), the Partnership receives an annual net payment of \$140 million, which is the total annual payment pursuant to the terminaling service agreements of \$151 million, less \$11 million, which primarily represents the allocated utility costs from SOPUS related to the Norco Assets. Both annual payments are subject to annual Consumer Price Index adjustments.
+
+The transfer of the Norco Assets, combined with the terminaling services agreements, were accounted for as a failed sale leaseback under the lease standard. As a result, the transaction was treated as a financing arrangement in which the underlying assets were not recognized in property, plant and equipment of the Partnership as control of the Norco Assets did not transfer to the Partnership, and instead were recorded as financing receivables from SOPUS and Shell Chemical on April 1, 2020 in the amount of \$302 million.
+
+We recognize interest income on the financing receivables recorded in the April 2020 Transaction on the basis of an imputed interest rate of 11.1% related to SOPUS and 7.4% related to Shell Chemical. The following table shows the interest income, reduction in the financing receivables, as well as the cash payments received for interest income and cash principal payments received on financing receivables for the year ended December 31, 2020:
+
+![](tables/table_pg98_num0.csv)
+
+The transfer of the Norco Assets and the terminaling services agreements as a result of the April 2020 Transaction have operation and maintenance service components and major maintenance service components (together “service components”). Consistent with our operating lease arrangements, we allocate a portion of the arrangement’s transaction price to any service components within the scope of the revenue standard and defer the revenue, if necessary, until the point at which the performance obligation is met. We present the revenue earned from the service components under the revenue standard within Transportation, terminaling and storage services – related parties in the consolidated statements of income. Contract assets were also recorded in the amount of \$244 million as of April 1, 2020. See Note 12 — Revenue Recognition for additional details related to revenue recognized on the service components and amortization of the contract assets.
+
+## 5. Equity Method Investments
+
+For each of the following investments, we have the ability to exercise significant influence over these investments based on certain governance provisions and our participation in the significant activities and decisions that impact the management and economic performance of the investments.
+
+Equity method investments comprise the following as of the dates indicated:
+
+<span id="page-99-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+December 31,
+![](tables/table_pg99_num0.csv)
+Mattox was acquired as part of the April 2020 Transaction. This interest has been accounted for on a prospective basis. See below for additional information. (1)
+As part of the June 2019 Acquisition, these interests have been accounted for prospectively. See below for additional information. (2)
+
+We acquired a 79% interest in Mattox from SGOM in the April 2020 Transaction. This investment qualifies for equity method accounting, as we exercise significant influence but do not control this investment. Upon acquisition, we recorded SGOM’s historical carrying value of the equity interests transferred as a transaction between entities under common control, totaling \$174 million. We recognize equity earnings for Mattox prospectively from the date of acquisition, and record the distributions from Mattox as a reduction to the equity method investment balance.
+
+We acquired an additional 25.97% interest in Explorer and an additional 10.125% interest in Colonial in the June 2019 Acquisition. As a result, these investments now qualify for equity method accounting as we have the ability to exercise significant influence over these investments as of the acquisition date. Prior to the acquisition date, Explorer and Colonial were accounted for as Other investments without readily determinable fair values and were therefore carried at cost. Upon acquisition, we added our Parent’s historical carrying value of the equity interests transferred as a transaction between entities under common control, totaling \$90 million, to the basis of our previously held interests of \$60 million as this is the date these investments qualified for equity method accounting. Since the June 2019 Acquisition, we record distributions from these investments as reductions to the respective equity method investment balances for Explorer and Colonial as these amounts are no longer considered dividend income due to the change in the method of accounting. We recognize equity earnings for both Explorer and Colonial prospectively from the date of acquisition.
+
+For the years ended December 31, 2020, 2019 and 2018, distributions received from equity method investments were \$541 million, \$466 million and \$301 million, respectively.
+
+Unamortized differences in the basis of the initial investments and our interest in the separate net assets within the financial statements of the investees are amortized into net income over the remaining useful lives of the underlying assets. As of December 31, 2020 and 2019, the unamortized basis differences included in our equity method investments are \$84 million and \$92 million, respectively. For the years ended 2020, 2019 and 2018, the net amortization expense was \$8 million, \$6 million and \$4 million, respectively, which is included in Income from equity method investments.
+
+During the first quarter of 2018, the investment amount for Poseidon was reduced to zero due to distributions received that were in excess of our investment balance and we, therefore, suspended the equity method of accounting. As we have no commitments to provide further financial support to Poseidon, we have recorded excess distributions of \$37 million, \$33 million and \$24 million in Other income for the years ended December 31, 2020, 2019 and 2018, respectively. Once our cumulative share of equity earnings becomes greater than the cumulative amount of distributions received, we will resume the equity method of accounting as long as the equity method investment balance remains greater than zero.
+
+<span id="page-100-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+Earnings from our equity method investments were as follows during the periods indicated:
+
+For the Year Ended December 31,
+![](tables/table_pg100_num0.csv)
+We acquired an interest in Mattox in the April 2020 Transaction. The acquisition of this interest has been accounted for prospectively. (1)
+We acquired an interest in Amberjack in the May 2018 Acquisition. The acquisition of this interest has been accounted for prospectively. (2)
+We acquired additional interests in Explorer and Colonial in the June 2019 Acquisition. The acquisition of these interests has been accounted for prospectively. (3)
+As stated above, the equity method of accounting has been suspended in 2018 for Poseidon and excess distributions are recorded in Other income. (4)
+Included in Other is the activity associated with our investments in Permian Basin, LOCAP, Proteus and Endymion.(5)
+
+The adoption of the revenue standard for the majority of our equity method investments followed the non-public business entity adoption date of January 1, 2019 for their stand-alone financial statements, with the exception of Mars and Permian Basin, which both adopted on January 1, 2018. As a result of adopting the revenue standard January 1, 2019 and 2018 by Amberjack and Mars, respectively, we recognized our proportionate share of each investment’s cumulative effect transition adjustment increasing the opening deficit in the amounts of \$9 million and \$7 million, respectively. The Amberjack adjustment is related to its dedication and transportation agreements, which contain tiered pricing arrangements resulting in a deferral of revenue. The Mars adjustment related to its transportation and dedication agreement and method of recognition as a stand-ready obligation, which resulted in a deferral of the recognition of revenue over the life of the contract, whereas under previous GAAP revenue was recognized upon physical delivery. The adoption of the revenue standard by our other equity method investments was not material.
+
+Under the lease standard, the adoption date for our equity method investments will follow the non-public business entity adoption date of January 1, 2020 for their stand-alone financial statements, with the exception of Permian Basin, which adopted on January 1, 2019. There has been no material impact on the Partnership’s consolidated financial statements as a result of the adoption of the lease standard by our equity method investees.
+
+On October 23, 2019, we entered into a Settlement Agreement with SPLC (the “Settlement Agreement”) with respect to the storage revenue reimbursement provision contained in the Purchase and Sale Agreement entered into in 2016 under which we acquired an additional 20% interest in Mars. As a result of the Settlement Agreement, we received approximately \$9 million during the fourth quarter of 2019 from SPLC that was recognized as an additional capital contribution. Pursuant to the Purchase and Sale Agreement, SPLC agreed to pay us up to \$10 million if Mars inventory management fees do not meet certain levels for the calendar years 2017 through 2021.
+
+Based on our updated forecast and expectations of market conditions, we determined that there was a triggering event as of December 7, 2020 for our Permian Basin equity method investment that required us to update our impairment evaluation. The updated forecast had reductions in forecasted volumes gathered and processed by Permian Basin. Based on our evaluation, we determined that the fair value of our investment in Permian Basin was in excess of the carrying value as of December 7, 2020, and, therefore, there was no other-than-temporary impairment. However, if the facts and circumstances change in the near-term for Permian Basin and indicate a loss in value that is other-than-temporary, we will re-evaluate whether the carrying amount of this equity method investment may not be recoverable.
+
+The fair value of the Permian Basin investment was determined based upon applying both the discounted cash flow method, which is an income approach, and a market approach. The discounted cash flow fair value estimate is based on known and knowable information at the measurement date. The significant assumptions that were used to develop the estimate of fair value
+
+<span id="page-101-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+under the discounted cash flow method include management's best estimates of the expected future cash flows, including prices and volumes, the weighted average cost of capital and the long-term growth rate. Fair value determinations require considerable judgment and are sensitive to changes in underlying assumptions and factors. As a result, we cannot provide assurance that actual amounts will not vary significantly from estimated amounts.
+
+Due to the continuing effects of the COVID-19 pandemic, we also evaluated whether an impairment indicator existed as of December 31, 2020 for our other equity method investments. Based on our current forecast and expectations of market conditions, we determined that there was no triggering event that required us to update our impairment evaluation of these equity method investments. However, if the facts and circumstances change in the near-term and indicate a loss in value that is other-than-temporary, we will re-evaluate whether the carrying amount of our equity method investments may not be recoverable.
+
+## Summarized Financial Information
+
+The following tables present aggregated selected balance sheet and income statement data for our equity method investments on a 100% basis. However, during periods in which an acquisition occurs, the selected balance sheet and income statement data reflects activity from the date of the acquisition.
+
+For the Year Ended December 31, 2020
+![](tables/table_pg101_num0.csv)
+
+As of December 31, 2020
+![](tables/table_pg101_num1.csv)
+Our interest in Mattox was acquired in the April 2020 Transaction. Mattox’s total revenues, total operating expenses and operating income (on a 100% basis) were \$85 (1) million, \$12 million and \$73 million, respectively.
+Included in Other is the activity associated with our investments in Permian Basin, LOCAP, Proteus and Endymion. (2)
+
+<span id="page-102-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+For the Year Ended December 31, 2019
+![](tables/table_pg102_num0.csv)
+
+As of December 31, 2019
+![](tables/table_pg102_num1.csv)
+Our interest in Explorer was acquired on June 6, 2019. Explorer total revenues, total operating expenses and operating income (on a 100% basis) was \$443 million, \$196 (1) million and \$247 million, respectively.
+
+Our interest in Colonial was acquired on June 6, 2019. Colonial total revenues, total operating expenses and operating income (on a 100% basis) was \$1,437 million, \$735 (2) million and \$702 million, respectively.
+
+Included in Other is the activity associated with our investments in Permian Basin, LOCAP, Proteus and Endymion. (3)
+
+For the Year Ended December 31, 2018
+![](tables/table_pg102_num2.csv)
+
+<span id="page-103-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+As of December 31, 2018
+![](tables/table_pg103_num0.csv)
+Our interest in Amberjack was acquired on May 11, 2018. Amberjack total revenues, total operating expenses and operating income (on a 100% basis) was \$295 million, (1) \$74 million and \$221 million, respectively.
+Included in Other is the activity associated with our investments in Permian Basin, LOCAP, Proteus and Endymion.(2)
+
+## Capital Contributions
+
+We make capital contributions for our pro rata interest in Permian Basin to fund capital and other expenditures. We made capital contributions to Permian Basin of zero, \$25 million and \$28 million in 2020, 2019 and 2018, respectively.
+
+## 6. Property, Plant and Equipment
+
+Property, plant and equipment, net consists of the following as of the dates indicated:
+
+![](tables/table_pg103_num1.csv)
+As of December 31, 2020 and 2019, includes cost of \$372 million and \$369 million, respectively, related to assets under operating leases (as lessor). As of both(1) December 31, 2020 and 2019, includes cost of \$23 million related to assets under capital lease (as lessee).
+
+As of December 31, 2020 and 2019, includes accumulated depreciation of \$147 million and \$133 million, respectively, related to assets under operating leases (as (2) lessor), which commenced in May 2017 and December 2017. As of December 31, 2020 and 2019, includes accumulated depreciation of \$8 million and \$6 million, respectively, related to assets under capital lease (as lessee).
+
+Depreciation and amortization expense on property, plant and equipment for 2020, 2019 and 2018 was \$50 million, \$49 million and \$46 million, respectively, and is included in cost and expenses in the accompanying consolidated statements of income. Depreciation and amortization expense on property, plant and equipment includes amounts pertaining to assets under operating (as lessor) and capital leases (as lessee).
+
+We evaluate long-lived assets for potential impairment indicators whenever events or changes in circumstances indicate that the carrying amount of our assets may not be recoverable. Due to the continuing effects of the COVID-19 pandemic, we evaluated whether an impairment indicator existed during the year ended December 31, 2020. Based on our current forecast and expectations of market conditions, we determined that there was no triggering event that required us to update our impairment evaluation of property, plant and equipment. However, if current volatile market conditions deteriorate further or continue for an extended period of time, we may be required to assess the recoverability of our long-lived assets, which could result in an impairment.
+
+<span id="page-104-0"></span>
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## 7. Accrued Liabilities – Third Parties
+
+Accrued liabilities – third parties consist of the following as of the dates indicated:
+
+![](tables/table_pg104_num0.csv)
+
+See Note 4 — Related Party Transactions for a discussion of Accrued liabilities – related parties.
+
+## 8. Related Party Debt
+
+Consolidated related party debt obligations comprise the following as of the dates indicated:
+
+![](tables/table_pg104_num1.csv)
+
+Interest and fee expenses associated with our borrowings, net of capitalized interest, were \$90 million, \$92 million and \$61 million for 2020, 2019 and 2018, respectively, of which we paid \$92 million, \$88 million and \$53 million, respectively.
+
+Borrowings under our revolving credit facilities approximate fair value as the interest rates are variable and reflective of market rates, which results in Level 2 instruments. The fair value of our fixed rate credit facilities is estimated based on the published market prices for issuances of similar risk and tenor and is categorized as Level 2 within the fair value hierarchy. As of December 31, 2020, the carrying amount and estimated fair value of total debt (before amortization of issuance costs) was \$2,694 million and \$2,928 million, respectively. As of December 31, 2019, the carrying amount and estimated fair value of total debt (before amortization of issuance costs) was \$2,694 million and \$2,825 million, respectively.
+
+The Ten Year Fixed Facility was fully drawn on June 6, 2019 to partially fund the June 2019 Acquisition.
+
+The Seven Year Fixed Facility was fully drawn on August 1, 2018 and the borrowings were used to partially repay borrowings under the Five Year Revolver due December 2022.
+
+On May 11, 2018, we funded the May 2018 Acquisition with \$494 million in borrowings under the Five Year Revolver due July 2023 and \$726 million in borrowings under the Five Year Revolver due December 2022.
+
+On February 6, 2018, we used net proceeds from sales of common units and from our general partner’s proportionate capital contribution to repay \$247 million of borrowings outstanding under our Five Year Revolver due July 2023 and \$726 million of borrowings outstanding under our Five Year Revolver due December 2022.
+
+Borrowings and repayments under our credit facilities for 2020, 2019 and 2018 are disclosed in our consolidated statements of cash flows. See Note 11 – (Deficit) Equity for additional information regarding the source of our repayments, if applicable to the period. Borrowings under the Five Year Revolver due July 2023, the Five Year Revolver due December 2022 and the 2019 Zydeco Revolver bear interest at the three-month LIBOR rate plus a margin or, in certain instances (including if LIBOR is
+
+<span id="page-105-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+discontinued) at an alternate interest rate as described in each respective revolver. Over the next few years, LIBOR will be discontinued globally, and as such, a new benchmark will take its place. We are in discussion with our Parent to further clarify the reference rate(s) applicable to our revolving credit facilities once LIBOR is discontinued, and we are evaluating any potential impact on our facilities.
+
+## Credit Facility Agreements
+
+## Ten Year Fixed Facility
+
+On June 4, 2019, we entered into a ten-year fixed rate credit facility with STCW with a borrowing capacity of \$600 million (the “Ten Year Fixed Facility”). The Ten Year Fixed Facility bears an interest rate of 4.18% per annum and matures on June 4, 2029. No issuance fee was incurred in connection with the Ten Year Fixed Facility. The Ten Year Fixed Facility contains customary representations, warranties, covenants and events of default, the occurrence of which would permit the lender to accelerate the maturity date of amounts borrowed under the Ten Year Fixed Facility.
+
+## Seven Year Fixed Facility
+
+On July 31, 2018, we entered into a seven-year fixed rate credit facility with STCW with a borrowing capacity of \$600 million (the “Seven Year Fixed Facility”). We incurred an issuance fee of \$1 million, which was paid on August 7, 2018. The Seven Year Fixed Facility contains customary representations, warranties, covenants and events of default, the occurrence of which would permit the lender to accelerate the maturity date of amounts borrowed under the Seven Year Fixed Facility.
+
+The Seven Year Fixed Facility bears an interest rate of 4.06% per annum and matures on July 31, 2025.
+
+## Five Year Revolver due July 2023
+
+On August 1, 2018, we amended and restated the five year revolving credit facility originally due October 2019 such that the facility will now mature on July 31, 2023 (the “Five Year Revolver due July 2023”). The Five Year Revolver due July 2023 has a borrowing capacity of \$760 million and will continue to bear interest at LIBOR plus a margin and we continue to pay interest of 0.19% on any unused capacity. Commitment fees began to accrue beginning on the date we entered into the agreement.
+
+As of December 31, 2020, the annualized weighted average interest rate for the Five Year Revolver due July 2023 was 2.06%. There was no issuance fee associated with this amendment. All other material terms and conditions of the Five Year Revolver due July 2023 remain unchanged.
+
+The Five Year Revolver due July 2023 was originally entered into on November 3, 2014, and provides that loans advanced under the facility can have a term ending on or before its maturity date.
+
+## Five Year Revolver due December 2022
+
+On December 1, 2017, we entered into a five year revolving credit facility with STCW (the “Five Year Revolver due December 2022”) with a borrowing capacity of \$1,000 million and paid an issuance fee of \$2 million. Borrowings under the Five Year Revolver due December 2022 bear interest at the threemonth LIBOR rate plus a margin, or, in the alternative, the percentage rate per annum which is the rate notified to us by STCW in accordance with the terms of the Five Year Revolver due December 2022 as soon as practicable and in any event before interest is due to be paid in respect of a loan. Additionally, we pay interest of 0.19% on any unused capacity. As of December 31, 2020, the weighted average interest rate for the Five Year Revolver due December 2022 was 2.26%. Commitment fees began to accrue beginning on the date we entered into the agreement. The Five Year Revolver due December 2022 matures on December 1, 2022.
+
+## Five Year Fixed Facility
+
+On March 1, 2017, we entered into a Loan Facility Agreement with STCW with a borrowing capacity of \$600 million (the “Five Year Fixed Facility”) and paid an issuance fee of \$1 million. The Five Year Fixed Facility provides that we may not repay or prepay amounts borrowed without the consent of the lender and amounts repaid or prepaid may not be re-borrowed.
+
+The Five Year Fixed Facility bears a fixed interest rate of 3.23% per annum. The Five Year Fixed Facility matures on March 1, 2022.
+
+Zydeco Revolving Credit Facility Agreement
+
+<span id="page-106-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+On August 6, 2019, the senior unsecured revolving credit facility agreement between Zydeco and STCW, dated August 6, 2014, expired. On August 1, 2019, Zydeco entered into a senior unsecured revolving loan facility agreement with STCW, effective August 6, 2019 (the “2019 Zydeco Revolver”). The 2019 Zydeco Revolver has a borrowing capacity of \$30 million and matures on August 6, 2024. Borrowings under the credit facility bear interest at the three-month LIBOR rate plus a margin, or, in certain instances, including if LIBOR is discontinued, STCW may specify another benchmark rate generally accepted in the loan market to apply in relation to the advances in place of LIBOR. No issuance fee was incurred in connection with the 2019 Zydeco Revolver. As of December 31, 2020, the interest rate for the 2019 Zydeco Revolver was 0.86%.
+
+## Covenants
+
+Under the Ten Year Fixed Facility, the Seven Year Fixed Facility, the Five Year Revolver due July 2023, the Five Year Revolver due December 2022, the Five Year Fixed Facility, and the 2019 Zydeco Revolver, we (and Zydeco in the case of the 2019 Zydeco Revolver) have agreed, among other things:
+
+• to restrict additional indebtedness not loaned by STCW;
+
+• to give the applicable facility pari passu ranking with any new indebtedness; and
+
+• to refrain from securing our assets except as agreed with STCW.
+
+These facilities also contain customary events of default, such as nonpayment of principal, interest and fees when due and violation of covenants, as well as cross-default provisions under which a default under one credit facility may trigger an event of default in another facility with the same borrower. Any breach of covenants included in our debt agreements that could result in our related party lender demanding payment of the unpaid principal and interest balances will have a material adverse effect upon us and would likely require us to seek to renegotiate these debt arrangements with our related party lender and/or obtain new financing from other sources. As of December 31, 2020 and 2019, we were in compliance with the covenants contained in the Ten Year Fixed Facility, Seven Year Fixed Facility, the Five Year Revolver due July 2023, the Five Year Revolver due December 2022 and the Five Year Fixed Facility, and Zydeco was in compliance with the covenants contained in the 2019 Zydeco Revolver.
+
+Borrowings and repayments under our credit facilities for 2020, 2019 and 2018 are disclosed in our consolidated statements of cash flows. See Note 3 — Acquisitions and Other Transactions for additional information regarding our use of borrowings. See Note 11 — (Deficit) Equity for additional information regarding the source of our repayments.
+
+## 9. Leases
+
+## Adoption of ASC Topic 842 “Leases”
+
+On January 1, 2019, we adopted the lease standard by applying the modified retrospective approach to all leases on January 1, 2019. We elected the package of practical expedients upon transition that permits us to not reassess (1) whether any contracts entered into prior to adoption are or contain leases, (2) the lease classification of existing leases and (3) initial direct costs for any leases that existed prior to adoption. We also elected the practical expedient to not evaluate existing or expired land easements that were not accounted for as leases under previous guidance. Generally, we account for term-based land easements where we control the use of the land surface as leases.
+
+Upon adoption on January 1, 2019, we recognized operating lease right-of-use (“ROU”) assets and corresponding lease liabilities of \$5 million. As lessor, the accounting for operating leases has not changed and the adoption did not have an impact on our existing transportation and terminaling services agreements that are considered operating leases. As lessee, the accounting for finance leases (capital leases) was substantially unchanged.
+
+## Lessee accounting
+
+We determine if an arrangement is or contains a lease at inception. Our assessment is based on (1) whether the contract involves the use of a distinct identified asset, (2) whether we obtain the right to substantially all the economic benefit from the use of the asset throughout the period and (3) whether we have the right to direct the use of the asset. Leases are classified as either finance leases or operating leases. A lease is classified as a finance lease if any one of the following criteria are met: the lease transfers ownership of the asset by the end of the lease term, the lease contains an option to purchase the asset that is reasonably certain to be exercised, the lease term is for a major part of the remaining useful life of the asset or the present value of the lease payments equals or exceeds substantially all of the fair value of the asset. A lease is classified as an operating lease if it does not meet any one of these criteria. The lease classification affects the expense recognition in the income statement. Operating lease
+
+<span id="page-107-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+costs are recorded entirely in operating expenses. Finance lease costs are split, where amortization of the ROU asset is recorded in operating expenses and an implied interest component is recorded in interest expense.
+
+Under the lease standard, operating leases (as lessee) are included in Operating lease right-of-use assets, Accrued liabilities - third parties and Operating lease liabilities in our consolidated balance sheets. Finance leases (as lessee) are included in Property, plant and equipment, Accrued liabilities – third parties and Finance lease liabilities in our consolidated balance sheets. ROU assets and lease liabilities are recognized at commencement date based on the present value of the future minimum lease payments over the lease term. As most of our leases do not provide an implicit interest rate, we use our incremental borrowing rate (“IBR”) based on the information available at transition date in determining the present value of future payments. The ROU asset includes any lease payments made but excludes lease incentives and initial direct costs incurred, if any. Lease expense for minimum lease payments is recognized on a straight-line basis over the lease term.
+
+We have long-term non-cancelable third-party operating leases for land. Several of the leases provide for renewal terms. We hold cancellable easements or rights-of-way arrangements from landowners permitting the use of land for the construction and operation of our pipeline systems. Obligations under these easements are not material to the results of our operations. In addition, Odyssey has a third-party operating lease for use of offshore platform space at Main Pass 289C. This lease will continue to be in effect until the continued operation of the platform is uneconomic.
+
+We are also obligated under two finance leases. We have a terminaling services agreement in which we took possession of certain storage tanks located in Port Neches, Texas and a lease of offshore platform space on the Garden Banks 128 “A” platform.
+
+Lease extensions. Many of our leases have options to either extend or terminate the lease. In determining the lease term, we considered all available contract extensions that are reasonably certain of occurring.
+
+## Significant assumptions and judgments
+
+Incremental borrowing rate. We are generally not made aware of the interest rate implicit in a lease due to several reasons, including: (1) uncertainty as to the total amount of the costs incurred by the lessor in negotiating the lease or whether certain costs incurred by the lessor would qualify as initial direct costs and (2) uncertainty as to the lessor’s expectation of the residual value of the asset at the end of the lease. Therefore, we use our IBR at the commencement of the lease and estimate the IBR for each lease agreement taking into consideration lease contract term, collateral and entity credit ratings, and use sensitivity analyses to evaluate the reasonableness of the rates determined.
+
+## Lease balances and costs
+
+The following tables summarize balance sheet data related to leases at December 31, 2020 and 2019 and our lease costs as of and for the year ended December 31, 2020 and 2019:
+
+![](tables/table_pg107_num0.csv)
+Finance lease assets are recorded net of accumulated amortization of \$8 million as of December 31, 2020 and \$6 million as of December 31, 2019. (1)
+
+<span id="page-108-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+![](tables/table_pg108_num0.csv)
+Amounts for each year ended December 31, 2020 and 2019 were less than \$1 million.(1)
+
+## Other information
+
+![](tables/table_pg108_num1.csv)
+
+Amounts for each year ended December 31, 2020 and 2019 were less than \$1 million . (1)
+
+![](tables/table_pg108_num2.csv)
+
+## Annual maturity analysis
+
+The future annual maturity of lease payments as of December 31, 2020 for the above lease obligations was:
+
+![](tables/table_pg108_num3.csv)
+Operating lease payments include \$2 million related to options to extend lease terms that are reasonably certain of being exercised. (1)
+Includes \$24 million in principal and excludes \$8 million in executory costs.(2)
+Calculated using the interest rate for each lease.(3)
+Includes the current portion of \$1 million for the finance lease.(4)
+
+<span id="page-109-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## Lessor accounting
+
+We have certain transportation and terminaling services agreements with related parties entered into prior to the adoption date of January 1, 2019 that are considered operating leases and include both a lease component and an implied operation and maintenance service component (“non-lease service component”). Certain of these agreements were entered into for terms of ten years with the option to extend for two additional terms of five years each. One of these contracts was amended to include an option for the lessee to extend for a fourteen-month term prior to the original extension options. However, it is reasonably certain that the original extension options of the two additional five-year terms will not be exercised for this contract. Further, we have agreements with an initial term of ten years with the option to extend for up to ten additional one-year terms. As is the case with certain of our agreements, when the renewal options are reasonably certain to be exercised, the payments are included in the future maturity of lease payments. Our transportation, terminaling and storage services revenue and lease revenue from related parties for the years ended December 31, 2020 and 2019 are disclosed in Note 12 — Revenue Recognition.
+
+Our risk management strategy for the residual assets is mitigated by the long-term nature of the underlying assets and the long-term nature of our lease agreements.
+
+## Significant assumptions and judgments
+
+Lease and non-lease components. Certain of our revenues are accounted for under the lease standard, as the underlying contracts convey the right to control the use of the identified asset for a period of time. We allocate the arrangement consideration between the lease components that fall within the scope of the lease standard and any non-lease service components within the scope of the revenue standard based on the relative stand-alone selling price of each component. See Note 12 — Revenue Recognition for additional information regarding the allocation of the consideration in a contract between the lease and non-lease service components.
+
+## Annual maturity analysis
+
+As of December 31, 2020, future annual maturity of lease payments to be received under the contract terms of these operating leases, which includes only the lease components of these leases, was estimated to be:
+
+![](tables/table_pg109_num0.csv)
+Operating lease payments include \$366 million related to options to extend lease terms that are reasonably certain of being exercised.(1)
+
+## Other
+
+As of December 31, 2020 and 2019, we had short-term payment obligations relating to capital expenditures totaling \$1 million and \$5 million, respectively.   
+These represent unconditional payment obligations to vendors for products and services delivered in connection with capital projects.
+
+## 10. Accumulated Other Comprehensive Loss
+
+As a result of the transactions contemplated by the June 2019 Acquisition, we recorded an accumulated other comprehensive loss related to pension and other post-retirement benefits provided by Explorer and Colonial to their employees. We are not a sponsor of these benefits plans. The June 2019 Acquisition is accounted for as a transaction between entities under common control on a prospective basis, and we have recorded the acquisition on our consolidated balance sheet at SPLC’s historical basis, which included accumulated other comprehensive loss. In 2020 and 2019, we recorded \$1 million and \$2 million, respectively, in other comprehensive loss related to remeasurements related to these pension and other post-retirement benefits.
+
+<span id="page-110-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## 11. (Deficit) Equity
+
+## General Partner and IDR Restructuring
+
+Prior to April 1, 2020, our capital accounts were comprised of a 2% general partner interest and 98% limited partner interests. On April 1, 2020, in connection with the closing of the April 2020 Transaction, we closed on the transactions contemplated by the Partnership Interests Restructuring Agreement, pursuant to which we eliminated all of the IDRs and converted the 2% economic general partner interest in the Partnership into a noneconomic general partner interest. As a result, 4,761,012 general partner units and the IDRs were canceled and are no longer outstanding, and therefore, no longer participate in distributions of cash from the Partnership. Because the transaction was among entities under common control, our general partner’s negative equity balance of \$4 billion at April 1, 2020 was transferred to SPLC’s equity accounts, allocated between its holdings of common units and preferred units, based on the relative fair value of the common units and preferred units issued as consideration in the April 2020 Transaction.
+
+## Shelf Registrations
+
+We have a universal shelf registration statement on Form S-3 on file with the SEC under which we, as a well-known seasoned issuer, have the ability to issue and sell an indeterminate amount of common units and partnership securities representing limited partner units. We also have on file with the SEC a shelf registration statement on Form S-3 relating to \$1,000,000,000 of common units and partnership securities representing limited partner units to be used in connection with the at-the-market equity distribution program, direct sales or other sales consistent with the plan of distribution set forth in the registration statement.
+
+## Public Of erings and Private Placement
+
+On February 6, 2018, we completed the sale of 25,000,000 common units in a registered public offering for \$673 million net proceeds (\$680 million gross proceeds, or \$27.20 per common unit, less \$6 million of underwriter’s fees and \$1 million of transaction fees). In connection with the issuance of common units, we issued 510,204 general partner units to our general partner for \$14 million in order to maintain its 2% general partner interest in us. On February 6, 2018, we also completed the sale of 11,029,412 common units in a private placement with LP Holdings for an aggregate purchase price of \$300 million, or \$27.20 per common unit. In connection with the issuance of the common units, we issued 225,091 general partner units to our general partner for \$6 million in order to maintain its 2% general partner interest in us. We used net proceeds from these sales to repay \$247 million of borrowings outstanding under the Five Year Revolver due July 2023 and \$726 million of borrowings outstanding under the Five Year Revolver due December 2022, as well as for general partnership purposes.
+
+## At-the-Market Program
+
+We have an “at-the-market” equity distribution program pursuant to which we may issue and sell common units for up to \$300 million in gross proceeds.   
+We did not have any sales under this program during 2020, 2019 or 2018.
+
+## Units Outstanding
+
+The changes in the number of units outstanding from December 31, 2018 through December 31, 2020 are as follows:
+
+![](tables/table_pg110_num0.csv)
+
+## Common units
+
+The common units represent limited partner interests in us. The holders of common units, both public and SPLC, are entitled to participate in partnership distributions and have limited rights of ownership as provided for under the Second Amended and Restated Partnership Agreement.
+
+<span id="page-111-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+As of December 31, 2020, we had 393,289,537 common units outstanding, of which 123,832,233 were publicly owned. SPLC owned 269,457,304 common units representing an aggregate 68.5% limited partner interest in us.
+
+## Series A Preferred Units
+
+On April 1, 2020, as partial consideration for the April 2020 Transaction, we issued 50,782,904 Series A Preferred Units to SPLC at a price of \$23.63 per preferred unit. The Series A Preferred Units are a new class of equity security that rank senior to all common units with respect to distribution rights and rights upon liquidation. The Series A Preferred Units have voting rights, distribution rights and certain redemption rights, and are also convertible (at the option of the Partnership and at the option of the holder, in each case under certain circumstances) and are otherwise subject to the terms and conditions as set forth in the Second Amended and Restated Partnership Agreement. We classified the Series A Preferred Units as permanent equity since they are not redeemable for cash or other assets 1) at a fixed or determinable price on a fixed or determinable date; 2) at the option of the holder; or 3) upon the occurrence of an event that is not solely within the control of the issuer.
+
+## Conversion
+
+At the option of Series A Preferred Unitholders. Beginning with the earlier of (1) January 1, 2022 and (2) immediately prior to the liquidation of the Partnership, the Series A Preferred Units are convertible by the preferred unitholders, at the preferred unitholders’ option, into common units on a one-forone basis, adjusted to give effect to any accrued and unpaid distributions on the applicable preferred units.
+
+At the option of the Partnership. The Partnership shall have the right to convert the Series A Preferred Units on a one-for-one basis, adjusted to give effect to any accrued and unpaid distributions on the applicable Series A Preferred Units, into common units at any time from and after January 1, 2023, if the closing price of the common units is greater than \$33.082 per unit (140% of the Series A Preferred Unit Issue Price (as defined in the Second Amended and Restated Partnership Agreement)) for any 20 trading days during the 30 trading-day period immediately preceding notice of the conversion. The conversion rate for the Series A Preferred Units shall be the quotient of (a) the sum of (i) \$23.63, plus (ii) any unpaid cash distributions on the applicable Series A Preferred Units, divided by (b) \$23.63.
+
+## Voting
+
+The Series A Preferred Units are entitled to vote on an as-converted basis with the common units and have certain other class voting rights with respect to any amendment to the Second Amended and Restated Partnership Agreement. In the event of any liquidation of the Partnership, the Series A Preferred Units are entitled to receive, out of the assets of the Partnership available for distribution to the partners or any assignees, prior and in preference to any distribution of any assets of any junior securities, the value in each holder’s capital account in respect of such Series A Preferred Units.
+
+## Change of Control
+
+Upon the occurrence of certain events involving a change of control in which more than 90% of the consideration payable to the holders of the common units is payable in cash, the Series A Preferred Units will automatically convert into common units at the then-applicable conversion rate. Upon the occurrence of certain other events involving a change of control, the holders of the Series A Preferred Units may elect, among other potential elections, to convert the Series A Preferred Units to common units at the then-applicable conversion rate.
+
+## Special Distribution
+
+Each Series A Preferred Unit has the right to share in any special distributions by the Partnership of cash, securities or other property pro rata with the common units or any other securities, on an as-converted basis, provided that special distributions shall not include regular quarterly distributions paid in the normal course of business on the common units.
+
+## Distributions to our Unitholders
+
+In connection with the April 2020 Transaction, commencing with the quarter ending June 30, 2020, the holders of the Series A Preferred Units are entitled to cumulative quarterly distributions at a rate of \$0.2363 per Series A Preferred Unit, payable quarterly in arrears no later than 60 days after the end of the applicable quarter. The Partnership will not be entitled to pay any distributions on any junior securities, including any of the common units, prior to paying the quarterly distribution payable to the Series A Preferred Units, including any previously accrued and unpaid distributions. For the year ended December 31, 2020, the aggregate and per unit amounts of cumulative preferred distributions paid were \$36 million and \$0.7089, respectively.
+
+<span id="page-112-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+Under the Second Amended and Restated Partnership Agreement, our general partner or its assignee has agreed to waive a portion of the distributions that would otherwise be payable on the common units issued to SPLC as part of the April 2020 Transaction, in an amount of \$20 million per quarter for four consecutive fiscal quarters, beginning with the distribution made with respect to the second quarter of 2020. See Note 4 — Related Party Transactions for terms of the Second Amended and Restated Partnership Agreement.
+
+Under the Second Amendment, our general partner elected to waive \$50 million of distributions with respect to the IDRs in 2019 to be used for future investment by the Partnership. See Note 4 — Related Party Transactions for terms of the Second Amendment.
+
+The following table details the distributions declared and/or paid for the periods presented:
+
+![](tables/table_pg112_num0.csv)
+Includes the impact of waived distributions to the holders of IDRs with respect to the Second Amendment as described above.(1)
+Includes the impact of waived distributions to SPLC with respect to the April 2020 Transaction as described above. (2)
+This amount represents the Final IDR Payment (as defined in the Partnership Interests Restructuring Agreement) to which our general partner (or its assignee) was (3) entitled pursuant to the Partnership Interests Restructuring Agreement. Also pursuant to the Partnership Interests Restructuring Agreement, our general partner agreed (on its own behalf and on behalf of its assignees) to waive any distributions that it would otherwise be entitled to receive with respect to the newly-issued 160 million common units that it received in the April 2020 Transaction for the quarter in which it receives the Final IDR Payment. Our general partner is not entitled to any payments with respect to the IDRs going forward, as they have been cancelled as a part of the April 2020 Transaction.
+This amount represents the final distribution payment on the 2% economic general partner interest. Our general partner is not entitled to any payments with respect to the (4) economic general partner interest going forward, as it was converted into a non-economic general partner interest as a part of the April 2020 Transaction. See Note 16 — Subsequent Event(s) for additional information. (5)
+
+## Distributions to Noncontrolling Interests
+
+Distributions to SPLC for its noncontrolling interest in Zydeco were \$5 million, \$4 million and \$7 million in 2020, 2019 and 2018, respectively. Distributions to GEL for its noncontrolling interest in Odyssey were \$11 million, \$13 million and \$9 million in 2020, 2019 and 2018, respectively. See Note 4 — Related Party Transactions for additional details.
+
+## 12. Revenue Recognition
+
+The revenue standard’s core principle is that a company will recognize revenue when it transfers promised goods or services to customers in an amount that reflects the consideration to which the company expects to be entitled in exchange for those goods or services. The revenue standard requires entities to recognize revenue through the application of a five-step model, which includes: identification of the contract; identification of the performance obligations; determination of the transaction price;
+
+<span id="page-113-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+allocation of the transaction price to the performance obligations; and recognition of revenue as the entity satisfies the performance obligations.
+
+Our revenues are primarily generated from the transportation, terminaling and storage of crude oil, refinery gas and refined petroleum products through our pipelines, terminals, storage tanks, docks, truck and rail racks. To identify the performance obligations, we considered all the products or services promised in the contracts with customers, whether explicitly stated or implied based on customary business practices. Revenue is recognized when each performance obligation is satisfied under the terms of the contract.
+
+Each barrel of product transported or day of services provided is considered a distinct service that represents a performance obligation that would be satisfied over time if it were accounted for separately. The services provided over the contract period are a series of distinct services that are substantially the same, have the same pattern of transfer to the customer, and, therefore, qualify as a single performance obligation. Since the customer simultaneously receives and consumes the benefits of services, we recognize revenue over time based on a measure of progress of volumes transported for transportation services contracts or number of days elapsed for storage and terminaling services contracts.
+
+Product revenue related to allowance oil sales is recognized at the point in time when the control of the oil transfers to the customer.
+
+For all performance obligations, payment is typically due in full within 30 days of the invoice date.
+
+## Disaggregation of Revenue
+
+The following table provides information about disaggregated revenue by service type and customer type:
+
+![](tables/table_pg113_num0.csv)
+Transportation services revenue – related parties for each of 2020, 2019 and 2018 includes \$5 million of non-lease service component in our transportation services (1) contract.
+Terminaling services revenue – related parties is comprised of the service components in our terminaling services contracts, including the operation and maintenance (2) service components related to the Norco Assets in connection with the April 2020 Transaction. See Note 4 – Related Party Transactions for additional details.
+Terminaling services revenue – major maintenance service – related parties is comprised of the service components related to providing required major maintenance to the Norco Assets in connection with the April 2020 Transaction. See Note 4 – Related Party Transactions for additional details.(3)
+Product revenue is comprised of allowance oil sales.(4)
+
+## Lease revenue
+
+Certain of our long-term transportation and terminaling services contracts with related parties are accounted for as operating leases. These agreements have both lease and non-lease service components. We allocate the arrangement consideration between the lease components and any non-lease service components based on the relative stand-alone selling price of each component. We estimate the stand-alone selling price of the lease and non-lease service components based on an analysis of service-related and lease-related costs for each contract, adjusted for a representative profit margin. The contracts have a minimum fixed monthly payment for both the lease and non-lease service components. We present the non-lease service
+
+<span id="page-114-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+components under the revenue standard within Transportation, terminaling and storage services – related parties in the consolidated statements of income.
+
+Revenues from the lease components of these agreements are recorded within Lease revenue – related parties in the consolidated statements of income. Some of these agreements were each entered into for terms of ten years, with the option for the lessee to extend for two additional five-year terms. One of these contracts was amended to include an option for the lessee to extend for a fourteen-month term prior to the original extension options. However, it is reasonably certain that the original extension options of the two additional five-year terms will not be exercised for this contract. Further, we have agreements with initial terms of ten years with the option for the lessee to extend for up to ten additional one-year terms. As of December 31, 2020, future minimum payments of both the lease and non-lease service components to be received under the ten-year contract term of these operating leases were estimated to be:
+
+![](tables/table_pg114_num0.csv)
+
+## Transportation services revenue
+
+We have both long-term transportation contracts and month-to-month contracts for spot shippers that make nominations on our pipelines. Some of the longterm contracts entitle the customer to a specified amount of guaranteed capacity on the pipeline. Transportation services are charged at a per barrel rate or other applicable unit of measure. We apply the allocation exception guidance for variable consideration related to market indexing for long-term transportation contracts because (a) the variable payment relates specifically to our efforts to transfer the distinct service and (b) we allocate the variable amount of consideration entirely to the distinct service, which is consistent with the allocation objective. Except for guaranteed capacity payments as discussed below, transportation services are billed monthly as services are rendered.
+
+Our contracts and tariffs contain terms for the customer to reimburse us for losses from evaporation or other loss in transit in the form of allowance oil. Allowance oil represents the net difference between the tariff PLA volumes and the actual volumetric losses. We obtain control of the excess oil not lost during transportation, if any. Under the revenue standard, we include the excess oil retained during the period, if any, as non-cash consideration and include this amount in the transaction price for transportation services on a net basis. Our allowance oil revenue is valued at the average market price of the relevant type of crude oil during the month product was transported. Gains from pipeline operations that relate to allowance oil are recorded in Operations and maintenance expenses in the accompanying consolidated statements of income.
+
+As a result of FERC regulations, revenues we collect may be subject to refund. We establish reserves for these potential refunds based on actual expected refund amounts on the specific facts and circumstances. We had no reserves for potential refunds as of December 31, 2020 and 2019.
+
+## Storage and terminaling services revenue
+
+Storage and terminaling services are provided under short-term and long-term contracts, with a fixed price per month for committed storage and terminaling capacity, or under a monthly spot-rate for uncommitted storage or terminaling. Since the customer simultaneously receives and consumes the benefits of services, we recognize revenue over time based on the number of days elapsed. We apply the allocation exception guidance for variable consideration related to market indexing for long-term contracts because (a) the variable payment relates specifically to our efforts to transfer the distinct service and (b) we allocate the variable amount of consideration entirely to the distinct service, which is consistent with the allocation objective. Storage and terminaling services are billed monthly as services are rendered.
+
+## Terminaling services revenue - Norco Assets
+
+In April 2020, the Partnership closed the April 2020 Transaction pursuant to which the Norco Assets were transferred from SOPUS and Shell Chemical to Triton. In connection with closing the April 2020 Transaction, Triton entered into terminaling service agreements with SOPUS and Shell Chemical related to the Norco Assets. These terminaling service agreements were entered into for an initial term of fifteen years, with the option to extend for additional five-year terms. The transfer of the Norco Assets, combined with the terminaling services agreements, were accounted for as a failed sale leaseback under the lease standard. The Partnership receives an annual net payment of \$140 million, which is the total annual payment pursuant to the terminaling service agreements of \$151 million, less \$11 million, which primarily represents the allocated utility costs from SOPUS related to the Norco Assets.
+
+<span id="page-115-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+These agreements have components related to financing receivables, for which the interest income is recognized in the consolidated statements of income and principal payments are recognized as a reduction to the financing receivables in the consolidated balance sheet. Revenue related to the operation and maintenance service components and major maintenance service components are presented within Transportation, terminaling and storage services – related parties in the consolidated statements of income.
+
+The operation and maintenance service components consist of the Partnership’s obligation to operate the Norco Assets over the life of the agreements. It is considered a distinct service that represents a performance obligation that would be satisfied over time if it were accounted for separately. The services provided over the contract period are a series of distinct services that are substantially the same, have the same pattern of transfer to the customer, and, therefore, qualify as a single performance obligation. Since the customer simultaneously receives and consumes the benefits of services, we recognize revenue over time based on the number of days elapsed.
+
+The major maintenance service components consist of the Partnership’s obligation to provide major maintenance on the Norco Assets such that the current capacity available to the customers is maintained over the life of the agreements. It is considered a distinct service that represents a performance obligation that would be satisfied over time if it were accounted for separately. The services provided over the contract period are a series of distinct services that are substantially the same, have the same pattern of transfer to the customer, and, therefore, qualify as a single performance obligation. Since the customer simultaneously receives and consumes the benefits of services, we recognize revenue over time using the input method (cost-to-cost method) based on the ratio of actual major maintenance costs incurred to date to the total forecasted major maintenance costs over the contract term.
+
+We allocate the arrangement consideration between the components based on the relative stand-alone selling price of each component in accordance with the revenue standard. The Partnership established the stand-alone selling price for the financing components based off an expected return on the assets being financed. The Partnership established the stand-alone selling price for the service components using expected cost-plus margin approach based on the Partnership’s forecasted costs of satisfying the performance obligation plus an appropriate margin for the service. The key assumptions include forecasts of the future operation and maintenance costs and major maintenance costs and the expected margin with respect to the service components and the expected return on the assets with respect to the financing components.
+
+## Deferred revenue
+
+Our FERC-approved transportation services agreements on Zydeco entitle the customer to a specified amount of guaranteed capacity on the pipeline. This capacity cannot be pro-rated even if the pipeline is oversubscribed. In exchange, the customer makes a specified monthly payment regardless of the volume transported. If the customer does not ship its full guaranteed volume in a given month, it makes the full monthly cash payment (i.e., deficiency payments) and it may ship the unused volume in a later month for no additional cash payment for up to 12 months, subject to availability on the pipeline. The cash payment received is recognized as deferred revenue, a contract liability under the revenue standard. If there is insufficient capacity on the pipeline to allow the unused volume to be shipped, the customer forfeits its right to ship such unused volume. We do not refund any cash payments relating to unused volumes.
+
+Under the revenue standard, we are required to estimate the likelihood that unused volumes will be shipped or forfeited at each reporting period based on additional data that becomes available and only to the extent that it is probable that a significant reversal of revenue will not occur. In some cases, this estimate could result in the earlier recognition of revenue.
+
+We also recognize deferred revenue on the major maintenance service components of the terminaling service agreement related to Norco Assets when we invoice SOPUS and Shell Chemical for the minimum volume commitment. Please refer to the Terminaling services revenues - Norco Assets section above for additional revenue recognition discussion.
+
+## Reimbursements from customers
+
+Under certain transportation, terminaling and storage service contracts, we receive reimbursements from customers to recover costs of construction, maintenance or operating costs either under a tariff surcharge per volume shipped or under separate reimbursement payments. Because we consider these amounts as consideration from customers associated with ongoing services to be provided to customers, we defer these payments in deferred revenue and recognize amounts in revenue over the life of the associated revenue contract as performance obligations are satisfied under the contract. We consider these payments to be revenue because control of the long-lived assets does not transfer to our customer upon completion. Our financial statements were not materially impacted by adoption of the revenue standard related to reimbursements from customers.
+
+<span id="page-116-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+## Product revenue
+
+We generate revenue by selling accumulated allowance oil inventory to customers. The sale of allowance oil is recorded as product revenue, with specific cost based on a weighted average price per barrel recorded as cost of product sold.
+
+## Joint tarif
+
+Under a certain joint tariff, we record revenues on a gross basis within Transportation, terminaling and storage services – third parties or related parties because we control the transportation service before it is transferred to the customer and are therefore the principal.
+
+## Contract Balances
+
+We perform our obligations under a contract with a customer by providing services in exchange for consideration from the customer. The timing of our performance may differ from the timing of the customer’s payment, which results in the recognition of a contract asset or a contract liability. We recognize a contract asset when we transfer goods or services to a customer and contractually bill an amount which is less than the revenue allocated to the related performance obligation. We recognize deferred revenue (contract liability) when the customer’s payment of consideration precedes our performance. The following table provides information about receivables and contract liabilities from contracts with customers:
+
+![](tables/table_pg116_num0.csv)
+Deferred revenue - related parties is related to deficiency credits from certain minimum volume commitment contracts and certain components of our terminaling service (1) contracts on the Norco Assets.
+
+![](tables/table_pg116_num1.csv)
+
+In connection with the April 2020 Transaction, we also recorded contract assets in the amount of \$244 million as of April 1, 2020 based on the difference between the consideration allocated to the Norco Transaction and the recognized financing receivables. The contract assets represent the excess of the fair value embedded within the terminaling services agreements transferred by the Partnership to SOPUS and Shell Chemical as part of entering into the terminaling services agreements. The contract assets balance is amortized in a pattern consistent with the recognition of revenue on the service components of the contract. The portion of the contract assets related to operations and maintenance is amortized on a straight-line basis over a fifteen-year period, and the portion related to major maintenance is amortized based on the ratio of actual major maintenance costs incurred to the total projected major maintenance costs over the fifteen year term. We recorded amortization as a component of Transportation, terminaling and storage services – related parties of \$11 million for the year ended December 31, 2020. We had no contract assets recognized from the costs to obtain or fulfill a contract as of December 31, 2019.
+
+The estimated future amortization related to the contract assets for the next five years is as follows:
+
+![](tables/table_pg116_num2.csv)
+
+<span id="page-117-0"></span>
+Significant changes in the deferred revenue balances with customers during the period are as follows:
+
+![](tables/table_pg117_num0.csv)
+Deferred revenue additions resulted from \$24 million deficiency payments from minimum volume commitment contracts and \$5 million of deferred revenue related to the (1) major maintenance service components of our terminaling service contracts on the Norco Assets.
+Deferred revenue reductions resulted from revenue earned through the actual or estimated use and expiration of deficiency credits. (2)
+
+![](tables/table_pg117_num1.csv)
+Deferred revenue additions resulted from deficiency payments from minimum volume commitment contracts. (1)
+Deferred revenue reductions resulted from revenue earned through the actual or estimated use and expiration of deficiency credits. (2)
+
+## Remaining Performance Obligations
+
+The following table includes revenue expected to be recognized in the future related to performance obligations exceeding one year of their initial terms that are unsatisfied or partially unsatisfied as of December 31, 2020:
+
+![](tables/table_pg117_num2.csv)
+Relates to the non-lease service components of certain of our long-term transportation and terminaling service contracts which are accounted for as operating leases. (1) Relatest
+Relates to the operation and maintenance service components and the major maintenance service components of our terminaling service contracts on the Norco Assets in (2) connection with the April 2020 Transaction.
+
+As an exemption, we do not disclose the amount of remaining performance obligations for contracts with an original expected duration of one year or less or for variable consideration that is allocated entirely to a wholly unsatisfied promise to transfer a distinct service that forms part of a single performance obligation.
+
+## 13. Net Income Per Limited Partner Unit
+
+Net income per unit applicable to common limited partner units is computed by dividing the respective limited partners’ interest in net income attributable to the Partnership for the period by the weighted average number of common units outstanding for the period. Prior to April 1, 2020, the classes of participating securities included common units, general partner units and IDRs. Because we had more than one class of participating securities, we used the two-class method when calculating the net income per unit applicable to limited partners. Effective April 1, 2020, the classes of participating securities included only common units, as the general partner units and the IDRs were eliminated and the Series A Preferred Units are not considered a participating security. See Note 11 – (Deficit) Equity for a discussion of the elimination of our general partner’s IDRs and 2% economic interest effective April 1, 2020. For the year ended December 31, 2020, our Series A Preferred Units were dilutive to net income per limited partner unit. Basic and diluted net income per unit are the same for prior periods because we did not have any potentially dilutive units outstanding for those periods presented.
+
+Net income earned by the Partnership is allocated between the classes of participating securities in accordance with the terms of our partnership agreement as in effect on the date such calculation is performed, after giving effect to priority income
+
+<span id="page-118-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P.
+
+# NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+allocations to the holders of the Series A Preferred Units if applicable. Earnings are allocated based on actual cash distributions declared to our unitholders, including those attributable to the IDRs prior to the second quarter of 2020, if applicable. To the extent net income attributable to the Partnership exceeds or is less than cash distributions, this difference is allocated based on the unitholders’ respective ownership percentages. For the diluted net income per limited partner unit calculation under the Second Amended and Restated Partnership Agreement, the Series A Preferred Units are assumed to be converted at the beginning of the period into common limited partner units on a one-for-one basis, and the distribution formula for available cash is recalculated using the available cash amount increased only for the preferred distributions, which would have been attributable to the common units after conversion.
+
+The following tables show the allocation of net income attributable to the Partnership to arrive at net income per limited partner unit:
+
+![](tables/table_pg118_num0.csv)
+For 2019, this includes the impact of waived distributions to the holders of the IDRs. See Note 4 — Related Party Transactions for additional information. (1)
+For 2020, this includes the impact of waived distributions to SPLC. See Note 4 — Related Party Transactions for additional information. (2)
+
+![](tables/table_pg118_num1.csv)
+This includes the impact of waived distributions to SPLC. See Note 4 — Related Party Transactions for additional information. (1)
+
+<span id="page-119-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+## NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+![](tables/table_pg119_num0.csv)
+This includes the impact of waived distributions to the holders of the IDRs. See Note 4 — Related Party Transactions for additional information. (1)
+
+![](tables/table_pg119_num1.csv)
+
+## 14. Transactions with Major Customers and Concentration of Credit Risk
+
+Our Parent and its affiliates accounted for approximately 75%, 70% and 60% of our total revenues for 2020, 2019 and 2018, respectively. There is no thirdparty customer that accounted for a 10% or greater share of consolidated revenues or net accounts receivable for the year ended December 31, 2020.
+
+We have a concentration of revenues and trade receivables due from customers in the same industry, our Parent’s affiliates, integrated oil companies, marketers and independent exploration, production and refining companies primarily within the Gulf Coast region of the United States. These concentrations of customers may impact our overall exposure to credit risk as they may be similarly affected by changes in economic, regulatory, regional and other factors. We are potentially exposed to concentration of credit risk primarily through our accounts receivable with our Parent. These receivables have payment terms of 30 days or less, and there has been no history of collectability issues. We monitor the creditworthiness of third-party major customers. We manage our exposure to credit risk through credit analysis, credit limit approvals and monitoring procedures, and for certain transactions, we may request letters of credit, prepayments or guarantees. As of December 31, 2020 and 2019, there were no such arrangements with customers.
+
+We have concentrated credit risk for cash by maintaining deposits in a major bank, which may at times exceed amounts covered by insurance provided by the United States Federal Deposit Insurance Corporation (“FDIC”). We monitor the financial health of the bank, have not experienced any losses in such accounts and believe we are not exposed to any significant credit risk. As of December 31, 2020 and 2019, we had approximately \$320 million and \$289 million, respectively, in cash and cash equivalents in excess of FDIC limits.
+
+## 15. Commitments and Contingencies
+
+## Environmental Matters
+
+<span id="page-120-0"></span>
+# SHELL MIDSTREAM PARTNERS, L.P. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+We are subject to federal, state and local environmental laws and regulations. We routinely conduct reviews of potential environmental issues and claims that could impact our assets or operations. These reviews assist us in identifying environmental issues and estimating the costs and timing of remediation efforts. In making environmental liability estimations, we consider the material effect of environmental compliance, pending legal actions against us and potential third-party liability claims. Often, as the remediation evaluation and effort progresses, additional information is obtained, requiring revisions to estimated costs. These revisions are reflected in our income in the period in which they are probable and reasonably estimable. For both December 31, 2020 and 2019, these costs and any related liabilities are not material.
+
+## Legal Proceedings
+
+We are named defendants in lawsuits and governmental proceedings that arise in the ordinary course of business. For each of our outstanding legal matters, we evaluate the merits of the case, our exposure to the matter, possible legal or settlement strategies and the likelihood of an unfavorable outcome. While there are still uncertainties related to the ultimate costs we may incur, based upon our evaluation and experience to date, we do not expect that the ultimate resolution of these matters will have a material adverse effect on our financial position, operating results or cash flows.
+
+## Indemnification
+
+Under the 2019 Omnibus Agreement, certain tax liabilities are indemnified by SPLC. See Note 4 — Related Party Transactions for additional information.
+
+## Other Commitments
+
+Odyssey entered into a tie-in agreement effective January 2012 with a third party, which allowed producers to install the tie-in connection facilities and tying into the system. The agreement will continue to be in effect until the continued operation of the platform is uneconomic.
+
+We hold cancellable easements or rights-of-way arrangements from landowners permitting the use of land for the construction and operation of our pipeline systems. Obligations under these easements are not material to the results of our operations.
+
+## 16. Subsequent Event(s)
+
+We have evaluated events that occurred after December 31, 2020 through the issuance of these consolidated financial statements. Any material subsequent events that occurred during this time have been properly recognized or disclosed in the consolidated financial statements and accompanying notes.
+
+## Distribution
+
+On January 20, 2021, the Board declared a cash distribution of \$0.4600 per limited partner unit and \$0.2363 per limited partner preferred unit for the three months ended December 31, 2020. The distribution was paid on February 12, 2021 to unitholders of record as of February 2, 2021.
+
+## Assets Held for Sale
+
+On January 25, 2021, we executed an agreement to divest the 12” segment of the Auger pipeline, effective March 1, 2021. The remainder of the Auger pipeline will continue to operate under the ownership of Pecten. As a result of the divestment, we expect to record an impairment charge of approximately \$3 million during the first quarter of 2021.
+
+## 2019 Omnibus Agreement
+
+On February 16, 2021, pursuant to the 2019 Omnibus Agreement, the Board approved a decrease to the annual general and administrative fee for 2021 based on a change in the cost of the services provided. The annual fee for 2021 will be \$10 million for the provision of certain services provided by SPLC to us.
+
+<span id="page-121-0"></span>
+## Item 9. CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE None.
+
+## Item 9A. CONTROLS AND PROCEDURES
+
+## Evaluation of Disclosure Controls and Procedures
+
+Management of the Partnership, with the participation of its Chief Executive Officer and Chief Financial Officer, evaluated the effectiveness of the Partnership’s disclosure controls and procedures as of the end of the annual period. Our disclosure controls and procedures have been designed to provide reasonable assurance that the information required to be disclosed in the reports we file or submit under the Exchange Act is accumulated and communicated to our management, including our Chief Executive Officer and Chief Financial Officer, to allow timely decisions regarding required disclosures. Based on their evaluation, the Partnership’s Chief Executive Officer and Chief Financial Officer have concluded that the Partnership’s disclosure controls and procedures (as defined in Rules 13(a)-15(e) and 15(d)-15(e) under the Exchange Act), were effective at the reasonable assurance level as of the end of the annual period covered by this report.
+
+## Management’s Report on Internal Control over Financial Reporting
+
+Management of the Partnership is responsible for establishing and maintaining adequate internal control over financial reporting. The Partnership’s internal control system is designed to provide reasonable assurance to the Partnership’s management and board of directors regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. All internal control systems, no matter how well designed, have inherent limitations. Accordingly, even effective controls can provide only reasonable assurance with respect to financial statement preparation and presentation.
+
+Management of the Partnership assessed the effectiveness of the Partnership’s internal control over financial reporting as of December 31, 2020. In making this assessment, management used the criteria set forth by the Committee of Sponsoring Organizations of the Treadway Commission (COSO) in Internal Control-Integrated Framework (2013). Based on this assessment, management concluded that the Partnership maintained effective internal control over financial reporting as of December 31, 2020.
+
+The effectiveness of the Partnership’s internal control over financial reporting as of December 31, 2020 has been audited by Ernst & Young LLP, an independent registered public accounting firm, as stated in their report, which is included in Part II, Item 8. Financial Statements and Supplementary Data of this report.
+
+## Changes in Internal Control over Financial Reporting
+
+There has been no change in our internal control over financial reporting (as defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act) during the quarter ended December 31, 2020 that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting.
+
+## Item 9B. OTHER INFORMATION
+
+## Disclosures Required Pursuant to Section 13(r) of the Securities Exchange Act of 1934
+
+In accordance with our General Business Principles and Code of Conduct, Shell Midstream Partners, L.P. seeks to comply with all applicable international trade laws, including applicable sanctions and embargoes.
+
+Under the Iran Threat Reduction and Syria Human Rights Act of 2012, and Section 13(r) of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), we are required to include certain disclosures in our periodic reports if we or any of our “affiliates” (as defined in Rule 12b-2 under the Exchange Act) knowingly engaged in certain specified activities during the period covered by the report. Because the U.S. Securities and Exchange Commission defines the term “affiliate” broadly, it includes any entity controlled by us as well as any person or entity that controls us or is under common control with us.
+
+The activities listed below have been conducted outside the United States by non-U.S. affiliates of Royal Dutch Shell plc. that may be deemed to be under common control with us. The disclosure does not relate to any activities conducted directly by us, our subsidiaries or our general partner and does not involve our or our general partner’s management.
+
+For purposes of this disclosure, we refer to Royal Dutch Shell plc and its subsidiaries, other than us, our subsidiaries, our general partner and Shell Midstream LP Holdings LLC, as the “RDS Group.” When not specifically identified, references to
+
+<span id="page-122-0"></span>
+actions taken by the RDS Group mean actions taken by the applicable RDS Group company. None of the payments disclosed below were made in U.S. dollars, nor are any of the balances disclosed below held in U.S. dollars; however, for disclosure purposes, all have been converted into U.S. dollars at the appropriate exchange rate.
+
+In 2020, the RDS Group discovered a 2017 payment of \$101 for a meal between a Shell employee and an employee of the National Iranian Gas Company (“NIGC”) and the NIGC employee’s wife that was not previously disclosed.
+
+In 2020, the RDS Group also discovered payments made in 2018 of \$22 for an insurance fee to Iran Insurance Company and \$122 for passports/visa fees to the Consulate General of the Islamic Republic of Iran in Dubai, United Arab Emirates, neither of which were previously disclosed.
+
+In 2020, Saba & Co. Intellectual Property s.a.l (Offshore) (“Saba & Co.”) made the following payments on behalf of the RDS Group to the Iranian Intellectual Property Office (“IIPO”): (i) \$137 for trademark registration fees and (ii) \$195 for filing an opposition against trademark SHELL no 139850140001082181 in Iran. In addition, Saba & Co. made payments on behalf of the RDS Group to Abardad International Law Offices of \$808 for professional, translation and publication services related to our trademark registration and \$1,368 for professional, translation and legalization services related to the trademark opposition matter before the IIPO. There was no gross revenue or net profit associated with these transactions.
+
+During 2020, the RDS Group paid \$7,758 for the clearance of overflight permits for RDS Group aircraft over Iranian airspace. There was no gross revenue or net profit associated with these transactions. On occasion, RDS Group aircraft may be routed over Iran, and, therefore, these payments may continue in the future.
+
+The RDS Group maintains accounts with Karafarin Bank where its cash deposits (balance of \$5,764,076 at December 31, 2020) generated non-taxable interest income of \$232,115 in 2020. In addition, the RDS Group paid \$5 in bank charges in 2020.
+
+<span id="page-123-0"></span>
+# PART III
+
+## Item 10. DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE
+
+## Management of Shell Midstream Partners, L.P.
+
+We are managed by the board of directors (the “Board”) and executive officers of Shell Midstream Partners GP LLC, our general partner. Our general partner is not elected by our unitholders and will not be subject to re-election by our unitholders in the future. SPLC owns all of the membership interests in our general partner. Our general partner has a board of directors, and our common unitholders are not entitled to elect the directors or to participate directly or indirectly in our management or operations. Our general partner will be liable, as general partner, for all of our debts (to the extent not paid from our assets), except for indebtedness or other obligations that are made specifically nonrecourse to it. Whenever possible, we intend to incur indebtedness that is nonrecourse to our general partner.
+
+SPLC appointed all eight directors on our general partner’s Board. We have three directors who have been determined by the Board to be independent under the independence standards of the NYSE.
+
+We do not have any employees. Our general partner has the sole responsibility for providing the employees and other personnel necessary to conduct operations, whether through directly hiring employees or by obtaining services of personnel employed by Shell, SPLC or third parties, but we sometimes refer to these individuals as our employees because they provide services directly to us.
+
+## Directors and Executive Officers of Shell Midstream Partners GP LLC
+
+Directors are elected by the sole member of our general partner and hold office until their successors have been elected or qualified or until their earlier death, resignation, removal or disqualification. Executive officers are appointed by, and serve at the discretion of, the Board. The following table shows information for the directors and executive officers of our general partner as of February 22, 2021.
+
+![](tables/table_pg123_num0.csv)
+Effective March 1, 2021, Kevin M. Nichols has elected to retire from his role as President, Chief Executive Officer and Director, and will be replaced by Steven C.(1) Ledbetter.
+Jesse C. H. Stanley was elected as a Director effective July 22, 2020.(2)
+Sean Guillory was elected to the role of Vice President, Commercial effective March 1, 2021. (3)
+Anne C. Anderson was elected as a Director effective April 1, 2020.(4)
+David A. Connolly was elected as a Director effective December 15, 2020.(5)
+
+Paul R. A. Goodfellow. Paul Goodfellow became a member of the Board on October 29, 2014. He was named Chairman of the Board on April 15, 2019. Since April 2019, Dr. Goodfellow has served as Executive Vice President Deep Water for Shell Energy Resources. Prior to this, Dr. Goodfellow served as Executive Vice President Wells for Shell International. Prior to this, Dr. Goodfellow served as Vice President United Kingdom and Ireland for Upstream International since February 2015 and as the Vice President Unconventionals US and Canada for Shell Upstream Americas from January 2013. Prior to this role, Dr. Goodfellow moved into the role of Vice President Development, Onshore in September 2009 for Upstream Americas responsible for field development planning, technical and technology functions. In July 2008, Dr. Goodfellow was named Venture Manager for North America Onshore. In August of 2003 he took up the role of Wells Manager for the Americas
+
+<span id="page-124-0"></span>
+Region and in 2000, Dr. Goodfellow was assigned to Shell Exploration & Production Company as the Operations Manager for Deepwater Drilling and Completions. He has worked in a variety of wells related roles throughout the Shell Group. Dr. Goodfellow worked in the mining industry in South Africa and Finland prior to joining Shell in Holland in 1991. Dr. Goodfellow is a Chartered Engineer and a member of the Institute of Mining and Metallurgy and the Society of Petroleum Engineers. Dr. Goodfellow earned a Bachelor of Engineering in Mining Engineering and a Ph.D. in Rock Mechanics from The Camborne School of Mines in the United Kingdom. We believe that Dr. Goodfellow’s extensive experience in the energy industry makes him well qualified to serve as a member of the Board.
+
+Kevin M. Nichols. Kevin Nichols was named President and Chief Executive Officer of our general partner and elected as a member of the Board effective April 1, 2018. Mr. Nichols intends to resign from his position as President, Chief Executive Officer and Director of our general partner effective March 1, 2021. He became Vice President, Commercial of our general partner on October 29, 2014, and resigned from that role effective March 31, 2018. Prior to that, Mr. Nichols served as Vice President and General Manager, Business Development for SPLC. Mr. Nichols devotes the majority of his time to his roles at SPLC and spends time, as needed, devoted to our business and affairs. Since joining Shell in 1992, Mr. Nichols has held numerous roles of increasing responsibility in Shell, managing regions of Shell’s Retail business, and from 2008 to 2012 worked in Shell’s Downstream Strategy group in London where he set strategy for market entries and growth in Asia. Mr. Nichols earned a Bachelor of Science in Management from San Diego State University and an MBA from Rice University. We believe that Mr. Nichols’ extensive experience in the energy industry, particularly his experience in the pipeline sector, makes him well qualified to serve as an executive officer and a member of the Board.
+
+Shawn J. Carsten. Shawn Carsten became Chief Financial Officer and Vice President of our general partner on March 1, 2017. He is a 32-year Shell executive with deep financial and operational management experience, as well as significant experience in Shell’s Upstream, Downstream and Retail businesses. Prior to his current role, Mr. Carsten served as the Downstream Controller - Americas of Equilon Enterprises LLC d/b/a Shell Oil Products US, where he was responsible for the financial results and control framework for Shell’s Downstream companies in North and South America, as well as finance operations personnel in the Americas and in Asia. Prior to his role as Controller, Mr. Carsten spent 2013 serving as the Finance Shareholding Representative for Motiva, a multi-billion dollar joint venture, where he was responsible for assessing value proposals and investment opportunities. From 2011 through 2012, Mr. Carsten served as the Finance Manager for Supply and Distribution, supporting North and South America with operational management and functional leadership for capital project development, commercial development and business performance, having served in various related capacities since 2008. Mr. Carsten holds a bachelor’s degree in Finance from the University of Colorado and a MBA from the Kellogg School of Management at Northwestern University. We believe that Mr. Carsten’s extensive experience across a wide range of energy segments, particularly his experience in financial management of domestic supply and distribution, makes him well qualified to serve as a director.
+
+Lori M. Muratta. Lori Muratta became Vice President, General Counsel and Secretary of our general partner in 2014. In 2017, she was named Managing Counsel, Midstream & Commercial for Shell, a role she fills in addition to her role with our general partner. Ms. Muratta devotes the majority of her time to our business and affairs and also spends time devoted to the business and affairs of Shell. Prior to her current roles, from 2000 Ms. Muratta served as Senior Counsel for Shell Oil Company, where she advised the company in mergers, acquisitions, divestments, joint ventures and financings in the Upstream, Midstream and Downstream businesses. She also provided corporate law support to Shell’s U.S. subsidiaries and affiliates. Before her time at Shell, Ms. Muratta was Attorney and Manager of Communications at Solvay America, Inc. and worked as an associate at Mayor, Day, Caldwell & Keeton LLP and O’Melveny & Myers LLP. Ms. Muratta received a Bachelor of Science in Foreign Service, cum laude, from Georgetown University and a Juris Doctor, cum laude, from Harvard Law School.
+
+Jesse C. H. Stanley. Ms. Stanley became Vice President, Operations of our general partner on July 22, 2020. Ms. Stanley formerly served as the General Manager for Value Chain Integration in upstream shales for Shell, a position that she held for one year. Ms. Stanley started her career with Shell in Europe, working in lubricants operations based in Shell’s lubricants plants and refineries in the United Kingdom and Europe, a role in which she served for six years, streamlining processes for logistics and leading a series of initiatives to improve cost competitiveness. Later, Ms. Stanley was responsible for the global marketing of Shell’s automotive lubricants and led several business development efforts in that role. Before coming to the shales business in the United States, Ms. Stanley was the business advisor and group strategy manager for Shell’s EVP Strategy & Portfolio in The Hague, Netherlands. Ms. Stanley holds a Master of Arts with Honors from the University of Cambridge and a Master of Science in Management with Honors from the Stanford Graduate School of Business. The Partnership believes that Ms. Stanley's extensive experience in the energy industry, particularly her experience in the lubricants sector, makes her well qualified to serve as an executive officer.
+
+<span id="page-125-0"></span>
+Steven C. Ledbetter. Mr. Ledbetter became Vice President, Commercial of our general partner on April 1, 2018. Mr. Ledbetter has been appointed as President and Chief Executive Officer of our general partner and elected as a member of the Board effective March 1, 2021. Mr. Ledbetter is a 21-year Shell executive with deep financial and operational management experience. In 2018, Mr. Ledbetter was also named Vice President for SPLC, where he is responsible for business development, joint ventures, oil movements and portfolio activity. Previously, Mr. Ledbetter served as the President of Jiffy Lube International (“Jiffy Lube”), a wholly owned subsidiary of Shell. Prior to his role as President of Jiffy Lube, Mr. Ledbetter served as Director of Key Accounts for Shell’s Consumer Lubricants business for North America from 2010 to 2013, where he was responsible for large platform multi-site business development throughout North America. From 2009 to 2010, he worked as Deal Manager setting strategy and negotiating large platform deals for the route to market for the Lubricants business in North America. In 2007, Mr. Ledbetter was North American Consumer Finance Manager for the Lubricants business, where he was responsible for financial support and economic assurance of the business. In 2004, he became a member of the leadership team for Shell’s Puget Sound Refinery in Anacortes, Washington, and was accountable for finance and procurement activities of the site. From 1999 to 2004, Mr. Ledbetter held various roles in SPLC, including working in a financial support role for the business, serving as treasurer of several joint ventures and business planning and accounting. Prior to joining Shell, Mr. Ledbetter was a facility cost analyst with United States Gypsum Company based in Texas. Mr. Ledbetter holds a bachelor’s degree in Finance from Texas A&M University. The Partnership believes that Mr. Ledbetter’s extensive experience across a wide range of strategy, finance, commercial deal structuring, business transformation and business leadership makes him well qualified to serve as an executive officer.
+
+James (Jim) J. Bender. Jim Bender became a member of the Board on October 29, 2014. Since April 2016, Mr. Bender has been employed with the Hall Estill Law Firm in Denver as Of Counsel. Since December 2015, he has served as an Advisory Board Member of Orion Energy Partners. From May 2014 to July 2014, Mr. Bender served as Senior Vice President of Special Projects of WPX Energy, Inc. (WPX), and from December 2013 to May 2014 as interim President and Chief Executive Officer of WPX. Mr. Bender served as a member of the board of directors of WPX from December 2013 to May 2014. He also served as Chairman of the board of directors of APCO Oil and Gas International Inc., (a publicly-traded affiliate of WPX) from December 2013 to August 2014. From April 2011 to December 2013, Mr. Bender served as Senior Vice President and General Counsel of WPX. Mr. Bender has served as a member of the board of directors of Two Harbors Investment Corp. since May 2013. Mr. Bender served as Senior Vice President and General Counsel of The Williams Companies, Inc. from December 2002 to December 2011 and General Counsel of Williams Partners GP LLC, the general partner of Williams Partners L.P., from September 2005 until December 2011. Mr. Bender served as the General Counsel of the general partner of Williams Pipeline Partners L.P., from 2007 until its merger with Williams Partners L.P. in August 2010. From June 1997 to June 2002, he was Senior Vice President and General Counsel of NRG Energy, Inc. Mr. Bender earned a bachelor’s degree in mathematics, summa cum laude, from St. Olaf College and a Juris Doctor, magna cum laude, from the University of Minnesota Law School. We believe that Mr. Bender’s extensive experience in the energy industry, and more specifically with sponsored master limited partnerships, makes him well qualified to serve as a member of the Board.
+
+Carlos A. Fierro. Carlos A. Fierro became a member of the Board January 1, 2015. Mr. Fierro is a private investor and consultant based in Washington, D.C. In addition to this Board, Mr. Fierro serves on the board of directors, audit committee and governance and compensation committee of Athabasca Oil Corporation, a Canadian energy company with a focused strategy on the development of thermal and light oil assets. From May 2016 to the present, Mr. Fierro has served as a Senior Advisor to Guggenheim Securities, the investment banking arm of Guggenheim Partners. From September 2008 through June 2013, Mr. Fierro was a Managing Director and Global Head of the Natural Resources Group of Barclays, which encompasses Barclays’ oil and gas, chemicals and metals and mining businesses. Mr. Fierro joined Barclays Capital in 2008 from Lehman Brothers, where he was the Global Head of the Natural Resources Group from January 2007 through September 2008. From September 2004 through January 2007, Mr. Fierro served as Co-Head of Mergers & Acquisitions in Europe for Lehman Brothers from a base in London. Prior to that, Mr. Fierro led Lehman Brothers’ mergers and acquisitions effort in the natural resources sector for seven years, based in New York. Throughout his banking career, Mr. Fierro participated in the development, structuring, negotiation and execution of numerous merger, acquisition, divestiture, restructuring and joint venture transactions. In the natural resources sector, these included transactions for companies involved in exploration and production, refining and marketing, oil field services, mining, pipelines, petrochemicals and coal. Prior to his banking career, Mr. Fierro practiced corporate, M&A and securities law for eleven years with Baker Botts L.L.P., where he was a partner. In his practice, Mr. Fierro devoted his time principally to oil and gas transactions, including hostile takeovers, acquisitions, divestitures, public and private debt and equity financing transactions, corporate restructurings and proxy fights. Mr. Fierro holds a Bachelors of the Arts degree from the University of Notre Dame and a Juris Doctor from Harvard University. We believe that Mr. Fierro’s extensive experience in the energy banking industry, as well as his work in mergers and acquisitions, makes him well qualified to serve as a member of the Board.
+
+<span id="page-126-0"></span>
+Rob L. Jones. Rob Jones became a member of the Board on October 29, 2014. Mr. Jones is a private investor and consultant based in Houston, Texas. Mr. Jones also currently serves as a director on the board of Spire Inc., a public utility holding company based in St. Louis, Missouri. Mr. Jones also serves as a director on the board of BancAfflicated Inc., a privately held bank based in Arlington, Texas. From September 2012 until June 2014, Mr. Jones served as an Executive in Residence at the McCombs School of Business at the University of Texas at Austin (“McCombs”). Mr. Jones continues as a guest lecturer and speaker at McCombs. Mr. Jones also served as Lead Independent Director for Susser Petroleum Partners, L.P., a publicly-traded partnership. From 2007 through June 2012, Mr. Jones was the Co-Head of Bank of America Merrill Lynch Commodities (“MLC”). MLC is a global commodities trading business and a wholly owned subsidiary of Bank of America Merrill Lynch. Prior to taking leadership of MLC in 2007, he served as Head of Merrill Lynch’s Global Energy and Power Investment Banking Group and founder of Merrill Lynch Commodities Partners, a private equity vehicle for the firm. An investment banker with Merrill Lynch and The First Boston Corporation for over 20 years, Mr. Jones worked extensively with a variety of energy and power clients, with a particular focus on the natural gas and utility sectors. From 1980 until 1985, Mr. Jones was a Financial Associate with the oil and gas exploration and production division of Sun Company, primarily based in Dallas, Texas. He is a graduate of the University of Texas, where he received a Bachelor of Business Administration in Finance with Honors and an MBA with High Honors and was a Sord Scholar. Mr. Jones is a Life Member of the Dean’s Advisory Council of McCombs and an Emeritus Member of the Children’s Fund of Houston Texas. We believe that Mr. Jones’ extensive experience in financial and mergers and acquisitions roles in the energy banking industry and his experience as a lead independent director makes him well qualified to serve as a member of the Board.
+
+Anne C. Anderson. Since July 2019, Ms. Anderson has served as Vice President of the Americas organization within Shell Chemical LP (“Shell Chemical”), where she is responsible for the Americas region of Shell’s global chemicals business. Prior to that role, Ms. Anderson was Vice President of Shell’s Aviation organization from 2014 to 2019, where she successfully led Shell’s global supply organization for aviation fuels and lubricants. From 2009 to 2014, she held roles with increasing responsibility in Shell’s Trading and Supply organization, including as the General Manager of Trading and Supply for Equilon Enterprises LLC d/b/a Shell Oil Products US. Before that, Ms. Anderson served as the General Manager of the PDO (Propanediol) and Corterra™ Polymers business units in Shell Chemical from 2006 to 2009 and as a Board Member of PTT PolyCanada, a Shell Chemical joint venture, in Montreal, Quebec. Ms. Anderson started her career as a chemical engineer in manufacturing and technology at the Monsanto Company. Ms. Anderson holds a Bachelor of Science in Chemical Engineering from Florida State University and an MBA from Washington University in St. Louis. The Partnership believes that Ms. Anderson’s extensive technical and operational experience makes her well qualified to serve as a director.
+
+David A. Connolly. Mr. Connolly is a senior finance executive with more than 20 years’ experience in the energy, resources and manufacturing businesses, working in Australia, the United Kingdom and the United States. He has experience across a broad range of businesses and a track record of accomplishment in complex transactions, mergers and acquisitions, contract management and international arbitration. Since July 2019, Mr. Connolly has served as Vice President Finance of Shell Energy America’s gas and power trading business based in Houston. Prior to that role, Mr. Connolly was Finance Director for Shell Australia’s East operating businesses from 2016 to 2019 following Royal Dutch Shell plc’s acquisition of BG Group plc (“BG Group”). Before that, Mr. Connolly was the Finance Director of BG Group Australia from 2010 to 2016 where he was responsible for all aspects of finance, contract tender board, IT and people logistic services. Prior to joining BG Group in 2010, Mr. Connolly spent 13 years at BHP working across a variety of finance and commercial roles across sectors including iron ore, oil and gas, steel manufacture and IT in Australia, the United Kingdom and the United States. Mr. Connolly holds a Bachelor of Business (Accounting) from Queensland University of Technology and is a Fellow of CPA (Australia). The Partnership believes that Mr. Connolly’s extensive financial and international experience makes him well qualified to serve as a director.
+
+Sean Guillory. Mr. Guillory has been elected as Vice President, Commercial of our general partner effective March 1, 2021. Mr. Guillory is a 16-year Shell executive with deep commercial, operational and management experience. Mr. Guillory formerly served as the General Manager of Business Units, Joint Ventures and as a manager of business development for SPLC. Prior to this, Mr. Guillory was a Business Development lead for Gulf of Mexico deepwater pipelines and major growth projects for SPLC, where he was instrumental in the successful completion and commercial deal execution of multiple export solutions for large Gulf of Mexico deep water developments. Prior to his role in SPLC, Mr. Guillory was the Americas Category Manager for Shell’s Supply and Distribution business, where he was responsible for setting procurement and negotiation strategies supporting operational management for several sites across North and South America. Later, Mr. Guillory served as Shell Chemical’s Aromatics Supply manager, where he was accountable for operational logistics and demand management for various chemicals manufacturing sites. From 2004 to 2006, Mr. Guillory was the Business Support Manger for the Major Projects Organization at Shell’s Puget Sound Refinery in Anacortes, Washington, where he was accountable for finance, procurement and economic assurance of business activities for the site. Prior to joining Shell, Mr. Guillory served for eight years as an officer in the United States Air Force, where he was a distinguished graduate from the Air Force Reserve Officer Training Program receiving the Tulane University Award for Leadership. Mr. Guillory was a Combat Engineer leading
+
+<span id="page-127-0"></span>
+several large teams in the completion of multiple large scale military projects in support of contingency deployment operations vital to national defense across four different continents. Mr. Guillory holds a bachelor’s degree in Mechanical Engineering from the University of New Orleans and an MBA from the University of Colorado. The Partnership believes that Mr. Guillory’s extensive experience across a wide range of strategy, commercial deal structuring and business development leadership makes him well qualified to serve as an executive officer.
+
+## Board Leadership Structure
+
+Although the chief executive officer of our general partner currently does not also serve as the chairman of the Board, the Board has no policy with respect to the separation of the offices of chairman of the Board and chief executive officer. Instead, that relationship is defined and governed by the amended and restated limited liability company agreement of our general partner, which permits the same person to hold both offices. Directors of the Board are designated or elected by SPLC. Accordingly, unlike holders of common stock in a corporation, our unitholders will have only limited voting rights on matters affecting our business or governance, subject in all cases to any specific unitholder rights contained in our Partnership Agreement.
+
+## Board Role in Risk Oversight
+
+Our corporate governance guidelines provide that the Board is responsible for reviewing the process for assessing the major risks facing us and the options for their mitigation. This responsibility is satisfied by our audit committee, which is responsible for reviewing and discussing with management and our independent registered public accounting firm our major risk exposures and the policies management has implemented to monitor such exposures, including our financial risk exposures and risk management policies.
+
+## Director Independence
+
+Although most companies listed on the NYSE are required to have a majority of independent directors serving on the board of directors of the listed company, the NYSE does not require publicly-traded partnerships to have a majority of independent directors on the Board or to establish a compensation or a nominating and corporate governance committee. We are, however, required to have an audit committee of at least three members within one year of the date our common units are first listed on the NYSE, and all of our audit committee members are required to meet the independence and financial literacy tests established by the NYSE and the Exchange Act.
+
+## Committees of the Board of Directors
+
+The Board has an audit committee and a conflicts committee. The Board may also have such other committees as the Board determines from time to time.   
+Each of the standing committees of the Board has the composition and responsibilities described below.
+
+## Audit Committee
+
+Our general partner has an audit committee composed of at least three directors, each of whom meets the independence and experience standards established by the NYSE and the Exchange Act. Our audit committee assists the Board in its oversight of the integrity of our financial statements and our compliance with legal and regulatory requirements and corporate policies and controls. Our audit committee has the sole authority to retain and terminate our independent registered public accounting firm, approve all auditing services and related fees and the terms thereof, and pre-approve any non-audit services to be rendered by our independent registered public accounting firm. Our audit committee is also responsible for confirming the independence and objectivity of our independent registered public accounting firm. Our independent registered public accounting firm is given unrestricted access to our audit committee. Messrs. Jones, Bender and Fierro currently serve as members of our audit committee; Mr. Jones is the committee chair. Each of Messrs. Jones, Bender and Fierro is deemed to be “financially literate” as defined by the listing standards of NYSE, and each of Messrs. Jones and Fierro is deemed an “audit committee financial expert,” as defined in SEC regulations. Our audit committee charter is posted on the “Corporate Governance” section of our website. We have a separately-designated standing audit committee in accordance with section 3(a)(58)(A) of the Exchange Act.
+
+Our audit committee has reviewed and discussed the audited financial statements with management. It has also discussed with the independent auditors the matters required by Public Company Accounting Oversight Board (“PCAOB”) Auditing Standard No. 16, Communications with Audit Committees. Our audit committee has received written disclosures and the letter from the independent accountants required by applicable requirements of the PCAOB regarding the independent accountant’s communications with the audit committee concerning independence and has discussed with the independent accountant the independent accountant’s independence. The audit committee recommended to the Board that the audited financial statements as of and for the year ended December 31, 2020 be included in this report.
+
+<span id="page-128-0"></span>
+## Conflicts Committee
+
+In accordance with the terms of our Partnership Agreement, at least two members of the Board will serve on our conflicts committee to review specific matters that may involve conflicts of interest. The members of our conflicts committee cannot be officers or employees of our general partner or directors, officers or employees of its affiliates, and must meet the independence and experience standards established by the NYSE and the Exchange Act to serve on an audit committee of a board of directors. In addition, the members of our conflicts committee cannot own any interest in our general partner or its affiliates or any interest in us or our subsidiaries other than common units or awards, if any, under our incentive compensation plan. Messrs. Bender, Jones and Fierro currently serve as members of our conflicts committee; Mr. Bender is the committee chair.
+
+## Governance Guidelines
+
+We have adopted governance guidelines to assist the Board in the exercise of its responsibilities. Our corporate governance guidelines provide that the nonmanagement directors will meet periodically in executive sessions without management participation. At least annually, all of the independent directors of our general partner meet in executive sessions without management participation or participation by non-independent directors. Currently, Mr. Goodfellow, the Chairman of the Board, presides at the executive sessions of the non-management directors, and Mr. Jones, the Chairman of the audit committee, presides at the executive sessions of the independent directors.
+
+## Compensation Committee Interlocks and Insider Participation
+
+The listing rules of the NYSE do not require us to maintain, and we do not maintain, a compensation committee.
+
+## Code of Conduct and Code of Ethics
+
+We have adopted a Code of Conduct applicable to all employees, directors and officers, as well as a Code of Ethics applicable to our general partner’s chief financial officer. Our Code of Conduct covers topics including, but not limited to, conflicts of interest, insider dealing, competition, discrimination and harassment, confidentiality, bribery and corruption, sanctions and compliance procedures. Our Code of Ethics covers topics including, but not limited to, conflicts of interest, gifts and disclosure controls. Our Code of Conduct and Code of Ethics are posted on the “Corporate Governance” section of our website.
+
+## Delinquent Section 16(a) Reports
+
+Section 16(a) of the Exchange Act requires directors and executive officers of our general partner, and persons who own more than 10% of a registered class of our equity securities, to file reports of ownership and changes in ownership of our common units with the SEC and the NYSE, and to furnish us with copies of the forms they file. To our knowledge, based solely upon a review of the copies of such reports furnished to us and written representations of our officers and directors, during 2020, all Section 16(a) reports applicable to our officers and directors were filed on a timely basis, except that within the required ten days after becoming an officer, the Partnership did not timely file one Form 3 report for Jesse C. H. Stanley, Vice President, Operations. Ms. Stanley does not own, directly or indirectly, any securities of the Partnership. Additionally, SPLC, which, along with its affiliates, is a beneficial owner of more than 10% of our common units and all of our Series A Preferred Units, failed to file the following reports required by Section 16(a) of the Exchange Act on a timely basis, which reports have since been filed:
+
+Form 4 or Form 5 reporting 11,029,412 common units representing limited partner interests in us acquired by SPLC or its subsidiaries on February 6, 2018 at a price of \$27.20 per common unit as reported on Form 4 filed by SPLC and its subsidiaries on April 2, 2020; and
+
+Form 4 or Form 5 reporting 9,477,756 common units representing limited partner interests in us acquired by SPLC or its subsidiaries on June 6, 2019 as part of an acquisition of certain assets by the Partnership as reported on Form 4 filed by SPLC and its subsidiaries on April 2, 2020.
+
+The acquisitions of these common units by SPLC or its subsidiaries were reported to the SEC on Forms 8-K filed on February 5, 2018 and June 6, 2019, respectively.
+
+## Item 11. EXECUTIVE COMPENSATION
+
+## Compensation Discussion and Analysis
+
+Neither we nor our general partner employ any of the individuals who serve as executive officers of our general partner and are responsible for managing our business. Our general partner does not have a compensation committee. We are managed by our
+
+<span id="page-129-0"></span>
+general partner, the executive officers of which are employees of Shell. We and our general partner have entered into the 2019 Omnibus Agreement (as defined below) with SPLC pursuant to which, among other matters:
+
+SPLC makes available to our general partner the services of Shell employees who will serve as the executive officers of our general partner; and we pay SPLC an annual administrative fee, currently \$11 million, to cover, among other things, the services provided to us by the executive officers of our general partner. On February 18, 2020, pursuant to the 2019 Omnibus Agreement, the Board approved a 3% inflationary increase to the annual general and administrative fee for 2020.
+
+These officers and all other personnel necessary for our business to function are employed and compensated by Shell, subject to the administrative services fee in accordance with the terms of the 2019 Omnibus Agreement. Under the 2019 Omnibus Agreement, none of Shell’s long-term incentive compensation expense is allocated directly to us. We are responsible for paying the long-term incentive compensation expense, if any, associated with our long-term incentive plan described below. The executive officers of our general partner continue to participate in employee benefit plans and arrangements sponsored by Shell, including plans that may be established in the future. Our general partner has not entered into any employment agreements with any of its executive officers. We did not grant any awards under our long-term incentive plan to our officers or directors, nor do we have a current intent to do so. Our long-term incentive plan is described below under “—Long-Term Incentive Plan.”
+
+Responsibility and authority for compensation-related decisions for executive officers of our general partner reside with Shell’s human resources function and the RDS Management Development Committee, as applicable. Other than compensation under our long-term incentive plan, which requires action by the Board, any such compensation decisions are not subject to any approvals by the Board or any committees thereof. Our Named Executive Officers (“NEOs”) consist of our general partner’s principal executive officer, principal financial officer, the three most highly compensated executive officers other than its principal executive officer and principal financial officer as of December 31, 2020 and one former officer who would have been one of the three executive officers in the foregoing group but for the fact that such individual was not serving as an executive officer of our general partner as of December 31, 2020 being:
+
+• Kevin M. Nichols, Chief Executive Officer and President
+
+Shawn J. Carsten, Vice President and Chief Financial Officer
+
+• Lori M. Muratta, Vice President, General Counsel and Secretary
+
+• Jesse C. H. Stanley, Vice President, Operations
+
+• Steven C. Ledbetter, Vice President, Commercial
+
+• Alton G. Smith, Vice President, Operations (retired effective July 1, 2020)
+
+Each of Mr. Nichols, Mr. Carsten, Ms. Muratta, Ms. Stanley and Mr. Ledbetter devotes, and during his tenure Mr. Smith devoted, a significant portion of his or her time to his or her roles in Shell and spends time, as needed, directly managing our business and affairs. Pursuant to the terms of the 2019 Omnibus Agreement, we pay a fixed administrative fee to SPLC, which covers, among other things, the services provided to us by our NEOs. None of Mr. Nichols, Mr. Carsten, Ms. Muratta, Ms. Stanley or Mr. Ledbetter receive, nor did Mr. Smith receive, any separate amounts of compensation for their services to our business or as executive officers of our general partner and, except for the fixed administrative fee we paid SPLC, we did not otherwise pay or reimburse any compensation amounts to or for them.
+
+## Summary Compensation Table
+
+The following summarizes the total compensation paid to our NEOs for their services in relation to our business in 2020, 2019 and 2018:
+
+<span id="page-130-0"></span>
+![](tables/table_pg130_num0.csv)
+Mr. Nichols, Mr. Carsten, Ms. Muratta, Mr. Smith, Ms. Stanley and Mr. Ledbetter devoted a significant portion of their overall working time to our business. Except for (1) the fixed management fee we paid to SPLC under the Omnibus Agreement then in effect, we did not pay or reimburse any compensation amounts to or for our named executive officers in 2020, 2019 or 2018.
+Mr. Smith retired from his position as Vice President, Operations effective as of July 1, 2020.(2)
+Ms. Stanley was not an NEO in 2019 or 2018.(3)
+
+## Narrative Disclosure to Summary Compensation Table and Additional Narrative Disclosure
+
+## Compensation by Shell
+
+Shell provides compensation to its executives in the form of base salaries, annual cash incentive awards, long-term equity incentive awards and participation in various employee benefit plans and arrangements, including broad based and supplemental defined contribution and defined benefit retirement plans. In addition, although our NEOs have not entered into employment agreements with Shell, Mr. Nichols has an end of employment arrangement with Shell under which he receives separation payments and benefits from Shell based on termination at the employer’s initiative or on mutually agreed terms. In the future, Shell may provide different or additional compensation components, benefits or perquisites to our NEOs.
+
+The following sets forth a more detailed explanation of the elements of Shell’s executive compensation program.
+
+## Base Compensation
+
+Our NEOs earn a base salary for their services to Shell and its affiliates, which amounts are paid by Shell or its affiliates other than us. We incur only a fixed expense per month under the 2019 Omnibus Agreement with respect to the compensation paid by Shell to each of our NEOs.
+
+## Annual Cash Bonus Payments
+
+Our NEOs are eligible to earn cash payments from Shell under Shell’s annual incentive bonus program and other discretionary bonuses that may be awarded by Shell. Any bonus payments earned by the NEOs will be paid by Shell and will be determined solely by Shell without input from us or our general partner or its board of directors. The amount of any bonus payment made by Shell will not result in changes to the contractually fixed fee for executive management services that we pay to Shell under the 2019 Omnibus Agreement.
+
+## Share-Based Compensation
+
+<span id="page-131-0"></span>
+Shell’s incentive compensation programs primarily consist of share awards, restricted share awards or cash awards (any of which may be a performance award). Conditional awards of Royal Dutch Shell plc (“RDS”) shares are made under the terms of the Performance Share Plan (“PSP”) on a selective basis to senior personnel each year. The extent to which the awards vest is determined over a three-year performance period. Half of the award is linked to the key performance indicators, averaged over the period. The other half of the award is linked to a comparison with four main competitors of RDS over the period on the basis of four relative performance measures. All shares that vest are increased by an amount equal to the notional dividends accrued on those shares during the period from the award date to the vesting date. None of the awards result in beneficial ownership until the shares are delivered. Shares are awarded subject to a three-year vesting period.
+
+Certain SPLC and Shell employees supporting our operations as well as other Shell operations were historically granted awards under the PSP. Share-based compensation expense is included in general and administrative expenses in the accompanying consolidated statements of income. These costs for 2020, 2019 and 2018 were immaterial.
+
+## Long-Term Equity-Based Incentive Compensation
+
+Shell maintains a long-term incentive program pursuant to which it grants equity based awards in Royal Dutch Shell plc to certain of its executives and employees. Our NEOs may receive awards under Shell’s equity incentive plan from time to time as may be determined by the RDS Management Development Committee. The amount of any long-term incentive compensation made by Shell will not result in changes to the contractually fixed fee for executive management services that we will pay to Shell under the 2019 Omnibus Agreement.
+
+## Retirement, Health, Welfare and Additional Benefits
+
+Our NEOs are eligible to participate in the employee benefit plans and programs that Shell offers to its employees, subject to the terms and eligibility requirements of those plans. Our NEOs are also eligible to participate in Shell’s tax-qualified defined contribution and defined benefit retirement plans to the same extent as all other Shell employees. Shell also has certain supplemental retirement plans in which its executives and key employees participate.
+
+## Director Compensation
+
+Officers or employees of Shell or its affiliates who also serve as directors of our general partner do not receive additional compensation for such service. Our general partner’s directors who are not also officers or employees of Shell receive compensation for service on the board of directors and its committees. We currently pay each of such directors \$150,000 annually. We currently pay the audit committee chairman an additional \$15,000 annually and the conflicts committee chairman an additional \$15,000 annually. In addition, each such director will be reimbursed for out-of-pocket expenses in connection with attending meetings of the board and committee meetings. We currently pay meeting fees to each of such directors in the amount of \$2,000 for each in-person board meeting, \$2,000 for each in-person committee meeting, \$1,000 for each telephonic board meeting and \$1,000 for each telephonic committee meeting. Each director will be fully indemnified by us for actions associated with being a director to the fullest extent permitted under Delaware law pursuant to our Partnership Agreement.
+
+## Non-Employee Director Compensation Table
+
+The following summarizes the compensation for our non-employee directors for 2020.
+
+![](tables/table_pg131_num0.csv)
+
+## Pay Ratio Disclosure
+
+We do not have any employees. The officers and all other personnel necessary for our business are employed and compensated by Shell, subject to the administrative services fee in accordance with the terms of the 2019 Omnibus Agreement and our operating agreements. Therefore we are unable to provide an estimate of the relationship of the median of the annual total compensation of our employees and the annual total compensation of our chief executive officer.
+
+<span id="page-132-0"></span>
+## Long-Term Incentive Plan
+
+Our general partner has adopted the Shell Midstream Partners, L.P. 2014 Incentive Compensation Plan (“LTIP”) for officers, directors and employees of our general partner or its affiliates, and any consultants, affiliates of our general partner or other individuals who perform services for us. Our general partner may issue our executive officers and other service providers long-term equity based awards under the LTIP, which awards would compensate the recipients thereof based on the performance of our common units and their continued employment during the vesting period, as well as align their longterm interests with those of our unit holders. Our general partner has not issued, and does not currently intend to issue, any awards under the LTIP.
+
+We are responsible for the cost of awards granted under our LTIP and all determinations with respect to awards, if any, to be made under our LTIP will be made by the Board or any committee thereof that may be established for such purpose or by any delegate of the Board, subject to applicable law, which we refer to as the plan administrator. We currently expect that the Board or a committee thereof will be designated as the plan administrator. The following description reflects the principal terms that are currently expected to be included in the LTIP.
+
+## General
+
+The LTIP permits the Board or any applicable committee or delegate thereof, in its discretion, subject to applicable law, from time to time to grant unit awards, restricted units, phantom units, unit options, unit appreciation rights, distribution equivalent rights, profits interest units and other unit-based awards. The purpose of awards, if any, under the LTIP is to provide additional incentive compensation to individuals providing services to us, and to align the economic interests of such individuals with the interests of our unitholders. The LTIP limits the number of units that may be delivered pursuant to vested awards to 6,000,000 common units, subject to proportionate adjustment in the event of unit splits and similar events. Common units subject to awards that are canceled, forfeited or otherwise terminated without delivery of the common units are generally available for delivery pursuant to other awards, as provided in the LTIP.
+
+## Restricted Units and Phantom Units
+
+A restricted unit is a common unit that is subject to forfeiture. Upon vesting, the forfeiture restrictions lapse and the recipient holds a common unit that is not subject to forfeiture. A phantom unit is a notional unit that entitles the grantee to receive a common unit upon the vesting of the phantom unit or, on a deferred basis, upon specified future dates or events or, in the discretion of the administrator, cash equal to the fair market value of a common unit. The administrator of the LTIP may make grants of restricted and phantom units under the LTIP that contain such terms, consistent with the LTIP, as the administrator may determine are appropriate, including the period over which restricted or phantom units will vest. The administrator of the LTIP may, in its discretion, base vesting on the grantee’s completion of a period of service or upon the achievement of specified financial objectives or other criteria or upon a change of control (as defined in the LTIP) or as otherwise described in an award agreement.
+
+Distributions made by us with respect to awards of restricted units may be subject to the same vesting requirements as the restricted units.
+
+## Distribution Equivalent Rights
+
+The administrator of the LTIP, in its discretion, may also grant distribution equivalent rights, either as standalone awards or in tandem with other awards. Distribution equivalent rights are rights to receive an amount in cash, restricted units or phantom units equal to all or a portion of the cash distributions made on units during the period an award remains outstanding.
+
+## Unit Options and Unit Appreciation Rights
+
+The LTIP may also permit the grant of options covering common units. Unit options represent the right to purchase a number of common units at a specified exercise price. Unit appreciation rights represent the right to receive the appreciation in the value of a number of common units over a specified exercise price, either in cash or in common units. Unit options and unit appreciation rights may be granted to such eligible individuals and with such terms as the administrator of the LTIP may determine, consistent with the LTIP; however, a unit option or unit appreciation right must have an exercise price equal to at least the fair market value of a common unit on the date of grant.
+
+## Unit Awards
+
+Awards covering common units may be granted under the LTIP with such terms and conditions, including restrictions on transferability, as the administrator of the LTIP may establish.
+
+<span id="page-133-0"></span>
+## Profits Interest Units
+
+Awards may consist of profits interest units to the extent contemplated by our Partnership Agreement. The administrator will determine the applicable vesting dates, conditions to vesting and restrictions on transferability and any other restrictions for profits interest awards.
+
+## Other Unit-based Awards
+
+The LTIP may also permit the grant of “other unit-based awards,” which are awards that, in whole or in part, are valued or based on or related to the value of a common unit. The vesting of any other unit-based award may be based on a grantee’s continued service, the achievement of performance criteria or other measures. On vesting or on a deferred basis upon specified future dates or events, any other unit-based award may be paid in cash and/or in units (including restricted units) or any combination thereof as the administrator of the LTIP may determine.
+
+## Source of Common Units
+
+Common units to be delivered with respect to awards may be newly issued units, common units acquired by us or our general partner in the open market, common units already owned by our general partner or us, common units acquired by our general partner directly from us or any other person or any combination of the foregoing.
+
+## Anti-Dilution Adjustments and Change in Control
+
+If an “equity restructuring” event occurs that could result in an additional compensation expense under applicable accounting standards if adjustments to awards under the LTIP with respect to such event were discretionary, the administrator of the LTIP will equitably adjust the number and type of units covered by each outstanding award and the terms and conditions of such award to equitably reflect the restructuring event, and the administrator will adjust the number and type of units with respect to which future awards may be granted under the LTIP. With respect to other similar events, including, for example, a combination or exchange of units, a merger or consolidation or an extraordinary distribution of our assets to unitholders, that would not result in an accounting charge if adjustment to awards were discretionary, the administrator of the LTIP has the discretion to adjust awards in the manner it deems appropriate and to make equitable adjustments, if any, with respect to the number and kind of units subject to outstanding awards, the terms and conditions of any outstanding awards and the grant or exercise price per unit for outstanding awards under the LTIP. Furthermore, in connection with a change in control of us or our general partner, or a change in any law or regulation affecting the LTIP or outstanding awards or any relevant change in accounting principles, the administrator of the LTIP will generally have discretion to (i) accelerate the time of exercisability or vesting or payment of an award, (ii) permit awards to be surrendered in exchange for a cash payment, (iii) cause awards then outstanding to be assumed or substituted for other rights by the surviving entity in the change in control, (iv) provide for either (A) the termination of any award in exchange for a payment of the amount that would have been received upon the exercise of such award or realization of the grantee’s rights under such award or (B) the replacement of an award with other rights or property selected by the administrator having an aggregate value not exceeding the amount that could have been received upon the exercise of such award or realization of the grantee’s rights had such award been currently exercisable or payable or fully vested, (v) provide that an award be assumed by the successor or survivor entity, or be exchanged for similar options, rights or awards covering the equity of the successor or survivor, with appropriate adjustments thereto, (vi) make adjustments in the number and type of units subject to outstanding awards, the number and kind of outstanding awards, the terms and conditions of, and/or the vesting and performance criteria included in, outstanding awards, (vii) provide that an award will vest or become exercisable or payable and/or (viii) provide that an award cannot be exercised or become payable after such event and will terminate upon such event.
+
+## Termination of Employment
+
+The LTIP provides the administrator with the discretion to determine in each award agreement the effect of a termination of a grantee’s employment, membership on our general partner’s Board or other service arrangement on the grantee’s outstanding awards.
+
+## Amendment or Termination of LTIP
+
+The administrator of the LTIP, at its discretion, may terminate the LTIP at any time with respect to the common units for which a grant has not previously been made. The LTIP automatically terminates on the tenth anniversary of the date it was initially adopted by our general partner. The administrator of the LTIP also has the right to alter or amend the LTIP or any part of it from time to time or to amend any outstanding award made under the LTIP, provided that no change in any outstanding award may be made that would materially impair the vested rights of the participant without the consent of the affected participant or result in taxation to the participant under Section 409A of the Internal Revenue Code.
+
+<span id="page-134-0"></span>
+## Compensation Committee Report
+
+We do not have a compensation committee. Accordingly, the Compensation Committee Report required by Item 407(e)(5) of Regulation S-K is given by the Board. The Board has reviewed and discussed the Compensation Discussion and Analysis presented above with management and, based on such review and discussions, the Board has approved the inclusion of the Compensation Discussion and Analysis in this Annual Report on Form 10-K.
+
+Members of the board of directors of Shell Midstream Partners GP LLC:
+
+Paul R. A. Goodfellow Kevin M. Nichols Shawn J. Carsten James J. Bender Carlos A. Fierro Rob L. Jones Anne C. Anderson David A. Connolly
+
+## Item 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDERMATTERS
+
+The following table sets forth the beneficial ownership of common units of Shell Midstream Partners, L.P. held by beneficial owners of 5% or more of the common units, by each director, director nominee and named executive officer of our general partner and by the directors, director nominee and executive officers of our general partner as a group. The percentage of units beneficially owned is based on 393,289,537 common units outstanding as of February 22, 2021.
+
+![](tables/table_pg134_num0.csv)
+The address for all beneficial owners in this table, except as noted in the table, is 150 N. Dairy Ashford, Houston, Texas 77079. (1)
+Shell Pipeline Company LP owns Shell Midstream LP Holdings LLC, which owns the common units presented above. Shell Pipeline Company LP may be deemed to (2) beneficially own the units held by Shell Midstream LP Holdings LLC.
+The number of common units presented for Ms. Muratta includes 2,310 units held jointly under a retirement account in the name of Ms. Muratta’s spouse. (3)
+
+## Securities Authorized for Issuance under Equity Compensation Plans
+
+The following table sets forth information about all existing equity compensation plans as of December 31, 2020.
+
+<span id="page-135-0"></span>
+![](tables/table_pg135_num0.csv)
+The amounts shown represent common units available under the LTIP as of December 31, 2020. No awards have been made under the LTIP.(1)
+
+## Item 13. CERTAIN RELATIONSHIPS AND RELATED PARTY TRANSACTIONS, AND DIRECTOR INDEPENDENCE
+
+As of February 22, 2021, SPLC’s wholly owned subsidiary, Shell Midstream LP Holdings LLC (“LP Holdings”) owned 269,457,304 common units, representing a 68.5% limited partner interest in us. The Partnership also had 50,782,904 of Series A Preferred Units outstanding, which are entitled to receive a quarterly distribution of \$0.2363 per unit and all of which are owned by LP Holdings. Prior to April 1, 2020, our general partner owned 4,761,012 general partner units representing a 2% general partner interest in us. On April 1, 2020, in connection with the closing of the April 2020 Transaction, we closed on the transactions contemplated by the Partnership Interests Restructuring Agreement, pursuant to which we eliminated all of the IDRs and converted the 2% economic general partner interest in the Partnership into a non-economic general partner interest. As a result, 4,761,012 general partner units and the IDRs were canceled and are no longer outstanding, and therefore, no longer participate in distributions of cash from the Partnership. See Part III, Item 10. Directors, Executive Of icers and Corporate Governance – Management of Shell Midstream Partners, L.P. in this report for additional information regarding director independence.
+
+## Distributions and Payments to Our General Partner and Its Affiliates
+
+The following table summarizes the distributions and payments to be made by us to our general partner and its affiliates in connection with our ongoing operation and upon liquidation. These distributions and payments were determined by and among affiliated entities and, consequently, are not the result of arm’s-length negotiations.
+
+## Operational Stage
+
+Distributions of available cash to our general partner and its af iliates
+
+Payments to our general partner and its af iliates
+
+Withdrawal or removal of our general partner
+
+Liquidation Stage Liquidation
+
+We generally make cash distributions to the common unitholders pro rata, including SPLC, as holder of an aggregate of 269,457,304 common units (61% of all units outstanding) and 50,782,904 preferred units (11% of all units outstanding).
+
+Pursuant to our Partnership Agreement, we reimburse our general partner and its affiliates, including SPLC, for costs and expenses they incur and payments they make on our behalf. Pursuant to the 2019 Omnibus Agreement, we pay an annual fee, currently \$11 million, to SPLC for general and administrative services. In addition, we reimburse our general partner and SPLC, as applicable, pursuant to our management agreement and operational and administrative management agreements for each of Pecten, Sand Dollar and Triton.
+
+If our general partner withdraws or is removed, its non-economic general partner interest will either be sold to the new general partner for cash or converted into common units, in each case for an amount equal to the fair market value of those interests.
+
+Upon our liquidation, the partners, including our general partner, will be entitled to receive liquidating distributions according to their respective capital account balances.
+
+<span id="page-136-0"></span>
+## Agreements with Shell
+
+We have entered into various agreements with Shell, as described in detail below. These agreements were negotiated in connection with, among other things, the formation of the Partnership, the IPO and our acquisitions from Shell. These agreements address, among other things, the acquisition of assets and the assumption of liabilities by us. These agreements were not the result of arm’s length negotiations and, as such, they or underlying transactions may not be based on terms as favorable as those that could have been obtained from unaffiliated third parties.
+
+## Omnibus Agreement
+
+In connection with the IPO, we entered into an Omnibus Agreement with SPLC and our general partner. On February 19, 2019, we, our general partner, SPLC, the Operating Company and Shell Oil Company terminated the Omnibus Agreement effective as of February 1, 2019, and we, our general partner, SPLC and the Operating Company entered into a new Omnibus Agreement effective February 1, 2019 (the “2019 Omnibus Agreement”). On February 18, 2020, pursuant to the 2019 Omnibus Agreement, the Board approved a 3% inflationary increase to the annual general and administrative fee for 2020.
+
+The 2019 Omnibus Agreement addresses, among other things, the following matters:
+
+our payment of an annual administrative fee, currently \$11 million, for the provision of certain services by SPLC;
+
+• our obligation to reimburse SPLC for certain direct or allocated costs and expenses incurred by SPLC on our behalf; and
+
+SPLC’s obligation to indemnify us for certain environmental and other liabilities, and our obligation to indemnify SPLC for certain environmental and other liabilities related to our assets to the extent SPLC is not required to indemnify us.
+
+So long as SPLC controls our general partner, the 2019 Omnibus Agreement will remain in full force and effect. If SPLC ceases to control our general partner, either party may terminate the 2019 Omnibus Agreement, provided that the indemnification obligations will remain in full force and effect in accordance with their terms. During 2020 and 2019, neither we nor SPLC made any claims for indemnifications under the 2019 Omnibus Agreement. For additional information, see Note 4 — Related Party Transactions in the Notes to the Consolidated Financial Statements in Part II, Item 8 of this report.
+
+## Trade Marks License Agreement
+
+We, our general partner and SPLC entered into a Trade Marks License Agreement with Shell Trademark Management Inc. effective as of February 1, 2019. The Trade Marks License Agreement grants us the use of certain Shell trademarks and trade names and expires on January 1, 2024 unless earlier terminated by either party upon 360 days’ notice. For additional information, see Note 4 — Related Party Transactions in the Notes to the Consolidated Financial Statements in Part II, Item 8 of this report.
+
+## Operating Agreements
+
+On December 1, 2019, we entered into an Operating and Administrative Management Agreement with SPLC (the “2019 Operating Agreement”). Pursuant to the 2019 Operating Agreement, SPLC provides certain operations, maintenance and administrative services for the assets wholly owned by Pecten, Sand Dollar and Triton (collectively, the “Owners”). The Owners are required to reimburse SPLC for certain costs in connection with the services that SPLC provides pursuant to the 2019 Operating Agreement. SPLC and the Owners each provide standard indemnifications as operator and asset owners, respectively. Upon entering into the 2019 Operating Agreement, certain operating agreements previously entered into between SPLC and each of the Owners were terminated.
+
+In December 2017, we were assigned an operating agreement for Odyssey, whereby SPLC performs physical operations and maintenance services and provides general and administrative services for Odyssey. Odyssey is required to reimburse SPLC for costs and expenses incurred in connection with such services. Also pursuant to the agreement, SPLC and Odyssey agree to standard indemnifications as operator and asset owner, respectively.
+
+Beginning July 1, 2014, Zydeco entered into an operating and management agreement with SPLC under which SPLC provides general management and administrative services to us. Therefore, we do not receive allocated corporate expenses from SPLC or Shell under this agreement. We receive direct and allocated field and regional expenses including payroll expenses not covered under this agreement.
+
+<span id="page-137-0"></span>
+For amounts paid under these agreements, see Note 4 — Related Party Transactions in the Notes to the Consolidated Financial Statements in Part II, Item 8 of this report.
+
+## Joint Venture and Subsidiary Governing Agreements
+
+We are a party to the governing agreements of the entities in which we own equity interests. The governing agreements of such entities govern the ownership and management of the applicable entity. Our ability to influence decisions with respect to the operation of certain of the entities in which we own interests varies depending on the amount of control we exercise under the applicable governing agreement.
+
+The governing agreements generally include provisions related to cash distributions, capital calls, transfer restrictions and termination of the applicable entity. For example, we do not control the amount of cash distributed by several of the entities in which we own interests. We may influence the amount of cash distributed through our veto rights provided for in the applicable governing agreement over the cash reserves made by certain of these entities. Additionally, we may not have the ability to unilaterally require certain of the entities in which we own interests to make capital expenditures, and such entities may require us to make additional capital contributions to fund operating and maintenance expenditures, as well as to fund expansion capital expenditures, which would reduce the amount of cash otherwise available for distribution by us or require us to incur additional indebtedness.
+
+## Voting Agreements
+
+Pursuant to a voting agreement between SPLC and us, we have voting power over the ownership interests retained by SPLC in Zydeco. Pursuant to the voting agreement, SPLC is prohibited from transferring its ownership interest in Zydeco unless the transferee agrees to be bound by the applicable voting agreement.
+
+## Tax Sharing Agreement
+
+We have entered into a tax sharing agreement with Shell. Pursuant to this agreement, we have agreed to reimburse Shell for state and local income and franchise taxes attributable to any activity of our operating subsidiaries and reported on Shell’s state or local income or franchise tax returns filed on a combined or unitary basis. Reimbursements under this agreement equal the amount of tax our applicable operating subsidiaries would be required to pay with respect to such activity, if such subsidiaries were to file a combined or unitary tax return separate from Shell. Shell will compute and invoice us for the tax reimbursement amount within 15 days of Shell filing its combined or unitary tax return on which such activity is included. We may be required to make prepayments toward the tax reimbursement amount to the extent that Shell is required to make estimated tax payments during the relevant tax year. The tax sharing agreement currently in place is effective for all taxable periods ending on or after December 31, 2017. The current agreement replaced a similar tax sharing agreement between Zydeco and Shell, which was effective for all tax periods ending before December 31, 2017. Reimbursements settled in the years ended December 31, 2020, 2019 and 2018 were not material to our consolidated statements of income.
+
+## Procedures for Review, Approval or Ratification of Transactions with Related Parties
+
+The Board has adopted a written policy for the review, approval and ratification of transactions with related persons. For the purposes of the policy, a “related person” is any director or executive officer of our general partner, any unitholder known to us to be the beneficial owner of more than 5% of our common units and any immediate family member (as defined under SEC rules) of any such person, and a “related person transaction” is generally a transaction in which we are, or our general partner or any of our subsidiaries is, a participant, the amount involved exceeds \$120,000, and a related person has a direct or indirect material interest. Transactions resolved under the conflicts provision of the Partnership Agreement are not required to be reviewed or approved under the policy.
+
+The policy sets forth certain categories of transactions that are deemed to be pre-approved by the audit committee of the Board under the policy. After applying these categorical standards and weighing all of the facts and circumstances, the audit committee of the Board must then either approve or reject the transaction in accordance with the terms of the policy.
+
+In accordance with the policy, a director is expected to bring to the attention of the Board any conflict or potential conflict of interest that may arise between the director or any immediate family member of the director, on the one hand, and us or our general partner on the other. The resolution of any such conflict or potential conflict should, at the discretion of the Board, be determined by a majority of the disinterested directors.
+
+## Item 14. PRINCIPAL ACCOUNTING FEES AND SERVICES
+
+<span id="page-138-0"></span>
+The following table presents fees for professional services performed by our independent registered public accounting firm, Ernst & Young LLP, for 2020 and 2019.
+
+![](tables/table_pg138_num0.csv)
+Fees for audit services related to the fiscal year consolidated audit, quarterly reviews and services that were provided in connection with registration statements, statutory (1) and regulatory filings.
+
+The audit committee has adopted a pre-approval policy that provides guidelines for the audit, audit-related, tax and other non-audit services that may be provided by the independent registered public accounting firm to the Partnership. All of the fees in the table above were approved in accordance with this policy. The policy (a) identifies the guiding principles that must be considered by the audit committee in approving services to ensure that the independent registered public accounting firm’s independence is not impaired; (b) describes the audit, audit-related, tax and other services that may be provided and the non-audit services that are prohibited; and (c) sets forth pre-approval requirements for all permitted services. Under the policy, all services to be provided by the independent registered public accounting firm must be pre-approved by the audit committee. The audit committee has delegated authority to approve permitted services to the audit committee’s Chair. Such approval must be reported to the entire audit committee at the next scheduled audit committee meeting.
+
+<span id="page-139-0"></span>
+## PART IV
+
+## Item 15. EXHIBITS, FINANCIAL STATEMENT SCHEDULES
+
+## 1. Financial Statements and Supplementary Data
+
+The financial statements and supplementary information listed in the Index to Financial Statements, which appears in Part II, Item 8, are filed as part of this Annual Report.
+
+## 2. Financial Statement Schedules
+
+The following financial statement schedules are included pursuant to Rule 3-09 of Regulation S-X (17 CFR 210.3-09):
+
+All other financial statement schedules are omitted because they are not required, not significant, not applicable or the information is shown in another schedule, the financial statements or the notes to consolidated financial statements.
+
+## 3. Exhibits
+
+The exhibits listed in the Index to Exhibits are filed as part of this Annual Report.
+
+<span id="page-140-0"></span>
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+INDEX TO EXHIBITS
+![](tables/table_pg140_num0.csv)
+\*\* Furnished herewith.
+\* Filed herewith.
+# Management contract or compensatory plan or arrangement required to be filed as an exhibit to this Form 10-K pursuant to Item 15(b).
+
+<span id="page-142-0"></span>
+Not applicable.
+
+<span id="page-143-0"></span>
+## SIGNATURES
+
+Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+## SHELL MIDSTREAM PARTNERS, L.P.
+
+By: Shell Midstream Partners GP LLC, its general partner
+
+February 18, 2021
+
+/s/ Shawn J. Carsten
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, this report has been signed, as of February 18, 2021, by the following persons on behalf of the registrant and in the capacities indicated.
+
+![](tables/table_pg143_num0.csv)
+
+<span id="page-144-0"></span>
+# Description of Common Units
+
+The following description of the common units representing limited partner interests (“common units”) in Shell Midstream Partners, L.P., a Delaware limited partnership (the “partnership” or, as the context requires, “we,” “us” or “our”), is a summary and is subject to, and qualified in its entirety by, reference to the provisions of our Second Amended and Restated Agreement of Limited Partnership, dated as of April 1, 2020 (our “partnership agreement”), which has been filed as Exhibit 3.2, respectively, to our Annual Report on Form 10-K for the year ended December 31, 2020, of which this Exhibit 4.1 is a part.
+
+Our common units represent limited partner interests in us and are listed on the New York Stock Exchange under the symbol “SHLX.”
+
+## Series A Preferred Units
+
+On April 1, 2020, we issued 50,782,904 Series A perpetual convertible preferred units (the “Series A preferred units”) at a price of \$23.63 per unit. The Series A preferred units currently rank senior to our common units with respect to distribution rights and rights upon liquidation. Although our Series A preferred units are not registered under Section 12 of the Exchange Act, the following description of the Series A preferred units is included because various terms of the Series A preferred units could impact our common units.
+
+The Series A preferred units are entitled to vote on an as-converted basis with the common units and have certain other class voting rights with respect to any amendment to our partnership agreement or our certificate of limited partnership that are adverse to any of the rights, preferences and privileges of the Series A preferred units. Please read “—Voting Rights.”
+
+The Series A preferred units are entitled to receive cumulative quarterly distributions at a rate of \$0.2363 per unit per quarter as described under “Cash Distribution Policy—Series A Preferred Unit Distributions.” The partnership will not be entitled to pay any distributions on any junior securities, including any of the common units, prior to paying the quarterly distribution payable to the Series A preferred units, including any previously accrued and unpaid distributions.
+
+Each holder of the Series A preferred units may elect to convert all or any portion of the Series A preferred units owned by it into common units at the then-applicable conversion rate, subject to customary anti-dilution adjustments and an adjustment for any distributions that have accrued but not been paid when due and partial period distributions, at any time (but not more often than once per quarter) after January 1, 2022.
+
+The partnership may elect to convert all or any portion of the Series A preferred units into common units at any time (but not more often than once per quarter) after January 1, 2023 if the closing price per common unit exceeds 140% of the Series A Preferred Unit Issue Price (as defined in our partnership agreement) for at least 20 trading days (whether or not consecutive) in a period of 30 consecutive trading days, including the last trading day of such 30 trading day period, ending on and including the trading day immediately preceding notice of the conversion. In addition, upon the occurrence of certain other events involving a change of control, the holders of the Series A preferred units may elect, among other potential elections, to convert the Series A preferred units to common units at a conversion rate as further described under “—Series A Change of Control.”
+
+## Cash Distribution Policy
+
+## Distributions of Available Cash
+
+Our partnership agreement requires that, within 60 days after the end of each quarter, we distribute all of our available cash to unitholders of record on the applicable record date.
+
+Available cash generally means, for any quarter, all cash and cash equivalents on hand at the end of that quarter:
+
+less, the amount of cash reserves established by our general partner, Shell Midstream Partners GP LLC, a Delaware limited liability company (our “general partner”), to:
+
+provide for the proper conduct of our business (including reserves for our future maintenance and expansion capital expenditures, for future acquisitions and anticipated future debt service requirements, for
+
+<span id="page-145-0"></span>
+the payment of distributions on the Series A preferred units and for refunds of collected rates reasonably likely to be refunded as a result of a settlement or hearing related to Federal Energy Regulatory Commission (“FERC”) rate proceedings or rate proceedings under applicable law) subsequent to that quarter;
+
+comply with applicable law, any of our or our subsidiaries’ debt instruments or other agreements; or
+
+◦ provide funds for distributions to our unitholders and to our general partner for any one or more of the next four quarters;
+
+• plus, all cash on hand on the date of determination resulting from dividends or distributions received after the end of the quarter from equity interests in any person other than a subsidiary in respect of operations conducted by such person during the quarter;
+
+• plus, if our general partner so determines, all or any portion of the cash on hand on the date of determination resulting from working capital borrowings after the end of the quarter.
+
+The purpose and effect of the last bullet point above is to allow our general partner, if it so decides, to use cash from working capital borrowings made after the end of the quarter but on or before the date of determination of available cash for that quarter to pay distributions to unitholders. Under our partnership agreement, working capital borrowings are generally borrowings that are made under a credit facility, commercial paper facility or similar financing arrangement, and in all cases are used solely for working capital purposes or to pay distributions to partners, and with the intent of the borrower to repay such borrowings within twelve months with funds other than from additional working capital borrowings.
+
+## Series A Preferred Unit Distributions
+
+The holders of the Series A preferred units are entitled to cumulative quarterly distributions at a rate of \$0.2363 per Series A preferred unit, payable quarterly in arrears no later than 60 days after the end of the applicable quarter. The partnership will not be entitled to pay any distributions on any junior securities, including any of the common units, prior to paying the quarterly distribution payable to the Series A preferred units, including any previously accrued and unpaid distributions.
+
+## Voting Rights
+
+The following is a summary of the unitholder vote required for the matters specified below. Matters requiring the approval of a “unit majority” require the approval of a majority of the outstanding common units and outstanding Series A preferred units, if any, with such Series A preferred units to be treated as common units on an “as if” converted basis, voting together as a single class. Except as provided in the partnership agreement, Series A preferred units shall have voting rights that are identical to the voting rights of the common units so that the record holder of each outstanding Series A preferred unit will be entitled to one vote for each common unit into which such Series A preferred unit is then convertible at the then-applicable conversion rate on each matter with respect to which each record holder of a common unit is entitled to vote. In voting their common units, our general partner and its affiliates will have no duty or obligation whatsoever to us or the limited partners, including any duty to act in the best interests of us or the limited partners, other than the implied covenant of good faith and fair dealing.
+
+<span id="page-146-0"></span>
+![](tables/table_pg146_num0.csv)
+
+## Distributions of Cash Upon Liquidation
+
+If we dissolve in accordance with our partnership agreement, we will sell or otherwise dispose of our assets in a process called liquidation. We will first apply the proceeds of liquidation to the payment of our creditors. We will distribute any remaining proceeds to the unitholders and our general partner, in accordance with their capital account balances, as adjusted to reflect any gain or loss upon the sale or other disposition of our assets in liquidation.
+
+## Limited Liability
+
+Assuming that a limited partner does not participate in the control of our business within the meaning of the Delaware Revised Uniform Limited Partnership Act (the “Delaware Act”) and that it otherwise acts in conformity with the provisions of our partnership agreement, its liability under the Delaware Act will be limited, subject to possible exceptions, to the amount of capital it is obligated to contribute to us for its common units plus its share of any undistributed profits and assets. If it were determined, however, that the right, or exercise of the right, by the limited partners as a group:
+
+• to remove or replace our general partner;
+
+• to approve some amendments to our partnership agreement; or
+
+• to take other action under our partnership agreement;
+
+constituted “participation in the control” of our business for the purposes of the Delaware Act, then the limited partners could be held personally liable for our obligations under the laws of Delaware, to the same extent as our general partner. This liability would extend to persons who transact business with us who reasonably believe that the limited partner is a general partner. Neither our partnership agreement nor the Delaware Act specifically provides for legal recourse against our general partner if a limited partner were to lose limited liability through any fault of our general partner. While this does not mean that a limited partner could not seek legal recourse, we know of no precedent for this type of a claim in Delaware case law.
+
+Under the Delaware Act, a limited partnership may not make a distribution to a partner if, after the distribution, all liabilities of the limited partnership, other than liabilities to partners on account of their limited partner interests and liabilities for which
+
+<span id="page-147-0"></span>
+the recourse of creditors is limited to specific property of the partnership, would exceed the fair value of the assets of the limited partnership. For the purpose of determining the fair value of the assets of a limited partnership, the Delaware Act provides that the fair value of property subject to liability for which recourse of creditors is limited shall be included in the assets of the limited partnership only to the extent that the fair value of that property exceeds the non-recourse liability. The Delaware Act provides that a limited partner who receives a distribution and knew at the time of the distribution that the distribution was in violation of the Delaware Act shall be liable to the limited partnership for the amount of the distribution for three years. Under the Delaware Act, a substituted limited partner of a limited partnership is liable for the obligations of its assignor to make contributions to the partnership, except that such person is not obligated for liabilities unknown to it at the time it became a limited partner and that could not be ascertained from our partnership agreement.
+
+Our subsidiaries conduct business in several states, and we may have subsidiaries that conduct business in other states in the future. Maintenance of our limited liability as a limited partner or member of our operating subsidiaries may require compliance with legal requirements in the jurisdictions in which our operating subsidiaries conduct business, including qualifying our subsidiaries to do business there.
+
+Limitations on the liability of limited partners or members for the obligations of a limited partnership or limited liability company have not been clearly established in many jurisdictions. If, by virtue of our limited partner interest in our operating company or otherwise, it were determined that we were conducting business in any state without compliance with the applicable limited partnership or limited liability company statute, or that the right or exercise of the right by the limited partners as a group to remove or replace our general partner, to approve some amendments to our partnership agreement or to take other action under our partnership agreement constituted “participation in the control” of our business for purposes of the statutes of any relevant jurisdiction, then the limited partners could be held personally liable for our obligations under the law of that jurisdiction to the same extent as our general partner under the circumstances. We will operate in a manner that our general partner considers reasonable and necessary or appropriate to preserve the limited liability of the limited partners.
+
+## Issuance of Additional Partnership Interests
+
+Our partnership agreement authorizes us to issue an unlimited number of additional partnership interests for the consideration and on the terms and conditions determined by our general partner without the approval of the unitholders.
+
+It is possible that we will fund acquisitions through the issuance of additional common units or other partnership interests. Holders of any additional common units we issue will be entitled to share equally with the then-existing holders of common units in our distributions of available cash. In addition, the issuance of additional common units or other partnership interests may dilute the value of the interests of the then-existing holders of common units in our net assets.
+
+In accordance with Delaware law and the provisions of our partnership agreement, we may also issue additional partnership interests that, as determined by our general partner, may have special voting rights to which the common units are not entitled. In addition, our partnership agreement does not prohibit the issuance by our subsidiaries of equity interests, which may effectively rank senior to the common units.
+
+Our general partner will have the right, which it may from time to time assign in whole or in part to any of its affiliates, to purchase common units or other partnership interests whenever, and on the same terms that, we issue those interests to persons other than our general partner and its affiliates, to the extent necessary to maintain the percentage interest of our general partner and its affiliates, including such interest represented by common units, that existed immediately prior to each issuance. The other holders of common units will not have preemptive rights to acquire additional common units or other partnership interests.
+
+## Amendment of Our Partnership Agreement
+
+## General
+
+Amendments to our partnership agreement may be proposed only by our general partner. However, our general partner will have no duty or obligation to propose any amendment and may decline to propose or approve any amendment to our partnership agreement. In order to adopt a proposed amendment, other than the amendments discussed below, our general partner is required to seek written approval of the holders of the number of units required to approve the amendment or call a meeting of the limited partners to consider and vote upon the proposed amendment. Except as described below, an amendment must be approved by a unit majority.
+
+<span id="page-148-0"></span>
+## Prohibited Amendments
+
+No amendment may be made that would:
+
+• enlarge the obligations of any limited partner without its consent, unless such is deemed to have occurred as a result of an amendment approved by at least a majority of the type or class of limited partner interests so affected; or
+
+• enlarge the obligations of, restrict in any way any action by or rights of, or reduce in any way the amounts distributable, reimbursable or otherwise payable by us to our general partner or any of its affiliates without its consent, which consent may be given or withheld at its option.
+
+The provisions of our partnership agreement preventing the amendments having the effects described in any of the clauses above can be amended upon the approval of the holders of at least 90% of the outstanding units voting together as a single class (including units owned by our general partner and its affiliates).
+
+## No Limited Partner Approval
+
+Subject to certain rights of the holders of Series A preferred units, our general partner may generally make amendments to our partnership agreement without the approval of any limited partner to reflect:
+
+• a change in our name, the location of our principal office, our registered agent or our registered office;
+
+• the admission, substitution, withdrawal or removal of partners in accordance with our partnership agreement;
+
+• a change that our general partner determines to be necessary or appropriate to qualify or continue our qualification as a limited partnership or a partnership in which the limited partners have limited liability under the laws of any state or to ensure that neither we nor any of our subsidiaries will be treated as an association taxable as a corporation or otherwise taxed as an entity for federal income tax purposes;
+
+• a change in our fiscal year or taxable year and any other changes that our general partner determines to be necessary or appropriate as a result of such change;
+
+an amendment that is necessary, in the opinion of our counsel, to prevent us or our general partner or its directors, officers, trustees or agents from in any manner being subjected to the provisions of the Investment Company Act of 1940, the Investment Advisers Act of 1940, or “plan asset” regulations adopted under the Employee Retirement Income Security Act of 1974, each as amended, whether or not substantially similar to plan asset regulations currently applied or proposed by the U.S. Department of Labor;
+
+• an amendment that our general partner determines to be necessary or appropriate for the authorization or issuance of additional partnership interests;
+
+• any amendment expressly permitted in our partnership agreement to be made by our general partner acting alone;
+
+• an amendment effected, necessitated or contemplated by a merger agreement or plan of conversion that has been approved under the terms of our partnership agreement;
+
+any amendment that our general partner determines to be necessary or appropriate to reflect and account for the formation by us of, or our investment in, any corporation, partnership, joint venture, limited liability company or other entity, in connection with our conduct of activities permitted by our partnership agreement;
+
+an amendment providing that any transferee of a limited partner interest (including any nominee holder or an agent or representative acquiring such limited partner interest for the account of another person) shall be deemed to certify that the transferee is an Eligible Taxable Holder (as defined below in “—Ineligible Holders; Redemption”);
+
+• conversions into, mergers with or conveyances to another limited liability entity that is newly formed and has no assets, liabilities or operations at the time of the conversion, merger or conveyance other than those it receives by way of the conversion, merger or conveyance; or
+
+• any other amendments substantially similar to any of the matters described in the clauses above.
+
+<span id="page-149-0"></span>
+In addition, subject to certain rights of the holders of Series A preferred units, our general partner may make amendments to our partnership agreement without the approval of any limited partner if our general partner determines that those amendments:
+
+• do not adversely affect in any material respect the limited partners considered as a whole or any particular class of partnership interests as compared to other classes of partnership interests;
+
+are necessary or appropriate to satisfy any requirements, conditions or guidelines contained in any opinion, directive, order, ruling or regulation of any federal or state agency or judicial authority or contained in any federal or state statute;
+
+are necessary or appropriate to facilitate the trading of limited partner interests or to comply with any rule, regulation, guideline or requirement of any securities exchange on which the limited partner interests are or will be listed or admitted to trading;
+
+are necessary or appropriate for any action taken by our general partner relating to splits or combinations of units under the provisions of our partnership agreement; or
+
+• are required to effect the intent of the provisions of our partnership agreement or are otherwise contemplated by our partnership agreement.
+
+## Opinion of Counsel and Unitholder Approval
+
+For amendments of the type not requiring unitholder approval, our general partner will not be required to obtain an opinion of counsel to the effect that an amendment will not affect the limited liability of any limited partner under Delaware law. No other amendments to our partnership agreement will become effective without the approval of holders of at least 90% of the outstanding common units and Series A preferred units (on an as-converted basis at the then-applicable conversion rate), voting as a single class unless we first obtain such an opinion.
+
+In addition to the above restrictions, any amendment that would have a material adverse effect on the rights or preferences of any type or class of partnership interests in relation to other classes of partnership interests will require the approval of at least a majority of the type or class of partnership interests so affected. Any amendment that would reduce the percentage of units required to take any action, other than to remove our general partner or call a meeting of unitholders, must be approved by the affirmative vote of limited partners whose aggregate outstanding units constitute not less than the percentage sought to be reduced. Any amendment that would increase the percentage of units required to remove our general partner must be approved by the affirmative vote of limited partners whose aggregate outstanding units constitute not less than 90% of the outstanding common units and Series A preferred units (on an as-converted basis at the then-applicable conversion rate), voting as a single class. Any amendment that would increase the percentage of units required to call a meeting of unitholders must be approved by the affirmative vote of limited partners whose aggregate outstanding units constitute at least a majority of our outstanding common units and Series A preferred units (on an as-converted basis at the then-applicable conversion rate).
+
+## Merger, Consolidation, Conversion, Sale or Other Disposition of Assets
+
+A merger, consolidation or conversion of our partnership requires the prior consent of our general partner. However, our general partner will have no duty or obligation to consent to any merger, consolidation or conversion and may decline to do so free of any duty or obligation whatsoever to us or the limited partners, including any duty to act in the best interests of us or the limited partners, other than the implied contractual covenant of good faith and fair dealing.
+
+In addition, our partnership agreement generally prohibits our general partner without the prior approval of the holders of a unit majority, from causing us to, among other things, sell, exchange or otherwise dispose of all or substantially all of our assets in a single transaction or a series of related transactions. Our general partner may, however, mortgage, pledge, hypothecate or grant a security interest in all or substantially all of our assets without that approval. Our general partner may also sell any or all of our assets under a foreclosure or other realization upon those encumbrances without that approval. Finally, our general partner may consummate any merger with another limited liability entity without the prior approval of our unitholders if we are the surviving entity in the transaction, our general partner has received an opinion of counsel regarding limited liability and tax matters, the transaction would not result in an amendment to our partnership agreement requiring unitholder approval, each of our units will be an identical unit of our partnership following the transaction, and the
+
+<span id="page-150-0"></span>
+partnership interests to be issued by us in such merger do not exceed 20% of our outstanding partnership interests immediately prior to the transaction.
+
+If the conditions specified in our partnership agreement are satisfied, our general partner may convert us or any of our subsidiaries into a new limited liability entity or merge us or any of our subsidiaries into, or convey all of our assets to, a newly formed entity, if the sole purpose of that conversion, merger or conveyance is to effect a mere change in our legal form into another limited liability entity, our general partner has received an opinion of counsel regarding limited liability and tax matters, and our general partner determines that the governing instruments of the new entity provide the limited partners and our general partner with the same rights and obligations as contained in our partnership agreement. The unitholders are not entitled to dissenters’ rights of appraisal under our partnership agreement or applicable Delaware law in the event of a conversion, merger or consolidation, a sale of substantially all of our assets or any other similar transaction or event.
+
+## Series A Change of Control
+
+Upon certain events involving a Series A Change of Control (as defined in our partnership agreement) in which more than 90% of the consideration payable to the holders of our common units is payable in cash, the Series A preferred units will, immediately prior to the closing of such Series A Change of Control, automatically convert into common units at a conversion rate equal to the quotient of (a) the sum of (i) \$23.63, plus (ii) any unpaid cash distributions on the applicable Series A preferred units, divided by (b) \$23.63.
+
+In connection with other Series A Change of Control events that do not satisfy the 90% cash consideration threshold described above, in addition to certain other conditions, each holder of Series A preferred units may elect to (a) convert all, but not less than all, of its Series A preferred units into common units at the then-applicable conversion rate, (b) if we are not the surviving entity, require us to use commercially reasonable efforts to cause the surviving entity in any such transaction to issue a substantially equivalent security, (c) if we are the surviving entity, continue to hold the Series A preferred units or (d) require us to redeem the Series A preferred units (i) on or prior to April 1, 2023, all (but not less than all) of such Series A preferred units at a price per unit of \$25.993 (110% of the Series A Preferred Unit Issue Price) and (ii) after April 1, 2023, at a price per unit of \$23.866 (101% of the Series A Preferred Unit Issue Price), in each case plus accrued but unpaid distributions to the redemption date.
+
+## Termination and Dissolution
+
+We will continue as a limited partnership until dissolved and terminated under our partnership agreement. We will dissolve upon:
+
+the withdrawal or removal of our general partner or any other event that results in its ceasing to be our general partner, other than by reason of a transfer of its general partner interest in accordance with our partnership agreement or a withdrawal or removal followed by approval and admission of a successor;
+
+• the election of our general partner to dissolve us, if approved by the holders of units representing a unit majority;
+
+• the entry of a decree of judicial dissolution of our partnership; or
+
+• there being no limited partners, unless we are continued without dissolution in accordance with applicable Delaware law.
+
+Upon a dissolution under the first bullet point above, the holders of a unit majority may also elect, within specific time limitations, to continue our business on the same terms and conditions described in our partnership agreement by appointing as a successor general partner an entity approved by the holders of units representing a unit majority, subject to our receipt of an opinion of counsel to the effect that:
+
+• the action would not result in the loss of limited liability of any limited partner; and
+
+• neither our partnership nor any of our subsidiaries would be treated as an association taxable as a corporation or otherwise be taxable as an entity for federal income tax purposes upon the exercise of that right to continue.
+
+## Liquidation and Distribution of Proceeds
+
+Upon our dissolution, unless we are continued as a new limited partnership, the liquidator authorized to wind up our affairs will, acting with all of the powers of our general partner that are necessary or appropriate, liquidate our assets and apply the
+
+<span id="page-151-0"></span>
+proceeds of the liquidation as described in “Cash Distribution Policy—Distributions of Cash Upon Liquidation.” The liquidator may defer liquidation or distribution of our assets for a reasonable period of time or distribute assets to partners in-kind if it determines that a sale would be impractical or would cause undue loss to our partners.
+
+## Withdrawal or Removal of Our General Partner
+
+Except as described below, our general partner has agreed not to withdraw voluntarily as our general partner prior to December 31, 2024 without obtaining the approval of the holders of at least a majority of the outstanding common units, excluding common units held by our general partner and its affiliates, and Series A preferred units (on an as-converted basis at the then-applicable conversion rate). voting as a single class, and furnishing an opinion of counsel regarding limited liability and tax matters. On or after December 31, 2024, our general partner may withdraw as general partner without first obtaining approval of any unitholder by giving 90 days’ written notice, and that withdrawal will not constitute a violation of our partnership agreement. Notwithstanding the information above, our general partner may withdraw without unitholder approval upon 90 days’ notice to the limited partners if at least 50% of the outstanding common units and Series A preferred units (on an as-converted basis at the then-applicable conversion rate), voting as a single class, are held or controlled by one person and its affiliates other than our general partner and its affiliates. In addition, our partnership agreement permits our general partner to sell or otherwise transfer all of its general partner interest in us without the approval of the unitholders. Please read “—Transfer of General Partner Interest.”
+
+Upon voluntary withdrawal of our general partner by giving notice to the other partners, the holders of a unit majority may select a successor to that withdrawing general partner. If a successor is not elected, or is elected but an opinion of counsel regarding limited liability and tax matters cannot be obtained, we will be dissolved, wound up and liquidated, unless within a specified period after that withdrawal, the holders of a unit majority agree to continue our business by appointing a successor general partner. Please read “—Termination and Dissolution.”
+
+Our general partner may not be removed unless that removal is approved by the vote of the holders of not less than 66 2/3% of the outstanding units, voting together as a single class, including units held by our general partner and its affiliates, and we receive an opinion of counsel regarding limited liability and tax matters. Any removal of our general partner is also subject to the approval of a successor general partner by the vote of the holders of a majority of the outstanding common units. The ownership of more than 33 1/3% of the outstanding units by our general partner and its affiliates would give them the practical ability to prevent our general partner’s removal.
+
+Our partnership agreement also provides that if our general partner is removed as our general partner under circumstances where cause does not exist and units held by our general partner and its affiliates are not voted in favor of that removal, our general partner will have the right to receive cash in exchange for those interests based on the fair market value of those interests as of the effective date of its removal.
+
+In the event of removal of our general partner under circumstances where cause exists or withdrawal of our general partner where that withdrawal violates our partnership agreement, a successor general partner will have the option to purchase the general partner interest of the departing general partner for a cash payment equal to the fair market value of those interests. Under all other circumstances where our general partner withdraws or is removed by the limited partners, the departing general partner will have the option to require the successor general partner to purchase the general partner interest of the departing general partner for fair market value. In each case, this fair market value will be determined by agreement between the departing general partner and the successor general partner. If no agreement is reached, an independent investment banking firm or other independent expert selected by the departing general partner and the successor general partner will determine the fair market value. If the departing general partner and the successor general partner cannot agree upon an expert, then an expert chosen by agreement of the experts selected by each of them will determine the fair market value.
+
+If the option described above is not exercised by either the departing general partner or the successor general partner, the departing general partner will become a limited partner and its general partner interest will automatically convert into common units pursuant to a valuation of those interests as determined by an investment banking firm or other independent expert selected in the manner described in the preceding paragraph.
+
+In addition, we will be required to reimburse the departing general partner for all amounts due the departing general partner, including, without limitation, all employee-related liabilities, including severance liabilities, incurred for the termination of any employees employed by the departing general partner or its affiliates for our benefit.
+
+## Transfer of General Partner Interest
+
+<span id="page-152-0"></span>
+Our general partner may transfer all or any of its general partner interest to an affiliate or a third party without the approval of our unitholders. As a condition of this transfer, the transferee must, among other things, assume the rights and duties of our general partner, agree to be bound by the provisions of our partnership agreement and furnish an opinion of counsel regarding limited liability and tax matters.
+
+Our general partner and its affiliates may at any time, transfer common units to one or more persons without unitholder approval.
+
+## Transfer of Ownership Interests in Our General Partner
+
+At any time, Shell Pipeline Company LP and its subsidiaries may sell or transfer all or part of their membership interest in our general partner to an affiliate or third party without the approval of our unitholders.
+
+## Transfer of Common Units
+
+By transfer of common units in accordance with our partnership agreement, each transferee of common units shall be admitted as a limited partner with respect to the common units transferred when such transfer and admission are reflected in our books and records. Each transferee, with or without executing our partnership agreement:
+
+• agrees to be bound by the terms and conditions of our partnership agreement;
+
+• represents and warrants that the transferee has the right, power, authority and capacity to enter into our partnership agreement; and
+
+gives the consents, waivers and approvals contained in our partnership agreement, such as the approval of all transactions and agreements that we entered into in connection with our formation and that we enter into in connection with an offering pursuant to a prospectus.
+
+We are entitled to treat the nominee holder of a common unit as the absolute owner in the event such nominee is the record holder of such common unit. In such case, the beneficial holder’s rights are limited solely to those that it has against the nominee holder as a result of any agreement between the beneficial owner and the nominee holder.
+
+Our common units are securities and are transferable according to the laws governing the transfer of securities. Until a common unit has been transferred on our register, we and the transfer agent are entitled to treat the record holder of the common unit as the absolute owner, except as otherwise required by law or stock exchange regulations.
+
+A unitholder who sells any of his or her units is generally required to notify us in writing of that sale within 30 days after the sale (or, if earlier, January 15 of the year following the sale). A purchaser of units who purchases units from another unitholder is also generally required to notify us in writing of that purchase within 30 days after the purchase. Upon receiving such notifications, we are required to notify the U.S. Internal Revenue Service of that transaction and to furnish specified information to the transferor and transferee. Failure to notify us of a purchase may, in some cases, lead to the imposition of penalties. However, these reporting requirements do not apply to a sale by an individual who is a citizen of the United States and who effects the sale or exchange through a broker who will satisfy such requirements.
+
+## Change of Management Provisions
+
+Our partnership agreement contains specific provisions that are intended to discourage a person or group from attempting to remove Shell Midstream Partners GP LLC as our general partner or otherwise change our management. If any person or group other than our general partner and its affiliates acquires beneficial ownership of 20% or more of any class of units, that person or group loses voting rights on all of its units. This loss of voting rights does not apply to any person or group that acquires the units from our general partner or its affiliates and any transferees of that person or group who are notified by our general partner that they will not lose their voting rights or to any person or group who acquires the units with the prior approval of the board of directors of our general partner or the Series A preferred unitholders with respect to their ownership (beneficial or record) of the Series A preferred units or common units issued upon conversion of Series A preferred units.
+
+Our partnership agreement also provides that if our general partner is removed as our general partner under circumstances where cause does not exist and units held by our general partner and its affiliates are not voted in favor of that removal, our general partner will have the right to convert its general partner units into common units or to receive cash in exchange for those interests based on the fair market value of those interests as of the effective date of its removal.
+
+<span id="page-153-0"></span>
+## Limited Call Right
+
+If at any time our general partner and its affiliates own more than 75% of the then-issued and outstanding limited partner interests of any class (excluding Series A preferred units), our general partner will have the right, which it may assign in whole or in part to any of its affiliates or to us, to acquire all, but not less than all, of the limited partner interests (but excluding Series A preferred units) of such class held by unaffiliated persons as of a record date to be selected by our general partner, on at least 10 but not more than 60 days’ notice. The purchase price in the event of this purchase is the greater of:
+
+the highest cash price paid by either of our general partner or any of its affiliates for any limited partner interests of the class purchased within the 90 days preceding the date on which our general partner first mails notice of its election to purchase those limited partner interests; and
+
+• the current market price calculated in accordance with our partnership agreement as of the date three business days before the date the notice is mailed.
+
+As a result of our general partner’s right to purchase outstanding limited partner interests, a holder of limited partner interests may have its limited partner interests purchased at a price that may be lower than market prices at various times prior to such purchase or lower than a unitholder may anticipate the market price to be in the future. The tax consequences to a unitholder of the exercise of this call right are the same as a sale by that unitholder of its common units in the market.
+
+## Ineligible Holders; Redemption
+
+Under our partnership agreement, an “Eligible Taxable Holder” is a limited partner whose, or whose owners’, federal income tax status does not have or is not reasonably likely to have a material adverse effect on the rates that can be charged by us on assets that are subject to regulation by FERC or a similar regulatory body, as determined by our general partner with the advice of counsel. An “Ineligible Holder” is a limited partner (a) who is not an Eligible Taxable Holder or (b) whose nationality, citizenship or other related status would create a substantial risk of cancellation or forfeiture of any property in which we have an interest, as determined by our general partner with the advice of counsel. A list of types of unitholders and whether they are of the type currently determined by the general partner to be Eligible Taxable Holders or Ineligible Holders is set forth in our partnership agreement. Our general partner may change its determination of what types of unitholders are considered Eligible Taxable Holders and Ineligible Holders at any time. We will make an updated list of such types of unitholders available to our unitholders and prospective unitholders.
+
+If at any time our general partner determines, with the advice of counsel, that one or more limited partners are Ineligible Holders, then our general partner may request any limited partner to furnish to our general partner an executed certification or other information about its federal income tax status and/or nationality, citizenship or related status. If a limited partner fails to furnish such certification or other requested information within 30 days (or such other period as our general partner may determine) after a request for such certification or other information, or our general partner determines after receipt of the information that the limited partner is an Ineligible Holder, the limited partner may be treated as an Ineligible Holder. An Ineligible Holder does not have the right to direct the voting of its units and may not receive distributions in-kind upon our liquidation.
+
+Furthermore, we have the right to redeem all of the common units of any holder that our general partner concludes is an Ineligible Holder or fails to furnish the information requested by our general partner. The redemption price in the event of such redemption for each unit held by such unitholder will be the current market price of such unit (the date of determination of which shall be the date fixed for redemption). The redemption price will be paid, as determined by our general partner, in cash or by delivery of a promissory note. Any such promissory note will bear interest at the rate of 5% annually and be payable in three equal annual installments of principal and accrued interest, commencing one year after the redemption date.
+
+## Transfer Agent and Registrar
+
+## Duties
+
+American Stock Transfer & Trust Company, LLC serves as the registrar and transfer agent for our common units. We will pay all fees charged by the transfer agent for transfers of common units, except the following that must be paid by our unitholders:
+
+• surety bond premiums to replace lost or stolen certificates, or to cover taxes and other governmental charges in connection therewith;
+
+• special charges for services requested by a holder of a common unit; and
+
+<span id="page-154-0"></span>
+• other similar fees or charges.
+
+Unless our general partner determines otherwise in respect of some or all of any classes of our partnership interests, our partnership interests will be evidenced by book entry notation on our partnership register and not by physical certificates.
+
+There will be no charge to our unitholders for disbursements of our cash distributions. We will indemnify the transfer agent, its agents and each of their respective stockholders, directors, officers and employees against all claims and losses that may arise out of acts performed or omitted for its activities in that capacity, except for any liability due to any gross negligence or intentional misconduct of the indemnified person or entity.
+
+## Resignation or Removal
+
+The transfer agent may resign, by notice to us, or be removed by us. The resignation or removal of the transfer agent will become effective upon our appointment of a successor transfer agent and registrar and its acceptance of the appointment. If no successor has been appointed and has accepted the appointment within 30 days after notice of the resignation or removal, our general partner may act as the transfer agent and registrar until a successor is appointed.
+
+<span id="page-155-0"></span>
+## Subsidiaries of Shell Midstream Partners, L.P.
+
+![](tables/table_pg155_num0.csv)
+
+<span id="page-156-0"></span>
+## Consent of Independent Registered Public Accounting Firm
+
+We consent to the incorporation by reference in the Registration Statements (Form S-3 No. 333-228146 and Form S-3 No. 333-228144) of Shell Midstream Partners, L.P. and in the related Prospectus of our reports dated February 22, 2021, with respect to the consolidated financial statements of Shell Midstream Partners, L.P., and the effectiveness of internal control over financial reporting of Shell Midstream Partners, L.P., included in this Annual Report (Form 10- K) for the year ended December 31, 2020.
+
+/s/ Ernst & Young LLP
+
+Houston, Texas
+
+February 22, 2021
+
+<span id="page-157-0"></span>
+## Consent of Independent Auditors
+
+We consent to the incorporation by reference in the Registration Statements (Form S-3 No. 333-228146 and No. 333-228144) of Shell Midstream Partners, L.P. of our report dated February 18, 2021, with respect to the financial statements of Mars Oil Pipeline Company LLC included in this Annual Report (Form 10-K) of Shell Midstream Partners, L.P. for the year ended December 31, 2020.
+
+/s/ Ernst & Young LLP
+
+Houston, Texas
+
+February 22, 2021
+
+<span id="page-158-0"></span>
+## Consent of Independent Auditors
+
+We consent to the incorporation by reference in the Registration Statements (Form S-3 No. 333-228146 and No. 333-228144) of Shell Midstream Partners, L.P. of our report dated February 18, 2021, with respect to the financial statements of Amberjack Pipeline Company LLC included in this Annual Report (Form 10-K) of Shell Midstream Partners, L.P. for the year ended December 31, 2020.
+
+/s/ Ernst & Young LLP
+
+Houston, Texas February 22, 2021
+
+<span id="page-159-0"></span>
+# CERTIFICATION PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002
+
+## I, Kevin M. Nichols, certify that:
+
+1. I have reviewed this annual report on Form 10-K of Shell Midstream Partners, L.P.;
+
+2. Based on my knowledge, this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made, in light of the circumstances under which such statements were made, not misleading with respect to the period covered by this report;
+
+3. Based on my knowledge, the financial statements, and other financial information included in this report, fairly present in all material respects the financial condition, results of operations and cash flows of the registrant as of, and for, the periods presented in this report;
+
+4. The registrant’s other certifying officer and I are responsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the registrant and have:
+
+(a) Designed such disclosure controls and procedures, or caused such disclosure controls and procedures to be designed under our supervision, to ensure that material information relating to the registrant, including its consolidated subsidiaries, is made known to us by others within those entities, particularly during the period in which this report is being prepared;
+
+(b) Designed such internal control over financial reporting, or caused such internal control over financial reporting to be designed under our supervision, to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+(c) Evaluated the effectiveness of the registrant’s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures, as of the end of the period covered by this report based on such evaluation; and
+
+(d) Disclosed in this report any change in the registrant’s internal control over financial reporting that occurred during the registrant’s most recent fiscal quarter (the registrant’s fourth fiscal quarter in the case of an annual report) that has materially affected, or is reasonably likely to materially affect, the registrant’s internal control over financial reporting; and
+
+5. The registrant’s other certifying officer and I have disclosed, based on our most recent evaluation of internal control over financial reporting, to the registrant’s auditors and the audit committee of the registrant’s board of directors (or persons performing the equivalent functions):
+
+(a) All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant’s ability to record, process, summarize and report financial information; and
+
+(b) Any fraud, whether or not material, that involves management or other employees who have a significant role in the registrant’s internal control over financial reporting.
+
+Date: February 22, 2021
+
+/s/ Kevin M. Nichols
+
+President and Chief Executive Officer of Shell Midstream Partners GP LLC (the general partner of Shell Midstream Partners, L.P.)
+
+<span id="page-160-0"></span>
+# CERTIFICATION PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002
+
+## I, Shawn J. Carsten, certify that:
+
+1. I have reviewed this annual report on Form 10-K of Shell Midstream Partners, L.P.;
+
+2. Based on my knowledge, this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made, in light of the circumstances under which such statements were made, not misleading with respect to the period covered by this report;
+
+3. Based on my knowledge, the financial statements, and other financial information included in this report, fairly present in all material respects the financial condition, results of operations and cash flows of the registrant as of, and for, the periods presented in this report;
+
+4. The registrant’s other certifying officer and I are responsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the registrant and have:
+
+(a) Designed such disclosure controls and procedures, or caused such disclosure controls and procedures to be designed under our supervision, to ensure that material information relating to the registrant, including its consolidated subsidiaries, is made known to us by others within those entities, particularly during the period in which this report is being prepared;
+
+(b) Designed such internal control over financial reporting, or caused such internal control over financial reporting to be designed under our supervision, to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+(c) Evaluated the effectiveness of the registrant’s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures, as of the end of the period covered by this report based on such evaluation; and
+
+(d) Disclosed in this report any change in the registrant’s internal control over financial reporting that occurred during the registrant’s most recent fiscal quarter (the registrant’s fourth fiscal quarter in the case of an annual report) that has materially affected, or is reasonably likely to materially affect, the registrant’s internal control over financial reporting; and
+
+5. The registrant’s other certifying officer and I have disclosed, based on our most recent evaluation of internal control over financial reporting, to the registrant’s auditors and the audit committee of the registrant’s board of directors (or persons performing the equivalent functions):
+
+(a) All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant’s ability to record, process, summarize and report financial information; and
+
+(b) Any fraud, whether or not material, that involves management or other employees who have a significant role in the registrant’s internal control over financial reporting.
+
+Date: February 22, 2021
+
+Vice President and Chief Financial Officer of Shell Midstream Partners GP LLC (the general partner of Shell Midstream Partners, L.P.)
+
+/s/ Shawn J. Carsten
+
+<span id="page-161-0"></span>
+# CERTIFICATION PURSUANT TO 18 U.S.C. SECTION 1350, AS ADOPTED PURSUANT TO SECTION 906 OF THE SARBANES-OXLEY ACT OF 2002
+
+In connection with the Annual Report of Shell Midstream Partners, L.P. (the “Partnership”) on Form 10-K for the period ended December 31, 2020 as filed with the Securities and Exchange Commission on the date hereof (the “Report”), I, Kevin M. Nichols, Chief Executive Officer of Shell Midstream Partners GP LLC, the general partner of the Partnership, certify, pursuant to 18 U.S.C. §1350, as adopted pursuant to §906 of the Sarbanes-Oxley Act of 2002, that to the best of my knowledge:
+
+(1) The Report fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934; and
+
+(2) The information contained in the Report fairly presents, in all material respects, the financial condition and results of operations of the Partnership.
+
+Date: February 22, 2021
+
+/s/ Kevin M. Nichols
+
+<span id="page-162-0"></span>
+# CERTIFICATION PURSUANT TO 18 U.S.C. SECTION 1350, AS ADOPTED PURSUANT TO SECTION 906 OF THE SARBANES-OXLEY ACT OF 2002
+
+In connection with the Annual Report of Shell Midstream Partners, L.P. (the “Partnership”) on Form 10-K for the period ended December 31, 2020 as filed with the Securities and Exchange Commission on the date hereof (the “Report”), I, Shawn J. Carsten, Chief Financial Officer of Shell Midstream Partners GP LLC, the general partner of the Partnership, certify, pursuant to 18 U.S.C. §1350, as adopted pursuant to §906 of the Sarbanes-Oxley Act of 2002, that to the best of my knowledge:
+
+(1) The Report fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934; and
+
+(2) The information contained in the Report fairly presents, in all material respects, the financial condition and results of operations of the Partnership.
+
+Date: February 22, 2021
+
+/s/ Shawn J. Carsten
+
+<span id="page-163-0"></span>
+## MARS OIL PIPELINE COMPANY LLC Table of Contents
+
+Report of Independent Auditors 2   
+Balance Sheets 3   
+Statements of Income 4   
+Statements of Members’ Capital 5   
+Statements of Cash Flows 6   
+Notes to Financial Statements 7
+
+<span id="page-164-0"></span>
+# Report of Independent Auditors
+
+To the Management Committee and Members Mars Oil Pipeline Company LLC
+
+We have audited the accompanying financial statements of Mars Oil Pipeline Company LLC, which comprise the balance sheets as of December 31, 2020 and 2019, and the related statements of income, members’ capital and cash flows for each of the three years in the period ended December 31, 2020, and the related notes to the financial statements.
+
+## Management’s Responsibility for the Financial Statements
+
+Management is responsible for the preparation and fair presentation of these financial statements in conformity with U.S. generally accepted accounting principles; this includes the design, implementation, and maintenance of internal control relevant to the preparation and fair presentation of financial statements that are free of material misstatement, whether due to fraud or error.
+
+## Auditor’s Responsibility
+
+Our responsibility is to express an opinion on these financial statements based on our audits. We conducted our audits in accordance with auditing standards generally accepted in the United States. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement.
+
+An audit involves performing procedures to obtain audit evidence about the amounts and disclosures in the financial statements. The procedures selected depend on the auditor’s judgment, including the assessment of the risks of material misstatement of the financial statements, whether due to fraud or error. In making those risk assessments, the auditor considers internal control relevant to the entity’s preparation and fair presentation of the financial statements in order to design audit procedures that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of the entity’s internal control. Accordingly, we express no such opinion. An audit also includes evaluating the appropriateness of accounting policies used and the reasonableness of significant accounting estimates made by management, as well as evaluating the overall presentation of the financial statements.
+
+We believe that the audit evidence we have obtained is sufficient and appropriate to provide a basis for our audit opinion.
+
+## Opinion
+
+In our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of Mars Oil Pipeline Company LLC at December 31, 2020 and 2019, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2020, in conformity with U.S. generally accepted accounting principles.
+
+## Adoption of ASU No. 2016-02
+
+As discussed in Note 2 of the financial statements, Mars Oil Pipeline Company LLC changed its method of accounting for leases as a result of the amendments to the FASB Accounting Standards Codification resulting from Accounting Standards Update No. 2016-02, “Leases” (Topic 842), effective January 1, 2020. Our opinion is not modified with respect to this matter.
+
+/s/ Ernst & Young LLP
+
+Houston, Texas February 18, 2021
+
+<span id="page-165-0"></span>
+## MARS OIL PIPELINE COMPANY LLC BALANCE SHEETS
+
+![](tables/table_pg165_num0.csv)
+The accompanying notes are an integral part of these financial statements.
+
+<span id="page-166-0"></span>
+## MARS OIL PIPELINE COMPANY LLC STATEMENTS OF INCOME
+
+![](tables/table_pg166_num0.csv)
+The accompanying notes are an integral part of these financial statements.
+
+<span id="page-167-0"></span>
+## MARS OIL PIPELINE COMPANY LLC STATEMENTS OF MEMBERS’ CAPITAL
+
+![](tables/table_pg167_num0.csv)
+Impact of adoption of Topic 606, Revenue from Contracts with Customers effective January 1, 2018.(1)
+
+The accompanying notes are an integral part of these financial statements.
+
+<span id="page-168-0"></span>
+## MARS OIL PIPELINE COMPANY LLC STATEMENTS OF CASH FLOWS
+
+![](tables/table_pg168_num0.csv)
+The accompanying notes are an integral part of these financial statements.
+
+<span id="page-169-0"></span>
+# MARS OIL PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+## 1. Organization and Business
+
+Mars Oil Pipeline Company LLC (“Mars,” “we,” “us” or “our”) owns a pipeline system for the transportation of crude oil from Mississippi Canyon Block 807 in the Gulf of Mexico, offshore Louisiana, to Clovelly, Louisiana. The Mars pipeline system is approximately 160 miles in length and has 16-, 18- and 24-inch diameter lines with mainline capacity of up to 600,000 barrels per day. The Mars pipeline system is regulated by the Federal Energy Regulatory Commission (“FERC”), where applicable, and tariff rates are calculated in accordance with guidelines established by the FERC.
+
+Mars is 71.5% owned by Shell Midstream Partners, L.P. (“Shell Midstream”) and 28.5% owned by BP Midstream Partners, L.P. (“BP Midstream”) (collectively, the “Members”). In accordance with the LLC agreement, the historical relative sharing ratios between the Members for all revenues, costs and expenses is based on Member percentages. Mars is an LLC, and as such, no Member is liable for debts, obligations or liabilities, including under a judgment decree or order of a court; and we shall continue until such time as a certificate of cancellation is filed with the Secretary of the State of Delaware.
+
+As per the Operating Agreement dated April 15, 1996 (the “Operating Agreement”) between Mars and Shell Pipeline Company LP (“Shell Pipeline” or “Operator”), an indirect wholly-owned subsidiary of Shell Oil Company (“Shell Oil”), operates the Mars pipeline system and monitors the activity at the Clovelly Storage Terminal (the “Mars Cavern”), which consists of crude petroleum storage caverns and all ancillary components on behalf of the Members. The Mars Cavern itself is owned and operated by the Louisiana Offshore Oil Port LLC’s (“LOOP”).
+
+## 2. Recent Accounting Pronouncements
+
+## Standards Adopted as of January 1, 2020
+
+In June 2016, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) 2016-13 to Topic 326, Financial Instruments — Credit Losses: Measurement of Credit Losses on Financial Instruments, which replaces the current incurred loss impairment method with a method that reflects expected credit losses on financial instruments. The measurement of current expected credit losses under the new guidance is applicable to financial assets measured at amortized cost, including third-party trade receivables. We adopted the new standard effective January 1, 2020, using the modified retrospective method for all financial assets measured. No cumulative-effect adjustment to retained earnings was required upon adoption. The adoption of ASU 2016-13 did not have a material impact on our financial statements.
+
+In February 2016, the FASB issued ASU 2016-02 to Topic 842, Leases. As permitted, we adopted the new lease standard (as defined in Note 6 — Leases) using the modified retrospective approach, effective January 1, 2020, which provides a method for recording existing leases at the beginning of the period of adoption. As such, results and balances prior to January 1, 2020 were not adjusted and continue to be reported in accordance with our historical accounting under previous generally accepted accounting principles in the United States (“GAAP”). See Note 6 — Leases for additional information and disclosures required by the new lease standard.
+
+## 3. Summary of Significant Accounting Policies
+
+We practice the following significant accounting policies, which are presented as an aid to understanding the financial statements.
+
+## Basis of Presentation
+
+The accompanying financial statements have been prepared in accordance with GAAP. Our reporting currency is U.S. dollars, and all references to dollars are U.S. dollars.
+
+## Use of Estimates
+
+The preparation of financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. Actual results could differ from those estimates. Management believes the estimates are reasonable.
+
+## Cash and Cash Equivalents
+
+Cash and cash equivalents are comprised of cash on deposit at the bank.
+
+## Accounts Receivable
+
+Our accounts receivable are primarily from purchasers and shippers of crude oil. These purchasers include, but are not limited to refiners, producers, marketing and trading companies and financial institutions that are active in the physical and financial
+
+<span id="page-170-0"></span>
+# MARS OIL PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+commodity markets. The majority of our accounts receivable relate to our crude oil supply and logistics activities with our shippers.
+
+We assess the creditworthiness of our counterparties on an ongoing basis and require security, including prepayments and other forms of collateral, when appropriate. We establish provisions for losses on third-party accounts receivable due from shippers and operators based on current expected credit losses. As of December 31, 2020 and 2019, we had no allowance for doubtful accounts.
+
+## Inventories
+
+Inventories of materials and supplies are carried at the lower of average cost or net realizable value.
+
+## Allowance Oil
+
+A loss allowance factor of 0.1% to 0.015% per transported barrel is incorporated into applicable crude oil tariffs to offset evaporation and other losses in transit. Allowance oil represents the net difference between the tariff pipeline loss allowance (“PLA”) volumes and the actual volumetric losses. We take title to any excess loss allowance when product losses are within an allowed level and we convert that product to cash periodically at prevailing market prices. Crude oil is also stored within the Mars Cavern. Gains and losses related to the Mars Cavern, including a standard loss accrual of 0.05% of net crude oil receipts, also cause the allowance oil balance to increase or decrease, respectively.
+
+Allowance oil is valued at cost using the average market price for the relevant type of crude oil during the month the product was transported. At the end of each reporting period, we assess the carrying value of our allowance oil and make any adjustments necessary to reduce the carrying value to the applicable net realizable value. We record estimated losses expected to arise upon emptying the Mars Cavern, derived from historical net losses. As a result, Allowance oil, net as presented on the accompanying balance sheets includes net cavern loss accruals of \$904,900 and \$635,300 at December 31, 2020 and 2019, respectively.
+
+Cost of product sold in 2020, 2019 and 2018 presented within the accompanying statements of income represent the cost of sales of allowance oil and any net realizable value adjustments recorded during the reporting period. See Revenue Recognition discussed below.
+
+## Other Current Assets
+
+With the adoption of FASB ASU 2016-02 to Topic 842, Leases, effective January 1, 2020, prior balances were not adjusted and continue to be reported in accordance with our historical accounting under previous GAAP. Our right of use lease agreement with LOOP, an affiliate of Shell Pipeline, for the terminaling of crude oil in the Mars Cavern, which is renewed annually is now reflected as Operating lease right-of-use assets on the accompanying balance sheets. At December 31, 2019, the prepaid rent on the cavern lease of \$1,039,264 was included in Other current assets within the accompanying balance sheets. Rental expense of \$1,459,315 and \$1,321,894 for the rental agreement is included in Operations and maintenance in the accompanying statements of income for 2019 and 2018, respectively.
+
+For further discussion of the lease arrangements, refer to Note 6 - Leases.
+
+## Property, Plant and Equipment, net
+
+Property, plant and equipment, net is stated at its historical cost of construction, or upon acquisition, at either the fair value of the assets acquired or the historical carrying value to the entity that placed the asset in service. Expenditures for major renewals and betterments are capitalized while minor replacements, maintenance and repairs which do not improve or extend asset life are expensed when incurred. For constructed assets, all constructionrelated direct labor and material costs, as well as indirect construction costs are capitalized. Gains and losses on the disposition of assets are recognized on the accompanying balance sheets against the accumulated depreciation unless the retirement was an abnormal or extraordinary item.
+
+We compute depreciation using the straight-line method based on estimated economic lives. We have historically computed depreciation using the straightline method based on estimated economic lives prescribed by the FERC, which are 30 years for right of way, line pipe, line pipe fittings, pipeline construction, buildings, pumping equipment, other station equipment, oil tanks and delivery facilities; 20 years for office furniture and equipment; 15 years for communication systems and other work equipment; and 5 years for vehicles. We apply composite depreciation rates to functional groups of property having similar economic characteristics. These rates have historically ranged from 3.33% to 20%.
+
+The following represent the remaining lives approved by FERC effective January 1, 2018: 18 to 23 years for right-of-way, line pipe, line pipe fittings, pipeline construction; 12 to 15 years for buildings, pumping equipment, other station equipment, office furniture and equipment; and 5 to 8 years for communication systems, vehicles and other work equipment (oil tanks and delivery facilities are no longer applicable to our assets). The composite depreciation rates effective January 1, 2018 range from 1.8% to 13.3%.
+
+<span id="page-171-0"></span>
+# MARS OIL PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+## Other Assets
+
+During 2015, we paid \$7,553,757 to LOOP for replacing a Brine pipeline (also known as the “Brine String Project”) owned by LOOP. We were contractually obligated to make capital improvements to the asset as part of the terms of an operating agreement with LOOP. The costs associated with the Brine String Project have been deferred and are being amortized over 10 years. Amortization expense of \$755,376 was recorded for each of the years ended December 31, 2020, 2019 and 2018, and is included in Depreciation and amortization in the accompanying statements of income.
+
+## Asset Retirement Obligations
+
+Asset retirement obligations (“AROs”) represent contractual or regulatory obligations associated with the retirement of long-lived assets that result from acquisition, construction, development and/or normal use of the asset. We record liabilities for obligations related to the retirement and removal of longlived assets used in our businesses at fair value on a discounted basis when they are incurred and can be reasonably estimated. Amounts recorded for the related assets are increased by the amount of these obligations. Over time, the liabilities increase due to the change in their present value and the initial capitalized costs are depreciated over the useful lives of the related assets. The liabilities are eventually extinguished when settled at the time the asset is taken out of service.
+
+We continue to evaluate our AROs and future developments could impact the amounts we record. The demand for our pipelines depends on the ongoing demand to move crude oil through the system. Although individual assets will be replaced as needed, we expect our pipelines will continue to exist for an indeterminate economic life. As such, there is uncertainty around the timing of any asset retirement activities. As a result, we determined that there is not sufficient information to make a reasonable estimate of the AROs for our assets and we have not recognized any AROs for the year ended December 31, 2020 and 2019.
+
+## Impairments of Long-Lived Assets
+
+Long lived assets of identifiable business activities are evaluated for impairment when events or changes in circumstances indicate, in our management’s judgment, that the carrying value of such assets may not be recoverable. These events include market declines that are believed to be other-than-temporary, changes in the manner in which we intend to use a long-lived asset, decisions to sell an asset and adverse changes in the legal or business environment, such as adverse actions by regulators. If an event occurs, which is a determination that involves judgment, we evaluate the recoverability of our carrying values based on the long-lived asset’s ability to generate future cash flows on an undiscounted basis. When an indicator of impairment has occurred, we compare our management’s estimate of forecasted undiscounted future cash flows attributable to the assets to the carrying value of the assets to determine whether the assets are recoverable (i.e., the undiscounted future cash flows exceed the net carrying value of the assets). If the assets are not recoverable, we determine the amount of the impairment recognized in the financial statements by estimating the fair value of the assets and recording a loss for the amount that the carrying value exceeds the estimated fair value. We determined that there were no asset impairments in the years ended December 31, 2020, 2019 and 2018.
+
+## Fair Value of Financial Instruments
+
+Assets and liabilities requiring fair value presentation or disclosure are measured using an exit price (i.e., the price that would be received to sell an asset or paid to transfer a liability) and are disclosed according to the quality of valuation inputs under the following hierarchy:
+
+Level 1 - Quoted prices in an active market for identical assets or liabilities.
+
+Level 2 - Inputs other than quoted prices that are directly or indirectly observable.
+
+Level 3 - Unobservable inputs that are significant to the fair value of assets or liabilities.
+
+The fair value of an asset or liability is classified based on the lowest level of input significant to its measurement. A fair value initially reported as Level 3 will be subsequently reported as Level 2 if the unobservable inputs become inconsequential to its measurement or corroborating market data becomes available. Asset and liability fair values initially reported as Level 2 will be subsequently reported as Level 3 if corroborating market data becomes unavailable.
+
+The carrying amounts of our Accounts receivable, net, Other current assets, Accounts payable and accrued liabilities and Payables to related parties approximate their carrying values due to their short-term nature.
+
+## Concentration of Credit and Other Risks
+
+A significant portion of our revenues and receivables are from related parties and other oil and gas companies. Although collection of these receivables could be influenced by economic factors affecting the oil and gas industry, management believes the risk of significant loss to be remote.
+
+The following table shows revenues from third and related parties that accounted for 10% or more of Total revenue in the accompanying statements of income for the indicated periods:
+
+<span id="page-172-0"></span>
+## NOTES TO FINANCIAL STATEMENTS
+
+![](tables/table_pg172_num0.csv)
+Related party shipper.(1)
+Third-party shipper. (2)
+
+There were no receivables from third parties that accounted for 10% or more of Accounts receivable, net in the accompanying balance sheets as of December 31, 2020 and 2019. The following table shows receivables from related parties that accounted for 10% or more of Accounts receivable, net in the accompanying balance sheets for the indicated dates:
+
+![](tables/table_pg172_num1.csv)
+
+Development and production of crude oil in the service area of the pipeline are subject to, among other factors, prices of crude oil, as well as federal and state energy policy, which are not within our control.
+
+We have concentrated credit risk for cash by maintaining deposits in a major bank, which may at times exceed amounts covered by insurance provided by the United States Federal Deposit Insurance Corporation (“FDIC”). We monitor the financial health of the bank and have not experienced any losses in such accounts and believe we are not exposed to any significant credit risk. As of December 31, 2020 and 2019, we had \$26,445,751 and \$29,098,638, respectively, in cash and cash equivalents in excess of FDIC limits.
+
+## Net Gain on Pipeline Operations
+
+We experience volumetric gains and losses from our pipeline operations that may arise from factors such as shrinkage or measurement inaccuracies within tolerable limits. Gains and losses from pipeline operations related to allowance oil are presented net in the accompanying statements of income as Net gain from pipeline operations. Prior to January 1, 2018, Net (gain) loss on pipeline operations that are related to allowance oil are presented net in the accompanying statements of income as net (gain) loss on pipeline operations. Beginning January 1, 2018, volumetric losses are recorded under Operating revenue in the accompanying statements of income.
+
+## Revenue Recognition
+
+Our revenues are primarily generated from the transportation and storage of crude oil through our pipelines and storage caverns. We recognize revenue when we transfer promised goods or services to customers in an amount that reflects the consideration to which we expect to be entitled in exchange for those goods or services. We recognize revenue through the application of a five-step model, which includes: identification of the contract; identification of the performance obligations; determination of the transaction price; allocation of the transaction price to the performance obligations; and recognition of revenue as the entity satisfies the performance obligations.
+
+See Note 7 – Revenue Recognition for information and disclosures related to revenue from contracts with customers.
+
+## Taxes
+
+As an LLC, we have not historically incurred income tax expense in accordance with the provisions of the Internal Revenue Code, are not subject to U.S. federal income taxes. Rather, each Member includes its allocated share of our income or loss in its own federal and state income tax returns. We are responsible for various state property and ad valorem taxes, which are recorded in Property taxes in the accompanying statements of income.
+
+<span id="page-173-0"></span>
+## NOTES TO FINANCIAL STATEMENTS
+
+## 4. Property, Plant and Equipment
+
+Property, plant and equipment, net consists of the following as of the dates indicated:
+
+![](tables/table_pg173_num0.csv)
+Depreciation expense on property, plant and equipment is included in Depreciation and amortization in the accompanying statements of income for the years ended December 31, 2020, 2019 and 2018 in the amounts of \$9,302,028, \$9,249,618 and \$9,243,085, respectively.
+
+## 5. Related Party Transactions
+
+We derive a significant portion of our operating and product revenues from related parties, which are based on published tariffs and contractual agreements, and amounted to \$193,843,524, \$216,398,957 and \$179,079,095 for the years ended December 31, 2020, 2019 and 2018, respectively. All such transactions are within the ordinary course of business. At December 31, 2020 and 2019, we had affiliate receivables of \$12,577,725 and \$18,585,209, respectively.
+
+We have no employees and rely on the Operator to provide personnel who perform daily operating and administrative duties on our behalf. In accordance with the terms of the Operating Agreement, we were charged aggregate expenses, which were incurred by the Operator on our behalf, of \$13,461,165, \$13,395,904 and \$14,175,386 for the years ended December 31, 2020, 2019 and 2018, respectively. These expenses are individually included within Operations and maintenance, or General and administrative in the accompanying statements of income depending on the nature of the charge. Payments made by Shell Pipeline on our behalf for capital projects totaled \$192,873, \$185,781 and \$128,730 for the years ended December 31, 2020, 2019 and 2018, respectively.
+
+Substantially all expenses we incur are paid by Shell Pipeline on our behalf. At December 31, 2020 and 2019, we owed \$804,122 and \$607,914, respectively, to reimburse Shell Pipeline for these expenses. As of both December 31, 2020 and 2019, we had a receivable balance of \$538,000 from Shell Pipeline, which is comprised of advance payments we made to Shell Pipeline to fund operating expenses. This balance is presented as Advance for operations due from related party on the accompanying balance sheets.
+
+Employees who directly or indirectly support our operations participate in the pension, postretirement health and life insurance and defined contribution benefit plans sponsored by Shell Oil, which includes other Shell Oil subsidiaries. Our share of pension and postretirement health and life insurance costs for the years ended December 31, 2020, 2019 and 2018 were \$592,173, \$569,997 and \$445,300, respectively. Our share of defined contribution benefit plan costs for the same periods were \$222,105, \$228,889 and \$177,465, respectively. Pension and defined contribution benefit plan expenses are included in General and administrative in the accompanying statements of income.
+
+We have several lease agreements with LOOP for cavern space. At December 31, 2020 and 2019, we owed \$5,340,327 and \$5,443,289, respectively, to LOOP for these expenses. During the years ended December 31, 2020, 2019 and 2018, payments made to LOOP for costs associated with cavern operations and usage were \$62,327,012, \$61,914,343 and \$54,653,722, respectively, and are included primarily in Operations and maintenance within the accompanying statements of income.
+
+We also have a lease agreement with a related party for usage of space located at the West Delta 143 “A”, “B” and “C” offshore platform. At December 31, 2020 and 2019, we owed \$313,003 and \$556,120, respectively, for the related lease expenses. For the years ended December 31, 2020, 2019 and 2018, payments made to our related party for costs associated with the Lease of Platform Space (“LOPS”) and Common Facility Fees (“CFF”) at West Delta 143 “A”, “B” and “C” were \$7,255,161, \$6,768,648 and \$6,578,933, respectively.
+
+<span id="page-174-0"></span>
+# MARS OIL PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+For further discussion of the lease arrangements with our related parties, refer to Note 6 - Leases.
+
+## 6. Leases
+
+## Adoption of ASC Topic 842 “Leases”
+
+On January 1, 2020, we adopted ASC Topic 842 (the “new lease standard”) by applying the modified retrospective approach to all leases on January 1, 2020. Under this guidance, lessees are required to recognize assets and liabilities on the balance sheet for the rights and obligations created by all leases. We elected the package of practical expedients upon transition that permits us to not reassess (1) whether any contracts entered into prior to adoption are or contain leases, (2) the lease classification of existing leases and (3) initial direct costs for any leases that existed prior to adoption.
+
+Upon adoption on January 1, 2020, we recognized operating lease right-of-use (“ROU”) assets and corresponding lease liabilities of \$112,729,044. The accounting for finance leases (capital leases) was substantially unchanged.
+
+## Lessee accounting
+
+We determine if an arrangement is or contains a lease at inception. Our assessment is based on (1) whether the contract involves the use of a distinct identified asset, (2) whether we obtain the right to substantially all the economic benefit from the use of the asset throughout the period and (3) whether we have the right to direct the use of the asset. Leases are classified as either finance leases or operating leases. A lease is classified as a finance lease if any one of the following criteria are met: the lease transfers ownership of the asset by the end of the lease term, the lease contains an option to purchase the asset that is reasonably certain to be exercised, the lease term is for a major part of the remaining useful life of the asset or the present value of the lease payments equals or exceeds substantially all of the fair value of the asset. A lease is classified as an operating lease if it does not meet any one of these criteria. The lease classification affects the expense recognition in the statement of income. Operating lease costs are recorded entirely in operating expenses. Finance lease costs are split, where amortization of the ROU asset is recorded in operating expenses and an implied interest component is recorded in interest expense.
+
+Under the new lease standard, operating leases (as lessee) are included in Operating lease right-of-use assets- related party. Operating lease amortization of right of use assets- related party, Operating lease right of use assets- related party, net, Current operating lease liabilities- related party and Noncurrent operating lease liabilities- related party in our accompanying balance sheets. ROU assets and lease liabilities are recognized at commencement date based on the present value of the future minimum lease payments over the lease term. The ROU asset includes any lease payments made but excludes lease incentives and initial direct costs incurred, if any. Lease expense for minimum lease payments is recognized on a straight-line basis over the lease term
+
+## Lease extensions
+
+Many of our leases have options to either extend or terminate the lease. In determining the lease term, we considered all available contract extensions that are reasonably certain of occurring.
+
+## Significant assumptions and judgments
+
+Incremental borrowing rate. As most of our leases do not provide an implicit interest rate, we use our incremental borrowing rate (“IBR”) at the commencement of the lease and estimate the IBR for each lease agreement taking into consideration lease contract term, collateral and entity credit ratings, and use sensitivity analyses to evaluate the reasonableness of the rates determined.
+
+## Lease balances and costs
+
+All of the lease agreements that we have entered into are classified as operating leases.
+
+Effective April 1, 1996, we entered into an agreement to lease usage of offshore platform space located at West Delta 143 (“WD 143”) from affiliates of Shell Oil and BP. The agreement, as amended on December 1, 2015, requires annual minimum lease payments of \$1,809,370 for LOPS at WD143 “B” related to the pump station and \$32,800 for LOPS related to platform space at WD 143 “A”, adjusted annually based on the Wage Index Adjustment, as published by the Council of Petroleum Accountants Society (“COPAS”). In addition, the amendment requires an added minimum lease payment of \$1,159,950 per year adjusted annually based on the Wage Index Adjustment for LOPS at WD 143 “C” related to the Olympus pipeline. The agreements for WD 143 “A”, “B” and “C” shall terminate upon removal of the operating equipment located on each of the platforms as specified in the terms of the agreement. Total expenses incurred under the agreement for LOPS at WD 143, inclusive of rentals and CFF, for the years ended December 31, 2020, 2019 and 2018 were \$7,255,161, \$6,768,648 and \$6,578,933, respectively. Total amounts owed to related parties relating to the agreement, inclusive of rentals and CFF, were \$313,003 and \$556,120 as of December 31, 2020 and 2019, respectively.
+
+Effective June 10, 1994, we entered into a lease agreement to use a cavern owned by LOOP as a crude oil storage facility where LOOP shall receive and store Mars crude petroleum on a continuous basis. The initial lease term of the agreement ended December
+
+<span id="page-175-0"></span>
+# MARS OIL PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+31, 2011 and the extended terms will automatically renew for four separate five-year terms through 2031. The agreement is cancellable at our discretion by giving notice of termination not less than one year prior to the end of each five year extension. The terms of the agreement require an annual prepayment of the lease amount; and these payments were \$1,656,958, \$1,556,982 and \$1,410,482 for the years ended December 31, 2020, 2019 and 2018, respectively. The annual rental expense for the years ended December 31, 2020, 2019 and 2018 were \$1,663,982, \$1,459,315 and \$1,321,894, respectively. The agreement also requires an annual fixed base service fee in addition to variable charges based on throughput. The agreement requires a minimum base service fee of \$400,000 per year adjusted by the change in the Gross Domestic Project-Implicit Price Deflator as published by the U.S. government. The 2020 adjusted minimum base service fee payment under the agreement was \$614,104.
+
+Effective May 1, 2019, Mars entered into the Ancillary Cavern Services Agreement with LOOP to lease additional cavern space for crude oil storage. The primary term of this agreement was a one-year commitment to lease the cavern space from May 1, 2019 through April 30, 2020 at a cost of \$1,100,000 per month. There are four one-year extension terms as part of this agreement, and on April 10th, 2020 Mars elected to exercise the first one-year extension at a cost of \$1,200,000 per month. Total rental expense for years ended December 31, 2020, and 2019, were \$14,000,000 and \$8,800,000, respectively.
+
+Apart from the lease agreements listed above, Mars has two surface leases with third parties totaling \$14,181, 13,329, and 13,275 in rental expense for the years ended December 31, 2020, 2019, and 2018, respectively.
+
+The following tables summarize balance sheet data related to leases at December 31, 2020 and our lease costs as of and for the year ended December 31, 2020
+
+![](tables/table_pg175_num0.csv)
+Includes short-term lease costs of \$4.4 million for the year ended December 31, 2020.(1)
+
+<span id="page-176-0"></span>
+## MARS OIL PIPELINE COMPANY LLC
+
+## NOTES TO FINANCIAL STATEMENTS
+
+![](tables/table_pg176_num0.csv)
+
+Annual maturity analysis
+
+The future annual maturity of lease payments as of December 31, 2020 for the above lease obligations was:
+
+![](tables/table_pg176_num1.csv)
+Lease payments adjust annually based on the Wage Index Adjustment, as published by COPAS. (1)
+Calculated using the interest rate for each lease. (2)
+
+## 7. Revenue Recognition
+
+The core principle of Topic 606, Revenue from Contracts with Customers and all related ASUs to this Topic (collectively, the “revenue standard”) is that a company will recognize revenue when it transfers promised goods or services to customers in an amount that reflects the consideration to which the company expects to be entitled in exchange for those goods or services. The revenue standard requires entities to recognize revenue through the application of a five-step model, which includes: identification of the contract; identification of the performance obligations; determination of the transaction price; allocation of the transaction price to the performance obligations; and recognition of revenue as the entity satisfies the performance obligations.
+
+Our revenues are primarily generated from the transportation and storage of crude oil through our pipelines and storage facilities. To identify the performance obligations, we considered all the products or services promised in the contracts with customers, whether explicitly stated or implied based on customary business practices. Revenue is recognized when each performance obligation is satisfied under the terms of the contract. Each barrel of product transported or day of services provided is considered a distinct service that represents a performance obligation that would be satisfied over time if it were accounted for separately. The services provided over the contract period are a series of distinct services that are substantially the same, have the same pattern of transfer to the customer, and therefore, qualify as a single performance obligation. Since the customer simultaneously receives and consumes the benefits of services, we recognize revenue over time based on a measure of progress of volumes transported for transportation services contracts, number of days elapsed for stand ready-transportation service contracts or number of days elapsed for storage services contracts.
+
+Product revenue related to allowance oil sales is recognized at the point in time when the control of the oil transfers to the customer.
+
+For all performance obligations, payment is typically due in full within 30 days of the invoice date.
+
+Disaggregation of Revenue – The following table provides information about disaggregated revenue by service type and customer type:
+
+<span id="page-177-0"></span>
+## NOTES TO FINANCIAL STATEMENTS
+
+![](tables/table_pg177_num0.csv)
+Product revenue is comprised of allowance oil sales. (1)
+
+Transportation services revenue – We have both long-term transportation contracts and month-to-month contracts for spot shippers that make nominations on our pipelines. Some of the long-term contracts entitle the customer to a specified amount of guaranteed capacity on the pipeline. Transportation services are charged at a per barrel rate or number of days elapsed. We apply the allocation exception guidance for variable consideration related to market indexing for long-term transportation contracts because (a) the variable payment relates specifically to our efforts to transfer the distinct service and (b) we allocate the variable amount of consideration entirely to the distinct service which is consistent with the allocation objective. Transportation services are billed monthly as services are rendered.
+
+Our contracts and tariffs contain terms for the customer to reimburse us for losses from evaporation or other loss in transit in the form of allowance oil. Allowance oil represents the net difference between the tariff PLA volumes and the actual volumetric losses. We obtain control of the excess oil not lost during transportation, if any. Under the revenue standard, we include the excess oil retained during the period, if any, as non-cash consideration and include this amount in the transaction price for transportation services on a net basis. Our allowance oil is valued using the average market price of the relevant type of crude oil during the month product was transported. Gains from pipeline operations that relate to allowance oil are recorded in Net gain on pipeline operations in the accompanying statements of income.
+
+As a result of FERC regulations, revenues we collect may be subject to refund. We establish reserves for these potential refunds based on actual expected refund amounts on the specific facts and circumstances. We had no reserves for potential refunds as of December 31, 2020 and 2019.
+
+Deferred revenue – Under certain contracts with tiered pricing arrangements, we are entitled to receive payments in advance of satisfying our performance obligations under the contracts. We recognize a liability for these payments in excess of revenue recognized and present it as deferred revenue on our balance sheets.
+
+Storage services revenue – Storage services are provided under a monthly spot-rate for uncommitted storage. Since the customer simultaneously receives and consumes the benefits of services, we recognize revenue over time based on the number of days elapsed. Storage services are billed monthly as services are rendered.
+
+Product revenue – We generate revenue by selling accumulated allowance oil inventory to customers. Sale of allowance oil is recorded as product revenue, with specific cost based on a weighted average price per barrel recorded as cost of product sold.
+
+Contract Balances – We perform our obligations under a contract with a customer by providing services in exchange for consideration from the customer. The timing of our performance may differ from the timing of the customer’s payment, which results in the recognition of a contract asset or a contract liability. Although we did not have any contract assets as of December 31, 2020 and 2019, we recognize a contract asset when we transfer goods or services to a customer and contractually bill an amount which is less than the revenue allocated to the related performance obligation. We recognize deferred revenue (contract liability) when the customer’s payment of consideration precedes our performance.
+
+<span id="page-178-0"></span>
+## NOTES TO FINANCIAL STATEMENTS
+
+The following table provides information about receivables and contract liabilities from contracts with customers:
+
+![](tables/table_pg178_num0.csv)
+
+![](tables/table_pg178_num1.csv)
+
+Significant changes in the deferred revenue balances with customers during the periods are as follows:
+
+![](tables/table_pg178_num2.csv)
+Deferred revenue additions resulted from collection of cash for unsatisfied performance obligations.(1)
+Deferred revenue reductions resulted from lower volumes.(2)
+
+We currently have no assets recognized from the costs to obtain or fulfill a contract as of December 31, 2020 and 2019.
+
+Remaining Performance Obligations - As of December 31, 2020, contracts with remaining performance obligations primarily include long-term dedication and transportation agreements.
+
+The following table includes revenue expected to be recognized in the future related to performance obligations exceeding one year of their initial terms that are unsatisfied or partially unsatisfied as of December 31, 2020:
+
+![](tables/table_pg178_num3.csv)
+
+As an exemption, we do not disclose the amount of remaining performance obligations for contracts with an original expected duration of one year or less or for variable consideration that is allocated entirely to a wholly unsatisfied promise to transfer a distinct service that forms part of a single performance obligation.
+
+## 8. Environmental Matters
+
+We are subject to federal, state and local environmental laws and regulations. We routinely conduct reviews of potential environmental issues and claims that could impact our assets or operations. These reviews assist us in identifying environmental issues and estimating the costs and timing of remediation efforts. In making environmental liability estimations, we consider the material effect of environmental compliance, pending legal actions against us and potential third-party liability claims. Often, as the remediation evaluation and effort progresses, additional information is obtained, requiring revisions to estimated costs. These revisions are reflected in our net income in the period in which they are probable and reasonably estimable. For both December 31, 2020 and 2019, these costs and any related liabilities are not material.
+
+## 9. Commitments and Contingencies
+
+In the ordinary course of business, we are subject to various laws and regulations, including regulations of the FERC. In the opinion of management, we are in compliance with existing laws and regulations and are not aware of any violations that could materially affect our financial position, results of operations or cash flows. We are subject to several lease agreements, which are accounted for as operating leases and the minimum lease payments over the next five years are disclosed in Note 6 - Leases.
+
+<span id="page-179-0"></span>
+## MARS OIL PIPELINE COMPANY LLC
+
+## NOTES TO FINANCIAL STATEMENTS
+
+## 10. Subsequent Events
+
+In preparing the accompanying financial statements, we have reviewed events that have occurred subsequent to December 31, 2020 through February 18, 2021, which is the date of the issuance of these financial statements. Any material subsequent event that occurred during this time has been properly disclosed in the financial statements.
+
+<span id="page-180-0"></span>
+## AMBERJACK PIPELINE COMPANY LLC Table of Contents
+
+Report of Independent Auditors 2   
+Balance Sheets 3   
+Statements of Income 4   
+Statements of Members’ Capital 5   
+Statements of Cash Flows 6   
+Notes to Financial Statements 7
+
+<span id="page-181-0"></span>
+# Report of Independent Auditors
+
+To the Management Committee and Members Amberjack Pipeline Company LLC
+
+We have audited the accompanying financial statements of Amberjack Pipeline Company LLC, which comprise the balance sheets as of December 31, 2020 and 2019, and the related statements of income, members’ capital and cash flows for each of the three years in the period ended December 31, 2020 and the related notes to the financial statements.
+
+## Management’s Responsibility for the Financial Statements
+
+Management is responsible for the preparation and fair presentation of these financial statements in conformity with U.S. generally accepted accounting principles; this includes the design, implementation, and maintenance of internal control relevant to the preparation and fair presentation of financial statements that are free of material misstatement, whether due to fraud or error.
+
+## Auditor’s Responsibility
+
+Our responsibility is to express an opinion on these financial statements based on our audits. We conducted our audits in accordance with auditing standards generally accepted in the United States. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement.
+
+An audit involves performing procedures to obtain audit evidence about the amounts and disclosures in the financial statements. The procedures selected depend on the auditor’s judgment, including the assessment of the risks of material misstatement of the financial statements, whether due to fraud or error. In making those risk assessments, the auditor considers internal control relevant to the entity’s preparation and fair presentation of the financial statements in order to design audit procedures that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of the entity’s internal control. Accordingly, we express no such opinion. An audit also includes evaluating the appropriateness of accounting policies used and the reasonableness of significant accounting estimates made by management, as well as evaluating the overall presentation of the financial statements.
+
+We believe that the audit evidence we have obtained is sufficient and appropriate to provide a basis for our audit opinion.
+
+## Opinion
+
+In our opinion, the financial statements referred to above present fairly, in all material respects, the financial position of Amberjack Pipeline Company LLC at December 31, 2020 and 2019, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2020 in conformity with U.S. generally accepted accounting principles.
+
+## Adoption of ASU No. 2014-09
+
+As discussed in Note 2 of the financial statements, Amberjack Pipeline Company LLC amended its method for accounting for revenue as of January 1, 2019 due to the adoption of Accounting Standards Update (ASU) No. 2014-09, “Revenue from Contracts with Customers” (Topic 606), and the amendments in ASUs 2015-14, 2016-08, 2016-10 and 2016-12. Our opinion is not modified with respect to this matter.
+
+## Adoption of ASU No. 2016-02
+
+As discussed in Note 2 of the financial statements, Amberjack Pipeline Company LLC changed its method of accounting for leases as a result of the amendments to the FASB Accounting Standards Codification resulting from Accounting Standards Update No. 2016-02, “Leases” (Topic 842), effective January 1, 2020. Our opinion is not modified with respect to this matter.
+
+/s/ Ernst & Young LLP
+
+Houston, Texas February 18, 2021
+
+<span id="page-182-0"></span>
+AMBERJACK PIPELINE COMPANY LLC BALANCE SHEETS
+![](tables/table_pg182_num0.csv)
+
+![](tables/table_pg182_num1.csv)
+The accompanying notes are an integral part of these financial statements.
+
+<span id="page-183-0"></span>
+## AMBERJACK PIPELINE COMPANY LLCSTATEMENTS OF INCOME
+
+![](tables/table_pg183_num0.csv)
+The accompanying notes are an integral part of these financial statements.
+
+<span id="page-184-0"></span>
+## AMBERJACK PIPELINE COMPANY LLC STATEMENTS OF MEMBERS’ CAPITAL
+
+![](tables/table_pg184_num0.csv)
+On May 11, 2018, Shell Midstream Partners, L.P. acquired Shell Pipeline Company LP’s ownership interests in Amberjack Pipeline Company LLC, which is comprised of (1) 75% of the issued and outstanding Series A membership interests and 50% of the issued and outstanding Series B membership interests. The other 25% of Series A units and 50% of Series B units remain with Chevron Pipe Line Company.
+Impact of adoption of Topic 606, Revenue from Contracts with Customers effective January 1, 2019.(2)
+
+<span id="page-185-0"></span>
+## AMBERJACK PIPELINE COMPANY LLCSTATEMENTS OF CASH FLOWS
+
+![](tables/table_pg185_num0.csv)
+The accompanying notes are an integral part of these financial statements.
+
+<span id="page-186-0"></span>
+# AMBERJACK PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+## 1. Organization and Business
+
+Amberjack Pipeline Company LLC (“Amberjack”, “we”, “us” or “our”) is a Delaware limited liability company (“LLC”), which owns a pipeline system for the transportation of crude oil from the Green Canyon, Ewing Bank and Grand Isle areas in the Gulf of Mexico to the intersection with the Mars Oil Pipeline Company LLC’s (“Mars”) pipeline at Fourchon, Louisiana. Amberjack was formed in 2005 from a previous partnership between Shell Pipeline Company LP (“Shell Pipeline”, “Operator“), an indirect wholly-owned subsidiary of Shell Oil Company (“Shell Oil”) and Chevron Pipe Line Company (“Chevron”). Both Shell Pipeline and Chevron (collectively, the “Members”) contributed cash and certain pipeline related assets to Amberjack. Following the formation, Amberjack issued two series of ownership interests wherein, (i) all the assets and liabilities of the former Partnership became the assets and liabilities of Amberjack Series A (“Series A”) units, 75% owned by Shell Pipeline and 25% owned by Chevron and (ii) Amberjack Series B (“Series B”) units were owned 50% by Shell Pipeline and 50% by Chevron. The proceeds from the issuance of the Series B units were used to fund the construction of the Tahiti pipeline. Amberjack is an LLC, and as such, no Member is liable for debts, obligations or liabilities, including under a judgment decree or order of a court, and shall continue until such time as a certificate of cancellation is filed with the Secretary of the State of Delaware.
+
+On May 11, 2018, Shell Midstream Partners, L.P. (“Shell Midstream”) acquired Shell Pipeline’s ownership interests in Amberjack, which is comprised of 75% of the issued and outstanding Series A membership interests and 50% of the issued and outstanding Series B membership interests. The remaining 25% of Series A units and 50% of Series B units remain with Chevron.
+
+As per the original Operating Agreement dated May 1, 1996, between Amberjack and Shell Pipeline (the “Operating Agreement”), Shell Pipeline continues to operate the Amberjack pipeline system on behalf of the company as of today.
+
+## 2. Recent Accounting Pronouncements
+
+## Standard Adopted as of January 1, 2020
+
+In June 2016, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) 2016-13 to Topic 326, Financial Instruments — Credit Losses: Measurement of Credit Losses on Financial Instruments, which replaces the current incurred loss impairment method with a method that reflects expected credit losses on financial instruments. The measurement of current expected credit losses under the new guidance is applicable to financial assets measured at amortized cost, including third-party trade receivables. We adopted the new standard effective January 1, 2020, using the modified retrospective method for all financial assets measured. No cumulative-effect adjustment to Members' Equity was required upon adoption. The adoption of ASU 2016-13 did not have a material impact on our financial statements.
+
+In February 2016, the FASB issued ASU 2016-02 to Topic 842, Leases. As permitted, we adopted the new lease standard (as defined in Note 7 — Leases) using the modified retrospective approach, effective January 1, 2020, which provides a method for recording existing leases at the beginning of the period of adoption. As such, results and balances prior to January 1, 2020 are not adjusted and continue to be reported in accordance with our historical accounting under previous generally accepted accounting principles in the United States (“GAAP”). See Note 7 — Leases for additional information and disclosures required by the new lease standard.
+
+## 3. Summary of Significant Accounting Policies
+
+We practice the following significant accounting policies, which are presented as an aid to understanding the financial statements.
+
+## Basis of Presentation
+
+The accompanying financial statements have been prepared in accordance with GAAP.
+
+## Use of Estimates
+
+The preparation of financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. Actual results could differ from those estimates. Management believes the estimates are reasonable.
+
+## Cash and Cash Equivalents
+
+<span id="page-187-0"></span>
+# AMBERJACK PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+Cash and cash equivalents are comprised of cash on deposit at the bank.
+
+## Accounts Receivable
+
+Our accounts receivable is primarily from purchasers and shippers of crude oil. These purchasers include, but are not limited to, refiners, producers, marketing and trading companies and financial institutions that are active in the physical and financial commodity markets. The majority of our accounts receivable relate to our crude oil logistics activities with our shippers.
+
+We assess the creditworthiness of our counterparties on an ongoing basis and require security, including prepayments and other forms of collateral, when appropriate. We establish provisions for losses on third-party accounts receivable due from shippers and operators based on current expected credit losses. As of December 31, 2020 and 2019, we had no allowance for doubtful accounts.
+
+## Inventories
+
+Inventories of materials and supplies are carried at the lower of average cost or net realizable value.
+
+## Allowance Oil
+
+A loss allowance factor of 0.1% per barrel is incorporated into applicable crude oil tariffs to offset evaporation and other losses in transit. Allowance oil represents the net difference between the tariff pipeline loss allowance (“PLA”) volumes and the actual volumetric losses. We take title to any excess loss allowance when product losses are within an allowed level and convert that product to cash periodically at prevailing market prices.
+
+Allowance oil is valued at cost using the average market price for the relevant type of crude oil during the month the product was transported. At the end of each reporting period, we assess the carrying value of our allowance oil and make any adjustments necessary to reduce the carrying value to the applicable net realizable value. We recorded a net realizable value adjustment to allowance oil of \$465,619, \$212,241 and \$597,763 for the year ended December 31, 2020, 2019 and 2018, respectively.
+
+Cost of product sold in 2020, 2019 and 2018 presented within the accompanying statements of income represent the cost of sales of allowance oil and any net realizable value adjustments recorded during the reporting period. See Revenue Recognition discussed below.
+
+## Other Current Assets
+
+We entered into several lease agreements to lease usage of offshore platform spaces (“LOPS agreements”) located at Green Canyon Block 19 (“GC 19”) and Ship Shoal Block 332 (“SS 332”). Other current assets in the accompanying balance sheets includes prepaid insurance and prepaid common facilities expense.
+
+## Property, Plant, and Equipment, net
+
+Property, plant and equipment, net is stated at its historical cost of construction, or upon acquisition, at either the fair value of the assets acquired or the historical carrying value to the entity that placed the asset in service. Expenditures for major renewals and betterments are capitalized while minor replacements, maintenance and repairs, which do not improve or extend asset life, are expensed when incurred. For constructed assets, all constructionrelated direct labor and material costs, as well as indirect construction costs, are capitalized. Gains and losses on the disposition of assets are recognized on the accompanying balance sheets against the accumulated depreciation unless the retirement was an abnormal or extraordinary item.
+
+We compute depreciation using the straight-line method based on estimated economic lives. Historically, we applied composite depreciation rates from 3.33% to 20% to functional groups of property having similar economic characteristics. Following the composite method of depreciation, the gains and losses from ordinary disposals or retirements of property, plant and equipment normally would be credited or charged to accumulated depreciation. The gains and losses from the disposal of the raw construction material are recognized as Loss on disposition of asset within the statements of income.
+
+The following represent the remaining lives effective January 1, 2018: 20 to 23 years for right-of-way, line pipe, line pipe fittings, pipeline construction; 11 to 19 years for buildings, pumping equipment, other station equipment, office furniture and equipment; and 14 to 17 years for communication systems, vehicles and other work equipment (oil tanks and delivery facilities are no longer applicable to our assets). The composite depreciation rates effective January 1, 2018 range from 2.9% to 5.9%.
+
+## Prepaid and Other Deferred Charges
+
+Prepaid and other deferred charges represent payment to Shell GOM Pipeline Company LLC (“SGPC”) for the upgrade and replacement of equipment at GC 19 common facilities platform. This platform is owned by SGPC and is used by Amberjack
+
+<span id="page-188-0"></span>
+# AMBERJACK PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+and other parties. The project was completed in 2016 and our share of the costs are being amortized over the asset useful life of 30 years.
+
+## Asset Retirement Obligations
+
+Asset retirement obligations (“AROs”) represent contractual or regulatory obligations associated with the retirement of long-lived assets that result from acquisition, construction, development and/or normal use of the asset. We record liabilities for obligations related to the retirement and removal of longlived assets used in our businesses at fair value on a discounted basis when they are incurred and can be reasonably estimated. Amounts recorded for the related assets are increased by the amount of these obligations. Over time, the liabilities increase due to the change in their present value and the initial capitalized costs are depreciated over the useful lives of the related assets. The liabilities are eventually extinguished when settled at the time the asset is taken out of service. The settlement date of these obligations will depend mostly on the various supply sources that connect to our pipelines and the ongoing demand for usage in the markets we serve. Except as discussed below, we expect these supply sources and market demands to continue for the foreseeable future. As the settlement dates of obligations are indeterminate, there is not sufficient information to make a reasonable estimate of the AROs of our assets as of December 31, 2020 and 2019.
+
+In October 2020 Amberjack received from Chevron a notification of the cessation of production of the GC 205 platform. Amberjack’s management estimated it would cost \$7,000,000 to abandon the South Corridor assets. As a result, management concluded there was sufficient information to make a reasonable estimate of the costs to decommission the asset and that the AROs with respect of the South Corridor assets should be recognized in the fourth quarter of 2020. No other AROs have been recognized for the year ended December 31, 2020 and 2019.
+
+## Impairments of Long-Lived Assets
+
+Long lived assets of identifiable business activities are evaluated for impairment when events or changes in circumstances indicate, in our management’s judgment, that the carrying value of such assets may not be recoverable. These events include market declines that are believed to be other-than-temporary, changes in the manner in which we intend to use a long-lived asset, decisions to sell an asset and adverse changes in the legal or business environment, such as adverse actions by regulators. If an event occurs, which is a determination that involves judgment, we evaluate the recoverability of our carrying values based on the long-lived asset’s ability to generate future cash flows on an undiscounted basis. When an indicator of impairment has occurred, we compare our management’s estimate of forecasted undiscounted future cash flows attributable to the assets to the carrying value of the assets to determine whether the assets are recoverable (i.e., the undiscounted future cash flows exceed the net carrying value of the assets). If the assets are not recoverable, we determine the amount of the impairment recognized in the financial statements by estimating the fair value of the assets and recording a loss for the amount that the carrying value exceeds the estimated fair value. In October 2020 Chevron filed a notification of the cessation of production of the GC 205 platform to the United States Department of the Interior Bureau of Safety and Environmental Enforcement. As a result of this filing, a review of abandoning the South Corridor assets was performed. After carefully evaluating the current fair value, it was determined that a \$3,455,840 impairment was to be included on the Depreciation and amortization line in the accompany statements of income for 2020. No other impairments have been recognized for the year ended December 31,2020, 2019 or 2018.
+
+## Fair Value of Financial Instruments
+
+Assets and liabilities requiring fair value presentation or disclosure are measured using an exit price (i.e., the price that would be received to sell an asset or paid to transfer a liability) and are disclosed according to the quality of valuation inputs under the following hierarchy:
+
+Level 1 - Quoted prices in an active market for identical assets or liabilities.
+
+Level 2 - Inputs other than quoted prices that are directly or indirectly observable.
+
+Level 3 - Unobservable inputs that are significant to the fair value of assets or liabilities.
+
+The fair value of an asset or liability is classified based on the lowest level of input significant to its measurement. A fair value initially reported as Level 3 will be subsequently reported as Level 2 if the unobservable inputs become inconsequential to its measurement or corroborating market data becomes available. Asset and liability fair values initially reported as Level 2 will be subsequently reported as Level 3 if corroborating market data becomes unavailable.
+
+The carrying amounts of our Accounts receivable, net, Other current assets, Prepaid and other deferred charges, Accounts payable and accrued liabilities and Payable to related parties approximate their fair values due to their short-term nature.
+
+## Concentration of Credit and Other Risks
+
+<span id="page-189-0"></span>
+## AMBERJACK PIPELINE COMPANY LLC
+
+## NOTES TO FINANCIAL STATEMENTS
+
+A significant portion of our receivables are from related parties, as well as other oil and gas companies. Although collection of these receivables could be influenced by economic factors affecting the oil and gas industry, management believes the risk of significant loss to be remote.
+
+The following table shows revenues from third and related parties that accounted for 10% or more of Total revenue in the accompanying statements of income for the indicated periods:
+
+![](tables/table_pg189_num0.csv)
+Related party shipper.(1)
+Third party shipper. (2)
+
+The following table shows receivables from third and related parties that accounted for 10% or more of Accounts receivable, net in the accompanying balance sheet for the indicated dates:
+
+December 31,
+![](tables/table_pg189_num1.csv)
+Related party shipper. (1)
+Third party shipper. (2)
+
+Development and production of crude oil in the service area of the pipeline are subject to, among other factors, prices of crude oil, as well as federal and state energy policy, which are not within our control.
+
+We have concentrated credit risk for cash by maintaining deposits in a major bank, which may at times exceed amounts covered by insurance provided by the United States Federal Deposit Insurance Corporation (“FDIC”). We monitor the financial health of the bank and have not experienced any losses in such accounts and believe we are not exposed to any significant credit risk. As of December 31, 2020 and 2019, we had \$10,420,102 and \$18,308,635, respectively, in cash and cash equivalents in excess of FDIC limits.
+
+## Net Loss on Pipeline Operations
+
+We experience volumetric gains and losses from our pipeline operations that may arise from factors such as shrinkage or measurement inaccuracies within tolerable limits. Prior to January 1, 2019, gains and losses from pipeline operations that are related to allowance oil are presented net in the accompanying statements of income as net loss on pipeline operations. Beginning January 1, 2019, volumetric losses are recorded under Operating revenue in the accompanying statements of income.
+
+## Revenue Recognition
+
+Our revenues are primarily generated from the transportation of crude oil through our pipelines. We recognize revenue when we transfer promised goods or services to customers in an amount that reflects the consideration to which we expect to be entitled in exchange for those goods or services. We recognize revenue through the application of a five-step model, which includes: identification of the contract; identification of the performance obligations; determination of the transaction price; allocation of the transaction price to the performance obligations; and recognition of revenue as the entity satisfies the performance obligations.
+
+See Note 8 – Revenue Recognition for information and disclosures related to revenue from contracts with customers.
+
+## Taxes
+
+As an LLC, we have not historically incurred income tax expense in accordance with the provisions of the Internal Revenue Code, are not subject to U.S. federal income taxes. Rather, each Member includes its allocated share of our income or loss in its own federal and state income tax returns. We are responsible for various state property and ad valorem taxes, which are recorded in the accompanying statements of income as Property taxes.
+
+<span id="page-190-0"></span>
+## NOTES TO FINANCIAL STATEMENTS
+
+## 4. Property, Plant and Equipment
+
+Property, plant and equipment, net consists of the following as of the dates indicated:
+
+![](tables/table_pg190_num0.csv)
+
+Depreciation expense on property, plant and equipment is included in Depreciation and amortization in the accompanying statements of income for the years ended December 31, 2020, 2019 and 2018 in the amounts of \$54,486,612, \$42,903,834 and \$42,842,469, respectively.
+
+## 5. Related Party Transactions
+
+We derive a significant portion of our operating and product revenue from related parties, which are based on published tariffs and contractual agreements. This activity amounted to \$155,104,657, \$175,023,100 and \$166,264,591 for the years ended December 31, 2020, 2019 and 2018, respectively. All such transactions are within the ordinary course of business. At December 31, 2020 and 2019, we had affiliate receivables of \$10,300,999 and \$11,071,637, respectively, relating to transportation services. Non-transportation affiliate receivables at December 31, 2020 and 2019 were \$3,159,530 and \$3,931,894, respectively.
+
+We have no employees and rely on the Operator to provide personnel who perform daily operating and administrative duties on our behalf. In accordance with terms of the Operating Agreement, Shell Pipeline charged us for aggregate expenses incurred on our behalf in the amounts of \$8,409,523, \$18,923,649 and \$21,917,040, respectively, for the years ended December 31, 2020, 2019 and 2018. Chevron also charged us for expenses incurred on our behalf in the amounts of \$2,321,519, \$4,562,415 and \$2,664,829, respectively, for the years ended December 31, 2020, 2019 and 2018. These expenses are included within Operations and maintenance or General and administrative in the accompanying statements of income.
+
+Substantially all expenses we incur are paid by Shell Pipeline on our behalf. At December 31, 2020 and 2019, we owed \$612,072 and \$3,279,873, respectively, to reimburse Shell Pipeline for these expenses. We also owed Chevron \$433,411 and \$286,438, respectively, as of December 31, 2020 and 2019 for various projects led by Chevron. At both December 31, 2020 and 2019, we had a receivable balance of \$300,000 from Shell Pipeline, which is comprised of advance payments we made to Shell Pipeline to fund operating expenses. This balance is presented as Advance for operations due from related party on the accompanying balance sheets.
+
+Employees who directly or indirectly support our operations participate in the pension, postretirement health and life insurance and defined contribution benefit plans sponsored by Shell Oil, which includes other Shell Oil subsidiaries. Our share of pension and postretirement health and life insurance costs for the years ended December 31, 2020, 2019 and 2018 were \$228,953, \$849,746 and \$1,233,882, respectively. Our share of defined contribution benefit plan costs for the same periods were \$86,115, \$341,764 and \$492,174, respectively. Pension and defined contribution benefit plan expenses are included in General and administrative in the accompanying statements of income.
+
+See Note 7 – Leases for information and disclosures related to leases with related parties.
+
+## 6. Cost Sharing Agreement
+
+In July 2014, the lease on platform ST301, which was previously utilized by Series A’s pipeline, was terminated. To continue operations, Series A built a subsea access route around the platform and is the sole owner of the new infrastructure, however two affiliate-owned pipelines are connected to Series A’s pipeline. These two affiliates have a cost sharing agreement with
+
+<span id="page-191-0"></span>
+# AMBERJACK PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+Series A to share common costs including the main bypass piping, engineering, design and permitting. The contributed cash is accounted for as deferred income and is included in Other current liabilities and Long-term liabilities and deferred income on the accompanying balance sheets. At December 31, 2020 and 2019, Series A had \$3,788,591 and \$3,956,348 of deferred income balances, respectively, which relate to prepaid construction costs on Brutus Pipeline as a result of the cost sharing agreement for the ST 301 re-route project. These balances are amortized over the 30-year useful life of the asset and for each of the years ended December 31, 2020, 2019 and 2018, we recorded related amortization of \$167,757 to Other income in the accompanying statements of income.
+
+## 7. Leases
+
+## Adoption of ASC Topic 842 “Leases”
+
+On January 1, 2020, we adopted ASC Topic 842 (the “new lease standard”) by applying the modified retrospective approach to all leases on January 1, 2020. Under this new guidance, lessees are required to recognize assets and liabilities on the balance sheet for the rights and obligations created by all leases. We elected the package of practical expedients upon transition that permits us to not reassess (1) whether any contracts entered into prior to adoption are or contain leases, (2) the lease classification of existing leases and (3) initial direct costs for any leases that existed prior to adoption.
+
+Upon adoption on January 1, 2020, we recognized operating lease right-of-use (“ROU”) assets and corresponding lease liabilities of \$58,748,340.
+
+## Lessee accounting
+
+We determine if an arrangement is or contains a lease at inception. Our assessment is based on (1) whether the contract involves the use of a distinct identified asset, (2) whether we obtain the right to substantially all the economic benefit from the use of the asset throughout the period and (3) whether we have the right to direct the use of the asset. Leases are classified as either finance leases or operating leases. A lease is classified as a finance lease if any one of the following criteria are met: the lease transfers ownership of the asset by the end of the lease term, the lease contains an option to purchase the asset that is reasonably certain to be exercised, the lease term is for a major part of the remaining useful life of the asset or the present value of the lease payments equals or exceeds substantially all of the fair value of the asset. A lease is classified as an operating lease if it does not meet any one of these criteria. The lease classification affects the expense recognition in the income statement. Operating lease costs are recorded entirely in operating expenses. Finance lease costs are split, where amortization of the ROU asset is recorded in operating expenses and an implied interest component is recorded in interest expense.
+
+Under the new lease standard, operating leases (as lessee) are included in Operating lease right of use assets- related party, net, Operating lease right of use assets- third party, net, Current operating lease liabilities- related party, Current operating lease liabilities- third party, Noncurrent operating lease liabilitiesrelated party, and Noncurrent operating lease liabilities- third party in our balance sheets. Finance leases (as lessee) are included in Finance lease right of use assets- related party, Finance lease amortization of right of use assets- related party, Finance lease right of use assets- related party, net, Current finance lease liabilities- related party, and Noncurrent finance lease liabilities- related party in our balance sheets. ROU assets and lease liabilities are recognized at commencement date based on the present value of the future minimum lease payments over the lease term. As most of our leases do not provide an implicit interest rate, we use our incremental borrowing rate based on the information available at transition date in determining the present value of future payments. The ROU asset includes any lease payments made but excludes lease incentives and initial direct costs incurred, if any. Lease expense for minimum lease payments is recognized on a straight-line basis over the lease term.
+
+## Lease extensions
+
+Many of our leases have options to either extend or terminate the lease. In determining the lease term, we considered all available contract extensions that are reasonably certain of occurring.
+
+## Significant assumptions and judgments
+
+Incremental borrowing rate. As most of our leases do not provide an implicit interest rate, we use our incremental borrowing rate (“IBR”) at the commencement of the lease and estimate the IBR for each lease agreement taking into consideration lease contract term, collateral and entity credit ratings, and use sensitivity analyses to evaluate the reasonableness of the rates determined.
+
+## Lease balances and costs
+
+## Operating leases
+
+We have several LOPS agreements to lease usage of offshore platform spaces located at GC 19. The original LOPS agreement at platform GC 19 commenced on October 1, 1997 was amended on April 1, 2009 and on November 1, 2016 for the lease of
+
+<span id="page-192-0"></span>
+# AMBERJACK PIPELINE COMPANY LLC
+
+# NOTES TO FINANCIAL STATEMENTS
+
+additional platform space. The amended agreement is effective for ten years from the effective or amendment date, with an option for annual renewal thereafter with a 180 days prior written notice. Effective April 1, 2020, we elected to discontinue this operational lease agreement and entered into a finance lease agreement as described in the Finance leases section below. Therefore, lease payments for the years ended December 31, 2020, 2019 and 2018 were \$552,270, \$1,342,254 and \$1,298,690, respectively.
+
+In March 2014, Amberjack assumed all of the rights, duties and obligations of Shell Pipeline’s lease of platform space located in SS 332. The assumed lease agreement was effective April 1, 2002 and shall continue until the earliest date that (i) Amberjack facilities are abandoned by Amberjack and removed as set forth in the lease agreement, (ii) Amberjack, in its sole discretion, elects to discontinue operations when crude oil ceases to be delivered through the Amberjack facilities for a period of three consecutive months or (iii) both parties agree to terminate the agreement. Notwithstanding the foregoing, the lease agreement may be terminated earlier upon ninety days’ prior written notice by either party. The agreement requires adjustment of the lease payment annually based on the Wage Index Adjustment as published by the Council of Petroleum Accountants Society (“COPAS”). Lease payments for SS 332 were \$187,937, \$178,837 and \$174,482, respectively, for the years ended December 31, 2020, 2019 and 2018.
+
+Effective July 1, 2014, we entered into a LOPS agreement to lease additional space at GC 19 from an affiliate of Shell Oil in order to deliver crude oil production gathered from the Jack/St. Malo (“JSM”) host platform to downstream pipelines at GC 19. The agreement is effective for an initial term of five years and continues annually thereafter. Each party can terminate the agreement at the end of the initial term, or any extension term, with prior written notice of at least 90 days. The agreement requires adjustment of the lease payment annually based on the Wage Index Adjustment as published by the COPAS. Related lease payments were \$1,368,013, \$1,337,307 and \$1,296,948, respectively, for the years ended December 31, 2020, 2019 and 2018.
+
+Effective July 1, 2016, we entered into a LOPS agreement to further lease additional space at GC 19 from an affiliate of Shell Oil in order to operate a 24- inch crude oil pipeline that will deliver crude oil to downstream pipelines at Fourchon Junction. The agreement is effective for an initial term of 5 years and continues annually thereafter. Each party can terminate the agreement at the end of the initial term or extension term with written notice of at least 90 days prior to the intended termination date. The agreement requires minimum annual lease payments of \$1,218,808, adjusted annually based on the percent increase published by COPAS. Related lease payments \$1,667,349, \$1,629,925 and \$1,627,922, respectively, for the years ended December 31, 2020, 2019 and 2018.
+
+Total lease expense for the years ended December 31, 2020, 2019 and 2018 was \$3,775,568, \$4,488,323 and \$4,398,042, respectively. Lease expense is included in Operations and maintenance within the accompanying statements of income as all related lease agreements are deemed to be operating leases.
+
+## Finance leases
+
+Effective April 1, 2020, we entered into a LOPS agreement with an affiliate company for \$2,775,805 per year at the Green Canyon 19 (“GC19”) platform in the Gulf of Mexico. The terms of this agreement were assessed at 100% life of the platform and therefore obligates us to recognize this agreement as a finance lease under the new lease standards. This agreement shall remain in full force and effect for the initial term of five years. Thereafter it may be extended annually or terminated with a written notice at least ninety days prior to the intended termination date. Finance lease payments were \$2,081,855 for year ended December 31, 2020.
+
+The following tables summarize balance sheet data related to leases at December 31, 2020 and our lease costs as of and for the year ended December 31, 2020
+
+<span id="page-193-0"></span>
+## AMBERJACK PIPELINE COMPANY LLC
+
+## NOTES TO FINANCIAL STATEMENTS
+
+![](tables/table_pg193_num0.csv)
+
+![](tables/table_pg193_num1.csv)
+Finance lease assets are recorded net of accumulated amortization of \$1,406,951 as of December 31, 2020.(1)
+
+![](tables/table_pg193_num2.csv)
+
+![](tables/table_pg193_num3.csv)
+
+![](tables/table_pg193_num4.csv)
+
+<span id="page-194-0"></span>
+## NOTES TO FINANCIAL STATEMENTS
+
+## Annual maturity analysis
+
+The future annual maturity of lease payments as of December 31, 2020 for the above lease obligations was:
+
+![](tables/table_pg194_num0.csv)
+Lease payments adjust annually based on the Wage Index Adjustment, as published by COPAS.(1)
+Calculated using the interest rate for each lease. (2)
+Includes the current portion of \$1,270,779 and \$1,259,427 for the operating leases and finance leases, respectively.(3)
+
+## 8. Revenue Recognition
+
+## Adoption of Topic 606, Revenue from Contracts with Customers
+
+On January 1, 2019, we adopted Topic 606 and all related ASUs to this Topic (collectively, the “new revenue standard”) by applying the modified retrospective method to all contracts that were not completed on January 1, 2019. Results for reporting periods beginning after January 1, 2019 are presented in accordance with the new revenue standard, while prior period amounts are not adjusted and continue to be reported in accordance with our historic accounting under previous U.S. GAAP.
+
+Upon the adoption of the new revenue standard, we recorded a non-cash cumulative effect transition adjustment to decrease the opening balance of Members’ capital in the amount of \$18,853,034, which related to a deferral of revenue related to cash collected from life of lease contracts in the early years driven by tiered pricing terms or surcharges that relate to all of the performance obligations within the contracts.
+
+## Revenue Recognition
+
+The new revenue standard’s core principle is that a company will recognize revenue when it transfers promised goods or services to customers in an amount that reflects the consideration to which the company expects to be entitled in exchange for those goods or services. The new revenue standard requires entities to recognize revenue through the application of a five-step model, which includes: identification of the contract; identification of the performance obligations; determination of the transaction price; allocation of the transaction price to the performance obligations; and recognition of revenue as the entity satisfies the performance obligations.
+
+Our revenues are primarily generated from the transportation of crude oil through our pipelines. To identify the performance obligations, we considered all the products or services promised in the contracts with customers, whether explicitly stated or implied based on customary business practices. Revenue is recognized when each performance obligation is satisfied under the terms of the contract. Each barrel of product transported is considered a distinct service that represents a performance obligation that would be satisfied over time if it were accounted for separately. The services provided over the contract period are a series of distinct services that are substantially the same, have the same pattern of transfer to the customer, and therefore, qualify as a single performance obligation. Since the customer simultaneously receives and consumes the benefits of services, we recognize revenue over time based on a measure of progress of volumes transported for transportation services contracts.
+
+Product revenue related to allowance oil sales is recognized at the point in time when the control of the oil transfers to the customer.
+
+For all performance obligations, payment is typically due in full within 30 days of the invoice date.
+
+Disaggregation of Revenue – The following table provides information about disaggregated revenue by service type and customer type:
+
+<span id="page-195-0"></span>
+## AMBERJACK PIPELINE COMPANY LLC
+
+## NOTES TO FINANCIAL STATEMENTS
+
+## Series A
+
+![](tables/table_pg195_num0.csv)
+As noted above, prior period amounts have not been adjusted under the modified retrospective method.(1)
+Product revenue for 2020 and 2019 is comprised of allowance oil sales.(2)
+
+## Series B
+
+![](tables/table_pg195_num1.csv)
+As noted above, prior period amounts have not been adjusted under the modified retrospective method.(1)
+
+Transportation services revenue – We have both long-term dedication and transportation contracts and month-to-month transportation contracts for spot shippers that make nominations on our pipelines. For our long-term dedication and transportation contracts, customers dedicate production of the oil well for the life of the dedicated leases. Transportation services are charged at a per barrel rate. We apply the allocation exception guidance for variable consideration related to market indexing for long-term transportation contracts because (a) the variable payment relates specifically to our efforts to transfer the distinct service and (b) we allocate the variable amount of consideration entirely to the distinct service which is consistent with the allocation objective. Transportation services are billed monthly as services are rendered and revenue is recognized over time using an output method measure of progress based on each barrel transported.
+
+Our contracts and tariffs contain terms for the customer to reimburse us for losses from evaporation or other loss in transit in the form of allowance oil. Allowance oil represents the net difference between the tariff PLA volumes and the actual volumetric losses. We obtain control of the excess oil not lost during transportation, if any. Under the revenue standard, we include the excess oil retained during the period, if any, as non-cash consideration and include this amount in the transaction price for transportation services on a net basis. Our allowance oil is valued using the average market price of the relevant type of crude oil during the month product was transported. Gains on pipeline operations that relate to allowance oil are recorded in Operations and maintenance in the accompanying consolidated statements of income.
+
+Certain of our long-term dedication and transportation contracts contain tiered-pricing and/or surcharges imposed over a specific time period. For these contracts, we estimate the total transaction price using production forecasts multiplied by the transportation rate; this approach takes into consideration any tiered pricing, and any applicable surcharge. In considering whether the variable consideration is constrained, we consider scenarios in which forecasted volumes are significantly higher or lower during periods in which a surcharge or tiered price is in effect as well as scenarios in which the life of the dedicated leases is extended past its expected life.
+
+Deferred revenue – Prior to January 1, 2019, deferred revenue under our transportation services arrangements was recognized into revenue once all contingencies or potential performance obligations associated with the related volumes had been satisfied or expired. After January 1, 2019, under certain contracts with tiered pricing arrangements, we are entitled to receive payments in advance of satisfying our performance obligations under the contracts. We recognize a liability for these payments in excess of revenue recognized and present it as deferred revenue on our balance sheets.
+
+<span id="page-196-0"></span>
+## AMBERJACK PIPELINE COMPANY LLC
+
+## NOTES TO FINANCIAL STATEMENTS
+
+Product revenue – We generate revenue by selling accumulated allowance oil inventory to customers. Sale of allowance oil is recorded as product revenue, with specific cost based on a weighted average price per barrel recorded as cost of product sold. Prior to the adoption of the new revenue standard, the subsequent sale of allowance oil, net of the product cost, was recorded as operations expense.
+
+Impact of adoption – In accordance with the new revenue standard, the following table summarizes the impact of adoption on our financial statements as of and for the years ended December 31, 2020 and 2019:
+
+![](tables/table_pg196_num0.csv)
+
+![](tables/table_pg196_num1.csv)
+
+Contract Balances – We perform our obligations under a contract with a customer by providing services in exchange for consideration from the customer. The timing of our performance may differ from the timing of the customer’s payment, which   
+results in the recognition of a contract asset or a contract liability. Although we did not have any contract assets as of December 31, 2020 and 2019, we recognize a contract asset when we transfer goods or services to a customer and contractually bill an amount which is less than the revenue allocated to the related performance obligation. We recognize deferred revenue (contract liability) when the customer’s payment of consideration precedes our performance.
+
+The following table provides information about receivables and contract liabilities from contracts with customers:
+
+![](tables/table_pg196_num2.csv)
+
+<span id="page-197-0"></span>
+## NOTES TO FINANCIAL STATEMENTS
+
+![](tables/table_pg197_num0.csv)
+
+Significant changes in the deferred revenue balances with customers during the period are as follows:
+
+![](tables/table_pg197_num1.csv)
+Deferred revenue additions resulted from collection of cash for unsatisfied performance obligations.(1)
+As an exemption, we do not disclose the amount of our remaining performance obligations because they represent variable consideration.
+
+## 9. Supplemental Information
+
+Equity interest in Amberjack is comprised of two series; Series A and Series B, as defined in Note 1 – Organization and Business. Series A of the Members’ capital represents the assets and liabilities in the pipeline system from the Green Canyon, Ewing Bank and Grand Isle areas in the Gulf of Mexico to the intersection with Mars at Fourchon, Louisiana. Series A assets, liabilities, income and losses are shared in the ratio of 75:25 between (i) Shell Pipeline prior to May 11, 2018 and Shell Midstream effective May 11, 2018 and (ii) Chevron, respectively. Series B of the Members’ capital represents the assets and liabilities in the pipeline system extension connecting the offshore production area called JSM in the Gulf of Mexico to the existing Amberjack Pipeline in the Gulf of Mexico at GC19. Series B assets, liabilities, income and losses are shared in the ratio of 50:50 between (i) Shell Pipeline prior to May 11, 2018 and Shell Midstream effective May 11, 2018 and (ii) Chevron, respectively. Supplemental information of Series A units and Series B units are presented below:
+
+![](tables/table_pg197_num2.csv)
+
+<span id="page-198-0"></span>
+## AMBERJACK PIPELINE COMPANY LLC
+
+## NOTES TO FINANCIAL STATEMENTS
+
+December 31, 2019
+![](tables/table_pg198_num0.csv)
+
+December 31, 2018
+![](tables/table_pg198_num1.csv)
+
+## 10. Environmental Matters
+
+We are subject to federal, state and local environmental laws and regulations. We routinely conduct reviews of potential environmental issues and claims that could impact our assets or operations. These reviews assist us in identifying environmental issues and estimating the costs and timing of remediation efforts. In making environmental liability estimations, we consider the material effect of environmental compliance, pending legal actions against us and potential third-party liability claims. Often, as the remediation evaluation and effort progresses, additional information is obtained, requiring revisions to estimated costs. These revisions are reflected in our net income in the period in which they are probable and reasonably estimable. For both December 31, 2020 and 2019, these costs and any related liabilities are not material.
+
+## 11. Commitments and Contingencies
+
+In the ordinary course of business, we are subject to various laws and regulations. In the opinion of management, we are in compliance with existing laws and regulations and are not aware of any violations that could materially affect our financial position, results of operations or cash flows. We are subject to several lease agreements, which are accounted for as operating leases and the minimum lease payments over the next five years are disclosed in Note 7 – Leases.
+
+## 12. Subsequent Events
+
+In preparing the accompanying financial statements, we have reviewed events that have occurred subsequent to December 31, 2020 through February 18, 2021, which is the date of the issuance of these financial statements. Any material subsequent event that occurred during this time has been properly disclosed in the financial statements.

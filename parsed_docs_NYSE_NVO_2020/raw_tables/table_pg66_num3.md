@@ -1,0 +1,1 @@
+<table><tr><td>DKK million</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>US</td><td>1,817</td><td>3,672</td><td>3,587</td></tr><tr><td>Japan</td><td>2,351</td><td>2,149</td><td>1,937</td></tr></table>

@@ -1,0 +1,8 @@
+Method,WER (%),DCE
+No enhancement,17.3,0.828
+Wiener filter,19.5,0.722
+Minimizing DCE,15.8,0.269
+FSEGAN,14.9,0.291
+AAS (wAC = 1, wAD = 0),"15.6,0.330"
+AAS (wAC = 1, wAD = 105),"14.4,0.303"
+Clean speech,5.7,0.0

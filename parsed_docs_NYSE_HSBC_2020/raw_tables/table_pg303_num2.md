@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td> $m</td><td>$m</td><td>$m</td></tr><tr><td>Conditional share awards</td><td>411</td><td>521</td><td>499</td></tr><tr><td>Savings-related and other share award option plans</td><td>51</td><td>30</td><td>23</td></tr><tr><td>Year ended 31 Dec</td><td>462</td><td>551</td><td>522</td></tr></table>

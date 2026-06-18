@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Contributions for defined contribution plans</td><td></td><td></td><td></td></tr><tr><td>continuing operations</td><td>523</td><td>501</td><td>422</td></tr></table>

@@ -1,0 +1,5658 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.128,
+      0.189,
+      0.175,
+      0.781
+    ],
+    "text": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.135,
+      0.291,
+      0.833
+    ],
+    "text": "1Xiang Yue\\*†, 2Yuansheng Ni\\*, 3Kai Zhang\\*, 4Tianyu Zheng\\*, 3Ruoqi Liu, 2Ge Zhang, 3Samuel Stevens, 2Dongfu Jiang, 2Weiming Ren, 4Yuxuan Sun, 2Cong Wei, 3Botao Yu, 5Ruibin Yuan, 2Renliang Sun, 7Ming Yin, 3Boyuan Zheng, 4Zhenzhu Yang, 6Yibo Liu, 4Wenhao Huang, 3Huan Sun\\*, 3Yu Su\\*†, 2Wenhu Chen\\*†",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.297,
+      0.148,
+      0.334,
+      0.821
+    ],
+    "text": "1IN.AI Research, 2University of Waterloo, 3The Ohio State University, 4Independent, 5Carnegie Mellon University, 6University of Victoria, 7Princeton University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.342,
+      0.284,
+      0.358,
+      0.678
+    ],
+    "text": "https://mmmu-benchmark.github.io/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-5",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.369,
+      0.081,
+      0.515,
+      0.887
+    ],
+    "text": "Figure 1. Overview of the MMMU dataset. MMMU presents four challenges: 1) comprehensiveness: 11.5K college-level problems across six broad disciplines and 30 college subjects; 2) highly heterogeneous image types; 3) interleaved text and images; 4) expert-level perception and reasoning rooted in deep subject knowledge.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.235,
+      0.607,
+      0.313
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.622,
+      0.075,
+      0.866,
+      0.47
+    ],
+    "text": "We introduce MMMU: a new benchmark designed to evaluate multimodal models on massive multi-discipline tasks demanding college-level subject knowledge and deliberate reasoning. MMMU includes 11.5K meticulously collected multimodal questions from college exams, quizzes, and textbooks, covering six core disciplines: Art & Design, Business, Science, Health & Medicine, Humanities & Social Science, and Tech & Engineering. These questions span 30 subjects and 183 subfields, comprising 30 highly heterogeneous image types, such as charts, diagrams, maps, tables, music sheets, and chemical structures. Unlike existing benchmarks, MMMU focuses on advanced perception and reasoning with domain-specific knowledge, challenging models to perform tasks akin to those faced by experts. The evaluation of 14 op",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.498,
+      0.684,
+      0.893
+    ],
+    "text": "challenges posed by MMMU. Even the advanced GPT-4V and Gemini Ultra only achieve accuracies of 56% and 59% respectively, indicating significant room for improvement. We believe MMMU will stimulate the community to build nextgeneration multimodal foundation models towards expert artificial general intelligence.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.501,
+      0.727,
+      0.632
+    ],
+    "text": "1. Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.496,
+      0.902,
+      0.893
+    ],
+    "text": "Rapid advances in large language models (LLMs) [11, 45, 52] have sparked broad discussions on the controversial concept of artificial general intelligence (AGI), often used to describe AI systems that perform on par or surpass humans at most tasks [1, 7, 17, 24, 42, 44]. Candid and constructive discussions on AGI have been challenging due to a lack of shared operationalizable definitions. In an attempt to remedy this, Morris et al. [44] propose a leveled taxonomy for AGI that centers around both generality (or breadth) and performance (or depth). In the suggested taxonomy, Level 3, or Expert AGI, marks a critical milestone. It denotes an",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:table-1",
+    "page_id": 1,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_1_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.083,
+      0.404,
+      0.89
+    ],
+    "text": "Figure 2. Sampled MMMU examples from each discipline. The questions and images need expert-level knowledge to understand and reason.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.459,
+      0.075,
+      0.565,
+      0.47
+    ],
+    "text": "AI system that reaches “at least 90th percentile of skilled adults” in a broad range of tasks, thus starting to achieve “the substitution threshold for machine intelligence in lieu of human labor” for many industries, leading to significant risks of job displacement and economic disruption. Therefore, it is of both intellectual and societal importance to closely monitor the progress towards Expert AGI.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.075,
+      0.901,
+      0.472
+    ],
+    "text": "How to create benchmarks for measuring Expert AGI? Since the definition is based on comparison with skilled adults, a natural starting point is college-level exams for different disciplines, because those are designed to evaluate skilled adults specialized in each discipline. This strategy has been successfully adopted in benchmarks such as MMLU [19] and AGIEval [69], but only text-based questions are considered, while human experts are capable of solving multimodal problems. Meanwhile, large multimodal models (LMMs) that can understand both text and images have been making a major stride towards more general AI [8, 14, 27, 34, 58]. These LMMs have consistently excelled in existing multimodal benchmarks [3, 18, 25, 31, 36, 50, 61, 63]. For instance, CogVLM [55] achieves 85% on VQA-v2 [18],",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.496,
+      0.776,
+      0.893
+    ],
+    "text": "To this end, we introduce MMMU: a comprehensive benchmark designed for college-level multi-discipline multimodal understanding and reasoning. It features problems sourced from college exams, quizzes, and textbooks spanning six common disciplines: Art & Design, Business, Science, Health & Medicine, Humanities & Social Science, and Tech & Engineering. MMMU consists of 11.5K carefully selected multimodal questions, which cover 30 diverse subjects and 183 subfields, thus meeting the breadth goal. Moreover, many problems within MMMU require expert-level reasoning, such as applying “Fourier Transform” or “Equilibrium Theory” to derive the solution, thus meeting the depth goal. MMMU also presents two unique challenges absent in current benchmarks (Figure 1). Firstly, it covers diverse image forma",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.779,
+      0.498,
+      0.824,
+      0.892
+    ],
+    "text": "We evaluate 14 open-source LMMs as well as the advanced proprietary LMMs such as GPT-4V(ision) [46] on MMMU. Our key findings are summarized as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.825,
+      0.5,
+      0.869,
+      0.892
+    ],
+    "text": "• MMMU presents significant challenges; notably, GPT-4V only achieves an accuracy of 55.7%, indicating substantial room for improvement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.871,
+      0.5,
+      0.901,
+      0.893
+    ],
+    "text": "• There is a pronounced disparity in performance between open-source LMMs and GPT-4V. The highest-performing open-source models, such as BLIP2-FLAN-T5-XXL and LLaVA-1.5, achieve approximately 34% in accuracy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-1",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.09,
+      0.081,
+      0.314,
+      0.888
+    ],
+    "text": "Figure 3. MMMU contains 11.5K multimodal questions covering six broad disciplines, 30 subjects, and 183 subfields.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.076,
+      0.46,
+      0.47
+    ],
+    "text": "• LLMs augmented with optical character recognition (OCR) or generated captions do not see notable improvement, indicating that MMMU necessitates deeper joint interpretation of images and text.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.462,
+      0.076,
+      0.551,
+      0.47
+    ],
+    "text": "• In disciplines such as Art & Design and Humanities & Social Science, where visual data is less complex, models exhibit higher performance. In contrast, Business, Science, Health & Medicine, and Tech & Engineering, which present more complex visual data and require intricate reasoning, see relatively lower model performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.076,
+      0.642,
+      0.47
+    ],
+    "text": "• Our error analysis on 150 error cases of GPT-4V reveals that 35% of errors are perceptual, 29% stem from a lack of knowledge, and 26% are due to flaws in the reasoning process. These findings underscore the challenges of the MMMU benchmark and point towards areas needing further research and model enhancement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.643,
+      0.075,
+      0.827,
+      0.472
+    ],
+    "text": "Our aim with MMMU is to push the boundaries of what LMMs can achieve. We believe it will prove instrumental in developing next-generation multimodal foundation models and monitoring the progress towards Expert AGI. We shall caution that MMMU is not a sufficient test for Expert AGI, as per the definition [44], because there lacks a direct mapping between performance on MMMU and “90th percentile of skilled adults,” nor are college exams the only tasks an AGI shall tackle. However, we believe it should be necessary for an Expert AGI to achieve strong performance on MMMU to demonstrate their broad and deep subject knowledge as well as expert-level understanding and reasoning capabilities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.843,
+      0.076,
+      0.859,
+      0.22
+    ],
+    "text": "2. Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.869,
+      0.075,
+      0.901,
+      0.472
+    ],
+    "text": "Multimodal Pre-Training. In recent years, rapid progress has been made in multimodal pre-training, which aims to jointly encode vision and language in a fusion model. LXMERT [51], UNITER [9], VinVL [64], Oscar [29], VilBert [38], and VLP [70] are among the earliest work to train universal vision-language models to tackle many multimodal tasks. This work relies on pre-trained visual representations like Faster RCNN features [49] to minimize the training sample complexity. Later on, CLIP [48], ALIGN [22], SimVLM [56], CoCa [62], Flamingo [2], BLIP-2 [27], and Fuyu [6] (inter alia) have been proposed to train visual representation using ViT [15] from scratch with massive amount of web data. These models have achieved great success on existing VQA and captioning tasks, which require less knowl",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.496,
+      0.839,
+      0.893
+    ],
+    "text": "Multimodal Instruction Tuning. Inspired by opensource instruction-tuned LLMs like FLAN-T5 [12] and Vicuna [10], models like LLaVA [34, 35] and MiniGPT-4 [71] utilized open-source resources, to improve the instructionfollowing capabilities of LMMs. The evolutionary trajectory of LMMs has also led to subsequent advancements aimed at improving the quantity and quality of visual instruction data. Models such as LLaMA-Adapter [16, 65], mPlug-OWL [59, 60], SVIT [66], LRV-Instruction [33], and InstructBLIP [14] exemplify these developments. Another pivotal aspect of LMM research revolves around multimodal in-context learning and the management of interleaved text and image examples. This area has been explored in depth by models such as Flamingo [2] and OpenFlamingo [4], Otter [26], M3IT [28], Me",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.496,
+      0.901,
+      0.893
+    ],
+    "text": "LMM Benchmarks. With the surge of multi-modal pretraining and instruction tuning, the prior single-task evaluation benchmarks like VQA [3, 18], OK-VQA [41], MSCOCO [31], GQA [21], etc., have become insufficient to holistically evaluate LMMs’ general multimodal perception and reasoning abilities. Therefore, numerous all-round benchmarks have been established to assess different facets of LMMs. These benchmarks cover a wide spectrum of specific skills of LMMs, from Optical Character Recognition (OCR) as seen in the study by [37], to adversarial robustness [68] and hallucination [13, 32], e.g., POPE [30] and HaELM [54]. More holistic evaluations have been conducted as well, such as LAMM [61], LVLM-eHub [57], SEED [25], MMBench [36], and MM-Vet [63]. These benchmarks still largely focus on rel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:table-1",
+    "page_id": 3,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_3_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.098,
+      0.385,
+      0.447
+    ],
+    "text": "Table 1. Key statistics of the MMMU benchmark.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.79,
+      0.076,
+      0.806,
+      0.312
+    ],
+    "text": "3. The MMMU Benchmark",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.815,
+      0.076,
+      0.832,
+      0.276
+    ],
+    "text": "3.1. Overview of MMMU",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.075,
+      0.901,
+      0.47
+    ],
+    "text": "We introduce the Massive Multi-discipline Multimodal Understanding and Reasoning (MMMU) benchmark, a novel benchmark meticulously curated to assess the expert-level multimodal understanding capability of foundation models across a broad scope of tasks. Covering 30 subjects across 6 disciplines, including Art, Business, Health & Medicine, Science, Humanities & Social Science, and Tech & Engineering, and over 183 subfields. The detailed subject coverage and statistics are detailed in Figure 3. The questions in our benchmark were manually collected by a team of 50 college students (including coauthors) from various disciplines and subjects, drawing from online sources, textbooks, and lecture materials.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.228,
+      0.498,
+      0.395,
+      0.893
+    ],
+    "text": "MMMU, constituting 11.5K questions, is divided into a few-shot development set, a validation set, and a test set. The few-shot development set includes 5 questions per subject, and the validation set, useful for hyperparameter selection, contains approximately 900 questions, while the test set comprises 10.5K questions. MMMU is designed to measure three essential skills in LMMs: perception, knowledge, and reasoning. Our aim is to evaluate how well these models can not only perceive and understand information across different modalities but also apply reasoning with subjectspecific knowledge to derive the solution.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.496,
+      0.593,
+      0.893
+    ],
+    "text": "Our MMMU benchmark introduces four key challenges to multimodal foundation models, as detailed in Figure 1. Among these, we particularly highlight the challenge stemming from the requirement for both expert-level visual perceptual abilities and deliberate reasoning with subjectspecific knowledge. This challenge is vividly illustrated through our tasks, which not only demand the processing of various heterogeneous image types but also necessitate a model’s adeptness in using domain-specific knowledge to deeply understand both the text and images and to reason. This goes significantly beyond basic visual perception, calling for an advanced approach that integrates advanced multimodal analysis with domain-specific knowledge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.5,
+      0.619,
+      0.71
+    ],
+    "text": "3.2. Data Curation Process",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.496,
+      0.902,
+      0.895
+    ],
+    "text": "Data Collection. Our benchmark collection takes three stages. Firstly, we go through the common university majors to decide what subjects should be included in our benchmark. The selection is based on the principle that visual inputs should be commonly adopted in the subjects to provide valuable information. Through this principle, we rule out a few subjects like law and linguistics because it is difficult to find enough relevant multimodal problems in these subjects. Consequently, we select 30 subjects from six different disciplines. In the second stage, we recruit over 50 university students, including co-authors, specializing in these majors as annotators to assist in question collection. They collect multimodal questions from major textbooks and online resources, creating new questions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-1",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.094,
+      0.083,
+      0.281,
+      0.397
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:table-2",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.415,
+      0.29,
+      0.874
+    ],
+    "text": "Figure 4. The comparison between MMMU and other existing benchmarks. MMMU excels in both its breadth to cover a wide range of disciplines and its depth to test LMMs’ reasoning abilities. In the image format, V means visual input, OC means optical characters, MC means multi-choice. Repurposed means the benchmark is a compilation of prior datasets.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.076,
+      0.728,
+      0.424
+    ],
+    "text": "3.3. Comparisons with Existing Benchmarks",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.075,
+      0.902,
+      0.472
+    ],
+    "text": "To further distinguish the difference between MMMU and other existing ones, we elaborate the benchmark details in Figure 4. From the breadth perspective, the prior benchmarks are heavily focused on daily knowledge and common sense. The covered image format is also limited. Our benchmark aims to cover college-level knowledge with 30 image formats including diagrams, tables, charts, chemical structures, photos, paintings, geometric shapes, music sheets, medical images, etc. In the depth aspect, the previous benchmarks normally require commonsense knowledge or simple physical or temporal reasoning. In contrast, our benchmark requires deliberate reasoning with college-level subject knowledge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.5,
+      0.434,
+      0.632
+    ],
+    "text": "4. Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.496,
+      0.64,
+      0.893
+    ],
+    "text": "We evaluate various models including LLMs and LMMs. In each type, we consider both closed- and open-source models. Our evaluation is conducted under a zero-shot setting to assess the capability of models to generate accurate answers without fine-tuning or few-shot demonstrations on our benchmark. For all models, we use the default prompt provided by each model for multi-choice or open QA, if available. If models do not provide prompts for task types in MMMU, we conduct prompt engineering on the validation set and use the most effective prompt for the zero-shot setup in the main experiments. We also report the few-shot results of some selected models in the Appendix. All experiments are conducted with NVIDIA A100 GPUs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.65,
+      0.5,
+      0.666,
+      0.609
+    ],
+    "text": "4.1. Baselines",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.672,
+      0.496,
+      0.901,
+      0.895
+    ],
+    "text": "LMMs. We consider various large multimodal models. By default, for each model family, we use the latest, largest, and best-performing available checkpoint to date. (i) Kosmos2 [47] is pre-trained to ground fine-grained visual objects with texts and to follow instructions. With only 1.6B model size, Kosmos2 is able to achieve comparable or better performance with Flamingo-9B [2] on VQA and captioning tasks. (ii) LLaMA-Adapter2 [16] fine-tunes Llama [52] in a parameter-efficient way and utilizes visual encoder CLIP [48] and modular experts such as Optical Character Recognition (OCR) to capture more image information for later better visual understanding. (iii) BLIP-2 [27] introduces light-weight learnable visual queries to bridge the frozen CLIP ViT [48] and FLAN-T5 [12]. (iv) Starting from ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.088,
+      0.088,
+      0.626,
+      0.879
+    ],
+    "text": "Table 2. Overall results of different models on the MMMU validation and test set. Besides reporting the performance of LMMs, we additionally add text-only LLM baselines. The best-performing model in each category is in-bold, and the second best is underlined. \\*: results provided by the authors.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.075,
+      0.665,
+      0.472
+    ],
+    "text": "Text-only LLMs. For text-only LLMs, we consider the most capable ones including GPT-4 and several open-source LLMs, Llama2-7B [52], FLAN-T5-XXL and Vicuna-13B, which are adopted as the text encoder or decoder in the selected LMMs. To determine if an external image-to-text tool can enhance these LLMs’ performance on MMMU, we deploy OCR by MMOCR1 or captioning by LLaVA-1.5 to provide the recognized text information to text-only LLMs. Evaluation. We adopt micro-averaged accuracy as the evaluation metric. For both open and multiple-choice questions, we design systematic, rule-based evaluation pipelines. Specifically, to mitigate the potential influence of any intermediate generations (e.g., reasoning steps, calculations) in the long response, we construct robust regular expressions and develop",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.672,
+      0.076,
+      0.689,
+      0.217
+    ],
+    "text": "4.2. Main Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.075,
+      0.88,
+      0.472
+    ],
+    "text": "In this section, we present a comprehensive comparison of different LLMs and LMMs using the MMMU benchmark, detailed in Table 2. We summarize our key findings as follows: Challenging Nature of MMMU: The benchmark poses significant challenges to current models. Notably, GPT-4V, despite being an advanced model, achieves an accuracy of only 55.7%, with ample headroom for improvement. This reflects the benchmark’s rigorous and demanding standards. Disparity between Open-source Models and GPT-4V: Leading open-source models such as BLIP2-FLAN-T5- XXL and LLaVA-1.5 reach an accuracy level of approximately 34%, which is significantly lower than GPT-4V. This significant difference in performance indicates a gap in the capabilities of current open-source models compared to proprietary ones like GPT-",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-5",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.498,
+      0.208,
+      0.888
+    ],
+    "text": "Table 3. Result decomposition across question difficulty levels.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.308,
+      0.496,
+      0.414,
+      0.893
+    ],
+    "text": "Effectiveness of OCR and Captioning Enhancements: The application of OCR and captioning technologies does not yield a significant improvement in the performance of text-only LMMs. This finding suggests that the MMMU benchmark requires models that can effectively interpret and integrate both textual and visual information, underscoring the complexity of the multimodal tasks it presents.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.496,
+      0.535,
+      0.893
+    ],
+    "text": "Model Performance across Different Disciplines: In disciplines such as Art & Design and Humanities & Social Sciences, where the images tends to be more ‘natural’ and questions involve relatively less reasoning, models demonstrate relatively higher performance. Conversely, in fields like Science, Health & Medicine, and Technology & Engineering, where tasks often involve intricate perception and complex reasoning, models exhibit lower performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.535,
+      0.496,
+      0.627,
+      0.893
+    ],
+    "text": "The MMMU benchmark underscores both the progress and the challenges in multimodal understanding and reasoning. While GPT-4V leads in performance, the overall results indicate substantial room for improvement, especially in domains with complex visual input and heavy reasoning with subject knowledge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.498,
+      0.651,
+      0.856
+    ],
+    "text": "4.3. Analysis on Images Types and Difficulties",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.496,
+      0.825,
+      0.895
+    ],
+    "text": "Different Image Types. We compare the performance of various models across top frequent image types in Figure 5. Across all types, GPT-4V consistently outperforms the other models by a huge margin. Open-source models demonstrate relatively strong performance in categories like Photos and Paintings, which are more frequently seen during training. However, for less common image categories like Geometric shapes, Music sheets and Chemical structures, all models obtain very low scores (some are close to random guesses). This indicates that the existing models are generalizing poorly towards these image types.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.825,
+      0.496,
+      0.901,
+      0.895
+    ],
+    "text": "Different Difficulty Levels. Table 3 compares the performance of selected models across three difficulty levels. GPT-4V demonstrates a significantly higher proficiency, with a success rate of 76.1%, compared to opensource models in the “Easy” category. When it comes to the “Medium” category, while the gap narrows, GPT-4V still leads at 55.6%. The further diminishing performance gap in the “Hard” category across models indicates that as the complexity of tasks increases, the advantage of more advanced models like GPT-4V almost disappears. This might reflect a current limitation in handling expert-level challenging queries even for the most advanced models.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-1",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.137,
+      0.257,
+      0.411
+    ],
+    "text": "Figure 6. Error distribution over 150 annotated GPT-4V errors.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.42,
+      0.076,
+      0.438,
+      0.379
+    ],
+    "text": "5. Error Analysis and Future Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.075,
+      0.628,
+      0.47
+    ],
+    "text": "In this section, we delve into the analysis of errors by GPT-4V, a pivotal aspect for understanding its operational capabilities and limitations. This analysis serves not only to identify the model’s current shortcomings but also to guide future enhancements in its design and training. We meticulously examine 150 randomly sampled error instances from GPT-4V’s predictions. These instances are analyzed by expert annotators who identify the root causes of mispredictions based on their knowledge and the golden explanations if available. The distribution of these errors is illustrated in Figure 6, and a selection of 100 notable cases, along with detailed analyses, is included in the Appendix.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.075,
+      0.901,
+      0.472
+    ],
+    "text": "Perceptual Errors (35%): Perceptual errors, forming the bulk of the inaccuracies in the GPT-4V model, are categorized into two types: basic perceptual errors and domainspecific perceptual errors. Basic perceptual errors, as depicted in Figure 7, occur when the model accurately processes and understands the given information but fails in elementary visual interpretation, such as misjudging the sequence described as “from left to right, top to bottom.” On the other hand, domain-specific perceptual errors occur due to the lack of knowledge. As we analyze the root cause, we classify such errors as lack of knowledge (see analysis below). Additionally, GPT-4V often exhibits a bias towards text, prioritizing textual information over visual inputs, a trend noted in recent studies [13]. A prominent",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-6",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_1.jpg",
+    "bbox_norm": [
+      0.088,
+      0.503,
+      0.333,
+      0.888
+    ],
+    "text": "Figure 7. A basic perceptual error, easy for humans but challenging for GPT-4V. More examples can be found in the Appendix.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.397,
+      0.5,
+      0.411,
+      0.676
+    ],
+    "text": "multimodal interpretation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.498,
+      0.641,
+      0.893
+    ],
+    "text": "Lack of Knowledge (29%): A fundamental root cause of ’domain-specific’ perceptual errors in the GPT-4V model, as previously discussed, is the lack of specialized knowledge. This deficiency is exemplified in the Computer Science context illustrated in Appendix Figure 84, where the model identifies visual elements such as double circles but fails to interpret them accurately within the domain-specific context, such as their representation of an ’accept state’ in Deterministic Finite Automata. Similarly, a deficit in specialized knowledge can lead to flawed reasoning, as demonstrated in the medical example in Appendix Figure 55. These instances underscore the necessity of enriching the training datasets of foundation models with a diverse range of domain-specific knowledge to improve their ac",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.642,
+      0.498,
+      0.794,
+      0.893
+    ],
+    "text": "Reasoning Errors (26%): Flawed reasoning emerges as another significant cause of errors. In instances where the model correctly interprets text and images and recalls relevant knowledge, it still often fails to apply logical and mathematical reasoning skills effectively to derive accurate inferences. A notable instance of this can be observed in Appendix Figure 46, where the model neglects an essential step in a mathematical reasoning process, leading to an incorrect conclusion. Enhancing the model’s reasoning capability is critical to address these shortcomings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.496,
+      0.901,
+      0.893
+    ],
+    "text": "Other Errors: The remaining errors include Textual Understanding Error (6%), Rejection to Answer (3%), Annotation Error (2%), and Answer Extraction Error (1%). These errors are attributed to various factors such as complex text interpretation challenges, limitations in response generation, inaccuracies in data annotation, and issues in extracting precise answers from longer outputs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.075,
+      0.152,
+      0.47
+    ],
+    "text": "In summary, our error analysis underlines the challenges posed by MMMU and highlights areas for further research in visual perception, knowledge representation, reasoning abilities, and multimodal joint understanding.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.169,
+      0.076,
+      0.185,
+      0.196
+    ],
+    "text": "6. Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.075,
+      0.347,
+      0.47
+    ],
+    "text": "The development of MMMU as a benchmark for assessing the capabilities of LMMs marks a significant milestone in the journey toward Expert AGI. MMMU not only tests the boundaries of what current LMMs can achieve in terms of basic perceptual skills but also evaluates their ability to handle complex reasoning and in-depth subject-specific knowledge. This approach directly contributes to our understanding of the progress towards Expert AGI, as it mirrors the kind of expertise and reasoning abilities expected of skilled adults in various professional fields.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.075,
+      0.545,
+      0.47
+    ],
+    "text": "Despite its comprehensive nature, MMMU, like any benchmark, is not without limitations. The manual curation process, albeit thorough, may carry biases. And the focus on college-level subjects might not fully be a sufficient test for Expert AGI as per the definition [44]. However, we believe it should be necessary for an Expert AGI to achieve strong performance on MMMU to demonstrate their broad and deep subject knowledge as well as expert-level understanding and reasoning capabilities. In future work, we plan to incorporate human evaluations into MMMU. This will provide a more grounded comparison between model capabilities and expert performance, shedding light on the proximity of current AI systems to achieving Expert AGI.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.078,
+      0.577,
+      0.174
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.587,
+      0.084,
+      0.613,
+      0.468
+    ],
+    "text": "[1] Blaise Aguera y Arcas and Peter Norvig. Artificial general ¨ intelligence is already here. Noema Magazine, 2023. 1 [2] Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katherine Millican, Malcolm Reynolds, et al. Flamingo: a visual language model for few-shot learning. In Advances in Neural Information Processing Systems, 2022. 3, 5, 6 [3] Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh. VQA: Visual Question Answering. In International Conference on Computer Vision (ICCV), 2015. 2, 3 [4] Anas Awadalla, Irena Gao, Josh Gardner, Jack Hessel, Yusuf Hanafy, Wanrong Zhu, Kalyani Marathe, Yonatan Bitton, Samir Gadre, Shiori Sagawa, et al. Openflamingo: An ope",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.109,
+      0.119,
+      0.467
+    ],
+    "text": "meets domain experts. arXiv preprint arXiv:2304.04370, 2023. 1 [18] Yash Goyal, Tejas Khot, Douglas Summers-Stay, Dhruv Batra, and Devi Parikh. Making the v in vqa matter: Elevating the role of image understanding in visual question answering. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6904–6913, 2017. 2, 3 [19] Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. Measuring massive multitask language understanding. In International Conference on Learning Representations, 2020. 2 [20] Yupan Huang, Zaiqiao Meng, Fangyu Liu, Yixuan Su, Collier Nigel, and Yutong Lu. Sparkles: Unlocking chats across multiple images for multimodal instruction-following models. arXiv preprint arXiv:2308.16463, 2023. 3 [",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.109,
+      0.119,
+      0.468
+    ],
+    "text": "benchmark requiring external knowledge. In Conference on Computer Vision and Pattern Recognition (CVPR), 2019. 3 [42] Gregoire Mialon, Cl ´ ementine Fourrier, Craig Swift, Thomas ´ Wolf, Yann LeCun, and Thomas Scialom. Gaia: a benchmark for general ai assistants. arXiv preprint arXiv:2311.12983, 2023. 1, 4 [43] Masoud Monajatipoor, Liunian Harold Li, Mozhdeh Rouhsedaghat, Lin F Yang, and Kai-Wei Chang. Metavl: Transferring in-context learning ability from language models to vision-language models. arXiv preprint arXiv:2306.01311, 2023. 3 [44] Meredith Ringel Morris, Jascha Sohl-dickstein, Noah Fiedel, Tris Warkentin, Allan Dafoe, Aleksandra Faust, Clement Farabet, and Shane Legg. Levels of agi: Operationalizing progress on the path to agi. arXiv preprint arXiv:2311.02462, 2023. 1, 3, 9 [45",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.078,
+      0.16,
+      0.468
+    ],
+    "text": "[67] Haozhe Zhao, Zefan Cai, Shuzheng Si, Xiaojian Ma, Kaikai An, Liang Chen, Zixuan Liu, Sheng Wang, Wenjuan Han, and Baobao Chang. Mmicl: Empowering vision-language model with multi-modal in-context learning. arXiv preprint arXiv:2309.07915, 2023. 3 [68] Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang, Chongxuan Li, Ngai-Man Cheung, and Min Lin. On evaluating adversarial robustness of large vision-language models. arXiv preprint arXiv:2305.16934, 2023. 4 [69] Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, and Nan Duan. Agieval: A human-centric benchmark for evaluating foundation models. arXiv preprint arXiv:2304.06364, 2023. 2 [70] Luowei Zhou, Hamid Palangi, Lei Zhang, Houdong Hu, Jason Corso, and Jianfeng Gao. Unified vision-language p",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.191,
+      0.162,
+      0.781
+    ],
+    "text": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI Supplementary Material",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.078,
+      0.196,
+      0.388
+    ],
+    "text": "Table of Contents in Appendix",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.076,
+      0.661,
+      0.47
+    ],
+    "text": "A. Breakdown Results on Different Subjects 14   \nA.1. Art & Design 14   \nA.2. Business 15   \nA.3. Science 16   \nA.4. Health & Medicine 17   \nA.5. Humanities & Social Science 18   \nA.6. Tech & Engineering 19   \nB. Case Study 20   \nC. Subfields of Different Subjects 110   \nD. Distributions of Image Types 110   \nE. Results on Different Image Types 110   \nF. Few-shot Results 113   \nG. Data Annotation Protocol 114   \nG.1. Data Collection 114   \nG.2. General Guidelines 114   \nG.3. Data Format and Structure 114   \nG.4. Quality Control and Validation 114   \nG.5. Handling Ambiguities 114   \nG.6. Ethical Considerations 114   \nG.7. Data Contamination Considerations 114   \nG.8. Example Questions 114   \nH. Author Contribution Statement 115   \nI. Version Change Log 117",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.076,
+      0.107,
+      0.45
+    ],
+    "text": "A. Breakdown Results on Different Subjects",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.114,
+      0.075,
+      0.146,
+      0.47
+    ],
+    "text": "In this appendix, we show breakdown results of different models on each discipline and subject.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.155,
+      0.076,
+      0.171,
+      0.222
+    ],
+    "text": "A.1. Art & Design",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-4",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.343,
+      0.173,
+      0.856,
+      0.795
+    ],
+    "text": "Table 4. Art & Design results of different models on the MMMU validation and test set. The best-performing model in each category is in-bold, and the second best is underlined. \\*: results provided by the authors.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:table-1",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_0.jpg",
+    "bbox_norm": [
+      0.344,
+      0.102,
+      0.854,
+      0.866
+    ],
+    "text": "Table 5. Business results of different models on the MMMU validation and test set. The best-performing model in each category is in-bold, and the second best is underlined. \\*: results provided by the authors.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-15:table-1",
+    "page_id": 15,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_15_Table_0.jpg",
+    "bbox_norm": [
+      0.344,
+      0.124,
+      0.854,
+      0.844
+    ],
+    "text": "Table 6. Science results of different models on the MMMU validation and test set. The best-performing model in each category is in-bold, and the second best is underlined. \\*: results provided by the authors.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:table-1",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_0.jpg",
+    "bbox_norm": [
+      0.344,
+      0.084,
+      0.854,
+      0.883
+    ],
+    "text": "Table 7. Health & Medicine results of different models on the MMMU validation and test set. The best-performing model in each category is in-bold, and the second best is underlined. \\*: results provided by the authors.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-17:table-1",
+    "page_id": 17,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_17_Table_0.jpg",
+    "bbox_norm": [
+      0.343,
+      0.145,
+      0.854,
+      0.823
+    ],
+    "text": "Table 8. Humanities & Social Science results of different models on the MMMU validation and test set. The best-performing model in each category is in-bold, and the second best is underlined. \\*: results provided by the authors.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-18:table-1",
+    "page_id": 18,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_18_Table_0.jpg",
+    "bbox_norm": [
+      0.344,
+      0.086,
+      0.854,
+      0.882
+    ],
+    "text": "Table 9. Tech & Engineering results of different models on the MMMU validation and test set. The best-performing model in each category is in-bold, and the second best is underlined. \\*: results provided by the authors.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.078,
+      0.107,
+      0.199
+    ],
+    "text": "B. Case Study",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.076,
+      0.148,
+      0.303
+    ],
+    "text": "List of Case Study Figures",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.15,
+      0.075,
+      0.905,
+      0.47
+    ],
+    "text": "8 Art 1: Correct Case 9 Art 2: Correct Case 22 23   \n10 Art 3: Perceptual Error 24   \n11 Art Theory 1: Correct Case 2 5   \n12 Art Theory 2: Correct Case 2 6   \n13 Art Theory 3: Lack of Knowledge 27   \n14 Design 1: Correct Case 28   \n15 Design 2: Perceptual Error 29   \n16 Design 3: Lack of Knowledge 30   \n17 Music 1: Correct Case 31   \n18 Music 2: Perceptual Error, Lack of Knowledge 3 2   \n19 Music 3: Perceptual Error 33   \n20 Accounting 1: Correct Case . 34   \n21 Accounting 2: Perceptual Error 3 5   \n22 Economics 1: Correct Case 36   \n23 Economics 2: Perceptual Error 3 7   \n24 Economics 3: Perceptual Error 3 8   \n25 Finance 1: Correct Case . 39   \n26 Finance 2: Reasoning Error 40   \n27 Manage 1: Correct Case 41   \n28 Manage 2: Perceptual Error 42   \n29 Marketing 1: Correct Case 4 3   \n30 M",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:table-1",
+    "page_id": 20,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_20_Table_0.jpg",
+    "bbox_norm": [
+      0.224,
+      0.106,
+      0.733,
+      0.862
+    ],
+    "text": "Table 10. Table index of case study figures by subjects with associated (error) categories.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-21:figure-1",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.231,
+      0.122,
+      0.71,
+      0.846
+    ],
+    "text": "Figure 8. A sample correct case of Art (subfield: Visual Arts). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.4,
+      0.309,
+      0.56
+    ],
+    "text": "Art: Photography",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.14,
+      0.349,
+      0.678
+    ],
+    "text": "Question: Which of the motion effect images in <image 1> is a 'panning blur'? Option:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.349,
+      0.142,
+      0.364,
+      0.222
+    ],
+    "text": "(A) Photo 1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.364,
+      0.142,
+      0.378,
+      0.222
+    ],
+    "text": "(B) Photo 2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.378,
+      0.142,
+      0.392,
+      0.222
+    ],
+    "text": "(C) Photo 3",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-6",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.392,
+      0.142,
+      0.409,
+      0.297
+    ],
+    "text": "(D) None of the above",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-7",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.421,
+      0.14,
+      0.529,
+      0.225
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:figure-8",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_1.jpg",
+    "bbox_norm": [
+      0.422,
+      0.227,
+      0.536,
+      0.397
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:figure-9",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_2.jpg",
+    "bbox_norm": [
+      0.421,
+      0.398,
+      0.54,
+      0.571
+    ],
+    "text": "<image 1>",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-10",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.137,
+      0.625,
+      0.83
+    ],
+    "text": "GPT-4V: The image labeled '3' demonstrates a 'panning blur' effect, where the camera follows the moving subject at the same speed, causing the subject to appear relatively sharp while the background becomes blurred. This technique emphasizes the speed and direction of the moving subject.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-11",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.14,
+      0.652,
+      0.331
+    ],
+    "text": "Ground Truth: (C) Photo 3",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:figure-1",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_0.jpg",
+    "bbox_norm": [
+      0.21,
+      0.12,
+      0.731,
+      0.846
+    ],
+    "text": "Figure 10. A sample error case of Art (subfield: Fine Arts). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:figure-1",
+    "page_id": 24,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_24_Figure_0.jpg",
+    "bbox_norm": [
+      0.289,
+      0.12,
+      0.651,
+      0.848
+    ],
+    "text": "Figure 11. A sample correct case of Art Theory (subfield: Art History). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-25:figure-1",
+    "page_id": 25,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_25_Figure_0.jpg",
+    "bbox_norm": [
+      0.189,
+      0.129,
+      0.75,
+      0.843
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:table-1",
+    "page_id": 26,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_26_Table_0.jpg",
+    "bbox_norm": [
+      0.137,
+      0.125,
+      0.803,
+      0.848
+    ],
+    "text": "Figure 13. A sample error case of Art Theory (subfield: Art History). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-27:figure-1",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_0.jpg",
+    "bbox_norm": [
+      0.284,
+      0.122,
+      0.656,
+      0.848
+    ],
+    "text": "Figure 14. A sample correct case of Design (subfield: Industrial Design). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-28:figure-1",
+    "page_id": 28,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_28_Figure_0.jpg",
+    "bbox_norm": [
+      0.159,
+      0.129,
+      0.805,
+      0.839
+    ],
+    "text": "Figure 15. A sample error case of Design (subfield: Design History). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:text-1",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.194,
+      0.142,
+      0.209,
+      0.325
+    ],
+    "text": "(A) barrel-vaulted roofing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-2",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.14,
+      0.223,
+      0.398
+    ],
+    "text": "(B) decorative rhythm and repetition",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-3",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.14,
+      0.238,
+      0.49
+    ],
+    "text": "(C) a higher roof to make up for the short columns",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-4",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.14,
+      0.252,
+      0.447
+    ],
+    "text": "(D) the entrance of light and air into the hall",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:figure-5",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_0.jpg",
+    "bbox_norm": [
+      0.268,
+      0.133,
+      0.452,
+      0.446
+    ],
+    "text": "<image 1>",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:text-6",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.137,
+      0.544,
+      0.831
+    ],
+    "text": "GPT-4V: The double-tiered columns in the image provided would allow for: (A) barrel-vaulted roofing (B) decorative rhythm and repetition (C) a higher roof to make up for the short columns. However, the double-tiered columns would not directly affect: (D) the entrance of light and air into the hall. So the correct answer is (D) the entrance of light and air into the hall.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-7",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.138,
+      0.578,
+      0.397
+    ],
+    "text": "Error Category: Lack of Knowledge",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-8",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.575,
+      0.137,
+      0.666,
+      0.831
+    ],
+    "text": "Error Reason: The error reason is a lack of specific subject knowledge: the incorrect response suggests that double-tiered columns would not affect the entrance of light and air, which is not necessarily true. Architecturally, double-tiered columns do not prevent light and air from entering; such features are more influenced by the building's windows and overall design rather than the column structure itself. The correct answer should be that double-tiered columns would not allow for barrel-vaulted roofing, as the Mezquita features flat ceilings above the arches.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-9",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.683,
+      0.14,
+      0.7,
+      0.437
+    ],
+    "text": "Ground Truth: (A) barrel-vaulted roofing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-10",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.137,
+      0.818,
+      0.831
+    ],
+    "text": "Explanation: The double-tiered columns depicted in the image, characteristic of Islamic architecture like that found in the Mosque-Cathedral of Córdoba, are not designed to support a barrel-vaulted roof; instead, they serve other purposes. These arches create a visually striking pattern of rhythm and repetition, elevate the roofline by stacking arches, which compensates for the shorter columns, and contribute to the structure's stability. However, they are not related to the entrance of light and air, which is typically managed by windows, nor are they structurally supportive of a barrelvaulted roof, as their design and construction cater to a flat roofing system. Hence, the correct answer is \"barrel-vaulted roofing,\" as it is the element not facilitated by the double-tiered columns.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-11",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.842,
+      0.14,
+      0.872,
+      0.764
+    ],
+    "text": "Figure 16. A sample error case of Design (subfield: Design History). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-2",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.138,
+      0.606,
+      0.833
+    ],
+    "text": "GPT-4V: The correct tuning for a violin is shown in the first image. The violin is typically tuned to the pitches G3, D4, A4, and E5, starting from the lowest string to the highest. In the image, the Gclef (treble clef) is used for the E and A strings, while the C-clef (alto clef) is used for the D string, and the F-clef (bass clef) for the G string. This notation is a way to visually represent the correct tuning pitches for the violin's four strings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-3",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.656,
+      0.302,
+      0.685,
+      0.665
+    ],
+    "text": "Figure 17. A sample correct case of Music (subfield: Music). Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:figure-1",
+    "page_id": 31,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_31_Figure_0.jpg",
+    "bbox_norm": [
+      0.256,
+      0.12,
+      0.684,
+      0.844
+    ],
+    "text": "Figure 18. A sample error case of Music (subfield: Music). Error category: Perceptual Error, Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-32:figure-1",
+    "page_id": 32,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_32_Figure_0.jpg",
+    "bbox_norm": [
+      0.104,
+      0.122,
+      0.837,
+      0.848
+    ],
+    "text": "Figure 19. A sample error case of Music (subfield: Music). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-33:figure-1",
+    "page_id": 33,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_33_Figure_0.jpg",
+    "bbox_norm": [
+      0.156,
+      0.12,
+      0.784,
+      0.846
+    ],
+    "text": "Figure 20. A sample correct case of Accounting (subfield: Investment). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-34:figure-1",
+    "page_id": 34,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_34_Figure_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.122,
+      0.839,
+      0.848
+    ],
+    "text": "Figure 21. A sample error case of Accounting (subfield: Financial Accounting). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-35:figure-1",
+    "page_id": 35,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_35_Figure_0.jpg",
+    "bbox_norm": [
+      0.213,
+      0.122,
+      0.727,
+      0.848
+    ],
+    "text": "Figure 22. A sample correct case of Economics (subfield: Econometrics). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:figure-1",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_0.jpg",
+    "bbox_norm": [
+      0.14,
+      0.12,
+      0.823,
+      0.843
+    ],
+    "text": "Figure 23. A sample error case of Economics (subfield: Macroeconomics). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-37:figure-1",
+    "page_id": 37,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_37_Figure_0.jpg",
+    "bbox_norm": [
+      0.253,
+      0.122,
+      0.688,
+      0.848
+    ],
+    "text": "Figure 24. A sample error case of Economics (subfield: Macroeconomics). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-38:figure-1",
+    "page_id": 38,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_38_Figure_0.jpg",
+    "bbox_norm": [
+      0.194,
+      0.122,
+      0.75,
+      0.848
+    ],
+    "text": "Figure 25. A sample correct case of Finance (subfield: Corporate Finance). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-39:figure-1",
+    "page_id": 39,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_39_Figure_0.jpg",
+    "bbox_norm": [
+      0.18,
+      0.122,
+      0.761,
+      0.843
+    ],
+    "text": "Figure 26. A sample error case of Finance (subfield: Financial Marketing). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-40:text-1",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.131,
+      0.137,
+      0.335,
+      0.831
+    ],
+    "text": "Question: Eastern Chemical Company produces three products. The operating results of the current year are: <image 1> The firm sets the target price of each product at 150% of the product's total manufacturing cost. It appears that the firm was able to sell Product C at a much higher price than the target price of the product and lost money on Product B. Tom Watson, CEO, wants to promote Product C much more aggressively and phase out Product B. He believes that the information suggests that Product C has the greatest potential among the firm's three products because the actual selling price of Product C was almost 50% higher than the target price, while the firm was forced to sell Product B at a price below the target price. Both the budgeted and actual factory overhead for the current year",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:table-2",
+    "page_id": 40,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_40_Table_0.jpg",
+    "bbox_norm": [
+      0.34,
+      0.133,
+      0.388,
+      0.439
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-40:table-3",
+    "page_id": 40,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_40_Table_1.jpg",
+    "bbox_norm": [
+      0.34,
+      0.452,
+      0.388,
+      0.694
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-40:table-4",
+    "page_id": 40,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_40_Table_2.jpg",
+    "bbox_norm": [
+      0.406,
+      0.132,
+      0.472,
+      0.441
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-40:figure-5",
+    "page_id": 40,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_40_Figure_0.jpg",
+    "bbox_norm": [
+      0.337,
+      0.129,
+      0.825,
+      0.833
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-40:text-6",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.137,
+      0.839,
+      0.281
+    ],
+    "text": "Ground Truth: \\$190",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-7",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.861,
+      0.261,
+      0.89,
+      0.707
+    ],
+    "text": "Figure 27. A sample correct case of Manage (subfield: Cost Management). Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:figure-1",
+    "page_id": 41,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_41_Figure_0.jpg",
+    "bbox_norm": [
+      0.205,
+      0.122,
+      0.737,
+      0.848
+    ],
+    "text": "Figure 28. A sample error case of Manage (subfield: Management Models). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-42:figure-1",
+    "page_id": 42,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_42_Figure_0.jpg",
+    "bbox_norm": [
+      0.271,
+      0.124,
+      0.67,
+      0.846
+    ],
+    "text": "Figure 29. A sample correct case of Marketing (subfield: Market Research). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:figure-1",
+    "page_id": 43,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_43_Figure_0.jpg",
+    "bbox_norm": [
+      0.186,
+      0.12,
+      0.753,
+      0.848
+    ],
+    "text": "Figure 30. A sample error case of Marketing (subfield: Market Research). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-44:figure-1",
+    "page_id": 44,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_44_Figure_0.jpg",
+    "bbox_norm": [
+      0.215,
+      0.143,
+      0.25,
+      0.186
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-44:text-2",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.398,
+      0.243,
+      0.562
+    ],
+    "text": "Biology: Genetics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-3",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.142,
+      0.325,
+      0.205
+    ],
+    "text": "(A) True",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:figure-4",
+    "page_id": 44,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_44_Figure_1.jpg",
+    "bbox_norm": [
+      0.359,
+      0.133,
+      0.488,
+      0.446
+    ],
+    "text": "<image 1>",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-44:text-5",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.137,
+      0.686,
+      0.831
+    ],
+    "text": "GPT-4V: The given pedigree shows the pattern of inheritance of a particular trait or disease. Let's analyze the pedigree to determine the mode of inheritance: Circles represent females, and squares represent males. Filled symbols (circles or squares) indicate individuals affected by the disease, and unfilled symbols indicate unaffected individuals. For the trait to be autosomal recessive: Both parents must be carriers to have an affected offspring. It should not skip generations unless both parents are carriers and just don't show the trait. From the pedigree, we see that: Individuals 3 and 12 are affected. This means both their parents (2 and 4 for individual 3, and 6 and 7 for individual 12) must be carriers. Individual 18's parents (15 and 17) are both unaffected. If individual 18 is a ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-6",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.699,
+      0.14,
+      0.717,
+      0.312
+    ],
+    "text": "Ground Truth: (A) True",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:figure-1",
+    "page_id": 45,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_45_Figure_0.jpg",
+    "bbox_norm": [
+      0.224,
+      0.122,
+      0.717,
+      0.844
+    ],
+    "text": "Figure 32. A sample correct case of Biology (subfield: Physiology). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-46:table-1",
+    "page_id": 46,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_46_Table_0.jpg",
+    "bbox_norm": [
+      0.099,
+      0.12,
+      0.843,
+      0.848
+    ],
+    "text": "Figure 33. A sample error case of Biology (subfield: Genetics). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-47:table-1",
+    "page_id": 47,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_47_Table_0.jpg",
+    "bbox_norm": [
+      0.155,
+      0.12,
+      0.786,
+      0.846
+    ],
+    "text": "Figure 34. A sample error case of Biology (subfield: Genetics). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-48:figure-1",
+    "page_id": 48,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_48_Figure_0.jpg",
+    "bbox_norm": [
+      0.203,
+      0.12,
+      0.738,
+      0.848
+    ],
+    "text": "Figure 35. A sample error case of Biology (subfield: Evolution). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-49:text-1",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.229,
+      0.138,
+      0.319,
+      0.686
+    ],
+    "text": "Question: The configuration at C-2 and C-3 of the compound given: <image 1>   \nOption:   \n(A) 2R, 3S   \n(B) 2S, 3R   \n(C) 2S, 3S   \n(D) 2R, 3R",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:figure-2",
+    "page_id": 49,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_49_Figure_0.jpg",
+    "bbox_norm": [
+      0.327,
+      0.135,
+      0.454,
+      0.33
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-49:equation-3",
+    "page_id": 49,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_49_Equation_0.jpg",
+    "bbox_norm": [
+      0.59,
+      0.338,
+      0.604,
+      0.426
+    ],
+    "text": "$$\n( \\mathrm { C a r b o n } = 6 ,\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-49:text-4",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.728,
+      0.14,
+      0.744,
+      0.323
+    ],
+    "text": "Ground Truth: (A) 2R, 3S",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-5",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.765,
+      0.251,
+      0.794,
+      0.715
+    ],
+    "text": "Figure 36. A sample correct case of Chemistry (subfield: Organic Chemistry). Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:figure-1",
+    "page_id": 50,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_50_Figure_0.jpg",
+    "bbox_norm": [
+      0.287,
+      0.122,
+      0.654,
+      0.848
+    ],
+    "text": "Figure 37. A sample correct case of Chemistry (subfield: Organic Chemistry). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-51:table-1",
+    "page_id": 51,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_51_Table_0.jpg",
+    "bbox_norm": [
+      0.154,
+      0.12,
+      0.786,
+      0.844
+    ],
+    "text": "Figure 38. A sample error case of Chemistry (subfield: Inorganic Chemistry). Error category: Perceptual Error, Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-52:figure-1",
+    "page_id": 52,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_52_Figure_0.jpg",
+    "bbox_norm": [
+      0.203,
+      0.122,
+      0.738,
+      0.846
+    ],
+    "text": "Figure 39. A sample error case of Chemistry (subfield: Inorganic Chemistry). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-53:figure-1",
+    "page_id": 53,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_53_Figure_0.jpg",
+    "bbox_norm": [
+      0.224,
+      0.124,
+      0.717,
+      0.848
+    ],
+    "text": "Figure 40. A sample correct case of Geography (subfield: Human Geography). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-54:figure-1",
+    "page_id": 54,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_54_Figure_0.jpg",
+    "bbox_norm": [
+      0.196,
+      0.12,
+      0.744,
+      0.848
+    ],
+    "text": "Figure 41. A sample error case of Geography (subfield: Physical Geography). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-55:figure-1",
+    "page_id": 55,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_55_Figure_0.jpg",
+    "bbox_norm": [
+      0.16,
+      0.124,
+      0.781,
+      0.849
+    ],
+    "text": "Figure 42. A sample error case of Geography (subfield: Physical Geography). Error category: Perceptual Error, Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-56:table-1",
+    "page_id": 56,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_56_Table_0.jpg",
+    "bbox_norm": [
+      0.199,
+      0.127,
+      0.724,
+      0.844
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-57:figure-1",
+    "page_id": 57,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_57_Figure_0.jpg",
+    "bbox_norm": [
+      0.171,
+      0.12,
+      0.77,
+      0.846
+    ],
+    "text": "Figure 44. A sample error case of Math (subfield: Graph Theory). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-58:text-1",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.148,
+      0.137,
+      0.253,
+      0.833
+    ],
+    "text": "Question: In circle O shown in the diagram below, chords A and $\\overline { { C D } }$ are parallel <image 1> If   \nm ⌢ AB = 104 and m ⌢ CD 168, what is m m⌢BD ?   \nOption:   \n(A) 38   \n(B) 44   \n(C) 88   \n(D) 96",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:figure-2",
+    "page_id": 58,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_58_Figure_0.jpg",
+    "bbox_norm": [
+      0.267,
+      0.132,
+      0.419,
+      0.379
+    ],
+    "text": "<image 1>",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-58:text-3",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.45,
+      0.138,
+      0.656,
+      0.831
+    ],
+    "text": "GPT-4V: Using the properties of inscribed angles and their intercepted arcs, we can deduce: The measure of an inscribed angle is half the measure of its intercepted arc.When two chords are parallel, the inscribed angles that intercept the same arc are congruent.From the given information:m∠ $\\mathrm { . A O B } = 1 _ { / 2 } \\mathrm { m } { \\stackrel { - } { \\longrightarrow } } \\mathrm { A B } = 1 / _ { 2 } ( 1 0 4 ) = { \\bar { 5 2 } } ^ { \\circ } , \\mathrm { m } \\angle \\mathrm { C O D } = 1 _ { / 2 } \\mathrm { m } { \\longrightarrow } \\mathrm { C D } = 1 _ { / 2 } { \\bar { ( } } 1 6 8 ) = 8 4 ^ { \\circ }$ . Since chords AB and CD are parallel, m∠AOB = m∠COD, but we've just shown that m∠AOB is 52°, which means that our diagram or understanding has an inconsistency because m∠COD is given as ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-4",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.14,
+      0.686,
+      0.464
+    ],
+    "text": "Error Category: Textual Understanding Error",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-5",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.138,
+      0.804,
+      0.833
+    ],
+    "text": "Error Reason: GPT-4V does not correctly understand the symbols and terminology in mathematics or geometry. In this question, it incorrectly interprets m ⌢ AB = 104 as the measure of an inscribed angle, when the correct interpretation should be the measure of an arc or a central angle. Therefore, the angle represented in the question, ∠AOB, is 104 degrees, and ∠COD is 168 degrees. Since the concept is confused right from the start, GPT4-V does not derive the correct answer in the subsequent calculations. The key to the question is to determine the angle of BOD, which is equal to the angle AOC by using the condition of parallel lines. Then, by subtracting the two given angles from 360 degrees and dividing by two, we can obtain the correct answer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-6",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.14,
+      0.829,
+      0.294
+    ],
+    "text": "Ground Truth: (B) 44",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-7",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.851,
+      0.135,
+      0.88,
+      0.772
+    ],
+    "text": "Figure 45. A sample error case of Math (subfield: Geometry). Error category: Textual Understanding Error Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-1",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.101,
+      0.119,
+      0.839,
+      0.846
+    ],
+    "text": "Figure 46. A sample error case of Math (subfield: Calculus). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-60:figure-1",
+    "page_id": 60,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_60_Figure_0.jpg",
+    "bbox_norm": [
+      0.279,
+      0.122,
+      0.664,
+      0.848
+    ],
+    "text": "Figure 47. A sample correct case of Physics (subfield: Classical Mechanics). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-61:table-1",
+    "page_id": 61,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_61_Table_0.jpg",
+    "bbox_norm": [
+      0.157,
+      0.12,
+      0.785,
+      0.846
+    ],
+    "text": "Figure 48. A sample error case of Physics (subfield: Optics). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-62:figure-1",
+    "page_id": 62,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_62_Figure_0.jpg",
+    "bbox_norm": [
+      0.262,
+      0.122,
+      0.678,
+      0.848
+    ],
+    "text": "Figure 49. A sample correct case of Basic Medical Science (subfield: Pathophysiology). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-63:figure-1",
+    "page_id": 63,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_63_Figure_0.jpg",
+    "bbox_norm": [
+      0.25,
+      0.122,
+      0.691,
+      0.848
+    ],
+    "text": "Figure 50. A sample error case of Basic Medical Science (subfield: Cardiovascular Physiology). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:figure-1",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_0.jpg",
+    "bbox_norm": [
+      0.242,
+      0.122,
+      0.699,
+      0.846
+    ],
+    "text": "Figure 51. A sample correct case of Clinical Medicine (subfield: Pathology). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-65:figure-1",
+    "page_id": 65,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_65_Figure_0.jpg",
+    "bbox_norm": [
+      0.18,
+      0.12,
+      0.76,
+      0.846
+    ],
+    "text": "Figure 52. A sample correct case of Clinical Medicine (subfield: Pathology). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-66:figure-1",
+    "page_id": 66,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_66_Figure_0.jpg",
+    "bbox_norm": [
+      0.22,
+      0.124,
+      0.719,
+      0.846
+    ],
+    "text": "Figure 53. A sample correct case of Clinical Medicine (subfield: Pathology). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-67:table-1",
+    "page_id": 67,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_67_Table_0.jpg",
+    "bbox_norm": [
+      0.146,
+      0.132,
+      0.821,
+      0.841
+    ],
+    "text": "Figure 54. A sample error case of Clinical Medicine (subfield: Pathology). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-68:table-1",
+    "page_id": 68,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_68_Table_0.jpg",
+    "bbox_norm": [
+      0.272,
+      0.137,
+      0.42,
+      0.433
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-68:figure-2",
+    "page_id": 68,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_68_Figure_0.jpg",
+    "bbox_norm": [
+      0.118,
+      0.125,
+      0.848,
+      0.839
+    ],
+    "text": "Figure 55. A sample error case of Clinical Medicine (subfield: Heart Disease). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-69:figure-1",
+    "page_id": 69,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_69_Figure_0.jpg",
+    "bbox_norm": [
+      0.282,
+      0.122,
+      0.665,
+      0.848
+    ],
+    "text": "Figure 56. A sample correct case of Diagnostics and Laboratory Medicine (subfield: Radiology). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-70:figure-1",
+    "page_id": 70,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_70_Figure_0.jpg",
+    "bbox_norm": [
+      0.232,
+      0.12,
+      0.712,
+      0.848
+    ],
+    "text": "Figure 57. A sample error case of Diagnostics and Laboratory Medicine (subfield: Neuropathology). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-71:table-1",
+    "page_id": 71,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_71_Table_0.jpg",
+    "bbox_norm": [
+      0.106,
+      0.122,
+      0.825,
+      0.848
+    ],
+    "text": "Figure 58. A sample error case of Diagnostics and Laboratory Medicine (subfield: Ophthalmic Pathology). Error category: Reject to Answer Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-72:figure-1",
+    "page_id": 72,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_72_Figure_0.jpg",
+    "bbox_norm": [
+      0.218,
+      0.122,
+      0.727,
+      0.846
+    ],
+    "text": "Figure 59. A sample error case of Diagnostics and Laboratory Medicine (subfield: Electrocardiography). Error category: Perceptual Error, Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-73:equation-1",
+    "page_id": 73,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_73_Equation_0.jpg",
+    "bbox_norm": [
+      0.247,
+      0.142,
+      0.262,
+      0.218
+    ],
+    "text": "$$\n\\mathrm { ( N H _ { 4 } ) _ { 2 } S O _ { 4 } } ,\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-73:equation-2",
+    "page_id": 73,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_73_Equation_1.jpg",
+    "bbox_norm": [
+      0.233,
+      0.246,
+      0.246,
+      0.292
+    ],
+    "text": "$$\n^ { 4 0 , 0 0 0 }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-73:equation-3",
+    "page_id": 73,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_73_Equation_2.jpg",
+    "bbox_norm": [
+      0.247,
+      0.269,
+      0.262,
+      0.33
+    ],
+    "text": "$$\n{ \\mathrm { K H } } _ { 2 } { \\mathrm { P O } } _ { 4 } ,\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-73:equation-4",
+    "page_id": 73,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_73_Equation_3.jpg",
+    "bbox_norm": [
+      0.247,
+      0.367,
+      0.262,
+      0.436
+    ],
+    "text": "$$\n{ \\mathrm { N a } } _ { 2 } { \\mathrm { H P O } } _ { 4 } .\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-74:table-1",
+    "page_id": 74,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_74_Table_0.jpg",
+    "bbox_norm": [
+      0.094,
+      0.129,
+      0.848,
+      0.839
+    ],
+    "text": "Figure 61. A sample error case of Pharmacy (subfield: Pharmacology and Drug Synthesis). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-75:figure-1",
+    "page_id": 75,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_75_Figure_0.jpg",
+    "bbox_norm": [
+      0.097,
+      0.122,
+      0.848,
+      0.844
+    ],
+    "text": "Figure 62. A sample error case of Pharmacy (subfield: Pharmacology and Drug Synthesis). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-76:text-1",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.268,
+      0.348,
+      0.29,
+      0.611
+    ],
+    "text": "Public Health: Epidemiology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-2",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.14,
+      0.375,
+      0.83
+    ],
+    "text": "Question: An outbreak of gastrointestinal disease occurred 24-36 hours after people had attended a wedding. Of the 203 attendees (including the bride and groom), 200 completed questionnaires, and 50 reported illness compatible with the case definition. Tabulated food consumption histories are presented in the table below. The most appropriate measure of association for these data is the: Option:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-3",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.373,
+      0.142,
+      0.388,
+      0.339
+    ],
+    "text": "(A) Attributable risk percent",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-4",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.142,
+      0.404,
+      0.246
+    ],
+    "text": "(B) Chi-square",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-5",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.142,
+      0.416,
+      0.245
+    ],
+    "text": "(C) Odds ratio",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-6",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.142,
+      0.431,
+      0.236
+    ],
+    "text": "(D) Risk ratio",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:table-7",
+    "page_id": 76,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_76_Table_0.jpg",
+    "bbox_norm": [
+      0.443,
+      0.133,
+      0.522,
+      0.684
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-76:text-8",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.522,
+      0.375,
+      0.536,
+      0.444
+    ],
+    "text": "<image 1>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-9",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.138,
+      0.637,
+      0.83
+    ],
+    "text": "GPT-4V: Based on the information provided, you're trying to determine the relationship between the consumption of a particular food item and the risk of developing gastrointestinal disease among wedding attendees. In this type of scenario, where you are comparing the risk of disease between those exposed (ate the food) and those not exposed (did not eat the food), the appropriate measure of association is the:(D) Risk ratio (also known as relative risk).The risk ratio compares the risk of disease in the exposed group to the risk of disease in the unexposed group.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-10",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.651,
+      0.14,
+      0.669,
+      0.356
+    ],
+    "text": "Ground Truth: (B) Chi-square",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-77:table-1",
+    "page_id": 77,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_77_Table_0.jpg",
+    "bbox_norm": [
+      0.122,
+      0.125,
+      0.819,
+      0.848
+    ],
+    "text": "Figure 64. A sample error case of Public Health (subfield: Epidemiology). Error category: Textual Understanding Error Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-78:table-1",
+    "page_id": 78,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_78_Table_0.jpg",
+    "bbox_norm": [
+      0.111,
+      0.124,
+      0.833,
+      0.848
+    ],
+    "text": "Figure 65. A sample error case of Public Health (subfield: Epidemiology). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-80:text-1",
+    "page_id": 80,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.374,
+      0.199,
+      0.584
+    ],
+    "text": "History: World History",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-80:text-2",
+    "page_id": 80,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.138,
+      0.256,
+      0.83
+    ],
+    "text": "Question: A historian researching the economic history of Eurasia in the period circa 600-1450 c.e. would most likely find the two tables (<image 1> and <image 2>) useful as a source of information about which of the following?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-80:text-3",
+    "page_id": 80,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.14,
+      0.268,
+      0.2
+    ],
+    "text": "Option:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-80:text-4",
+    "page_id": 80,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.14,
+      0.284,
+      0.602
+    ],
+    "text": "(A) The diffusion of cultural traditions along Eurasian trade routes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-80:text-5",
+    "page_id": 80,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.282,
+      0.14,
+      0.297,
+      0.617
+    ],
+    "text": "(B) The spread of technological innovations across regions in Eurasia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-80:text-6",
+    "page_id": 80,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.14,
+      0.311,
+      0.619
+    ],
+    "text": "(C) The geographic extent of the monetization of Eurasian economies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-80:text-7",
+    "page_id": 80,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.14,
+      0.342,
+      0.83
+    ],
+    "text": "(D) The extent to which government economic policies in Eurasia in the period 600-1450 represented a continuity of earlier policies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-80:figure-8",
+    "page_id": 80,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_80_Figure_0.jpg",
+    "bbox_norm": [
+      0.348,
+      0.135,
+      0.483,
+      0.452
+    ],
+    "text": "<image 1>",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-80:figure-9",
+    "page_id": 80,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_80_Figure_1.jpg",
+    "bbox_norm": [
+      0.347,
+      0.46,
+      0.482,
+      0.766
+    ],
+    "text": "<image 2> GPT-4V: The tables provide information on the origin of coins found in buried caches in different regions and their approximate dates. This kind of information indicates where coins from different regions and time periods ended up, which suggests patterns of trade or movement of goods, services, and people. Given the options:(A) The diffusion of cultural traditions along Eurasian trade routes: While the movement of coins can suggest trade routes and interactions between different regions, it does not directly provide information about the diffusion of cultural traditions. (B) The spread of technological innovations across regions in Eurasia: The tables do not specifically address technological innovations. (C) The geographic extent of the monetization of Eurasian economies: The p",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-80:text-10",
+    "page_id": 80,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.138,
+      0.762,
+      0.741
+    ],
+    "text": "Ground Truth: (C) The geographic extent of the monetization of Eurasian economies.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-81:table-1",
+    "page_id": 81,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_81_Table_0.jpg",
+    "bbox_norm": [
+      0.148,
+      0.124,
+      0.79,
+      0.846
+    ],
+    "text": "Figure 68. A sample error case of History (subfield: Modern History). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-82:figure-1",
+    "page_id": 82,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_82_Figure_0.jpg",
+    "bbox_norm": [
+      0.155,
+      0.122,
+      0.785,
+      0.848
+    ],
+    "text": "Figure 69. A sample error case of History (subfield: World History). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-83:figure-1",
+    "page_id": 83,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_83_Figure_0.jpg",
+    "bbox_norm": [
+      0.258,
+      0.142,
+      0.292,
+      0.186
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-83:figure-2",
+    "page_id": 83,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_83_Figure_1.jpg",
+    "bbox_norm": [
+      0.405,
+      0.135,
+      0.565,
+      0.4
+    ],
+    "text": "Figure 70. A sample correct case of Literature (subfield: Contemporary Literature). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-84:figure-1",
+    "page_id": 84,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_84_Figure_0.jpg",
+    "bbox_norm": [
+      0.236,
+      0.12,
+      0.719,
+      0.848
+    ],
+    "text": "Figure 71. A sample error case of Literature (subfield: Comparative Literature). Error category: Perceptual Error",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-85:figure-1",
+    "page_id": 85,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_85_Figure_0.jpg",
+    "bbox_norm": [
+      0.185,
+      0.12,
+      0.756,
+      0.848
+    ],
+    "text": "Figure 72. A sample correct case of Sociology (subfield: Sociology Theory). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-86:figure-1",
+    "page_id": 86,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_86_Figure_0.jpg",
+    "bbox_norm": [
+      0.184,
+      0.122,
+      0.758,
+      0.846
+    ],
+    "text": "Figure 73. A sample error case of Sociology (subfield: Comparative Literature). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-87:text-1",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.323,
+      0.16,
+      0.637
+    ],
+    "text": "Psychology: Biological Psychology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-87:text-2",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.17,
+      0.138,
+      0.335,
+      0.83
+    ],
+    "text": "Question: Described by the psychologist B. F. Skinner, operant conditioning posits that learning can be understood by the interaction between reinforcers and stimuli. Studies from both comparative and human psychology have supported Skinner's initial findings and expanded upon them. The following figure shows a hypothetical example of various operant conditioning trials. During these trials, when a rat pressed a bar (as indicated by the hash mark on the graph), the behavior was reinforced by the presentation of a food pellet. The reinforcement schedule differs in each cell of the figure. Time is displayed on the x-axis and cumulative responses (bar presses) is displayed on the y-axis. ([image 1]) Imagine that you are watching a rat complete one of the tasks in the figure above. The rat is ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-87:text-3",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.329,
+      0.142,
+      0.343,
+      0.2
+    ],
+    "text": "Option:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-87:text-4",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.343,
+      0.142,
+      0.358,
+      0.284
+    ],
+    "text": "(A) variable-interval",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-87:text-5",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.357,
+      0.142,
+      0.372,
+      0.263
+    ],
+    "text": "(B) variable-ratio",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-87:text-6",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.371,
+      0.142,
+      0.386,
+      0.263
+    ],
+    "text": "(C) fixed-interval",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-87:text-7",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.386,
+      0.142,
+      0.401,
+      0.245
+    ],
+    "text": "(D) fixed-ratio",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-87:figure-8",
+    "page_id": 87,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_87_Figure_0.jpg",
+    "bbox_norm": [
+      0.406,
+      0.135,
+      0.66,
+      0.516
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-87:text-9",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.137,
+      0.763,
+      0.831
+    ],
+    "text": "GPT-4V: The graph corresponds to operant conditioning schedules. The pattern of high-rate bar pressing and short breaks after reinforcement suggests a Fixed Ratio schedule, shown in the top left quadrant. Here, reinforcement is given after a set number of responses, which is reflected in the steep inclines followed by drops on the graph. The rat's behavior—rapid pressing until receiving a pellet, then pausing—matches this schedule, indicating it understands that a specific number of presses leads to a reward, thus causing the observed high response rate followed by a break.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-87:text-10",
+    "page_id": 87,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.78,
+      0.14,
+      0.797,
+      0.352
+    ],
+    "text": "Ground Truth: (D) fixed-ratio",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-88:figure-1",
+    "page_id": 88,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_88_Figure_0.jpg",
+    "bbox_norm": [
+      0.094,
+      0.124,
+      0.848,
+      0.844
+    ],
+    "text": "Figure 75. A sample error case of Psychology (subfield: Clinical Psychology). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-89:figure-1",
+    "page_id": 89,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_89_Figure_0.jpg",
+    "bbox_norm": [
+      0.238,
+      0.122,
+      0.713,
+      0.843
+    ],
+    "text": "Agriculture : Plant Biodiversity and Biotechnology Figure 76. A sample correct case of Agriculture (subfield: Plant Biodiversity and Biotechnology). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-90:figure-1",
+    "page_id": 90,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_90_Figure_0.jpg",
+    "bbox_norm": [
+      0.169,
+      0.122,
+      0.773,
+      0.848
+    ],
+    "text": "Figure 77. A sample error case of Agriculture (subfield: Animal Anatomy). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-91:figure-1",
+    "page_id": 91,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_91_Figure_0.jpg",
+    "bbox_norm": [
+      0.247,
+      0.122,
+      0.695,
+      0.848
+    ],
+    "text": "Figure 78. A sample error case of Agriculture (subfield: Plant Physiology). Error category: Perceptual Error. Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-92:figure-1",
+    "page_id": 92,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_92_Figure_0.jpg",
+    "bbox_norm": [
+      0.215,
+      0.122,
+      0.726,
+      0.846
+    ],
+    "text": "Figure 79. A sample error case of Agriculture (subfield: Plant Physiology). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-93:figure-1",
+    "page_id": 93,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_93_Figure_0.jpg",
+    "bbox_norm": [
+      0.186,
+      0.119,
+      0.767,
+      0.846
+    ],
+    "text": "Figure 80. A sample correct case of Architecture and Engineering (subfield: Surveying and Mapping). Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-94:text-1",
+    "page_id": 94,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.143,
+      0.325,
+      0.831
+    ],
+    "text": "Question: Compute the horizontal displacement of joint B produced by the 240-kN load in Figure P8.10. For all bars, area = 2400 ??!and E = 200 GPa.   \nOption:   \n(A) 2.657 mm   \n(B) 3.657 mm   \n(C) 4.657 mm   \n(D) 5.657 mm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-94:figure-2",
+    "page_id": 94,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_94_Figure_0.jpg",
+    "bbox_norm": [
+      0.334,
+      0.138,
+      0.459,
+      0.374
+    ],
+    "text": "<image 1>",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-94:text-3",
+    "page_id": 94,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.486,
+      0.142,
+      0.724,
+      0.83
+    ],
+    "text": "GPT-4V: To solve for the horizontal displacement of joint B due to the 240-kN load, we'll employ the method of joints and consider the effect of the force on the truss members, along with using the formula for the elongation/contraction of axially loaded members. The formula to calculate elongation or contraction in an axially loaded member is: $\\begin{array} { r } { \\delta = \\frac { \\mathrm { P L } } { \\mathrm { A E } ^ { \\prime } } , } \\end{array}$ where P is the axial force in the member, L is the length of the member, A is the cross-sectional area of the member, and E is the modulus of elasticity. Given: $\\mathrm { A } = 2 4 0 0 \\mathrm { m m } ^ { 2 }$ and $\\mathrm { E } = 2 0 0 \\mathrm { G p a } = 2 0 0 \\times 1 0 ^ { 3 } \\frac { \\mathrm { N } } { \\mathrm { m m } ^ { 2 } } .$ . First",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-94:text-4",
+    "page_id": 94,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.739,
+      0.147,
+      0.756,
+      0.351
+    ],
+    "text": "Ground Truth: (D) 5.657 mm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-1",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.16,
+      0.261,
+      0.18,
+      0.7
+    ],
+    "text": "Architecture and Engineering: Civil Engineering",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-2",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.19,
+      0.138,
+      0.236,
+      0.83
+    ],
+    "text": "Question: The data shown below were obtained by time-lapse photography on a highway. Use regression analysis to fit these data to the Greenshields model and determine, the jam density. <image 1>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-3",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.14,
+      0.248,
+      0.2
+    ],
+    "text": "Option:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-4",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.142,
+      0.263,
+      0.272
+    ],
+    "text": "(A) kj=110 veh/mi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-5",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.142,
+      0.277,
+      0.272
+    ],
+    "text": "(B) kj=111 veh/mi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-6",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.142,
+      0.292,
+      0.272
+    ],
+    "text": "(C) kj=112 veh/mi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:table-7",
+    "page_id": 95,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_95_Table_0.jpg",
+    "bbox_norm": [
+      0.299,
+      0.133,
+      0.405,
+      0.428
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-95:text-8",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.422,
+      0.137,
+      0.698,
+      0.83
+    ],
+    "text": "GPT-4V: To determine the jam density using the Greenshields model, we‘ll employ a linear regression approach on the data provided. The Greenshields model relates speed (u) and density (k) using the equation: $u = u _ { m a x } - u _ { m a x } / k _ { j a m } { \\times } k ,$ , where $u _ { m a x }$ is the maximum speed (which occurs when density k is zero) and $k _ { j a m }$ is the jam density. From this equation, we can derive a linear relationship: $u = u _ { m a x } - u _ { m a x } / k _ { j a m } { \\times } k$ . If we rearrange the terms, it looks like: $u = - u _ { m a x } / k _ { j a m } \\times$ $k + u _ { m a x }$ .Here, the term $- u _ { m a x } / k _ { j a m }$ is the slope of the line, and $u _ { m a x }$ is the y-intercept. We'll now use the data provided to determine the slope ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-9",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.705,
+      0.14,
+      0.72,
+      0.372
+    ],
+    "text": "Error Category: Reasoning Error",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-10",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.138,
+      0.751,
+      0.83
+    ],
+    "text": "Error Reason: The model correctly recalls the knowledge, but doesn't calculate it and directly gives the answer that it thinks is the closest one, which is incorrect.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-11",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.762,
+      0.138,
+      0.779,
+      0.377
+    ],
+    "text": "Ground Truth: (B) kj=111 veh/mi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-95:text-12",
+    "page_id": 95,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.803,
+      0.098,
+      0.833,
+      0.849
+    ],
+    "text": "Figure 82. A sample error case of Architecture and Engineering (subfield: Civil Engineering). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-96:text-1",
+    "page_id": 96,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.258,
+      0.228,
+      0.702
+    ],
+    "text": "Computer Science: Data Structure and Algorithm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-96:text-2",
+    "page_id": 96,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.138,
+      0.372,
+      0.831
+    ],
+    "text": "Question: Suppose we run Dijkstra's single source shortest-path algorithm on the following edge   \nweighted directed graph with vertex P as the source. In what order do the nodes get included into   \nthe set of vertices for which the shortest path distances are finalized?<image 1>   \nOption:   \n(A) P, Q, R, S, T, U   \n(B) P, Q, R, U, S, T   \n(C) P, Q, R, U, S, T   \n(D) P, Q, T, R, U, S",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-96:figure-3",
+    "page_id": 96,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_96_Figure_0.jpg",
+    "bbox_norm": [
+      0.392,
+      0.133,
+      0.511,
+      0.411
+    ],
+    "text": "<image 1>",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-96:text-4",
+    "page_id": 96,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.137,
+      0.709,
+      0.83
+    ],
+    "text": "GPT-4V: To determine the order in which the nodes are included using Dijkstra's algorithm, we will start with vertex P and then repeatedly select the vertex with the smallest distance that hasn't been included yet. Initialize distances: makefile Copy code P = 0, Q = ∞, R = ∞, S = ∞, T = ∞, U = ∞, Begin with source vertex P:P to $\\mathrm { Q } = \\mathrm { 1 P }$ to $\\mathrm { S } = \\mathrm { 4 P }$ to T = 7Now, the smallest distance is for Q. So, Q is the next vertex. For Q:P to Q to $\\mathrm { R } = 2 \\mathrm { P }$ to Q to S = 5 (But, P to S is 4, so this is not considered)P to Q to T = 7 (Same as P to T, so this is not updated)Now, the smallest distance among the remaining vertices is for R. So, R is the next vertex. For R:P to Q to R to U = 3P to Q to R to $\\mathrm { S } = 4$ (But, P to",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-96:text-5",
+    "page_id": 96,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.14,
+      0.732,
+      0.382
+    ],
+    "text": "Ground Truth: (B) P, Q, R, U, S, T",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-96:text-6",
+    "page_id": 96,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.756,
+      0.156,
+      0.785,
+      0.73
+    ],
+    "text": "Figure 83. A sample correct case of Computer Science (subfield: Data Structure and Algorithm). Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-97:figure-1",
+    "page_id": 97,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_97_Figure_0.jpg",
+    "bbox_norm": [
+      0.17,
+      0.132,
+      0.789,
+      0.843
+    ],
+    "text": "Figure 84. A sample error case of Computer Science (subfield: Compiler Principle). Error category: Perceptual Error, Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-98:text-1",
+    "page_id": 98,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.136,
+      0.14,
+      0.152,
+      0.753
+    ],
+    "text": "Question: Which pair of transactions demonstrates interleaved processing in <image 1>?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-98:text-2",
+    "page_id": 98,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.165,
+      0.14,
+      0.179,
+      0.2
+    ],
+    "text": "Option:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-98:text-3",
+    "page_id": 98,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.142,
+      0.194,
+      0.227
+    ],
+    "text": "(A) A and B",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-98:text-4",
+    "page_id": 98,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.194,
+      0.142,
+      0.208,
+      0.227
+    ],
+    "text": "(B) B and C",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-98:text-5",
+    "page_id": 98,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.142,
+      0.222,
+      0.228
+    ],
+    "text": "(C) C and D",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-98:text-6",
+    "page_id": 98,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.142,
+      0.238,
+      0.351
+    ],
+    "text": "(D) None of the other answers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-98:figure-7",
+    "page_id": 98,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_98_Figure_0.jpg",
+    "bbox_norm": [
+      0.242,
+      0.133,
+      0.375,
+      0.549
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-98:text-8",
+    "page_id": 98,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.137,
+      0.81,
+      0.831
+    ],
+    "text": "Error Reason: GPT-4V recalls the correct knowledge “Interleaved processing occurs when two transactions are processed alternately, meaning that one starts, then the other starts before the first one finishes, and then the first one might resume, and so on.” However, it fails to interpret the image w.r.t. transaction A and B: “Transaction A on CPU1 starts and finishes without being interleaved with any other transaction. Transaction B on CPU1 starts after A finishes and completes without being interleaved with any other transaction. Transaction A on CPU2 starts and finishes without any interleaving. Transaction B on CPU2 starts after A finishes and completes without being interleaved with any other transaction.\" The figure intends to illustrate transaction A and B being processed concurrent",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-98:text-9",
+    "page_id": 98,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.119,
+      0.886,
+      0.807
+    ],
+    "text": "Figure 85. A sample error case of Computer Science (subfield: Operating System). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-99:figure-1",
+    "page_id": 99,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_99_Figure_0.jpg",
+    "bbox_norm": [
+      0.185,
+      0.122,
+      0.757,
+      0.844
+    ],
+    "text": "Figure 86. A sample error case of Computer Science (subfield: Compiler Principle). Error category: Perceptual Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-100:table-1",
+    "page_id": 100,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_100_Table_0.jpg",
+    "bbox_norm": [
+      0.171,
+      0.12,
+      0.77,
+      0.848
+    ],
+    "text": "Figure 87. A sample correct case of Electronics (subfield: Signal Processing). Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-101:table-1",
+    "page_id": 101,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_101_Table_0.jpg",
+    "bbox_norm": [
+      0.188,
+      0.124,
+      0.756,
+      0.843
+    ],
+    "text": "Figure 88. A sample error case of Electronics (subfield: Signal Processing). Error category: Reject to Answer Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-102:text-1",
+    "page_id": 102,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.316,
+      0.281,
+      0.643
+    ],
+    "text": "Energy and Power: Fluid Mechanics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-102:equation-2",
+    "page_id": 102,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_102_Equation_0.jpg",
+    "bbox_norm": [
+      0.303,
+      0.418,
+      0.318,
+      0.446
+    ],
+    "text": "$$\n\\$ 1\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-102:equation-3",
+    "page_id": 102,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_102_Equation_1.jpg",
+    "bbox_norm": [
+      0.344,
+      0.165,
+      0.361,
+      0.398
+    ],
+    "text": "$$\n\\mu _ { H e } \\approx 1 . 5 0 5 E ^ { - 5 } - 5 ( T ^ { \\circ } / 2 0 0 K ) ^ { 0 . 3 8 }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-102:equation-4",
+    "page_id": 102,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_102_Equation_2.jpg",
+    "bbox_norm": [
+      0.359,
+      0.165,
+      0.375,
+      0.397
+    ],
+    "text": "$$\n\\mu _ { H e } \\approx 2 . 5 0 5 E ^ { - 5 } - 5 ( T ^ { \\circ } / 2 0 0 K ) ^ { 0 . 6 8 }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-102:equation-5",
+    "page_id": 102,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_102_Equation_3.jpg",
+    "bbox_norm": [
+      0.375,
+      0.165,
+      0.391,
+      0.397
+    ],
+    "text": "$$\n\\mu _ { H e } \\approx 1 . 5 0 5 E ^ { - 5 } - 5 ( T ^ { \\circ } / 2 0 0 K ) ^ { 0 . 6 8 }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-102:figure-6",
+    "page_id": 102,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_102_Figure_0.jpg",
+    "bbox_norm": [
+      0.406,
+      0.132,
+      0.47,
+      0.638
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-102:text-7",
+    "page_id": 102,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.473,
+      0.135,
+      0.652,
+      0.831
+    ],
+    "text": "GPT-4V: To fit the given values to a Power-law, we'll use the form ${ \\mathrm { : } } \\mu = C ( T ^ { k } )$ , where C and k are constants to be determined. We can take the logarithm of both sides to transform this equation to a linear form: $\\ln ( \\mu ) = \\ln ( C ) + k l n ( T )$ . Now, let's choose two points from the given data to solve for C and k. Using the data points $( \\mathrm { T } , ~ \\mu ) = ( 2 0 0 ~ \\mathrm { K } , ~ 1 . 5 0 \\mathrm { E } \\mathrm { - } 5 )$ and (400 K, 2.43E-5): For the first point: $\\ln ( 1 . 5 0 \\mathrm { E - } 5 ) = \\ln ( \\mathrm { C } ) + \\mathrm { k } \\setminus \\bar { \\ln } ( 2 0 0 ) ( 1 )$ . For the second point: ln(2.43E-5) = ln(C) + kln(400) (2). Subtracting (1) from (2) to eliminate C, we get: ln $( \\ 2 . 4 3 \\mathrm { E } - 5 / 1 . 5 0 \\mathrm { E } ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-102:equation-8",
+    "page_id": 102,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_102_Equation_4.jpg",
+    "bbox_norm": [
+      0.659,
+      0.274,
+      0.676,
+      0.516
+    ],
+    "text": "$$\n{ \\pmb \\mu } _ { H e } \\approx { \\bf 1 . 5 0 5 } E ^ { - 5 } - { \\bf 5 } ( { \\pmb T } ^ { \\circ } / 2 { \\bf 0 0 } K ) ^ { \\bf 0 . 6 8 }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-103:text-1",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.15,
+      0.194,
+      0.831
+    ],
+    "text": "Question: A piston-cylinder device contains helium gas initially at 100 kPa, 10°C, and 0.2 m^3. The helium is now compressed in a polytropic process $( P V ^ { n } = c o n s t a n t )$ to 700 kPa and 290°C. Determine the heat loss or gain during this process..<image $_ { 1 > }$   \nOption:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-103:text-2",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.194,
+      0.153,
+      0.209,
+      0.29
+    ],
+    "text": "(A) $Q _ { 1 2 } = - 5 . 5 5 3 k J$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-103:text-3",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.153,
+      0.223,
+      0.29
+    ],
+    "text": "(B) $Q _ { 1 2 } = - 6 . 5 5 3 \\ : k J$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-103:figure-4",
+    "page_id": 103,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_103_Figure_0.jpg",
+    "bbox_norm": [
+      0.239,
+      0.147,
+      0.311,
+      0.222
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-103:text-5",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.153,
+      0.237,
+      0.29
+    ],
+    "text": "(C) ?\"# = −7.553 ??",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-103:text-6",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.323,
+      0.148,
+      0.708,
+      0.831
+    ],
+    "text": "GPT-4V: Given the nature of this problem, we'll use the first law of thermodynamics for a closed system undergoing a process: $\\Delta U = Q _ { 1 2 } - W _ { 1 2 }$ , where $\\Delta U = { \\mathrm { C h a n g e } }$ in internal energy, $Q _ { 1 2 } = \\mathrm { H e a t }$ transfer during the process, and $W _ { 1 2 } = \\mathsf { V }$ ork done by the system during the process. From the given image, we can infer that the process is polytropic and is described by the equation: $P V ^ { n } = c o n s t a n t$ For a polytropic process involving an ideal gas: $W _ { 1 2 } = ( P _ { 2 } V _ { 2 } - P _ { 1 } V _ { 1 } ) / ( 1 - n )$ . Given: $P _ { 1 } { = } 1 0 0 \\mathrm { k P a } ,$ ?\" = 0.2?\\$, $T _ { 1 } = 1 0 ^ { \\circ } C$ $P _ { 2 } { = } 7 0 0 \\mathrm { k P a }$ $T _ { 2 } = 2 9 0 ^ { \\circ ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-103:text-7",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.712,
+      0.151,
+      0.727,
+      0.38
+    ],
+    "text": "Error Category: Reasoning Error",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-103:text-8",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.724,
+      0.15,
+      0.813,
+      0.83
+    ],
+    "text": "Error Reason: Reasoning error 1 (calculation): The formula of m is correct but the calculation is wrong: $m = P _ { 1 } V _ { 1 } / R T _ { 1 } \\approx 0 . 0 2 7 1 k g$ Reasoning error 2 (unit conversion T: The formula of Δ? is correct but the unit conversion of T is wrong: $\\Delta U = m C _ { v } ( T _ { 2 } - T _ { 1 } ) \\approx 2 3 . 7 5 k J$ . Reasoning error 3 (calculation order): The final answer Q is to be calculated based on W, W is to be calculated based on $V _ { 2 }$ and n, n is to be calculated based on $V _ { 2 } .$ . GPT4-V fails to calculate these variables in a correct order $V _ { 2 }  n  W  Q .$ , thus it is unable to provide the answer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-103:text-9",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.816,
+      0.151,
+      0.833,
+      0.392
+    ],
+    "text": "Ground Truth: (B) ?\\_12=−6.553 ??",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-103:text-10",
+    "page_id": 103,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.853,
+      0.12,
+      0.882,
+      0.805
+    ],
+    "text": "Figure 90. A sample error case of Energy and Power (subfield: Thermodynamics). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-104:table-1",
+    "page_id": 104,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_104_Table_0.jpg",
+    "bbox_norm": [
+      0.229,
+      0.122,
+      0.712,
+      0.848
+    ],
+    "text": "Figure 91. A sample correct case of Materials (subfield: Materials Science). Back to List of Figures | Back to Table Index",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-105:equation-1",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_0.jpg",
+    "bbox_norm": [
+      0.183,
+      0.423,
+      0.196,
+      0.446
+    ],
+    "text": "$$\n\\gamma _ { x y }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:figure-2",
+    "page_id": 105,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_105_Figure_0.jpg",
+    "bbox_norm": [
+      0.273,
+      0.135,
+      0.431,
+      0.383
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-105:equation-3",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_1.jpg",
+    "bbox_norm": [
+      0.463,
+      0.493,
+      0.478,
+      0.517
+    ],
+    "text": "$$\n\\gamma _ { x y }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:equation-4",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_2.jpg",
+    "bbox_norm": [
+      0.457,
+      0.681,
+      0.479,
+      0.741
+    ],
+    "text": "$$\n\\gamma _ { x y } = { \\frac { \\delta y } { \\delta x } }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:equation-5",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_3.jpg",
+    "bbox_norm": [
+      0.507,
+      0.571,
+      0.53,
+      0.642
+    ],
+    "text": "$$\n\\gamma _ { x y } A = { \\frac { \\delta y } { \\delta x } }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:equation-6",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_4.jpg",
+    "bbox_norm": [
+      0.529,
+      0.333,
+      0.55,
+      0.532
+    ],
+    "text": "$$\n\\begin{array} { r } { \\delta x = 5 \\mathrm { m m } , \\gamma _ { x y } A = \\frac { 0 } { 3 0 0 m m } = 0 } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:equation-7",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_5.jpg",
+    "bbox_norm": [
+      0.563,
+      0.161,
+      0.585,
+      0.235
+    ],
+    "text": "$$\n\\begin{array} { r } { \\gamma _ { x y } B = \\frac { \\delta y } { \\delta x } . } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:equation-8",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_6.jpg",
+    "bbox_norm": [
+      0.564,
+      0.465,
+      0.585,
+      0.629
+    ],
+    "text": "$$\n\\begin{array} { r } { \\gamma _ { x y } B = \\frac { 5 m m } { 4 0 0 m m } = 0 . 0 1 2 5 } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:equation-9",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_7.jpg",
+    "bbox_norm": [
+      0.599,
+      0.808,
+      0.613,
+      0.826
+    ],
+    "text": "$$\n\\scriptstyle \\mathrm { A , }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:equation-10",
+    "page_id": 105,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_105_Equation_8.jpg",
+    "bbox_norm": [
+      0.655,
+      0.722,
+      0.678,
+      0.826
+    ],
+    "text": "$$\n\\begin{array} { r } { \\gamma _ { x y } = \\frac { 5 \\bar { m } m } { 4 0 0 m m } = } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-105:text-11",
+    "page_id": 105,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.828,
+      0.119,
+      0.857,
+      0.807
+    ],
+    "text": "Figure 92. A sample error case of Materials (subfield: Mechanics of Materials). Error category: Lack of Knowledge Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-106:text-1",
+    "page_id": 106,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.361,
+      0.253,
+      0.599
+    ],
+    "text": "Materials: Control System",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-106:text-2",
+    "page_id": 106,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.14,
+      0.348,
+      0.831
+    ],
+    "text": "Question: For the unity feedback system shown in <image 1>, where $\\begin{array} { r } { G ( s ) = \\frac { 4 5 0 ( s + 8 ) ( s + 1 2 ) ( s + 1 5 ) } { s ( s + 3 8 ) ( s ^ { 2 } + 2 s + 2 8 ) } } \\end{array}$ .Find   \nthe steady-state errors for the following test inputs: 25u(t). Option:   \n(A) 0   \n(B) 1   \n(C) -1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-106:figure-3",
+    "page_id": 106,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_106_Figure_0.jpg",
+    "bbox_norm": [
+      0.354,
+      0.132,
+      0.445,
+      0.452
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-106:text-4",
+    "page_id": 106,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.137,
+      0.684,
+      0.83
+    ],
+    "text": "GPT-4V: To find the steady-state error for a unity feedback system, we can use the final value theorem. The final value theorem states that: $l i m _ { n  \\infty } e ( t ) = l i m _ { n  \\infty } s E ( s )$ where $\\operatorname { E } ( \\mathrm { s } )$ is the Laplace transform of the error signal e(t). Given a system with unity feedback, the error signal in the Laplace domain can be given by: $\\begin{array} { r } { \\mathrm { E } ( \\mathrm { s } ) = \\mathrm { R } ( \\mathrm { s } ) - \\mathrm { C } ( \\mathrm { s } ) . } \\end{array}$ where $\\operatorname { R } ( \\mathrm { s } )$ is the Laplace transform of the reference input, and $\\mathrm { C } ( \\mathrm { s } )$ is the Laplace transform of the system's output. The closed-loop transfer function for a unity feedback system is given by $: T ( s",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-106:text-5",
+    "page_id": 106,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.142,
+      0.707,
+      0.287
+    ],
+    "text": "Ground Truth: (A) 0",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-107:equation-1",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_0.jpg",
+    "bbox_norm": [
+      0.228,
+      0.267,
+      0.244,
+      0.411
+    ],
+    "text": "$$\nv = \\sqrt { 2 g R } , N = 2 m g\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:text-2",
+    "page_id": 107,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.14,
+      0.262,
+      0.397
+    ],
+    "text": "(B) Velocity, force $v = { \\sqrt { g R } } , N = m g$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-107:equation-3",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_1.jpg",
+    "bbox_norm": [
+      0.263,
+      0.267,
+      0.279,
+      0.401
+    ],
+    "text": "$$\nv = { \\sqrt { g R } } , N = 2 m g\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:figure-4",
+    "page_id": 107,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_107_Figure_0.jpg",
+    "bbox_norm": [
+      0.29,
+      0.137,
+      0.43,
+      0.437
+    ],
+    "text": "<image 1>",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-107:equation-5",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_2.jpg",
+    "bbox_norm": [
+      0.531,
+      0.32,
+      0.545,
+      0.369
+    ],
+    "text": "$$\nh _ { 1 } = R .\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-6",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_3.jpg",
+    "bbox_norm": [
+      0.545,
+      0.137,
+      0.56,
+      0.364
+    ],
+    "text": "$$\nm g h _ { 1 } + m g h _ { 2 } = m g R + 2 m g R =\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-7",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_4.jpg",
+    "bbox_norm": [
+      0.56,
+      0.228,
+      0.577,
+      0.482
+    ],
+    "text": "$$\nP E _ { t o t a l } = 2 { \\times } 2 1 m v ^ { 2 } = \\sqrt { 2 g R } v = 2 g R\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-8",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_5.jpg",
+    "bbox_norm": [
+      0.531,
+      0.517,
+      0.545,
+      0.578
+    ],
+    "text": "$$\nh _ { 2 } = 2 R ^ { \\prime } .\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-9",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_6.jpg",
+    "bbox_norm": [
+      0.59,
+      0.331,
+      0.613,
+      0.447
+    ],
+    "text": "$$\n\\textstyle 1 ; N - m g = { \\frac { m v ^ { 2 } } { R } }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-10",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_7.jpg",
+    "bbox_norm": [
+      0.575,
+      0.598,
+      0.592,
+      0.648
+    ],
+    "text": "$$\nm \\boldsymbol { v } ^ { 2 } / R .\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-11",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_8.jpg",
+    "bbox_norm": [
+      0.531,
+      0.761,
+      0.546,
+      0.826
+    ],
+    "text": "$$\nP E _ { t o t a l } =\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-12",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_9.jpg",
+    "bbox_norm": [
+      0.613,
+      0.137,
+      0.63,
+      0.508
+    ],
+    "text": "$$\n2 g R . \\ N = ( 1 + 2 ) m g N = \\left( 1 + { \\sqrt { 2 } } \\right) m g N = ( 1 + 2 ) m g\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-13",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_10.jpg",
+    "bbox_norm": [
+      0.594,
+      0.666,
+      0.612,
+      0.826
+    ],
+    "text": "$$\nv = 2 g R v \\ = \\ \\sqrt { 2 g R v } =\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-14",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_11.jpg",
+    "bbox_norm": [
+      0.613,
+      0.553,
+      0.628,
+      0.586
+    ],
+    "text": "$$\n2 \\sqrt { 2 }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-15",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_12.jpg",
+    "bbox_norm": [
+      0.646,
+      0.256,
+      0.662,
+      0.553
+    ],
+    "text": "$$\n\\mathrm { ( A ) } v = 2 g R , N = 2 m g ; v = \\sqrt { 2 g R } , N = 2 m g .\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-16",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_13.jpg",
+    "bbox_norm": [
+      0.751,
+      0.137,
+      0.767,
+      0.171
+    ],
+    "text": "$$\n\\sqrt { g R }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-17",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_14.jpg",
+    "bbox_norm": [
+      0.729,
+      0.418,
+      0.75,
+      0.524
+    ],
+    "text": "$$\n\\textstyle { \\frac { 1 } { 2 } } 2 m v ^ { 2 } = m g R ,\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-18",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_15.jpg",
+    "bbox_norm": [
+      0.78,
+      0.647,
+      0.804,
+      0.746
+    ],
+    "text": "$$\n\\begin{array} { r } { N - m g = \\frac { m v ^ { 2 } } { R } } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-19",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_16.jpg",
+    "bbox_norm": [
+      0.804,
+      0.137,
+      0.82,
+      0.2
+    ],
+    "text": "$$\nv = { \\sqrt { g R } } .\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-20",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_17.jpg",
+    "bbox_norm": [
+      0.804,
+      0.315,
+      0.819,
+      0.38
+    ],
+    "text": "$$\nN = 2 m g\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:equation-21",
+    "page_id": 107,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_107_Equation_18.jpg",
+    "bbox_norm": [
+      0.828,
+      0.375,
+      0.844,
+      0.516
+    ],
+    "text": "$$\nv = \\sqrt { g R } , N = 2 m g .\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-107:text-22",
+    "page_id": 107,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.098,
+      0.892,
+      0.849
+    ],
+    "text": "Figure 94. A sample error case of Mechanical Engineering (subfield: Engineering Dynamics). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-108:figure-1",
+    "page_id": 108,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_108_Figure_0.jpg",
+    "bbox_norm": [
+      0.127,
+      0.12,
+      0.815,
+      0.848
+    ],
+    "text": "Figure 95. A sample error case of Mechanical Engineering (subfield: Engineering Dynamics). Error category: Reasoning Error Back to List of Figures | Back to Table Index",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-109:text-2",
+    "page_id": 109,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.518,
+      0.076,
+      0.536,
+      0.361
+    ],
+    "text": "C. Subfields of Different Subjects",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-109:text-3",
+    "page_id": 109,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.075,
+      0.59,
+      0.47
+    ],
+    "text": "In this appendix, we show all the subfields of each subject in Table 11. MMMU has 183 subfields in total, covering 30 subjects.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-109:text-4",
+    "page_id": 109,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.603,
+      0.076,
+      0.621,
+      0.349
+    ],
+    "text": "D. Distributions of Image Types",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-109:text-5",
+    "page_id": 109,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.075,
+      0.736,
+      0.472
+    ],
+    "text": "In this section, we show the distribution of 30 different image types in the 11.5K MMMU questions. The distribution of various image types is displayed in Figure 96. A horizontal bar chart was employed to visually represent the number of samples in each image category. The figure shows that the MMMU dataset encompasses a diverse range of image types, from Advertisements to Diagrams.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-109:text-6",
+    "page_id": 109,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.747,
+      0.076,
+      0.766,
+      0.383
+    ],
+    "text": "E. Results on Different Image Types",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-109:text-7",
+    "page_id": 109,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.773,
+      0.075,
+      0.805,
+      0.47
+    ],
+    "text": "In this section, we report the performance of some selected models on 30 different image types in Table 12.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-110:table-1",
+    "page_id": 110,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_110_Table_0.jpg",
+    "bbox_norm": [
+      0.114,
+      0.081,
+      0.88,
+      0.887
+    ],
+    "text": "Table 11. Subfields of each subject.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-111:table-1",
+    "page_id": 111,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_111_Table_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.102,
+      0.565,
+      0.869
+    ],
+    "text": "Table 12. Selected models’ performance on 30 different image types. Note that a single image may have multiple image types.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-112:text-1",
+    "page_id": 112,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.078,
+      0.106,
+      0.246
+    ],
+    "text": "F. Few-shot Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-112:text-2",
+    "page_id": 112,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.114,
+      0.076,
+      0.175,
+      0.47
+    ],
+    "text": "As existing models like OpenFlamingo and Otter support few-shot or in-context learning, we report their few-shot performance using the dev set as the in-context learning examples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-112:text-3",
+    "page_id": 112,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.176,
+      0.076,
+      0.327,
+      0.47
+    ],
+    "text": "As shown in Table 13, OpenFlamingo shows a decrease in performance when moving from 0-shot to 1-shot and 3- shot learning (from 0.263 to 0.256) and there is a slight increase when moving to 5-shot. Otter shows a consistent decline as more shots are introduced, dropping to 0.276 in 1-shot and further down to 0.258 in 3-shot and 5-shot. This trend suggests that existing open-source models’ few-shot learning ability is very weak. And it additionally shows that our data samples might be too hard for these models to understand the underlying patterns or context.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-112:table-4",
+    "page_id": 112,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_112_Table_0.jpg",
+    "bbox_norm": [
+      0.338,
+      0.122,
+      0.395,
+      0.424
+    ],
+    "text": "Table 13. Few-shot results of OpenFlamingo and Otter.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-113:text-1",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.076,
+      0.106,
+      0.323
+    ],
+    "text": "G. Data Annotation Protocol",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-2",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.114,
+      0.075,
+      0.161,
+      0.47
+    ],
+    "text": "This document describes a comprehensive protocol for annotating a dataset comprising college-level multimodal questions (i.e., questions that incorporate images).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-3",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.169,
+      0.076,
+      0.184,
+      0.24
+    ],
+    "text": "G.1. Data Collection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-4",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.191,
+      0.075,
+      0.314,
+      0.47
+    ],
+    "text": "Sources of Data: Data is primarily collected from free online resources, quizzes, textbooks, and other study materials. When collecting questions, the annotators should strictly adhere to copyright and licensing regulations on the source sites. Data from sources that prohibit copying or redistribution MUST be explicitly avoided. Besides, the annotators should try to find diverse sources instead of collecting questions from a single source.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-5",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.316,
+      0.076,
+      0.332,
+      0.22
+    ],
+    "text": "Types of Questions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-6",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.334,
+      0.076,
+      0.395,
+      0.47
+    ],
+    "text": "• Multiple-Choice Questions: Including standard multiple-choice questions and true/false questions. These are characterized by a question followed by several answer choices, with only one correct option.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-7",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.076,
+      0.455,
+      0.47
+    ],
+    "text": "• Open-Ended Questions: Encompassing formats like factoid, fill-in-the-blank, calculation-based, and short descriptive responses. Avoid collecting questions that have very long answers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-8",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.457,
+      0.076,
+      0.489,
+      0.47
+    ],
+    "text": "Image Types: The annotators should find various types of images (e.g., diagrams, charts, photographs)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-9",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.496,
+      0.076,
+      0.511,
+      0.267
+    ],
+    "text": "G.2. General Guidelines",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-10",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.518,
+      0.076,
+      0.549,
+      0.468
+    ],
+    "text": "• General Principles: Annotations must be accurate, consistent, and adhere to a high standard of academic rigor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-11",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.076,
+      0.564,
+      0.245
+    ],
+    "text": "• Specific Instructions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-12",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.566,
+      0.089,
+      0.58,
+      0.423
+    ],
+    "text": "– All questions must contain one or more images.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-13",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.582,
+      0.089,
+      0.595,
+      0.39
+    ],
+    "text": "– All questions should be written in English.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-14",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.089,
+      0.611,
+      0.459
+    ],
+    "text": "– All questions should meet the college-level difficulty.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-15",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.089,
+      0.641,
+      0.468
+    ],
+    "text": "– The question should not be ambiguous and can be answered with one of the given options or a short answer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-16",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.642,
+      0.089,
+      0.67,
+      0.468
+    ],
+    "text": "– Clearly categorize each question as either multiplechoice or open-ended.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-17",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.089,
+      0.732,
+      0.47
+    ],
+    "text": "– Annotate all fields, including the question, answer options for multiple-choice questions, the correct answer, image types, question difficulty, and explanation (if there exists).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-18",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.739,
+      0.076,
+      0.756,
+      0.33
+    ],
+    "text": "G.3. Data Format and Structure",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-19",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.076,
+      0.824,
+      0.47
+    ],
+    "text": "• JSON File Format: The structured JSON format will include fields for number, question type, question text, answer options (for multiple-choice), correct answer, question difficulty, and explanation (if there exists).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-20",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.076,
+      0.838,
+      0.248
+    ],
+    "text": "• Naming Conventions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-21",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.089,
+      0.885,
+      0.47
+    ],
+    "text": "– Each collected sample will be stored in a separate JSON file following a standard naming rule: subject {Number}.json",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-22",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.886,
+      0.089,
+      0.901,
+      0.467
+    ],
+    "text": "– Image Files: image {QuesNum} {ImageNum}.png",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-23",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.5,
+      0.137,
+      0.893
+    ],
+    "text": "• Interleaving Question with Images: The images should be inserted as a file path in the question/options/explanations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-24",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.147,
+      0.5,
+      0.162,
+      0.782
+    ],
+    "text": "G.4. Quality Control and Validation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-25",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.171,
+      0.5,
+      0.202,
+      0.892
+    ],
+    "text": "• A secondary review team will rigorously vet annotations for quality and guideline adherence.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-26",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.202,
+      0.5,
+      0.232,
+      0.893
+    ],
+    "text": "• Regular audits of random samples from the dataset will be conducted to ensure sustained quality and consistency.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-27",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.5,
+      0.258,
+      0.71
+    ],
+    "text": "G.5. Handling Ambiguities",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-28",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.266,
+      0.498,
+      0.328,
+      0.893
+    ],
+    "text": "Ambiguities or unclear data instances should be flagged for a detailed review process. These questions will be collaboratively examined in team meetings to establish a standardized approach for annotation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-29",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.338,
+      0.5,
+      0.353,
+      0.717
+    ],
+    "text": "G.6. Ethical Considerations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-30",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.5,
+      0.421,
+      0.893
+    ],
+    "text": "• Copyright and Licensing: Strict adherence to copyright and licensing regulations is mandatory. Data from sources that prohibit copying or redistribution will be explicitly avoided.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-31",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.421,
+      0.5,
+      0.482,
+      0.893
+    ],
+    "text": "• Data Privacy: Compliance with privacy laws and ethical standards in data handling is paramount. The annotators should avoid collecting questions that contain any private information.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-32",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.5,
+      0.508,
+      0.82
+    ],
+    "text": "G.7. Data Contamination Considerations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-33",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.496,
+      0.685,
+      0.893
+    ],
+    "text": "In the construction of benchmarks for evaluating foundation models, it is essential to consider the risk of data contamination. To address this, annotators should be tasked with carefully selecting questions that go beyond straightforward queries with easily accessible answers. Instead, the focus should be on questions whose answers are tucked away in less obvious locations, such as in separate documents or hidden in the concluding sections of extensive textbooks. This approach is beneficial for constructing benchmarks that truly test the model’s ability to comprehend and synthesize information from diverse and challenging sources.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-34",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.5,
+      0.71,
+      0.691
+    ],
+    "text": "G.8. Example Questions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-35",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.498,
+      0.748,
+      0.892
+    ],
+    "text": "Detailed examples of annotated questions are provided in an appendix to serve as a reference for the annotators.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-36",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.5,
+      0.779,
+      0.892
+    ],
+    "text": "• Multiple-choice Questions: Figure 97 shows an example of a multiple-choice question.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-37",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.779,
+      0.5,
+      0.809,
+      0.893
+    ],
+    "text": "• Open-ended Questions: Figure 98 shows an example of the open-ended question.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-113:text-38",
+    "page_id": 113,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.81,
+      0.496,
+      0.901,
+      0.893
+    ],
+    "text": "Besides, the annotators are encouraged to collect questions that contain multiple images within a single example. This type of question requires special attention to file naming so that each image can be correctly referenced. Figure 99 shows an example of a multiple-image question along with its JSON representation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-114:figure-1",
+    "page_id": 114,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_114_Figure_0.jpg",
+    "bbox_norm": [
+      0.09,
+      0.24,
+      0.285,
+      0.735
+    ],
+    "text": "Figure 97. Multiple-choice question and its JSON representation.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-114:figure-2",
+    "page_id": 114,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_114_Figure_1.jpg",
+    "bbox_norm": [
+      0.324,
+      0.199,
+      0.511,
+      0.769
+    ],
+    "text": "Figure 98. Open question and its JSON representation.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-114:figure-3",
+    "page_id": 114,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_114_Figure_2.jpg",
+    "bbox_norm": [
+      0.556,
+      0.156,
+      0.765,
+      0.812
+    ],
+    "text": "Figure 99. Multiple image question and its JSON representation.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-114:text-4",
+    "page_id": 114,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.076,
+      0.832,
+      0.372
+    ],
+    "text": "H. Author Contribution Statement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-114:text-5",
+    "page_id": 114,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.076,
+      0.901,
+      0.47
+    ],
+    "text": "All authors made significant contributions to data collection, annotation, and validation. We authors contributed to 1/3 of the MMMU examples. Additionally, all authors contributed to the case study and error analysis, plotting case study figures in the Appendix. Besides, all authors participated in the discussion of data annotation, provided feedback on the project, and proofread the paper. The following authors made additional contributions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-115:text-1",
+    "page_id": 115,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.075,
+      0.26,
+      0.472
+    ],
+    "text": "Xiang Yue conceived and led the project, outlining the primary objectives, establishing the data collection methodology and protocol, designing and running experiments, as well as doing follow-up analysis. Xiang Yue also took the lead in writing the manuscript, drafting the original text, and incorporating revisions from co-authors. In addition, Xiang Yue managed project administration and coordinated the collaboration between 20+ coauthors and 30+ student annotators, ensuring the project’s milestones were met and facilitating communication among team members. Xiang Yue also took the lead in the dataset release.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-115:text-2",
+    "page_id": 115,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.076,
+      0.387,
+      0.47
+    ],
+    "text": "Yuansheng Ni co-led the data curation process with Xiang Yue. Specifically, Yuansheng Ni developed the protocols for data quality assurance, standardizing the data annotation procedures, and supervising the team of data annotators to ensure consistency and accuracy. In addition to data curation, Yuansheng Ni also played a collaborative role in data analysis, offering critical insights that shaped the interpretation and presentation of the dataset’s characteristics.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-115:text-3",
+    "page_id": 115,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.075,
+      0.516,
+      0.47
+    ],
+    "text": "Kai Zhang played a crucial role in the empirical evaluation of the dataset by building the evaluation pipeline to assess various LMMs. Kai Zhang carefully executed different models and analyzed their performance metrics. Kai Zhang also contributed to the manuscript by documenting the evaluation process and implementation details. The thorough model evaluation conducted by Kai Zhang has been fundamental in demonstrating the utility of the dataset.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-115:text-4",
+    "page_id": 115,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.522,
+      0.076,
+      0.614,
+      0.47
+    ],
+    "text": "Tianyu Zheng made significant contributions to the project by participating in the evaluation of text-only, OCRaugmented and caption-augmented baselines. In addition, Tianyu Zheng developed a user-friendly web interface for data annotation and verification. The interface design significantly improved the workflow for data curation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-115:text-5",
+    "page_id": 115,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.076,
+      0.667,
+      0.47
+    ],
+    "text": "Ruoqi Liu plotted or helped revise Figures 1, 2, and 3. Ruoqi Liu designed the prototype figure template for the case study figures in the Appendix.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-115:text-6",
+    "page_id": 115,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.076,
+      0.69,
+      0.428
+    ],
+    "text": "Boyuan Zheng participated in part of the evaluation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-115:text-7",
+    "page_id": 115,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.075,
+      0.834,
+      0.47
+    ],
+    "text": "Huan Sun and Yu Su provided overarching and insightful discussions and comments throughout the development and execution of the project. Huan Sun and Yu Su contributed to the conceptualization of the research by helping to refine the research questions and by providing critical insights into the design of the dataset. They offered strategic direction and expert advice that significantly enhanced the dataset and the follow-up analysis. Huan Sun and Yu Su also contributed to the initial writing of the paper.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-115:text-8",
+    "page_id": 115,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.075,
+      0.902,
+      0.47
+    ],
+    "text": "Wenhu Chen conceived the project with Xiang Yue. Wenhu Chen contributed to the conceptualization of the research by helping to refine the research questions and by providing critical insights into the design of the project. Besides, Wenhu Chen contributed to a significant amount of initial writing of the draft and offered strategic direction and expert advice that significantly enhanced the dataset and the follow-up analysis.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-1",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.076,
+      0.107,
+      0.271
+    ],
+    "text": "I. Version Change Log",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-2",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.114,
+      0.076,
+      0.128,
+      0.406
+    ],
+    "text": "CHANGES TO V2 (Dec.18) FROM V1 (Nov.27)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-3",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.093,
+      0.145,
+      0.725
+    ],
+    "text": "• We added Qwen-VL-PLUS results from the author-provided outputs. (Table 2, 4, 5, 6, 7, 8, 9)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-4",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.093,
+      0.16,
+      0.673
+    ],
+    "text": "• We added SPHINX results from the author-provided outputs. (Table 2, 4, 5, 6, 7, 8, 9)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-5",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.16,
+      0.093,
+      0.175,
+      0.668
+    ],
+    "text": "• We added Gemini Ultra results from the Gemini report [72]. (Table 2, 4, 5, 6, 7, 8, 9)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-6",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.093,
+      0.189,
+      0.624
+    ],
+    "text": "• We added Gemini Pro & Nano2 results from the Gemini report [72]. (Table 2)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-7",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.19,
+      0.093,
+      0.205,
+      0.553
+    ],
+    "text": "• We added a section of author contribution statement. (Appendix H)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-8",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.207,
+      0.093,
+      0.22,
+      0.687
+    ],
+    "text": "• We update mPLUG-Owl2 results with author-provided prompt. (Table 2, 4, 5, 6, 7, 8, 9)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-9",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.093,
+      0.236,
+      0.413
+    ],
+    "text": "• We fixed text box dimensions in Appendix B:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-10",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.104,
+      0.251,
+      0.426
+    ],
+    "text": "– Figure 13. A sample error case of Art Theory",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-11",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.093,
+      0.265,
+      0.333
+    ],
+    "text": "• We fixed the typo in Appendix B:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-12",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.266,
+      0.106,
+      0.281,
+      0.406
+    ],
+    "text": "– Figure 35. A sample error case of Biology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-13",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.281,
+      0.106,
+      0.296,
+      0.388
+    ],
+    "text": "– Figure 45. A sample error case of Math",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-14",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.106,
+      0.31,
+      0.429
+    ],
+    "text": "– Figure 79. A sample error case of Agriculture",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-116:text-15",
+    "page_id": 116,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.311,
+      0.106,
+      0.327,
+      0.513
+    ],
+    "text": "– Figure 95. A sample error case of Mechanical Engineering",
+    "source_type": "text"
+  }
+]

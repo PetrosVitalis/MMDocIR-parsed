@@ -1,0 +1,47 @@
+Task,Sub Task,Dataset,Method
+QA,Single-hop,Natural Question(NQ) [111],"[26],[30],[34],[42],[45],[50],[52],[59],[64],[82],[3],[4],[22],[27],[40],[43],[54],[62],[71],[112],[20],[44],[72]"
+QA,Single-hop,TriviaQA(TQA) [113],"[4],[27],[59],[62],[112],[22],[25],[43],[44],[71],[72]"
+QA,Single-hop,SQuAD [114],"[20],[23],[30],[32],[45],[69],[112]"
+QA,Single-hop,Web Questions(WebQ) [115],"[3],[4],[13],[30],[50],[68]"
+QA,Single-hop,PopQA [116],"[7],[25],[67]"
+QA,Single-hop,MS MARCO [117],"[4],[40],[52]"
+QA,Multi-hop,HotpotQA [118],"[23],[26],[31],[34],[47],[51],[61],[82],[7],[14],[22],[27],[59],[62],[69],[71],[91]"
+QA,Multi-hop,2WikiMultiHopQA [119],"[14],[24],[48],[59],[61],[91]"
+QA,Multi-hop,MuSiQue [120],"[14],[51],[61],[91]"
+QA,Long-form QA,ELI5 [121],"[27],[34],[43],[49],[51]"
+QA,Long-form QA,NarrativeQA(NQA) [122],"[45],[60],[63],[123]"
+QA,Long-form QA,ASQA [124],"[24],[57]"
+QA,Long-form QA,QMSum(QM) [125],"[60],[123]"
+QA,Domain QA,Qasper [126],"[60],[63]"
+QA,Domain QA,COVID-QA [127],"[35],[46]"
+QA,Domain QA,"CMB [128],MMCU_Medical [129]",[81]
+QA,Multi-Choice QA,QuALITY [130],"[60],[63]"
+QA,Multi-Choice QA,ARC [131],"[25],[67]"
+QA,Multi-Choice QA,CommonsenseQA [132],"[58],[66]"
+QA,Graph QA,GraphQA [84],[84]
+Dialog,Dialog Generation,Wizard of Wikipedia (WoW) [133],"[13],[27],[34],[42]"
+Dialog,Personal Dialog,KBP [134],"[74],[135]"
+Dialog,Personal Dialog,DuleMon [136],[74]
+Dialog,Task-oriented Dialog,CamRest [137],"[78],[79]"
+Dialog,Recommendation,"Amazon(Toys,Sport,Beauty) [138]","[39],[40]"
+IE,Event Argument Extraction,WikiEvent [139],"[13],[27],[37],[42]"
+IE,Event Argument Extraction,RAMS [140],"[36],[37]"
+IE,Relation Extraction,"T-REx [141],ZsRE [142]","[27],[51]"
+Reasoning,Commonsense Reasoning,HellaSwag [143],"[20],[66]"
+Reasoning,CoT Reasoning,CoT Reasoning [144],[27]
+Reasoning,Complex Reasoning,CSQA [145],[55]
+Others,Language Understanding,MMLU [146],"[7],[27],[28],[42],[43],[47],[72]"
+Others,Language Modeling,WikiText-103 [147],"[5],[29],[64],[71]"
+Others,Language Modeling,StrategyQA [148],"[14],[24],[48],[51],[55],[58]"
+Others,Fact Checking/Verification,FEVER [149],"[4],[13],[27],[34],[42],[50]"
+Others,Fact Checking/Verification,PubHealth [150],"[25],[67]"
+Others,Text Generation,Biography [151],[67]
+Others,Text Summarization,WikiASP [152],[24]
+Others,Text Summarization,XSum [153],[17]
+Others,Text Classification,VioLens [154],[19]
+Others,Text Classification,TREC [155],[33]
+Others,Sentiment,SST-2 [156],"[20],[33],[38]"
+Others,Code Search,CodeSearchNet [157],[76]
+Others,Robustness Evaluation,NoMIRACL [56],[56]
+Others,Math,GSM8K [158],[73]
+Others,Machine Translation,JRC-Acquis [159],[17]

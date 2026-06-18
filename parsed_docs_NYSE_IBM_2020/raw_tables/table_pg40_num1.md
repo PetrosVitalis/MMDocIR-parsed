@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">($ in millions)</td></tr><tr><td>At December31:</td><td>2020</td><td>2019</td></tr><tr><td>Current assets</td><td>$39,165</td><td>$38,420</td></tr><tr><td>Current liabilities</td><td>39,869</td><td>37,701</td></tr><tr><td>Working capital</td><td>$ (705)</td><td>$718</td></tr><tr><td>Current ratio</td><td>0.98:1</td><td>1.02:1</td></tr></table>

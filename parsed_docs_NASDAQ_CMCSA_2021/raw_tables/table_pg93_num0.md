@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">(in millions)</td></tr><tr><td>2022</td><td>$ 5,140 $</td></tr><tr><td>2023</td><td>4,513</td></tr><tr><td>2024</td><td>3,737</td></tr><tr><td>2025</td><td>$ $ 2,996</td></tr><tr><td>2026</td><td>$ 2,403</td></tr></table>

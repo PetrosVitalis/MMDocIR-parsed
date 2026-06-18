@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td>Net sales in company-managed stores and online</td><td>25,302</td><td>18,816</td></tr><tr><td>Net sales to franchises</td><td>2,150</td><td>1,397</td></tr><tr><td> Other sales and services rendered</td><td>264</td><td>189</td></tr><tr><td>Total</td><td>27,716</td><td>20,402</td></tr></table>

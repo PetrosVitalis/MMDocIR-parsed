@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020 $m</td><td>2019 $m</td></tr><tr><td>Interests in associates</td><td>26,594</td><td>24,384</td></tr><tr><td>Interests in joint ventures</td><td>90</td><td>90</td></tr><tr><td>Interests in associates and joint ventures</td><td>26,684</td><td>24,474</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">At December 31, 2020</td><td colspan="2">At December 31,2019</td></tr><tr><td>IS</td><td>WM</td><td>IS</td><td>WM</td></tr><tr><td>Accrual</td><td>99.2 %</td><td>99.7 %</td><td>99.0%</td><td>99.9 %</td></tr><tr><td>Nonaccrual1</td><td>0.8 %</td><td>0.3%</td><td>1.0%</td><td>0.1%</td></tr></table>

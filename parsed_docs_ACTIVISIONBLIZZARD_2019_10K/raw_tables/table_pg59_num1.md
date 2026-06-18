@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="4"></td><td rowspan="2">2017</td><td rowspan="2">Statement of Operations Classification</td></tr><tr><td>2019</td><td></td><td>2018</td><td></td></tr><tr><td>Cash Flow Hedges</td><td>$</td><td>39$</td><td></td><td>7 $</td><td>(1)</td><td>Net revenues</td></tr></table>

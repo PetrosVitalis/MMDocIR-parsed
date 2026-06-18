@@ -1,0 +1,1 @@
+<table><tr><td>Method</td><td>ROUGE↑</td><td>BLEU个</td><td>METEOR ↑</td><td>BELURT↑</td></tr><tr><td>w/o ED</td><td>28.02</td><td>3.73</td><td>26.26</td><td>0.45</td></tr><tr><td>w/ED</td><td>35.28</td><td>7.81</td><td>29.27</td><td>0.55</td></tr></table>

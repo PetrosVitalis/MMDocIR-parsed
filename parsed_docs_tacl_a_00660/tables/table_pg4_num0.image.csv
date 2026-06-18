@@ -1,0 +1,43 @@
+Method,Source,Format,Strategy,Learning,Application
+Training-Time Correction,,,,,
+"RLHF (Ouyang et al., 2022)",Reward Model,Scalar,RLHF,RL,Multiple Tasks
+"Fine-Grained RLHF (Wu et al., 2023a)",Reward Model,Scalar,RLHF,RL,"Detoxification, Long-form QA"
+"HH-RLHF (Bai et al., 2022a)",Reward Model,Scalar,RLHF,SL & RL,"Helpfulness, Harmlessness"
+"Moral RLHF (Ganguli et al., 2023)",Reward Model,Scalar,RLHF,RL,Moral Correction
+"Sparrow (Glaese et al., 2022)",Reward Model,NL,RLHF,SL & RL(Dialogue),
+"ILF (Scheurer et al., 2023)",Human Feedback,NL,Fine-tuning,SL,Summarization
+"ILF-Code (Chen et al., 2023a)",Human Feedback,NL,Fine-tuning,SL,Code Generation
+"SLT (Yuan et al., 2023)",Human Feedback,NL,Fine-tuning,SL,Response Generation
+"Chain-of-Hindsight (Liu et al., 2023a)",Human Feedback,NL,Fine-tuning,SL,Multiple Tasks
+"Crystal (Liu et al., 2023b)",Language Model,Scalar,Fine-Tuning,SL & RL,Commonsense Reasoning
+"STaR (Zelikman et al., 2022)",Language Model,NL,Self-Training,SL,"QA, Reasoning"
+"RLAIF (Bai et al., 2022b)",Language Model,NL,Self-Training,SL & RL(Dialogue),
+"SIRLC (Pang et al., 2023)",Language Model,NL,Self-Training,RL,"Reasoning, Translation, Summary"
+"Self-Improve (Huang et al., 2022)",Language Model,NL,Self-Training,SL,"QA, Reasoning, NLI"
+"AlpacaFarm (Dubois et al., 2023)",Language Model,NL,Self-Training,SL & RL(None (Intrinsic Evaluation)),
+"ReST (Gulcehre et al., 2023)",Language Model,NL,Self-Training,RL,Machine Translation
+Generation-Time Correction,,,,,
+"Self-Verification (Weng et al., 2023)",Language Model,Scalar,Re-Ranking,ICL(Arithmetic Reasoning),
+"CodeT (Chen et al., 2023b)",Program Executor,Scalar,Re-Ranking,ICL(Code Generation),
+"Self-Verification (Weng et al., 2023)",Language Model,Scalar,Re-Ranking,ICL,Arithmetic Reasoning
+"CodeT (Chen et al., 2023b)",Program Executor,Scalar,Re-Ranking,ICL,Code Generation
+"LEVER (Ni et al., 2023)",Program Executor,Scalar,Re-Ranking,SL,"Table QA, Math QA, Program"
+"RR (He et al., 2023)",External Knowledge,Scalar,Re-Ranking,—,Reasoning
+"InstructScore (Xu et al., 2023)",Language Model,NL,Re-Ranking,SL,Generation Evaluation
+"MBR Decoding (Freitag et al., 2022)",External Metrics,Scalar,Re-Ranking,SL,Machine Translation
+"DIVERSE (Li et al., 2023d)",Trained Model,Scalar,Re-Ranking,SL,Arithmetic Reasoning
+"PRM (Lightman et al., 2023)",Reward Model,Scalar,Feedback-guided,SL,Arithmetic Reasoning
+"DiffusionLM (Li et al., 2022)",Trained Model,Scalar,Feedback-guided,SL,Controlled Text Generation
+"Fudge (Yang and Klein, 2021)",Trained Model,Scalar,Feedback-guided,SL,Controlled Text Generation
+"Entailer (Tafjord et al., 2022)",Trained Model,Scalar,Feedback-guided,SL,Proof Generation
+"NLProofS (Yang et al., 2022a)",Trained Model,Scalar,Feedback-guided,SL,Proof Generation
+"GRACE (Khalifa et al., 2023)",Trained Model,Scalar,Feedback-guided,SL,Arithmetic Reasoning
+"CoRe (Zhu et al., 2023)",Trained Model,Scalar,Feedback-guided,SL,Arithmetic Reasoning
+Varshney et al. (2023),External Knowledge,NL,Feedback-guided,ICL,Hallucination Detection
+"MemPrompt (Madaan et al., 2022)",External Knowledge,NL,Feedback-guided,ICL,Lexical and Ethical Reasoning
+"Maieutic Prompting (Jung et al., 2022)",External Metrics,Scalar,Feedback-guided,ICL,Commonsense Reasoning
+"SI (Creswell and Shanahan, 2022)",Language Model,Scalar,Feedback-guided,ICL,Proof Generation
+"RAP (Hao et al., 2023)",Language Model,Scalar,Feedback-guided,ICL,"Planning, Reasoning"
+"SelfEval-Decoding (Xie et al., 2023)",Language Model,Scalar,Feedback-guided,ICL,Arithmetic / Symbolic Reasoning
+"SelfCheck (Miao et al., 2023)",Language Model,NL,Feedback-guided,ICL,Arithmetic Reasoning
+"Tree of Thoughts (Yao et al., 2023a)",Language Model,NL / Scalar,Feedback-guided,ICL,"Games, Writing"

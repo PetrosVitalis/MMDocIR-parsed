@@ -1,0 +1,1 @@
+<table><tr><td>Asat March 31, 2020</td><td>Asat March 31, 2019</td></tr><tr><td></td><td></td></tr><tr><td>3,848 4</td><td>2,919</td></tr><tr><td></td><td>406</td></tr><tr><td></td><td>2</td></tr><tr><td></td><td>= =</td></tr><tr><td>3,852</td><td>3,327</td></tr></table>

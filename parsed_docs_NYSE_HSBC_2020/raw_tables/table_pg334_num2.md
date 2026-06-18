@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">At 30 Sep</td></tr><tr><td>2020</td><td>2019</td></tr><tr><td>HSBC&#x27;s share of total shareholders&#x27;equity</td><td>$m 20,743</td><td>$m 18,509</td></tr><tr><td>Goodwill and other intangible assets</td><td>505</td><td>473</td></tr><tr><td>Carrying amount</td><td>21,248</td><td>18,982</td></tr></table>

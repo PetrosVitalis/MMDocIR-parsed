@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>United States $</td><td>1,655</td><td>854$</td><td>801</td></tr><tr><td>International</td><td>2,840</td><td>2,451</td><td>2,161</td></tr><tr><td>Total $</td><td>4,495$</td><td>3,305$</td><td>2,962</td></tr></table>

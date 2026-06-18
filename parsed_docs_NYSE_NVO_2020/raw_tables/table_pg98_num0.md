@@ -1,0 +1,1 @@
+<table><tr><td>DKK million</td><td>2020</td><td>2019</td></tr><tr><td>Within 1 year</td><td>6,275</td><td>165</td></tr><tr><td>1-5 years</td><td>470</td><td>523</td></tr><tr><td> More than 5 years</td><td>126</td><td>192</td></tr><tr><td>Total borrowings</td><td>6,871</td><td>880</td></tr></table>

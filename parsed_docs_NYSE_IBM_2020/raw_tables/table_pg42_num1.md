@@ -1,0 +1,1 @@
+<table><tr><td>At December 31:</td><td>2020</td><td>2019</td></tr><tr><td>Noncurrent assets</td><td>$116,806</td><td>$113,767</td></tr><tr><td>Long-term debt</td><td>$ 54,355</td><td>$54,102</td></tr><tr><td>Noncurrent liabilities (excluding debt)</td><td>$ 41,020</td><td>$39,398</td></tr></table>

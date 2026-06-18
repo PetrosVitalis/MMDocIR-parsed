@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2023</td><td>2022</td></tr><tr><td>Insurance Policies</td><td>35%</td><td>33%</td></tr><tr><td>Equity Securities</td><td>40%</td><td>42%</td></tr><tr><td>Money Market and Cash</td><td>3%</td><td>2%</td></tr><tr><td>Debt Securities</td><td>22%</td><td>23%</td></tr><tr><td>Total</td><td>100%</td><td>100%</td></tr></table>

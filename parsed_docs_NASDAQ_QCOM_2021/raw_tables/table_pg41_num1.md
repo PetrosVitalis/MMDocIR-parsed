@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2021 vs.2020 Change</td></tr><tr><td>Cost of revenues</td><td>$ 14,262</td><td>$ 9,255</td><td>$ 5,007</td></tr><tr><td>Gross margin</td><td>58%</td><td>61%</td><td></td></tr></table>

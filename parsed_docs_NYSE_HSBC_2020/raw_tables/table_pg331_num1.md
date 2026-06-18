@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020 $m</td><td>2019 $m</td></tr><tr><td>Trading assets</td><td>64,225</td><td>63,163</td></tr><tr><td>Financial investments</td><td>16,915</td><td>10,782</td></tr><tr><td>At 31 Dec</td><td>81,140</td><td>73,945</td></tr></table>

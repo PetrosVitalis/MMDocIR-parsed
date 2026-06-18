@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Particulars</td><td rowspan=1 colspan=1>No. of borrowers</td><td rowspan=1 colspan=1>Amount Outstanding</td></tr><tr><td rowspan=1 colspan=1>March 31,2021</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-</td></tr><tr><td rowspan=1 colspan=1>March 31,2020</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>53.31</td></tr></table>

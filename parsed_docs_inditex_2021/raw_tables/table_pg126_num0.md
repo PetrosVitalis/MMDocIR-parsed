@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020 21/20</td></tr><tr><td>Personnel expenses</td><td>4,179</td><td>3,376 24%</td></tr><tr><td>Rental expenses</td><td>519</td><td>181 187%</td></tr><tr><td> Other operating expenses</td><td>3,898</td><td>3,250 20%</td></tr><tr><td>Total</td><td>8,596</td><td>6,807 26%</td></tr></table>

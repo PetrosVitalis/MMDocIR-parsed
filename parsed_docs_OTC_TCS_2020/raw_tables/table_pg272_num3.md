@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">(crore)</td></tr><tr><td>As at</td><td>As at</td></tr><tr><td>March 31, 2020</td><td>March 31, 2019</td></tr><tr><td>3 234</td><td>了 229</td></tr><tr><td>237</td><td>232</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>December 31,2018</td><td>Additions (1)</td><td>Reductions (2)</td><td>December 31,2019</td></tr><tr><td>Deferred revenue - third parties</td><td></td><td>8$</td><td></td><td>(8) $</td></tr><tr><td>Deferred revenue -related parties</td><td colspan="4">3</td></tr></table>

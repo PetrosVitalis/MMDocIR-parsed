@@ -1,0 +1,1 @@
+<table><tr><td>Actuarial Assumptions:</td><td>2020</td><td>2019</td></tr><tr><td>Discount Rate</td><td>2.75% -4.60%</td><td>2.75%-4.60%</td></tr><tr><td>Salary Increase Rate</td><td>2.25%-4.10%</td><td>2.25%-4.10%</td></tr><tr><td>Pension Increase Rate</td><td>1.75%-3.10%</td><td>1.75%-3.10%</td></tr></table>

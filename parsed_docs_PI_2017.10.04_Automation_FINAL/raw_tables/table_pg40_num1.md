@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">Very □ 1Somewhat</td><td colspan="3">Not too ■Not at all</td></tr><tr><td>Enthusiastic</td><td>9</td><td>35</td><td>38</td><td></td><td>18</td></tr><tr><td>Worried</td><td>14</td><td>33</td><td>43</td><td></td><td>10</td></tr></table>

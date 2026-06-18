@@ -1,0 +1,1 @@
+<table><tr><td>December 31,2020 Cash paid for amounts included in the measurement of lease liabilities:</td></tr><tr><td>Operating cash flows from operating leases</td></tr><tr><td>$ (2,295,656)</td></tr><tr><td>Operating cash flows from finance leases (1,169,746) Financing cash flows from finance leases</td></tr><tr><td>(912,109)</td></tr></table>

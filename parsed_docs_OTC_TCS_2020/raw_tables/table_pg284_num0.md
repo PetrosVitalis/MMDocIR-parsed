@@ -1,0 +1,1 @@
+<table><tr><td>Additions for year ended March 31, 2020</td><td>Net carrying amount as at March 31, 2020</td></tr><tr><td>474</td><td>690</td></tr><tr><td>1,689</td><td>5,336</td></tr><tr><td></td><td>20</td></tr><tr><td></td><td>2</td></tr><tr><td>2,163</td><td>6,048</td></tr></table>

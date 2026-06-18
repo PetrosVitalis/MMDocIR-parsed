@@ -1,0 +1,5 @@
+Named Entity Recognition,,CoNLL,OntoNotes,FewNERD
+# Entity,4,18,66,
+Micro-F1 (SLM),52.5,59.7,59.4,
+Micro-F1 (LLM),77.8,59.4,55.5,
+"""ΔF1 (LLM, SLM)""",25.3,-0.3,-3.9,

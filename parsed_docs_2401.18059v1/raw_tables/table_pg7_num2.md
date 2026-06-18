@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>GPT-3 Acc.</td><td>UnifiedQA Acc.</td></tr><tr><td>BM25</td><td>57.3</td><td>49.9</td></tr><tr><td>DPR</td><td>60.4</td><td>53.9</td></tr><tr><td>RAPTOR</td><td>62.4</td><td>56.6</td></tr></table>

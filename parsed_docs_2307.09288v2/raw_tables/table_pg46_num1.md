@@ -1,0 +1,1 @@
+<table><tr><td>Context Length</td><td>Hella-Swag (0-shot)</td><td>NQ (64-shot)</td><td>TQA (64-shot)</td><td>GSM8K (8-shot)</td><td>Human-Eval (0-shot)</td></tr><tr><td>2k</td><td>75.1</td><td>25.5</td><td>53.7</td><td>4.9</td><td>7.9</td></tr><tr><td>4k</td><td>74.8</td><td>25.5</td><td>52.2</td><td>6.5</td><td>7.3</td></tr></table>

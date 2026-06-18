@@ -1,0 +1,14 @@
+IDWH_dev_2257 Gold answer |2003 (p = 14.1),IDWH_dev_2257 Gold answer |2003 (p = 14.1)
+Query,Query丨inception (of) Derrty Entertainment |Predicted answer| 200 (p = 15.8)
+Support 1,Derrty Entertainment is a record label founded by [..]. The first album released underDerrty Entertainment was Nelly's Country Grammar.
+Support 2,"Country Grammar is the debut single by American rapper Nelly The song was pro-duced by Jason Epperson. It was released in 20,[.]"
+"(a)In this example,themodel predicts the answercorrectly.However,there is a mismatch between what is writen inWIKIPEDIA and what is annotated in WIKIDATA. In WIKIHOP,answers are generated with WIKIDATA.","(a)In this example,themodel predicts the answercorrectly.However,there is a mismatch between what is writen inWIKIPEDIA and what is annotated in WIKIDATA. In WIKIHOP,answers are generated with WIKIDATA."
+ID,WH-dev_2401 Gold answer|Adolph Zukor (p = 7.1e-4%)
+Query |,丨producer (of) Forbidden Paradise|Predicted answer|Jesse L.Lask $( p = 9 9 . 9 \% )$
+Support 1,Support 1|Forbidden Paradise is a[.] drama film produced by Famous Players-Lasky [.]
+Support 2,Famous Players-Lasky Corporation was [..] from the merger of Adolph Zukor's Fa- mous Players Film Company [.] and the Jesse L.Lasky Feature Play Company.
+"(b)In this sample,there is ambiguity between two entitiessince bothare correct answers reading the passages but onlyone ismarked as correct. The model fails assgning very high probability to only on one of them.","(b)In this sample,there is ambiguity between two entitiessince bothare correct answers reading the passages but onlyone ismarked as correct. The model fails assgning very high probability to only on one of them."
+ID,WH_dev_3030 Gold answer |Scania (p = 0.029%)
+Query,Query丨place_of_birth (of) Erik Penser|Predicted answer|Eslov (p = 97.3%)
+Support 1,"Support 1|Nils Wilhelm Erik Penser (born August 22, 1942,in Eslov, Skane) is a Swedish [..]"
+Support 2,"Support 2| Skane County, sometimes referred to as “ Scania County ” in English, is the $[ . . . ]$"

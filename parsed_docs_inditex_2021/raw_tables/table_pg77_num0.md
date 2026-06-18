@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021 2020</td></tr><tr><td>Opening balance</td><td>201 207</td></tr><tr><td>Acquisitions</td><td>： ：</td></tr><tr><td>Foreign exchange translation differences</td><td>1 （6</td></tr><tr><td>Closing balance</td><td>202 201</td></tr></table>

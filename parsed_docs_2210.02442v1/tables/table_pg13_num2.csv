@@ -1,0 +1,6 @@
+augmentation,value
+hflip,
+crop,"[0.08, 1]"
+color jitter,"[0.4, 0.4, 0.4, 0.1], p=0.8"
+gray scale,
+Gaussian blur,"$\sigma _ { m i n } = 0 . 1 , \sigma _ { m a x } = 2 . 0 , \mathrm { p } { = } 0 . 5$"

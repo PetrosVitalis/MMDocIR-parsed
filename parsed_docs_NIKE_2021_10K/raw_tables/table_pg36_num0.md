@@ -1,0 +1,1 @@
+<table><tr><td></td><td>FISCAL 2021</td><td>FISCAL 2020</td><td>% CHANGE</td><td></td><td>% CHANGE</td></tr><tr><td>Effective tax rate</td><td>14.0 %</td><td>12.1 %</td><td>190 bps</td><td>16.1 %</td><td>(400) bps</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td> Soft Launch</td><td> Full Launch</td></tr><tr><td>Initial invitation</td><td>Feb.1,2021</td><td>Feb.2,2021</td></tr><tr><td>First reminder</td><td>Feb.4,2021</td><td>Feb 4,2021</td></tr><tr><td>Final reminder</td><td>Feb.6,2021</td><td>Feb.6,2021</td></tr></table>

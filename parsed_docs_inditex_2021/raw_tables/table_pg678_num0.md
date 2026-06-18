@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Board of Directors</td><td rowspan=1 colspan=1>General Meeting of Shareholders</td></tr><tr><td rowspan=1 colspan=1>Governing body authorizing the clauses</td><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1></td></tr></table>

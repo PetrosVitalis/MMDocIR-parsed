@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020 2019</td><td></td><td>2018</td></tr><tr><td></td><td></td><td>(millions of dollars)</td><td></td></tr><tr><td>Corporate and financing</td><td>(3,296)</td><td>(3,017)</td><td>(2,600)</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Openingbalance</td><td rowspan=1 colspan=1>Received duringthe year</td><td rowspan=1 colspan=1>Resolvedduring the year</td><td rowspan=1 colspan=1>Closingbalance</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>99</td><td rowspan=1 colspan=1>100</td><td rowspan=1 colspan=1>-</td></tr></table>

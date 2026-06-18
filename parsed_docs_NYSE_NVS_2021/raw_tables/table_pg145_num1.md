@@ -1,0 +1,1 @@
+<table><tr><td>Number of meetings held</td><td>4</td><td>T. Buechner(Chair)</td><td>4</td></tr><tr><td>Number of members</td><td>4</td><td>N.Andrews</td><td>4</td></tr><tr><td>Approximate average duration (hours)</td><td>2:12</td><td>E.Doherty</td><td>4</td></tr><tr><td>Meeting attendance</td><td>100%</td><td>A.von Planta</td><td>4</td></tr></table>

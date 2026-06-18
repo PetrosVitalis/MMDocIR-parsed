@@ -1,0 +1,1 @@
+<table><tr><td>Subtotal</td><td>631830</td><td>143427</td><td>443372</td><td>0</td><td>702 014</td><td>5188934</td><td>109576</td></tr><tr><td>Total</td><td>10 753 041</td><td>2 242 292</td><td>5 502631</td><td>6 728 657</td><td>25 587 110</td><td>7 844 343</td><td>58 658 074</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Nature</td><td>Nos.</td><td>Notional principal</td><td>Benchmark</td><td>Terms</td></tr><tr><td>Trading</td><td>66</td><td>2,088.78</td><td>Bond Yield</td><td>Sell FRA</td></tr><tr><td>Total</td><td colspan="4">2,088.78</td></tr></table>

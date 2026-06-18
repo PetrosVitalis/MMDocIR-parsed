@@ -1,0 +1,23 @@
+Attribute,Value,Scores,Critical: (10-15 points)
+Title,Director or VP,,12
+Industry,"Healthcare, Financial, or High Tech industry",,10
+Purchase Authority,Decision Maker,,13
+Company Revenue,Greater than 500 Million,,10
+Product,Using competitive solution,,15
+Timeline,"Identified, less than 3 months",,12
+Important: (5-9 points),,,
+Location,US,,8
+Company Revenue,100 Million to 499 Million,,8
+Title,Manager,,7
+Timeline,"Identified, more than 3 months, less than 8 months",,5
+Influencing: (1-4 points),,,
+Location,"English Speaking, Non US",,4
+Timeline,"Identified, more than 8 months",,3
+Title,"Analyst, Coordinator, or Specialist",,6
+Company Revenue,Less than 100 million,,1
+Negative:,,,
+Title,Student,,-15
+Title,Consultant,,-5
+Industry,Services,,-6
+Industry,ecommerce,,-10
+Location,Non English Speaking Country,,-10

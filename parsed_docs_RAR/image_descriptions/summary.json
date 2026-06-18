@@ -1,0 +1,94 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_RAR",
+  "total_images": 17,
+  "non_figure_images_skipped": 14,
+  "processed": 17,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_12_Figure_0.jpg",
+      "output": "image_descriptions/_page_12_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Asset_5.jpg",
+      "output": "image_descriptions/_page_22_Asset_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Asset_4.jpg",
+      "output": "image_descriptions/_page_22_Asset_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_0.jpg",
+      "output": "image_descriptions/_page_1_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Figure_0.jpg",
+      "output": "image_descriptions/_page_6_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Asset_6.jpg",
+      "output": "image_descriptions/_page_22_Asset_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Asset_7.jpg",
+      "output": "image_descriptions/_page_22_Asset_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Asset_3.jpg",
+      "output": "image_descriptions/_page_22_Asset_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Asset_2.jpg",
+      "output": "image_descriptions/_page_22_Asset_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Asset_0.jpg",
+      "output": "image_descriptions/_page_22_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_22_Asset_1.jpg",
+      "output": "image_descriptions/_page_22_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_7_Figure_0.jpg",
+      "output": "image_descriptions/_page_7_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_19_Figure_0.jpg",
+      "output": "image_descriptions/_page_19_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_26_Asset_0.jpg",
+      "output": "image_descriptions/_page_26_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_0.jpg",
+      "output": "image_descriptions/_page_20_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Figure_0.jpg",
+      "output": "image_descriptions/_page_5_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_21_Figure_0.jpg",
+      "output": "image_descriptions/_page_21_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

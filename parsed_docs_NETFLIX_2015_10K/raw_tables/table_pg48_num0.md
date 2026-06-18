@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td>rearendedDeceiberS1,</td><td></td></tr><tr><td>2015 2014</td><td>2013</td></tr><tr><td></td><td colspan="2">(in thousands)</td></tr><tr><td>Employee stock options</td><td>517 917</td><td>1,386</td></tr></table>

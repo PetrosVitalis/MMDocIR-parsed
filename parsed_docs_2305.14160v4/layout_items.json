@@ -1,0 +1,2312 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.077,
+      0.166,
+      0.118,
+      0.831
+    ],
+    "text": "Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.124,
+      0.297,
+      0.142,
+      0.709
+    ],
+    "text": "Lean Wang†,§, Lei Li†, Damai Dai†, Deli Chen§,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.289,
+      0.159,
+      0.712
+    ],
+    "text": "Hao Zhou§, Fandong Meng§, Jie Zhou§, Xu Sun†",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.159,
+      0.231,
+      0.177,
+      0.773
+    ],
+    "text": "†National Key Laboratory for Multimedia Information Processing,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.304,
+      0.193,
+      0.7
+    ],
+    "text": "School of Computer Science, Peking University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.252,
+      0.209,
+      0.752
+    ],
+    "text": "§Pattern Recognition Center, WeChat AI, Tencent Inc., China",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.23,
+      0.225,
+      0.776
+    ],
+    "text": "{lean,daidamai,xusun}@pku.edu.cn nlp.lilei@gmail.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.144,
+      0.243,
+      0.86
+    ],
+    "text": "victorchen@deepseek.com {tuxzhou,fandongmeng,withtomzhou}@tencent.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.26,
+      0.268,
+      0.342
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.141,
+      0.607,
+      0.463
+    ],
+    "text": "In-context learning (ICL) emerges as a promising capability of large language models (LLMs) by providing them with demonstration examples to perform diverse tasks. However, the underlying mechanism of how LLMs learn from the provided context remains under-explored. In this paper, we investigate the working mechanism of ICL through an information flow lens. Our findings reveal that label words in the demonstration examples function as anchors: (1) semantic information aggregates into label word representations during the shallow computation layers’ processing; (2) the consolidated information in label words serves as a reference for LLMs’ final predictions. Based on these insights, we introduce an anchor re-weighting method to improve ICL performance, a demonstration compression technique t",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.115,
+      0.634,
+      0.26
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-14",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.644,
+      0.11,
+      0.887,
+      0.49
+    ],
+    "text": "In-context Learning (ICL) has emerged as a powerful capability alongside the development of scaledup large language models (LLMs) (Brown et al., 2020). By instructing LLMs using few-shot demonstration examples, ICL enables them to perform a wide range of tasks, such as text classification (Min et al., 2022a) and mathematical reasoning (Wei et al., 2022). Since ICL does not require updates to millions or trillions of model parameters and relies on human-understandable natural language instructions (Dong et al., 2023), it has become a promising approach for harnessing the full potentiality of LLMs. Despite its significance, the inner working mechanism of ICL remains an open question, garnering considerable interest from research",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-15",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.557,
+      0.507,
+      0.659,
+      0.885
+    ],
+    "text": "Figure 1: Visualization of the information flow in a GPT model performing ICL. The line depth reflects the significance of the information flow from the right word to the left. The flows involving label words are highlighted. Label words gather information from demonstrations in shallow layers, which is then extracted in deep layers for final prediction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-16",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.683,
+      0.507,
+      0.717,
+      0.885
+    ],
+    "text": "communities (Xie et al., 2022; Dai et al., 2022;   \nAkyürek et al., 2022; Li et al., 2023b).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-17",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.507,
+      0.863,
+      0.885
+    ],
+    "text": "In this paper, we find that the label words serve as anchors that aggregate and distribute information in ICL. We first visualize the attention interactive pattern between tokens with a GPT model (Brown et al., 2020) on sentiment analysis (Figure 1). Initial observations suggest that label words aggregate information in shallow layers and distribute it in deep layers.2 To draw a clearer picture of this phenomenon, we design two metrics based on saliency scores to portray the information flow in ICL and further propose the following hypothesis:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.119,
+      0.239,
+      0.877
+    ],
+    "text": "Figure 2: Illustration of our hypothesis. In shallow layers, label words gather information from demonstrations to form semantic representations for deeper processing, while deep layers extract and utilize this information from label words to formulate the final prediction.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.363,
+      0.131,
+      0.378,
+      0.445
+    ],
+    "text": "Information Flow with Labels as Anchors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.378,
+      0.129,
+      0.428,
+      0.473
+    ],
+    "text": "$\\mathcal { H } _ { 1 }$ : In shallow layers, label words gather the information of demonstrations to form semantic representations for deeper layers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.428,
+      0.129,
+      0.476,
+      0.472
+    ],
+    "text": "$\\mathcal { H } _ { 2 } \\colon$ In deep layers, the model extracts the information from label words to form the final prediction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.485,
+      0.112,
+      0.775,
+      0.49
+    ],
+    "text": "Two experiments are designed to validate the hypothesis using GPT2-XL (Radford et al., 2019) and GPT-J (Wang and Komatsuzaki, 2021) across several text classification benchmarks. (1) By blocking the information aggregation path to label words in certain layers, we find that such isolation in shallow layers significantly impairs model performance. This indicates that label words collect useful information during forward propagation in shallow layers. (2) We investigate the relationship between the attention distributions on the label words of the target position and the model’s final prediction. Our results illustrate a strong positive correlation, where a candidate label’s probability increases with more attention weight on its corresponding label token. In summary, these experimental find",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "Drawing on insights from the information flow perspective, we explore three approaches to enhance ICL’s effectiveness, efficiency, and interpretability. (1) An anchor re-weighting method is introduced, which employs a learnable vector to adjust the significance of different label words in demonstrations, leading to a 16.7% average accuracy boost compared to standard ICL baselines. (2) For quicker ICL inference, inputs are compressed into pre-calculated anchor representations since model predictions primarily rely on label word activations. Testing shows a 1.8 × speedup in inference with only a minimal performance trade-off. (3) An error analysis of ICL on GPT2-XL demonstrates that the label confusion matrix aligns closely with the distance distribution of anchor key vectors, implying that ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.509,
+      0.529,
+      0.769
+    ],
+    "text": "2 Label Words are Anchors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.537,
+      0.507,
+      0.718,
+      0.885
+    ],
+    "text": "This section confirms the intuitive findings using two saliency score-based metrics as discussed in § 2.1. The quantitative results lead to a proposed hypothesis for the ICL working mechanism: $\\mathcal { H } _ { 1 } \\colon$ In shallow layers, label words aggregate information from demonstration examples to form semantic representations for later computations. $\\mathcal { H } _ { 2 } \\colon$ In deep layers, the model makes predictions by extracting information from label words. The validation for these hypotheses is presented in § 2.2 and § 2.3, respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-11",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.726,
+      0.509,
+      0.743,
+      0.878
+    ],
+    "text": "2.1 Hypothesis Motivated by Saliency Scores",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-12",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.746,
+      0.507,
+      0.891,
+      0.885
+    ],
+    "text": "This section aims to discover the inherent patterns in the attention interaction between tokens for a GPT model. The saliency technique (Simonyan et al., 2013), a common interpretation tool, is employed for highlighting critical token interactions. Following common practice, we use the Taylor expansion (Michel et al., 2019) to calculate the saliency score for each element of the attention matrix:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:equation-13",
+    "page_id": 1,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_1_Equation_0.jpg",
+    "bbox_norm": [
+      0.889,
+      0.608,
+      0.923,
+      0.781
+    ],
+    "text": "$$\n{ { I } _ { l } } = \\left| \\sum _ { h } { { { A } _ { h , l } } } \\odot \\frac { \\partial \\mathcal { L } ( x ) } { \\partial { { A } _ { h , l } } } \\right| .\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.11,
+      0.278,
+      0.489
+    ],
+    "text": "Here, $A _ { h , l }$ is the value of the attention matrix of the h-th attention head in the l-th layer, x is the input, and $\\mathcal { L } ( x )$ is the loss function of the task, e.g., the cross-entropy objective for a classification problem. We average all attention heads to obtain the saliency matrix $I _ { l }$ for the l-th layer.3 $I _ { l } ( i , j )$ represents the significance of the information flow from the j-th word to the i-th word for ICL. By observing $I _ { l } ,$ , we can get an intuitive impression that as the layer goes deeper, demonstration label words will become more dominant for the prediction, as depicted in Figure 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.278,
+      0.112,
+      0.438,
+      0.489
+    ],
+    "text": "To draw a clearer picture of this phenomenon, we propose three quantitative metrics based on $I _ { l } .$ Our focus lies in three components: (i) the label words, such as “Negative” and “Positive” in Figure 2, denoted as $p _ { 1 } , . . . , p _ { C }$ , where C represents the total number of label words;4 (ii) the target position, where the model generates prediction labels (i.e., the final token in the input), which we denote as $q ;$ and (iii) the text part, i.e., the tokens before label words in the demonstration.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.439,
+      0.112,
+      0.47,
+      0.487
+    ],
+    "text": "The definitions of the three quantitative metrics follow below.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.114,
+      0.504,
+      0.487
+    ],
+    "text": "$S _ { w p } ,$ the mean significance of information flow from the text part to label words:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-5",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_0.jpg",
+    "bbox_norm": [
+      0.512,
+      0.178,
+      0.561,
+      0.421
+    ],
+    "text": "$$\n\\begin{array} { l } { S _ { w p } = \\frac { \\sum _ { ( i , j ) \\in C _ { w p } } I _ { l } ( i , j ) } { \\left| C _ { w p } \\right| } , } \\\\ { C _ { w p } = \\{ ( p _ { k } , j ) : k \\in [ 1 , C ] , j < p _ { k } \\} . } \\end{array}\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.114,
+      0.601,
+      0.487
+    ],
+    "text": "$S _ { p q } ,$ the mean significance of information flow from label words to the target position:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-7",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_1.jpg",
+    "bbox_norm": [
+      0.611,
+      0.205,
+      0.659,
+      0.394
+    ],
+    "text": "$$\n\\begin{array} { l } { S _ { p q } = \\frac { \\sum _ { ( i , j ) \\in C _ { p q } } I _ { l } ( i , j ) } { | C _ { p q } | } , } \\\\ { C _ { p q } = \\{ ( q , p _ { k } ) : k \\in [ 1 , C ] \\} . } \\end{array}\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.112,
+      0.718,
+      0.487
+    ],
+    "text": "$\\boldsymbol { S _ { w w } }$ the mean significance of the information flow amongst all words, excluding influences represented by $S _ { w p }$ and $S _ { p q }$ :",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-9",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_2.jpg",
+    "bbox_norm": [
+      0.726,
+      0.179,
+      0.774,
+      0.42
+    ],
+    "text": "$$\n\\begin{array} { r l } & { \\displaystyle { S _ { w w } = \\frac { \\sum _ { ( i , j ) \\in C _ { w w } } I _ { l } ( i , j ) } { | C _ { w w } | } , } } \\\\ & { \\displaystyle { C _ { w w } = \\{ ( i , j ) : j < i \\} - C _ { w p } - C _ { p q } . } } \\end{array}\\tag{4}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.783,
+      0.112,
+      0.832,
+      0.489
+    ],
+    "text": "$S _ { w p } , S _ { p q }$ , and $S _ { w w }$ help assess different information flows in the model. $S _ { w p }$ indicates the intensity of information aggregation onto label words. A high $S _ { p q }$ demonstrates a strong information extraction from label words for final decision-making. $S _ { w w }$ assesses average information flow among words, serving as a benchmark to gauge the intensity of the patterns identified by $S _ { w p }$ and $S _ { p q }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.507,
+      0.514,
+      0.887
+    ],
+    "text": "Experimental Settings We choose GPT2-XL from the GPT series (Radford et al., 2019) as our primary model for investigation, due to its moderate model size (of 1.5B parameters) that is suitable for our hardware resource and its decent ICL performance (Dai et al., 2022). For datasets, we use Stanford Sentiment Treebank Binary (SST-2) (Socher et al., 2013) for sentiment analysis, Text REtrieval Conference Question Classification (TREC) (Li and Roth, 2002; Hovy et al., 2001) for question type classification, AG’s news topic classification dataset (AGNews) (Zhang et al., 2015) for topic classification, and EmoContext (EmoC) (Chatterjee et al., 2019) for emotion classification. Templates for constructing demonstrations are provided in Appendix A. 1000 examples are sampled from the test set for ev",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.523,
+      0.507,
+      0.686,
+      0.887
+    ],
+    "text": "Results and Analysis Figure 3 reveals that: (1) in shallow layers, $S _ { p q } .$ the significance of the information flow from label words to targeted positions, is low, while $S _ { w p } ,$ the information flow from the text part to label words is high; (2) in deep layers, $S _ { p q } ,$ the importance of information flow from label words to the targeted position becomes the dominant one. Notably, $S _ { p q }$ and $S _ { w p }$ usually surpass $S _ { w w } ,$ , suggesting that interactions involving label words outweigh others.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.507,
+      0.84,
+      0.887
+    ],
+    "text": "Proposed Hypothesis Based on this, we propose the hypothesis that label words function as anchors in the ICL information flow. In shallow layers, label words gather information from demonstration examples to form semantic representations for deeper layers, while in deep layers, the model extracts the information from label words to form the final prediction. Figure 2 gives an illustration for our hypothesis.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.851,
+      0.509,
+      0.868,
+      0.884
+    ],
+    "text": "2.2 Shallow Layers: Information Aggregation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-16",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.872,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "In this part, we validate our hypothesis’ first component. We assume that the information aggregation in ICL relies on the information flow from the text part to label tokens, which is facilitated by the transformer’s attention mechanism. By manipulating the attention layer in the model to block this flow and examining the model behavior change, we validate the existence of the information aggregation process and its contribution to the final prediction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.112,
+      0.831,
+      0.489
+    ],
+    "text": "Experimental Settings We retain the same test sample size of 1000 inputs as § 2.1. We use the same demonstration for a single random seed. To further validate our findings on larger models, we incorporate GPT-J (6B) (Wang and Komatsuzaki, 2021) in experiments, which exceeds GPT2-XL in model size and capacity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Implementation Details To block the information flow to label words, we isolate label words by manipulating the attention matrix A. Specifically, we set $A _ { l } ( p , i ) ( i < p )$ to 0 in the attention matrix $A _ { l }$ of the l-th layer, where p represents label words and i represents preceding words. Consequently, in the l-th layer, label words cannot access information from the prior demonstration text.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.443,
+      0.507,
+      0.605,
+      0.887
+    ],
+    "text": "Metrics We use the following metrics to assess the impact of blocking information flow from the text part to label tokens: (1) Label Loyalty: measures the consistency of output labels with and without isolation. (2) Word Loyalty: employs the Jaccard similarity to compare the top-5 predicted words with and without isolation, capturing more subtle model output alterations (See Appendix C for details). Low loyalty indicates a profound impact of isolation on model predictions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.613,
+      0.507,
+      0.825,
+      0.887
+    ],
+    "text": "Results and Analysis Figure 4 illustrates a notable influence on the model’s behavior when label words are isolated within the first 5 layers. Yet, this influence becomes inconsequential within the last 5 layers, or when random non-label words are used. This observation underlines the fundamental importance of shallow-layer information aggregation via label words in ICL. It also emphasizes the superiority of label words over non-label words. Further tests with variable numbers of layers reaffirm these findings (Appendix D). Moreover, similar results were obtained when testing ICL with semantically unrelated labels (refer to Appendix F.2).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.834,
+      0.509,
+      0.851,
+      0.852
+    ],
+    "text": "2.3 Deep Layers: Information Extraction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "We proceed to validate the latter part of our hypothesis that the model extracts information from label words to form the final prediction. We denote the sum of the attention matrices in the l-th layer as $A _ { l } . ^ { 5 }$ In deeper layers, we find a strong correlation between the attention distributions on the label words of the target position, represented as $( A _ { l } ( q , p _ { 1 } ) , . . . , A _ { l } ( q , p _ { C } ) )$ , and the model’s final prediction, affirming our hypothesis. The experimental setup mirrors that discussed in § 2.2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.19,
+      0.114,
+      0.205,
+      0.277
+    ],
+    "text": "2.3.1 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.112,
+      0.467,
+      0.49
+    ],
+    "text": "We utilize the AUC-ROC score to quantify the correlation between $A _ { l } ( q , p _ { i } )$ and model prediction, which we denote as $\\mathbf { A U C R O C } _ { l }$ for the l-th layer. We prefer the AUC-ROC metric due to two primary reasons: (1) $A _ { l } ( q , p _ { i } )$ might differ from the probability of the model outputting label i by a constant factor. As Kobayashi et al. (2020) points out, attention should be multiplied by the norm of the key vector to yield ’more interpretable attention’. The AUC-ROC metric can implicitly account for these factors, thus allowing us to uncover the correlation more effectively. (2) The proportion of different labels output by the model may be unbalanced. Using the AUC-ROC metric can help mitigate this issue, reducing disturbances caused by cl",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.112,
+      0.548,
+      0.49
+    ],
+    "text": "Considering the residual mechanism of transformers, we can view each layer’s hidden state as the cumulative effect of all prior layer calculations. To quantify the accumulated contribution of the first l layers to model prediction, we introduce $R _ { l } \\mathbf { : }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-5",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_0.jpg",
+    "bbox_norm": [
+      0.557,
+      0.198,
+      0.592,
+      0.403
+    ],
+    "text": "$$\nR _ { l } = \\frac { \\sum _ { i = 1 } ^ { l } ( \\mathrm { A U C R O C } _ { i } - 0 . 5 ) } { \\sum _ { i = 1 } ^ { N } ( \\mathrm { A U C R O C } _ { i } - 0 . 5 ) } .\\tag{5}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.112,
+      0.665,
+      0.487
+    ],
+    "text": "This measure tracks the positive contribution above a baseline AUC-ROC threshold of 0.5. The value of $R _ { l }$ signifies the proportional contribution of the first l layers to the model prediction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.114,
+      0.688,
+      0.339
+    ],
+    "text": "2.3.2 Results and Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.112,
+      0.887,
+      0.49
+    ],
+    "text": "Figures 5a and 5b delineate correlation metrics for GPT2-XL and GPT-J, averaged across four datasets. The $\\mathbf { A U C R O C } _ { l }$ for deep layers approaches 0.8, illustrating a strong correlation between the attention distributions on label words of the target position and the model’s final prediction. Moreover, shallow layers show negligible cumulative contributions $( R _ { l } )$ , with a significant increase in middle and deep layers. These results signify the crucial role of deep layers for final prediction, validating that the model extracts information from label words in deep layers to form the final prediction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.519,
+      0.509,
+      0.536,
+      0.788
+    ],
+    "text": "2.4 Discussion of Our Hypothesis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.542,
+      0.507,
+      0.72,
+      0.887
+    ],
+    "text": "In § 2.2, we have affirmed that the model’s shallow layers assemble information from demonstrations via label words to form semantic representations. In § 2.3, we verify that the aforementioned aggregated information on label words is then extracted to form the final prediction in the deep layers. Recognizing the crucial function of label words in this process, we have introduced the term “Anchors” to denote them. Given the considerable role these “anchors” fulfill, we find it intuitive to design ICL improvements based on them, as elaborated in § 3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.509,
+      0.765,
+      0.843
+    ],
+    "text": "3 Applications of Our Anchor-Based Understanding",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-14",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "With insights from the validated hypothesis, we propose strategies to boost ICL’s accuracy and inference speed. We propose an anchor re-weighting method in § 3.1 to adjust the demonstrations’ contributions and improve accuracy. In § 3.2, we explore a context compression technique that reduces original demonstrations to anchor hidden states to speed up ICL inference. Besides, in § 3.3, we utilize anchor distances to perform an analysis to understand the errors ICL made in real-world scenarios. These approaches corroborate our hypothesis, pointing to potential paths for future ICL enhancements.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.114,
+      0.159,
+      0.331
+    ],
+    "text": "3.1 Anchor Re-weighting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.112,
+      0.229,
+      0.489
+    ],
+    "text": "Based on our analysis in § 2, we draw parallels between ICL and logistic regression and propose an approach to improve ICL’s accuracy by reweighting label anchors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.114,
+      0.252,
+      0.238
+    ],
+    "text": "3.1.1 Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.112,
+      0.336,
+      0.49
+    ],
+    "text": "§ 2.3 illustrates a strong correlation between the model’s output category and the attention distribution $\\left( A \\left( q , p _ { 1 } \\right) , \\ldots , A \\left( q , p _ { C } \\right) \\right)$ on label words $p _ { 1 } , . . . , p _ { C }$ of the target position q in deep layers. We can view the attention module as a classifier $f$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:equation-6",
+    "page_id": 5,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_5_Equation_0.jpg",
+    "bbox_norm": [
+      0.346,
+      0.216,
+      0.412,
+      0.384
+    ],
+    "text": "$$\n\\begin{array} { r l } & { \\quad \\mathrm { P r } _ { f } ( Y = i | X = x ) } \\\\ & { \\approx A ( q , p _ { i } ) } \\\\ & { = \\frac { \\exp ( \\mathbf { q } _ { q } \\mathbf { k } _ { p _ { i } } ^ { T } / \\sqrt { d } ) } { \\sum _ { j = 1 } ^ { N } \\exp ( \\mathbf { q } _ { q } \\mathbf { k } _ { j } ^ { T } / \\sqrt { d } ) } . } \\end{array}\\tag{6}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.112,
+      0.455,
+      0.487
+    ],
+    "text": "By setting $\\mathbf { q } _ { q } / \\sqrt { d } = \\hat { \\mathbf { x } }$ and $\\mathbf { k } _ { p _ { i } } - \\mathbf { k } _ { p _ { C } } = \\beta _ { i }$ , we deduce:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:equation-8",
+    "page_id": 5,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_5_Equation_1.jpg",
+    "bbox_norm": [
+      0.462,
+      0.191,
+      0.492,
+      0.408
+    ],
+    "text": "$$\n\\log { \\frac { \\operatorname* { P r } _ { f } ( Y = i | X = x ) } { \\operatorname* { P r } _ { f } ( Y = C | X = x ) } } = \\beta _ { i } ^ { T } \\hat { \\mathbf { x } } .\\tag{7}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.499,
+      0.112,
+      0.53,
+      0.487
+    ],
+    "text": "This approximates a logistic regression model where:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:equation-10",
+    "page_id": 5,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_5_Equation_2.jpg",
+    "bbox_norm": [
+      0.537,
+      0.174,
+      0.567,
+      0.426
+    ],
+    "text": "$$\n\\log { \\frac { \\operatorname* { P r } _ { f } ( Y = i | X = x ) } { \\operatorname* { P r } _ { f } ( Y = C | X = x ) } } = \\beta _ { 0 } ^ { i } + \\beta _ { i } ^ { T } \\mathbf { x } .\\tag{8}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.112,
+      0.609,
+      0.487
+    ],
+    "text": "In this equation, $\\beta _ { 0 } ^ { i }$ and $\\beta _ { i } ^ { T }$ are parameters that can be learned, while x is the input feature.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.112,
+      0.675,
+      0.489
+    ],
+    "text": "Inspired by the similarity between ICL and logistic regression, we’ve incorporated a learnable $\\beta _ { 0 } ^ { i }$ into Eq. (7), which is equivalent to adjusting the attention weights $A ( q , p _ { i } )$ :",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:equation-13",
+    "page_id": 5,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_5_Equation_3.jpg",
+    "bbox_norm": [
+      0.684,
+      0.194,
+      0.703,
+      0.405
+    ],
+    "text": "$$\n\\hat { A } ( q , p _ { i } ) = \\exp ( \\beta _ { 0 } ^ { i } ) A ( q , p _ { i } )\\tag{9}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-5:text-14",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.112,
+      0.762,
+      0.489
+    ],
+    "text": "Each $\\beta _ { 0 } ^ { i }$ is a learnable parameter, set uniquely for different attention heads and layers. Refer to $\\mathsf { A p - }$ pendix G for more details.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-15",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.762,
+      0.112,
+      0.844,
+      0.489
+    ],
+    "text": "To train the re-weighting vector $\\beta = \\left\\{ \\beta _ { 0 } ^ { i } \\right\\}$ , we utilize an auxiliary training set $( X _ { t r a i n } , \\dot { Y _ { t r a i n } } )$ Here, we perform ICL with normal demonstrations and optimize $\\beta$ with respect to the classification loss L on $( X _ { t r a i n } , Y _ { t r a i n } )$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:equation-16",
+    "page_id": 5,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_5_Equation_4.jpg",
+    "bbox_norm": [
+      0.858,
+      0.169,
+      0.881,
+      0.428
+    ],
+    "text": "$$\n\\beta ^ { \\star } = \\arg \\operatorname* { m i n } _ { \\beta } \\mathcal { L } ( X _ { t r a i n } , Y _ { t r a i n } ) .\\tag{10}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-5:text-17",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.112,
+      0.921,
+      0.489
+    ],
+    "text": "This approach can be metaphorically described as \"re-weighting the anchors,\" leading us to term it as Anchor Re-weighting. It can also be viewed as a modification of the demonstration contributions since demonstration information has been incorporated into the anchors as suggested by our prior analysis in § 2.2. Additionally, it can be interpreted as a unique adapter variant, introducing minimal parameters while preserving most of the original model. However, it is specifically designed based on our anchor hypothesis and requires fewer parameters than traditional adapters.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-19",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.509,
+      0.269,
+      0.673
+    ],
+    "text": "3.1.2 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-20",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.273,
+      0.507,
+      0.417,
+      0.887
+    ],
+    "text": "We choose one sample per class as normal demonstrations and choose four extra samples per class to form the auxiliary training set $( X _ { t r a i n } , Y _ { t r a i n } )$ The setup follows § 2.2, with results averaged over five random seeds. Owing to computational constraints, we employ GPT2-XL for evaluation, excluding GPT-J. The parameters $\\big \\{ \\beta _ { 0 } ^ { i } \\big \\}$ are trained using gradient descent. More details can be found in Appendix H.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-21",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.418,
+      0.507,
+      0.499,
+      0.887
+    ],
+    "text": "We compare Anchoring Re-weighting with two baselines: (1) Vanilla ICL with the same demonstration (1-shot per class) (2) Vanilla ICL, where the auxiliary training set of $\\beta$ is included as demonstrations (5-shot per class) for a fair comparison.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-22",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.505,
+      0.509,
+      0.52,
+      0.63
+    ],
+    "text": "3.1.3 Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-23",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.507,
+      0.784,
+      0.887
+    ],
+    "text": "As Table 1 shows, the proposed anchor reweighting significantly enhances ICL performance, particularly on the SST-2 and EmoC datasets. Besides, adding more demonstrations for vanilla ICL may not bring a stable accuracy boost due to the potential noise introduced, as discussed in Zhao et al. (2021). Different from vanilla ICL which utilizes the extra examples to form a demonstration, we train a re-weighting vector $\\beta$ to modulate label anchor contributions. This shortens the input context and thus brings (almost) no extra cost to the inference speed. The consistent improvements of our method suggest that the re-weighting mechanism could be a better alternative to utilize demonstration examples. Furthermore, it reiterates the crucial role that anchors play in ICL.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-24",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.509,
+      0.808,
+      0.835
+    ],
+    "text": "3.2 Anchor-Only Context Compression",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-25",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.507,
+      0.862,
+      0.887
+    ],
+    "text": "We further explore a context compression technique that reduces the full demonstration to anchor hidden states for accelerating ICL inference.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-26",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.869,
+      0.509,
+      0.884,
+      0.635
+    ],
+    "text": "3.2.1 Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-27",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.507,
+      0.92,
+      0.887
+    ],
+    "text": "In § 2.3, we find that the model output heavily relies on the label words, which collect information from the demonstrations. Given the auto-regressive nature of GPT-like models, where hidden states of tokens depend solely on preceding ones, label words’ information aggregation process is independent of subsequent words. This allows for the calculation and caching of the label word hidden states ${ \\pmb H } = \\{ \\{ h _ { l } ^ { i } \\} _ { i = 1 } ^ { C } \\} _ { l = 1 } ^ { N } ( h _ { l } ^ { i }$ is the l-th layer’s hidden state of the i-th label word in the demonstration). By concatenating $\\pmb { h } _ { l } ^ { 1 } , . . . , \\pmb { h } _ { l } ^ { C }$ at the front in each layer during inference, instead of using the full demonstration, we can speed up inference.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.08,
+      0.129,
+      0.162,
+      0.867
+    ],
+    "text": "Table 1: The effect after adding parameter $\\beta _ { 0 } ^ { i }$ . For AGNews, due to the length limit, we only use three demonstrations per class. Our Anchor Re-weighting method achieves the best performance overall tasks.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.406,
+      0.11,
+      0.552,
+      0.489
+    ],
+    "text": "In our preliminary experiments, concatenating hidden states of label words alone was inadequate for completing the ICL task.6 This might be due to the critical role of formatting information in helping the model to determine the output space at the target position,7 as highlighted in Min et al. (2022b). As a solution, we amalgamate the hidden states of both the formatting and the label words, a method we’ve termed $\\mathbf { H i d d e n } _ { \\mathbf { a n c h o r } }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.112,
+      0.579,
+      0.277
+    ],
+    "text": "3.2.2 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.112,
+      0.632,
+      0.489
+    ],
+    "text": "We follow the same experimental settings as § 2.2. We compare our $\\mathrm { H i d d e n } _ { \\mathrm { a n c h o r } }$ input compression method with two equally efficient baselines.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.633,
+      0.112,
+      0.681,
+      0.489
+    ],
+    "text": "$\\mathbf { T e x t _ { a n c h o r } } ;$ : This method concatenates the formatting and label text with the input, as opposed to concatenating the hidden states at each layer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.682,
+      0.112,
+      0.731,
+      0.489
+    ],
+    "text": "$\\mathbf { H i d d e n } _ { \\mathbf { r a n d o m } }$ : This approach concatenates the hidden states of formatting and randomly selected nonlabel words (equal in number to $\\mathrm { H i d d e n } _ { \\mathrm { a n c h o r } } )$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.11,
+      0.795,
+      0.489
+    ],
+    "text": "$\\mathbf { H i d d e n } _ { \\mathbf { r a n d o m - t o p } } ;$ To establish a stronger baseline, we randomly select 20 sets of non-label words in $\\mathrm { H i d d e n } _ { \\mathrm { r a n d o m } }$ and report the one with the highest label loyalty.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.796,
+      0.112,
+      0.846,
+      0.49
+    ],
+    "text": "The $\\mathbf { T e x t } _ { \\mathbf { a n c h o r } }$ method is included to demonstrate that the effectiveness of $\\mathrm { H i d d e n } _ { \\mathrm { a n c h o r } }$ is attributed to the aggregation of information in label words, rather than the mere text of label words. If we find that $\\mathrm { H i d d e n } _ { \\mathrm { a n c h o r } }$ surpasses $\\mathrm { T e x t } _ { \\mathrm { a n c h o r } }$ in performance, it solidifies the notion that the aggregated information within label words carries significant importance. The $\\mathbf { H i d d e n } _ { \\mathbf { r a n d o m } }$ method is introduced to illustrate that anchor hidden states encapsulate most of the demonstration information among all hidden states.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-10",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.227,
+      0.514,
+      0.391,
+      0.878
+    ],
+    "text": "Table 2: Results of different compression methods on GPT2-XL and GPT-J (averaged over SST-2, TREC, AG-News, and EmoC). Acc. denotes accuracy. The best results are shown in bold. Our method achieves the best compression performance.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.507,
+      0.68,
+      0.885
+    ],
+    "text": "We assess all compression methods using the label loyalty and word loyalty introduced in § 2.2, in addition to classification accuracy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.509,
+      0.706,
+      0.63
+    ],
+    "text": "3.2.3 Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-14",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "We can see from Table 2 that the proposed compression method $\\mathbf { H i d d e n } _ { \\mathbf { a n c h o r } }$ achieves the best results among all three compression methods on all metrics and for both models. For example, with the GPT-J model, the compression method with anchor states only leads to a 1.5 accuracy drop compared to the uncompressed situation, indicating that the compression introduces negligible information loss. Further, we estimate the efficiency improvements over the original ICL. As shown in Table 3, the speed-up ratio ranges from 1.1× to 2.9×, as the efficiency gain is influenced by the length of the demonstrations. We refer readers to Appendix I for a more elaborated analysis of the speed-up ratios. Besides, we observe that the acceleration effect is more pronoun",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-1",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.132,
+      0.134,
+      0.467
+    ],
+    "text": "Table 3: Acceleration ratios of the Hidde $1 _ { \\mathrm { a n c h o r } }$ method.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.112,
+      0.294,
+      0.458
+    ],
+    "text": "3.3 Anchor Distances for Error Diagnosis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.112,
+      0.366,
+      0.489
+    ],
+    "text": "Lastly, we perform an error analysis for ICL by examining the distances between the key vectors in the attention module that correspond to the label words.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.114,
+      0.392,
+      0.238
+    ],
+    "text": "3.3.1 Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.397,
+      0.112,
+      0.657,
+      0.49
+    ],
+    "text": "Our previous analysis in § 2.3 shows a strong correlation between the model output and $A ( q , p _ { i } )$ , which is determined by $\\mathbf { q } _ { q } \\mathbf { k } _ { p _ { i } } ^ { T }$ as per Eq. 7. Should the key vectors k for label words $p _ { i }$ and $p _ { k }$ be similar, $A ( q , p _ { i } )$ and $A ( q , p _ { k } )$ will also likely be similar, leading to potential label confusion. Furthermore, considering the distribution of query vectors $\\mathbf { q } _ { q } .$ , we employ a PCA-like method to extract the components of the key vectors along the directions with significant variations in $\\mathbf { q } _ { q } ,$ , denoted as kˆ (see Appendix J for details). We anticipate that the distances between these kˆs can correspond to the category confusion of the model, thus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:equation-7",
+    "page_id": 7,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_7_Equation_0.jpg",
+    "bbox_norm": [
+      0.669,
+      0.136,
+      0.711,
+      0.435
+    ],
+    "text": "$$\n\\mathrm { C o n f u s i o n } _ { i j } ^ { \\mathrm { p r e d } } = \\frac { \\lvert \\lvert \\hat { \\mathbf { k _ { p i } } } - \\hat { \\mathbf { k _ { p  j } } } \\rvert \\rvert } { \\operatorname* { m a x } _ { s \\neq t } \\lvert \\lvert \\hat { \\mathbf { k _ { p s } } } - \\hat { \\mathbf { k _ { p t } } } \\rvert \\rvert } ,\\tag{11}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.114,
+      0.738,
+      0.277
+    ],
+    "text": "3.3.2 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.741,
+      0.112,
+      0.824,
+      0.49
+    ],
+    "text": "We utilize the GPT2-XL model and TREC dataset, as the model displays varying confusion levels between categories on this dataset. We use all 500 samples of the TREC test set and use 1 demonstration per class for convenience of analysis.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "We calculate the actual model confusion score, $\\mathrm { C o n f u s i o n } _ { i j }$ , between category i and category k using the AUC-ROC metric (detailed in Appendix K). We then compare the predicted confusion score, Confusionij pred , and the actual confusion score, Confusionij , via heatmaps.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-13",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.509,
+      0.59,
+      0.63
+    ],
+    "text": "3.3.3 Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-14",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.594,
+      0.507,
+      0.756,
+      0.887
+    ],
+    "text": "Figure 6 shows that the proposed approximation metric, Confusionij pred , can identify the most confusing case (Description-Entity) and performs reasonably well for highly confusing categories (Entity-Abbreviation, Description-Abbreviation). This high correlation indicates that ICL makes errors in categories with similar label anchors. Overall, this result demonstrates that our anchor-based analysis framework could serve as an interpretation tool for better understanding ICL’s errors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-15",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.765,
+      0.509,
+      0.782,
+      0.667
+    ],
+    "text": "4 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-16",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "The existing literature on in-context learning analysis can be broadly divided into two streams, each focusing on different aspects. The first stream explores the influencing factors of ICL based on input perturbation, such as the order (Min et al., 2022b), the formatting (Yoo et al., 2022; Wei et al., 2022), and the selection of the demonstration (Liu et al., 2022). Designing proper demonstration construction strategies (Ye et al., 2023; Li et al., 2023a) and calibration techniques (Zhao et al., 2021; Min et al., 2022a) could bring clear boosts to the ICL performance. The second stream investigates the inner working mechanism of ICL through different conceptual lenses, such as making an analogy of ICL to gradient descent (von Oswald et al., 2022; Dai et al., 2022) and viewing the process ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.112,
+      0.33,
+      0.49
+    ],
+    "text": "In this paper, we provide a novel perspective by examining the information flow in language models to gain an understanding of ICL. Our approach offers new insights and demonstrates the potential for leveraging this understanding to improve the effectiveness, efficiency, and interpretability of ICL.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.35,
+      0.114,
+      0.366,
+      0.247
+    ],
+    "text": "5 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.112,
+      0.642,
+      0.49
+    ],
+    "text": "In this paper, we propose a hypothesis that label words serve as anchors in in-context learning for aggregating and distributing the task-relevant information flow. Experimental results with attention manipulation and analysis of predictions correlation consolidate the hypothesis holds well in GPT2- XL and GPT-J models. Inspired by the new understanding perspective, we propose three practical applications. First, an anchor re-weighting method is proposed to improve ICL accuracy. Second, we explore a demonstration compression technique to accelerate ICL inference. Lastly, we showcase an analysis framework to diagnose ICL errors on a real-world dataset. These promising applications again verify the hypothesis and open up new directions for future investigations on ICL.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.114,
+      0.677,
+      0.22
+    ],
+    "text": "Limitations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "Our study, while providing valuable insights into in-context learning (ICL), has several limitations. Firstly, our research scope was limited to classification tasks and did not delve into the realm of generative tasks. Additionally, our hypothesis was only examined within conventional ICL paradigms, leaving other ICL paradigms such as the chain of thought prompting (CoT) (Wei et al., 2022) unexplored. Secondly, due to hardware constraints, we mainly investigated models up to a scale of 6 billion parameters. Further research that replicates our study using larger-scale models would be beneficial in corroborating our findings and refining the hypotheses set forth in our investigation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.509,
+      0.101,
+      0.675
+    ],
+    "text": "Acknowledgement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.507,
+      0.191,
+      0.885
+    ],
+    "text": "We thank all reviewers for their thoughtful and insightful suggestions. This work is supported in part by a Tencent Research Grant and National Natural Science Foundation of China (No. 62176002). Xu Sun is the corresponding author.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.217,
+      0.51,
+      0.233,
+      0.61
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.51,
+      0.294,
+      0.885
+    ],
+    "text": "Ekin Akyürek, Dale Schuurmans, Jacob Andreas, Tengyu Ma, and Denny Zhou. 2022. What learning algorithm is in-context learning? investigations with linear models. ArXiv preprint, abs/2211.15661. Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language models are few-shot learners. In Advances in Neural Information Processing Systems 33: Annual Conference on ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.152,
+      0.489
+    ],
+    "text": "Analyzing transformers with vector norms. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 7057–7075, Online. Association for Computational Linguistics. Xiaonan Li, Kai Lv, Hang Yan, Tianyang Lin, Wei Zhu, Yuan Ni, Guotong Xie, Xiaoling Wang, and Xipeng Qiu. 2023a. Unified demonstration retriever for incontext learning. ArXiv preprint, abs/2305.04320. Xin Li and Dan Roth. 2002. Learning question classifiers. In COLING 2002: The 19th International Conference on Computational Linguistics. Yingcong Li, Muhammed Emrullah Ildiz, Dimitris Papailiopoulos, and Samet Oymak. 2023b. Transformers as algorithms: Generalization and stability in in-context learning. Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, and Weizhu Chen",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:table-1",
+    "page_id": 10,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_10_Table_0.jpg",
+    "bbox_norm": [
+      0.164,
+      0.117,
+      0.403,
+      0.484
+    ],
+    "text": "Table 4: Demonstration templates and label words. Here <S1> represents the demonstration, ${ \\bf - } { \\bf S } { \\bf > }$ represents the input to be predicted, and <L> represents the label word corresponding to the demonstration. To save space, we only show one demonstration for each task.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.114,
+      0.523,
+      0.489
+    ],
+    "text": "Zihao Zhao, Eric Wallace, Shi Feng, Dan Klein, and Sameer Singh. 2021. Calibrate before use: Improving few-shot performance of language models. In Proceedings of the 38th International Conference on Machine Learning, ICML 2021, 18-24 July 2021, Virtual Event, volume 139 of Proceedings of Machine Learning Research, pages 12697–12706. PMLR.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.537,
+      0.114,
+      0.554,
+      0.205
+    ],
+    "text": "Appendix",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.114,
+      0.58,
+      0.346
+    ],
+    "text": "A Experimental Settings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.589,
+      0.112,
+      0.638,
+      0.489
+    ],
+    "text": "For models, we use GPT2-XL (1.5B) (Radford et al., 2019) and GPT-J (6B) (Wang and Komatsuzaki, 2021) in this paper.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.112,
+      0.8,
+      0.49
+    ],
+    "text": "For datasets, we use a sentiment analysis task, Stanford Sentiment Treebank Binary (SST-2) (Socher et al., 2013), a question type classification task, Text REtrieval Conference Question Classification (TREC) (Li and Roth, 2002; Hovy et al., 2001), a topic classification task, AG’s news topic classification dataset (AGNews) (Zhang et al., 2015), and an emotion classification task, Emo-Context (EmoC) (Chatterjee et al., 2019). The ICL templates of these tasks are shown in Table 4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.812,
+      0.114,
+      0.845,
+      0.48
+    ],
+    "text": "B Results of $S _ { w p } , S _ { p q } ,$ , and $S _ { w w }$ on TREC and EmoC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-8",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.112,
+      0.921,
+      0.489
+    ],
+    "text": "Figure 7 illustrates the relative sizes of $S _ { w p } , S _ { p q } .$ and $S _ { w w }$ on TREC and EmoC, mirroring results on SST-2 and AGNews. In shallow layers, $S _ { w p }$ (the information flow from the text part to label words)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.548,
+      0.507,
+      0.644,
+      0.885
+    ],
+    "text": "is prominent, while $S _ { p q }$ (the information flow from label words to targeted positions) is less significant. However, in deeper layers, $S _ { p q }$ dominates. Importantly, $S _ { w p }$ and $S _ { p q }$ generally exceed $S _ { w w }$ indicating that interactions involving label words are predominant.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-12",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.657,
+      0.509,
+      0.692,
+      0.821
+    ],
+    "text": "C Reason for Using Word Loyalty Besides Label Loyalty",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-13",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.507,
+      0.783,
+      0.885
+    ],
+    "text": "Label loyalty alone may not capture changes in the probability distribution of non-label words or the relative ratio of the probability of the label words within the entire vocabulary. Word loyalty helps address this limitation, which is shown in Table 5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-14",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.509,
+      0.813,
+      0.88
+    ],
+    "text": "D Isolating Different Numbers of Layers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-15",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.507,
+      0.921,
+      0.885
+    ],
+    "text": "We study the impact of the numbers of isolated layers, as shown in Figures 8a and 8b. It can be found that isolating shallow layers cause a significant impact, isolating deep layers has a negligible impact on the model, even when the number of isolation layers increases. This further illustrates the important role of information aggregation via label words in the shallow layers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:table-1",
+    "page_id": 11,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_11_Table_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.151,
+      0.146,
+      0.847
+    ],
+    "text": "Table 5: Results on a test sample with the label “World” from AGNews.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.112,
+      0.846,
+      0.403
+    ],
+    "text": "E Details for the Calculation of AUCROCl",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Suppose the positions of the label words in the input x are $p _ { 1 } , . . . , p _ { C }$ (without loss of generality, we suppose $p _ { i }$ corresponds to the ith class), the targeted position is q, the sum of the attention matrices of all attention heads at the l layer is $A _ { l } .$ We postulate that there’s a strong correlation between the attention distributions on the label words of the target position $( A _ { l } ( q , p _ { 1 } ) , . . . , A _ { l } ( q , p _ { C } ) )$ and the model’s final prediction. We use the AUC-ROC score to quantify this correlation. We regard $( A _ { l } ( q , p _ { 1 } ) , . . . , A _ { l } ( q , p _ { C } ) )$ as a classifier’s prediction for the model output label (that is, $A _ { l } ( q , p _ { i } )$ is equivalent to the probability of model ou",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.436,
+      0.509,
+      0.453,
+      0.83
+    ],
+    "text": "F Additional Experimental Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.462,
+      0.509,
+      0.478,
+      0.83
+    ],
+    "text": "F.1 Results with More Demonstrations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-10",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.507,
+      0.613,
+      0.887
+    ],
+    "text": "We implement our experimental analysis utilizing two demonstrations per class, resulting in a total of 4, 12, 8, and 8 demonstrations respectively for SST-2, TREC, AGNews, and EmoC. Our findings, as depicted in Figure 9, Figure 10, and Figure 11, exhibit a high degree of similarity to the results obtained from experiments that employ one demonstration per class.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-11",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.624,
+      0.509,
+      0.656,
+      0.848
+    ],
+    "text": "F.2 Results for In-Context Learning with semantically-unrelated labels",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-12",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.507,
+      0.921,
+      0.889
+    ],
+    "text": "The applicability of our analytical conclusions to ICL variants, such as the semantically unrelated label ICL (Wei et al., 2023), is an intriguing subject. Given that both GPT2-XL and GPT-J-6B perform at levels akin to random guessing in this ICL setting, we chose LLaMA-33B (Touvron et al., 2023) and SST-2 for our experiment. We substituted labels with $\\mathbf { \\vec { A } } \\mathbf { \\vec { / } \\vec { B } } $ , and adhered to a similar experimental setup as in sections § 2.2 and § 2.3. However, we applied eight shots per class to facilitate the model in achieving an accuracy of 83.0% on SST-2. The outcomes align with those derived in § 2.2 and § 2.3. Figure 12 shows the more pronounced impact of isolating labels in the shallow layers compared to their isolation in the deep layers or the ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-8",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.624,
+      0.509,
+      0.658,
+      0.781
+    ],
+    "text": "G Implementation of Anchor Re-weighting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-9",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.676,
+      0.507,
+      0.804,
+      0.887
+    ],
+    "text": "In order to implement anchor re-weighting, specific adjustments are made in the model’s computational process. After calculating the attention matrix $A _ { l } ^ { h }$ of the hth head in the lth layer, we multiply each $A _ { l } ^ { h } ( q , p _ { i } )$ by $\\exp ( \\beta _ { 0 , l h } ^ { i } )$ before proceeding with further computations. This means that for each attention head, we introduce the following modifications:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:equation-10",
+    "page_id": 12,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_12_Equation_0.jpg",
+    "bbox_norm": [
+      0.824,
+      0.529,
+      0.841,
+      0.727
+    ],
+    "text": "$$\n\\mathrm { A t t e n t i o n } _ { l } ^ { h } ( Q , K , V ) = \\hat { A } _ { l } ^ { h } V ,\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-12:equation-11",
+    "page_id": 12,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_12_Equation_1.jpg",
+    "bbox_norm": [
+      0.843,
+      0.526,
+      0.872,
+      0.697
+    ],
+    "text": "$$\nA _ { l } ^ { h } = \\mathrm { s o f t m a x } \\left( \\frac { Q K ^ { T } } { \\sqrt { d } } \\right) ,\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-12:equation-12",
+    "page_id": 12,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_12_Equation_2.jpg",
+    "bbox_norm": [
+      0.873,
+      0.526,
+      0.908,
+      0.86
+    ],
+    "text": "$$\n\\hat { A } _ { l } ^ { h } ( k , j ) = \\left\\{ \\begin{array} { l l } { \\exp ( \\beta _ { 0 , l h } ^ { i } ) A _ { l } ^ { h } ( k , j ) , } & { \\mathrm { i f } \\ k = q , j = p _ { i } } \\\\ { A _ { l } ^ { h } ( k , j ) , } & { \\mathrm { o t h e r w i s e } } \\end{array} \\right.\\tag{12}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.826,
+      0.114,
+      0.859,
+      0.394
+    ],
+    "text": "H Training Settings of Anchor Re-weighting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.872,
+      0.112,
+      0.921,
+      0.489
+    ],
+    "text": "For each random seed, we fix the demonstration and sample 1000 test samples from the test datasets as described in § 2.2. The optimization of parameter vector $\\beta$ is carried out using gradient descent, specifically with the Adam optimizer (Kingma and Ba, 2015). The learning rate is set at 0.01, with $\\beta _ { 1 } = 0 . 9$ and $\\beta _ { 2 } = 0 . 9 9 9$ . Due to memory constraints, we use a batch size of 1. This optimization process is repeated for 10 epochs. Owing to limitations in computational resources, we restrict our evaluation to the GPT2-XL model and exclude the GPT-J model from our assessment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.524,
+      0.509,
+      0.542,
+      0.776
+    ],
+    "text": "I The Factor of $L _ { \\mathbf { d e m o } }$ and $L _ { \\mathbf { x } }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-9",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.565,
+      0.529,
+      0.648,
+      0.863
+    ],
+    "text": "Table 6: Acceleration ratios, $L _ { \\mathrm { d e m o } }$ and $L _ { \\mathbf { x } } .$",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.693,
+      0.507,
+      0.79,
+      0.884
+    ],
+    "text": "From Table $^ { 6 , }$ we observe a correlation between the acceleration ratios and the ratio of the total demonstration length $\\left( L _ { \\mathrm { d e m o } } \\right)$ to the length of the text predicted $( L _ { \\mathbf { x } } )$ . It suggests that a greater ratio of total length to predicted text length may yield a higher acceleration ratio.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-11",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.507,
+      0.921,
+      0.885
+    ],
+    "text": "In addition, the table illustrates that datasets with longer demonstration lengths tend to exhibit higher acceleration ratios. For instance, the AGNews dataset, which has the longest $L _ { \\mathrm { d e m o } } .$ , presents the highest acceleration ratio among the datasets analyzed. These findings could indicate an increased efficiency of the $\\mathrm { H i d d e n } _ { \\mathrm { a n c h o r } }$ method in contexts involving longer demonstration lengths.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.114,
+      0.101,
+      0.289
+    ],
+    "text": "J Calculation of kˆ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.112,
+      0.322,
+      0.489
+    ],
+    "text": "For the sampled sequence $x _ { 1 } , . . . , x _ { T }$ to be predicted, we denote the query vectors of the target positions as ${ \\bf q } _ { 1 } , . . . , { \\bf q } _ { T }$ . We then compute the matrix $\\hat { \\mathbf { Q } } = ( \\mathbf { q } _ { 1 } - \\overline { { \\mathbf { q } } } , . . . , \\mathbf { q } _ { T } - \\overline { { \\mathbf { q } } } )$ by subtracting the mean vector, ${ \\overline { { \\mathbf { q } } } } ,$ from each query vector. Subsequently, we determine the M directions, $\\mathbf { v } _ { 1 } , . . . , \\mathbf { v } _ { M }$ , that correspond to the M largest variation directions for the centralized query vectors $\\hat { \\mathbf { q } } _ { 1 } , . . . , \\hat { \\mathbf { q } } _ { T }$ . The $i ^ { t h }$ direction, $\\mathbf { v } _ { i } .$ , is chosen to maximize",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:equation-3",
+    "page_id": 14,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_14_Equation_0.jpg",
+    "bbox_norm": [
+      0.332,
+      0.124,
+      0.365,
+      0.346
+    ],
+    "text": "$$\n\\begin{array} { r } { \\mathbf { v } _ { 1 } = \\underset { \\Vert \\mathbf { v } \\Vert = 1 } { \\arg \\operatorname* { m a x } } \\mathrm { V a r } \\left\\{ \\mathbf { v } ^ { \\top } \\hat { \\mathbf { Q } } \\right\\} , } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-14:equation-4",
+    "page_id": 14,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_14_Equation_1.jpg",
+    "bbox_norm": [
+      0.367,
+      0.124,
+      0.4,
+      0.363
+    ],
+    "text": "$$\n\\mathbf { v } _ { 2 } = \\operatorname * { a r g m a x } _ { \\| \\mathbf { v } \\| = 1 , \\mathbf { v } \\bot \\mathbf { v } _ { 1 } } { \\mathrm { V a r } \\left\\{ \\mathbf { v } ^ { \\top } \\hat { \\mathbf { Q } } \\right\\} } ,\\tag{13}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-14:equation-5",
+    "page_id": 14,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_14_Equation_2.jpg",
+    "bbox_norm": [
+      0.423,
+      0.124,
+      0.457,
+      0.447
+    ],
+    "text": "$$\n\\mathbf { v } _ { M } = \\underset { \\| \\mathbf { v } \\| = 1 , \\mathbf { v } \\bot \\mathbf { v } _ { 1 } , \\dots , \\mathbf { v } \\bot \\mathbf { v } _ { M - 1 } } { \\arg \\operatorname* { m a x } } \\ \\mathrm { V a r } \\left\\{ \\mathbf { v } ^ { \\top } \\hat { \\mathbf { Q } } \\right\\} .\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.114,
+      0.535,
+      0.487
+    ],
+    "text": "We define $\\sigma _ { i }$ as the square root of the variance of the projection of $\\hat { \\mathbf { Q } }$ onto the $i ^ { t h }$ direction, i.e., $\\sqrt { \\mathrm { V a r } \\left\\{ \\mathbf { v } _ { i } ^ { \\top } \\hat { \\mathbf { Q } } \\right\\} }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.537,
+      0.112,
+      0.618,
+      0.489
+    ],
+    "text": "To derive features kˆs, we project the key vector k onto the directions $\\mathbf { v } _ { 1 } , . . . , \\mathbf { v } _ { M }$ and scale the projections by the corresponding standard deviations $\\sigma _ { 1 } , . . . , \\sigma _ { M }$ . Each feature, $\\hat { \\mathbf { k } } _ { i } .$ , is thus calculated as $\\sigma _ { i } \\mathbf { v } _ { i } ^ { T }$ k.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.112,
+      0.701,
+      0.489
+    ],
+    "text": "We further examine the influence of M on the prediction confusion matrix, Confusionijpred, as depicted in Figure 14. Given the similarity in outcomes for various M, we settle on a value of M = 10 for computation of Confusionijpred.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-9",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.114,
+      0.731,
+      0.381
+    ],
+    "text": "K Calculation of Confusionij",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-10",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.741,
+      0.114,
+      0.791,
+      0.487
+    ],
+    "text": "To gauge the true degree of confusion between categories i and k for a given model, we suggest utilizing the Confusion $. i j$ metric:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-11",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.112,
+      0.921,
+      0.489
+    ],
+    "text": "First, we procure all test samples xt bearing true labels i or k. We then obtain the probabilities $p _ { i } ^ { t }$ and $p _ { j } ^ { t }$ yielded by the model for categories i and $k ,$ respectively, on these samples. These probabilities are normalized to a total of 1. Essentially, we derive a classifier $f$ that delivers the probabilities $p _ { i } ^ { t }$ and $p _ { j } ^ { t }$ for the categories i and k respectively, on the test samples $x _ { t }$ . By calculating the Area Under the Receiver Operating Characteristic Curve (AUC-ROC) value of this classifier $f ,$ we get the degree of confusion between category i and k, termed as Confusionij.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-13",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.149,
+      0.509,
+      0.197,
+      0.885
+    ],
+    "text": "The computed Confusionij is a value that never exceeds 1. The closer Confusionij approximates 1, the less pronounced the confusion, and vice versa.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-14",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.198,
+      0.507,
+      0.409,
+      0.887
+    ],
+    "text": "We use the above metric instead of directly analyzing the output labels of the model because previous work has indicated the issue of insufficient output probability calibration in ICL (Zhao et al., 2021), which is greatly affected by factors such as sample ordering and model preferences for specific label words. By leveraging our defined degree of confusion, Confusionij, we can implicitly alleviate the disturbances arising from insufficient probability calibration on the output labels. This allows for a more accurate representation of the model’s degree of confusion for different categories, mitigating the impact of randomness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-15",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.418,
+      0.509,
+      0.436,
+      0.684
+    ],
+    "text": "L Reproducibility",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-16",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.507,
+      0.574,
+      0.885
+    ],
+    "text": "In the supplementary material, we have provided codes that allow for the faithful replication of our experiments and subsequent result analysis. To ensure consistency and reproducibility across different devices, we have fixed the five random seeds to the values of 42, 43, 44, 45, and 46. We invite readers to delve into the code for additional implementation details that may arouse their interest.",
+    "source_type": "text"
+  }
+]

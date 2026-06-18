@@ -1,0 +1,6 @@
+Model,MAVEN-ERE Micro-F1 (%),MAVEN-ERE LI (%) ↓,Causal-TimeBank Micro-F1 (%),Causal-TimeBank LI (%) ↓
+Turbo,w. all logical constraints,20.8,w. retrieved logical constraints,22.3
+Davinci,w. all logical constraints,27.0,w. retrieved logical constraints,27.8
+GPT-4,w. all logical constraints,37.3,w. retrieved logical constraints,33.5
+Vicuna,w. all logical constraints,15.2,w. retrieved logical constraints,15.7
+Llama2,w. all logical constraints,19.5,w. retrieved logical constraints,

@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="4">YearEnded December 31,</td></tr><tr><td>2015</td><td></td><td>2016</td><td>2017</td></tr><tr><td>Realized gains</td><td>$</td><td>2 $</td><td>3 $</td><td>5</td></tr><tr><td>Realized losses</td><td></td><td>7</td><td>11</td><td>11</td></tr></table>

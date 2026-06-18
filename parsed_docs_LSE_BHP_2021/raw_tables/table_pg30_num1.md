@@ -1,0 +1,1 @@
+<table><tr><td>Year ended 30 June</td><td>2021 US$M</td><td>2020 US$M</td><td>2019 US$M</td></tr><tr><td>Greenfield exploration</td><td>54</td><td>44</td><td>62</td></tr><tr><td>Resources assessment</td><td>138</td><td>132</td><td>126</td></tr><tr><td>Total metals exploration and assessment</td><td>192</td><td>176</td><td>188</td></tr></table>

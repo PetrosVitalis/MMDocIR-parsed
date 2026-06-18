@@ -1,0 +1,1 @@
+<table><tr><td>(CHF millions)</td><td>2021 Balance sheet</td><td>2021 Fair value</td><td>2020 Balance sheet</td><td>2020 Fair value</td></tr><tr><td>Straight bonds</td><td>1377</td><td>1438</td><td>1377</td><td>1470</td></tr><tr><td>Total</td><td>1 377</td><td>1438</td><td>1377</td><td>1 470</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>($ millions)</td><td>2022</td><td>2021</td><td>Change vs. 2021</td></tr><tr><td>Net sales</td><td> $744</td><td> $441</td><td>69%</td></tr><tr><td>Net earnings/(loss)</td><td>$485</td><td>$(387)</td><td>N/A</td></tr></table>

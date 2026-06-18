@@ -1,0 +1,1504 @@
+{
+  "document_md_path": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_P19-1459/document.md",
+  "index_version": 9,
+  "pages": [
+    {
+      "page_id": 0,
+      "unit_id": "page-0",
+      "text": "# Probing Neural Network Comprehension of Natural Language Arguments\n\nTimothy Niven and Hung-Yu Kao\n\nIntelligent Knowledge Management Lab\n\nDepartment of Computer Science and Information Engineering\n\nNational Cheng Kung University\n\nTainan, Taiwan\n\ntim.niven.public@gmail.com, hykao@mail.ncku.edu.tw\n\n## Abstract\n\nWe are surprised to find that BERT’s peak performance of 77% on the Argument Reasoning Comprehension Task reaches just three points below the average untrained human baseline. However, we show that this result is entirely accounted for by exploitation of spurious statistical cues in the dataset. We analyze the nature of these cues and demonstrate that a range of models all exploit them. This analysis informs the construction of an adversarial dataset on which all models achieve random accuracy. Our adversarial dataset provides a more robust assessment of argument comprehension and should be adopted as the standard in future work.\n\n## 1 Introduction\n\nArgumentation mining is the task of determining argumentative structure in natural language text - e.g., which text segments represent claims, and which comprise reasons that support or attack those claims (Mochales and Moens, 2011; Lippi and Torroni, 2016). This is a challenging task for machine learners, as it can be hard even for humans to determine when two text segments stand in argumentative relation, as evidenced by studies on argument annotation (Habernal et al., 2014).\n\nOne approach to this problem is to focus on warrants (Toulmin, 1958) - a form of world knowledge that permit inferences. Consider a simple argument: “(1) It is raining; therefore (2) you should take an umbrella.”1 The warrant “(3) it is bad to get wet” could license this inference. Knowing (3) facilitates drawing the inferential connection between (1) and (2). However it would be hard to find it stated anywhere since warrants are most often left implicit (Walton, 2005). Thus, on this approach, machine learners must not only reason with warrants but also discover them.\n\nFigure 1: An example of a data point from the ARCT test set and how it should be read. The inference from R and A to ¬C is by design.\n\nThe Argument Reasoning Comprehension Task (ARCT) (Habernal et al., 2018a) defers the problem of discovering warrants and focuses on inference. An argument is provided, comprising a claim C and reason R. This task is to pick the correct warrant W over a distractor, called the alternative warrant A. The alternative is written such that $R \\wedge A \\  \\ \\neg C$ An alternative warrant for our earlier example could be “(4) it is good to get wet,” in which case we have $( 1 ) \\wedge ( 4 ) \\to { } ^ { \\bullet } ( \\neg 2 )$ you shouldn’t take an umbrella.” An example from the dataset is given in Figure 1.\n\nThe ARCT SemEval shared task (Habernal et al., 2018b) verified the challenging nature of this problem. Even supplying warrants, learners still need to rely on further world knowledge. For example, to correctly classify the data point in Figure 1 it is at least required to know how consumer choice and web re-directs relate to the concept of monopoly, and that Google is a search engine. All but one participating system in the shared task could not exceed 60% accuracy (on binary classification).\n\nIt is therefore surprising that BERT (Devlin et al., 2018) achieves 77% test set accuracy with its best run (Table 1), only three points below the average (untrained) human baseline. Without supplying the required world knowledge for this task it does not seem reasonable to expect it to perform so well. This motivates the question: what has BERT learned about argument comprehension?",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Probing Neural Network Comprehension of Natural Language Arguments",
+        "Abstract",
+        "1 Introduction"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Probing Neural Network Comprehension of Natural Language Arguments\n\nTimothy Niven and Hung-Yu Kao\n\nIntelligent Knowledge Management Lab\n\nDepartment of Computer Science and Information Engineering\n\nNational Cheng Kung University\n\nTainan, Taiwan\n\ntim.niven.public@gmail.com, hykao@mail.ncku.edu.tw\n\n## Abstract\n\nWe are surprised to find that BERT’s peak performance of 77% on the Argument Reasoning Comprehension Task reaches just three points below the average untrained human baseline. However, we show that this result is entirely accounted for by exploitation of spurious statistical cues in the dataset. We analyze the nature of these cues and demonstrate that a range of models all exploit them. This analysis informs the construction of an adversarial dataset on which all models achieve random accuracy. Our adversarial dataset provides a more robust assessment of argument comprehension and should be adopted as the standard in future work.\n\n## 1 Introduction\n\nArgumentation mining is the task of determining argumentative structure in natural language text - e.g., which text segments represent claims, and which comprise reasons that support or attack those claims (Mochales and Moens, 2011; Lippi and Torroni, 2016). This is a challenging task for machine learners, as it can be hard even for humans to determine when two text segments stand in argumentative relation, as evidenced by studies on argument annotation (Habernal et al., 2014).\n\nOne approach to this problem is to focus on warrants (Toulmin, 1958) - a form of world knowledge that permit inferences. Consider a simple argument: “(1) It is raining; therefore (2) you should take an umbrella.”1 The warrant “(3) it is bad to get wet” could license this inference. Knowing (3) facilitates drawing the inferential connection between (1) and (2). However it would be hard to find it stated anywhere since warrants are most often left implicit (Walton, 2005). Thus, on this approach, machine learners must not only reason with warrants but also discover them.\n\nFigure 1: An example of a data point from the ARCT test set and how it should be read. The inference from R and A to ¬C is by design.\n\nThe Argument Reasoning Comprehension Task (ARCT) (Habernal et al., 2018a) defers the problem of discovering warrants and focuses on inference. An argument is provided, comprising a claim C and reason R. This task is to pick the correct warrant W over a distractor, called the alternative warrant A. The alternative is written such that $R \\wedge A \\  \\ \\neg C$ An alternative warrant for our earlier example could be “(4) it is good to get wet,” in which case we have $( 1 ) \\wedge ( 4 ) \\to { } ^ { \\bullet } ( \\neg 2 )$ you shouldn’t take an umbrella.” An example from the dataset is given in Figure 1.\n\nThe ARCT SemEval shared task (Habernal et al., 2018b) verified the challenging nature of this problem. Even supplying warrants, learners still need to rely on further world knowledge. For example, to correctly classify the data point in Figure 1 it is at least required to know how consumer choice and web re-directs relate to the concept of monopoly, and that Google is a search engine. All but one participating system in the shared task could not exceed 60% accuracy (on binary classification).\n\nIt is therefore surprising that BERT (Devlin et al., 2018) achieves 77% test set accuracy with its best run (Table 1), only three points below the average (untrained) human baseline. Without supplying the required world knowledge for this task it does not seem reasonable to expect it to perform so well. This motivates the question: what has BERT learned about argument comprehension?"
+    },
+    {
+      "page_id": 1,
+      "unit_id": "page-1",
+      "text": "Table 1: Baselines and BERT results. Our results come from 20 different random seeds (± gives the standard deviation). The mean for BERT Large is skewed by the $5 / 2 0$ random seeds for which it failed to train, a problem noted by Devlin et al. (2018). We therefore consider the median a better measure of BERT’s average performance. The mean of the non-degenerate runs for BERT (Large) is $0 . 7 1 6 \\pm 0 . 0 4$\n![](tables/table_pg1_num0.csv)\n\nFigure 2: General architecture of the models in our experiments. Logits are independently calculated for each argument-warrant pair then concatenated and passed through softmax.\n![](assets/_page_1_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_1_Figure_0.jpg`\n> \n> **Generated:** 2026-05-30 11:02:23\n> \n> ---\n> \n> The image is a diagram illustrating a neural network or machine learning model. It shows a softmax function at the top, which is used to convert the output of a neural network into probabilities. Below the softmax function, there are two sets of input features labeled as \\( z_0 \\) and \\( z_1 \\), which are the outputs of the hidden layer. These inputs are derived from the parameters \\( \\theta \\), which are the weights of the neural network. The parameters \\( \\theta \\) are further derived from the inputs \\( c \\), \\( r \\), and \\( w_0 \\) and \\( c \\), \\( r \\), and \\( w_1 \\), which represent the context, representation, and word vectors, respectively. The diagram highlights the flow of information through the neural network, from the input features to the final output probabilities.\n\n\nTo investigate BERT’s decision making we looked at data points it finds easy to classify over multiple runs. Habernal et al. (2018b) performed a similar analysis with the SemEval submissions, and consistent with their results we found that BERT exploits the presence of cue words in the warrant, especially “not.” Through probing experiments designed to isolate such effects, we demonstrate in this work that BERT’s surprising performance can be entirely accounted for in terms of exploiting spurious statistical cues.\n\nHowever, we show that the major problem can be eliminated in ARCT. Since R $\\wedge A  \\neg C$ , we can add a copy of each data point with the claim negated and the label inverted. This means that the distribution of statistical cues in the warrants will be mirrored over both labels, eliminating the signal. On this adversarial dataset all models perform randomly, with BERT achieving a maximum test set accuracy of 53%. The adversarial dataset therefore provides a more robust evaluation of argument comprehension and should be adopted as the standard in future work on this dataset.\n\n## 2 Task Description and Baselines\n\nLet $i = 1 , \\ldots , n$ index each point in the dataset D, where $| \\mathcal { D } | = n$ . The two candidate warrants in each case are randomly assigned a binary label $j \\in \\{ 0 , 1 \\}$ , such that each has an equal probability of being correct. The inputs are the representations for the claim $\\mathbf { c } ^ { ( i ) }$ , reason $\\mathbf { r } ^ { ( i ) }$ , warrant zero $\\mathbf { w } _ { 0 } ^ { ( i ) }$ ， and warrant one $\\mathbf { w } _ { 1 } ^ { ( i ) }$ . The label $\\boldsymbol y ^ { ( i ) }$ is a binary indicator corresponding to the correct warrant.\n\nThe general architecture for all models is given in Figure 2. Shared parameters θ are learned to classify each warrant independently with the argument, yielding the logits:\n\n$$\nz _ { j } ^ { ( i ) } = \\pmb { \\theta } [ c ^ { ( i ) } ; \\pmb { r } ^ { ( i ) } ; \\pmb { w } _ { j } ^ { ( i ) } ]\n$$\n\nThese are then concatenated and passed through softmax to determine a probability distribution over the two warrants $\\mathbf { p } ^ { ( i ) }$ = softmax $( [ z _ { 0 } ^ { ( i ) } , z _ { 1 } ^ { ( i ) } ] )$ The prediction is then $\\hat { y } ^ { ( i ) }$ = arg maxj $\\mathbf { p } ^ { ( i ) }$\n\nThe baselines are a bag of vectors (BoV), bidirectional LSTM (Hochreiter and Schmidhuber, 1997) (BiLSTM), the SemEval winner GIST (Choi and Lee, 2018), the best model of Botschen et al. (2018), and human performance (Table 1). For all of our experiments we use grid search to select hyperparameters, dropout regularization (Srivastava et al., 2014), and Adam (Kingma and Ba, 2014) for optimization. We anneal the learning rate by $1 / 1 0$ when validation accuracy drops. The final parameters come from the epoch with maximum validation accuracy. The BoV and BiLSTM inputs are 300-dimensional GloVe embeddings trained on 640B tokens (Pennington et al., 2014). Code to reproduce all experiments, and detailing all hyperparameters, is provided on GitHub.2",
+      "image_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "table_refs": [
+        "tables/table_pg1_num0.csv"
+      ],
+      "asset_refs": [
+        "assets/_page_1_Figure_0.jpg",
+        "tables/table_pg1_num0.csv"
+      ],
+      "headings": [
+        "2 Task Description and Baselines"
+      ],
+      "table_context": "table_pg1_num0.csv: Table columns: Dev Mean, Test Mean, Test Median, Test Max Row labels: Human (trained), Human (untrained), BERT (Large), GIST (Choi and Lee, 2018), BERT (Base), World Knowledge (Botschen et al., 2018), BoV, BiLSTM Human (trained): Test Median=0.909 ± 0.11; Test Max=0.909 ± 0.11 Human (untrained): Test Median=0.798 ± 0.16; Test Max=0.798 ± 0.16 BERT (Large): Test Mean=0.701 ± 0.05; Test Median=0.671 ± 0.09; Test Max=0.712 GIST (Choi and Lee, 2018): Test Mean=¿0.716 ± 0.01; Test Median=¿0.711 ± 0.01",
+      "retrieval_text": "Table 1: Baselines and BERT results. Our results come from 20 different random seeds (± gives the standard deviation). The mean for BERT Large is skewed by the $5 / 2 0$ random seeds for which it failed to train, a problem noted by Devlin et al. (2018). We therefore consider the median a better measure of BERT’s average performance. The mean of the non-degenerate runs for BERT (Large) is $0 . 7 1 6 \\pm 0 . 0 4$\n![](tables/table_pg1_num0.csv)\n\nFigure 2: General architecture of the models in our experiments. Logits are independently calculated for each argument-warrant pair then concatenated and passed through softmax.\n![](assets/_page_1_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_1_Figure_0.jpg`\n> \n> **Generated:** 2026-05-30 11:02:23\n> \n> ---\n> \n> The image is a diagram illustrating a neural network or machine learning model. It shows a softmax function at the top, which is used to convert the output of a neural network into probabilities. Below the softmax function, there are two sets of input features labeled as \\( z_0 \\) and \\( z_1 \\), which are the outputs of the hidden layer. These inputs are derived from the parameters \\( \\theta \\), which are the weights of the neural network. The parameters \\( \\theta \\) are further derived from the inputs \\( c \\), \\( r \\), and \\( w_0 \\) and \\( c \\), \\( r \\), and \\( w_1 \\), which represent the context, representation, and word vectors, respectively. The diagram highlights the flow of information through the neural network, from the input features to the final output probabilities.\n\n\nTo investigate BERT’s decision making we looked at data points it finds easy to classify over multiple runs. Habernal et al. (2018b) performed a similar analysis with the SemEval submissions, and consistent with their results we found that BERT exploits the presence of cue words in the warrant, especially “not.” Through probing experiments designed to isolate such effects, we demonstrate in this work that BERT’s surprising performance can be entirely accounted for in terms of exploiting spurious statistical cues.\n\nHowever, we show that the major problem can be eliminated in ARCT. Since R $\\wedge A  \\neg C$ , we can add a copy of each data point with the claim negated and the label inverted. This means that the distribution of statistical cues in the warrants will be mirrored over both labels, eliminating the signal. On this adversarial dataset all models perform randomly, with BERT achieving a maximum test set accuracy of 53%. The adversarial dataset therefore provides a more robust evaluation of argument comprehension and should be adopted as the standard in future work on this dataset.\n\n## 2 Task Description and Baselines\n\nLet $i = 1 , \\ldots , n$ index each point in the dataset D, where $| \\mathcal { D } | = n$ . The two candidate warrants in each case are randomly assigned a binary label $j \\in \\{ 0 , 1 \\}$ , such that each has an equal probability of being correct. The inputs are the representations for the claim $\\mathbf { c } ^ { ( i ) }$ , reason $\\mathbf { r } ^ { ( i ) }$ , warrant zero $\\mathbf { w } _ { 0 } ^ { ( i ) }$ ， and warrant one $\\mathbf { w } _ { 1 } ^ { ( i ) }$ . The label $\\boldsymbol y ^ { ( i ) }$ is a binary indicator corresponding to the correct warrant.\n\nThe general architecture for all models is given in Figure 2. Shared parameters θ are learned to classify each warrant independently with the argument, yielding the logits:\n\n$$\nz _ { j } ^ { ( i ) } = \\pmb { \\theta } [ c ^ { ( i ) } ; \\pmb { r } ^ { ( i ) } ; \\pmb { w } _ { j } ^ { ( i ) } ]\n$$\n\nThese are then concatenated and passed through softmax to determine a probability distribution over the two warrants $\\mathbf { p } ^ { ( i ) }$ = softmax $( [ z _ { 0 } ^ { ( i ) } , z _ { 1 } ^ { ( i ) } ] )$ The prediction is then $\\hat { y } ^ { ( i ) }$ = arg maxj $\\mathbf { p } ^ { ( i ) }$\n\nThe baselines are a bag of vectors (BoV), bidirectional LSTM (Hochreiter and Schmidhuber, 1997) (BiLSTM), the SemEval winner GIST (Choi and Lee, 2018), the best model of Botschen et al. (2018), and human performance (Table 1). For all of our experiments we use grid search to select hyperparameters, dropout regularization (Srivastava et al., 2014), and Adam (Kingma and Ba, 2014) for optimization. We anneal the learning rate by $1 / 1 0$ when validation accuracy drops. The final parameters come from the epoch with maximum validation accuracy. The BoV and BiLSTM inputs are 300-dimensional GloVe embeddings trained on 640B tokens (Pennington et al., 2014). Code to reproduce all experiments, and detailing all hyperparameters, is provided on GitHub.2\n\nTable context: table_pg1_num0.csv: Table columns: Dev Mean, Test Mean, Test Median, Test Max Row labels: Human (trained), Human (untrained), BERT (Large), GIST (Choi and Lee, 2018), BERT (Base), World Knowledge (Botschen et al., 2018), BoV, BiLSTM Human (trained): Test Median=0.909 ± 0.11; Test Max=0.909 ± 0.11 Human (untrained): Test Median=0.798 ± 0.16; Test Max=0.798 ± 0.16 BERT (Large): Test Mean=0.701 ± 0.05; Test Median=0.671 ± 0.09; Test Max=0.712 GIST (Choi and Lee, 2018): Test Mean=¿0.716 ± 0.01; Test Median=¿0.711 ± 0.01"
+    },
+    {
+      "page_id": 2,
+      "unit_id": "page-2",
+      "text": "Figure 3: Processing an argument-warrant pair with BERT. The reason (with word pieces of length a) and claim (length b) together form the first utterance, and the warrant (length c) is the second. The final CLS vector is then passed to a linear layer to calculate the logit $z _ { j } ^ { ( i ) }$\n![](assets/_page_2_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_2_Figure_0.jpg`\n> \n> **Generated:** 2026-05-30 11:02:40\n> \n> ---\n> \n> The image is a diagram illustrating the architecture of a BERT-based model for claim-reason-warrant (CRW) classification. It shows the input tokens for the claim, reason, and warrant, which are then processed by the BERT model. The tokens are represented as hexagons at the bottom, with the claim, reason, and warrant sections clearly marked. The BERT model is depicted in the middle with its layers and connections, and the output tokens are shown at the top, labeled with their respective positions and types. The diagram highlights the flow of information from the input tokens through the BERT model to the output tokens, providing a visual representation of the model's structure and functionality.\n\n\n## 3 BERT\n\nOur BERT classifier is visualized in Figure 3. The claim and reason are joined to form the first text segment, which is paired with each warrant and independently processed. The final layer CLS vector is passed to a linear layer to obtain the logits $z _ { j } ^ { ( i ) }$ The whole architecture is fine-tuned. The learning rate is $2 e ^ { - 5 }$ and we allow a maximum of 20 training epochs, taking the parameters from the epoch with the best validation set accuracy. We use the Hugging Face PyTorch implementation.3\n\nDevlin et al. (2018) report that, on small datasets, BERT sometimes fails to train, yielding degenerate results. ARCT is very small with 1, 210 training observations. In 5/20 runs we encountered this phenomenon, seeing close to random accuracies on validation and test sets. These cases occurred where training accuracy was also not significantly above random (< 80%). Removing the degenerate runs, BERT’s mean is 71.6 ± 0.04., which would beat the previous state of the art - as would the median of 71.2%, which is a better average than the overall mean since it is not skewed by the degenerate cases. However, our main finding is that these results are not meaningful and should be discarded. In the following sections we focus on BERT’s peak performance of 77% to make this case.\n\n## 4 Statistical Cues\n\nThe major source of spurious statistical cues in ARCT comes from uneven distributions of linguistic artifacts over the warrants, and therefore over the labels. This section aims to demonstrate the presence and nature of these cues. We only consider unigrams and bigrams, although more sophisticated cues may be present. To this end, we aim to calculate how beneficial it is for a model to exploit a cue $k ,$ and how pervasive it is in the dataset (indicating the strength of the signal).\n\nFormally, let $\\mathbb { T } _ { j } ^ { ( i ) }$ be the set of tokens in the warrant for data point i with label $j .$ We define a cue’s applicability $\\alpha _ { k }$ as the number of data points where it occurs with one label but not the other:\n\n$$\n\\alpha _ { k } = \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\right]\n$$\n\nThe productivity $\\pi _ { k }$ of a cue is defined as the proportion of applicable data points for which it predicts the correct answer:\n\n$$\n\\pi _ { k } = \\frac { \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\land y _ { i } = j \\right] } { \\alpha _ { k } }\n$$\n\nFinally, we define the coverage $\\xi _ { k }$ of a cue as the proportion of applicable cases over the total number of data points: $\\xi _ { k } ~ = ~ \\alpha _ { k } / n$ . In these terms, the productivity of a cue measures the benefit of exploiting it, while coverage measures the strength of the signal it provides. With m labels, if $\\pi _ { k } > 1 / m$ then the presence of a cue is going to be useful for the task and a machine learner would do well to make use of it.",
+      "image_refs": [
+        "assets/_page_2_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_2_Figure_0.jpg"
+      ],
+      "headings": [
+        "3 BERT",
+        "4 Statistical Cues"
+      ],
+      "table_context": "",
+      "retrieval_text": "Figure 3: Processing an argument-warrant pair with BERT. The reason (with word pieces of length a) and claim (length b) together form the first utterance, and the warrant (length c) is the second. The final CLS vector is then passed to a linear layer to calculate the logit $z _ { j } ^ { ( i ) }$\n![](assets/_page_2_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_2_Figure_0.jpg`\n> \n> **Generated:** 2026-05-30 11:02:40\n> \n> ---\n> \n> The image is a diagram illustrating the architecture of a BERT-based model for claim-reason-warrant (CRW) classification. It shows the input tokens for the claim, reason, and warrant, which are then processed by the BERT model. The tokens are represented as hexagons at the bottom, with the claim, reason, and warrant sections clearly marked. The BERT model is depicted in the middle with its layers and connections, and the output tokens are shown at the top, labeled with their respective positions and types. The diagram highlights the flow of information from the input tokens through the BERT model to the output tokens, providing a visual representation of the model's structure and functionality.\n\n\n## 3 BERT\n\nOur BERT classifier is visualized in Figure 3. The claim and reason are joined to form the first text segment, which is paired with each warrant and independently processed. The final layer CLS vector is passed to a linear layer to obtain the logits $z _ { j } ^ { ( i ) }$ The whole architecture is fine-tuned. The learning rate is $2 e ^ { - 5 }$ and we allow a maximum of 20 training epochs, taking the parameters from the epoch with the best validation set accuracy. We use the Hugging Face PyTorch implementation.3\n\nDevlin et al. (2018) report that, on small datasets, BERT sometimes fails to train, yielding degenerate results. ARCT is very small with 1, 210 training observations. In 5/20 runs we encountered this phenomenon, seeing close to random accuracies on validation and test sets. These cases occurred where training accuracy was also not significantly above random (< 80%). Removing the degenerate runs, BERT’s mean is 71.6 ± 0.04., which would beat the previous state of the art - as would the median of 71.2%, which is a better average than the overall mean since it is not skewed by the degenerate cases. However, our main finding is that these results are not meaningful and should be discarded. In the following sections we focus on BERT’s peak performance of 77% to make this case.\n\n## 4 Statistical Cues\n\nThe major source of spurious statistical cues in ARCT comes from uneven distributions of linguistic artifacts over the warrants, and therefore over the labels. This section aims to demonstrate the presence and nature of these cues. We only consider unigrams and bigrams, although more sophisticated cues may be present. To this end, we aim to calculate how beneficial it is for a model to exploit a cue $k ,$ and how pervasive it is in the dataset (indicating the strength of the signal).\n\nFormally, let $\\mathbb { T } _ { j } ^ { ( i ) }$ be the set of tokens in the warrant for data point i with label $j .$ We define a cue’s applicability $\\alpha _ { k }$ as the number of data points where it occurs with one label but not the other:\n\n$$\n\\alpha _ { k } = \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\right]\n$$\n\nThe productivity $\\pi _ { k }$ of a cue is defined as the proportion of applicable data points for which it predicts the correct answer:\n\n$$\n\\pi _ { k } = \\frac { \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\land y _ { i } = j \\right] } { \\alpha _ { k } }\n$$\n\nFinally, we define the coverage $\\xi _ { k }$ of a cue as the proportion of applicable cases over the total number of data points: $\\xi _ { k } ~ = ~ \\alpha _ { k } / n$ . In these terms, the productivity of a cue measures the benefit of exploiting it, while coverage measures the strength of the signal it provides. With m labels, if $\\pi _ { k } > 1 / m$ then the presence of a cue is going to be useful for the task and a machine learner would do well to make use of it."
+    },
+    {
+      "page_id": 3,
+      "unit_id": "page-3",
+      "text": "Table 2: Productivity and coverage of using the presence of “not” in the warrant to predict the label in ARCT. Across the whole dataset, if you pick the warrant with “not” you will be right 61% of the time, which covers 64% of all data points.\n![](tables/table_pg3_num0.csv)\n\nThe productivity and coverage of the strongest unigram cue we found (“not”) is given in Table 2. It provides a particularly strong training signal. While it is less productive in the test set, it is just one among many such cues. We found a range of other unigrams, albeit with less overall productivity, mostly being high frequency words such as “is,” “do,” and “are.” Bigrams that occurred with not, such as “will not” and “cannot,” were also found to be highly productive. These statistics indicate the nature of the problem. In the next section we demonstrate that our models are in fact exploiting these cues.\n\n## 5 Probing Experiments\n\nIf a model is exploiting distributional cues over the labels, then if trained only on the warrants (W) it should perform relatively well. The same can be said for removing either just the claim, leaving the reason and warrant (R, W), or removing the reason (C, W). The latter setups allow the models to additionally consider cues in the reasons and claims, as well as cues holding over their combinations with the warrants. Each of these setups breaks the task since we no longer have an argument to match with a warrant.\n\nExperimental results are given in Table 3. On warrants alone (W) BERT achieves a maximum 71% accuracy. That leaves only six percentage points to account for its peak of 77%. We find a gain of four percentage points for (R, W) over (W), and a gain of two for (C, W), accounting for the missing six points. Based on this evidence our major finding is that the entirety of BERT’s performance can be accounted for in terms of exploiting spurious statistical cues.\n\nTable 3: Results of probing experiments with BERT Large, and the BoV and BiLSTM baselines. These results indicate that BERT’s peak 77% performance can be entirely accounted for by exploiting spurious cues. By just considering warrants (W) we can get to 71%. Adding cues over reasons (R, W) and claims (C, W) accounts for the remaining six points.\n![](tables/table_pg3_num1.csv)\n\n## 6 Adversarial Test Set\n\nThe major problem of statistical cues over labels in ARCT can be eliminated due the original design of the dataset. Given that $R \\wedge A \\ \\to \\ \\neg C .$ we can produce adversarial examples by negating the claim and inverting the label for each data point (Figure 4). The adversarial examples are then combined with the original data. This eliminates the problem by mirroring the distributions of cues around both labels. The ARCT authors provide a training set augmented in this way. The negation of most claims in the validation and test sets already exist elsewhere in the dataset. The remaining claims were manually negated by a native English speaker.\n\nWe tried two experimental setups. In the first, models trained and validated on the original data were evaluated on the adversarial set. All results were worse than random due to overfitting the cues in the original training set. In the second, models were trained from scratch on the adversarial training and validation sets, then evaluated on the adversarial test set. Results are given in Table 4. BERT’s peak performance has reduced to 53%, with mean and median at 50%. We conclude from these results that the adversarial dataset has successfully eliminated the cues as expected, providing a more robust evaluation of machine argument comprehension. This result better apts with our intuitions about this task: with little to no understanding about the reality underlying these arguments, good performance shouldn’t be feasible.",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg3_num0.csv",
+        "tables/table_pg3_num1.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg3_num0.csv",
+        "tables/table_pg3_num1.csv"
+      ],
+      "headings": [
+        "5 Probing Experiments",
+        "6 Adversarial Test Set"
+      ],
+      "table_context": "table_pg3_num0.csv: Table columns: Train Productivity, Train Coverage, Validation Productivity, Validation Coverage, Test Productivity, Test Coverage, All Productivity, All Coverage Row labels: 0.65 0.65: Train Coverage=0.66; Validation Productivity=0.62; Validation Coverage=0.44 table_pg3_num1.csv: Table columns: Model, Test Mean, Test Median, Test Max Row labels: BERT, BERT (W), BERT (R, W), BERT (C, W), BoV, BoV (W), BoV (R, W), BoV (C, W) BERT: Test Mean=0.671 ± 0.09; Test Median=0.712; Test Max=0.770 BERT (W): Test Mean=0.656 ± 0.05; Test Median=0.675; Test Max=0.712 BERT (R, W): Test Mean=0.600 ± 0.10; Test Median=0.574,0.750 BERT (C, W): Test Mean=0.532 ± 0.09; Test Median=0.503,0.732",
+      "retrieval_text": "Table 2: Productivity and coverage of using the presence of “not” in the warrant to predict the label in ARCT. Across the whole dataset, if you pick the warrant with “not” you will be right 61% of the time, which covers 64% of all data points.\n![](tables/table_pg3_num0.csv)\n\nThe productivity and coverage of the strongest unigram cue we found (“not”) is given in Table 2. It provides a particularly strong training signal. While it is less productive in the test set, it is just one among many such cues. We found a range of other unigrams, albeit with less overall productivity, mostly being high frequency words such as “is,” “do,” and “are.” Bigrams that occurred with not, such as “will not” and “cannot,” were also found to be highly productive. These statistics indicate the nature of the problem. In the next section we demonstrate that our models are in fact exploiting these cues.\n\n## 5 Probing Experiments\n\nIf a model is exploiting distributional cues over the labels, then if trained only on the warrants (W) it should perform relatively well. The same can be said for removing either just the claim, leaving the reason and warrant (R, W), or removing the reason (C, W). The latter setups allow the models to additionally consider cues in the reasons and claims, as well as cues holding over their combinations with the warrants. Each of these setups breaks the task since we no longer have an argument to match with a warrant.\n\nExperimental results are given in Table 3. On warrants alone (W) BERT achieves a maximum 71% accuracy. That leaves only six percentage points to account for its peak of 77%. We find a gain of four percentage points for (R, W) over (W), and a gain of two for (C, W), accounting for the missing six points. Based on this evidence our major finding is that the entirety of BERT’s performance can be accounted for in terms of exploiting spurious statistical cues.\n\nTable 3: Results of probing experiments with BERT Large, and the BoV and BiLSTM baselines. These results indicate that BERT’s peak 77% performance can be entirely accounted for by exploiting spurious cues. By just considering warrants (W) we can get to 71%. Adding cues over reasons (R, W) and claims (C, W) accounts for the remaining six points.\n![](tables/table_pg3_num1.csv)\n\n## 6 Adversarial Test Set\n\nThe major problem of statistical cues over labels in ARCT can be eliminated due the original design of the dataset. Given that $R \\wedge A \\ \\to \\ \\neg C .$ we can produce adversarial examples by negating the claim and inverting the label for each data point (Figure 4). The adversarial examples are then combined with the original data. This eliminates the problem by mirroring the distributions of cues around both labels. The ARCT authors provide a training set augmented in this way. The negation of most claims in the validation and test sets already exist elsewhere in the dataset. The remaining claims were manually negated by a native English speaker.\n\nWe tried two experimental setups. In the first, models trained and validated on the original data were evaluated on the adversarial set. All results were worse than random due to overfitting the cues in the original training set. In the second, models were trained from scratch on the adversarial training and validation sets, then evaluated on the adversarial test set. Results are given in Table 4. BERT’s peak performance has reduced to 53%, with mean and median at 50%. We conclude from these results that the adversarial dataset has successfully eliminated the cues as expected, providing a more robust evaluation of machine argument comprehension. This result better apts with our intuitions about this task: with little to no understanding about the reality underlying these arguments, good performance shouldn’t be feasible.\n\nTable context: table_pg3_num0.csv: Table columns: Train Productivity, Train Coverage, Validation Productivity, Validation Coverage, Test Productivity, Test Coverage, All Productivity, All Coverage Row labels: 0.65 0.65: Train Coverage=0.66; Validation Productivity=0.62; Validation Coverage=0.44 table_pg3_num1.csv: Table columns: Model, Test Mean, Test Median, Test Max Row labels: BERT, BERT (W), BERT (R, W), BERT (C, W), BoV, BoV (W), BoV (R, W), BoV (C, W) BERT: Test Mean=0.671 ± 0.09; Test Median=0.712; Test Max=0.770 BERT (W): Test Mean=0.656 ± 0.05; Test Median=0.675; Test Max=0.712 BERT (R, W): Test Mean=0.600 ± 0.10; Test Median=0.574,0.750 BERT (C, W): Test Mean=0.532 ± 0.09; Test Median=0.503,0.732"
+    },
+    {
+      "page_id": 4,
+      "unit_id": "page-4",
+      "text": "Figure 4: Original and adversarial data points. The claim is negated and the warrants are swapped. The assignment of labels to W and A are kept the same. By including both, the distribution of linguistic artifacts in the warrants are thereby mirrored around the labels, eliminating the major source of spurious statistical cues in ARCT.\n![](tables/table_pg4_num0.csv)\n\n## 7 Related Work\n\nThe most successful previous work on ARCT (Choi and Lee, 2018; Zhao et al., 2018; Niven and Kao, 2018) involved transfer learning from Natural Language Inference (NLI) datasets (Bowman et al., 2015; Williams et al., 2017), and utilized effective NLI models such as ESIM (Chen et al., 2016) and InferSent (Conneau et al., 2017). More recently, Botschen et al. (2018) added FrameNet knowledge with modest performance gains. These models should be evaluated on our adversarial dataset. In particular it will be interesting if Botschen et al.’s model stands out due to the inclusion of some of the required world knowledge.\n\nThere is much recent work focusing on statistical cues in datasets in vision (Jo and Bengio, 2017) and NLP (Sanchez et al., 2018; McCoy et al., 2019; Gururangan et al., 2018; Glockner et al., 2018; Poliak et al., 2018; Rajpurkar et al., 2018; Jia and Liang, 2017). Similar to our experiment with warrants, Poliak et al. (2018) classified NLI data based on the hypothesis only. A similar experiment to our probing task was performed by Niven and Kao (2018), but only with reasons and warrants. They found that independent warrant classification with shared parameters provides some regularization against warrant-label cues (Niven and Kao, 2018). However, this does not solve the problem since the presence of a cue is enough to increase the logits for either warrant.\n\nThe original ARCT data comes with a training set created in the same way as our adversarial dataset. Habernal et al. (2018a) reported experiments using this training data that led to random accuracy. They suggested it could be that high similarity between the data points made the problem too difficult for the simple models they implemented. Our work indicates the necessity of applying this transformation to the entire dataset in order to obtain a more robust evaluation by eliminating spurious statistical cues over the labels.\n\nTable 4: Results for BERT Large on the adversarial test set with adversarial training and validation sets.\n![](tables/table_pg4_num1.csv)\n\n## 8 Conclusion\n\nARCT provides a fortuitous opportunity to see how stark the problem of exploiting spurious statistics can be. Due to our ability to eliminate the major source of these cues, we were able to show that BERT’s maximum performance fell from just three points below the average untrained human baseline to essentially random. To answer our question in the introduction: BERT has learned nothing about argument comprehension.\n\nHowever, our investigations confirmed that BERT is indeed a very strong learner. Analysis of easy to classify data points showed reliance on a lower proportion of the strongest cue word than the BoV and BiLSTM - i.e. BERT has learned when to ignore the presence of “not” and focus on different cues. This indicates an ability to exploit much more subtle joint distributional information. As our learners get stronger, controlling for spurious statistics becomes more important in order to have confidence in their apparent performance. Taken with a growing body of previous work, our results indicate the need for further research into the extent of this problem in NLP more generally.\n\nThe adversarial dataset should be adopted as the standard in future work on ARCT. We hope that providing a more robust evaluation will help to spur more productive research on this problem.\n\n## Acknowledgments\n\nWe would like to thank Ivan Habernal, and the reviewers, for their helpful comments.",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg4_num0.csv",
+        "tables/table_pg4_num1.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg4_num0.csv",
+        "tables/table_pg4_num1.csv"
+      ],
+      "headings": [
+        "7 Related Work",
+        "8 Conclusion",
+        "Acknowledgments"
+      ],
+      "table_context": "table_pg4_num0.csv: Table columns: Claim, Original, Adversarial Row labels: Reason, Warrant, Alternative Reason: Original=People can choose not to use Google; Adversarial=People can choose not to use Google Warrant: Original=Other search engines do not redirect to Google; Adversarial=All other search engines redirect to Google Alternative: Original=All other search engines redirect to Google; Adversarial=Other search engines do not redirect to Google table_pg4_num1.csv: Table columns: Test, Mean, Median, Max Row labels: BERT, BERT (W), BERT (R, W), BERT (C, W) BERT: Mean=0.504 ± 0.01; Median=0.505; Max=0.533 BERT (W): Mean=0.501 ± 0.00; Median=0.501; Max=0.502 BERT (R, W): Mean=0.500 ± 0.00; Median=0.500,0.502 BERT (C, W): Mean=0.501 ± 0.01; Median=0.500,0.518",
+      "retrieval_text": "Figure 4: Original and adversarial data points. The claim is negated and the warrants are swapped. The assignment of labels to W and A are kept the same. By including both, the distribution of linguistic artifacts in the warrants are thereby mirrored around the labels, eliminating the major source of spurious statistical cues in ARCT.\n![](tables/table_pg4_num0.csv)\n\n## 7 Related Work\n\nThe most successful previous work on ARCT (Choi and Lee, 2018; Zhao et al., 2018; Niven and Kao, 2018) involved transfer learning from Natural Language Inference (NLI) datasets (Bowman et al., 2015; Williams et al., 2017), and utilized effective NLI models such as ESIM (Chen et al., 2016) and InferSent (Conneau et al., 2017). More recently, Botschen et al. (2018) added FrameNet knowledge with modest performance gains. These models should be evaluated on our adversarial dataset. In particular it will be interesting if Botschen et al.’s model stands out due to the inclusion of some of the required world knowledge.\n\nThere is much recent work focusing on statistical cues in datasets in vision (Jo and Bengio, 2017) and NLP (Sanchez et al., 2018; McCoy et al., 2019; Gururangan et al., 2018; Glockner et al., 2018; Poliak et al., 2018; Rajpurkar et al., 2018; Jia and Liang, 2017). Similar to our experiment with warrants, Poliak et al. (2018) classified NLI data based on the hypothesis only. A similar experiment to our probing task was performed by Niven and Kao (2018), but only with reasons and warrants. They found that independent warrant classification with shared parameters provides some regularization against warrant-label cues (Niven and Kao, 2018). However, this does not solve the problem since the presence of a cue is enough to increase the logits for either warrant.\n\nThe original ARCT data comes with a training set created in the same way as our adversarial dataset. Habernal et al. (2018a) reported experiments using this training data that led to random accuracy. They suggested it could be that high similarity between the data points made the problem too difficult for the simple models they implemented. Our work indicates the necessity of applying this transformation to the entire dataset in order to obtain a more robust evaluation by eliminating spurious statistical cues over the labels.\n\nTable 4: Results for BERT Large on the adversarial test set with adversarial training and validation sets.\n![](tables/table_pg4_num1.csv)\n\n## 8 Conclusion\n\nARCT provides a fortuitous opportunity to see how stark the problem of exploiting spurious statistics can be. Due to our ability to eliminate the major source of these cues, we were able to show that BERT’s maximum performance fell from just three points below the average untrained human baseline to essentially random. To answer our question in the introduction: BERT has learned nothing about argument comprehension.\n\nHowever, our investigations confirmed that BERT is indeed a very strong learner. Analysis of easy to classify data points showed reliance on a lower proportion of the strongest cue word than the BoV and BiLSTM - i.e. BERT has learned when to ignore the presence of “not” and focus on different cues. This indicates an ability to exploit much more subtle joint distributional information. As our learners get stronger, controlling for spurious statistics becomes more important in order to have confidence in their apparent performance. Taken with a growing body of previous work, our results indicate the need for further research into the extent of this problem in NLP more generally.\n\nThe adversarial dataset should be adopted as the standard in future work on ARCT. We hope that providing a more robust evaluation will help to spur more productive research on this problem.\n\n## Acknowledgments\n\nWe would like to thank Ivan Habernal, and the reviewers, for their helpful comments.\n\nTable context: table_pg4_num0.csv: Table columns: Claim, Original, Adversarial Row labels: Reason, Warrant, Alternative Reason: Original=People can choose not to use Google; Adversarial=People can choose not to use Google Warrant: Original=Other search engines do not redirect to Google; Adversarial=All other search engines redirect to Google Alternative: Original=All other search engines redirect to Google; Adversarial=Other search engines do not redirect to Google table_pg4_num1.csv: Table columns: Test, Mean, Median, Max Row labels: BERT, BERT (W), BERT (R, W), BERT (C, W) BERT: Mean=0.504 ± 0.01; Median=0.505; Max=0.533 BERT (W): Mean=0.501 ± 0.00; Median=0.501; Max=0.502 BERT (R, W): Mean=0.500 ± 0.00; Median=0.500,0.502 BERT (C, W): Mean=0.501 ± 0.01; Median=0.500,0.518"
+    },
+    {
+      "page_id": 5,
+      "unit_id": "page-5",
+      "text": "## References\n\n- Elizabeth Black and Anthony Hunter. 2012. A relevance-theoretic framework for constructing and deconstructing enthymemes. J. Log. Comput., 22:55–78.\n- Teresa Botschen, Daniil Sorokin, and Iryna Gurevych. 2018. Frame- and entity-based knowledge for common-sense argumentative reasoning. In ArgMining@EMNLP.\n- Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. 2015. A large annotated corpus for learning natural language inference. CoRR, abs/1508.05326.\n- Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, and Hui Jiang. 2016. Enhancing and combining sequential and tree LSTM for natural language inference. CoRR, abs/1609.06038.\n- HongSeok Choi and Hyunju Lee. 2018. Gist at semeval-2018 task 12: A network transferring inference knowledge to argument reasoning comprehension task. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 773–777. Association for Computational Linguistics.\n- Alexis Conneau, Douwe Kiela, Holger Schwenk, Lo¨ıc Barrault, and Antoine Bordes. 2017. Supervised learning of universal sentence representations from natural language inference data. CoRR, abs/1705.02364.\n- Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT: pre-training of deep bidirectional transformers for language understanding. CoRR, abs/1810.04805.\n- Max Glockner, Vered Shwartz, and Yoav Goldberg. 2018. Breaking NLI systems with sentences that require simple lexical inferences. CoRR, abs/1805.02266.\n- Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel R. Bowman, and Noah A. Smith. 2018. Annotation artifacts in natural language inference data. CoRR, abs/1803.02324.\n- Ivan Habernal, Judith Eckle-Kohler, and Iryna Gurevych. 2014. Argumentation mining on the web from information seeking perspective. In ArgNLP.\n- Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. 2018a. The argument reasoning comprehension task: Identification and reconstruction of implicit warrants. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 1930–1940, New Orleans, Louisiana. Association for Computational Linguistics.\n- Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. 2018b. Semeval-2018 task 12:\n- The argument reasoning comprehension task. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 763–772. Association for Computational Linguistics.\n- Sepp Hochreiter and Jurgen Schmidhuber. 1997. ¨ Long short-term memory. Neural computation, 9(8):1735–1780.\n- Robin Jia and Percy Liang. 2017. Adversarial examples for evaluating reading comprehension systems. CoRR, abs/1707.07328.\n- Jason Jo and Yoshua Bengio. 2017. Measuring the tendency of cnns to learn surface statistical regularities. CoRR, abs/1711.11561.\n- Diederik P. Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. CoRR, abs/1412.6980.\n- Marco Lippi and Paolo Torroni. 2016. Argumentation mining: State of the art and emerging trends. ACM Trans. Internet Technol., 16(2):10:1–10:25.\n- R. Thomas McCoy, Ellie Pavlick, and Tal Linzen. 2019. Right for the wrong reasons: Diagnosing syntactic heuristics in natural language inference. CoRR, abs/1902.01007.\n- Raquel Mochales and Marie-Francine Moens. 2011. Argumentation mining. Artif. Intell. Law, 19(1):1– 22.\n- Timothy Niven and Hung-Yu Kao. 2018. NLITrans at SemEval-2018 task 12: Transfer of semantic knowledge for argument comprehension. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 1099–1103, New Orleans, Louisiana. Association for Computational Linguistics.\n- Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. Glove: Global vectors for word representation. In Empirical Methods in Natural Language Processing (EMNLP), pages 1532– 1543.\n- Adam Poliak, Jason Naradowsky, Aparajita Haldar, Rachel Rudinger, and Benjamin Van Durme. 2018. Hypothesis only baselines in natural language inference. CoRR, abs/1805.01042.\n- Pranav Rajpurkar, Robin Jia, and Percy Liang. 2018. Know what you don’t know: Unanswerable questions for squad. CoRR, abs/1806.03822.\n- Ivan Sanchez, Jeff Mitchell, and Sebastian Riedel. 2018. Behavior analysis of NLI models: Uncovering the influence of three factors on robustness. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 1975–1985, New Orleans, Louisiana. Association for Computational Linguistics.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "References"
+      ],
+      "table_context": "",
+      "retrieval_text": "## References\n\n- Elizabeth Black and Anthony Hunter. 2012. A relevance-theoretic framework for constructing and deconstructing enthymemes. J. Log. Comput., 22:55–78.\n- Teresa Botschen, Daniil Sorokin, and Iryna Gurevych. 2018. Frame- and entity-based knowledge for common-sense argumentative reasoning. In ArgMining@EMNLP.\n- Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. 2015. A large annotated corpus for learning natural language inference. CoRR, abs/1508.05326.\n- Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, and Hui Jiang. 2016. Enhancing and combining sequential and tree LSTM for natural language inference. CoRR, abs/1609.06038.\n- HongSeok Choi and Hyunju Lee. 2018. Gist at semeval-2018 task 12: A network transferring inference knowledge to argument reasoning comprehension task. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 773–777. Association for Computational Linguistics.\n- Alexis Conneau, Douwe Kiela, Holger Schwenk, Lo¨ıc Barrault, and Antoine Bordes. 2017. Supervised learning of universal sentence representations from natural language inference data. CoRR, abs/1705.02364.\n- Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT: pre-training of deep bidirectional transformers for language understanding. CoRR, abs/1810.04805.\n- Max Glockner, Vered Shwartz, and Yoav Goldberg. 2018. Breaking NLI systems with sentences that require simple lexical inferences. CoRR, abs/1805.02266.\n- Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel R. Bowman, and Noah A. Smith. 2018. Annotation artifacts in natural language inference data. CoRR, abs/1803.02324.\n- Ivan Habernal, Judith Eckle-Kohler, and Iryna Gurevych. 2014. Argumentation mining on the web from information seeking perspective. In ArgNLP.\n- Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. 2018a. The argument reasoning comprehension task: Identification and reconstruction of implicit warrants. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 1930–1940, New Orleans, Louisiana. Association for Computational Linguistics.\n- Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. 2018b. Semeval-2018 task 12:\n- The argument reasoning comprehension task. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 763–772. Association for Computational Linguistics.\n- Sepp Hochreiter and Jurgen Schmidhuber. 1997. ¨ Long short-term memory. Neural computation, 9(8):1735–1780.\n- Robin Jia and Percy Liang. 2017. Adversarial examples for evaluating reading comprehension systems. CoRR, abs/1707.07328.\n- Jason Jo and Yoshua Bengio. 2017. Measuring the tendency of cnns to learn surface statistical regularities. CoRR, abs/1711.11561.\n- Diederik P. Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. CoRR, abs/1412.6980.\n- Marco Lippi and Paolo Torroni. 2016. Argumentation mining: State of the art and emerging trends. ACM Trans. Internet Technol., 16(2):10:1–10:25.\n- R. Thomas McCoy, Ellie Pavlick, and Tal Linzen. 2019. Right for the wrong reasons: Diagnosing syntactic heuristics in natural language inference. CoRR, abs/1902.01007.\n- Raquel Mochales and Marie-Francine Moens. 2011. Argumentation mining. Artif. Intell. Law, 19(1):1– 22.\n- Timothy Niven and Hung-Yu Kao. 2018. NLITrans at SemEval-2018 task 12: Transfer of semantic knowledge for argument comprehension. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 1099–1103, New Orleans, Louisiana. Association for Computational Linguistics.\n- Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. Glove: Global vectors for word representation. In Empirical Methods in Natural Language Processing (EMNLP), pages 1532– 1543.\n- Adam Poliak, Jason Naradowsky, Aparajita Haldar, Rachel Rudinger, and Benjamin Van Durme. 2018. Hypothesis only baselines in natural language inference. CoRR, abs/1805.01042.\n- Pranav Rajpurkar, Robin Jia, and Percy Liang. 2018. Know what you don’t know: Unanswerable questions for squad. CoRR, abs/1806.03822.\n- Ivan Sanchez, Jeff Mitchell, and Sebastian Riedel. 2018. Behavior analysis of NLI models: Uncovering the influence of three factors on robustness. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 1975–1985, New Orleans, Louisiana. Association for Computational Linguistics."
+    },
+    {
+      "page_id": 6,
+      "unit_id": "page-6",
+      "text": "- Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15:1929–1958.\n- Stephen E. Toulmin. 1958. The Uses of Argument. Cambridge University Press.\n- Douglas N. Walton. 2005. Informal logic: a handbook of critical argumentation. Cambridge University Press.\n- Adina Williams, Nikita Nangia, and Samuel R. Bowman. 2017. A broad-coverage challenge corpus for sentence understanding through inference. CoRR, abs/1704.05426.\n- Meiqian Zhao, Chunhua Liu, Lu Liu, Yan Zhao, and Dong Yu. 2018. Blcu nlp at semeval-2018 task 12: An ensemble model for argument reasoning based on hierarchical attention. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 1104–1108. Association for Computational Linguistics.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "- Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15:1929–1958.\n- Stephen E. Toulmin. 1958. The Uses of Argument. Cambridge University Press.\n- Douglas N. Walton. 2005. Informal logic: a handbook of critical argumentation. Cambridge University Press.\n- Adina Williams, Nikita Nangia, and Samuel R. Bowman. 2017. A broad-coverage challenge corpus for sentence understanding through inference. CoRR, abs/1704.05426.\n- Meiqian Zhao, Chunhua Liu, Lu Liu, Yan Zhao, and Dong Yu. 2018. Blcu nlp at semeval-2018 task 12: An ensemble model for argument reasoning based on hierarchical attention. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 1104–1108. Association for Computational Linguistics."
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "page-0-chunk-0",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "# Probing Neural Network Comprehension of Natural Language Arguments\n\nTimothy Niven and Hung-Yu Kao\n\nIntelligent Knowledge Management Lab\n\nDepartment of Computer Science and Information Engineering\n\nNational Cheng Kung University\n\nTainan, Taiwan\n\ntim.niven.public@gmail.com, hykao@mail.ncku.edu.tw",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Probing Neural Network Comprehension of Natural Language Arguments"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Probing Neural Network Comprehension of Natural Language Arguments\n\nTimothy Niven and Hung-Yu Kao\n\nIntelligent Knowledge Management Lab\n\nDepartment of Computer Science and Information Engineering\n\nNational Cheng Kung University\n\nTainan, Taiwan\n\ntim.niven.public@gmail.com, hykao@mail.ncku.edu.tw"
+    },
+    {
+      "chunk_id": "page-0-chunk-1",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "Abstract",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Abstract\n\nWe are surprised to find that BERT’s peak performance of 77% on the Argument Reasoning Comprehension Task reaches just three points below the average untrained human baseline. However, we show that this result is entirely accounted for by exploitation of spurious statistical cues in the dataset. We analyze the nature of these cues and demonstrate that a range of models all exploit them. This analysis informs the construction of an adversarial dataset on which all models achieve random accuracy. Our adversarial dataset provides a more robust assessment of argument comprehension and should be adopted as the standard in future work.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Abstract"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Abstract\n\nWe are surprised to find that BERT’s peak performance of 77% on the Argument Reasoning Comprehension Task reaches just three points below the average untrained human baseline. However, we show that this result is entirely accounted for by exploitation of spurious statistical cues in the dataset. We analyze the nature of these cues and demonstrate that a range of models all exploit them. This analysis informs the construction of an adversarial dataset on which all models achieve random accuracy. Our adversarial dataset provides a more robust assessment of argument comprehension and should be adopted as the standard in future work."
+    },
+    {
+      "chunk_id": "page-0-chunk-2",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "1 Introduction",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## 1 Introduction\n\nArgumentation mining is the task of determining argumentative structure in natural language text - e.g., which text segments represent claims, and which comprise reasons that support or attack those claims (Mochales and Moens, 2011; Lippi and Torroni, 2016). This is a challenging task for machine learners, as it can be hard even for humans to determine when two text segments stand in argumentative relation, as evidenced by studies on argument annotation (Habernal et al., 2014).\n\nOne approach to this problem is to focus on warrants (Toulmin, 1958) - a form of world knowledge that permit inferences. Consider a simple argument: “(1) It is raining; therefore (2) you should take an umbrella.”1 The warrant “(3) it is bad to get wet” could license this inference. Knowing (3) facilitates drawing the inferential connection between (1) and (2). However it would be hard to find it stated anywhere since warrants are most often left implicit (Walton, 2005). Thus, on this approach, machine learners must not only reason with warrants but also discover them.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "1 Introduction"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 1 Introduction\n\nArgumentation mining is the task of determining argumentative structure in natural language text - e.g., which text segments represent claims, and which comprise reasons that support or attack those claims (Mochales and Moens, 2011; Lippi and Torroni, 2016). This is a challenging task for machine learners, as it can be hard even for humans to determine when two text segments stand in argumentative relation, as evidenced by studies on argument annotation (Habernal et al., 2014).\n\nOne approach to this problem is to focus on warrants (Toulmin, 1958) - a form of world knowledge that permit inferences. Consider a simple argument: “(1) It is raining; therefore (2) you should take an umbrella.”1 The warrant “(3) it is bad to get wet” could license this inference. Knowing (3) facilitates drawing the inferential connection between (1) and (2). However it would be hard to find it stated anywhere since warrants are most often left implicit (Walton, 2005). Thus, on this approach, machine learners must not only reason with warrants but also discover them."
+    },
+    {
+      "chunk_id": "page-0-chunk-3",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "1 Introduction",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Figure 1: An example of a data point from the ARCT test set and how it should be read. The inference from R and A to ¬C is by design.\n\nThe Argument Reasoning Comprehension Task (ARCT) (Habernal et al., 2018a) defers the problem of discovering warrants and focuses on inference. An argument is provided, comprising a claim C and reason R. This task is to pick the correct warrant W over a distractor, called the alternative warrant A. The alternative is written such that $R \\wedge A \\  \\ \\neg C$ An alternative warrant for our earlier example could be “(4) it is good to get wet,” in which case we have $( 1 ) \\wedge ( 4 ) \\to { } ^ { \\bullet } ( \\neg 2 )$ you shouldn’t take an umbrella.” An example from the dataset is given in Figure 1.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Figure 1: An example of a data point from the ARCT test set and how it should be read. The inference from R and A to ¬C is by design.\n\nThe Argument Reasoning Comprehension Task (ARCT) (Habernal et al., 2018a) defers the problem of discovering warrants and focuses on inference. An argument is provided, comprising a claim C and reason R. This task is to pick the correct warrant W over a distractor, called the alternative warrant A. The alternative is written such that $R \\wedge A \\  \\ \\neg C$ An alternative warrant for our earlier example could be “(4) it is good to get wet,” in which case we have $( 1 ) \\wedge ( 4 ) \\to { } ^ { \\bullet } ( \\neg 2 )$ you shouldn’t take an umbrella.” An example from the dataset is given in Figure 1."
+    },
+    {
+      "chunk_id": "page-0-chunk-4",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "1 Introduction",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "The ARCT SemEval shared task (Habernal et al., 2018b) verified the challenging nature of this problem. Even supplying warrants, learners still need to rely on further world knowledge. For example, to correctly classify the data point in Figure 1 it is at least required to know how consumer choice and web re-directs relate to the concept of monopoly, and that Google is a search engine. All but one participating system in the shared task could not exceed 60% accuracy (on binary classification).\n\nIt is therefore surprising that BERT (Devlin et al., 2018) achieves 77% test set accuracy with its best run (Table 1), only three points below the average (untrained) human baseline. Without supplying the required world knowledge for this task it does not seem reasonable to expect it to perform so well. This motivates the question: what has BERT learned about argument comprehension?",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The ARCT SemEval shared task (Habernal et al., 2018b) verified the challenging nature of this problem. Even supplying warrants, learners still need to rely on further world knowledge. For example, to correctly classify the data point in Figure 1 it is at least required to know how consumer choice and web re-directs relate to the concept of monopoly, and that Google is a search engine. All but one participating system in the shared task could not exceed 60% accuracy (on binary classification).\n\nIt is therefore surprising that BERT (Devlin et al., 2018) achieves 77% test set accuracy with its best run (Table 1), only three points below the average (untrained) human baseline. Without supplying the required world knowledge for this task it does not seem reasonable to expect it to perform so well. This motivates the question: what has BERT learned about argument comprehension?"
+    },
+    {
+      "chunk_id": "page-1-chunk-0",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Table 1: Baselines and BERT results. Our results come from 20 different random seeds (± gives the standard deviation). The mean for BERT Large is skewed by the $5 / 2 0$ random seeds for which it failed to train, a problem noted by Devlin et al. (2018). We therefore consider the median a better measure of BERT’s average performance. The mean of the non-degenerate runs for BERT (Large) is $0 . 7 1 6 \\pm 0 . 0 4$\n![](tables/table_pg1_num0.csv)\n\nFigure 2: General architecture of the models in our experiments. Logits are independently calculated for each argument-warrant pair then concatenated and passed through softmax.\n![](assets/_page_1_Figure_0.jpg)",
+      "image_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "table_refs": [
+        "tables/table_pg1_num0.csv"
+      ],
+      "asset_refs": [
+        "assets/_page_1_Figure_0.jpg",
+        "tables/table_pg1_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg1_num0.csv: Table columns: Dev Mean, Test Mean, Test Median, Test Max Row labels: Human (trained), Human (untrained), BERT (Large), GIST (Choi and Lee, 2018), BERT (Base), World Knowledge (Botschen et al., 2018), BoV, BiLSTM Human (trained): Test Median=0.909 ± 0.11; Test Max=0.909 ± 0.11 Human (untrained): Test Median=0.798 ± 0.16; Test Max=0.798 ± 0.16 BERT (Large): Test Mean=0.701 ± 0.05; Test Median=0.671 ± 0.09; Test Max=0.712 GIST (Choi and Lee, 2018): Test Mean=¿0.716 ± 0.01; Test Median=¿0.711 ± 0.01",
+      "retrieval_text": "Table 1: Baselines and BERT results. Our results come from 20 different random seeds (± gives the standard deviation). The mean for BERT Large is skewed by the $5 / 2 0$ random seeds for which it failed to train, a problem noted by Devlin et al. (2018). We therefore consider the median a better measure of BERT’s average performance. The mean of the non-degenerate runs for BERT (Large) is $0 . 7 1 6 \\pm 0 . 0 4$\n![](tables/table_pg1_num0.csv)\n\nFigure 2: General architecture of the models in our experiments. Logits are independently calculated for each argument-warrant pair then concatenated and passed through softmax.\n![](assets/_page_1_Figure_0.jpg)\n\nTable context: table_pg1_num0.csv: Table columns: Dev Mean, Test Mean, Test Median, Test Max Row labels: Human (trained), Human (untrained), BERT (Large), GIST (Choi and Lee, 2018), BERT (Base), World Knowledge (Botschen et al., 2018), BoV, BiLSTM Human (trained): Test Median=0.909 ± 0.11; Test Max=0.909 ± 0.11 Human (untrained): Test Median=0.798 ± 0.16; Test Max=0.798 ± 0.16 BERT (Large): Test Mean=0.701 ± 0.05; Test Median=0.671 ± 0.09; Test Max=0.712 GIST (Choi and Lee, 2018): Test Mean=¿0.716 ± 0.01; Test Median=¿0.711 ± 0.01"
+    },
+    {
+      "chunk_id": "page-1-chunk-1",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "Document",
+      "nearest_asset_above": "assets/_page_1_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "> **AI Description:**\n> **Source:** `assets/_page_1_Figure_0.jpg`\n> \n> **Generated:** 2026-05-30 11:02:23\n> \n> ---\n> \n> The image is a diagram illustrating a neural network or machine learning model. It shows a softmax function at the top, which is used to convert the output of a neural network into probabilities. Below the softmax function, there are two sets of input features labeled as \\( z_0 \\) and \\( z_1 \\), which are the outputs of the hidden layer. These inputs are derived from the parameters \\( \\theta \\), which are the weights of the neural network. The parameters \\( \\theta \\) are further derived from the inputs \\( c \\), \\( r \\), and \\( w_0 \\) and \\( c \\), \\( r \\), and \\( w_1 \\), which represent the context, representation, and word vectors, respectively. The diagram highlights the flow of information through the neural network, from the input features to the final output probabilities.",
+      "image_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "> **AI Description:**\n> **Source:** `assets/_page_1_Figure_0.jpg`\n> \n> **Generated:** 2026-05-30 11:02:23\n> \n> ---\n> \n> The image is a diagram illustrating a neural network or machine learning model. It shows a softmax function at the top, which is used to convert the output of a neural network into probabilities. Below the softmax function, there are two sets of input features labeled as \\( z_0 \\) and \\( z_1 \\), which are the outputs of the hidden layer. These inputs are derived from the parameters \\( \\theta \\), which are the weights of the neural network. The parameters \\( \\theta \\) are further derived from the inputs \\( c \\), \\( r \\), and \\( w_0 \\) and \\( c \\), \\( r \\), and \\( w_1 \\), which represent the context, representation, and word vectors, respectively. The diagram highlights the flow of information through the neural network, from the input features to the final output probabilities."
+    },
+    {
+      "chunk_id": "page-1-chunk-2",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "Document",
+      "nearest_asset_above": "assets/_page_1_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "To investigate BERT’s decision making we looked at data points it finds easy to classify over multiple runs. Habernal et al. (2018b) performed a similar analysis with the SemEval submissions, and consistent with their results we found that BERT exploits the presence of cue words in the warrant, especially “not.” Through probing experiments designed to isolate such effects, we demonstrate in this work that BERT’s surprising performance can be entirely accounted for in terms of exploiting spurious statistical cues.\n\nHowever, we show that the major problem can be eliminated in ARCT. Since R $\\wedge A  \\neg C$ , we can add a copy of each data point with the claim negated and the label inverted. This means that the distribution of statistical cues in the warrants will be mirrored over both labels, eliminating the signal. On this adversarial dataset all models perform randomly, with BERT achieving a maximum test set accuracy of 53%. The adversarial dataset therefore provides a more robust evaluation of argument comprehension and should be adopted as the standard in future work on this dataset.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "To investigate BERT’s decision making we looked at data points it finds easy to classify over multiple runs. Habernal et al. (2018b) performed a similar analysis with the SemEval submissions, and consistent with their results we found that BERT exploits the presence of cue words in the warrant, especially “not.” Through probing experiments designed to isolate such effects, we demonstrate in this work that BERT’s surprising performance can be entirely accounted for in terms of exploiting spurious statistical cues.\n\nHowever, we show that the major problem can be eliminated in ARCT. Since R $\\wedge A  \\neg C$ , we can add a copy of each data point with the claim negated and the label inverted. This means that the distribution of statistical cues in the warrants will be mirrored over both labels, eliminating the signal. On this adversarial dataset all models perform randomly, with BERT achieving a maximum test set accuracy of 53%. The adversarial dataset therefore provides a more robust evaluation of argument comprehension and should be adopted as the standard in future work on this dataset."
+    },
+    {
+      "chunk_id": "page-1-chunk-3",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "2 Task Description and Baselines",
+      "nearest_asset_above": "assets/_page_1_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "## 2 Task Description and Baselines\n\nLet $i = 1 , \\ldots , n$ index each point in the dataset D, where $| \\mathcal { D } | = n$ . The two candidate warrants in each case are randomly assigned a binary label $j \\in \\{ 0 , 1 \\}$ , such that each has an equal probability of being correct. The inputs are the representations for the claim $\\mathbf { c } ^ { ( i ) }$ , reason $\\mathbf { r } ^ { ( i ) }$ , warrant zero $\\mathbf { w } _ { 0 } ^ { ( i ) }$ ， and warrant one $\\mathbf { w } _ { 1 } ^ { ( i ) }$ . The label $\\boldsymbol y ^ { ( i ) }$ is a binary indicator corresponding to the correct warrant.\n\nThe general architecture for all models is given in Figure 2. Shared parameters θ are learned to classify each warrant independently with the argument, yielding the logits:\n\n$$\nz _ { j } ^ { ( i ) } = \\pmb { \\theta } [ c ^ { ( i ) } ; \\pmb { r } ^ { ( i ) } ; \\pmb { w } _ { j } ^ { ( i ) } ]\n$$",
+      "image_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_1_Figure_0.jpg"
+      ],
+      "headings": [
+        "2 Task Description and Baselines"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 2 Task Description and Baselines\n\nLet $i = 1 , \\ldots , n$ index each point in the dataset D, where $| \\mathcal { D } | = n$ . The two candidate warrants in each case are randomly assigned a binary label $j \\in \\{ 0 , 1 \\}$ , such that each has an equal probability of being correct. The inputs are the representations for the claim $\\mathbf { c } ^ { ( i ) }$ , reason $\\mathbf { r } ^ { ( i ) }$ , warrant zero $\\mathbf { w } _ { 0 } ^ { ( i ) }$ ， and warrant one $\\mathbf { w } _ { 1 } ^ { ( i ) }$ . The label $\\boldsymbol y ^ { ( i ) }$ is a binary indicator corresponding to the correct warrant.\n\nThe general architecture for all models is given in Figure 2. Shared parameters θ are learned to classify each warrant independently with the argument, yielding the logits:\n\n$$\nz _ { j } ^ { ( i ) } = \\pmb { \\theta } [ c ^ { ( i ) } ; \\pmb { r } ^ { ( i ) } ; \\pmb { w } _ { j } ^ { ( i ) } ]\n$$"
+    },
+    {
+      "chunk_id": "page-1-chunk-4",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "2 Task Description and Baselines",
+      "nearest_asset_above": "assets/_page_1_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "These are then concatenated and passed through softmax to determine a probability distribution over the two warrants $\\mathbf { p } ^ { ( i ) }$ = softmax $( [ z _ { 0 } ^ { ( i ) } , z _ { 1 } ^ { ( i ) } ] )$ The prediction is then $\\hat { y } ^ { ( i ) }$ = arg maxj $\\mathbf { p } ^ { ( i ) }$\n\nThe baselines are a bag of vectors (BoV), bidirectional LSTM (Hochreiter and Schmidhuber, 1997) (BiLSTM), the SemEval winner GIST (Choi and Lee, 2018), the best model of Botschen et al. (2018), and human performance (Table 1). For all of our experiments we use grid search to select hyperparameters, dropout regularization (Srivastava et al., 2014), and Adam (Kingma and Ba, 2014) for optimization. We anneal the learning rate by $1 / 1 0$ when validation accuracy drops. The final parameters come from the epoch with maximum validation accuracy. The BoV and BiLSTM inputs are 300-dimensional GloVe embeddings trained on 640B tokens (Pennington et al., 2014). Code to reproduce all experiments, and detailing all hyperparameters, is provided on GitHub.2",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg1_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg1_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg1_num0.csv: Table columns: Dev Mean, Test Mean, Test Median, Test Max Row labels: Human (trained), Human (untrained), BERT (Large), GIST (Choi and Lee, 2018), BERT (Base), World Knowledge (Botschen et al., 2018), BoV, BiLSTM Human (trained): Test Median=0.909 ± 0.11; Test Max=0.909 ± 0.11 Human (untrained): Test Median=0.798 ± 0.16; Test Max=0.798 ± 0.16 BERT (Large): Test Mean=0.701 ± 0.05; Test Median=0.671 ± 0.09; Test Max=0.712 GIST (Choi and Lee, 2018): Test Mean=¿0.716 ± 0.01; Test Median=¿0.711 ± 0.01",
+      "retrieval_text": "These are then concatenated and passed through softmax to determine a probability distribution over the two warrants $\\mathbf { p } ^ { ( i ) }$ = softmax $( [ z _ { 0 } ^ { ( i ) } , z _ { 1 } ^ { ( i ) } ] )$ The prediction is then $\\hat { y } ^ { ( i ) }$ = arg maxj $\\mathbf { p } ^ { ( i ) }$\n\nThe baselines are a bag of vectors (BoV), bidirectional LSTM (Hochreiter and Schmidhuber, 1997) (BiLSTM), the SemEval winner GIST (Choi and Lee, 2018), the best model of Botschen et al. (2018), and human performance (Table 1). For all of our experiments we use grid search to select hyperparameters, dropout regularization (Srivastava et al., 2014), and Adam (Kingma and Ba, 2014) for optimization. We anneal the learning rate by $1 / 1 0$ when validation accuracy drops. The final parameters come from the epoch with maximum validation accuracy. The BoV and BiLSTM inputs are 300-dimensional GloVe embeddings trained on 640B tokens (Pennington et al., 2014). Code to reproduce all experiments, and detailing all hyperparameters, is provided on GitHub.2\n\nTable context: table_pg1_num0.csv: Table columns: Dev Mean, Test Mean, Test Median, Test Max Row labels: Human (trained), Human (untrained), BERT (Large), GIST (Choi and Lee, 2018), BERT (Base), World Knowledge (Botschen et al., 2018), BoV, BiLSTM Human (trained): Test Median=0.909 ± 0.11; Test Max=0.909 ± 0.11 Human (untrained): Test Median=0.798 ± 0.16; Test Max=0.798 ± 0.16 BERT (Large): Test Mean=0.701 ± 0.05; Test Median=0.671 ± 0.09; Test Max=0.712 GIST (Choi and Lee, 2018): Test Mean=¿0.716 ± 0.01; Test Median=¿0.711 ± 0.01"
+    },
+    {
+      "chunk_id": "page-2-chunk-0",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Figure 3: Processing an argument-warrant pair with BERT. The reason (with word pieces of length a) and claim (length b) together form the first utterance, and the warrant (length c) is the second. The final CLS vector is then passed to a linear layer to calculate the logit $z _ { j } ^ { ( i ) }$\n![](assets/_page_2_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_2_Figure_0.jpg`\n> \n> **Generated:** 2026-05-30 11:02:40\n> \n> ---\n> \n> The image is a diagram illustrating the architecture of a BERT-based model for claim-reason-warrant (CRW) classification. It shows the input tokens for the claim, reason, and warrant, which are then processed by the BERT model. The tokens are represented as hexagons at the bottom, with the claim, reason, and warrant sections clearly marked. The BERT model is depicted in the middle with its layers and connections, and the output tokens are shown at the top, labeled with their respective positions and types. The diagram highlights the flow of information from the input tokens through the BERT model to the output tokens, providing a visual representation of the model's structure and functionality.",
+      "image_refs": [
+        "assets/_page_2_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_2_Figure_0.jpg"
+      ],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Figure 3: Processing an argument-warrant pair with BERT. The reason (with word pieces of length a) and claim (length b) together form the first utterance, and the warrant (length c) is the second. The final CLS vector is then passed to a linear layer to calculate the logit $z _ { j } ^ { ( i ) }$\n![](assets/_page_2_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_2_Figure_0.jpg`\n> \n> **Generated:** 2026-05-30 11:02:40\n> \n> ---\n> \n> The image is a diagram illustrating the architecture of a BERT-based model for claim-reason-warrant (CRW) classification. It shows the input tokens for the claim, reason, and warrant, which are then processed by the BERT model. The tokens are represented as hexagons at the bottom, with the claim, reason, and warrant sections clearly marked. The BERT model is depicted in the middle with its layers and connections, and the output tokens are shown at the top, labeled with their respective positions and types. The diagram highlights the flow of information from the input tokens through the BERT model to the output tokens, providing a visual representation of the model's structure and functionality."
+    },
+    {
+      "chunk_id": "page-2-chunk-1",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "3 BERT",
+      "nearest_asset_above": "assets/_page_2_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "## 3 BERT\n\nOur BERT classifier is visualized in Figure 3. The claim and reason are joined to form the first text segment, which is paired with each warrant and independently processed. The final layer CLS vector is passed to a linear layer to obtain the logits $z _ { j } ^ { ( i ) }$ The whole architecture is fine-tuned. The learning rate is $2 e ^ { - 5 }$ and we allow a maximum of 20 training epochs, taking the parameters from the epoch with the best validation set accuracy. We use the Hugging Face PyTorch implementation.3",
+      "image_refs": [
+        "assets/_page_2_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_2_Figure_0.jpg"
+      ],
+      "headings": [
+        "3 BERT"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 3 BERT\n\nOur BERT classifier is visualized in Figure 3. The claim and reason are joined to form the first text segment, which is paired with each warrant and independently processed. The final layer CLS vector is passed to a linear layer to obtain the logits $z _ { j } ^ { ( i ) }$ The whole architecture is fine-tuned. The learning rate is $2 e ^ { - 5 }$ and we allow a maximum of 20 training epochs, taking the parameters from the epoch with the best validation set accuracy. We use the Hugging Face PyTorch implementation.3"
+    },
+    {
+      "chunk_id": "page-2-chunk-2",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "3 BERT",
+      "nearest_asset_above": "assets/_page_2_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "Devlin et al. (2018) report that, on small datasets, BERT sometimes fails to train, yielding degenerate results. ARCT is very small with 1, 210 training observations. In 5/20 runs we encountered this phenomenon, seeing close to random accuracies on validation and test sets. These cases occurred where training accuracy was also not significantly above random (< 80%). Removing the degenerate runs, BERT’s mean is 71.6 ± 0.04., which would beat the previous state of the art - as would the median of 71.2%, which is a better average than the overall mean since it is not skewed by the degenerate cases. However, our main finding is that these results are not meaningful and should be discarded. In the following sections we focus on BERT’s peak performance of 77% to make this case.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Devlin et al. (2018) report that, on small datasets, BERT sometimes fails to train, yielding degenerate results. ARCT is very small with 1, 210 training observations. In 5/20 runs we encountered this phenomenon, seeing close to random accuracies on validation and test sets. These cases occurred where training accuracy was also not significantly above random (< 80%). Removing the degenerate runs, BERT’s mean is 71.6 ± 0.04., which would beat the previous state of the art - as would the median of 71.2%, which is a better average than the overall mean since it is not skewed by the degenerate cases. However, our main finding is that these results are not meaningful and should be discarded. In the following sections we focus on BERT’s peak performance of 77% to make this case."
+    },
+    {
+      "chunk_id": "page-2-chunk-3",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "4 Statistical Cues",
+      "nearest_asset_above": "assets/_page_2_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "## 4 Statistical Cues\n\nThe major source of spurious statistical cues in ARCT comes from uneven distributions of linguistic artifacts over the warrants, and therefore over the labels. This section aims to demonstrate the presence and nature of these cues. We only consider unigrams and bigrams, although more sophisticated cues may be present. To this end, we aim to calculate how beneficial it is for a model to exploit a cue $k ,$ and how pervasive it is in the dataset (indicating the strength of the signal).\n\nFormally, let $\\mathbb { T } _ { j } ^ { ( i ) }$ be the set of tokens in the warrant for data point i with label $j .$ We define a cue’s applicability $\\alpha _ { k }$ as the number of data points where it occurs with one label but not the other:\n\n$$\n\\alpha _ { k } = \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\right]\n$$\n\nThe productivity $\\pi _ { k }$ of a cue is defined as the proportion of applicable data points for which it predicts the correct answer:",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "4 Statistical Cues"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 4 Statistical Cues\n\nThe major source of spurious statistical cues in ARCT comes from uneven distributions of linguistic artifacts over the warrants, and therefore over the labels. This section aims to demonstrate the presence and nature of these cues. We only consider unigrams and bigrams, although more sophisticated cues may be present. To this end, we aim to calculate how beneficial it is for a model to exploit a cue $k ,$ and how pervasive it is in the dataset (indicating the strength of the signal).\n\nFormally, let $\\mathbb { T } _ { j } ^ { ( i ) }$ be the set of tokens in the warrant for data point i with label $j .$ We define a cue’s applicability $\\alpha _ { k }$ as the number of data points where it occurs with one label but not the other:\n\n$$\n\\alpha _ { k } = \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\right]\n$$\n\nThe productivity $\\pi _ { k }$ of a cue is defined as the proportion of applicable data points for which it predicts the correct answer:"
+    },
+    {
+      "chunk_id": "page-2-chunk-4",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "4 Statistical Cues",
+      "nearest_asset_above": "assets/_page_2_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "$$\n\\pi _ { k } = \\frac { \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\land y _ { i } = j \\right] } { \\alpha _ { k } }\n$$\n\nFinally, we define the coverage $\\xi _ { k }$ of a cue as the proportion of applicable cases over the total number of data points: $\\xi _ { k } ~ = ~ \\alpha _ { k } / n$ . In these terms, the productivity of a cue measures the benefit of exploiting it, while coverage measures the strength of the signal it provides. With m labels, if $\\pi _ { k } > 1 / m$ then the presence of a cue is going to be useful for the task and a machine learner would do well to make use of it.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "$$\n\\pi _ { k } = \\frac { \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\land y _ { i } = j \\right] } { \\alpha _ { k } }\n$$\n\nFinally, we define the coverage $\\xi _ { k }$ of a cue as the proportion of applicable cases over the total number of data points: $\\xi _ { k } ~ = ~ \\alpha _ { k } / n$ . In these terms, the productivity of a cue measures the benefit of exploiting it, while coverage measures the strength of the signal it provides. With m labels, if $\\pi _ { k } > 1 / m$ then the presence of a cue is going to be useful for the task and a machine learner would do well to make use of it."
+    },
+    {
+      "chunk_id": "page-3-chunk-0",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": "tables/table_pg3_num1.csv",
+      "text": "Table 2: Productivity and coverage of using the presence of “not” in the warrant to predict the label in ARCT. Across the whole dataset, if you pick the warrant with “not” you will be right 61% of the time, which covers 64% of all data points.\n![](tables/table_pg3_num0.csv)\n\nThe productivity and coverage of the strongest unigram cue we found (“not”) is given in Table 2. It provides a particularly strong training signal. While it is less productive in the test set, it is just one among many such cues. We found a range of other unigrams, albeit with less overall productivity, mostly being high frequency words such as “is,” “do,” and “are.” Bigrams that occurred with not, such as “will not” and “cannot,” were also found to be highly productive. These statistics indicate the nature of the problem. In the next section we demonstrate that our models are in fact exploiting these cues.",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg3_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg3_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg3_num0.csv: Table columns: Train Productivity, Train Coverage, Validation Productivity, Validation Coverage, Test Productivity, Test Coverage, All Productivity, All Coverage Row labels: 0.65 0.65: Train Coverage=0.66; Validation Productivity=0.62; Validation Coverage=0.44",
+      "retrieval_text": "Table 2: Productivity and coverage of using the presence of “not” in the warrant to predict the label in ARCT. Across the whole dataset, if you pick the warrant with “not” you will be right 61% of the time, which covers 64% of all data points.\n![](tables/table_pg3_num0.csv)\n\nThe productivity and coverage of the strongest unigram cue we found (“not”) is given in Table 2. It provides a particularly strong training signal. While it is less productive in the test set, it is just one among many such cues. We found a range of other unigrams, albeit with less overall productivity, mostly being high frequency words such as “is,” “do,” and “are.” Bigrams that occurred with not, such as “will not” and “cannot,” were also found to be highly productive. These statistics indicate the nature of the problem. In the next section we demonstrate that our models are in fact exploiting these cues.\n\nTable context: table_pg3_num0.csv: Table columns: Train Productivity, Train Coverage, Validation Productivity, Validation Coverage, Test Productivity, Test Coverage, All Productivity, All Coverage Row labels: 0.65 0.65: Train Coverage=0.66; Validation Productivity=0.62; Validation Coverage=0.44"
+    },
+    {
+      "chunk_id": "page-3-chunk-1",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "5 Probing Experiments",
+      "nearest_asset_above": "tables/table_pg3_num0.csv",
+      "nearest_asset_below": "tables/table_pg3_num1.csv",
+      "text": "## 5 Probing Experiments\n\nIf a model is exploiting distributional cues over the labels, then if trained only on the warrants (W) it should perform relatively well. The same can be said for removing either just the claim, leaving the reason and warrant (R, W), or removing the reason (C, W). The latter setups allow the models to additionally consider cues in the reasons and claims, as well as cues holding over their combinations with the warrants. Each of these setups breaks the task since we no longer have an argument to match with a warrant.\n\nExperimental results are given in Table 3. On warrants alone (W) BERT achieves a maximum 71% accuracy. That leaves only six percentage points to account for its peak of 77%. We find a gain of four percentage points for (R, W) over (W), and a gain of two for (C, W), accounting for the missing six points. Based on this evidence our major finding is that the entirety of BERT’s performance can be accounted for in terms of exploiting spurious statistical cues.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "5 Probing Experiments"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 5 Probing Experiments\n\nIf a model is exploiting distributional cues over the labels, then if trained only on the warrants (W) it should perform relatively well. The same can be said for removing either just the claim, leaving the reason and warrant (R, W), or removing the reason (C, W). The latter setups allow the models to additionally consider cues in the reasons and claims, as well as cues holding over their combinations with the warrants. Each of these setups breaks the task since we no longer have an argument to match with a warrant.\n\nExperimental results are given in Table 3. On warrants alone (W) BERT achieves a maximum 71% accuracy. That leaves only six percentage points to account for its peak of 77%. We find a gain of four percentage points for (R, W) over (W), and a gain of two for (C, W), accounting for the missing six points. Based on this evidence our major finding is that the entirety of BERT’s performance can be accounted for in terms of exploiting spurious statistical cues."
+    },
+    {
+      "chunk_id": "page-3-chunk-2",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "5 Probing Experiments",
+      "nearest_asset_above": "tables/table_pg3_num0.csv",
+      "nearest_asset_below": null,
+      "text": "Table 3: Results of probing experiments with BERT Large, and the BoV and BiLSTM baselines. These results indicate that BERT’s peak 77% performance can be entirely accounted for by exploiting spurious cues. By just considering warrants (W) we can get to 71%. Adding cues over reasons (R, W) and claims (C, W) accounts for the remaining six points.\n![](tables/table_pg3_num1.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg3_num1.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg3_num1.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg3_num1.csv: Table columns: Model, Test Mean, Test Median, Test Max Row labels: BERT, BERT (W), BERT (R, W), BERT (C, W), BoV, BoV (W), BoV (R, W), BoV (C, W) BERT: Test Mean=0.671 ± 0.09; Test Median=0.712; Test Max=0.770 BERT (W): Test Mean=0.656 ± 0.05; Test Median=0.675; Test Max=0.712 BERT (R, W): Test Mean=0.600 ± 0.10; Test Median=0.574,0.750 BERT (C, W): Test Mean=0.532 ± 0.09; Test Median=0.503,0.732",
+      "retrieval_text": "Table 3: Results of probing experiments with BERT Large, and the BoV and BiLSTM baselines. These results indicate that BERT’s peak 77% performance can be entirely accounted for by exploiting spurious cues. By just considering warrants (W) we can get to 71%. Adding cues over reasons (R, W) and claims (C, W) accounts for the remaining six points.\n![](tables/table_pg3_num1.csv)\n\nTable context: table_pg3_num1.csv: Table columns: Model, Test Mean, Test Median, Test Max Row labels: BERT, BERT (W), BERT (R, W), BERT (C, W), BoV, BoV (W), BoV (R, W), BoV (C, W) BERT: Test Mean=0.671 ± 0.09; Test Median=0.712; Test Max=0.770 BERT (W): Test Mean=0.656 ± 0.05; Test Median=0.675; Test Max=0.712 BERT (R, W): Test Mean=0.600 ± 0.10; Test Median=0.574,0.750 BERT (C, W): Test Mean=0.532 ± 0.09; Test Median=0.503,0.732"
+    },
+    {
+      "chunk_id": "page-3-chunk-3",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "6 Adversarial Test Set",
+      "nearest_asset_above": "tables/table_pg3_num1.csv",
+      "nearest_asset_below": null,
+      "text": "## 6 Adversarial Test Set\n\nThe major problem of statistical cues over labels in ARCT can be eliminated due the original design of the dataset. Given that $R \\wedge A \\ \\to \\ \\neg C .$ we can produce adversarial examples by negating the claim and inverting the label for each data point (Figure 4). The adversarial examples are then combined with the original data. This eliminates the problem by mirroring the distributions of cues around both labels. The ARCT authors provide a training set augmented in this way. The negation of most claims in the validation and test sets already exist elsewhere in the dataset. The remaining claims were manually negated by a native English speaker.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "6 Adversarial Test Set"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 6 Adversarial Test Set\n\nThe major problem of statistical cues over labels in ARCT can be eliminated due the original design of the dataset. Given that $R \\wedge A \\ \\to \\ \\neg C .$ we can produce adversarial examples by negating the claim and inverting the label for each data point (Figure 4). The adversarial examples are then combined with the original data. This eliminates the problem by mirroring the distributions of cues around both labels. The ARCT authors provide a training set augmented in this way. The negation of most claims in the validation and test sets already exist elsewhere in the dataset. The remaining claims were manually negated by a native English speaker."
+    },
+    {
+      "chunk_id": "page-3-chunk-4",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "6 Adversarial Test Set",
+      "nearest_asset_above": "tables/table_pg3_num1.csv",
+      "nearest_asset_below": null,
+      "text": "We tried two experimental setups. In the first, models trained and validated on the original data were evaluated on the adversarial set. All results were worse than random due to overfitting the cues in the original training set. In the second, models were trained from scratch on the adversarial training and validation sets, then evaluated on the adversarial test set. Results are given in Table 4. BERT’s peak performance has reduced to 53%, with mean and median at 50%. We conclude from these results that the adversarial dataset has successfully eliminated the cues as expected, providing a more robust evaluation of machine argument comprehension. This result better apts with our intuitions about this task: with little to no understanding about the reality underlying these arguments, good performance shouldn’t be feasible.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "We tried two experimental setups. In the first, models trained and validated on the original data were evaluated on the adversarial set. All results were worse than random due to overfitting the cues in the original training set. In the second, models were trained from scratch on the adversarial training and validation sets, then evaluated on the adversarial test set. Results are given in Table 4. BERT’s peak performance has reduced to 53%, with mean and median at 50%. We conclude from these results that the adversarial dataset has successfully eliminated the cues as expected, providing a more robust evaluation of machine argument comprehension. This result better apts with our intuitions about this task: with little to no understanding about the reality underlying these arguments, good performance shouldn’t be feasible."
+    },
+    {
+      "chunk_id": "page-4-chunk-0",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": "tables/table_pg4_num1.csv",
+      "text": "Figure 4: Original and adversarial data points. The claim is negated and the warrants are swapped. The assignment of labels to W and A are kept the same. By including both, the distribution of linguistic artifacts in the warrants are thereby mirrored around the labels, eliminating the major source of spurious statistical cues in ARCT.\n![](tables/table_pg4_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg4_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg4_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg4_num0.csv: Table columns: Claim, Original, Adversarial Row labels: Reason, Warrant, Alternative Reason: Original=People can choose not to use Google; Adversarial=People can choose not to use Google Warrant: Original=Other search engines do not redirect to Google; Adversarial=All other search engines redirect to Google Alternative: Original=All other search engines redirect to Google; Adversarial=Other search engines do not redirect to Google",
+      "retrieval_text": "Figure 4: Original and adversarial data points. The claim is negated and the warrants are swapped. The assignment of labels to W and A are kept the same. By including both, the distribution of linguistic artifacts in the warrants are thereby mirrored around the labels, eliminating the major source of spurious statistical cues in ARCT.\n![](tables/table_pg4_num0.csv)\n\nTable context: table_pg4_num0.csv: Table columns: Claim, Original, Adversarial Row labels: Reason, Warrant, Alternative Reason: Original=People can choose not to use Google; Adversarial=People can choose not to use Google Warrant: Original=Other search engines do not redirect to Google; Adversarial=All other search engines redirect to Google Alternative: Original=All other search engines redirect to Google; Adversarial=Other search engines do not redirect to Google"
+    },
+    {
+      "chunk_id": "page-4-chunk-1",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "7 Related Work",
+      "nearest_asset_above": "tables/table_pg4_num0.csv",
+      "nearest_asset_below": "tables/table_pg4_num1.csv",
+      "text": "## 7 Related Work\n\nThe most successful previous work on ARCT (Choi and Lee, 2018; Zhao et al., 2018; Niven and Kao, 2018) involved transfer learning from Natural Language Inference (NLI) datasets (Bowman et al., 2015; Williams et al., 2017), and utilized effective NLI models such as ESIM (Chen et al., 2016) and InferSent (Conneau et al., 2017). More recently, Botschen et al. (2018) added FrameNet knowledge with modest performance gains. These models should be evaluated on our adversarial dataset. In particular it will be interesting if Botschen et al.’s model stands out due to the inclusion of some of the required world knowledge.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "7 Related Work"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 7 Related Work\n\nThe most successful previous work on ARCT (Choi and Lee, 2018; Zhao et al., 2018; Niven and Kao, 2018) involved transfer learning from Natural Language Inference (NLI) datasets (Bowman et al., 2015; Williams et al., 2017), and utilized effective NLI models such as ESIM (Chen et al., 2016) and InferSent (Conneau et al., 2017). More recently, Botschen et al. (2018) added FrameNet knowledge with modest performance gains. These models should be evaluated on our adversarial dataset. In particular it will be interesting if Botschen et al.’s model stands out due to the inclusion of some of the required world knowledge."
+    },
+    {
+      "chunk_id": "page-4-chunk-2",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "7 Related Work",
+      "nearest_asset_above": "tables/table_pg4_num0.csv",
+      "nearest_asset_below": "tables/table_pg4_num1.csv",
+      "text": "There is much recent work focusing on statistical cues in datasets in vision (Jo and Bengio, 2017) and NLP (Sanchez et al., 2018; McCoy et al., 2019; Gururangan et al., 2018; Glockner et al., 2018; Poliak et al., 2018; Rajpurkar et al., 2018; Jia and Liang, 2017). Similar to our experiment with warrants, Poliak et al. (2018) classified NLI data based on the hypothesis only. A similar experiment to our probing task was performed by Niven and Kao (2018), but only with reasons and warrants. They found that independent warrant classification with shared parameters provides some regularization against warrant-label cues (Niven and Kao, 2018). However, this does not solve the problem since the presence of a cue is enough to increase the logits for either warrant.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "There is much recent work focusing on statistical cues in datasets in vision (Jo and Bengio, 2017) and NLP (Sanchez et al., 2018; McCoy et al., 2019; Gururangan et al., 2018; Glockner et al., 2018; Poliak et al., 2018; Rajpurkar et al., 2018; Jia and Liang, 2017). Similar to our experiment with warrants, Poliak et al. (2018) classified NLI data based on the hypothesis only. A similar experiment to our probing task was performed by Niven and Kao (2018), but only with reasons and warrants. They found that independent warrant classification with shared parameters provides some regularization against warrant-label cues (Niven and Kao, 2018). However, this does not solve the problem since the presence of a cue is enough to increase the logits for either warrant."
+    },
+    {
+      "chunk_id": "page-4-chunk-3",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "7 Related Work",
+      "nearest_asset_above": "tables/table_pg4_num0.csv",
+      "nearest_asset_below": null,
+      "text": "The original ARCT data comes with a training set created in the same way as our adversarial dataset. Habernal et al. (2018a) reported experiments using this training data that led to random accuracy. They suggested it could be that high similarity between the data points made the problem too difficult for the simple models they implemented. Our work indicates the necessity of applying this transformation to the entire dataset in order to obtain a more robust evaluation by eliminating spurious statistical cues over the labels.\n\nTable 4: Results for BERT Large on the adversarial test set with adversarial training and validation sets.\n![](tables/table_pg4_num1.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg4_num1.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg4_num1.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg4_num1.csv: Table columns: Test, Mean, Median, Max Row labels: BERT, BERT (W), BERT (R, W), BERT (C, W) BERT: Mean=0.504 ± 0.01; Median=0.505; Max=0.533 BERT (W): Mean=0.501 ± 0.00; Median=0.501; Max=0.502 BERT (R, W): Mean=0.500 ± 0.00; Median=0.500,0.502 BERT (C, W): Mean=0.501 ± 0.01; Median=0.500,0.518",
+      "retrieval_text": "The original ARCT data comes with a training set created in the same way as our adversarial dataset. Habernal et al. (2018a) reported experiments using this training data that led to random accuracy. They suggested it could be that high similarity between the data points made the problem too difficult for the simple models they implemented. Our work indicates the necessity of applying this transformation to the entire dataset in order to obtain a more robust evaluation by eliminating spurious statistical cues over the labels.\n\nTable 4: Results for BERT Large on the adversarial test set with adversarial training and validation sets.\n![](tables/table_pg4_num1.csv)\n\nTable context: table_pg4_num1.csv: Table columns: Test, Mean, Median, Max Row labels: BERT, BERT (W), BERT (R, W), BERT (C, W) BERT: Mean=0.504 ± 0.01; Median=0.505; Max=0.533 BERT (W): Mean=0.501 ± 0.00; Median=0.501; Max=0.502 BERT (R, W): Mean=0.500 ± 0.00; Median=0.500,0.502 BERT (C, W): Mean=0.501 ± 0.01; Median=0.500,0.518"
+    },
+    {
+      "chunk_id": "page-4-chunk-4",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "8 Conclusion",
+      "nearest_asset_above": "tables/table_pg4_num1.csv",
+      "nearest_asset_below": null,
+      "text": "## 8 Conclusion\n\nARCT provides a fortuitous opportunity to see how stark the problem of exploiting spurious statistics can be. Due to our ability to eliminate the major source of these cues, we were able to show that BERT’s maximum performance fell from just three points below the average untrained human baseline to essentially random. To answer our question in the introduction: BERT has learned nothing about argument comprehension.\n\nHowever, our investigations confirmed that BERT is indeed a very strong learner. Analysis of easy to classify data points showed reliance on a lower proportion of the strongest cue word than the BoV and BiLSTM - i.e. BERT has learned when to ignore the presence of “not” and focus on different cues. This indicates an ability to exploit much more subtle joint distributional information. As our learners get stronger, controlling for spurious statistics becomes more important in order to have confidence in their apparent performance. Taken with a growing body of previous work, our results indicate the need for further research into the extent of this problem in NLP more generally.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "8 Conclusion"
+      ],
+      "table_context": "",
+      "retrieval_text": "## 8 Conclusion\n\nARCT provides a fortuitous opportunity to see how stark the problem of exploiting spurious statistics can be. Due to our ability to eliminate the major source of these cues, we were able to show that BERT’s maximum performance fell from just three points below the average untrained human baseline to essentially random. To answer our question in the introduction: BERT has learned nothing about argument comprehension.\n\nHowever, our investigations confirmed that BERT is indeed a very strong learner. Analysis of easy to classify data points showed reliance on a lower proportion of the strongest cue word than the BoV and BiLSTM - i.e. BERT has learned when to ignore the presence of “not” and focus on different cues. This indicates an ability to exploit much more subtle joint distributional information. As our learners get stronger, controlling for spurious statistics becomes more important in order to have confidence in their apparent performance. Taken with a growing body of previous work, our results indicate the need for further research into the extent of this problem in NLP more generally."
+    },
+    {
+      "chunk_id": "page-4-chunk-5",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "8 Conclusion",
+      "nearest_asset_above": "tables/table_pg4_num1.csv",
+      "nearest_asset_below": null,
+      "text": "The adversarial dataset should be adopted as the standard in future work on ARCT. We hope that providing a more robust evaluation will help to spur more productive research on this problem.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The adversarial dataset should be adopted as the standard in future work on ARCT. We hope that providing a more robust evaluation will help to spur more productive research on this problem."
+    },
+    {
+      "chunk_id": "page-4-chunk-6",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Acknowledgments",
+      "nearest_asset_above": "tables/table_pg4_num1.csv",
+      "nearest_asset_below": null,
+      "text": "## Acknowledgments\n\nWe would like to thank Ivan Habernal, and the reviewers, for their helpful comments.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Acknowledgments"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Acknowledgments\n\nWe would like to thank Ivan Habernal, and the reviewers, for their helpful comments."
+    },
+    {
+      "chunk_id": "page-5-chunk-0",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "References",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## References",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "References"
+      ],
+      "table_context": "",
+      "retrieval_text": "## References"
+    },
+    {
+      "chunk_id": "page-5-chunk-1",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "References",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "- Elizabeth Black and Anthony Hunter. 2012. A relevance-theoretic framework for constructing and deconstructing enthymemes. J. Log. Comput., 22:55–78.\n- Teresa Botschen, Daniil Sorokin, and Iryna Gurevych. 2018. Frame- and entity-based knowledge for common-sense argumentative reasoning. In ArgMining@EMNLP.\n- Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. 2015. A large annotated corpus for learning natural language inference. CoRR, abs/1508.05326.\n- Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, and Hui Jiang. 2016. Enhancing and combining sequential and tree LSTM for natural language inference. CoRR, abs/1609.06038.\n- HongSeok Choi and Hyunju Lee. 2018. Gist at semeval-2018 task 12: A network transferring inference knowledge to argument reasoning comprehension task. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 773–777. Association for Computational Linguistics.\n- Alexis Conneau, Douwe Kiela, Holger Schwenk, Lo¨ıc Barrault, and Antoine Bordes. 2017. Supervised learning of universal sentence representations from natural language inference data. CoRR, abs/1705.02364.\n- Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT: pre-training of deep bidirectional transformers for language understanding. CoRR, abs/1810.04805.\n- Max Glockner, Vered Shwartz, and Yoav Goldberg. 2018. Breaking NLI systems with sentences that require simple lexical inferences. CoRR, abs/1805.02266.\n- Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel R. Bowman, and Noah A. Smith. 2018. Annotation artifacts in natural language inference data. CoRR, abs/1803.02324.\n- Ivan Habernal, Judith Eckle-Kohler, and Iryna Gurevych. 2014. Argumentation mining on the web from information seeking perspective. In ArgNLP.\n- Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. 2018a. The argument reasoning comprehension task: Identification and reconstruction of implicit warrants. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 1930–1940, New Orleans, Louisiana. Association for Computational Linguistics.\n- Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. 2018b. Semeval-2018 task 12:\n- The argument reasoning comprehension task. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 763–772. Association for Computational Linguistics.\n- Sepp Hochreiter and Jurgen Schmidhuber. 1997. ¨ Long short-term memory. Neural computation, 9(8):1735–1780.\n- Robin Jia and Percy Liang. 2017. Adversarial examples for evaluating reading comprehension systems. CoRR, abs/1707.07328.\n- Jason Jo and Yoshua Bengio. 2017. Measuring the tendency of cnns to learn surface statistical regularities. CoRR, abs/1711.11561.\n- Diederik P. Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. CoRR, abs/1412.6980.\n- Marco Lippi and Paolo Torroni. 2016. Argumentation mining: State of the art and emerging trends. ACM Trans. Internet Technol., 16(2):10:1–10:25.\n- R. Thomas McCoy, Ellie Pavlick, and Tal Linzen. 2019. Right for the wrong reasons: Diagnosing syntactic heuristics in natural language inference. CoRR, abs/1902.01007.\n- Raquel Mochales and Marie-Francine Moens. 2011. Argumentation mining. Artif. Intell. Law, 19(1):1– 22.\n- Timothy Niven and Hung-Yu Kao. 2018. NLITrans at SemEval-2018 task 12: Transfer of semantic knowledge for argument comprehension. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 1099–1103, New Orleans, Louisiana. Association for Computational Linguistics.\n- Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. Glove: Global vectors for word representation. In Empirical Methods in Natural Language Processing (EMNLP), pages 1532– 1543.\n- Adam Poliak, Jason Naradowsky, Aparajita Haldar, Rachel Rudinger, and Benjamin Van Durme. 2018. Hypothesis only baselines in natural language inference. CoRR, abs/1805.01042.\n- Pranav Rajpurkar, Robin Jia, and Percy Liang. 2018. Know what you don’t know: Unanswerable questions for squad. CoRR, abs/1806.03822.\n- Ivan Sanchez, Jeff Mitchell, and Sebastian Riedel. 2018. Behavior analysis of NLI models: Uncovering the influence of three factors on robustness. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 1975–1985, New Orleans, Louisiana. Association for Computational Linguistics.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "- Elizabeth Black and Anthony Hunter. 2012. A relevance-theoretic framework for constructing and deconstructing enthymemes. J. Log. Comput., 22:55–78.\n- Teresa Botschen, Daniil Sorokin, and Iryna Gurevych. 2018. Frame- and entity-based knowledge for common-sense argumentative reasoning. In ArgMining@EMNLP.\n- Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. 2015. A large annotated corpus for learning natural language inference. CoRR, abs/1508.05326.\n- Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, and Hui Jiang. 2016. Enhancing and combining sequential and tree LSTM for natural language inference. CoRR, abs/1609.06038.\n- HongSeok Choi and Hyunju Lee. 2018. Gist at semeval-2018 task 12: A network transferring inference knowledge to argument reasoning comprehension task. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 773–777. Association for Computational Linguistics.\n- Alexis Conneau, Douwe Kiela, Holger Schwenk, Lo¨ıc Barrault, and Antoine Bordes. 2017. Supervised learning of universal sentence representations from natural language inference data. CoRR, abs/1705.02364.\n- Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT: pre-training of deep bidirectional transformers for language understanding. CoRR, abs/1810.04805.\n- Max Glockner, Vered Shwartz, and Yoav Goldberg. 2018. Breaking NLI systems with sentences that require simple lexical inferences. CoRR, abs/1805.02266.\n- Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel R. Bowman, and Noah A. Smith. 2018. Annotation artifacts in natural language inference data. CoRR, abs/1803.02324.\n- Ivan Habernal, Judith Eckle-Kohler, and Iryna Gurevych. 2014. Argumentation mining on the web from information seeking perspective. In ArgNLP.\n- Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. 2018a. The argument reasoning comprehension task: Identification and reconstruction of implicit warrants. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 1930–1940, New Orleans, Louisiana. Association for Computational Linguistics.\n- Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. 2018b. Semeval-2018 task 12:\n- The argument reasoning comprehension task. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 763–772. Association for Computational Linguistics.\n- Sepp Hochreiter and Jurgen Schmidhuber. 1997. ¨ Long short-term memory. Neural computation, 9(8):1735–1780.\n- Robin Jia and Percy Liang. 2017. Adversarial examples for evaluating reading comprehension systems. CoRR, abs/1707.07328.\n- Jason Jo and Yoshua Bengio. 2017. Measuring the tendency of cnns to learn surface statistical regularities. CoRR, abs/1711.11561.\n- Diederik P. Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. CoRR, abs/1412.6980.\n- Marco Lippi and Paolo Torroni. 2016. Argumentation mining: State of the art and emerging trends. ACM Trans. Internet Technol., 16(2):10:1–10:25.\n- R. Thomas McCoy, Ellie Pavlick, and Tal Linzen. 2019. Right for the wrong reasons: Diagnosing syntactic heuristics in natural language inference. CoRR, abs/1902.01007.\n- Raquel Mochales and Marie-Francine Moens. 2011. Argumentation mining. Artif. Intell. Law, 19(1):1– 22.\n- Timothy Niven and Hung-Yu Kao. 2018. NLITrans at SemEval-2018 task 12: Transfer of semantic knowledge for argument comprehension. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 1099–1103, New Orleans, Louisiana. Association for Computational Linguistics.\n- Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. Glove: Global vectors for word representation. In Empirical Methods in Natural Language Processing (EMNLP), pages 1532– 1543.\n- Adam Poliak, Jason Naradowsky, Aparajita Haldar, Rachel Rudinger, and Benjamin Van Durme. 2018. Hypothesis only baselines in natural language inference. CoRR, abs/1805.01042.\n- Pranav Rajpurkar, Robin Jia, and Percy Liang. 2018. Know what you don’t know: Unanswerable questions for squad. CoRR, abs/1806.03822.\n- Ivan Sanchez, Jeff Mitchell, and Sebastian Riedel. 2018. Behavior analysis of NLI models: Uncovering the influence of three factors on robustness. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 1975–1985, New Orleans, Louisiana. Association for Computational Linguistics."
+    },
+    {
+      "chunk_id": "page-6-chunk-0",
+      "page_id": 6,
+      "page_number": 6,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "- Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15:1929–1958.\n- Stephen E. Toulmin. 1958. The Uses of Argument. Cambridge University Press.\n- Douglas N. Walton. 2005. Informal logic: a handbook of critical argumentation. Cambridge University Press.\n- Adina Williams, Nikita Nangia, and Samuel R. Bowman. 2017. A broad-coverage challenge corpus for sentence understanding through inference. CoRR, abs/1704.05426.\n- Meiqian Zhao, Chunhua Liu, Lu Liu, Yan Zhao, and Dong Yu. 2018. Blcu nlp at semeval-2018 task 12: An ensemble model for argument reasoning based on hierarchical attention. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 1104–1108. Association for Computational Linguistics.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "- Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15:1929–1958.\n- Stephen E. Toulmin. 1958. The Uses of Argument. Cambridge University Press.\n- Douglas N. Walton. 2005. Informal logic: a handbook of critical argumentation. Cambridge University Press.\n- Adina Williams, Nikita Nangia, and Samuel R. Bowman. 2017. A broad-coverage challenge corpus for sentence understanding through inference. CoRR, abs/1704.05426.\n- Meiqian Zhao, Chunhua Liu, Lu Liu, Yan Zhao, and Dong Yu. 2018. Blcu nlp at semeval-2018 task 12: An ensemble model for argument reasoning based on hierarchical attention. In Proceedings of The 12th International Workshop on Semantic Evaluation, pages 1104–1108. Association for Computational Linguistics."
+    }
+  ],
+  "layouts": [
+    {
+      "layout_id": "page-0:text-1",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.074,
+        0.115,
+        0.097,
+        0.885
+      ],
+      "text": "Probing Neural Network Comprehension of Natural Language Arguments",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-2",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.105,
+        0.356,
+        0.124,
+        0.65
+      ],
+      "text": "Timothy Niven and Hung-Yu Kao",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-3",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.136,
+        0.336,
+        0.153,
+        0.67
+      ],
+      "text": "Intelligent Knowledge Management Lab",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-4",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.154,
+        0.25,
+        0.171,
+        0.764
+      ],
+      "text": "Department of Computer Science and Information Engineering",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-5",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.171,
+        0.368,
+        0.187,
+        0.643
+      ],
+      "text": "National Cheng Kung University",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-6",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.187,
+        0.44,
+        0.203,
+        0.571
+      ],
+      "text": "Tainan, Taiwan",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-7",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.204,
+        0.208,
+        0.219,
+        0.805
+      ],
+      "text": "tim.niven.public@gmail.com, hykao@mail.ncku.edu.tw",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-8",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.242,
+        0.262,
+        0.259,
+        0.344
+      ],
+      "text": "Abstract",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-9",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.273,
+        0.142,
+        0.488,
+        0.462
+      ],
+      "text": "We are surprised to find that BERT’s peak performance of 77% on the Argument Reasoning Comprehension Task reaches just three points below the average untrained human baseline. However, we show that this result is entirely accounted for by exploitation of spurious statistical cues in the dataset. We analyze the nature of these cues and demonstrate that a range of models all exploit them. This analysis informs the construction of an adversarial dataset on which all models achieve random accuracy. Our adversarial dataset provides a more robust assessment of argument comprehension and should be adopted as the standard in future work.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-10",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.504,
+        0.117,
+        0.52,
+        0.262
+      ],
+      "text": "1 Introduction",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-11",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.531,
+        0.114,
+        0.693,
+        0.49
+      ],
+      "text": "Argumentation mining is the task of determining argumentative structure in natural language text - e.g., which text segments represent claims, and which comprise reasons that support or attack those claims (Mochales and Moens, 2011; Lippi and Torroni, 2016). This is a challenging task for machine learners, as it can be hard even for humans to determine when two text segments stand in argumentative relation, as evidenced by studies on argument annotation (Habernal et al., 2014).",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-12",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.693,
+        0.114,
+        0.888,
+        0.49
+      ],
+      "text": "One approach to this problem is to focus on warrants (Toulmin, 1958) - a form of world knowledge that permit inferences. Consider a simple argument: “(1) It is raining; therefore (2) you should take an umbrella.”1 The warrant “(3) it is bad to get wet” could license this inference. Knowing (3) facilitates drawing the inferential connection between (1) and (2). However it would be hard to find it stated anywhere since warrants are most often left implicit (Walton, 2005). Thus, on this approach, machine learners must not only reason with warrants but also discover them.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-13",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.338,
+        0.51,
+        0.382,
+        0.885
+      ],
+      "text": "Figure 1: An example of a data point from the ARCT test set and how it should be read. The inference from R and A to ¬C is by design.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-14",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.41,
+        0.509,
+        0.602,
+        0.887
+      ],
+      "text": "The Argument Reasoning Comprehension Task (ARCT) (Habernal et al., 2018a) defers the problem of discovering warrants and focuses on inference. An argument is provided, comprising a claim C and reason R. This task is to pick the correct warrant W over a distractor, called the alternative warrant A. The alternative is written such that $R \\wedge A \\  \\ \\neg C$ An alternative warrant for our earlier example could be “(4) it is good to get wet,” in which case we have $( 1 ) \\wedge ( 4 ) \\to { } ^ { \\bullet } ( \\neg 2 )$ you shouldn’t take an umbrella.” An example from the dataset is given in Figure 1.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-15",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.604,
+        0.509,
+        0.781,
+        0.887
+      ],
+      "text": "The ARCT SemEval shared task (Habernal et al., 2018b) verified the challenging nature of this problem. Even supplying warrants, learners still need to rely on further world knowledge. For example, to correctly classify the data point in Figure 1 it is at least required to know how consumer choice and web re-directs relate to the concept of monopoly, and that Google is a search engine. All but one participating system in the shared task could not exceed 60% accuracy (on binary classification).",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-16",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.782,
+        0.509,
+        0.91,
+        0.887
+      ],
+      "text": "It is therefore surprising that BERT (Devlin et al., 2018) achieves 77% test set accuracy with its best run (Table 1), only three points below the average (untrained) human baseline. Without supplying the required world knowledge for this task it does not seem reasonable to expect it to perform so well. This motivates the question: what has BERT learned about argument comprehension?",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:table-1",
+      "page_id": 1,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_1_Table_0.jpg",
+      "bbox_norm": [
+        0.07,
+        0.205,
+        0.195,
+        0.798
+      ],
+      "text": "Table 1: Baselines and BERT results. Our results come from 20 different random seeds (± gives the standard deviation). The mean for BERT Large is skewed by the $5 / 2 0$ random seeds for which it failed to train, a problem noted by Devlin et al. (2018). We therefore consider the median a better measure of BERT’s average performance. The mean of the non-degenerate runs for BERT (Large) is $0 . 7 1 6 \\pm 0 . 0 4$",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-1:figure-2",
+      "page_id": 1,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_1_Figure_0.jpg",
+      "bbox_norm": [
+        0.29,
+        0.147,
+        0.444,
+        0.457
+      ],
+      "text": "Figure 2: General architecture of the models in our experiments. Logits are independently calculated for each argument-warrant pair then concatenated and passed through softmax.",
+      "source_type": "image"
+    },
+    {
+      "layout_id": "page-1:text-3",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.539,
+        0.114,
+        0.717,
+        0.49
+      ],
+      "text": "To investigate BERT’s decision making we looked at data points it finds easy to classify over multiple runs. Habernal et al. (2018b) performed a similar analysis with the SemEval submissions, and consistent with their results we found that BERT exploits the presence of cue words in the warrant, especially “not.” Through probing experiments designed to isolate such effects, we demonstrate in this work that BERT’s surprising performance can be entirely accounted for in terms of exploiting spurious statistical cues.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-4",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.718,
+        0.114,
+        0.912,
+        0.492
+      ],
+      "text": "However, we show that the major problem can be eliminated in ARCT. Since R $\\wedge A  \\neg C$ , we can add a copy of each data point with the claim negated and the label inverted. This means that the distribution of statistical cues in the warrants will be mirrored over both labels, eliminating the signal. On this adversarial dataset all models perform randomly, with BERT achieving a maximum test set accuracy of 53%. The adversarial dataset therefore provides a more robust evaluation of argument comprehension and should be adopted as the standard in future work on this dataset.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-5",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.292,
+        0.51,
+        0.309,
+        0.816
+      ],
+      "text": "2 Task Description and Baselines",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-6",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.318,
+        0.509,
+        0.451,
+        0.885
+      ],
+      "text": "Let $i = 1 , \\ldots , n$ index each point in the dataset D, where $| \\mathcal { D } | = n$ . The two candidate warrants in each case are randomly assigned a binary label $j \\in \\{ 0 , 1 \\}$ , such that each has an equal probability of being correct. The inputs are the representations for the claim $\\mathbf { c } ^ { ( i ) }$ , reason $\\mathbf { r } ^ { ( i ) }$ , warrant zero $\\mathbf { w } _ { 0 } ^ { ( i ) }$ ， and warrant one $\\mathbf { w } _ { 1 } ^ { ( i ) }$ . The label $\\boldsymbol y ^ { ( i ) }$ is a binary indicator corresponding to the correct warrant.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-7",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.453,
+        0.509,
+        0.518,
+        0.885
+      ],
+      "text": "The general architecture for all models is given in Figure 2. Shared parameters θ are learned to classify each warrant independently with the argument, yielding the logits:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:equation-8",
+      "page_id": 1,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_1_Equation_0.jpg",
+      "bbox_norm": [
+        0.527,
+        0.608,
+        0.551,
+        0.788
+      ],
+      "text": "$$\nz _ { j } ^ { ( i ) } = \\pmb { \\theta } [ c ^ { ( i ) } ; \\pmb { r } ^ { ( i ) } ; \\pmb { w } _ { j } ^ { ( i ) } ]\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-1:text-9",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.562,
+        0.509,
+        0.63,
+        0.885
+      ],
+      "text": "These are then concatenated and passed through softmax to determine a probability distribution over the two warrants $\\mathbf { p } ^ { ( i ) }$ = softmax $( [ z _ { 0 } ^ { ( i ) } , z _ { 1 } ^ { ( i ) } ] )$ The prediction is then $\\hat { y } ^ { ( i ) }$ = arg maxj $\\mathbf { p } ^ { ( i ) }$",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-10",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.629,
+        0.509,
+        0.888,
+        0.887
+      ],
+      "text": "The baselines are a bag of vectors (BoV), bidirectional LSTM (Hochreiter and Schmidhuber, 1997) (BiLSTM), the SemEval winner GIST (Choi and Lee, 2018), the best model of Botschen et al. (2018), and human performance (Table 1). For all of our experiments we use grid search to select hyperparameters, dropout regularization (Srivastava et al., 2014), and Adam (Kingma and Ba, 2014) for optimization. We anneal the learning rate by $1 / 1 0$ when validation accuracy drops. The final parameters come from the epoch with maximum validation accuracy. The BoV and BiLSTM inputs are 300-dimensional GloVe embeddings trained on 640B tokens (Pennington et al., 2014). Code to reproduce all experiments, and detailing all hyperparameters, is provided on GitHub.2",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:figure-1",
+      "page_id": 2,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_2_Figure_0.jpg",
+      "bbox_norm": [
+        0.076,
+        0.193,
+        0.322,
+        0.81
+      ],
+      "text": "Figure 3: Processing an argument-warrant pair with BERT. The reason (with word pieces of length a) and claim (length b) together form the first utterance, and the warrant (length c) is the second. The final CLS vector is then passed to a linear layer to calculate the logit $z _ { j } ^ { ( i ) }$",
+      "source_type": "image"
+    },
+    {
+      "layout_id": "page-2:text-2",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.414,
+        0.115,
+        0.43,
+        0.208
+      ],
+      "text": "3 BERT",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-3",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.441,
+        0.114,
+        0.604,
+        0.49
+      ],
+      "text": "Our BERT classifier is visualized in Figure 3. The claim and reason are joined to form the first text segment, which is paired with each warrant and independently processed. The final layer CLS vector is passed to a linear layer to obtain the logits $z _ { j } ^ { ( i ) }$ The whole architecture is fine-tuned. The learning rate is $2 e ^ { - 5 }$ and we allow a maximum of 20 training epochs, taking the parameters from the epoch with the best validation set accuracy. We use the Hugging Face PyTorch implementation.3",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-4",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.605,
+        0.114,
+        0.878,
+        0.492
+      ],
+      "text": "Devlin et al. (2018) report that, on small datasets, BERT sometimes fails to train, yielding degenerate results. ARCT is very small with 1, 210 training observations. In 5/20 runs we encountered this phenomenon, seeing close to random accuracies on validation and test sets. These cases occurred where training accuracy was also not significantly above random (< 80%). Removing the degenerate runs, BERT’s mean is 71.6 ± 0.04., which would beat the previous state of the art - as would the median of 71.2%, which is a better average than the overall mean since it is not skewed by the degenerate cases. However, our main finding is that these results are not meaningful and should be discarded. In the following sections we focus on BERT’s peak performance of 77% to make this case.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-5",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.414,
+        0.51,
+        0.43,
+        0.68
+      ],
+      "text": "4 Statistical Cues",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-6",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.441,
+        0.509,
+        0.601,
+        0.887
+      ],
+      "text": "The major source of spurious statistical cues in ARCT comes from uneven distributions of linguistic artifacts over the warrants, and therefore over the labels. This section aims to demonstrate the presence and nature of these cues. We only consider unigrams and bigrams, although more sophisticated cues may be present. To this end, we aim to calculate how beneficial it is for a model to exploit a cue $k ,$ and how pervasive it is in the dataset (indicating the strength of the signal).",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-7",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.602,
+        0.509,
+        0.668,
+        0.885
+      ],
+      "text": "Formally, let $\\mathbb { T } _ { j } ^ { ( i ) }$ be the set of tokens in the warrant for data point i with label $j .$ We define a cue’s applicability $\\alpha _ { k }$ as the number of data points where it occurs with one label but not the other:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:equation-8",
+      "page_id": 2,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_2_Equation_0.jpg",
+      "bbox_norm": [
+        0.675,
+        0.556,
+        0.717,
+        0.835
+      ],
+      "text": "$$\n\\alpha _ { k } = \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\right]\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-2:text-9",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.724,
+        0.509,
+        0.772,
+        0.885
+      ],
+      "text": "The productivity $\\pi _ { k }$ of a cue is defined as the proportion of applicable data points for which it predicts the correct answer:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:equation-10",
+      "page_id": 2,
+      "layout_type": "equation",
+      "asset_ref": "assets/_page_2_Equation_1.jpg",
+      "bbox_norm": [
+        0.778,
+        0.514,
+        0.822,
+        0.877
+      ],
+      "text": "$$\n\\pi _ { k } = \\frac { \\sum _ { i = 1 } ^ { n } \\mathbb { 1 } \\left[ \\exists j , k \\in \\mathbb { T } _ { j } ^ { ( i ) } \\land k \\notin \\mathbb { T } _ { \\lnot j } ^ { ( i ) } \\land y _ { i } = j \\right] } { \\alpha _ { k } }\n$$",
+      "source_type": "equation"
+    },
+    {
+      "layout_id": "page-2:text-11",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.831,
+        0.509,
+        0.912,
+        0.887
+      ],
+      "text": "Finally, we define the coverage $\\xi _ { k }$ of a cue as the proportion of applicable cases over the total number of data points: $\\xi _ { k } ~ = ~ \\alpha _ { k } / n$ . In these terms, the productivity of a cue measures the benefit of exploiting it, while coverage measures the strength of the signal it provides. With m labels, if $\\pi _ { k } > 1 / m$ then the presence of a cue is going to be useful for the task and a machine learner would do well to make use of it.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:table-1",
+      "page_id": 3,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_3_Table_0.jpg",
+      "bbox_norm": [
+        0.071,
+        0.168,
+        0.135,
+        0.438
+      ],
+      "text": "Table 2: Productivity and coverage of using the presence of “not” in the warrant to predict the label in ARCT. Across the whole dataset, if you pick the warrant with “not” you will be right 61% of the time, which covers 64% of all data points.",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-3:text-3",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.317,
+        0.114,
+        0.527,
+        0.492
+      ],
+      "text": "The productivity and coverage of the strongest unigram cue we found (“not”) is given in Table 2. It provides a particularly strong training signal. While it is less productive in the test set, it is just one among many such cues. We found a range of other unigrams, albeit with less overall productivity, mostly being high frequency words such as “is,” “do,” and “are.” Bigrams that occurred with not, such as “will not” and “cannot,” were also found to be highly productive. These statistics indicate the nature of the problem. In the next section we demonstrate that our models are in fact exploiting these cues.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-4",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.542,
+        0.115,
+        0.558,
+        0.336
+      ],
+      "text": "5 Probing Experiments",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-5",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.57,
+        0.114,
+        0.747,
+        0.49
+      ],
+      "text": "If a model is exploiting distributional cues over the labels, then if trained only on the warrants (W) it should perform relatively well. The same can be said for removing either just the claim, leaving the reason and warrant (R, W), or removing the reason (C, W). The latter setups allow the models to additionally consider cues in the reasons and claims, as well as cues holding over their combinations with the warrants. Each of these setups breaks the task since we no longer have an argument to match with a warrant.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-6",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.749,
+        0.114,
+        0.912,
+        0.492
+      ],
+      "text": "Experimental results are given in Table 3. On warrants alone (W) BERT achieves a maximum 71% accuracy. That leaves only six percentage points to account for its peak of 77%. We find a gain of four percentage points for (R, W) over (W), and a gain of two for (C, W), accounting for the missing six points. Based on this evidence our major finding is that the entirety of BERT’s performance can be accounted for in terms of exploiting spurious statistical cues.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:table-7",
+      "page_id": 3,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_3_Table_1.jpg",
+      "bbox_norm": [
+        0.071,
+        0.524,
+        0.242,
+        0.872
+      ],
+      "text": "Table 3: Results of probing experiments with BERT Large, and the BoV and BiLSTM baselines. These results indicate that BERT’s peak 77% performance can be entirely accounted for by exploiting spurious cues. By just considering warrants (W) we can get to 71%. Adding cues over reasons (R, W) and claims (C, W) accounts for the remaining six points.",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-3:text-8",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.384,
+        0.51,
+        0.4,
+        0.722
+      ],
+      "text": "6 Adversarial Test Set",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-9",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.411,
+        0.509,
+        0.637,
+        0.887
+      ],
+      "text": "The major problem of statistical cues over labels in ARCT can be eliminated due the original design of the dataset. Given that $R \\wedge A \\ \\to \\ \\neg C .$ we can produce adversarial examples by negating the claim and inverting the label for each data point (Figure 4). The adversarial examples are then combined with the original data. This eliminates the problem by mirroring the distributions of cues around both labels. The ARCT authors provide a training set augmented in this way. The negation of most claims in the validation and test sets already exist elsewhere in the dataset. The remaining claims were manually negated by a native English speaker.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-10",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.637,
+        0.509,
+        0.912,
+        0.887
+      ],
+      "text": "We tried two experimental setups. In the first, models trained and validated on the original data were evaluated on the adversarial set. All results were worse than random due to overfitting the cues in the original training set. In the second, models were trained from scratch on the adversarial training and validation sets, then evaluated on the adversarial test set. Results are given in Table 4. BERT’s peak performance has reduced to 53%, with mean and median at 50%. We conclude from these results that the adversarial dataset has successfully eliminated the cues as expected, providing a more robust evaluation of machine argument comprehension. This result better apts with our intuitions about this task: with little to no understanding about the reality underlying these arguments, good pe",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:table-1",
+      "page_id": 4,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_4_Table_0.jpg",
+      "bbox_norm": [
+        0.071,
+        0.152,
+        0.155,
+        0.85
+      ],
+      "text": "Figure 4: Original and adversarial data points. The claim is negated and the warrants are swapped. The assignment of labels to W and A are kept the same. By including both, the distribution of linguistic artifacts in the warrants are thereby mirrored around the labels, eliminating the major source of spurious statistical cues in ARCT.",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-4:text-2",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.24,
+        0.115,
+        0.256,
+        0.273
+      ],
+      "text": "7 Related Work",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-3",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.266,
+        0.114,
+        0.475,
+        0.492
+      ],
+      "text": "The most successful previous work on ARCT (Choi and Lee, 2018; Zhao et al., 2018; Niven and Kao, 2018) involved transfer learning from Natural Language Inference (NLI) datasets (Bowman et al., 2015; Williams et al., 2017), and utilized effective NLI models such as ESIM (Chen et al., 2016) and InferSent (Conneau et al., 2017). More recently, Botschen et al. (2018) added FrameNet knowledge with modest performance gains. These models should be evaluated on our adversarial dataset. In particular it will be interesting if Botschen et al.’s model stands out due to the inclusion of some of the required world knowledge.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-4",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.476,
+        0.114,
+        0.733,
+        0.49
+      ],
+      "text": "There is much recent work focusing on statistical cues in datasets in vision (Jo and Bengio, 2017) and NLP (Sanchez et al., 2018; McCoy et al., 2019; Gururangan et al., 2018; Glockner et al., 2018; Poliak et al., 2018; Rajpurkar et al., 2018; Jia and Liang, 2017). Similar to our experiment with warrants, Poliak et al. (2018) classified NLI data based on the hypothesis only. A similar experiment to our probing task was performed by Niven and Kao (2018), but only with reasons and warrants. They found that independent warrant classification with shared parameters provides some regularization against warrant-label cues (Niven and Kao, 2018). However, this does not solve the problem since the presence of a cue is enough to increase the logits for either warrant.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-5",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.733,
+        0.114,
+        0.912,
+        0.492
+      ],
+      "text": "The original ARCT data comes with a training set created in the same way as our adversarial dataset. Habernal et al. (2018a) reported experiments using this training data that led to random accuracy. They suggested it could be that high similarity between the data points made the problem too difficult for the simple models they implemented. Our work indicates the necessity of applying this transformation to the entire dataset in order to obtain a more robust evaluation by eliminating spurious statistical cues over the labels.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:table-6",
+      "page_id": 4,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_4_Table_1.jpg",
+      "bbox_norm": [
+        0.237,
+        0.532,
+        0.312,
+        0.863
+      ],
+      "text": "Table 4: Results for BERT Large on the adversarial test set with adversarial training and validation sets.",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-4:text-7",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.381,
+        0.51,
+        0.398,
+        0.645
+      ],
+      "text": "8 Conclusion",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-8",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.407,
+        0.509,
+        0.552,
+        0.887
+      ],
+      "text": "ARCT provides a fortuitous opportunity to see how stark the problem of exploiting spurious statistics can be. Due to our ability to eliminate the major source of these cues, we were able to show that BERT’s maximum performance fell from just three points below the average untrained human baseline to essentially random. To answer our question in the introduction: BERT has learned nothing about argument comprehension.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-9",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.552,
+        0.509,
+        0.777,
+        0.887
+      ],
+      "text": "However, our investigations confirmed that BERT is indeed a very strong learner. Analysis of easy to classify data points showed reliance on a lower proportion of the strongest cue word than the BoV and BiLSTM - i.e. BERT has learned when to ignore the presence of “not” and focus on different cues. This indicates an ability to exploit much more subtle joint distributional information. As our learners get stronger, controlling for spurious statistics becomes more important in order to have confidence in their apparent performance. Taken with a growing body of previous work, our results indicate the need for further research into the extent of this problem in NLP more generally.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-10",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.777,
+        0.509,
+        0.843,
+        0.887
+      ],
+      "text": "The adversarial dataset should be adopted as the standard in future work on ARCT. We hope that providing a more robust evaluation will help to spur more productive research on this problem.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-11",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.853,
+        0.51,
+        0.87,
+        0.675
+      ],
+      "text": "Acknowledgments",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-12",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.878,
+        0.51,
+        0.91,
+        0.885
+      ],
+      "text": "We would like to thank Ivan Habernal, and the reviewers, for their helpful comments.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-1",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.074,
+        0.115,
+        0.09,
+        0.216
+      ],
+      "text": "References",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-2",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.097,
+        0.117,
+        0.149,
+        0.489
+      ],
+      "text": "Elizabeth Black and Anthony Hunter. 2012. A relevance-theoretic framework for constructing and deconstructing enthymemes. J. Log. Comput., 22:55–78. Teresa Botschen, Daniil Sorokin, and Iryna Gurevych. 2018. Frame- and entity-based knowledge for common-sense argumentative reasoning. In ArgMining@EMNLP. Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. 2015. A large annotated corpus for learning natural language inference. CoRR, abs/1508.05326. Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si Wei, and Hui Jiang. 2016. Enhancing and combining sequential and tree LSTM for natural language inference. CoRR, abs/1609.06038. HongSeok Choi and Hyunju Lee. 2018. Gist at semeval-2018 task 12: A network transferring inference knowledge to argument reasoning comprehension task. I",
+      "source_type": "list"
+    },
+    {
+      "layout_id": "page-6:text-1",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.077,
+        0.119,
+        0.142,
+        0.489
+      ],
+      "text": "Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15:1929–1958. Stephen E. Toulmin. 1958. The Uses of Argument. Cambridge University Press. Douglas N. Walton. 2005. Informal logic: a handbook of critical argumentation. Cambridge University Press. Adina Williams, Nikita Nangia, and Samuel R. Bowman. 2017. A broad-coverage challenge corpus for sentence understanding through inference. CoRR, abs/1704.05426. Meiqian Zhao, Chunhua Liu, Lu Liu, Yan Zhao, and Dong Yu. 2018. Blcu nlp at semeval-2018 task 12: An ensemble model for argument reasoning based on hierarchical attention. In Proceedings of The 12th International Workshop on Semantic Ev",
+      "source_type": "list"
+    }
+  ],
+  "stats": {
+    "num_pages": 7,
+    "num_chunks": 30,
+    "num_layouts": 61
+  }
+}

@@ -1,0 +1,1 @@
+<table><tr><td>Net revenues by distribution channel:</td><td></td></tr><tr><td>Digital online channels (1)</td><td>5,479</td></tr><tr><td>$ Retail channels</td><td>1,033</td></tr><tr><td>Other (2)</td><td>505</td></tr><tr><td>Total consolidated net revenues $</td><td>7,017</td></tr></table>

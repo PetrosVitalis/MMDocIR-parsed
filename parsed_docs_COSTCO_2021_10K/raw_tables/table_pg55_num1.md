@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019 619$</td></tr><tr><td>Stock-based compensation expense</td><td>665$</td><td></td><td>595</td></tr><tr><td>Less recognized income tax benefit</td><td>140</td><td>491</td><td>128</td></tr><tr><td> Stock-based compensation expense, net</td><td>525$</td><td></td><td>467</td></tr></table>

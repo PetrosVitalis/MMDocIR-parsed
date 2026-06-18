@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=2>1.Select Reporting PeriodStart Quarter</td></tr><tr><td rowspan=1 colspan=2>FY07-Q4</td></tr><tr><td rowspan=1 colspan=2>End Quarter</td></tr><tr><td rowspan=1 colspan=1>FY07-Q4</td><td rowspan=1 colspan=1></td></tr></table>

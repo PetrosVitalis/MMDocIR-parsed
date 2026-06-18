@@ -1,0 +1,7 @@
+Features,P,R,F
+Baseline,80.44,87.88,89.15
+"Human Feature,+POS",90.61,89.28,89.94
+"Human Feature,+Cap",90.74,90.43,90.58
+"Human Feature,+POS+Cap",90.92,90.27,90.59
+"Auto Feature,+CLSTM",91.22,91.17,91.20
+"Auto Feature,+CCNN",91.66,91.04,91.35

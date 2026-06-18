@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Comparison ModelNumber of single turn promptsNumber of multi-turn prompts</td><td></td></tr><tr><td>ChatGPT</td><td>1917</td><td>2256</td></tr><tr><td>PaLM-chat</td><td>1869</td><td>2143</td></tr><tr><td>Falcon</td><td>1917</td><td>1960</td></tr><tr><td>MPT</td><td>1917</td><td>1293</td></tr><tr><td>Vicuna</td><td>1917</td><td>1390</td></tr></table>

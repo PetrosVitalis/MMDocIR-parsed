@@ -1,0 +1,7 @@
+Benchmark(shots),GPT-3.5,GPT-4,PaLM,PaLM-2-L,LLAMA 2
+MMLU(5-shot),70.0,86.4,69.3,78.3,68.9
+TriviaQA(1-shot),-,1,81.4,86.1,85.0
+Natural Questions(1-shot),-,1,29.3,37.5,33.0
+GSM8K(8-shot),57.1,92.0,56.5,80.7,56.8
+HumanEval(0-shot),48.1,67.0,26.2,-,29.9
+BIG-Bench Hard(3-shot),-,-,52.3,65.7,51.2

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Informal to Formal</td><td>Formal to Informal</td><td></td></tr><tr><td>Train</td><td>Tune Test</td><td>Tune</td><td>Test</td></tr><tr><td>E&amp;M 52,595</td><td>2,877 1,416</td><td>2,356</td><td>1,082</td></tr><tr><td>F&amp;R 51,967</td><td>2,788 1,332</td><td>2,247</td><td>1,019</td></tr></table>

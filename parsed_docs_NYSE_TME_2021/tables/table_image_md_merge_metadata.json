@@ -1,0 +1,1041 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NYSE_TME_2021",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_69_Table_0.jpg",
+      "raw_md": "table_pg69_num0.md",
+      "csv_base": "table_pg69_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_70_Table_0.jpg",
+      "raw_md": "table_pg70_num0.md",
+      "csv_base": "table_pg70_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_70_Table_1.jpg",
+      "raw_md": "table_pg70_num1.md",
+      "csv_base": "table_pg70_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_70_Table_2.jpg",
+      "raw_md": "table_pg70_num2.md",
+      "csv_base": "table_pg70_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_71_Table_0.jpg",
+      "raw_md": "table_pg71_num0.md",
+      "csv_base": "table_pg71_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_6",
+      "image": "_page_73_Table_0.jpg",
+      "raw_md": "table_pg73_num0.md",
+      "csv_base": "table_pg73_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_7",
+      "image": "_page_73_Table_1.jpg",
+      "raw_md": "table_pg73_num1.md",
+      "csv_base": "table_pg73_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_8",
+      "image": "_page_73_Table_2.jpg",
+      "raw_md": "table_pg73_num2.md",
+      "csv_base": "table_pg73_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_9",
+      "image": "_page_79_Table_0.jpg",
+      "raw_md": "table_pg79_num0.md",
+      "csv_base": "table_pg79_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_10",
+      "image": "_page_124_Table_0.jpg",
+      "raw_md": "table_pg124_num0.md",
+      "csv_base": "table_pg124_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_11",
+      "image": "_page_125_Table_0.jpg",
+      "raw_md": "table_pg125_num0.md",
+      "csv_base": "table_pg125_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_12",
+      "image": "_page_127_Table_0.jpg",
+      "raw_md": "table_pg127_num0.md",
+      "csv_base": "table_pg127_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_13",
+      "image": "_page_128_Table_0.jpg",
+      "raw_md": "table_pg128_num0.md",
+      "csv_base": "table_pg128_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_14",
+      "image": "_page_128_Table_1.jpg",
+      "raw_md": "table_pg128_num1.md",
+      "csv_base": "table_pg128_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_6_got_11)"
+    },
+    {
+      "table_id": "table_15",
+      "image": "_page_132_Table_0.jpg",
+      "raw_md": "table_pg132_num0.md",
+      "csv_base": "table_pg132_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_5_got_10)"
+    },
+    {
+      "table_id": "table_16",
+      "image": "_page_132_Table_1.jpg",
+      "raw_md": "table_pg132_num1.md",
+      "csv_base": "table_pg132_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_17",
+      "image": "_page_135_Table_0.jpg",
+      "raw_md": "table_pg135_num0.md",
+      "csv_base": "table_pg135_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_18",
+      "image": "_page_137_Table_0.jpg",
+      "raw_md": "table_pg137_num0.md",
+      "csv_base": "table_pg137_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_19",
+      "image": "_page_139_Table_0.jpg",
+      "raw_md": "table_pg139_num0.md",
+      "csv_base": "table_pg139_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_5_got_15)"
+    },
+    {
+      "table_id": "table_20",
+      "image": "_page_143_Table_0.jpg",
+      "raw_md": "table_pg143_num0.md",
+      "csv_base": "table_pg143_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_21",
+      "image": "_page_144_Table_0.jpg",
+      "raw_md": "table_pg144_num0.md",
+      "csv_base": "table_pg144_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_22",
+      "image": "_page_152_Table_0.jpg",
+      "raw_md": "table_pg152_num0.md",
+      "csv_base": "table_pg152_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_23",
+      "image": "_page_156_Table_0.jpg",
+      "raw_md": "table_pg156_num0.md",
+      "csv_base": "table_pg156_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_24",
+      "image": "_page_157_Table_0.jpg",
+      "raw_md": "table_pg157_num0.md",
+      "csv_base": "table_pg157_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_25",
+      "image": "_page_160_Table_0.jpg",
+      "raw_md": "table_pg160_num0.md",
+      "csv_base": "table_pg160_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_26",
+      "image": "_page_160_Table_1.jpg",
+      "raw_md": "table_pg160_num1.md",
+      "csv_base": "table_pg160_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_27",
+      "image": "_page_161_Table_0.jpg",
+      "raw_md": "table_pg161_num0.md",
+      "csv_base": "table_pg161_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_28",
+      "image": "_page_161_Table_1.jpg",
+      "raw_md": "table_pg161_num1.md",
+      "csv_base": "table_pg161_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_29",
+      "image": "_page_176_Table_0.jpg",
+      "raw_md": "table_pg176_num0.md",
+      "csv_base": "table_pg176_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (row_count_lt_2)"
+    },
+    {
+      "table_id": "table_30",
+      "image": "_page_179_Table_0.jpg",
+      "raw_md": "table_pg179_num0.md",
+      "csv_base": "table_pg179_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_31",
+      "image": "_page_180_Table_0.jpg",
+      "raw_md": "table_pg180_num0.md",
+      "csv_base": "table_pg180_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_32",
+      "image": "_page_181_Table_0.jpg",
+      "raw_md": "table_pg181_num0.md",
+      "csv_base": "table_pg181_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_row_count_lt_relaxed_14)"
+    },
+    {
+      "table_id": "table_33",
+      "image": "_page_194_Table_0.jpg",
+      "raw_md": "table_pg194_num0.md",
+      "csv_base": "table_pg194_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_34",
+      "image": "_page_195_Table_0.jpg",
+      "raw_md": "table_pg195_num0.md",
+      "csv_base": "table_pg195_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_35",
+      "image": "_page_196_Table_0.jpg",
+      "raw_md": "table_pg196_num0.md",
+      "csv_base": "table_pg196_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_36",
+      "image": "_page_197_Table_0.jpg",
+      "raw_md": "table_pg197_num0.md",
+      "csv_base": "table_pg197_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_37",
+      "image": "_page_198_Table_0.jpg",
+      "raw_md": "table_pg198_num0.md",
+      "csv_base": "table_pg198_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_38",
+      "image": "_page_199_Table_0.jpg",
+      "raw_md": "table_pg199_num0.md",
+      "csv_base": "table_pg199_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_5_got_10)"
+    },
+    {
+      "table_id": "table_39",
+      "image": "_page_200_Table_0.jpg",
+      "raw_md": "table_pg200_num0.md",
+      "csv_base": "table_pg200_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_40",
+      "image": "_page_203_Table_0.jpg",
+      "raw_md": "table_pg203_num0.md",
+      "csv_base": "table_pg203_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_41",
+      "image": "_page_205_Table_0.jpg",
+      "raw_md": "table_pg205_num0.md",
+      "csv_base": "table_pg205_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_42",
+      "image": "_page_205_Table_1.jpg",
+      "raw_md": "table_pg205_num1.md",
+      "csv_base": "table_pg205_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_43",
+      "image": "_page_207_Table_0.jpg",
+      "raw_md": "table_pg207_num0.md",
+      "csv_base": "table_pg207_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_44",
+      "image": "_page_212_Table_0.jpg",
+      "raw_md": "table_pg212_num0.md",
+      "csv_base": "table_pg212_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_45",
+      "image": "_page_227_Table_0.jpg",
+      "raw_md": "table_pg227_num0.md",
+      "csv_base": "table_pg227_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_46",
+      "image": "_page_230_Table_0.jpg",
+      "raw_md": "table_pg230_num0.md",
+      "csv_base": "table_pg230_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_47",
+      "image": "_page_230_Table_1.jpg",
+      "raw_md": "table_pg230_num1.md",
+      "csv_base": "table_pg230_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_48",
+      "image": "_page_230_Table_2.jpg",
+      "raw_md": "table_pg230_num2.md",
+      "csv_base": "table_pg230_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_49",
+      "image": "_page_231_Table_0.jpg",
+      "raw_md": "table_pg231_num0.md",
+      "csv_base": "table_pg231_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_50",
+      "image": "_page_232_Table_0.jpg",
+      "raw_md": "table_pg232_num0.md",
+      "csv_base": "table_pg232_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_51",
+      "image": "_page_232_Table_1.jpg",
+      "raw_md": "table_pg232_num1.md",
+      "csv_base": "table_pg232_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_52",
+      "image": "_page_233_Table_0.jpg",
+      "raw_md": "table_pg233_num0.md",
+      "csv_base": "table_pg233_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_53",
+      "image": "_page_233_Table_1.jpg",
+      "raw_md": "table_pg233_num1.md",
+      "csv_base": "table_pg233_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_54",
+      "image": "_page_233_Table_2.jpg",
+      "raw_md": "table_pg233_num2.md",
+      "csv_base": "table_pg233_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_55",
+      "image": "_page_234_Table_0.jpg",
+      "raw_md": "table_pg234_num0.md",
+      "csv_base": "table_pg234_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_56",
+      "image": "_page_234_Table_1.jpg",
+      "raw_md": "table_pg234_num1.md",
+      "csv_base": "table_pg234_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_57",
+      "image": "_page_234_Table_2.jpg",
+      "raw_md": "table_pg234_num2.md",
+      "csv_base": "table_pg234_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_58",
+      "image": "_page_235_Table_0.jpg",
+      "raw_md": "table_pg235_num0.md",
+      "csv_base": "table_pg235_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_59",
+      "image": "_page_236_Table_0.jpg",
+      "raw_md": "table_pg236_num0.md",
+      "csv_base": "table_pg236_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_60",
+      "image": "_page_236_Table_1.jpg",
+      "raw_md": "table_pg236_num1.md",
+      "csv_base": "table_pg236_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_61",
+      "image": "_page_237_Table_0.jpg",
+      "raw_md": "table_pg237_num0.md",
+      "csv_base": "table_pg237_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_62",
+      "image": "_page_237_Table_1.jpg",
+      "raw_md": "table_pg237_num1.md",
+      "csv_base": "table_pg237_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_63",
+      "image": "_page_238_Table_0.jpg",
+      "raw_md": "table_pg238_num0.md",
+      "csv_base": "table_pg238_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_64",
+      "image": "_page_239_Table_0.jpg",
+      "raw_md": "table_pg239_num0.md",
+      "csv_base": "table_pg239_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_65",
+      "image": "_page_239_Table_1.jpg",
+      "raw_md": "table_pg239_num1.md",
+      "csv_base": "table_pg239_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_66",
+      "image": "_page_240_Table_0.jpg",
+      "raw_md": "table_pg240_num0.md",
+      "csv_base": "table_pg240_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_67",
+      "image": "_page_240_Table_1.jpg",
+      "raw_md": "table_pg240_num1.md",
+      "csv_base": "table_pg240_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_68",
+      "image": "_page_240_Table_2.jpg",
+      "raw_md": "table_pg240_num2.md",
+      "csv_base": "table_pg240_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_69",
+      "image": "_page_241_Table_0.jpg",
+      "raw_md": "table_pg241_num0.md",
+      "csv_base": "table_pg241_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_70",
+      "image": "_page_241_Table_1.jpg",
+      "raw_md": "table_pg241_num1.md",
+      "csv_base": "table_pg241_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_71",
+      "image": "_page_242_Table_0.jpg",
+      "raw_md": "table_pg242_num0.md",
+      "csv_base": "table_pg242_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_72",
+      "image": "_page_242_Table_1.jpg",
+      "raw_md": "table_pg242_num1.md",
+      "csv_base": "table_pg242_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_73",
+      "image": "_page_242_Table_2.jpg",
+      "raw_md": "table_pg242_num2.md",
+      "csv_base": "table_pg242_num2",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_74",
+      "image": "_page_243_Table_0.jpg",
+      "raw_md": "table_pg243_num0.md",
+      "csv_base": "table_pg243_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_75",
+      "image": "_page_243_Table_1.jpg",
+      "raw_md": "table_pg243_num1.md",
+      "csv_base": "table_pg243_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_76",
+      "image": "_page_244_Table_0.jpg",
+      "raw_md": "table_pg244_num0.md",
+      "csv_base": "table_pg244_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_77",
+      "image": "_page_244_Table_1.jpg",
+      "raw_md": "table_pg244_num1.md",
+      "csv_base": "table_pg244_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_78",
+      "image": "_page_245_Table_0.jpg",
+      "raw_md": "table_pg245_num0.md",
+      "csv_base": "table_pg245_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_79",
+      "image": "_page_246_Table_0.jpg",
+      "raw_md": "table_pg246_num0.md",
+      "csv_base": "table_pg246_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_80",
+      "image": "_page_247_Table_0.jpg",
+      "raw_md": "table_pg247_num0.md",
+      "csv_base": "table_pg247_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_81",
+      "image": "_page_249_Table_0.jpg",
+      "raw_md": "table_pg249_num0.md",
+      "csv_base": "table_pg249_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_82",
+      "image": "_page_250_Table_0.jpg",
+      "raw_md": "table_pg250_num0.md",
+      "csv_base": "table_pg250_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_83",
+      "image": "_page_250_Table_1.jpg",
+      "raw_md": "table_pg250_num1.md",
+      "csv_base": "table_pg250_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_84",
+      "image": "_page_251_Table_0.jpg",
+      "raw_md": "table_pg251_num0.md",
+      "csv_base": "table_pg251_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_85",
+      "image": "_page_252_Table_0.jpg",
+      "raw_md": "table_pg252_num0.md",
+      "csv_base": "table_pg252_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_86",
+      "image": "_page_252_Table_1.jpg",
+      "raw_md": "table_pg252_num1.md",
+      "csv_base": "table_pg252_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_87",
+      "image": "_page_253_Table_0.jpg",
+      "raw_md": "table_pg253_num0.md",
+      "csv_base": "table_pg253_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_88",
+      "image": "_page_253_Table_1.jpg",
+      "raw_md": "table_pg253_num1.md",
+      "csv_base": "table_pg253_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_89",
+      "image": "_page_254_Table_0.jpg",
+      "raw_md": "table_pg254_num0.md",
+      "csv_base": "table_pg254_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_90",
+      "image": "_page_255_Table_0.jpg",
+      "raw_md": "table_pg255_num0.md",
+      "csv_base": "table_pg255_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_91",
+      "image": "_page_256_Table_0.jpg",
+      "raw_md": "table_pg256_num0.md",
+      "csv_base": "table_pg256_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_row_count_lt_relaxed_6)"
+    },
+    {
+      "table_id": "table_92",
+      "image": "_page_257_Table_0.jpg",
+      "raw_md": "table_pg257_num0.md",
+      "csv_base": "table_pg257_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_93",
+      "image": "_page_257_Table_1.jpg",
+      "raw_md": "table_pg257_num1.md",
+      "csv_base": "table_pg257_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_94",
+      "image": "_page_258_Table_0.jpg",
+      "raw_md": "table_pg258_num0.md",
+      "csv_base": "table_pg258_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_95",
+      "image": "_page_258_Table_1.jpg",
+      "raw_md": "table_pg258_num1.md",
+      "csv_base": "table_pg258_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_row_count_lt_relaxed_6)"
+    },
+    {
+      "table_id": "table_96",
+      "image": "_page_259_Table_0.jpg",
+      "raw_md": "table_pg259_num0.md",
+      "csv_base": "table_pg259_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_97",
+      "image": "_page_259_Table_1.jpg",
+      "raw_md": "table_pg259_num1.md",
+      "csv_base": "table_pg259_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_98",
+      "image": "_page_260_Table_0.jpg",
+      "raw_md": "table_pg260_num0.md",
+      "csv_base": "table_pg260_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_99",
+      "image": "_page_261_Table_0.jpg",
+      "raw_md": "table_pg261_num0.md",
+      "csv_base": "table_pg261_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_100",
+      "image": "_page_261_Table_1.jpg",
+      "raw_md": "table_pg261_num1.md",
+      "csv_base": "table_pg261_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_101",
+      "image": "_page_275_Table_0.jpg",
+      "raw_md": "table_pg275_num0.md",
+      "csv_base": "table_pg275_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_102",
+      "image": "_page_299_Table_0.jpg",
+      "raw_md": "table_pg299_num0.md",
+      "csv_base": "table_pg299_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_103",
+      "image": "_page_556_Table_0.jpg",
+      "raw_md": "table_pg556_num0.md",
+      "csv_base": "table_pg556_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

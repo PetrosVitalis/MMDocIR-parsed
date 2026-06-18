@@ -1,0 +1,1 @@
+<table><tr><td></td><td></td><td>2020</td><td></td><td>2019</td><td>2018</td></tr><tr><td>Interest paid (a)</td><td>$</td><td>1,156</td><td>$</td><td>1,076 $</td><td>1,388</td></tr><tr><td>Income taxes paid, net of refunds (b)</td><td>$</td><td>1,770</td><td>$</td><td>2,226 $</td><td>1,203</td></tr></table>

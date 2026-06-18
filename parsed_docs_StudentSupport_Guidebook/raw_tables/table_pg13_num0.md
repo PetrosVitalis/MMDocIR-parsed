@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>M1</td><td rowspan=1 colspan=1>www.m1.com.sg</td></tr><tr><td rowspan=1 colspan=1>SingTel</td><td rowspan=1 colspan=1>www.singtel.com.sg</td></tr><tr><td rowspan=1 colspan=1>StarHub</td><td rowspan=1 colspan=1>www.starhub.com</td></tr></table>

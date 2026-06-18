@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="5">For the Years Ended December 31,</td></tr><tr><td></td><td>2019</td><td>2018</td><td></td><td>2017</td></tr><tr><td>Amortization of capitalized software development costs and intellectual property licenses</td><td>$</td><td>241</td><td>$</td><td>501 $</td><td>314</td></tr></table>

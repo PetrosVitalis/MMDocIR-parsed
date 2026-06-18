@@ -1,0 +1,1 @@
+<table><tr><td></td><td>(crore) As at</td></tr><tr><td>Leasehold improvements</td><td>March 31, 2019 27</td></tr><tr><td>Computer equipment</td><td>2</td></tr><tr><td>Office equipment</td><td>1</td></tr><tr><td>Furniture and fixtures</td><td>1</td></tr><tr><td>Leased assets</td><td>31</td></tr></table>

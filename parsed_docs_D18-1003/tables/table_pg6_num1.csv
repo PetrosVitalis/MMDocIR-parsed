@@ -1,0 +1,5 @@
+Configuration,Macro Accuracy,RMSE
+IITP (Open),0.39,0.746
+NileTMRG (Close),0.54,0.673
+DeClarE (Plain),0.46,0.687
+DeClarE (Full),0.57,0.604

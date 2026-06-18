@@ -1,0 +1,6 @@
+CONDITION,REASON,Refrigerator,Freezer
+Refrigerator section too warm,"Door opened often,Large amount of food added,Room temperature too warm",4,A
+Freezer section too warm,"Door opened often,Large amount of food added,Very cold room temperature (can't cycle often enough)",3,C
+Refrigerator section too cold,Controls not set correctly for your conditions,2,B
+Ice not made fast enough,"Heavy ice usage,Very cold room temperature (can't cycle often enough)",3,C
+Both sections too warm,"Door opened often,Large amount of food added,Very warm or very cold room temperatures",4,B

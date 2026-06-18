@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td>2020 2019</td><td></td><td>2018</td></tr><tr><td>New transactions1</td><td>$51,814</td><td>$ 34,464</td><td>$ 23,821</td></tr><tr><td>Retained interests</td><td>9,346</td><td>7,403</td><td>2,904</td></tr><tr><td>Sales of corporate loans to CLO SPEs1, 2</td><td>763</td><td>2</td><td>317</td></tr></table>

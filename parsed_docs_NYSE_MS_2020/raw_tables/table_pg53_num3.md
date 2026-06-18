@@ -1,0 +1,1 @@
+<table><tr><td>in millions,except for per share data</td><td>2020</td><td></td><td>2019</td><td>2018</td></tr><tr><td>Number of shares</td><td></td><td>29</td><td>121</td><td>97</td></tr><tr><td>Average price per share</td><td>$</td><td>46.01</td><td>$ 44.23</td><td>$ 50.08</td></tr><tr><td>Total</td><td>$</td><td>1,347 $</td><td>5,360</td><td>$ 4,860</td></tr></table>

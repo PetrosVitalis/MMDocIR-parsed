@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Mondayto Friday</td><td rowspan=1 colspan=1>8.30am to 9.00pm(last registration at 8.30pm)</td></tr><tr><td rowspan=1 colspan=1> Saturday:</td><td rowspan=1 colspan=1>9.30am to 12.00noon</td></tr><tr><td rowspan=1 colspan=1> Sunday and Public Holidays:</td><td rowspan=1 colspan=1>Closed</td></tr></table>

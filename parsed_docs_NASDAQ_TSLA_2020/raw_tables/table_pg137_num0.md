@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Date</td><td rowspan=1 colspan=1>Amount</td></tr><tr><td rowspan=1 colspan=1>[***]</td><td rowspan=1 colspan=1>[***]</td></tr><tr><td rowspan=1 colspan=1>[***]</td><td rowspan=1 colspan=1>[***]</td></tr></table>

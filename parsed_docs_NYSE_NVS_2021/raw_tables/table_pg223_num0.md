@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Switzerland 1</td><td>22028</td><td>9786</td><td>8097</td></tr><tr><td>Foreign</td><td>4109</td><td>92</td><td>843</td></tr><tr><td>Income before taxes</td><td></td><td></td><td></td></tr><tr><td>from continuing operations</td><td>26137</td><td>9 878</td><td>8 940</td></tr></table>

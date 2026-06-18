@@ -1,0 +1,4 @@
+SenseBERT_BASE,SemEval-SS Fine-tuned
+30K no OOV,81.9
+30K average OOV,82.7
+60K no OOV,83

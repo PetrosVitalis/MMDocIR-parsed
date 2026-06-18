@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">AsatMarch31,2020</td><td colspan="2">AsatMarch312019</td></tr><tr><td>Gross%</td><td>Net%</td><td>Gross%</td><td>Net%</td></tr><tr><td>47.95</td><td>48.96</td><td>49.42</td><td>50.53</td></tr><tr><td>14.45</td><td>12.80</td><td>16.45</td><td>14.87</td></tr><tr><td>15.03</td><td>15.26</td><td>15.39</td><td>15.55</td></tr></table>

@@ -1,0 +1,41 @@
+Turn,,,,,1
+User:,"i am planning a trip to go to a particular restaurant , can you assist ?",,,,
+Ground Truths:,,,,,
+DS-Span:,,,,,
+DS-DST:,,,,,
+Turn,,,,,2
+System:,"sure , what is the name of this particular restaurant ?",,,,
+User:,it s called nandos and i would like to book it for monday at 15:00 . there will be 6 people .,,,,
+Ground Truths:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book time, 15:00>, <restaurant, book people, 6>",,,,
+DS-Span:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book time, 15:00>, <restaurant, book people, 6>",,,,
+DS-DST:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book time, 15:00>, <restaurant, book people, 6>",,,,
+Turn,,,,,3
+System:,"no problem ! i have your table reserved for 15:00 on monday . they will hold your table for 15 minutes , your reference number is hvb51vam .",,,,
+User:,thank you . am also looking for place -s to go in town . the attraction should be in the east,,,,
+Ground Truths:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>",,,,
+DS-Span:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>",,,,
+DS-DST:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>",,,,
+Turn,,,,,4
+System:,what are you looking to do ? my system has located 10 place -s .,,,,
+User:,could you recommend something ?,,,,
+Ground Truths:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>",,,,
+DS-Span:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>",,,,
+DS-DST:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>",,,,
+Turn,,,,,5
+System:,"yes , the funky fun house is a great place .",,,,
+User:,great ! can you tell me what the entrance fee is please ?,,,,
+Ground Truths:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <attraction, name, funky fun house>",,,,
+DS-Span:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <attraction, name, funky fun house>",,,,
+DS-DST:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <attraction, name, funky fun house>",,,,
+Turn,,,,,6
+System:,"no , i am sorry . you will have to call them for the entrance fee . the phone number is 01223304705 .",,,,
+User:,thank you . i am also looking to book a taxi to travel between the 2 . i need it to arrive to the restaurant by the reservation time .,,,,
+Ground Truths:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <taxi, arrive by, 15:00>, <attraction, name, funky fun house>, <taxi, destination, nandos>, <taxi, departure, funky fun house>",,,,
+DS-Span:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <taxi, arrive by, 15:00>, <attraction, name, funky fun house>, <taxi, destination, nandos>, <taxi, departure, funky fun house>",,,,
+DS-DST:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <taxi, arrive by, 15:00>, <attraction, name, funky fun house>, <taxi, destination, nandos>, <taxi, departure, funky fun house>",,,,
+Turn,,,,,7
+System:,your taxi is booked and will be a white audi . the contact number is 07057575130 . how else may i help you ?,,,,
+User:,that s all . thank you for your help !,,,,
+Ground Truths:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <taxi, arrive by, 15:00>, <attraction, name, funky fun house>, <taxi, destination, nandos>, <taxi, departure, funky fun house>",,,,
+DS-Span:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <taxi, arrive by, 15:00>, <attraction, name, funky fun house>, <taxi, destination, nandos>, <taxi, departure, funky fun house>",,,,
+DS-DST:,"<restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book people, 6>, <attraction, area, east>, <restaurant, book time, 15:00>, <taxi, arrive by, 15:00>, <attraction, name, funky fun house>, <taxi, destination, nandos>, <taxi, departure, funky fun house>",,,,

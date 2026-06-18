@@ -1,0 +1,6 @@
+Feature,"Condition"
+"extrep_bigram(w,y<sub>t</sub>,x)","Adding w to the hypothesis y<sub>t</sub> would create a 2-gram that appears in a previous utterance by the model"
+"extrep_unigram(w,y<sub>t</sub>,x)","w is a non-stopword and w appears in a previous utterance by the model"
+"intrep_bigram(w,y<sub>t</sub>,x)","Adding w to the hypothesis y<sub>t</sub> would create a 2-gram that appears earlier in the hypothesis y<sub>t</sub>"
+"intrep_unigram(w,y<sub>t</sub>,x)","w is a non-stopword and w appears earlier in the hypothesis y<sub>t</sub>"
+"partnerrep_bigram(w,y<sub>t</sub>,x)","Adding w to the hypothesis y<sub>t</sub> would create a 2-gram that appears in a previous utterance by the partner"

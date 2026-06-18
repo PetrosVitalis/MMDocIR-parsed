@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td>Average increase assumed</td><td>6%</td><td>6%</td></tr><tr><td>Ultimate projected increase</td><td>5%</td><td>5%</td></tr><tr><td> Year of ultimate projected increase</td><td>2040</td><td>2039</td></tr></table>

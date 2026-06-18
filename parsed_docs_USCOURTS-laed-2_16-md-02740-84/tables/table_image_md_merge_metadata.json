@@ -1,0 +1,16 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_USCOURTS-laed-2_16-md-02740-84",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_10_Table_0.jpg",
+      "raw_md": "table_pg10_num0.md",
+      "csv_base": "table_pg10_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    }
+  ]
+}

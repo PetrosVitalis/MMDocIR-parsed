@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">Fiscal Year Ended January 31,</td></tr><tr><td>2020</td><td>2019</td></tr><tr><td>Total revenues</td><td>$17,599</td><td>$14,256</td></tr><tr><td>Pretax income (loss)</td><td>270</td><td>(82)</td></tr><tr><td>Net income (loss)</td><td>(292)</td><td>297</td></tr></table>

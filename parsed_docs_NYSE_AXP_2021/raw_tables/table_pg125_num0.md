@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td></td><td>2021</td><td>2020</td></tr><tr><td>Goodwill</td><td>$</td><td>3,804 $</td><td>3,852</td></tr><tr><td>Other intangible assets,at amortized cost</td><td></td><td>201</td><td>265</td></tr><tr><td>Other (a)</td><td></td><td>13,239</td><td>13,562</td></tr><tr><td>Total</td><td>$</td><td>17,244 $</td><td>17,679</td></tr></table>

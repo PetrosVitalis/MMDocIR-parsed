@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Leased Locations</td><td>Owned Locations</td><td>Owned Buildings and Leased Land</td></tr><tr><td>Domestic</td><td>922</td><td>24</td><td>32</td></tr><tr><td>International</td><td>153</td><td>3</td><td>4</td></tr></table>

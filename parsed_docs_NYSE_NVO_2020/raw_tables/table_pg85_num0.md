@@ -1,0 +1,1 @@
+<table><tr><td>Number</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Responsible sourcing audits</td><td>7</td><td>27</td><td>19</td></tr><tr><td> Quality audits</td><td>170</td><td>209</td><td>275</td></tr><tr><td>Total supplier audits</td><td>177</td><td>236</td><td>294</td></tr></table>

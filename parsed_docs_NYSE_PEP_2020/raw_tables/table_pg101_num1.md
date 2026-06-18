@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td>Fixed income</td><td>51%</td><td>50%</td></tr><tr><td> U.S. equity</td><td>24 %</td><td>25 %</td></tr><tr><td>International equity</td><td>21 %</td><td>21 %</td></tr><tr><td>Real estate</td><td>4%</td><td>4%</td></tr></table>

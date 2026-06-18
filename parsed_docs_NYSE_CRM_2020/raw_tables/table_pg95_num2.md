@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">Fiscal Year Ended January 31,</td></tr><tr><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Foreign currency derivative contracts</td><td>$(9)</td><td>$34</td><td>$15</td></tr></table>

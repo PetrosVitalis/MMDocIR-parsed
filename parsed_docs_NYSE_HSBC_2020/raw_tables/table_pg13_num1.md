@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">Companies with</td></tr><tr><td>disclosed climate</td><td>228</td><td>1,106</td></tr><tr><td>action targets</td><td>(in 2018)</td><td>(in 2020)</td></tr><tr><td>under the Science</td><td></td><td></td></tr><tr><td colspan="3">Based Targets Initiative</td></tr></table>

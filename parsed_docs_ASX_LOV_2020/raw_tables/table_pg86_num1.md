@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Number on issue</td><td rowspan=1 colspan=1>Number of holders</td></tr><tr><td rowspan=1 colspan=1>Options and performance rights issed under the Lovisa Holdings Ltd LongTerm Incentive Plan to take up ordinary shares</td><td rowspan=1 colspan=1>3,914,825</td><td rowspan=1 colspan=1>6</td></tr></table>

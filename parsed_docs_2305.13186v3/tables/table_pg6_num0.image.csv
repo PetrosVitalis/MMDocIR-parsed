@@ -1,0 +1,20 @@
+Models,# of Para.,Zero-shot 2-class,Zero-shot 3-class,In-Context 2-class,In-Context 3-class
+Table-based LLMs,"TAPAS-large (Tabfact) (Herzig et al., 2020)",340M,50.30,--,"--,--"
+Table-based LLMs,"TAPEX-large (Tabfact) (Liu et al., 2022b)",400M,56.06,--,"--,--"
+Table-based LLMs,"TAPEX-Zero-large (Liu et al., 2023b)",780M,48.28,29.72,"42.44,23.47"
+Table-based LLMs,"TAPEX-Zero-XL (Liu et al., 2023b)",3B,49.77,34.30,"42.12,25.62"
+Encoder–Decoder LLMs,"Flan-T5-base (Chung et al., 2022)",250M,47.38,26.56,"44.82,24.09"
+Encoder–Decoder LLMs,"Flan-T5-large (Chung et al., 2022)",780M,51.58,32.55,"49.62,27.30"
+Encoder–Decoder LLMs,"Flan-T5-XL (Chung et al., 2022)",3B,52.41,38.05,"48.05,29.21"
+Encoder–Decoder LLMs,"Flan-T5-XXL (Chung et al., 2022)",11B,59.60,34.91,"60.48,34.04"
+Open source LLMs,"Alpaca-7B (Taori et al., 2023)",7B,37.22,27.59,"40.46,28.95"
+Open source LLMs,"Vicuna-7B (Chiang et al., 2023)",7B,63.62,32.47,"50.35,34.26"
+Open source LLMs,"Vicuna-13B (Chiang et al., 2023)",13B,41.82,29.63,"55.11,35.16"
+Open source LLMs,"LLaMA-7B (Touvron et al., 2023)",7B,49.05,32.26,"45.24,27.17"
+Open source LLMs,"LLaMA-13B (Touvron et al., 2023)",13B,53.97,37.18,"44.39,32.66"
+Close source LLMs,"InstructGPT (Ouyang et al., 2022)",175B,68.44,41.41,"68.10,41.58"
+Close source LLMs,"InstructGPT+CoT (Ouyang et al., 2022)",175B,--,--,"68.46,42.60"
+Close source LLMs,"PoT (Chen et al., 2022)",175B,--,--,"63.79,--"
+Close source LLMs,"GPT-4 (OpenAI, 2023)",78.22,64.80,77.98,63.21
+Close source LLMs,"GPT-4+CoT (OpenAI, 2023)",76.85,62.77,--,--
+Human,--,--,--,92.40,84.73

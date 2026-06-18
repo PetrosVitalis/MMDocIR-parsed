@@ -1,0 +1,1 @@
+<table><tr><td>Number of meetings held 8</td><td>E.Doherty(Chair, Audit Committee Financial Expert)</td></tr><tr><td>Number of members 5</td><td>T. Buechner 8</td></tr><tr><td>Approximate average duration (hours) 2:13</td><td>B. Heller² 6</td></tr><tr><td>Meeting attendance 100%</td><td>F.van Houten2 6</td></tr><tr><td></td><td>E.Vanni 8</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Percentage interest held</td><td>Tenement</td><td> Percentage interest held</td></tr><tr><td></td><td>Silverstone Project</td><td>100%</td></tr><tr><td></td><td>Beikeng Mine</td><td>80%</td></tr></table>

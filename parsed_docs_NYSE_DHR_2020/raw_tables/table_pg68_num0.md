@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">Year Ended December 31</td></tr><tr><td>2020</td><td>2019</td><td>2018</td></tr><tr><td> Effective tax rate from continuing operations</td><td>18.9 %</td><td>26.4 %</td><td>18.8 %</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">($ in millions)</td></tr><tr><td>For the year ended December 31:</td><td>2019</td><td>2018</td></tr><tr><td>Revenue</td><td>$79,628</td><td>$81,360</td></tr><tr><td>Net income</td><td>$9,723</td><td>$5,702</td></tr></table>

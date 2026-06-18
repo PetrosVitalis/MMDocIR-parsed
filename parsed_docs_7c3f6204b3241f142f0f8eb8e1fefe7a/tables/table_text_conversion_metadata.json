@@ -1,0 +1,29 @@
+[
+  {
+    "table_id": "table_1",
+    "status": "success",
+    "method": "llm_from_table",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "{\"rows\":[[\"FN23. Janaman v. New Castle County Bd. of\"],[\"Adjustment, 364 A.2d 1241, 1242\"],[\"(Del.Super.1976).\"]]}"
+      }
+    ]
+  }
+]

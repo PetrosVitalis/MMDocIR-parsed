@@ -1,0 +1,1 @@
+<table><tr><td>Segment</td><td>Leased Square Footage (1)</td><td>Owned Square Footage (1)</td></tr><tr><td>North America</td><td>147,277</td><td>2,140</td></tr><tr><td> International</td><td>66,328</td><td>4,167</td></tr><tr><td>AWS</td><td>6,197</td><td>4,024</td></tr><tr><td>Total</td><td>219,802</td><td>10,331</td></tr></table>

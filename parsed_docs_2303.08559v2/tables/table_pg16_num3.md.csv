@@ -1,0 +1,6 @@
+Event Argument Extraction,Event Argument Extraction,Event Argument Extraction,Event Argument Extraction
+,ACE05,ERE,RAMS
+#Event /#Role,33/22,38/26,139 /65
+Head-F1 (SLM),45.9,40.4,54.1
+Head-F1 (LLM),52.8,40.7,44.2
+"△F1 (LLM, SLM)",6.9,0.3,-9.9

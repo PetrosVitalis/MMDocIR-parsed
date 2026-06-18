@@ -1,0 +1,1026 @@
+{
+  "document_md_path": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_2023555920/document.md",
+  "index_version": 9,
+  "pages": [
+    {
+      "page_id": 0,
+      "unit_id": "page-0",
+      "text": "# Regulation of Artificial Intelligence Around the World\n\nAugust 2023\n\nLL File No. 2023-022541   \nLRA-D-PUB-002627",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Regulation of Artificial Intelligence Around the World"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Regulation of Artificial Intelligence Around the World\n\nAugust 2023\n\nLL File No. 2023-022541   \nLRA-D-PUB-002627"
+    },
+    {
+      "page_id": 1,
+      "unit_id": "page-1",
+      "text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated."
+    },
+    {
+      "page_id": 2,
+      "unit_id": "page-2",
+      "text": "## Contents\n\nComparative Summary ....   \nJurisdictional Table . 4   \nInternational Organizations Table. 22",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Contents"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Contents\n\nComparative Summary ....   \nJurisdictional Table . 4   \nInternational Organizations Table. 22"
+    },
+    {
+      "page_id": 3,
+      "unit_id": "page-3",
+      "text": "# Comparative Summary\n\nKayahan Cantekin Foreign Law Specialist\n\n## I. Introduction\n\nThis report, prepared by the research staff of the Law Library of Congress, provides a list of jurisdictions in the world where legislation that specifically refers to artificial intelligence (AI) or systems utilizing AI have been adopted or proposed. Researchers of the Law Library surveyed all jurisdictions in their research portfolios to find such legislation, and those encountered have been compiled in the annexed list with citations and brief descriptions of the relevant legislation. Only adopted or proposed instruments that have legal effect are reported for national and subnational jurisdictions and the European Union (EU); guidance or policy documents that have no legal effect are not included for these jurisdictions.\n\nMajor international organizations have also been surveyed and documents adopted or proposed by these organizations that specifically refer to AI are reported in the list.\n\n## II. Scope\n\nThe list only includes adopted or proposed legislation (and documents for international organizations) that specifically refers to AI. Binding decisions of regulatory agencies and relevant case law that specifically refers to AI are also included where encountered.\n\nWhile various rules that do not specifically refer to AI in diverse areas of the law such as intellectual property, civil and administrative procedure, criminal law, and data protection and data security law are presumably applicable to the utilization of AI systems in the relevant regulated fields, the limitation of the scope of the list to specific references prevents the list from being overinclusive or underinclusive, given that the extent to which the legacy legal frameworks apply to novel uses of AI may not yet be sufficiently or clearly determined in many jurisdictions.\n\nNevertheless, the role of existing personal data protection frameworks in the regulation of processes utilizing AI appears to be particularly significant. Provisions governing automated decision making that are frequently incorporated in personal data protection laws are likely to be applicable in cases where AI systems are used to make decisions producing legal effects for individuals, although these provisions typically do not refer to AI specifically.\n\nIn the EU, article 22 of the General Data Protection Regulation (GDPR) regulates automated decision making and profiling with regard to individuals. The GDPR is directly applicable and binding for all European Union member states; however, member states have adopted national legislation that is compliant with the GDPR that may include parallel provisions regarding automated decision making. Such national legislation, where the laws do not specifically refer to AI, are accordingly left out of the list. Only the GDPR itself, with its full citation and a brief description of its relevant article 22, is provided in the list’s entry for the European Union.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Comparative Summary",
+        "I. Introduction",
+        "II. Scope"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Comparative Summary\n\nKayahan Cantekin Foreign Law Specialist\n\n## I. Introduction\n\nThis report, prepared by the research staff of the Law Library of Congress, provides a list of jurisdictions in the world where legislation that specifically refers to artificial intelligence (AI) or systems utilizing AI have been adopted or proposed. Researchers of the Law Library surveyed all jurisdictions in their research portfolios to find such legislation, and those encountered have been compiled in the annexed list with citations and brief descriptions of the relevant legislation. Only adopted or proposed instruments that have legal effect are reported for national and subnational jurisdictions and the European Union (EU); guidance or policy documents that have no legal effect are not included for these jurisdictions.\n\nMajor international organizations have also been surveyed and documents adopted or proposed by these organizations that specifically refer to AI are reported in the list.\n\n## II. Scope\n\nThe list only includes adopted or proposed legislation (and documents for international organizations) that specifically refers to AI. Binding decisions of regulatory agencies and relevant case law that specifically refers to AI are also included where encountered.\n\nWhile various rules that do not specifically refer to AI in diverse areas of the law such as intellectual property, civil and administrative procedure, criminal law, and data protection and data security law are presumably applicable to the utilization of AI systems in the relevant regulated fields, the limitation of the scope of the list to specific references prevents the list from being overinclusive or underinclusive, given that the extent to which the legacy legal frameworks apply to novel uses of AI may not yet be sufficiently or clearly determined in many jurisdictions.\n\nNevertheless, the role of existing personal data protection frameworks in the regulation of processes utilizing AI appears to be particularly significant. Provisions governing automated decision making that are frequently incorporated in personal data protection laws are likely to be applicable in cases where AI systems are used to make decisions producing legal effects for individuals, although these provisions typically do not refer to AI specifically.\n\nIn the EU, article 22 of the General Data Protection Regulation (GDPR) regulates automated decision making and profiling with regard to individuals. The GDPR is directly applicable and binding for all European Union member states; however, member states have adopted national legislation that is compliant with the GDPR that may include parallel provisions regarding automated decision making. Such national legislation, where the laws do not specifically refer to AI, are accordingly left out of the list. Only the GDPR itself, with its full citation and a brief description of its relevant article 22, is provided in the list’s entry for the European Union."
+    },
+    {
+      "page_id": 4,
+      "unit_id": "page-4",
+      "text": "National personal data protection legislation that include provisions governing automated decision making in non-EU jurisdictions, such as data protection laws in Turkey or the United Kingdom, its territories, and British crown dependencies, are for the same reason left out of the list.\n\nAlso significant in this context is the Council of Europe (CoE) 1981 Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, which entered into force in 1985 and is the first international treaty on personal data protection. The convention and its proposed protocol, which has not entered into force yet, are also cited in the list.\n\n## III. Findings\n\n## A. National and Sub-National Jurisdictions\n\nThe survey found adopted legislation that specifically refers to AI in the following national and sub-national jurisdictions: Argentina, Belarus, China, Denmark, Egypt, Estonia, Finland, Greece, Hungary, Iceland, Kazakhstan, Kyrgyzstan, Lithuania, Macau, Mauritius, Norway, Peru, Poland, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, the Slovak Republic, Spain, Sweden, Taiwan, the United Arab Emirates, the United Kingdom, and Uzbekistan.\n\nLegislation referring to AI has been proposed and is at various stages of the legislative process in the following national jurisdictions: Argentina, Belgium, Brazil, Canada, Chile, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, South Korea, Thailand, and the United Kingdom.\n\nThe scope of the legislation that has been found in our survey varies greatly among jurisdictions. Some laws, for example, those adopted in Argentina, Belarus, Egypt, Iceland, Kazakhstan, Peru, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, Uzbekistan, and legislation proposed in Brazil, Chile, China, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, Taiwan, and Thailand, provide for general frameworks, such as those governing the development and commercialization of AI systems, laying down ethics and fundamental rights principles applicable to development and utilization of AI, or establishing regulatory or advisory government bodies that will oversee the advances and proliferation of the technology.\n\nOther laws govern specific applications of AI systems, for example, in regard to payment systems, employment-related decision making by public or private actors, self-driving road vehicles, illegal online content, text or image generation, and speech-signal processing. Such legislation has been enacted in jurisdictions such as China, Estonia, Greece, Hungary, Lithuania, Poland, the United Arab Emirates, the United Kingdom, and Uzbekistan, and it has been proposed in Kyrgyzstan. Some of these laws establish registration or licensing requirements for certain applications of AI, such as rules adopted in Greece and Mauritius, and a bill proposed in Canada.\n\nSome jurisdictions have adopted laws that specifically relate to the use of decision making by public bodies and impose measures to ensure transparency and prevent bias, some of which require impact assessments to be filed for systems used by public administrators or the registration of systems. Such legislation is enacted, for example, in Greece, Finland, Norway, Spain, and Sweden, and it is proposed in Belgium. The survey also found legislation that relates to AI in other contexts, such as a law enacted in the United Kingdom that authorizes the government to intervene in acquisitions of companies developing AI that could harm the national security, a law enacted in Macau that provides tax benefits to companies engaging in AI-related innovation, and laws proposed in Chile that specifically criminalize use of AI in the commission of certain types of fraud.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "III. Findings",
+        "A. National and Sub-National Jurisdictions"
+      ],
+      "table_context": "",
+      "retrieval_text": "National personal data protection legislation that include provisions governing automated decision making in non-EU jurisdictions, such as data protection laws in Turkey or the United Kingdom, its territories, and British crown dependencies, are for the same reason left out of the list.\n\nAlso significant in this context is the Council of Europe (CoE) 1981 Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, which entered into force in 1985 and is the first international treaty on personal data protection. The convention and its proposed protocol, which has not entered into force yet, are also cited in the list.\n\n## III. Findings\n\n## A. National and Sub-National Jurisdictions\n\nThe survey found adopted legislation that specifically refers to AI in the following national and sub-national jurisdictions: Argentina, Belarus, China, Denmark, Egypt, Estonia, Finland, Greece, Hungary, Iceland, Kazakhstan, Kyrgyzstan, Lithuania, Macau, Mauritius, Norway, Peru, Poland, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, the Slovak Republic, Spain, Sweden, Taiwan, the United Arab Emirates, the United Kingdom, and Uzbekistan.\n\nLegislation referring to AI has been proposed and is at various stages of the legislative process in the following national jurisdictions: Argentina, Belgium, Brazil, Canada, Chile, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, South Korea, Thailand, and the United Kingdom.\n\nThe scope of the legislation that has been found in our survey varies greatly among jurisdictions. Some laws, for example, those adopted in Argentina, Belarus, Egypt, Iceland, Kazakhstan, Peru, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, Uzbekistan, and legislation proposed in Brazil, Chile, China, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, Taiwan, and Thailand, provide for general frameworks, such as those governing the development and commercialization of AI systems, laying down ethics and fundamental rights principles applicable to development and utilization of AI, or establishing regulatory or advisory government bodies that will oversee the advances and proliferation of the technology.\n\nOther laws govern specific applications of AI systems, for example, in regard to payment systems, employment-related decision making by public or private actors, self-driving road vehicles, illegal online content, text or image generation, and speech-signal processing. Such legislation has been enacted in jurisdictions such as China, Estonia, Greece, Hungary, Lithuania, Poland, the United Arab Emirates, the United Kingdom, and Uzbekistan, and it has been proposed in Kyrgyzstan. Some of these laws establish registration or licensing requirements for certain applications of AI, such as rules adopted in Greece and Mauritius, and a bill proposed in Canada.\n\nSome jurisdictions have adopted laws that specifically relate to the use of decision making by public bodies and impose measures to ensure transparency and prevent bias, some of which require impact assessments to be filed for systems used by public administrators or the registration of systems. Such legislation is enacted, for example, in Greece, Finland, Norway, Spain, and Sweden, and it is proposed in Belgium. The survey also found legislation that relates to AI in other contexts, such as a law enacted in the United Kingdom that authorizes the government to intervene in acquisitions of companies developing AI that could harm the national security, a law enacted in Macau that provides tax benefits to companies engaging in AI-related innovation, and laws proposed in Chile that specifically criminalize use of AI in the commission of certain types of fraud."
+    },
+    {
+      "page_id": 5,
+      "unit_id": "page-5",
+      "text": "## B. European Union and International Organizations\n\nIn the EU, a proposal for a regulation that incorporates transparency rules for low-risk AI systems and prohibitions and mandatory requirements for certain high-risk ones was introduced in 2021. In addition, last year, a directive establishing uniform rules for certain aspects of noncontractual civil liability for damage caused by AI systems was introduced. EU regulations are directly applicable in EU member states, whereas directives have to be transposed into national law.\n\nWith regard to international organizations, our survey found that documents specifically referring to AI have been adopted by the CoE, North Atlantic Treaty Organization (NATO), OECD, and various bodies, organs, and specialized agencies of the United Nations (UN) such as UNESCO and the International Telecommunication Union (ITU).\n\nIn 2018, the CoE opened to signature a protocol to its 1981 Convention for the Protection of Individuals with regard to Automatic Processing of Personal Data that modernizes the convention and incorporates amendments establishing the right of an individual to have his or her views considered when being subjected to certain decisions based solely on automated processing of data. The protocol is not yet in force. Recently at the CoE, a proposal was made for a common framework convention for the design, development, and application of AI systems throughout their life cycle that would cover uses by both public or private actors, with the exclusion of uses related to national defense. This proposed framework convention takes a riskbased approach to AI systems, similar to the proposed EU regulation.\n\nNATO adopted an Artificial Intelligence Strategy in 2021, laying down strategy points for NATO members and their allies and establishing principles of responsible use. Another NATO document establishes a Data and Artificial Intelligence Review Board responsible for the implementation of such principles.\n\nThe OECD adopted a Recommendation on AI that provides principles on responsible stewardship of AI and recommendations for their implementation.\n\nWithin the UN System, the UN Secretary-General issued a report providing a road map for implementing the recommendations of the High-level Panel on Digital Cooperation convened by the secretary-general, which refers to certain aspects of AI-related policymaking and governance. In 2021, UNESCO adopted a recommendation covering a selection of areas for policy action and including monitoring and evaluation standards. In 2022, the ITU published a report on the UN’s activities on AI.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "B. European Union and International Organizations"
+      ],
+      "table_context": "",
+      "retrieval_text": "## B. European Union and International Organizations\n\nIn the EU, a proposal for a regulation that incorporates transparency rules for low-risk AI systems and prohibitions and mandatory requirements for certain high-risk ones was introduced in 2021. In addition, last year, a directive establishing uniform rules for certain aspects of noncontractual civil liability for damage caused by AI systems was introduced. EU regulations are directly applicable in EU member states, whereas directives have to be transposed into national law.\n\nWith regard to international organizations, our survey found that documents specifically referring to AI have been adopted by the CoE, North Atlantic Treaty Organization (NATO), OECD, and various bodies, organs, and specialized agencies of the United Nations (UN) such as UNESCO and the International Telecommunication Union (ITU).\n\nIn 2018, the CoE opened to signature a protocol to its 1981 Convention for the Protection of Individuals with regard to Automatic Processing of Personal Data that modernizes the convention and incorporates amendments establishing the right of an individual to have his or her views considered when being subjected to certain decisions based solely on automated processing of data. The protocol is not yet in force. Recently at the CoE, a proposal was made for a common framework convention for the design, development, and application of AI systems throughout their life cycle that would cover uses by both public or private actors, with the exclusion of uses related to national defense. This proposed framework convention takes a riskbased approach to AI systems, similar to the proposed EU regulation.\n\nNATO adopted an Artificial Intelligence Strategy in 2021, laying down strategy points for NATO members and their allies and establishing principles of responsible use. Another NATO document establishes a Data and Artificial Intelligence Review Board responsible for the implementation of such principles.\n\nThe OECD adopted a Recommendation on AI that provides principles on responsible stewardship of AI and recommendations for their implementation.\n\nWithin the UN System, the UN Secretary-General issued a report providing a road map for implementing the recommendations of the High-level Panel on Digital Cooperation convened by the secretary-general, which refers to certain aspects of AI-related policymaking and governance. In 2021, UNESCO adopted a recommendation covering a selection of areas for policy action and including monitoring and evaluation standards. In 2022, the ITU published a report on the UN’s activities on AI."
+    },
+    {
+      "page_id": 6,
+      "unit_id": "page-6",
+      "text": "## Jurisdictional Table\n\n![](tables/table_pg6_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg6_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg6_num0.csv"
+      ],
+      "headings": [
+        "Jurisdictional Table"
+      ],
+      "table_context": "table_pg6_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description Row labels: Argentina, Belarus, Belgium, Brazil, Canada, Chile Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Marco Legal para la Regulación del Desarrollo y uso de la inteligencia Artificial (Proyecto de ley), June 8, 2023, https://perma.cc/PDY6-2JMY. Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Ley de Regulación y Uso de la Inteligencia Artificial en la Educación (Proyecto de ley), June 8, 2023, https://perma.cc/3958-YQDS. Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Modificación Ley Nacional 25.467 (Proyecto de ley), Apr. 17, 2023, https://perma.cc/39K5-RSC7.",
+      "retrieval_text": "## Jurisdictional Table\n\n![](tables/table_pg6_num0.csv)\n\nTable context: table_pg6_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description Row labels: Argentina, Belarus, Belgium, Brazil, Canada, Chile Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Marco Legal para la Regulación del Desarrollo y uso de la inteligencia Artificial (Proyecto de ley), June 8, 2023, https://perma.cc/PDY6-2JMY. Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Ley de Regulación y Uso de la Inteligencia Artificial en la Educación (Proyecto de ley), June 8, 2023, https://perma.cc/3958-YQDS. Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Modificación Ley Nacional 25.467 (Proyecto de ley), Apr. 17, 2023, https://perma.cc/39K5-RSC7."
+    },
+    {
+      "page_id": 15,
+      "unit_id": "page-15",
+      "text": "![](tables/table_pg15_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg15_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg15_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg15_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description",
+      "retrieval_text": "![](tables/table_pg15_num0.csv)\n\nTable context: table_pg15_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description"
+    },
+    {
+      "page_id": 16,
+      "unit_id": "page-16",
+      "text": "![](tables/table_pg16_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg16_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg16_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg16_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description Row labels: Mexico, Norway, Panama, Peru, Philippines, Poland, Portugal, Qatar Mexico: References to AI in current legislation? (Yes/No)=No; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Iniciativa con Proyecto de Decreto por el Que Se Expide la Ley para la Regulación Ética de la Inteligencia Artificial y la Robótica, May 24, 2023, https://perma.cc/PY6J-QM2Z. Norway: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=No; Citation=National Insurance Act § 21-11 a (Folketrygdloven), https://perma.cc/69YC-MFDC (in Norwegian). Panama: References to AI in current legislation? (Yes/No)=No; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Proyecto de Ley Que Regula la Inteligencia Artificial en la Republica, July 6, 2023,",
+      "retrieval_text": "![](tables/table_pg16_num0.csv)\n\nTable context: table_pg16_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description Row labels: Mexico, Norway, Panama, Peru, Philippines, Poland, Portugal, Qatar Mexico: References to AI in current legislation? (Yes/No)=No; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Iniciativa con Proyecto de Decreto por el Que Se Expide la Ley para la Regulación Ética de la Inteligencia Artificial y la Robótica, May 24, 2023, https://perma.cc/PY6J-QM2Z. Norway: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=No; Citation=National Insurance Act § 21-11 a (Folketrygdloven), https://perma.cc/69YC-MFDC (in Norwegian). Panama: References to AI in current legislation? (Yes/No)=No; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Proyecto de Ley Que Regula la Inteligencia Artificial en la Republica, July 6, 2023,"
+    },
+    {
+      "page_id": 24,
+      "unit_id": "page-24",
+      "text": "## International Organizations Table\n\n![](tables/table_pg24_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg24_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg24_num0.csv"
+      ],
+      "headings": [
+        "International Organizations Table"
+      ],
+      "table_context": "table_pg24_num0.csv: Table columns: Organization, Final document related to AI? (Yes/No), Proposed document related to AI? (Yes/No), Citation, Description Row labels: Council of Europe, NATO, Organisation for Economic Co-operation and Development (OECD), United Nations, Chief Executives Board (United Nations), International Telecommunication Union (ITU) (United Nations) Council of Europe: Final document related to AI? (Yes/No)=No; Proposed document related to AI? (Yes/No)=Yes; Citation=Consolidated Text of the Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, ETS No. 108, art. 9, para. 1(a), https://perma.cc/B828-4W7B. Council of Europe: Proposed document related to AI? (Yes/No)=Yes; Citation=Committee on Artificial Intelligence [CAI], Revised Zero Draft [Framework] Convention on Artificial Intelligence, Human Rights, Democracy, and the Rule of Law (Jan. 6, 2023), https://perma.cc/PS8F-9M5L. NATO: Final document related to AI?",
+      "retrieval_text": "## International Organizations Table\n\n![](tables/table_pg24_num0.csv)\n\nTable context: table_pg24_num0.csv: Table columns: Organization, Final document related to AI? (Yes/No), Proposed document related to AI? (Yes/No), Citation, Description Row labels: Council of Europe, NATO, Organisation for Economic Co-operation and Development (OECD), United Nations, Chief Executives Board (United Nations), International Telecommunication Union (ITU) (United Nations) Council of Europe: Final document related to AI? (Yes/No)=No; Proposed document related to AI? (Yes/No)=Yes; Citation=Consolidated Text of the Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, ETS No. 108, art. 9, para. 1(a), https://perma.cc/B828-4W7B. Council of Europe: Proposed document related to AI? (Yes/No)=Yes; Citation=Committee on Artificial Intelligence [CAI], Revised Zero Draft [Framework] Convention on Artificial Intelligence, Human Rights, Democracy, and the Rule of Law (Jan. 6, 2023), https://perma.cc/PS8F-9M5L. NATO: Final document related to AI?"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "page-0-chunk-0",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "# Regulation of Artificial Intelligence Around the World\n\nAugust 2023\n\nLL File No. 2023-022541   \nLRA-D-PUB-002627",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Regulation of Artificial Intelligence Around the World"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Regulation of Artificial Intelligence Around the World\n\nAugust 2023\n\nLL File No. 2023-022541   \nLRA-D-PUB-002627"
+    },
+    {
+      "chunk_id": "page-1-chunk-0",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated."
+    },
+    {
+      "chunk_id": "page-2-chunk-0",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "Contents",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Contents\n\nComparative Summary ....   \nJurisdictional Table . 4   \nInternational Organizations Table. 22",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Contents"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Contents\n\nComparative Summary ....   \nJurisdictional Table . 4   \nInternational Organizations Table. 22"
+    },
+    {
+      "chunk_id": "page-3-chunk-0",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "# Comparative Summary\n\nKayahan Cantekin Foreign Law Specialist",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Comparative Summary"
+      ],
+      "table_context": "",
+      "retrieval_text": "# Comparative Summary\n\nKayahan Cantekin Foreign Law Specialist"
+    },
+    {
+      "chunk_id": "page-3-chunk-1",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "I. Introduction",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## I. Introduction\n\nThis report, prepared by the research staff of the Law Library of Congress, provides a list of jurisdictions in the world where legislation that specifically refers to artificial intelligence (AI) or systems utilizing AI have been adopted or proposed. Researchers of the Law Library surveyed all jurisdictions in their research portfolios to find such legislation, and those encountered have been compiled in the annexed list with citations and brief descriptions of the relevant legislation. Only adopted or proposed instruments that have legal effect are reported for national and subnational jurisdictions and the European Union (EU); guidance or policy documents that have no legal effect are not included for these jurisdictions.\n\nMajor international organizations have also been surveyed and documents adopted or proposed by these organizations that specifically refer to AI are reported in the list.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "I. Introduction"
+      ],
+      "table_context": "",
+      "retrieval_text": "## I. Introduction\n\nThis report, prepared by the research staff of the Law Library of Congress, provides a list of jurisdictions in the world where legislation that specifically refers to artificial intelligence (AI) or systems utilizing AI have been adopted or proposed. Researchers of the Law Library surveyed all jurisdictions in their research portfolios to find such legislation, and those encountered have been compiled in the annexed list with citations and brief descriptions of the relevant legislation. Only adopted or proposed instruments that have legal effect are reported for national and subnational jurisdictions and the European Union (EU); guidance or policy documents that have no legal effect are not included for these jurisdictions.\n\nMajor international organizations have also been surveyed and documents adopted or proposed by these organizations that specifically refer to AI are reported in the list."
+    },
+    {
+      "chunk_id": "page-3-chunk-2",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "II. Scope",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## II. Scope\n\nThe list only includes adopted or proposed legislation (and documents for international organizations) that specifically refers to AI. Binding decisions of regulatory agencies and relevant case law that specifically refers to AI are also included where encountered.\n\nWhile various rules that do not specifically refer to AI in diverse areas of the law such as intellectual property, civil and administrative procedure, criminal law, and data protection and data security law are presumably applicable to the utilization of AI systems in the relevant regulated fields, the limitation of the scope of the list to specific references prevents the list from being overinclusive or underinclusive, given that the extent to which the legacy legal frameworks apply to novel uses of AI may not yet be sufficiently or clearly determined in many jurisdictions.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "II. Scope"
+      ],
+      "table_context": "",
+      "retrieval_text": "## II. Scope\n\nThe list only includes adopted or proposed legislation (and documents for international organizations) that specifically refers to AI. Binding decisions of regulatory agencies and relevant case law that specifically refers to AI are also included where encountered.\n\nWhile various rules that do not specifically refer to AI in diverse areas of the law such as intellectual property, civil and administrative procedure, criminal law, and data protection and data security law are presumably applicable to the utilization of AI systems in the relevant regulated fields, the limitation of the scope of the list to specific references prevents the list from being overinclusive or underinclusive, given that the extent to which the legacy legal frameworks apply to novel uses of AI may not yet be sufficiently or clearly determined in many jurisdictions."
+    },
+    {
+      "chunk_id": "page-3-chunk-3",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "II. Scope",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Nevertheless, the role of existing personal data protection frameworks in the regulation of processes utilizing AI appears to be particularly significant. Provisions governing automated decision making that are frequently incorporated in personal data protection laws are likely to be applicable in cases where AI systems are used to make decisions producing legal effects for individuals, although these provisions typically do not refer to AI specifically.\n\nIn the EU, article 22 of the General Data Protection Regulation (GDPR) regulates automated decision making and profiling with regard to individuals. The GDPR is directly applicable and binding for all European Union member states; however, member states have adopted national legislation that is compliant with the GDPR that may include parallel provisions regarding automated decision making. Such national legislation, where the laws do not specifically refer to AI, are accordingly left out of the list. Only the GDPR itself, with its full citation and a brief description of its relevant article 22, is provided in the list’s entry for the European Union.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Nevertheless, the role of existing personal data protection frameworks in the regulation of processes utilizing AI appears to be particularly significant. Provisions governing automated decision making that are frequently incorporated in personal data protection laws are likely to be applicable in cases where AI systems are used to make decisions producing legal effects for individuals, although these provisions typically do not refer to AI specifically.\n\nIn the EU, article 22 of the General Data Protection Regulation (GDPR) regulates automated decision making and profiling with regard to individuals. The GDPR is directly applicable and binding for all European Union member states; however, member states have adopted national legislation that is compliant with the GDPR that may include parallel provisions regarding automated decision making. Such national legislation, where the laws do not specifically refer to AI, are accordingly left out of the list. Only the GDPR itself, with its full citation and a brief description of its relevant article 22, is provided in the list’s entry for the European Union."
+    },
+    {
+      "chunk_id": "page-4-chunk-0",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "National personal data protection legislation that include provisions governing automated decision making in non-EU jurisdictions, such as data protection laws in Turkey or the United Kingdom, its territories, and British crown dependencies, are for the same reason left out of the list.\n\nAlso significant in this context is the Council of Europe (CoE) 1981 Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, which entered into force in 1985 and is the first international treaty on personal data protection. The convention and its proposed protocol, which has not entered into force yet, are also cited in the list.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "National personal data protection legislation that include provisions governing automated decision making in non-EU jurisdictions, such as data protection laws in Turkey or the United Kingdom, its territories, and British crown dependencies, are for the same reason left out of the list.\n\nAlso significant in this context is the Council of Europe (CoE) 1981 Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, which entered into force in 1985 and is the first international treaty on personal data protection. The convention and its proposed protocol, which has not entered into force yet, are also cited in the list."
+    },
+    {
+      "chunk_id": "page-4-chunk-1",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "III. Findings",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## III. Findings",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "III. Findings"
+      ],
+      "table_context": "",
+      "retrieval_text": "## III. Findings"
+    },
+    {
+      "chunk_id": "page-4-chunk-2",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "A. National and Sub-National Jurisdictions",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## A. National and Sub-National Jurisdictions\n\nThe survey found adopted legislation that specifically refers to AI in the following national and sub-national jurisdictions: Argentina, Belarus, China, Denmark, Egypt, Estonia, Finland, Greece, Hungary, Iceland, Kazakhstan, Kyrgyzstan, Lithuania, Macau, Mauritius, Norway, Peru, Poland, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, the Slovak Republic, Spain, Sweden, Taiwan, the United Arab Emirates, the United Kingdom, and Uzbekistan.\n\nLegislation referring to AI has been proposed and is at various stages of the legislative process in the following national jurisdictions: Argentina, Belgium, Brazil, Canada, Chile, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, South Korea, Thailand, and the United Kingdom.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "A. National and Sub-National Jurisdictions"
+      ],
+      "table_context": "",
+      "retrieval_text": "## A. National and Sub-National Jurisdictions\n\nThe survey found adopted legislation that specifically refers to AI in the following national and sub-national jurisdictions: Argentina, Belarus, China, Denmark, Egypt, Estonia, Finland, Greece, Hungary, Iceland, Kazakhstan, Kyrgyzstan, Lithuania, Macau, Mauritius, Norway, Peru, Poland, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, the Slovak Republic, Spain, Sweden, Taiwan, the United Arab Emirates, the United Kingdom, and Uzbekistan.\n\nLegislation referring to AI has been proposed and is at various stages of the legislative process in the following national jurisdictions: Argentina, Belgium, Brazil, Canada, Chile, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, South Korea, Thailand, and the United Kingdom."
+    },
+    {
+      "chunk_id": "page-4-chunk-3",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "A. National and Sub-National Jurisdictions",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "The scope of the legislation that has been found in our survey varies greatly among jurisdictions. Some laws, for example, those adopted in Argentina, Belarus, Egypt, Iceland, Kazakhstan, Peru, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, Uzbekistan, and legislation proposed in Brazil, Chile, China, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, Taiwan, and Thailand, provide for general frameworks, such as those governing the development and commercialization of AI systems, laying down ethics and fundamental rights principles applicable to development and utilization of AI, or establishing regulatory or advisory government bodies that will oversee the advances and proliferation of the technology.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The scope of the legislation that has been found in our survey varies greatly among jurisdictions. Some laws, for example, those adopted in Argentina, Belarus, Egypt, Iceland, Kazakhstan, Peru, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, Uzbekistan, and legislation proposed in Brazil, Chile, China, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, Taiwan, and Thailand, provide for general frameworks, such as those governing the development and commercialization of AI systems, laying down ethics and fundamental rights principles applicable to development and utilization of AI, or establishing regulatory or advisory government bodies that will oversee the advances and proliferation of the technology."
+    },
+    {
+      "chunk_id": "page-4-chunk-4",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "A. National and Sub-National Jurisdictions",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Other laws govern specific applications of AI systems, for example, in regard to payment systems, employment-related decision making by public or private actors, self-driving road vehicles, illegal online content, text or image generation, and speech-signal processing. Such legislation has been enacted in jurisdictions such as China, Estonia, Greece, Hungary, Lithuania, Poland, the United Arab Emirates, the United Kingdom, and Uzbekistan, and it has been proposed in Kyrgyzstan. Some of these laws establish registration or licensing requirements for certain applications of AI, such as rules adopted in Greece and Mauritius, and a bill proposed in Canada.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Other laws govern specific applications of AI systems, for example, in regard to payment systems, employment-related decision making by public or private actors, self-driving road vehicles, illegal online content, text or image generation, and speech-signal processing. Such legislation has been enacted in jurisdictions such as China, Estonia, Greece, Hungary, Lithuania, Poland, the United Arab Emirates, the United Kingdom, and Uzbekistan, and it has been proposed in Kyrgyzstan. Some of these laws establish registration or licensing requirements for certain applications of AI, such as rules adopted in Greece and Mauritius, and a bill proposed in Canada."
+    },
+    {
+      "chunk_id": "page-4-chunk-5",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "A. National and Sub-National Jurisdictions",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Some jurisdictions have adopted laws that specifically relate to the use of decision making by public bodies and impose measures to ensure transparency and prevent bias, some of which require impact assessments to be filed for systems used by public administrators or the registration of systems. Such legislation is enacted, for example, in Greece, Finland, Norway, Spain, and Sweden, and it is proposed in Belgium. The survey also found legislation that relates to AI in other contexts, such as a law enacted in the United Kingdom that authorizes the government to intervene in acquisitions of companies developing AI that could harm the national security, a law enacted in Macau that provides tax benefits to companies engaging in AI-related innovation, and laws proposed in Chile that specifically criminalize use of AI in the commission of certain types of fraud.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Some jurisdictions have adopted laws that specifically relate to the use of decision making by public bodies and impose measures to ensure transparency and prevent bias, some of which require impact assessments to be filed for systems used by public administrators or the registration of systems. Such legislation is enacted, for example, in Greece, Finland, Norway, Spain, and Sweden, and it is proposed in Belgium. The survey also found legislation that relates to AI in other contexts, such as a law enacted in the United Kingdom that authorizes the government to intervene in acquisitions of companies developing AI that could harm the national security, a law enacted in Macau that provides tax benefits to companies engaging in AI-related innovation, and laws proposed in Chile that specifically criminalize use of AI in the commission of certain types of fraud."
+    },
+    {
+      "chunk_id": "page-5-chunk-0",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "B. European Union and International Organizations",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## B. European Union and International Organizations\n\nIn the EU, a proposal for a regulation that incorporates transparency rules for low-risk AI systems and prohibitions and mandatory requirements for certain high-risk ones was introduced in 2021. In addition, last year, a directive establishing uniform rules for certain aspects of noncontractual civil liability for damage caused by AI systems was introduced. EU regulations are directly applicable in EU member states, whereas directives have to be transposed into national law.\n\nWith regard to international organizations, our survey found that documents specifically referring to AI have been adopted by the CoE, North Atlantic Treaty Organization (NATO), OECD, and various bodies, organs, and specialized agencies of the United Nations (UN) such as UNESCO and the International Telecommunication Union (ITU).",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "B. European Union and International Organizations"
+      ],
+      "table_context": "",
+      "retrieval_text": "## B. European Union and International Organizations\n\nIn the EU, a proposal for a regulation that incorporates transparency rules for low-risk AI systems and prohibitions and mandatory requirements for certain high-risk ones was introduced in 2021. In addition, last year, a directive establishing uniform rules for certain aspects of noncontractual civil liability for damage caused by AI systems was introduced. EU regulations are directly applicable in EU member states, whereas directives have to be transposed into national law.\n\nWith regard to international organizations, our survey found that documents specifically referring to AI have been adopted by the CoE, North Atlantic Treaty Organization (NATO), OECD, and various bodies, organs, and specialized agencies of the United Nations (UN) such as UNESCO and the International Telecommunication Union (ITU)."
+    },
+    {
+      "chunk_id": "page-5-chunk-1",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "B. European Union and International Organizations",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "In 2018, the CoE opened to signature a protocol to its 1981 Convention for the Protection of Individuals with regard to Automatic Processing of Personal Data that modernizes the convention and incorporates amendments establishing the right of an individual to have his or her views considered when being subjected to certain decisions based solely on automated processing of data. The protocol is not yet in force. Recently at the CoE, a proposal was made for a common framework convention for the design, development, and application of AI systems throughout their life cycle that would cover uses by both public or private actors, with the exclusion of uses related to national defense. This proposed framework convention takes a riskbased approach to AI systems, similar to the proposed EU regulation.\n\nNATO adopted an Artificial Intelligence Strategy in 2021, laying down strategy points for NATO members and their allies and establishing principles of responsible use. Another NATO document establishes a Data and Artificial Intelligence Review Board responsible for the implementation of such principles.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "In 2018, the CoE opened to signature a protocol to its 1981 Convention for the Protection of Individuals with regard to Automatic Processing of Personal Data that modernizes the convention and incorporates amendments establishing the right of an individual to have his or her views considered when being subjected to certain decisions based solely on automated processing of data. The protocol is not yet in force. Recently at the CoE, a proposal was made for a common framework convention for the design, development, and application of AI systems throughout their life cycle that would cover uses by both public or private actors, with the exclusion of uses related to national defense. This proposed framework convention takes a riskbased approach to AI systems, similar to the proposed EU regulation.\n\nNATO adopted an Artificial Intelligence Strategy in 2021, laying down strategy points for NATO members and their allies and establishing principles of responsible use. Another NATO document establishes a Data and Artificial Intelligence Review Board responsible for the implementation of such principles."
+    },
+    {
+      "chunk_id": "page-5-chunk-2",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "B. European Union and International Organizations",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "The OECD adopted a Recommendation on AI that provides principles on responsible stewardship of AI and recommendations for their implementation.\n\nWithin the UN System, the UN Secretary-General issued a report providing a road map for implementing the recommendations of the High-level Panel on Digital Cooperation convened by the secretary-general, which refers to certain aspects of AI-related policymaking and governance. In 2021, UNESCO adopted a recommendation covering a selection of areas for policy action and including monitoring and evaluation standards. In 2022, the ITU published a report on the UN’s activities on AI.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The OECD adopted a Recommendation on AI that provides principles on responsible stewardship of AI and recommendations for their implementation.\n\nWithin the UN System, the UN Secretary-General issued a report providing a road map for implementing the recommendations of the High-level Panel on Digital Cooperation convened by the secretary-general, which refers to certain aspects of AI-related policymaking and governance. In 2021, UNESCO adopted a recommendation covering a selection of areas for policy action and including monitoring and evaluation standards. In 2022, the ITU published a report on the UN’s activities on AI."
+    },
+    {
+      "chunk_id": "page-6-chunk-0",
+      "page_id": 6,
+      "page_number": 6,
+      "parent_section": "Jurisdictional Table",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Jurisdictional Table\n\n![](tables/table_pg6_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg6_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg6_num0.csv"
+      ],
+      "headings": [
+        "Jurisdictional Table"
+      ],
+      "table_context": "table_pg6_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description Row labels: Argentina, Belarus, Belgium, Brazil, Canada, Chile Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Marco Legal para la Regulación del Desarrollo y uso de la inteligencia Artificial (Proyecto de ley), June 8, 2023, https://perma.cc/PDY6-2JMY. Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Ley de Regulación y Uso de la Inteligencia Artificial en",
+      "retrieval_text": "## Jurisdictional Table\n\n![](tables/table_pg6_num0.csv)\n\nTable context: table_pg6_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description Row labels: Argentina, Belarus, Belgium, Brazil, Canada, Chile Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Marco Legal para la Regulación del Desarrollo y uso de la inteligencia Artificial (Proyecto de ley), June 8, 2023, https://perma.cc/PDY6-2JMY. Argentina: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Ley de Regulación y Uso de la Inteligencia Artificial en"
+    },
+    {
+      "chunk_id": "page-15-chunk-0",
+      "page_id": 15,
+      "page_number": 15,
+      "parent_section": "Document",
+      "nearest_asset_above": "tables/table_pg15_num0.csv",
+      "nearest_asset_below": null,
+      "text": "![](tables/table_pg15_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg15_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg15_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg15_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description",
+      "retrieval_text": "![](tables/table_pg15_num0.csv)\n\nTable context: table_pg15_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description"
+    },
+    {
+      "chunk_id": "page-16-chunk-0",
+      "page_id": 16,
+      "page_number": 16,
+      "parent_section": "Document",
+      "nearest_asset_above": "tables/table_pg16_num0.csv",
+      "nearest_asset_below": null,
+      "text": "![](tables/table_pg16_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg16_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg16_num0.csv"
+      ],
+      "headings": [],
+      "table_context": "table_pg16_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description Row labels: Mexico, Norway, Panama, Peru, Philippines, Poland, Portugal, Qatar Mexico: References to AI in current legislation? (Yes/No)=No; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Iniciativa con Proyecto de Decreto por el Que Se Expide la Ley para la Regulación Ética de la Inteligencia Artificial y la Robótica, May 24, 2023, https://perma.cc/PY6J-QM2Z. Norway: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=No; Citation=National",
+      "retrieval_text": "![](tables/table_pg16_num0.csv)\n\nTable context: table_pg16_num0.csv: Table columns: Jurisdiction, References to AI in current legislation? (Yes/No), References to AI in proposed legislation? (Yes/No), Citation, Description Row labels: Mexico, Norway, Panama, Peru, Philippines, Poland, Portugal, Qatar Mexico: References to AI in current legislation? (Yes/No)=No; References to AI in proposed legislation? (Yes/No)=Yes; Citation=Iniciativa con Proyecto de Decreto por el Que Se Expide la Ley para la Regulación Ética de la Inteligencia Artificial y la Robótica, May 24, 2023, https://perma.cc/PY6J-QM2Z. Norway: References to AI in current legislation? (Yes/No)=Yes; References to AI in proposed legislation? (Yes/No)=No; Citation=National"
+    },
+    {
+      "chunk_id": "page-24-chunk-0",
+      "page_id": 24,
+      "page_number": 24,
+      "parent_section": "International Organizations Table",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## International Organizations Table\n\n![](tables/table_pg24_num0.csv)",
+      "image_refs": [],
+      "table_refs": [
+        "tables/table_pg24_num0.csv"
+      ],
+      "asset_refs": [
+        "tables/table_pg24_num0.csv"
+      ],
+      "headings": [
+        "International Organizations Table"
+      ],
+      "table_context": "table_pg24_num0.csv: Table columns: Organization, Final document related to AI? (Yes/No), Proposed document related to AI? (Yes/No), Citation, Description Row labels: Council of Europe, NATO, Organisation for Economic Co-operation and Development (OECD), United Nations, Chief Executives Board (United Nations), International Telecommunication Union (ITU) (United Nations) Council of Europe: Final document related to AI? (Yes/No)=No; Proposed document related to AI? (Yes/No)=Yes; Citation=Consolidated Text of the Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, ETS No. 108, art. 9, para. 1(a), https://perma.cc/B828-4W7B. Council of Europe:",
+      "retrieval_text": "## International Organizations Table\n\n![](tables/table_pg24_num0.csv)\n\nTable context: table_pg24_num0.csv: Table columns: Organization, Final document related to AI? (Yes/No), Proposed document related to AI? (Yes/No), Citation, Description Row labels: Council of Europe, NATO, Organisation for Economic Co-operation and Development (OECD), United Nations, Chief Executives Board (United Nations), International Telecommunication Union (ITU) (United Nations) Council of Europe: Final document related to AI? (Yes/No)=No; Proposed document related to AI? (Yes/No)=Yes; Citation=Consolidated Text of the Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, ETS No. 108, art. 9, para. 1(a), https://perma.cc/B828-4W7B. Council of Europe:"
+    }
+  ],
+  "layouts": [
+    {
+      "layout_id": "page-0:text-1",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.34,
+        0.192,
+        0.419,
+        0.799
+      ],
+      "text": "Regulation of Artificial Intelligence Around the World",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-2",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.436,
+        0.426,
+        0.463,
+        0.571
+      ],
+      "text": "August 2023",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-3",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.78,
+        0.4,
+        0.814,
+        0.596
+      ],
+      "text": "LL File No. 2023-022541   \nLRA-D-PUB-002627",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-1",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.44,
+        0.227,
+        0.534,
+        0.771
+      ],
+      "text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-1",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.112,
+        0.112,
+        0.22
+      ],
+      "text": "Contents",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-2",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.147,
+        0.112,
+        0.237,
+        0.885
+      ],
+      "text": "Comparative Summary ....   \nJurisdictional Table . 4   \nInternational Organizations Table. 22",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-1",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.092,
+        0.348,
+        0.117,
+        0.648
+      ],
+      "text": "Comparative Summary",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-2",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.123,
+        0.413,
+        0.159,
+        0.586
+      ],
+      "text": "Kayahan Cantekin Foreign Law Specialist",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-3",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.195,
+        0.112,
+        0.213,
+        0.254
+      ],
+      "text": "I. Introduction",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-4",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.232,
+        0.111,
+        0.372,
+        0.885
+      ],
+      "text": "This report, prepared by the research staff of the Law Library of Congress, provides a list of jurisdictions in the world where legislation that specifically refers to artificial intelligence (AI) or systems utilizing AI have been adopted or proposed. Researchers of the Law Library surveyed all jurisdictions in their research portfolios to find such legislation, and those encountered have been compiled in the annexed list with citations and brief descriptions of the relevant legislation. Only adopted or proposed instruments that have legal effect are reported for national and subnational jurisdictions and the European Union (EU); guidance or policy documents that have no legal effect are not included for these jurisdictions.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-5",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.387,
+        0.111,
+        0.424,
+        0.883
+      ],
+      "text": "Major international organizations have also been surveyed and documents adopted or proposed by these organizations that specifically refer to AI are reported in the list.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-6",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.44,
+        0.112,
+        0.46,
+        0.204
+      ],
+      "text": "II. Scope",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-7",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.477,
+        0.111,
+        0.531,
+        0.885
+      ],
+      "text": "The list only includes adopted or proposed legislation (and documents for international organizations) that specifically refers to AI. Binding decisions of regulatory agencies and relevant case law that specifically refers to AI are also included where encountered.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-8",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.546,
+        0.111,
+        0.654,
+        0.885
+      ],
+      "text": "While various rules that do not specifically refer to AI in diverse areas of the law such as intellectual property, civil and administrative procedure, criminal law, and data protection and data security law are presumably applicable to the utilization of AI systems in the relevant regulated fields, the limitation of the scope of the list to specific references prevents the list from being overinclusive or underinclusive, given that the extent to which the legacy legal frameworks apply to novel uses of AI may not yet be sufficiently or clearly determined in many jurisdictions.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-9",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.666,
+        0.111,
+        0.756,
+        0.885
+      ],
+      "text": "Nevertheless, the role of existing personal data protection frameworks in the regulation of processes utilizing AI appears to be particularly significant. Provisions governing automated decision making that are frequently incorporated in personal data protection laws are likely to be applicable in cases where AI systems are used to make decisions producing legal effects for individuals, although these provisions typically do not refer to AI specifically.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-10",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.771,
+        0.111,
+        0.895,
+        0.887
+      ],
+      "text": "In the EU, article 22 of the General Data Protection Regulation (GDPR) regulates automated decision making and profiling with regard to individuals. The GDPR is directly applicable and binding for all European Union member states; however, member states have adopted national legislation that is compliant with the GDPR that may include parallel provisions regarding automated decision making. Such national legislation, where the laws do not specifically refer to AI, are accordingly left out of the list. Only the GDPR itself, with its full citation and a brief description of its relevant article 22, is provided in the list’s entry for the European Union.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-1",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.111,
+        0.16,
+        0.885
+      ],
+      "text": "National personal data protection legislation that include provisions governing automated decision making in non-EU jurisdictions, such as data protection laws in Turkey or the United Kingdom, its territories, and British crown dependencies, are for the same reason left out of the list.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-2",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.176,
+        0.109,
+        0.247,
+        0.885
+      ],
+      "text": "Also significant in this context is the Council of Europe (CoE) 1981 Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data, which entered into force in 1985 and is the first international treaty on personal data protection. The convention and its proposed protocol, which has not entered into force yet, are also cited in the list.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-3",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.265,
+        0.111,
+        0.285,
+        0.238
+      ],
+      "text": "III. Findings",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-4",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.301,
+        0.112,
+        0.319,
+        0.48
+      ],
+      "text": "A. National and Sub-National Jurisdictions",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-5",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.333,
+        0.111,
+        0.439,
+        0.885
+      ],
+      "text": "The survey found adopted legislation that specifically refers to AI in the following national and sub-national jurisdictions: Argentina, Belarus, China, Denmark, Egypt, Estonia, Finland, Greece, Hungary, Iceland, Kazakhstan, Kyrgyzstan, Lithuania, Macau, Mauritius, Norway, Peru, Poland, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, the Slovak Republic, Spain, Sweden, Taiwan, the United Arab Emirates, the United Kingdom, and Uzbekistan.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-6",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.454,
+        0.111,
+        0.523,
+        0.887
+      ],
+      "text": "Legislation referring to AI has been proposed and is at various stages of the legislative process in the following national jurisdictions: Argentina, Belgium, Brazil, Canada, Chile, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, South Korea, Thailand, and the United Kingdom.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-7",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.54,
+        0.111,
+        0.698,
+        0.887
+      ],
+      "text": "The scope of the legislation that has been found in our survey varies greatly among jurisdictions. Some laws, for example, those adopted in Argentina, Belarus, Egypt, Iceland, Kazakhstan, Peru, Portugal, Qatar, the Republic of Ireland, the Russian Federation, Saudi Arabia, Serbia, Uzbekistan, and legislation proposed in Brazil, Chile, China, Colombia, Costa Rica, Israel, Mexico, Panama, the Philippines, Taiwan, and Thailand, provide for general frameworks, such as those governing the development and commercialization of AI systems, laying down ethics and fundamental rights principles applicable to development and utilization of AI, or establishing regulatory or advisory government bodies that will oversee the advances and proliferation of the technology.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-8",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.713,
+        0.109,
+        0.837,
+        0.887
+      ],
+      "text": "Other laws govern specific applications of AI systems, for example, in regard to payment systems, employment-related decision making by public or private actors, self-driving road vehicles, illegal online content, text or image generation, and speech-signal processing. Such legislation has been enacted in jurisdictions such as China, Estonia, Greece, Hungary, Lithuania, Poland, the United Arab Emirates, the United Kingdom, and Uzbekistan, and it has been proposed in Kyrgyzstan. Some of these laws establish registration or licensing requirements for certain applications of AI, such as rules adopted in Greece and Mauritius, and a bill proposed in Canada.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-9",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.851,
+        0.109,
+        0.905,
+        0.887
+      ],
+      "text": "Some jurisdictions have adopted laws that specifically relate to the use of decision making by public bodies and impose measures to ensure transparency and prevent bias, some of which require impact assessments to be filed for systems used by public administrators or the registration of systems. Such legislation is enacted, for example, in Greece, Finland, Norway, Spain, and Sweden, and it is proposed in Belgium. The survey also found legislation that relates to AI in other contexts, such as a law enacted in the United Kingdom that authorizes the government to intervene in acquisitions of companies developing AI that could harm the national security, a law enacted in Macau that provides tax benefits to companies engaging in AI-related innovation, and laws proposed in Chile that specificall",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-2",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.229,
+        0.111,
+        0.247,
+        0.549
+      ],
+      "text": "B. European Union and International Organizations",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-3",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.262,
+        0.111,
+        0.351,
+        0.885
+      ],
+      "text": "In the EU, a proposal for a regulation that incorporates transparency rules for low-risk AI systems and prohibitions and mandatory requirements for certain high-risk ones was introduced in 2021. In addition, last year, a directive establishing uniform rules for certain aspects of noncontractual civil liability for damage caused by AI systems was introduced. EU regulations are directly applicable in EU member states, whereas directives have to be transposed into national law.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-4",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.366,
+        0.111,
+        0.435,
+        0.885
+      ],
+      "text": "With regard to international organizations, our survey found that documents specifically referring to AI have been adopted by the CoE, North Atlantic Treaty Organization (NATO), OECD, and various bodies, organs, and specialized agencies of the United Nations (UN) such as UNESCO and the International Telecommunication Union (ITU).",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-5",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.452,
+        0.111,
+        0.609,
+        0.887
+      ],
+      "text": "In 2018, the CoE opened to signature a protocol to its 1981 Convention for the Protection of Individuals with regard to Automatic Processing of Personal Data that modernizes the convention and incorporates amendments establishing the right of an individual to have his or her views considered when being subjected to certain decisions based solely on automated processing of data. The protocol is not yet in force. Recently at the CoE, a proposal was made for a common framework convention for the design, development, and application of AI systems throughout their life cycle that would cover uses by both public or private actors, with the exclusion of uses related to national defense. This proposed framework convention takes a riskbased approach to AI systems, similar to the proposed EU regulat",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-6",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.625,
+        0.111,
+        0.695,
+        0.885
+      ],
+      "text": "NATO adopted an Artificial Intelligence Strategy in 2021, laying down strategy points for NATO members and their allies and establishing principles of responsible use. Another NATO document establishes a Data and Artificial Intelligence Review Board responsible for the implementation of such principles.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-7",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.71,
+        0.111,
+        0.746,
+        0.883
+      ],
+      "text": "The OECD adopted a Recommendation on AI that provides principles on responsible stewardship of AI and recommendations for their implementation.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-8",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.762,
+        0.111,
+        0.866,
+        0.887
+      ],
+      "text": "Within the UN System, the UN Secretary-General issued a report providing a road map for implementing the recommendations of the High-level Panel on Digital Cooperation convened by the secretary-general, which refers to certain aspects of AI-related policymaking and governance. In 2021, UNESCO adopted a recommendation covering a selection of areas for policy action and including monitoring and evaluation standards. In 2022, the ITU published a report on the UN’s activities on AI.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:text-1",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.119,
+        0.418,
+        0.15,
+        0.578
+      ],
+      "text": "Jurisdictional Table",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:table-2",
+      "page_id": 6,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_6_Table_0.jpg",
+      "bbox_norm": [
+        0.207,
+        0.07,
+        0.803,
+        0.926
+      ],
+      "text": "",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-15:table-1",
+      "page_id": 15,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_15_Table_0.jpg",
+      "bbox_norm": [
+        0.114,
+        0.069,
+        0.859,
+        0.926
+      ],
+      "text": "",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-16:table-1",
+      "page_id": 16,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_16_Table_0.jpg",
+      "bbox_norm": [
+        0.114,
+        0.069,
+        0.836,
+        0.928
+      ],
+      "text": "",
+      "source_type": "table"
+    },
+    {
+      "layout_id": "page-24:text-1",
+      "page_id": 24,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.119,
+        0.364,
+        0.151,
+        0.633
+      ],
+      "text": "International Organizations Table",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-24:table-2",
+      "page_id": 24,
+      "layout_type": "table",
+      "asset_ref": "assets/_page_24_Table_0.jpg",
+      "bbox_norm": [
+        0.207,
+        0.069,
+        0.867,
+        0.926
+      ],
+      "text": "",
+      "source_type": "table"
+    }
+  ],
+  "stats": {
+    "num_pages": 10,
+    "num_chunks": 20,
+    "num_layouts": 38
+  }
+}

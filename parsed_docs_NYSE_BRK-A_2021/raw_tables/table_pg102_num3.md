@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">2021 $</td><td>2020</td><td>2019</td></tr><tr><td>Fixed lease revenue</td><td>4,482</td><td>$</td><td>4,262 $</td><td>4,415</td></tr><tr><td>Variable lease revenue</td><td>1,506</td><td></td><td>947</td><td>1,441</td></tr><tr><td>$</td><td>5,988</td><td>$</td><td>5,209 $</td><td>5,856</td></tr></table>

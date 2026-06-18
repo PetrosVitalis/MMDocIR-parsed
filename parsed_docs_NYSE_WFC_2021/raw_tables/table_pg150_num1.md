@@ -1,0 +1,1 @@
+<table><tr><td>(in millions)</td><td>Dec 31,2021</td><td>Dec 31,2020</td></tr><tr><td>Lease receivables</td><td>$</td><td>14,210</td></tr><tr><td>Residual asset values</td><td>3,721</td><td>3,810</td></tr><tr><td>Unearned income</td><td>(1,618)</td><td>(1,933)</td></tr><tr><td>Lease financing</td><td>$</td><td>14,859</td></tr></table>

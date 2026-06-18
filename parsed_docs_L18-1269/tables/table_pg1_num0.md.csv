@@ -1,0 +1,8 @@
+name,N,task,C,examples,label(s)
+MR,11k,sentiment (movies),,"“Too slow for a younger crowd,too shallow for an older one.""",neg
+CR,4k,product reviews,,“We tried it out christmas night and it worked great .”,pos
+SUBJ,10k,subjectivity/objectivity,,"“A movie that doesn't aim too high , but doesn't need to.""",subj
+MPQA,11k,opinion polarity,,"“don't want"";“would like to tell"";","neg, pos"
+TREC,6k,question-type,,"“What are the twin cities ?""",LOC:city
+SST-2,70k,sentiment (movies),2２226２5,"“Audrey Tautou has a knack for picking roles that magnify her [.]""",pos
+SST-5,12k,sentiment (movies),,“nothing about this movie works.”,0

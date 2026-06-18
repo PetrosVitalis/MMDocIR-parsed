@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">May 2018</td><td rowspan="2">19 514</td><td colspan="2"></td><td rowspan="2">80</td></tr><tr><td>42</td><td>38</td></tr><tr><td rowspan="2">Aug 2017</td><td>30</td><td></td><td></td><td></td></tr><tr><td>8 22</td><td>38</td><td>31</td><td>69</td></tr></table>

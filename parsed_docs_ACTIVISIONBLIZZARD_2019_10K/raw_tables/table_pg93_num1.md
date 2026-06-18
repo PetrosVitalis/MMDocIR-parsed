@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">2019</td><td colspan="2">2018</td><td colspan="2">2017</td><td colspan="2"></td></tr><tr><td>Cash Flow Hedges</td><td>$</td><td>39 $</td><td></td><td>$</td><td colspan="2"></td><td>(1)</td><td></td></tr></table>

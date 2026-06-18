@@ -1,0 +1,11 @@
+,Dict,MedLine (80.10%),MedLine (80.10%),MedLine (80.10%),DrugBank (19.90%）,DrugBank (19.90%）,DrugBank (19.90%）,Complete dataset,Complete dataset,Complete dataset
+,Dict,P,R,F1,P,R,,F1,P,F1
+Feature-engineered machine learning systems,,,,,,,,,,
+Rocktäschel et al. (2013),Yes,,60.70 55.80 58.10|,,,88.10 87.50,87.80,73.40,69.80,71.50
+Liu et al. (2015) (baseline),No,,,=,,,,78.41,67.78,72.71
+Liu et al. (2015) (MED.emb.) Liu et al. (2015) (state of the art),No,= 78.77,60.21,- 68.25,,,,82.70,69.68,75.63
+NN word model,Yes,,,,90.60,88.82,89.70,84.75,72.89,78.37
+Chalapathy et al. (2016) (relaxed performance),No,52.93,52.57,52.75,187.07,83.39,85.19,,,
+NN word + character model Yadav et al. (2018),No,|73,62,67,187,86,87,,72,
+NN word + character + affix model,,,,,,,,|79,,75
+Yadav et al. (2018),No 一,74,64,69,189,86,87,81,74,77

@@ -1,0 +1,6 @@
+Features,Features,P,R,F
+Baseline,WLSTM+CRF,80.44,87.88,89.15
+Human Feature,+POS,90.61,89.28,89.94
+Human Feature,+Cap,90.74,90.43,90.58
+Auto Feature,+POS+Cap +CLSTM,90.92 91.22,90.27 91.17,90.59 91.20
+Auto Feature,+CCNN,91.66,91.04,91.35

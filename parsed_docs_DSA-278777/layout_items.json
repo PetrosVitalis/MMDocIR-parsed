@@ -1,0 +1,2536 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.082,
+      0.092,
+      0.144,
+      0.843
+    ],
+    "text": "MCS@ 51 8-BIT CONTROL-ORIENTED MICROCONTROLLERS Commercial/Express",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.34,
+      0.22,
+      0.597
+    ],
+    "text": "8031AH/8051AH/8051AHP 8032AH/8052AH 8751H/8751H-8 8751BH/8752BH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.035,
+      0.243,
+      0.393
+    ],
+    "text": "■ High Performance HMOS Process",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.037,
+      0.265,
+      0.375
+    ],
+    "text": "■ Internal Timers/Event Counters",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.268,
+      0.037,
+      0.286,
+      0.402
+    ],
+    "text": "■2-Level Interrupt Priority Structure",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.037,
+      0.308,
+      0.36
+    ],
+    "text": "■ 32 I/O Lines (Four 8-Bit Ports)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.311,
+      0.037,
+      0.33,
+      0.43
+    ],
+    "text": "■ 64K External Program Memory Space",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.334,
+      0.037,
+      0.368,
+      0.45
+    ],
+    "text": "Security Feature Protects EPROM Parts Against Software Piracy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.483,
+      0.241,
+      0.701
+    ],
+    "text": "■ Boolean Processor",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.483,
+      0.265,
+      0.723
+    ],
+    "text": "■ Bit-Addressable RAM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.268,
+      0.485,
+      0.3,
+      0.83
+    ],
+    "text": "Programmable Full Duplex Serial Channel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.483,
+      0.324,
+      0.837
+    ],
+    "text": "■ 111 Instructions (64 Single-Cycle)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.327,
+      0.485,
+      0.345,
+      0.837
+    ],
+    "text": "■ 64K External Data Memory Space",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-14",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.485,
+      0.381,
+      0.804
+    ],
+    "text": "Extended Temperature Range (-40℃ to +85C)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-15",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.037,
+      0.468,
+      0.901
+    ],
+    "text": "The MCS? 51 controllers are optimized for control applications.Byte-processing and numerical operations on small data structuresare facilitated bya varietyoffast addressing modes for accessing the internal RAM.The instruction set provides aconvenient menu of 8-bit arithmetic instructions,including multiplyand divide instructions.Extensive on-chip support is provided for one-bit variables asaseparate data type,allowing direct bit manipulation and testing in control and logic systems that require Boolean processing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-16",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.477,
+      0.037,
+      0.537,
+      0.901
+    ],
+    "text": "The8751H isan EPROMversion of the 8051AH.Ithas 4 Kbytes of electrically programmable ROM which can beerased with ultraviolet light.It is fully compatible with the 8051AH but incorporates one additional feature: a Program Memory Security bit that can be used to protect the EPROM against unauthorized readout.The 8751H-8 is identical to the 8751H but only operates up to 8 MHz.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-17",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.039,
+      0.592,
+      0.901
+    ],
+    "text": "The 8051AHP is identical to the 8051AH with the exception of the Protection Feature.To incorporate this Protection Feature,program verification has been disabled and external memory accesses have been limited to 4K.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-18",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.601,
+      0.039,
+      0.648,
+      0.901
+    ],
+    "text": "The 8052AH is an enhanced version of the 8051AH.It is backwards compatible with the 8051AH and is fabricated with HMOS  technology.The8052AH enhancementsare listed in the table below.Also refer to this table for the ROM, ROMless and EPROM versions of each product.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:table-19",
+    "page_id": 0,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_0_Table_0.jpg",
+    "bbox_norm": [
+      0.658,
+      0.041,
+      0.849,
+      0.896
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.1,
+      0.087,
+      0.724,
+      0.932
+    ],
+    "text": "Figure 1. MCS? 51 Controller Block Diagram",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.771,
+      0.084,
+      0.788,
+      0.359
+    ],
+    "text": "PROCESS INFORMATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.797,
+      0.084,
+      0.913,
+      0.496
+    ],
+    "text": "The 8031AH/8051AH and 8032AH/8052AH devices are manufactured on P414.1,an HMOS Il process. The 8751H/8751H-8 devices are manufactured on P421.X,an HMOS-E process.The 8751BH and 8752BH devices are manufactured on P422. Additional process and reliability information is availablein Intel's Components Quality and Reliability Handbook, Order No.210997.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:table-1",
+    "page_id": 2,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_2_Table_0.jpg",
+    "bbox_norm": [
+      0.11,
+      0.078,
+      0.335,
+      0.954
+    ],
+    "text": "PACKAGES NOTE: \\*8752BHis 36/10°for D,and 38/22°for N.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.076,
+      0.433,
+      0.957
+    ],
+    "text": "All thermal impedance data is approximate for static air conditionsat1W of power dissipation.Values will change depending on operating conditionsand application.See the Intel Packaging Handbook (Order Number 240800) for a description of Intel's thermal impedance test methodology.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-3",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.439,
+      0.081,
+      0.831,
+      0.954
+    ],
+    "text": "Figure 2. MCs? 51 Controller Connections",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.086,
+      0.043,
+      0.105,
+      0.273
+    ],
+    "text": "PIN DESCRIPTIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.114,
+      0.043,
+      0.132,
+      0.224
+    ],
+    "text": "Vcc: Supply voltage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.043,
+      0.16,
+      0.215
+    ],
+    "text": "Vss: Circuit ground.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.169,
+      0.043,
+      0.216,
+      0.481
+    ],
+    "text": "Port O:Port O is an 8-bit open drain bidirectional l/O port.As an output port each pin can sink 8 LS TTL inputs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.226,
+      0.043,
+      0.259,
+      0.481
+    ],
+    "text": "Port O pins that have 1's written to them float,and in that state can be used as high-impedance inputs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.268,
+      0.043,
+      0.344,
+      0.483
+    ],
+    "text": "Port O is also the multiplexed low-order address and data bus during accesses to external Program and Data Memory.In this application it uses strong internal pullups when emitting 1's and can source and sink 8 LS TTL inputs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.353,
+      0.043,
+      0.429,
+      0.483
+    ],
+    "text": "Port O also receives the code bytes during programming of the EPROM parts,and outputs the code bytes during program verification of the ROM and EPROM parts.External pullups are required during program verification.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.043,
+      0.556,
+      0.483
+    ],
+    "text": "Port 1: Port 1 is an 8-bit bidirectional I/O port with internal pullups.The Port 1 output buffers can sink/ source 4 LS TTL inputs.Port 1 pins that have 1's written to them are pulled high by the internal pullups,and in that state can be used as inputs.As inputs,Port 1 pins that are externally pulled low will source current (IL on the data sheet) because of the internal pullups.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.566,
+      0.046,
+      0.613,
+      0.483
+    ],
+    "text": "Port 1 also receives the low-order address bytes during programming of the EPROM parts\\_and during program verification of the ROM and EPROM parts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.622,
+      0.043,
+      0.668,
+      0.483
+    ],
+    "text": "In the 8032AH,8052AH and 8752BH,Port 1 pins P1.0 and P1.1 also serve the T2 and T2EX functions,respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:table-11",
+    "page_id": 3,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_3_Table_0.jpg",
+    "bbox_norm": [
+      0.679,
+      0.048,
+      0.773,
+      0.479
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.787,
+      0.043,
+      0.905,
+      0.486
+    ],
+    "text": "Port 2: Port 2 is an 8-bit bidirectional I/O port with internal pullups.The Port 2 output buffers can sink/ source 4 LS TTL inputs.Port 2 pins that have 1's written to them are pulled high by the internal pullups,and in that state can be used as inputs.As inputs,Port 2 pins that are externally pulled low will source current (liL on the data sheet) because of the internal pullups.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.511,
+      0.201,
+      0.953
+    ],
+    "text": "Port 2 emits the high-order address byte during fetches from external Program Memory and during accesses to external Data Memory that use 16-bit addresses (MOVX @DPTR). In this application it uses strong internal pullups when emitting 1's. Duringaccesses to external Data Memory that use 8-bit addresses (MOVX @Ri),Port 2 emits the contents of the P2 Special Function Register.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.513,
+      0.256,
+      0.951
+    ],
+    "text": "Port2 also receives the high-order address bits duringprogramming of the EPROM parts and during program verification of the ROM and EPROM parts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.513,
+      0.327,
+      0.953
+    ],
+    "text": "The protection feature of the 8051AHP causes bits P2.4 through P2.7 to be forced to 0,effectively limiting external Data and Code space to 4K each during external accesses.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-16",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.336,
+      0.513,
+      0.454,
+      0.953
+    ],
+    "text": "Port 3:Port 3 is an 8-bit bidirectional I/O port with internal pullups.The Port 3 output buffers can sink/ source 4 LS TTL inputs.Port 3 pins that have 1's written to them are pulled high by the internal pullups,and in that state can be used as inputs.As inputs,Port 3 pins that are externally pulled low will source current (Ii on the data sheet) because of the pullups.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-17",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.463,
+      0.513,
+      0.496,
+      0.951
+    ],
+    "text": "Port 3 also serves the functions of various special features of the MCS 51 Family,as listed below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:table-18",
+    "page_id": 3,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_3_Table_1.jpg",
+    "bbox_norm": [
+      0.506,
+      0.518,
+      0.679,
+      0.949
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-3:text-19",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.513,
+      0.74,
+      0.953
+    ],
+    "text": "RST: Reset input. A high on this pin for two machine cycles while the oscillator is running resets the device.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-20",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.513,
+      0.825,
+      0.953
+    ],
+    "text": "ALE/PROG: Address Latch Enable output pulse for latching the low byte of the address during accesses to external memory.This pin is also the program pulse input (PROG) during programmingof the EPROM parts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-21",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.836,
+      0.513,
+      0.91,
+      0.953
+    ],
+    "text": "In normal operation ALE is emitted at a constant rate of 1/ the oscillator frequency,and may be used for external timing or clocking purposes.Note,however,that one ALE pulse is skipped during each access to external Data Memory.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.095,
+      0.06,
+      0.127,
+      0.465
+    ],
+    "text": "PSEN: Program Store Enable is the read strobe to external Program Memory.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.06,
+      0.211,
+      0.467
+    ],
+    "text": "When the device is executing code from external Program Memory,PSEN is activated twice each machine cycle,except that two PSEN activations are skipped during each access to external Data Memory.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.221,
+      0.062,
+      0.295,
+      0.467
+    ],
+    "text": "EA/Vpp: External Access enable EA must be strapped to Vss in order to enable any MCS 51 device to fetch code from external Programmemory locations starting at OooOH up to FFFFH.EA must be strapped to $\\bar { \\mathsf { v } } _ { \\mathsf { C C } }$ for internal program execution.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.062,
+      0.352,
+      0.467
+    ],
+    "text": "Note,however, that if the Security Bit in the EPROM devices is programmed,the device will not fetch code from any location in external Program Memory.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.062,
+      0.394,
+      0.467
+    ],
+    "text": "This pin also receives the programming supply voltage (VPP) during programming of the EPROM parts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-6",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.401,
+      0.066,
+      0.635,
+      0.465
+    ],
+    "text": "Figure 3. Oscillator Connections",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.669,
+      0.064,
+      0.686,
+      0.444
+    ],
+    "text": "XTAL1: Input to the inverting oscillator amplifier.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.697,
+      0.062,
+      0.728,
+      0.467
+    ],
+    "text": "XTAL2: Output from the inverting oscillator amplifier.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.064,
+      0.771,
+      0.424
+    ],
+    "text": "OSCILLATOR CHARACTERISTICS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.78,
+      0.062,
+      0.895,
+      0.469
+    ],
+    "text": "XTAL1 and XTAL2 are the input and output, respectively,of an inverting amplifier which can be configured for use as an on-chip oscillator,as shown in Figure 3.Eithera quartz crystal or ceramic resonator may be used.More detailed information concerning the use of the on-chip oscillator is available in Application Note AP-155，“Oscillators for Microcontrollers,\" Order No.230659.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.095,
+      0.495,
+      0.21,
+      0.903
+    ],
+    "text": "To drive the device from an external clock source, XTAL1 should be grounded,while XTAL2 is driven, as shown in Figure 4. There are no requirements on the duty cycle of the external clock signal, since the input to the internal clocking circuitry is through a divide-by-two flip-flop，but minimum and maximum high and low times specified on the data sheet must be observed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-12",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_1.jpg",
+    "bbox_norm": [
+      0.218,
+      0.5,
+      0.437,
+      0.899
+    ],
+    "text": "Figure 4. External Drive Configuration",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.497,
+      0.501,
+      0.688
+    ],
+    "text": "EXPRESS Version",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-14",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.509,
+      0.497,
+      0.596,
+      0.903
+    ],
+    "text": "The Intel EXPRESS system offers enhancements to the operational specifications of the MCS 51 family of microcontrollers. These EXPRESS products are designed to meet the needs of those applications whose operating requirements exceed commercial standards.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-15",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.607,
+      0.497,
+      0.652,
+      0.903
+    ],
+    "text": "The EXPRESS program includes the commercial standard temperature range with burn-in,and an extended temperature range with or without burn-in.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-16",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.663,
+      0.497,
+      0.75,
+      0.905
+    ],
+    "text": "With the commercial standard temperature range, operational characteristics are guaranteed over the temperature range of OC to +70C. With the extended temperature range option, operational characteristics are guaranteed over arange of -40C to $+ 8 5 ^ { \\circ } \\mathsf { C }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-17",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.761,
+      0.497,
+      0.806,
+      0.903
+    ],
+    "text": "The optional burn-in is dynamic,for a minimum time of 160 hours at 125C with ${ \\mathsf { V } } _ { \\mathsf { C C } } = 5 . 5 { \\mathsf { V } } \\pm 0 . 2 5 { \\mathsf { V } } ,$ following guidelines in MIL-STD-883,Method 1015.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-18",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.817,
+      0.497,
+      0.862,
+      0.905
+    ],
+    "text": "Package types and EXPRESS versions are identified by a one- or two-letter prefix to the part number. The prefixesare listed in Table 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-19",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.873,
+      0.5,
+      0.919,
+      0.905
+    ],
+    "text": "For the extended temperature range option，this data sheet specifies the parameters which deviate from their commercial temperature range limits.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.12,
+      0.055,
+      0.319,
+      0.92
+    ],
+    "text": "Table 1. EXPRESS Prefix Identification NOTE: Contact distributor or local sales office to match EXPRESS prefix with proper device.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.055,
+      0.389,
+      0.354
+    ],
+    "text": "DESIGN CONSIDERATIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.389,
+      0.059,
+      0.475,
+      0.472
+    ],
+    "text": "· If an 8751BH or 8752BH is replacing an 8751H in a future design, the user should carefully compare both data sheets for DC or AC Characteristic differences.Note that the ViH and IIH specifications for the EA pin differ significantly between the devices.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.478,
+      0.059,
+      0.552,
+      0.474
+    ],
+    "text": "·Exposure to light when the EPROM device is in operation may cause logic errors.For this reason, it is suggested that an opaque label be placed over the window when the die is exposed to ambient light.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.509,
+      0.441,
+      0.922
+    ],
+    "text": "· The 8051AHP cannot access external Program or Data memory above 4K.This means that the following instructions that use the Data Pointer onlyread/write dataat address locations below OFFFH:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.527,
+      0.467,
+      0.665
+    ],
+    "text": "MOVX A,@DPTR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.527,
+      0.483,
+      0.674
+    ],
+    "text": "MOVX @DPTR，A",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.494,
+      0.525,
+      0.539,
+      0.922
+    ],
+    "text": "When the Data Pointer contains an address above the 4K limit, those locations will not be accessed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.525,
+      0.596,
+      0.922
+    ],
+    "text": "To access Data Memory above 4K， the MOVX @Ri,A or MOvX A,@Ri instructions must be used.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.095,
+      0.035,
+      0.114,
+      0.402
+    ],
+    "text": "ABSOLUTE MAXIMUM RATINGS\\*",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.122,
+      0.035,
+      0.253,
+      0.463
+    ],
+    "text": "Ambient Temperature Under Bias.-40C to +85CStorage Temperature -65℃ to +150CVoltage on EA/Vpp Pin to Vss8751H.. -0.5V to +21.5V8751BH/8752BH .-0.5V to +13.0VVoltage on Any Other Pin to Vss ....-0.5V to +7VPower Dissipation.. ...1.5W",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.097,
+      0.496,
+      0.14,
+      0.908
+    ],
+    "text": "NOTICE: This is a production data sheet. It is valid for the devices indicated in the revision history.The specifications are subject to change without notice.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.489,
+      0.228,
+      0.914
+    ],
+    "text": "\\*WARNiNG:Stressing the device beyond the “Absolute Maximum Ratings\"may causepermanent damage. These are stressratings only.Operation beyond the \"Operating Conditions”is not recommended and extendedexposurebeyondthe\"OperatingConditions\" mayaffectdevicereliability.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.038,
+      0.284,
+      0.326
+    ],
+    "text": "OPERATING CONDITIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-6",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.284,
+      0.038,
+      0.381,
+      0.91
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:table-7",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.439,
+      0.038,
+      0.83,
+      0.91
+    ],
+    "text": "DC CHARACTERISTICS\\_ (Over Operating Conditions) All parametervaluesapplytoall devicesunlessotherwise indicated",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.064,
+      0.11,
+      0.537
+    ],
+    "text": "DC CHARACTERISTICS (Over Operating Conditions)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-2",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.135,
+      0.068,
+      0.374,
+      0.905
+    ],
+    "text": "All parameter values apply to all devices unless otherwise indicated (Continued)",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.068,
+      0.396,
+      0.129
+    ],
+    "text": "NOTES:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.066,
+      0.457,
+      0.907
+    ],
+    "text": "1.Capacive loadingon Ports Oand 2 may cause spurious noise pulses to be superimposed on the VoLs of ALE/PROG andPorts1and3.Thenoiseisduetoexternalbus capacitancedischarging intothePortOandPort2pins whenthesepins make1-to-O transitions during bus operations.In the worst cases (capacitive loading>10opF),the noise pulse on the ALE/PROG pinmay exceedO.8V.Insuchcasesitmaybedesirable toqualifyALEwitha SchmittTrigger,oruseanaddress latch with a Schmitt Trigger STROBE input.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.455,
+      0.066,
+      0.47,
+      0.83
+    ],
+    "text": "2.ALE/PROG refers to'a pinon the8751BH.ALErefers toatiming signal that isoutputon the ALE/PROG pin.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.47,
+      0.066,
+      0.484,
+      0.679
+    ],
+    "text": "3.Under steady state (non-transient) conditions,loL must be externally limited as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.484,
+      0.083,
+      0.496,
+      0.27
+    ],
+    "text": "Maximum loL per port pin:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.376,
+      0.495,
+      0.425
+    ],
+    "text": "10 mA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.496,
+      0.083,
+      0.509,
+      0.281
+    ],
+    "text": "Maximum loL per 8-bit port -",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.506,
+      0.288,
+      0.52,
+      0.425
+    ],
+    "text": "Port 0: 26mA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.518,
+      0.215,
+      0.534,
+      0.427
+    ],
+    "text": "Ports 1,2,and 3: 15 mA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.533,
+      0.081,
+      0.547,
+      0.427
+    ],
+    "text": "Maximum total loL for all output pins: 71mA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-13",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.066,
+      0.572,
+      0.905
+    ],
+    "text": "If loLexceeds the testcondition,Volmayexceedtherelated specification.Pinsarenot guaranteedtosinkcurrentgreater than the listed test conditions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.05,
+      0.107,
+      0.461
+    ],
+    "text": "EXPLANATION OF THE AC SYMBOLS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.117,
+      0.05,
+      0.205,
+      0.466
+    ],
+    "text": "Each timing symbol has 5 characters.The first character is always a'T'(stands for time).The other characters,depending on their positions,stand for the name of a signal or the logical status of that signal. The following is a list of all the characters and what they stand for.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.216,
+      0.07,
+      0.232,
+      0.168
+    ],
+    "text": "A: Address",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.07,
+      0.246,
+      0.148
+    ],
+    "text": "C: Clock",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.245,
+      0.07,
+      0.261,
+      0.185
+    ],
+    "text": "D: Input Data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.259,
+      0.07,
+      0.275,
+      0.236
+    ],
+    "text": "H: Logic level HIGH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.273,
+      0.07,
+      0.291,
+      0.398
+    ],
+    "text": "I: Instruction (program memory contents)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.512,
+      0.218,
+      0.763
+    ],
+    "text": "L: Logic level LOW,or ALE  \nP: PSEN  \nQ: Output data  \nR:RD signal  \nT: Time  \nV: Valid  \nW: WR signal  \nX: No longer a valid logic level  \nZ: Float",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.494,
+      0.245,
+      0.608
+    ],
+    "text": "For example,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.514,
+      0.287,
+      0.899
+    ],
+    "text": "TAVLL = Time from Address Valid to ALE Low.   \nTLLPL = Time from ALE Low to PSEN Low.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.05,
+      0.34,
+      0.901
+    ],
+    "text": "AC CHARACTERISTICS (Under Operating Conditions; Load Capacitance for Port 0,ALE/PROG,and PSEN = 100 pF; Load Capacitance for Al Other Outputs = 80 pF)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-12",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_0.jpg",
+    "bbox_norm": [
+      0.379,
+      0.054,
+      0.912,
+      0.908
+    ],
+    "text": "EXTERNAL PROGRAM MEMORY CHARACTERISTICS \\*The8751H-8is identical tothe8751Hbutonlyoperates up to8MHz.Whencalculating theAC Characteristics for the 8751H-8,use the 8751H formula for variable oscillators. NOTE:",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-10:figure-1",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_0.jpg",
+    "bbox_norm": [
+      0.113,
+      0.063,
+      0.329,
+      0.908
+    ],
+    "text": "EXTERNAL PROGRAM MEMORY READ CYCLE",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:figure-2",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_1.jpg",
+    "bbox_norm": [
+      0.379,
+      0.063,
+      0.62,
+      0.908
+    ],
+    "text": "EXTERNAL DATA MEMORY READ CYCLE",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:figure-3",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_2.jpg",
+    "bbox_norm": [
+      0.67,
+      0.065,
+      0.918,
+      0.908
+    ],
+    "text": "EXTERNAL DATA MEMORY WRITE CYCLE",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:table-1",
+    "page_id": 11,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_11_Table_0.jpg",
+    "bbox_norm": [
+      0.124,
+      0.073,
+      0.343,
+      0.911
+    ],
+    "text": "SERIAL PORT TIMING一SHIFT REGISTER MODE Test Conditions: Over Operating Conditions; Load Capacitance = 80 pF",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-11:figure-2",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.386,
+      0.077,
+      0.61,
+      0.909
+    ],
+    "text": "SHIFT REGISTER MODE TIMING WAVEFORMS",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:table-1",
+    "page_id": 12,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_12_Table_0.jpg",
+    "bbox_norm": [
+      0.114,
+      0.071,
+      0.263,
+      0.917
+    ],
+    "text": "EXTERNAL CLOCK DRIVE",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-12:figure-2",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.321,
+      0.171,
+      0.446,
+      0.817
+    ],
+    "text": "EXTERNAL CLOCK DRIVE WAVEFORM",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:figure-3",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_1.jpg",
+    "bbox_norm": [
+      0.51,
+      0.076,
+      0.598,
+      0.476
+    ],
+    "text": "AC TESTING INPUT, OUTPUT WAVEFORM",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:equation-4",
+    "page_id": 12,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_12_Equation_0.jpg",
+    "bbox_norm": [
+      0.608,
+      0.156,
+      0.619,
+      0.18
+    ],
+    "text": "$$\n\" 0 ^ { \\dag }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.07,
+      0.108,
+      0.369
+    ],
+    "text": "EPROM CHARACTERISTICS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-2",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.132,
+      0.073,
+      0.209,
+      0.911
+    ],
+    "text": "Table 3. EPROM Programming Modes NOTE: “1\"= logic high for that pin \"0\"= logic low for that pin \"VPP\"= +21V ±0.5V \"X”= “don't care\" \\*ALE is pulsed low for 50 ms.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.07,
+      0.296,
+      0.363
+    ],
+    "text": "PROGRAMMING THE 8751H",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.07,
+      0.493,
+      0.479
+    ],
+    "text": "To be programmed, the part must be running with a 4 to 6 MHz oscillator. (The reason the oscillator needs to be running is that the internal bus is being used to transfer address and program data to appropriate internal registers.) Theaddress of an EPROM iocation to be programmed is applied to Port 1 and pins P2.0-P2.3 of Port 2,while the code byte to be programmed into that location is\\_applied to Port 0. The other Port2 pins,andRST,PSEN,and EA/Vpp should be held at the\"Program\"levels indicated in Table 3. ALE/PROG is pulsed low for 50 ms to program the code byte into the addressed EPROM location. The setup is shown in Figure 5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.503,
+      0.07,
+      0.591,
+      0.479
+    ],
+    "text": "Normally EA/Vpp\\_is heldat a logic high\\_until just before ALE/PROG is to be pulsed.Then EA/Vpp is raised to +21V，ALE/PROG is pulsed,and then EA/Vpp is returned to a logic high.Waveforms and detailed timing specifications are shown in later sections of this data sheet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-6",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.6,
+      0.077,
+      0.876,
+      0.475
+    ],
+    "text": "Figure 5. Programming Configuration",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.274,
+      0.505,
+      0.362,
+      0.913
+    ],
+    "text": "Note that the EA/VPP pin must not be allowed to go above the maximum specified VPP level of 21.5V for any amount of time. Even a narrow glitch above that voitage level can cause permanent damage to the device. The VPP source should be well regulated and free of glitches.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.384,
+      0.507,
+      0.402,
+      0.726
+    ],
+    "text": "Program Verification",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-9",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.41,
+      0.505,
+      0.555,
+      0.916
+    ],
+    "text": "If the Security Bit has not been programmed,the onchip Program Memory can be read out for verification purposes,if desired,either during or after the programming operation.The address of the Program Memory location to beread isapplied to Port1and pins P2.0-P2.3.The other pins should be held at the \"Verify\"levels indicated in Table 3.The contents of the addressed location will come out on Port 0. External pullups are required on Port O for this operation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.507,
+      0.623,
+      0.913
+    ],
+    "text": "The setup,which is shown in Figure 6,is the same as for programming the EPROM except that pin P2.7 is held at a logic low,or may be used as an activelow read strobe.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-11",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_1.jpg",
+    "bbox_norm": [
+      0.632,
+      0.511,
+      0.894,
+      0.911
+    ],
+    "text": "Figure 6. Program Verification",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.094,
+      0.05,
+      0.113,
+      0.23
+    ],
+    "text": "EPROM Security",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.05,
+      0.251,
+      0.467
+    ],
+    "text": "The security feature consists of a \"locking\"bit which when programmed denies electrical access by any external means to the on-chip Program Memory. The bit is programmed as shown in Figure 7. The setup and procedure are the same as for normal EPROM programming,except that P2.6 is held at a logic high.Port 0,Port 1and pins P2.0-P2.3 may be in any state. The other pins should be held at the “Security\" levels indicated in Table 3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.05,
+      0.378,
+      0.467
+    ],
+    "text": "Once the Security Bit has been programmed,it can becleared only by full erasure of the Program Memory.While it is programmed, the internal Program Memory can not be read out, the device can not be further programmed, and it can not execute out of external program memory. Erasing the EPROM, thus clearing the Security Bit, restores the device's full functionality. It can then be reprogrammed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.404,
+      0.05,
+      0.421,
+      0.304
+    ],
+    "text": "Erasure Characteristics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.05,
+      0.575,
+      0.467
+    ],
+    "text": "Erasure of the EPROM begins to occur when the device is exposed to light with wavelengths shorter thanapproximately4,0oo Angstroms.Since sunlight and fluorescent lighting have wavelengths in this range,exposure to these light sources over an extended time (about 1 week in sunlight,or3 years in room-level fluorescent lighting) couid cause inadvertent erasure.If an application subjects the device to this type of exposure,it is suggested that an opaque label be placed over the window.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-6",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.086,
+      0.497,
+      0.389,
+      0.907
+    ],
+    "text": "Figure 7. Programming the Security Bit",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.421,
+      0.493,
+      0.511,
+      0.912
+    ],
+    "text": "The recommended erasure procedure is exposure to ultraviolet light (at 2537 Angstroms) to an integrated dose of at least 15 W-sec/cm2.Exposing the EPROM to an ultraviolet lamp of 12,000 μW/cm2 rating for 20 to 30 minutes,at a distance of about 1 inch,should be sufficient.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.495,
+      0.537,
+      0.842
+    ],
+    "text": "Erasure leaves the array in an all 1's state.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:table-9",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_0.jpg",
+    "bbox_norm": [
+      0.633,
+      0.052,
+      0.919,
+      0.91
+    ],
+    "text": "EPROM PROGRAMMING AND VERIFICATION CHARACTERISTICS TA = 21°C to 27°C; VCC = 5V ±10%; VSS = 0V",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-15:figure-1",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_0.jpg",
+    "bbox_norm": [
+      0.11,
+      0.077,
+      0.525,
+      0.909
+    ],
+    "text": "EPROM PROGRAMMING AND VERIFICATION WAVEFORMS",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.066,
+      0.127,
+      0.424
+    ],
+    "text": "Programming the 8751BH/8752BH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.133,
+      0.064,
+      0.32,
+      0.474
+    ],
+    "text": "To be programmed,the 875XBH must be running with a 4 to6 MHz oscillator. (The reason the oscillator needs to be running is that the internal bus is being used to transfer address and program data to appropriate internal registers.）The address of an EPROM location tobe programmed isapplied to Port 1 and pins P2.0 - P2.4 of Port 2,while the code byte to be programmed into that location is applied to\\_Port O.The other Port 2 and 3 pins,and RST, PSEN,and EA/Vpp should be held at the “Program\" levels indicated in Table 1.ALE/PROG is pulsed low to program the code byte into the addressed EPROM location. The setup is shown in Figure 8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.5,
+      0.219,
+      0.907
+    ],
+    "text": "Normally $E A / V _ { P P }$ is held at a logic high until just before ALE/PROG is to be pulsed.Then $\\overline { E A } / \\vee \\mathsf { _ { P P } }$ is raised to Vpp,ALE/PROG is pulsed low,and then EA/Vpp is returned to a valid high voltage.The voltage on the EA/Vpp pin must be at the valid EA/Vpp high level before a verify is attempted.Waveforms and detailed timing specifications are shown in later sections of this data sheet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.23,
+      0.5,
+      0.317,
+      0.907
+    ],
+    "text": "Note that the EA/Vpp pin must not be allowed to go above the maximum specified Vpp level for any amount of time. Even a narrow glitch above that voltage level can cause permanent damage to the device.The Vpp source should be well regulated and free of glitches.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-5",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.325,
+      0.07,
+      0.591,
+      0.903
+    ],
+    "text": "Figure 8. Programming the EPROM",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:table-6",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_0.jpg",
+    "bbox_norm": [
+      0.643,
+      0.068,
+      0.823,
+      0.903
+    ],
+    "text": "Table 4. EPROM Programming Modes for 875XBH NOTES: \"1\" = Valid high for that pin \"0\"= Valid low for that pin \"Vpp\"= +12.75V ±0.25V \\*ALE/PROG ispulsed low for 100 uS for programming. (Quick-Pulse Programming)",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.097,
+      0.07,
+      0.131,
+      0.399
+    ],
+    "text": "QUICK-PULSE PROGRAMMING ALGORITHM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.068,
+      0.256,
+      0.476
+    ],
+    "text": "The 875XBH can be programmed using the Quick-Pulse Programming Algorithm for microcontrollers. The features of the new programming method are a lower Vpp (12.75 volts as compared to 21 volts) and a shorter programming pulse.For example, it is possible to program the entire 8 Kbytes of 875XBH EPROM memory in less than 25 seconds with this algorithm!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.068,
+      0.425,
+      0.478
+    ],
+    "text": "To program the part using the new algorithm,Vpp must be 12.75 ±0.25 Volts.ALE/PROG is pulsed low for 100 μseconds，25 times as shown in Figure 9. Then, the byte just programmed may be verified.After programming, the entire array should be verified.The Program Lock features are programmed using the same method, but with the setup as shown in Table 4.The only difference in programming Lock features is that the Lock features cannot be directly verified. Instead,verification of programming is by observing that their features are enabled.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.097,
+      0.506,
+      0.115,
+      0.785
+    ],
+    "text": "PROGRAM VERIFICATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-5",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.123,
+      0.504,
+      0.325,
+      0.912
+    ],
+    "text": "If the Lock Bits have not been programmed, the onchip Program Memory can be read out for verification purposes,if desired,either during or after the programming operation.The address of the Program Memory location to be read isapplied to Port 1 and pins P2.0 - P2.4. The other pins should be held at the“Verify” levels indicated in Table 1. The contents of the addressed location will come out on Port 0.External pullups are required on Port O for this operation. (if the Encryption Array in the EPROM has been programmed, the data present at Port 0 will be Code Data XNOR Encryption Data.The user must know the Encryption Array contents to manually \"unencrypt\"the data during verify.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-6",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.334,
+      0.504,
+      0.394,
+      0.912
+    ],
+    "text": "The setup,which is shown in Figure 10, is the same as for programming the EPROM except that pin P2.7 is held at a logic low, or may be used as an active low read strobe.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-7",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.433,
+      0.072,
+      0.89,
+      0.909
+    ],
+    "text": "Figure 10. Verifying the EPROM",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.069,
+      0.111,
+      0.36
+    ],
+    "text": "PROGRAM MEMORY LOCK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.066,
+      0.181,
+      0.477
+    ],
+    "text": "The two-level Program Lock system consists of 2 Lock bits and a 32-byte Encryption Array which are used to protect the program memory against software piracy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.205,
+      0.069,
+      0.223,
+      0.302
+    ],
+    "text": "ENCRYPTION ARRAY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-4",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.069,
+      0.364,
+      0.477
+    ],
+    "text": "Within the EPROMarrayare 32 bytes of Encryption Array that are initially unprogrammed (all 1s). Every time that a byte is addressed duringa verify,5 address lines are used to select a byte of the Encryption Array.This byte is then exclusive-NORed (XNOR) with the code byte,creating an Encrypted Verify byte.The algorithm,with the array in the unprogrammed state (all 1s),will return the code in its original,unmodified form.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-5",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.373,
+      0.069,
+      0.421,
+      0.477
+    ],
+    "text": "It is recommended that whenever the Encryption Array is used,at least one of the Lock Bits be programmed as well.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-6",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.069,
+      0.463,
+      0.196
+    ],
+    "text": "LOCK BITS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-7",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.471,
+      0.069,
+      0.515,
+      0.477
+    ],
+    "text": "Also included in the EPROM Program Lock scheme are two Lock Bits which function as shown in Table 5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-8",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.528,
+      0.069,
+      0.575,
+      0.477
+    ],
+    "text": "Erasing the EPROM also erases the Encryption Array and the Lock Bits,returning the part to full unlocked functionality.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-9",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.069,
+      0.63,
+      0.479
+    ],
+    "text": "To ensure proper functionality of the chip, the internally latched value of the EA pin must agree with its external state.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:table-10",
+    "page_id": 18,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_18_Table_0.jpg",
+    "bbox_norm": [
+      0.108,
+      0.509,
+      0.383,
+      0.913
+    ],
+    "text": "Table 5. Lock Bits and their Features P = Programmed U = Unprogrammed",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-18:text-11",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.507,
+      0.457,
+      0.879
+    ],
+    "text": "READING THE SIGNATURE BYTES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-12",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.466,
+      0.507,
+      0.525,
+      0.915
+    ],
+    "text": "The signature bytes are read by the same procedure as a normal verification of locations O3oH and 031H, except that P3.6 and P3.7 need to be pulled to a logic low. The values returned are:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-13",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.526,
+      0.531,
+      0.544,
+      0.9
+    ],
+    "text": "(030H) = 89H indicates manufactured by Intel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-14",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.531,
+      0.582,
+      0.796
+    ],
+    "text": "(031H)= 51H indicates 8751BH 52Hindicates 8752BH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.068,
+      0.124,
+      0.393
+    ],
+    "text": "ERASURE CHARACTERISTICS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.133,
+      0.068,
+      0.248,
+      0.479
+    ],
+    "text": "Erasure of the EPROM begins to occur when the 8752BH is exposed to light with wavelengths shorter than approximately4,Ooo Angstroms. Since sunlight and fluorescent lighting have wavelengths in this range,exposure to these light sources over an extended time (about 1 week in sunlight,or 3 years in room-level fluorescent lighting) could cause inadvertent erasure.If anapplication subjects the device to this type of exposure,it is suggested that an opaque label be placed over the window.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.144,
+      0.503,
+      0.231,
+      0.913
+    ],
+    "text": "The recommended erasure procedure is exposure to ultraviolet light (at 2537 Angstroms) to an integrated dose of at lease 15 W-sec/cm.Exposing the EPROM to an ultraviolet lamp of 12,000 μW/cm rating for 30 minutes,at a distance of about 1 inch, should be sufficient.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.505,
+      0.258,
+      0.84
+    ],
+    "text": "Erasure leaves the array in an al 1s state.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:table-6",
+    "page_id": 19,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_19_Table_0.jpg",
+    "bbox_norm": [
+      0.317,
+      0.073,
+      0.631,
+      0.911
+    ],
+    "text": "EPROM PROGRAMMING AND VERIFICATION CHARACTERISTICS (TA = 21°C to 27C,Vcc = 5.0V ±10%,Vss = 0V)",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-19:text-7",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.658,
+      0.073,
+      0.677,
+      0.698
+    ],
+    "text": "EPROM PROGRAMMING AND VERIFICATION WAVEFORMS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-8",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.679,
+      0.077,
+      0.913,
+      0.909
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.095,
+      0.069,
+      0.116,
+      0.432
+    ],
+    "text": "DATA SHEET REVISION HISTORY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.124,
+      0.067,
+      0.157,
+      0.917
+    ],
+    "text": "Datasheetsare changed as new device information becomes available.Verify with your local Intel sales office that you have the latest version before finalizing a design or ordering devices.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.166,
+      0.069,
+      0.183,
+      0.917
+    ],
+    "text": "The following diferences exist between this datasheet (272318-002)and the previous version (272318-001):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.185,
+      0.069,
+      0.202,
+      0.898
+    ],
+    "text": "1.Removed QP and QD (commercial with extended burn-in) rom Table 1.EXPRESS Prefix Identification.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.069,
+      0.231,
+      0.571
+    ],
+    "text": "This datasheet (272318-001) replaces the following datasheets:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-6",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.232,
+      0.093,
+      0.25,
+      0.376
+    ],
+    "text": "MCS@ 51 Controllers (270048-007)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-7",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.093,
+      0.268,
+      0.287
+    ],
+    "text": "8051AHP (270279-004)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.27,
+      0.093,
+      0.287,
+      0.277
+    ],
+    "text": "8751BH (270248-005)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.093,
+      0.306,
+      0.359
+    ],
+    "text": "8751BH EXPRESS (270708-001)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.308,
+      0.093,
+      0.325,
+      0.274
+    ],
+    "text": "8752BH (270429-004)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-11",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.327,
+      0.093,
+      0.344,
+      0.359
+    ],
+    "text": "8752BH EXPRESS (270650-002)",
+    "source_type": "text"
+  }
+]

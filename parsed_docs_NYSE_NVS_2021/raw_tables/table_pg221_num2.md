@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">(USD millions)</td><td colspan="2">Balance sheet value</td></tr><tr><td>December31, 2021</td><td>December 31, 2020</td></tr><tr><td>Roche Holding AG, Switzerland</td><td></td><td>9407</td></tr><tr><td>Others</td><td>205</td><td>225</td></tr><tr><td>Total</td><td>205</td><td>9 632</td></tr></table>

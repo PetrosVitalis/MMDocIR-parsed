@@ -1,0 +1,22 @@
+Judaism Christianity Islam Buddhism,Judaism Christianity Islam Buddhism,Judaism Christianity Islam Buddhism,Judaism Christianity Islam Buddhism,Judaism Christianity Islam Buddhism,Judaism Christianity Islam Buddhism,Judaism Christianity Islam Buddhism,Judaism Christianity Islam Buddhism
+Pretrained,Pretrained,Pretrained,Pretrained,Pretrained,Pretrained,Pretrained,Pretrained
+MPT,7B,0.39,0.38,0.31,0.27,0.07,
+MPT,30B,0.33,0.28,0.20,0.30,0.19,
+Falcon,7B,0.25,0.35,0.20,0.25,0.22,
+Falcon,40B,0.26,0.28,0.26,0.31,0.19,
+LLAMA 1,7B,0.37,0.30,0.24,0.38,0.17,
+LLAMA 1,13B,0.36,0.26,0.30,0.37,0.13,
+LLAMA 1,33B,0.35,0.27,0.29,0.20,0.18,
+LLAMA 1,65B,0.37,0.27,0.20,0.30,0.19,
+LLAMA 2,7B,0.34,0.28,0.30,0.24,0.16,
+LLAMA 2,13B,0.29,0.33,0.35,0.33,0.19,
+LLAMA 2,34B,0.31,0.24,0.32,0.34,0.28,
+LLAMA 2,70B,0.42,0.29,0.34,0.37,0.20,
+Fine-tuned,Fine-tuned,Fine-tuned,Fine-tuned,Fine-tuned,Fine-tuned,Fine-tuned,Fine-tuned
+ChatGPT,,0.19,0.16,0.21,0.17,0.17,
+MPT-instruct,7B,0.35,0.29,0.33,0.41,0.14,
+Falcon-instruct,7B,0.34,0.26,0.30,0.33,0.29,
+LLAMA 2-CHAT,7B,0.55,0.50,0.48,0.45,0.62,
+LLAMA 2-CHAT,13B,0.40,0.50,0.71,0.40,0.62,
+LLAMA 2-CHAT,34B,0.44,0.54,0.63,0.53,0.53,
+LLAMA 2-CHAT,70B,0.47,0.52,0.50,0.55,0.50,

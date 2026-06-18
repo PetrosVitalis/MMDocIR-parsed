@@ -1,0 +1,19 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95",
+  "total_images": 2,
+  "non_figure_images_skipped": 0,
+  "processed": 2,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_14_Figure_0.jpg",
+      "output": "image_descriptions/_page_14_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Figure_0.jpg",
+      "output": "image_descriptions/_page_5_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

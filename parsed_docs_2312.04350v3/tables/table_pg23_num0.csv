@@ -1,0 +1,11 @@
+Size,Total,Rung 1,Rung 2,Rung 3
+# Samples,"10,560",3,288,"3,288,3,984"
+Question,,6.85,6.00,"7.00,7.25"
+", # Sentences/Sample",,6.85,6.00,"7.00,7.25"
+", # Words/Sample",94.47,76.41,96.84,103.42
+", # Nodes/Graph",,3.54,3.54,"3.55,3.54"
+", # Edges/Graph",3.44,3.41,3.43,3.46
+Answer,,50,50,"50,50"
+Explanations,,13.11,12.04,
+", # Sentences/Sample",,13.11,12.04,"13.76,13.83"
+", # Words/Sample",146.82,141.88,147.88,151.30

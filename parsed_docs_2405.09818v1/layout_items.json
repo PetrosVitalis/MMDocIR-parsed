@@ -1,0 +1,3796 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.098,
+      0.138,
+      0.146,
+      0.857
+    ],
+    "text": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.155,
+      0.138,
+      0.17,
+      0.277
+    ],
+    "text": "Chameleon Team1,∗",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.138,
+      0.191,
+      0.253
+    ],
+    "text": "1FAIR at Meta",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.193,
+      0.138,
+      0.208,
+      0.446
+    ],
+    "text": "∗See Contributions section for full author list.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.137,
+      0.409,
+      0.861
+    ],
+    "text": "We present Chameleon, a family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence. We outline a stable training approach from inception, an alignment recipe, and an architectural parameterization tailored for the early-fusion, token-based, mixed-modal setting. The models are evaluated on a comprehensive range of tasks, including visual question answering, image captioning, text generation, image generation, and long-form mixed modal generation. Chameleon demonstrates broad and general capabilities, including state-of-the-art performance in image captioning tasks, outperforms Llama-2 in text-only tasks while being competitive with models such as Mixtral 8x7B and Gemini-Pro, and performs non-trivial image generatio",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.424,
+      0.138,
+      0.439,
+      0.272
+    ],
+    "text": "Date: May 17, 2024",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-7",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.412,
+      0.808,
+      0.44,
+      0.857
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.111,
+      0.501,
+      0.271
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.515,
+      0.107,
+      0.654,
+      0.887
+    ],
+    "text": "Recent multimodal foundation models are very widely adopted but still model different modalities separately, often using modality specific encoders or decoders. This can limit their ability to integrate information across modalities and generate multimodal documents that can contain arbitrary sequences of images and text. In this paper, we present Chameleon, a family of mixed-modal foundation models capable of generating and reasoning with mixed sequences of arbitrarily interleaved textual and image content (Figures 2-4). This allows for full multimodal document modeling, which is a direct generalization of standard multimodal tasks such as image generation, understanding and reasoning over images, and text-only LLMs. Chameleon is instead designed to be mixed-model from inception and uses ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.107,
+      0.781,
+      0.887
+    ],
+    "text": "Our unified approach uses fully token-based representations for both image and textual modalities (Figure 1). By quantizing images into discrete tokens, analogous to words in text, we can apply the same transformer architecture to sequences of both image and text tokens, without the need for separate image/text encoders (Alayrac et al., 2022; Liu et al., 2023b; Laurençon et al., 2023) or domain-specific decoders (Ramesh et al., 2022; Jin et al., 2023; Betker et al., 2023). This early-fusion approach, where all modalities are projected into a shared representational space from the start, allows for seamless reasoning and generation across modalities. However, it also presents significant technical challenges, particularly in terms of optimization stability and scaling.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.787,
+      0.107,
+      0.895,
+      0.887
+    ],
+    "text": "We address these challenges through a combination of architectural innovations and training techniques. We introduce novel modifications to the transformer architecture, such as query-key normalization and revised placement of layer norms, which we find to be crucial for stable training in the mixed-modal setting (Section 2.3). We further show how to adapt the supervised finetuning approaches used for text-only LLMs to the mixed-modal setting, enabling strong alignment at scale (Section 3). Using these techniques, we successfully train Chameleon-34B on 5x the number of tokens as Llama-2 – enabling new mixed-modal applications while still matching or even outperforming existing LLMs on unimodal benchmarks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.08,
+      0.116,
+      0.396,
+      0.879
+    ],
+    "text": "Figure 1 Chameleon represents all modalities — images, text, and code, as discrete tokens and uses a uniform transformer-based architecture that is trained from scratch in an end-to-end fashion on ∼10T tokens of interleaved mixed-modal data. As a result, Chameleon can both reason over, as well as generate, arbitrary mixed-modal documents. Text tokens are represented in green and image tokens are represented in blue.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.488,
+      0.109,
+      0.58,
+      0.887
+    ],
+    "text": "Extensive evaluations demonstrate that Chameleon is a broadly capable model on a diverse set of tasks. On visual question answering and image captioning benchmarks, Chameleon-34B achieves state-of-the-art performance, outperforming models like Flamingo, IDEFICS and Llava-1.5 (Section 5.2). At the same time, it maintains competitive performance on text-only benchmarks, matching models like Mixtral 8x7B and Gemini-Pro on commonsense reasoning and reading comprehension tasks (Section 5.1). But perhaps most impressively, Chameleon unlocks entirely new capabilities in terms of mixed-modal reasoning and generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.109,
+      0.664,
+      0.887
+    ],
+    "text": "As using only static, public benchmarks to evaluate model performance could be limited (Schaeffer, 2023), we also conduct a carefully designed human evaluation experiment by measuring the quality of mixed-modal long form responses to open-ended prompts. Chameleon-34B substantially outperforms strong baselines like Gemini-Pro and GPT-4V (Section 4), achieving a 60.4% preference rate against Gemini-Pro and a 51.6% preference rate against GPT-4V in pairwise comparisons.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.111,
+      0.685,
+      0.488
+    ],
+    "text": "In summary, we present the following contributions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.693,
+      0.133,
+      0.738,
+      0.887
+    ],
+    "text": "• We present Chameleon, a family of early-fusion token-based mixed-modal models capable of reasoning over and generating interleaved image-text documents, setting a new bar for open multimodal foundation models.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.133,
+      0.776,
+      0.885
+    ],
+    "text": "• We introduce architectural innovations and training techniques that enable the stable and scalable training of early-fusion token-based models, addressing key challenges in mixed-modal learning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.135,
+      0.829,
+      0.887
+    ],
+    "text": "• Through extensive evaluations, we demonstrate state-of-the-art performance across a diverse set of vision-language benchmarks, while maintaining competitive performance on text-only tasks, and high quality image generation, all in the same model.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.133,
+      0.867,
+      0.887
+    ],
+    "text": "• We conduct the first large-scale human evaluation on open-ended mixed-modal reasoning and generation, demonstrating the unique capabilities of Chameleon in this new setting.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.872,
+      0.109,
+      0.905,
+      0.887
+    ],
+    "text": "Chameleon represents a significant step towards realizing the vision of unified foundation models capable of flexibly reasoning over and generating multimodal content.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.215,
+      0.124,
+      0.248,
+      0.872
+    ],
+    "text": "Prompt: I’m bored. Could you show me some cool, quirky-looking birds? Also tell me about them in 2–3 sentences.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-2",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.261,
+      0.129,
+      0.405,
+      0.315
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.323,
+      0.29,
+      0.87
+    ],
+    "text": "Response: Absolutely! Here are three birds with some unique features that you might find interesting:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.301,
+      0.323,
+      0.41,
+      0.872
+    ],
+    "text": "Keel-Billed Toucan The Keel-Billed Toucan is a brightly colored bird native to South American rainforests and woodlands. Its most distinctive feature is its colorful beak, which can grow up to seven inches long and has a distinctive, curved shape. The beak is used for plucking fruit from trees and for social displays. Despite its large size, the Keel-Billed Toucan is a skilled flyer and can often be seen flitting through the treetops. Here is an image of this vibrant bird: <img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.42,
+      0.124,
+      0.529,
+      0.687
+    ],
+    "text": "Puffin Puffins are small, aquatic birds that are found in the northern hemisphere. They have distinctive black and white feathers, as well as a brightly colored beak that is used for attracting mates and defending their territory. Puffins are known for their distinctive \"puffin\" call, which sounds like a loud, guttural chuckle. They feed on fish, which they catch by diving into the water from the air. Puffins are colonial birds, and they breed in large colonies on rocky cliffs and islands. Here is an image of this adorable bird: <img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-6",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_1.jpg",
+    "bbox_norm": [
+      0.409,
+      0.687,
+      0.54,
+      0.857
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:figure-7",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_2.jpg",
+    "bbox_norm": [
+      0.546,
+      0.129,
+      0.679,
+      0.299
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.3,
+      0.672,
+      0.862
+    ],
+    "text": "Golden Pheasant The Golden Pheasant is a brightly colored bird native to the forests of China. It is a member of the pheasant family and is known for its striking plumage, which features a golden-yellow body, red face, and green tail feathers. The Golden Pheasant is a ground-dwelling bird, and it feeds on a diet of insects, seeds, and fruits. It is a popular game bird, and is often hunted for its meat and feathers. In captivity, the Golden Pheasant is sometimes kept as an ornamental bird, due to its striking appearance. Here is an image of this beautiful bird: <img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.691,
+      0.125,
+      0.724,
+      0.869
+    ],
+    "text": "I hope these images and descriptions have helped to brighten your day! If you have any other questions or requests, please don’t hesitate to ask.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.111,
+      0.781,
+      0.883
+    ],
+    "text": "Figure 2 Sample interleaved image and text generation from Chameleon. The corresponding images are generated in locations marked by <img>.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.08,
+      0.111,
+      0.101,
+      0.272
+    ],
+    "text": "2 Pre-Training",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.113,
+      0.109,
+      0.176,
+      0.885
+    ],
+    "text": "Chameleon represents images, in addition to text, as a series of discrete tokens and takes advantage of the scaling properties of auto-regressive Transformers (Ramesh et al., 2021; Aghajanyan et al., 2022, 2023; Yu et al., 2023). We present any ordering of images and text during training ranging from text-only, to single text/image pairs to full interleaved text-image documents.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-3",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.198,
+      0.127,
+      0.32,
+      0.3
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.207,
+      0.31,
+      0.238,
+      0.87
+    ],
+    "text": "Prompt: <img> While chameleons are masters of camouflage in the natural world, let’s see how they might fare in a man-made setting.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.238,
+      0.31,
+      0.268,
+      0.87
+    ],
+    "text": "1. Analyze the colors, patterns, and textures in this image and identify the most challenging spot for a chameleon to blend in.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.31,
+      0.297,
+      0.87
+    ],
+    "text": "2. Then generate an image of a chameleon with the optimal pattern to camouflage itself.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.297,
+      0.31,
+      0.314,
+      0.869
+    ],
+    "text": "3. Then, rate and explain how successful each attempt is on a scale from 1-10.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.125,
+      0.381,
+      0.872
+    ],
+    "text": "Response: The image is of a stop sign in a forested area, with some sunlight filtering through the trees.   \nThe sign has a red octagonal shape with a white border and the word \"STOP\" written in white letters.   \nIn the background, there are green leaves and trees.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.124,
+      0.44,
+      0.87
+    ],
+    "text": "Challenging Spot for a Chameleon: The stop sign would be the most challenging spot for a chameleon to blend in due to its bright red color and bold white letters, which would stand out in the forested environment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.454,
+      0.125,
+      0.486,
+      0.87
+    ],
+    "text": "Optimal Pattern for Camouflage: To camouflage itself on the stop sign, a chameleon would need to have a pattern that would break up its outline and make it less conspicuous. A pattern with shades",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-11",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_1.jpg",
+    "bbox_norm": [
+      0.487,
+      0.127,
+      0.623,
+      0.299
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.486,
+      0.299,
+      0.534,
+      0.789
+    ],
+    "text": "of brown and red would help the chameleon blend in more effectively. Additionally, a mottled or dappled pattern would help to scatter light and further reduce the chameleon’s visibility.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.302,
+      0.545,
+      0.348
+    ],
+    "text": "<img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.545,
+      0.3,
+      0.622,
+      0.789
+    ],
+    "text": "Rating and Explanation: A rating of 2/10 would be given for the chameleon’s ability to blend in on the stop sign. While the chameleon’s green and brown pattern helps to break up its outline, the bright red color of the stop sign will still make it stand out in the forested environment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.111,
+      0.667,
+      0.411
+    ],
+    "text": "Figure 3 Sample generation from Chameleon.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-16",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.111,
+      0.71,
+      0.264
+    ],
+    "text": "2.1 Tokenization",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-17",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.109,
+      0.81,
+      0.887
+    ],
+    "text": "Image Tokenization We train a new image tokenizer based on Gafni et al. (2022), which encodes a 512 × 512 image into 1024 discrete tokens from a codebook of size 8192. For training this tokenizer, we use only licensed images. Given the importance of generating human faces, we up-sample the percentage of images with faces during pre-training by 2 times. A core weakness of our tokenizer is in reconstructing images with a large amount of text, therefore upper bounding the capability of our models, when it comes to heavy OCR-related tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-18",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.827,
+      0.109,
+      0.873,
+      0.887
+    ],
+    "text": "Tokenizer We train a new BPE tokenizer (Sennrich et al., 2016) over a subset of the training data outlined below with a vocabulary size of 65,536, which includes the 8192 image codebook tokens, using the sentencepiece library (Kudo and Richardson, 2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-1",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.102,
+      0.127,
+      0.178,
+      0.3
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.087,
+      0.31,
+      0.119,
+      0.87
+    ],
+    "text": "Prompt: What can I bake with this? Give me the full recipe and show me an image with the final dish. <img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.308,
+      0.195,
+      0.872
+    ],
+    "text": "Response: Bananas are a versatile fruit that can be used in various baked goods, such as muffins, bread, cakes, and cookies. They add natural sweetness, moisture, and a subtle banana flavor to the finished product. Additionally, bananas are rich in potassium, fiber, and other nutrients, making them a healthy addition to your baking repertoire.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.125,
+      0.22,
+      0.606
+    ],
+    "text": "Here is a simple recipe for banana bread that uses 3 ripe bananas:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.125,
+      0.25,
+      0.217
+    ],
+    "text": "Ingredients:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.148,
+      0.265,
+      0.344
+    ],
+    "text": "• 3 ripe bananas, mashed",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.15,
+      0.28,
+      0.37
+    ],
+    "text": "• 1 1/2 cups all-purpose flour",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.28,
+      0.15,
+      0.295,
+      0.321
+    ],
+    "text": "• 1 tsp baking powder",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.295,
+      0.15,
+      0.31,
+      0.318
+    ],
+    "text": "• 1/2 tsp baking soda",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.15,
+      0.325,
+      0.258
+    ],
+    "text": "• 1/2 tsp salt",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.15,
+      0.34,
+      0.411
+    ],
+    "text": "• 1/4 cup unsalted butter, softened",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.34,
+      0.15,
+      0.356,
+      0.339
+    ],
+    "text": "• 1 cup granulated sugar",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.15,
+      0.371,
+      0.259
+    ],
+    "text": "• 2 large eggs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-14",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.371,
+      0.15,
+      0.386,
+      0.318
+    ],
+    "text": "• 1 tsp vanilla extract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-15",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.15,
+      0.401,
+      0.426
+    ],
+    "text": "• 1/2 cup chopped walnuts (optional)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-16",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.125,
+      0.415,
+      0.223
+    ],
+    "text": "Instructions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-17",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.148,
+      0.43,
+      0.748
+    ],
+    "text": "• Preheat your oven to 350°F (180°C). Grease a 9x5-inch loaf pan and set it aside.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-18",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.15,
+      0.445,
+      0.839
+    ],
+    "text": "• In a medium bowl, whisk together the flour, baking powder, baking soda, and salt. Set aside.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-19",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.445,
+      0.15,
+      0.476,
+      0.869
+    ],
+    "text": "• In a large mixing bowl, use an electric mixer to cream together the butter and sugar until light and fluffy, about 2-3 minutes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-20",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.15,
+      0.492,
+      0.772
+    ],
+    "text": "• Beat in the eggs one at a time, followed by the mashed bananas and vanilla extract.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-21",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_1.jpg",
+    "bbox_norm": [
+      0.494,
+      0.127,
+      0.631,
+      0.302
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-22",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.497,
+      0.325,
+      0.527,
+      0.861
+    ],
+    "text": "• Gradually mix in the dry ingredients until just combined, being careful not to overmix.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-23",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.529,
+      0.326,
+      0.544,
+      0.655
+    ],
+    "text": "• If using walnuts, fold them into the batter.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-24",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.544,
+      0.325,
+      0.559,
+      0.802
+    ],
+    "text": "• Pour the batter into the prepared loaf pan and smooth the top.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-25",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.559,
+      0.325,
+      0.588,
+      0.862
+    ],
+    "text": "• Bake for 50-60 minutes, or until a toothpick inserted into the center of the bread comes out clean.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-26",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.588,
+      0.325,
+      0.621,
+      0.861
+    ],
+    "text": "• Remove the bread from the oven and let it cool in the pan for 10 minutes before transferring it to a wire rack to cool completely. <img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-27",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.66,
+      0.111,
+      0.674,
+      0.361
+    ],
+    "text": "Figure 4 Sample Chameleon outputs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-28",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.699,
+      0.111,
+      0.715,
+      0.305
+    ],
+    "text": "2.2 Pre-Training Data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-29",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.723,
+      0.107,
+      0.77,
+      0.885
+    ],
+    "text": "We delineate the pre-training stage into two separate stages. The first stage takes up the first 80% of training while the second stage takes the last 20%. For all Text-To-Image pairs we rotate so that 50% of the time the image comes before the text (i.e., captioning).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-30",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.786,
+      0.111,
+      0.801,
+      0.24
+    ],
+    "text": "2.2.1 First Stage",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-31",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.809,
+      0.109,
+      0.84,
+      0.885
+    ],
+    "text": "In the first stage we use a data mixture consisting of the following very large scale completely unsupervised datasets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-32",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.857,
+      0.109,
+      0.904,
+      0.885
+    ],
+    "text": "Text-Only: We use a variety of textual datasets, including a combination of the pre-training data used to train LLaMa-2 (Touvron et al., 2023) and CodeLLaMa (Roziere et al., 2023) for a total of 2.9 trillion text-only tokens.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.109,
+      0.366,
+      0.885
+    ],
+    "text": "Text-Image: The text-image data for pre-training is a combination of publicly available data sources and licensed data. The images are then resized and center cropped into 512 × 512 images for tokenization. In total, we include 1.4 billion text-image pairs, which produces 1.5 trillion text-image tokens.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.109,
+      0.429,
+      0.887
+    ],
+    "text": "Text/Image Interleaved: We procure data from publicly available web sources, not including data from Meta’s products or services, for a total of 400 billion tokens of interleaved text and image data similar to Laurençon et al. (2023). We apply the same filtering for images, as was applied in Text-To-Image.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.111,
+      0.46,
+      0.261
+    ],
+    "text": "2.2.2 Second Stage",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.107,
+      0.5,
+      0.885
+    ],
+    "text": "In the second stage, we lower the weight of the first stage data by 50% and mix in higher quality datasets while maintaining a similar proportion of image text tokens.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.505,
+      0.109,
+      0.522,
+      0.874
+    ],
+    "text": "We additionally include a filtered subset of the train sets from a large collection of instruction tuning sets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.539,
+      0.111,
+      0.556,
+      0.23
+    ],
+    "text": "2.3 Stability",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.107,
+      0.611,
+      0.885
+    ],
+    "text": "It was challenging to maintain stable training when scaling the Chameleon models above 8B parameters and 1T tokens, with instabilities often only arising very late in training. We adopted to following recipe for architecture and optimization to achieve stability.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.109,
+      0.674,
+      0.885
+    ],
+    "text": "Architecture Our architecture largely follows LLaMa-2 (Touvron et al., 2023). For normalization, we continue to use RMSNorm (Zhang and Sennrich, 2019); we use the SwiGLU (Shazeer, 2020) activation function and rotary positional embeddings (RoPE) (Su et al., 2021).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.679,
+      0.107,
+      0.848,
+      0.887
+    ],
+    "text": "We found that the standard LLaMa architecture showed complex divergences due to slow norm growth in the mid-to-late stages of training. We narrowed down the cause of the divergence to the softmax operation being problematic when training with multiple modalities of significantly varying entropy due to the translation invariant property of softmax (i.e., sof tmax(z) = sof tmax(z + c)). Because we share all weights of the model across modalities, each modality will try to “compete” with the other by increasing its norms slightly; while not problematic at the beginning of training, it manifests in divergences once we get outside the effective representation range of bf16 (In Figure 6b, we show that ablations without image generation did not diverge). In a unimodal setting, this problem has al",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-13",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.853,
+      0.107,
+      0.915,
+      0.888
+    ],
+    "text": "The softmax operation appears in two places in transformers: the core attention mechanism and the softmax over the logits. As inspired by Dehghani et al. (2023) and Wortsman et al. (2023), we first deviate from the Llama architecture by using query-key normalization (QK-Norm). QK-Norm directly controls the norm growth of input to the softmax by applying layer norm to the query and key vectors within the attention.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.109,
+      0.366,
+      0.885
+    ],
+    "text": "In Figure 5b, we show training loss curves for Chameleon-7B with and without QK-Norm, and the latter diverges after approximately 20% of a training epoch.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.371,
+      0.107,
+      0.479,
+      0.887
+    ],
+    "text": "We found that to stabilize Chameleon-7B by controlling norm growth, it was necessary to introduce dropout after the attention and feed-forward layers, in addition to QK-norm (see Figure 5c). However, this recipe was not enough to stabilitize, Chameleon-34B, which required an additional re-ordering of the norms. Specifically, we use the strategy of normalization proposed in Liu et al. (2021), within the transformer block. The benefit of the Swin transformer normalization strategy is that it bounds the norm growth of the feedforward block, which can become additionally problematic given the multiplicate nature of the SwiGLU activation function. If h represents the hidden vector at time-step t after self-attention is applied to input x,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:equation-6",
+    "page_id": 6,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_6_Equation_0.jpg",
+    "bbox_norm": [
+      0.489,
+      0.279,
+      0.506,
+      0.692
+    ],
+    "text": "$$\n{ \\mathsf { C h a m e l e o n } } { \\mathsf { - } } 3 4 { \\mathsf { B } } { \\mathsf { : } } \\quad h = x + { \\mathrm { a t t e n t i o n } } \\_ { \\mathrm { n o r m } } ( { \\mathrm { a t t e n t i o n } } ( x ) )\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-6:equation-7",
+    "page_id": 6,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_6_Equation_1.jpg",
+    "bbox_norm": [
+      0.508,
+      0.339,
+      0.564,
+      0.715
+    ],
+    "text": "$$\n\\begin{array} { l l } { { } } & { { \\mathrm { o u t p u t } = h + \\mathrm { f f n \\_ n o r m } ( \\mathrm { f e e d \\_ f o r w a r d } ( h ) ) } } \\\\ { { \\mathsf { L l a m a 2 } \\colon } } & { { h = x + \\mathrm { a t t e n t i o n } ( \\mathrm { a t t e n t i o n \\_ n o r m } ( x ) ) } } \\\\ { { } } & { { \\mathrm { o u t p u t } = h + \\mathrm { f e e d \\_ f o r w a r d } ( \\mathrm { f i n \\_ n o r m } ( h ) ) } } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.107,
+      0.666,
+      0.887
+    ],
+    "text": "There was no difference in perplexity when training a model from scratch with and without the normalization re-ordering until the divergence of the LLaMa-2 parameterization. Additionally, we found that this type of normalization did not work well in combination with dropout and therefore, we train Chameleon-34B without dropout (Figure 6c). Furthermore, we retroactively found that Chameleon-7B can also be stably trained without dropout, when using norm-reordering, but QK-norm is essential in both cases. We plot training curves for the first 600k steps for both Chameleon-7B and Chameleon-34B in Figure 6a.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.683,
+      0.107,
+      0.758,
+      0.887
+    ],
+    "text": "Optimization Our training process uses the AdamW optimizer (Loshchilov and Hutter, 2017), with $\\beta _ { 1 }$ set to 0.9 and $\\beta _ { 2 }$ to 0.95, with an $\\epsilon = 1 0 ^ { - 5 }$ We use a linear warm-up of 4000 steps with an exponential decay schedule of the learning rate to 0. Additionally, we apply a weight decay of 0.1 and global gradient clipping at a threshold of 1.0. We use a dropout of 0.1 (Srivastava et al., 2014) for Chameleon-7B for training stability, but not for Chameleon-34B (see Figure 5c and 6c).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.765,
+      0.107,
+      0.829,
+      0.885
+    ],
+    "text": "The application of QK-Norm while helping the inner softmaxes within the Transformer does not solve the problem of logit shift in the final softmax. Following Chowdhery et al. (2022); Wortsman et al. (2023), we apply z-loss regularization. Specifically, we regularize the partition function Z of the softmax function $\\sigma ( x ) _ { i } = \\overset { e ^ { x _ { i } } } Z$ where $\\textstyle Z = \\sum _ { i } e ^ { x _ { i } }$ by adding $\\mathrm { i } 0 ^ { - 5 } \\log ^ { 2 } Z$ to our loss function.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.109,
+      0.864,
+      0.885
+    ],
+    "text": "For Chameleon-7B it was important to use both dropout and z-loss to achieve stability, while Chameleon-34B only required z-loss (Figure 6c).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.871,
+      0.109,
+      0.902,
+      0.887
+    ],
+    "text": "Chameleon-7B was trained with a global batch size of $2 ^ { 2 3 } ~ ( \\sim 8 \\mathrm { M } )$ tokens and Chameleon-34B was trained with a global batch size of $3 \\times 2 ^ { 2 2 } ~ ( \\sim \\mathrm { { 1 2 M } ) }$ tokens. We do 2.1 epochs over our full training dataset for a total of 9.2 trillion tokens seen during training. We show the first 600k steps of training (55% for Chameleon-7B and 80% for Chameleon-34B) in Figure 6a.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-2",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.165,
+      0.124,
+      0.287,
+      0.87
+    ],
+    "text": "Table 1 Summary of core architecture and optimization decisions made in Chameleon in contrast to LLaMa-1 and LLaMa-2.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.109,
+      0.392,
+      0.887
+    ],
+    "text": "Pre-Training Hardware Our model pretraining was conducted on Meta’s Research Super Cluster (RSC) (Lee and Sengupta, 2022), and our alignment was done on other internal research clusters. NVIDIA A100 80 GB GPUs power both environments. The primary distinction is the interconnect technology: RSC employs NVIDIA Quantum InfiniBand, whereas our research cluster utilizes Elastic Fabric. We report our GPU usage for pre-training in Table 2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-4",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_1.jpg",
+    "bbox_norm": [
+      0.429,
+      0.328,
+      0.489,
+      0.666
+    ],
+    "text": "Table 2 Chameleon Model Pre-Training Resource Usage",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.111,
+      0.534,
+      0.24
+    ],
+    "text": "2.4 Inference",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.542,
+      0.109,
+      0.588,
+      0.887
+    ],
+    "text": "To support alignment and evaluation, both automated and human, and to demonstrate the applicationreadiness of our approach, we augment the inference strategy with respect to interleaved generation to improve throughput and reduce latency.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.594,
+      0.109,
+      0.626,
+      0.887
+    ],
+    "text": "Autoregressive, mixed-modal generation introduces unique performance-related challenges at inference time. These include:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.133,
+      0.679,
+      0.887
+    ],
+    "text": "• Data-dependencies per-step — given that our decoding formulation changes depending on whether the model is generating images or text at a particular step, tokens must be inspected at each step (i.e. copied from the GPU to the CPU in a blocking fashion) to guide control flow.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.135,
+      0.732,
+      0.885
+    ],
+    "text": "• Masking for modality-constrained generation — to facilitate exclusive generation for a particular modality (e.g. image-only generation), tokens that do not fall in a particular modality space must be masked and ignored when de-tokenizing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.738,
+      0.135,
+      0.77,
+      0.885
+    ],
+    "text": "• Fixed-sized text units — unlike text-only generation, which is inherently variable-length, token-based image generation produces fixed-size blocks of tokens corresponding to an image.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.109,
+      0.808,
+      0.885
+    ],
+    "text": "Given these unique challenges, we built a standalone inference pipeline based on PyTorch (Paszke et al., 2019) supported with GPU kernels from xformers (Lefaudeux et al., 2022).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.107,
+      0.906,
+      0.888
+    ],
+    "text": "Our inference implementation supports streaming for both text and images. When generating in a streaming fashion, token-dependent conditional logic is needed at each generation step. Without streaming, however, blocks of image tokens can be generated in a fused fashion without conditional computation. In all cases, token masking removes branching on the GPU. Even in the non-streaming setting, however, while generating text, each output token must be inspected for image-start tokens to condition image-specific decoding augmentations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-1",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_0.jpg",
+    "bbox_norm": [
+      0.104,
+      0.189,
+      0.226,
+      0.808
+    ],
+    "text": "Table 3 Supervised Fine-Tuning Dataset Statistics",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.111,
+      0.272,
+      0.254
+    ],
+    "text": "3 Alignment",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.284,
+      0.107,
+      0.332,
+      0.887
+    ],
+    "text": "We follow recent work in using a light weight alignment stage based on supervised fine tuning on carefully curated high quality datasets (Zhou et al., 2023). We include a range of different types of data, targeting both exposing model capabilities and improving safety.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.111,
+      0.364,
+      0.199
+    ],
+    "text": "3.1 Data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.107,
+      0.42,
+      0.887
+    ],
+    "text": "We separate our supervised fine-tuning (SFT) dataset into the following categories: Text, Code, Visual Chat, Image Generation, Interleaved Text/Image Generation, and Safety. We include examples from each category from the Chameleon-SFT dataset in Figure 7.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.425,
+      0.107,
+      0.503,
+      0.887
+    ],
+    "text": "We inherit the Text SFT dataset from LLaMa-2 (Touvron et al., 2023) and the Code SFT from CodeLLaMa (Roziere et al., 2023). For the Image Generation SFT dataset, we curate highly aesthetic images by applying and filtering each image in our licensed data, with an aesthetic classifier from Schuhmann et al. (2022). We first select images rated as at least six from the aesthetic classifier and then select the top 64K images closest in size and aspect ratio to 512 × 512 (the native resolution of our image tokenizer).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.109,
+      0.556,
+      0.887
+    ],
+    "text": "For both Visual Chat and Interleaved Text/Image Generation SFT data, we focused on very high-quality data collection using third-party vendors following a similar strategy recommended by Touvron et al. (2023); Zhou et al. (2023). We do not include any Meta user data. We present our dataset’s statistics in Table 3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.571,
+      0.107,
+      0.724,
+      0.888
+    ],
+    "text": "Safety Data We include a collection of prompts that can potentially provoke the model to produce unsafe content, and match them with a refusal response (e.g. “I can’t help with that.”). These prompts cover a wide variety of sensitive topics, such as violence, controlled substances, privacy, and sexual content. Our collection of safety tuning data includes examples from LLaMa-2-Chat (Touvron et al., 2023), synthetic text-based examples generated with Rainbow Teaming (Samvelyan et al., 2024), image generation prompts manually selected from Pick-A-Pic (Kirstain et al., 2023) for safety testing, examples for cyber security safety (Roziere et al., 2023), as well as mixed-modal prompts collected internally through manual annotation and automatic expansion (Honovich et al., 2022). Collecting mixe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.742,
+      0.111,
+      0.76,
+      0.333
+    ],
+    "text": "3.2 Fine-Tuning Strategy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.107,
+      0.829,
+      0.887
+    ],
+    "text": "Data Balancing We found that balancing modalities within the SFT stage is important for high quality alignment. Specifically during the SFT stage, if there is a severe imbalance between pairings of modalities (or when a specific modality should trigger), the model learns an unconditional prior of generating that modality which can either mute or over exaggerate the generation of a single modality.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.843,
+      0.107,
+      0.906,
+      0.887
+    ],
+    "text": "Optimization Our supervised fine-tuning strategy incorporates a cosine learning rate schedule, starting at an initial rate of 1e-5, combined with a weight decay set at 0.1. We maintain a batch size of 128, accommodating sequences up to 4096 tokens. During fine-tuning, each dataset instance comprises a paired prompt and its corresponding answer. To improve efficiency, we pack as many prompts and answers as possible into each",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.087,
+      0.124,
+      0.145,
+      0.397
+    ],
+    "text": "Prompt: Can you write a poem using rhyming couplets?   \nResponse: Sure, here’s a short poem using rhyming couplets:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.124,
+      0.214,
+      0.315
+    ],
+    "text": "The sun sets in the sky, A beautiful sight to the eye. The stars come out to play, A magical sight to behold.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.122,
+      0.367,
+      0.395
+    ],
+    "text": "The wind whispers through the trees, A gentle breeze that brings ease. The birds sing their sweet melodies, A soothing sound that calms the soul. The world is full of wonder, A place of beauty and thunder. So let us cherish every moment, And bask in the beauty all around us.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.218,
+      0.395,
+      0.279
+    ],
+    "text": "(a) Text",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.426,
+      0.369,
+      0.65
+    ],
+    "text": "Prompt: Given a list of integers,   \nfind the first number that ap  \npears at least twice.   \nResponse:   \ndef find\\_duplicate(my\\_list): seen = set() for num in my\\_list: if num in seen: return num seen.add(num) return None",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.493,
+      0.395,
+      0.557
+    ],
+    "text": "(b) Code",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.166,
+      0.678,
+      0.21,
+      0.897
+    ],
+    "text": "Prompt: Renaissance square of   \nStepanakert   \nResponse:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.7,
+      0.395,
+      0.848
+    ],
+    "text": "(c) Image Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-9",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_0.jpg",
+    "bbox_norm": [
+      0.222,
+      0.697,
+      0.361,
+      0.875
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:figure-10",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_1.jpg",
+    "bbox_norm": [
+      0.42,
+      0.209,
+      0.534,
+      0.379
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-11",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.536,
+      0.12,
+      0.765,
+      0.467
+    ],
+    "text": "Prompt: Which elements contribute to this flower arrangement’s distinctiveness, and what sets its surroundings apart?   \nResponse: The image features an autumnal-themed floral arrangement in a classically designed vase. The arrangement stands out with its striking combination of red maple leaves, purple flowers, and pink-red roses. The vase’s rosettes give it an antique design. In the background, blurry green vegetation is visible, creating a contrast to the autumnal theme of the bouquet. The red maple leaves, both in the arrangement and scattered around the vase, evoke autumn, while the green vegetation suggests a more summer-like setting. The outdoor setting is bright and sunny, adding to the contrast between the arrangement and its settings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-12",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.773,
+      0.243,
+      0.787,
+      0.354
+    ],
+    "text": "(d) Visual Chat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-13",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.801,
+      0.111,
+      0.815,
+      0.491
+    ],
+    "text": "Figure 7 Example alignment data for different categories.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-14",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.47,
+      0.522,
+      0.529,
+      0.866
+    ],
+    "text": "Gyumri is an urban municipal community and the second-largest city in Armenia, serving as the administrative center of Shirak Province in the northwestern part of the country.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-15",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_2.jpg",
+    "bbox_norm": [
+      0.526,
+      0.617,
+      0.614,
+      0.769
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-16",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.524,
+      0.674,
+      0.864
+    ],
+    "text": "Archaeological excavations conducted throughout the Soviet period have shown that the area of modern-day Gyumri has been populated since at least the third millennium BC.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-17",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_3.jpg",
+    "bbox_norm": [
+      0.672,
+      0.617,
+      0.761,
+      0.769
+    ],
+    "text": "(e) Interleaved Text/Image Generation",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-18",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.842,
+      0.109,
+      0.904,
+      0.887
+    ],
+    "text": "sequence, inserting a distinct token to delineate the end of a prompt and the beginning of an answer. We use an autoregressive training objective, selectively masking the loss for the prompt tokens. This targeted approach allows us to optimize the model exclusively based on the answer tokens, which provides slight gains overall. We also apply a dropout of 0.05. Additionally, we maintain the same zloss that was used during",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.168,
+      0.098,
+      0.289
+    ],
+    "text": "Advice: 10.2%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.103,
+      0.13,
+      0.145,
+      0.316
+    ],
+    "text": "What does a meningitis rash look like? What are the other symptoms I should be on the lookout for?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.15,
+      0.165,
+      0.164,
+      0.29
+    ],
+    "text": "How-to: 12.5%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.167,
+      0.13,
+      0.22,
+      0.308
+    ],
+    "text": "How do I properly clean my TV screen? I used Windex and now there are towel fibers and wipe marks all over. Show me some reference photos.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.229,
+      0.147,
+      0.243,
+      0.308
+    ],
+    "text": "Explanation: 14.4%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.125,
+      0.309,
+      0.24
+    ],
+    "text": "I've been studying classical French art, and my favorite so far is his painting seen here : <img> Could you please give me a few images of other contemporary artworks that have this same aesthetic?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-7",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_0.jpg",
+    "bbox_norm": [
+      0.247,
+      0.24,
+      0.306,
+      0.333
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-9",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.342,
+      0.148,
+      0.357,
+      0.307
+    ],
+    "text": "Hypothetical: 5.6%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-10",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.13,
+      0.392,
+      0.308
+    ],
+    "text": "What would the modern-day vehicle look like if oil had never been discovered?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.37,
+      0.098,
+      0.55
+    ],
+    "text": "Brainstorming: 18.6%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-12",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.106,
+      0.343,
+      0.127,
+      0.568
+    ],
+    "text": "Show me a Middle Eastern alternative to these dishes. <img1> <img2>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-13",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_1.jpg",
+    "bbox_norm": [
+      0.132,
+      0.357,
+      0.189,
+      0.467
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:figure-14",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_2.jpg",
+    "bbox_norm": [
+      0.132,
+      0.472,
+      0.189,
+      0.571
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-15",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.198,
+      0.406,
+      0.21,
+      0.514
+    ],
+    "text": "Article: 3.1%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-16",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.217,
+      0.349,
+      0.25,
+      0.58
+    ],
+    "text": "Write me an introduction to a story about knick-knacks, and finish the story by shifting the focus with an image.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-17",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.258,
+      0.41,
+      0.272,
+      0.511
+    ],
+    "text": "Story: 3.9%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-18",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.276,
+      0.346,
+      0.309,
+      0.581
+    ],
+    "text": "Can you create and illustrate a short story for children about an octopus that can't stop eating pizza?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-19",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.318,
+      0.375,
+      0.332,
+      0.545
+    ],
+    "text": "Identification: 9.3 %",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-20",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_3.jpg",
+    "bbox_norm": [
+      0.337,
+      0.343,
+      0.392,
+      0.45
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-21",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.457,
+      0.397,
+      0.575
+    ],
+    "text": "Is the below image a Shetland Pony? If not, what is it, and can you show me a Shetland Pony? <img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-22",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.653,
+      0.098,
+      0.805
+    ],
+    "text": "Comparison: 9.6%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-23",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.103,
+      0.598,
+      0.136,
+      0.838
+    ],
+    "text": "Please tell me what the difference between these two creatures is, and show me some more examples. <img1> <img2>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-24",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_4.jpg",
+    "bbox_norm": [
+      0.138,
+      0.611,
+      0.203,
+      0.722
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:figure-25",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_5.jpg",
+    "bbox_norm": [
+      0.141,
+      0.732,
+      0.199,
+      0.849
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-26",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.673,
+      0.222,
+      0.785
+    ],
+    "text": "Report: 5.4%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-27",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.599,
+      0.299,
+      0.754
+    ],
+    "text": "Who designed the church in and what's the name of the Church? <img> Can you please provide me with additional photos of famous landmarks designed by the same architect?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-28",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_6.jpg",
+    "bbox_norm": [
+      0.239,
+      0.754,
+      0.295,
+      0.862
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-29",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.678,
+      0.316,
+      0.781
+    ],
+    "text": "Other: 5.2%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-30",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.323,
+      0.596,
+      0.356,
+      0.859
+    ],
+    "text": "Create a decal for my truck that features running horses as well as the TRD insignia. Use black to gray gradients.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-31",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.66,
+      0.376,
+      0.799
+    ],
+    "text": "Reasoning: 2.1%",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-32",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.599,
+      0.405,
+      0.852
+    ],
+    "text": "What is typically found at a construction site? Show me a construction site that has a crane.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-33",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.424,
+      0.109,
+      0.454,
+      0.885
+    ],
+    "text": "Figure 8 Task categories and examples of prompts. Image attributions: Seguin (2010); Agriflanders (2009); Tuszyński (2015); Sokolov (2022).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-34",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.109,
+      0.526,
+      0.885
+    ],
+    "text": "pre-training. During supervised fine-tuning, images in the prompt are resized with border padding to ensure that all the information is available in the image, whereas images in the answer are center-cropped to ensure visually good image generation quality.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-35",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.111,
+      0.568,
+      0.531
+    ],
+    "text": "4 Human Evaluations and Safety Testing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-36",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.582,
+      0.107,
+      0.659,
+      0.887
+    ],
+    "text": "Chameleon has significant new mixed modal understanding and generation abilities that cannot be measured with existing benchmarks. In this section, we detail how we conduct human evaluations on large multi-modal language models’ responses to a set of diverse prompts that regular users may ask daily. We first introduce how we collect the prompts and then describe our baselines and evaluation methods, along with the evaluation results and analysis. A safety study is also included in this section.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-37",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.676,
+      0.111,
+      0.691,
+      0.349
+    ],
+    "text": "4.1 Prompts for Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-38",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.699,
+      0.109,
+      0.792,
+      0.887
+    ],
+    "text": "We work with a third-party crowdsourcing vendor to collect a set of diverse and natural prompts from human annotators. Specifically, we ask annotators to creatively think about what they want a multi-modal model to generate for different real-life scenarios. For example, for the scenario of “imagine you are in a kitchen”, annotators may come up with prompts like “How to cook pasta?” or “How should I design the layout of my island? Show me some examples.” The prompts can be text-only or text with some images, and the expected responses should be mixed-modal, containing both text and images.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-39",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.797,
+      0.107,
+      0.875,
+      0.887
+    ],
+    "text": "After collecting an initial set of prompts, we ask three random annotators to evaluate whether the prompts are clear and whether they expect the responses to contain images. We use a majority vote to filter unclear prompts and prompts that don’t expect mixed-modal responses. In the end, our final evaluation set contains 1,048 prompts: 441 (42.1%) are mixed-modal (i.e., containing both text and images), and the remaining 607 (57.9%) are text-only.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-40",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.881,
+      0.109,
+      0.897,
+      0.885
+    ],
+    "text": "To better understand the tasks users would like a multi-modal AI system to fulfill, we manually examine the prompts and classify them into 12 categories. The description of these task categories1, as well as their example prompts, can be found in Figure 8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.454,
+      0.111,
+      0.469,
+      0.374
+    ],
+    "text": "4.2 Baselines and Evaluations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.477,
+      0.107,
+      0.63,
+      0.887
+    ],
+    "text": "We compare Chameleon 34B with OpenAI GPT-4V and Google Gemini Pro by calling their APIs. While these models can take mixed-modal prompts as input, their responses are text-only. We create additional baselines by augmenting GPT-4V and Gemini responses with images to have even stronger baselines. Specifically, we instruct these models to generate image captions by adding the following sentence at the end of each original input prompt: “If the question requires an image to be generated, then generate an image caption instead and enclose the caption in a pair of ⟨caption⟩ ⟨/caption⟩ tags.” We then use OpenAI DALL-E 3 to generate images conditioned on these captions and replace the captions in the original responses with those generated images. We denote the enhanced responses as GPT-4V+ and Ge",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.646,
+      0.111,
+      0.661,
+      0.303
+    ],
+    "text": "4.2.1 Absolute Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.669,
+      0.109,
+      0.717,
+      0.885
+    ],
+    "text": "For absolute evaluations, the output of each model is judged separately by asking three different annotators a set of questions regarding the relevance and quality of the responses. Below, we give detailed results and analysis on the most critical question, whether the response fulfills the task described in the prompt.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.107,
+      0.829,
+      0.887
+    ],
+    "text": "On task fulfillment, we ask annotators whether the response fulfills, partially fulfills, or does not fulfill the task described in the prompt. As shown in Figure 9a, much more of Chameleon’s responses are considered to have completely fulfilled the tasks: 55.2% for Chameleon vs. 37.6% of Gemini+ and 44.7% of GPT-4V+. When judging the original responses of Gemini and GPT-4V, the annotators consider much fewer prompts to be fully fulfilled: Gemini completely fulfills 17.6% of the tasks and GPT-4V 23.1%. We suspect that because all the prompts expect mixed-modal output, the text-only responses from Gemini and GPT-4V might be viewed as only partially completing the tasks by the annotators.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.109,
+      0.867,
+      0.887
+    ],
+    "text": "The task fulfillment rates in each category and in each input modality can be found in Appendix B. The task categories that Chameleon performs well include Brainstorming, Comparison, and Hypothetical, and the categories Chameleon needs to improve include Identification and Reasoning. On the other hand, we don’t see that the model performance differs a lot when comparing mixed-modality and text-only prompts, although Chameleon seems to perform slightly better on text-only prompts, while Gemini+ and GPT-4V+ are slightly better on mixed-modal ones. Figure 2 shows an example of Chameleon’s response to a brainstorming prompt.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.159,
+      0.111,
+      0.174,
+      0.3
+    ],
+    "text": "4.2.2 Relative Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.181,
+      0.107,
+      0.349,
+      0.888
+    ],
+    "text": "For relative evaluations, we directly compare Chameleon with each baseline model by presenting their responses to the same prompt in random order and asking human annotators which response they prefer. The options include the first response, the second response, and about the same. Figure 9b shows Chameleon’s win rates2 over the baselines. Compared with Gemini+, Chameleon’s responses are better in 41.5% of the cases, 34.5% are tie, and 24.0% are inferior. Annotators also think that Chameleon’s responses are slightly more often better than GPT-4V+, with 35.8% win, 31.6% tie, and 32.6% loss. Overall, Chameleon has win rates of 60.4% and 51.6% over Gemini+ and GPT-4V+, respectively. When compared with the original responses from Gemini without the augmented images, Chameleon’s responses are c",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.367,
+      0.109,
+      0.383,
+      0.387
+    ],
+    "text": "4.3 Inter-annotator Agreement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-5",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.391,
+      0.107,
+      0.438,
+      0.887
+    ],
+    "text": "Every question in our evaluation is answered by three different human annotators, and we take the majority votes as the final answer. To understand the quality of the human annotators and whether the questions we asked are reasonably designed, we examine the level of agreement between different annotators.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-6",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.444,
+      0.109,
+      0.46,
+      0.772
+    ],
+    "text": "The levels of agreement on each question in the absolute evaluation are shown in Figure 10.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-8",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.107,
+      0.876,
+      0.888
+    ],
+    "text": "For questions about simple, objective properties of the responses, we very rarely see three annotators disagree with each other. For example, annotators have unanimous judgments on whether the model responses contain objectionable content (e.g., hate speech); in this case, all models produce safe responses. For some questions, such as whether the response fulfills the task or whether the model interprets the prompt correctly, when one annotator’s judgment differs from the other two’s, the decision is usually still close (e.g., fulfills vs. partially fulfills) rather than opposite (e.g., fulfills vs. does not fulfill ).3",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-2",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.148,
+      0.174,
+      0.234,
+      0.821
+    ],
+    "text": "Table 4 The inter-annotator agreement on relative evaluations.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.107,
+      0.343,
+      0.887
+    ],
+    "text": "For the relative evaluation, Table 4 shows the numbers of cases where all three annotators agree, two annotators agree, and there is no agreement. For each model pair, we have a bit higher than 10% of the cases where there is no agreement among the three annotators (considered as a tie in our evaluation.) On about 28% to 35% of the pairs, all annotators have unanimous judgments, and in about 55% to 60% of the pairs, one annotator differs from other two. This may be interpreted as Chameleon performing similarly to other baselines in many cases, making the relative evaluation challenging.4",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.359,
+      0.111,
+      0.377,
+      0.282
+    ],
+    "text": "4.4 Safety Testing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.383,
+      0.107,
+      0.492,
+      0.888
+    ],
+    "text": "We crowdsource prompts that provoke the model to create unsafe content in predefined categories such as self-harm, violence and hate, and criminal planning. These prompts cover both text and mixed-modal inputs, as well as intents to produce unsafe text, images, or mixed-modal outputs. We generate the model’s response to each prompt, and ask annotators to label whether the response is safe or unsafe with respect to each category’s definition of safety; an unsure option is also provided for borderline responses. Table 5 shows that an overwhelming majority of Chameleon’s responses are considered safe, with only 78 (0.39%) unsafe responses for the 7B model and 19 (0.095%) for the 30B model.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.497,
+      0.107,
+      0.592,
+      0.887
+    ],
+    "text": "We also evaluate the model’s ability to withstand adversarial prompting in an interactive session. For that purpose, an internal red team probed the 30B model over 445 prompt-response interactions, including multi-turn interactions. Table 5 shows that of those responses, 7 (1.6%) were considered unsafe and 20 (4.5%) were labeled as unsure. While further safety tuning using RLHF/RLAIF has been shown to further harden the model against jailbreaking and intentional malicious attacks, these results demonstrate that our current safety tuning approach provides significant protection for reasonable, benign usage of this research artifact.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.607,
+      0.109,
+      0.623,
+      0.251
+    ],
+    "text": "4.5 Discussion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.107,
+      0.799,
+      0.888
+    ],
+    "text": "Compared to Gemini and GPT-4V, Chameleon is very competitive when handling prompts that expect interleaving, mixed-modal responses. The images generated by Chameleon are usually relevant to the context, making the documents with interleaving text and images very appealing to users. However, readers should be aware of the limitations of human evaluation. First, the prompts used in the evaluation came from crowdsourcing instead of real users who interact with a model. While we certainly have a diverse set of prompts, the coverage may still be limited, given the size of the dataset. Second, partially because our prompts focus on the mixed-modal output, certain visual understanding tasks, such as OCR or Infographics (i.e., interpreting a given chart or plot), are naturally excluded from our ev",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:table-1",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_0.jpg",
+    "bbox_norm": [
+      0.119,
+      0.32,
+      0.194,
+      0.676
+    ],
+    "text": "Table 5 Safety testing on 20,000 crowdsourced prompts and 445 red team interactions provoking the model to produce unsafe content.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.22,
+      0.111,
+      0.239,
+      0.383
+    ],
+    "text": "5 Benchmark Evaluations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.109,
+      0.285,
+      0.888
+    ],
+    "text": "Given the general capabilities of Chameleon, there is not a single model that we can directly evaluate against;   \ntherefore, we evaluate against the best models in every category within our capabilities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.301,
+      0.111,
+      0.318,
+      0.196
+    ],
+    "text": "5.1 Text",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.325,
+      0.107,
+      0.388,
+      0.888
+    ],
+    "text": "We evaluate the general text-only capabilities of our pre-trained (not SFT’d) model against other state-of-theart text-only large language models. We follow the evaluation protocol outlined by Touvron et al. (2023). Specifically we evaluate all models, using an in-house evaluation platform on the areas of commonsense reasoning, reading comprehension, math problems, and world knowledge. We report our results in Table 6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:table-6",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_1.jpg",
+    "bbox_norm": [
+      0.452,
+      0.199,
+      0.791,
+      0.797
+    ],
+    "text": "Table 6 Comparison of overall performance on collective academic benchmarks against open-source foundational models. ∗ Evaluated using our framework/using API. For GSM8k/MATH, we report maj@1 unless mentioned otherwise. ∗∗ From Gemini et al. (2023).",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.808,
+      0.133,
+      0.915,
+      0.888
+    ],
+    "text": "• Commonsense Reasoning and Reading Comprehension: We report 0-shot performance on the following benchmarks that measure commonsense reasoning and reading comprehension capabilities: PIQA (Bisk et al., 2020), SIQA (Sap et al., 2019), HellaSwag (Zellers et al., 2019), WinoGrande (Sakaguchi et al., 2021), ARC-Easy (Clark et al., 2018), ARC-Challenge (Clark et al., 2018), OpenBookQA (Mihaylov et al., 2018), and BoolQ (Clark et al., 2019). We score the prompt with each candidate answer and compute accuracy using the candidate with the highest score. All baseline model performances except a few are taken directly from the reported sources. We observe that Chameleon-7B and Chameleon-34B are competitive with the corresponding Llama-2 models, with Chameleon-34B even outperforming Llama-2 70B on 5/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.135,
+      0.271,
+      0.888
+    ],
+    "text": "• MATH and World Knowledge We report 8-shot performance on GSM8K (Cobbe et al., 2021) i.e., grade school math word problems and 4-shot performance on the MATH (Hendrycks et al., 2021) benchmark. We report maj@N exact match accuracy for both benchmarks by sampling N generations from the model (greedy sampling for N=1) and choosing the answer via majority voting. Despite training for additional modalities, both Chameleon models demonstrate strong math capabilities. On GSM8k, Chameleon-7B outperforms the corresponding Llama-2 models, with performance comparable to Mistral 7B (50.9 vs 52.1 maj@8). Furthermore, Chameleon-34B can outperform Llama2-70B on maj@1 (61.4 vs 56.8) and Mixtral 8x7B on maj@32 (77.0 vs 75.1). Similarly, on MATH, Chameleon-7B outperforms Llama-2 and matches Mistral 7B on ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.148,
+      0.339,
+      0.887
+    ],
+    "text": "We also report performance on MMLU (Hendrycks et al., 2020), which measures world/in-domain knowledge and problem-solving abilities using 57 subjects, including elementary mathematics, US history, computer science, and law. Both Chameleon models outperform their Llama-2 counterparts with Chameleon-34B approaching the performance of Mixtral 8x7B/Gemini-Pro (65.8 vs 70.6/71.8).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.344,
+      0.107,
+      0.422,
+      0.887
+    ],
+    "text": "Overall, Chameleon outperforms LLaMa-2 across the board, with performance approaching Mistral 7B/Mixtral 8x7B (Jiang et al., 2023, 2024) on some tasks. These gains are likely due to multiple factors. First, we do two epochs over the LLaMa-2 pre-training data, and in general use more compute for pretraining. Second, including code data significantly improves performance on text-only reasoning tasks. Lastly, having higher quality data in the last 20% of pre-training significantly improves performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-5",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.439,
+      0.111,
+      0.455,
+      0.281
+    ],
+    "text": "5.2 Image-To-Text",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-6",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.463,
+      0.109,
+      0.54,
+      0.887
+    ],
+    "text": "We next evaluate Chameleon on the segment of tasks that requires text generation conditioned on an image, specifically on image captioning and visual question-answering tasks, and present results of Chameleon-34B in Table 7. Together with our pre-trained model, we also present results with a model fine-tuned on all tasks together (Chameleon-34B-MultiTask), as well as models exclusively fine-tuned for the specific evaluation tasks (Chameleon-34B-SFT).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-7",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.107,
+      0.64,
+      0.887
+    ],
+    "text": "We evaluate against available open-source late-fusion models: specifically Flamingo 80B (Alayrac et al., 2022), IDEFICS 80B (Laurençon et al., 2023), and Llava-1.5 (Liu et al., 2023a), as well as recent closed-source models, such as Gemini (Gemini et al., 2023) and GPT4-V (OpenAI, 2023). We note that we did not take any special care when formatting the pre-training data to ensure that 0-shot inference can be effectively done. Therefore, we augment the input images or questions with the published prompts used by other models. This was purposefully done to maintain the fidelity of the pre-training data.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-8",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.645,
+      0.133,
+      0.722,
+      0.888
+    ],
+    "text": "• Image Captioning: For image captioning evaluations we report CiDER (Vedantam et al., 2015) scores on the Karpathy test split of MS-COCO (Lin et al., 2014), and the Karpathy test split of Flickr30k (Plummer et al., 2015) using the pycocoevalcap (Chen et al., 2020) package. For Chameleon models, we restrict captions to 30 tokens. We evaluated GPT-4V and Gemini models using several prompts and generation lengths via their APIs and report the best performance that we were able to achieve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-9",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.728,
+      0.147,
+      0.804,
+      0.887
+    ],
+    "text": "In the open-source pre-trained category, Chameleon-34B (2-shot) outperforms the larger 80B models of both Flamingo and IDEFICS on COCO with 32-shots, while matching their performance on Flickr30k. With respect to fine-tuned/closed-source models, both multi-task and SFT variants of Chameleon-34B outperform all other models on COCO, while for Flickr30k, the SFT model outperforms other models with the multitask model being a close competitor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-10",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.81,
+      0.133,
+      0.904,
+      0.89
+    ],
+    "text": "• Visual Question Answering: For visual question answering (VQA) we report performance on the testdev split of VQA-v2 (Goyal et al., 2017). For VQA-v2, the pre-trained Chameleon-34B model with 2-shots matches the 32-shot performance of the larger Flamingo and IDEFICS models, while for finetuned/closed models, Chameleon-34B-Multitask approaches the performance of IDEFICS-80B-Instruct and Gemini Pro, but trails larger models such as Flamingo-80B-FT, GPT-4V, and Gemini Ultra. Llava-1.5 outperforms Chameleon-34B on VQAv2 potentially owing to its additional fine-tuning on conversations from GPT-4, ShareGPT (ShareGPT, 2023), GQA (Hudson and Manning, 2019), and region-level VQA datasets, but significantly trails behind on the other tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:table-1",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_0.jpg",
+    "bbox_norm": [
+      0.104,
+      0.232,
+      0.364,
+      0.767
+    ],
+    "text": "Table 7 Model Performances on Image-to-Text Capabilities. ∗ Evaluated using API.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.109,
+      0.476,
+      0.887
+    ],
+    "text": "In general, we find Chameleon is fairly competitive on both image captioning and VQA tasks. It rivals other models by using much fewer in-context training examples and with smaller model sizes, in both pre-trained and fine-tuned model evaluations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.498,
+      0.111,
+      0.516,
+      0.285
+    ],
+    "text": "6 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.107,
+      0.638,
+      0.887
+    ],
+    "text": "Chameleon builds upon the lineage of works exploring token-based approaches for multimodal learning. The idea of using discrete tokens to represent continuous modalities like images was first explored in works like BEiT (Bao et al., 2021), which proposed a self-supervised vision representation learning method based on tokenized image patches. Aghajanyan et al. (2022) extended this idea to learning from mixed-modal documents through interleaved image and text tokens, allowing for joint reasoning over both modalities within a unified architecture. CM3Leon (Yu et al., 2023) further scaled up this approach to autoregressive text-to-image generation, building on the initial proposal of token-based image generation in DALL-E (Ramesh et al., 2021).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.643,
+      0.107,
+      0.751,
+      0.887
+    ],
+    "text": "As a fully token-based early-fusion model, Chameleon differs from late-fusion approaches like Flamingo (Alayrac et al., 2022) which encode images and text separately before combining them at a later stage. Other models like LLaVA (Liu et al., 2023a), IDEFICS (Laurençon et al., 2023), and VisualGPT (Chen et al., 2022) also maintain separate image and text encoders. In contrast, Chameleon’s unified token space allows it to seamlessly reason over and generate interleaved image and text sequences, without the need for modality-specific components. This early-fusion approach, however, comes with significant challenges in terms of representation learning and alignment, as discussed in Baltrušaitis et al. (2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-7",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.756,
+      0.109,
+      0.834,
+      0.887
+    ],
+    "text": "The most similar model to Chameleon is Gemini (Gemini et al., 2023), which also uses an early-fusion token-based approach. However, a key difference is that Gemini uses separate image decoders, whereas Chameleon is an end-to-end dense model without any routing components. This makes Chameleon a more general-purpose model for both multimodal understanding and generation tasks, similar in spirit to the Perceiver (Jaegle et al., 2021) architecture which also aims for a unified model across modalities and tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-8",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.107,
+      0.902,
+      0.888
+    ],
+    "text": "In summary, Chameleon builds on a rich history of work in multimodal learning and token-based architectures, while pushing the boundaries in terms of model scale and architecture design. By demonstrating strong performance across a wide range of vision-language tasks and enabling new capabilities in mixed-modal reasoning and generation, Chameleon represents a significant step towards realizing the vision of general-",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.082,
+      0.109,
+      0.097,
+      0.4
+    ],
+    "text": "purpose multimodal foundation models.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.119,
+      0.111,
+      0.137,
+      0.259
+    ],
+    "text": "7 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.151,
+      0.107,
+      0.213,
+      0.887
+    ],
+    "text": "In this paper, we introduced Chameleon, a new family of early-fusion token-based foundation models that set a new bar for multimodal machine learning. By learning a unified representation space over interleaved image and text tokens, Chameleon is a single model that achieves strong performance across a wide range of vision-language benchmarks while enabling new mixed-modal reasoning and generation capabilities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.219,
+      0.107,
+      0.372,
+      0.887
+    ],
+    "text": "The key to Chameleon’s success is its fully token-based architecture, which allows for seamless information integration across modalities. By quantizing images into discrete tokens and training on mixed-modal data from scratch, Chameleon learns to jointly reason over image and text in a way that is impossible with late-fusion architectures or models that maintain separate encoders for each modality. At the same time, Chameleon introduces novel techniques for stable and scalable training of early-fusion models, addressing key optimization and architectural design challenges that have previously limited the scale of such approaches. On tasks such as image captioning and visual question answering, Chameleon-34B outperforms models such as Flamingo and IDEFICS, while maintaining competitive per",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-5",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.111,
+      0.412,
+      0.312
+    ],
+    "text": "Acknowledgements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-6",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.426,
+      0.107,
+      0.547,
+      0.887
+    ],
+    "text": "We thank Naren Briar for her invaluable contribution to manually curating safety prompts, which were crucial for our safety tuning efforts. We also thank Pierre Fernandez for his indispensable support with the Chameleon release, Shelly Sheynin for her work on the Chameleon image tokenizer, Puxin Xu and David for helping us with datasets. Additionally, we thank Mitchell Wortsman for engaging in insightful discussions about stability in large-scale language models and Mike Lewis for general discussions and advice throughout the project. We thank Aaron Grattafiori, Firat Ozgenel, Divya Shah, Danny Livshits, Cristian Canton Ferrer, Saghar Hosseini, Ramon Calderer, Joshua Saxe, Daniel Song and Manish Bhatt for their help with the safety and red teaming efforts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-7",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.57,
+      0.111,
+      0.588,
+      0.245
+    ],
+    "text": "Contributors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-8",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.603,
+      0.107,
+      0.636,
+      0.887
+    ],
+    "text": "We attribute credit separated by bucket of work. Additionally, ∗ indicates joint first authors, † indicates key contributors, ‡ indicates workstream leads, and ♯ indicates project leads.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-9",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.651,
+      0.109,
+      0.684,
+      0.887
+    ],
+    "text": "Pre-Training: Srinivasan Iyer∗, Bernie Huang∗, Lili Yu†, Arun Babu†, Chunting Zhou†, Kushal Tirumala, Xi Victoria Lin, Hu Xu, Xian Li, Akshat Shrivastava, Omer Levy‡, Armen Aghajanyan∗‡",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-10",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.705,
+      0.109,
+      0.737,
+      0.887
+    ],
+    "text": "Alignment and Safety: Ram Pasunuru∗, Andrew Cohen†, Aram H. Markosyan†, Koustuv Sinha†, Xiaoqing Ellen Tan†, Ivan Evtimov, Ping Yu, Tianlu Wang, Olga Golovneva, Asli Celikyilmaz‡",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-11",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.758,
+      0.109,
+      0.791,
+      0.887
+    ],
+    "text": "Inference and Evaluation: Pedro Rodriguez†, Leonid Shamis†, Vasu Sharma†, Christine Jou, Karthik Padthe†, Ching-Feng Yeh, Mingda Chen, Bapi Akula, Jacob Kahn‡, Daniel Li‡, Scott Yih‡",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-12",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.109,
+      0.861,
+      0.887
+    ],
+    "text": "Overall Project: Barlas Oguz, Morteza Behrooz, Benjamin Muller, Carleigh Wood, Mary Williamson, Ramya Raghavendra, Barbara Usher, William Ngan, Nikolay Bashlykov, Lukas Blecher, Sony Theakanath (Lead PM), Ammar Rizvi (Lead TPM), Gargi Ghosh♯, Luke Zettlemoyer♯",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.08,
+      0.111,
+      0.099,
+      0.23
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.113,
+      0.111,
+      0.155,
+      0.887
+    ],
+    "text": "Armen Aghajanyan, Bernie Huang, Candace Ross, Vladimir Karpukhin, Hu Xu, Naman Goyal, Dmytro Okhonko, Mandar Joshi, Gargi Ghosh, Mike Lewis, et al. Cm3: A causal masked multimodal model of the internet. arXiv preprint arXiv:2201.07520, 2022. Armen Aghajanyan, Lili Yu, Alexis Conneau, Wei-Ning Hsu, Karen Hambardzumyan, Susan Zhang, Stephen Roller, Naman Goyal, Omer Levy, and Luke Zettlemoyer. Scaling laws for generative mixed-modal language models. arXiv preprint arXiv:2301.03728, 2023. Agriflanders. Miniatuurpaardjes prijskamp - Agriflanders 2009, 2009. https://en.wikipedia.org/wiki/File: Miniatuurpaardje.jpg. CC-BY-SA 2.0, https://creativecommons.org/licenses/by/2.0/deed.en. Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch,",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.082,
+      0.111,
+      0.109,
+      0.885
+    ],
+    "text": "Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. Measuring massive multitask language understanding. In International Conference on Learning Representations, 2020. Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874, 2021. Or Honovich, Thomas Scialom, Omer Levy, and Timo Schick. Unnatural instructions: Tuning language models with (almost) no human labor, 2022. Drew A Hudson and Christopher D Manning. Gqa: A new dataset for real-world visual reasoning and compositional question answering. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 67",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.082,
+      0.125,
+      0.109,
+      0.887
+    ],
+    "text": "2215-0161. doi: https://doi.org/10.1016/j.mex.2023.102545. https://www.sciencedirect.com/science/article/pii/ S2215016123005411. Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a new dataset for open book question answering. arXiv preprint arXiv:1809.02789, 2018. OpenAI. GPTV System Card. https://cdn.openai.com/papers/GPTV\\_System\\_Card.pdf, 2023. Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. PyTorch: An imperative style, high-performance deep learning library. In NeurIPS, 2019. Bryan A Plummer, Liwei Wang, Chris M Cervantes, Juan C Caicedo, Julia Hockenmaier, and Svetlana Lazebnik. Flickr30k entities: Collecting region-to-phras",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.082,
+      0.112,
+      0.123,
+      0.885
+    ],
+    "text": "Mitchell Wortsman, Peter J Liu, Lechao Xiao, Katie Everett, Alex Alemi, Ben Adlam, John D Co-Reyes, Izzeddin Gur, Abhishek Kumar, Roman Novak, et al. Small-scale proxies for large-scale transformer training instabilities. arXiv preprint arXiv:2309.14322, 2023. Lili Yu, Bowen Shi, Ramakanth Pasunuru, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, et al. Scaling autoregressive multi-modal models: Pretraining and instruction tuning. arXiv preprint arXiv:2309.02591, 2023. Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. Hellaswag: Can a machine really finish your sentence? arXiv preprint arXiv:1905.07830, 2019. Biao Zhang and Rico Sennrich. Root mean square layer normalization. Advances in Neural Information Processing S",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.075,
+      0.111,
+      0.103,
+      0.251
+    ],
+    "text": "Appendix",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.122,
+      0.111,
+      0.142,
+      0.238
+    ],
+    "text": "A Samples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-3",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.166,
+      0.127,
+      0.339,
+      0.348
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.172,
+      0.349,
+      0.236,
+      0.875
+    ],
+    "text": "Prompt: My mom just adopted a dog called a mountain cur. I thought I knew a lot about dogs but I have never heard of this breed. Can you give me some basic information as well as show me a few pictures of what they look like?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.351,
+      0.342,
+      0.875
+    ],
+    "text": "Response: Sure! Mountain Cur dogs are a type of hunting dog that originated in the Appalachian Mountains. They are known for their intelligence, loyalty, and strong prey drive. They are typically medium-sized dogs, with a muscular build and a short, easy-to-maintain coat that comes in a variety of colors including black, brown, tan, red, and white. Here is an image of a black and white mountain cur dog: <img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-6",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.354,
+      0.351,
+      0.417,
+      0.874
+    ],
+    "text": "They have a long muzzle, floppy ears, and a bushy tail. They are generally friendly and outgoing, but can be wary of strangers if not socialized properly. They are highly energetic dogs that require regular exercise and mental stimulation to prevent boredom and destructive behavior.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-7",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_1.jpg",
+    "bbox_norm": [
+      0.383,
+      0.127,
+      0.558,
+      0.349
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-8",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.352,
+      0.448,
+      0.823
+    ],
+    "text": "Here is another image of a mountain cur dog in the forest: <img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-9",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.351,
+      0.554,
+      0.875
+    ],
+    "text": "Mountain Cur dogs are often used for hunting, particularly for small game such as squirrels, raccoons, and rabbits. They are also popular family pets due to their loyal and affectionate nature. However, they do require regular exercise and training to ensure they remain happy and healthy. With proper care and attention, Mountain Cur dogs can make wonderful companions for active families or individuals who enjoy the outdoors.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-10",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_2.jpg",
+    "bbox_norm": [
+      0.593,
+      0.127,
+      0.727,
+      0.299
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-11",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.302,
+      0.617,
+      0.825
+    ],
+    "text": "Prompt: What color is a polar bear’s fur? Show me a photograph of the polar bear in the wild.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-12",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.3,
+      0.723,
+      0.826
+    ],
+    "text": "Response: Polar bears have white fur, which helps them blend in with their snowy and icy surroundings. This camouflage allows them to hunt more effectively, as they can sneak up on their prey without being detected. Additionally, the white fur reflects sunlight, keeping the polar bear cool in the harsh Arctic environment. Here is an image of a polar bear in the wild:<img>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:figure-1",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_0.jpg",
+    "bbox_norm": [
+      0.088,
+      0.127,
+      0.289,
+      0.3
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.106,
+      0.31,
+      0.122,
+      0.87
+    ],
+    "text": "Prompt: <img> My plant looks like this... Is this a problem? If so, how do I fix it?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-3",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.136,
+      0.308,
+      0.198,
+      0.872
+    ],
+    "text": "Response: The image you provided shows a pothos plant with yellowing leaves, which can be caused by a variety of factors, including overwatering, underwatering, lack of nutrients, too much direct sunlight, or pests. Here are some steps you can take to troubleshoot and potentially fix the issue:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.198,
+      0.334,
+      0.242,
+      0.87
+    ],
+    "text": "• Check the soil: Pothos plants prefer well-draining soil that is neither too wet nor too dry. If the soil feels soggy or waterlogged, stop watering for a while. Conversely, if the soil feels dry to the touch, it’s time to water.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.334,
+      0.289,
+      0.87
+    ],
+    "text": "• Adjust watering: Overwatering is a common cause of yellowing leaves on pothos plants. Reduce the frequency of watering and allow the soil to dry out slightly between waterings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-6",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.15,
+      0.333,
+      0.869
+    ],
+    "text": "• Provide adequate light: Pothos plants prefer bright, indirect light but can tolerate low light conditions. If your plant is not getting enough light, move it to a brighter location.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-7",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.15,
+      0.363,
+      0.87
+    ],
+    "text": "• Fertilize: Pothos plants benefit from regular fertilization. Use a balanced, water-soluble fertilizer and follow the instructions on the label.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-8",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.363,
+      0.15,
+      0.393,
+      0.87
+    ],
+    "text": "• Prune: Yellow leaves can be removed to improve the appearance of the plant. Cut back any yellow leaves to the nearest healthy stem using clean pruning shears.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-9",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.15,
+      0.424,
+      0.87
+    ],
+    "text": "• Check for pests: Inspect the plant for pests such as mealybugs, spider mites, or scale. If present, treat the plant with insecticidal soap or neem oil according to the product’s instructions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-10",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.424,
+      0.15,
+      0.454,
+      0.87
+    ],
+    "text": "• Repot: If the plant is pot-bound (meaning the roots have filled the container), consider repotting it in a larger container with fresh, well-draining soil.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-11",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.454,
+      0.125,
+      0.486,
+      0.87
+    ],
+    "text": "By following these steps, you may be able to identify and address the underlying cause of the yellowing leaves on your pothos plant.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-12",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.111,
+      0.536,
+      0.596
+    ],
+    "text": "B Additional Information of Human Evaluations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:table-13",
+    "page_id": 23,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_23_Table_0.jpg",
+    "bbox_norm": [
+      0.582,
+      0.122,
+      0.806,
+      0.872
+    ],
+    "text": "Table 8 Descriptions of the prompt task categories.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-23:text-14",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.82,
+      0.109,
+      0.851,
+      0.885
+    ],
+    "text": "For the twelve task categories of the prompts we collected for human evaluation, a short description of each category can be found in Table 8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-15",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.857,
+      0.109,
+      0.911,
+      0.887
+    ],
+    "text": "The task fulfillment rates, broken down by each task category and modality are shown in Table 9 and Table 10. Chameleon’s win rates, broken down by task category and modality, are shown in Table 11, Table 12, Table 13 and Table 14.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:table-1",
+    "page_id": 24,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_24_Table_0.jpg",
+    "bbox_norm": [
+      0.137,
+      0.119,
+      0.358,
+      0.879
+    ],
+    "text": "Table 9 Task fulfillment breakdown.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-24:table-2",
+    "page_id": 24,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_24_Table_1.jpg",
+    "bbox_norm": [
+      0.375,
+      0.225,
+      0.597,
+      0.772
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-24:table-3",
+    "page_id": 24,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_24_Table_2.jpg",
+    "bbox_norm": [
+      0.695,
+      0.112,
+      0.878,
+      0.9
+    ],
+    "text": "Table 10 Modality fulfillment breakdown.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-25:table-1",
+    "page_id": 25,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_25_Table_0.jpg",
+    "bbox_norm": [
+      0.166,
+      0.263,
+      0.416,
+      0.733
+    ],
+    "text": "Table 11 Complete Win Rates: Chameleon vs. Gemini+.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-25:table-2",
+    "page_id": 25,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_25_Table_1.jpg",
+    "bbox_norm": [
+      0.577,
+      0.263,
+      0.844,
+      0.733
+    ],
+    "text": "Table 12 Complete Win Rates: Chameleon vs. GPT-4V+.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-26:table-1",
+    "page_id": 26,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_26_Table_0.jpg",
+    "bbox_norm": [
+      0.162,
+      0.263,
+      0.43,
+      0.732
+    ],
+    "text": "Table 13 Complete Win Rates: Chameleon vs. Gemini.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-26:table-2",
+    "page_id": 26,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_26_Table_1.jpg",
+    "bbox_norm": [
+      0.582,
+      0.263,
+      0.851,
+      0.732
+    ],
+    "text": "Table 14 Complete Win Rates: Chameleon vs. $\\mathrm { G P T - 4 V } .$",
+    "source_type": "table"
+  }
+]

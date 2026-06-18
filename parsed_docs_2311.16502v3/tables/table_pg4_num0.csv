@@ -1,0 +1,11 @@
+Dataset,Size,Images,Format,Source,Answer
+VQA,> 1M,V,I+T,Annotated,Open
+GQA,> 1M,V,I+T,Synthesized,Open
+VisWiz,32K,V,I+T,Annotated,Open
+TextVQA,45K,OC,I+T,Annotated,MC
+OKVQA,14K,V+OC,I+T,Annotated,MC
+SEED,19K,V+OC,I+T,Annotated,Open / MC
+MMBench,3K,V+OC,I+T,Repurposed,MC
+MM-Vet,0.2K,V+OC,I+T,Repurposed,MC
+ScienceQA,6K,5 Types,I+T,Textbooks,MC
+MMMU,11.5K,30 Types,Interleaved,"Textbooks, Internet, Annotated",Open / MC

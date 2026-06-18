@@ -1,0 +1,15 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_W19-5302",
+  "total_tables": 10,
+  "converted": 1,
+  "failed": 0,
+  "conversions": [
+    {
+      "image": "_page_3_Table_0.jpg",
+      "output": "tables/table_pg3_num0.csv",
+      "status": "success",
+      "elapsed_seconds": 100.63,
+      "single_image_run": true
+    }
+  ]
+}

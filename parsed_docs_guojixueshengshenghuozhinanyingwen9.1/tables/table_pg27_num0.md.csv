@@ -1,0 +1,5 @@
+DocumentsRequiredType ofClaim,Copy ofpassportand visapage,Originalreceipt,Medical record(Dates of eachtreatment anddiagnosis shouldmatch dates onthe receipts),Itemizedbill,Accidentreport,Copy ofhospitaldischargesummaryor inpatientmedicalrecord,Copy ofpassbookor customerinformationform forbank cardholders
+Outpatient(in the caseof accident),Yes,Yes,Yes,,Yes,,Yes
+Outpatient(in the caseof illness),Yes,Yes,Yes,,,,Yes
+Inpatient (inthe case ofaccident),Yes,Yes,,Yes,Yes,Yes,Yes
+Inpatient (inthe case ofillness),Yes,Yes,,Yes,,Yes,Yes

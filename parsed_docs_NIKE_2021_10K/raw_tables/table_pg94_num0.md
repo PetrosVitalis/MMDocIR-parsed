@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">(Dollars in millions)</td></tr><tr><td>Balance at May 31, 2020</td><td>$</td></tr><tr><td>Employee termination costs</td><td>249</td></tr><tr><td>Cash payments</td><td>(212)</td></tr><tr><td>Foreign currency translation and other</td><td>1</td></tr><tr><td>Balance at May 31,2021</td><td>$ 38</td></tr></table>

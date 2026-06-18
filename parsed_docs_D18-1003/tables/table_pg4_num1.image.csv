@@ -1,0 +1,7 @@
+Parameter,SN,PF,NT,SE
+Word embedding length,100,100,300,100
+Claim source embedding length,-,4,8,4
+Article source embedding length,8,4,8,4
+LSTM size (for each pass),64,64,64,16
+Size of fully connected layers,32,32,64,8
+Dropout,0.5,0.5,0.3,0.3

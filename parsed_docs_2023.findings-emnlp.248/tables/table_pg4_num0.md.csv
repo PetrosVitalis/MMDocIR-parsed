@@ -1,0 +1,6 @@
+Problem,Formulation,Example,Example,Solver,Dataset
+Problem,Formulation,NL Sentence,Symbolic Formulation,Solver,Dataset
+DeductiveReasoning,LP,If the circuit is complete andthe circuit has the light bulbthen the light bulb is glowing.,"Complete(Circuit，True)>Has(Circuit,LightBulb)→Glowing(LightBulb，True)",Pyke,"ProntoQA,ProofWriter"
+First-OrderLogic,FOL,A Czech person wrote a bookin 1946.,"x2x1(Czech(xi） ^Author(x2,x1)∧Book(x2) ^ Publish(x2,1946))",Prover9,FOLIO
+ConstraintSatisfaction,CSP,"On a shelf,there are five books.The blue book is to the rightof the yellow book.","blue_book ∈ {1,2,3,4,5}yellow_book∈{1,2,3,4,5}blue_book >yellow_book",python-constraint,LogicalDeduction
+AnalyticalReasoning,SAT,Xena and exactly three othertechnicians repair radios,repairs(Xena，radios)^Count([t:technicians]，t≠ Xena> repairs(t，radios))）== 3),Z3,AR-LSAT

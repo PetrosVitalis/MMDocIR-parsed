@@ -1,0 +1,41 @@
+[
+  {
+    "table_id": "table_1",
+    "reason": "LLM repair returned empty/non-table JSON",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\n  \"data\": [\n    [\"Country\", \"ISO Code\", \"\", \"Country\", \"ISO Code\"],\n    [\"ARMENIA\", \"AM\", \"\", \"MOLDOVA\", \"MD\"],\n    [\"AZERBAIJAN\", \"AZ\", \"\", \"NEPAL\", \"NP\"],\n    [\"BANGLADESH\", \"BD\", \"\", \"NICARAGUA\", \"NI\"],\n    [\"BELARUS\", \"BY\", \"\", \"PAKISTAN\", \"PK\"],\n    [\"EL SALVADOR\", \"sv\", \"\", \"RUSSIA\", \"RU\"],\n    [\"INDIA\", \"IN\", \"\", \"SOUTH AFRICA\", \"ZA\"],\n    [\"KAZAKHSTAN\", \"KZ\", \"\", \"SRI LANKA\", \"LK\"],\n    [\"KENYA\", \"KE\", \"\", \"TAJIKISTAN\", \"TJ\"],\n    [\"KYRGYZSTAN\", \"KG\", \"\", \"UKRAINE\", \"UA\"],\n    [\"MAURITIUS\", \"MU\", \"\", \"UZBEKISTAN\", \"UZ\"]\n  ]\n}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "LLM repair returned empty/non-table JSON",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\n  \"table_data\": [\n    [\"Country\", \"ISO Code\", \"\", \"Country\", \"ISO Code\"],\n    [\"ARMENIA\", \"AM\", \"\", \"MOLDOVA\", \"MD\"],\n    [\"AZERBAIJAN\", \"AZ\", \"\", \"NEPAL\", \"NP\"],\n    [\"BANGLADESH\", \"BD\", \"\", \"NICARAGUA\", \"NI\"],\n    [\"BELARUS\", \"BY\", \"\", \"PAKISTAN\", \"PK\"],\n    [\"EL SALVADOR\", \"sv\", \"\", \"RUSSIA\", \"RU\"],\n    [\"INDIA\", \"IN\", \"\", \"SOUTH AFRICA\", \"ZA\"],\n    [\"KAZAKHSTAN\", \"KZ\", \"\", \"SRI LANKA\", \"LK\"],\n    [\"KENYA\", \"KE\", \"\", \"TAJIKISTAN\", \"TJ\"],\n    [\"KYRGYZSTAN\", \"KG\", \"\", \"UKRAINE\", \"UA\"],\n    [\"MAURITIUS\", \"MU\", \"\", \"UZBEKISTAN\", \"UZ\"]\n  ]\n}"
+      }
+    ]
+  }
+]

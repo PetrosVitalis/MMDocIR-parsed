@@ -1,0 +1,9 @@
+AUTO Adjust,"Automatically adjusts screen size, H position, V position, Clock, Clock Phase when video source is changed",,,
+H Position,Controls the horizontal position of the image within the display area of the LCD.,,,
+V Position,Controls the vertical position of the image within the display area of the LCD.,,,
+Value: 0-100,,,,
+V Position,Controls the vertical position of the image within the display area of the LCD.,,,
+Value: 0-100,,,,
+Clock,+ Expand the width of the image on the right of the screen,- Narrow the width of the image on the left of the screen,Adjust H total,Value: 0-100
+Phase,Adjusts the image phase,,,Value: 0-100
+White Balance,Perform the white balance,,,

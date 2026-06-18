@@ -1,0 +1,1 @@
+<table><tr><td>Function</td><td>Number of employees</td></tr><tr><td>Research and development</td><td>3,054</td></tr><tr><td> Content management and operation</td><td>1,640</td></tr><tr><td> Sales and marketing</td><td> 547</td></tr><tr><td>Management and administration</td><td>725</td></tr><tr><td>Total</td><td>5,966</td></tr></table>

@@ -1,0 +1,9 @@
+Port,Pin,Alternative Function
+P3.0,RXD (serial input port),
+P3.1,TXD (serial output port),
+P3.2,INT0 (external interrupt 0),
+P3.3,INT1 (external interrupt 1),
+P3.4,T0 (Timer 0 external input),
+P3.5,T1 (Timer 1 external input),
+P3.6,WR (external data memory write strobe),
+P3.7,RD (external data memory read strobe),

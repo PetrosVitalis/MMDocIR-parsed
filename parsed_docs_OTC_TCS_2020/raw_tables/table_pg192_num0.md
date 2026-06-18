@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">(crore)</td></tr><tr><td></td><td>As at March 31, 2020</td><td>As at March 31, 2019</td></tr><tr><td>Trade receivables</td><td>656</td><td>569</td></tr><tr><td>Less: Allowance for doubtful trade receivables</td><td>(582)</td><td>(474)</td></tr><tr><td>Considered good</td><td>74</td><td>95</td></tr></table>

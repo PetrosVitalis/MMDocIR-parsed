@@ -1,0 +1,7 @@
+Configuration,MSE
+CNN-text,0.53
+CCRF+SVR,0.36
+LSTM-text,0.35
+DistantSup,0.35
+DeClarE (Plain),0.34
+DeClarE (Full),0.29

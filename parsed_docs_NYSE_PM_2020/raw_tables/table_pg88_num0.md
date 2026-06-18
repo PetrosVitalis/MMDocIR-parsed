@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Shares of PSU Awards that Vested</td><td>Grant Date Fair Value of Vested Shares of PSU Awards</td><td>Total Fair Value of PSU Awards that Vested</td></tr><tr><td>(dollars in millions) 2020</td><td>343.806</td><td>$ 35 $</td><td>30</td></tr><tr><td>2019</td><td>330,616</td><td>$ 32$</td><td>28</td></tr></table>

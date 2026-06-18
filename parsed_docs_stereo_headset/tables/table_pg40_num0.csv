@@ -1,0 +1,8 @@
+Airplane Mode,Wi-Fi,Bluetooth,Mobile Data,Personal Hotspot,Carrier,Notifications
+Airplane Mode,,Airplane Mode,,,,",,"
+Wi-Fi,中Wi-Fi,Wi-Fi,,,,",,"
+Bluetooth,中Wi-Fi,自Bluetooth,,,,",,"
+Mobile Data,中Wi-Fi,自Bluetooth,Mobile Dsts,,,",,"
+Personal Hotspot,中Wi-Fi,自Bluetooth,+Mobile Dsts,Personal Hotspot,,",,"
+Carrier,中Wi-Fi,自Bluetooth,+Mobile Dsts,Personal Hotspot,Carrier,",,"
+Notifications,中Wi-Fi,自Bluetooth,+Mobile Dsts,Personal Hotspot,Carrier,Notifications

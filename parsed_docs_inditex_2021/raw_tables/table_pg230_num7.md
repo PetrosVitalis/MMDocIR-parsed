@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">SPAIN</td></tr><tr><td>Spain</td><td></td><td>46,07540279486874730</td><td></td></tr><tr><td>Spain-workforce,</td><td></td><td></td><td></td></tr><tr><td>permanent</td><td>37,65736,62736,63235745</td><td></td><td></td></tr><tr><td>contracts</td><td></td><td></td><td></td></tr></table>

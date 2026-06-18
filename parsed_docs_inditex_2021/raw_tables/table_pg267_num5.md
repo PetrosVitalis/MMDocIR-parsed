@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Incident rate44</td><td rowspan=1 colspan=1>Frequency rate45</td></tr><tr><td rowspan=1 colspan=1>Women</td><td rowspan=1 colspan=1>3.50</td><td rowspan=1 colspan=1>2.60</td></tr><tr><td rowspan=1 colspan=1>Men</td><td rowspan=1 colspan=1>2.80</td><td rowspan=1 colspan=1>2.00</td></tr></table>

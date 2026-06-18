@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Title of each class</td><td rowspan=1 colspan=1>Trading Symbol(s)</td><td rowspan=1 colspan=1>Name of each exchange on which registered</td></tr><tr><td rowspan=1 colspan=1>Class A ordinary shares,par value $0.0oo0225 per share</td><td rowspan=1 colspan=1>ACN</td><td rowspan=1 colspan=1>New York Stock Exchange</td></tr></table>

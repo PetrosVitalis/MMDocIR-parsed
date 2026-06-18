@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td colspan="2">At December 31, 2020</td><td colspan="2">At December 31, 2019</td></tr><tr><td>Segregated securities1</td><td>$</td><td>34,106$</td><td></td><td>25,061</td></tr></table>

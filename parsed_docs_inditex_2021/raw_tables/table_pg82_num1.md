@@ -1,0 +1,1 @@
+<table><tr><td></td><td>31/01/2022 31/01/2021</td></tr><tr><td>Less than one year</td><td>35 11</td></tr><tr><td>Between one and five years</td><td>1</td></tr><tr><td>Total 36</td><td>3 14</td></tr></table>

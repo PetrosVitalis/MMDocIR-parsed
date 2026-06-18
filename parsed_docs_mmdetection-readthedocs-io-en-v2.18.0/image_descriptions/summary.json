@@ -1,0 +1,24 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_mmdetection-readthedocs-io-en-v2.18.0",
+  "total_images": 3,
+  "non_figure_images_skipped": 24,
+  "processed": 3,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_116_Asset_0.jpg",
+      "output": "image_descriptions/_page_116_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_253_Figure_0.jpg",
+      "output": "image_descriptions/_page_253_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_74_Figure_0.jpg",
+      "output": "image_descriptions/_page_74_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

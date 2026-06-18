@@ -1,0 +1,1 @@
+<table><tr><td>Hop</td><td> # Count</td><td># Average Tokens</td></tr><tr><td>2</td><td>39</td><td>71</td></tr><tr><td>3</td><td>179</td><td>83</td></tr><tr><td>4</td><td>945</td><td>97</td></tr><tr><td>5</td><td>5613</td><td>109</td></tr></table>

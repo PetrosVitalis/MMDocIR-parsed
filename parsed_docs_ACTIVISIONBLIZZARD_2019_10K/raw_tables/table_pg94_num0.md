@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Year Ended December 31, 2019</td></tr><tr><td>Operating leases</td><td></td></tr><tr><td>Operating lease costs</td><td>$ 75</td></tr><tr><td>Variable lease costs</td><td>20</td></tr></table>

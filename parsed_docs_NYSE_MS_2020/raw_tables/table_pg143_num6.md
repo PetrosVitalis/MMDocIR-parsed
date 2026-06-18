@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>MS Adjusted ROE</td><td>$ 57.05 $</td><td>43.29</td><td>$ 56.84</td></tr><tr><td>Relative MS TSR</td><td>65.31</td><td>48.28</td><td>65.81</td></tr></table>

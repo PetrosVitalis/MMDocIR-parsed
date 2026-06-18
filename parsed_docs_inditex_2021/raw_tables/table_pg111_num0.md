@@ -1,0 +1,1 @@
+<table><tr><td>2021</td><td>2020</td></tr><tr><td>Audit services 7.3</td><td>7.3</td></tr><tr><td> Other assurance services</td><td>0.8 0.7</td></tr><tr><td> Total audit and similar services</td><td>8.1 8.0</td></tr><tr><td> Other services</td><td>0.2 0.1</td></tr><tr><td> Total professional services</td><td>8.3 8.1</td></tr></table>

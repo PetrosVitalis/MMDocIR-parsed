@@ -1,0 +1,6 @@
+Feature,Condition
+"$\mathsf { e x t r e p . b i g r a m } ( w , y _ { < t } , x )$",Adding w to the hypothesis $y _ { < t }$ would create a 2-gram that appears in a previous utterance by the model
+"$\mathtt { e x t r e p \_ u n i g r a m } ( w , y _ { < t } , x )$",w is a non-stopword and w appears in a previous utterance by the model
+"$\mathtt { i n t r e p . b i g r a m ( } w , y _ { < t } , x \mathtt { ) }$",Adding w to the hypothesis $y _ { < t }$ would create a 2-gram that appears earlier in the hypothesis $y _ { < t }$
+"$\mathtt { i n t r e p \_ u n i g r a m } ( w , y _ { < t } , x )$",w is a non-stopword and w appears earlier in the hypothesis $y _ { < t }$
+"partnerrep. $\mathtt { b i g r a m } ( w , y _ { < t } , x )$",Adding w to the hypothesis $y _ { < t }$ would create a 2-gram that appears in a previous utterance by the partner

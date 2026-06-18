@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021 Average</td><td>2020 Average</td></tr><tr><td>Spain</td><td>7.29%</td><td>8.36%</td></tr><tr><td>Rest of Europe</td><td>8.34%</td><td>9.45%</td></tr><tr><td>Americas</td><td>12.17%</td><td>13.82%</td></tr><tr><td>Asia and rest of the world</td><td>7.17%</td><td>8.70%</td></tr></table>

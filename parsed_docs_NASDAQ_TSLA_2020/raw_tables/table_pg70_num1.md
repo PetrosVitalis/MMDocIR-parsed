@@ -1,0 +1,1 @@
+<table><tr><td>Machinery, equipment, vehicles and office furniture</td><td> 2 to 12 years</td></tr><tr><td>Building and building improvements</td><td>15 to 30 years</td></tr><tr><td>Computer equipment and software</td><td>3 to 10 years</td></tr></table>

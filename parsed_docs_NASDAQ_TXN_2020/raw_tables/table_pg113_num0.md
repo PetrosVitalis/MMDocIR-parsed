@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Audit..</td><td>$9,884,000</td><td>$9,925,000</td></tr><tr><td>Audit-Related</td><td>$763,000</td><td>$796,000</td></tr><tr><td>Tax...</td><td>$2,372,000</td><td>$1,515,000</td></tr><tr><td>All Other..</td><td>$ 29,000</td><td>$ 25,000</td></tr></table>

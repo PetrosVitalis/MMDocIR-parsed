@@ -1,0 +1,1 @@
+<table><tr><td>Goal slot</td><td>Accuracy</td></tr><tr><td>Num of Tickets</td><td>98.22</td></tr><tr><td>Movie</td><td>91.86</td></tr><tr><td>Theater Name</td><td>97.33</td></tr><tr><td>Date</td><td>99.31</td></tr><tr><td>Time</td><td>97.71</td></tr><tr><td>Joint</td><td>84.57</td></tr></table>

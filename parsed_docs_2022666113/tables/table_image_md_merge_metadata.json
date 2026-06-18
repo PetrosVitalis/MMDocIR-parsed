@@ -1,0 +1,23 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_2022666113",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_52_Table_0.jpg",
+      "raw_md": "table_pg52_num0.md",
+      "csv_base": "table_pg52_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_56_Table_0.jpg",
+      "raw_md": "table_pg56_num0.md",
+      "csv_base": "table_pg56_num0",
+      "status": "md_convert_failed",
+      "error": "LLM returned empty/non-table JSON"
+    }
+  ]
+}

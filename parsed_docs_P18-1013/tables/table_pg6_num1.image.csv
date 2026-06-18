@@ -1,0 +1,4 @@
+Method,"HierAttn (Nallapati et al., 2016b)*","DeepRL (Paulus et al., 2017)*","pointer-generator (See et al., 2017)","GAN (Liu et al., 2017)",two-stage (ours),end2end w/o inconsistency loss (ours),end2end w/ inconsistency loss (ours),"lead-3 (See et al., 2017)"
+ROUGE-1,32.75,39.87,39.53,39.92,39.97,40.19,40.68,40.34
+ROUGE-2,12.21,15.82,17.28,17.65,17.43,17.67,17.97,17.70
+ROUGE-L,29.01,36.90,36.38,36.71,36.34,36.68,37.13,36.57

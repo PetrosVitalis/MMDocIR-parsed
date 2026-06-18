@@ -1,0 +1,1 @@
+<table><tr><td>Product</td><td> Sales Quantity</td><td> Target Price</td><td> Actual Price</td><td>Difference</td></tr><tr><td>A</td><td>1,000</td><td>$285.00</td><td>$286.00</td><td>$ 1.00</td></tr><tr><td>B</td><td>5,000</td><td>297.60</td><td>255.60</td><td>(42.00)</td></tr><tr><td>C</td><td>500</td><td>202.50</td><td>310.00</td><td>$107.50</td></tr></table>

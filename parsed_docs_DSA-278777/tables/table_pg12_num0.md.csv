@@ -1,0 +1,6 @@
+Symbol,Parameter,Min,Max,Units
+1/TCLCL,Oscillator Frequency (except 8751H-8)8751H-8,3.53.5,128,MHzMHz
+TCHCX,High Time,20,,ns
+TCLCX,Low Time,20,,ns
+TCLCH,Rise Time,,20,ns
+TCHCL,Fall Time,,20,ns

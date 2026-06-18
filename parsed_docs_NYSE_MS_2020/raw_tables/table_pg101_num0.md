@@ -1,0 +1,1 @@
+<table><tr><td>$in millions</td><td colspan="2">2020</td><td>2019</td></tr><tr><td>Net revenues</td><td>$</td><td>50,203 $</td><td>44,192</td></tr><tr><td>Net income</td><td></td><td>11,459</td><td>9,839</td></tr></table>

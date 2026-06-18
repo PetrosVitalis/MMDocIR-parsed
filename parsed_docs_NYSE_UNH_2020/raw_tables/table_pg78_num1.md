@@ -1,0 +1,1 @@
+<table><tr><td>(shares in millions)</td><td>Shares</td><td>Weighted-Average GrantDate Fair Value per Share</td></tr><tr><td>Nonvested at beginning of period</td><td>5</td><td>207</td></tr><tr><td>Granted</td><td>1</td><td>303</td></tr><tr><td>Vested .</td><td>(2)</td><td>187</td></tr><tr><td>Nonvested at end of period .</td><td>4</td><td>256</td></tr></table>

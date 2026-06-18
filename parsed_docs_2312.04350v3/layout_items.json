@@ -1,0 +1,3152 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.24,
+      0.172,
+      0.756
+    ],
+    "text": "CLADDER: Assessing Causal Reasoning in Language Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.191,
+      0.279,
+      0.808
+    ],
+    "text": "Zhijing Jin1,2,∗, Yuen Chen1,∗, Felix Leeb1,∗, Luigi Gresele1,∗, Ojasv Kamal3, Zhiheng Lyu4, Kevin Blin2, Fernando Gonzalez2, Max Kleiman-Weiner5, Mrinmaya Sachan2, Bernhard Schölkopf1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.28,
+      0.253,
+      0.343,
+      0.746
+    ],
+    "text": "1MPI for Intelligent Systems, Tübingen 2ETH Zürich 3IIT Kharagpur 4University of Hong Kong 5University of Washington jinzhi@ethz.ch chenyuen0103@berkeley.edu fleeb@tue.mpg.de luigi.gresele@tue.mpg.de",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.353,
+      0.459,
+      0.369,
+      0.539
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.377,
+      0.228,
+      0.587,
+      0.769
+    ],
+    "text": "The ability to perform causal reasoning is widely considered a core feature of intelligence. In this work, we investigate whether large language models (LLMs) can coherently reason about causality. Much of the existing work in natural language processing (NLP) focuses on evaluating commonsense causal reasoning in LLMs, thus failing to assess whether a model can perform causal inference in accordance with a set of well-defined formal rules. To address this, we propose a new NLP task, causal inference in natural language, inspired by the “causal inference engine” postulated by Judea Pearl et al. We compose a large dataset, CLADDER, with 10K samples: based on a collection of causal graphs and queries (associational, interventional, and counterfactual), we obtain symbolic questions and ground-",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.599,
+      0.171,
+      0.616,
+      0.313
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.623,
+      0.228,
+      0.654,
+      0.766
+    ],
+    "text": "Once we really understand the logic behind causal thinking, we could emulate it on modern computers and create an “artificial scientist”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.553,
+      0.672,
+      0.766
+    ],
+    "text": "— Pearl and Mackenzie [2018]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.679,
+      0.169,
+      0.765,
+      0.826
+    ],
+    "text": "Causal reasoning is believed to be one of the hallmarks of human intelligence [29, 68]. The ability to draw causal inferences from available information is crucial for scientific understanding and rational decision-making: for example, knowing whether smoking causes cancer might enable consumers to make a more informed decision [17, 18]; assessing the causal effect of a vaccine is essential for effective policy-making during a pandemic [14, 44, 72, 97]; and understanding the interplay behind family background, education and income helps devise effective education policies [10, 11, 30, 73].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.768,
+      0.169,
+      0.853,
+      0.826
+    ],
+    "text": "Our opening quote therefore mirrors the aspirations of many scientists in artificial intelligence and causal inference: to construct a machine capable of performing sound causal reasoning, and able to answer causal questions at scale and with ease. Recent advances in large language models (LLMs) have brought about a paradigm shift in natural language processing (NLP) and artificial intelligence [7, 15, 39, 56, 76, 103, inter alia]. These transformative developments raise the question of whether these machines are already capable of causal reasoning: Do LLMs understand causality?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.09,
+      0.174,
+      0.383,
+      0.818
+    ],
+    "text": "Figure 1: Example question in our CLADDER dataset featuring an instance of Simpson’s paradox [63]. We generate the following (symbolic) triple: (i) the causal query; (ii) the ground-truth answer, derived through a causal inference engine [66]; and (iii) a step-by-step explanation. We then verbalize these questions by turning them into stories, inspired by examples from the causality literature, which can be expressed in natural language.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.468,
+      0.169,
+      0.582,
+      0.826
+    ],
+    "text": "Many previous works addressed the above question by focusing on commonsense causality [34, 100, 101], inspired by the literature that explores LLMs as knowledge bases [40, 70, 83] (we refer to this line of work as causality as knowledge). This involves assessing the alignment between commonsense knowledge about causal relationships in humans and LLMs. This line of work generally does not focus on evaluating how well models are capable of causal reasoning. For example, it may be difficult to rule out the possibility that LLMs perform potentially unreliable amortized causal inference, answering causal questions by a simple repetition of verbal patterns present in the texts composing their training data:2,3 in other words, LLMs may just be “causal parrots” [100].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.587,
+      0.169,
+      0.796,
+      0.826
+    ],
+    "text": "In this work, we introduce a way to test the formal causal reasoning in LLMs. To this end, we introduce the CLADDER dataset. The specificity of CLADDER is that causal questions posed in natural language are grounded in symbolic questions and ground truth answers: the latter are derived through an oracle causal inference engine (CI engine) [66], which abides by the rules of the causal inference approach described by Pearl [61], based on graphical models and structural causal models (SCMs) [23, 59, 61, 69, 88]. We compose more than 10,000 causal questions that cover a variety of causal queries across the three rungs of the Ladder of Causation [3, 66]—i.e., associational (Rung 1), interventional (Rung 2), and counterfactual (Rung 3). We consider several causal graphs, giving rise to scenarios",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.801,
+      0.169,
+      0.873,
+      0.828
+    ],
+    "text": "Exploiting CLADDER, we also introduce a method to elicit sound causal reasoning in LLMs and help them solve challenging causality questions. Specifically, we develop CAUSALCOT, a chain-of-thought prompting strategy [96] inspired by the CI engine, which prompts the LLM to extract the causal graph, causal query, and available “data” (e.g., conditional or interventional doprobabilities [24]) from the question, formalize them precisely, and perform correct causal inferences.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.121,
+      0.825
+    ],
+    "text": "Our experiments indicate that CAUSALCOT achieves an accuracy of 70.40%, which substantially improves the performance of vanilla GPT-4 by 8.37 points on CLADDER.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.126,
+      0.169,
+      0.14,
+      0.511
+    ],
+    "text": "We summarize the main contributions of our work:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.146,
+      0.209,
+      0.189,
+      0.826
+    ],
+    "text": "1. In contrast to most other works on causality in LLMs, focusing on commonsense causal knowledge, our goal is to assess the LLMs’ ability to perform formal causal reasoning (briefly reviewed in Section 2).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.194,
+      0.209,
+      0.238,
+      0.826
+    ],
+    "text": "2. We introduce CLADDER (Section 3), a dataset containing more than 10K causal questions, spanning all three rungs of the ladder of causation, several causal graphs, and various stories for verbalization.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.209,
+      0.273,
+      0.826
+    ],
+    "text": "3. We develop CAUSALCOT (Section 4), a chain-of-thought prompting strategy to elicit formal causal reasoning in LLMs, inspired by the causal inference engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.209,
+      0.321,
+      0.826
+    ],
+    "text": "4. We perform extensive experiments on eight LLMs (Section 5), analyze fine-grained errors to showcase the limitations of LLMs in formal causal reasoning, and suggest directions for future research.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.171,
+      0.349,
+      0.491
+    ],
+    "text": "2 Preliminaries on Causal Inference",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.358,
+      0.169,
+      0.444,
+      0.826
+    ],
+    "text": "Our dataset design takes inspiration from the Causal Inference Engine as postulated by Pearl and Mackenzie [66], see also [59]. We begin with a brief overview of the causality framework by Pearl et al. ${ \\displaystyle [ 6 7 ] . ^ { 4 } }$ This framework was largely developed within the field of artificial intelligence, and therefore puts particular emphasis on algorithmic aspects of causal reasoning (e.g., [62])—which makes it particularly suited for our work, where we want to algorithmically generate ground truth answers to causal queries, without having to appeal to common sense to assess the correctness of an answer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.45,
+      0.171,
+      0.465,
+      0.392
+    ],
+    "text": "2.1 The Ladder of Causation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.468,
+      0.169,
+      0.5,
+      0.825
+    ],
+    "text": "The Ladder of Causation, introduced by Pearl and Mackenzie [66], is a proposed taxonomy, and hierarchy, of causal inference tasks [3]. It consists of three distinct rungs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.503,
+      0.169,
+      0.574,
+      0.825
+    ],
+    "text": "Rung 1 (“seeing”). This describes statistical associations (“How often do I take an aspirin when I have a headache?”). Rung 1 deals with statistical dependences among random variables, and involves probabilistic reasoning about joint and conditional distributions, $P ( X = x , Y = y )$ and $P ( Y = y \\mathbf { \\bar { \\vert } } X = x )$ , which can be formalised through Bayesian Networks [12, 58] representing a set of variables and their conditional dependencies via a directed acyclic graph (DAG).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.169,
+      0.636,
+      0.826
+    ],
+    "text": "Rung 2 (“doing”). This enables us to formalize the concept of actively intervening in the world, and modifying it toward some end (“If I take an aspirin now, will my headache subside?”). Interventions can be formalized using the do-operator [24] and Causal Bayesian Networks [67] to represent, for example, the distribution over Y when intervening on X to set its value to x as $P ( Y = y | \\mathrm { d o } ( X = x ) )$ ).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.169,
+      0.727,
+      0.826
+    ],
+    "text": "Rung 3 (“imagining”). This rung deals with counterfactual reasoning, i.e., reasoning about alternative scenarios in which the world could have been different, possibly even contradicting the factual state (“Would my headache have subsided, if I had taken an aspirin?”). Counterfactual probabilities can be written as $P ( Y _ { x } = y )$ , representing the probability that ${ } ^ { 6 6 } Y$ would be y, had X been $\\mathbf { \\chi } _ { x } , \\mathbf { \\chi } _ { \\mathbf { \\chi } }$ . Reasoning about Rung 3 quantities requires the introduction of Structural Causal Models (SCMs) [67]. SCMs are especially powerful as they enable any quantity in Rungs 1, 2, and 3 to be formulated precisely [3].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.733,
+      0.171,
+      0.747,
+      0.333
+    ],
+    "text": "2.2 Causal Inference",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.169,
+      0.89,
+      0.826
+    ],
+    "text": "Identification. Causal inference is especially difficult since we typically only have measurements from lower rungs, but want to reason about higher ones. A crucial question is then under what conditions are such inferences possible, i.e., what assumptions and measurements are required to unambiguously answer a causal query of interest: this is the question of identification. As argued in [3], “it is generically impossible to draw higher-layer inferences using only lower-layer information”. One may be able to draw inferences at a higher layer given a combination of partial knowledge of the underlying SCM, in the form of a causal graph, and data at lower layers. The graphical structure therefore plays a crucial role in bridging the rungs of the Ladder of Causation, and many prior works have",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-1",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.089,
+      0.181,
+      0.433,
+      0.816
+    ],
+    "text": "Figure 2: The data-generating process of the CLADDER dataset. The upper part of the figure describes the formal part of the question generation, which samples inputs for the CI Engine and derives a ground truth answer. The bottom part describes the natural language part of the question generation—i.e., its verbalization, based on multiple stories and different degrees of alignment with commonsense knowledge.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.521,
+      0.169,
+      0.607,
+      0.826
+    ],
+    "text": "Causal Inference Engine. An overarching objective of this research is the construction of a Causal Inference Engine (CI Engine) [37, 59, 66], which takes as input a query, a graph, and some available data (typically from lower rungs than the query); and outputs whether a solution exists, and, if so, an equivalent expression of the query which is estimable from the available data. While some previous works refer to the CI engine in the context of Rung 2 queries, where it corresponds to the do-calculus [36, 84], here we refer to it in a more general sense, encompassing all three rungs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.171,
+      0.637,
+      0.495
+    ],
+    "text": "3 Composing the CLADDER Dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.647,
+      0.169,
+      0.719,
+      0.826
+    ],
+    "text": "Task Formulation. Like in the example of Figure 1, our dataset $\\mathcal { D } : = \\{ ( q _ { i } , a _ { i } , e _ { i } ) \\} _ { i = 1 } ^ { N }$ consists of N triples, each containing a question qi, binary answer $a _ { i } \\in \\{ \\mathrm { Y e s } , \\mathrm { N o } \\}$ , and an explanation ei. Our main task is to test the accuracy of the prediction function $f : { \\pmb q } \\mapsto { \\boldsymbol a } , \\mathrm { i . e . }$ , a LLM which maps a natural language causal question to an answer. Apart from directly evaluating the answer, we also compose the ground-truth explanations e to evaluate the reasoning steps of LLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.727,
+      0.169,
+      0.853,
+      0.826
+    ],
+    "text": "Design Principles. In the composition of our dataset, we adhere to the following design principles. First, we ensure broad coverage of all rungs of the ladder of causation. Second, we avoid settings that involve continuous variables and use binary variables instead: this is partly due to the large availability of identifiability results for binary and categorical variables, and partly because queries involving binary variables lend themselves to more natural-sounding verbalization. Moreover, since LLMs struggle with calculation-heavy tasks [32, 91], and we are chiefly interested in causal reasoning abilities, we focus on graphs with few (three to four) variables, in various common configurations, to produce questions which are identifiable from the outset. Lastly, we carefully design a ric",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.859,
+      0.171,
+      0.876,
+      0.826
+    ],
+    "text": "Overall Pipeline. The generation pipeline for CLADDER, depicted in Figure 2, consists of two parts:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.883,
+      0.171,
+      0.912,
+      0.826
+    ],
+    "text": "1. In the Formal Part (which we illustrate in Section 3.1), we specify all the required inputs (query, model, data) and the ground truth answer generated by the CI Engine.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.171,
+      0.121,
+      0.826
+    ],
+    "text": "2. In the Natural Language Part (in Section 3.2), we verbalize the formal queries and specification of the causal model and data by associating them to a story or narrative, using a rich set of templates.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.132,
+      0.171,
+      0.147,
+      0.506
+    ],
+    "text": "3.1 Formal Part of the Question Formulation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.169,
+      0.306,
+      0.826
+    ],
+    "text": "The first step of our data generating process is to construct a set of inputs to the CI Engine such that by design there exists a well-defined ground truth answer: i.e., we construct triples of causal queries, graphs, and data such that the query can be unambiguously answered based on the available data (ensuring identifiability by construction).5 The ground truth causal models, which specify all quantities which are considered measurable in our questions, are causal Bayesian networks (CBNs), where each causal mechanism (i.e., conditional probability of a variable given its parents in the factorization according to the causal graph G) corresponds to a Bernoulli distribution. We compile a selection of graphs G based on examples drawn from multiple sources from the literature [66, 67, 69, 88",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.315,
+      0.169,
+      0.455,
+      0.828
+    ],
+    "text": "Selecting Query Types. We again draw from the causal inference literature to collect common query types in each rung. As illustrated in the “Sample a query type” box in Figure 2, for Rung 1, we can ask about probability distributions such as marginal probabilities and conditional probabilities. For Rung 2 questions, we can enquire average treatment effects (ATE) (“how will Y change if X changes from x to x′?”), or what constitutes a valid adjustment set that can block all backdoor spurious correlations between X and Y . Lastly, for Rung 3, we include counterfactuals (“what would happen to Y had X been x′ instead of x?”), average treatment effect on the treated (ATT) (“for the subpopulation whose X changed from x to x′, how does their Y change on average?”), natural direct effect (NDE) (“wh",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.464,
+      0.169,
+      0.604,
+      0.828
+    ],
+    "text": "Applying the Causal Inference Engine for the Ground-truth answer. By construction, the causal processes we define encapsulates all necessary information to make the causal quantities of the query types identifiable. This allows us to apply the rules of causal inference to obtain an estimand for each causal graph and query type, and evaluate the estimand to get a ground truth answer. The Rung 2 queries simplify to Rung 1 terms using the rules of do-calculus [59], and, for the Rung 3 queries, we apply methods of counterfactual causal inference [67] (with details in Appendix C.3). The estimand also specifies exactly which terms are necessary to include in the prompt as “available data” in order to ensure that enough information is provided to answer the question correctly (i.e., for identifia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.616,
+      0.171,
+      0.631,
+      0.578
+    ],
+    "text": "3.2 Natural Language Part of the Question Formulation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.636,
+      0.169,
+      0.693,
+      0.826
+    ],
+    "text": "While Section 3.1 describes a way to generate the ground-truth causal model, query and answers, computed through a causal inference engine, real-world causal reasoning problems are expressed in natural language rather than symbolic expressions. The next part of the data generation pipeline therefore focuses on the verbalization of all these components with a plausible narrative in natural language.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.169,
+      0.869,
+      0.828
+    ],
+    "text": "Generating the Stories. For each causal graph, we collect a set of two to five stories which consist of a list of variable names for each node in the graph. The stories are primarily selected from examples in commonly cited causal inference books and papers (see Appendix A.1), which ensures that the stories and corresponding causal graph structures adhere to empirical common sense (e.g., the druggender-recovery example of Pearl and Mackenzie [66]). However, it is very likely that at least some of the stories appear in the training data of many LLMs. Therefore, we also generate various anticommon sense and nonsensical variants of the stories, meant to isolate the effects of memorization. For the anti-commonsensical stories, we randomly do one of the actions: (1) replace the effect variable ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.148,
+      0.826
+    ],
+    "text": "Verbalizing the Prompts. The verbalization procedure applies the mapping of symbolic variables to semantic concepts to form a plausible narrative for the underlying causal process and then translates the symbolic expressions from the underlying causal process to natural language using carefully designed templates.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.154,
+      0.169,
+      0.239,
+      0.826
+    ],
+    "text": "Specifically, we use several different grammatical forms for each semantic concept t in the story to make the resulting prompt sound natural and grammatically correct. We first have the overall variable name ${ v _ { \\mathrm { o v e r a l l } } ( t ) }$ (e.g., the recovery status), and, then, for each binary value $i \\in \\{ 0 , 1 \\}$ , we compose its noun $v _ { \\mathrm { n o u n } } ( t = i ) ~ ( \\mathrm { e . g . , r e c o v e r y } )$ , verb (e.g., to recover), sentence $v _ { \\mathrm { s e n t } } ( t = i ) ~ ( { \\mathrm { e . g } }$ ., the patients recover), noun with attributive clause $v _ { \\mathrm { a t t r } } ( \\pmb { t } = i )$ (e.g., patients who recover), and third conditional $v _ { \\mathrm { c o n d } } ( t = i ) \\ ( \\mathrm { e . g . }$ ., if the patient had recovered).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.169,
+      0.382,
+      0.826
+    ],
+    "text": "Using these elements, we first verbalize the causal graph by iterating through each node and its outgoing edges, using the template “t has a direct effect on ${ \\bf { C } } { \\bf { \\bar { H } } } ( t ) . $ , where CH(·) denotes the set of direct effects (children) of a variable. Then, for the available data d, we verbalize each conditional probability by “For $v _ { \\mathrm { a t t r } } ( { t } _ { m } = i )$ , the probability of $v _ { \\mathrm { n o u n } } ( t _ { n } = 1 )$ is $p . \\ddot { }$ , and each marginal probability by “The overall probability of $v _ { \\mathrm { a t t r } } ( \\pmb { t } = 1 )$ is $p . \\ '$ Note that our distributions are Bernoulli, so it is adequate to just introduce the parameter p, which is the likelihood of t = 1. For example, we generate sentences such as ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.169,
+      0.501,
+      0.826
+    ],
+    "text": "Generating the Explanations. Apart from the question-answer pairs, we also generate the step-bystep explanations. Our goal is to provide all intermediate reasoning steps a student of causal inference would use to answer the questions, so that each necessary subskill necessary for causal inference can be evaluated individually. We identify the following six subskills: ① causal graph extraction; ② correct query type interpretation; ③ symbolic formalization of the query; ④ semantic parsing to compile the available data; ⑤ estimand derivation; and ⑥ arithmetic calculation to solve the estimand, as in the colored boxes in Figure 1. Our explanation e verbalizes all the elements ①-⑥ as sequential steps using our template in Appendix A.8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.507,
+      0.171,
+      0.522,
+      0.334
+    ],
+    "text": "3.3 Dataset Statistics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.526,
+      0.169,
+      0.583,
+      0.826
+    ],
+    "text": "Our data-generating procedure has the potential to algorithmically generate a vast large number of questions. In practice, we pick a dataset size that is large enough to be representative, and at the same time not too large to be problematic given the expensive inference costs of LLMs. We therefore set our dataset size to be 10K, and report the statistics in Table 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.588,
+      0.169,
+      0.646,
+      0.826
+    ],
+    "text": "The dataset roughly balance across the query types, graph structures, stories, and ground truth answers (as seen in Figure 3). Note that some causal queries are only compatible with a subset of the graphs, thereby resulting in a slightly lower representation of those queries (such as the NDE and NIE). More details on our design choices can be found in Appendix A.4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-8",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.656,
+      0.173,
+      0.827,
+      0.594
+    ],
+    "text": "Table 1: Statistics of our CLADDER dataset v1.5.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:figure-9",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.688,
+      0.658,
+      0.813,
+      0.821
+    ],
+    "text": "Figure 3: Distributions of query types in our 10K data.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.864,
+      0.171,
+      0.88,
+      0.354
+    ],
+    "text": "3.4 Data Quality Check",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.883,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "Our dataset is generated through an algorithmic procedure, which has the following potential benefits: formal correctness; zero human annotation cost; and, most importantly, controllability—e.g., for the question distribution, as well as for making it more unlikely that the data was previously seen by the model. However, since the dataset is different from common NLP datasets collected from human natural language writing, we also need to perform additional data quality checks. We therefore checked for a list of non-formal, natural language properties: grammaticality; human readability; naturalness/perplexity; and how well humans perform on this task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.167,
+      0.169,
+      0.323,
+      0.826
+    ],
+    "text": "For grammaticality, we ran a grammatical error check on our dataset using the LanguageTool package [51], and got on average 1.26 grammatical errors per 100 words (i.e., 98.74% correctness), which shows that most of the language in our dataset follows English grammar. For human readability, we checked how comprehensible the questions are to students who have taken causality courses. We selected a random subset of 50 questions from the dataset, and let a graduate student annotator go through the questions to judge whether they could understand them or not: 96% of the questions were deemed readable. Next, for the naturalness/perplexity score, we used the open-sourced GPT-2 model and obtained a perplexity score of 21.17 on our dataset, which is substantially lower (i.e., closer to the distribu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.171,
+      0.349,
+      0.419
+    ],
+    "text": "4 Our CAUSALCOT Model",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-4",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.353,
+      0.176,
+      0.633,
+      0.813
+    ],
+    "text": "Figure 4: Illustration of our CAUSALCOT prompting strategy, which designs a chain of subquestions inspired by the idea of a CI engine [66].",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.169,
+      0.77,
+      0.826
+    ],
+    "text": "In order to guide LLMs in correctly answering the questions in CLADDER, we draw inspiration from the ideal functioning of the CI engine [66], which breaks down a causal reasoning problem into multiple symbolically-grounded, simpler steps. We develop CAUSALCOT, a multi-step causal chain-of-thought prompt in Figure 4, which combines formal causal reasoning skills with the idea of chain-of-thought prompting [96] and the use of scratch pads for solving more complicated problems requiring a long list of steps [55] for LLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.169,
+      0.888,
+      0.826
+    ],
+    "text": "We base our prompt design on the multi-step reasoning process of causal inference as shown in Figure 4, first starting with four preparation steps: ① identifying the causal graph structure; ② determining the causal query type;6 ③ formulating the query symbolically precisely; and ④ extracting relevant data from the prompt. Then, given all the information collected in the preparation stage, we introduce the formal solution: ⑤ correctly deducing the estimand using causal inference techniques; and finally ⑥ evaluating the estimand to answer the question. This set of steps require both natural language understanding to parse the question (as in most steps in the preparation phase), as well as formal causal reasoning to derive the correct estimand (as in the solution phase).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.176,
+      0.826
+    ],
+    "text": "We build our CAUSALCOT prompting strategy using GPT-4 [56], a recent autoregressive LLM that achieves state-of-the-art performance on many tasks. This latest model builds upon the previous series of general pretrained models (GPT) [7, 76] and adds reinforcement learning with human feedback, or instruction-tuning [1, 57, 104], to align the model responses to free-form questions with human preferences. It has achieved human-competitive performance over a list of tasks [8, 43, 54, 56, 105], among which the more formal tasks unseen in the training data still remain elusive [42, 78, 91].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.181,
+      0.169,
+      0.266,
+      0.826
+    ],
+    "text": "Given a causal question q, we provide the LLM a list of instructions $\\ell : = ( s _ { 1 } , \\ldots , s _ { 6 } )$ consisting of the detailed descriptions of the six steps $s _ { 1 } , \\ldots , s _ { 6 }$ in Figure 4. As the model $f _ { \\mathrm { L L M } } : s _ { i } \\mapsto r _ { i }$ autoregressively produces responses $r _ { 1 } , \\cdot \\cdot \\cdot , r _ { 6 }$ sequentially corresponding to the six steps, we concatenate all the above before asking the final question “Based on all the reasoning above, output one word to answer the initial question with just ‘Yes’ or $\\mathbf { \\vec { N } } \\mathbf { 0 } \\mathbf { \\vec { \\mu } } . \\mathbf { \\vec { \\mu } }$ See the complete prompt in Appendix B.1. In the end, we obtain the binary answer $a \\in \\{ \\mathrm { Y e s } , \\mathrm { N o } \\}$ a",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.27,
+      0.169,
+      0.328,
+      0.826
+    ],
+    "text": "Compared with the standard strategy of directly prompting the LLMs a question, we impose an inductive bias upon LLMs by using the causal inference framework, thus incorporating some of the powerful, principled insights of the causal inference community for NLP tasks. In this way, we enhance the strong natural language ability of LLMs with formal causal reasoning skills.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.338,
+      0.171,
+      0.354,
+      0.46
+    ],
+    "text": "5 Testing LLMs with CLADDER",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.364,
+      0.171,
+      0.38,
+      0.354
+    ],
+    "text": "5.1 Experimental Setup",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.169,
+      0.482,
+      0.826
+    ],
+    "text": "Our empirical investigation focuses on some of the most recent language models. We include the latest GPT-4 [56] with 1T parameters by the time we conduct the experiments (i.e., gpt-4-1106-preview), the previous ChatGPT (i.e., GPT-3.5) with 175B parameters, and then a series of earlier models with instruction-tuning on the 175B GPT-3 (text-davinci-001, -002, and -003) [57]. As baselines, we also include the non-instruction-tuned GPT-3 (davinci). We use the OpenAI API with temperature 0 when querying these models. We also include open-source, more efficient models like LLaMa [93] and its instruction-tuned version Alpaca [92], both with the same number of parameters, 6.7B.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.488,
+      0.171,
+      0.503,
+      0.307
+    ],
+    "text": "5.2 Main Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-8",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.515,
+      0.173,
+      0.669,
+      0.831
+    ],
+    "text": "Table 2: Performance of all models on our CLADDER dataset v1.5. We report the overall accuracy (Acc.), and also fine-grained accuracy by rung, and by degree of commonsense alignment, from commonsensical (Comm.), nonsensical (Nonsens.), to anti-commonsensical (Anti-C.).",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.169,
+      0.83,
+      0.828
+    ],
+    "text": "We compare the performance of all models in Table 2. First, we can see that the causal reasoning task in CLADDER is in general very challenging for all models. Models such as the earlier, non-instructiontuned GPT-3, and both LLaMa and Alpaca are around random performance. With instruction-tuning, models start to show some improvement. And amongst all, our CAUSALCOT achieves the highest performance of 70.40%, which is substantially better than the vanilla GPT-4 by 8.37 points. Moreover, CAUSALCOT also achieve the best performance across all three rungs of causal questions, with a monotonically decreasing performance as the rungs get higher, i.e., the questions get more difficult. See Appendix D for experiments on our earlier dataset v1.0.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.837,
+      0.171,
+      0.852,
+      0.511
+    ],
+    "text": "5.3 Isolating the Effect of Data Contamination",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "A well-known problem with evaluating LLMs on question-answering tasks is the data contamination problem, i.e., that LLMs perform well on a test set because the test set is (unintentionally) contained partially or even entirely in the training data [7, 56]. We address this problem by creating not only the commonsensical subset of our dataset, but also anti-commonsensical and nonsensical, both of which, by construction, are very likely not in the training data of LLMs. From the accuracy by commonsense alignment degree in Table 2, we can see the original GPT-4 model performs the worst on the anticommonsensical subset (1.8 points lower than that on the commonsensical subset). However, our CAUSALCOT enhances the reasoning ability across all levels, with substantial improvement on anti-commonsen",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.17,
+      0.171,
+      0.185,
+      0.436
+    ],
+    "text": "5.4 Error Analysis by Subquestions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-3",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_0.jpg",
+    "bbox_norm": [
+      0.195,
+      0.194,
+      0.241,
+      0.8
+    ],
+    "text": "Table 3: Performance for each step in CAUSALCOT. For Step ①, we report the F1 score of node prediction, edge prediction, and also the graph edit distance (Dist.) with the true graph. See more details in Appendix E.1.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.276,
+      0.169,
+      0.443,
+      0.826
+    ],
+    "text": "We conduct a fine-grained error analysis by looking into the performance of different steps of CAUSALCOT in Table 3.7 We can see that the model is good at Step ① to extract causal graph G, achieving high F1 scores for predicting both the nodes and the edges correctly, although not perfect, still leaving a graph edit distance of 1.69 between the ground truth causal graph and the model-identified graph. The other steps are more challenging for the model. Among those, Steps ②, ③ and ⑤ require careful and correct application of causal inference, where the model struggles. This reveals a notable weakness of current LLMs to perform formal causal reasoning, which is an important direction for future work on improving and enhancing LLMs. To better understand the reasoning abilities of LLMs, we als",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.452,
+      0.171,
+      0.467,
+      0.423
+    ],
+    "text": "5.5 Effect of In-Context Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.169,
+      0.613,
+      0.617
+    ],
+    "text": "As an additional analysis, we look into the effect of in-context learning (ICL) by providing an example solution before asking the question. The interesting question to us is whether models can generalize across different query types. Namely, we keep our CAUSALCOT framework, and prepend a reasoning example of query type i, and then calculate how much improvement it can bring when models answer new questions of query type j. In Figure 5, we can see that conditional probability and NIE are the questions that benefit the most from ICL, and showing examples of marginal probability and ATT are among the most helpful to all questions in general.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.622,
+      0.171,
+      0.638,
+      0.325
+    ],
+    "text": "6 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.646,
+      0.169,
+      0.746,
+      0.826
+    ],
+    "text": "Skill evaluation for LLMs. Our work may be seen as part of the literature aimed at evaluating the performance of current LLMs [7, 15, 56, 76, 103, inter alia], focusing on understanding their strengths and weaknesses. Various studies into the capabilities of LLMs [8, 39, 56, 74] change people’s perception of domains such as education [2, 80], medicine [54, 87], law [43], and computational social science [105]. However, most work evaluates new models on existing datasets from previouslycurated large-scale benchmarks [89, 94, 95], or human exams [41, 43, 56] which is becoming increasingly unreliable due to training set contamination.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.169,
+      0.877,
+      0.826
+    ],
+    "text": "Causality-related skills for NLP. With the increasing attention on LLMs and causality [100, 101], we review several formulations of causality-related skills for NLP, which we summarize into (1) causality as knowledge, (2) causality as language comprehension, and (3) causality as reasoning. In the causality-as-knowledge line of work, many existing studies investigate how well NLP models understand commonsense causality, such as the cause and effect of an agent’s action [81], motivation and emotional reaction in a social context [82], correspondence of a set of steps with a high-level goal [102], development of a story given a different beginning [75], and how in general LLMs serve as a knowledge base of causality [100]. Concurrent work [45] focuses on evaluating LLMs on various causality re",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.181,
+      0.169,
+      0.252,
+      0.826
+    ],
+    "text": "Finally, for causality as formal reasoning, our CLADDER work formulates the task of causal inference for NLP, and our other work, CORR2CAUSE [42], addresses the causal discovery problem to infer causation from correlation. Together, they cover the two major branches of causal reasoning investigated in existing technical literature on causality. See a comprehensive comparison of literature in Appendix F.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.171,
+      0.279,
+      0.57
+    ],
+    "text": "7 Discussion of Limitations and Future Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.169,
+      0.426,
+      0.826
+    ],
+    "text": "A Natural Language “Mini Turing Test” for Causality. Pearl and Mackenzie [66] describe an ideal “mini-Turing test” to assess understanding of causal inference, and argue that if a machine can answer all possible questions correctly, then it “understands” causality. According to the authors, this is because there are no possible shortcuts when you consider all possible combinations of queries, graphs and data in this ideal test: due to their combinatorial explosion, the machine can only answer all questions right if it correctly applies causal reasoning. From this point of view, our work constitutes a first step towards a mini-Turing test formulated in natural language. However, we cover only some of the commonly studied causal queries spanning all three rungs. Future work may extend this t",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.169,
+      0.584,
+      0.826
+    ],
+    "text": "LLMs and Causal Reasoning. It has been claimed that LLMs understand causality well (e.g., [45] report high performance, such as 97% and 92%). In contrast, our work suggests that LLMs may still be far from reasoning reliably about causality (reaching only 60+% on CLADDER). As argued in Section 1, we believe that investigating this aspect may be of particular importance, since causal inference is crucial in many policy-relevant scenarios, where reliable AI systems could assist decisionmaking: from epidemiology [22, 79] to economics [10, 37] to fairness [47, 71]. Testing the abilities of these systems in semi-realistic scenarios is therefore crucial, motivating some of the design choices in our dataset: e.g., the example in Figure 1 was inspired by similar questions which arose in the context",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.588,
+      0.169,
+      0.715,
+      0.826
+    ],
+    "text": "A CI Engine Plug-in for LLMs. An interesting direction for future research could be to provide the LLM access to an actual implementation of the CI engine. For example, Davis and Aaronson [13] tested the improvement of math abilities in LLMs augmented with plug-ins (i.e., external modules that extend the model’s capabilities by adding specific functionality or customizing its behaviour for particular tasks, like a calculator), suggesting that they significantly enhance the model’s ability to solve these problems. However, even with plug-ins, there are still often “interface” failures: that is, “[the LLM] often has trouble formulating problems in a way that elicits useful answers from the plug-ins”. We hypothesise that something similar would happen for causal inference: even once suitable ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.724,
+      0.171,
+      0.741,
+      0.302
+    ],
+    "text": "8 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.169,
+      0.848,
+      0.826
+    ],
+    "text": "We proposed formal causal reasoning as a new task to evaluate LLMs, and created the CLADDER benchmark, covering several aspects of causal inference across all rungs of the ladder of causation and verbalizations involving semi-realistic scenarios. To address the task, we proposed a prompting strategy, CAUSALCOT, inspired by the principles of formal causal inference, which introduces multistep chain-of-thought reasoning for causal questions. Extensive experiments indicate that this dataset is highly challenging, thus offering a principled tool to gain a better understanding of the reasoning abilities of LLMs and to develop better models for causal reasoning in natural language.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-9",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.858,
+      0.171,
+      0.876,
+      0.325
+    ],
+    "text": "Acknowledgment",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-10",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.882,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "We thank Sergio Hernan Garrido Mejia for pointing us to Python implementations of the causal inference engine. We thank Armen Aghajanyan for the idea of testing psychological bias in LLMs, which partly contributes to the idea of exposing causal bias in LLMs. We thank András Strausz for various timely coding help, especially for our Simpson’s paradox case.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.126,
+      0.169,
+      0.252,
+      0.826
+    ],
+    "text": "The material presented in this manuscript is partly based upon works supported by the German Federal Ministry of Education and Research (BMBF): Tübingen AI Center, FKZ: 01IS18039B; by the Machine Learning Cluster of Excellence, EXC number 2064/1 – Project number 390727645; the Swiss National Science Foundation (Project No. 197155); a Responsible AI grant by the Haslerstiftung; an ETH Grant (ETH-19 21-1); and by the John Templeton Foundation (grant #61156). Zhijing Jin is supported by PhD fellowships from the Future of Life Institute and Open Philanthropy, as well as the travel support from ELISE (GA no 951847) for the ELLIS program. Felix Leeb is supported by the International Max Planck Research School for Intelligent Systems (IMPRS-IS). Luigi Gresele is supported by the VideoPredict proj",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.171,
+      0.279,
+      0.359
+    ],
+    "text": "Author Contributions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.169,
+      0.372,
+      0.826
+    ],
+    "text": "The conceptualization and design of this project was led by Zhijing, Luigi and Felix, and supervised by Mrinmaya on the NLP part, and Bernhard on the causality part. Max provided timely insights from cognitive science on different types of causal tasks and on the project design. In the exploration stage, Ojasv did substantial work on discovering causal fallacies in news and on Twitter, which, while not included in the current systematic way of generating causal inference questions, was a significant contribution in the course of the project and in comparing various task formulations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.377,
+      0.169,
+      0.449,
+      0.826
+    ],
+    "text": "As for the operationalization and programming, the dataset composition was mainly led by Yuen and Felix, together with daily discussions with Zhijing, and weekly discussions with Luigi. Zhiheng supported an important function of generating the backdoor adjustment set for a given causal graph with the treatment and effect variables. The experiments are mainly conducted by Zhijing and Fernando, with Kevin finishing the evaluation results using the ROSCOE package.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.173,
+      0.474,
+      0.269
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.484,
+      0.189,
+      0.58,
+      0.825
+    ],
+    "text": "[1] Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom B. Brown, Jack Clark, Sam McCandlish, Chris Olah, Benjamin Mann, and Jared Kaplan. 2022. Training a helpful and harmless assistant with reinforcement learning from human feedback. CoRR, abs/2204.05862. [Cited on page 8.] [2] David Baidoo-Anu and Leticia Owusu Ansah. 2023. Education in the era of generative artificial intelligence (AI): Understanding the potential benefits of ChatGPT in promoting teaching and learning.",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.214,
+      0.175,
+      0.826
+    ],
+    "text": "Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language models are few-shot learners. In Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual. [Cited on pages 1, 8, and 9.] [8] Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott M. Lundberg, Harsha Nori, Hamid Palangi, Marco Túlio Ribeiro, and Yi Zhang. 2023. Sparks of artificial general intelligence: Early experiments with GPT-4. CoRR, abs/2303.12712. [Cited on p",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.181,
+      0.148,
+      0.826
+    ],
+    "text": "[21] Jörg Frohberg and Frank Binder. 2022. CRASS: A novel data set and benchmark to test counterfactual reasoning of large language models. In Proceedings of the Thirteenth Language Resources and Evaluation Conference, pages 2126–2140, Marseille, France. European Language Resources Association. [Cited on page 27.] [22] Thomas A Glass, Steven N Goodman, Miguel A Hernán, and Jonathan M Samet. 2013. Causal inference in public health. Annual review of public health, 34:61–75. [Cited on page 10.] [23] Madelyn Glymour, Judea Pearl, and Nicholas P Jewell. 2016. Causal inference in statistics: A primer. John Wiley and Sons. [Cited on pages 2 and 19.] [24] Moisés Goldszmidt and Judea Pearl. 1992. Rank-based systems: A simple approach to belief revision, belief update, and reasoning about evidence a",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.181,
+      0.133,
+      0.825
+    ],
+    "text": "[36] Yimin Huang and Marco Valtorta. 2006. Pearl’s calculus of intervention is complete. In Proceedings of the Twenty-Second Conference on Uncertainty in Artificial Intelligence, pages 217–224. [Cited on pages 3 and 4.] [37] Paul Hünermund and Elias Bareinboim. 2019. Causal inference and data fusion in econometrics. CoRR, abs/1912.09104. [Cited on pages 4, 5, and 10.] [38] Ferenc Huszár. 2023. We may be surprised again: Why i take llms seriously. [Cited on page 2.] [39] Oana Ignat, Zhijing Jin, Artem Abzaliev, Laura Biester, Santiago Castro, Naihao Deng, Xinyi Gao, Aylin Gunal, Jacky He, Ashkan Kazemi, Muhammad Khalifa, Namho Koh, Andrew Lee, Siyang Liu, Do June Min, Shinka Mori, Joan Nwatu, Verónica Pérez-Rosas, Siqi Shen, Zekun Wang, Winston Wu, and Rada Mihalcea. 2023. A PhD student’s p",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.181,
+      0.161,
+      0.826
+    ],
+    "text": "[52] Razieh Nabi and Ilya Shpitser. 2018. Fair inference on outcomes. In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, (AAAI-18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February 2-7, 2018, pages 1931–1940. AAAI Press. [Cited on page 10.] [53] Brady Neal. 2020. Introduction to causal inference. [Cited on page 19.] [54] Harsha Nori, Nicholas King, Scott Mayer McKinney, Dean Carignan, and Eric Horvitz. 2023. Capabilities of GPT-4 on medical challenge problems. CoRR, abs/2303.13375. [Cited on pages 8 and 9.] [55] Maxwell I. Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob Austin, David Bieber, Da",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.181,
+      0.162,
+      0.825
+    ],
+    "text": "[70] Fabio Petroni, Tim Rocktäschel, Sebastian Riedel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, and Alexander Miller. 2019. Language models as knowledge bases? In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 2463–2473, Hong Kong, China. Association for Computational Linguistics. [Cited on page 2.] [71] Drago Plecko and Elias Bareinboim. 2022. Causal fairness analysis. arXiv preprint arXiv:2207.11385. [Cited on page 10.] [72] Stanley A Plotkin. 2005. Vaccines: Past, present and future. Nature medicine, 11(Suppl 4):S5–S11. [Cited on page 1.] [73] George Psacharopoulos and Harry Anthony Patrinos. 2004. Returns to investment in education: A further update. ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.181,
+      0.133,
+      0.826
+    ],
+    "text": "[84] Ilya Shpitser and Judea Pearl. 2006. Identification of conditional interventional distributions. In 22nd Conference on Uncertainty in Artificial Intelligence, UAI 2006, pages 437–444. [Cited on pages 3 and 4.] [85] Ilya Shpitser and Judea Pearl. 2006. Identification of joint interventional distributions in recursive semi-markovian causal models. In Proceedings, The Twenty-First National Conference on Artificial Intelligence and the Eighteenth Innovative Applications of Artificial Intelligence Conference, July 16-20, 2006, Boston, Massachusetts, USA, pages 1219–1226. AAAI Press. [Cited on page 24.] [86] Shikhar Singh, Nuan Wen, Yu Hou, Pegah Alipoormolabashi, Te-lin Wu, Xuezhe Ma, and Nanyun Peng. 2021. COM2SENSE: A commonsense reasoning benchmark with complementary sentences. In Findi",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.214,
+      0.121,
+      0.825
+    ],
+    "text": "Systems 32: Annual Conference on Neural Information Processing Systems 2019, NeurIPS 2019, December 8-14, 2019, Vancouver, BC, Canada, pages 3261–3275. [Cited on page 9.] [95] Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza Mirzaei, Atharva Naik, Arjun Ashok, Arut Selvan Dhanasekaran, Anjana Arunkumar, David Stap, Eshaan Pathak, Giannis Karamanolakis, Haizhi Gary Lai, Ishan Purohit, Ishani Mondal, Jacob Anderson, Kirby Kuznia, Krima Doshi, Kuntal Kumar Pal, Maitreya Patel, Mehrad Moradshahi, Mihir Parmar, Mirali Purohit, Neeraj Varshney, Phani Rohitha Kaza, Pulkit Verma, Ravsehaj Singh Puri, Rushang Karia, Savan Doshi, Shailaja Keyur Sampat, Siddhartha Mishra, Sujan Reddy A, Sumanta Patro, Tanay Dixit, and Xudong Shen. 2022. Supernaturalinstructions: Generaliz",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.171,
+      0.107,
+      0.537
+    ],
+    "text": "A Supplementary for Dataset Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.117,
+      0.171,
+      0.133,
+      0.49
+    ],
+    "text": "A.1 List of References for Causal Inference",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.169,
+      0.167,
+      0.826
+    ],
+    "text": "When collecting the causal graphs, query types, and commonsensical stories for our dataset, we took our examples from the following books (sorted by year):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-4",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.21,
+      0.194,
+      0.331
+    ],
+    "text": "1. Causality [67]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-5",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.194,
+      0.209,
+      0.209,
+      0.524
+    ],
+    "text": "2. Causal inference in statistics: A Primer [23]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-6",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.209,
+      0.226,
+      0.462
+    ],
+    "text": "3. Elements of Causal Inference [69]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-7",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.226,
+      0.209,
+      0.241,
+      0.387
+    ],
+    "text": "4. The Book of Why [66]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-8",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.209,
+      0.257,
+      0.48
+    ],
+    "text": "5. Introduction to Causal Inference [53]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-9",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.268,
+      0.171,
+      0.285,
+      0.348
+    ],
+    "text": "And the following papers:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-10",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.209,
+      0.311,
+      0.736
+    ],
+    "text": "1. Causes and Explanations: A Structural-Model Approach. Part I: Causes [27]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-11",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.313,
+      0.207,
+      0.328,
+      0.781
+    ],
+    "text": "2. Causes and Explanations: A Structural-Model Approach. Part II: Explanations [28]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-12",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.209,
+      0.343,
+      0.63
+    ],
+    "text": "3. Causality and Counterfactuals in the Situation Calculus [35]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-13",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.344,
+      0.209,
+      0.359,
+      0.547
+    ],
+    "text": "4. Causal inference in statistics: An overview [60]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:figure-14",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.376,
+      0.334,
+      0.741,
+      0.661
+    ],
+    "text": "Figure 6: List of all ten causal graphs with treatment-effect pairs (CGTEs). We omit CGTEs that trivially resemble existing ones.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:text-15",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.797,
+      0.171,
+      0.813,
+      0.444
+    ],
+    "text": "A.2 Formulation of the Query Types",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-16",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.818,
+      0.169,
+      0.833,
+      0.583
+    ],
+    "text": "Here, we introduce all the query types included in our dataset.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-17",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.842,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "Rung-1 Queries: Marginal and Conditional Probabilities. For marginal probabilities, we ask questions about the overall distribution of a variable. For conditional probabilities, we ask whether conditioning on one variable increases or decreases the likelihood of another variable. For the explaining away questions, we condition on a collider node and ask how that affects the correlation between the two parents.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.246,
+      0.826
+    ],
+    "text": "Rung-2 Queries: ATE and Adjustment Set. For ATE questions, we ask whether the treatment (X = 1) increases or decreases the likelihood of the effect variable Y = y. For adjustment set questions, we ask whether a set of variables should be adjusted for when estimating the causal effect between treatment and effect. By adjusting, we aim to blocked the non-causal paths from the treatments to effect, and hence eliminate spurious correlation. For example, to query whether the set gender is an adjustment set for the effect of a treatment on recovery, we ask \"To estimate the effect of the treatment on recovery, should we directly look at how the treatment correlates with recovery, or should we look at gender-specific correlation?\" In the collider bias questions, similarly to the explaining away qu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.169,
+      0.354,
+      0.826
+    ],
+    "text": "Rung-3 Queries: Counterfactual Probability, ATT, NDE, and NIE. For counterfactual probability, we ask about what would have been the likelihood of Y = y, if the treatment variable X had been x, given sufficient evidence e such that the query is identifiable. For ATT, we ask how the likelihood of Y = y would change for those who received treatment (X = 1) if there had been no treatment (X = 0). For NDE, we ask whether the X = 1 directly increases or decreases the likelihood of the Y = y, not through any mediators. For NIE, we ask whether the treatment (setting X = 1) increases or decreases the likelihood of Y = y through mediators, not directly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.366,
+      0.171,
+      0.381,
+      0.416
+    ],
+    "text": "A.3 Collection of Causal Graphs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.386,
+      0.169,
+      0.402,
+      0.73
+    ],
+    "text": "We include all the ten causal graphs with treatment-effect pairs (CGTEs) in Figure 6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.169,
+      0.469,
+      0.826
+    ],
+    "text": "Note that one causal graph can have several different CGTEs, such as the confounding structure, which has three CGTEs: confounding, mediation, and collision in the triangle form. To generate all the causal graphs and CGTEs here, we iterate all commonly used ones within four nodes in the CI books, and omit CGTEs whose solution by CI methods trivially resembles existing ones.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-6",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.171,
+      0.497,
+      0.323
+    ],
+    "text": "A.4 Data Coverage",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-7",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.169,
+      0.573,
+      0.826
+    ],
+    "text": "Starting from the full set of 12 distinct causal graphs and 10 query types, there are a few combinations that must be omitted as the ground truth answer would be trivial or ill-defined. For example, in the “Immorality” graph, the treatment “X” and outcome “Y” are by construction statistically independent, so there correlation is necessarily 0. Similarly, there are several graphs where certain causal queries are ill-defined or don’t make sense to ask. Specifically:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-8",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.209,
+      0.614,
+      0.826
+    ],
+    "text": "1. For the Natural Direct Effect, we only include questions on the “IV”, “Arrowhead”, “Confounding”, “Mediation” and “DiamondCut” graphs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-9",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.614,
+      0.209,
+      0.643,
+      0.826
+    ],
+    "text": "2. For the Natural Indirect Effect, we only include questions on the “Mediation”, “Frontdoor”, “Arrowhead”, “Diamond” and “Chain” graphs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-10",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.645,
+      0.209,
+      0.672,
+      0.826
+    ],
+    "text": "3. For the Collider Bias and Explaining Away effect, we only include questions on the “Collision” graph.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-11",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.209,
+      0.689,
+      0.816
+    ],
+    "text": "4. For the Average Treatment Effect, we include questions on all graphs except “Collision”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-12",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.209,
+      0.718,
+      0.826
+    ],
+    "text": "5. For the (deterministic) Counterfactuals, we include questions on all graphs except “Collision”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-13",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.209,
+      0.748,
+      0.825
+    ],
+    "text": "6. For the Average Treatment Effect on the Treated (ATT), we include questions on all graphs except “Collision” and “IV”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-14",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.761,
+      0.169,
+      0.845,
+      0.826
+    ],
+    "text": "The “balanced” benchmark (main benchmark in v1.5), containing 10,112 questions split between all stories, graphs, query types, and commonsensicalness, is balanced such that there are roughly the same number of questions for each distinct story-graph-query combination (ranging from 50-100 per combination) across the different variants: commonsense, anticommonsense, and nonsense. Furthermore, we balance the distribution of correct answers so that there are the same number of “yes”s and “no”s.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-15",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "The “aggregate” variant (main benchmark in v1.0) contains 10,560 questions and is primarily balanced across all stories. However since the number of stories for each variant (commonsense, anticommonsense, and nonsense) varies significantly, the results in an unbalanced benchmark in terms of sensicalness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.171,
+      0.107,
+      0.446
+    ],
+    "text": "A.5 Query Form and Text Templates",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:table-2",
+    "page_id": 20,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_20_Table_0.jpg",
+    "bbox_norm": [
+      0.133,
+      0.179,
+      0.446,
+      0.816
+    ],
+    "text": "We provide in Table 4 the text templates we use for each query type. Table 4: Example natural language templates for each query type.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.171,
+      0.498,
+      0.354
+    ],
+    "text": "A.6 Nonsensical Stories",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.169,
+      0.642,
+      0.828
+    ],
+    "text": "To come up with a collection of nonsensical variable names, we use GPT-4 to generate some meaningless words. Specifically, we use the prompt: “Create 100 non-existent words that are short, i.e., within 5-characters.”, with temperature=0 with the OpenAI interface. The collection of nonsensical words we later use as variable names are as follows: ziblo, truq, fyze, glimx, jorv, wexi, snov, yupt, kraz, qixy, vubr, chiz, pliv, moxa, fygo, rukz, tasp, xevo, jyke, wibl, zorf, quzy, nyrp, gwex, smez, vytz, hupx, cwoj, lirf, ovka, pexu, yigz, twaz, kwox, zuph, fraq, jyxo, swoy, uvzi, nekl, gyzp, rixq, vwem, xyfu, blyz, qwip, zeku, tijv, yomx, hwaz, czix, plof, muvy, fyqo, rujz, tasb, xevi, jyka, wibm, zorx, quzw, nyro, gwet, smeu, vyta, hupz, cwoi, lirg, ovki, pexy, yigw, twac, kwoz, zupj, fraq, j",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.65,
+      0.171,
+      0.665,
+      0.426
+    ],
+    "text": "A.7 Anti-Commonsensical Stories",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-6",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.667,
+      0.169,
+      0.684,
+      0.651
+    ],
+    "text": "For the anti-commonsensical stories, we randomly do one of the actions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-7",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.693,
+      0.209,
+      0.748,
+      0.826
+    ],
+    "text": "1. Replace the effect variable Y with an attribute that would not be an effect variable in any of the stories. Such replacement variables include: “lip thickness”, “earthquakes”, “lactose intolerance”, “rainfall”, “is allergic to peanuts”, “brown eyes”, “curly hair”, “black hair”, “foot size”, “freckles”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.209,
+      0.808,
+      0.826
+    ],
+    "text": "2. Create an irrelevant treatment variable X that does not play a causal role in any of our commonsensical stories. Such as: “can swim”, “is religious”, “has a brother”, “has visited England”, “likes spicy food”, “is vegetarian”, “speaks english”, “drinks coffee”, “plays card games”, “listens to jazz”, “solar eclipse”, “has a sister”, “full moon”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.815,
+      0.169,
+      0.844,
+      0.825
+    ],
+    "text": "To transform a commonsensical story into an anti-commonsensical story, we apply one of these replacements sampled uniformly, resulting in stories such as:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.853,
+      0.214,
+      0.882,
+      0.826
+    ],
+    "text": "• Ability to swim has a direct effect on studying habit and exam score. Studying habit has a direct effect on exam score.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-11",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.883,
+      0.215,
+      0.912,
+      0.825
+    ],
+    "text": "• Gender has a direct effect on department competitiveness and peanut allergy. Department competitiveness has a direct effect on peanut allergy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.215,
+      0.119,
+      0.825
+    ],
+    "text": "• Liking spicy food has a direct effect on relationship status. Appearance has a direct effect on relationship status.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.215,
+      0.15,
+      0.825
+    ],
+    "text": "• Playing card games has a direct effect on diabetes and lifespan. Smoking has a direct effect on diabetes and lifespan. Diabetes has a direct effect on lifespan. Smoking is unobserved.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.16,
+      0.169,
+      0.175,
+      0.764
+    ],
+    "text": "For a full list of the replacements and how the replacements are made, check out the code.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.184,
+      0.171,
+      0.2,
+      0.372
+    ],
+    "text": "A.8 Explanation Template",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-5",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.171,
+      0.219,
+      0.717
+    ],
+    "text": "Step ① Extract the causal graph: The causal graph expressed in the context is: \"G\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-6",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.171,
+      0.247,
+      0.743
+    ],
+    "text": "Step ② Identify the query type: The query type of the above question is \"query\\_type\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-7",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.258,
+      0.171,
+      0.287,
+      0.825
+    ],
+    "text": "Step ③ Formulate the query to its symbolic form: The formal form of the query is \"symbolic\\_expression\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-8",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.171,
+      0.315,
+      0.601
+    ],
+    "text": "Step ④ Collect all the available data: The available data are: \"d\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-9",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.327,
+      0.171,
+      0.357,
+      0.825
+    ],
+    "text": "Step ⑤ Derive the estimand: Based on the graph structure and causal query, the question can be simplified into estimand \"est\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-10",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.171,
+      0.383,
+      0.645
+    ],
+    "text": "Step ⑥ Solve for the estimand: Plug in the available data \"d\" into \"est\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-11",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.171,
+      0.396,
+      0.22
+    ],
+    "text": "est(d)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-12",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.396,
+      0.171,
+      0.411,
+      0.246
+    ],
+    "text": "≈ float(a)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-13",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.424,
+      0.171,
+      0.439,
+      0.779
+    ],
+    "text": "Since the estimate for the estimand is float(a), the overall answer to the question is bool(a).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-14",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.171,
+      0.483,
+      0.387
+    ],
+    "text": "B Experimental Details",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-15",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.492,
+      0.171,
+      0.507,
+      0.37
+    ],
+    "text": "B.1 CAUSALCOT Prompt",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-16",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.171,
+      0.526,
+      0.426
+    ],
+    "text": "Q: [question from the dataset]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-17",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.171,
+      0.547,
+      0.583
+    ],
+    "text": "Guidance: Address the question by following the steps below:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-18",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.554,
+      0.169,
+      0.583,
+      0.826
+    ],
+    "text": "Step 1) Extract the causal graph: Identify the causal graph that depicts the relationships in the scenario.   \nThe diagram should simply consist of edges denoted in \"var1 -> var2\" format, separated by commas.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-19",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.589,
+      0.169,
+      0.66,
+      0.826
+    ],
+    "text": "Step 2) Determine the query type: Identify the type of query implied by the main question. Choices include \"marginal probability\", \"conditional probability\", \"explaining away effect\", \"backdoor adjustment set\", \"average treatment effect\", \"collider bias\", \"normal counterfactual question\", \"average treatment effect on treated\", \"natural direct effect\" or \"natural indirect effect\". Your answer should only be a term from the list above, enclosed in quotation marks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-20",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.665,
+      0.171,
+      0.695,
+      0.825
+    ],
+    "text": "Step 3) Formalize the query: Translate the query into its formal mathematical expression based on its type, utilizing the \"do(·)\" notation or counterfactual notations as needed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-21",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.169,
+      0.757,
+      0.825
+    ],
+    "text": "Step 4) Gather all relevant data: Extract all the available data. Your answer should contain nothing but marginal probabilities and conditional probabilities in the form $\" { \\mathrm { P } } ( . . . ) = . . . \" { \\mathrm { o r } } \" { \\mathrm { P } } ( . . . | . . ) = . . . \"$ , each probability being separated by a semicolon. Stick to the previously mentioned denotations for the variables.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-22",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.169,
+      0.806,
+      0.826
+    ],
+    "text": "Step 5) Deduce the estimand using causal inference: Given all the information above, deduce the estimand using skills such as do-calculus, counterfactual prediction, and the basics of probabilities. Answer step by step.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-23",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.169,
+      0.856,
+      0.826
+    ],
+    "text": "Step 6) Calculate the estimand: Insert the relevant data in Step 4 into the estimand, perform basic arithmetic calculations, and derive the final answer. There is an identifiable answer. Answer step by step.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-24",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.862,
+      0.171,
+      0.877,
+      0.392
+    ],
+    "text": "A: [LLM previous response]",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-25",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.883,
+      0.171,
+      0.91,
+      0.826
+    ],
+    "text": "Q: Based on all the reasoning above, output one word to answer the initial question with just \"Yes\" or \"No\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.171,
+      0.135,
+      0.64
+    ],
+    "text": "C Additional Technical Background for Preliminaries",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.171,
+      0.159,
+      0.344
+    ],
+    "text": "C.1 Graphical Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.162,
+      0.169,
+      0.304,
+      0.826
+    ],
+    "text": "We adopt the causal inference framework described in [61]. A causal graph $G : = ( V , E )$ consists of a set of k vertices $V : \\{ V _ { 1 } , \\ldots , V _ { k } \\}$ and directed edges $\\pmb { { \\cal E } } : = \\{ \\check { e } _ { i j } \\}$ , where the existence of each $e _ { i j }$ means that there is a direct causation from $V _ { i }$ to $V _ { j }$ , also denoted as $V _ { i } \\to V _ { j }$ We also introduce some notations to describe the relative positions among the nodes. Following a standard assumption in causality (but see, e.g., [6]), we will assume that $\\bar { \\boldsymbol { \\mathcal { G } } }$ is a direct acyclic graph (DAG), where we denote the parents of a node $V _ { i }$ as $\\mathbf { P A } ( V _ { i } ) : = \\{ V _ { j } | e _ { i j } \\in E \\}$ We denote descendants $\\math",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.308,
+      0.169,
+      0.337,
+      0.825
+    ],
+    "text": "Among all the variables in V , we use X and Y to denote two special variables, the treatment and effect, respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.344,
+      0.171,
+      0.359,
+      0.586
+    ],
+    "text": "C.2 Illustration of the Three Rungs of the Causal Ladder",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-6",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.363,
+      0.169,
+      0.392,
+      0.825
+    ],
+    "text": "In Figure 7, we illustrate the difference among the three rungs by enumerating what actions are performed on the variables other than target variables X and Y .",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-7",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.404,
+      0.173,
+      0.51,
+      0.821
+    ],
+    "text": "Figure 7: The Causal Ladder consists of three rungs: association, intervention and counterfactuals. We color in blue the treatment X and effect Y , as well as the actions on X. We color in orange words about how to get the estimand, and we use the orange circle to include all the non-descendants of X.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-8",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.171,
+      0.632,
+      0.401
+    ],
+    "text": "C.3 Causal Inference Methods",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-9",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.636,
+      0.169,
+      0.666,
+      0.825
+    ],
+    "text": "We introduce do-calculus which can downgrade the Rung-2 queries to Rung-1 quantities when it is applicable, and counterfactual predictions which downgrade the Rung-3 queries.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-10",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.672,
+      0.171,
+      0.686,
+      0.316
+    ],
+    "text": "C.3.1 Do-Calculus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-11",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.688,
+      0.169,
+      0.717,
+      0.825
+    ],
+    "text": "Do-Operator as a Notation As mentioned in Rung 2, the do-operator is a convenient notation to represent an intervention on a variable. For example, do $( X = x )$ sets the value of variable X to x.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-12",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.169,
+      0.791,
+      0.826
+    ],
+    "text": "Three Inference Rules for Climbing the Ladder Do-calculus is a set of rules that allows us to answer higher-rung questions using lower-rung quantities, such as probability distributions of Rung 1. Given a causal graphical model with and four disjoint sets of variables $X , { \\dot { Y } } , Z ,$ , and $W$ , and a joint probability distribution that is Markov and faithful to the graph, do-calculus contains the following three rules:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-13",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.797,
+      0.169,
+      0.813,
+      0.459
+    ],
+    "text": "Rule 1 (Insertion/deletion of observations):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:equation-14",
+    "page_id": 22,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_22_Equation_0.jpg",
+    "bbox_norm": [
+      0.818,
+      0.356,
+      0.835,
+      0.64
+    ],
+    "text": "$$\nP ( Y | \\operatorname { d o } ( X ) , Z , W ) = P ( Y | \\operatorname { d o } ( X ) , W ) ,\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-22:text-15",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.169,
+      0.871,
+      0.825
+    ],
+    "text": "if $Y$ and $Z$ are d-separated by $X \\cup W$ in $G ^ { * }$ , the graph obtained from $\\mathcal { G }$ by removing all arrows pointing into variables in X.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-16",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.876,
+      0.171,
+      0.89,
+      0.428
+    ],
+    "text": "Rule 2 (Action/observation exchange):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:equation-17",
+    "page_id": 22,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_22_Equation_1.jpg",
+    "bbox_norm": [
+      0.896,
+      0.331,
+      0.912,
+      0.665
+    ],
+    "text": "$$\nP ( { \\cal Y } | \\mathrm { d o } ( { \\cal X } ) , \\mathrm { d o } ( Z ) , { \\cal W } ) = P ( { \\cal Y } | \\mathrm { d o } ( { \\cal X } ) , Z , { \\cal W } ) ,\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.169,
+      0.121,
+      0.825
+    ],
+    "text": "if Y and $Z$ are d-separated by $X \\cup W$ in $G ^ { \\dagger }$ , the graph obtained from G by removing all arrows pointing into variables in X and all arrows pointing out of variables in $Z .$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.126,
+      0.169,
+      0.14,
+      0.423
+    ],
+    "text": "Rule 3 (Insertion/deletion of actions):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:equation-3",
+    "page_id": 23,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_23_Equation_0.jpg",
+    "bbox_norm": [
+      0.142,
+      0.339,
+      0.159,
+      0.656
+    ],
+    "text": "$$\nP ( { \\cal Y } | \\mathrm { d o } ( { \\cal X } ) , \\mathrm { d o } ( { \\cal Z } ) , { \\cal W } ) = P ( { \\cal Y } | \\mathrm { d o } ( { \\cal X } ) , { \\cal W } ) ,\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.169,
+      0.205,
+      0.825
+    ],
+    "text": "if $Y$ and $Z$ are d-separated by X ∪ W in $G ^ { \\ddagger }$ , the graph obtained from $\\mathcal { G }$ by first removing all arrows pointing into variables in X (thus creating $G ^ { * } )$ and then removing all arrows pointing into variables in $Z$ that are not ancestors of any variable in W in $G ^ { * }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.169,
+      0.239,
+      0.826
+    ],
+    "text": "These rules are sound and complete [85]. Namely, iff we have all the terms on the right hand side, then the causal term on the left hand side is identifiable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-6",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.244,
+      0.169,
+      0.273,
+      0.825
+    ],
+    "text": "Example Application of Do-Calculus Taking the example in Figure 2, g1 maps the query type ATE to its symbolic expression $\\mathbb { E } [ Y$ | do $( X = 1 ) { \\bar { ] } } - \\mathbb { E } [ Y | { \\bar { \\operatorname { d o } } } ( X = 0 ) ]$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-7",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.169,
+      0.306,
+      0.825
+    ],
+    "text": "Next, $g _ { 2 }$ further simplifies the estimand given the confounding graph, as in the flow chart in the middle of Figure 2:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:equation-8",
+    "page_id": 23,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_23_Equation_1.jpg",
+    "bbox_norm": [
+      0.309,
+      0.264,
+      0.358,
+      0.732
+    ],
+    "text": "$$\n\\begin{array} { r l } {  { \\mathrm { A T E } : = \\mathbb { E } [ Y | \\mathrm { d o } ( X = 1 ) ] - \\mathbb { E } [ Y | \\mathrm { d o } ( X = 0 ) ] } \\quad } & { { } } \\\\ { \\quad } & { { } = \\sum _ { z } P ( Z = z ) [ \\mathbb { E } ( Y | X = 1 , Z = z ) - \\mathbb { E } ( Y | X = 0 , Z = z ) ] , } \\end{array}\\tag{4}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-23:text-9",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.802,
+      0.347,
+      0.823
+    ],
+    "text": "(5)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-10",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.169,
+      0.39,
+      0.825
+    ],
+    "text": "which which resolves all the $\\operatorname { d o } ( \\cdot )$ terms to probability terms. This example shows the famous backdoor adjustment in do-calculus [59].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-11",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.396,
+      0.171,
+      0.411,
+      0.524
+    ],
+    "text": "C.3.2 Three Steps for Counterfactual Prediction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-12",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.171,
+      0.457,
+      0.825
+    ],
+    "text": "Given a SCM M, distribution on the exogenous variables $P ( u )$ , and evidence e from the model $\\langle M , P ( u ) \\rangle$ , the probability of the counterfactual \"if X had been x then Y would have been y, given we observed $\\boldsymbol { e } , { \\ ' }$ denoted ${ \\dot { P } } ( Y _ { x } = y | e )$ , can be evaluated using the following three steps [67]:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-13",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.462,
+      0.169,
+      0.478,
+      0.751
+    ],
+    "text": "Abduction: Update the probability distribution $P ( u )$ by the evidence e to obtain $P ( u | e )$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-14",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.168,
+      0.511,
+      0.826
+    ],
+    "text": "Action: Modify M by the action $d o ( X = x )$ , i.e. replace X with $X = x$ in the structural equations, to obtain the modified SCM $M _ { x }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-15",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.169,
+      0.532,
+      0.756
+    ],
+    "text": "Prediction: Use the modified model $\\langle M _ { x } , P ( u | e ) \\rangle$ ⟩, to compute the probability of $Y = y$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-16",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.542,
+      0.171,
+      0.56,
+      0.509
+    ],
+    "text": "D Previous Results on CLADDER v1.0",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-17",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.171,
+      0.583,
+      0.395
+    ],
+    "text": "D.1 Dataset Statistics for v1.0",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:table-18",
+    "page_id": 23,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_23_Table_0.jpg",
+    "bbox_norm": [
+      0.592,
+      0.173,
+      0.762,
+      0.575
+    ],
+    "text": "Table 5: Statistics of our CLADDER data v1.0.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-23:figure-19",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_0.jpg",
+    "bbox_norm": [
+      0.611,
+      0.658,
+      0.738,
+      0.823
+    ],
+    "text": "Figure 8: Distributions of query types in our dataset v1.0.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-23:text-20",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.794,
+      0.169,
+      0.851,
+      0.825
+    ],
+    "text": "Our data-generating procedure has the potential to algorithmically generate very large amounts of questions. In practice, we pick a dataset size that is large enough to be representative, and at the same time not too large to be problematic given the expensive inference costs of LLMs. We therefore set our dataset size to be 10K. We report the statistics of our dataset in Table 5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-21",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.169,
+      0.912,
+      0.826
+    ],
+    "text": "The dataset roughly balanced across the query types, graph structures, stories, and ground-truth answers (as seen in Figure 8). Note that there are some slight adjustments such as more samples for ATE because it allows us to test various techniques, including backdoor and front door adjustments. More details on our design choices can be found in Appendix A.4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.171,
+      0.106,
+      0.364
+    ],
+    "text": "D.2 Main Results on v1.0",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:table-2",
+    "page_id": 24,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_24_Table_0.jpg",
+    "bbox_norm": [
+      0.118,
+      0.179,
+      0.273,
+      0.813
+    ],
+    "text": "Table 6: Performance of all models on our CLADDER dataset v1.0. We report the overall accuracy (Acc.), and also fine-grained accuracy by rung and by empirical alignment.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-24:text-3",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.169,
+      0.376,
+      0.826
+    ],
+    "text": "We compare the performance of all models in Table 6. First, we can see that the causal reasoning task in CLADDER is in general very challenging for all models. And models such as the earlier, non-instruction-tuned GPT-3 and both LLaMa and Alpaca are no better than random performance. With instruction-tuning, models start to show some improvement. And amongst all, our CAUSALCOT achieves the highest performance of 66.64%, which is 2.36 points better than vanilla GPT-4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.382,
+      0.169,
+      0.454,
+      0.826
+    ],
+    "text": "Moreover, from the accuracy by empirical alignment level in Table 6, we can see that the original GPT-4 model performs the best on commonsensical data, but 5.34 points worse on nonsensical data. However, our CAUSALCOT enhances the reasoning ability across all levels, with substantial improvement on anti-commonsensical data and nonsensical data, indicating that CAUSALCOT is particularly beneficial on unseen data.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-5",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.464,
+      0.171,
+      0.479,
+      0.379
+    ],
+    "text": "D.3 Ablation Study on v1.0",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-6",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.169,
+      0.583,
+      0.648
+    ],
+    "text": "We conduct an ablation study for our multi-step CAUSALCOT. We ablate each of the four subquestions, and observe in Table 7 that classifying the query type and formalizing it has the most effect on the model’s performance, which might be because that they are the crucial formalization step in order to do the causal inference correctly. Meanwhile, removing Steps ① and ④, which are mostly about parsing the prompt correctly, have the least impact on performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:table-7",
+    "page_id": 24,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_24_Table_1.jpg",
+    "bbox_norm": [
+      0.488,
+      0.663,
+      0.568,
+      0.818
+    ],
+    "text": "Table 7: Ablation study.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-24:text-8",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.171,
+      0.613,
+      0.367
+    ],
+    "text": "E More Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-9",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.625,
+      0.171,
+      0.64,
+      0.424
+    ],
+    "text": "E.1 Details of Our Error Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-10",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.643,
+      0.169,
+      0.728,
+      0.826
+    ],
+    "text": "For Step 2 about the query type prediction, we report the overall F1 classification score, and also F1 by rungs. For the rest of the steps, we manually annotate the correctness of 100 samples of CAUSALCOT. We report the correctness of est by accuracy, and the correctness of the predicted set of available data by taking the F1 with the ground-truth d. For Step 5, we report the accuracy of whether the model simplifies the estimand correctly to est′ using causal inference, and also arithmetic correctness (Arith.).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-11",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.739,
+      0.171,
+      0.753,
+      0.367
+    ],
+    "text": "E.2 ROSCOE Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-12",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.758,
+      0.169,
+      0.911,
+      0.826
+    ],
+    "text": "We employed the ROSCOE suite of evaluation metrics on step-by-step text reasoning, as introduced by [25], to automate the evaluation of the outputs from CAUSALCOT on 2,000 randomly sampled questions from our dataset. Differing from conventional metrics, ROSCOE is specifically designed to scrutinize the quality of large language model outputs, focusing on aspects such as semantic consistency, logicality, informativeness, fluency, and factuality, all evaluated within the context of step-by-step reasoning, rather than solely the final response. This allows for a more objective and comprehensive assessment of a model’s output, greatly aiding in the verification of its interpretability. The results of this evaluation can be found in Table 8 and Figure 9. We consider the model’s performance as u",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.169,
+      0.148,
+      0.828
+    ],
+    "text": "We can see in the plot that the good-performing aspects are faithfulness to the original question, reasoning alignment with the ground truth, and absence of external hallucinations, which are consistently within the top quantile. This suggests that the model carries out accurate reasoning within the constraints of the fictitious world introduced in each question.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-2",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.154,
+      0.169,
+      0.224,
+      0.826
+    ],
+    "text": "However, there are some performance dips in redundancy, perplexity chain, and missing step metrics. The first two could potentially be attributed to complex elements such as graph notation, while the relatively lower “missing step” score warrants further investigation. Despite these observations, this analysis largely aligns with our qualitative understanding of the models’ good response ability in answering causal questions in our dataset.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:table-3",
+    "page_id": 25,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_25_Table_0.jpg",
+    "bbox_norm": [
+      0.234,
+      0.245,
+      0.506,
+      0.751
+    ],
+    "text": "Table 8: Statistics of ROSCOE scores evaluated on answers from CAUSALCOT on 2,000 randomly sampled questions from our dataset.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-25:text-4",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.169,
+      0.582,
+      0.658
+    ],
+    "text": "F Comparison with Existing Causality-Related Datasets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-5",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.589,
+      0.169,
+      0.619,
+      0.825
+    ],
+    "text": "We show in Table 9 the distinction of our work from all existing causality-related datasets that address either the causality-as-knowledge task, or the causality-as-language-comprehension task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:table-1",
+    "page_id": 26,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_26_Table_0.jpg",
+    "bbox_norm": [
+      0.303,
+      0.178,
+      0.617,
+      0.82
+    ],
+    "text": "Table 9: Comparison of our dataset and existing causal or reasoning datasets. The aim of our dataset is to test the pure reasoning ability of LLMs on causal questions. For each dataset, we first identify whether its question types cover the three rungs: association (Assoc.), intervention (Interv.), and counterfactuals (Counterf.). We also check what skill types the dataset tests: the application of causal inference methods (CI Method), formalization of causal queries, causal relation extraction from the given text (Causal RE), and qualitative reasoning.",
+    "source_type": "table"
+  }
+]

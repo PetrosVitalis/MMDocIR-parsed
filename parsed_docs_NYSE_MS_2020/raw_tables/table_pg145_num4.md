@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">Pension Plans</td></tr><tr><td>At December31, 2020</td><td>At December 31, 2019</td></tr><tr><td>Discount rate</td><td>2.43%</td><td>3.08%</td></tr><tr><td>Rate of future compensation increase</td><td>3.25%</td><td>3.28%</td></tr></table>

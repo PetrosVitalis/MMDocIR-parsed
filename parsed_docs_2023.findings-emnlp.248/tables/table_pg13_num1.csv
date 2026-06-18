@@ -1,0 +1,6 @@
+Dataset,Reasoning,Test Size,#Opts
+PrOntoQA,Deductive,500,2
+ProofWriter,Deductive,600,3
+FOLIO,FOL,204,3
+LogicalDeduction,CSP,300,"3,5,7"
+AR-LSAT,AR,230,5

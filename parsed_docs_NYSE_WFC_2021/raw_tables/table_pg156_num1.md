@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">Year ended December31,</td></tr><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Prepayment rate (1)</td><td>13.7 %</td><td>15.4</td><td>12.8</td></tr><tr><td>Discount rate</td><td>5.9</td><td>6.5</td><td>7.5</td></tr><tr><td>Cost to service ($ per loan)</td><td>$ 91</td><td>96</td><td>101</td></tr></table>

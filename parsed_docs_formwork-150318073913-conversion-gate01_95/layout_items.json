@@ -1,0 +1,5238 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.62,
+      0.192,
+      0.722,
+      0.533
+    ],
+    "text": "FORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.188,
+      0.828,
+      0.625
+    ],
+    "text": "ASTUDY OFITSVARIOUSTYPES,MATERIALSAND CONSTRUCTIONTECHNIQUES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-3",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.72,
+      0.736,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:figure-4",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_1.jpg",
+    "bbox_norm": [
+      0.756,
+      0.729,
+      0.979,
+      0.99
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.097,
+      0.147,
+      0.152,
+      0.595
+    ],
+    "text": "INTRODUCTIONTO FORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.147,
+      0.233,
+      0.304
+    ],
+    "text": "What isFormwork?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.145,
+      0.381,
+      0.644
+    ],
+    "text": "Formwork inconstruction isthe Useof support structuresand mouldstocreate structuresout ofconcretewhich ispoured intothemoulds.Formwork canbemadeusingmouldsout of steel,wood,aluminium and/or prefabricated forms.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.145,
+      0.523,
+      0.638
+    ],
+    "text": "Formwork isan ancillary construction,used asamould fora structure.Intothismould,freshconcrete isplacedonlyto harden subsequently.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.147,
+      0.664,
+      0.614
+    ],
+    "text": "Theconstruction offormwork takes timeand involves expenditureupto20to25%ofthecost of the structureor evenmore.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.145,
+      0.81,
+      0.649
+    ],
+    "text": "The operation of removing theformwork is known as stripping. Strippedformworkcanbereused.Reusableformsareknown as panel forms and non-usable are called stationary forms.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.152,
+      0.879,
+      0.643
+    ],
+    "text": "Formwork isdesigned according to The ACl document SP-4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-8",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.686,
+      0.502,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:figure-9",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_1.jpg",
+    "bbox_norm": [
+      0.539,
+      0.688,
+      0.925,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.05,
+      0.162,
+      0.092,
+      0.654
+    ],
+    "text": "A good formwork should satisfy the following requirements:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.14,
+      0.148,
+      0.652
+    ],
+    "text": "Strong enough towithstandall types of dead and live loads",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.157,
+      0.158,
+      0.233,
+      0.944
+    ],
+    "text": "Rigidlyconstructedandefficientlyproppedandbracedboth horizontallyandvertically,soas to retain its shape",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.139,
+      0.291,
+      0.768
+    ],
+    "text": "The joints in the formwork should be tight against leakage of cement grout",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.158,
+      0.377,
+      0.925
+    ],
+    "text": "Construction of formwork should permit removal of various parts in desired sequences without damageto theconcrete",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.158,
+      0.432,
+      0.911
+    ],
+    "text": "Materialof theformworkshouldbecheap,easilyavailableandshouldbesuitableforreuse",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.158,
+      0.488,
+      0.941
+    ],
+    "text": "Theformwork should besetaccuratelyto thedesiredlineandlevels should haveplane surface.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.161,
+      0.541,
+      0.321
+    ],
+    "text": "Aslight as possible",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.158,
+      0.648,
+      0.882
+    ],
+    "text": "Material of the formwork should not warpor get distorted when exposed to the elements Should rest on firm base",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.138,
+      0.703,
+      0.859
+    ],
+    "text": "Thefollowing pointsaretobekept in viewtoeffect economy inthecost of formwork:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.138,
+      0.793,
+      0.96
+    ],
+    "text": "Theplanof thebuilding shouldimplyminimumnumberof variationsinthesizeof rooms,floorarea etc.soastopermit reuseof the formwork repeatedly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.805,
+      0.136,
+      0.847,
+      0.824
+    ],
+    "text": "Design should be perfect to use slender sections only in amost economical way.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.858,
+      0.136,
+      0.937,
+      0.967
+    ],
+    "text": "Minimum sawingandcuting of wooden pieces shouldbemade toenable reuse of themateriala numberof times.Thequantityof surfacefinishdependson thequalityof theformwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.165,
+      0.168,
+      0.578
+    ],
+    "text": "CATEGORIES OF FORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.16,
+      0.372,
+      0.951
+    ],
+    "text": "Conventional:Theformwork isbuiltonsiteoutoftimberandplywoodormoisture-resistantparticleboard.Itis easytoproducebuttime-consumingforlargerstructures,and theplywoodfacing hasarelativelyshort lifespan.Itistillusedextensivelywherethelabourcostsarelowerthanthecostsforprocuringreusable formwork.Itisalsothemost flexibletypeofformwork,soevenwhereothersystemsareinuse,complicated sectionsmay useit.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.386,
+      0.182,
+      0.483,
+      0.947
+    ],
+    "text": "Modern-Day Formworks:This formworksystemsaremostlymodular,whichare designed forspeedand eficiency.Theyaredesignedtoprovideincreasedaccuracyandminimizewasteinconstructionandmost haveenhanced healthandsafetyfeaturesbuilt-in.Themaintypes offormworksystemsin use noware:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.194,
+      0.534,
+      0.358
+    ],
+    "text": "Tableform/flying form",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.194,
+      0.585,
+      0.378
+    ],
+    "text": "Systemcolumn formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.594,
+      0.194,
+      0.631,
+      0.317
+    ],
+    "text": "Horizontal panel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.645,
+      0.194,
+      0.682,
+      0.263
+    ],
+    "text": "Slipform",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.194,
+      0.731,
+      0.285
+    ],
+    "text": "Tunnelform",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.167,
+      0.969,
+      0.975
+    ],
+    "text": "Engineered/Pre-fabricatedFormworks:Thisformworkisbuiltoutofprefabricatedmoduleswithametalframe (usuallysteeloraluminium)andcoveredontheapplication(concrete)sidewithmaterial havingthewanted surfacestructure(steel,aluminium,timber,etc.).Thetwomajoradvantagesofformworksytems,comparedto traditionaltimberformwork,arespeedofconstructionandlowerlife-cyclecosts (baringmajorforce,the frameisalmostindestructible,whilethecoveringifmadeofwood;mayhavetobereplacedafterafew-ora fewdozen-uses,butifthecoveringismadewithsteeloraluminiumtheformcanachieveuptotwothousand usesdepending on care and the applications).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.207,
+      0.159,
+      0.444
+    ],
+    "text": "MATERIALS USED",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.207,
+      0.342,
+      0.519
+    ],
+    "text": "Formworkaremainly of two types Steelformwork Wooden formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.375,
+      0.207,
+      0.543,
+      0.449
+    ],
+    "text": "Steel formworkismadeof Steel sheets Angle Iron Teelron",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-4",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.071,
+      0.598,
+      0.462,
+      0.781
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:figure-5",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_1.jpg",
+    "bbox_norm": [
+      0.069,
+      0.792,
+      0.456,
+      0.98
+    ],
+    "text": "Wooden formwork",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:figure-6",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_2.jpg",
+    "bbox_norm": [
+      0.548,
+      0.598,
+      0.912,
+      0.782
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:figure-7",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_3.jpg",
+    "bbox_norm": [
+      0.543,
+      0.792,
+      0.909,
+      0.98
+    ],
+    "text": "Steel Formwork",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.223,
+      0.159,
+      0.388
+    ],
+    "text": "Timber formwork:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.226,
+      0.305,
+      0.542
+    ],
+    "text": "Mostcommonmaterial used for bracingthemember,hencecalled asthetraditional formwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.223,
+      0.555,
+      0.546
+    ],
+    "text": "caneasily be cut to size on site. Joistarereplacedwithengineered woodbeamsand supportsare replaced withmetal props.This makesthismethodmoresystematic andreusable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.225,
+      0.622,
+      0.532
+    ],
+    "text": "-Various sizes of members of timber",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-5",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.636,
+      0.238,
+      0.997,
+      0.608
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:figure-6",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.61,
+      0.997,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.115,
+      0.192,
+      0.159,
+      0.281
+    ],
+    "text": "Plywood",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.189,
+      0.196,
+      0.375,
+      0.542
+    ],
+    "text": "Thisisby far themost commonmaterial used for the facingpanel.It iseasilycut toshapeonsite,andif handledand storedcarefully,itcanbeusedmany times.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.194,
+      0.516,
+      0.539
+    ],
+    "text": "Astandard plywood thickness on site is 18mm.Thisisusuallysufficient formost pours.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.543,
+      0.194,
+      0.659,
+      0.524
+    ],
+    "text": "However,if the formwork iscurved,a thinnerplywoodisusedtofacilitate bending.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.687,
+      0.194,
+      0.837,
+      0.548
+    ],
+    "text": "Thicker plywoodmay be used when the weight ofconcretecausesa standard thicknessplywood tobowout,distorting theconcrete face.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-6",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.582,
+      1.0,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.094,
+      0.213,
+      0.138,
+      0.359
+    ],
+    "text": "Steel formwork:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.22,
+      0.324,
+      0.529
+    ],
+    "text": "Steel formsarestronger,durable andhavelonger life than timber formworkand their reusesaremore innumber",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.354,
+      0.213,
+      0.467,
+      0.518
+    ],
+    "text": "Steel formscan be installed and dismantledwith greatereaseand speed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.497,
+      0.212,
+      0.645,
+      0.528
+    ],
+    "text": "Thequality of exposed concrete surfaceby usingsteel forms isgood andsuchsurfacesneednofurther treatment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.673,
+      0.212,
+      0.752,
+      0.5
+    ],
+    "text": "Steel formworkdoesnot absorb moisture fromconcrete.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.212,
+      0.856,
+      0.507
+    ],
+    "text": "Steel formworkdoesnot shrink or warp",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-7",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.582,
+      0.997,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.201,
+      0.333,
+      0.395
+    ],
+    "text": "Aluminium formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.201,
+      0.446,
+      0.532
+    ],
+    "text": "Oftenused in pre-fabricated formwork,that isput together on site.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.203,
+      0.59,
+      0.533
+    ],
+    "text": "Aluminium is strongand light,and consequentlyfewersupportsand ties arerequired.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.2,
+      0.766,
+      0.531
+    ],
+    "text": "Thelighter sections willdeflect more, but thiscan be avoidedby simply followingthemanufacturers recommendations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:figure-5",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.584,
+      0.997,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.218,
+      0.263,
+      0.373
+    ],
+    "text": "Plastic formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.298,
+      0.217,
+      0.449,
+      0.546
+    ],
+    "text": "Glass reinforced plastics (GRP) and vacuumformedplasticsareused whencomplicatedconcrete shapes arerequired (e.g.wafflefloors).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.217,
+      0.627,
+      0.531
+    ],
+    "text": "Althoughvacuum formed plastics will alwaysneed support,GRPcan befabricatedwith integral bearers making it self supporting.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.655,
+      0.217,
+      0.805,
+      0.537
+    ],
+    "text": "Like steel,plastic formwork canbe re-usedmanytimes,aslongascare istakennot to scour the surface whilstvibratingtheconcrete.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:figure-5",
+    "page_id": 9,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_9_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.587,
+      0.997,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.213,
+      0.564,
+      0.682
+    ],
+    "text": "PROCESSOFFORMWORKCONSTRUCTION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.578,
+      0.213,
+      0.629,
+      0.717
+    ],
+    "text": "FORMWORKFORVARIOUSSTRUCTURALMEMBERS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.213,
+      0.763,
+      0.595
+    ],
+    "text": "Thisnormallyinvolves the following operations:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.213,
+      0.812,
+      0.511
+    ],
+    "text": "proppingandcentering",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.213,
+      0.856,
+      0.401
+    ],
+    "text": "2 shuttering",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.861,
+      0.213,
+      0.902,
+      0.48
+    ],
+    "text": "Provision of camber",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.909,
+      0.213,
+      0.951,
+      0.578
+    ],
+    "text": "Cleaning and surface treatment",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.16,
+      0.164,
+      0.489
+    ],
+    "text": "FORMWORK FOR WALL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.182,
+      0.331,
+      0.302
+    ],
+    "text": "It consists of",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.218,
+      0.372,
+      0.395
+    ],
+    "text": "·Timber sheeting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.218,
+      0.412,
+      0.376
+    ],
+    "text": "·Vertical posts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.412,
+      0.22,
+      0.451,
+      0.432
+    ],
+    "text": "·Horizontal members",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.22,
+      0.49,
+      0.325
+    ],
+    "text": "·Rackers",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.22,
+      0.532,
+      0.313
+    ],
+    "text": "·Stakes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.22,
+      0.576,
+      0.329
+    ],
+    "text": "·Wedges",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.18,
+      0.722,
+      0.582
+    ],
+    "text": "Aftercompletingonesideof formwork reinforcementisprovidedattheplace then the second side formwork isprovided.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-10",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.125,
+      0.611,
+      0.907,
+      0.986
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.106,
+      0.138,
+      0.18,
+      0.794
+    ],
+    "text": "Wall Formworks and its components",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-2",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.298,
+      0.032,
+      0.868,
+      0.942
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.16,
+      0.162,
+      0.541
+    ],
+    "text": "FORMWORK FOR COLUMN",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-2",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.175,
+      0.243,
+      0.648,
+      0.492
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.733,
+      0.233,
+      0.77,
+      0.406
+    ],
+    "text": "-Side& End Planks",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.231,
+      0.812,
+      0.307
+    ],
+    "text": "-Yoke",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.817,
+      0.231,
+      0.854,
+      0.351
+    ],
+    "text": "-Nut& Bolts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.858,
+      0.196,
+      0.937,
+      0.477
+    ],
+    "text": "·Two end& two side planks are joined by the yokes and bolts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-7",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_1.jpg",
+    "bbox_norm": [
+      0.173,
+      0.507,
+      0.993,
+      0.743
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-8",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_2.jpg",
+    "bbox_norm": [
+      0.009,
+      0.747,
+      0.986,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.122,
+      0.087,
+      0.42
+    ],
+    "text": "Erectionsequence fora column",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.12,
+      0.121,
+      0.199,
+      0.679
+    ],
+    "text": "Priortopositioningcolumn formworkcheckthat steelforthecolumn hasbeen inspected and cleared for casting.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.229,
+      0.121,
+      0.266,
+      0.634
+    ],
+    "text": "-Position formwork for the column from predetermined grids.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.266,
+      0.122,
+      0.335,
+      0.68
+    ],
+    "text": "Plumb formwork bothwaysand securely support usingadjustable steel props.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.121,
+      0.37,
+      0.524
+    ],
+    "text": "-The propping angle should be 45°to the floor.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.122,
+      0.439,
+      0.679
+    ],
+    "text": "Ensurethesteel propsaresafely securedtothecolumn formwork and the",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.143,
+      0.479,
+      0.669
+    ],
+    "text": "floor/and that adjustment for pushingandpulling isoperational.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-8",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.123,
+      0.513,
+      0.613
+    ],
+    "text": "-Setout thepositions of column clamps from a storey rod.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-9",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.122,
+      0.585,
+      0.682
+    ],
+    "text": "Tfansfer the column clamppositions fromthe storey rod onto colu mnformwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-10",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.143,
+      0.657,
+      0.66
+    ],
+    "text": "Use nails to support the arms of column clamps while wedging.   \nPosition and wedge thebottom,middle and topclamps sets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-11",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.657,
+      0.122,
+      0.692,
+      0.494
+    ],
+    "text": "-Check the formwork at the top for square.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-12",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.122,
+      0.726,
+      0.621
+    ],
+    "text": "-Positionand wedge the remainder of the column clamps.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-13",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.729,
+      0.122,
+      0.798,
+      0.654
+    ],
+    "text": "Usinga plumb bob suspended froma gauge blockplumb the column.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-14",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.123,
+      0.944,
+      0.69
+    ],
+    "text": "Whenallthe column formwork issecurely propped a finalcheckmust bemade forplumbandcolumnalignment beforeandimmediately after theconcrete hasbeenpoured and vibrated.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-15",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.136,
+      0.701,
+      0.638,
+      0.993
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-16",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.707,
+      0.754,
+      0.971
+    ],
+    "text": "COLUMNCLAMPSIN POSITION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-17",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.697,
+      0.868,
+      0.998
+    ],
+    "text": "Columnclamps arecreated to giveextra externalsupporttotheformworkfrom avoiding circularing of the column",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:figure-1",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_0.jpg",
+    "bbox_norm": [
+      0.002,
+      0.01,
+      0.997,
+      0.996
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.097,
+      0.134,
+      0.152,
+      0.688
+    ],
+    "text": "CIRCULAR AND OCTAGONAL COLUMNS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.138,
+      0.208,
+      0.382
+    ],
+    "text": "Circularcolumn formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.138,
+      0.298,
+      0.58
+    ],
+    "text": "Fabricatedsteel,usually twopiece,andoftenwith ahinge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.148,
+      0.388,
+      0.583
+    ],
+    "text": "Fibrecement pipeswhichare left inplace asperm anent formwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.162,
+      0.548,
+      0.587
+    ],
+    "text": "Timbersheathing tied with standardcolumn clamp s.Cornersneed to have infillpieces.Alternatively, metalstrapcanbeusedwithout theneed forcorn erinfills.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-6",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.178,
+      0.743,
+      0.488,
+      0.964
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-7",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_1.jpg",
+    "bbox_norm": [
+      0.569,
+      0.458,
+      0.777,
+      0.611
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-8",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_2.jpg",
+    "bbox_norm": [
+      0.784,
+      0.457,
+      0.993,
+      0.611
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-9",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_3.jpg",
+    "bbox_norm": [
+      0.638,
+      0.617,
+      0.974,
+      0.739
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-10",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_4.jpg",
+    "bbox_norm": [
+      0.604,
+      0.794,
+      0.939,
+      0.925
+    ],
+    "text": "Vertical Timber sheathing column",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.158,
+      0.166,
+      0.618
+    ],
+    "text": "COLUMN BRACINGFORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.187,
+      0.24,
+      0.608
+    ],
+    "text": "·Column formwork bracing performs two functions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-3",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.187,
+      0.331,
+      0.852
+    ],
+    "text": "Itmust maintain the accuracy of the column form position and plumb so that it is withintolerance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.347,
+      0.184,
+      0.458,
+      0.854
+    ],
+    "text": "·Withstand results of forcesacting on either thecolumn formwork or thebracing. Theforcesmay bewind or impact.These impact forcescan occur fromthecoll isionof concretebuckets or cranes hoistingmaterials",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:figure-5",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.527,
+      0.006,
+      1.0,
+      0.339
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-6",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_1.jpg",
+    "bbox_norm": [
+      0.543,
+      0.354,
+      0.965,
+      0.66
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-7",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_2.jpg",
+    "bbox_norm": [
+      0.564,
+      0.714,
+      0.974,
+      0.968
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.108,
+      0.151,
+      0.164,
+      0.483
+    ],
+    "text": "FORMWORKFOR BEAM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.117,
+      0.252,
+      0.664
+    ],
+    "text": "Beamsofitmustbe thickened timber or strengthened plywood.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.298,
+      0.117,
+      0.375,
+      0.658
+    ],
+    "text": "Beamsides 18mmplywood or 25mmboards,withstuds (cleats) at 500to 600mmcentres.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-4",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.141,
+      0.43,
+      0.613
+    ],
+    "text": "Deep beams (over 600mm) should have walkers and ties.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-5",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.141,
+      0.486,
+      0.648
+    ],
+    "text": "Useangle fillets inthe beam sideto sofit joint wherepossible.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-6",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.138,
+      0.574,
+      0.66
+    ],
+    "text": "Alowancemust bemade for height adjustment of the props or falsework.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-7",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.613,
+      0.128,
+      0.652,
+      0.622
+    ],
+    "text": "Erectionsequence forconstructing beam formworkincludes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-8",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.666,
+      0.13,
+      0.708,
+      0.33
+    ],
+    "text": "·Position of sole plates;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-9",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.128,
+      0.763,
+      0.516
+    ],
+    "text": "·Marking out and setting heights forfalseworks;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-10",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.773,
+      0.128,
+      0.849,
+      0.673
+    ],
+    "text": "·Assembleand position props,adjustable head jacks,falseworks, bearersandSpreaders;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-11",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.128,
+      0.907,
+      0.526
+    ],
+    "text": "·Construct and erect sidewallsand beam soffit.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-12",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.918,
+      0.13,
+      0.96,
+      0.328
+    ],
+    "text": "·Position of sole plates",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:figure-13",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.687,
+      0.995,
+      0.997
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.108,
+      0.148,
+      0.164,
+      0.549
+    ],
+    "text": "FORMWORK FOR STAIRCASE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.148,
+      0.25,
+      0.57
+    ],
+    "text": "·Points to consider when designing stair form work：",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.147,
+      0.375,
+      0.583
+    ],
+    "text": "Stairformworkmust support theweight ofconcrete. Theweight of the throat of the stairand the steps wil have to besupported.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.145,
+      0.5,
+      0.58
+    ],
+    "text": "Because of the slopeof thestair,someof the forceis transmittedsideways.Allformworkmustbewelltied together to prevent sidewaymovement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.147,
+      0.59,
+      0.605
+    ],
+    "text": "Consider the finish ofthe stair treadsandtype of nosing.   \nSpacemay have tobe lefforpurposemade nosing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-6",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.65,
+      0.354,
+      0.983,
+      0.632
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-7",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_1.jpg",
+    "bbox_norm": [
+      0.013,
+      0.654,
+      0.233,
+      0.984
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-8",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_2.jpg",
+    "bbox_norm": [
+      0.252,
+      0.64,
+      0.995,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.113,
+      0.162,
+      0.168,
+      0.42
+    ],
+    "text": "SUSPENDED SLABS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.16,
+      0.416,
+      0.619
+    ],
+    "text": "Suspended floor slabscan be constructed using cast insitu,precast unitsoracombinationof both.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.16,
+      0.557,
+      0.623
+    ],
+    "text": "Whichevermethod isused,it is importanttosupportthe proposed method ofconstructionusing acombination o ftimber or steel bearersand adjustable shoring.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-4",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.009,
+      0.639,
+      0.493,
+      0.976
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.16,
+      0.701,
+      0.58
+    ],
+    "text": "Thespacing and type of support system required is determinedbythe load imposedduringthe construction process.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-6",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.726,
+      0.16,
+      0.84,
+      0.6
+    ],
+    "text": "Manufacturers provide tables toassist in the selection and spacing of adjustable shoring systems.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-7",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.71,
+      0.557,
+      0.916
+    ],
+    "text": "Standard slab formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.625,
+      0.634,
+      0.722,
+      0.976
+    ],
+    "text": "The erection sequence for constructing a suspendedfloor slabincludes:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.636,
+      0.775,
+      0.927
+    ],
+    "text": "·Determining the bearer spacing;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.787,
+      0.636,
+      0.828,
+      0.875
+    ],
+    "text": "·Erecting bearers and joists;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-11",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.636,
+      0.884,
+      0.813
+    ],
+    "text": "·Fixing the sheeting;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-12",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.895,
+      0.636,
+      0.937,
+      0.863
+    ],
+    "text": "·Preparation for concrete.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.101,
+      0.141,
+      0.155,
+      0.305
+    ],
+    "text": "SOLE PLATE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.317,
+      0.156,
+      0.395,
+      0.631
+    ],
+    "text": "Thepurposeofa soleplate isto transfervertical load from onevertical supportmemberto thefoundation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.157,
+      0.52,
+      0.611
+    ],
+    "text": "Thevertical support requiresabaseplate fitted to help distribute theloadtothesoleplate,which isusuallya steeper.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.534,
+      0.158,
+      0.645,
+      0.609
+    ],
+    "text": "If the sole plateis positioned onnatural ground,it is important the ground is gradedand consolidated toa levelsurface.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-5",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.151,
+      0.775,
+      0.627
+    ],
+    "text": "Theobjectiveistoachievemaximumbearingbeneath sole plate.Once sole plates are positioned and firmly be dded theyshouldbecheckedforlevel.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-6",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.231,
+      0.635,
+      0.733,
+      0.988
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.156,
+      0.548,
+      0.36
+    ],
+    "text": "CURING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.141,
+      0.167,
+      0.398,
+      0.569
+    ],
+    "text": "Curing is the process inwhich the concreteis protected from lossofmoistureandkeptwithin areasonabletemperaturerange.Theresultof this processisincreasedstrengthand decreased permeability.Curingisalsoakey playerinmitigatingcracksintheconcrete, which severelyimpactsdurability",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.165,
+      0.486,
+      0.57
+    ],
+    "text": "Thelengthofadequatecuringtimeis dependent on the following factors:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-3",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.497,
+      0.167,
+      0.541,
+      0.33
+    ],
+    "text": "Mixtureproportions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.166,
+      0.594,
+      0.322
+    ],
+    "text": "Specified strength",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.166,
+      0.65,
+      0.471
+    ],
+    "text": "Size and shape of concretemember",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-6",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.166,
+      0.703,
+      0.406
+    ],
+    "text": "Ambient weather conditions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-7",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.166,
+      0.756,
+      0.393
+    ],
+    "text": "Futureexposureconditions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-8",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.821,
+      0.166,
+      0.868,
+      0.472
+    ],
+    "text": "Deshuttering is a process after curing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:figure-9",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.604,
+      0.52,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.108,
+      0.147,
+      0.175,
+      0.412
+    ],
+    "text": "DESHUTTERING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-2",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.147,
+      0.326,
+      0.968
+    ],
+    "text": "DESHUTTERING in simple means,the processof removing the shuttering (Formwork for Concrete).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-3",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.34,
+      0.148,
+      0.386,
+      0.54
+    ],
+    "text": "Orderandmethod of removing formwork:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.149,
+      0.483,
+      0.964
+    ],
+    "text": "Shuttering forming vertical faces of walls,beams&column sides should be removedfirst.   \nShuttering formingsofit to slabshould be removed next.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-5",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.154,
+      0.604,
+      0.679
+    ],
+    "text": "Shuttering forming soffit tobeams,girdersorother heavily loadedmembersshouldberemovedintheend.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-6",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.673,
+      0.149,
+      0.717,
+      0.329
+    ],
+    "text": "Factors considerd:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-7",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.144,
+      0.777,
+      0.593
+    ],
+    "text": "Concreting is done under normal circumstances",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-8",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.789,
+      0.144,
+      0.835,
+      0.541
+    ],
+    "text": "Cement used isOrdinary Portland Cement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-9",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.849,
+      0.144,
+      0.895,
+      0.381
+    ],
+    "text": "Adequate curing is done",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-10",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.907,
+      0.144,
+      0.953,
+      0.596
+    ],
+    "text": "Ambient temperature isnot fallbelow15 degree",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:figure-11",
+    "page_id": 24,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_24_Figure_0.jpg",
+    "bbox_norm": [
+      0.483,
+      0.68,
+      0.997,
+      0.998
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.12,
+      0.149,
+      0.182,
+      0.477
+    ],
+    "text": "DESHUTTERING AGENTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-2",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.196,
+      0.356,
+      0.735
+    ],
+    "text": "Thereare chances of concrete sticking to the formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-3",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.196,
+      0.416,
+      0.744
+    ],
+    "text": "Hence deshuttering agents are used to ease the process",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-4",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.2,
+      0.534,
+      0.425
+    ],
+    "text": "Dosage/Coverage:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-5",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.599,
+      0.196,
+      0.689,
+      0.902
+    ],
+    "text": "Dilutionratio:KEMMRA2:waterat1:10.Coverage:1600sq.ft.depending onconditions of fomwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-6",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.756,
+      0.196,
+      0.844,
+      0.89
+    ],
+    "text": "KEMMRA1-25/30mi≥/2/literdependingupontheporosityand usage condition of the substrate",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-1",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.139,
+      0.175,
+      0.506
+    ],
+    "text": "TRADITIONAL FORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-2",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.161,
+      0.425,
+      0.591
+    ],
+    "text": "Timberformworkwasused traditionally laterit got replacedwithmodemmaterialsdue toits limitationsandcost factors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-3",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.439,
+      0.165,
+      0.525,
+      0.593
+    ],
+    "text": "Formwork is built onsitewith timberand ply or moistureresistant particleboard.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-4",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.539,
+      0.165,
+      0.622,
+      0.559
+    ],
+    "text": "It iseasier toproducebutthe time taken is more",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-5",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.636,
+      0.139,
+      0.682,
+      0.597
+    ],
+    "text": "Extensively used where the labor cost s are low",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-6",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.139,
+      0.74,
+      0.515
+    ],
+    "text": "It is themost flexible type of formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:figure-7",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_0.jpg",
+    "bbox_norm": [
+      0.171,
+      0.618,
+      0.662,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:text-8",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.675,
+      0.619,
+      0.84,
+      0.882
+    ],
+    "text": "Usuallytimber intheformof plywood,planking, battenand joist are usedas thebasicmaterial.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-9",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.618,
+      0.981,
+      0.903
+    ],
+    "text": "Humanworkersneedtoenter intoeverycomertoperform theformwork installationworks",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-1",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.148,
+      0.525,
+      0.757
+    ],
+    "text": "EXPLORING NEW FORMWORK TECHNIQUES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-1",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.162,
+      0.148,
+      0.411
+    ],
+    "text": "SLIPFORMTECHNOLOGY INTRODUCTION:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-2",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.182,
+      0.161,
+      0.296,
+      0.604
+    ],
+    "text": "·Method of verticallyextrudingareinforced concrete sectionandissuitableforconstructionofcorewallsin high-rise structures-liftshafts,stair shafts,towers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-3",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.326,
+      0.161,
+      0.472,
+      0.613
+    ],
+    "text": "Theformwork risescontinuously,at arateof about 300 mmperhour,supporting itselfonthecoreand not relying onsupport oraccessfromotherpartsof the building orpermanent works.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-4",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.162,
+      0.615,
+      0.619
+    ],
+    "text": "Allows forthe continuous pouring of concrete into walls ofastructure and only stopswhen the full required height of the structure hasbeenreached.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-5",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.645,
+      0.161,
+      0.863,
+      0.611
+    ],
+    "text": "Theheight of theformwork isdesigned insuchaway thatwhilethetop oftheformwork isbeingfilled by concrete thelowest layerofconcretepouredearlier hasalready gained an initial set.Whenthe formwork is movedupwards theconcrete that is thenexposed remainsfirm.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:figure-6",
+    "page_id": 28,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_28_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.664,
+      0.888,
+      1.0
+    ],
+    "text": "CHEUNG KONG CENTRE",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:text-1",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.002,
+      0.143,
+      0.043,
+      0.261
+    ],
+    "text": "PROCEDURE:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-2",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.143,
+      0.155,
+      0.666
+    ],
+    "text": "·Assembly can only start once the foundationsare in place and thewallstarterisincorrect alignment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-3",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.18,
+      0.144,
+      0.224,
+      0.572
+    ],
+    "text": "·Slipform shuttering isalignedwith the helpof yokes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-4",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.144,
+      0.296,
+      0.515
+    ],
+    "text": "·Horizontal crossbeamsconnect these yokes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-5",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.143,
+      0.402,
+      0.592
+    ],
+    "text": "·Hydraulic jacksare attached to these crossbeams for simultaneousupwardmovement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-6",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.428,
+      0.144,
+      0.474,
+      0.57
+    ],
+    "text": "·Height of the slipformranges from1.1to1.5metres.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-7",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.143,
+      0.581,
+      0.609
+    ],
+    "text": "Yokesand crossbeams also used to support the working platform",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-8",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.608,
+      0.144,
+      0.652,
+      0.639
+    ],
+    "text": "·Structure should be rigid and shape maintained at al times.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-9",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.68,
+      0.143,
+      0.756,
+      0.649
+    ],
+    "text": "·Makesure there is no lag or elseit prevents the structure from freeupwardmovement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-10",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.787,
+      0.143,
+      0.939,
+      0.566
+    ],
+    "text": "·It isalso possible to reduce wall thicknesses astheconstruction gains height and arrangements havetobemade in the slipformstructure that will enable suchreductionat regular intervals.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:figure-11",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_0.jpg",
+    "bbox_norm": [
+      0.24,
+      0.649,
+      0.736,
+      0.998
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-1",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_0.jpg",
+    "bbox_norm": [
+      0.106,
+      0.029,
+      0.791,
+      0.906
+    ],
+    "text": "ERECTION OFATOWER USING SLIPFORM",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-31:text-1",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.2,
+      0.245,
+      0.447
+    ],
+    "text": "HORIZONTALFORMWORK:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-2",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.284,
+      0.199,
+      0.432,
+      0.488
+    ],
+    "text": "·Slipform methods of construction canalso be adaptedto horizontal structuresand are usedforpaving, canals,and tunneling.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-3",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.462,
+      0.199,
+      0.608,
+      0.506
+    ],
+    "text": "·Thetechnique ismore inuse for structures that havecontinuouswalls likesilos,chimneys,and piersfor very tall bridges.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-4",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.641,
+      0.199,
+      0.93,
+      0.514
+    ],
+    "text": "·It has also been successfully used for constructionof buildings,although thisrequiresthemannerof leaving insertsforopeningslikedoorsand windowsto bedecided well in advance,aswell asalso any necessaryinsertstosupportfloorslabs afterthewallsareconstructed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:figure-5",
+    "page_id": 31,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_31_Figure_0.jpg",
+    "bbox_norm": [
+      0.335,
+      0.523,
+      0.842,
+      0.998
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-32:text-1",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.057,
+      0.175,
+      0.099,
+      0.313
+    ],
+    "text": "ADVANTAGES:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-2",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.138,
+      0.174,
+      0.28,
+      0.677
+    ],
+    "text": "·Amajor cost of concrete structure construction is the requiredformworktoretaintheconcretetillitcanbesafely de-shutteredandbeable tosupport itself andother imposed loads.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-3",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.282,
+      0.174,
+      0.351,
+      0.645
+    ],
+    "text": "Theformwork needs tobe continuallyremovedtonewer locationsand thenre-erected.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-4",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.351,
+      0.174,
+      0.421,
+      0.634
+    ],
+    "text": "Continuous use of manpower andlifting equipment like cranes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-5",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.173,
+      0.532,
+      0.673
+    ],
+    "text": "·Inthecase of slipformbuilding,the formwork iserected only onceand remains intact until theentirestructure is completed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-6",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.599,
+      0.173,
+      0.891,
+      0.574
+    ],
+    "text": "Greatreduction in thecost of formwork as well astimesaving forre-erection. ·Cost effective ·Saving onto thelabourcostotherwise used for intermittentconcretingoperations. ·Thereductioninthemovementofformwork andworkersalso leadstofarmoresafeworking conditions that alsomakeit amajor advantage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:figure-7",
+    "page_id": 32,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_32_Figure_0.jpg",
+    "bbox_norm": [
+      0.245,
+      0.695,
+      0.812,
+      0.994
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-33:text-1",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.225,
+      0.187,
+      0.359
+    ],
+    "text": "PRECAUTIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-2",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.226,
+      0.223,
+      0.312,
+      0.819
+    ],
+    "text": "·Concrete is continuously protected against loss of moisture and rapidtemperaturechanges for7days",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-3",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.347,
+      0.225,
+      0.391,
+      0.817
+    ],
+    "text": "·Unhardened concrete is protected from rain and flowing water",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-4",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.428,
+      0.225,
+      0.472,
+      0.473
+    ],
+    "text": "·Prevent plastic shrinkage",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-5",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.506,
+      0.225,
+      0.55,
+      0.699
+    ],
+    "text": "·Plastic cracks are filled by injection of epoxyresin.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:figure-6",
+    "page_id": 33,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_33_Figure_0.jpg",
+    "bbox_norm": [
+      0.59,
+      0.187,
+      1.0,
+      0.511
+    ],
+    "text": "（a）",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-33:figure-7",
+    "page_id": 33,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_33_Figure_1.jpg",
+    "bbox_norm": [
+      0.583,
+      0.522,
+      0.983,
+      0.639
+    ],
+    "text": "（b）",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-33:figure-8",
+    "page_id": 33,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_33_Figure_2.jpg",
+    "bbox_norm": [
+      0.581,
+      0.641,
+      1.0,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-34:text-1",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.298,
+      0.209,
+      0.386,
+      0.471
+    ],
+    "text": "·It iscalculated by using the following equation:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-2",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.421,
+      0.21,
+      0.495,
+      0.402
+    ],
+    "text": "Vs=(h1-h1）/(ts-tt) Where",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-3",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.209,
+      0.858,
+      0.468
+    ],
+    "text": "Vs-slipform rate (mm/h)   \nH1=the distance from the top   \noftheslipformpanel tothe   \naveragecuringfront (mm)   \nH2=Thedistance from the top   \nofthe slipformpanel to   \naverage freeboard (mm)   \nTs=setting time (h)   \nTt=Time frommixing concrete   \ntoplacing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:figure-4",
+    "page_id": 34,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_34_Figure_0.jpg",
+    "bbox_norm": [
+      0.219,
+      0.531,
+      0.814,
+      0.992
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-35:text-1",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.037,
+      0.167,
+      0.083,
+      0.453
+    ],
+    "text": "TUNNELFORMWORK SYSTEM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-2",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.122,
+      0.166,
+      0.201,
+      0.804
+    ],
+    "text": "·Tunnel formwork system allows the contractor to cast wallsand slabs in one operation ina daily cycle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-3",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.201,
+      0.167,
+      0.326,
+      0.772
+    ],
+    "text": "·It combines the speed,qualityand accuracy offactory/off-site productionwith the flexibilityand economy of in-situ construction ·Recognized as a modernmethod of construction (MMC).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:figure-4",
+    "page_id": 35,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_35_Figure_0.jpg",
+    "bbox_norm": [
+      0.368,
+      0.147,
+      0.967,
+      0.861
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:text-1",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.166,
+      0.215,
+      0.825
+    ],
+    "text": "Theresult isa cellularreinforced structure,the surfaces of whichare suficiently high qualityto requireonlyminimal finishing fordirect decoration,while the end wallsand facadesareeasilycompleted with thermally insulated units that can be clad as required.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-2",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.166,
+      0.333,
+      0.815
+    ],
+    "text": "Thesystem createsan efficient load-bearing structure for use in a wide variety of applications.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-3",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.167,
+      0.488,
+      0.829
+    ],
+    "text": "It isparticularly effectiveinprojectssuitedtorepetitivecellular construction such asresidential blocks,hotels,student accommodation, barracks and prisons.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:figure-4",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_0.jpg",
+    "bbox_norm": [
+      0.486,
+      0.164,
+      0.942,
+      0.815
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-37:text-1",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.087,
+      0.156,
+      0.136,
+      0.309
+    ],
+    "text": "ADVANTAGES:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-2",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.173,
+      0.156,
+      0.212,
+      0.207
+    ],
+    "text": "Cost",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-3",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.154,
+      0.384,
+      0.528
+    ],
+    "text": "cost-effective,high qualityconstruction, generating significant savings intime andcostsoveralternativemethods without compromising on design",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:figure-4",
+    "page_id": 37,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_37_Figure_0.jpg",
+    "bbox_norm": [
+      0.002,
+      0.548,
+      0.407,
+      0.997
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-37:text-5",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.157,
+      0.456,
+      0.236
+    ],
+    "text": "Building",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-6",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.154,
+      0.583,
+      0.799
+    ],
+    "text": "The repetitive nature of the system and the use of prefabricated forms and reinforcingmats/cages simplifies the whole constructionprocess, producinga smoothand fast operation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-7",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.613,
+      0.157,
+      0.655,
+      0.23
+    ],
+    "text": "Quality",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-8",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.153,
+      0.902,
+      0.804
+    ],
+    "text": "Quality isenhanced despite the speed of construction.The precise, evensteel faceof the formworkcreatesasmooth,highqualityfinish capableof receivingdirectdecorationwiththeminimumof preparation (a skimcoatmaybe required).Thisreducesthe requirement for followingtrades,thusprovidingadditional cost savings and speeding the entire process.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-1",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.167,
+      0.152,
+      0.239
+    ],
+    "text": "Design",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-2",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.15,
+      0.166,
+      0.277,
+      0.752
+    ],
+    "text": "The large bays constructed provide exceptional flexibility in the design and layout of the building and allowa high degree of freedomin the final appearance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-3",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.167,
+      0.351,
+      0.234
+    ],
+    "text": "Safety",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-4",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.349,
+      0.166,
+      0.518,
+      0.76
+    ],
+    "text": "Integral working platformsand edge protection systems.The repetitive,predictablenatureof the tasks involved encourages familiaritywith operations.Theminimal requirementfor tools and equipment further reduces the risk of accidents on site.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-5",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.548,
+      0.167,
+      0.59,
+      0.295
+    ],
+    "text": "Sustainability",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-6",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.166,
+      0.877,
+      0.789
+    ],
+    "text": "The in-situcastingof unitson siteand the local availabilityof readymixed concrete suppliesreduce transportation impacts. Just-in-time deliveries andnear zero wastage produce an overall tidier site with associated cost savingsand safetybenefits. Concrete'sthermal masscoupled with correctinsulation and boiler designminimisesheating costsand canevenreduce airconditioning requirements.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-1",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.078,
+      0.186,
+      0.122,
+      0.347
+    ],
+    "text": "GENERAL FACTS:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-2",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.159,
+      0.183,
+      0.324,
+      0.816
+    ],
+    "text": "Tunnel formwork come in half unitsand in the form of an inverted “L\" whichareboltedtogetherat thetopto formeachtunnel.The inbuilt wheelsand the jackshelp the formworkmove inand out of the positionand adjusted to the final height.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:figure-3",
+    "page_id": 39,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_39_Figure_0.jpg",
+    "bbox_norm": [
+      0.324,
+      0.184,
+      0.659,
+      0.778
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-39:text-4",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.673,
+      0.183,
+      0.921,
+      0.822
+    ],
+    "text": "Thefactory-made steel formworkcanbere-used upto6ootimes and itcan suitavariety of modulesizes.Thismakes themethod of construction very versatile and extremely economical. Tunnel-form work allows a 24-hour constructioncycle to be achieved andthus the buildabilityof in-situconcrete is improvedbychoosing thistypeof formwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-1",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.06,
+      0.184,
+      0.099,
+      0.558
+    ],
+    "text": "The Casting Process of Tunnel Formwork:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-2",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.099,
+      0.184,
+      0.222,
+      0.768
+    ],
+    "text": "1) Stage One:PrefabricatedWall reinforcement isplaced by cranealong theentirewing priortocasting thekickers (used to position wall formwork).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:figure-3",
+    "page_id": 40,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_40_Figure_0.jpg",
+    "bbox_norm": [
+      0.219,
+      0.22,
+      0.516,
+      0.79
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-40:text-4",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.19,
+      0.652,
+      0.779
+    ],
+    "text": "2) Stage Two:Two and a half tunnel iscraned intoplace,bolted togetherandtiesareadded.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:figure-5",
+    "page_id": 40,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_40_Figure_1.jpg",
+    "bbox_norm": [
+      0.662,
+      0.195,
+      0.974,
+      0.805
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-41:text-1",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.173,
+      0.092,
+      0.579
+    ],
+    "text": "3) Stage Three: The wall concrete is poured.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:figure-2",
+    "page_id": 41,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_41_Figure_0.jpg",
+    "bbox_norm": [
+      0.136,
+      0.191,
+      0.442,
+      0.782
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-41:text-3",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.179,
+      0.541,
+      0.618
+    ],
+    "text": "4) Stage Four:The slab reinforcements arefixed",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:figure-4",
+    "page_id": 41,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_41_Figure_1.jpg",
+    "bbox_norm": [
+      0.592,
+      0.171,
+      0.928,
+      0.811
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-42:text-1",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.171,
+      0.252,
+      0.82
+    ],
+    "text": "5)Stage5:The slabconcrete isplaced.The formwork systemprovides forapour tobewrappedintarpaulinsand for the use of butane heaterstomaintainasufficientlyhightemperaturefor theconcreteto reachitsstriking strengthovernight.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:figure-2",
+    "page_id": 42,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_42_Figure_0.jpg",
+    "bbox_norm": [
+      0.247,
+      0.187,
+      0.555,
+      0.789
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-42:text-3",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.578,
+      0.184,
+      0.625,
+      0.66
+    ],
+    "text": "6) Stage 6:The tunnel-forms are removed next day.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:figure-4",
+    "page_id": 42,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_42_Figure_1.jpg",
+    "bbox_norm": [
+      0.657,
+      0.171,
+      0.972,
+      0.765
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:text-1",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.141,
+      0.213,
+      0.187,
+      0.742
+    ],
+    "text": "7) Stage 7: The process is repeated for the next two bays.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:figure-2",
+    "page_id": 43,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_43_Figure_0.jpg",
+    "bbox_norm": [
+      0.212,
+      0.2,
+      0.525,
+      0.79
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:text-3",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.567,
+      0.195,
+      0.817,
+      0.777
+    ],
+    "text": "Tunnel formcan produce strongand durablein-situ cellular structures.Thismethodofconstructioncanachievetime savings upto 25%with cost savings of 15%.   \nSincetheconcretefinish isvery good,therequirement forpost construction trades suchasplasterersand electriciansare greatly reduced.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:figure-1",
+    "page_id": 44,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_44_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.007,
+      0.93,
+      0.841
+    ],
+    "text": "COMPONENTSOFTUNNELFORMWORK",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-45:text-1",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.069,
+      0.182,
+      0.113,
+      0.481
+    ],
+    "text": "COLUMN SYSTEMFORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:figure-2",
+    "page_id": 45,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_45_Figure_0.jpg",
+    "bbox_norm": [
+      0.171,
+      0.035,
+      0.819,
+      0.587
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-45:text-3",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.173,
+      0.596,
+      0.937,
+      0.851
+    ],
+    "text": "Thecolumn formwork systemsnowavailableare normallymodular innature and allow quick assembly and erection on-site while minimizing labor and crane time.Theyare available insteel, aluminiumand even cardboard (not reusable but recycled) and have a varietyof internal face surfacesdepending on the concretefinish required.Innovationshave ledtoadjustable,reusable column formswhichcan beclamped on-site to give different column sizes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-1",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.057,
+      0.179,
+      0.097,
+      0.259
+    ],
+    "text": "Benefits",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-2",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.099,
+      0.179,
+      0.217,
+      0.644
+    ],
+    "text": "·Increased speed and efficiency in construction ·Therequirement of skilled labor isreduced due to the",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-3",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.219,
+      0.179,
+      0.34,
+      0.669
+    ],
+    "text": "simplicity of assembly and disassembly. Metal column formscan beassembledanderected moreeasily thantraditional formwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-4",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.34,
+      0.178,
+      0.462,
+      0.664
+    ],
+    "text": "·Disposable formscomereadyassembledtosite. ·High quality surface finishes are possible. ·Thehighlyengineerednatureof themetalformwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-5",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.178,
+      0.5,
+      0.229
+    ],
+    "text": "syste",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:figure-6",
+    "page_id": 46,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_46_Figure_0.jpg",
+    "bbox_norm": [
+      0.481,
+      0.234,
+      0.981,
+      0.51
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-46:figure-7",
+    "page_id": 46,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_46_Figure_1.jpg",
+    "bbox_norm": [
+      0.303,
+      0.565,
+      0.969,
+      0.875
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-47:text-1",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.186,
+      0.115,
+      0.25
+    ],
+    "text": "Safety",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-2",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.186,
+      0.356,
+      0.532
+    ],
+    "text": "·Metalformworksystemscan have integral ready-to-useconcreting platformswith guard railsand access equipment including ladders.This reducestheneedforindependent access.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-3",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.184,
+      0.796,
+      0.546
+    ],
+    "text": "·Forsystemswithdisposable formwork, workingplatforms forconcreting have tobe erected separatelyto allowsafe accesstothetop of thecolumn forms. ·Formworksystemsareavailablewhich need to beworked only from one side. Thiscouldbe an important safety considerationforcolumnssituatedat building edgesandcorners. ·Metal systemstypicallyproviderobust assemblies.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-4",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.796,
+      0.184,
+      1.0,
+      0.554
+    ],
+    "text": "·Assembly process is simple allowing site operativestobecomefamiliarwith healthand safetyaspects. ·Normallytheseformworksystems require minimal use of power tools.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:figure-5",
+    "page_id": 47,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_47_Figure_0.jpg",
+    "bbox_norm": [
+      0.041,
+      0.58,
+      0.981,
+      0.875
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-48:text-1",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.069,
+      0.204,
+      0.108,
+      0.401
+    ],
+    "text": "Other considerations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-2",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.108,
+      0.203,
+      0.317,
+      0.778
+    ],
+    "text": "Column forms are designed for specificmaximum concrete pressures.Theconcreteplacement rateshaveto beadjusted tokeep theconcretepressurewithin thespecified limits. Theassembledformworkhastoberestrainedatthebase properly toavoid displacement,and grout loss during",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:figure-3",
+    "page_id": 48,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_48_Figure_0.jpg",
+    "bbox_norm": [
+      0.351,
+      0.205,
+      0.881,
+      0.644
+    ],
+    "text": "SCAFFOLD FOR COLUMN",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-48:figure-4",
+    "page_id": 48,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_48_Figure_1.jpg",
+    "bbox_norm": [
+      0.321,
+      0.662,
+      0.946,
+      0.819
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-49:text-1",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.148,
+      0.534,
+      0.557
+    ],
+    "text": "PREFABRICATEDFORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:figure-2",
+    "page_id": 49,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_49_Figure_0.jpg",
+    "bbox_norm": [
+      0.168,
+      0.58,
+      0.997,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-50:figure-1",
+    "page_id": 50,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_50_Figure_0.jpg",
+    "bbox_norm": [
+      0.305,
+      0.0,
+      0.534,
+      0.389
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-50:figure-2",
+    "page_id": 50,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_50_Figure_1.jpg",
+    "bbox_norm": [
+      0.543,
+      0.032,
+      1.0,
+      0.389
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-50:text-3",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.351,
+      0.449,
+      0.386,
+      0.789
+    ],
+    "text": "·Very littleon-site skilled laborneeded.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-4",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.449,
+      0.456,
+      0.996
+    ],
+    "text": "The abilityto reuse formseither asa large sectionor as individual units.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-5",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.449,
+      0.527,
+      0.996
+    ],
+    "text": "Allprefabricated systemsare designed forlight aswell as heavy construction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-6",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.449,
+      0.599,
+      0.994
+    ],
+    "text": "Contractorscanbidalmostanytypeofwork;straight, battered,curved orcut-up.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-7",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.601,
+      0.449,
+      0.671,
+      0.994
+    ],
+    "text": "Prefab formsmaybeset inany combination,horizontally and vertically,toanywall height.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-8",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.449,
+      0.814,
+      0.997
+    ],
+    "text": "·On high walsoneside of forms can be erected and ties placed;then the close-out side can be erected during placement,minimizingconcrete drop and assuring effective vibration.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:figure-1",
+    "page_id": 51,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_51_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.0,
+      0.574,
+      0.423
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-51:figure-2",
+    "page_id": 51,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_51_Figure_1.jpg",
+    "bbox_norm": [
+      0.583,
+      0.006,
+      0.993,
+      0.391
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-51:text-3",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.567,
+      0.189,
+      0.981
+    ],
+    "text": "Inaprefab systemthecontractorcan remove andreplace formsat anypoint.This simplifies erection and stripping,which can be started at any location.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-4",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.201,
+      0.567,
+      0.349,
+      0.981
+    ],
+    "text": "Toallowforacastingpocket,apanel is simply removedandreplacedmaintenanceof forms canbeatiresometask,butwell-maintained formsmeanmorereuses.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-5",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.363,
+      0.566,
+      0.511,
+      0.98
+    ],
+    "text": "Abigadvance inprefab forming hasbeen the development of gang forming,whichis simply defined as the grouping together andmoving ofanumber of forms asa single unit.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-6",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.523,
+      0.566,
+      0.671,
+      0.98
+    ],
+    "text": "Thesuccess of gang forming isdue tothe development of easy-to-use hard w a re and ties,madeespeciallyforthisforming technique.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-7",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.566,
+      0.939,
+      0.981
+    ],
+    "text": "Since pre formsare pre-engineered and precisionmade,theyofferthebestmaterials available andwork equallywell on all jobs, resultinginlowercostperuse.Although prefabricated formsworkwell on any size job, thesmall job isa goodwayto introduce the systemto theworkmen.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-1",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.125,
+      0.144,
+      0.171,
+      0.282
+    ],
+    "text": "DRAWBACKS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-2",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.199,
+      0.114,
+      0.233,
+      0.272
+    ],
+    "text": "·High cost factor",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-3",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.113,
+      0.34,
+      0.515
+    ],
+    "text": "Greater transportationcost,due to the large pieces,where asthe regular formworkcan be transportedeasily.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-4",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.34,
+      0.113,
+      0.409,
+      0.526
+    ],
+    "text": "·Toomany pieces involved in the pre fabricated formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-5",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.412,
+      0.114,
+      0.483,
+      0.549
+    ],
+    "text": "Prefabricated formwork,leavepoor finishesat the joints,of theformingmembers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-6",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.113,
+      0.518,
+      0.503
+    ],
+    "text": "·Pre-fab formwork deflect duringplacement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-8",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.135,
+      0.731,
+      0.533
+    ],
+    "text": "If recommended placingratesare followedand thereisgoodsupervisionof placementand vibrating,the problemof deflectioncanbe controlled.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-9",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.731,
+      0.114,
+      0.837,
+      0.524
+    ],
+    "text": "Withmany prefab systems,panelscanberem ovedat different locations and used as casting pockets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-10",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.113,
+      0.949,
+      0.524
+    ],
+    "text": "·This procedure avoids dropping the concretea great distance and helpstomaintainamore constant rate of placement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:figure-11",
+    "page_id": 52,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_52_Figure_0.jpg",
+    "bbox_norm": [
+      0.247,
+      0.64,
+      0.817,
+      0.99
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-53:table-1",
+    "page_id": 53,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_53_Table_0.jpg",
+    "bbox_norm": [
+      0.009,
+      0.003,
+      1.0,
+      0.966
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-54:text-1",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.108,
+      0.158,
+      0.18,
+      0.679
+    ],
+    "text": "Time of Removal of formwork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:table-2",
+    "page_id": 54,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_54_Table_0.jpg",
+    "bbox_norm": [
+      0.245,
+      0.216,
+      0.951,
+      0.92
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-55:text-1",
+    "page_id": 55,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.138,
+      0.548,
+      0.662
+    ],
+    "text": "FAILURE OF FORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:text-2",
+    "page_id": 55,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.868,
+      0.714,
+      0.928,
+      0.958
+    ],
+    "text": "12.09200610:53",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-1",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.037,
+      0.154,
+      0.15,
+      0.591
+    ],
+    "text": "Formwork failuresare thecause ofmanyaccidents and failuresthat occurduring concreteconstruction which usually happenwhenfreshconcrete isplaced",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-2",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.162,
+      0.154,
+      0.275,
+      0.604
+    ],
+    "text": "Generally some unexpected event causesone memberto fail,thenothersbecome overloaded or misalignedand theentire formwork structure collapses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-3",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.154,
+      0.328,
+      0.468
+    ],
+    "text": "Improper strippingand shoreremoval",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-4",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.344,
+      0.156,
+      0.381,
+      0.329
+    ],
+    "text": "Inadequate bracing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-5",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.156,
+      0.435,
+      0.238
+    ],
+    "text": "Vibration",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-6",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.156,
+      0.49,
+      0.533
+    ],
+    "text": "Unstable soil under mudsils,shoring not plumb",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-7",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.504,
+      0.156,
+      0.543,
+      0.518
+    ],
+    "text": "nadequatecontrol of concreteplacement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-8",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.557,
+      0.156,
+      0.597,
+      0.46
+    ],
+    "text": "Lackof attention to formworkdetails",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-9",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.154,
+      0.687,
+      0.582
+    ],
+    "text": "Inadequate crossbracing and horizontal bracing of shores",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-10",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.701,
+      0.154,
+      0.777,
+      0.587
+    ],
+    "text": "Formssometime collapse when their shores/jackare displaced by the vibration caused by:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-11",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.16,
+      0.833,
+      0.281
+    ],
+    "text": "passing traffic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-12",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.844,
+      0.158,
+      0.942,
+      0.589
+    ],
+    "text": "movement of workers&equipment onthe formwork theeffect of vibratingconcrete toconsolidate it",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:figure-13",
+    "page_id": 56,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_56_Figure_0.jpg",
+    "bbox_norm": [
+      0.027,
+      0.611,
+      0.472,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-56:figure-14",
+    "page_id": 56,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_56_Figure_1.jpg",
+    "bbox_norm": [
+      0.5,
+      0.611,
+      0.958,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-57:text-1",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.156,
+      0.182,
+      0.45
+    ],
+    "text": "SAFETY PRECAUTION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:text-2",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.354,
+      0.235,
+      0.439,
+      0.764
+    ],
+    "text": "Material used for theconstructionof formworkmust fulfill the specification.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:text-3",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.238,
+      0.495,
+      0.539
+    ],
+    "text": "Formworkisfixedfirmly&properly",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:text-4",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.504,
+      0.235,
+      0.587,
+      0.781
+    ],
+    "text": "Constructionarea must beprotectedtoprevent vandalismof formwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:text-5",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.599,
+      0.235,
+      0.685,
+      0.835
+    ],
+    "text": "Warning signmust beput upat the area where the formwork is fixed toprevent entrance of people thatmay damage the formwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:text-6",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.238,
+      0.74,
+      0.798
+    ],
+    "text": "Theformworkmust be inspected before theconcreteispoured.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-1",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.134,
+      0.166,
+      0.839
+    ],
+    "text": "STRIKING,MAINTENANCE,STORAGE OF FORMWORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-2",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.317,
+      0.229,
+      0.354,
+      0.303
+    ],
+    "text": "Striking：",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-3",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.354,
+      0.227,
+      0.571,
+      0.867
+    ],
+    "text": "Ascolumnand beam side formworkwillbe removed before beamand slab soffitformwork,provisionmustbemadeforeasyremovalandinthecorrect order.Ifbeamand slabsoffit formwork istoberemovedbefore theconcrete hasachievedworkingstrength,permanent proppingor shoring isrequired. Takecaretoavoiddamagetoformworkwhichistobereused.Eight ormore Usesmaybeobtained fromtimber formwork.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-4",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.201,
+      0.696,
+      0.864
+    ],
+    "text": "Maintenance Cleanformswith stifbrushand cleancold water.Use scrapers onlyasalast resort.Keepformswell oiledtoprevent delaminationof plywood or rusting of steel and always oil the edges.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-5",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.201,
+      0.824,
+      0.864
+    ],
+    "text": "Storageof formsAny formworkwithsteelcomponentsshouldbestoredin the dry.Avoiddirect sunlight ontimber forms.Storeclear of the ground without twist or bend,and keep free of dirt.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-1",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.578,
+      0.214,
+      0.68,
+      0.535
+    ],
+    "text": "THANK YOU",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-2",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.182,
+      0.856,
+      0.384
+    ],
+    "text": "ZEUS PITHAWALLA(37) GARIMA RAJPUT(38) MANASVIRANE(39)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-3",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.445,
+      0.856,
+      0.687
+    ],
+    "text": "RITHIKA RAVISHANKAR(40) SHIVALI SANAP(41) SUVOJIT SEN(43)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-4",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.708,
+      0.803,
+      0.898
+    ],
+    "text": "EKTA SHAH(44) RAJESH SHELAKE(45)",
+    "source_type": "text"
+  }
+]

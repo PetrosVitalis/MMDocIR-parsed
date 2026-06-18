@@ -1,0 +1,1 @@
+<table><tr><td>31/01/2022</td><td>31/01/2021</td></tr><tr><td>Trade receivables 267</td><td>255</td></tr><tr><td>Receivables due to sales to franchises</td><td>242 177</td></tr><tr><td>Public entities</td><td>251 199</td></tr><tr><td> Other current receivables</td><td>82 85</td></tr><tr><td>Total</td><td>842 715</td></tr></table>

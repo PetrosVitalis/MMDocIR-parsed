@@ -1,0 +1,10 @@
+Relation,,Accuracy,P@2,P@5,$\mathbf { A v g . } \left| \boldsymbol { C } _ { q } \right|$,Supports
+,overall (ensemble),68.5,81.0,94.1,$2 0 . 4 \pm 1 6 . 6$,5129
+,overall (single model),65.3,79.7,92.9,$2 0 . 4 \pm 1 6 . 6$,5129
+,member_of_political_party,85.5,95.7,98.6,$5 . 4 \pm 2 . 4$,70
+3 best,record_label,83.0,93.6,99.3,$1 2 . 4 \pm 6 . 1$,283
+3 best,publisher,81.5,96.3,100.0,$9 . 6 \pm 5 . 1$,54
+3 best,place_of_birth,51.0,67.2,,,
+3 worst,place_of_death,50.0,67.3,86.8,$2 7 . 2 \pm 1 4 . 5$,309
+3 worst,inception,,53.2,89.1 83.1,$2 5 . 1 \pm 1 4 . 3$,159
+3 worst,,29.9,,,$2 1 . 9 \pm 1 1 . 0$,77

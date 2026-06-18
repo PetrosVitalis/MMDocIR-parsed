@@ -1,0 +1,1 @@
+<table><tr><td>As of September 30,</td><td>2023</td><td>2022</td></tr><tr><td>Retirement</td><td>$ 242</td><td>$ 226</td></tr><tr><td>Voluntary Severance</td><td>443</td><td>457</td></tr><tr><td>Total</td><td>$685</td><td>s 683</td></tr></table>

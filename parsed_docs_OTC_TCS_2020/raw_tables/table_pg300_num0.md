@@ -1,0 +1,1 @@
+<table><tr><td></td><td>(crore)</td></tr><tr><td>Year ended March31,2020</td><td>Year ended March 31,2019</td></tr><tr><td>18 1,578</td><td>40 1,963</td></tr><tr><td>1,596</td><td>2,003</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td>(1)</td><td></td></tr><tr><td></td><td></td></tr></table>

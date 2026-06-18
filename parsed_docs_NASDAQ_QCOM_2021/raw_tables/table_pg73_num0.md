@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">September 26, 2021</td><td>September 27,</td><td>2020</td></tr><tr><td>Trade, net of allowances for doubtful accounts</td><td>$</td><td>2,214</td><td>$</td><td>2,687</td></tr><tr><td>Unbilled</td><td></td><td>1,354</td><td></td><td>1,305</td></tr><tr><td>Other $</td><td></td><td>11</td><td>3,579 $</td><td>11 4,003</td></tr></table>

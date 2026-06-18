@@ -1,0 +1,10 @@
+Method,ROUGE ↑,BLEU ↑,METEOR ↑,BLEURT ↑
+Instruct-BLIP (Dai et al., 2023),10.72,0.95,"7.59,0.09"
+BLIP2 (Li et al., 2023),15.00,0.52,"8.49,0.16"
+Mini-GPT4 (Zhu et al., 2023),26.12,5.62,"25.55,0.27"
+LLaVA (Liu et al., 2023b),28.66,6.03,"26.97,0.31"
+Open-Flamingo (Awadalla et al., 2023),30.57,6.52,"22.53,0.32"
+COGGLM (Wang et al., 2023),30.25,6.67,"23.35,0.31"
+mPLUG-Owl2 (Ye et al., 2023),31.39,6.72,"24.67,0.33"
+LLaVA 1.5 (Liu et al., 2023a),32.87,6.94,"25.23,0.33"
+SnapNTell (ours),35.28,7.81,29.27,0.55

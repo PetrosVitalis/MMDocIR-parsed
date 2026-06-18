@@ -1,0 +1,1 @@
+<table><tr><td>(Millions of dollars)</td><td colspan="2">2021</td><td colspan="2">2020</td></tr><tr><td></td><td></td><td>440$</td><td>384$</td><td>414</td></tr><tr><td>U.S. plans Non-U.S. plans</td><td></td><td>114</td><td>89</td><td>83</td></tr><tr><td></td><td></td><td>554 $</td><td>473 $</td><td>497</td></tr></table>

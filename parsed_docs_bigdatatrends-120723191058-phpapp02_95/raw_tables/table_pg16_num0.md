@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Area</td><td rowspan=1 colspan=1>Growth Rate</td></tr><tr><td rowspan=1 colspan=1>Database systems</td><td rowspan=1 colspan=1>97%</td></tr><tr><td rowspan=1 colspan=1>Overall corporate data</td><td rowspan=1 colspan=1>94%</td></tr><tr><td rowspan=1 colspan=1>Data of average organization</td><td rowspan=1 colspan=1>50%</td></tr></table>

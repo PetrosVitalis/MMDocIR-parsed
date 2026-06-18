@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2021 vs.2020 Change</td></tr><tr><td> Selling, general and administrative</td><td>$ 2,339</td><td>2,074</td><td>$ 265</td></tr><tr><td>% of revenues</td><td>7%</td><td>9%</td><td></td></tr></table>

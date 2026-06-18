@@ -1,0 +1,1 @@
+<table><tr><td>Net revenues by geographic region:</td><td></td></tr><tr><td>Americas $</td><td>3,607</td></tr><tr><td>EMEA (1)</td><td>2,464</td></tr><tr><td>Asia Pacific</td><td>946</td></tr><tr><td>Total consolidated net revenues $</td><td>7,017</td></tr></table>

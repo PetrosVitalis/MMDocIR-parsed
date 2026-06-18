@@ -1,0 +1,1 @@
+<table><tr><td rowspan="3"></td><td colspan="4">As of/Year ended December 31,2013</td></tr><tr><td>Domestic Streaming</td><td>International Streaming</td><td>Domestic DVD</td><td>Consolidated</td></tr><tr><td colspan="5">(in thousands)</td></tr><tr><td> Amortization of content assets</td><td>1,420,076</td><td>701,905</td><td>71,325</td><td>2,193,306</td></tr></table>

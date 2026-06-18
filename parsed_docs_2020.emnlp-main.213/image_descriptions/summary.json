@@ -1,0 +1,89 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_2020.emnlp-main.213",
+  "total_images": 16,
+  "non_figure_images_skipped": 19,
+  "processed": 16,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_16_Asset_5.jpg",
+      "output": "image_descriptions/_page_16_Asset_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Asset_4.jpg",
+      "output": "image_descriptions/_page_16_Asset_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Asset_6.jpg",
+      "output": "image_descriptions/_page_16_Asset_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Asset_7.jpg",
+      "output": "image_descriptions/_page_16_Asset_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Asset_3.jpg",
+      "output": "image_descriptions/_page_16_Asset_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Asset_2.jpg",
+      "output": "image_descriptions/_page_16_Asset_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Asset_0.jpg",
+      "output": "image_descriptions/_page_16_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Asset_1.jpg",
+      "output": "image_descriptions/_page_16_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_1.jpg",
+      "output": "image_descriptions/_page_6_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_0.jpg",
+      "output": "image_descriptions/_page_6_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Asset_1.jpg",
+      "output": "image_descriptions/_page_17_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Asset_0.jpg",
+      "output": "image_descriptions/_page_17_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Asset_2.jpg",
+      "output": "image_descriptions/_page_17_Asset_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_2_Figure_0.jpg",
+      "output": "image_descriptions/_page_2_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Asset_3.jpg",
+      "output": "image_descriptions/_page_17_Asset_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Asset_4.jpg",
+      "output": "image_descriptions/_page_17_Asset_4.md",
+      "status": "success"
+    }
+  ]
+}

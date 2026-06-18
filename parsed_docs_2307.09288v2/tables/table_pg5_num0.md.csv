@@ -1,0 +1,9 @@
+Training Data,Training Data,Params,Context Length,GQA,Tokens,LR
+LLAMA 1,See Touvron et al. (2023),7B,2k,X,1.0T,$3 . 0 \times 1 0 ^ { - 4 }$
+LLAMA 1,See Touvron et al. (2023),13B,2k,×,1.0T,$3 . 0 \times 1 0 ^ { - 4 }$
+LLAMA 1,See Touvron et al. (2023),33B,2k,X,1.4T,$1 . 5 \times 1 0 ^ { - 4 }$
+LLAMA 1,See Touvron et al. (2023),65B,2k,×,1.4T,$1 . 5 \times 1 0 ^ { - 4 }$
+LLAMA 2,A new mix of publicly available online data,7B,4k,X,2.0T,$3 . 0 \times 1 0 ^ { - 4 }$
+LLAMA 2,A new mix of publicly available online data,13B,4k,X,2.0T,$3 . 0 \times 1 0 ^ { - 4 }$
+LLAMA 2,A new mix of publicly available online data,34B,4k,√,2.0T,$1 . 5 \times 1 0 ^ { - 4 }$
+LLAMA 2,A new mix of publicly available online data,70B,4k,√,2.0T,$1 . 5 \times 1 0 ^ { - 4 }$

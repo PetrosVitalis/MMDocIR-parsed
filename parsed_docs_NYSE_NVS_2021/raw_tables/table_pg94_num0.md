@@ -1,0 +1,1 @@
+<table><tr><td>CHF 000s</td><td>2021 total compensation1.2</td></tr><tr><td>Chairman of the Board</td><td>3805</td></tr><tr><td>Other members of the Board</td><td>4764</td></tr><tr><td>Total</td><td>8 569</td></tr></table>

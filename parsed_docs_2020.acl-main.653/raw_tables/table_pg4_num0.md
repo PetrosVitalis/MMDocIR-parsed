@@ -1,0 +1,1 @@
+<table><tr><td>fold</td><td>en</td><td>de</td><td>es</td><td>ar</td><td>zh</td><td>vi</td><td>hi</td></tr><tr><td>dev</td><td>1148</td><td>512</td><td>500</td><td>517</td><td>504</td><td>511</td><td>507</td></tr><tr><td>test</td><td>11590</td><td>）4517</td><td>5253</td><td>5335</td><td>5137</td><td>5495</td><td>4918</td></tr></table>

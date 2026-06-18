@@ -1,0 +1,1 @@
+<table><tr><td>2021</td><td>2020</td></tr><tr><td>Indirect Selling Expenses</td><td>1,918</td></tr><tr><td>Administrative Expenses</td><td>2,514 516 504</td></tr><tr><td>Maintenance, Repairs and Utilities</td><td>609 577</td></tr><tr><td>Other</td><td>259 250</td></tr><tr><td>Total</td><td>3,898 3,250</td></tr></table>

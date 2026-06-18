@@ -1,0 +1,34 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_INCSR-Vol-INCSR-Vol.-2-pdf",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_5_Table_0.jpg",
+      "raw_md": "table_pg5_num0.md",
+      "csv_base": "table_pg5_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_29_Table_0.jpg",
+      "raw_md": "table_pg29_num0.md",
+      "csv_base": "table_pg29_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_30_Table_0.jpg",
+      "raw_md": "table_pg30_num0.md",
+      "csv_base": "table_pg30_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (row_count_lt_2)"
+    }
+  ]
+}

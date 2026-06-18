@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">( crore,except percentages)</td></tr><tr><td>Particulars</td><td>March 31, 2021</td><td>March 31, 2020</td></tr><tr><td>Total advances to twenty largest borrowers</td><td>225,412.82</td><td>178,942.74</td></tr><tr><td>Percentage of advances of twenty largest borrowers to total advances of the Bank</td><td>12.9%</td><td>11.6%</td></tr></table>

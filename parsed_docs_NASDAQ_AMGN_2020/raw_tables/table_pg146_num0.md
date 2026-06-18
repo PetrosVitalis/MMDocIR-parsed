@@ -1,0 +1,1 @@
+<table><tr><td>Maturity dates</td><td>Amounts</td></tr><tr><td>2021</td><td>$</td></tr><tr><td>2022</td><td>4,277</td></tr><tr><td>2023</td><td>1,541</td></tr><tr><td>2024</td><td>1,400</td></tr><tr><td>2025</td><td>1,500</td></tr><tr><td>Thereafter</td><td>24,890</td></tr><tr><td>Total</td><td>$ 33,608</td></tr></table>

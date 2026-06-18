@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Year Ended December 31,2019</td><td>%of Pretax income</td><td>Year Ended December</td><td>31,2018</td><td>%of Pretax income</td><td>Increase (Decrease)</td></tr><tr><td>Income tax expense</td><td>$ 130</td><td></td><td>8% $</td><td>29</td><td>2% $</td><td>101</td></tr></table>

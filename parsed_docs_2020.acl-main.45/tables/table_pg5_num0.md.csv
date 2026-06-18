@@ -1,0 +1,9 @@
+English CoNLL 2003,English CoNLL 2003,English CoNLL 2003,English CoNLL 2003
+Model,Prec.,Rec.,F1
+"ELMo(Peters et al., 2018)",=,-,92.22
+"CVT(Clark et al., 2018)",,=,92.6
+"BERT-Tagger(Devlin et al., 2018)",=,-,92.8
+"BERT-MRC(Li et al.,2019) BERT-MRC+FL",92.33,94.61,93.04
+,93.13,93.09,93.11 (+0.06)
+BERT-MRC+DL,93.22,93.12,93.17 (+0.12)
+BERT-MRC+DSC,93.41,93.25,93.33 (+0.29)

@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">Total/ weighted</td></tr><tr><td>Options outstanding Number outstanding (millions)</td><td>0.5</td><td>average 1.2 1.7</td></tr><tr><td>Remaining contractual life (years)</td><td>0.0</td><td>1.0 0.7</td></tr><tr><td>Exercise price (USD)</td><td>57.6 66.1</td><td>63.6</td></tr></table>

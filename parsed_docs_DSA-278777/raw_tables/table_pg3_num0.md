@@ -1,0 +1,1 @@
+<table><tr><td>Port Pin</td><td>Alternative Function</td></tr><tr><td>P1.0</td><td>T2 (Timer/Counter 2 External Input)</td></tr><tr><td>P1.1</td><td>T2EX(Timer/Counter 2 Capture/Reload Trigger)</td></tr></table>

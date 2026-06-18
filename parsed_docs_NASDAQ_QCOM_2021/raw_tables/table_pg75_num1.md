@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3">2021 (1)</td><td colspan="2">2020 (2) 2019 (3)</td></tr><tr><td> Revenues recognized from previously satisfied performance obligations</td><td>$</td><td>283</td><td>$</td><td>1,480 $</td><td>4,080</td></tr></table>

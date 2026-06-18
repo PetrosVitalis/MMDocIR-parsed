@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Year Ended December 31, 2019</td></tr><tr><td>Activision</td><td>$ 19</td></tr><tr><td>Blizzard</td><td>68</td></tr><tr><td>King</td><td>20</td></tr><tr><td> Other segments (1)</td><td>25</td></tr><tr><td>Total</td><td>$ 132</td></tr></table>

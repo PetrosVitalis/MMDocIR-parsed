@@ -1,0 +1,10 @@
+Pin No.,Signal Name,Signal Name,Signal Name,Signal Name,Signal Name
+1,CD,NC (no connection),NC (no connection),NC (no connection),NC (no connection)
+2,TXD,Transmission data,Transmission data,Transmission data,Transmission data
+3,RXD,Reception data,Reception data,Reception data,Reception data
+4,DSR,Short circuit at pin 6 on the monitor,Short circuit at pin 6 on the monitor,Short circuit at pin 6 on the monitor,Short circuit at pin 6 on the monitor
+5,GND,GND,GND,GND,GND
+6,DTR,Short circuit at pin 4 on the monitor,Short circuit at pin 4 on the monitor,Short circuit at pin 4 on the monitor,Short circuit at pin 4 on the monitor
+7,CTS,Short circuit at pin 8 on the monitor,Short circuit at pin 8 on the monitor,Short circuit at pin 8 on the monitor,Short circuit at pin 8 on the monitor
+8,RTS,Short circuit at pin 7 on the monitor,Short circuit at pin 7 on the monitor,Short circuit at pin 7 on the monitor,Short circuit at pin 7 on the monitor
+9,RI,NC (no connection),NC (no connection),NC (no connection),NC (no connection)

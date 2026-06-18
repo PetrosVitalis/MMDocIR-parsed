@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td></tr><tr><td>Raw material, consumables</td><td>870</td><td>967</td></tr><tr><td>Work in progress</td><td>3160</td><td>3324</td></tr><tr><td>Finished products</td><td>2636</td><td>2840</td></tr><tr><td>Total inventories</td><td>6 666</td><td>7131</td></tr></table>

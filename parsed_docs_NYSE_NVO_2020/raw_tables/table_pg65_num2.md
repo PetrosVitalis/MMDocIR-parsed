@@ -1,0 +1,1 @@
+<table><tr><td>Type</td><td>Financial risk</td></tr><tr><td>Foreign exchange risk</td><td>High</td></tr><tr><td>Credit risk</td><td>LoW</td></tr><tr><td>Interest rate risk</td><td>LoW</td></tr><tr><td>Liquidity risk</td><td>LoW</td></tr></table>

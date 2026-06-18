@@ -1,0 +1,1 @@
+<table><tr><td></td><td>PPL</td><td>UPP</td></tr><tr><td>ENTITYNLM* (Ji et al., 2017)</td><td>85.4</td><td>189.2</td></tr><tr><td>EntityCopyNet*</td><td>76.1</td><td>144.0</td></tr><tr><td>AWD-LSTM (Merity et al., 2018)</td><td>74.8</td><td>165.8</td></tr><tr><td>KGLM*</td><td>44.1</td><td>88.5</td></tr></table>

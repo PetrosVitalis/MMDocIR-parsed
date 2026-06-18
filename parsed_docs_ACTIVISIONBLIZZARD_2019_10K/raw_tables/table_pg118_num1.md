@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">For the For the Years Ended December 31,</td></tr><tr><td>2019</td><td>2018</td><td>2017</td></tr><tr><td>Restricted stock units and options with performance measures not yet met</td><td>2</td><td>4</td><td>7</td></tr><tr><td>Anti-dilutive employee stock options</td><td>6</td><td>3</td><td>1</td></tr></table>

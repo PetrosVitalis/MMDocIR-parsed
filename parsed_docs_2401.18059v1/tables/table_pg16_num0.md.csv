@@ -1,0 +1,3 @@
+Configuration,Accuracy
+RAPTOR + SBERT embeddings +UnifiedQA,56.6%
+Recency-based tree + SBERT embeddings + UnifiedQA,55.8%

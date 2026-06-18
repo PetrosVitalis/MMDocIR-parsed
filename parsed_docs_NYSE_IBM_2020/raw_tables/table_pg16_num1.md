@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">Earnings per share of common stock-continuing operations</td><td></td><td></td><td></td></tr><tr><td>Assuming dilution</td><td>$</td><td>6.13*</td><td></td><td>$10.57</td></tr><tr><td>Basic</td><td>$</td><td>6.18*</td><td></td><td>$10.63</td></tr><tr><td>Diluted operating (non-GAAP)**</td><td>$</td><td>8.67*</td><td>$</td><td>12.81</td></tr></table>

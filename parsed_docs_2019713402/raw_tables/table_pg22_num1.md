@@ -1,0 +1,1 @@
+<table><tr><td>Item</td><td>At the time of invitation to apply for the visa ...</td><td>Number of points</td></tr><tr><td>6D7A1</td><td>the applicant met the requirements for the award of a specialist educational qualification</td><td>10</td></tr></table>

@@ -1,0 +1,6 @@
+Training signal,CLS,USR,CITE,REC,All
+SPECTER,84.2,88.4,91.5,36.9,80.0
+SciBERT fine-tune on co-view,83.0,84.2,84.1,36.4,76.0
+SciBERT fine-tune on co-read,82.3,85.4,86.7,36.3,77.1
+SciBERT fine-tune on co-citation,82.9,84.3,85.2,36.6,76.4
+SciBERT fine-tune on multitask,83.3,86.1,88.2,36.0,78.0

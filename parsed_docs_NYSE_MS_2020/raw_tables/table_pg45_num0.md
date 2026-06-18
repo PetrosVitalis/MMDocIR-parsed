@@ -1,0 +1,1 @@
+<table><tr><td>$in millions</td><td>2020 2019 2018</td></tr><tr><td>Effective taxrate</td><td>22.5 % 18.3% 20.9 %</td></tr><tr><td>Net discrete tax provisions (benefits)</td><td>$(122) $(475) $ (368)</td></tr></table>

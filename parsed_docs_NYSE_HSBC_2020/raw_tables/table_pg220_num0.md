@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Auditors&#x27; remuneration</td><td>$m</td><td>$m</td></tr><tr><td>Total fees payable</td><td>130.2</td><td>110.7</td></tr><tr><td>Fees for non-audit services</td><td>37.3</td><td>25.5</td></tr></table>

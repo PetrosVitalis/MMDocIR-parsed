@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020 vs.2019</td><td>2019 vs.2018</td></tr><tr><td> Total sales growth (GAAP)</td><td>13.0 %</td><td>5.0 %</td></tr><tr><td>Impact of:</td><td></td><td></td></tr><tr><td> Currency exchange rates</td><td>0.5 %</td><td>2.0 %</td></tr><tr><td>Core sales growth (non-GAAP)</td><td>13.5%</td><td>7.0%</td></tr></table>

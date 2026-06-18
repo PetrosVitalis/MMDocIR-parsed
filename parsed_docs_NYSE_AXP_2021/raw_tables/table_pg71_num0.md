@@ -1,0 +1,1 @@
+<table><tr><td>(Billions)</td><td></td><td>2021</td><td>2020</td></tr><tr><td>Customer deposits</td><td>$</td><td>84.4 $</td><td>86.9</td></tr><tr><td>Short-term borrowings</td><td></td><td>2.2</td><td>1.9</td></tr><tr><td>Long-term debt</td><td></td><td>38.7</td><td>43.0</td></tr><tr><td>Total debt and customer deposits</td><td>$</td><td>125.3$</td><td>131.8</td></tr></table>

@@ -1,0 +1,9 @@
+Model,Uyghur Unsequestered Set,Extra Resources
+Mayhew et al. (2017),51.32,"Wikipedia, 100K dict."
+Mayhew et al. (2017) (only Eng. data),27.20,"Wikipedia, 100K dict."
+BWET,25.73 ± 0.89,5K dict.
+BWET + self-att.,26.38 ± 0.34,5K dict.
+BWET on data from Mayhew et al. (2017),30.20 ± 0.98,"Wikipedia, 100K dict."
+BWET + self-att. on data from Mayhew et al. (2017),30.68 ± 0.45,"Wikipedia, 100K dict."
+Combined (see text),31.61 ± 0.46,"Wikipedia, 100K dict., 5K dict."
+Combined + self-att.,32.09 ± 0.61,"Wikipedia, 100K dict., 5K dict."

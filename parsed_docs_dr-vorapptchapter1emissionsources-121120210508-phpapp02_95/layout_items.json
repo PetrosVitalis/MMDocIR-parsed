@@ -1,0 +1,5644 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.131,
+      0.501,
+      0.842
+    ],
+    "text": "SOURCES OF EMISSIONS FROM AUTOMOBILES & EFFECTS ON HEALTH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.697,
+      0.347,
+      0.887,
+      0.64
+    ],
+    "text": "ARAI,Pune",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.147,
+      0.328,
+      0.662
+    ],
+    "text": "Guess,Wts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-2",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.447,
+      0.078,
+      0.942,
+      0.446
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:figure-3",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_1.jpg",
+    "bbox_norm": [
+      0.447,
+      0.545,
+      0.94,
+      0.917
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.128,
+      0.084,
+      0.187,
+      0.734
+    ],
+    "text": "Red Blood Cells Exposed to Particles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-2",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.399,
+      0.078,
+      0.894,
+      0.446
+    ],
+    "text": "1 um particles 0.078 um particles",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:figure-3",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_1.jpg",
+    "bbox_norm": [
+      0.399,
+      0.545,
+      0.892,
+      0.916
+    ],
+    "text": "Smaller Particles are More Dangerous",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.144,
+      0.062,
+      0.213,
+      0.972
+    ],
+    "text": "Air Quality in Asian Cities is an lssue",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-2",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.269,
+      0.022,
+      0.953,
+      0.973
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.001,
+      0.0,
+      0.13,
+      0.489
+    ],
+    "text": "Mobiity",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.239,
+      0.019,
+      0.296,
+      0.859
+    ],
+    "text": "Mobility-Movement of people & Material for their Living",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.347,
+      0.019,
+      0.402,
+      0.846
+    ],
+    "text": "Mobility -Essential part of Society- One cannot leave it",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.454,
+      0.019,
+      0.508,
+      0.791
+    ],
+    "text": "Mobility-In the present form leads following issues",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.51,
+      0.17,
+      0.56,
+      0.369
+    ],
+    "text": "·Congestion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.17,
+      0.612,
+      0.574
+    ],
+    "text": "·Inadequate Infrastructure",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.616,
+      0.17,
+      0.664,
+      0.455
+    ],
+    "text": "·Noise & Pollution",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.169,
+      0.72,
+      0.861
+    ],
+    "text": "·Dependence on Non- Renewable Resources",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.144,
+      0.123,
+      0.886
+    ],
+    "text": "LWhy Sustainable Mobility ?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.091,
+      0.265,
+      0.906
+    ],
+    "text": "Maintaining the capability to provide non-declining accessibility in time",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.352,
+      0.029,
+      0.407,
+      0.44
+    ],
+    "text": "Sustainable Mobility to Add",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.029,
+      0.512,
+      0.324
+    ],
+    "text": "·Economic Growth",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.515,
+      0.029,
+      0.567,
+      0.453
+    ],
+    "text": "·Environment Improvement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.567,
+      0.029,
+      0.621,
+      0.294
+    ],
+    "text": "· Social Progress",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.507,
+      0.512,
+      0.64
+    ],
+    "text": "-Profit",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.515,
+      0.515,
+      0.564,
+      0.653
+    ],
+    "text": "\\- Planet",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.539,
+      0.619,
+      0.692
+    ],
+    "text": "\\- People",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.755,
+      0.145,
+      0.814,
+      0.776
+    ],
+    "text": "3P > Bottom of Pyramid to Sustainability",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.006,
+      0.216,
+      0.163,
+      0.785
+    ],
+    "text": "Global Challenges and Requirements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.109,
+      0.258,
+      0.386
+    ],
+    "text": "Global Challenges",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.065,
+      0.31,
+      0.17
+    ],
+    "text": "FACTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.317,
+      0.035,
+      0.376,
+      0.166
+    ],
+    "text": "Increasing world population",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.018,
+      0.458,
+      0.144
+    ],
+    "text": "ngesmand",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.486,
+      0.035,
+      0.545,
+      0.156
+    ],
+    "text": "Limited energy supplies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.567,
+      0.036,
+      0.625,
+      0.201
+    ],
+    "text": "Environmental effects of energy use",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.236,
+      0.31,
+      0.484
+    ],
+    "text": "CONSEQUENCES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.208,
+      0.536,
+      0.258,
+      0.917
+    ],
+    "text": "Requirements for Vehicle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.317,
+      0.319,
+      0.375,
+      0.481
+    ],
+    "text": "Development of new technologies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-11",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.322,
+      0.16,
+      0.574,
+      0.335
+    ],
+    "text": "Efficient use of energy Use ofall energycarriers Use of environment protecting technologies",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:figure-12",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_1.jpg",
+    "bbox_norm": [
+      0.272,
+      0.501,
+      0.602,
+      0.981
+    ],
+    "text": "ENVIRONMENT",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.697,
+      0.423,
+      0.739,
+      0.582
+    ],
+    "text": "Main Focus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-14",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.796,
+      0.23,
+      0.899,
+      0.77
+    ],
+    "text": "Reduction in Resource Consumption Reduction of $C O _ { 2 }$ Emission",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.001,
+      0.0,
+      0.161,
+      0.765
+    ],
+    "text": "oba Challengesand Requirements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.01,
+      0.178,
+      0.078,
+      0.997
+    ],
+    "text": "Factors contributing to Sustainable Mobility",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.157,
+      0.539,
+      0.265,
+      0.639
+    ],
+    "text": "Improve Fuel Efficiency",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.468,
+      0.287,
+      0.604,
+      0.402
+    ],
+    "text": "Energy Diversity& Renewable Fuels",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.529,
+      0.588,
+      0.649
+    ],
+    "text": "Sustainable Mobility Products",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.781,
+      0.588,
+      0.885
+    ],
+    "text": "Reduction of Engine Emission",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.535,
+      0.897,
+      0.644
+    ],
+    "text": "Recyclable Material",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.199,
+      0.149,
+      0.838
+    ],
+    "text": "2 Wheeler Production Scenario in India",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.862,
+      0.091,
+      0.907,
+      0.505
+    ],
+    "text": "Sources: MoRTH & SIAM website",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.01,
+      0.213,
+      0.071,
+      0.937
+    ],
+    "text": "India's Vehicle Population is Accelerating.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.029,
+      0.692,
+      0.253
+    ],
+    "text": "Cauten Polluty",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.276,
+      0.451,
+      0.466
+    ],
+    "text": "Stationary",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.463,
+      0.277,
+      0.583,
+      0.55
+    ],
+    "text": "ruelstor power Combustion o 1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.593,
+      0.277,
+      0.753,
+      0.545
+    ],
+    "text": "ieraton or Sherbrning suchasming",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.277,
+      0.885,
+      0.502
+    ],
+    "text": "commercial Industri",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.897,
+      0.277,
+      0.977,
+      0.506
+    ],
+    "text": "Solvents and",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.366,
+      0.565,
+      0.447,
+      0.751
+    ],
+    "text": "Mobources",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.566,
+      0.581,
+      0.963
+    ],
+    "text": "Highway vehicles:c cars",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-9",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.567,
+      0.864,
+      0.962
+    ],
+    "text": "suchtrrat.boats, equipment, RVs, construction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.956,
+      0.395,
+      0.998,
+      0.992
+    ],
+    "text": "Source:Emissions protection report issued by government",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.008,
+      0.213,
+      0.149,
+      0.894
+    ],
+    "text": "Source Apportionment of PM10 Emissions in Mumbai City",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-2",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.211,
+      0.131,
+      0.902,
+      0.877
+    ],
+    "text": "Source:NEERI",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.141,
+      0.126,
+      1.0
+    ],
+    "text": "Road Transport Contribution to Co2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.281,
+      0.07,
+      0.625,
+      0.317
+    ],
+    "text": "ombus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.722,
+      0.074,
+      0.81,
+      0.265
+    ],
+    "text": "(actual)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.637,
+      0.394,
+      0.687,
+      0.503
+    ],
+    "text": "Exhaust:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-4",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.394,
+      0.741,
+      0.516
+    ],
+    "text": "·Nitrogen",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-5",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.394,
+      0.793,
+      0.582
+    ],
+    "text": "·Water (steam)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-6",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.394,
+      0.845,
+      0.592
+    ],
+    "text": "·Carbon Dioxide",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-7",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.848,
+      0.394,
+      0.897,
+      0.532
+    ],
+    "text": "·Pollutants",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-8",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.543,
+      0.666,
+      0.932,
+      0.957
+    ],
+    "text": "Pollutants:   \nUnburned   \nCarbon Monoxide   \nOxides of Nitrogen",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.045,
+      0.782,
+      0.317
+    ],
+    "text": "as Air",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.128,
+      0.346,
+      0.246,
+      0.505
+    ],
+    "text": "Refueling Losses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.781,
+      0.373,
+      0.895,
+      0.542
+    ],
+    "text": "Exhaust",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.128,
+      0.704,
+      0.25,
+      0.899
+    ],
+    "text": "Evaporative Emissions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.078,
+      0.227,
+      0.665
+    ],
+    "text": "MAJOR VEHICLE/FUEL EMISSIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.082,
+      0.305,
+      0.406
+    ],
+    "text": "·CarbonMonoxide",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.082,
+      0.423,
+      0.402
+    ],
+    "text": "CarbonDioxide (ClimateChange)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.428,
+      0.082,
+      0.484,
+      0.367
+    ],
+    "text": "·Diesel Exhaust",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.082,
+      0.55,
+      0.484
+    ],
+    "text": "·Particulate Matter (PM)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-6",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.555,
+      0.082,
+      0.609,
+      0.213
+    ],
+    "text": "·Lead",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-8",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.13,
+      0.84,
+      0.493
+    ],
+    "text": "-Precursorsto Ozone andPM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.848,
+      0.082,
+      0.907,
+      0.386
+    ],
+    "text": "·Nitrogen Dioxide",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-10",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.526,
+      0.305,
+      0.731
+    ],
+    "text": "·Air Toxics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-11",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.572,
+      0.369,
+      0.782
+    ],
+    "text": "-Aldehydes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-12",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.373,
+      0.628,
+      0.423,
+      0.841
+    ],
+    "text": "·formaldehyde",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-13",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.427,
+      0.628,
+      0.473,
+      0.835
+    ],
+    "text": "·acetaldehyde",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-14",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.48,
+      0.628,
+      0.526,
+      0.746
+    ],
+    "text": "·others",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-15",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.536,
+      0.575,
+      0.59,
+      0.756
+    ],
+    "text": "-Benzene",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-16",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.575,
+      0.652,
+      0.828
+    ],
+    "text": "-1,3-butadiene",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-17",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.575,
+      0.717,
+      0.766
+    ],
+    "text": "-Methanol",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-18",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.723,
+      0.575,
+      0.835,
+      0.899
+    ],
+    "text": "-Polycyclic organic matter (e.g.PAHs)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.098,
+      0.207,
+      0.159,
+      0.789
+    ],
+    "text": "AN EARLY 1904 CARTON",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-2",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.18,
+      0.289,
+      0.968,
+      0.709
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.154,
+      0.177,
+      0.817
+    ],
+    "text": "EFFECTS OF POLLUTANTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.041,
+      0.253,
+      0.833
+    ],
+    "text": "Different Pollutants have Different Effects:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.331,
+      0.05,
+      0.39,
+      0.93
+    ],
+    "text": ">Carbon Monoxide -circulatory system,heart",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.05,
+      0.46,
+      0.656
+    ],
+    "text": "VOCs-URTl, global warming.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.47,
+      0.05,
+      0.529,
+      0.824
+    ],
+    "text": "NOx -ungs,global warming，acid rin.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-6",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.539,
+      0.052,
+      0.598,
+      0.735
+    ],
+    "text": ">Ozone -respiratory system, lungs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-7",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.05,
+      0.664,
+      0.651
+    ],
+    "text": ">Lead -nervous system,brin",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-8",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.675,
+      0.05,
+      0.734,
+      0.77
+    ],
+    "text": "PM -lung,potential effects on heart",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-9",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.744,
+      0.052,
+      0.803,
+      0.951
+    ],
+    "text": "DieselAiricsncerirtory fts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-10",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.052,
+      0.871,
+      0.86
+    ],
+    "text": ">There are potential effects of the Mixture",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-11",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.881,
+      0.053,
+      0.996,
+      0.976
+    ],
+    "text": "> Carbon Dioxide & Carbon Particles - climate change",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.104,
+      0.194,
+      0.601
+    ],
+    "text": "HEALTH EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-2",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.078,
+      0.336,
+      0.968
+    ],
+    "text": "Some Populations more sensitive than others",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-3",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.35,
+      0.128,
+      0.399,
+      0.305
+    ],
+    "text": "·Children",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-4",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.414,
+      0.128,
+      0.467,
+      0.283
+    ],
+    "text": "·Elderly",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-5",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.127,
+      0.532,
+      0.722
+    ],
+    "text": "·people with heart and lung disease",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-6",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.079,
+      0.671,
+      0.472
+    ],
+    "text": "Asthma is growing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-7",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.684,
+      0.127,
+      0.734,
+      0.699
+    ],
+    "text": "·150 million asthmatics worldwide",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-8",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.746,
+      0.127,
+      0.8,
+      0.937
+    ],
+    "text": "·Increasing in most countries (2% to 5% per year)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-9",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.812,
+      0.127,
+      0.864,
+      0.93
+    ],
+    "text": "·Asthmatics much more sensitive to air pollution",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.591,
+      0.105,
+      0.985
+    ],
+    "text": "Health effects of Air",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-2",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.119,
+      0.044,
+      0.269,
+      0.946
+    ],
+    "text": "Premature mortality due to air pollution,Pollution: India ProjectedAualAvegesfordpret by region of the world",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.631,
+      0.562,
+      0.967
+    ],
+    "text": "suffer nearly one million premature and indoor), with children most affected.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-5",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.642,
+      0.632,
+      1.0,
+      0.975
+    ],
+    "text": "CC Ocean",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.027,
+      0.135,
+      0.166,
+      0.763
+    ],
+    "text": "CARBON MONOXIDE EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-2",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.184,
+      0.108,
+      0.227,
+      0.632
+    ],
+    "text": "Odorless, colourless & poisonous gas.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-3",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.104,
+      0.309,
+      0.768
+    ],
+    "text": "Caused by incomplete combustion of fuel and air",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-4",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.343,
+      0.101,
+      0.387,
+      0.61
+    ],
+    "text": "Most of it comes from motor vehicles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-5",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.078,
+      0.467,
+      0.688
+    ],
+    "text": "CO causes dizziness & vomiting sensation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-6",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.079,
+      0.711,
+      0.891
+    ],
+    "text": "CO reacts with Hb (haemoglobin) in blood to give carboxyhaemoglobin (CO Hb) which makes Hb unavailable for O2 transport, thus blocking transport of oxygen to heart and brain",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-7",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.746,
+      0.105,
+      0.842,
+      0.886
+    ],
+    "text": "Affects mental functions & visibility more severely even at low levels",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-8",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.88,
+      0.105,
+      0.925,
+      0.855
+    ],
+    "text": "Accelerates angina (chest pain) coronary artery disease",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-9",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.96,
+      0.076,
+      1.0,
+      0.763
+    ],
+    "text": "Known to cause death at high levels of exposure",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-1",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.001,
+      0.044,
+      0.217,
+      0.692
+    ],
+    "text": "LOXICITY OF CARBON VINE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-1",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.123,
+      0.076,
+      0.263,
+      0.919
+    ],
+    "text": "VOLATILE ORGANIC COMPOUNDS (VOCS) EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-2",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.084,
+      0.368,
+      0.878
+    ],
+    "text": "·General term for a wide range of hydrocarbon compounds",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-3",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.434,
+      0.083,
+      0.571,
+      0.907
+    ],
+    "text": "·VOCs result from combustion processes and evaporation of gasoline pors,soventst.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-4",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.084,
+      0.682,
+      0.572
+    ],
+    "text": "·They contribute to Global Warming",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-5",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.748,
+      0.089,
+      0.793,
+      0.856
+    ],
+    "text": "It leads to cold, cough & upper respiratory track infection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-6",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.861,
+      0.084,
+      0.906,
+      0.604
+    ],
+    "text": "·Carcinogenic effects on lung tissues.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-1",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.079,
+      0.243,
+      0.142,
+      0.614
+    ],
+    "text": "NOX EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-2",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.211,
+      0.05,
+      0.314,
+      0.873
+    ],
+    "text": "·NO reacts with atmospheric $\\mathbf { O } _ { 2 }$ and produce ${ \\mathsf { N O } } _ { 2 } ,$ which is an insidious poisonous reddish brown gas.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-3",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.343,
+      0.049,
+      0.434,
+      0.91
+    ],
+    "text": "·NOx results from high temperature combustion processes, e.g. cars and utilities",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-4",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.057,
+      0.51,
+      0.739
+    ],
+    "text": "-Reacts with moisture in lungs to form Nitric acid.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-5",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.541,
+      0.058,
+      0.635,
+      0.933
+    ],
+    "text": "\\- Affects respiratory systems causing bronchitis, pneumonia and lung inflections.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-6",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.656,
+      0.05,
+      0.699,
+      0.347
+    ],
+    "text": "-Visibility reduction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-7",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.723,
+      0.057,
+      0.767,
+      0.395
+    ],
+    "text": "-Contribute to acid rain.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-8",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.8,
+      0.049,
+      0.845,
+      0.705
+    ],
+    "text": "·They play a major role in atmospheric reactions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-9",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.875,
+      0.049,
+      0.92,
+      0.928
+    ],
+    "text": "·Overall levels unchanged but transportation sources are cleaner",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-1",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.055,
+      0.143,
+      0.199,
+      0.972
+    ],
+    "text": "Photochemical smog reactants emitted by automobiles:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-2",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.244,
+      0.102,
+      0.3,
+      0.442
+    ],
+    "text": "·hydrocarbons (HC)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-3",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.352,
+      0.13,
+      0.407,
+      0.794
+    ],
+    "text": "evaporative losses (from the fuel system)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-4",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.14,
+      0.512,
+      0.524
+    ],
+    "text": "incomplete combustion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-5",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.102,
+      0.618,
+      0.539
+    ],
+    "text": "·oxides of nitrogen (NOx)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:text-6",
+    "page_id": 29,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.14,
+      0.727,
+      0.882
+    ],
+    "text": "high-temperature (\\~ 20oo K) combustion in air",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-1",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.029,
+      0.136,
+      0.116,
+      0.898
+    ],
+    "text": "HOW SMOG IS FORMED ？",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:figure-2",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_0.jpg",
+    "bbox_norm": [
+      0.157,
+      0.252,
+      0.798,
+      0.707
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:text-3",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.848,
+      0.011,
+      0.937,
+      0.976
+    ],
+    "text": "Note : This ozone should not be confused with the layer of ozone in the upper atmosphere,whichhelps shieldingusfromultravioletlight.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-1",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.032,
+      0.136,
+      0.13,
+      0.921
+    ],
+    "text": "OZONE HEALTH EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-2",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.18,
+      0.035,
+      0.274,
+      0.949
+    ],
+    "text": "VOCs react with NOxin presence of sunlight and form Ozone leading to photochemical smog leading to :",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-3",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.042,
+      0.331,
+      0.282
+    ],
+    "text": "-Visibility reduction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-4",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.352,
+      0.05,
+      0.394,
+      0.412
+    ],
+    "text": "-Watering and irritation of eyes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-5",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.058,
+      0.453,
+      0.235
+    ],
+    "text": "-ENT irritation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-6",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.473,
+      0.057,
+      0.515,
+      0.325
+    ],
+    "text": "-Respiratory problems.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-7",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.534,
+      0.05,
+      0.578,
+      0.808
+    ],
+    "text": "-Chemical damage to rubber，clothing,paint and exposed surfaces.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-8",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.637,
+      0.05,
+      0.673,
+      0.272
+    ],
+    "text": "-Damage to crops.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-9",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.035,
+      0.713,
+      0.873
+    ],
+    "text": "The ozone problem is the one affecting the most people today:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-10",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.73,
+      0.039,
+      0.772,
+      0.632
+    ],
+    "text": "Known to cause inflammation in respiratory tract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-11",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.039,
+      0.835,
+      0.736
+    ],
+    "text": "Reduces ability to breathe (lung function) for some people",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-12",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.852,
+      0.039,
+      0.894,
+      0.727
+    ],
+    "text": "Increases hospitalization for asthma, other lung diseases",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-13",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.916,
+      0.039,
+      1.0,
+      0.951
+    ],
+    "text": "Effects have been demonstrated for short term， long term effcts are less certain，some people appear to develop “tolerance”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-1",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.135,
+      0.088,
+      0.199,
+      0.75
+    ],
+    "text": "LEAD HEALTH EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-2",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.27,
+      0.039,
+      0.315,
+      0.876
+    ],
+    "text": "Long known as one of the worst toxics in common use",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-3",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.336,
+      0.039,
+      0.418,
+      0.934
+    ],
+    "text": "Emitted from gasoline additivesbattery factories and nonferrous smelters",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-4",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.07,
+      0.562,
+      0.901
+    ],
+    "text": "Affects various organs and can cause sterility and neurological impairment,e.g.retardation and behavioral disorders",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-5",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.036,
+      0.631,
+      0.703
+    ],
+    "text": "Infants and children especially susceptible",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-6",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.651,
+      0.039,
+      0.73,
+      0.8
+    ],
+    "text": "Control of mobile sources has been exceptionally successful",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-7",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.739,
+      0.036,
+      0.782,
+      0.576
+    ],
+    "text": "At low doses,lead is associated with",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-8",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.789,
+      0.085,
+      0.831,
+      0.609
+    ],
+    "text": "·nerve damage in fetuses and infants",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-9",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.087,
+      0.88,
+      0.343
+    ],
+    "text": "·learning deficits",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-10",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.887,
+      0.085,
+      0.932,
+      0.539
+    ],
+    "text": "·lowered Intelligence Quota (IQ)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-11",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.937,
+      0.085,
+      0.982,
+      0.868
+    ],
+    "text": "Excessive exposure can severely damage nervous system",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-3",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.41,
+      0.395,
+      0.854
+    ],
+    "text": "Primoaillandaybunin",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-5",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.41,
+      0.696,
+      0.873
+    ],
+    "text": "· They react in the atmosphere to formacids,sulate sulfites",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-6",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.411,
+      0.914,
+      0.871
+    ],
+    "text": "Substantial reductions due to controls at the sources and through use of low sulfur fuels",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-1",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.079,
+      0.333,
+      0.236
+    ],
+    "text": "Other",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-2",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.336,
+      0.078,
+      0.42,
+      0.167
+    ],
+    "text": "Air",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-3",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.526,
+      0.079,
+      0.597,
+      0.123
+    ],
+    "text": "S",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-4",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.397,
+      0.177,
+      0.705
+    ],
+    "text": "·Carbon dioxide",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-5",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.399,
+      0.27,
+      0.792
+    ],
+    "text": "·Chlorofluorocarbons",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-6",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.399,
+      0.364,
+      0.691
+    ],
+    "text": "·Formaldehyde",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-7",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.399,
+      0.456,
+      0.597
+    ],
+    "text": "·Benzene",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-8",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.399,
+      0.55,
+      0.605
+    ],
+    "text": "·Asbestos",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-9",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.571,
+      0.398,
+      0.645,
+      0.644
+    ],
+    "text": "·Manganese",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-10",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.663,
+      0.398,
+      0.736,
+      0.574
+    ],
+    "text": "·Dioxins",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-11",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.758,
+      0.399,
+      0.829,
+      0.61
+    ],
+    "text": "·Cadmium",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-1",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.126,
+      0.074,
+      0.265,
+      0.654
+    ],
+    "text": "AIR TOXICS HEALTH EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-2",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.298,
+      0.053,
+      0.343,
+      0.227
+    ],
+    "text": "Benzene",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-4",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.105,
+      0.659,
+      0.417
+    ],
+    "text": "aknow humana",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-5",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.104,
+      0.918,
+      0.466
+    ],
+    "text": "studies in U.S.and Chinese workers have shown link between exposure and",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-6",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.347,
+      0.563,
+      0.439,
+      0.791
+    ],
+    "text": "aorodutor",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-8",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.586,
+      0.565,
+      0.734,
+      0.843
+    ],
+    "text": "or",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-1",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.097,
+      0.093,
+      0.236,
+      0.671
+    ],
+    "text": "AIR TOXICS HEALTH EFFECTS II",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-2",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.244,
+      0.036,
+      0.291,
+      0.239
+    ],
+    "text": "Aldehydes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-3",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.084,
+      0.447,
+      0.473
+    ],
+    "text": "emitted from vehicles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-4",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.085,
+      0.656,
+      0.45
+    ],
+    "text": "0 Many different formaldehyde, others)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-5",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.666,
+      0.087,
+      0.763,
+      0.423
+    ],
+    "text": "mostararobabe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-6",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.774,
+      0.087,
+      0.875,
+      0.438
+    ],
+    "text": "also can be nose and respiratory irritants",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-7",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.546,
+      0.282,
+      0.675
+    ],
+    "text": "·PAHs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-8",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.293,
+      0.595,
+      0.385,
+      0.944
+    ],
+    "text": "Hyryclcearomaic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-9",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.392,
+      0.596,
+      0.482,
+      0.944
+    ],
+    "text": "mamy en taxic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-10",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.595,
+      0.581,
+      0.944
+    ],
+    "text": "known or probable known",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-11",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.586,
+      0.595,
+      0.68,
+      0.944
+    ],
+    "text": "Mucher tes Mu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-12",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.595,
+      0.777,
+      0.944
+    ],
+    "text": "manained ehcles maintainedvehicle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-1",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.08,
+      0.331,
+      0.325
+    ],
+    "text": "Particulat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-2",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.083,
+      0.605,
+      0.253
+    ],
+    "text": "MPMer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-3",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.125,
+      0.411,
+      0.289,
+      0.845
+    ],
+    "text": "PM10 is a general term for tiny airborne particles (under ten microns),e.g.,dust,sot,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-4",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.41,
+      0.434,
+      0.875
+    ],
+    "text": "· Primary sources are fuel-burning plants and other industrial/ commercial processes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-5",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.41,
+      0.5,
+      0.791
+    ],
+    "text": "·Some are formed in the air",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-6",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.519,
+      0.411,
+      0.645,
+      0.848
+    ],
+    "text": "· They irritate the respiratory system and may also carry metals,sates, tratet.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-7",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.411,
+      0.789,
+      0.878
+    ],
+    "text": "·Some overall decreases seen but trends may be masked by meteorological changes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-1",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.135,
+      0.088,
+      0.201,
+      0.684
+    ],
+    "text": "PM HEALTH EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-2",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.27,
+      0.044,
+      0.439,
+      0.942
+    ],
+    "text": "■ High levels of PM (e.g. 50o ug /m3) known to cause premature death e.g.London 1952",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-3",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.505,
+      0.045,
+      0.663,
+      0.944
+    ],
+    "text": "■ Recent studies in US, Europe, Asia, South America have found association of PM with death at much lower levels",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-4",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.673,
+      0.095,
+      0.725,
+      0.773
+    ],
+    "text": "no evidence of a “threshold\" (safe level)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-5",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.793,
+      0.045,
+      0.899,
+      0.944
+    ],
+    "text": "■ To date, a plausible biological mechanism for these effects has not been found",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-1",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.125,
+      0.063,
+      0.18,
+      0.992
+    ],
+    "text": "PM HEALTH EFFECTS-INDIA & THAILAND",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-2",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.184,
+      0.062,
+      0.227,
+      0.848
+    ],
+    "text": "Source:Chhabra 2oo1,Pande 2oo1,Vichit-Vadakan 2001",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-1",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.135,
+      0.079,
+      0.201,
+      0.677
+    ],
+    "text": "PM HEALTH EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-2",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.272,
+      0.053,
+      0.373,
+      0.958
+    ],
+    "text": "■ Recent Re-analyses by HEl have generally confirmed the results of key studies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-3",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.053,
+      0.496,
+      0.959
+    ],
+    "text": "WHO,EPA and others have estimated effects on mortality",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-4",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.519,
+      0.053,
+      0.668,
+      0.959
+    ],
+    "text": "WHO analysis (Lancet, 20oo) estimated 20,0o0 annual deaths due to trafic pollution in 3 countries ( (France, Austria & Switzerland)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-5",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.685,
+      0.102,
+      0.73,
+      0.627
+    ],
+    "text": "New WHO global estimate underway",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-6",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.753,
+      0.053,
+      0.902,
+      0.96
+    ],
+    "text": "■ Much work underway to understand effects of PM \"components\" (e.g.ultrafines,metals,chemicas on particles)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-1",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.135,
+      0.07,
+      0.201,
+      0.787
+    ],
+    "text": "DIESEL HEALTH EFFECTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-2",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.229,
+      0.052,
+      0.407,
+      0.912
+    ],
+    "text": "■ Diesel engines have substantial advantages higher fuel efficiency   \nlower CO and Co2 emissions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-3",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.473,
+      0.053,
+      0.645,
+      0.934
+    ],
+    "text": "■ However, they also emit high levels of : particulate matter, NOx, and chemicals attached particulate matter,(e.g.PAHs)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-4",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.708,
+      0.053,
+      0.887,
+      0.777
+    ],
+    "text": "■ Two major types of health effects : : acute effects (e.g. exacerbating asthma) ·cancer effects",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-1",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.069,
+      0.236,
+      0.824
+    ],
+    "text": "DIESEL RISK ASSESSMENT TODAY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-2",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.046,
+      0.291,
+      0.651
+    ],
+    "text": "Many Agencies have reviewed",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-3",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.095,
+      0.413,
+      0.96
+    ],
+    "text": "·Most (WHO, IARC, US) have concluded diesel a \"probable human carcinogen\"",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-5",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.605,
+      0.144,
+      0.659,
+      0.933
+    ],
+    "text": "·3 excess cancer deaths in 1000 people (3x10)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-6",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.095,
+      0.784,
+      0.714
+    ],
+    "text": "·US EPA 2000 draft risk assessment :",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-7",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.798,
+      0.145,
+      0.854,
+      0.588
+    ],
+    "text": "·A range of risk (10 to 10)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-1",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.058,
+      0.282,
+      0.869
+    ],
+    "text": "SMALLER PARTICLES ARE MOREDANGEROUS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-2",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.055,
+      0.333,
+      0.554
+    ],
+    "text": "Red Blood Cells Exposed to Particles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-3",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.157,
+      0.418,
+      0.367
+    ],
+    "text": "1 um particles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:figure-4",
+    "page_id": 43,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_43_Figure_0.jpg",
+    "bbox_norm": [
+      0.447,
+      0.076,
+      0.942,
+      0.445
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:text-5",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.597,
+      0.418,
+      0.868
+    ],
+    "text": "0.078 μm particles",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:figure-6",
+    "page_id": 43,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_43_Figure_1.jpg",
+    "bbox_norm": [
+      0.447,
+      0.546,
+      0.94,
+      0.916
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-44:text-1",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.085,
+      0.244,
+      0.907
+    ],
+    "text": "DEPTH OF LUNG PENETRATION OF COARSE & FINE PARTICLE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-2",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.652,
+      0.324,
+      0.957
+    ],
+    "text": "PREPRAOR（1m and above)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-3",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.348,
+      0.653,
+      0.395,
+      0.95
+    ],
+    "text": "Stage 0(9.0 μm-10.0 μm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-4",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.652,
+      0.465,
+      0.949
+    ],
+    "text": "Stage 1 (5.8 μm-9.0 um)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-5",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.487,
+      0.533,
+      0.536,
+      0.947
+    ],
+    "text": "Pharynx Stage 2 (4.7 μm-5.8 μm)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-6",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.386,
+      0.607,
+      0.632
+    ],
+    "text": "Trachea&primarybronchi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-7",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.436,
+      0.68,
+      0.627
+    ],
+    "text": "Secondary bronchi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-8",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.704,
+      0.437,
+      0.741,
+      0.597
+    ],
+    "text": "Terminalbronchi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-9",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.436,
+      0.807,
+      0.509
+    ],
+    "text": "Alveoli",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-10",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.375,
+      0.951,
+      0.461,
+      0.971
+    ],
+    "text": "COARSE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-11",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.848,
+      0.436,
+      0.885,
+      0.509
+    ],
+    "text": "Alveoli",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-12",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.557,
+      0.653,
+      0.605,
+      0.942
+    ],
+    "text": "Stage 3 (3.3 μm-4.7μm)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-13",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.652,
+      0.675,
+      0.944
+    ],
+    "text": "Stage 4 (2.1μm-3.3 μm)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-14",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.63,
+      0.744,
+      0.944
+    ],
+    "text": "Stage 5(1.1 μm-2.1μm）",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-15",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.626,
+      0.815,
+      0.949
+    ],
+    "text": "Stage 6 (0.65 μm-1.1μm)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-16",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.626,
+      0.887,
+      0.975
+    ],
+    "text": "Stage 7 (0.43 μm- 0.65 μm)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-17",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.904,
+      0.652,
+      0.953,
+      0.971
+    ],
+    "text": "Stage 8 (0.003 μm- 0.43 μm)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-1",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.126,
+      0.075,
+      0.263,
+      0.946
+    ],
+    "text": "POTENTIAL CONTRIBUTION OF PM FROM S.I.ENGINES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-2",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.269,
+      0.024,
+      0.526,
+      0.953
+    ],
+    "text": "Nano particles below 50 nm Dia. penetrate deep into the interstitial tissue of the lung， causing respiratory inflammation and pulmonary toxicity. Particles which are not toxic in micron sizes may be toxic as nano particles.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-3",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.55,
+      0.027,
+      0.809,
+      0.953
+    ],
+    "text": "S.l. Engines have lower particulate mass & number compared to C.l. Engines. However， since number of S.l. Engines exceed C.l. Engines, S.l. Engines have high potential to contribute particulate emissioninventory, especially from the 2-wheelers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-4",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.831,
+      0.027,
+      0.986,
+      0.953
+    ],
+    "text": "PM from S.l. Engines are more due to oil and not due to fuel. Hence,called as O-PM,G-PM or EM (Emitted Matter)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-1",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.144,
+      0.067,
+      0.331,
+      0.746
+    ],
+    "text": "HEALTH EFFECTS OFNANOPARTIGLEryprocessesS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-2",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.371,
+      0.083,
+      0.435,
+      0.751
+    ],
+    "text": "·Functional impairment of the lung",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-3",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.083,
+      0.539,
+      0.666
+    ],
+    "text": "· Increased risk of heart attack",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-4",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.083,
+      0.725,
+      0.903
+    ],
+    "text": "· Systemic effects in the whole body via the blood",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-5",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.772,
+      0.083,
+      0.835,
+      0.507
+    ],
+    "text": "·Carcinogenic effects",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-6",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.083,
+      0.94,
+      0.614
+    ],
+    "text": "·Increase in sudden deaths",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-1",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.059,
+      0.286,
+      0.986
+    ],
+    "text": "Composition of Exhaust gas from Gasoline-engine during operation at lambda = 1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-1",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.123,
+      0.128,
+      0.217,
+      0.946
+    ],
+    "text": "What is greenhouse effect?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-2",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.154,
+      0.862,
+      0.981
+    ],
+    "text": "The Greenhouse Effect is an extremely vital   \nprocess where INFRARED (IR) rays from the   \nsun come into the Earth atmosphere. The   \natmosphere then traps these rays after they   \nhave come in (like the glass in a greenhouse)   \nkeeping the Earth warm. CO2 (carbon   \ndioxide), NO(nitrous oxide), and   \nCH4(methane) are destroying the   \natmosphere,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-1",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.052,
+      0.191,
+      0.178,
+      0.964
+    ],
+    "text": "lcausing more INFRARED (IR)rays toreflect on Earth.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-2",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.229,
+      0.398,
+      0.282,
+      0.736
+    ],
+    "text": "THE GREENHOUSE EFFECT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-3",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.161,
+      0.699,
+      0.299
+    ],
+    "text": "radiation Solary passes through theciear atmosphere",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-4",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.345,
+      0.437,
+      0.579
+    ],
+    "text": "Some solar radiation iselected by the Eath and the atosphere.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-5",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.475,
+      0.618,
+      0.66
+    ],
+    "text": "THEATMOSPHERE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-6",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.511,
+      0.704,
+      0.632
+    ],
+    "text": "THEEARTH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-7",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.755,
+      0.285,
+      0.859,
+      0.584
+    ],
+    "text": "Most radiation isabsoebed by the Earth'ssurface and warmsit.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-8",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.635,
+      0.552,
+      0.975
+    ],
+    "text": "Some of the infrared radation passes though the atmosphere, and some is absorbed and reemited inall directionsby greenouse gasmolecues.Theefect f thisis to wam the Earth'ssu face and the lower atmosphere.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-9",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.755,
+      0.63,
+      0.859,
+      0.894
+    ],
+    "text": "latraredradiation is emittedfrom the Earth's surface.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-10",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.958,
+      0.165,
+      0.996,
+      0.527
+    ],
+    "text": "SorcerU.S.Depvtmeot of State1992",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:figure-1",
+    "page_id": 50,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_50_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.0,
+      0.994,
+      0.997
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-51:text-1",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.204,
+      0.144,
+      0.366,
+      0.812
+    ],
+    "text": "Problems with greenhouse effect.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-2",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.421,
+      0.143,
+      0.93,
+      0.906
+    ],
+    "text": "Having more infrared rays reflected on Earth makes the Earth warmer. As temperatures on Earth rise,so does the ocean water level and the ice caps begin to melt. The worst possible problem would be mass flooding in low lying areas of the Earth including many islands in the ocean which would basically disappear.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-1",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.133,
+      0.113,
+      0.303,
+      0.911
+    ],
+    "text": "Cause of greenhouse effect --population growth",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-2",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.145,
+      0.793,
+      0.502
+    ],
+    "text": "These advances are causing the world's population to double at a much faster rate than ever before.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-2",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.184,
+      0.145,
+      0.321,
+      0.839
+    ],
+    "text": "■.Today, the world's population is doubling in35 to40year.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-3",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.145,
+      0.734,
+      0.882
+    ],
+    "text": "As the human population grows, pollution from human activity also increases.Many activities--such as driving automobiles,fming, manufacturing are causing much pollutants.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:text-1",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.055,
+      0.213,
+      0.928
+    ],
+    "text": "EFFECTS ON CLIMATE CHANGE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:text-2",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.062,
+      0.375,
+      0.666
+    ],
+    "text": "■ Transport a significant contributor; More than 30% of CO2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:text-3",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.437,
+      0.061,
+      0.541,
+      0.945
+    ],
+    "text": "ibs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:text-4",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.111,
+      0.597,
+      0.444
+    ],
+    "text": "absorbs sun and heat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:text-5",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.607,
+      0.111,
+      0.651,
+      0.438
+    ],
+    "text": "diesel a major source",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:text-6",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.062,
+      0.821,
+      0.944
+    ],
+    "text": "rttriielto wid",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:text-1",
+    "page_id": 55,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.015,
+      0.062,
+      0.078,
+      0.537
+    ],
+    "text": "AirlQuality Concerns : India",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:text-2",
+    "page_id": 55,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.097,
+      0.196,
+      0.871
+    ],
+    "text": "India is the sixth largest and second fastest growing emiter of Green House Gases (GHGs)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:figure-3",
+    "page_id": 55,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_55_Figure_0.jpg",
+    "bbox_norm": [
+      0.222,
+      0.027,
+      0.923,
+      0.93
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-56:text-1",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.131,
+      0.058,
+      0.276,
+      1.0
+    ],
+    "text": "SECTORIAL COMPARISON OF COS/EFFICIENCY (EUROPE,UE 15)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-3",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.885,
+      0.096,
+      0.946,
+      0.423
+    ],
+    "text": "·60%of the transports associated to road concern LC(450Mt)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-1",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.114,
+      0.079,
+      0.187,
+      0.839
+    ],
+    "text": "TRENDS IN COEMISSIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-2",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.075,
+      0.305,
+      0.8
+    ],
+    "text": "From Energy use in the Leading Automotive Markets (World),2002",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-1",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.096,
+      0.175,
+      0.755
+    ],
+    "text": "KEY TO EARLIER SLIDE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-2",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.049,
+      0.404,
+      0.96
+    ],
+    "text": "Size of the bubble is determined by the total CO2 emissions from energy use in different sectors of the respective nations. The bigger the size of the bubble, the greater the CO2 emisions from a country.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-3",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.049,
+      0.579,
+      0.962
+    ],
+    "text": "Includes the CO2 emissions from energy use in different sectors and the trasportation sector is one of the major constituents of this segment for the year 2002.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-4",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.049,
+      0.645,
+      0.923
+    ],
+    "text": "·Motor vehicle penetration is per 1,0oo people for the year 2002.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-5",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.664,
+      0.049,
+      0.767,
+      0.96
+    ],
+    "text": "Percent share refers to the individual share of a country in the total global demand for motor vehicels in 2002.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-6",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.796,
+      0.018,
+      0.934,
+      0.962
+    ],
+    "text": "The transportation sector accounts for 30.0 % of CO2 emissions in the industrialized economics of the OECD (Organization for Economic Cooperation and Development) and about 20.0 % worldwide.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-7",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.961,
+      0.554,
+      1.0,
+      0.994
+    ],
+    "text": "Source:OECD,IMF and Frost & Sullivan",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-60:text-1",
+    "page_id": 60,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.153,
+      0.187,
+      0.891
+    ],
+    "text": "GLOBAL CARBON DIOXIDE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-62:text-1",
+    "page_id": 62,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.095,
+      0.088,
+      0.211,
+      0.998
+    ],
+    "text": "RECENT CARBON CONTENT INITIATIVES (WORLD),2005-15",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-62:table-2",
+    "page_id": 62,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_62_Table_0.jpg",
+    "bbox_norm": [
+      0.241,
+      0.023,
+      0.977,
+      0.95
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-63:text-1",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.027,
+      0.136,
+      0.109,
+      0.863
+    ],
+    "text": "COReduction Time Table &",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-2",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.125,
+      0.057,
+      0.19,
+      0.804
+    ],
+    "text": "ACEA-AgrredwithCin1998forotargets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-3",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.189,
+      0.119,
+      0.234,
+      0.761
+    ],
+    "text": "■2003 Intermediate target range-165\\~170 g/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-4",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.121,
+      0.277,
+      0.441
+    ],
+    "text": "■2008 target -140 g/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-5",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.119,
+      0.324,
+      0.441
+    ],
+    "text": "2012 target-120 g/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-6",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.058,
+      0.411,
+      0.39
+    ],
+    "text": "JAMA Agreement with EC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-7",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.413,
+      0.121,
+      0.458,
+      0.759
+    ],
+    "text": "2003 Intermediate target range- 165\\~175 g/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-8",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.121,
+      0.501,
+      0.441
+    ],
+    "text": "■2009 target -140 g/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-9",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.503,
+      0.119,
+      0.548,
+      0.441
+    ],
+    "text": "2015 target-125 g/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-10",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.058,
+      0.635,
+      0.393
+    ],
+    "text": "KAMA Agreement with EC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-11",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.637,
+      0.121,
+      0.682,
+      0.757
+    ],
+    "text": "2004 Intermediate target range-165\\~175 g/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-12",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.682,
+      0.121,
+      0.725,
+      0.445
+    ],
+    "text": "2009 target-140 g/km.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-13",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.058,
+      0.814,
+      0.735
+    ],
+    "text": "New Target Proposed in 2oo7 in European Parliament",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-14",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.817,
+      0.121,
+      0.859,
+      0.486
+    ],
+    "text": "Year2015-125g C02/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-15",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.861,
+      0.121,
+      0.902,
+      0.477
+    ],
+    "text": "Year2020-95gC02/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-16",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.906,
+      0.121,
+      0.949,
+      0.471
+    ],
+    "text": "Year 2025-70g C02/km",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-1",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.01,
+      0.136,
+      0.112,
+      0.625
+    ],
+    "text": "Global Review",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-2",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.08,
+      0.255,
+      0.937
+    ],
+    "text": "Europe & Japan continue to lead the world with the most stringent passenger vehicle GHG & FE standards.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-3",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.284,
+      0.049,
+      0.421,
+      0.921
+    ],
+    "text": "Japan standards are expected to lead to the lowest fleet averageGHG emissions in the world(125g CO2/km by 2015).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-4",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.049,
+      0.595,
+      0.944
+    ],
+    "text": "California passenger vehicle regulations are expected to achieve the greatest overall reduction in GHG emission in the world.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-5",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.052,
+      0.812,
+      0.94
+    ],
+    "text": "U.S. passenger vehicle standards continue to lag behind other nations but could move ahead of Canada, Australia, South Korea,& California by 2020 with passage of U.S. senate bill.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-6",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.848,
+      0.079,
+      0.989,
+      0.958
+    ],
+    "text": "South Korea is the only nation in the world with standard in place that is expected to have rising GHG emissions from passenger vehicles.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-1",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.05,
+      0.006,
+      0.13,
+      0.796
+    ],
+    "text": "CO2 emissions VS engine type",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-1",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.034,
+      0.087,
+      0.19,
+      0.852
+    ],
+    "text": "POTENTIAL FOR REDUCInG GHGS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-2",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.197,
+      0.041,
+      0.302,
+      0.882
+    ],
+    "text": "From Vehicles Technology/Biofuels/ GigaMobiJityalent GHGs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-67:text-1",
+    "page_id": 67,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.031,
+      0.079,
+      0.215,
+      0.74
+    ],
+    "text": "COEMISSIONS Conventional & Alternative",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-68:figure-1",
+    "page_id": 68,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_68_Figure_0.jpg",
+    "bbox_norm": [
+      0.163,
+      0.027,
+      0.921,
+      0.962
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-69:text-1",
+    "page_id": 69,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.3,
+      0.135,
+      0.845
+    ],
+    "text": "WELLTOWHEELCARBONEMISSIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-69:table-2",
+    "page_id": 69,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_69_Table_0.jpg",
+    "bbox_norm": [
+      0.236,
+      0.002,
+      0.854,
+      0.997
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-70:text-1",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.085,
+      0.317,
+      0.781
+    ],
+    "text": "DEVELOPMENT OF LOW CARBON TECHNOLOGIES (WORLD),2005-15 Hybrid",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-2",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.027,
+      0.375,
+      0.158
+    ],
+    "text": "Gasoline Technology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-3",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.276,
+      0.364,
+      0.406
+    ],
+    "text": "Technology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-4",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.523,
+      0.366,
+      0.654
+    ],
+    "text": "Technology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-5",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.295,
+      0.77,
+      0.364,
+      0.902
+    ],
+    "text": "Fuel Cell Technology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-6",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.44,
+      0.011,
+      0.475,
+      0.062
+    ],
+    "text": "Key:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-7",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.486,
+      0.074,
+      0.569,
+      0.945
+    ],
+    "text": "Most popularand fully commercialized technology with the highest penetration in themarket currently includes internal combustion engine (ICE) technologies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-8",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.578,
+      0.011,
+      0.663,
+      0.97
+    ],
+    "text": "Second best popular technology，fully commercialized witha great potential to match themotor vehicles (Mvs) run on gasoline in the near future",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-9",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.013,
+      0.758,
+      0.976
+    ],
+    "text": "Commercialized, however，unlikely to outpace the traditional MVs-prospectsin the medium term looksbright-certainlya force to reckon with in future",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-10",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.767,
+      0.014,
+      0.852,
+      0.925
+    ],
+    "text": "Stillin the development stage-commercialisation during theperiod looks bleak-in termsof carbon constraints, easily the best and most effective technology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-11",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.914,
+      0.709,
+      0.947,
+      0.938
+    ],
+    "text": "Source:Frost&Sulivan",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:text-1",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.052,
+      0.231,
+      0.121,
+      0.878
+    ],
+    "text": "Road to Sustainable Mobility",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:text-2",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.215,
+      0.067,
+      0.26,
+      0.16
+    ],
+    "text": "Today",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:text-3",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.215,
+      0.351,
+      0.258,
+      0.493
+    ],
+    "text": "Tomorrow",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:text-4",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.309,
+      0.459,
+      0.359,
+      0.783
+    ],
+    "text": "Hydrogen Technology",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:figure-5",
+    "page_id": 71,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_71_Figure_0.jpg",
+    "bbox_norm": [
+      0.27,
+      0.802,
+      0.381,
+      0.966
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-71:text-6",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.425,
+      0.471,
+      0.475,
+      0.787
+    ],
+    "text": "Hybrid/EVTechnolo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:text-7",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.404,
+      0.787,
+      0.444,
+      0.897
+    ],
+    "text": "HYBRID",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:text-8",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.492,
+      0.6,
+      0.748
+    ],
+    "text": "Alternative Fuels",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:figure-9",
+    "page_id": 71,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_71_Figure_1.jpg",
+    "bbox_norm": [
+      0.513,
+      0.787,
+      0.623,
+      0.973
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-71:text-10",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.261,
+      0.717,
+      0.785
+    ],
+    "text": "Improvement of Conventional Fuels",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:figure-11",
+    "page_id": 71,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_71_Figure_2.jpg",
+    "bbox_norm": [
+      0.625,
+      0.789,
+      0.746,
+      0.972
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-71:text-12",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.195,
+      0.831,
+      0.777
+    ],
+    "text": "Conventional Veh.Technology for higer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:figure-13",
+    "page_id": 71,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_71_Figure_3.jpg",
+    "bbox_norm": [
+      0.748,
+      0.794,
+      0.861,
+      0.971
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-72:text-1",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.052,
+      0.207,
+      0.123,
+      0.955
+    ],
+    "text": "Need for an Integrated Approach",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-72:text-2",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.039,
+      0.425,
+      0.358
+    ],
+    "text": "Automotive Industry Improve Fuel Efficiency Reduce Emissions Alternative drive systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-72:text-3",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.695,
+      0.383,
+      0.902
+    ],
+    "text": "Fuel Industry Environmentally friendly fuels",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-72:figure-4",
+    "page_id": 72,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_72_Figure_0.jpg",
+    "bbox_norm": [
+      0.298,
+      0.248,
+      0.697,
+      0.782
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-72:text-5",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.115,
+      0.76,
+      0.266
+    ],
+    "text": "Customer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-72:text-6",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.774,
+      0.095,
+      0.862,
+      0.289
+    ],
+    "text": "Waug-aing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-72:text-7",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.72,
+      0.714,
+      0.765,
+      0.881
+    ],
+    "text": "Regulators",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-72:text-8",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.779,
+      0.636,
+      0.868,
+      0.959
+    ],
+    "text": "Relevantframework Appropriate infrastructure",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-73:text-1",
+    "page_id": 73,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.024,
+      0.084,
+      0.282,
+      0.826
+    ],
+    "text": "Ned for an Integrated Approach Involving All Stakeholders",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-73:text-2",
+    "page_id": 73,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.036,
+      0.44,
+      0.317
+    ],
+    "text": "·Amobilization coordinatedamongall stakeholders...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-73:text-3",
+    "page_id": 73,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.548,
+      0.036,
+      0.628,
+      0.341
+    ],
+    "text": "·....Organized by public authorities",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-73:text-4",
+    "page_id": 73,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.737,
+      0.037,
+      0.821,
+      0.334
+    ],
+    "text": "·Synergies of reduction beyond technologies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-73:figure-5",
+    "page_id": 73,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_73_Figure_0.jpg",
+    "bbox_norm": [
+      0.286,
+      0.355,
+      0.949,
+      0.968
+    ],
+    "text": "Source:ACEA",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-74:text-1",
+    "page_id": 74,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.131,
+      0.003,
+      0.187,
+      0.23
+    ],
+    "text": "EFFORTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-74:text-2",
+    "page_id": 74,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.232,
+      0.027,
+      0.312,
+      0.354
+    ],
+    "text": "·Global Insight simulation for ACEA(Europe,UE15)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-74:text-3",
+    "page_id": 74,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.027,
+      0.461,
+      0.346
+    ],
+    "text": "Increase offuel prices gas and diesel in two stages:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-74:text-4",
+    "page_id": 74,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.51,
+      0.048,
+      0.604,
+      0.373
+    ],
+    "text": "Secondincreaseof 0.1535 Euros/l",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-74:text-5",
+    "page_id": 74,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.048,
+      0.715,
+      0.373
+    ],
+    "text": "First increase of 0.1535 Euros/l",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-75:text-1",
+    "page_id": 75,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.093,
+      0.289,
+      0.852
+    ],
+    "text": "LOOKING AHEAD: TRENDS AND POSSIBILITIES FOR CONTROL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-75:text-2",
+    "page_id": 75,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.312,
+      0.071,
+      0.432,
+      0.958
+    ],
+    "text": "■ In reducing the health effects from vehicle emissions, one fact is clear:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-75:text-3",
+    "page_id": 75,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.125,
+      0.552,
+      0.959
+    ],
+    "text": "Even if the emissions from each vehicle and its fuel are reduced,,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-75:text-4",
+    "page_id": 75,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.562,
+      0.125,
+      0.614,
+      0.691
+    ],
+    "text": "the use of vehicles will increase,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-75:text-5",
+    "page_id": 75,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.628,
+      0.125,
+      0.68,
+      0.822
+    ],
+    "text": "vehicles will age and need maintenance..",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-75:text-6",
+    "page_id": 75,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.125,
+      0.852,
+      0.96
+    ],
+    "text": "This can offset, in whole or in part, the pollution reductionsand health benefits if careful planning is not done",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-1",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.082,
+      0.177,
+      0.492
+    ],
+    "text": "CONCLUSIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-2",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.192,
+      0.028,
+      0.282,
+      0.976
+    ],
+    "text": "Vehicle efects on health result from both engine emissions and fuel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-3",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.028,
+      0.383,
+      0.975
+    ],
+    "text": "In general,as economies develop, vehicles will contribute 25% to 40 % of most pollutants",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-4",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.39,
+      0.076,
+      0.437,
+      0.798
+    ],
+    "text": "more for some pollutants and in urban settings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-5",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.028,
+      0.578,
+      0.976
+    ],
+    "text": "There are a variety of health effects caused by vehicle emissions,ncluding cancer,premature death,and increased hospitalization",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-6",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.585,
+      0.028,
+      0.635,
+      0.759
+    ],
+    "text": "Also a significant contributor to climate change",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-7",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.028,
+      0.774,
+      0.976
+    ],
+    "text": "With increasing travel, health effects will only be reduced with continual improvement in fuels, emissions controls, and better maintenance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-8",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.781,
+      0.029,
+      0.873,
+      0.975
+    ],
+    "text": "Introduction of Environment Friendly Technologies like Fuel Cells，Eectric/lectric-Hybrid",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-9",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.88,
+      0.028,
+      0.972,
+      0.976
+    ],
+    "text": "Use of renewable fuels for toxic and Green House Gas Emission Control",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-77:text-1",
+    "page_id": 77,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.295,
+      0.117,
+      0.494,
+      0.808
+    ],
+    "text": "Thank You",
+    "source_type": "text"
+  }
+]

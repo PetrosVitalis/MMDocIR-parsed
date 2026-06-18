@@ -1,0 +1,1 @@
+<table><tr><td></td><td>31/01/2022</td><td>31/01/2021</td></tr><tr><td>Raw materials and consumables</td><td>199</td><td>146</td></tr><tr><td>Goods in process</td><td>59</td><td>34</td></tr><tr><td>Finished goods for sale</td><td>2,784</td><td>2,142</td></tr><tr><td>Total</td><td>3,042</td><td>2,321</td></tr></table>

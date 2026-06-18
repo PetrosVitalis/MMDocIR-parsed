@@ -1,0 +1,1 @@
+<table><tr><td rowspan="3"></td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>$m</td><td>$m</td><td>$m</td></tr><tr><td>92.9</td><td>85.2</td><td>86.6</td></tr><tr><td>Audit fees payable to PwC Other audit fees payable</td><td>1.0</td><td>0.9</td><td>0.9</td></tr><tr><td>Year ended 31Dec</td><td>93.9</td><td>86.1</td><td>87.5</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>PAY GAP</td><td rowspan=1 colspan=1>2021</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1>2019</td><td rowspan=1 colspan=1>2018</td></tr><tr><td rowspan=1 colspan=1>TOTAL</td><td rowspan=1 colspan=1>0.3%</td><td rowspan=1 colspan=1>-0.4%</td><td rowspan=1 colspan=1>0.2%</td><td rowspan=1 colspan=1>0.8%</td></tr></table>

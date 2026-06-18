@@ -1,0 +1,1 @@
+<table><tr><td>Train</td><td>Eval</td><td>bi</td><td>std</td><td>pre</td><td>align</td></tr><tr><td>GL+PT</td><td>GL</td><td>2.2</td><td>17.5</td><td>20.8</td><td>22.4</td></tr><tr><td>AZ+TR</td><td>Az</td><td>1.3</td><td>5.4</td><td>5.9</td><td>7.5</td></tr><tr><td> $\mathrm { B E } + \mathrm { R U }$ </td><td>BE</td><td>1.6</td><td>10.0</td><td>7.9</td><td>9.6</td></tr></table>

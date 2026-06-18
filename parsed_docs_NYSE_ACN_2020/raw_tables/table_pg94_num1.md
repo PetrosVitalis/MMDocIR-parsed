@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">August 31, 2020</td><td colspan="2">August 31, 2019</td></tr><tr><td></td><td></td><td>Non-U.S.</td><td></td><td>Non-U.S.</td></tr><tr><td></td><td>U.S. Plans</td><td>Plans</td><td>U.S. Plans</td><td>Plans</td></tr><tr><td>Accumulated benefit obligation</td><td>$ 401,822</td><td>$ 2,135,566</td><td>$ 376,886</td><td>$1,964,148</td></tr></table>

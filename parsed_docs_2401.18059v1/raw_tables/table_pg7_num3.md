@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>F-1 Match</td></tr><tr><td>LongT5 XL (Guo et al., 2022)</td><td>53.1</td></tr><tr><td>CoLT5 XL (Ainslie et al., 2023)</td><td>53.9</td></tr><tr><td> $\mathbf { R A P T O R } + \mathbf { G P T } \mathbf { - } 4$ </td><td>55.7</td></tr></table>

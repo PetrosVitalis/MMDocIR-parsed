@@ -1,0 +1,1 @@
+<table><tr><td>Brackets</td><td></td></tr><tr><td>DBT298-W</td><td>OnePOD 4.0mm 4-WAY TABLET BRACKET and PLATE,WHITE</td></tr><tr><td>DBT920-W</td><td>NON-ALARMING TETHERED DISPLAY WEDGE WITH INTEGRATED OEM CHARGING CABLE - iPad</td></tr></table>

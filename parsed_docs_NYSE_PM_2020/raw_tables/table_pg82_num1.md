@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">December 31,</td></tr><tr><td>2020</td><td>2019</td></tr><tr><td>Level 1</td><td>$ 35,227</td><td>$ 32,821</td></tr><tr><td>Level 2</td><td>177</td><td>167</td></tr></table>

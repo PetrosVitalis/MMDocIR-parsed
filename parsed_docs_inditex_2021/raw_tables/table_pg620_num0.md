@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Maximum number of directors</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=1>Minimum number of directors</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=1>Number of directors set by the general meeting</td><td rowspan=1 colspan=1>11</td></tr></table>

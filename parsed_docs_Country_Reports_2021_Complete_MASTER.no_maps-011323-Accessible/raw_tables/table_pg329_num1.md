@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Country</td><td rowspan=1 colspan=1>Date of Death</td><td rowspan=1 colspan=1>Number</td><td rowspan=1 colspan=1>Location</td></tr><tr><td rowspan=1 colspan=1>None</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1>N/A</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At</td><td>At</td></tr><tr><td>$ in millions</td><td>December 31,2020</td><td>December 31,2019</td></tr><tr><td>Loans and other debt²</td><td>$ 14,042</td><td>$ 13,037</td></tr><tr><td>Nonaccrual loans²</td><td>11,551</td><td>10,849</td></tr><tr><td>Borrowings3</td><td>(3,773)</td><td>(1,665)</td></tr></table>

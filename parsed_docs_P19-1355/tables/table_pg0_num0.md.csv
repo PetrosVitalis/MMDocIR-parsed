@@ -1,0 +1,9 @@
+Consumption,$\mathbf { C O _ { 2 } e }$ (lbs)
+"Air travel, 1 person, NY>SF",1984
+"Human life,avg,1 year","11,023"
+"American life, avg,1 year Car, avg incl. fuel, 1 lifetime","36,156 126,000"
+Training one model (GPU),
+"NLP pipeline (parsing, SRL)",39
+w/ tuning & experiments,"78,468"
+Transformer (big),192
+w/ neural arch. search,"626,155"

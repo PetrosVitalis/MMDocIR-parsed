@@ -1,0 +1,1 @@
+<table><tr><td>March 31,</td><td>(crore)</td></tr><tr><td></td><td>Unabsorbed business losses</td></tr><tr><td>2021</td><td>11</td></tr><tr><td>2022</td><td>4</td></tr><tr><td>2023 2024</td><td>5</td></tr><tr><td>2025</td><td>12 7</td></tr><tr><td>Thereafter</td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td>39</td></tr></table>

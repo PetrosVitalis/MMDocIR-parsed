@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">December 31,</td></tr><tr><td>2020 $</td><td>2019</td></tr><tr><td> United States</td><td>2,473 $</td><td>2,433</td></tr><tr><td> Puerto Rico</td><td>1,331</td><td>1,402</td></tr><tr><td>ROW</td><td>1,085</td><td>1,093</td></tr><tr><td>Total property, plant and equipment, net</td><td>$ 4889</td><td>$ 4928</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Short-term</td><td>Long-term</td><td>Outlook</td></tr><tr><td>Moody&#x27;s</td><td>P-1</td><td>A2</td><td> Stable</td></tr><tr><td>Standard &amp; Poor&#x27;s</td><td>A-1</td><td>A</td><td> Stable</td></tr><tr><td>Fitch</td><td>F1</td><td>A</td><td> Stable</td></tr></table>

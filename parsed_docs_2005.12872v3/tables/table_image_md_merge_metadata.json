@@ -1,0 +1,55 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_2005.12872v3",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_8_Table_0.jpg",
+      "raw_md": "table_pg8_num0.md",
+      "csv_base": "table_pg8_num0",
+      "status": "md_convert_failed",
+      "error": "LLM parsing failed: No valid JSON object/array found: line 1 column 1 (char 0)"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_9_Table_0.jpg",
+      "raw_md": "table_pg9_num0.md",
+      "csv_base": "table_pg9_num0",
+      "md_snapshot_source": "existing_legacy_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json",
+      "legacy_removed": "table_2.csv"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_12_Table_0.jpg",
+      "raw_md": "table_pg12_num0.md",
+      "csv_base": "table_pg12_num0",
+      "md_snapshot_source": "existing_legacy_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json",
+      "legacy_removed": "table_3.csv"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_12_Table_1.jpg",
+      "raw_md": "table_pg12_num1.md",
+      "csv_base": "table_pg12_num1",
+      "md_snapshot_source": "existing_legacy_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Invalid CSV generated after retry (shape_col_count_relaxed_expected_5_got_10)"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_15_Table_0.jpg",
+      "raw_md": "table_pg15_num0.md",
+      "csv_base": "table_pg15_num0",
+      "md_snapshot_source": "existing_legacy_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json",
+      "legacy_removed": "table_5.csv"
+    }
+  ]
+}

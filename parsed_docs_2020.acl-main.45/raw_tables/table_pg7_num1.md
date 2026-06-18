@@ -1,0 +1,1 @@
+<table><tr><td></td><td>SST-2</td><td>SST-5</td></tr><tr><td>Model</td><td>Acc</td><td>Acc</td></tr><tr><td> $\mathbf { B E R T + C E }$ </td><td>94.90</td><td>55.57</td></tr><tr><td> $\mathrm { B E R T + D L }$ </td><td>94.37</td><td>54.63</td></tr><tr><td> $\mathrm { B E R T + D S C }$ </td><td>94.84</td><td>55.19</td></tr></table>

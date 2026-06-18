@@ -1,0 +1,2074 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.079,
+      0.282,
+      0.12,
+      0.719
+    ],
+    "text": "Disentangled Representation Learning for Non-Parallel Text Style Transfer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.147,
+      0.238,
+      0.164,
+      0.771
+    ],
+    "text": "Vineet John, Lili Mou, Hareesh Bahuleyan, Olga Vechtomova",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.408,
+      0.18,
+      0.6
+    ],
+    "text": "University of Waterloo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.181,
+      0.236,
+      0.214,
+      0.769
+    ],
+    "text": "{vineet.john,hpallika,ovechtom}@uwaterloo.ca doublepower.mou@gmail.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.262,
+      0.28,
+      0.344
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.294,
+      0.142,
+      0.511,
+      0.462
+    ],
+    "text": "This paper tackles the problem of disentangling the latent representations of style and content in language models. We propose a simple yet effective approach, which incorporates auxiliary multi-task and adversarial objectives, for style prediction and bag-of-words prediction, respectively. We show, both qualitatively and quantitatively, that the style and content are indeed disentangled in the latent space. This disentangled latent representation learning can be applied to style transfer on non-parallel corpora. We achieve high performance in terms of transfer accuracy, content preservation, and language fluency, in comparison to various previous approaches.1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.117,
+      0.542,
+      0.262
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.554,
+      0.114,
+      0.699,
+      0.49
+    ],
+    "text": "The neural network has been a successful learning machine during the past decade due to its highly expressive modeling capability, which is a consequence of multiple layers of non-linear transformations of input features. Such transformations, however, make intermediate features “latent,” in the sense that they do not have explicit meaning and are not interpretable. Therefore, neural networks are usually treated as black-box machinery.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.7,
+      0.114,
+      0.862,
+      0.49
+    ],
+    "text": "Disentangling the latent space of neural networks has become an increasingly important research topic. In the image domain, for example, Chen et al. (2016) use adversarial and information maximization objectives to produce interpretable latent representations that can be tweaked to adjust writing style for handwritten digits, as well as lighting and orientation for face models. However, this problem is less explored in natural language processing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.509,
+      0.393,
+      0.887
+    ],
+    "text": "In this paper, we address the problem of disentangling the latent space of neural networks for text generation. Our model is built on an autoencoder that encodes a sentence to the latent space (vector representation) by learning to reconstruct the sentence itself. We would like the latent space to be disentangled with respect to different features, namely, style and content in our task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.394,
+      0.509,
+      0.749,
+      0.887
+    ],
+    "text": "To accomplish this, we propose a simple yet effective approach that combines multi-task and adversarial objectives. We artificially divide the latent representation into two parts: the style space and content space, where we consider the sentiment of a sentence as its style. We design a systematic set of auxiliary losses, enforcing the separation of style and content latent spaces. In particular, the multi-task loss operates on a latent space to ensure that the space does contain the information we wish to encode. The adversarial loss, on the contrary, minimizes the predictability of information that should not be contained in a given latent space. In early work, researchers typically work with the style space (Shen et al., 2017; Fu et al., 2018), but simply ignore the content space, as it",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.509,
+      0.862,
+      0.887
+    ],
+    "text": "In our paper, we propose to approximate the content information by bag-of-words (BoW) features, where we focus on style-neutral, nonstopwords. Along with traditional style-oriented auxiliary losses, our BoW multi-task loss and BoW adversarial loss enable better disentanglement of the style and content spaces.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.862,
+      0.51,
+      0.91,
+      0.887
+    ],
+    "text": "The learned disentangled latent space can be directly used for text style transfer, which aims to transform a given sentence to a new sentence with the same content but a different style. We follow the setting where the model is trained on a nonparallel but style-labeled corpus (Hu et al., 2017; Shen et al., 2017); thus, we call it non-parallel text style transfer. With our disentangled latent space, we simply use the autoencoder to encode the content vector of a sentence, but ignore its encoded style vector. We then infer from the training data an empirical embedding of the style that we would like to transfer to. The encoded content vector and the empirically-inferred style vector are concatenated and fed to the decoder. This grafting technique enables us to obtain a new sentence similar",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.317,
+      0.114,
+      0.481,
+      0.49
+    ],
+    "text": "We conducted experiments on two benchmark datasets. Both qualitative and quantitative results show that the style and content spaces are indeed disentangled well. In the style-transfer evaluation, we achieve high performance in style-transfer accuracy, content preservation, as well as language fluency, compared with previous results. Ablation tests also show that all our auxiliary losses can be combined well, each playing its own role in disentangling the latent space.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.115,
+      0.51,
+      0.273
+    ],
+    "text": "2 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.521,
+      0.114,
+      0.7,
+      0.49
+    ],
+    "text": "Disentangling neural networks’ latent space has been explored in computer vision in recent years, and researchers have successfully disentangled the features (such as rotation and color) of images (Chen et al., 2016; Higgins et al., 2017). In these approaches, the disentanglement is purely unsupervised, as no style labels are needed. Unfortunately, we have not observed disentangled features by applying these approaches in text representations, and thus we require style labels in our approach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.701,
+      0.114,
+      0.764,
+      0.489
+    ],
+    "text": "Style-transfer has also been explored in computer vision. For example, Gatys et al. (2016) show that the artistic style of an image can be captured well by certain statistics.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.765,
+      0.114,
+      0.912,
+      0.49
+    ],
+    "text": "In NLP, the definition of “style” itself is vague, and as a convenient starting point, researchers often treat sentiment as a salient style attribute. Hu et al. (2017) propose to control the sentiment by using discriminators to reconstruct sentiment and content from generated sentences. However, there is no evidence that the latent space would be disentangled by simply reconstructing a sentence. Shen et al. (2017) use a pair of adversarial discriminators to align the recurrent hidden decoder states of original and style-transferred sentences, for a given style. Fu et al. (2018) propose two approaches: training style-specific embeddings and training separate style-specific decoders. Their style embeddings are similar to an earlier study by study by Ficler and Goldberg (2017). Their multidec",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.509,
+      0.449,
+      0.887
+    ],
+    "text": "Recently, cycle consistency of back-translation is applied to ensure content preservation (Xu et al., 2018; Logeswaran et al., 2018). These methods require reinforcement learning and are usually difficult to train.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.509,
+      0.517,
+      0.887
+    ],
+    "text": "Li et al. (2018) propose a hybrid retrieval and generation method that transfers the style by retrieving and incrementally editing a sentence similar to the source sentence.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.521,
+      0.509,
+      0.602,
+      0.887
+    ],
+    "text": "Rao and Tetreault (2018) treat the formality of writing as a style, and create a parallel corpus for style transfer with sequence-to-sequence models. This is beyond the scope of our paper, as we focus on non-parallel text style transfer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-11",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.509,
+      0.686,
+      0.887
+    ],
+    "text": "Style transfer generation is also related to nonparallel machine translation, where researchers apply similar techniques of adversarial alignment, back translation, etc. (Lample et al., 2018a,b; Conneau et al., 2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-12",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.509,
+      0.755,
+      0.887
+    ],
+    "text": "Our paper differs from previous work in that we accomplish style transfer with a disentangled latent space, for which we propose a systematic set of auxiliary losses.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-13",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.78,
+      0.51,
+      0.796,
+      0.633
+    ],
+    "text": "3 Approach",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-14",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.509,
+      0.91,
+      0.887
+    ],
+    "text": "Figure 1 shows the overall framework of our approach. We will first present an autoencoder as our base model. Then we design the auxiliary losses for style and content disentanglement. Finally, we introduce our approach to style-transfer text generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-1",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.072,
+      0.188,
+      0.17,
+      0.47
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:figure-2",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_1.jpg",
+    "bbox_norm": [
+      0.173,
+      0.134,
+      0.244,
+      0.433
+    ],
+    "text": "Figure 1: Overview of our approach.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.115,
+      0.316,
+      0.263
+    ],
+    "text": "3.1 Autoencoder",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.114,
+      0.36,
+      0.489
+    ],
+    "text": "An autoencoder encodes an input to a latent vector space, from which it reconstructs the input itself.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.114,
+      0.474,
+      0.49
+    ],
+    "text": "Let $\\mathbf { x } = ( x _ { 1 } , x _ { 2 } , \\cdot \\cdot \\cdot x _ { n } )$ be an input sequence with n words. Our encoder uses a recurrent neural network (RNN) with gated recurrent units (GRUs, Cho et al., 2014); it reads x word-by-word, and performs a linear transformation of the final hidden state to obtain a hidden vector representation $h .$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.114,
+      0.576,
+      0.489
+    ],
+    "text": "Then, a decoder RNN generates a sentence word-by-word, which ideally should be x itself. Suppose at a time step t the decoder RNN predicts the word $x _ { t }$ with probability $p ( x _ { t } | h , x _ { 1 } \\cdot \\cdot \\cdot x _ { t - 1 } )$ ， the autoencoder is trained with a sequenceaggregated cross-entropy loss, given by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-7",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_0.jpg",
+    "bbox_norm": [
+      0.595,
+      0.131,
+      0.637,
+      0.472
+    ],
+    "text": "$$\nJ _ { \\mathrm { A E } } ( \\pmb \\theta _ { \\mathrm { E } } , \\pmb \\theta _ { \\mathrm { D } } ) = - \\sum _ { t = 1 } ^ { n } \\log p ( x _ { t } | \\pmb h , x _ { 1 } \\cdot \\cdot \\cdot x _ { t - 1 } )\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.65,
+      0.114,
+      0.795,
+      0.49
+    ],
+    "text": "where $\\theta _ { \\mathrm { E } }$ and $\\theta _ { \\mathrm { D } }$ D are the parameters of the encoder and decoder, respectively. For brevity, we only present the loss for a single data point (i.e., a sentence) throughout the paper. Total loss sums over all data points, and is implemented with minibatches. Both the encoder and decoder are deterministic functions in the this model (Rumelhart et al., 1986), and thus, we call it a deterministic autoencoder (DAE).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.114,
+      0.912,
+      0.49
+    ],
+    "text": "Variational Autoencoder. Alternatively, we may use a variational autoencoder (VAE, Kingma and Welling, 2013), which imposes a probabilistic distribution on the latent vector. The decoder reconstructs data based on the sampled latent vector from its posterior, and the Kullback–Leibler (KL, 1951) divergence is penalized for regularization.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.529,
+      0.091,
+      0.724
+    ],
+    "text": "Formally, the VAE loss is",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-11",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_1.jpg",
+    "bbox_norm": [
+      0.104,
+      0.531,
+      0.143,
+      0.842
+    ],
+    "text": "$$\n\\begin{array} { r l } & { J _ { \\mathrm { A E } } ( \\theta _ { \\mathrm { E } } , \\theta _ { \\mathrm { D } } ) = - \\mathbb { E } _ { q _ { E } ( { \\pmb h } | \\mathbf { x } ) } [ \\log p ( \\mathbf { x } | { \\pmb h } ) ] } \\\\ & { ~ + ~ \\lambda _ { \\mathrm { k l } } \\mathrm { K L } ( q _ { E } ( { \\pmb h } | \\mathbf { x } ) \\| p ( { \\pmb h } ) ) } \\end{array}\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.509,
+      0.253,
+      0.885
+    ],
+    "text": "where $\\lambda _ { \\mathrm { k l } }$ is the hyperparameter balancing the reconstruction loss and the KL term. $p ( h )$ is the prior, typically the standard normal $\\begin{array} { r l } { \\mathcal { N } ( \\mathbf { 0 } , \\mathrm { I } ) . } & { { } q _ { E } ( { \\pmb { h } } | \\mathrm { x } ) } \\end{array}$ is the posterior in the form N (µ, diag $\\sigma ^ { 2 } )$ , where $\\pmb { \\mu }$ and $\\sigma$ are predicted by the encoder.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.254,
+      0.509,
+      0.367,
+      0.887
+    ],
+    "text": "Compared with DAE, the reconstruction of VAE is based on the samples of the posterior, which populates encoded representations into a neighbourhood close to its prior and thus smooths the latent space. Bowman et al. (2016) show that VAE enables more fluent sentence generation from a latent space than DAE.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.368,
+      0.509,
+      0.497,
+      0.887
+    ],
+    "text": "The autoencoding loss serves as our primary training objective for sentence generation. For disentangled representation learning, we hope that h can be separated into two spaces s and $^ { c , }$ representing style and content, respectively, i.e., $\\textbf { \\em h } =$ [s; c], where [·; ·] denotes concatenation. This is accomplished by a systematic design of auxiliary losses described below, and shown in Figure 1a.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.51,
+      0.524,
+      0.731
+    ],
+    "text": "3.2 Style-Oriented Losses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-16",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.509,
+      0.611,
+      0.887
+    ],
+    "text": "We first design auxiliary losses that ensure the style information is contained in the style space s. This involves (1) a multi-task loss that ensures s is discriminative for the style, and (2) an adversarial loss that ensures c is not.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-17",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.509,
+      0.692,
+      0.887
+    ],
+    "text": "Multi-Task Loss for Style. In the dataset, each sentence is labeled with its style, particularly, binary sentiment of positive or negative, following most previous work (Hu et al., 2017; Shen et al., 2017; Fu et al., 2018; Zhao et al., 2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-18",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.693,
+      0.509,
+      0.741,
+      0.885
+    ],
+    "text": "We build a two-way softmax classifier (equivalent to logistic regression) on the style space s to predict the style label, given by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-19",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_2.jpg",
+    "bbox_norm": [
+      0.755,
+      0.568,
+      0.772,
+      0.826
+    ],
+    "text": "$$\n{ \\pmb y } _ { s } = \\mathrm { s o f t m a x } ( W _ { \\mathrm { m u l ( s ) } } { \\pmb s } + { \\pmb b } _ { \\mathrm { m u l ( s ) } } )\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-20",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.509,
+      0.834,
+      0.885
+    ],
+    "text": "where $\\theta _ { \\mathrm { { m u l ( s ) } } } ~ = ~ [ { \\cal W } _ { \\mathrm { { m u l ( s ) } } } ; { b _ { \\mathrm { { m u l ( s ) } } } } ]$ are the parameters of the style classifier in the setting of multitask learning, and $\\mathbf { \\nabla } _ { \\mathbf { \\boldsymbol { y } } _ { s } }$ is the output of softmax layer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-21",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.51,
+      0.868,
+      0.885
+    ],
+    "text": "The classifier is trained with cross-entropy loss against the ground-truth distribution $t _ { s } ( \\cdot )$ by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-22",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_3.jpg",
+    "bbox_norm": [
+      0.878,
+      0.522,
+      0.914,
+      0.852
+    ],
+    "text": "$$\nJ _ { \\mathrm { m u l ( s ) } } ( \\pmb { \\theta } _ { \\mathrm { E } } ; \\pmb { \\theta } _ { \\mathrm { m u l ( s ) } } ) = - \\sum _ { l \\in \\mathrm { l a b e l s } } t _ { s } ( l ) \\log y _ { s } ( l )\\tag{4}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.114,
+      0.236,
+      0.49
+    ],
+    "text": "In fact, we train the style classifier at the same time as the autoencoding loss. Thus, this could be viewed as multi-task learning, incentivizing the entire model to not only decode the sentence, but also predict its sentiment from the style vector s. We denote it by “mul(s).” The idea of multi-task training is not new and has been used in previous work for sentence representation learning (Jernite et al., 2017) and sentiment analysis (Balikas et al., 2017), among others.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.114,
+      0.317,
+      0.49
+    ],
+    "text": "Adversarial Loss for Style. The multi-task loss only ensures that the style space contains style information. However, the content space might also contain style information, which is undesirable for disentanglement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.318,
+      0.114,
+      0.431,
+      0.49
+    ],
+    "text": "We thus apply an adversarial loss to discourage the content space containing style information. We first train a separate classifier, called an adversary, that deliberately discriminates the style label based on the content vector c. Then, the encoder is trained to encode a content space from which its adversary cannot predict the style.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.432,
+      0.114,
+      0.498,
+      0.489
+    ],
+    "text": "Concretely, the adversarial discriminator and its training objective have a similar form as Eqns. (3) and (4), but with different input and parameters, given by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-5",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_0.jpg",
+    "bbox_norm": [
+      0.512,
+      0.206,
+      0.53,
+      0.453
+    ],
+    "text": "$$\n{ \\pmb y } _ { s } = \\mathrm { s o f t m a x } ( W _ { \\mathrm { d i s ( s ) } } { \\pmb c } + { \\pmb b } _ { \\mathrm { d i s ( s ) } } )\\tag{5}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:equation-6",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_1.jpg",
+    "bbox_norm": [
+      0.533,
+      0.131,
+      0.557,
+      0.448
+    ],
+    "text": "$$\nJ _ { \\mathrm { d i s ( s ) } } ( \\pmb { \\theta } _ { \\mathrm { d i s ( s ) } } ) = - \\sum _ { l \\in \\mathrm { l a b e l s } } t _ { c } ( l ) \\log y _ { s } ( l )\\tag{6}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.57,
+      0.114,
+      0.602,
+      0.489
+    ],
+    "text": "where $\\theta _ { \\mathrm { d i s ( s ) } } = [ W _ { \\mathrm { d i s ( s ) } } ; b _ { \\mathrm { d i s ( s ) } } ]$ are the parameters of the adversary.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.605,
+      0.114,
+      0.701,
+      0.49
+    ],
+    "text": "It should be emphasized that, when we train the adversary, the gradient is not propagated back to the autoencoder, i.e., the vector c is treated as shallow features. Therefore, we view $\\boldsymbol { J } _ { \\mathrm { d i s ( s ) } }$ as a function of $\\theta _ { \\mathrm { d i s ( s ) } }$ only, whereas $J _ { \\mathrm { { m u l } ( s ) } }$ is a function of both $\\theta _ { \\mathrm { E } }$ and $\\theta _ { \\mathrm { { m u l ( s ) } } }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.114,
+      0.879,
+      0.49
+    ],
+    "text": "Having trained an adversary, we would like the autoencoder to be tuned in such an ad hoc fashion that c is not discriminative for style. In existing literature, there could be different approaches, for example, maximizing the adversary’s loss (Shen et al., 2017; Zhao et al., 2018) or penalizing the entropy of the adversary’s prediction (Fu et al., 2018). In our work, we adopt the latter, as it can be easily extended to multi-category classification, used in Subsection 3.3. Formally, the styleoriented adversarial objective is to maximize",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-10",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_2.jpg",
+    "bbox_norm": [
+      0.894,
+      0.191,
+      0.912,
+      0.413
+    ],
+    "text": "$$\nJ _ { \\mathrm { a d v ( s ) } } ( \\pmb { \\theta } _ { \\mathrm { E } } ) = \\mathcal { H } \\big ( \\pmb { y } _ { s } | \\pmb { c } ; \\pmb { \\theta } _ { \\mathrm { d i s ( s ) } } \\big )\\tag{7}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.509,
+      0.172,
+      0.887
+    ],
+    "text": "where $\\mathbf { \\Delta } _ { \\mathbf { \\mathcal { Y } } _ { s } }$ is the predicted distribution over the style labels and $\\begin{array} { r } { \\mathcal { H } ( \\pmb { p } ) = - \\sum _ { i \\in \\mathrm { l a b e l s } } p _ { i } } \\end{array}$ log pi is the entropy of the adversary. Here, $\\boldsymbol { J } _ { \\mathrm { { a d v ( s ) } } }$ is maximized with respect to the encoder $\\theta _ { \\mathrm { E } }$ and we fix $\\theta _ { \\mathrm { d i s ( s ) } }$ . The objective attains maximum value when $\\pmb { y } _ { s }$ is uniform.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.172,
+      0.509,
+      0.286,
+      0.887
+    ],
+    "text": "While adversarial loss has been explored in previous style-transfer studies (Shen et al., 2017; Fu et al., 2018), it has not been combined with the multi-task loss. As shown in our experiments, a simple combination of these two losses is promisingly effective, achieving better style transfer performance than a variety of previous methods.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.51,
+      0.315,
+      0.756
+    ],
+    "text": "3.3 Content-Oriented Losses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.509,
+      0.386,
+      0.887
+    ],
+    "text": "The above style-oriented losses only regularize style information, but they do not impose any constraint on how the content information should be encoded.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.509,
+      0.516,
+      0.887
+    ],
+    "text": "In practice, the style space is usually smaller than content space. But it is unrealistic to expect that the content would not flow into the style space simply because of its limited capacity. Therefore, we need to design content-oriented losses to regularize the content information. In most previous work, however, the treatment of content is missing (Hu et al., 2017; Fu et al., 2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-16",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.509,
+      0.581,
+      0.887
+    ],
+    "text": "Inspired by the above combination of multi-task and adversarial losses, we apply the same idea to the content space. However, it is usually hard to define what “content” actually refers to.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-17",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.509,
+      0.81,
+      0.887
+    ],
+    "text": "To this end, we propose to approximate the content information by bag-of-words (BoW) features. The BoW feature of a sentence is a vector, each element indicating the probability of a word’s occurrence. For a sentence x with N words, the word $w _ { * } \\mathrm { ^ \\cdot s }$ BoW probability is $\\begin{array} { r } { t _ { c } ( w _ { * } ) = \\frac { \\sum _ { i = 1 } ^ { N } { \\mathbb { I } \\{ w _ { i } = w _ { * } \\} } } { N } } \\end{array}$ , where $\\mathbb { I } \\{ \\cdot \\}$ is an indicator function. Here, we only consider content words, excluding stopwords and sentiment words (Hu and Liu, 2004),2 since we focus on “content” information. It should be mentioned that the removal of stopwords and sentiment words is not essential, but results in better performance. We analyze the effect of u",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-18",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.812,
+      0.509,
+      0.86,
+      0.887
+    ],
+    "text": "Multi-Task Loss for Content. Similar to the style-oriented loss, the multi-task loss for content, denoted as “mul(c),” ensures that the content space c contains content information, i.e., BoW features. We introduce a softmax classifier over the BoW vocabulary",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-2",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_0.jpg",
+    "bbox_norm": [
+      0.131,
+      0.171,
+      0.149,
+      0.431
+    ],
+    "text": "$$\n{ \\pmb y } _ { c } = \\mathrm { s o f t m a x } ( W _ { \\mathrm { m u l ( c ) } } { \\pmb c } + { \\pmb b } _ { \\mathrm { m u l ( c ) } } )\\tag{8}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.114,
+      0.189,
+      0.489
+    ],
+    "text": "where $\\pmb { \\theta } _ { \\mathrm { m u l ( c ) } } { = } [ W _ { \\mathrm { m u l ( c ) } } ; b _ { \\mathrm { m u l ( c ) } } ]$ are the classifier’s parameters; ${ \\bf { \\nabla } } \\mathbf { \\mathit { y } } _ { c }$ is the predicted BoW distribution.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.19,
+      0.115,
+      0.221,
+      0.489
+    ],
+    "text": "The training objective is a cross-entropy loss against the ground-truth distribution $t _ { c } ( \\cdot )$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-5",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_1.jpg",
+    "bbox_norm": [
+      0.229,
+      0.131,
+      0.262,
+      0.472
+    ],
+    "text": "$$\nJ _ { \\mathrm { m u l ( c ) } } ( \\theta _ { \\mathrm { E } } ; \\theta _ { \\mathrm { m u l ( c ) } } ) = - \\sum _ { w \\in \\mathrm { v o c a b } } t _ { c } ( w ) \\log y _ { c } ( w )\\tag{9}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.275,
+      0.114,
+      0.356,
+      0.489
+    ],
+    "text": "where the optimization is performed with both encoder parameters $\\theta _ { \\mathrm { E } }$ and the multi-task classifier $\\theta _ { \\mathrm { m u l ( c ) } }$ . Notice that, although the target distribution is not one-hot for BoW, the cross-entropy loss in Eqn. (9) has the same form as (4).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.114,
+      0.501,
+      0.49
+    ],
+    "text": "It is also interesting that, at first glance, the multi-task loss for content appears to be redundant to the autoencoding loss, when in fact, it is not. The autoencoding loss only requires that the model could reconstruct the sentence based on the combined content and style spaces, but does not ensure their separation. The multi-task loss focuses on content words and is applied to the content space only.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.114,
+      0.565,
+      0.489
+    ],
+    "text": "Adversarial Loss for Content. To ensure that the style space does not contain content information, we design our final auxiliary loss, the BoW adversarial loss for content, denoted as “adv(c).”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.567,
+      0.115,
+      0.599,
+      0.487
+    ],
+    "text": "We build a content adversary, a softmax classifier on the style space predicting BoW features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-10",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_2.jpg",
+    "bbox_norm": [
+      0.605,
+      0.134,
+      0.624,
+      0.394
+    ],
+    "text": "$$\n\\pmb { y } _ { c } = \\mathrm { s o f t m a x } ( W _ { \\mathrm { d i s ( c ) } } \\top _ { \\pmb { s } } + b _ { \\mathrm { d i s ( c ) } } )\\tag{10}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:equation-11",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_3.jpg",
+    "bbox_norm": [
+      0.629,
+      0.139,
+      0.661,
+      0.438
+    ],
+    "text": "$$\nJ _ { \\mathrm { d i s ( c ) } } ( \\pmb { \\theta } _ { \\mathrm { d i s ( c ) } } ) = - \\sum _ { w \\in \\mathrm { v o c a b } } t _ { c } ( w ) \\log y _ { c } ( w )\\tag{11}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.667,
+      0.114,
+      0.699,
+      0.489
+    ],
+    "text": "where $\\pmb \\theta _ { \\mathrm { d i s ( c ) } } = [ W _ { \\mathrm { d i s ( c ) } } ; b _ { \\mathrm { d i s ( c ) } } ]$ are the classifier’s parameters for BoW prediction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.7,
+      0.114,
+      0.731,
+      0.489
+    ],
+    "text": "The adversarial loss for the model is to maximize the entropy of the discriminator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-14",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_4.jpg",
+    "bbox_norm": [
+      0.74,
+      0.191,
+      0.757,
+      0.413
+    ],
+    "text": "$$\nJ _ { \\mathrm { a d v ( c ) } } ( \\pmb { \\theta } _ { \\mathrm { E } } ) = \\mathcal { H } \\big ( \\pmb { y } _ { c } \\vert \\pmb { s } ; \\pmb { \\theta } _ { \\mathrm { d i s ( c ) } } \\big )\\tag{12}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-15",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.765,
+      0.114,
+      0.829,
+      0.489
+    ],
+    "text": "Again, $\\boldsymbol { J } _ { \\mathrm { d i s ( c ) } }$ is trained with respect to the discriminator’s parameters $\\theta _ { \\mathrm { d i s ( c ) } }$ , whereas $\\boldsymbol { J } _ { \\mathrm { { a d v ( c ) } } }$ is trained with respect to $\\theta _ { \\mathrm { E } }$ , similar to the adversarial loss for style.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-16",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.831,
+      0.114,
+      0.91,
+      0.49
+    ],
+    "text": "Our BoW-based, content-oriented losses are novel in the style-transfer literature. While they do not directly work with “style,” they regularize the content information, so that the style and content can be better disentangled.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-17",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.077,
+      0.514,
+      0.091,
+      0.704
+    ],
+    "text": "1 foreach mini-batch do",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-18",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_5.jpg",
+    "bbox_norm": [
+      0.093,
+      0.776,
+      0.109,
+      0.821
+    ],
+    "text": "$$\n\\theta _ { \\mathrm { d i s ( s ) } } ;\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:equation-19",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_6.jpg",
+    "bbox_norm": [
+      0.109,
+      0.778,
+      0.124,
+      0.825
+    ],
+    "text": "$$\n\\theta _ { \\mathrm { d i s ( c ) } } ;\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-20",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.515,
+      0.156,
+      0.566
+    ],
+    "text": "5 end",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-21",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.158,
+      0.574,
+      0.173,
+      0.813
+    ],
+    "text": "Algorithm 1: Training process.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-22",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.199,
+      0.51,
+      0.215,
+      0.692
+    ],
+    "text": "3.4 Training Process",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-23",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.219,
+      0.509,
+      0.285,
+      0.885
+    ],
+    "text": "The overall loss $J _ { \\mathrm { o v r } }$ for our model comprises several terms: the autoencoder’s reconstruction objective, the multi-task and adversarial objectives, for style and content, respectively, given by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-24",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_7.jpg",
+    "bbox_norm": [
+      0.297,
+      0.514,
+      0.354,
+      0.882
+    ],
+    "text": "$$\n\\begin{array} { r l } & { J _ { \\mathrm { o v r } } = J _ { \\mathrm { A E } } ( \\theta _ { \\mathrm { E } } , \\theta _ { \\mathrm { D } } ) } \\\\ & { ~ + \\lambda _ { \\mathrm { m u l ( s ) } } J _ { \\mathrm { m u l ( s ) } } ( \\theta _ { \\mathrm { E } } , \\theta _ { \\mathrm { m u l ( s ) } } ) - \\lambda _ { \\mathrm { a d v ( s ) } } J _ { \\mathrm { a d v ( s ) } } ( \\theta _ { \\mathrm { E } } ) } \\\\ & { ~ + \\lambda _ { \\mathrm { m u l ( c ) } } J _ { \\mathrm { m u l ( c ) } } ( \\theta _ { \\mathrm { E } } , \\theta _ { \\mathrm { m u l ( c ) } } ) - \\lambda _ { \\mathrm { a d v ( c ) } } J _ { \\mathrm { a d v ( c ) } } ( \\theta _ { \\mathrm { E } } ) } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-25",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.365,
+      0.51,
+      0.397,
+      0.885
+    ],
+    "text": "where λs are the hyperparameters that balance the autoencoding loss and these auxiliary losses.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-26",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.398,
+      0.509,
+      0.462,
+      0.885
+    ],
+    "text": "To put it all together, the model training involves an alternation of optimizing the adversaries by $\\boldsymbol { J } _ { \\mathrm { d i s ( s ) } }$ and $\\boldsymbol { J } _ { \\mathrm { d i s ( c ) } }$ , and the model itself by $J _ { \\mathrm { o v r } } ,$ shown in Algorithm 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-27",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.51,
+      0.488,
+      0.873
+    ],
+    "text": "3.5 Generating Style-Transferred Sentences",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-28",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.509,
+      0.557,
+      0.885
+    ],
+    "text": "A direct application of our disentangled latent space is style-transfer sentence generation, i.e., we can synthesize a sentence with generally the same meaning but a different style in the inference stage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-29",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.557,
+      0.509,
+      0.653,
+      0.887
+    ],
+    "text": "Let $\\mathrm { x } ^ { \\ast }$ be an input sentence with $s ^ { * }$ and $c ^ { * }$ being the encoded style and content vectors, respectively. If we would like to transfer its content to a different style, we compute an empirical estimate of the target style’s vector sˆ of the training set, using",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-30",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_8.jpg",
+    "bbox_norm": [
+      0.651,
+      0.596,
+      0.688,
+      0.798
+    ],
+    "text": "$$\n\\hat { \\pmb { s } } = \\frac { \\sum _ { i \\in \\mathrm { t a r g e t ~ s t y l e } } \\pmb { s } _ { i } } { \\# \\mathrm { t a r g e t ~ s t y l e ~ s a m p l e s } }\\tag{14}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-31",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.509,
+      0.74,
+      0.885
+    ],
+    "text": "The inferred target style sˆ is concatenated with the encoded content $c ^ { * }$ for decoding style-transferred sentences, as shown in Figure 1b.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-32",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.51,
+      0.768,
+      0.658
+    ],
+    "text": "4 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-33",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.777,
+      0.51,
+      0.791,
+      0.626
+    ],
+    "text": "4.1 Datasets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-34",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.509,
+      0.877,
+      0.885
+    ],
+    "text": "We conducted experiments on two datasets, Yelp and Amazon reviews. Both comprise sentences labeled by binary sentiment (positive or negative). They are used to train latent space disentanglement as well as to evaluate sentiment transfer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-35",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.51,
+      0.91,
+      0.885
+    ],
+    "text": "Yelp Service Reviews. We used the Yelp review dataset, following previous work (Shen et al.,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.114,
+      0.155,
+      0.49
+    ],
+    "text": "2017; Zhao et al., 2018).3 It contains 444101, 63483, and 126670 labeled reviews for train, validation, and test, respectively. We set the maximum length of a sentence to 15 words and the vocabulary size to ∼9200, following Shen et al. (2017).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.156,
+      0.114,
+      0.285,
+      0.49
+    ],
+    "text": "Amazon Product Reviews. We further evaluate our model with an Amazon review dataset, following some other previous papers (Fu et al., 2018).4 It contains 555142, 2000, and 2000 labeled reviews for train, validation, and test, respectively. The maximum length of a sentence is set to 20 words and the vocabulary size is ∼58k, as in Fu et al. (2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.296,
+      0.115,
+      0.312,
+      0.339
+    ],
+    "text": "4.2 Experimental Settings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.317,
+      0.114,
+      0.429,
+      0.49
+    ],
+    "text": "Our RNN has a hidden state of 256 dimensions, linearly transformed to a style space of 8 dimensions and a content space of 128 dimensions. They were chosen empirically, and we found them robust to model performance. For the decoder, we fed the latent vector $\\pmb { h } = [ s , \\pmb { c } ]$ to the hidden state at each step.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.114,
+      0.688,
+      0.49
+    ],
+    "text": "We used the Adam optimizer (Kingma and Ba, 2014) for the autoencoder and the RMSProp optimizer (Tieleman and Hinton, 2012) for the discriminators, following stability tricks in adversarial training (Arjovsky et al., 2017). Each optimizer has an initial learning rate of 10−3. Our model is trained for 20 epochs, by which time it has converged. The word embedding layer was initialized by word2vec (Mikolov et al., 2013) trained on respective training sets. Both the autoencoder and the discriminators are trained once per minibatch with $\\lambda _ { \\mathrm { m u l ( s ) } } = 1 0 , \\lambda _ { \\mathrm { m u l ( c ) } } = 3 , \\lambda _ { \\mathrm { a d v ( s ) } } = 1$ and $\\lambda _ { \\mathrm { a d v ( c ) } } = 0 . 0 3$ . These hyperparameters were tuned by a log-scale grid search within two or",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.688,
+      0.114,
+      0.787,
+      0.49
+    ],
+    "text": "For the VAE model, the KL penalty is weighted by $\\lambda _ { \\mathrm { k l ( s ) } }$ and $\\lambda _ { \\mathrm { k l ( c ) } }$ for style and content, respectively. We set both to 0.03, tuned by the same method of log-scale grid search. During training, we also used the sigmoid KL annealing schedule, following Bahuleyan et al. (2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.797,
+      0.115,
+      0.813,
+      0.443
+    ],
+    "text": "4.3 Exp. I: Disentangling Latent Space",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.818,
+      0.114,
+      0.851,
+      0.49
+    ],
+    "text": "First, we analyze how the style (sentiment) and content of the latent space are disentangled. We train separate logistic regression sentiment classifiers on different latent spaces, and report their classification accuracy in Table 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-9",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.071,
+      0.534,
+      0.149,
+      0.865
+    ],
+    "text": "Table 1: Classification accuracy on latent spaces.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:figure-10",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.186,
+      0.547,
+      0.325,
+      0.85
+    ],
+    "text": "Figure 2: t-SNE plots of the disentangled style and content spaces on Yelp (with all auxiliary losses).",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.509,
+      0.617,
+      0.887
+    ],
+    "text": "We see the 128-dimensional content vector c is not particularly discriminative for style. Its accuracy is slightly better than majority guess. However, the 8-dimensional style vector s, despite its low dimensionality, achieves substantially higher style classification accuracy. When combining content and style vectors, we observe no further improvement. These results verify the effectiveness of our disentangling approach, as the style space contains style information, whereas the content space does not.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-13",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.509,
+      0.747,
+      0.887
+    ],
+    "text": "We show t-SNE plots (van der Maaten and Hinton, 2008) for both DAE and VAE in Figure 2. As seen, sentences with different styles are noticeably separated in a clean manner in the style space (LHS), but are indistinguishable in the content space (RHS). It is also evident that the latent space learned by VAE is considerably smoother and more continuous than the one learned by DAE.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-14",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.51,
+      0.776,
+      0.88
+    ],
+    "text": "4.4 Exp. II: Non-Parallel Text Style Transfer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-15",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.781,
+      0.509,
+      0.814,
+      0.885
+    ],
+    "text": "In this experiment, we apply the disentangled latent space to sentiment-transfer text generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-16",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "Metrics. We evaluate competing models based on (1) style transfer accuracy, (2) content preservation, and (3) quality of generated language. The evaluation of sentence generation has proven to be difficult in contemporary literature, so we adopt a few automatic metrics and use human judgment as",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.115,
+      0.089,
+      0.159
+    ],
+    "text": "well.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.093,
+      0.114,
+      0.319,
+      0.49
+    ],
+    "text": "Style-Transfer Accuracy (STA): We follow most previous work (Hu et al., 2017; Shen et al., 2017; Fu et al., 2018) and train a separate convolutional neural network (CNN) to predict the sentiment of a sentence (Kim, 2014), which is then used to approximate the style transfer accuracy. In other words, we report the CNN classifier’s accuracy on the style-transferred sentences, considering the target style to be the ground-truth. While the style classifier itself may not be perfect, it achieves a reasonable sentiment accuracy on the validation sets (97% for Yelp; 82% for Amazon). Thus, it provides a quantitative way of evaluating the strength of style transfer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.321,
+      0.114,
+      0.434,
+      0.49
+    ],
+    "text": "Cosine Similarity (CS): We followed Fu et al. (2018) and computed the cosine measure between source and generated sentence embeddings, which are the concatenation of min, max, and mean of word embeddings (sentiment words removed). This provides a rough estimation of content preservation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.436,
+      0.114,
+      0.565,
+      0.49
+    ],
+    "text": "Word Overlap (WO): We find that cosine similarity, although correlated to human judgment, is not a sensitive measure. Instead, we propose a simple and effective measure that counts the unigram word overlap rate of the original sentence x and the style-transferred sentence y, computed by count(x∩y)count(x∪y) . Here, we exclude both stopwords and sentiment words.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.114,
+      0.713,
+      0.49
+    ],
+    "text": "Perplexity (PPL): We use a trigram Kneser– Ney (KN, Kneser and Ney, 1995) language model as a quantitative and automated metric to evaluate the fluency of a sentence. It estimates the empirical distribution of trigrams in a corpus, and computes the perplexity of a test sentence. We trained the language model on the respective datasets, and report PPL on the generated sentences. A smaller PPL indicates more fluent sentences.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.114,
+      0.892,
+      0.49
+    ],
+    "text": "Geometric Mean (GM): We use the geometric mean of STA, WO, and 1/PPL—reflecting transfer strength, content preservation, and fluency, respectively—to obtain an aggregated score considering all aspects. Notice that a smaller PPL is desired; thus, we use 1/PPL when computing GM. Also, cosine similarity (CS) is not included, because it is insensitive yet repetitive with word overlap (WO). Here, we adopt the geometric mean so that the scale of each metric does not influence the judgment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.895,
+      0.134,
+      0.91,
+      0.489
+    ],
+    "text": "Manual Evaluation: Despite the above automatic metrics, we also conduct human evaluations to further confirm the performance of our model. This was done on the Yelp dataset only, due to the amount of manual effort involved. We asked 6 human annotators to rate each sentence on a 1–5 Likert scale (Stent et al., 2005) in terms of transfer strength (TS), content preservation (CP), and language quality (LQ). This evaluation was conducted in a strictly blind fashion: samples obtained from all evaluated models were randomly shuffled, so that the annotator was unaware of which model generated a particular sentence. The inter-rater agreement—as measured by Krippendorff’s alpha (Klaus, 2004) for our Likert scale ratings—is 0.74, 0.68, and 0.72 for these three aspects, respectively. According to Klau",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.509,
+      0.692,
+      0.887
+    ],
+    "text": "Overall performance. We compare our approach with previous state-of-the-art work in Table 2. For competing methods, we quote results from existing papers whenever possible. In some studies, the authors have released their styletransferred sentences, and we tested them with our metrics. A caveat is that this may involve a different data split, providing a rough (but unbiased) comparison. For others, we re-evaluated the model using publicly available code. We sought comparison with Hu et al. (2017), but unfortunately could not find publicly available code. Instead we sought performance comparisons of their model in subsequent work, and found that, according to the human evaluation in Shen et al. (2017), Hu et al. (2017) is comparable but slightly worse than Shen et al. (2017). The latter is ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.509,
+      0.808,
+      0.887
+    ],
+    "text": "We see in Table 2 a clear trade-off between style transfer and content preservation, as they are contradictory goals. Especially, a few models have a transfer accuracy lower than 50%. They are shown in gray, and not the focus of the comparison, because the system cannot achieve the goal of style transfer most of the time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.81,
+      0.509,
+      0.891,
+      0.887
+    ],
+    "text": "Our method achieves high style-transfer accuracy (STA) in both experiments. On the Yelp dataset, it outperforms previous methods by more than 7%, whereas on Amazon, VAE is 1% lower than Tsvetkov et al. (2018), ranking second.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.895,
+      0.529,
+      0.912,
+      0.885
+    ],
+    "text": "Our approach achieves high content preservation as well. Among all the methods that can achieve more than 50% transfer accuracy, DAE has the highest word overlap (WO) on Yelp; VAE is also high, although slightly lower than Li et al. (2018). On Amazon, the phenomenon is similar. DAE is the best; VAE is 2% lower in WO (although 10% better in transfer accuracy), compared with Xu et al. (2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-1",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.071,
+      0.159,
+      0.2,
+      0.845
+    ],
+    "text": "Table 2: Performance of text style transfer. STA: Style transfer accuracy. CS: Cosine similarity. WO: Word overlap rate. PPL: Perplexity. GM: Geometric mean. The larger↑ (or lower↓), the better. †Quoted from previous papers (with the same data split). ‡Involving custom data splits, providing a rough (but unbiased) comparison. Others are based on our replication, and we use published code whenever possible. We achieve 0.809 and 0.835 transfer accuracy on the Yelp dataset, close to the results in Shen et al. (2017) and Zhao et al. (2018), respectively, showing that our replication is fair. Gray numbers show that a method fails to transfer style most of the time.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:table-2",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_1.jpg",
+    "bbox_norm": [
+      0.319,
+      0.171,
+      0.397,
+      0.436
+    ],
+    "text": "Table 3: Manual evaluation on the Yelp dataset.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.114,
+      0.722,
+      0.49
+    ],
+    "text": "For language fluency, VAE yields the best PPL in both datasets. It is also noted that, the cycle reinforcement learning (Cycle-RL) approach does not generate fluent sentences (Xu et al., 2018). They have unusually high PPL scores, but after reading the samples provided by the authors (via personal email correspondence) we are assured that the sentences obtained by Cycle-RL are less fluent.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.724,
+      0.114,
+      0.804,
+      0.49
+    ],
+    "text": "When we consider all the above aspects, our approach (either DAE or VAE) has the highest geometric meaning (GM), showing that we have achieved good balance on transfer strength, content preservation, as well as language fluency.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.804,
+      0.114,
+      0.885,
+      0.49
+    ],
+    "text": "Table 3 presents the results of human evaluation on selected methods.5Again, we see that the style embedding model (Fu et al., 2018) is ineffective as it has a very low transfer strength, and that our method outperforms other baselines in all aspects. The results are consistent with Table 2. This also implies that the automatic metrics we used are reasonable, and could be extrapolated to different models; it also shows consistent evidence of the effectiveness of our approach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-7",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_2.jpg",
+    "bbox_norm": [
+      0.318,
+      0.534,
+      0.398,
+      0.865
+    ],
+    "text": "Table 4: Ablation tests on Yelp. In all variants, we follow the same protocol of style transfer by substituting an empirical estimate of the target style vector.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.509,
+      0.827,
+      0.887
+    ],
+    "text": "Ablation Test. We conducted ablation tests on the Yelp dataset, and show results in Table 4. With $J _ { \\mathrm { A E } }$ only, we cannot achieve reasonable style transfer accuracy by substituting an empirically estimated style vector of the target style. This is because the style and content spaces would not be disentangled spontaneously with the autoencoding loss alone. With either $J _ { \\mathrm { m u l ( s ) } } \\mathrm { o r } J _ { \\mathrm { a d v ( s ) } }$ , the model achieves reasonable transfer accuracy and cosine similarity. Combining them together improves the transfer accuracy to 90%, outperforming previous methods by a margin of 5% (Table 2). This shows that the multi-task loss and the adversarial loss work in different ways. Our insight of combining the two auxiliary losse",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.829,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "On the other hand, $J _ { \\mathrm { { m u l } ( s ) } }$ and $\\boldsymbol { J } _ { \\mathrm { { a d v ( s ) } } }$ only regularize the style information, leading to gradual drop of content preserving scores. Then, we use another insight of introducing content-oriented auxiliary losses, $J _ { \\mathrm { { m u l } ( c ) } }$ and $\\boldsymbol { J } _ { \\mathrm { a d v ( c ) } }$ , based on BoW features, which regularize the content information in the same way as style. By incorporating all these auxiliary losses, we achieve high transfer accuracy, high content preservation, as well as high language fluency.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.115,
+      0.185,
+      0.405
+    ],
+    "text": "5 Conclusion and Future Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.114,
+      0.307,
+      0.49
+    ],
+    "text": "In this paper, we propose an effective approach for disentangling style and content latent spaces. We systematically combine multi-task and adversarial objectives to separate content and style from each other, where we also propose to approximate content information with bag-of-words features of style-neutral, non-stopword vocabulary.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.31,
+      0.114,
+      0.422,
+      0.49
+    ],
+    "text": "Both qualitative and quantitative experiments show that the latent space is indeed separated into style and content parts. The disentangled space can be directly applied to text style-transfer tasks. Our method achieves high style-transfer strength, high content-preservation scores, as well as high language fluency, compared with previous work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.114,
+      0.551,
+      0.489
+    ],
+    "text": "Our approach can be naturally extended to noncategorical styles, because our style feature is encoded from the input sentence. Non-categorical styles cannot be easily handled by fixed style embeddings or style-specific decoders (Fu et al., 2018). Bao et al. (2019) have successfully shown that the syntax and semantics of a sentence can be disentangled from each other.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.564,
+      0.115,
+      0.581,
+      0.28
+    ],
+    "text": "Acknowledgments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.114,
+      0.687,
+      0.49
+    ],
+    "text": "We thank all reviewers for insightful comments. This work was supported in part by the NSERC grant RGPIN-261439-2013 and an Amazon Research Award. We would also like to acknowledge NVIDIA Corporation for the donated Titan Xp GPU.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.115,
+      0.731,
+      0.216
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.74,
+      0.117,
+      0.78,
+      0.487
+    ],
+    "text": "Martin Arjovsky, Soumith Chintala, and Leon Bottou. 2017. Wasserstein generative adversarial networks. In ICML, pages 214–223. Hareesh Bahuleyan, Lili Mou, Olga Vechtomova, and Pascal Poupart. 2018. Variational attention for sequence-to-sequence models. In COLING, pages 1672–1682. Georgios Balikas, Simon Moura, and Massih-Reza Amini. 2017. Multitask learning for fine-grained twitter sentiment analysis. In SIGIR, pages 1005– 1008. Yu Bao, Hao Zhou, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, XIN-YU DAI, and Jiajun CHEN. 2019. Generating sentences from disentangled syntactic and semantic spaces. In ACL. Samuel R. Bowman, Luke Vilnis, Oriol Vinyals, Andrew M. Dai, Rafal Jozefowicz, and Samy Bengio. 2016. Generating sentences from a continuous space. In CoNLL, pages 10–21. Xi Chen, Yan D",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.117,
+      0.116,
+      0.489
+    ],
+    "text": "Diederik P. Kingma and Max Welling. 2013. Autoencoding variational Bayes. arXiv preprint arXiv:1312.6114. Krippendorff Klaus. 2004. Content Analysis: An Introduction to Its Methodology. Sage Publications. Reinhard Kneser and Hermann Ney. 1995. Improved backing-off for m-gram language modeling. In ICASSP, pages 181–184. Solomon Kullback and Richard A Leibler. 1951. On information and sufficiency. The Annals of Mathematical Statistics, 22(1):79–86. Guillaume Lample, Alexis Conneau, Ludovic Denoyer, and Marc’Aurelio Ranzato. 2018a. Unsupervised machine translation using monolingual corpora only. In ICLR. Guillaume Lample, Myle Ott, Alexis Conneau, Ludovic Denoyer, and Marc’Aurelio Ranzato. 2018b. Phrase-based & neural unsupervised machine translation. In EMNLP, pages 5039–5049. Juncen Li, Rob",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.51,
+      0.397,
+      0.737
+    ],
+    "text": "A Qualitative Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.405,
+      0.509,
+      0.47,
+      0.887
+    ],
+    "text": "Table 5 provides several examples of our styletransfer model. Results show that we can successfully transfer the sentiment while preserving the content of a sentence.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.481,
+      0.51,
+      0.498,
+      0.808
+    ],
+    "text": "B Effect of the BoW Vocabulary",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.506,
+      0.509,
+      0.605,
+      0.887
+    ],
+    "text": "Table 6 demonstrates the effect of choosing different BoW vocabulary for the auxiliary content losses. As seen, we are able to achieve reasonable performance with any of these vocabularies, but using a vocabulary that excludes sentiment words and stopwords performs the best.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:table-1",
+    "page_id": 10,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_10_Table_0.jpg",
+    "bbox_norm": [
+      0.146,
+      0.122,
+      0.535,
+      0.878
+    ],
+    "text": "Table 5: Examples of style transferred sentence generation.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-10:table-2",
+    "page_id": 10,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_10_Table_1.jpg",
+    "bbox_norm": [
+      0.717,
+      0.147,
+      0.804,
+      0.853
+    ],
+    "text": "Table 6: Analysis of the BoW vocabulary.",
+    "source_type": "table"
+  }
+]

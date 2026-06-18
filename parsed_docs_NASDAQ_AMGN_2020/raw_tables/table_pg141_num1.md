@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">December31,</td></tr><tr><td>2020</td><td>2019</td></tr><tr><td> Weighted-average remaining lease term (in years)</td><td>3.7</td><td>4.1</td></tr><tr><td>Weighted-average discount rate</td><td>3.1%</td><td>3.3 %</td></tr></table>

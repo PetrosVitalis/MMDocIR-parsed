@@ -1,0 +1,1 @@
+<table><tr><td colspan="2"></td><td colspan="2">Estimated cost (USD)</td></tr><tr><td>Models</td><td>Hours</td><td>Cloud</td><td>Electric</td></tr><tr><td>1</td><td>120</td><td>$52-$175</td><td>$5</td></tr><tr><td>24</td><td>2880</td><td>$1238-$4205</td><td>$118</td></tr><tr><td>4789</td><td>239,942</td><td>$103k-$350k</td><td>$9870</td></tr></table>

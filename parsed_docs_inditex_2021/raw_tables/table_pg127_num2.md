@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021 2020</td></tr><tr><td>Net income</td><td>3,243 1,106</td></tr><tr><td>Shareholders equity - previous year</td><td>14,520 14,913</td></tr><tr><td>Shareholders equity - current year</td><td>15,733 14,520</td></tr><tr><td> Average equity</td><td>15,126 14,716</td></tr><tr><td> Return on Equity</td><td>21% 8%</td></tr></table>

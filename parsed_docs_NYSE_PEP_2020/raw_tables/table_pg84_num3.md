@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Plan to Date through 12/26/2020</td></tr><tr><td>Severance and other employee costs</td><td>$ 444</td></tr><tr><td>Asset impairments</td><td>125</td></tr><tr><td>Other costs</td><td>228</td></tr><tr><td>Total</td><td>$ 797</td></tr></table>

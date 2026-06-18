@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">-150 BPS</td><td colspan="2">-100 BPS</td><td colspan="2">-50 BPS</td><td colspan="2">+50 BPS</td><td colspan="2">+150 BPS</td></tr><tr><td>$</td><td>509,125</td><td></td><td>507,746 $</td><td>504,661</td><td></td><td>498,103 $</td><td></td><td>494,824 $</td><td></td></tr></table>

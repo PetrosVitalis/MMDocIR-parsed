@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td colspan="2">2020</td><td colspan="2">2019</td></tr><tr><td>Cash outflows- Lease liabilities</td><td>$</td><td>765$</td><td></td><td>685</td></tr><tr><td>Non-cash-ROU assets recorded for new and modified leases</td><td></td><td>991</td><td></td><td>514</td></tr></table>

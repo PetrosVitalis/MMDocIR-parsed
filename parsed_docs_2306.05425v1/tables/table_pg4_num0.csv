@@ -1,0 +1,11 @@
+Dataset,Visual Data (Scenes),In-context Video,#Clips/Images,#Instruct.,#Instance.,Lang.
+MiniGPT-4 [54],CC (General),-,-,- / 134M,4,5K
+LLaVA [28],COCO (General) [27],lang./-,-,- / 81K,261K,345K
+,COCO (General) [27],lang./vis.,,- / 81K,261K,345K
+SD (Surveillance) [21],,lang./vis.,-,- / 9K,10K,15K
+SN (Indoor Ego.) [15],,lang./vis.,-,- / 0.5K,4.8K,6K
+MIMIC-IT,DC (General)[22],lang./vis.,√,16K / 1M,40K,62K
+,VIST (Story)[20],lang./vis.,,- / 16K,32K,33K
+,TVC (TV)[24],lang./vis.,√,86K / 577K,86K,92K
+,E4D (General Ego.)[19],lang./vis.,√,400K / 6.4M,1.8M,2.4M
+Total,,lang./vis.,√,502K / 8.1M,2.2M,2.8M

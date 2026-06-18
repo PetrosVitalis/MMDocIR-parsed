@@ -1,0 +1,5 @@
+Model,Span Indentification,Span Indentification,Span Indentification,Keyphrase Extraction,Keyphrase Extraction,Keyphrase Extraction,Relation Extraction,Relation Extraction,Relation Extraction,Overall,Overall,Overall
+,P,R,F1,P,R,F1,P,R,F1,P,R,F1
+(Luan 2017),1,-,56.9,1,1,45.3,1,-,-,-,1,-
+Best SemEval,55,54,55,44,43,44,36,23,28,44,41,43
+ScIIE,62.2,55.4,58.6,48.5,43.8,46.0,40.4,21.2,27.8,48.1,41.8,44.7

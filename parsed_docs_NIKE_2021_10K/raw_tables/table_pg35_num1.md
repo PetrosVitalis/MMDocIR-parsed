@@ -1,0 +1,1 @@
+<table><tr><td>(Dollars in millions)</td><td></td><td>FISCAL 2021</td><td>FISCAL2020</td><td></td><td>FISCAL 2019</td></tr><tr><td>Other (income) expense, net</td><td>$</td><td>14$</td><td></td><td>139$</td><td>(78)</td></tr></table>

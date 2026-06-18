@@ -1,0 +1,15 @@
+```csv
+Flat,File ID,Level 1 - Digital Interaction Modes,Level 2 - Digital Tactics,Tactical Objective,Metric,Metric Definition,Data Source,Metric Type,Calculation,Data Type,Decimal
+1,"Digital Destinations","Campaign Landing","Exposure","Visits","The total number of all site visits during a given period","NetInsights","Input","n/a","Numeric",0
+2,"Digital Destinations","Campaign Landing","Exposure","Visitors","The total number of Unique Visitors during the time period (Date Range) being analyzed.","NetInsights","Input","n/a","Numeric",0
+3,"Digital Destinations","Campaign Landing","Engagement","Average Visit Duration","The average length of time (in seconds) in a session.","NetInsights","Input","n/a","Time (M:SS)",0
+4,"Digital Destinations","Campaign Landing","Engagement","End Actions","A count of the number of times a pre-defined end action is performed by customers or prospects. An "End Action" is an action against which media and creatives are optimized.","DoubleClick","Input","n/a","Numeric",0
+5,"Digital Destinations","Campaign Landing","Engagement","Destination End Action Rate","A count of end actions (with associated site visits) divided by the total number of site visits","Calc","Calc","End Actions / Visits","Ratio",1
+6,"Digital Destinations","Campaign Landing","Conversion","Profile Captures","A count of profile captures that reach a pre-defined completion point (eg a thank you page)","DoubleClick","Input","n/a","Numeric",0
+7,"Digital Destinations","Campaign Landing","Conversion","Destination Profile Capture Rate","A count of profile captures (with associated site visits) divided by site visits","Calc","Calc","Profile Captures / Visits","Ratio",1
+8,"Digital Destinations","Campaign Landing","Conversion","Profile Completion Rate","A count of profiles captured divided by a count of profiles initiated","Calc","Calc","Profile Captures / Profile Initiations","Ratio",1
+9,"Digital Destinations","Campaign Landing","Conversion","External Sales Referrals","A count of sales referrals generated for external sales entities.","NetInsights","Input","n/a","Numeric",0
+10,"Digital Destinations","Campaign Landing","Conversion","Destination External Sales Referral Rate","A count of external sales referrals (with associated site visits) generated divided by the total number of site visits","Calc","Calc","External Sales Referrals / Visits","Ratio",1
+11,"Digital Destinations","Campaign Landing","Conversion","Internal Sales Referrals","A count of sales referrals generated for internal sales entities.","NetInsights","Input","n/a","Numeric",0
+12,"Digital Destinations","Campaign Landing","Conversion","Destination Internal Sales Referral Rate","A count of internal sales referrals (with associated site visits) generated divided by the total number of site visits","Calc","Calc","Internal Sales Referrals / Visits","Ratio",1
+```

@@ -1,0 +1,1 @@
+<table><tr><td>1,000 GJ</td><td>2020</td><td>2019 2018</td></tr><tr><td>Production</td><td>2,718</td><td>2,458 2,502</td></tr><tr><td>Office buildings and laboratories</td><td>473</td><td>535 597</td></tr><tr><td>Total energy consumption</td><td>3,191</td><td>2,993 3,099</td></tr></table>

@@ -1,0 +1,5 @@
+Problem,Formulation,NL Sentence,Symbolic Formulation,Solver,Dataset
+Deductive,LP,If the circuit is complete and the circuit has the light bulb then the light bulb is glowing.,"Complete(Circuit, True) ∧ Has(Circuit, LightBulb) → Glowing(LightBulb, True)",Pyke,"ProntoQA, ProofWriter"
+Reasoning,First-Order,A Czech person wrote a book in 1946.,"∃x2∃x1(Czech(x1) ∧ Author(x2, x1) ∧ Book(x2) ∧ Publish(x2, 1946))",Prover9,FOLIO
+Logic,Constraint,"On a shelf, there are five books. The blue book is to the right of the yellow book.","blue_book ∈ {1, 2, 3, 4, 5} yellow_book ∈ {1, 2, 3, 4, 5} blue_book > yellow_book",python-constraint,LogicalDeduction
+Satisfaction,Analytical,Xena and exactly three other technicians repair radios,"repairs(Xena, radios) ∧ Count([t:technicians], t ≠ Xena ∧ repairs(t, radios))) == 3)",Z3,AR-LSAT

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Year Ended December 31,2019</td><td>%of consolidated net revenues</td><td>Year Ended December 31,2018</td><td>%of consolidated net revenues</td><td></td><td>Increase (Decrease)</td></tr><tr><td>Product development</td><td></td><td></td><td>15% $</td><td>1,101</td><td>15% $</td><td>(103)</td></tr></table>

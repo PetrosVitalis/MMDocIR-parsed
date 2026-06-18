@@ -1,0 +1,19 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_P18-2092",
+  "total_images": 2,
+  "non_figure_images_skipped": 11,
+  "processed": 2,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_4_Asset_1.jpg",
+      "output": "image_descriptions/_page_4_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Asset_0.jpg",
+      "output": "image_descriptions/_page_4_Asset_0.md",
+      "status": "success"
+    }
+  ]
+}

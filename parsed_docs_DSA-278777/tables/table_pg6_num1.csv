@@ -1,0 +1,16 @@
+Symbol,Parameter,Min,Max,Units,Test Conditions
+V_IL,Input Low Voltage (Except EA Pin of 8751H and 8751H-8),-0.5,0.8,V,",,"
+V_IL1,Input Low Voltage to EA Pin of 8751H and 8751H-8,0,0.7,V,",,"
+V_IH,"Input High Voltage (Except XTAL2, RST)",2.0,VCC + 0.5,V,",,"
+V_IH1,"Input High Voltage to XTAL2, RST",2.5,VCC + 0.5,V,XTAL1 = VSS
+V_IH2,Input High Voltage to EA pin of 8751BH and 8752BH,4.5,5.5V,,",,"
+V_OL,"Output Low Voltage (Ports 1, 2, 3)*",,0.45,V,IOL = 1.6 mA
+V_OL1,"Output Low Voltage (Port 0, ALE, PSEN)* 8751H, 8751H-8",0.60,0.60,V,"IOL = 3.2 mA,"
+,"Output Low Voltage (Port 0, ALE, PSEN)* All Others",,0.45,V,"IOL = 2.4 mA,"
+,"Output Low Voltage (Port 0, ALE, PSEN)* All Others",,0.45,V,"IOL = 3.2 mA,"
+V_OH,"Output High Voltage (Ports 1, 2, 3, ALE, PSEN)",2.4,2.4,V,"IOL = -80 μA,"
+V_OH1,Output High Voltage (Port 0 in External Bus Mode),2.4,2.4,V,"IOL = -400 μA,"
+I_IL,"Logical 0 Input Current (Ports 1, 2, 3, and RST)",,-500,μA,VIN = 0.45V
+I_IL1,Logical 0 Input Current (EA) 8751H and 8751H-8,,-15,mA,VIN = 0.45V
+,Logical 0 Input Current (EA) 8751BH,,-10,mA,VIN = VSS
+,Logical 0 Input Current (EA) 8752BH,,0.5,mA,VIN = VSS

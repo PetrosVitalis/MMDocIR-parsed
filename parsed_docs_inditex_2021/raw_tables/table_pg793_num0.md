@@ -1,0 +1,1 @@
+<table><tr><td>Cycle</td><td>Target Incentive</td><td>=</td><td>Cash + Shares</td></tr><tr><td>First cycle</td><td>105% of annual fixed remuneration</td><td>€1,360 thousand</td><td>87,291 shares</td></tr><tr><td>Second cycle</td><td>105% of annual fixed remuneration</td><td>€1,360 thousand</td><td>65,010 shares</td></tr></table>

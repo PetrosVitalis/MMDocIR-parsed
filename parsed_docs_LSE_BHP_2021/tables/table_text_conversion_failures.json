@@ -1,0 +1,249 @@
+[
+  {
+    "table_id": "table_48",
+    "reason": "LLM parsing failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM parse failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_80",
+    "reason": "LLM parsing failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~1, got=1)",
+          "confidence:0.80",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM parse failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_208",
+    "reason": "LLM returned empty/non-table JSON",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": \"[[\",\"Bermuda],[\\\"\\\",\\\"Victoria Place,31Victoria Street, Hamilton, HM1O,Bermuda\\\"],[\":\"\", \"BHP Petroleum (Tankers) Limited\\\"]]'} руковордит поставленной задачей, но заметим, что первая строка таблицы содержит заголовок для столбца, а остальные строки содержат данные. В JSON-формате это будет выглядеть следующим образом, с учетом того, что заголовок является частью структуры данных и представлен как первый элемент массива внутри внешнего массива (таблицы), а все последующие строки являются данными для этого столбца. В данном случае, поскольку у нас всего один столбец, мы представим его так же, как было указано в запросе, но с учетом того, что заголовок и данные представлены корректно в структуре JSON массива-массивов. Итак, правильный ответ будет следующий: {\":\"json\" }"
+      }
+    ]
+  },
+  {
+    "table_id": "table_210",
+    "reason": "LLM returned empty/non-table JSON",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": \"[[\",\"Panama],[\\\"\\\",\\\"Plaza PwC,Piso7,Cale58E yAve.RicardoArangoaioPanama City, Panama\\\"],[\\\"\\\",\\\"Marcona International S.A. (9)(h)\\\"],[],[\":\"\", \"Saint Lucia],[\\\"\\\",\\\"PointeSeraphine, Castries, StLucia\\\"],[\\\"\\\",\\\"BHP(Trinidad) Holdings Ltd\\\"],[],[\":\"\", \" Singapore],[\\\"\\\",\\\"10 Marina Boulevard,#18-O1Marina Bay Financial Centre Tower 2,018983, Singapore\\\"],[\\\"\\\",\\\"BHP Biliton Freight Singapore Pte Limited\\\"],[\\\"\\\",\\\"BHP Biliton Marketing Asia Pte Ltd\\\"],[\\\"\\\",\\\"BHP Biliton SSM Indonesia Pte Ltd\\\"],[],[\":\"\", \"8 Marina View,#O9-05 Asia Square Tower1,O18960,Singapore\\\"],[\\\"\\\",\\\"Westminer Insurance Pte Ltd ⑩\\\"],[],[\":\", \""
+      }
+    ]
+  },
+  {
+    "table_id": "table_213",
+    "reason": "LLM parsing failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM parse failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_214",
+    "reason": "row_count_out_of_bounds(expected~45, got=22)",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "row_count_out_of_bounds(expected~45, got=22)"
+        ],
+        "raw_llm_output": "{\n  \"data\": [\n    [\"Country\", \"Address\", \"Company Name\"],\n    [\"Singapore\", \"10 Marina Boulevard,#18-O1Marina Bay Financial Centre Tower 2,018983,Singapore\", \"BM Alliance Marketing Pte Ltd (50%)\"],\n    [\"Trinidad and Tobago\", \"48-50 Sackvilltreet,Portofpain,rinidad,TrinidadandToago\", \"Greater Angostura (45%)()\"],\n    [\"United States of America\", \"1209 OrangeStreet,Wilmington,DE,19801, United States of America\", \"Gulf of Mexico (23.9-44%) (p)\"],\n    [\"United States of America\", \"\", \"Joint ventures and associates (d)\"],\n    [\"Country ofincorporationAnguilla\", \"\", \"\"],\n    [\"Registered office addressHarlawChambers,TheValley,Anguilla\", \"\", \"\"],\n    [\"Company Name\", \"\", \"Carbones del Cerrejon Limited (33.33%)\"],\n    [\"Australia\", \"30 RavenSt,Kooragang,NSW2304,Australia\", \"NCIG Holdings PtyLtd (27.98%)\"],\n    [\"Level20,5iseetboe\", \"\", \"\"],\n    [\"Rightship Pty Limited (33.33%)\" ],\n    [\"Brazil\", \"Rua Paraiba,112ondarloHorzote,il\", \"Samarco Mineragao S.A. (50%)\"],\n    [\"Colombia\", \"Calle100,No.19-54,Bogota,Colombia\", \"Cerrejon Zona Norte S.A. (33.33%)\"],\n    [\"Ireland\", \"FurnballySquare, New Street, DUB8,Ireland\", \"CMC-Coal Marketing DAC (33.33%)\"],\n    [\"Netherlands\", \"Herikerbergweg 238,AMS,1101CM,TheNetherlands\", \"Global HubCo B.V. (33.33%)(m)\"],\n    [\"Peru\", \"Av El DerbyN°O55 Torre1Of 801, Santiago delSurco, Lima, Peru\", \"Compania Minera Antamina S.A. (33.75%)\"],\n    [\"United Kingdom\", \"201Bishopsgate,London,EC2M3AB,UnitedKingdom\", \"SolGold Plc (13.56%)\"],\n    [\"United States of America\", \"1209 OrangeStreet,Wilmington,19801 United States of America\", \"Caesar Oil Ppeline Company LLC (25%) ?)\"],\n    [\"United States of America\", \"\", \"Cleopatra Gas Gathering Company LLC (22%) (k)\"],\n    [\"2711Centervildtengto80 United States of America\", \"\", \"\"],\n    [\"Resolution Copper Mining LLC (45%)\" ],\n    [\"9807KatyFreewayuiteO,Houton2United States of America\", \"\", \"Marine Well Containment Company LLC (10%) k)\"]\n  ]\n}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "row_count_out_of_bounds(expected~45, got=22)"
+        ],
+        "raw_llm_output": "{\n  \"table\": [\n    [\"Country\", \"Address\", \"Company Name\"],\n    [\"Singapore\", \"10 Marina Boulevard,#18-O1Marina Bay Financial Centre Tower 2,018983,Singapore\", \"BM Alliance Marketing Pte Ltd (50%)\"],\n    [\"Trinidad and Tobago\", \"48-50 Sackvilltreet,Portofpain,rinidad,TrinidadandToago\", \"Greater Angostura (45%)()\"],\n    [\"United States of America\", \"1209 OrangeStreet,Wilmington,DE,19801, United States of America\", \"Gulf of Mexico (23.9-44%) (p)\"],\n    [\"United States of America\", \"\", \"Joint ventures and associates (d)\"],\n    [\"Anguilla\", \"\", \"Country ofincorporationAnguilla\"],\n    [\"Anguilla\", \"\", \"Registered office addressHarlawChambers,TheValley,Anguilla\"],\n    [\"Carbones del Cerrejon Limited (33.33%)\", \"\", \"\"],\n    [\"Australia\", \"30 RavenSt,Kooragang,NSW2304,Australia\", \"NCIG Holdings PtyLtd (27.98%)\"],\n    [\"Rightship Pty Limited (33.33%)\" ],\n    [\"Level20,5iseetboe\", \"\", \"\"],\n    [\"Brazil\", \"Rua Paraiba,112ondarloHorzote,il\", \"Samarco Mineragao S.A. (50%)\"],\n    [\"Colombia\", \"Calle100,No.19-54,Bogota,Colombia\", \"Cerrejon Zona Norte S.A. (33.33%)\"],\n    [\"Ireland\", \"FurnballySquare, New Street, DUB8,Ireland\", \"CMC-Coal Marketing DAC (33.33%)\"],\n    [\"Netherlands\", \"Herikerbergweg 238,AMS,1101CM,TheNetherlands\", \"Global HubCo B.V. (33.33%)(m)\"],\n    [\"Peru\", \"Av El DerbyN°O55 Torre1Of 801, Santiago delSurco, Lima, Peru\", \"Compania Minera Antamina S.A. (33.75%)\"],\n    [\"United Kingdom\", \"201Bishopsgate,London,EC2M3AB,UnitedKingdom\", \"SolGold Plc (13.56%)\"],\n    [\"United States of America\", \"1209 OrangeStreet,Wilmington,19801 United States of America\", \"Caesar Oil Ppeline Company LLC (25%) ?)\"],\n    [\"United States of America\", \"\", \"Cleopatra Gas Gathering Company LLC (22%) (k)\"],\n    [\"United States of America\", \"2711Centervildtengto80 United States of America\", \"\"],\n    [\"Resolution Copper Mining LLC (45%)\" ],\n    [\"Marine Well Containment Company LLC (10%) k)\", \"\", \"9807KatyFreewayuiteO,Houton2United States of America\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_216",
+    "reason": "LLM parsing failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM parse failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_344",
+    "reason": "LLM repair returned empty/non-table JSON",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.40",
+          "too_few_columns",
+          "too_few_rows"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~2, got=1)"
+        ],
+        "raw_llm_output": "{\"header\":[{\"0\":\"Type\"},{\"1\":\"Average number of hours\"}],\"rows\":[[\"Employee\",\"11.45\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "LLM repair returned empty/non-table JSON",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~2, got=1)"
+        ],
+        "raw_llm_output": "{\n  \"table_data\": [\n    [\"Type\", \"Average number of hours\"],\n    [\"Employee\", \"11.45\"]\n  ]\n}"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Date of original</td></tr><tr><td></td><td>disclosure, including</td></tr><tr><td>Resources estimate in the Inferred Category Note(s) on the resource estimate</td><td>Competent Person&#x27;s statement</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>DKK million</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Operating profit IFRS</td><td>54,126</td><td>52,483</td><td>47,248</td></tr><tr><td>/ Equity IFRS</td><td>63,325</td><td>57,593</td><td>51,839</td></tr><tr><td>Operating profit/equity in %</td><td>85.5%</td><td>91.1%</td><td>91.1%</td></tr></table>

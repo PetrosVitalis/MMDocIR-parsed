@@ -1,0 +1,9 @@
+Statistics,TabFact,FEVEROUS,SEM-TAB-FACTS,SciTab
+Domain,Wiki Tables,Wiki Tables,Scientific Articles,Scientific Articles
+Annotator,AMT,AMT,AMT,Experts
+Max. Reasoning Hops,7,2,1,11
+Supported,54%,56%,58%,37%
+Veracity,Refuted,39%,38%,34%
+NEI,5%,4%,29%,
+Total # of Claims,117,854,87,"026,5,715,1,225"
+Avg. claims per table,7.11,0.07,5.27,6.16

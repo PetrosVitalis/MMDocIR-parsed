@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Alignment</td><td>Human Avg.</td></tr><tr><td>ChatGPT(0.5)</td><td>84.5</td><td>82.0</td></tr><tr><td>LLaMA-7B</td><td>47.8</td><td>45.5</td></tr><tr><td>Vicuna-13B</td><td>66.9</td><td>64.5</td></tr></table>

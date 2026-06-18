@@ -1,0 +1,15 @@
+Dataset,Configuration,True Claims Accuracy (%),False Claims Accuracy (%),Macro F1-Score,AUC
+Snopes,LSTM-text,64.65,64.21,0.66,0.70
+Snopes,CNN-text,67.15,63.14,0.66,0.72
+Snopes,Distant Supervision,83.21,80.78,0.82,0.88
+Snopes,DeClarE (Plain),74.37,78.57,0.78,0.83
+Snopes,DeClarE (Plain+Attn),78.34,78.91,0.79,0.85
+Snopes,DeClarE (Plain+SrEmb),77.43,79.80,0.79,0.85
+Snopes,DeClarE (Full),78.96,78.32,0.79,0.86
+PolitiFact,LSTM-text,63.19,61.96,0.63,0.66
+PolitiFact,CNN-text,63.67,63.31,0.64,0.67
+PolitiFact,Distant Supervision,62.53,62.08,0.62,0.68
+PolitiFact,DeClarE (Plain),62.67,69.05,0.66,0.70
+PolitiFact,DeClarE (Plain+Attn),65.53,68.49,0.66,0.72
+PolitiFact,DeClarE (Plain+SrEmb),66.71,69.28,0.67,0.74
+PolitiFact,DeClarE (Full),67.32,69.62,0.68,0.75

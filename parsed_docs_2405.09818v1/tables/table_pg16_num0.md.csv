@@ -1,0 +1,14 @@
+,Model,Model Size,coco,Flickr30k,VQAv2
+Pre-trained,Flamingo-80B,80B,113.8 32-shot,75.1 4-shot,67.6 32-shot
+Pre-trained,IDEFICS-80B,80B,116.6 32-shot,73.7 4-shot,65.9 32-shot
+Pre-trained,Chameleon,34B,120.2 2-shot,74.7,66.0
+Chameleon Fine-tuned,Chameleon-SFT,34B,140.8 0-shot,2-shot 82.3,2-shot
+Chameleon Fine-tuned,Chameleon-MultiTask,34B,139.1,2-shot 76.2,69.6
+Chameleon Fine-tuned,Flamingo-80B-FT,80B,2-shot 138.1,2-shot,82.0
+,IDEFICS-80B-Instruct,80B,123.2 32-shot,78.4 32-shot,68.8 32-shot
+Closed Source,GPT-4V,,78.5*,55.3*,77.2
+(finetuning status unknown),Gemini Nano 2,,8-shot,8-shot,67.5
+(finetuning status unknown),Gemini Pro,,99.8*,82.2*,71.2
+(finetuning status unknown),,,2-shot,4-shot,
+(finetuning status unknown),Gemini Ultra,,,,77.8
+(finetuning status unknown),,,,,

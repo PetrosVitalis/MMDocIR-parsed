@@ -1,0 +1,1 @@
+<table><tr><td colspan="3"></td><td>(crore)</td></tr><tr><td>USD</td><td>EUR</td><td>GBP</td><td>Others</td></tr><tr><td>4,431</td><td>275</td><td>837</td><td>1,203</td></tr><tr><td>(4,044)</td><td>(178)</td><td>(414)</td><td>(377)</td></tr></table>

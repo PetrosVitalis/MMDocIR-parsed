@@ -1,0 +1,109 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_obs-productdesc-en",
+  "total_images": 20,
+  "non_figure_images_skipped": 15,
+  "processed": 20,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_15_Figure_0.jpg",
+      "output": "image_descriptions/_page_15_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_12_Figure_0.jpg",
+      "output": "image_descriptions/_page_12_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_55_Figure_0.jpg",
+      "output": "image_descriptions/_page_55_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_0.jpg",
+      "output": "image_descriptions/_page_1_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_36_Figure_0.jpg",
+      "output": "image_descriptions/_page_36_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_31_Figure_0.jpg",
+      "output": "image_descriptions/_page_31_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_14_Figure_0.jpg",
+      "output": "image_descriptions/_page_14_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_37_Figure_1.jpg",
+      "output": "image_descriptions/_page_37_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_37_Figure_0.jpg",
+      "output": "image_descriptions/_page_37_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_19_Figure_0.jpg",
+      "output": "image_descriptions/_page_19_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_18_Figure_0.jpg",
+      "output": "image_descriptions/_page_18_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_16_Figure_0.jpg",
+      "output": "image_descriptions/_page_16_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_0.jpg",
+      "output": "image_descriptions/_page_11_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_20_Figure_0.jpg",
+      "output": "image_descriptions/_page_20_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_35_Figure_0.jpg",
+      "output": "image_descriptions/_page_35_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_60_Figure_0.jpg",
+      "output": "image_descriptions/_page_60_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_5_Figure_0.jpg",
+      "output": "image_descriptions/_page_5_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_17_Figure_0.jpg",
+      "output": "image_descriptions/_page_17_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_21_Figure_0.jpg",
+      "output": "image_descriptions/_page_21_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

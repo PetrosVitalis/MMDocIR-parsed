@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2021</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1>2019</td><td rowspan=1 colspan=1>2018</td></tr><tr><td rowspan=1 colspan=1>Dividend</td><td rowspan=1 colspan=1>0.93</td><td rowspan=1 colspan=1>0.70</td><td rowspan=1 colspan=1>0.35</td><td rowspan=1 colspan=1>0.88</td></tr></table>

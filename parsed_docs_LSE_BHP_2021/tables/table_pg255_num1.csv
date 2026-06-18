@@ -1,0 +1,14 @@
+Deposit,Ore type,Mineral Resources,Ore Reserves
+Escondida,Oxide,≥ 0.20%SCu,≥0.20%SCu
+Escondida,Mixed,≥ 0.30%TCu,
+Escondida,Sulphide,≥0.25%TCu or ≥0.30%TCu depending on processing,≥ 0.30%TCu and greater than variable cut-off (V_COG) of the concentrator. Sulphide ore is processed in the concentrator plants as a result of an optimised mine plan with consideration of technical and economical parameters in order to maximise net present value.
+Escondida,Sulphide Leach,,≥0.25%TCu and lower than V_COG and with >30% of copper carried by more leachable copper minerals . Sulphide Leach ore is processed by dump leaching as an alternative to the concentrator process.
+Cerro Colorado,Oxide & Supergene Sulphide,≥ 0.30%TCu,≥ 0.30%TCu
+Cerro Colorado,Transitional Sulphide,≥ 0.20%TCu,≥0.30%TCu
+Cerro Colorado,Hypogene Sulphide,≥ 0.20%TCu,
+Spence,Oxide,≥ 0.30%TCu,≥0.30%TCu
+Spence,Low-grade Oxide,≥ 0.20%TCu,
+Spence,"Supergene Sulphide, Transitional Sulphide & Hypogene Sulphide",≥ 0.20%TCu,≥ 0.20%TCu
+Pampa Escondida,Sulphide,≥ 0.30%TCu,
+Pinta Verde,Oxide & Sulphide,≥ 0.30%TCu,
+Chimborazo,Sulphide,≥ 0.30%TCu,

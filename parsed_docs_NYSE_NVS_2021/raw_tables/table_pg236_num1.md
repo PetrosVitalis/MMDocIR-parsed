@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td></tr><tr><td>Current accounts</td><td>3396</td><td>3750</td></tr><tr><td>Time deposits and short-term investments with original maturity less than 90 days</td><td>9011</td><td>5908</td></tr><tr><td>Total cash and cash equivalents</td><td>12 407</td><td>9658</td></tr></table>

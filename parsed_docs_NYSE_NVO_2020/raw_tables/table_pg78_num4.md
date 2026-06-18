@@ -1,0 +1,1 @@
+<table><tr><td>DKK million</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Operating profit IFRS</td><td>54,126</td><td>52,483</td><td>47,248</td></tr><tr><td>Tax on operating profit (using effective tax rate)</td><td>(11,204)</td><td>(10,392)</td><td>(8,930)</td></tr><tr><td>Operating profit after tax</td><td>42,922</td><td>42,091</td><td>38,318</td></tr></table>

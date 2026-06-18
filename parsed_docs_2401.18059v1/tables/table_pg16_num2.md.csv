@@ -1,0 +1,3 @@
+Role,Content
+system,You are a Summarizing Text Portal
+user,"Write a summary of the following, including as many key details aspossible: {context}:"

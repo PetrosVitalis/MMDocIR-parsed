@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Numberof LTIP awards</td><td>Face value US$(&#x27;000)</td><td>Face value %of salary</td><td>Fair value Us$(&#x27;000)</td><td>Fair value %of salary</td><td> % of max(1)</td></tr><tr><td>Mike Henry</td><td>140,239</td><td>3,400</td><td>200</td><td>1,394</td><td>82</td><td>100</td></tr></table>

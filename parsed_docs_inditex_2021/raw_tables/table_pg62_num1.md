@@ -1,0 +1,1 @@
+<table><tr><td>2021</td><td>2020</td></tr><tr><td>Wages,salaries and similar</td><td>3,498 2,765</td></tr><tr><td> Social contributions</td><td>681 611</td></tr><tr><td>Total</td><td>4,179 3,376</td></tr></table>

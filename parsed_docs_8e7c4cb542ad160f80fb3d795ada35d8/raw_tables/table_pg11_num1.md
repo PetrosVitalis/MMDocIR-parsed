@@ -1,0 +1,1 @@
+<table><tr><td> All CDs in</td><td>CDs with Upzoned</td><td>CDs with Downzoned</td><td>CDs with Contextual-only</td></tr><tr><td>NYC</td><td>Lots*</td><td>Lots*</td><td>Rezoned Lots*</td></tr><tr><td>58.4%</td><td>62.5%</td><td>54.9%</td><td>59.9%</td></tr></table>

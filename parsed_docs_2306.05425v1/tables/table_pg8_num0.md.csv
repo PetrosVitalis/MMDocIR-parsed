@@ -1,0 +1,7 @@
+Model,Lang. Decoder,Avg.,Perception,Perception,Reasoning,Reasoning,Reasoning
+Model,Lang. Decoder,Avg.,Coarse,Finegrained,Attribute,Relation,Future Pred.
+InstructBLIP [16],Vicuna-7B,50.4,67.8,52.2,43.8,38.2,50.0
+MiniGPT-4 [54],Vicuna-7B,51.0,63.3,47.8,50.6,26.5,66.7
+OpenFlamingo [6],LLaMA-7B,51.1,34.4,40.0,61.3,52.9,66.7
+LLaVA [28],Vicuna-7B,62.7,44.4,54.2,71.9,76.5,66.7
+Otter,LLaMA-7B,65.5,68.9,47.3,66.3,61.8,83.3

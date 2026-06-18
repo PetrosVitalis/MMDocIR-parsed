@@ -1,0 +1,21 @@
+Question,Principles,Answer
+"An astronaut lands on a planet whose mass and radius are each twice that of Earth. If the astronaut weighs 800 N on Earth, how much will he weigh on this planet?",Weight: W = m * g,"where W is the weight,m is the mass and g is the acceleration due to gravity,Acceleration due to gravity: g = G * m / r^2,where G is the gravitational constant,m is the mass of the object and r is the radius of the object,Using the Principles of Newton’s law of universal gravitation and Weight,we can solve the problem as following:"
+Step 1: Apply Newton’s law of universal gravitation to find out the acceleration due to gravity on the planet.,,
+The acceleration due to gravity on a planet is given by the formula: g = G * m / r^2, where g is the acceleration due to gravity,"G is the gravitational constant,m is the mass of the planet,and r is the radius of the planet."
+In this problem, we are given the following information:,
+m = 2 * m_earth,,
+r = 2 * r_earth,,
+Plugging these values into the formula, we get:,
+g = G * 2 * m_earth / (2 * r_earth)^2,,
+g = G * m_earth / r_earth^2,,
+This is the same as the acceleration due to gravity on Earth.,,
+Step 2: Apply Weight to find out the weight of the astronaut on the planet.,,
+The weight of an object is given by the formula:,,
+W = m * g, where W is the weight,"m is the mass of the object,and g is the acceleration due to gravity."
+In this problem, we are given the following information:,
+m = 800 N / g_earth,,
+g = g_earth,,
+Plugging these values into the formula, we get:,
+W = 800 N / g_earth * g_earth,,
+W = 800 N,,
+Therefore, the astronaut will weigh 800 N on the planet. The correct answer is 2) 800 N.,"0,1,2,3"

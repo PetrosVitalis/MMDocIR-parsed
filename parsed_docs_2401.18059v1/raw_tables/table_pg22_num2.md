@@ -1,0 +1,1 @@
+<table><tr><td>Layer</td><td>NarrativeQA</td><td>Quality</td><td>Qasper</td></tr><tr><td>0</td><td>65.04%</td><td>67.64%</td><td>77.24%</td></tr><tr><td>1</td><td>28.79%</td><td>28.85%</td><td>21.57%</td></tr><tr><td>2</td><td>5.36%</td><td>3.51%</td><td>1.19%</td></tr><tr><td>3</td><td>0.81%</td><td>-</td><td>-</td></tr></table>

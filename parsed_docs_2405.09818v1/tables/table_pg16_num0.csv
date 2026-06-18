@@ -1,0 +1,12 @@
+Model,Model Size,COCO,Flickr30k,VQAv2
+Pre-trained,Flamingo-80B,80B,113.8,"75.1,67.6"
+Pre-trained,IDEFICS-80B,80B,116.6,"73.7,65.9"
+Chameleon,Chameleon,34B,120.2,"74.7,66.0"
+Chameleon,Chameleon-SFT,34B,140.8,"82.3,—"
+Chameleon,Chameleon-MultiTask,34B,139.1,"76.2,69.6"
+Fine-tuned,Flamingo-80B-FT,80B,—,82.0
+Fine-tuned,IDEFICS-80B-Instruct,80B,123.2,"78.4,68.8"
+Closed Source (finetuning status unknown),GPT-4V,,78.5*,"55.3*,77.2"
+Closed Source (finetuning status unknown),Gemini Nano 2,,—,"—,67.5"
+Closed Source (finetuning status unknown),Gemini Pro,,99.8*,"82.2*,71.2"
+Closed Source (finetuning status unknown),Gemini Ultra,,—,"—,77.8"

@@ -1,0 +1,12 @@
+Dataset,Knowledge,Entities,Categorization
+"VQA 2.0 (Goyal et al., 2016)",,,
+"GQA (Hudson and Manning, 2019)",,,
+"OK-VQA (Marino et al., 2019)",,,
+"ManyModalQA (Hannan et al., 2020)",,✓,","
+"MultiModalQA (Talmor et al., 2021)",,✓,","
+"MIMOQA (Singh et al., 2021)",,✓,","
+"A-OKVQA (Schwenk et al., 2022)",,✓,","
+"WebQAA (Chang et al., 2021)",,✓,","
+"ViQuAE (Lerner et al., 2022)",,✓,<<
+"Encyclopedic VQA (Mensink et al., 2023)",√,<vv,","
+SnapNTell (Ours),,✓,

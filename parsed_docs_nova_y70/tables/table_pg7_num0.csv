@@ -1,0 +1,13 @@
+5G,5G network connected,,4G,4G network connected
+3G,3G network connected,,2G,2G network connected
+,Full signal strength,R,Roaming,
+,Data saver enabled.,A,No SIM card inserted,
+,Hotspot enabled,小来,Hotspot connected,
+,Hotspot disconnected,明,Switching network via Wi-Fi+,
+m,Wi-Fi connected,D,"Wi-Fi network is faulty, unable to connect to the Internet",
+6,Wi-Fi 6 connected,D,"Wi-Fi 6 network is faulty, unable to connect to the Internet",
+6,Wi-Fi 6+ connected,汉,"Wi-Fi 6+ network is faulty, unable to connect to the Internet",
+→,Airplane mode is ON,Q,Alarm set,
+□,Battery empty,□,Low battery power,
+←,Charging,↑,Quick charging,
+4,Super charging,私,Wireless super charging,

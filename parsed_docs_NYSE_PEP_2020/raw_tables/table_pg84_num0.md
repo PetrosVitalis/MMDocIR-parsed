@@ -1,0 +1,1 @@
+<table><tr><td></td><td>FLNA</td><td>QFNA</td><td>PBNA</td><td>LatAm</td><td></td><td>Europe_AMESA_APAC</td><td></td><td>Corporate</td></tr><tr><td>Expected pre-tax charges</td><td>15 %</td><td>1%</td><td>30%</td><td>10%</td><td>25 %</td><td>5%</td><td>3%</td><td>11 %</td></tr></table>

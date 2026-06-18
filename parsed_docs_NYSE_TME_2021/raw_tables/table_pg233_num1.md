@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2019 RMB&#x27;million</td><td>Year ended December 31, 2020 RMB&#x27;million</td><td>2021 RMB&#x27;million</td></tr><tr><td>Non-PRC</td><td>470</td><td>(4)</td><td>(5)</td></tr><tr><td>PRC</td><td>4,070</td><td>4,636</td><td>3,637</td></tr><tr><td></td><td>4,540</td><td>4,632</td><td>3,632</td></tr></table>

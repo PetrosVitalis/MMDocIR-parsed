@@ -1,0 +1,1 @@
+<table><tr><td>2021</td><td>$ 15</td></tr><tr><td>2022</td><td>14</td></tr><tr><td>2023</td><td>13</td></tr><tr><td>2024</td><td>12</td></tr><tr><td>2025</td><td>11</td></tr><tr><td>2026-2030</td><td>47</td></tr></table>

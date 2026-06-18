@@ -1,0 +1,1 @@
+<table><tr><td>↑ Bluetooth</td><td>3</td></tr><tr><td>On</td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td>Arall</td><td>C</td></tr><tr><td>0。</td><td></td></tr><tr><td>常</td><td></td></tr></table>

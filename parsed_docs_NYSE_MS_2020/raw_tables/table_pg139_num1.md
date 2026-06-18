@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At</td><td>At</td></tr><tr><td>$ in millions</td><td>December 31,2020</td><td>December 31,2019</td></tr><tr><td>Net capital</td><td>$ 12,869</td><td>$ 13,708</td></tr><tr><td>Excess net capital</td><td>9,034</td><td>10,686</td></tr></table>

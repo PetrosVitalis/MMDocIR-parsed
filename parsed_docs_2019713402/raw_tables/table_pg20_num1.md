@@ -1,0 +1,1 @@
+<table><tr><td>Item</td><td>At the time of invitation to apply for the visa, the applicant had ...</td><td>Number of points</td></tr><tr><td>6D21</td><td>superior English</td><td>20</td></tr><tr><td>6D22</td><td>proficient English</td><td>10</td></tr></table>

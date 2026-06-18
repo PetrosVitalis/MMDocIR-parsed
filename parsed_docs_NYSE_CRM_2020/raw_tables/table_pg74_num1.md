@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="4">Fiscal Year Ended January 31,</td></tr><tr><td>2020</td><td></td><td>2019</td><td>2018</td></tr><tr><td>Cost of revenues</td><td>$ 440</td><td>$</td><td>215</td><td>$ 166</td></tr><tr><td>Marketing and sales</td><td>352</td><td></td><td>232</td><td>121</td></tr></table>

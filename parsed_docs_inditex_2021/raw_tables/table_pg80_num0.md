@@ -1,0 +1,1 @@
+<table><tr><td></td><td>31/01/2022</td><td>31/01/2021</td></tr><tr><td>Trade payables</td><td>4,636</td><td>3,436</td></tr><tr><td>Personnel</td><td>569</td><td>279</td></tr><tr><td>Public entities</td><td>490</td><td>485</td></tr><tr><td> Other current payables</td><td>504</td><td>459</td></tr><tr><td>Total</td><td>6,199</td><td>4,659</td></tr></table>

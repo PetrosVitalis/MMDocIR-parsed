@@ -1,0 +1,31 @@
+Seed,Relation,Completion,Plausible
+piece,PartOf,machine,✓
+bread,IsA,food,✓
+oldsmobile,IsA,car,✓
+happiness,IsA,feel,✓
+math,IsA,subject,✓
+mango,IsA,fruit,✓
+maine,IsA,state,✓
+planet,AtLocation,space,✓
+dust,AtLocation,fridge,
+puzzle,AtLocation,your mind,🤔
+college,AtLocation,town,✓
+dental chair,AtLocation,dentist,
+finger,AtLocation,your finger,
+sing,Causes,you feel good,✓
+doctor,CapableOf,save life,✓
+post office,CapableOf,receive letter,厂
+dove,SymbolOf,purity,✓
+sun,HasProperty,big,
+bird bone,HasProperty,fragile,
+earth,HasA,many plant,了
+yard,UsedFor,play game,✓
+get pay,HasPrerequisite,work,✓
+print on printer,HasPrerequisite,get printer,✓
+play game,HasPrerequisite,have game,✓
+live,HasLastSubevent,die,✓
+swim,HasSubevent,get wet,✓
+sit down,MotivatedByGoal,you be tire,✓
+all paper,ReceivesAction,recycle,✓
+chair,MadeOf,wood,✓
+earth,DefinedAs,planet,✓

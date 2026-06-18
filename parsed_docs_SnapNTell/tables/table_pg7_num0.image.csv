@@ -1,0 +1,4 @@
+Head Accuracy↑,Head Hallucination↓,Torso Accuracy↑,Torso Hallucination↓,Tail Accuracy↑,Tail Hallucination↓
+Head w/o RA,24.4,75.6,Torso w/o RA,19.1,"80.9,Tail w/o RA,6.8,93.2"
+Head w/ RA,27.1,72.9,Torso w/ RA,22.7,"77.3,Tail w/ RA,12.6,87.4"
+Head Δ (100%),11.1 %↑,3.6 %↓,Torso Δ (100%),18.8 %↑,"4.4 %↓,Tail Δ (100%),85.3 %↑,6.2 %↓"

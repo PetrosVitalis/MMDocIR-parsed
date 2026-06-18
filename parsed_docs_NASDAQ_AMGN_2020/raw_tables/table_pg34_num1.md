@@ -1,0 +1,1 @@
+<table><tr><td>Molecule</td><td>Territory</td><td>General subject matter</td><td>Estimated expiration*</td></tr><tr><td>Sotorasib</td><td>U.S.</td><td> Compound</td><td>2038</td></tr><tr><td rowspan="2">Tezepelumab</td><td>U.S.</td><td>Polypeptides</td><td>2029</td></tr><tr><td>Europe</td><td>Polypeptides</td><td>2028</td></tr></table>

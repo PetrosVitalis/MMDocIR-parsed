@@ -1,0 +1,15 @@
+Symbol,Parameter,Min,Max,Units,1/TCLCL,Address Setup to PROG Low
+VPP,Programming Supply Voltage,20.5,21.5,V,,48TCLCL
+IPP,Programming Supply Current,,30,mA,,48TCLCL
+1/TCLCL,Oscillator Frequency,4,6,MHz,,48TCLCL
+TAVGL,Address Setup to PROG Low,,,,,48TCLCL
+TGHAX,Address Hold after PROG,,,,,48TCLCL
+TDVGL,Data Setup to PROG Low,,,,,48TCLCL
+TGHDX,Data Hold after PROG,,,,,48TCLCL
+TEHSH,P2.7 (ENABLE) High to VPP,,,,,48TCLCL
+TSHGL,VPP Setup to PROG Low,10,,µs,,48TCLCL
+TGHSL,VPP Hold after PROG,10,,µs,,48TCLCL
+TGLGH,PROG Width,45,55,ms,,48TCLCL
+TAVQV,Address to Data Valid,,,,,48TCLCL
+TELQV,ENABLE Low to Data Valid,,,,,48TCLCL
+TEHQZ,Data Float after ENABLE,0,48TCLCL,,,48TCLCL

@@ -1,0 +1,1066 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.116,
+      0.553,
+      0.873
+    ],
+    "text": "Medical Informatics and HIT Systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.394,
+      0.683,
+      0.605
+    ],
+    "text": "David Lubliner",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.081,
+      0.066,
+      0.166,
+      0.929
+    ],
+    "text": "What is wrong with this picture?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-2",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.216,
+      0.112,
+      0.907,
+      0.884
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.081,
+      0.395,
+      0.161,
+      0.604
+    ],
+    "text": "Outline",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.052,
+      0.344,
+      0.893
+    ],
+    "text": "• What kinds of HIT systems are there?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.052,
+      0.433,
+      0.811
+    ],
+    "text": "What major trends are emerging?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.448,
+      0.052,
+      0.516,
+      0.831
+    ],
+    "text": "What are the benefits to adoption?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.533,
+      0.052,
+      0.601,
+      0.827
+    ],
+    "text": "What are the barriers to adoption?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.052,
+      0.685,
+      0.901
+    ],
+    "text": "What is the current state of adoption?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.705,
+      0.052,
+      0.772,
+      0.643
+    ],
+    "text": "• How can you learn more?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.081,
+      0.265,
+      0.168,
+      0.731
+    ],
+    "text": "HIT Applications",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.207,
+      0.051,
+      0.318,
+      0.418
+    ],
+    "text": "• Patient registration/ demographics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.325,
+      0.051,
+      0.379,
+      0.426
+    ],
+    "text": "Insurance validation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.051,
+      0.446,
+      0.351
+    ],
+    "text": "Billing systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.051,
+      0.511,
+      0.451
+    ],
+    "text": "Appointment systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.051,
+      0.679,
+      0.454
+    ],
+    "text": "Computerized Physician Order Entry (CPOE)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.687,
+      0.052,
+      0.74,
+      0.34
+    ],
+    "text": "• EMR/EHR/CPR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.051,
+      0.809,
+      0.404
+    ],
+    "text": "Pharmacy systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.207,
+      0.509,
+      0.264,
+      0.766
+    ],
+    "text": "Lab systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.27,
+      0.509,
+      0.329,
+      0.833
+    ],
+    "text": "• Imaging systems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.511,
+      0.39,
+      0.777
+    ],
+    "text": "Telemedicine",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.398,
+      0.511,
+      0.453,
+      0.84
+    ],
+    "text": ". Patient education",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.511,
+      0.52,
+      0.84
+    ],
+    "text": "• Decision Support",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.511,
+      0.585,
+      0.843
+    ],
+    "text": "Library resources",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.511,
+      0.644,
+      0.695
+    ],
+    "text": "Sensors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.081,
+      0.366,
+      0.159,
+      0.631
+    ],
+    "text": "Sad Facts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.211,
+      0.054,
+      0.418,
+      0.902
+    ],
+    "text": "• Medical errors account for more deaths than breast cancer, AIDs and motorcycle accidents.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.054,
+      0.572,
+      0.85
+    ],
+    "text": "US has highest HC costs per capita in world",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.596,
+      0.052,
+      0.737,
+      0.888
+    ],
+    "text": "• US has worst outcomes of industrialized nations. (infant mortality, lifespan, etc.)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.054,
+      0.89,
+      0.937
+    ],
+    "text": "• Healthcare is 10-15 yrs behind business in adoption of IT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.05,
+      0.084,
+      0.103,
+      0.912
+    ],
+    "text": "Some Hospitals are using Tablet Capture Devices",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.054,
+      0.311,
+      0.354
+    ],
+    "text": "• Microsoft Office OneNote",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.327,
+      0.054,
+      0.375,
+      0.376
+    ],
+    "text": ". Windows Journal",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.39,
+      0.052,
+      0.494,
+      0.448
+    ],
+    "text": "• Microsoft Educational Pack for Tablet PC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.509,
+      0.054,
+      0.611,
+      0.438
+    ],
+    "text": "• Microsoft Experience Pack for Tablet PC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.625,
+      0.054,
+      0.675,
+      0.302
+    ],
+    "text": "Sticky Notes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.054,
+      0.742,
+      0.323
+    ],
+    "text": "• Snipping Tool",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:figure-8",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.17,
+      0.529,
+      0.95,
+      0.979
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.15,
+      0.155,
+      0.848
+    ],
+    "text": "Electronic Medical Records",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-2",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.194,
+      0.373,
+      0.853,
+      0.963
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.2,
+      0.164,
+      0.798
+    ],
+    "text": "Projected IT Priorities",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.33,
+      0.296,
+      0.64
+    ],
+    "text": "(Today vs. Next Two Years)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.834,
+      0.288,
+      0.906
+    ],
+    "text": "Figure 9",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.033,
+      0.143,
+      0.205,
+      0.858
+    ],
+    "text": "Top Business Issues Facing HealthCare",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.402,
+      0.29,
+      0.665
+    ],
+    "text": "(2006 vs.2005 Results)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.852,
+      0.285,
+      0.933
+    ],
+    "text": "Figure 10",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.033,
+      0.123,
+      0.214,
+      0.876
+    ],
+    "text": "Most Significant Barriers to Barriers to Implementing IT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.379,
+      0.294,
+      0.641
+    ],
+    "text": "(2006 vs.2005 Results)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.257,
+      0.827,
+      0.288,
+      0.909
+    ],
+    "text": "Figure 11",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.112,
+      0.166,
+      0.884
+    ],
+    "text": "Most Important Applications",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.363,
+      0.294,
+      0.626
+    ],
+    "text": "(2006 vs. 2005 Results)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.813,
+      0.287,
+      0.895
+    ],
+    "text": "Figure 12",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.038,
+      0.07,
+      0.203,
+      0.926
+    ],
+    "text": "Top Security Concerns of Computerized Medical Information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.362,
+      0.281,
+      0.625
+    ],
+    "text": "(2006 vs.2005 Results)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.806,
+      0.294,
+      0.89
+    ],
+    "text": "Figure 14",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.306,
+      0.166,
+      0.69
+    ],
+    "text": "Security Tools",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.366,
+      0.288,
+      0.676
+    ],
+    "text": "(Today vs. Next Two Years)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.862,
+      0.281,
+      0.943
+    ],
+    "text": "Figure 15",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.081,
+      0.125,
+      0.168,
+      0.875
+    ],
+    "text": "Technology Adoption Curve",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:figure-2",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.192,
+      0.113,
+      0.896,
+      0.886
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.033,
+      0.216,
+      0.212,
+      0.781
+    ],
+    "text": "Technology Adoption (Next Two Years)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.352,
+      0.288,
+      0.615
+    ],
+    "text": "(2006 vs.2005 Results)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.126,
+      0.159,
+      0.872
+    ],
+    "text": "Current Web Site Functions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.356,
+      0.301,
+      0.619
+    ],
+    "text": "(2006 vs. 2005 Results)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.806,
+      0.296,
+      0.888
+    ],
+    "text": "Figure 19",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.25,
+      0.157,
+      0.748
+    ],
+    "text": "Intranet Functions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.361,
+      0.285,
+      0.67
+    ],
+    "text": "(Today vs. Next Two Years)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.856,
+      0.279,
+      0.936
+    ],
+    "text": "Figure 21",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.081,
+      0.1,
+      0.166,
+      0.897
+    ],
+    "text": "2006 Health IT Staffing Needs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.077,
+      0.418,
+      0.162,
+      0.58
+    ],
+    "text": "Goals",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.22,
+      0.168,
+      0.779
+    ],
+    "text": "“Wiring” Healthcare",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.025,
+      0.292,
+      0.455
+    ],
+    "text": "Current system fragments patient information and creates redundant, inefficient efforts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-3",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.342,
+      0.016,
+      0.911,
+      0.473
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.552,
+      0.296,
+      0.97
+    ],
+    "text": "Future system will consolidate information and provide a foundation for unifying efforts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-5",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_1.jpg",
+    "bbox_norm": [
+      0.322,
+      0.506,
+      0.962,
+      0.969
+    ],
+    "text": "",
+    "source_type": "image"
+  }
+]

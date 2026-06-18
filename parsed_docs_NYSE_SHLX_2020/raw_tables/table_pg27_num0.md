@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">WiTCrudeOnPrices</td><td rowspan="2">Low</td></tr><tr><td>High</td><td>Average</td><td></td></tr><tr><td>January 2021</td><td>$ 53.47</td><td>$</td><td>52.01 $</td><td>47.47</td></tr><tr><td>2020 2019</td><td>63.27 66.24</td><td></td><td>39.16 56.98</td><td>(36.98) 46.31</td></tr></table>

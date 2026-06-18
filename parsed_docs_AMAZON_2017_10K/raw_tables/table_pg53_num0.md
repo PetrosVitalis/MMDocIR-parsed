@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">Twelve Months Ended December 31,</td></tr><tr><td>2016</td><td></td><td>2017</td></tr><tr><td>Net sales</td><td>$</td><td>152,283 $</td><td>187,890</td></tr><tr><td>Net income</td><td>$</td><td>2,148 $</td><td>2,940</td></tr></table>

@@ -1,0 +1,29 @@
+Symbol,Parameter,12 MHz Oscillator,12 MHz Oscillator,Variable Oscillator,Variable Oscillator,Units
+Symbol,Parameter,Min,Max,Min,Max,Units
+1/TCLCL,Oscillator Frequency,,,3.5,12.0,MHz
+TLHLL,ALE Pulse Width,127,,2TCLCL-40,,ns
+TAVLL,Address Valid to ALELow,43,,TCLCL-40,,ns
+TLLAX,Address Hold after ALE Low,48,,TCLCL-35,,ns
+TLLIV,ALE Low to Valid Instr In8751HAll Others,,183233,,4TCLCL-1504TCLCL-100,nsns
+TLLPL,ALELow to PSEN Low,58,,TCLCL-25,,ns
+TPLPH,PSEN Pulse Width8751HAll Others,190215,,3TCLCL-603TCLCL-35,,nsns
+TPLIV,PSEN Low to Valid Instr In8751HAll Others,,100125,,3TCLCL-1503TCLCL-125,nsns
+TPXIX,Input Instr Hold after PSEN,0,,0,,ns
+TPXIZ,Input Instr Float after PSEN,,63,,TCLCL-20,ns
+TPXAV,PSEN to Address Valid,75,,TCLCL-8,,ns
+TAVIV,Address to Valid Instr In8751HAll Others,,267302,,5TCLCL-1505TCLCL-115,nsns
+TPLAZ,PSENLowto Address Float,,20,,20,ns
+TRLRH,RD Pulse Width,400,,6TCLCL-100,,ns
+TWLWH,WR Pulse Width,400,,6TCLCL-100,,ns
+TRLDV,RDLow to ValidData In,,252,,5TCLCL-165,ns
+TRHDX,Data Hold after RD,0,,0,,ns
+TRHDZ,Data Float after RD,,97,,2TCLCL-70,ns
+TLLDV,ALE Low to Valid Data In,,517,,8TCLCL-150,ns
+TAVDV,Address to Valid Data In,,585,,9TCLCL-165,ns
+TLLWL,ALELow toRDorWR Low,200,300,3TCLCL-50,3TCLCL+50,ns
+TAVWL,Address to RD or WR Low,203,,4TCLCL-130,,ns
+TQVWX,Data Valid to WRTransition8751HAll Others,1323,,TCLCL-70TCLCL-60,,nsns
+TQVWH,DataValid toWR High,433,,7TCLCL-150,,ns
+TWHQX,Data Holdafter WR,33,,TCLCL-50,,ns
+TRLAZ,RD Low to Address Float,,20,,20,ns
+TWHLH,RDorWR High toALE High8751HAll Others,3343,133123,TCLCL-50TCLCL-40,TCLCL+50TCLCL+40,nsns

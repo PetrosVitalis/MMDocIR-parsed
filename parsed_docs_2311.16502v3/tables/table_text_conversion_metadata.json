@@ -1,0 +1,707 @@
+[
+  {
+    "table_id": "table_1",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.30)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": [[\"Art & Design\", \"Art & Design\", \"Business\", \"Science\"], [\"Question:\", \"Among the following harmonic intervals, which one is constructed incorrectly? Options: 专 里 8 (A) Major third <image 1> 非 品 (B) Diminished fifth <image 2>\", \"Question: ... The graph shown is compiled from data collected by Gallup <image 1>.Find the probability thatthe selected Emotional Health Index Score is between 80.5 and 82? Options: (A)0 (B) 0.2142 <img src=\\\"images/5de8f4ff23f05aaa18a697036484e8a5eabb995c6a84310bdf06847811abfe1e.jpg\\\"/> (C) 0.3571 (D) 0.5\", \"Question: <image 1> The region bounded by the graph as shown above. Choose an integral expression that can be used to find the area of R. Options: （A) \\\\begin{array} { r } { \\\\int _ { 0 } ^ { 1 . 5 } [ f ( x ) - g ( x ) ] d x } \\\\end{array} (B) \\\\begin{array} { r } { \\\\int _ { 0 } ^ { 1 . 5 } [ g ( x ) - f ( x ) ] d x } \\\\end{array} <img src=\\\"images/0e0c2e9e45899bf49d05d57509abe089de83a477dfcbaae08d52fe4582df65ac.jpg\\\"/> (C) \\\\begin{array} { r } { \\\\int _ { 0 } ^ { 2 } [ f ( x ) - g ( x ) ] d x } \\\\end{array}\", \"(D) Diminished sixth <image 4> 手 0 目\", \"Subject: Music; Subfield: Music; Image Type: Sheet Music;\", \"Subject: Marketing; Subfield: Market Research; Image Type: Plots and Charts;\", \"(D) \\\\begin{array} { r } { \\\\int _ { 0 } ^ { 2 } [ g ( x ) - x ( x ) ] d x } \\\\end{array} Subject: Math; Subfield: Calculus; Image Type: Mathematical Notations;\", \"Difficulty: Medium Health& Medicine\", \"Difficulty: Medium Humanities & Social Science\", \"Difficulty: Easy Tech & Engineering\"], [\"Question:\", \"You are shown subtraction <image 1>, T2 weighted <image 2> and T1 weighted axial <image3> from a screening breast MRI. What is the etiologyof thefinding inthe leftbreast?\", \"Question: In the political WHATTHE UNITED STATESHASFOUGHTFOR cartoon,the United States is seen as fulfilling which of the following roles?<img src=\\\"images/a5ec174dc0ea9c71eba2e08e307c3ee2806587da086f5a19107e3d13839370a6.jpg\\\"/> <image1>\", \"Question: Find the VCE for the circuit shown in <image 1>.Neglect VBE Answer: 3.75 Explanation: ..IE=[(VEE)/\", \"Options: (A) Susceptibility artifact <img src=\\\"images/733929b86252829297b76f07ab1b43e74a91e55565ca5ae77d4b15b3d9acca16.jpg\\\"/> (B)Hematoma (C) Fat necrosis (D) Silicone granuloma\", \"Option: (A) Oppressor (B) Imperialist <img src=\\\"images/6cee005b3bc4d1d278aa52eab481de55b6ae532d6803180b17df0b4f0e051ec5.jpg\\\"/> (C) Savior (D) Isolationist Subject: History; Subfield: Modern\", \"(RE)]=[(5 V)/ (4 k-ohm)] = <img src=\\\"images/7c4263a446dd2fcf672c9ee75c26028cdce3963d103ab25e72b8cf07e8d030db.jpg\\\"/> 1.25 mA; VCE= VCC- IERL = 10 V - (1.25 mA) 5 k-ohm; VCE=10V-6.25V=3.75V\"], [\"Subject: Clinical Medicine; Subfield: Clinical Radiology; Image Type: Body Scans: MRI, CT.; Difficulty: Hard\", \"History; Image Type: Comics and Cartoons; Difficulty: Easy\", \"Subject: Electronics; Subfield: Analog electronics; Image Type: Diagrams; Difficulty: Hard\"]]}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_2",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_3",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_4",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_5",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_6",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_7",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_8",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_9",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_10",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_11",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_12",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_13",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"cells\":[[\"Art Theory: Art History\", \"Question: The original placement of this painting was\"],[\"Option: (A)\",\"in the Prado Museum in Madrid, showing a willingness to be compared to great Spanish painters of the past (B) in the cathedral in Madrid, indicating a desire to find acceptance with the Catholic Church (C) in the study of King Philip IV, challenging him to consider the multitude of interpretations the painting represents (D)in the reception room at the Royal Palace in Madrid, where the portraits of the royal family would be viewable by visiting dignitaries\"],[\"\"],[\"<image 1>\", \"GPT-4V: This painting is \\\"Las Meninas\\\" by Diego Velazquez. The original placement of this painting was (A) in the Prado Museum in Madrid, showing a willingness to be compared to great Spanish painters of the past.\"],[\"Error Reason: GPT-4V successfully recognizes that the painting is Las Meninas (1656), painted by Velazquez, showcasing its perceptual ability. However, it does not know the fact that the work was placed in the study of King Philip IV. GPT-4V suggests that the painting was placed in Prado Museum in Madrid,and even provides a reason to support this answer, which is the wilingness to be compared to great Spanish painters in the past. This shows some reasoning ability. However, the original placement is a piece of factual knowledge; the reasoning was based on incorrect knowledge and it led to a wrong answer. This behavior illustrates that GPT-4V lacks specific art knowledge.\"],[\"Ground Truth: (C) in the study of King Philip IV, challenging him to consider the multitude of interpretations the painting represents\"]]}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_14",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_15",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_16",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_17",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_18",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_19",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_20",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_21",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_22",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.31)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": [[\"Question: A 41-year-old woman has noted a vaginal discharge persisting for 3 weeks. On pelvic examination her ectocervix is erythematous. Cervical biopsies are taken and on microscopic examination reveal the appearance seen here <image 1>. Which of the following is the most likely diagnosis?\", \"\"], [\"Option: (A) Human papillomavirus infection\", \"(B) Ingestion of chili peppers\"], [\"(C) Diabetes mellitus\", \"\"], [\"(D) Tuberculosis\", \"(E) Chronic inflammation\"], [\"<image 1>\", \"\"], [\"GPT-4V: The image provided appears to be a microscopic view of cervical tissue with a characteristic appearance. The histopathological features seen here are suggestive of koilocytes, which are squamous epithelial cels with a perinuclear clearing (halo) and irregular, raisin-like nuclei. Koilocytes are a hallmark of human papillomavirus (HPV) infection. Based on the provided\", \"image and clinical information, the most likely diagnosis is: (A) Human papillomavirus infection.\"], [\"Error Category: Perceptual Error Error Reason: GPT-4V incorrectly interprets the details of the image. The image contains “the inflammatory cell population of mononuclear cells, mainly small round lymphocytes\\\" a \\\"squamous metaplasia\\\", while GPT-4V identifies them as \\\"koilocytes\\\".\", \"and\"], [\"Ground Truth: (E) Chronic inflammation Explanation: A. HPV produces viral cytopathic effect such as koilocytotic change and atypical changes in the squamous epithelial cells. It can drive the process to dysplasia and to carcinoma. HPV by itself does not produce significant inflammation. B. The capsaicin in chili tends to iritate nerve endings to produce the hot burning sensation, as a local effect in oral cavity. It is not systemic. Capsaicin has been used to treat dyspareunia with vulvar vestibulitis, probably by afecting nerve- ending mediated sensation, and there is no significant degree of inflammation. C. Diabetes mellitus may increase the risk for infections, but by itself does not explain the inflammation seen here. D. Tuberculosis of the genital tract is rare; mycobacterial infections tend to produce granulomatous inflammation. E. This is a chronic inflammatory process， based upon the inflammatory cell population of mononuclear cells, mainly smal round lymphocytes. There is also some hemorrhage.\", \"\"]]}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_23",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_24",
+    "status": "failed",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~6, got=1)",
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\"header\":[\"× Diagnostics and Laboratory Medicine: Ophthalmic Pathology\"],\"rows\":[[\"Question: This intraocular tumor is from a 55-year-old man. Which of the folowing statements BEST describes the lesion. <image 1> Option: (A) This tumor is a classic epithelioid choroidal melanoma with necrosis (B)This may represent a retinoblastoma because of the classic pattern of necrosis and small round blue cells with rare pseudorosettes. (C) This tumor may represent the most common type of intraocular neoplasm, and requires further work-up to distinguish it from melanoma.\"],[\"\"],[\"<image 1> GPT-4V: Based on the image provided and without the ability to perform further clinical or pathological tests,it's challenging to provide a definitive diagnosis.However,Ican offer an analysis based on the image and the choices provided: (A) Choroidal melanoma is a malignant tumor that arises from the pigmented cells of the choroid, which is a part of the uveal tract of the eye. Epithelioid melanoma cells are large with abundant cytoplasm and prominent nucleoli. Necrosis may be present, and if the image shows large epithelioid cells with these features, then this choice could be considered. (B) Retinoblastoma is a malignant tumor of the retina that predominantly affects children. It is characterized by small round blue cells，which can form pseudorosettes (rosettes that don't surround a lumen). If the image displays these features, then this could be a possibility. (C) Choroidal melanoma is the most common primary intraocular malignancy in adults. If the\"],\"rows[3]\\\":[\"],\":[\":\",\""
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "LLM repair returned empty/non-table JSON",
+        "validation_errors": [
+          "missing_data_rows",
+          "row_count_out_of_bounds(expected~6, got=1)",
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\n  \"table_data\": [\n    [\"Diagnostics and Laboratory Medicine: Ophthalmic Pathology\"],\n    [\"Question\", \"This intraocular tumor is from a 55-year-old man. Which of the folowing statements BEST describes the lesion. <image 1> Option: (A) This tumor is a classic epithelioid choroidal melanoma with necrosis (B)This may represent a retinoblastoma because of the classic pattern of necrosis and small round blue cells with rare pseudorosettes. (C) This tumor may represent the most common type of intraocular neoplasm, and requires further work-up to distinguish it from melanoma.\"],\n    [\"GPT-4V Analysis\", \"Based on the image provided and without the ability to perform further clinical or pathological tests,it's challenging to provide a definitive diagnosis.However,Ican offer an analysis based on the image and the choices provided: (A) Choroidal melanoma is a malignant tumor that arises from the pigmented cells of the choroid, which is a part of the uveal tract of the eye. Epithelioid melanoma cells are large with abundant cytoplasm and prominent nucleoli. Necrosis may be present, and if the image shows large epithelioid cells with these features, then this choice could be considered. (B) Retinoblastoma is a malignant tumor of the retina that predominantly affects children. It is characterized by small round blue cells，which can form pseudorosettes (rosettes that don't surround a lumen). If the image displays these features, then this could be a possibility. (C) Choroidal melanoma is the most common primary intraocular malignancy in adults. If the\"],\n    [\"Further Work-Up\", \"image shows features of melanoma but lacks the classic appearance of epithelioid melanoma or retinoblastoma, then further work-up would be necessary.\"],\n    [\"Prognosis Considerations\", \"Making a prognosis solely based on an image can be challenging. Even if the tumor appears to be completely excised with clear margins in the image,other factors, such as tumor size, type, location, and potential metastasis,would play a role in determining the prognosis.\"],\n    [\"Error Category\", \"Ground Truth\", \"Reject to Answer Eror Reason: GPT-4V refuses to answer this question without further clinical or pathological tests.\", \"(C) This tumor may represent the most common type of intraocular neoplasm, and requires further work-up to distinguish it from melanoma.\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_25",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.11)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"cells\":[[\"Pharmacy: Pharmacology and Drug Synthesis\"],[\"Question: The following synthetic scheme <image 1> has been used to synthesize raltegravir. If you wanted to create a number of analogues, which substituent <image 2> could be varied most efficiently using this synthesis? Option: (A) The type of substituent A on the aromatic ring (B) The type of alkyl substituent B present (C) The type of heterocyclic ring C present (D) The length of the chain D between the amide and the aromatic ring\"],[\"\",\"\",\"\"],[\"<img src=\\\"images/031c989a195624e4ec8c45b1b8b523196adae70c56f89d42453aa7bb8e14bef6.jpg\\\">\",\"<img src=\\\"images/6c2374c377ab27ce2e371862fc6cb4dded8e5e2d664d8d6002a55c01aa0889e8.jpg\\\">\"],[\"GPT-4V: Given the synthetic scheme provided, let's analyze each option: (A) The type of substituent A on the aromatic ring: In the second image, substituent A is located on\",\"the aromatic ring. Since this is present at the end of the molecule, it might be relatively easy to vary it, as it doesn't interfere with the rest of the synthesis. (B) The type of alkyl substituent B present: Substituent B is an alkyl group attached to the heterocyclic ring. Altering this substituent would require modifying the building block that is used to make this part of the molecule, which might be a bit more challenging. (C) The type of heterocyclic ring C present: The heterocyclic ring Cappears to be a critical part of the structure and seems to be central to the synthesis. Modifying this ring would likely require significant changes to the entire synthesis. (D) The length of the chain D between the amide and the aromatic ring: Changing the length of chain D would require altering the length of the carbon chain in the precursor molecule. This change could be achieved by selecting different precursors with varied chain lengths. Thus, (A) The type of substituent A on the aromatic ring seems to be the most efficiently varied using this synthesis. The aromatic ring can be easily subjected to a variety of substitution reactions to achieve analogues with diferent substituents without disturbing the rest of the molecule.\"],[\"Error Category: Lack of Knowledge Error Reason: GPT-4V successfully understands the images and text. However, due to the lack of specific knowledge about \\\"The synthesis is most efficient for creating analogues with a variety of heterocyclic rings\\\", GPT-4V assumes \\\"substituent A is located on the aromatic ring, which is at the end of the molecule, and it might be relatively easy to vary it, as it doesn't interfere with the rest of the synthesis\\\" and subsequently makes an incorrect prediction.\"],[\"Ground Truth: (C) The type of heterocyclic ring C present Explanation: It is possble to use this synthesis to create analogues where all the positions indicated are modified as described. However, the synthesis is most efficient for creating analogues with a variety of heterocyclic rings. That is because the reaction sequence could be carried out on large scale to produce a supply of the penultimate structure. Analogues could then be created in one step by reacting this structure with different heterocyclic acid chlorides. If the synthetic scheme was used to create analogues at the other positions indicated, then more reactions will be needed. For example, varying the type of alkyl substituent present at position B would involve carrying out the complete synthesis for each analogue.\"]]}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_26",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_27",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_28",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_29",
+    "status": "failed",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.13)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.07)"
+        ],
+        "raw_llm_output": "{\n  \"rows\": [\n    [\"× History: Modern History Question\", \"In the political cartoon, the United States is seen as fulfilling which of the following roles?\"],\n    [\"Option:\", \"(A) Oppressor (B) Imperialist (C) Savior (D) Isolationist\"],\n    [\"\", \"\"],\n    [\"GPT-4V:\", \"Based on the political cartoon, the United States is seen as fulfilling the role of: (B) Imperialist.\"],\n    [\"Error Category:\", \"Perceptual Error Error Reason: GPT-4V wrongly interprets the image, because it doesn't correctly interpret the contradiction between the comics on the top half and the bottom half. The perspective of the cartoonist is that the United States has been a savior to the nations brought under its control, saving them from poverty or oppression and bringing them trade， prosperity， and democratic governments. This mistake also indicates that GPT-4V holds some wrong political beliefs.\"],\n    [\"Ground Truth:\", \"Explanation: The perspective of the cartoonist is that the United States has been a savior to the nations brought under its control, saving them from poverty or oppression and bringing them trade, prosperity, and democratic governments. Although one might be tempted to cast the United States in the role of imperialist (B),the purpose of the cartoon is to highlight the positive transformation of the people due to their \\\"rescue\\\" by the United States, rather than the benefits to the United States. Because the cartoon claims the people are better offor having been \\\"rescued\\\" by the United States, the United States is not seen as an oppressor (A). Since isolationists do not support foreign intervention, (D) cannot be the correct answer.\"]\n  ]\n}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.07)"
+        ],
+        "raw_llm_output": "{\n  \"table\": [\n    [\"× History: Modern History Question\", \"In the political cartoon, the United States is seen as fulfilling which of the following roles?\"],\n    [\"Option:\", \"(A) Oppressor (B) Imperialist (C) Savior (D) Isolationist\"],\n    [\"GPT-4V:\", \"Based on the political cartoon, the United States is seen as fulfilling the role of: (B) Imperialist.\"],\n    [\"Error Category:\", \"Perceptual Error Error Reason: GPT-4V wrongly interprets the image, because it doesn't correctly interpret the contradiction between the comics on the top half and the bottom half. The perspective of the cartoonist is that the United States has been a savior to the nations brought under its control, saving them from poverty or oppression and bringing them trade， prosperity， and democratic governments. This mistake also indicates that GPT-4V holds some wrong political beliefs.\"],\n    [\"Ground Truth:\", \"Explanation: The perspective of the cartoonist is that the United States has been a savior to the nations brought under its control, saving them from poverty or oppression and bringing them trade, prosperity, and democratic governments. Although one might be tempted to cast the United States in the role of imperialist (B),the purpose of the cartoon is to highlight the positive transformation of the people due to their \\\"rescue\\\" by the United States, rather than the benefits to the United States. Because the cartoon claims the people are better off or having been \\\"rescued\\\" by the United States, the United States is not seen as an oppressor (A). Since isolationists do not support foreign intervention, (D) cannot be the correct answer.\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_30",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_31",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_32",
+    "status": "success",
+    "method": "llm_from_table",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": "{\"header\":[\"Electronics : Signal Processing\",\"\"],\"rows\":[[\"Question: A balanced set of three-phase voltages is connected to an unbalanced set of Y-connected impedances as shown in <imagel>. The following values are known  $V _ { a b } = 2 1 2 \\u00c5ngle 9 0 ^ { \\\\circ } V , Z _ { a n } = 1 0 +$  jo\\u03a9,  $V _ { b c } = 2 1 2 \\u00c5ngle - 1 5 0 ^ { \\\\circ } V , Z _ { b n } = \\\\overline { { { 1 0 } } } + j 1 0 \\\\ \\\\Omega , V _ { c b } = 2 \\\\overline { { { 1 } } } 2 \\u00c5ngle - 3 0 ^ { \\\\circ } V , Z _ { c n } = 0 - j 2 0 \\\\ \\\\Omega$  . Find the magnitude of current  $I _ { b ^ { \\\\prime } b } .$ \",\"\"],[\"\",\"<img src=\\\"images/ce4c2d61649002c55b60736cc7e8bd44b54836915483492305b4f4588eda10f9.jpg\\\"/>\"],[\"GPT-4V: To find the magnitude of the line current  ${ \\\\cal I } _ { b ^ { \\\\prime } b }$  we need to find the phase current  $I _ { b \\\\mathrm { n } }$  . The phase current can be found using Ohm&#x27;s Law:I  $\\begin{array} { r } { = \\\\frac { v } { z } . } \\u00a0\\\\end{array}$  Given:  $V _ { a b } = 2 1 2 \\u00c5ngle 9 0 ^ { \\\\circ } V _ { \\\\cdot }$   $V _ { b c } = 2 1 2 \\u00c5ngle - 1 5 0 ^ { \\\\circ } V ,\\\\u00a0$   $V _ { c a } = 2 1 2 \\u00c5ngle - 3 0 ^ { \\\\circ } V ; Z _ { a n } = 1 0 + j 0 \\\\Omega , Z _ { b n } = 1 0 + j \\\\tilde { 1 0 } \\\\Omega , Z _ { c n } = 0 - j 2 0 \\\\Omega$  . Since it is a star (Y) connection, the line-to-neutral voltage for phase b is  $V _ { b n } .$  And:  $V _ { b n } = V _ { b c } - V _ { c a } .$  Given that:  $V _ { b c } =$   $2 1 2 \\u00c5ngle - 1 5 0 ^ { \\\\circ } V$   $V _ { c a } = 2 1 2 \\u00c5ngle - 3 0 ^ { \\\\circ } V$  Using the phasor method for subtraction:  $V _ { b n } =$  /  $2 1 2 \\u00c5ngle - 1 5 0 ^ { \\\\circ } - 2 1 2 \\u00c5ngle - 3 0 ^ { \\\\circ }$  .For phasor addition or subtraction, it\\u2019s easier to convert the phasors to rectangular form， perform the arithmetic, and then convert back to polar form.  $V _ { b c } =$  212 cos(-150\\u00b0) +j(212 sin(-150\\u00b0)),  $V _ { c a } = 2 1 2 c o s ( 3 0 ^ { \\\\circ } ) + j ( 2 1 2 s i n ( 3 0 ^ { \\\\circ } ) )$  Subtracting the two phasors:  $V _ { b c } = ( V _ { b c } r e a l - V _ { c a } r e a l ) + j ( V _ { b c } i m a g - V _ { c a } i m a g )$  Once  $V _ { b \\\\mathrm { n } }$  is calculated in rectangular form, convert it to polar form to get its magnitude and angle.\",\"\"],[\"Now, using Ohm\\u2019s Law for phase b:  $\\begin{array} { r } { I _ { b n } = \\\\frac { V _ { b n } } { Z _ { b n } } , I _ { b n } = \\\\frac { V _ { b n } m a g n i t u d e \\u03c5 V _ { b n } a n g l e } { 1 0 + j 1 0 } . } \\u00a0\\\\end{array}$  Again, convert  $I _ { b n }$  to rectangular form and then back to polar form to get its magnitude and angle. In a Y-connected system, the line current is equal to the phase current for that phase:  $I _ { b ^ { \\\\prime } b } = I _ { b n }$  The magnitude of  $I _ { b ^ { \\\\prime } b }$  is equal to the magnitude of  $I _ { b n } .$  To provide a numerical value, we would have to go through the above calculations. Would you like me to proceed with that?\",\"\"],[\"Error Category: Reject to Answer Eror Reason: GPT-4V\\u2019s reasoning steps are correct, however, it does not want to involve the complex computation, therefore, it rejects to answer.\",\"\"]]}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_33",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_34",
+    "status": "failed",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\n  \"data\": [\n    [\"Disciplines\", \"Subjects\", \"Subfields\"],\n    [\"Art & Design\", \"Art\", \"Fine Arts, Drawing and Painting,Photography,Printmaking,Ceramic Art,Visual Arts, Sculpture,AI Content Detection\"],\n    [\"Art & Design\", \"Design\", \"Digital Art,Design History,Graphic Design,Fashion Design,Interior Design,Industrial Design\"],\n    [\"Art & Design\", \"Music\", \"Music\"],\n    [\"Art & Design\", \"Art Theory\", \"History of Art Theory,Art History,Art Criticism,Aesthetics,Contemporary Art Theory, Visual Culture,Postmodern Art Theory,Phenomenology of Art\"],\n    [\"Art & Design\", \"Accounting\", \"Financial Accounting,Investment, Managerial Accounting\"],\n    [\"Business\", \"Economics\", \"Macroeconomics,Microeconomics,Econometrics,Labor Economics,Principals of Economics\"],\n    [\"Business\", \"Finance\", \"Financial Marketing,Financial Management,Corporate Finance,Managerial Finance\"],\n    [\"Business\", \"Manage\", \"Operations Management, Strategic Management, Business Management, Project Management, Cost Management, Principles of Management,Management Models\"],\n    [\"Business\", \"Marketing\", \"Market Research\"],\n    [\"Science\", \"Chemistry\", \"Inorganic Chemistry,Organic Chemistry,Physical Chemistry,Chemical Thermodynamic,\"],\n    [\"Science\", \"Geography\", \"Analytical Chemistry,Chemical Kinetics,Biochemistry, Quantum Chemistry Geotechnical Engineering,Human Geography,Physical Geography, Geographic Information Systems,\"],\n    [\"Science\", \"Math\", \"International Geography Olympiad Calculus,Probability and Statistics,Linear Algebra,Geometry,Logic,Graph Theory,Group Theory,\"],\n    [\"Science\", \"Physic\", \"Operation Research Clasical Mechanics,Electromagnetism,Thermodynamics and Statistical Mechanics,Optics,Nuclear Physics\"],\n    [\"Science\", \"Psychology\", \"Biological Psychology, Cognitive Psychology,Personality Psychology, Clinical Psychology,\"],\n    [\"Science\", \"Basic\", \"Social Psychology, Developmental Psychology,Abnormal Psychology Immunology, Biochemistry and Genetics,Foundational Anatomical Sciences,Microbiologyand Immunology, Neurosciences,Anatomy,Neuroanatomy,Neurophysiology,Cardiovascular Physiology,Human Physiology,\"],\n    [\"Health & Medicine\", \"Medical Science Clinical Medicine\", \"Reproductive Physiology,Respiratory Physiology,Renal Physiology,Pathophysiology, Cellular Physiology Clinical Medicine,Dental, Circulatory,Respiratory,Clinical Neurology, Orthopaedic Surgery,\"],\n    [\"Health & Medicine\", \"Diagnostics &\", \"Heart Disease,Endocarditis,Cardiovascular Medicine,Endocrinology, Otolaryngology,Ophthalmology, Urology, Clinical Pathology, Clinical Radiology Medica Imaging,Neuropathology,Pathology,Ophthalmic Pathology,Forensic Neuropathology,\"],\n    [\"Health & Medicine\", \"Laboratory Medicine Pharmacy\", \"Electrocardiography,Radiology Pharmaceutical Microbiology,Medicinal Chemistry, Biochemistry for Pharmaceutical Sciences,\"],\n    [\"Health & Medicine\", \"Public Health\", \"Pharmacology and Drug Synthesis Epidemiology,Biostatistics,Communicable Disease Control\"],\n    [\"Health & Medicine\", \"\", \"\"],\n    [\"Health & Medicine\", \"& Social Science\", \"Literature\"],\n    [\"Tech &\", \"Sociology\", \"Sociology Theory, Social Economics,Political Economics.\"],\n    [\"Tech &\", \"Agriculture\", \"Animal Physiology,Animal Science,Animal Nutrition,Reproduction,Genetics,PlantPhsiology, Plant Pathology,Animal and Environment,Animal Anatomy\"],\n    [\"Tech &\", \"Architecture\", \"Surveying and Mapping,Structural Engineering, Water Resources Engineering, Civil Engineering Data Structure and Algorithm,Computer Network, Artificial Intelligence, Databases,\"],\n    [\"Tech &\", \"Computer Science\", \"Operating Systems, Compiler Principle, Computer Architecture\"],\n    [\"Tech &\", \"Engineering Electronics\", \"Analog electronics,Digital electronics,Electrical Circuit,Signal Processing\"],\n    [\"Tech &\", \"Energy & Power\", \"Thermodynamics,Heat Transfer,Fluid Mechanics\"],\n    [\"Tech &\", \"Materials\", \"Materials Science,Mechanics of Materials\"],\n    [\"Tech &\", \"\", \"\"],\n    [\"Tech &\", \"Mechanical\", \"Fluid Dynamics,Mechanical Design,Mechanics of Materials,Mechanical Vibrations,\"],\n    [\"Tech &\", \"\", \"\"],\n    [\"Tech &\", \"Engineering\", \"Engineering Dynamics,Control Systems,Engineering Graphics\"]\n  ]\n}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "row_count_out_of_bounds(expected~33, got=28)",
+          "numeric_token_coverage_low(0.00)"
+        ],
+        "raw_llm_output": "{\n  \"table\": [\n    [\"Disciplines\", \"Subjects\", \"Subfields\"],\n    [\"Art & Design\", \"Art\", \"Fine Arts, Drawing and Painting,Photography,Printmaking,Ceramic Art,Visual Arts, Sculpture,AI Content Detection\"],\n    [\"Art & Design\", \"Design\", \"Digital Art,Design History,Graphic Design,Fashion Design,Interior Design,Industrial Design\"],\n    [\"Art & Design\", \"Music\", \"Music\"],\n    [\"Art & Design\", \"Art Theory\", \"History of Art Theory,Art History,Art Criticism,Aesthetics,Contemporary Art Theory, Visual Culture,Postmodern Art Theory,Phenomenology of Art\"],\n    [\"Art & Design\", \"Accounting\", \"Financial Accounting,Investment, Managerial Accounting\"],\n    [\"Business\", \"Economics\", \"Macroeconomics,Microeconomics,Econometrics,Labor Economics,Principals of Economics\"],\n    [\"Business\", \"Finance\", \"Financial Marketing,Financial Management,Corporate Finance,Managerial Finance\"],\n    [\"Business\", \"Manage\", \"Operations Management, Strategic Management, Business Management, Project Management, Cost Management, Principles of Management,Management Models\"],\n    [\"Business\", \"Marketing\", \"Market Research\"],\n    [\"Science\", \"Chemistry\", \"Inorganic Chemistry,Organic Chemistry,Physical Chemistry,Chemical Thermodynamic,\"],\n    [\"Science\", \"Geography\", \"Analytical Chemistry,Chemical Kinetics,Biochemistry, Quantum Chemistry Geotechnical Engineering,Human Geography,Physical Geography, Geographic Information Systems,\"],\n    [\"Science\", \"Math\", \"International Geography Olympiad Calculus,Probability and Statistics,Linear Algebra,Geometry,Logic,Graph Theory,Group Theory,\"],\n    [\"Science\", \"Physics\", \"Operation Research Classical Mechanics,Electromagnetism,Thermodynamics and Statistical Mechanics,Optics,Nuclear Physics\"],\n    [\"Science\", \"Psychology\", \"Biological Psychology, Cognitive Psychology,Personality Psychology, Clinical Psychology,\"],\n    [\"Science\", \"Basic\", \"Social Psychology, Developmental Psychology,Abnormal Psychology Immunology, Biochemistry and Genetics,Foundational Anatomical Sciences,Microbiologyand Immunology, Neurosciences,Anatomy,Neuroanatomy,Neurophysiology,Cardiovascular Physiology,Human Physiology,\"],\n    [\"Health & Medicine\", \"Medical Science Clinical Medicine\", \"Reproductive Physiology,Respiratory Physiology,Renal Physiology,Pathophysiology, Cellular Physiology Clinical Medicine,Dental, Circulatory,Respiratory,Clinical Neurology, Orthopaedic Surgery,\"],\n    [\"Health & Medicine\", \"Diagnostics & Laboratory Medicine Pharmacy\", \"Heart Disease,Endocarditis,Cardiovascular Medicine,Endocrinology, Otolaryngology,Ophthalmology, Urology, Clinical Pathology, Clinical Radiology Medical Imaging,Neuropathology,Pathology,Ophthalmic Pathology,Forensic Neuropathology,\"],\n    [\"Health & Medicine\", \"Public Health\", \"Pharmacology and Drug Synthesis Epidemiology,Biostatistics,Communicable Disease Control\"],\n    [\"Tech & Social Science\", \"Sociology\", \"Sociology Theory, Social Economics,Political Economics.\"],\n    [\"Tech & Agriculture\", \"Agriculture\", \"Animal Physiology,Animal Science,Animal Nutrition,Reproduction,Genetics,PlantPhsiology, Plant Pathology,Animal and Environment,Animal Anatomy\"],\n    [\"Tech & Architecture\", \"Architecture\", \"Surveying and Mapping,Structural Engineering, Water Resources Engineering, Civil Engineering Data Structure and Algorithm,Computer Network, Artificial Intelligence, Databases,\"],\n    [\"Tech & Computer Science\", \"Computer Science\", \"Operating Systems, Compiler Principle, Computer Architecture\"],\n    [\"Tech & Engineering Electronics\", \"Engineering Electronics\", \"Analog electronics,Digital electronics,Electrical Circuit,Signal Processing\"],\n    [\"Tech & Energy & Power\", \"Energy & Power\", \"Thermodynamics,Heat Transfer,Fluid Mechanics\"],\n    [\"Tech & Materials\", \"Materials\", \"Materials Science,Mechanics of Materials\"],\n    [\"Tech & Mechanical Engineering\", \"Mechanical Engineering\", \"Fluid Dynamics,Mechanical Design,Mechanics of Materials,Mechanical Vibrations,\"],\n    [\"Tech & Control Systems\", \"Control Systems\", \"Engineering Dynamics,Control Systems,Engineering Graphics\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_35",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_36",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  }
+]

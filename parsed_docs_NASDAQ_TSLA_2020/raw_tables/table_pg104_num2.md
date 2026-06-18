@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">December 31, 2020</td></tr><tr><td>$</td><td>15,989</td><td>2019 $ 15,644</td></tr><tr><td>United States International</td><td>2,737</td><td>890</td></tr><tr><td>Total $</td><td>18,726</td><td>$ 16,534</td></tr></table>

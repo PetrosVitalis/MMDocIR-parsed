@@ -1,0 +1,43 @@
+Operation,Tenant Administ rator,Tenant Guest,OBS Administ rator,OBS BucketsViewer,OBS ReadOnlyAccess,OBS Operate Access
+Listingbuckets,Yes,Yes,Yes,Yes,Yes,Yes
+Creatingbuckets,Yes,No,Yes,No,No,No
+Deletingbuckets,Yes,No,Yes,No,No,No
+Obtaining basicbucket information,Yes,Yes,Yes,Yes,Yes,Yes
+Controllingbucketaccess,Yes,No,Yes,No,No,No
+Managing bucketpolicies,Yes,No,Yes,No,No,No
+Modifying bucketstorageclasses,Yes,No,Yes,No,No,No
+Listingobjects,Yes,Yes,Yes,No,Yes,Yes
+Listingobjectswithmultipleversions,Yes,Yes,Yes,No,No,No
+Uploadingfiles,Yes,No,Yes,No,No,Yes
+Creatingfolders,Yes,No,Yes,No,No,Yes
+Deletingfiles,Yes,No,Yes,No,No,Yes
+Deletingfolders,Yes,No,Yes,No,No,Yes
+Downloading files,Yes,Yes,Yes,No,No,Yes
+Deletingfiles withmultipleversions,Yes,No,Yes,No,No,Yes
+Downloading fileswithmultipleversions,Yes,Yes,Yes,No,No,Yes
+Modifying objectstorageclasses,Yes,No,Yes,No,No,No
+Restoringfiles,Yes,No,Yes,No,No,No
+Canceling thedeletionof files,Yes,No,Yes,No,No,Yes
+Deletingfragments,Yes,No,Yes,No,No,Yes
+Controlling objectaccess,Yes,No,Yes,No,No,No
+Configuring objectmetadata,Yes,No,Yes,No,No,No
+Obtaining objectmetadata,Yes,Yes,Yes,No,No,Yes
+Managingversioning,Yes,No,Yes,No,No,No
+Managing logging,Yes,No,Yes,No,No,No
+Managing tags,Yes,No,Yes,No,No,No
+Managinglifecyclerules,Yes,No,Yes,No,No,No
+Managing staticwebsitehosting,Yes,No,Yes,No,No,No
+Managing CORSrules,Yes,No,Yes,No,No,No
+ManagingURLvalidation,Yes,No,Yes,No,No,No
+Managingdomainnames,Yes,No,Yes,No,No,No
+Managing cross-regionreplication,Yes,No,Yes,No,No,No
+Managing imageprocessing,Yes,No,Yes,No,No,No
+Appending objects,Yes,No,Yes,No,No,Yes
+Configuring objectACL,Yes,No,Yes,No,No,No
+Configuring theACL for an objectof a specifiedversion,Yes,No,Yes,No,No,No
+Obtaining objectACLinformation,Yes,Yes,Yes,No,No,Yes
+ObtainingtheACLinformation of aspecifiedobjectversion,Yes,Yes,Yes,No,No,Yes
+Uploading in themultipartmode,Yes,No,Yes,No,No,Yes
+Listinguploadedparts,Yes,Yes,Yes,No,No,Yes
+Cancelingmultipartuploads,Yes,No,Yes,No,No,Yes
+Configuring onlinedecompression,Yes,No,No,No,No,No

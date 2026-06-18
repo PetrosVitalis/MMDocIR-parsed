@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Net cash provided by operating activities</td><td>$ 10,613 $ 9,649</td><td></td></tr><tr><td> Net cash used for investing activities</td><td>$(11,619) $ (6,437)</td><td></td></tr><tr><td>Net cash provided by/(used for) financing activities</td><td>$ 3,819 $ (8,489)</td><td></td></tr></table>

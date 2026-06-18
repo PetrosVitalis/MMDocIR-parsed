@@ -1,0 +1,8 @@
+Model,PPL,BLEU-2,N/T sro,N/T o,N/U o
+"9ENC9DEC (Sap et al., 2019)",,-,100.00,8.61,40.77
+"NearestNeighbor (Sap et al., 2019)",,-,-,-,-
+"Event2(IN)VOLUN (Sap et al., 2019)",,-,100.00,9.52,45.06
+"Event2PERSONX/Y (Sap et al., 2019)",,-,100.00,8.22,41.66
+"Event2PRE/POST (Sap et al., 2019)",,-,100.00,7.38,41.99
+COMET (- pretrain),15.42,13.88,100.00,7.25,45.71
+COMET,11.14,15.10,100.00,9.71,51.20

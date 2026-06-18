@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Type of asset</td><td rowspan=1 colspan=1>Useful lives</td></tr><tr><td rowspan=1 colspan=1>Rights under licensing agreementand software licences</td><td rowspan=1 colspan=1>Lower of licence period and2-5 years</td></tr><tr><td rowspan=1 colspan=1>Customer-related intangibles</td><td rowspan=1 colspan=1>3 years</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Jurisdiction</td><td>Tax Year(s)</td><td>Status</td></tr><tr><td>United States</td><td>2011-2014</td><td>Administrative appeals</td></tr><tr><td>United States</td><td>2015-2018</td><td>Field examination</td></tr><tr><td>California</td><td>2015-2016</td><td>Field examination</td></tr><tr><td>New York</td><td>2015-2019</td><td>Field examination</td></tr></table>

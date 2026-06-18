@@ -1,0 +1,9 @@
+Domain,Dataset,Split,Number of Examples
+STEM,MMLU high-school Physics,Test,151
+STEM,MMLU high-school Chemistry,Test,203
+Knowledge QA,TimeQA,Test,5226
+Knowledge QA,TimeQA Easy,Test,2613
+Knowledge QA,TimeQA Hard,Test,2613
+Knowledge QA,SituatedQA,Test,2901
+Multi-hop Reasoning,MuSiQue,Dev,2417
+StrategyQA,StrategyQA,Dev,229

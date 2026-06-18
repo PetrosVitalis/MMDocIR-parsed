@@ -1,0 +1,38 @@
+```tsv
+Repetition	External	Bigram	Unigram	Internal	Bigram	Unigram	Partner Rep.	Bigram	NIDF	Response-rel	Cos sim	Questions	Has '?'
+Gold data and baselines
+Gold Data	4.65%	9.62%	0.38%	0.97%	5.10%
+Greedy Search	35.88%	36.31%	8.08%	10.59%	12.20%
+Beam Search (beam size 20)	46.85%	44.15%	0.32%	0.61%	12.90%
+Repetition control (WD)
+Extrep bigram WD -0.5	19.70%	16.85%	0.26%	0.62%	11.93%
+Extrep bigram WD -1.25	4.62%	4.79%	0.40%	0.89%	10.61%
+Extrep bigram WD -3.5	0.75%	4.61%	0.47%	0.94%	9.89%
+Extrep bigram WD -inf	0.00%	4.74%	0.51%	1.05%	9.56%
+Repetition-controlled baseline	0.73%	0.00%	0.17%	0.00%	9.55%
+Question control (CT)
+Question-controlled CT 0	0.06%	0.00%	0.19%	0.00%	9.20%
+Question-controlled CT 1	0.09%	0.00%	0.19%	0.00%	8.66%
+Question-controlled CT 4	0.40%	0.00%	0.25%	0.00%	8.53%
+Question-controlled CT 7	0.80%	0.00%	0.17%	0.00%	8.48%
+Question-controlled CT 10	1.27%	0.00%	0.16%	0.00%	8.48%
+Question-controlled CT 10 (boost)*	7.64%	0.00%	0.03%	0.00%	10.76%
+Specificity control (CT)
+Specificity-controlled CT 0	0.60%	0.00%	0.20%	0.00%	9.05%
+Specificity-controlled CT 2	0.28%	0.00%	0.10%	0.00%	8.37%
+Specificity-controlled CT 4	0.12%	0.00%	0.08%	0.00%	7.90%
+Specificity-controlled CT 7	0.02%	0.00%	0.14%	0.00%	8.17%
+Specificity-controlled CT 9	0.01%	0.00%	0.11%	0.00%	8.01%
+Specificity control (WD)
+Specificity-controlled WD -10	0.14%	0.00%	10.59%	0.00%	8.70%
+Specificity-controlled WD -4	0.65%	0.00%	1.98%	0.00%	9.95%
+Specificity-controlled WD 4	0.15%	0.00%	0.19%	0.00%	7.54%
+Specificity-controlled WD 6	0.07%	0.00%	0.13%	0.00%	6.50%
+Specificity-controlled WD 8	0.01%	0.00%	0.10%	0.00%	3.40%
+Response-related control (WD)
+Response-related controlled WD -10	0.13%	0.00%	0.00%	0.00%	0.00%
+Response-related controlled WD 0	0.24%	0.00%	0.00%	0.00%	0.00%
+Response-related controlled WD 5	0.15%	0.00%	0.00%	0.00%	0.00%
+Response-related controlled WD 10	0.05%	0.00%	0.00%	0.00%	0.00%
+Response-related controlled WD 13	0.02%	0.00%	0.00%	0.00%	0.00%
+```

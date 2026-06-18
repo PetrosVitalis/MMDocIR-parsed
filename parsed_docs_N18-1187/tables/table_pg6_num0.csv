@@ -1,0 +1,5 @@
+Model,Area,Food,Price,Joint
+RNN,92,86,86,69
+RNN+sem. dict,92,86,92,71
+NBT,90,84,94,72
+Our SL model,90,84,92,72

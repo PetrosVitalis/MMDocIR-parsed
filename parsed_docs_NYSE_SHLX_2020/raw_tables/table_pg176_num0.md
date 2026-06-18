@@ -1,0 +1,1 @@
+<table><tr><td></td><td>December 31,2020</td></tr><tr><td> Weighted-average remaining lease term (years):</td><td></td></tr><tr><td>Operating leases</td><td>11.4</td></tr><tr><td></td><td></td></tr><tr><td>Weighted-average discount rate:</td><td></td></tr><tr><td>Operating leases</td><td>4.3 %</td></tr></table>

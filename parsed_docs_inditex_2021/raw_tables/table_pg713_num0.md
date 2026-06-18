@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Company name of the relatedparty</td><td rowspan=1 colspan=1>Brief description of the transaction andother information necessary for itsevaluation</td><td rowspan=1 colspan=1>Amount (thousand euros)</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>

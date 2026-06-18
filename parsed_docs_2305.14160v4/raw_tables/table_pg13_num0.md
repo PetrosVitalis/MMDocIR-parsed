@@ -1,0 +1,1 @@
+<table><tr><td></td><td>SST-2</td><td>TREC</td><td>AGNews</td><td>EmoC</td></tr><tr><td>GPT2-XL GPT-J</td><td>1.1× 1.5×</td><td>1.5× 2.2×</td><td>2.5× 2.9×</td><td>1.4× 1.9×</td></tr><tr><td> $L _ { \mathrm { d e m o } }$ </td><td>18</td><td>61</td><td>151</td><td>53</td></tr><tr><td> $L _ { \mathbf { x } }$ </td><td>19</td><td>7</td><td>37</td><td>12</td></tr></table>

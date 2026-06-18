@@ -1,0 +1,41 @@
+Val,Test,Agr.,Arch.&Eng.,Comp.Sci.,Electr.,Energy&Power,Materials,Mech.Eng.
+Overall,(210),"(2,784)",(287),(551),(371),(256),"""(432),(458),(429)""",
+Overall,(210),"(2,784)",(287),(551),(371),(256),"""(432),(458),(429)""",
+Random Choice,21.4,24.8,21.3,27.0,22.6,10.5,31.5,"24.2,28.7"
+Frequent Choice,24.8,26.5,24.7,24.1,29.6,12.9,30.3,"30.3,28.0"
+Val,Test,Agr.,Arch.&Eng.,Comp.Sci.,Electr.,Energy&Power,Materials,Mech.Eng.
+Overall,(210),"(2,784)",(287),(551),(371),(256),"""(432),(458),(429)""",
+Overall,(210),"(2,784)",(287),(551),(371),(256),"""(432),(458),(429)""",
+Large Multimodal Models (LMMs): Text + Image as Input,Large Multimodal Models (LMMs): Text + Image as Input,Large Multimodal Models (LMMs): Text + Image as Input,Large Multimodal Models (LMMs): Text + Image as Input,Large Multimodal Models (LMMs): Text + Image as Input,Large Multimodal Models (LMMs): Text + Image as Input,Large Multimodal Models (LMMs): Text + Image as Input,Large Multimodal Models (LMMs): Text + Image as Input,Large Multimodal Models (LMMs): Text + Image as Input
+OpenFlamingo2-9B [4],26.2,25.1,20.6,29.6,26.1,13.7,24.1,"26.0,28.4"
+Kosmos2 [47],26.7,26.8,20.6,28.3,32.1,10.2,29.9,"27.3,30.5"
+Fuyu-8B [6],21.4,26.4,26.5,25.0,26.1,12.1,35.0,"25.1,29.8"
+MiniGPT4-Vicuna-13B [71],23.8,27.2,29.6,23.8,28.8,13.7,36.1,"27.3,27.5"
+LLaMA-Adapter2-7B [65],30.0,25.7,23.0,25.2,25.6,17.6,30.3,"25.8,28.4"
+Otter [26],29.0,30.2,30.7,26.3,32.1,19.1,35.2,"30.1,34.7"
+CogVLM [55],27.6,28.9,26.8,27.0,31.8,14.1,33.1,"28.4,35.4"
+InstructBLIP-T5-XL [14],27.1,28.6,26.1,33.6,28.3,23.8,29.9,"22.9,31.5"
+BLIP-2 FLAN-T5-XL [27],27.6,27.8,17.8,32.5,26.7,20.7,33.6,"24.9,30.8"
+mPLUG-OWL2* [60],31.0,29.6,32.4,29.4,31.8,14.5,39.4,"26.6,28.2"
+SPHINX* [73],26.2,-,"-,-,-,-,-,-,-",,,,,
+Qwen-VL-7B [5] LLaVA-1.5-13B [34],32.9,30.2,33.1,25.0,33.4,19.1,37.0,"28.8,33.1"
+LLaVA-1.5-13B [34],,31.4,28.3,34.5,26.1,29.6,22.7,"30.1,26.9"
+InstructBLIP-T5-XXL [14] BLIP-2 FLAN-T5-XXL [27],35.2,29.4,28.2,24.7,30.3,29.6,20.7,"37.3,26.6"
+BLIP-2 FLAN-T5-XXL [27],,30.0,28.2,27.2,29.6,25.0,35.6,"26.9,38.0"
+Qwen-VL-PLUS* [74],36.7,32.9,40.4,25.6,36.1,24.6,33.6,"34.7,36.8"
+GPT-4V(ision) (Playground) [46] Gemini Ultra* [72],36.7,41.7,43.9,37.2,57.1,27.0,47.5,"36.9,41.0"
+Gemini Ultra* [72],,-,"-,-,-,-,-,-,-",,,,,
+Val,Test,Agr.,Arch.&Eng.,Comp.Sci.,Electr.,Energy&Power,Materials,Mech.Eng.
+Overall,(210),"(2,784)",(287),(551),(371),(256),"""(432),(458),(429)""",
+Overall,(210),"(2,784)",(287),(551),(371),(256),"""(432),(458),(429)""",
+Large Language Models (LLMs): Only Text as Input,Large Language Models (LLMs): Only Text as Input,Large Language Models (LLMs): Only Text as Input,Large Language Models (LLMs): Only Text as Input,Large Language Models (LLMs): Only Text as Input,Large Language Models (LLMs): Only Text as Input,Large Language Models (LLMs): Only Text as Input,Large Language Models (LLMs): Only Text as Input,Large Language Models (LLMs): Only Text as Input
+Llama2 7B [53],31.4,29.8,33.1,23.8,32.6,17.6,39.1,"27.9,32.6"
+FLAN-T5-XXL [12],28.6,28.3,21.3,30.3,28.8,25.4,26.6,"27.9,33.8"
+-,-,"-,-,-,-,-,-,-,-",,,,,,
++ OCR,30.0,29.7,20.2,30.7,31.3,27.0,29.9,"29.0,35.9"
++ LLaVA Caption,27.6,28.7,17.8,31.4,26.4,24.2,32.4,"26.4,35.7"
+Vicuna-13B [10],34.8,30.1,31.7,26.3,28.8,25.4,39.4,"26.4,32.6"
+-,-,"-,-,-,-,-,-,-,-",,,,,,
++ OCR,34.8,30.0,31.7,25.6,29.9,18.8,40.3,"27.5,33.6"
++ LLaVA Caption,32.4,31.4,32.4,26.9,31.8,20.3,39.8,"28.8,37.3"
+GPT-4 Text [45],20.0,28.4,28.9,25.6,33.4,17.2,38.4,"23.6,28.9"

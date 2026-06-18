@@ -1,0 +1,1 @@
+<table><tr><td>Actuarial Assumptions:</td><td>2023</td><td>2022</td></tr><tr><td>Discount Rate</td><td>2.50% - 4.84%</td><td>2.49% - 2.60%</td></tr><tr><td>Salary Increase Rate</td><td>2.25%- 4.00%</td><td>2.25%-4.49%</td></tr><tr><td>Pension Increase Rate</td><td>1.75%-3.00%</td><td>1.75%-3.49%</td></tr></table>

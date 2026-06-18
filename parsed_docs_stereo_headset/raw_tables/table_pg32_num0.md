@@ -1,0 +1,1 @@
+<table><tr><td>↑ Bluetooth</td><td></td></tr><tr><td>On</td><td></td></tr><tr><td>Pal</td><td>点</td></tr><tr><td></td><td></td></tr><tr><td>Aviili</td><td>C</td></tr><tr><td></td><td></td></tr><tr><td>常</td><td></td></tr></table>

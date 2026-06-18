@@ -1,0 +1,1 @@
+<table><tr><td>Class</td><td>Tamil-English</td></tr><tr><td>Positive Negative Mixed feelings Neutral</td><td>10,559 2,037 1,801 850</td></tr><tr><td>Other language Total</td><td>497 15,744</td></tr></table>

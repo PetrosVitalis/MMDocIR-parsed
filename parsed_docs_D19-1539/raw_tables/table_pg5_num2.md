@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>dev F1</td><td> test F1</td></tr><tr><td>ELM0BASE</td><td>95.2</td><td>95.1</td></tr><tr><td>CNN  $\mathrm { L a r g e + E L M o }$ </td><td>95.1</td><td>95.2</td></tr><tr><td>CNN Large + fine-tune</td><td>95.5</td><td>95.6</td></tr></table>

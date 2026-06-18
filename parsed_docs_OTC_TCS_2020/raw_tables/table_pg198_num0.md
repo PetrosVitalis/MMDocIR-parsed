@@ -1,0 +1,1 @@
+<table><tr><td>USD</td><td>EUR</td><td>GBP</td><td>Others</td></tr><tr><td>2,140</td><td>239</td><td>82</td><td>1,145</td></tr><tr><td>(3,257)</td><td>(325)</td><td>(160)</td><td>(249)</td></tr></table>

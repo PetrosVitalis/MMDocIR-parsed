@@ -1,0 +1,1 @@
+<table><tr><td>(Millions of dollars)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022</td><td>2023</td><td>2024</td><td>2025</td><td>2026</td><td>Thereafter</td><td>Total</td></tr><tr><td>$ 761</td><td>$ 478</td><td>$ 272</td><td>$145</td><td>$ 56</td><td>$ 28</td><td>$ 1,740</td></tr></table>

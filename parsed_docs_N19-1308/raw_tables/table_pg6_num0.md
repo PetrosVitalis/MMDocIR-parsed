@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Domain</td><td>Docs</td><td>Ent</td><td>Overlap</td><td>Coref</td></tr><tr><td>ACE04-0</td><td>News</td><td>443</td><td>7</td><td>42%</td><td>√</td></tr><tr><td>ACE05-0</td><td>News</td><td>437</td><td>7</td><td>32%</td><td></td></tr><tr><td>GENIA</td><td>Biomed</td><td>1999</td><td>5</td><td>24%</td><td>x</td></tr></table>

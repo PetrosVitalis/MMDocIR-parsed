@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">At December 31,</td></tr><tr><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Contractual weighted average coupon1</td><td>2.9%</td><td>3.4%</td><td>3.5%</td></tr><tr><td>Effective weighted average coupon after swaps</td><td>1.7 %</td><td>2.9%</td><td>3.6%</td></tr></table>

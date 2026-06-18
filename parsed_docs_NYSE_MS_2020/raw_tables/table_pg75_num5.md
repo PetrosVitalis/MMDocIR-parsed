@@ -1,0 +1,1 @@
+<table><tr><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>Corporate 5.1%</td><td>2.1%</td></tr><tr><td>Secured lending facilities 0.8%</td><td>0.4%</td></tr><tr><td>Commercial real estate 2.9%</td><td>1.0%</td></tr><tr><td>Other 1.7%</td><td>1.2%</td></tr><tr><td>Total Institutional Securities loans 1.8%</td><td>0.8%</td></tr></table>

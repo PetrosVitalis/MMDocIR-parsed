@@ -1,0 +1,1 @@
+<table><tr><td colspan="3"></td></tr><tr><td></td><td>Additions/ (Releases) **</td><td>Other ++</td><td>December31,2020</td></tr><tr><td>January 1,2020 * $262</td><td>$32</td><td>Write-offs + $(36)</td><td>$4 $263</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">December 31,2020</td><td colspan="2">December 31,2019</td></tr><tr><td></td><td>Ownership</td><td>Amount</td><td>Ownership</td><td>Amount 2</td></tr><tr><td>Cleopatra</td><td colspan="2">1.0% $ 2</td><td colspan="2">1.0% $</td></tr></table>

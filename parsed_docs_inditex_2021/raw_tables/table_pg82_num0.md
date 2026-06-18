@@ -1,0 +1,1 @@
+<table><tr><td>31/01/2022</td><td>31/01/2021</td></tr><tr><td>Euro 2</td><td>7</td></tr><tr><td>Turkish lira</td><td>1 ·</td></tr><tr><td>British pound</td><td>： ·</td></tr><tr><td>Indian rupee 2</td><td>2</td></tr><tr><td>Korean won</td><td>： 5</td></tr><tr><td>Rublo 27</td><td>-</td></tr><tr><td>Grivna 4</td><td>-</td></tr><tr><td>Total 36</td><td>14</td></tr></table>

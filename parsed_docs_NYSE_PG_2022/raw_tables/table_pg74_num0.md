@@ -1,0 +1,1 @@
+<table><tr><td>Years ending</td><td>2023</td><td>2024</td><td>2025</td><td>2026</td><td>2027</td><td>There-</td></tr><tr><td>June 30</td><td></td><td></td><td></td><td></td><td></td><td>after</td></tr><tr><td>Purchase obligations</td><td>$1,082</td><td>$ 494</td><td>$ 332</td><td>$ 259</td><td>$193</td><td>$ 425</td></tr></table>

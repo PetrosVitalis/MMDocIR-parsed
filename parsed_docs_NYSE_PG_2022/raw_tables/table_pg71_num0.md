@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">Years ended June 30</td><td colspan="2">Amount of Gain/(Loss) Recognized in OCI on Derivatives</td></tr><tr><td>2022</td><td>2021</td></tr><tr><td>DERIVATIVESINNETINVESTMENTHEDGING RELATIONSHIPS ( (2)</td><td></td><td></td></tr><tr><td>Foreign currency interest rate contracts</td><td>$ 1,033 $</td><td>(232)</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>+25 bps Discount Rate</td><td>Falrvalue -25 bps Growth Rate</td><td>-50 bps Royalty Rate</td></tr><tr><td>Shave Care goodwill reporting unit</td><td>(0)%</td><td>(6)%</td><td> N/A</td></tr><tr><td>Gillette indefinite- lived intangible asset</td><td>(6%</td><td>(6)%</td><td>(3)%</td></tr></table>

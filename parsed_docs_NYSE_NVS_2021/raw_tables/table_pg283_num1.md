@@ -1,0 +1,1 @@
+<table><tr><td>(CHF millions)</td><td>2021</td><td>2020</td></tr><tr><td>2025</td><td>501</td><td>501</td></tr><tr><td>After 2026</td><td>876</td><td>876</td></tr><tr><td>Total</td><td>1 377</td><td>1377</td></tr></table>

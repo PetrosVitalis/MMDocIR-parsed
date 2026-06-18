@@ -1,0 +1,1 @@
+<table><tr><td></td><td>(crore)</td></tr><tr><td>Yearended March 31, 2020</td><td>Yearended March31,2019</td></tr><tr><td>492</td><td>8</td></tr><tr><td>354</td><td>169</td></tr><tr><td>78</td><td>21</td></tr><tr><td>924</td><td>198</td></tr></table>

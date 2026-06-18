@@ -1,0 +1,1 @@
+<table><tr><td> Stock Exchange</td><td>Reuters Code</td><td>Bloomberg</td></tr><tr><td>National Stock Exchange of India Ltd.</td><td>ITC.NS</td><td>NITCL IN</td></tr><tr><td>Bombay Stock Exchange Ltd.</td><td>ITC.BO</td><td>ITC IN</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Titleof eachclass</td><td rowspan=1 colspan=1>Trading Symbol</td><td rowspan=1 colspan=1>Name of exchange on which registered</td></tr><tr><td rowspan=1 colspan=1>Common Stock, $0.10 par value per share</td><td rowspan=1 colspan=1>BBY</td><td></td></tr></table>

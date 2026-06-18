@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">Fiscal Period:</td></tr><tr><td>Fiscal 2021</td><td>$1,787</td></tr><tr><td>Fiscal 2022</td><td>1,254</td></tr><tr><td>Fiscal 2023</td><td>778</td></tr><tr><td>Fiscal 2024</td><td>197</td></tr><tr><td>Total stock compensation</td><td>$4,016</td></tr></table>

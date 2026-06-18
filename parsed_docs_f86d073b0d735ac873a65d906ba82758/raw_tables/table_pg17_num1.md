@@ -1,0 +1,1 @@
+<table><tr><td>Product</td><td colspan="4">2001/02 2002/03 2003/04 2004/05 2005/06 Cumulative</td></tr><tr><td>Cigarettes Growth</td><td>5342 5427 -0.8% 2%</td><td>5662 4%</td><td>6185 7242 9% 17%</td><td>Growth (%) 36%</td></tr><tr><td>Other Tobacco Products Growth</td><td>1384 1284 NA -7%</td><td>1152 -10%</td><td>1134 1134 -2% 1</td><td>-18%</td></tr></table>

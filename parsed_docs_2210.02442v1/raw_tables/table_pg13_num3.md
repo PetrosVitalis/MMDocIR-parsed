@@ -1,0 +1,1 @@
+<table><tr><td>augmentation</td><td>value</td></tr><tr><td>hflip</td><td></td></tr><tr><td>crop</td><td>[0.08,1]</td></tr><tr><td>color jitter</td><td>[0.4, 0.4, 0.4, 0.1], p=0.8</td></tr><tr><td>rotation</td><td>degrees=45</td></tr></table>

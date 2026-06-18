@@ -1,0 +1,1 @@
+<table><tr><td colspan="3"></td></tr><tr><td></td><td>Year ended March 31, 202</td><td>Year ended March 31,2019</td></tr><tr><td>Contracted price</td><td>133,098</td><td>125,101</td></tr><tr><td>Reductions towards variable consideration components</td><td>(1,792)</td><td>(1,931)</td></tr><tr><td>Revenue recognised</td><td>131,306</td><td>123,170</td></tr></table>

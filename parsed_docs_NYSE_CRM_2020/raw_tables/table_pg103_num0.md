@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Fair Value</td></tr><tr><td>Cash</td><td>$136</td></tr><tr><td>Common stock issued</td><td>537</td></tr><tr><td>Fair value of stock options and restricted stock awards assumed</td><td></td></tr><tr><td></td><td>93</td></tr><tr><td>Total</td><td>$766</td></tr></table>

@@ -1,0 +1,12 @@
+Symbol,Parameter,Min,Max,Units,Test Conditions
+VIL,Input Low Voltage (Except EA Pin of8751H and 8751H-8),-0.5,0.8,v,
+VIL1,Input Low Voltage to EA Pin of8751H and 8751H-8,0,0.7,V,
+VIH,"Input High Voltage (Except XTAL2,RST)",2.0,Vcc+0.5,v,
+VIH1,"Input High Voltage to XTAL2,RST",2.5,Vcc+0.5,v,XTAL1=VsS
+VIH2,Input High Voltage to EA pinof8751BHand 8752BH,4.5,5.5V,,
+VoL,"Output Low Voltage (Ports 1, 2,3)*",,0.45,Vv,lOL=1.6mA
+VoL1,"Output Low Voltage (Port 0, ALE,PSEN)*8751H,8751H-8All Others",,0.600.450.45,VVV,lOL = 3.2 mAOL=2.4mAoL=3.2mA
+VOH,"Output High Voltage (Ports 1, 2,3,ALE,PSEN)",2.4,,v,1OH=-80μA
+VOH1,Output High Voltage (Port O inExternai Bus Mode),2.4,,V,1oH = -400 μA
+I,"Logical 0 Input Current (Ports 1,2,3,and RST)",,-500,μA,VIN=0.45V
+IL1,Logical O Input Current (EA)8751H and 8751H-88751BH8752BH,-10,-15-100.5,mAmAmAmA,VIN = 0.45VVIN = VsSViN = Vss

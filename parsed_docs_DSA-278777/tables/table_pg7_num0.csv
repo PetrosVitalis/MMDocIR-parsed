@@ -1,0 +1,14 @@
+Symbol,Parameter,Min,Max,Units,Test Conditions
+IIL2,Logical 0 Input Current (XTAL2),,-3.2,mA,VIN = 0.45V
+ILI,Input Leakage Current (Port 0),,±100,µA,0.45 ≤ VIN ≤ VCC
+,8751H and 8751H-8,,±10,µA,0.45 ≤ VIN ≤ VCC
+,All Others,,,,
+IHI,Logical 1 Input Current (EA),,500,µA,VIN = 2.4V
+,8751H and 8751H-8,,1,mA,4.5V < VIN < 5.5V
+,8751BH/8752BH,,,,
+IHI1,Input Current to RST to Activate Reset,,500,µA,VIN < (VCC - 1.5V)
+ICC,Power Supply Current:,,125,mA,All Outputs
+,8031AH/8051AH/8051AHP,,175,mA,Disconnected;
+,8032AH/8052AH/8751BH/8752BH,,250,mA,EA = VCC
+,8751H/8751H-8,,,,
+CIO,Pin Capacitance,,10,pF,Test freq = 1 MHz

@@ -1,0 +1,1 @@
+<table><tr><td>Domain</td><td>Total</td><td>Informal</td><td>Formal</td></tr><tr><td>All Yahoo Answers</td><td>40M</td><td>24M</td><td>16M</td></tr><tr><td>Entertainment&amp;Music</td><td>3.8M</td><td>2.7M</td><td>700K</td></tr><tr><td>Family&amp;Relationships</td><td>7.8M</td><td>5.6M</td><td>1.8M</td></tr></table>

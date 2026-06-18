@@ -1,0 +1,12 @@
+English WSJ,English WSJ,English WSJ,English WSJ
+Model,Prec.,Rec.,F1
+"Meta BiLSTM(Bohnet et al.,2018) BERT-Tagger (Devlin et al., 2018)",- 99.21,- 98.36,98.23 98.86
+BERT-Tagger+FL,98.36,98.97,98.88 (+0.02)
+BERT-Tagger+DL,99.34,98.22,98.91 (+0.05)
+BERT-Tagger+DSC,99.41,98.93,99.38 (+0.52)
+English Tweets,English Tweets,English Tweets,English Tweets
+"Model FastText+CNN+CRF(Godin,2019)",Prec.,Rec.,F1
+"BERT-Tagger (Devlin et al., 2018)",- 92.33,- 91.98,91.78 92.34
+BERT-Tagger+FL,91.24,93.22,92.47 (+0.13)
+BERT-Tagger+DL,91.44,92.88,92.52 (+0.18)
+BERT-Tagger+DSC,92.87,93.54,92.58 (+0.24)

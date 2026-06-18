@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">Year ended December 31</td></tr><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Sales and other operating revenues</td><td>$</td><td>96,980 $</td><td>144,303</td></tr><tr><td>Net income</td><td>$</td><td>(9,890) $</td><td>1,412</td></tr></table>

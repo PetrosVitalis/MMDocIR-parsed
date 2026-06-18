@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Fiscal Year Ended January 31,2020</td></tr><tr><td>Operating lease cost</td><td>$913</td></tr><tr><td>Finance lease cost:</td><td></td></tr><tr><td>Amortization of right-of-use assets</td><td>$65</td></tr><tr><td>Interest on lease liabilities</td><td>20</td></tr><tr><td>Total finance lease cost</td><td>$85</td></tr></table>

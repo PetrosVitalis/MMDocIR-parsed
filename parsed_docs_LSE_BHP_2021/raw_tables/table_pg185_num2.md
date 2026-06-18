@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td></td><td>US$M</td><td>US$M</td></tr><tr><td>Associates and joint ventures() Subsidiaries andjoint operations(</td><td>1,532</td><td>1,314</td></tr><tr><td>Total</td><td>1,615 3,147</td><td>1,534 2.848</td></tr><tr><td></td><td></td><td></td></tr></table>

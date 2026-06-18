@@ -1,0 +1,6 @@
+```csv
+Image,Question,Ground-truth (M0),BLIP-2 (M1),Mini-GPT4 (M2),Open-Flamingo (M3),Instruct-BLIP (M4),LLaVA (M5),SnapNTell (Ours) (M6),Human Rating
+"Where is the attraction located?","Abel Tasman National Park is located at the northern tip of the South Island of New Zealand between Golden Bay and Tasman Bay","california","The image shows a beach with a body of water in the foreground and trees and mountains in the background.","It is located in New Zealand.","beach 1","The image is located at the beach, which is surrounded by a forest of trees.","The image is not located in the Republic of Altai, but rather in the South Island of New Zealand. The location is the Abel Tasman National Park, specifically the area around Awaroa Beach.","M0 = M6 > M3 > M1 = M2 = M5 > M4"
+Image,Question,Ground-truth (M0),BLIP-2 (M1),Mini-GPT4 (M2),Open-Flamingo (M3),Instruct-BLIP (M4),LLaVA (M5),SnapNTell (Ours) (M6),Human Rating
+"What date did it open to the public?","The Acropolis Museum was inaugurated on June 20, 2009 after many years of planning and construction","1 January 2009","The museum opened to the public on January 1, 2018","The museum opened to the public on December 12, 1987.","2007","The museum opened to the public on April 13, 2019.","The Acropolis Museum opened to the public on June 20, 2009.","M0 = M6 > M1 > M2 = M3 = M4 = M5"
+```

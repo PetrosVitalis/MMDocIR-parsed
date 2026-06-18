@@ -1,0 +1,1 @@
+<table><tr><td>Strategy</td><td>Objective</td></tr><tr><td>3.1.1 Improve efficiency of process for disseminating information on emerging health threats to licensees and other interested parties.</td><td>A By December 31,2016, reduce the time to disseminate information on emerging health threats from 8 hours (2015) to 4 hours.</td></tr></table>

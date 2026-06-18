@@ -1,0 +1,11 @@
+ComparedItem,Standard,Infrequent Access,Archive,Deep Archive(Under Limited Beta Testing)
+Feature,Top-notch performance，highreliabilityand availability,"Reliable,inexpensive storage withreal-timeaccess",Long-termretention ofarchived dataat a low cost,Lower pricethan theArchive storage classfor long-termdata archive.
+Applicationscenarios,"Cloudapplication,data sharing,content sharing, andhot data storage","Web diskapplications,enterprisebackup,activearchiving, anddatamonitoring","Archive,medicalimage storage, videomaterial storage, andreplacementof tapelibraries",Archiving datathat is barelyaccessed.
+Designeddurability,99.999999999%,99.999999999%,99.999999999%,99.999999999%
+Designed durability(multi-AZ),99.9999999999%,99.9999999999%,Multi-AZ not supported,Multi-AZ not supported
+Designed availability,99.99%,99%,99%,99%
+Designed availability(multi-Az),99.995%,99.5%,Multi-AZ notsupported,Multi-AZ notsupported
+Minimum storageduration,N/A,30 days,90 days,180 days
+Minimummeasurementunita,64 KB,64 KB,64 KB,64KB
+Data restore,N/A,Billed for eachGB restored.,Data can berestored at astandard oran expeditedspeed.Billed for eachGB restored.,Data can berestored at astandard or anexpeditedspeed.Billed for eachGB restored.
+Imageprocessing,Supported,Supported,Not supported,Not supported

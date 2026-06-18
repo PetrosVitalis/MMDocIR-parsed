@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">( crore,except percentages)</td></tr><tr><td>Particulars</td><td>March 31, 2021</td><td>March 31,2020</td></tr><tr><td>Total deposits of twenty largest depositors</td><td>54,551.06</td><td>45,454.28</td></tr><tr><td>Percentage of deposits of twenty largest depositors to total deposits of the Bank</td><td>4.1%</td><td>4.0%</td></tr></table>

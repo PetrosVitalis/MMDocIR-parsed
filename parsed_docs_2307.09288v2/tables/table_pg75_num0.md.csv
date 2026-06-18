@@ -1,0 +1,20 @@
+Dataset,Model,Subset Type,Avg. Contam. %,n,X,$\mu _ { n }$,$Z _ { n }$
+HellaSwag (L = 40),70B,Clean,0,7391,80.0,82.5,-5.73
+HellaSwag (L = 40),70B,Not Clean,67.5,2651,89.5,82.4,9.56
+HellaSwag (L = 40),70B,Not Dirty,11.5,9194,81.6,82.5,-2.27
+HellaSwag (L = 40),70B,Dirty,86.1,848,92.2,82.5,7.42
+HellaSwag (L = 40),70B,Clean Not Clean,0,7391,70.5,73.3,-5.46
+HellaSwag (L = 40),Not Dirty,67.5,2651,81.3,73.4,9.17,
+MMLU-Humanities (L = 50),,,11.5,9194,72.4,73.4,-2.06
+MMLU-Humanities (L = 50),,Dirty,86.1,848,83.7,73.3,6.84
+MMLU-Humanities (L = 50),,Clean Not Clean,0.05,3996,62.2,65.3,-4.08
+MMLU-Humanities (L = 50),70B Not Dirty,,85.12,709,82.7,65.3,9.71
+MMLU-Humanities (L = 50),70B Not Dirty,,2.73,4185,62.7,65.3,-3.50
+MMLU-Humanities (L = 50),70B Not Dirty,Dirty Clean,94.5,520,85.8,65.3,9.80
+Not Clean,70B Not Dirty,0.05 85.2,3996 709,40.8 54.9,42.9 42.8,-2.75,
+,,Not Dirty,2.73,4185,41.1,42.9,6.50 -2.25
+,,Dirty,94.5,520,56.9,42.8,6.49
+,,Clean,,11862,68.0,,
+,,Not Clean,0.02,,,68.9,-2.00
+MMLU-Overall (L = 50),70B,Not Dirty,84.7 3.18,2180 12506,73.5 67.7,68.9,4.64
+MMLU-Overall (L = 50),Dirty,,94.4,1536,78.2,68.9 68.9,-2.75 7.87

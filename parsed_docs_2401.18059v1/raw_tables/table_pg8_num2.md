@@ -1,0 +1,1 @@
+<table><tr><td>Layers Queried/StartLayer</td><td>Layer O (Leaf Nodes)</td><td>Layer 1</td><td>Layer 2</td></tr><tr><td>1 layer</td><td>57.9</td><td>57.8</td><td>57.9</td></tr><tr><td>2 layers</td><td>-</td><td>52.6</td><td>63.15</td></tr><tr><td>3 layers</td><td>-</td><td>-</td><td>73.68</td></tr></table>

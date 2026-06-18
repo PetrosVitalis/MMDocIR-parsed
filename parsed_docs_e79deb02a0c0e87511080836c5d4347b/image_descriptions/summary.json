@@ -1,0 +1,79 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_e79deb02a0c0e87511080836c5d4347b",
+  "total_images": 14,
+  "non_figure_images_skipped": 7,
+  "processed": 14,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_0_Figure_4.jpg",
+      "output": "image_descriptions/_page_0_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_5.jpg",
+      "output": "image_descriptions/_page_0_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_7.jpg",
+      "output": "image_descriptions/_page_0_Figure_7.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_6.jpg",
+      "output": "image_descriptions/_page_0_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_2.jpg",
+      "output": "image_descriptions/_page_0_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_3.jpg",
+      "output": "image_descriptions/_page_0_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_1.jpg",
+      "output": "image_descriptions/_page_0_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_11.jpg",
+      "output": "image_descriptions/_page_0_Figure_11.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_10.jpg",
+      "output": "image_descriptions/_page_0_Figure_10.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_11_Figure_0.jpg",
+      "output": "image_descriptions/_page_11_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_8.jpg",
+      "output": "image_descriptions/_page_0_Figure_8.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_0.jpg",
+      "output": "image_descriptions/_page_4_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_9.jpg",
+      "output": "image_descriptions/_page_0_Figure_9.md",
+      "status": "success"
+    }
+  ]
+}

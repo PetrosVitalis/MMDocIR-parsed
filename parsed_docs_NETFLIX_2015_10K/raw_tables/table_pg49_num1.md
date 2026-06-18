@@ -1,0 +1,1 @@
+<table><tr><td></td><td>(in thousands)</td></tr><tr><td> Due within one year</td><td>137,927</td></tr><tr><td>Due after one year and through 5 years</td><td>363,458</td></tr><tr><td>Total short-term investments $</td><td>501,385</td></tr></table>

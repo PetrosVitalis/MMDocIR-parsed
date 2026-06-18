@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At December 31, 2020</td><td>At December 31,</td></tr><tr><td>$in millions Net derivative liabilities with credit risk-</td><td></td><td>2019</td></tr><tr><td>related contingent features</td><td>$ 30,421</td><td>$ 21,620</td></tr><tr><td>Collateral posted</td><td>23,842</td><td>17,392</td></tr><tr><td></td><td></td><td></td></tr></table>

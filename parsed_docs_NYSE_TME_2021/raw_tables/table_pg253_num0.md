@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">As at December 31, 2020</td></tr><tr><td>RMB&#x27;million</td><td>2021 RMB&#x27;million</td></tr><tr><td> Included in non-current liabilities</td><td></td><td></td></tr><tr><td>Notes payable</td><td>5,175</td><td>5,062</td></tr><tr><td></td><td>5,175</td><td>5,062</td></tr></table>

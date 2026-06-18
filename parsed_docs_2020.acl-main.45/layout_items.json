@@ -1,0 +1,2060 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.079,
+      0.28,
+      0.101,
+      0.721
+    ],
+    "text": "Dice Loss for Data-imbalanced NLP Tasks",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.126,
+      0.139,
+      0.145,
+      0.872
+    ],
+    "text": "Xiaoya Li♣, Xiaofei Sun♣, Yuxian Meng♣, Junjun Liang♣, Fei Wu♠ and Jiwei Li♠♣",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.205,
+      0.161,
+      0.803
+    ],
+    "text": "♠ Department of Computer Science and Technology, Zhejiang University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.16,
+      0.438,
+      0.177,
+      0.561
+    ],
+    "text": "♣ Shannon.AI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.152,
+      0.195,
+      0.855
+    ],
+    "text": "{xiaoya li, xiaofei sun, yuxian meng, jiwei li}@shannonai.com, wufei@cs.zju.edu.cn",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.262,
+      0.259,
+      0.344
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.277,
+      0.144,
+      0.462,
+      0.463
+    ],
+    "text": "Many NLP tasks such as tagging and machine reading comprehension (MRC) are faced with the severe data imbalance issue: negative examples significantly outnumber positive ones, and the huge number of easy-negative examples overwhelms training. The most commonly used cross entropy criteria is actually accuracy-oriented, which creates a discrepancy between training and test. At training time, each training instance contributes equally to the objective function, while at test time F1 score concerns more about positive examples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.48,
+      0.142,
+      0.707,
+      0.463
+    ],
+    "text": "In this paper, we propose to use dice loss in replacement of the standard cross-entropy objective for data-imbalanced NLP tasks. Dice loss is based on the Sørensen–Dice coefficient (Sorensen, 1948) or Tversky index (Tversky, 1977), which attaches similar importance to false positives and false negatives, and is more immune to the data-imbalance issue. To further alleviate the dominating influence from easy-negative examples in training, we propose to associate training examples with dynamically adjusted weights to deemphasize easy-negative examples. Experimental results show that this strategy narrows down the gap between the F1 score in evaluation and the dice loss in training.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.725,
+      0.142,
+      0.909,
+      0.463
+    ],
+    "text": "With the proposed training objective, we observe significant performance boosts over a wide range of data imbalanced NLP tasks. Notably, we are able to achieve SOTA results on CTB5, CTB6 and UD1.4 for the part of speech tagging task, and competitive or even better results on CoNLL03, OntoNotes5.0, MSRA and OntoNotes4.0 for the named entity recognition task along with the machine reading comprehension and paraphrase identification tasks. The code can be found at https://github.com/ShannonAI/ dice\\_loss\\_for\\_NLP.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:table-10",
+    "page_id": 0,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_0_Table_0.jpg",
+    "bbox_norm": [
+      0.24,
+      0.517,
+      0.305,
+      0.88
+    ],
+    "text": "Table 1: Number of positive and negative examples and their ratios for different data-imbalanced NLP tasks.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.512,
+      0.376,
+      0.657
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.509,
+      0.708,
+      0.889
+    ],
+    "text": "Data imbalance is a common issue in a variety of NLP tasks such as tagging and machine reading comprehension. Table 1 gives concrete examples: for the Named Entity Recognition (NER) task (Sang and De Meulder, 2003; Nadeau and Sekine, 2007), most tokens are backgrounds with tagging class O. Specifically, the number of tokens with tagging class O is 5 times as many as those with entity labels for the CoNLL03 dataset and 8 times for the OntoNotes5.0 dataset; Dataimbalanced issue is more severe for MRC tasks (Rajpurkar et al., 2016; Nguyen et al., 2016; Rajpurkar et al., 2018; Kocisk ˇ y et al. \\` , 2018; Dasigi et al., 2019) with the value of negative-positive ratio being 50-200, which is due to the reason that the task of MRC is usually formalized as predicting the starting and ending indexe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.509,
+      0.912,
+      0.889
+    ],
+    "text": "Data imbalance results in the following two issues: (1) the training-test discrepancy: Without balancing the labels, the learning process tends to converge to a point that strongly biases towards class with the majority label. This actually creates a discrepancy between training and test: at training time, each training instance contributes equally to the objective function, whereas at test time, F1 gives equal weight to positive and negative examples; (2) the overwhelming effect of easy-negative examples. As pointed out by Meng et al. (2019), a significantly large number of negative examples also means that the number of easy-negative example is large. The huge number of easy examples tends to overwhelm the training, making the model not sufficiently learn to distinguish between positive ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.278,
+      0.114,
+      0.501,
+      0.492
+    ],
+    "text": "To handle the first issue, we propose to replace CE or MLE with losses based on the Sørensen–Dice coefficient (Sorensen, 1948) or Tversky index (Tversky, 1977). The Sørensen–Dice coefficient, dice loss for short, is the harmonic mean of precision and recall. It attaches equal importance to false positives (FPs) and false negatives (FNs) and is thus more immune to data-imbalanced datasets. Tversky index extends dice loss by using a weight that trades precision and recall, which can be thought as the approximation of the $F _ { \\beta }$ score, and thus comes with more flexibility. Therefore, we use dice loss or Tversky index to replace CE loss to address the first issue.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.512,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "Only using dice loss or Tversky index is not enough since they are unable to address the dominating influence of easy-negative examples. This is intrinsically because dice loss is actually a soft version of the F1 score. Taking the binary classification task as an example, at test time, an example will be classified as negative as long as its probability is smaller than 0.5, but training will push the value to 0 as much as possible. This gap isn’t a big issue for balanced datasets, but is extremely detrimental if a big proportion of training examples are easynegative ones: easy-negative examples can easily dominate training since their probabilities can be pushed to 0 fairly easily. Meanwhile, the model can hardly distinguish between hard-negative examples and positive ones. Inspired by th",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.131,
+      0.509,
+      0.228,
+      0.889
+    ],
+    "text": "The rest of this paper is organized as follows: related work is presented in Section 2. We describe different proposed losses in Section 3. Experimental results are presented in Section 4. We perform ablation studies in Section 5, followed by a brief conclusion in Section 6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.24,
+      0.51,
+      0.256,
+      0.668
+    ],
+    "text": "2 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.266,
+      0.51,
+      0.281,
+      0.695
+    ],
+    "text": "2.1 Data Resampling",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.287,
+      0.509,
+      0.703,
+      0.889
+    ],
+    "text": "The idea of weighting training examples has a long history. Importance sampling (Kahn and Marshall, 1953) assigns weights to different samples and changes the data distribution. Boosting algorithms such as AdaBoost (Kanduri et al., 2018) select harder examples to train subsequent classifiers. Similarly, hard example mining (Malisiewicz et al., 2011) downsamples the majority class and exploits the most difficult examples. Oversampling (Chen et al., 2010; Chawla et al., 2002) is used to balance the data distribution. Another line of data resampling is to dynamically control the weights of examples as training proceeds. For example, focal loss (Lin et al., 2017) used a soft weighting scheme that emphasizes harder examples during training. In self-paced learning (Kumar et al., 2010), example w",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.51,
+      0.745,
+      0.835
+    ],
+    "text": "2.2 Data Imbalance Issue in Computer Vision",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.509,
+      0.912,
+      0.889
+    ],
+    "text": "The background-object label imbalance issue is severe and thus well studied in the field of object detection (Li et al., 2015; Girshick, 2015; He et al., 2015; Girshick et al., 2013; Ren et al., 2015). The idea of hard negative mining (HNM) (Girshick et al., 2013) has gained much attention recently. Pang et al. (2019) proposed a novel method called IoU-balanced sampling and Chen et al. (2019) designed a ranking model to replace the conventional classification task with an average-precision loss to alleviate the class imbalance issue. The efforts made on object detection have greatly inspired us to solve the data imbalance issue in NLP.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.114,
+      0.419,
+      0.492
+    ],
+    "text": "Sudre et al. (2017) addressed the severe class imbalance issue for the image segmentation task. They proposed to use the class re-balancing property of the Generalized Dice Loss as the training objective for unbalanced tasks. Shen et al. (2018) investigated the influence of Dice-based loss for multi-class organ segmentation using a dataset of abdominal CT volumes. Kodym et al. (2018) proposed to use the batch soft Dice loss function to train the CNN network for the task of segmentation of organs at risk (OAR) of medical images. Shamir et al. (2019) extended the definition of the classical Dice coefficient to facilitate the direct comparison of a ground truth binary image with a probabilistic map. In this paper, we introduce dice loss into NLP tasks as the training objective and propose a d",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.115,
+      0.444,
+      0.21
+    ],
+    "text": "3 Losses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.454,
+      0.115,
+      0.469,
+      0.231
+    ],
+    "text": "3.1 Notation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.475,
+      0.114,
+      0.637,
+      0.492
+    ],
+    "text": "For illustration purposes, we use the binary classification task to demonstrate how different losses work. The mechanism can be easily extended to multi-class classification. Let X denote a set of training instances and each instance $x _ { i } \\in X$ is associated with a golden binary label $y _ { i } = [ y _ { i 0 } , y _ { i 1 } ]$ denoting the ground-truth class $x _ { i }$ belongs to, and $p _ { i } = [ p _ { i 0 } , p _ { i 1 } ]$ is the predicted probabilities of the two classes respectively, where $y _ { i 0 } , y _ { i 1 } \\in$ $\\{ 0 , 1 \\} , p _ { i 0 } , p _ { i 1 } \\in [ 0 , 1 ]$ and $p _ { i 1 } + p _ { i 0 } = 1$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.644,
+      0.115,
+      0.659,
+      0.319
+    ],
+    "text": "3.2 Cross Entropy Loss",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.664,
+      0.115,
+      0.681,
+      0.468
+    ],
+    "text": "The vanilla cross entropy (CE) loss is given by:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-8",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_0.jpg",
+    "bbox_norm": [
+      0.688,
+      0.178,
+      0.728,
+      0.425
+    ],
+    "text": "$$\n\\mathrm { C E } = - \\frac { 1 } { N } \\sum _ { i } \\sum _ { j \\in \\{ 0 , 1 \\} } y _ { i j } \\log p _ { i j }\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.737,
+      0.114,
+      0.848,
+      0.49
+    ],
+    "text": "As can be seen from $\\mathrm { E q . l }$ , each $x _ { i }$ contributes equally to the final objective. Two strategies are normally used to address the the case where we wish that not all $x _ { i }$ are treated equally: associating different classes with different weighting factor α or resampling the datasets. For the former, Eq.1 is adjusted as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-10",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_1.jpg",
+    "bbox_norm": [
+      0.856,
+      0.131,
+      0.896,
+      0.473
+    ],
+    "text": "$$\n{ \\mathrm { W e i g h t e d ~ C E } } = - { \\frac { 1 } { N } } \\sum _ { i } \\alpha _ { i } \\sum _ { j \\in \\{ 0 , 1 \\} } y _ { i j } \\log p _ { i j }\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.509,
+      0.379,
+      0.887
+    ],
+    "text": "where $\\alpha _ { i } \\in [ 0 , 1 ]$ may be set by the inverse class frequency or treated as a hyperparameter to set by cross validation. In this work, we use lg $\\frac { n - n _ { t } } { n _ { t } } { + K } )$ to calculate the coefficient $\\alpha ,$ where $n _ { t }$ is the number of samples with class t and n is the total number of samples in the training set. K is a hyperparameter to tune. Intuitively, this equation assigns less weight to the majority class and more weight to the minority class. The data resampling strategy constructs a new dataset by sampling training examples from the original dataset based on human-designed criteria, e.g. extracting equal training samples from each class. Both strategies are equivalent to changing the data distribution during training and thus are o",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.39,
+      0.51,
+      0.406,
+      0.836
+    ],
+    "text": "3.3 Dice Coefficient and Tversky Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.509,
+      0.492,
+      0.887
+    ],
+    "text": "Sørensen–Dice coefficient (Sorensen, 1948; Dice, 1945), dice coefficient (DSC) for short, is an F1- oriented statistic used to gauge the similarity of two sets. Given two sets A and B, the vanilla dice coefficient between them is given as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-14",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_2.jpg",
+    "bbox_norm": [
+      0.502,
+      0.601,
+      0.538,
+      0.791
+    ],
+    "text": "$$\n\\mathrm { D S C } ( A , B ) = \\frac { 2 | A \\cap B | } { | A | + | B | }\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.509,
+      0.645,
+      0.887
+    ],
+    "text": "In our case, A is the set that contains all positive examples predicted by a specific model, and $B$ is the set of all golden positive examples in the dataset. When applied to boolean data with the definition of true positive (TP), false positive (FP), and false negative (FN), it can be then written as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-16",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_3.jpg",
+    "bbox_norm": [
+      0.656,
+      0.531,
+      0.731,
+      0.862
+    ],
+    "text": "$$\n{ \\begin{array} { r l } & { { \\mathrm { D S C } } = { \\frac { 2 { \\mathrm { T P } } } { 2 { \\mathrm { T P } } + { \\mathrm { F N } } + { \\mathrm { F P } } } } = { \\frac { 2 { \\frac { \\mathrm { T P } } { \\mathrm { T P } + { \\mathrm { F N } } } } { \\frac { \\mathrm { T P } } { \\mathrm { T P } + { \\mathrm { F P } } } } } { \\frac { \\mathrm { T P } } { { \\mathrm { T P } } + { \\mathrm { F N } } } + { \\frac { \\mathrm { T P } } { { \\mathrm { T P } } + { \\mathrm { F P } } } } } } } \\\\ & { \\qquad = { \\frac { 2 { \\mathrm { P r e ~ } } \\times { \\mathrm { R e c } } } { \\mathrm { P r e } + { \\mathrm { R e c } } } } = F 1 } \\end{array} }\\tag{4}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-17",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.51,
+      0.775,
+      0.885
+    ],
+    "text": "For an individual example $x _ { i } .$ its corresponding dice coefficient is given as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-18",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_4.jpg",
+    "bbox_norm": [
+      0.787,
+      0.613,
+      0.82,
+      0.779
+    ],
+    "text": "$$\n\\mathrm { D S C } ( x _ { i } ) = \\frac { 2 p _ { i 1 } y _ { i 1 } } { p _ { i 1 } + y _ { i 1 } }\\tag{5}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-19",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.831,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "As can be seen, a negative example $( y _ { i 1 } = 0 )$ does not contribute to the objective. For smoothing purposes, it is common to add a $\\gamma$ factor to both the nominator and the denominator, making the form to be as follows (we simply set $\\gamma = 1$ in the rest of",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.144,
+      0.216,
+      0.462
+    ],
+    "text": "Table 2: Different losses and their formulas. We add +1 to DL, TL and DSC so that they are positive.",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.265,
+      0.115,
+      0.279,
+      0.206
+    ],
+    "text": "this paper):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-3",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_0.jpg",
+    "bbox_norm": [
+      0.282,
+      0.201,
+      0.317,
+      0.401
+    ],
+    "text": "$$\n\\mathrm { D S C } ( x _ { i } ) = \\frac { 2 p _ { i 1 } y _ { i 1 } + \\gamma } { p _ { i 1 } + y _ { i 1 } + \\gamma }\\tag{6}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.114,
+      0.4,
+      0.492
+    ],
+    "text": "As can be seen, negative examples whose DSC is $\\frac { \\gamma } { p _ { i 1 } + \\gamma }$ , also contribute to the training. Additionally, Milletari et al. (2016) proposed to change the denominator to the square form for faster convergence, which leads to the following dice loss (DL):",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-5",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_1.jpg",
+    "bbox_norm": [
+      0.41,
+      0.169,
+      0.447,
+      0.431
+    ],
+    "text": "$$\n\\mathrm { D L } = \\frac { 1 } { N } \\sum _ { i } \\left[ 1 - \\frac { 2 p _ { i 1 } y _ { i 1 } + \\gamma } { p _ { i 1 } ^ { 2 } + y _ { i 1 } ^ { 2 } + \\gamma } \\right]\\tag{7}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.451,
+      0.114,
+      0.513,
+      0.492
+    ],
+    "text": "Another version of DL is to directly compute setlevel dice coefficient instead of the sum of individual dice coefficient, which is easier for optimization:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-7",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_2.jpg",
+    "bbox_norm": [
+      0.516,
+      0.178,
+      0.552,
+      0.425
+    ],
+    "text": "$$\n\\mathrm { D L } = 1 - \\frac { 2 \\sum _ { i } p _ { i 1 } y _ { i 1 } + \\gamma } { \\sum _ { i } p _ { i 1 } ^ { 2 } + \\sum _ { i } y _ { i 1 } ^ { 2 } + \\gamma }\\tag{8}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.563,
+      0.114,
+      0.627,
+      0.492
+    ],
+    "text": "Tversky index (TI), which can be thought as the approximation of the $F _ { \\beta }$ score, extends dice coefficient to a more general case. Given two sets A and B, tversky index is computed as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-9",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_3.jpg",
+    "bbox_norm": [
+      0.632,
+      0.163,
+      0.667,
+      0.44
+    ],
+    "text": "$$\n\\mathrm { T I } = \\frac { | A \\cap B | } { | A \\cap B | + \\alpha | A \\backslash B | + \\beta | B \\backslash A | }\\tag{9}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.669,
+      0.114,
+      0.734,
+      0.492
+    ],
+    "text": "Tversky index offers the flexibility in controlling the tradeoff between false-negatives and falsepositives. It degenerates to DSC if $\\alpha = \\beta = 0 . 5$ The Tversky loss (TL) is thus given as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-11",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_4.jpg",
+    "bbox_norm": [
+      0.738,
+      0.127,
+      0.769,
+      0.472
+    ],
+    "text": "$$\n\\mathrm { T L } = \\frac { 1 } { N } \\sum _ { i } \\left[ 1 - \\frac { p _ { i 1 } y _ { i 1 } + \\gamma } { p _ { i 1 } y _ { i 1 } + \\alpha p _ { i 1 } y _ { i 0 } + \\beta p _ { i 0 } y _ { i 1 } + \\gamma } \\right]\\tag{10}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.115,
+      0.806,
+      0.352
+    ],
+    "text": "3.4 Self-adjusting Dice Loss",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.812,
+      0.114,
+      0.875,
+      0.492
+    ],
+    "text": "Consider a simple case where the dataset consists of only one example $x _ { i } ,$ which is classified as positive as long as $p _ { i 1 }$ is larger than 0.5. The computation of F 1 score is actually as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-14",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_5.jpg",
+    "bbox_norm": [
+      0.879,
+      0.183,
+      0.915,
+      0.418
+    ],
+    "text": "$$\n\\operatorname { F 1 } ( x _ { i } ) = 2 { \\frac { \\mathbb { I } ( p _ { i 1 } > 0 . 5 ) y _ { i 1 } } { \\mathbb { I } ( p _ { i 1 } > 0 . 5 ) + y _ { i 1 } } }\\tag{11}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-16",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.509,
+      0.533,
+      0.887
+    ],
+    "text": "Comparing Eq.5 with Eq.11, we can see that Eq.5 is actually a soft form of F 1, using a continuous p rather than the binary $\\mathbb { I } ( p _ { i 1 } > 0 . 5 )$ . This gap isn’t a big issue for balanced datasets, but is extremely detrimental if a big proportion of training examples are easy-negative ones: easy-negative examples can easily dominate training since their probabilities can be pushed to 0 fairly easily. Meanwhile, the model can hardly distinguish between hardnegative examples and positive ones, which has a huge negative effect on the final F1 performance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-17",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.542,
+      0.509,
+      0.605,
+      0.887
+    ],
+    "text": "To address this issue, we propose to multiply the soft probability $p$ with a decaying factor $( 1 - p )$ ， changing Eq.11 to the following adaptive variant of DSC:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-18",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_6.jpg",
+    "bbox_norm": [
+      0.615,
+      0.547,
+      0.65,
+      0.816
+    ],
+    "text": "$$\n\\mathrm { D S C } ( x _ { i } ) = \\frac { 2 ( 1 - p _ { i 1 } ) p _ { i 1 } \\cdot y _ { i 1 } + \\gamma } { ( 1 - p _ { i 1 } ) p _ { i 1 } + y _ { i 1 } + \\gamma }\\tag{12}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-19",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.509,
+      0.774,
+      0.887
+    ],
+    "text": "One can think $\\left( 1 - p _ { i 1 } \\right)$ as a weight associated with each example, which changes as training proceeds. The intuition of changing $p _ { i 1 }$ to $( 1 - p _ { i 1 } ) p _ { i 1 }$ is to push down the weight of easy examples. For easy examples whose probability are approaching 0 or 1, $( 1 - p _ { i 1 } ) p _ { i 1 }$ makes the model attach significantly less focus to them.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-20",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.783,
+      0.509,
+      0.912,
+      0.889
+    ],
+    "text": "A close look at Eq.12 reveals that it actually mimics the idea of focal loss (FL for short) (Lin et al., 2017) for object detection in vision. Focal loss was proposed for one-stage object detector to handle foreground-background tradeoff encountered during training. It down-weights the loss assigned to well-classified examples by adding a $( 1 - p ) ^ { \\gamma }$ factor, leading the final loss to be $- ( 1 - p ) ^ { \\gamma } \\log p$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:table-1",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.072,
+      0.121,
+      0.255,
+      0.878
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:table-2",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_1.jpg",
+    "bbox_norm": [
+      0.291,
+      0.117,
+      0.539,
+      0.497
+    ],
+    "text": "Table 3: Experimental results for Chinese POS datasets including CTB5, CTB6 and UD1.4. Table 4: Experimental results for English POS datasets.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.586,
+      0.114,
+      0.731,
+      0.492
+    ],
+    "text": "In Table 2, we summarize all the aforementioned losses. Figure 1 gives an explanation from the perspective in derivative: The derivative of DSC approaches zero right after p exceeds 0.5, which suggests the model attends less to examples once they are correctly classified. But for the other losses, the derivatives reach 0 only if the probability is exactly 1, which means they will push p to 1 as much as possible.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.115,
+      0.769,
+      0.262
+    ],
+    "text": "4 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.783,
+      0.114,
+      0.91,
+      0.492
+    ],
+    "text": "We evaluated the proposed method on four NLP tasks, part-of-speech tagging, named entity recognition, machine reading comprehension and paraphrase identification. Hyperparameters are tuned on the corresponding development set of each dataset. More experiment details including datasets and hyperparameters are shown in supplementary material.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.294,
+      0.51,
+      0.311,
+      0.744
+    ],
+    "text": "4.1 Part-of-Speech Tagging",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.509,
+      0.495,
+      0.889
+    ],
+    "text": "Settings Part-of-speech tagging (POS) is the task of assigning a part-of-speech label (e.g., noun, verb, adjective) to each word in a given text. In this paper, we choose BERT (Devlin et al., 2018) as the backbone and conduct experiments on three widely used Chinese POS datasets including Chinese Treebank (Xue et al., 2005) 5.0/6.0 and UD1.4 and English datasets including Wall Street Journal (WSJ) and the dataset proposed by Ritter et al. (2011). We report the span-level micro-averaged precision, recall and F1 for evaluation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.51,
+      0.533,
+      0.85
+    ],
+    "text": "Baselines We used the following baselines:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.551,
+      0.531,
+      0.582,
+      0.885
+    ],
+    "text": "• Joint-POS: Shao et al. (2017) jointly learns Chinese word segmentation and POS.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.531,
+      0.614,
+      0.887
+    ],
+    "text": "• Lattice-LSTM: Zhang and Yang (2018) constructs a word-character lattice network.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.615,
+      0.531,
+      0.649,
+      0.889
+    ],
+    "text": "• Bert-Tagger: Devlin et al. (2018) treats partof-speech as a tagging task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.669,
+      0.509,
+      0.862,
+      0.889
+    ],
+    "text": "Results Table 3 presents the experimental results on Chinese datasets. As can be seen, the proposed DSC loss outperforms the best baseline results by a large margin, i.e., outperforming BERT-tagger by +1.86 in terms of F1 score on CTB5, +1.80 on CTB6 and +2.19 on UD1.4. As far as we know, we are achieving SOTA performances on the three datasets. Focal loss only obtains a little performance improvement on CTB5 and CTB6, and the dice loss obtains huge gain on CTB5 but not on CTB6, which indicates the three losses are not consistently robust in solving the data imbalance issue.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.51,
+      0.91,
+      0.889
+    ],
+    "text": "Table 4 presents the experimental results for English datasets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.073,
+      0.122,
+      0.227,
+      0.485
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:table-2",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_1.jpg",
+    "bbox_norm": [
+      0.228,
+      0.122,
+      0.367,
+      0.485
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:table-3",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_2.jpg",
+    "bbox_norm": [
+      0.368,
+      0.122,
+      0.519,
+      0.485
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:table-4",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_3.jpg",
+    "bbox_norm": [
+      0.52,
+      0.122,
+      0.675,
+      0.485
+    ],
+    "text": "Table 5: Experimental results for NER task.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.115,
+      0.73,
+      0.373
+    ],
+    "text": "4.2 Named Entity Recognition",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.114,
+      0.91,
+      0.492
+    ],
+    "text": "Settings Named entity recognition (NER) is the task of detecting the span and semantic category of entities within a chunk of text. Our implementation uses the current state-of-the-art model proposed by Li et al. (2019) as the backbone, and changes the MLE loss to DSC loss. Datasets that we use include OntoNotes4.0 (Pradhan et al., 2011), MSRA (Levow, 2006), CoNLL2003 (Sang and Meulder, 2003) and OntoNotes5.0 (Pradhan et al., 2013). We report span-level micro-averaged precision, recall and F1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.51,
+      0.091,
+      0.842
+    ],
+    "text": "Baselines We use the following baselines:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.099,
+      0.531,
+      0.13,
+      0.885
+    ],
+    "text": "• ELMo: a tagging model with pretraining from Peters et al. (2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.131,
+      0.531,
+      0.179,
+      0.887
+    ],
+    "text": "• Lattice-LSTM: Zhang and Yang (2018) constructs a word-character lattice, only used in Chinese datasets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.531,
+      0.227,
+      0.887
+    ],
+    "text": "• CVT: Clark et al. (2018) uses Cross-View Training(CVT) to improve the representations of a Bi-LSTM encoder.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.228,
+      0.531,
+      0.259,
+      0.885
+    ],
+    "text": "• Bert-Tagger: Devlin et al. (2018) treats NER as a tagging task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.259,
+      0.531,
+      0.306,
+      0.889
+    ],
+    "text": "Glyce-BERT: Wu et al. (2019) combines Chinese glyph information with BERT pretraining.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-13",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.306,
+      0.531,
+      0.372,
+      0.887
+    ],
+    "text": "• BERT-MRC: Li et al. (2019) formulates NER as a machine reading comprehension task and achieves SOTA results on Chinese and English NER benchmarks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-14",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.509,
+      0.493,
+      0.889
+    ],
+    "text": "Results Table 5 shows experimental results on NER datasets. DSC outperforms BERT-MRC(Li et al., 2019) by +0.29, +0.96, +0.97 and +2.36 respectively on CoNLL2003, OntoNotes5.0, MSRA and OntoNotes4.0. As far as we are concerned, we are setting new SOTA performances on all of the four NER datasets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-15",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.504,
+      0.51,
+      0.519,
+      0.826
+    ],
+    "text": "4.3 Machine Reading Comprehension",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-16",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.525,
+      0.509,
+      0.718,
+      0.889
+    ],
+    "text": "Settings The task of machine reading comprehension (MRC) (Seo et al., 2016; Wang et al., 2016; Wang and Jiang, 2016; Wang et al., 2016; Shen et al., 2017; Chen et al., 2017) predicts the answer span in the passage given a question and the passage. We followed the standard protocols in Seo et al. (2016), in which the start and end indexes of answer are predicted. We report Extract Match (EM) as well as F1 score on validation set. We use three datasets on this task: SQuAD v1.1, SQuAD v2.0 (Rajpurkar et al., 2016, 2018) and Quoref (Dasigi et al., 2019).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-17",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.726,
+      0.51,
+      0.741,
+      0.85
+    ],
+    "text": "Baselines We used the following baselines:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-18",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.529,
+      0.829,
+      0.889
+    ],
+    "text": "• QANet: Yu et al. (2018b) builds a model based on convolutions and self-attentions. Convolutions are used to model local interactions and self-attention are used to model global interactions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-19",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.831,
+      0.531,
+      0.878,
+      0.887
+    ],
+    "text": "• BERT: Devlin et al. (2018) scores each candidate span and the maximum scoring span is used as a prediction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-20",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.531,
+      0.912,
+      0.889
+    ],
+    "text": "• XLNet: Yang et al. (2019) proposes a generalized autoregressive pretraining method that",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.072,
+      0.211,
+      0.293,
+      0.789
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:table-2",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.329,
+      0.144,
+      0.538,
+      0.462
+    ],
+    "text": "Table 6: Experimental results for MRC task. Table 7: Experimental results for PI task. enables learning bidirectional contexts.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.114,
+      0.765,
+      0.492
+    ],
+    "text": "Results Table 6 shows the experimental results for MRC task. With either BERT or XLNet, our proposed DSC loss obtains significant performance boost on both EM and F1. For SQuADv1.1, our proposed method outperforms XLNet by +1.25 in terms of F1 score and +0.84 in terms of EM. For SQuAD v2.0, the proposed method achieves 87.65 on EM and 89.51 on F1. On QuoRef, the proposed method surpasses XLNet by +1.46 on EM and +1.41 on F1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.777,
+      0.115,
+      0.793,
+      0.364
+    ],
+    "text": "4.4 Paraphrase Identification",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "Settings Paraphrase identification (PI) is the task of identifying whether two sentences have the same meaning or not. We conduct experiments on the two widely-used datasets: MRPC (Dolan and Brockett, 2005) and QQP. F1 score is reported for comparison. We use BERT (Devlin et al., 2018) and XLNet (Yang et al., 2019) as baselines.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.332,
+      0.509,
+      0.397,
+      0.887
+    ],
+    "text": "Results Table 7 shows the results. We find that replacing the training objective with DSC introduces performance boost for both settings, +0.58 for MRPC and +0.73 for QQP.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.41,
+      0.51,
+      0.425,
+      0.692
+    ],
+    "text": "5 Ablation Studies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.437,
+      0.51,
+      0.453,
+      0.873
+    ],
+    "text": "5.1 Datasets imbalanced to different extents",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.509,
+      0.62,
+      0.889
+    ],
+    "text": "It is interesting to see how differently the proposed objectives affect datasets imbalanced to different extents. We use the paraphrase identification dataset QQP (37% positive and 63% negative) for studies. To construct datasets with different imbalance degrees, we used the original QQP dataset to construct synthetic training sets with different positive-negative ratios. Models are trained on these different synthetic sets and then test on the same original test set.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.629,
+      0.531,
+      0.676,
+      0.887
+    ],
+    "text": "• Original training set (original) The original dataset with 363,871 examples, with 37% being positive and 63% being negative",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.676,
+      0.532,
+      0.692,
+      0.82
+    ],
+    "text": "• Positive augmentation (+ positive)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.532,
+      0.835,
+      0.889
+    ],
+    "text": "We created a balanced dataset by adding positive examples. We first randomly chose positive training examples in the original training set as templates. Then we used Spacy1 to retrieve entity mentions and replace them with new ones by linking mentions to their corresponding entities in DBpedia. The augmented set contains 458,477 examples, with 50% being positive and 50% being negative.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.837,
+      0.531,
+      0.884,
+      0.887
+    ],
+    "text": "• Negative augmentation (+ negative) We created a more imbalanced dataset. The size of the newly constructed training set and the data augmented technique are exactly the same as +negative, except that we chose negative training examples as templates. The augmented training set contains 458,477 examples, with 21% being positive and 79% being negative.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-1",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.072,
+      0.174,
+      0.147,
+      0.826
+    ],
+    "text": "Table 8: The effect of different data augmentation ways for QQP in terms of F1-score.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.281,
+      0.136,
+      0.297,
+      0.438
+    ],
+    "text": "• Negative downsampling (- negative)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.297,
+      0.137,
+      0.376,
+      0.49
+    ],
+    "text": "We down-sampled negative examples in the original training set to get a balanced training set. The down-sampled set contains 269,165 examples, with 50% being positive and 50% being negative.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.378,
+      0.136,
+      0.409,
+      0.492
+    ],
+    "text": "• Positive and negative augmentation (+ positive & +negative)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.146,
+      0.506,
+      0.492
+    ],
+    "text": "We augmented the original training data with additional positive and negative examples with the data distribution staying the same. The augmented dataset contains 458,477 examples, with 50% being positive and 50% being negative.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.114,
+      0.676,
+      0.492
+    ],
+    "text": "Results are shown in Table 8. We first look at the first line, with all results obtained using the MLE objective. We can see that + positive outperforms original, and +negative underperforms original. This is in line with our expectation since + positive creates a balanced dataset while +negative creates a more imbalanced dataset. Despite the fact that -negative creates a balanced dataset, the number of training data decreases, resulting in inferior performances.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.684,
+      0.114,
+      0.829,
+      0.492
+    ],
+    "text": "DSC achieves the highest F1 score across all datasets. Specially, for +positive, DSC achieves minor improvements (+0.05 F1) over DL. In contrast, it significantly outperforms DL for +negative dataset. This is in line with our expectation since DSC helps more on more imbalanced datasets. The performance of FL and DL are not consistent across different datasets, while DSC consistently performs the best on all datasets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.114,
+      0.857,
+      0.46
+    ],
+    "text": "5.2 Dice loss for accuracy-oriented tasks?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.114,
+      0.912,
+      0.494
+    ],
+    "text": "We argue that the cross-entropy objective is actually accuracy-oriented, whereas the proposed losses perform as a soft version of F1 score. To explore the effect of the dice loss on accuracyoriented tasks such as text classification, we conduct experiments on the Stanford Sentiment Treebank (SST) datasets including SST-2 and SST-5. We fine-tuned $\\mathrm { B E R T _ { L a r g e } }$ with different training objectives. Experimental results for SST are shown in Table 9. For SST-5, BERT with CE achieves 55.57 in terms of accuracy, while DL and DSC perform slightly worse (54.63 and 55.19, respectively). Similar phenomenon is observed for SST-2. These results verify that the proposed dice loss is not accuracy-oriented, and should not be used for accuracy-oriented tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-11",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_1.jpg",
+    "bbox_norm": [
+      0.183,
+      0.589,
+      0.258,
+      0.808
+    ],
+    "text": "Table 9: The effect of DL and DSC on sentiment classification tasks. BERT+CE refers to fine-tuning BERT and setting cross-entropy as the training objective.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-13",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.546,
+      0.509,
+      0.563,
+      0.843
+    ],
+    "text": "5.3 Hyper-parameters in Tversky Index",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-14",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.567,
+      0.509,
+      0.808,
+      0.889
+    ],
+    "text": "As mentioned in Section 3.3, Tversky index (TI) offers the flexibility in controlling the tradeoff between false-negatives and false-positives. In this subsection, we explore the effect of hyperparameters (i.e., α and β) in TI to test how they manipulate the tradeoff. We conduct experiments on the Chinese OntoNotes4.0 NER dataset and English QuoRef MRC dataset. Experimental results are shown in Table 10. The highest F1 on Chinese OntoNotes4.0 is 84.67 when α is set to 0.6 while for QuoRef, the highest F1 is 68.44 when α is set to 0.4. In addition, we can observe that the performance varies a lot as α changes in distinct datasets, which shows that the hyperparameters $\\alpha , \\beta$ acturally play an important role in TI.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-15",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.82,
+      0.51,
+      0.837,
+      0.645
+    ],
+    "text": "6 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-16",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.847,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "In this paper, we propose the dice-based loss to narrow down the gap between training objective and evaluation metrics (F1 score). Experimental results show that the proposed loss function help to achieve significant performance boost without changing model architectures.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:table-1",
+    "page_id": 8,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_8_Table_0.jpg",
+    "bbox_norm": [
+      0.073,
+      0.141,
+      0.198,
+      0.463
+    ],
+    "text": "Table 10: The effect of hyperparameters in Tversky Index. We set $\\beta = 1 - \\alpha$ and thus we only list α here.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.297,
+      0.115,
+      0.313,
+      0.282
+    ],
+    "text": "Acknowledgement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.114,
+      0.403,
+      0.492
+    ],
+    "text": "We thank all anonymous reviewers, as well as Qinghong Han, Wei Wu and Jiawei Wu for their comments and suggestions. The work is supported by the National Natural Science Foundation of China (NSFC No. 61625107 and 61751209).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.115,
+      0.445,
+      0.216
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.453,
+      0.115,
+      0.557,
+      0.49
+    ],
+    "text": "Bernd Bohnet, Ryan T. McDonald, Gonc¸alo Simoes, ˜ Daniel Andor, Emily Pitler, and Joshua Maynez. 2018. Morphosyntactic tagging with a meta-bilstm model over context sensitive token encodings. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics, ACL 2018, Melbourne, Australia, July 15-20, 2018, Volume 1: Long Papers, pages 2642–2652. Haw-Shiuan Chang, Erik G. Learned-Miller, and Andrew McCallum. 2017. Active bias: Training more accurate neural networks by emphasizing high variance samples. In NIPS. N. V. Chawla, K. W. Bowyer, Lawrence O. Hall, and W. P. Kegelmeyer. 2002. Smote: Synthetic minority over-sampling technique. J. Artif. Intell. Res., 16:321– 357. Danqi Chen, Adam Fisch, Jason Weston, and Antoine Bordes. 2017. Reading wikipedia to answer ope",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.077,
+      0.115,
+      0.103,
+      0.489
+    ],
+    "text": "comprehension challenge. Transactions of the Association of Computational Linguistics, 6:317–328. Oldrich Kodym, Michal Spanel, and Adam Herout. 2018. Segmentation of head and neck organs at risk using CNN with batch dice loss. In Pattern Recognition - 40th German Conference, GCPR 2018, Stuttgart, Germany, October 9-12, 2018, Proceedings, pages 105– 114. M. Pawan Kumar, Benjamin Packer, and Daphne Koller. 2010. Self-paced learning for latent variable models. In Advances in Neural Information Processing Systems 23: 24th Annual Conference on Neural Information Processing Systems 2010. Proceedings of a meeting held 6-9 December 2010, Vancouver, British Columbia, Canada., pages 1189–1197. Guillaume Lample, Miguel Ballesteros, Sandeep Subramanian, Kazuya Kawakami, and Chris Dyer. 2016. Neural a",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.077,
+      0.115,
+      0.129,
+      0.49
+    ],
+    "text": "ings of the Seventh Conference on Natural Language Learning, CoNLL 2003, Held in cooperation with HLT-NAACL 2003, Edmonton, Canada, May 31 - June 1, 2003, pages 142–147. Minjoon Seo, Aniruddha Kembhavi, Ali Farhadi, and Hannaneh Hajishirzi. 2016. Bidirectional attention flow for machine comprehension. arXiv preprint arXiv:1611.01603. Reuben R. Shamir, Yuval Duchin, Jinyoung Kim, Guillermo Sapiro, and Noam Harel. 2019. Continuous dice coefficient: a method for evaluating probabilistic segmentations. CoRR, abs/1906.11031. Yan Shao, Christian Hardmeier, Jorg Tiedemann, and ¨ Joakim Nivre. 2017. Character-based joint segmentation and pos tagging for chinese using bidirectional rnncrf. arXiv preprint arXiv:1704.01314. Chen Shen, Holger R. Roth, Hirohisa Oda, Masahiro Oda, Yuichiro Hayashi, Kazu",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.834,
+      0.114,
+      0.876,
+      0.492
+    ],
+    "text": "Shuohang Wang and Jing Jiang. 2016. Machine comprehension using match-lstm and answer pointer. arXiv preprint arXiv:1608.07905.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.882,
+      0.115,
+      0.91,
+      0.49
+    ],
+    "text": "Zhiguo Wang, Haitao Mi, Wael Hamza, and Radu Florian. 2016. Multi-perspective context match- ing for machine comprehension. arXiv preprint arXiv:1612.04211. Wei Wu, Yuxian Meng, Qinghong Han, Muyu Li, Xiaoya Li, Jie Mei, Ping Nie, Xiaofei Sun, and Jiwei Li. 2019. Glyce: Glyph-vectors for chinese character representations. arXiv preprint arXiv:1901.10125. Naiwen Xue, Fei Xia, Fudong Choiu, and Marta Palmer. 2005. The penn chinese treebank: Phrase structure annotation of a large corpus. Natural Language Engineering, 11(2):207–238. Zhilin Yang, Zihang Dai, Yiming Yang, Jaime G. Carbonell, Ruslan Salakhutdinov, and Quoc V. Le. 2019. Xlnet: Generalized autoregressive pretraining for language understanding. CoRR, abs/1906.08237. Adams Wei Yu, David Dohan, Minh-Thang Luong, Rui Zhao, Kai Chen, Mo",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.51,
+      0.525,
+      0.682
+    ],
+    "text": "A Dataset Details",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.535,
+      0.51,
+      0.551,
+      0.749
+    ],
+    "text": "A.1 Part-of-Speech Tagging",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.556,
+      0.509,
+      0.604,
+      0.887
+    ],
+    "text": "Datasets We conduct experiments on three widely used benchmark, i.e., Chinese Treebank 5.02/6.03 and UD1.44.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.529,
+      0.741,
+      0.889
+    ],
+    "text": "• CTB5 is a Chinese dataset for tagging and parsing, which contains 507,222 words, 824,983 characters and 18,782 sentences extracted from newswire sources, including 698 articles from Xinhua (1994-1998), 55 articles from Information Services Department of HK-SAR (1997) and 132 articles from Sinorama Magazine (1996-1998 & 2000-2001).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-8",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.749,
+      0.531,
+      0.796,
+      0.887
+    ],
+    "text": "• CTB6 is an extension of CTB5, containing 781,351 words, 1,285,149 characters and 28,295 sentences.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-9",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.804,
+      0.531,
+      0.838,
+      0.889
+    ],
+    "text": "• UD is the abbreviation of Universal Dependencies, which is a framework for consistent annotation of grammar (parts of speech, morphological features, and syntactic dependencies) across different human languages. In this work, we use UD1.4 for Chinese POS tagging.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.115,
+      0.18,
+      0.378
+    ],
+    "text": "A.2 Named Entity Recognition",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.185,
+      0.114,
+      0.248,
+      0.49
+    ],
+    "text": "Datasets For the NER task, we consider both Chinese datasets, i.e., OntoNotes4.05 and MSRA6 , and English datasets, i.e., CoNLL2003 7 and OntoNotes5.08.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.134,
+      0.322,
+      0.492
+    ],
+    "text": "• CoNLL2003 is an English dataset with 4 entity types: Location, Organization, Person and Miscellaneous. We followed data processing protocols in (Ma and Hovy, 2016).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.329,
+      0.134,
+      0.393,
+      0.492
+    ],
+    "text": "• English OntoNotes5.0 consists of texts from a wide variety of sources and contains 18 entity types. We use the standard train/dev/test split of CoNLL2012 shared task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.136,
+      0.529,
+      0.492
+    ],
+    "text": "• Chinese MSRA performs as a Chinese benchmark dataset containing 3 entity types. Data in MSRA is collected from news domain. Since the development set is not provided in the original MSRA dataset, we randomly split the training set into training and development splits by 9:1. We use the official test set for evaluation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.536,
+      0.134,
+      0.601,
+      0.492
+    ],
+    "text": "• Chinese OntoNotes4.0 is a Chinese dataset and consists of texts from news domain, which has 18 entity types. In this paper, we take the same data split as Wu et al. (2019) did.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.115,
+      0.626,
+      0.445
+    ],
+    "text": "A.3 Machine Reading Comprephension",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.114,
+      0.663,
+      0.492
+    ],
+    "text": "Datasets For MRC task, we use three datasets: SQuADv1.1/v2.09 and Queref10 datasets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-10",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.134,
+      0.768,
+      0.492
+    ],
+    "text": "• SQuAD v1.1 and SQuAD v2.0 are the most widely used QA benchmarks. SQuAD1.1 is a collection of 100K crowdsourced question-answer pairs, and SQuAD2.0 extends SQuAD1.1 allowing no short answer exists in the provided passage.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-11",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.529,
+      0.14,
+      0.889
+    ],
+    "text": "• Quoref is a QA dataset which tests the coreferential reasoning capability of reading comprehension systems, containing 24K questions over 4.7K paragraphs from Wikipedia.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-12",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.149,
+      0.51,
+      0.166,
+      0.766
+    ],
+    "text": "A.4 Paraphrase Identification",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-13",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.17,
+      0.509,
+      0.203,
+      0.887
+    ],
+    "text": "Datasets Experiments are conducted on two PI datasets: MRPC11 and QQP12.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-14",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.21,
+      0.531,
+      0.306,
+      0.889
+    ],
+    "text": "• MRPC is a corpus of sentence pairs automatically extracted from online news sources, with human annotations of whether the sentence pairs are semantically equivalent. The MRPC dataset has imbalanced classes (6800 pairs in total, and 68% for positive, 32% for negative).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-15",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.313,
+      0.531,
+      0.395,
+      0.889
+    ],
+    "text": "• QQP is a collection of question pairs from the community question-answering website Quora. The class distribution in QQP is also unbalanced (over 400,000 question pairs in total, and 37% for positive, 63% for negative).",
+    "source_type": "text"
+  }
+]

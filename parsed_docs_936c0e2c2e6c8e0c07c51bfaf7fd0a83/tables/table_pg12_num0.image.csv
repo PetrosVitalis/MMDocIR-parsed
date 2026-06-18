@@ -1,0 +1,35 @@
+FEA SRM Component (a),FEA TRM Service Area,FEA TRM Service Category,FEA TRM Service Standard,"Service Specification (b) (i.e., vendor and product name)"
+Information Sharing,Service Access and Delivery,Service Requirements,Hosting,Internal (within Agency)
+Identification and Authentication,Service Access and Delivery,Service Requirements,Legislative / Compliance,Privacy: Liberty Alliance
+Identification and Authentication,Service Access and Delivery,Service Requirements,Legislative / Compliance,Section 508
+Identification and Authentication,Service Access and Delivery,Service Requirements,Legislative / Compliance,Security
+Information Sharing,Service Access and Delivery,Service Transport,Service Transport,Electronic Mail (E-mail) Microsoft Exchange Server
+Information Sharing,Service Access and Delivery,Service Transport,Service Transport,Internet Protocol (IP)
+Information Sharing,Service Access and Delivery,Service Transport,Service Transport,Transport Control Protocol (TCP)
+Information Sharing,Service Interface and Integration,Integration,Enterprise Application Integration,Biztalk Application Connectivity
+Instrumentation and Testing,Service Interface and Integration,Integration,Enterprise Application Integration,BizTalk Business Process Management
+Instrumentation and Testing,Service Interface and Integration,Integration,Transformation and Formatting,
+Instrumentation and Testing,Service Interface and Integration,Middleware,Database Access,ISQL/w
+Instrumentation and Testing,Service Interface and Integration,Middleware,Object Request Broker (ORB): Common Object Request Broker Architecture (CORBA),
+Instrumentation and Testing,Service Interface and Integration,Interface,Service Description / Interface,Application Program Interface (API) / Protocol
+Instrumentation and Testing,Service Interface and Integration,Interoperability,Data Format / Classification,eXtensible Markup Language (XML) / Protocol
+Software Development,Service Interface and Integration,Interoperability,Data Types / Validation,XML Schema
+Instrumentation and Testing,Service Platform and Infrastructure,Database / Storage,Database,Oracle database
+Instrumentation and Testing,Service Platform and Infrastructure,Database / Storage,Storage,EMC/Compaq Storage Area Network (SAN)
+Information Sharing,Service Platform and Infrastructure,Delivery Servers,Media Servers,Microsoft Windows Media Services
+Information Sharing,Service Platform and Infrastructure,Hardware / Infrastructure,Embedded Technology Devices,Hard Disk Drive
+Information Sharing,Service Platform and Infrastructure,Hardware / Infrastructure,Embedded Technology Devices,Microprocessor
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Embedded Technology Devices,Random Access Memory (RAM)
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Embedded Technology Devices,Redundant Array of Independent Disks (RAID)
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Local Area Network (LAN),Ethernet
+Information Sharing,Service Platform and Infrastructure,Hardware / Infrastructure,Local Area Network (LAN),Virtual LAN (VLAN)
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Network Devices / Standards,Digital Subscriber Line (DSL)
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Network Devices / Standards,Hub
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Network Devices / Standards,Network Interface Card (NIC)
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Network Devices / Standards,Router
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Network Devices / Standards,T1/T3
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Network Devices / Standards,Webcullis
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Peripherals,Printer
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Peripherals,Scanner
+Information Sharing,Service Platform and Infrastructure,Hardware / Infrastructure,Servers / Computers,Dell/Compaq Enterprise Server
+Personnel Administration,Service Platform and Infrastructure,Hardware / Infrastructure,Video Conferencing,CODEC

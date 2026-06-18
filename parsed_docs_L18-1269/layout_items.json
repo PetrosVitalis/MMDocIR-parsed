@@ -1,0 +1,1052 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.102,
+      0.119,
+      0.123,
+      0.872
+    ],
+    "text": "SentEval: An Evaluation Toolkit for Universal Sentence Representations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.346,
+      0.153,
+      0.647
+    ],
+    "text": "Alexis Conneau∗ and Douwe Kiela",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.154,
+      0.352,
+      0.167,
+      0.638
+    ],
+    "text": "Facebook Artificial Intelligence Research",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.401,
+      0.183,
+      0.593
+    ],
+    "text": "{aconneau,dkiela}@fb.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.2,
+      0.462,
+      0.214,
+      0.531
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.215,
+      0.08,
+      0.281,
+      0.91
+    ],
+    "text": "We introduce SentEval, a toolkit for evaluating the quality of universal sentence representations. SentEval encompasses a variety of tasks, including binary and multi-class classification, natural language inference and sentence similarity. The set of tasks was selected based on what appears to be the community consensus regarding the appropriate evaluations for universal sentence representations. The toolkit comes with scripts to download and preprocess datasets, and an easy interface to evaluate sentence encoders. The aim is to provide a fairer, less cumbersome and more centralized way for evaluating sentence representations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.293,
+      0.082,
+      0.306,
+      0.369
+    ],
+    "text": "Keywords: representation learning, evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.208,
+      0.338,
+      0.357
+    ],
+    "text": "1. Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.344,
+      0.08,
+      0.458,
+      0.485
+    ],
+    "text": "Following the recent word embedding upheaval, one of NLP’s next challenges has become the hunt for universal general-purpose sentence representations. What distinguishes these representations, or embeddings, is that they are not necessarily trained to perform well on one specific task. Rather, their value lies in their transferability, i.e., their ability to capture information that can be of use in any kind of system or pipeline, on a variety of tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.458,
+      0.08,
+      0.615,
+      0.485
+    ],
+    "text": "Word embeddings are particularly useful in cases where there is limited training data, leading to sparsity and poor vocabulary coverage, which in turn lead to poor generalization capabilities. Similarly, sentence embeddings (which are often built on top of word embeddings) can be used to further increase generalization capabilities, composing unseen combinations of words and encoding grammatical constructions that are not present in the task-specific training data. Hence, high-quality universal sentence representations are highly desirable for a variety of downstream NLP tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.615,
+      0.08,
+      0.885,
+      0.485
+    ],
+    "text": "The evaluation of general-purpose word and sentence embeddings has been problematic (Chiu et al., 2016; Faruqui et al., 2016), leading to much discussion about the best way to go about it1. On the one hand, people have measured performance on intrinsic evaluations, e.g. of human judgments of word or sentence similarity ratings (Agirre et al., 2012; Hill et al., 2016b) or of word associations (Vulic et´ al., 2017). On the other hand, it has been argued that the focus should be on downstream tasks where these representations would actually be applied (Ettinger et al., 2016; Nayak et al., 2016). In the case of sentence representations, there is a wide variety of evaluations available, many from before the “embedding era”, that can be used to assess representational quality on that particular ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.338,
+      0.505,
+      0.482,
+      0.91
+    ],
+    "text": "Implementing pipelines for this large set of evaluations, each with its own peculiarities, is cumbersome and induces unnecessary wheel reinventions. Another wellknown problem with the current status quo, where everyone uses their own evaluation pipeline, is that different preprocessing schemes, evaluation architectures and hyperparameters are used. The datasets are often small, meaning that minor differences in evaluation setup may lead to very different outcomes, which implies that results reported in papers are not always fully comparable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-14",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.505,
+      0.539,
+      0.909
+    ],
+    "text": "In order to overcome these issues, we introduce SentEval2: a toolkit that makes it easy to evaluate universal sentence representation encoders on a large set of evaluation tasks that has been established by community consensus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-15",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.551,
+      0.665,
+      0.565,
+      0.752
+    ],
+    "text": "2. Aims",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-16",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.505,
+      0.627,
+      0.909
+    ],
+    "text": "The aim of SentEval is to make research on universal sentence representations fairer, less cumbersome and more centralized. To achieve this goal, SentEval encompasses the following:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-17",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.526,
+      0.667,
+      0.909
+    ],
+    "text": "• one central set of evaluations, based on what appears to be community consensus;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-18",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.676,
+      0.526,
+      0.732,
+      0.91
+    ],
+    "text": "• one common evaluation pipeline with fixed standard hyperparameters, apart from those tuned on validation sets, in order to avoid discrepancies in reported results; and",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-19",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.741,
+      0.526,
+      0.785,
+      0.91
+    ],
+    "text": "• easy access for anyone, meaning: a straightforward interface in Python, and scripts necessary to download and preprocess the relevant datasets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-20",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.505,
+      0.852,
+      0.91
+    ],
+    "text": "In addition, we provide examples of models, such as a simple bag-of-words model. These could potentially also be used to extrinsically evaluate the quality of word embeddings in NLP tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-21",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.864,
+      0.636,
+      0.879,
+      0.779
+    ],
+    "text": "3. Evaluations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-22",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.883,
+      0.505,
+      0.913,
+      0.91
+    ],
+    "text": "Our aim is to obtain general-purpose sentence embeddings that capture generic information, which should be useful for a broad set of tasks. To evaluate the quality of these representations, we use them as features in various transfer tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:table-1",
+    "page_id": 1,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_1_Table_0.jpg",
+    "bbox_norm": [
+      0.079,
+      0.09,
+      0.187,
+      0.902
+    ],
+    "text": "Table 1: Classification tasks. C is the number of classes and N is the number of samples.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-1:table-2",
+    "page_id": 1,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_1_Table_1.jpg",
+    "bbox_norm": [
+      0.222,
+      0.087,
+      0.456,
+      0.904
+    ],
+    "text": "Table 2: Natural Language Inference and Semantic Similarity tasks. NLI labels are contradiction, neutral and entailment. STS labels are scores between 0 and 5. PD=paraphrase detection, ICR=image-caption retrieval.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.565,
+      0.08,
+      0.738,
+      0.485
+    ],
+    "text": "Binary and multi-class classification We use a set of binary classification tasks (see Table 1) that covers various types of sentence classification, including sentiment analysis (MR and both binary and fine-grained SST) (Pang and Lee, 2005; Socher et al., 2013), question-type (TREC) (Voorhees and Tice, 2000), product reviews (CR) (Hu and Liu, 2004), subjectivity/objectivity (SUBJ) (Pang and Lee, 2004) and opinion polarity (MPQA) (Wiebe et al., 2005). We generate sentence vectors and classifier on top, either in the form of a Logistic Regression or an MLP. For MR, CR, SUBJ and MPQA, we use nested 10-fold cross-validation, for TREC cross-validation and for SST standard validation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.74,
+      0.08,
+      0.913,
+      0.485
+    ],
+    "text": "Entailment and semantic relatedness We also include the SICK dataset (Marelli et al., 2014) for entailment (SICK-E), and semantic relatedness datasets including SICK-R and the STS Benchmark dataset (Cer et al., 2017). For semantic relatedness, which consists of predicting a semantic score between 0 and 5 from two input sentences, we follow the approach of Tai et al. (2015a) and learn to predict the probability distribution of relatedness scores. SentEval reports Pearson and Spearman correlation. In addition, we include the SNLI dataset (Bowman et al., 2015), a collection of 570k human-written English supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE) which consists of predicting whether two input sentences are entailed, neutral or co",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.594,
+      0.504,
+      0.824,
+      0.91
+    ],
+    "text": "Semantic Textual Similarity While semantic relatedness requires training a model on top of the sentence embeddings, we also evaluate embeddings on the unsupervised SemEval tasks. These datasets include pairs of sentences taken from news articles, forum discussions, news conversations, headlines, image and video descriptions labeled with a similarity score between 0 and 5. The goal is to evaluate how the cosine distance between two sentences correlate with a human-labeled similarity score through Pearson and Spearman correlations. We include STS tasks from 2012 (Agirre et al., 2012), 20134 (Agirre et al., 2013), 2014 (Agirre et al., 2014), 2015 (Agirre et al., 2015) and 2016 (Agirre et al., 2016). Each of these tasks includes several subtasks. SentEval reports both the average and the weigh",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.826,
+      0.504,
+      0.913,
+      0.912
+    ],
+    "text": "Paraphrase detection The Microsoft Research Paraphrase Corpus (MRPC) (Dolan et al., 2004) is composed of pairs of sentences which have been extracted from news sources on the Web. Sentence pairs have been human-annotated according to whether they capture a paraphrase/semantic equivalence relationship. We use the same approach as with SICK-E, except that our classifier has only 2 classes, i.e., the aim is to predict whether the sentences are paraphrases or not.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.129,
+      0.08,
+      0.288,
+      0.485
+    ],
+    "text": "Caption-Image retrieval The caption-image retrieval task evaluates joint image and language feature models (Lin et al., 2014). The goal is either to rank a large collection of images by their relevance with respect to a given query caption (Image Retrieval), or ranking captions by their relevance for a given query image (Caption Retrieval). The COCO dataset provides a training set of 113k images with 5 captions each. The objective consists of learning a captionimage compatibility score $ { \\mathcal { L } } _ { \\mathrm { c i r } } ( x , y )$ from a set of aligned image-caption pairs as training data. We use a pairwise ranking-loss $ { \\mathcal { L } } _ { \\mathrm { c i r } } ( x , y )$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-3",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_0.jpg",
+    "bbox_norm": [
+      0.292,
+      0.11,
+      0.356,
+      0.455
+    ],
+    "text": "$$\n\\begin{array} { r } { \\underset { y } { \\sum _ { y } \\sum _ { k } } \\operatorname* { m a x } ( 0 , \\alpha - s ( V y , U x ) + s ( V y , U x _ { k } ) ) + } \\\\ { \\sum _ { x } \\underset { k ^ { \\prime } } { \\sum _ { k } } \\operatorname* { m a x } ( 0 , \\alpha - s ( U x , V y ) + s ( U x , V y _ { k ^ { \\prime } } ) ) , } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.356,
+      0.08,
+      0.586,
+      0.485
+    ],
+    "text": "where $( x , y )$ consists of an image y with one of its associated captions $x , ( y _ { k } ) _ { k }$ and $( y _ { k ^ { \\prime } } ) _ { k ^ { \\prime } }$ are negative examples of the ranking loss, α is the margin and s corresponds to the cosine similarity. U and V are learned linear transformations that project the caption x and the image y to the same embedding space. We measure Recall@K, with $\\mathsf { K } \\in \\{ 1 , 5 , 1 0 \\}$ , i.e., the percentage of images/captions for which the corresponding caption/image is one of the first K retrieved; and median rank. We use the same splits as Karpathy and Fei-Fei (2015), i.e., we use 113k images (each containing 5 captions) for training, 5k images for validation and 5k images for test. For evaluation, we split the 5k images in 5 random se",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.598,
+      0.154,
+      0.614,
+      0.411
+    ],
+    "text": "4. Usage and Requirements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.08,
+      0.82,
+      0.485
+    ],
+    "text": "Our evaluations comprise two different types: ones where we need to learn on top of the provided sentence representations (e.g. classification/regression) and ones where we simply take the cosine similarity between the two representations, as in the STS tasks. In the binary and multi-class classification tasks, we fit either a Logistic Regression classifier or an MLP with one hidden layer on top of the sentence representations. For the natural language inference tasks, where we are given two sentences u and v, we provide the classifier with the input $\\langle u , v , | u - v | , u * v \\rangle$ . To fit the Pytorch models, we use Adam (Kingma and Ba, 2014), with a batch size 64. We tune the L2 penalty of the classifier with grid-search on the validation set. When using Sent-Eval, two functi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.831,
+      0.1,
+      0.889,
+      0.485
+    ],
+    "text": "• prepare(params, dataset): sees the whole dataset and applies any necessary preprocessing, such as constructing a lookup table of word embeddings (this function is optional); and",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.898,
+      0.1,
+      0.942,
+      0.484
+    ],
+    "text": "• batcher(params, batch): given a batch of input sentences, returns an array of the sentence embeddings for the respective inputs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.082,
+      0.504,
+      0.183,
+      0.91
+    ],
+    "text": "The main batcher function allows the user to encode text sentences using any Python framework. For example, the batcher function might be a wrapper around a model written in Pytorch, TensorFlow, Theano, DyNet, or any other framework5. To illustrate the use, here is an example of what an evaluation script looks like, having defined the prepare and batcher functions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.275,
+      0.505,
+      0.335,
+      0.91
+    ],
+    "text": "Parameters Both functions make use of a params object, which contains the settings of the network and the evaluation. SentEval has several parameters that influence the evaluation procedure. These include the following:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.344,
+      0.526,
+      0.36,
+      0.847
+    ],
+    "text": "• task path (str, required): path to the data.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.367,
+      0.526,
+      0.382,
+      0.845
+    ],
+    "text": "• seed (int): random seed for reproducibility.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.392,
+      0.526,
+      0.435,
+      0.909
+    ],
+    "text": "• batch size (int): size of minibatch of text sentences provided to batcher (sentences are sorted by length).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.443,
+      0.526,
+      0.458,
+      0.894
+    ],
+    "text": "• kfold (int): k in the kfold-validation (default: 10).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-16",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.469,
+      0.507,
+      0.485,
+      0.657
+    ],
+    "text": "The default config is:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-17",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_1.jpg",
+    "bbox_norm": [
+      0.493,
+      0.507,
+      0.536,
+      0.872
+    ],
+    "text": "$$\n\\begin{array} { r c l } { { \\tt p a r a m s } } & { { = } } & { { \\{ \\stackrel { { \\tt ~ t } : { \\tt ~ t a s k } \\_ p a t h ^ { \\prime } : { \\tt ~ P A T H \\_ T O \\_ D A T A } , } { \\tt ~ t a s e p y t ~ o ~ } } } \\\\ { { } } & { { } } & { { : \\ u { \\tt s e p y t \\ o r c h ^ { \\prime } : { \\tt ~ T r u e } } , } } \\\\ { { } } & { { } } & { { \\mathrm { ~ \\tt ~ \\cdot ~ k f { o } 1 d ^ { \\prime } : { \\tt ~ 1 } 0 \\mu ~ } } } \\end{array}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-18",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.544,
+      0.505,
+      0.574,
+      0.909
+    ],
+    "text": "We also give the user the ability to customize the classifier used for the classification tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-19",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.505,
+      0.621,
+      0.91
+    ],
+    "text": "Classifier To be comparable to the results published in the literature, users should use the following parameters for Logistic Regression:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-21",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.507,
+      0.711,
+      0.783
+    ],
+    "text": "The parameters of the classifier include:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-22",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.719,
+      0.526,
+      0.763,
+      0.91
+    ],
+    "text": "• nhid (int): number of hidden units of the MLP; if nhid> 0, a Multi-Layer Perceptron with one hidden layer and a Sigmoid nonlinearity is used.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-23",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.771,
+      0.526,
+      0.787,
+      0.878
+    ],
+    "text": "• optim (str): classifier optimizer (default: adam).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-24",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.526,
+      0.824,
+      0.909
+    ],
+    "text": "• batch size (int): batch size for training the classifier (default: 64).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-25",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.526,
+      0.862,
+      0.909
+    ],
+    "text": "• tenacity (int): stopping criterion; maximum number of times the validation error does not decrease.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-26",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.87,
+      0.526,
+      0.9,
+      0.909
+    ],
+    "text": "• epoch size (int): number of passes through the training set for one epoch.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:table-1",
+    "page_id": 3,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_3_Table_0.jpg",
+    "bbox_norm": [
+      0.078,
+      0.085,
+      0.25,
+      0.902
+    ],
+    "text": "Table 3: Transfer test results for various baseline methods. We include supervised results trained directly on each task (no transfer). Results 1 correspond to AdaSent (Zhao et al., 2015), 2 to BLSTM-2DCNN (Zhou et al., 2016), 3 to TF-KLD (Ji and Eisenstein, 2013) and 4 to Illinois-LH system (Lai and Hockenmaier, 2014).",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.1,
+      0.343,
+      0.463
+    ],
+    "text": "• dropout (float): dropout rate in the case of MLP.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.351,
+      0.08,
+      0.425,
+      0.485
+    ],
+    "text": "For use cases where there are multiple calls to SentEval, e.g when evaluating the sentence encoder at every epoch of training, we propose the following prototyping set of parameters, which will lead to slightly worse results but will make the evaluation significantly faster:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.08,
+      0.545,
+      0.484
+    ],
+    "text": "You may also pass additional parameters to the params object in order which will further be accessible from the prepare and batcher functions (e.g a pretrained model).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.548,
+      0.08,
+      0.677,
+      0.485
+    ],
+    "text": "Datasets In order to obtain the data and preprocess it so that it can be fed into SentEval, we provide the get transfer data.bash script in the data directory. The script fetches the different datasets from their known locations, unpacks them and preprocesses them. We tokenize each of the datasets with the MOSES tokenizer (Koehn et al., 2007) and convert all files to UTF-8 encoding. Once this script has been executed, the task path parameter can be set to indicate the path of the data directory.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.68,
+      0.08,
+      0.81,
+      0.485
+    ],
+    "text": "Requirements SentEval is written in Python. In order to run the evaluations, the user will need to install numpy, scipy and recent versions of pytorch and scikit-learn. In order to facilitate research where no GPUs are available, we offer for the evaluations to be run on CPU (using scikitlearn) where possible. For the bigger datasets, where more complicated models are often required, for instance STS Benchmark, SNLI, SICK-R and the image-caption retrieval tasks, we recommend pytorch models on a single GPU.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.822,
+      0.221,
+      0.838,
+      0.346
+    ],
+    "text": "5. Baselines",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.843,
+      0.08,
+      0.858,
+      0.42
+    ],
+    "text": "Several baseline models are evaluated in Table 3:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.87,
+      0.1,
+      0.942,
+      0.485
+    ],
+    "text": "• Continuous bag-of-words embeddings (average of word vectors). We consider the most commonly used pretrained word vectors available, namely the fastText (Mikolov et al., 2017) and the GloVe (Pennington et al., 2014) vectors trained on CommonCrawl.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.326,
+      0.526,
+      0.343,
+      0.801
+    ],
+    "text": "• SkipThought vectors (Ba et al., 2016)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.359,
+      0.526,
+      0.374,
+      0.816
+    ],
+    "text": "• InferSent vectors (Conneau et al., 2017)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.393,
+      0.504,
+      0.623,
+      0.912
+    ],
+    "text": "In addition to these methods, we include the results of current state-of-the-art methods for which both the encoder and the classifier are trained on each task (no transfer). For GloVe and fastText bag-of-words representations, we report the results for Logistic Regression and Multi-Layer Perceptron (MLP). For the MLP classifier, we tune the dropout rate and the number of hidden units in addition to the L2 regularization. We do not observe any improvement over Logistic Regression for methods that already have a large embedding size (4096 for Infersent and 4800 for SkipThought). On most transfer tasks, supervised methods that are trained directly on each task still outperform transfer methods. Our hope is that SentEval will help the community build sentence representations with better gener",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.644,
+      0.638,
+      0.659,
+      0.778
+    ],
+    "text": "6. Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.504,
+      0.74,
+      0.91
+    ],
+    "text": "Universal sentence representations are a hot topic in NLP research. Making use of a generic sentence encoder allows models to generalize and transfer better, even when trained on relatively small datasets, which makes them highly desirable for downstream NLP tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-16",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.741,
+      0.504,
+      0.944,
+      0.912
+    ],
+    "text": "We introduced SentEval as a fair, straightforward and centralized toolkit for evaluating sentence representations. We have aimed to make evaluation as easy as possible: sentence encoders can be evaluated by implementing a simple Python interface, and we provide a script to download the necessary evaluation datasets. In future work, we plan to enrich SentEval with additional tasks as the consensus on the best evaluation for sentence embeddings evolves. In particular, tasks that probe for specific linguistic properties of the sentence embeddings (Shi et al., 2016; Adi et al., 2017) are interesting directions towards understanding how the encoder understands language. We hope that our toolkit will be used by the community in order to ensure that fully comparable results are published in resea",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:table-1",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.079,
+      0.147,
+      0.196,
+      0.84
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:equation-2",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_0.jpg",
+    "bbox_norm": [
+      0.214,
+      0.299,
+      0.229,
+      0.346
+    ],
+    "text": "$$\n\\overline { { 6 0 . 0 ^ { 1 } } }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:equation-3",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_1.jpg",
+    "bbox_norm": [
+      0.214,
+      0.379,
+      0.229,
+      0.425
+    ],
+    "text": "$$\n\\overline { { 5 6 . 8 ^ { \\mathrm { T } } } }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:equation-4",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_2.jpg",
+    "bbox_norm": [
+      0.214,
+      0.458,
+      0.229,
+      0.504
+    ],
+    "text": "$$\n\\overline { { 7 1 . 3 ^ { \\mathrm { T } } } }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:equation-5",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_3.jpg",
+    "bbox_norm": [
+      0.214,
+      0.539,
+      0.229,
+      0.584
+    ],
+    "text": "$$\n\\overline { { 7 4 . 8 ^ { \\mathrm { T } } } }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:equation-6",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_4.jpg",
+    "bbox_norm": [
+      0.214,
+      0.7,
+      0.229,
+      0.746
+    ],
+    "text": "$$\n\\overline { { 8 6 . 8 ^ { 2 } } }\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.08,
+      0.299,
+      0.91
+    ],
+    "text": "Table 4: Evaluation of sentence representations on the semantic textual similarity benchmarks. Numbers reported are Pearson correlations x100. We use the average of Pearson correlations for STS’12 to STS’16 which are composed of several subtasks. Charagram-phrase numbers were taken from (Wieting et al., 2016). Results 1 correspond to PP-Proj (Wieting et al., 2015) and 2 from Tree-LSTM (Tai et al., 2015b).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.321,
+      0.146,
+      0.337,
+      0.421
+    ],
+    "text": "7. Bibliographical References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.346,
+      0.084,
+      0.43,
+      0.484
+    ],
+    "text": "Adi, Y., Kermany, E., Belinkov, Y., Lavi, O., and Goldberg, Y. (2017). Fine-grained analysis of sentence embeddings using auxiliary prediction tasks. In Proceedings of ICLR Conference Track, Toulon, France. Published online: https://openreview.net/group?id= ICLR.cc/2017/conference. Agirre, E., Diab, M., Cer, D., and Gonzalez-Agirre, A. (2012). Semeval-2012 task 6: A pilot on semantic textual similarity. In Proceedings of Semeval-2012, pages 385–393. Agirre, E., Cer, D., Diab, M., Gonzalez-agirre, A., and Guo, W. (2013). sem 2013 shared task: Semantic textual similarity, including a pilot on typed-similarity. In In \\*SEM 2013: The Second Joint Conference on Lexical and Computational Semantics. Association for Computational Linguistics. Agirre, E., Baneab, C., Cardiec, C., Cerd, D., Diabe, M",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.099,
+      0.11,
+      0.484
+    ],
+    "text": "International Conference on Learning Representations (ICLR). Kiros, R., Zhu, Y., Salakhutdinov, R. R., Zemel, R., Urtasun, R., Torralba, A., and Fidler, S. (2015). Skip-thought vectors. In Advances in neural information processing systems, pages 3294–3302. Koehn, P., Hoang, H., Birch, A., Callison-Burch, C., Federico, M., Bertoldi, N., Cowan, B., Shen, W., Moran, C., Zens, R., Dyer, C., Bojar, O., Constantin, A., and Herbst, E. (2007). Moses: Open source toolkit for statistical machine translation. In Proceedings of the 45th Annual Meeting of the ACL on Interactive Poster and Demonstration Sessions, ACL ’07, pages 177–180, Stroudsburg, PA, USA. Association for Computational Linguistics. Lai, A. and Hockenmaier, J. (2014). Illinois-lh: A denotational and distributional approach to semantics",
+    "source_type": "list"
+  }
+]

@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">2021</td><td colspan="2">2020</td></tr><tr><td></td><td>$ 26,741</td><td>$</td><td>16,298 $</td><td>Change 10,443</td></tr><tr><td>Equipment and services Licensing</td><td></td><td>6.825</td><td>7,233</td><td>(408)</td></tr><tr><td></td><td>$ 33,566</td><td>$</td><td>23,531 $</td><td>10,035</td></tr></table>

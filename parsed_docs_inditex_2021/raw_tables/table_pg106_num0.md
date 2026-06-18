@@ -1,0 +1,1 @@
+<table><tr><td>31/01/2022</td><td>31/01/2021</td></tr><tr><td>Current financial investments</td><td>1 ：</td></tr><tr><td>Trade and other receivables</td><td>11 16</td></tr><tr><td>Non-current financial investments</td><td>295 258</td></tr><tr><td>Trade and other payables</td><td>356 277</td></tr></table>

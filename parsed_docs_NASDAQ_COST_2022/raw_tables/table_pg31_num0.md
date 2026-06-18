@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">SG&amp;A expenses</td><td>2022</td><td>2021</td><td></td><td>2020</td></tr><tr><td>$ 19,779</td><td>$</td><td>18,537</td><td>16,387</td></tr><tr><td>SG&amp;A expenses as a percentage of net sales</td><td>8.88%</td><td></td><td>$ 9.65%</td><td>10.04 %</td></tr></table>

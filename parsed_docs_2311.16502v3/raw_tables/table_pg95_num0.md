@@ -1,0 +1,1 @@
+<table><tr><td>Speed (km/h)</td><td>Density (veh/km)</td></tr><tr><td>14.2</td><td>85</td></tr><tr><td>24.1</td><td>70</td></tr><tr><td>30.3</td><td>55</td></tr><tr><td>40.1</td><td>41</td></tr><tr><td>50.6</td><td>20</td></tr><tr><td>55.0</td><td>15</td></tr></table>

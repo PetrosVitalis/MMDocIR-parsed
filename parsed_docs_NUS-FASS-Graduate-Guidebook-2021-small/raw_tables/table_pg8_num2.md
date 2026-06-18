@@ -1,0 +1,1 @@
+<table><tr><td>COURSEWORK PROGRAMME</td><td>APPLICATIONPERIOD</td></tr><tr><td>Chinese Studies</td><td rowspan="2">2ndNovember(14months before the intake)to</td></tr><tr><td>Geography</td></tr><tr><td>Japanese Studies</td><td>15thMay (intheyearpreceding theintake)</td></tr></table>

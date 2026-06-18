@@ -1,0 +1,5 @@
+Latent Space,Yelp DAE,Yelp VAE,Amazon DAE,Amazon VAE
+None (majority guess),0.60,0.60,0.51,0.51
+Content space (c),0.66,0.70,0.67,0.69
+Style space (s),0.97,0.97,0.82,0.81
+Complete space ([s;c]),0.97,0.97,0.82,0.81

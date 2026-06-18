@@ -1,0 +1,1 @@
+<table><tr><td rowspan="7"></td><td>2020</td><td>2019</td><td></td></tr><tr><td></td><td></td><td>2018</td></tr><tr><td>$bn</td><td>$bn</td><td>$bn</td></tr><tr><td>174</td><td>171</td><td>149</td></tr><tr><td>176</td><td>151</td><td>124</td></tr><tr><td>44</td><td>39</td><td>36</td></tr><tr><td>394</td><td>361</td><td>309</td></tr></table>

@@ -1,0 +1,12 @@
+Context Relevance,Faithfulness,Answer Relevance,Noise Robustness,Negative Rejection,Information Integration,Counterfactual Robustness
+Accuracy,✓,,✓,✓,✓,✓
+EM,,,,,✓,
+Recall,✓,,,,,
+Precision,✓,,,,,
+R-Rate,,,,✓,,✓
+Cosine Similarity,,,,,,
+Hit Rate,✓,,✓,,,
+MRR,✓,,,,,
+NDCG,✓,,,,,
+BLEU,✓,✓,✓,,,
+ROUGE/ROUGE-L,✓,✓,✓,,,

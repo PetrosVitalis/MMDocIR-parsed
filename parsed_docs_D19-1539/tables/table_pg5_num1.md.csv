@@ -1,0 +1,6 @@
+Model,dev F1,test F1
+ELMoBASE,95.7,92.2
+CNN Large + ELMo,96.4 96.9,93.2 93.5
+CNN Large + fine-tune BERT BASE,96.4,92.4
+$\mathbf { B E R T } _ { L A R G E }$,96.6,
+,,92.8

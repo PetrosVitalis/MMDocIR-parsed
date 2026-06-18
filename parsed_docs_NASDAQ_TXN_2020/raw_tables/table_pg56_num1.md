@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2022</td><td>2023</td><td>2024</td><td>2025</td><td>Thereafter</td><td>Total</td></tr><tr><td>Purchase commitments . ·.</td><td>$400</td><td>$127</td><td>$69</td><td>$31</td><td>$24</td><td>$96</td><td>$747</td></tr></table>

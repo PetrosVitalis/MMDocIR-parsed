@@ -1,0 +1,1 @@
+<table><tr><td>Particulars</td><td>Domestic</td><td>International</td></tr><tr><td>Revenue</td><td>145,131.15</td><td>931.97</td></tr><tr><td>Assets</td><td>1,703,283.63</td><td>43,586.89</td></tr><tr><td>Capital expenditure</td><td>1,791.73</td><td>0.41</td></tr></table>

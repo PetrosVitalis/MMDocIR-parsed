@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">Other</td></tr><tr><td>(CHF billions)</td><td>Revenue</td><td>Net income</td><td>comprehen- comprehen- sive income sive income</td></tr><tr><td>December 31,2020</td><td>60.3</td><td>12.5</td><td>-1.8</td></tr><tr><td>June 30,2021</td><td>32.1</td><td>7.6 1.6</td><td>10.7 9.2</td></tr></table>

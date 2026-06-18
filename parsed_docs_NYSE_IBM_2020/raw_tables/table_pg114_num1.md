@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">($ in millions)</td></tr><tr><td>At December 31:</td><td>2020</td><td>2019</td></tr><tr><td>Commercial paper</td><td>$ 二</td><td>$304</td></tr><tr><td>Short-term loans</td><td>130</td><td>971</td></tr><tr><td>Long-term debt-current maturities</td><td>7,053</td><td>7,522</td></tr><tr><td>Total</td><td>$7,183</td><td>$8,797</td></tr></table>

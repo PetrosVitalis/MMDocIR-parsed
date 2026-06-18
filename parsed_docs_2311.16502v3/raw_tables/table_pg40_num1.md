@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Product A</td><td>Product B</td><td>Product C</td></tr><tr><td> Direct materials</td><td>$50.00</td><td>$114.40</td><td>$65.00</td></tr><tr><td>Direct labor</td><td>20.00</td><td>12.00</td><td>10.00</td></tr><tr><td> Total prime cost</td><td>$70.00</td><td>$126.40</td><td>$75.00</td></tr></table>

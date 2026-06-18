@@ -1,0 +1,1 @@
+<table><tr><td></td><td>U.S. Defined Benefit</td><td>U.S. Retiree Health Care</td><td>Non-U.S. Defined Benefit</td></tr><tr><td>Fixed income .securities .and .ash .equiv.alents............</td><td>65%-80%</td><td>65%-80%</td><td>60%-100%</td></tr><tr><td>Equity securitie....</td><td>20%-35%</td><td>20%-35%</td><td>0% -40%</td></tr></table>

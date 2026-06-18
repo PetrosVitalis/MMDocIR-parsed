@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Price/earnings ratio1</td><td>8.2</td><td>26.7</td><td>18.5</td></tr><tr><td>Price/earnings ratio from continuing operations&#x27;</td><td></td><td>26.7</td><td>30.4</td></tr><tr><td>Dividend yield (%)1</td><td>8.2</td><td></td><td></td></tr><tr><td></td><td>3.9</td><td>3.6</td><td>3.2</td></tr></table>

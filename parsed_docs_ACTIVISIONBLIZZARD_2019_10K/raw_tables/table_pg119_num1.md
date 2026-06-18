@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="4">At December 31,</td></tr><tr><td>2019</td><td>2018</td><td></td><td>2017</td></tr><tr><td>Beginning restricted cash</td><td>$ 4</td><td>$</td><td>7 $</td><td>17</td></tr><tr><td>Ending restricted cash</td><td>4</td><td></td><td>4</td><td>7</td></tr></table>

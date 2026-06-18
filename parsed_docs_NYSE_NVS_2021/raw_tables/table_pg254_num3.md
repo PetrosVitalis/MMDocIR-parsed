@@ -1,0 +1,1 @@
+<table><tr><td></td><td>December 31, 2021</td><td>December 31, 2020</td></tr><tr><td>Investment in shares of Novartis AG</td><td></td><td></td></tr><tr><td>Number of shares (in millions)</td><td>2.3</td><td>2.3</td></tr><tr><td>Market value (in USD billions)</td><td>0.2</td><td>0.2</td></tr></table>

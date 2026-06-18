@@ -1,0 +1,1304 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.079,
+      0.194,
+      0.12,
+      0.805
+    ],
+    "text": "Neural News Recommendation with Long- and Short-term User Representations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.134,
+      0.147,
+      0.185,
+      0.858
+    ],
+    "text": "Mingxiao An1,\\*, Fangzhao Wu2, Chuhan Wu3, Kun Zhang1, Zheng Liu2, Xing Xie2 1University of Science and Technology of China, Hefei 230026, China 2Microsoft Research Asia, Beijing 100080, China",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.185,
+      0.147,
+      0.236,
+      0.862
+    ],
+    "text": "3Department of Electronic Engineering, Tsinghua University, Beijing 100084, China {anmx,zhkun}@mail.ustc.edu.cn, wufangzhao@gmail.com wuch15@mails.tsinghua.edu.cn, {zhengliu,xingx}@microsoft.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.263,
+      0.262,
+      0.28,
+      0.344
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.292,
+      0.142,
+      0.763,
+      0.462
+    ],
+    "text": "Personalized news recommendation is important to help users find their interested news and improve reading experience. A key problem in news recommendation is learning accurate user representations to capture their interests. Users usually have both long-term preferences and short-term interests. However, existing news recommendation methods usually learn single representations of users, which may be insufficient. In this paper, we propose a neural news recommendation approach which can learn both long- and short-term user representations. The core of our approach is a news encoder and a user encoder. In the news encoder, we learn representations of news from their titles and topic categories, and use attention network to select important words. In the user encoder, we propose to learn lon",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.117,
+      0.791,
+      0.262
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.801,
+      0.114,
+      0.851,
+      0.49
+    ],
+    "text": "Online news platforms such as MSN News1 and Google News2 which aggregate news from various sources and distribute them to users have gained huge popularity and attracted hundreds of millions of users (Das et al., 2007; Wang et al., 2018). However, massive news are generated everyday, making it impossible for users to read through all news (Lian et al., 2018). Thus, personalized news recommendation is very important for online news platforms to help users find their interested contents and alleviate information overload (Lavie et al., 2010; Zheng et al., 2018).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-8",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.26,
+      0.517,
+      0.338,
+      0.877
+    ],
+    "text": "Figure 1: An illustrative example of long-term and short-term interests in news reading.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.556,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "Learning accurate user representations is critical for news recommendation (Okura et al., 2017). Existing news recommendation methods usually learn a single representation for each user (Okura et al., 2017; Lian et al., 2018; Wu et al., 2019). For example, Okura et al. (2017) proposed to learn representations of news using denoising autoencoder and learn representations of users from their browsed news using GRU network (Cho et al., 2014). However, it is very difficult for RNN networks such as GRU to capture the entire information of very long news browsing history. Wang et al. (2018) proposed to learn the representations of news using knowledge-aware convolutional neural network (CNN), and learn the representations of users from their browsed news based on the similarities between the can",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.114,
+      0.447,
+      0.492
+    ],
+    "text": "Our work is motivated by the observation that the interests of online users in news are very diverse. Some user interests may last for a long time and are consistent for the same user (Li et al., 2014). For example, as shown in Fig. 1, if a user is a fan of “Golden State Warriors”, this user may tend to read many basketball news about this NBA team for several years. We call this kind of user preferences as long-term interest. In addition, many user interests may evolve with time and may be triggered by specific contexts or temporal demands. For example, in Fig. 1, the browsing of the news on movie “Bohemian Rhapsody” causes the user reading several related news such as “Rami Malek Wins the 2019 Oscar” since “Rami Malek” is an important actor in this movie, although this user may never rea",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.114,
+      0.913,
+      0.492
+    ],
+    "text": "In this paper, we propose a neural news recommendation approach with both long- and shortterm user representations (LSTUR). Our approach contains two major components, i.e., a news encoder and a user encoder. The news encoder is used to learn representations of news articles from their titles and topic categories. We apply attention mechanism to the news encoder to learn informative news representations by selecting important words. The user encoder consists of two modules, i.e., a long-term user representation (LTUR) module and a short-term user representation (STUR) module. In STUR, we use a GRU network to learn short-term representations of users from their recently browsing news. In LTUR, we learn the long-term representations of users from the embeddings of their IDs. In addition, we ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.51,
+      0.09,
+      0.677
+    ],
+    "text": "2 Related Works",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.509,
+      0.556,
+      0.887
+    ],
+    "text": "Personalized news recommendation is an important task in natural language processing field and has wide applications (Zheng et al., 2018). It is critical for news recommendation methods to learn accurate news and user representations (Wang et al., 2018). Many conventional news recommendation methods rely on manual feature engineering to build news and user representations (Phelan et al., 2009; Liu et al., 2010; Li et al., 2010; Son et al., 2013; Li et al., 2014; Bansal et al., 2015; Lian et al., 2018). For example, Liu et al. (2010) proposed to use the topic categories and interests features predicted by a Bayesian model to represent news, and use the click distribution features of news categories to represent users. Li et al. (2014) used a Latent Dirichlet Allocation (LDA) (Blei et al., 2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.557,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "In recent years, several deep learning methods were proposed for personalized news recommendation (Wang et al., 2018; Okura et al., 2017; Zheng et al., 2018). For example, Okura et al. (2017) proposed to learn representations of news from news bodies using denoising autoencoder, and learn representations of users from the representations of their browsed news using a GRU network. Wang et al. (2018) proposed to learn representations of news from their titles via a knowledge-aware CNN network, and learn representations of users from the representations of their browsed news articles weighted by their similarities with the candidate news. Wu et al. (2019) proposed to learn news and user representations with personalized word- and news-level attention networks, which exploits the embedding of ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.231,
+      0.115,
+      0.248,
+      0.28
+    ],
+    "text": "3 Our Approach",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.258,
+      0.114,
+      0.37,
+      0.49
+    ],
+    "text": "In this section, we present our neural news recommendation approach with long- and short-term user representations (LSTUR). Our approach contains two major components, i.e., a news encoder to learn representations of news and a user encoder to learn representations of users. Next, we introduce each component in detail.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.115,
+      0.395,
+      0.277
+    ],
+    "text": "3.1 News Encoder",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.114,
+      0.498,
+      0.49
+    ],
+    "text": "The news encoder is used to learn representations of news from their titles, topic and subtopic categories. The architecture of the news encoder in our approach is illustrated in Fig. 2. There are two sub-modules in the news encoder, i.e., a title encoder and a topic encoder.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.498,
+      0.114,
+      0.643,
+      0.49
+    ],
+    "text": "The title encoder is used to learn news representations from titles. There are three layers in the title encoder. The first layer is word embedding, which is used to convert a news title from a word sequence into a sequence of dense semantic vectors. Denote the word sequence in a news title t as $t = [ w _ { 1 } , w _ { 2 } , \\dots , w _ { N } ]$ , where N is the length of this title. It is transformed into $[ { \\pmb w } _ { 1 } , { \\pmb w } _ { 2 } , \\dots , { \\pmb w } _ { N } ]$ via a word embedding matrix.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.643,
+      0.114,
+      0.837,
+      0.49
+    ],
+    "text": "The second layer in title encoder is a convolutional neural network (CNN) (LeCun et al., 2015). Local contexts are very useful for understanding the semantic meaning of news titles. For example, in the news title “Next season of super bowl games”, the local contexts of “bowl” such as “super” and “games” are very important for inferring that it belongs to a sports event name. Thus, we apply a CNN network to learn contextual word representations by capturing the local context information. Denote the contextual representation of wi as $c _ { i } .$ , which is computed as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-8",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_0.jpg",
+    "bbox_norm": [
+      0.848,
+      0.164,
+      0.868,
+      0.438
+    ],
+    "text": "$$\n\\pmb { c } _ { i } = \\mathrm { R e L U } ( \\pmb { C } \\times \\pmb { w } _ { [ i - M : i + M ] } + \\pmb { b } ) ,\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.878,
+      0.114,
+      0.91,
+      0.49
+    ],
+    "text": "where $\\pmb { w } _ { [ i - M : i + M ] }$ is the concatenation of the embeddings of words between position $i - M$ and i + M. C and b are the parameters of the convolutional filters in CNN, and M is the window size.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-10",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.077,
+      0.514,
+      0.218,
+      0.878
+    ],
+    "text": "Figure 2: The framework of the news encoder.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.305,
+      0.509,
+      0.514,
+      0.887
+    ],
+    "text": "The third layer is an attention network (Bahdanau et al., 2015). Different words in the same news title may have different informativeness for representing news. For instance, in the news title “The best NBA moments in $2 0 1 8 ^ { \\circ }$ , the word “NBA” is very informative for representing this news since it is an important indication of sports news, while the word “2018” is less informative. Thus, we employ a word-level attention network to select important words in news titles to learn more informative news representations. The attention weight $\\alpha _ { i }$ of the i-th word is formulated as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-13",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_1.jpg",
+    "bbox_norm": [
+      0.523,
+      0.601,
+      0.581,
+      0.793
+    ],
+    "text": "$$\n\\begin{array} { l } { { a _ { i } = \\operatorname { t a n h } ( { \\pmb v } \\times { \\pmb c } _ { i } + v _ { b } ) , } } \\\\ { { \\alpha _ { i } = \\displaystyle \\frac { \\exp ( a _ { i } ) } { \\sum _ { j = 1 } ^ { N } \\exp ( a _ { j } ) } , } } \\end{array}\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.509,
+      0.655,
+      0.885
+    ],
+    "text": "where v and $v _ { b }$ are the trainable parameters. The final representation of a news title t is the summation of its contextual word representations weighted by their attention weights as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:equation-15",
+    "page_id": 2,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_2_Equation_2.jpg",
+    "bbox_norm": [
+      0.664,
+      0.64,
+      0.708,
+      0.754
+    ],
+    "text": "$$\ne _ { t } = \\sum _ { i = 1 } ^ { N } \\alpha _ { i } \\pmb { c } _ { i } .\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-2:text-16",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "The topic encoder module is used to learn news representations from its topics and subtopics. On many online news platforms such as MSN news, news articles are usually labeled with a topic category (e.g., “Sports”) and a subtopic category (e.g., “Football NFL”) to help target user interests. The topic and subtopic categories of news are also informative for learning representations of news and users. They can reveal the general and detailed topics of the news, and reflect the preferences of users. For example, if a user browsed many news articles with the “Sports” topic category, then we can infer this user is probably interested in sports, and it may be effective to recommend candidate news in the “Sports” topic category to this user. To incorporate the topic and subtopic information into",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-1",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.071,
+      0.132,
+      0.243,
+      0.858
+    ],
+    "text": "Figure 3: The two frameworks of our LSTUR approach.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.485,
+      0.115,
+      0.5,
+      0.273
+    ],
+    "text": "3.2 User Encoder",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.507,
+      0.114,
+      0.62,
+      0.49
+    ],
+    "text": "The user encoder is used to learn representations of users from the history of their browsed news. It contains two modules, i.e., a short-term user representation model (STUR) to capture user’s temporal interests, and a long-term user representation model (LTUR) to capture user’s consistent preferences. Next, we introduce them in detail.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.114,
+      0.648,
+      0.435
+    ],
+    "text": "3.2.1 Short-Term User Representation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "Online users may have dynamic short-term interests in reading news articles, which may be influenced by specific contexts or temporal information demands. For example, if a user just reads a news article about “Mission: Impossible $6 \\mathrm { ~ - ~ } \\mathrm { F a l l o u t } ^ { \\cdots }$ and she may want to know more about the actor “Tom Cruise” in this movie and click news articles related to “Tom Cruise”, although she is not his fan and may never read his news before. We propose to learn the short-term representations of users from their recent browsing history to capture their temporal interests, and use gated recurrent networks (GRU) (Cho et al., 2014) network to capture the sequential news reading patterns (Okura et al., 2017). Denote news browsing sequence from a user sorted by ti",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:equation-8",
+    "page_id": 3,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_3_Equation_0.jpg",
+    "bbox_norm": [
+      0.387,
+      0.573,
+      0.467,
+      0.821
+    ],
+    "text": "$$\n\\begin{array} { r l } & { { \\boldsymbol { r } } _ { t } = \\sigma ( { \\boldsymbol { W } } _ { r } [ h _ { t - 1 } , { \\boldsymbol { e } } _ { t } ] ) , } \\\\ & { { \\boldsymbol { z } } _ { t } = \\sigma ( { \\boldsymbol { W } } _ { z } [ h _ { t - 1 } , { \\boldsymbol { e } } _ { t } ] ) , } \\\\ & { \\tilde { { \\boldsymbol { h } } } _ { t } = \\operatorname { t a n h } ( { \\boldsymbol { W } } _ { \\tilde { h } } [ { \\boldsymbol { r } } _ { t } \\odot h _ { t - 1 } , { \\boldsymbol { e } } _ { t } ] ) , } \\\\ & { { \\boldsymbol { h } } _ { t } = { \\boldsymbol { z } } _ { t } \\odot { \\boldsymbol { h } } _ { t } + ( { \\bf { 1 } } - { \\boldsymbol { z } } _ { t } ) \\odot \\tilde { { \\boldsymbol { h } } } _ { t } , } \\end{array}\\tag{4}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.48,
+      0.509,
+      0.561,
+      0.885
+    ],
+    "text": "where $\\sigma$ is the sigmoid function, \f is the itemwise product, $W _ { r } , W _ { z }$ and $W _ { \\tilde { h } }$ are the parameters of the GRU network. The short-term user representation is the last hidden state of the GRU network, i.e., $\\mathbf { \\boldsymbol { u } } _ { s } = \\boldsymbol { h } _ { k }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.57,
+      0.51,
+      0.586,
+      0.835
+    ],
+    "text": "3.2.2 Long-Term User Representations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.509,
+      0.801,
+      0.887
+    ],
+    "text": "Besides the temporal interests, online users may also have long-term interests in reading news. For example, a basketball fan may tend to browse many sports news related to NBA in several years. Thus, we propose to learn long-term representations of users to capture their consistent preferences. In our approach the long-term user representations are learned from the embeddings of the user IDs, which are randomly initialized and finetuned during model training. Denote u as the ID of a user and $W _ { u }$ as the look-up table for long-term user representation, the long-term user representation of this user is $\\mathbf { \\delta } u _ { l } = W _ { u } [ u ]$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.81,
+      0.51,
+      0.841,
+      0.793
+    ],
+    "text": "3.2.3 Long- and Short-Term User Representation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.846,
+      0.509,
+      0.91,
+      0.887
+    ],
+    "text": "In this section, we introduce two methods to combine the long-term and short-term user presentations for unified user representation, which are shown in Fig. 3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.114,
+      0.237,
+      0.492
+    ],
+    "text": "The first method is using the long-term user representation to initialize the hidden state of the GRU network in the short-term user representation model, as shown in Fig. 3a. We denote this method as LSTUR-ini. We use the last hidden state of the GRU network as the final user representation. The second method is concatenating the long-term user representation with the short-term user representation as the final user representation, as shown in Fig. 3b. We denote this method as LSTUR-con.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.249,
+      0.115,
+      0.267,
+      0.287
+    ],
+    "text": "3.3 Model Training",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.274,
+      0.114,
+      0.435,
+      0.49
+    ],
+    "text": "For online news recommendation services where user and news representations can be computed in advance, the scoring function should be as simple as possible to reduce latency. Motivated by (Okura et al., 2017), we use the simple dot production to compute the news click probability score. Denote the representation of a user u as u and the representation of a candidate news article $e _ { x }$ as $e _ { x } .$ , the probability score $s ( u , c _ { x } )$ of this user clicking this news is computed as $\\boldsymbol s ( u , c _ { x } ) = \\boldsymbol u ^ { \\top } \\boldsymbol e _ { x }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.436,
+      0.114,
+      0.662,
+      0.49
+    ],
+    "text": "Motivated by (Huang et al., 2013) and (Zhai et al., 2016), we propose to use the negative sampling technique for model training. For each news browsed by a user (regarded as a positive sample), we randomly sample K news articles from the same impression which are not clicked by this user as negative samples. Our model will jointly predict the click probability scores of the positive news and the K negative news. In this way, the news click prediction problem is reformulated as a pseudo K + 1-way classification task. We minimize the summation of the negative log-likelihood of all positive samples during training, which can be formulated as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-5",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_0.jpg",
+    "bbox_norm": [
+      0.673,
+      0.121,
+      0.719,
+      0.487
+    ],
+    "text": "$$\n- \\sum _ { i = 1 } ^ { P } \\log \\frac { \\exp ( s ( u , c _ { i } ^ { p } ) ) } { \\exp ( s ( u , c _ { i } ^ { p } ) ) + \\sum _ { k = 1 } ^ { K } \\exp ( s ( u , c _ { i , k } ^ { n } ) ) } ,\\tag{5}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.749,
+      0.114,
+      0.796,
+      0.489
+    ],
+    "text": "where $P$ is the number of positive training samples, and $c _ { i , k } ^ { n }$ is the k-th negative sample in the same session with the i-th positive sample.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "Since not all users can be incorporated in news recommendation model training (e.g., the new coming users), it is not appropriate to assume all users have long-term representations in our models in the prediction stage. In order to handle this problem, in the model training stage, we randomly mask the long-term representations of users with a certain probability $p .$ When we mask the longterm representations, all the dimensions are set to zero. Thus, the long-term user representation in our LSTUR approach can be reformulated as:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:equation-9",
+    "page_id": 4,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_4_Equation_1.jpg",
+    "bbox_norm": [
+      0.153,
+      0.557,
+      0.171,
+      0.836
+    ],
+    "text": "$$\n{ \\pmb u } _ { l } = M \\cdot { \\pmb W } _ { u } [ u ] , M \\sim B ( 1 , 1 - p ) ,\\tag{6}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.183,
+      0.509,
+      0.249,
+      0.885
+    ],
+    "text": "where B is Bernoulli distribution, and M is a random variable that subject to $B ( 1 , 1 - p )$ . We find in experiments that this trick for model training can improve the performance of our approach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.26,
+      0.51,
+      0.277,
+      0.658
+    ],
+    "text": "4 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.51,
+      0.302,
+      0.831
+    ],
+    "text": "4.1 Dataset and Experimental Settings",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.509,
+      0.485,
+      0.887
+    ],
+    "text": "Since there is no off-the-shelf dataset for news recommendation, we built one by ourselves through collecting logs from MSN ${ \\mathrm { N e w s } } ^ { 3 }$ in four weeks from December 23rd, 2018 to January 19th, 2019. We used the logs in the first three weeks for model training, and those in the last week for test. We also randomly sampled 10% of logs from the training set as the validation data. For each sample, we collected the browsing history in last 7 days to learn short-term user representations. The detailed dataset statistics are summarized in Table 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:table-14",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.493,
+      0.517,
+      0.546,
+      0.878
+    ],
+    "text": "Table 1: Statistics of the dataset in our experiments.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:text-15",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.509,
+      0.851,
+      0.887
+    ],
+    "text": "In our experiments, we used the pretrained GloVe embedding5 (Pennington et al., 2014) as the initialization of word embeddings. The word embedding dimension is 200. The number of filters in CNN network is 300, and the window size of the filters in CNN network is set to 3. We applied dropout (Srivastava et al., 2014) to each layer in our approach to mitigate overfitting. The dropout rate is 0.2. The default value of long-term user representation masking probability p for model training is 0.5. We used Adam (Kingma and Ba, 2014) to optimize the model, and the learning rate was 0.01. The batch size is set to 400. The number of negative samples for each positive sample is 4. These hyper-parameters were all selected according to the results on validation set. We used impression-based ranking me",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.198,
+      0.115,
+      0.214,
+      0.356
+    ],
+    "text": "4.2 Performance Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.218,
+      0.114,
+      0.267,
+      0.489
+    ],
+    "text": "We evaluate the performance of our approach by comparing it with several baseline methods, including:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.274,
+      0.137,
+      0.468,
+      0.49
+    ],
+    "text": "• LibFM (Rendle, 2012), a state-of-the-art matrix factorization method which is widely used in recommendation. In our experiments, the user features are the concatenation of TF-IDF features extracted from the browsed news titles, and the normalized count features from the topics and subtopics of the browsed news. The features for news consists of TF-IDF features from its title, and one-hot vectors of its topic and subtopic. The input to LibFM is the concatenation of user features and features of candidate news.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.137,
+      0.542,
+      0.49
+    ],
+    "text": "• DeepFM (Guo et al., 2017), a widely used method that combines factorization machines and deep neural networks. We use the same features as LibFM.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.551,
+      0.137,
+      0.632,
+      0.49
+    ],
+    "text": "• Wide & Deep (Cheng et al., 2016), another deep learning based recommendation method that combines a wide channel and a deep channel. Again, the same features with LibFM are used for both channels.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.137,
+      0.706,
+      0.49
+    ],
+    "text": "• DSSM (Huang et al., 2013), deep structured semantic model. The inputs are hashed words via character trigram, where all the browsed news titles are merged as query document.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.137,
+      0.78,
+      0.49
+    ],
+    "text": "• CNN (Kim, 2014), using CNN with max pooling to learn news representations from the titles of browsed news by keeping the most salient features.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.788,
+      0.137,
+      0.853,
+      0.49
+    ],
+    "text": "• DKN (Wang et al., 2018), a deep news recommendation model which contains CNN and candidate-aware attention on the news browsing histories.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.863,
+      0.137,
+      0.912,
+      0.49
+    ],
+    "text": "• GRU (Okura et al., 2017), learning news representations by a denoising autoencoder and user representations by a GRU network.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.509,
+      0.107,
+      0.885
+    ],
+    "text": "The results of comparing different methods are summarized in Table 2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.509,
+      0.303,
+      0.887
+    ],
+    "text": "We have obtained observations from Table 2. First, the news recommendation methods (e.g. CNN, DKN and LSTUR) which use neural networks to learn news and user representations can significantly outperform the methods using manual feature engineering (e.g. LibFM, DeepFM, Wide & Deep, and DSSM). This is probably because handcrafted features are usually not optimal, and neural networks can capture both global and local semantic contexts in news, which are useful for learning more accurate news and user representations for news recommendation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-13",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.304,
+      0.509,
+      0.498,
+      0.887
+    ],
+    "text": "Second, our LSTUR approach outperforms all baseline methods compared here, including deep learning models such as CNN, GRU and DKN. Our LSTUR approach can capture both the long-term preferences and short-term interests to capture the complex and diverse user interests in news reading, while the baseline methods only learn a single representation for each user, which is insufficient. In addition, our LSTUR approach uses attention mechanism in the news encoder to select important words, which can help learn more informative news representations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-14",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.499,
+      0.509,
+      0.758,
+      0.887
+    ],
+    "text": "Third, our proposed two methods to learn longand short-term user representations, i.e., LSTURini and LSTUR-con, can achieve comparable performance and both outperform baseline methods, which validate the effectiveness of these methods. In addtion, the performance of LSTUR-con is more stable than LSTUR-ini, which indicates that using the concatenation of both short-term and long-term user representations is capable of retaining all the information. We also conducted experiments to explore the performance of combining both LSTUR-con and LSTUR-ini in the same model, but the performance improvement is very limited, implying that each of them can fully capture the long- and short-term user interests for news recommendation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-15",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.774,
+      0.51,
+      0.806,
+      0.863
+    ],
+    "text": "4.3 Effectiveness of Long- and Short-Term User Representation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-16",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "In this section, we conducted several experiments to explore the effectiveness of our approach in learning both long-term and short-term user representations. We compare the performance of our LSTUR methods with the long-term user representation model LTUR and the short-term user representation model STUR. The results are summarized in Fig. 4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.071,
+      0.205,
+      0.246,
+      0.796
+    ],
+    "text": "Table 2: The performance of different methods on news recommendation.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.535,
+      0.114,
+      0.777,
+      0.49
+    ],
+    "text": "From the results we find both LTUR and STUR are useful for news recommendation, and the STUR model can outperform the LTUR model. According to the statistics in Table 1, the longterm representations of many users in test data are unavailable, which leads to relative weak performance of LTUR on these users. In addition, combining STUR and LTUR using our two longand short-term user representation methods, i.e., LSTUR-ini and LSTUR-con, can effectively improve the performance. This result validates that incorporating both long-term and short-term user representations is useful to capture the diverse user interests more accurately and is beneficial for news recommendation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.79,
+      0.114,
+      0.806,
+      0.484
+    ],
+    "text": "4.4 Effectiveness of News Encoders in STUR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.114,
+      0.912,
+      0.492
+    ],
+    "text": "In our STUR model, GRU is used to learn shortterm user representations from the recent browsing news. We explore the effectiveness of GRU in encoding news by replacing it with several other encoders, including: 1) Average: using the average of all the news representations in recent browsing history; 2) Attention: the summation of news representations weighted by their attention weights; 3) LSTM (Hochreiter and Schmidhuber, 1997), replacing GRU with LSTM. The results are summarized in Fig. 5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.582,
+      0.509,
+      0.76,
+      0.887
+    ],
+    "text": "According to Fig. 5, the sequence-based encoders (e.g., GRU, LSTM) outperform the Average and Attention based encoders. This is probably because the sequence-based encoders can capture the sequential new reading patterns to learn short-term representations of users, which is difficult for Average and Attention based encoders. In addition, GRU achieves better performance than LSTM. This may be because GRU contains fewer parameters and has lower risk of overfitting . Thus, we select GRU as the news encoder in STUR.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.774,
+      0.51,
+      0.79,
+      0.848
+    ],
+    "text": "4.5 Effectiveness of News Title Encoders",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.797,
+      0.507,
+      0.912,
+      0.889
+    ],
+    "text": "In this section, we conduct experiments to compare different news title encoders. In our approach, the news encoder is a combination of CNN network and an attention network (denoted as CNN+Att). We compare it with several variants, i.e., CNN, LSTM, and LSTM with attention (LSTM+Att), to validate the effectiveness of our approach. The results are summarized in Fig. 6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.544,
+      0.114,
+      0.69,
+      0.49
+    ],
+    "text": "According to Fig. 6, using attention mechanism in both encoders based on CNN and LSTM can achieve better performance. This is probably because the attention network can select important words, which can learn more informative news representations. In addition, encoders using CNN outperform those using LSTM. This may be because local contexts in news titles are more important for learning news representations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.697,
+      0.115,
+      0.713,
+      0.394
+    ],
+    "text": "4.5.1 Effectiveness of News Topic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.114,
+      0.814,
+      0.49
+    ],
+    "text": "In this section, we conduct experiments to validate the effectiveness of incorporating topic and subtopic of news in the news encoder. We compare the performance of our approach with its variants without topic and/or subtopics. The results are shown in Fig. 7.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.814,
+      0.114,
+      0.912,
+      0.49
+    ],
+    "text": "According to Fig. 7, incorporating either topics or subtopics can effectively improve the performance of our approach. In addition, the news encoder with subtopics outperforms the news encoder with topics. This is probably because subtopics can provide more fine-grained topic information which is more helpful for news recommendation. Thus, the model with subtopics can achieve better news recommendation performance. Moreover, combining topics and subtopics can further improve the performance of our approach. These results validate the effectiveness of our approach in exploiting topic information for news recommendation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.665,
+      0.51,
+      0.682,
+      0.831
+    ],
+    "text": "4.5.2 Influence of Masking Probability",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.509,
+      0.782,
+      0.887
+    ],
+    "text": "In this section, we explore the influence of the probability p in Eq. (6) for randomly masking long-term user representation in model training. We vary the value of p from 0.0 to 0.9 with a step of 0.1 for both LSTUR-ini and LSTUR-con. The results are summarized in Fig. 8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-13",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.509,
+      0.912,
+      0.887
+    ],
+    "text": "According to Fig. 8, the results of LSTUR-ini and LSTUR-con have similar patterns. The performance of both methods improves when p increases from 0. When p is too small, the model will tend to overfit on the LTUR, since LTUR has many parameters. Thus, the performance is not optimal. However, when p is too large, the performance of both methods starts to decline. This may be be-",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.127,
+      0.451,
+      0.477
+    ],
+    "text": "2019 CES Highlights : Innovations in Enviro-Sensing for Robocars California dries off after storm batter state for days 15 Recipes Inspired By Vintage Movies Texas State Rep . Dennis Bonnen Elected As House Speaker Should You Buy American Express Stock After Earnings ? How Meghan Markle Has Changed Prince Harry Considerably",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.462,
+      0.126,
+      0.478,
+      0.478
+    ],
+    "text": "Figure 9: Visualization of the word-level attentions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.51,
+      0.114,
+      0.608,
+      0.49
+    ],
+    "text": "cause the useful information in LTUR cannot be effectively incorporated. Thus, the performance is also not optimal. A moderate choice on p (e.g., 0.5) is most appropriate for both LSTUR-ini and LSTUR-con methods, which can properly balance the learning of LTUR and STUR.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.115,
+      0.65,
+      0.448
+    ],
+    "text": "5 Visualization of Attention Weights",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.669,
+      0.114,
+      0.91,
+      0.492
+    ],
+    "text": "In this section, we visually explore the effectiveness of the word-level attention network in the news encoder. The attention weights in several example news titles are shown in Fig. 9. From the results, we find our approach can effectively recognize important words to learn more informative news representations. For example, the words “Enviro-Sensing” and “Robocars” in the first news title are assigned high attention weights because these words are indications of news on technologies, while the words “2019” and “for” are assigned low attention weights by our approach since they are less informative. These results validate the effectiveness of the attention network in the news encoder.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.379,
+      0.51,
+      0.395,
+      0.645
+    ],
+    "text": "6 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.406,
+      0.509,
+      0.76,
+      0.887
+    ],
+    "text": "In this paper, we propose a neural news recommendation approach which can learn both longand short-term user representations. The core of our model is a news encoder and a user encoder. In the news encoder, we learn representations of news from their titles and topic categories, and use an attention network to highlight important words for informative representation learning. In the user encoder, we propose to learn long-term representations of users from the embeddings of their IDs. In addition, we learn short-term representations of users from their recently browsed news via a GRU network. Besides, we propose two methods to fuse long- and short-term user representations, i.e., using long-term user representation to initialize the hidden state of the GRU network in short-term user represe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.771,
+      0.51,
+      0.788,
+      0.677
+    ],
+    "text": "Acknowledgement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-11",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.797,
+      0.509,
+      0.895,
+      0.887
+    ],
+    "text": "The authors would like to thank Microsoft News for providing technical support and data in the experiments, and Jiun-Hung Chen (Microsoft News) and Ying Qiao (Microsoft News) for their support and discussions. We also want to thank Jianqiang Huang for his help in the experiments.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.115,
+      0.09,
+      0.216
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.098,
+      0.117,
+      0.139,
+      0.489
+    ],
+    "text": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. 2015. Neural machine translation by jointly learning to align and translate. In ICLR. Trapit Bansal, Mrinal Das, and Chiranjib Bhattacharyya. 2015. Content driven user profiling for comment-worthy recommendations of news and blog articles. In RecSys, pages 195–202. David M Blei, Andrew Y Ng, and Michael I Jordan. 2003. Latent dirichlet allocation. Journal of Machine Learning Research, 3(Jan):993–1022. Heng-Tze Cheng, Mustafa Ispir, Rohan Anil, Zakaria Haque, Lichan Hong, Vihan Jain, Xiaobing Liu, Hemal Shah, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra, Hrishi Aradhye, Glen Anderson, Greg Corrado, and Wei Chai. 2016. Wide & deep learning for recommender systems. In DLRS, pages 7–10. Kyunghyun Cho, Bart van Merrienboer, Caglar ",
+    "source_type": "list"
+  }
+]

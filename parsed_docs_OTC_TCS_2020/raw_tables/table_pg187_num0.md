@@ -1,0 +1,1 @@
+<table><tr><td>Cash and cash equivalents</td><td>Purchase Consideration 16</td></tr><tr><td>Net assets acquired,at fair value other than cash and cash</td><td>8</td></tr><tr><td>equivalents Intangible assets</td><td>28</td></tr><tr><td>Goodwill</td><td>14 66</td></tr></table>

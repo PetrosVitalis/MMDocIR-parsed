@@ -1,0 +1,1 @@
+<table><tr><td>Census</td><td>Pop.</td></tr><tr><td>1971</td><td>119,208,229</td></tr><tr><td>1980</td><td>147,490,298</td></tr><tr><td>1990</td><td>179,378,946</td></tr><tr><td>1995</td><td>194,754,808</td></tr><tr><td>2000</td><td>206,264,595</td></tr><tr><td>2010</td><td>237,641,326</td></tr></table>

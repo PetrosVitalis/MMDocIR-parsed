@@ -1,0 +1,5 @@
+Method,pre-trained,end2end w/o inconsistency loss,end2end w/ inconsistency loss,ground-truth labels,ROUGE-1,ROUGE-2,ROUGE-L
+pre-trained,73.50,72.97,78.40,89.23,73.50,35.55,68.57
+end2end w/o inconsistency loss,72.97,72.97,72.97,72.97,35.11,35.11,67.99
+end2end w/ inconsistency loss,78.40,78.40,78.40,78.40,39.45,39.45,73.83
+ground-truth labels,89.23,89.23,89.23,89.23,49.36,49.36,85.46

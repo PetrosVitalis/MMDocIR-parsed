@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td>PBOs</td><td>$ 9,643 $</td><td>12,775</td></tr><tr><td> Plan assets</td><td>7,518</td><td>9,018</td></tr><tr><td></td><td></td><td></td></tr><tr><td>ABOs</td><td>9,111</td><td>10.875</td></tr><tr><td>Plan assets</td><td>7,429</td><td>7,820</td></tr></table>

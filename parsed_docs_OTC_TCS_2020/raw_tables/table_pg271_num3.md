@@ -1,0 +1,1 @@
+<table><tr><td>Asat March 31, 2020</td><td>As at March 31, 2019</td></tr><tr><td>7,044</td><td>6,750</td></tr><tr><td>226</td><td>268</td></tr><tr><td>14</td><td>61</td></tr><tr><td>(14)</td><td>(61)</td></tr><tr><td>7,270</td><td>7,018</td></tr></table>

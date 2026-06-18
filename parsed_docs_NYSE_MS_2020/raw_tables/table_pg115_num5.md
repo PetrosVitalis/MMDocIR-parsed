@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td>At December 31, 2020</td></tr><tr><td>One-notch downgrade $</td><td>316</td></tr><tr><td>Two-notch downgrade</td><td>134</td></tr><tr><td>Bilateral downgrade agreements included in the amounts above</td><td>$ 352</td></tr></table>

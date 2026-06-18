@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>1USB-CTM connector</td><td rowspan=1 colspan=1>Z USB-C connector (Thunderbolt TM 3 compatible)</td></tr><tr><td rowspan=1 colspan=1>EDocking-station connector</td><td rowspan=1 colspan=1>Fan louvers</td></tr><tr><td rowspan=1 colspan=1>E Smart-card slot *</td><td rowspan=1 colspan=1></td></tr></table>

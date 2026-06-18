@@ -1,0 +1,1 @@
+<table><tr><td>Number of meetings held</td><td>7</td><td>S.Moroney (Chair)1 6</td></tr><tr><td>Number of members</td><td>5 P.Bula</td><td>7</td></tr><tr><td>Approximate average duration (hours)</td><td>2:05 B. Heller</td><td>7</td></tr><tr><td>Meeting attendance</td><td>100%</td><td>E. Vanni 7</td></tr><tr><td></td><td></td><td>w.Winters 7</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Item</td><td>At the time of invitation to apply for the visa ...</td><td>Number of points</td></tr><tr><td>6D81</td><td> the applicant met the Australian study requirement</td><td>5</td></tr></table>

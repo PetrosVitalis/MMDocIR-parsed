@@ -1,0 +1,6 @@
+Dataset,Dataset,Named Entity Recognition CONLL OntoNotes FewNERD,Named Entity Recognition CONLL OntoNotes FewNERD,Named Entity Recognition CONLL OntoNotes FewNERD,Relation Extraction TACREVTACRED,Relation Extraction TACREVTACRED,Event Detection ACE05MAVEN ERE,Event Detection ACE05MAVEN ERE,Event Detection ACE05MAVEN ERE,Event Arg Extraction ACE05 RAMS ERE,Event Arg Extraction ACE05 RAMS ERE,Event Arg Extraction ACE05 RAMS ERE
+#Label Type,#Label Type,4,18,66,41,41,33,168,38,33,139,38
+#Sents,Train,"14,041","49,706","131,965","68,124","68,124","14,024",32.360,"14,736","14,024",7329,"14,736"
+#Sents,Test,"3,453","10,348","37,648","15,509","15,509",728,8.035,"1,163",728,871,"1,163"
+"#Mentions,",Train,"23,499","128,738","340,247","13,012",13.012,"5,349","77,993",6.208,4859,17026,8924
+"#Mentions,",Test,"5,648","12,586","96,902","3,123","3,123",424,"18,904",551,576,2023,822

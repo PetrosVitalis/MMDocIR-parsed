@@ -1,0 +1,1 @@
+<table><tr><td>Year ending March 31,</td><td>Amortisation expense</td></tr><tr><td>2021</td><td>83</td></tr><tr><td>2022</td><td>83</td></tr><tr><td>2023</td><td>57</td></tr><tr><td>2024</td><td>16</td></tr><tr><td>Thereafter</td><td></td></tr><tr><td></td><td>239</td></tr></table>

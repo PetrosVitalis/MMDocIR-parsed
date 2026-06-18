@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">($ in billions)</td></tr><tr><td></td><td></td><td>Yr.-to-Yr. Percent</td><td>Yr.-to-Yr. Percent Change Adjusted for</td></tr><tr><td>At December 31:</td><td>2020</td><td>2019</td><td>Change</td><td>Currency</td></tr><tr><td>Totalbacklog</td><td>$110.8</td><td>$112.4</td><td>(1.5)%</td><td>(4.5)%</td></tr></table>

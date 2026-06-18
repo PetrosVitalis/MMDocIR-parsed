@@ -1,0 +1,1 @@
+<table><tr><td>Fiscal period:</td></tr><tr><td>Fiscal 2021 4</td></tr><tr><td>Fiscal 2022 4</td></tr><tr><td>Fiscal 2023 4</td></tr><tr><td>Fiscal 2024 1,182</td></tr><tr><td>Thereafter 1,500</td></tr><tr><td>Total principal outstanding $2,694</td></tr></table>

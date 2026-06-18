@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="4">Year Ended December 31,</td></tr><tr><td>(Millions of dollars)</td><td colspan="2">2021</td><td colspan="2">2020</td></tr><tr><td>Operating lease cost</td><td>$</td><td>214</td><td>$</td><td>204</td></tr><tr><td>Short-term lease cost</td><td>$</td><td>46</td><td>$</td><td>50</td></tr></table>

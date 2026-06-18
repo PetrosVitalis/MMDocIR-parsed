@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">(In thousands)</td></tr><tr><td>For the year ended December 31:</td><td>2020</td></tr><tr><td>IBM/wholly owned subsidiaries</td><td>345.9</td></tr><tr><td>Less-than-wholly owned subsidiaries</td><td>10.5</td></tr><tr><td>Complementary*</td><td>18.9</td></tr></table>

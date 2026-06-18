@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>U.S.government and agency securities and other sovereign government obligations</td><td></td><td></td></tr><tr><td>Trading assets1</td><td>10%</td><td>10%</td></tr><tr><td>Off balance sheet-Collateral received²</td><td>12%</td><td>12%</td></tr></table>

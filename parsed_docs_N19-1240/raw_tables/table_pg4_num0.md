@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Min</td><td>Max</td><td>Avg.</td><td>Median</td></tr><tr><td># candidates</td><td>2</td><td>79</td><td>19.8</td><td>14</td></tr><tr><td># documents</td><td>3</td><td>63</td><td>13.7</td><td>11</td></tr><tr><td># tokens/doc.</td><td>4</td><td>2.046</td><td>100.4</td><td>91</td></tr></table>

@@ -1,0 +1,1822 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.071,
+      0.152,
+      0.115,
+      0.848
+    ],
+    "text": "Automatically Correcting Large Language Models: Surveying the Landscape of Diverse Automated Correction Strategies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.272,
+      0.178,
+      0.751
+    ],
+    "text": "Liangming Pan, Michael Saxon, Wenda Xu, Deepak Nathani, Xinyi Wang, William Yang Wang",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.179,
+      0.327,
+      0.196,
+      0.673
+    ],
+    "text": "University of California, Santa Barbara, USA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.163,
+      0.228,
+      0.838
+    ],
+    "text": "{liangmingpan, saxon, wendaxu, dnathani, xinyi wang}@ucsb.edu william@cs.ucsb.edu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.259,
+      0.262,
+      0.274,
+      0.344
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.142,
+      0.579,
+      0.462
+    ],
+    "text": "While large language models (LLMs) have shown remarkable effectiveness in various NLP tasks, they are still prone to issues such as hallucination, unfaithful reasoning, and toxicity. A promising approach to rectify these flaws is correcting LLMs with feedback, where the LLM itself is prompted or guided with feedback to fix problems in its own output. Techniques leveraging automated feedback—either produced by the LLM itself (self-correction) or some external system—are of particular interest as they make LLM-based solutions more practical and deployable with minimal human intervention. This paper provides an exhaustive review of the recent advances in correcting LLMs with automated feedback, categorizing them into training-time, generation-time, and post-hoc approaches. We also identify po",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.598,
+      0.117,
+      0.613,
+      0.262
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.114,
+      0.904,
+      0.492
+    ],
+    "text": "Recent years have seen striking empirical successes of large language models (LLMs), as they consistently obtain impressive results across a diverse range of NLP benchmarks (Guo et al., 2023; Suzgun et al., 2023; Qin et al., 2023), while also showcasing surprising abilities of language understanding (Wei et al., 2022a; Begus et al., 2023), generation (Pu and Demberg, 2023; Lin and Chen, 2023; Lyu et al., 2023a), and reasoning (Wei et al., 2022b; Kojima et al., 2022; Dasgupta et al., 2022). However, these models are not without their flaws. LLMs are observed to intermittently display undesired and inconsistent behaviors such as producing seemingly convincing but inaccurate ‘‘hallucinations’’ (Lin et al., 2022; Zhang et al., 2023c; Min et al., 2023), conducting unfaithful reasoning (Golovnev",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.259,
+      0.509,
+      0.372,
+      0.885
+    ],
+    "text": "2023b; Wu et al., 2023b), generating inappropriate or harmful content (Gehman et al., 2020; Levy et al., 2021, 2022; Shaikh et al., 2023), and failing to trustfully follow rules and constraints (Zhuo et al., 2023; Wang et al., 2023a). Such flawed behaviors hamper the trust in LLMs and pose hurdles to their real-world applications (OpenAI, 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.509,
+      0.645,
+      0.887
+    ],
+    "text": "A prevailing strategy to rectify these undesired behaviors of LLMs is learning from feedback, mirroring a typical human learning strategy where individuals actively refine their behaviors through a cycle of trial, error, and correction. Humans, when making mistakes, often gather feedback either from others or through self-reflection (Boyd and Fales, 1983; Metcalfe, 2017; Ferretti et al., 2019; London et al., 2023; Bellhauser et al., 2023). ¨ Such feedback offers valuable insights for humans to correct mistakes and modify their behavior accordingly. Inspired by this natural learning mechanism, extensive research (Huang et al., 2022; Madaan et al., 2023; Gero et al., 2023; Jiang et al., 2023) has been undertaken to improve LLMs through the paradigm of learning from both internal and external",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.645,
+      0.509,
+      0.856,
+      0.887
+    ],
+    "text": "One popular line of research involves the use of human feedback to evaluate and refine models, as encapsulated in the survey by Fernandes et al. (2023). These methods typically involve direct optimization of LLMs against human feedback on their outputs (Kreutzer et al., 2018; Glaese et al., 2022; Ouyang et al., 2022; Scheurer et al., 2023), where human evaluations of output quality serve as a reward signal to improve model performance. However, this approach has two primary drawbacks: It can be costly due to the manual labor involved, and it lacks real-time capabilities as humans cannot provide instant feedback.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.509,
+      0.904,
+      0.887
+    ],
+    "text": "To minimize the need for human intervention, another strategy is correcting LLMs with automated feedback. As illustrated by the conceptual framework in Figure 1, the language model (iteratively) learns from automatically generated feedback signals to understand the consequences of its actions and adapts its behaviors. The source of automated feedback can be multifaceted, spanning from the LLM itself acting as the feedback model (Madaan et al., 2023; Schick et al., 2023), a separately trained feedback model (Yang et al., 2022b; Paul et al., 2023), readily available external tools (Gou et al., 2023; Chen et al., 2023e), to external knowledge sources such as Wikipedia or the internet (Yu et al., 2023; Li et al., 2023b). Various strategies of correction have been proposed, including self-train",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.064,
+      0.119,
+      0.298,
+      0.882
+    ],
+    "text": "Figure 1: A conceptual framework for correcting LLMs with automated feedback. We identify three parties involved in the prototypical correction pipeline that are analogous to a patient, doctor, and treatment in medicine, respectively: A Language Model produces initial output, a Critic Model analyzes the output and provides feedback, and a Refine Model provides treatment to either the output or the language model. We taxonomize existing works using this conceptualization along five key aspects: the problem to be corrected, the source and format of the feedback, and the strategy and learning method of the refine model.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.114,
+      0.904,
+      0.492
+    ],
+    "text": "In light of these advancements, our paper aims to provide a comprehensive survey. We start by establishing the concept of correcting LLMs with automated feedback and creating a taxonomy of the different methods (§ 2). We then discuss the major techniques (§ 3), categorized as trainingtime, generation-time, and post-hoc correction. Finally, we discuss the connection to earlier works (§ 4) and five potential future directions (§ 5).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.51,
+      0.537,
+      0.752
+    ],
+    "text": "2 Conceptual Framework",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.552,
+      0.509,
+      0.633,
+      0.885
+    ],
+    "text": "For clean exposition, we first present a conceptual framework outlining the overall process of correcting LLMs with feedback in Figure 1, using an analogy of medical treatment in our daily life. Three parties are involved in this process:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.651,
+      0.531,
+      0.814,
+      0.887
+    ],
+    "text": "• Language Model (Patient). A language model M : $\\mathcal { X }  \\mathcal { V }$ performs a specific task by mapping an input $x \\in \\mathcal { X }$ to an output text $\\hat { y } \\in \\mathcal { V }$ . This formulation encompasses a wide range of NLP tasks, for example, in summarization, x is a passage, yˆ is the generated summary; for question-answering, x is a question and yˆ is the predicted answer. The initial generation yˆ may have problems such as hallucination and incorrect reasoning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.531,
+      0.904,
+      0.885
+    ],
+    "text": "• Critic Model (Doctor & Diagnosis). A critic model $\\mathcal { C } : \\mathcal { X } \\times \\mathcal { Y }  \\mathcal { F }$ learns to generate feedback $x , \\hat { y } \\to c$ where ${ \\hat { y } } \\sim { \\mathcal { M } } ( x )$ is the output or partial output of the language model, and c is the feedback of some format, e.g., scalar value, or natural language. A simple example is binary feedback of whether the output is good or bad given the input $( \\mathcal { C } : \\mathcal { X } \\times \\mathcal { Y }  \\{ 0 , 1 \\} )$ ).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.143,
+      0.134,
+      0.258,
+      0.49
+    ],
+    "text": "• Refine Model (Treatment). A refine model $\\mathcal { R } : \\mathcal { X } \\times \\mathcal { Y } \\times \\mathcal { F }  \\mathcal { Y }$ learns to repair an output $x , \\hat { y } , c  y _ { n e w }$ based on the feedback $^ { c , }$ where $y _ { n e w }$ is the revised output. Some refine models directly repair the language model M through fine-tuning or reinforcement learning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.269,
+      0.114,
+      0.318,
+      0.49
+    ],
+    "text": "Based on the above formulation, the specific model design in existing works varies along five crucial axes, elaborated in the following sections.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.337,
+      0.115,
+      0.353,
+      0.342
+    ],
+    "text": "2.1 What Gets Corrected?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.365,
+      0.114,
+      0.413,
+      0.49
+    ],
+    "text": "We summarize the three major error types of LLMs that are targeted for correction in existing works through automated feedback.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.425,
+      0.134,
+      0.668,
+      0.492
+    ],
+    "text": "• Hallucination. An open challenge for LLMs is that they often hallucinate by making up facts or citing sources that do not exist (Li et al., 2023a; Zhang et al., 2023c). This hallucinated content is often quite plausiblesounding, making it difficult even for humans to detect (Clark et al., 2021). To address this, several studies have proposed the collection of automated feedback on potential factual inaccuracies by cross-referencing the generated output with credible knowledge sources. The gathered feedback can then be utilized by a subsequent refinement model to correct hallucinations (Gao et al., 2023b; Peng et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.678,
+      0.134,
+      0.906,
+      0.492
+    ],
+    "text": "• Unfaithful Reasoning. A number of recent studies (Ribeiro et al., 2023; Lyu et al., 2023b; Golovneva et al., 2023) found that LLMs occasionally make unfaithful reasoning, i.e., the derived conclusion does not follow the previously generated reasoning chain. To address this, existing works have used automated feedback from external tools or models for guiding the reasoning process (Xie et al., 2023; Yao et al., 2023a), verifying the reasoning process and rectifying errors (He et al., 2023; Pan et al., 2023), or finetuning LLMs with process-based feedback (Huang et al., 2022; Lightman et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.067,
+      0.531,
+      0.344,
+      0.887
+    ],
+    "text": "• Toxic, Biased, and Harmful Content. LLMs have been observed to occasionally generate content that is toxic, biased, or harmful due to biases present in the training data (Shaikh et al., 2023). To rectify this, reinforcement learning from human feedback (RLHF) (Ouyang et al., 2022; Bai et al., 2022a) has been extensively employed to train LLMs to align more closely with human values, such as being helpful, honest, and harmless. However, RLHF is heavily dependent on high-quality human feedback, the collection of which can be resource-intensive. To alleviate this, recent work (Lu et al., 2022; Gou et al., 2023) has also explored collecting automated feedback to identify and correct potentially harmful outputs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.357,
+      0.51,
+      0.373,
+      0.85
+    ],
+    "text": "2.2 What Is the Source of the Feedback?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.509,
+      0.544,
+      0.887
+    ],
+    "text": "Feedback can be broadly divided into human feedback and automated feedback. Fernandes et al. (2023) provided a survey on integrating human feedback for language generation. In our survey, we focus on the emerging research area of automated feedback, which typically originates from two sources: self-feedback (i.e., the feedback originates from the LLM itself) and external feedback (i.e., the feedback is derived from external models, tools, or knowledge sources).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.556,
+      0.529,
+      0.702,
+      0.887
+    ],
+    "text": "• Self-Feedback. The LLM can act as its own feedback provider by iteratively assessing and refining its generated outputs until it meets a certain standard (Madaan et al., 2023; Shinn et al., 2023). This continuous self-improvement strategy has proven effective in multiple studies, especially when external feedback is unavailable or limited (Ye et al., 2023; Yan et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.529,
+      0.906,
+      0.887
+    ],
+    "text": "• External Feedback for LLMs comes from other models (Yang et al., 2022b; Lightman et al., 2023), tools (Gou et al., 2023; Charalambous et al., 2023), knowledge sources (Gao et al., 2023b; Yu et al., 2023), and evaluation metrics (Jung et al., 2022; Welleck et al., 2023). External feedback provides a valuable outside perspective for identifying errors that the LLM cannot recognize on its own. For example, code interpreters are widely used in programming tasks to provide real-time error messages; while external knowledge sources are used to verify the factual accuracy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.116,
+      0.115,
+      0.131,
+      0.458
+    ],
+    "text": "2.3 What Is the Format of the Feedback?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.139,
+      0.114,
+      0.221,
+      0.49
+    ],
+    "text": "The selection of the feedback format requires considering its expressivity, ease of collection, and its potential to improve systems (Fernandes et al., 2023). Automated feedback is commonly either a scalar value or in natural language.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.233,
+      0.134,
+      0.41,
+      0.49
+    ],
+    "text": "• Scalar Value Feedback. In this scenario, the critic model maps the input and output to a single score $( { \\mathcal { C } } : { \\mathcal { X } } \\times { \\mathcal { Y } }  { \\mathcal { N } } \\subseteq { \\mathbb { R } } )$ Scalar value feedback can be easily integrated into the training/decoding process of LLMs. For example, Xie et al. (2023) use real-value feedback for each intermediate reasoning step to guide the model in performing a stochastic beam search for the optimal solution. Despite its flexibility, scalar feedback is less descriptive for detailed corrections.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.417,
+      0.134,
+      0.58,
+      0.492
+    ],
+    "text": "• Natural Language Feedback provides richer information that can highlight specific errors and provide nuanced suggestions for improvement. This is important for certain applications such as text editing and code generation. For example, Self-Debug (Chen et al., 2023e) uses LLMs to generate explanations for the produced code and utilize both the explanation and the execution results as feedback to enhance coding solutions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.115,
+      0.607,
+      0.389
+    ],
+    "text": "2.4 When to Correct the Model?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.614,
+      0.114,
+      0.663,
+      0.489
+    ],
+    "text": "Depending on the timing of using automated feedback to correct the model, existing work can be divided into three major categories.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.678,
+      0.134,
+      0.906,
+      0.49
+    ],
+    "text": "• Training-time Correction. The ideal scenario is to rectify a flawed model during training, prior to its deployment for use. Once feedback has been collected, it is directly used to optimize the model parameters. Human feedback is typically used for trainingtime correction, as exemplified by the widely adopted RLHF approach (Ouyang et al., 2022). For leveraging automated feedback, a common strategy is self-training (Huang et al., 2022), where the model is trained with its own generated high-quality output filtered out by the critic model. However, the practical application of training-time correction may be hindered by the infeasibility of fine-tuning giant closed-source LLMs, such as GPT-4 (OpenAI, 2023) and the potential unavailability of feedback during model training.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.155,
+      0.529,
+      0.3,
+      0.887
+    ],
+    "text": "• Generation-time Correction. It utilizes automated feedback to guide the LLM to correct errors during generation. For example, for proof generation, several studies utilize the automated feedback of the intermediate reasoning steps to guide the model to recover from incorrect generation and search for the optimal solution in a more efficient way (Yang et al., 2022a; Lightman et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.306,
+      0.531,
+      0.5,
+      0.887
+    ],
+    "text": "• Post-hoc Correction. It refines the model output after it has been generated, without updating the model parameters. This typically involves an iterative process of generating output, receiving feedback, and refining output. Post-hoc correction is more flexible as it does not require training the LLM or accessing its parameters. Furthermore, it facilitates the incorporation of more informative natural language feedback, offering a more transparent and explainable selfcorrection process.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.51,
+      0.543,
+      0.768
+    ],
+    "text": "2.5 How to Correct the Model with Feedback?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.509,
+      0.678,
+      0.887
+    ],
+    "text": "Various concrete strategies have been proposed to correct LLMs with automated feedback, which are tailored to the different dimensions we mentioned in previous sections. For example, selftraining is often used for training-time correction. Generate-then-rank often comes with scalar value feedback. We will cover the comprehensive landscape of self-correction strategies in Section 3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.688,
+      0.51,
+      0.706,
+      0.779
+    ],
+    "text": "2.6 Summary of Existing Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.509,
+      0.774,
+      0.885
+    ],
+    "text": "Building upon the taxonomy established in the preceding sections, we collate existing work in Table 1 and Table 2. We have three major selection criteria for a work to be included in this survey:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-16",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.509,
+      0.871,
+      0.887
+    ],
+    "text": "1. Automated Feedback: Explicit feedback is involved to assess the quality of the model output. We focus on automated feedback that originates from external models, metrics, knowledge, etc. However, we will cover some representative works of human feedback for completeness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-17",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.871,
+      0.51,
+      0.904,
+      0.887
+    ],
+    "text": "2. Model Refinement: The feedback should act as a directive to enhance the LLM, either by:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:table-1",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.065,
+      0.115,
+      0.576,
+      0.884
+    ],
+    "text": "Table 1: Representative works on Training-time Correction and Generation-Time Correction.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.627,
+      0.115,
+      0.659,
+      0.489
+    ],
+    "text": "1) updating model parameters, or 2) altering the model’s output during or post the generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.114,
+      0.821,
+      0.49
+    ],
+    "text": "3. Large Language Model: We primarily focus on automated correction strategies in the era of modern large language models. Given this focus, we mainly emphasize very recent work from 2022 and 2023. However, it is important to acknowledge that the concept of automated correction is not new and has roots in early NLP research. To provide a complete historical perspective, we provide a succinct overview of these initial approaches to automated correction in Section 4.1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.114,
+      0.906,
+      0.49
+    ],
+    "text": "These studies are categorized based on the three strategies introduced in Section 2.4. We also summarize key features of each study, including: 1) the source of feedback, 2) the format of feedback, 3) the strategy and learning method employed for the refinement, 4) whether the refinement process is iterative, and 5) the application of the method.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.51,
+      0.688,
+      0.673
+    ],
+    "text": "3 Methodologies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.509,
+      0.777,
+      0.887
+    ],
+    "text": "In this section, we delve into a detailed review of various correction methodologies. Depending on the time that the correction happens, we categorize them as Training-Time Correction, Generation-Time Correction, and Post-hoc Correction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.51,
+      0.802,
+      0.769
+    ],
+    "text": "3.1 Training-Time Correction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.807,
+      0.509,
+      0.904,
+      0.887
+    ],
+    "text": "Training-time correction rectifies model behavior during the training phase. We identify three typical strategies shown in Figure 2. Each strategy utilizes different forms of feedback to optimize the model during training: human feedback (a), a reward model (b), and automated feedback (c).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.066,
+      0.115,
+      0.431,
+      0.88
+    ],
+    "text": "Table 2: Representative work on Post-hoc Correction.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:figure-2",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.478,
+      0.117,
+      0.656,
+      0.882
+    ],
+    "text": "Figure 2: Three typical strategies of training-time correction: direct optimization with human feedback (a), training a reward model that approximates human feedback (b), and self-training with automated feedback (c).",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.727,
+      0.114,
+      0.906,
+      0.492
+    ],
+    "text": "Direct Optimization with Human Feedback. In an ideal scenario, we would directly leverage human feedback to optimize the model parameters, following the framework in Figure 2(a): 1) Candidate outputs are generated by LLMs, 2) Humans provide feedback or refinements on these outputs, and 3) LLMs are then directly optimized on the collected (outputs, feedback) to better align with human preferences. A simple strategy is to fine-tune the model on the outputs that receive positive feedback from human raters (Glaese et al.,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.726,
+      0.509,
+      0.906,
+      0.887
+    ],
+    "text": "2022; Scheurer et al., 2023; Chen et al., 2023a). However, only utilizing positive-rated data may constrain the model’s ability to identify and correct negative attributes or errors. To address this, Chain-of-Hindsight (Liu et al., 2023a) fine-tunes the LLM on model outputs paired with both positive and negative feedback. Beyond fine-tuning, other optimization methods are explored as well. For example, Gao et al. (2023a) utilize human feedback as the reward signal and optimize the model with contextual bandit learning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.067,
+      0.114,
+      0.409,
+      0.492
+    ],
+    "text": "Reward Modeling and RLHF. Direct optimization with human feedback may not always be practical, since collecting human feedback can be both labor-intensive and time-consuming. An efficient alternative is to train a reward model that emulates human feedback. Once trained, this reward model can provide consistent, real-time feedback for every model output, thereby circumventing the need for constant human involvement. A prominent example of this approach is RLHF (Ouyang et al., 2022), as illustrated in Figure 2(b). It first asks human annotators to label the preference for different LLM outputs and then train the reward model to predict the human preference. Afterward, reinforcement learning (RL) algorithms (e.g., Proximal Policy Optimization [Schulman et al., 2017]) are employed to optimize ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.418,
+      0.114,
+      0.807,
+      0.492
+    ],
+    "text": "Self-Training with Automated Feedback. Reward modeling still requires the collection of human feedback. To build a fully autonomous self-improving agent, recent work has adopted the self-training strategy that self-improves LLM by bootstrapping its original outputs, as depicted in Figure 2(c). The language model itself is used to provide feedback for its own output. STaR (Zelikman et al., 2022) leverages the idea of chainof-thought to prompt LLM to generate answers with rationales. They found that the performance of LLM can be improved by iteratively selecting rationales leading to the correct answer to further finetune LLM. Self-training has also been used to reduce the harmful responses of LLMs. For example, in RLAIF (Bai et al., 2022b), the initial toxic responses are criticiqued and re",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.816,
+      0.115,
+      0.833,
+      0.393
+    ],
+    "text": "3.2 Generation-Time Correction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.114,
+      0.904,
+      0.492
+    ],
+    "text": "Correcting LLMs at training time is ideal but not always feasible because it can be resourceintensive or even impractical for many LLMs, $e . g .$ , closed-source LLMs where weights are inaccessible, and colossal LLMs with billions of parameters. This necessitates generation-time correction methods that correct LLMs during the generation time. Two main strategies are Generate-then-Rank and Feedback-Guided Decoding.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-5",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.067,
+      0.515,
+      0.353,
+      0.882
+    ],
+    "text": "Figure 3: The illustrations of the two typical strategies of generation-time correction: (a) Generate-then-Rank, and (b) Feedback-Guided Decoding.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.548,
+      0.509,
+      0.822,
+      0.887
+    ],
+    "text": "Generate-then-Rank. This involves sampling a large number of candidate generations and subsequently picking up the best generation based on the feedback provided by the critic model, as illustrated in Figure 3(a). This approach is often integrated with chain-of-thought prompting (Wei et al., 2022b) to tackle complex reasoning tasks, such as solving math word problems. Given an input problem x, the LLM initially generates multiple candidate solutions $y _ { 1 } , \\cdots , y _ { n }$ . Each solution $y _ { i } = [ z _ { i } , a _ { i } ]$ comprises a reasoning path (explanation) $z _ { i }$ leading to the predicted answer $a _ { i }$ . Subsequently, the critic model C assigns a plausibility score $s _ { i }$ to each candidate reasoning path $z _ { i }$ . The best solution is selected from th",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.822,
+      0.509,
+      0.904,
+      0.887
+    ],
+    "text": "Various critic models have been used for LLM output verification. DIVERSE (Li et al., 2023d) trains a binary verifier based on DeBERTa (He et al., 2021) to rate each reasoning path. Weng et al. (2023) introduced a training-free critic model based on the consistency between forward and backward reasoning. In a different vein, RR (He et al., 2023) used a critic model to assess reasoning path faithfulness by retrieving supporting information from a knowledge base. In code generation, LEVER (Ni et al., 2023) uses a verifier trained on program execution results. CodeT (Chen et al., 2023b) similarly employs dual execution agreement to select the best code solution.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.224,
+      0.114,
+      0.337,
+      0.49
+    ],
+    "text": "Feedback-Guided Decoding. Despite its efficiency, the generate-then-rank strategy has several limitations: 1) The critic model provides only coarse-grained, output-level feedback, 2) The long length of the output can complicate its quality assessment, and 3) It requires the LLM to wait until the entire output is generated for any corrections.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.337,
+      0.114,
+      0.645,
+      0.492
+    ],
+    "text": "The feedback-guided decoding strategy shown in Figure 3(b) overcomes the above limitations by using step-level feedback for fine-grained control during generation. Each output y is split into multiple reasoning steps $y = [ o _ { 1 } , o _ { 2 } , \\cdot \\cdot \\cdot , o _ { n } ]$ . A critic model evaluates each step $o _ { t } ,$ guiding algorithms like beam search to explore the output space systematically and correct early mistakes. This strategy also helps alleviate the reasoning inconsistency problem (Zelikman et al., 2022; Creswell and Shanahan, 2022), i.e., incorrect reasoning leads to correct final answer. This strategy has been adopted in recent works like Tree-of-Thought (Yao et al., 2023a), GRACE (Khalifa et al., 2023), and RAP (Hao et al., 2023), which vary mainly in the critic ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.656,
+      0.134,
+      0.752,
+      0.49
+    ],
+    "text": "• Reward Model from Human Feedback: Studies like Uesato et al. (2022) and Lightman et al. (2023) collect human-annotated steplevel feedback to train a more robust reward model, which improves reasoning faithfulness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.134,
+      0.906,
+      0.492
+    ],
+    "text": "• Trained Verifier: To reduce the cost of human annotations, some work (Yang et al., 2022a; Tafjord et al., 2022; Li et al., 2023d; Khalifa et al., 2023) uses automated methods to generate training data for obtaining a step-wise verifier. Positive examples are derived from ground-truth reasoning paths, while negative examples are synthesized by proposing an alignment algorithm (Khalifa et al., 2023) or by making text perturbations on positive samples (Yang et al., 2022a).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.531,
+      0.239,
+      0.887
+    ],
+    "text": "• External Metric: Several studies also leverage external metrics to re-rank or guide text generation without additional model training, such as using minimum Bayes risk decoding (Freitag et al., 2022), attribute classifiers (Dathathri et al., 2020; Yang and Klein, 2021), and Gaussian denoising (Li et al., 2022).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.529,
+      0.392,
+      0.887
+    ],
+    "text": "• External Knowledge: External knowledge sources have also been used to provide feedback. Varshney et al. (2023) use Wikipedia to validate and correct each generated sentence, which is then reinserted for further generation. Alternatively, MemPrompt (Madaan et al., 2022) utilizes a pool of prior user feedback to guide the text generation based on the current query’s intent.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.399,
+      0.529,
+      0.514,
+      0.887
+    ],
+    "text": "• Self-Evaluation: For better flexibility, methods such as Tree-of-Thought (Yao et al., 2023a) and Guided-decoding (Xie et al., 2023) use the LLM itself as the critic model by prompting it to evaluate each individual reasoning step, avoiding the need for fine-tuning task-specific verifier.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.526,
+      0.509,
+      0.657,
+      0.887
+    ],
+    "text": "Different strategies are adopted to control the decoding process with the help of the step-level critic model. Tree-of-Thought uses breadth-first and depth-first searches, while GRACE (Khalifa et al., 2023) and Xie et al. (2023) employ beam search. CoRe (Zhu et al., 2023) and RAP (Hao et al., 2023) use Monte Carlo Tree Search for a balance between exploration and exploitation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.51,
+      0.687,
+      0.719
+    ],
+    "text": "3.3 Post-hoc Correction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.509,
+      0.906,
+      0.887
+    ],
+    "text": "The effectiveness of generation-time correction hinges on the critic model’s ability to give precise feedback for intermediate outputs, a challenging task in holistic NLP evaluations like summarization. This motivates the post-hoc correction methods, where both critic and refinement models act only after generating the complete output. Posthoc correction allows for more diverse natural language feedback, ranging from specific diagnostic reports to broader writing suggestions. As shown in Figure 4, we categorize the key post-hoc correction strategies into Self-Correction, Correction with External Feedback, and Multi-Agent Debate.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:figure-1",
+    "page_id": 8,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_8_Figure_0.jpg",
+    "bbox_norm": [
+      0.065,
+      0.117,
+      0.212,
+      0.882
+    ],
+    "text": "Figure 4: Three post-hoc correction strategies: self-correction (a), external feedback (b), multi-agent debate (c).",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.275,
+      0.114,
+      0.55,
+      0.492
+    ],
+    "text": "Self-Correction. In ‘‘Self-Correction’’, a single LLM both generates and refines its output. As shown in Figure 4(a), the LLM first produces an output and then acts as its critic for iterative refinements. This process continues until the output obtains an acceptable quality or a pre-specified number of iterations is reached. Self-Refine (Madaan et al., 2023) introduced an effective framework using one LLM guided by varied prompts for the roles of generation, critic, and refinement, respectively. Clinical Self-Verification (Gero et al., 2023) applies this to extract clinical data, refining by spotting missing elements and verifying data accuracy. Reflexion (Shinn et al., 2023) extends the method, adding a ‘‘long-term memory’’ to recall past errors and integrating diverse feedback forms.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.551,
+      0.114,
+      0.778,
+      0.492
+    ],
+    "text": "Though beneficial in many text-generation tasks, self-correction usually demands powerful, large-scale LLMs for effectiveness, which sacrifices efficiency. As observed by Madaan et al. (2023), smaller models often falter in refining, even with correct feedback. A possible solution involves explicitly training models for this selfcorrection process. SelFee (Ye et al., 2023) proposes training a model to emulate the self-correction process by generating output, feedback, and a refined solution in an auto-regressive manner. They use more powerful LLMs to provide feedback and refinement data, with data collection facilitated through ChatGPT.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.79,
+      0.114,
+      0.906,
+      0.492
+    ],
+    "text": "Models/Tools as Feedback. In self-correction, the quality of the feedback is constrained by the inherent limitations of LLMs, such as the inability to access up-to-date information, take actions, or perform precise mathematical reasoning. To enhance feedback quality, recent research leverages external tools, as shown in Figure 4(b). These tools, including trained models, code interpreters, and search engines, offer specialized feedback to address LLM constraints.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.342,
+      0.529,
+      0.519,
+      0.887
+    ],
+    "text": "• Code Interpreter. In code generation, models like Self-Edit (Zhang et al., 2023a) and Self-Evolve employ program executors to provide feedback from executed test cases. Others, like Self-Debug (Chen et al., 2023e) and ALGO (Zhang et al., 2023b), explore detailed feedback mechanisms using unit tests, program explanations, or comparison with reference oracle programs. Charalambous et al. (2023) use Bounded Model Checking for software verification.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.529,
+      0.531,
+      0.627,
+      0.887
+    ],
+    "text": "• Logic Reasoner. Logic-LM (Pan et al., 2023) and Baldur (First et al., 2023) harness external logic reasoners and proof assistants to refine LLM outputs, using error messages as feedback for logical reasoning and theoremproof generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.637,
+      0.529,
+      0.814,
+      0.887
+    ],
+    "text": "• External Knowledge is used to ensure factual accuracy of the output. Models like RARR (Gao et al., 2023b), REFEED (Yu et al., 2023), and LLM-Augmenter (Peng et al., 2023) prompt LLMs to question their outputs. An external retriever then searches for relevant evidence, which is used to refine outputs. FACTOOL (Chern et al., 2023) extends this approach to a wider range of tasks, including code generation, mathematical reasoning, and scientific literature review.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.529,
+      0.906,
+      0.887
+    ],
+    "text": "• Trained Model. Research has fine-tuned specialized critic models to provide feedback for iterative refinement alongside more powerful language models. For example, CodeRL (Le et al., 2022) treats program synthesis as a reinforcement learning task and trains a critic model whose output optimizes the main model. REFINER (Paul et al., 2023) uses a critique model to provide feedback on an intermediate representation, suitable for refining larger models like ChatGPT. Similarly, RL4F (Akyurek et al., 2023) trains a ¨ critic via reinforcement learning, fine-tuning it with policy optimization. The effectiveness is gauged by comparing the refined output’s accuracy to ground truth. In adversarial contexts, feedback from content filters can guide the generation of better adversarial examples, like ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.353,
+      0.136,
+      0.45,
+      0.49
+    ],
+    "text": "• Integrating Multiple Tools. Broadening the idea of tool-assisted feedback, CRITIC (Gou et al., 2023) unifies various tools, such as code interpreters, search engines, and LLM feedback, offering a multifaceted feedback approach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.474,
+      0.115,
+      0.489,
+      0.322
+    ],
+    "text": "3.4 Multi-Agent Debate",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.114,
+      0.612,
+      0.49
+    ],
+    "text": "Besides integrating tools, recent research has also explored the debate approach among multiple LLMs, inspired by the idea that multiple perspectives can converge to an improved solution. Multiple LLM instances debate their individual answers over several rounds, aiming for a consensus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.613,
+      0.114,
+      0.822,
+      0.49
+    ],
+    "text": "Du et al. (2023) trialed this in arithmetic reasoning. Agents, or LLM duplicates, present individual solutions and justifications. In the debate phase, these responses are aggregated and used as context for each agent to revise its original answer. After several iterations, they typically reach a consensus, showing superior performance compared to self-correction. PRD (Li et al., 2023c) furthered this by introducing the peer rank algorithm to optimize the consensus process. It considers pairwise preferences between all possible answer pairs from individual LLMs and uses these preferences to generate a final ranking of models.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.114,
+      0.904,
+      0.49
+    ],
+    "text": "In addition to reasoning tasks, LM vs LM (Cohen et al., 2023) employed this debate approach for factual error detection, where a generating LLM makes a claim and an examining LLM checks for inaccuracies. Extending its applicability, Fu et al. (2023) mimicked real-world human interactions, like a buyer-seller scenario, showcasing the versatility of multi-agent debates.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.51,
+      0.154,
+      0.638
+    ],
+    "text": "4 Discussion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-9",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.51,
+      0.185,
+      0.885
+    ],
+    "text": "4.1 Prior Research on Automated Correction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-10",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.509,
+      0.405,
+      0.887
+    ],
+    "text": "In our survey, we primarily examine the automated correction strategies in the era of modern large language models. However, the idea of ‘‘correcting the model with automated feedback’’ has been a longstanding practice in diverse NLP tasks. Recognizing these early works provides a deeper historical insight into the evolution of selfcorrection methods within NLP. Next, we briefly discuss the NLP applications where automated correction has been effectively implemented, and we discuss how these early works link to the automated correction strategies defined in this survey.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-11",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.419,
+      0.509,
+      0.664,
+      0.887
+    ],
+    "text": "Machine Translation. The concept of post-hoc self-correction has deep roots in the field of machine translation (MT), where it is often called Automatic Post-Editing (APE) (do Carmo et al., 2021). A long line of prior work trains models to fix translation errors by either learning from human correction data (Alabau et al., 2014) or from synthetic training data (Lee et al., 2021). To minimize the cost of data collection, recent work (Chen et al., 2023d; Raunak et al., 2023) has leveraged the in-context learning ability of LLMs for post-editing translations. As well as post-hoc methods, training-time correction (Unanue et al., 2021) and decoding-time correction (Freitag et al., 2022) are also adopted by prior works.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-12",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.677,
+      0.509,
+      0.906,
+      0.887
+    ],
+    "text": "Summarization. The idea of automated model correction has been commonly used in summarization to ensure the factuality of the generated summary. There are two mainstream methods: 1) training-time correction that imposes factuality constraints during training (Liu and Liu, 2021; Wan and Bansal, 2022; Scheurer et al., 2023), and 2) post-hoc correction that post-edits generated summaries to correct factual errors (Falke et al., 2019; Cao et al., 2020; Saunders et al., 2022). Recent work has investigated using RL to refine the model guided by automated feedback from either reward models (Akyurek et al., 2023) or language ¨ models (Pang et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.067,
+      0.114,
+      0.311,
+      0.49
+    ],
+    "text": "Semantic Parsing. The use of external feedback in semantic parsing, particularly for Text-to-SQL tasks, has shown significant effectiveness. Execution-guided semantic parsing is a notable approach where the feedback from executing partial SQL queries guides the search for plausible complete SQL programs. Additionally, earlier works also explored training separate discriminative models either to rerank the generated SQL queries (Bogin et al., 2019; Kelkar et al., 2020) or to predict specific SQL components (Xu et al., 2017; Yu et al., 2018; Lee, 2019). The effectiveness of these generation-time correction techniques is largely attributable to the ease of defining intermediate feedback in semantic parsing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.114,
+      0.485,
+      0.49
+    ],
+    "text": "Proof Generation. Automated correction has been well studied and implemented for proof generation (Saha et al., 2020; Tafjord et al., 2021). External feedback from natural language inference (NLI) are commonly used to spot errors as a heuristic for correction, and as a means to score the quality (Yang et al., 2022a; Golovneva et al., 2023). However, there are some open questions regarding the quality of NLI-based feedback (Srikanth and Rudinger, 2022; Saxon et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.495,
+      0.114,
+      0.739,
+      0.492
+    ],
+    "text": "Open-Ended Generation. Post-hoc correction is often adopted to improve the quality of openended text generation (Wang et al., 2017; Holtzman et al., 2018; Sagarkar et al., 2018), such as correcting toxic outputs, enhancing the narrative quality in story generation, and refining response generation in dialogues. For example, Holtzman et al. (2018) proposed a framework to refine the generic, repetitive, and inconsistent texts by composing a committee of discriminators to provide multi-aspect feedback. Given the subjectivity involved in assessing the outputs, recent works started to use detailed, natural language feedback and utilize LLMs for iterative post-hoc refinement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.115,
+      0.783,
+      0.347
+    ],
+    "text": "4.2 When Does Automated Correction Work?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.79,
+      0.114,
+      0.906,
+      0.49
+    ],
+    "text": "Despite the relative infancy of this emerging field, recent studies have explored the efficacy of automated correction in LLMs. Notably, intrinsic self-correction—where the model corrects its initial output based solely on its inherent capabilities—has generally shown disappointing results (Huang et al., 2023; Stechly et al., 2023;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.509,
+      0.261,
+      0.887
+    ],
+    "text": "Hong et al., 2023; Tyen et al., 2023; Valmeekam et al., 2023; Ke et al., 2023). Most findings indicate that LLMs struggle to rectify their initial mistakes, and their performance even worsens after self-correction. This issue arises because the quality of the model’s self-generated feedback is bounded by its existing knowledge and abilities. Therefore, internal feedback may not offer any extra advantage for improving the results; it might even steer the model away from the correct answer. Preventing such mis-guidance is crucial for successful self-correction (Huang et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.509,
+      0.455,
+      0.887
+    ],
+    "text": "In contrast, the use of external feedback for automated correction has shown more promise. Numerous studies (Pan et al., 2023; Chen et al., 2023a; Gou et al., 2023; Huang et al., 2023) report positive outcomes when LLMs leverage highquality feedback from external sources. However, high-quality external feedback is unavailable in many real-world applications. This constraint narrows down the scope of automated correction to only those tasks where precise and readily obtainable external feedback exists, such as arithmetic reasoning, semantic parsing, and code generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-8",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.455,
+      0.509,
+      0.617,
+      0.887
+    ],
+    "text": "The empirical study by Huang et al. (2023) highlighted multi-agent debate as an effective method for automated correction in LLMs. However, the observed improvement primarily stems from the model-driven voting process among different LLMs, rather than from self-correction. This approach represents another successful instance of learning through external feedback, as each LLM benefits from the input provided by other LLMs in the debate.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-9",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.51,
+      0.649,
+      0.872
+    ],
+    "text": "5 Research Gaps and Future Directions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-10",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.657,
+      0.51,
+      0.674,
+      0.761
+    ],
+    "text": "5.1 Theoretical Justifications",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.678,
+      0.509,
+      0.906,
+      0.887
+    ],
+    "text": "First of all, whether LLMs can self-correct without any external feedback is still an ongoing debate, with both positive and negative outcomes reported. Numerous studies have discovered that self-correction often brings negative effects (Huang et al., 2023; Tyen et al., 2023), while some research indicates that the effectiveness of selfrepair is only seen in GPT-4 (Olausson et al., 2023). Although these empirical studies provide valuable insights, more fundamental theoretical research is needed to gain a mechanistic understanding of self-correction. Key research questions include: Can LLMs truly recognize their own errors without external feedback? What is the upper bound of intrinsic self-correction? Answers to those questions might closely associated with LLMs’ capacity to exhibit metaco",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.198,
+      0.114,
+      0.407,
+      0.492
+    ],
+    "text": "While language models demonstrate some capacity for self-feedback, achieving superior performance often necessitates incorporating external feedback. This ties into the alignment of language models, an area still not fully understood. For example, in RLHF, the choice of the metric to minimize between the reward model output and the final model output significantly impacts downstream task performance (Go et al., 2023), yet this aspect remains underexplored in many applications. Determining the best approach to auto-generate instructive prompts for tasks like output evaluation is also an open challenge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.417,
+      0.115,
+      0.432,
+      0.467
+    ],
+    "text": "5.2 Benchmarking Automated Correction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.438,
+      0.114,
+      0.599,
+      0.49
+    ],
+    "text": "While LLM automated correction has seen empirical advancements across applications, there is a lack of solid quantitative metrics to evaluate this capability. Comprehensive evaluations comparing various strategies on criteria like effectiveness, complexity, and potential limits are still needed. Future studies could develop evaluation frameworks considering variables such as task complexity, degree of initial error, improvement in quality after automated correction, etc.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.599,
+      0.114,
+      0.681,
+      0.49
+    ],
+    "text": "Setting benchmarks to diagnose automated correction is another potential research avenue. Diagnostic datasets would offer standardized evaluations of LLMs and their correction strategies, fostering the development of more precise models.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.689,
+      0.115,
+      0.705,
+      0.394
+    ],
+    "text": "5.3 Continual Self-Improvement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.114,
+      0.872,
+      0.49
+    ],
+    "text": "Another promising yet under-explored area of LLM self-correction is the idea of continual, life-long self-improvement. As LLMs are integrated into varied and evolving scenarios, their capacity for sustained adaptability becomes crucial. This mirrors the notion of continual (lifelong) learning (Wang et al., 2023c), suggesting LLMs should consistently assess outputs, rectify mistakes, update knowledge, and adjust decisionmaking.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.871,
+      0.114,
+      0.904,
+      0.49
+    ],
+    "text": "While recent studies like Huang et al. (2022) and Zelikman et al. (2022) indicate that LLMs can enhance themselves through self-training on positively evaluated outputs, they often focus on a single, one-time correction process. The resilience of this self-training in continuous settings is not well-understood. Continual learning poses challenges like catastrophic forgetting (Kirkpatrick et al., 2016), where new skills impair old ones. It’s uncertain if such issues could plague continually self-improving LLMs, e.g., correcting one behavior may unintentionally alter a previously corrected behavior. Combining various selfcorrection techniques for continual improvement also warrants exploration. Integrating immediate post-hoc corrections with long-cycle training-time corrections—using the for",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-10",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.353,
+      0.51,
+      0.368,
+      0.842
+    ],
+    "text": "5.4 Self-Correction with Model Editing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-11",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.373,
+      0.509,
+      0.582,
+      0.887
+    ],
+    "text": "Recent advancements in model editing (Sinitsin et al., 2020; Cao et al., 2021; Yao et al., 2023b) aim to adjust the model’s behavior for examples within the editing scope while leaving its performance for out-of-scope examples unaltered. It has been applied to update LLMs’ outdated knowledge (Lee et al., 2022; Onoe et al., 2023) and address false associations (Murty et al., 2022; Tanno et al., 2022). Though effective in adjusting LLMs’ factual knowledge, challenges like limited generalization (Yao et al., 2023b) and unintended side effects persist (Hoelscher-Obermaier et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-12",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.509,
+      0.76,
+      0.887
+    ],
+    "text": "We believe model editing offers great potential for LLM self-correction. It enables accurate, fine-grained corrections without full-scale retraining. Analyzing the impact of these model edits could yield insights into self-correction. Techniques mitigating model editing’s side effects (Hoelscher-Obermaier et al., 2023) may also enhance self-correction. We anticipate future research to increasingly merge model editing with LLM self-correction, a relatively untouched domain.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-13",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.51,
+      0.787,
+      0.788
+    ],
+    "text": "5.5 Multi-modal Self-Correction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-14",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.79,
+      0.509,
+      0.904,
+      0.887
+    ],
+    "text": "Self-correction strategies have been well-tested on the textual modality, where both the model outputs and the feedback are in textual form. The recent surge in multi-modal data usage, including image, audio, and video modalities, presents enticing opportunities for expansion. These include the exploration of self-correction capabilities within multi-modal LLMs, the incorporation of visual feedback, and improving vision-language tasks through self-correction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.133,
+      0.115,
+      0.148,
+      0.248
+    ],
+    "text": "6 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.162,
+      0.114,
+      0.435,
+      0.49
+    ],
+    "text": "In this paper, we present a comprehensive survey of self-correcting large language models with automated feedback. We categorize and analyze various self-correction strategies, including training-time, generation-time, and post-hoc corrections. We also connect recent work with prior research and discuss the applicable scenarios for automated correction. Finally, we outline five potential future directions and associated challenges in this field. Our goal with this paper is to provide a comprehensive and useful resource for readers interested in the development of this rapidly evolving domain. To aid in this effort, we create a continually updated reading list in a GitHub repository as follows: https://github.com /teacherpeterpan/self-correction-llm -papers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.457,
+      0.115,
+      0.473,
+      0.28
+    ],
+    "text": "Acknowledgments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-5",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.485,
+      0.114,
+      0.583,
+      0.49
+    ],
+    "text": "This work was supported by the National Science Foundation (award #2048122). The views expressed are those of the authors and do not reflect the official policy or position of the US government. Thanks to Xinyuan Lu for assisting with the Github reading list repo.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-6",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.115,
+      0.626,
+      0.216
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-7",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.117,
+      0.782,
+      0.489
+    ],
+    "text": "Afra Feyza Akyurek, Ekin Aky ¨ urek, Ashwin ¨ Kalyan, Peter Clark, Derry Tanti Wijaya, and Niket Tandon. 2023. RL4F: Generating natural language feedback with reinforcement learning for repairing model outputs. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL), pages 7716–7733. https://doi.org/10 .18653/v1/2023.acl-long.427 Vicent Alabau, Christian Buck, Michael Carl, Francisco Casacuberta, Mercedes Garc´ıa-Mart´ınez, Ulrich Germann, Jesus Gonz´ alez-´ Rubio, Robin L. Hill, Philipp Koehn, Luis A. Leiva, Bartolome Mesa-Lao, Daniel Ortiz-´ Mart´ınez, Herve Saint-Amand, German´ Sanchis-Trilles, and Chara Tsoukala. 2014. CASMACAT: A computer-assisted translation workbench. In Proceedings of the 14th Conference of the European Chapter of the Associ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.134,
+      0.115,
+      0.489
+    ],
+    "text": "Psychology, 14:1125873. https://doi.org /10.3389/fpsyg.2023.1125873, PubMed: 37275690 Ben Bogin, Matt Gardner, and Jonathan Berant. 2019. Global reasoning over database structures for text-to-SQL parsing. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3659–3664. https://doi.org/10 .18653/v1/D19-1378 Evelyn M. Boyd and Ann W. Fales. 1983. Reflective learning: Key to learning from experience. Journal of Humanistic Psychology, 23(2):99–117. https://doi.org/10 .1177/0022167883232011 Meng Cao, Yue Dong, Jiapeng Wu, and Jackie Chi Kit Cheung. 2020. Factual error correction for abstractive summarization models. In Proceedings of the 2020 Conference on Empirica",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.117,
+      0.196,
+      0.489
+    ],
+    "text": "Felix do Carmo, Dimitar Shterionov, Joss ´ Moorkens, Joachim Wagner, Murhaf Hossari, Eric Paquin, Dag Schmidtke, Declan Groves, and Andy Way. 2021. A review of the stateof-the-art in automatic post-editing. Machine Translation, 35(2):101–143. https://doi .org/10.1007/s10590-020-09252-y, PubMed: 34720417 Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, and Igor Mordatch. 2023. Improving factuality and reasoning in language models through multiagent debate. CoRR, abs/2305.14325. Yann Dubois, Xuechen Li, Rohan Taori, Tianyi Zhang, Ishaan Gulrajani, Jimmy Ba, Carlos Guestrin, Percy Liang, and Tatsunori B. Hashimoto. 2023. Alpacafarm: A simulation framework for methods that learn from human feedback. CoRR, abs/2305.14387. Tobias Falke, Leonardo F. R. Ribeiro, Prasetya Ajie Utama, Ido",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.134,
+      0.148,
+      0.489
+    ],
+    "text": "degeneration in language models. In Findings of the Association for Computational Linguistics: EMNLP 2020, pages 3356–3369. https://doi.org/10.18653/v1/2020 .findings-emnlp.301 Zelalem Gero, Chandan Singh, Hao Cheng, Tristan Naumann, Michel Galley, Jianfeng Gao, and Hoifung Poon. 2023. Self-verification improves few-shot clinical information extraction. CoRR, abs/2306.00024. Amelia Glaese, Nat McAleese, Maja Trebacz, John Aslanides, Vlad Firoiu, Timo Ewalds, Maribeth Rauh, Laura Weidinger, Martin J. Chadwick, Phoebe Thacker, Lucy Campbell-Gillingham, Jonathan Uesato, Po-Sen Huang, Ramona Comanescu, Fan Yang, Abigail See, Sumanth Dathathri, Rory Greig, Charlie Chen, Doug Fritz, Jaume Sanchez Elias, Richard Green, Sona Mokra, Nicholas Fernando, Boxi ´ Wu, Rachel Foley, Susannah Young, Iason ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.117,
+      0.148,
+      0.489
+    ],
+    "text": "Jie Huang, Xinyun Chen, Swaroop Mishra, Huaixiu Steven Zheng, Adams Wei Yu, Xinying Song, and Denny Zhou. 2023. Large language models cannot self-correct reasoning yet. CoRR, abs/2310.01798. Jiaxin Huang, Shixiang Shane Gu, Le Hou, Yuexin Wu, Xuezhi Wang, Hongkun Yu, and Jiawei Han. 2022. Large language models can self-improve. CoRR, abs/2210.11610. https://doi.org/10.18653/v1/2023 .emnlp-main.67 Shuyang Jiang, Yuhao Wang, and Yu Wang. 2023. Selfevolve: A code evolution framework via large language models. CoRR, abs/2306.02907. Jaehun Jung, Lianhui Qin, Sean Welleck, Faeze Brahman, Chandra Bhagavatula, Ronan Le Bras, and Yejin Choi. 2022. Maieutic prompting: Logically consistent reasoning with recursive explanations. In Proceedings of the 2022 Conference on Empirical Methods in Natural Lan",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.067,
+      0.132,
+      0.131,
+      0.49
+    ],
+    "text": "for continuously-updated QA. In Findings of the Association for Computational Linguistics: ACL 2022, pages 438–447. https://doi.org /10.18653/v1/2022.findings-acl.37 WonKee Lee, Baikjin Jung, Jaehun Shin, and Jong-Hyeok Lee. 2021. Adaptation of backtranslation to automatic post-editing for synthetic data generation. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL), pages 3685–3691. https://doi .org/10.18653/v1/2021.eacl-main .322 Sharon Levy, Emily Allaway, Melanie Subbiah, Lydia Chilton, Desmond Patton, Kathleen McKeown, and William Yang Wang. 2022. SafeText: A benchmark for exploring physical safety in language models. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), pag",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.117,
+      0.18,
+      0.489
+    ],
+    "text": "Manuel London, Valerie I. Sessa, and Loren A. Shelley. 2023. Developing self-awareness: Learning processes for self-and interpersonal growth. Annual Review of Organizational Psychology and Organizational Behavior, 10:261–288. https://doi.org/10.1146 /annurev-orgpsych-120920-044531 Ximing Lu, Sean Welleck, Jack Hessel, Liwei Jiang, Lianhui Qin, Peter West, Prithviraj Ammanabrolu, and Yejin Choi. 2022. QUARK: Controllable text generation with reinforced unlearning. In Proceedings of the Annual Conference on Neural Information Processing Systems (NeurIPS). Chenyang Lyu, Jitao Xu, and Longyue Wang. 2023a. New trends in machine translation using large language models: Case examples with chatgpt. CoRR, abs/2305.01181. https://doi .org/10.18653/v1/2023.emnlp-main.1036 Qing Lyu, Shreya Havaldar, A",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.132,
+      0.148,
+      0.489
+    ],
+    "text": "knowledge. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL), pages 5469–5485. https://doi.org/10.18653/v1/2023 .acl-long.300 OpenAI. 2023. GPT-4 technical report. CoRR, abs/2303.08774. Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul F. Christiano, Jan Leike, and Ryan Lowe. 2022. Training language models to follow instructions with human feedback. In Proceedings of the Annual Conference on Neural Information Processing Systems (NeurIPS). Liangming Pan, Alon Albalak, Xinyi Wang, and William Yang Wang. 2023. Logic-LM: Empowering large language",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.117,
+      0.148,
+      0.489
+    ],
+    "text": "Jer´ emy Scheurer, Jon Ander Campos, Tomasz ´ Korbak, Jun Shern Chan, Angelica Chen, Kyunghyun Cho, and Ethan Perez. 2023. Training language models with language feedback at scale. CoRR, abs/2303.16755. Timo Schick, Jane A. Yu, Zhengbao Jiang, Fabio Petroni, Patrick S. H. Lewis, Gautier Izacard, Qingfei You, Christoforos Nalmpantis, Edouard Grave, and Sebastian Riedel. 2023. PEER: A collaborative language model. In Proceedings of the 11th International Conference on Learning Representations (ICLR). John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. Proximal policy optimization algorithms. CoRR, abs/1707.06347. Omar Shaikh, Hongxin Zhang, William Held, Michael Bernstein, and Diyi Yang. 2023. On second thought, let’s not think step by step! Bias and toxicity",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.117,
+      0.133,
+      0.489
+    ],
+    "text": "Karthik Valmeekam, Matthew Marquez, and Subbarao Kambhampati. 2023. Can large language models really improve by self-critiquing their own plans? CoRR, abs/2310.08118. Neeraj Varshney, Wenlin Yao, Hongming Zhang, Jianshu Chen, and Dong Yu. 2023. A stitch in time saves nine: Detecting and mitigating hallucinations of LLMs by validating lowconfidence generation. CoRR, abs/2307.03987. David Wan and Mohit Bansal. 2022. Factpegasus: Factuality-aware pre-training and fine-tuning for abstractive summarization. In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), pages 1010–1028. https:// doi.org/10.18653/v1/2022.naacl-main .74 Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Che",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.068,
+      0.132,
+      0.101,
+      0.489
+    ],
+    "text": "natural language without reinforcement learning. CoRR, abs/1711.04436. Hao Yan, Saurabh Srivastava, Yintao Tai, Sida I. Wang, Wen-tau Yih, and Ziyu Yao. 2023. Learning to simulate natural language feedback for interactive semantic parsing. In Proceedings of the 61th Annual Meeting of the Association for Computational Linguistics (ACL), pages 3149–3170. https://doi.org/10 .18653/v1/2023.acl-long.177 Kaiyu Yang, Jia Deng, and Danqi Chen. 2022a. Generating natural language proofs with verifier-guided search. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 89–105. https://doi.org/10.18653 /v1/2022.emnlp-main.7 Kevin Yang and Dan Klein. 2021. FUDGE: Controlled text generation with future discriminators. In Proceedings of the 2021 Conferen",
+    "source_type": "list"
+  }
+]

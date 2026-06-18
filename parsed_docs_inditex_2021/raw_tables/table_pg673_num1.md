@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Individual</td><td rowspan=1 colspan=1>Consolidated</td></tr><tr><td rowspan=1 colspan=1>Number of years audited by the current auditfirm/number of years in which the company hasbeen audited (in %)</td><td rowspan=1 colspan=1>28%</td><td rowspan=1 colspan=1>32%</td></tr></table>

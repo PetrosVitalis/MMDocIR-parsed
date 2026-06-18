@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">(in millions of €)</td><td colspan="2">Fiscal year</td></tr><tr><td>2021</td><td>2020</td></tr><tr><td>Audit services</td><td>9.8</td><td>6.6</td></tr><tr><td>Other attestation services</td><td>0.8</td><td>0.3</td></tr><tr><td>Total principal accountant fees</td><td>10.6</td><td>6.8</td></tr></table>

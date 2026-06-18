@@ -1,0 +1,4 @@
+Model,Parameters,Complexity,Sequential Ops
+CNN,n·K·d,O(n·L·K·d),O(1)
+LSTM,4·d·(K+d),O(L·d²+L·K·d),O(L)
+SWEM,0,O(L·K),O(1)

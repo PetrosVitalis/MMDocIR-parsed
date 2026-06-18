@@ -1,0 +1,6 @@
+,# training,repeated times,# samples per epoch
+ImageNet,"1,281,167",1,"1,281,167"
+PathMNIST,"89,996",14,"1,259,944"
+OrganAMNIST,"34,581",37,"1,279,497"
+BloodMNIST,"11,959",105,"1,255,695"
+CIFAR-10-LT(p=100),"12,406",1,"12,406"

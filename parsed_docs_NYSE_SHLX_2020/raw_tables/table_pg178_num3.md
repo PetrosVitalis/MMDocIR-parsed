@@ -1,0 +1,1 @@
+<table><tr><td>($ in millions)</td><td>Total</td><td>2021</td><td></td><td>2022</td><td>2023</td><td></td><td>2024</td><td>2025 and beyond</td></tr><tr><td>Reyenue expected to be recognized on long-term dedication and transportation agreements</td><td>$ 317.6</td><td>$</td><td>39.7 $</td><td>39.7</td><td>$ 39.7</td><td>$</td><td>39.7 $</td><td>158.8</td></tr></table>

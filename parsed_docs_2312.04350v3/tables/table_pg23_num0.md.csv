@@ -1,0 +1,13 @@
+,Total,Rung,Rung 2,Rung 3
+Size,,,,
+# Samples,"10,560","3,288","3,288","3,984"
+Question,,,,
+# Sentences/Sample,6.85,6.00,7.00,7.25
+# Words/Sample,94.47 3.54,76.41,96.84,103.42
+# Nodes/Graph,,3.54,3.55,3.54
+#Edges/Graph,3.44,3.41,3.43,3.46
+Answer,,,,
+Positive Class (%),50,50,50,50
+Explanations,13.11,12.04,,
+# Sentences/Sample,,,13.76,13.83
+# Words/Sample,146.82,141.88,147.88,151.30

@@ -1,0 +1,1 @@
+<table><tr><td>All Tracts in</td><td>Tracts with Upzoned</td><td>Tracts with Downzoned</td><td>Tracts with contextual-only</td></tr><tr><td>NYC</td><td>Lots*</td><td>Lots*</td><td>Rezoned Lots*</td></tr><tr><td>$53,724</td><td>$44,444</td><td>$51,195</td><td>$63,550</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>

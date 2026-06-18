@@ -1,0 +1,1 @@
+<table><tr><td></td><td>September 26, 2021</td><td></td><td>September 27, 2020</td></tr><tr><td> Raw materials</td><td>$</td><td>267 $</td><td>94</td></tr><tr><td> Work-in-process</td><td></td><td>1,475</td><td>1,155</td></tr><tr><td>Finished goods</td><td></td><td>1,486</td><td>1,349</td></tr><tr><td></td><td>$</td><td>3.228 $</td><td>2,598</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Maturity of lease payments</td><td>Operating leases (1)</td></tr><tr><td>2021</td><td>$ 56</td></tr><tr><td>2022</td><td>56</td></tr><tr><td>2023</td><td>56</td></tr><tr><td>2024</td><td>56</td></tr><tr><td>2025</td><td>56</td></tr><tr><td>Remainder</td><td>451</td></tr><tr><td>Total lease payments</td><td>$ 731</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="3">Weighted-average shares</td></tr><tr><td></td><td colspan="3">Year ended December 31,</td></tr><tr><td>(in millions)</td><td>2021</td><td>2020</td></tr><tr><td>Convertible Preferred Stock,Series L(1)</td><td>25.3</td><td>25.3</td></tr><tr><td>Restricted share rights (2)</td><td>0.2</td><td>1.1</td></tr></table>

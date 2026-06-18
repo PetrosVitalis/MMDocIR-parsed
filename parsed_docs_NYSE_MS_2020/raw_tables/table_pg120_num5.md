@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">At December 31,</td><td>At December 31, 2019</td></tr><tr><td>$ in millions Collateral received with right to sell</td><td>2020</td><td></td><td></td></tr><tr><td>or repledge</td><td>$</td><td>724,818 $</td><td>679,280</td></tr><tr><td>Collateral that was sold or repledged1</td><td></td><td>523,648</td><td>539,412</td></tr></table>

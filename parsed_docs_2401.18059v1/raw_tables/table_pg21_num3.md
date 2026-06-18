@@ -1,0 +1,1 @@
+<table><tr><td>Dataset</td><td>DPR</td><td>SBERT</td><td>BM25</td></tr><tr><td>NarrativeQA</td><td>57.36%</td><td>36.78%</td><td>34.96%</td></tr><tr><td>Quality</td><td>32.28%</td><td>24.41%</td><td>32.36%</td></tr><tr><td>Qasper</td><td>22.93%</td><td>18.49%</td><td>22.76%</td></tr></table>

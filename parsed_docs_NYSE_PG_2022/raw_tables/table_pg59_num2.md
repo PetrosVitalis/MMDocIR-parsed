@@ -1,0 +1,1 @@
+<table><tr><td>Years ending June 30</td><td>2023</td><td>2024</td><td>2025</td><td>2026</td><td>2027</td></tr><tr><td>Estimated</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td> amortization expense</td><td>e $316 $305 $ 288 $268 $258</td><td></td><td></td><td></td><td></td></tr></table>

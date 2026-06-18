@@ -1,0 +1,1 @@
+<table><tr><td>(in millions)</td><td></td></tr><tr><td>Liability balance, January 1, 2020</td><td>$ 191</td></tr><tr><td> Charges, net</td><td>141</td></tr><tr><td> Cash spent</td><td> (163)</td></tr><tr><td> Currency/other</td><td>11</td></tr><tr><td>Liability balance, December 31, 2020</td><td>$ 180</td></tr></table>

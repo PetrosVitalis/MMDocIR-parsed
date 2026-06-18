@@ -1,0 +1,1 @@
+<table><tr><td>$in millions 2020</td></tr><tr><td>Fixed costs $</td><td>2019 $ 670</td></tr><tr><td>Variable costs1</td><td>762</td></tr><tr><td></td><td>154 152 (6)</td></tr><tr><td>Less: Sublease income Total lease cost, net $</td><td>(5) 911 $ 816</td></tr></table>

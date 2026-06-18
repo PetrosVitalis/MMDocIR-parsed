@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">At December 31, December 31,</td></tr><tr><td>$ in millions</td><td>2020 1,652</td><td>2019 $ 1,661</td></tr><tr><td>Customer and other receivables Customer and other payables</td><td>$ 2,119</td><td>2,223</td></tr></table>

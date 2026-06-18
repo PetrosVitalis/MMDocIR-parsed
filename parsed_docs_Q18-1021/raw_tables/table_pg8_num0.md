@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>Unfiltered</td><td>Filtered</td></tr><tr><td>Document-cue</td><td>74.6</td><td>36.7</td></tr><tr><td>Maj. candidate</td><td>41.2</td><td>38.8</td></tr><tr><td>TF-IDF</td><td>43.8</td><td>25.6</td></tr><tr><td>Train set size</td><td>527,773</td><td>43,738</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>€ million</td><td>2021 21/20</td></tr><tr><td>Net Sales</td><td>27,716 36%</td></tr><tr><td>Gross profit</td><td>15,814 39%</td></tr><tr><td>EBITDA</td><td>7,183 58%</td></tr><tr><td>Net income</td><td>3,243 193%</td></tr></table>

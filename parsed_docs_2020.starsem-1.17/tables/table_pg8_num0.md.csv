@@ -1,0 +1,20 @@
+User,i am looking for an expensive place to stay on the north side of cambridge
+System,"i am sorry,i haven ’t found any matches,would you like me to look for something else ?"
+User,"i am looking fora 4 star hotel and i need free internet and parking_. <otel,ntet,el,s,4el,gel,te,e>,e,"
+Ground Truths,"<hotel, price range, expensive>"
+DS-Span,"<hotel,nteret,frteet,tel,as,4>,tel,rking,tre>otel,te>,otel,, <hotel, price range, expensive>"
+DS-DST,"<hotel,internet,yes>,<hotel,stars,4>,hotel,parking,yes>,hotel,type,none>,otel,area,nrth>, <hotel, price range,expensive>"
+User,"it's so hot today,can you help me find a good pool to visit on the north side of the city ?"
+System,i have 2pools in the north areaof town: jesus green outdoor pooland kings hedges learner pool.which do you prefer?
+User,kings hedges sounds nice.cani get the address_please_?
+Ground Truths,"<atraction,rea,north>,ttraction,tye,immingool>,traction,nme,ingshdgesearool>"
+DS-Span DS-DST,"<atraction,area,north>,<attraction,type,pool>,<attraction,name,kings hedges learner pool>"
+User,"<attraction,rea,north>,attraction,type,swimming pool>,atraction,name,ings hedges learerpool> do you happen to know of any trains leaving for cambridge this wednesday ?"
+System,yes .there are a total of 2O2 trains leaving for cambridge on wednesday.where willyou be departing from ?
+User,i will be leaving from norwich and i need to arrive by 8:15
+System,the tr4203 is leaving from norwich to cambridge at O5 :16.would you like to book a ticket ?
+User,"_sure,can you book that for_2 people and provide my reference number ?"
+Ground Truths,"<train,eyrineprure,ich>,rin,ayeay,rnole, <train,destination,cambridge>"
+DS-Span,"<train,arriveby,8:15>,<train,departure,norwich>,<train,day,wednesday>,<train,book people,2>, <train,destination,cambridge>"
+DS-DST,"<train,arriveby,8:15>,<train,departure,norwich>,<train,day, wednesday>,<train, book people,2>,"
+DS-Picklist,"<train,destination,cambridge> <train,arrive by,O8 :15>,<train,departure, norwich>,<train,day,wednesday>,<train,book people,2>, <train,destination,cambridge>"

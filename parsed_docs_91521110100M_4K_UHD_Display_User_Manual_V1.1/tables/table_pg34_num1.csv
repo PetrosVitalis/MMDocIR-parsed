@@ -1,0 +1,11 @@
+Pin No.,Signal Name,Pin No.,Signal Name
+1,Lane 0,2,GND
+3,Lane 0,4,Lane 1
+5,GND,6,Lane 1
+7,Lane 2,8,GND
+9,Lane 2,10,Lane 3
+11,GND,12,Lane 3
+13,GND,14,Lane 3
+15,AUX,16,GND
+17,AUX,18,Hot Plug
+19,Return,20,DP_PWR

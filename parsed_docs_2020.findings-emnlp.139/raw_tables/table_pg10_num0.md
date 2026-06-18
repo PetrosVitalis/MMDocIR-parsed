@@ -1,0 +1,1 @@
+<table><tr><td>MODEL</td><td>RUBY</td><td>GO</td></tr><tr><td>ROBERTA</td><td>0.0043</td><td>0.0030</td></tr><tr><td>PRE-TRAIN W/ CODE ONLY</td><td>0.1648</td><td>0.4179</td></tr><tr><td>CODEBERT</td><td>0.6870</td><td>0.8372</td></tr></table>

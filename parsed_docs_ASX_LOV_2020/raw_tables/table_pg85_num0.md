@@ -1,0 +1,1 @@
+<table><tr><td>Shareholder</td><td>Number</td></tr><tr><td>BB Retail Capital Pty Ltd</td><td>43,207,500</td></tr><tr><td>FIL Limited</td><td>8,928,405</td></tr><tr><td>Challenger Limited</td><td>6,475,405</td></tr><tr><td>Mr Shane Fallscheer</td><td>5,827,764</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Sales</td><td>$ 23,130 $</td><td>20,985</td></tr><tr><td>Net earnings from continuing operations</td><td>3,845</td><td>2,416</td></tr><tr><td>Diluted net earnings per common share from continuing operations (a)</td><td>5.16</td><td>3.21</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">$ in millions 2020 2019</td></tr><tr><td>Balanceat beginning of period</td><td>$</td><td>53$ 48</td></tr><tr><td>Realized and unrealized gains (losses)</td><td></td><td>5 3</td></tr><tr><td>Purchases,sales and settlements,net</td><td></td><td>3 2</td></tr><tr><td>Balance at end of period</td><td>$</td><td>61$ 53</td></tr></table>

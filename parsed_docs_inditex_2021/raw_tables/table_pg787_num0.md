@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Maximum Incentive =</td><td>Cash +</td><td>Shares</td><td></td></tr><tr><td>Executive Chairman</td><td>155% of annual fixed remuneration</td><td></td><td>€2,011 thousand</td><td>116,568 shares</td></tr><tr><td>CEO</td><td>118% of annual fixed remuneration</td><td></td><td>€1,183 thousand</td><td>68,562 shares</td></tr></table>

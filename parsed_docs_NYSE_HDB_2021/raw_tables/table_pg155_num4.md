@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">Sr. No.</td><td rowspan="2">Particulars</td><td colspan="2">Face value as at March 31,</td></tr><tr><td>2021</td><td>2020</td></tr><tr><td>1.</td><td>Mutual funds marked as lien with stock exchange for margin requirement</td><td>200.00</td><td></td></tr></table>

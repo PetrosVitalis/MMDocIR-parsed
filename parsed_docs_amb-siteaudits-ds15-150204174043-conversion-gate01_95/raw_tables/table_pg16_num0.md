@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">Revenue</td></tr><tr><td>Ecommerce Conversion Rate 2.16% Mh</td><td>Transactions 413,780 mMmw</td><td>$21,360,345.68</td></tr><tr><td>Average Order Value $51.62</td><td>Unique Purchases 977,406</td><td>Quantity 1,381,146</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Discount Rate</td><td>2.74%</td><td>2.78%</td></tr><tr><td>Rate of inflation</td><td>1.69%</td><td>1.73%</td></tr><tr><td>Salary Increase</td><td>4.86%</td><td>4.45%</td></tr></table>

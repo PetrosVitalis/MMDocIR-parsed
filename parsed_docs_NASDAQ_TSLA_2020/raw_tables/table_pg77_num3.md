@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">December 31, 2020</td></tr><tr><td></td><td>$ 1,508</td><td>2019 $ 1,428</td></tr><tr><td>Raw materials Work in process</td><td>493</td><td>362</td></tr><tr><td>Finished goods (1)</td><td>1,666</td><td>1,356</td></tr><tr><td> Service parts</td><td>434</td><td>406</td></tr><tr><td>Total</td><td>$ 4,101</td><td>$ 3,552</td></tr></table>

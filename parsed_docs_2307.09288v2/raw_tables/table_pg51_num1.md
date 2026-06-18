@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Significantly Better</td><td>Better</td><td>Slightly Better</td><td>Negligibly Better ／Unsure</td></tr><tr><td>Margin Small</td><td>1</td><td>2/3</td><td>1/3</td><td>0</td></tr><tr><td>Margin Large</td><td>3</td><td>2</td><td>1</td><td>0</td></tr></table>

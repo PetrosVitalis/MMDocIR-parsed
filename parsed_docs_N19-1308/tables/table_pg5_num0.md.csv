@@ -1,0 +1,11 @@
+Dataset,System,Entity,Relation
+ACE04,Bekoulis et al. (2018),81.6,47.5
+ACE04,Miwa and Bansal (2016),81.8,48.4
+ACE04,DYGIE,87.4,59.7
+ACE05,Miwa and Bansal (2016),83.4,55.6
+ACE05,Zhang et al. (2017),83.6,57.5
+ACE05,Sanh et al. (2019) DYGIE,87.5 88.4,62.7 63.2
+SciERC,Luan et al. (2018a),64.2,39.3
+SciERC,DYGIE,65.2,41.6
+WLPC,Kulkarni et al. (2018),78.0,*54.9
+WLPC,DYGIE,79.5,64.1

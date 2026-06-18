@@ -1,0 +1,1 @@
+<table><tr><td>Millions of dollars</td><td></td><td>2021</td><td>2020</td><td></td><td>2019</td></tr><tr><td> Net charges*</td><td>$</td><td>(3,107) $</td><td></td><td>(3,157)$</td><td>(2,133)</td></tr><tr><td>*Includes foreign currency effects:</td><td>$</td><td>(181)</td><td>$</td><td>(208）$</td><td>2</td></tr></table>

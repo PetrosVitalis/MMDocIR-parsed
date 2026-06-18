@@ -1,0 +1,1 @@
+<table><tr><td>In millions</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>U.S.</td><td>$1,390.4</td><td>$2,159.1</td><td>$2,218.0</td></tr><tr><td>Outside the U.S.</td><td>4,750.3</td><td>5,859.0</td><td>5,598.1</td></tr><tr><td>Income before provision for income taxes</td><td>$6,140.7</td><td>$8,018.1 $7,816.1</td><td></td></tr></table>

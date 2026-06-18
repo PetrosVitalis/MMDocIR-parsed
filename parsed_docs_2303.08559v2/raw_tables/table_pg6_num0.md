@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">FewNERD TACREV ACE05</td></tr><tr><td>Overall</td><td>5.88</td><td>3.03</td><td>38.2</td></tr><tr><td>Easy samples  $( \tau > 0 . 9 )$ </td><td>9.44</td><td>3.21</td><td>44.0</td></tr><tr><td>Hard samples  $( \tau < 0 . 6 )$ </td><td>1.28</td><td>2.68</td><td>1.36</td></tr></table>

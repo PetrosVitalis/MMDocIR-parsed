@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td></tr><tr><td>Raw materials and consumables</td><td>2020 12,623 9,066</td></tr><tr><td>Change in inventories</td><td>（773）</td></tr><tr><td>Change in provisions</td><td>204 52 (257)</td></tr><tr><td>Total</td><td>11,902 9,013</td></tr></table>

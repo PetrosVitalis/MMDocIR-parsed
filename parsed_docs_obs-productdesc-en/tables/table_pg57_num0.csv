@@ -1,0 +1,6 @@
+Tool,AK/SK Configuration
+OBS Browser+,"Configure the AK and SK during login account configuration.For details, see Logging In to OBS Browser+."
+obsutil,"Configure the AK and SK when initializing the configuration.For details, see Performing the Initial Configuration."
+obsfs,"Configure the AK and SK when initializing the configuration.For details, see Initializing obsfs."
+SDKs,"Configure the AK and SK in the initialization phase. Fordetails, see the SDK Reference."
+APIs,"Add the AK/SK pair to the request when computing the signature. For details, see User Signature Authentication."

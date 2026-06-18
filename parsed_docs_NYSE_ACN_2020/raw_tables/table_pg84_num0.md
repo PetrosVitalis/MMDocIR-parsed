@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Fiscal 2020</td></tr><tr><td>Operating lease cost</td><td>$ 749,233</td></tr><tr><td>Variable lease cost</td><td>181,612</td></tr><tr><td>Sublease income</td><td>(27,192)</td></tr><tr><td></td><td>$ 903,653</td></tr></table>

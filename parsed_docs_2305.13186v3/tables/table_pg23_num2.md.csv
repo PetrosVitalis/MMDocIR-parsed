@@ -1,0 +1,10 @@
+Model,B,C
+DCGCN4,25.555.4,
+EncoderModules,,
+-LinearCombination,,23.7 53.2
+-Global Node,,24.254.6
+-Direction Aggregation,,24.654.6
+-Graph Attention,24.9,54.7
+-Global Node&Linear Combination,,22.952.4
+Decoder Modules,,
+-Coverage Mechanism,23.8 53.0,

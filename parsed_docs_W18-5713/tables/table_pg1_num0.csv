@@ -1,0 +1,6 @@
+RetNRef Retrieval Method,PPL
+None (Vanilla Seq2Seq),31.4
+Random label,32.0
+Memory Network,31.8
+True label's neighbor,25.9
+True label,9.2

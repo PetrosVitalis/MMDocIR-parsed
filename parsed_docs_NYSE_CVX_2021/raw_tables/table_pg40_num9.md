@@ -1,0 +1,1 @@
+<table><tr><td>Millions of dollars</td><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td> Income tax expense (benefit)</td><td>$ 5,950</td><td>$</td><td>(1,892) $</td><td>2,691</td></tr></table>

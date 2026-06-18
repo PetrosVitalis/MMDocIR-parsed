@@ -1,0 +1,10 @@
+```tsv
+Agency Component Name\tAgency Component Description\tFEA SRM Service Domain\tFEA SRM Service Type
+"employees for the organization. IPMS supports these capabilities using REETA."\t\t\t\t
+"Resume Management\tDefines the set of capabilities that support the maintenance and administration of one's professional or work experience and qualifications. IPMS supports these capabilities using Gate to DoS/Quickhire."\tBack Office Services\tHuman Resources
+"Retirement Management\tDefines the set of capabilities that support the payment of benefits to retirees. IPMS accomplishes these capabilities using the GEMS/PeopleSoft 8.8 for Domestic personnel and uses Post Personnel for overseas Foreign Service personnel."\tBack Office Services\tHuman Resources
+"Ad Hoc\tDefines the set of capabilities that support the use of dynamic reports on an as needed basis. IPMS supports these capabilities via the Knowledge Center using Business Objects."\tBusiness Analytical Services\tReporting
+"OLAP\tDefines the set of capabilities that support the analysis of information that has been summarized into multidimensional views and hierarchies. IPMS supports these capabilities via the Knowledge Center using Business Objects."\tBusiness Analytical Services\tReporting
+"Standardized / Canned\tDefines the set of capabilities that support the use of pre-conceived or pre-written reports. IPMS supports these capabilities via the Knowledge Center using Business Objects."\tBusiness Analytical Services\tReporting
+"Program/Project\tDefines the set of capabilities that support the management of programs and projects. IPMS supports these capabilities via the Knowledge Center using Business Objects."\tBusiness Analytical Services\tManagement of Program / Projects
+```

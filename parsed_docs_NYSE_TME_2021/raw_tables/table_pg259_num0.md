@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020 RMB&#x27;million</td><td>2021 RMB&#x27;million</td></tr><tr><td>Within one year</td><td>462</td><td>348</td></tr><tr><td>Later than one year but not later than five years</td><td>23</td><td>24</td></tr><tr><td></td><td>485</td><td>372</td></tr></table>

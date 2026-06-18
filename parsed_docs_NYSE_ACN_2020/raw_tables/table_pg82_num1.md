@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">Fiscal</td></tr><tr><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Total consideration</td><td>$ 1,513,910 $</td><td>1,170,044 $</td><td>596,148</td></tr><tr><td>Goodwill</td><td>1,352,839</td><td>920,696</td><td>431,087</td></tr><tr><td>Intangible assets</td><td>377,060</td><td>282,144</td><td>140,403</td></tr></table>

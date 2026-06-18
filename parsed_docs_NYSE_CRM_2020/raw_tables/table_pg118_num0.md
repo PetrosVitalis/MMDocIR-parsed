@@ -1,0 +1,1 @@
+<table><tr><td></td><td>As of January 31,2020</td></tr><tr><td>Weighted average remaining lease term</td><td></td></tr><tr><td>Operating leases</td><td>7 years</td></tr><tr><td>Finance leases</td><td>18 years</td></tr><tr><td>Weighted average discount rate</td><td></td></tr><tr><td>Operating leases</td><td>2.7%</td></tr><tr><td>Finance leases</td><td>4.5%</td></tr></table>

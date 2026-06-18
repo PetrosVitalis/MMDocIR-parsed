@@ -1,0 +1,1 @@
+<table><tr><td>31/01/2022 31/01/2021</td></tr><tr><td>Inventories</td><td>2,321 715</td></tr><tr><td>Receivables</td><td>3,042 842</td></tr><tr><td></td><td>(6,411)</td></tr><tr><td>(2,526)</td><td>(4,747) (1,711)</td></tr></table>

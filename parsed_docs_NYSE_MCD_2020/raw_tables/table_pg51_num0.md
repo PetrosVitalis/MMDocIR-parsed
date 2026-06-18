@@ -1,0 +1,1 @@
+<table><tr><td colspan="6"></td></tr><tr><td>Inmillions</td><td>Level 1 (1)</td><td></td><td>Level 2</td><td></td><td>Carrying Value</td></tr><tr><td>Derivative assets Derivative liabilities</td><td>$ 185.6</td><td>$ $</td><td>41.4 (97.5)</td><td>$</td><td>227.0 (97.5)</td></tr></table>

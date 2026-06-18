@@ -1,0 +1,1 @@
+<table><tr><td>Risk-Free Interest Rate</td><td>Expected Stock Price Volatility</td><td>Correlation Coefficient</td></tr><tr><td>Award Year</td><td></td><td></td></tr><tr><td>2020</td><td>1.6 % 24.0 %</td><td>0.88</td></tr><tr><td>2019</td><td>2.6% 26.5%</td><td>0.89</td></tr><tr><td>2018</td><td>2.2 % 26.8%</td><td>0.89</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Millions of dollars</td><td></td><td>2021</td><td>2020</td><td></td><td>2019</td></tr><tr><td>Exploration expense</td><td>$</td><td>549</td><td>$</td><td>1,537 $</td><td>770</td></tr></table>

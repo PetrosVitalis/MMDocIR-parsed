@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td>Domestic Streaming</td><td>International Streaming</td><td>Domestic DVD</td><td>Consolidated</td></tr><tr><td colspan="4"></td></tr><tr><td>Amortization of content assets</td><td>1,657,673</td><td>998,606</td><td>71,491</td><td>2,727,770</td></tr></table>

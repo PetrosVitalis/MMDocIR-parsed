@@ -1,0 +1,9 @@
+Model,Regulatory capital,IFRS 9
+PD,Through the cycle (represents long-run average PD throughout a full economic cycle),"Point in time (based on current conditions, adjusted to take into account estimates of future conditions that will impact PD)"
+PD,"The definition of default includes a backstop of 90+ days past due, although this has been modified to 180+ days past due for some portfolios, particularly UK and US mortgages",Default backstop of 90+ days past due for all portfolios
+EAD,Cannot be lower than current balance,Amortisation captured for term products
+LGD,Downturn LGD (consistent losses expected to be suffered during a severe but plausible economic downturn),Expected LGD (based on estimate of loss given default including the expected impact of future economic conditions such as changes in value of collateral)
+LGD,Regulatory floors may apply to mitigate risk of underestimating downturn LGD due to lack of historical data,No floors
+LGD,Discounted using cost of capital,Discounted using the original effective interest rate of the loan
+LGD,All collection costs included,Only costs associated with obtaining/selling collateral included
+Other,,Discounted back from point of default to balance sheet date

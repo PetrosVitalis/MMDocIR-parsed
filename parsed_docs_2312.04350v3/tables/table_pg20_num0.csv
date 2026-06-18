@@ -1,0 +1,19 @@
+Query Type,Symbolic Expression,Natural Language Question Template
+Rung 1: Association,,Is the overall likelihood of {v_noun(X = 1)} greater than chance?
+Rung 1: Association,$P ( Y )$,Is the overall likelihood of {v_noun(X = 1)} greater than chance?
+Rung 1: Association,,Is the chance of {v_noun(Y = 1)} larger when observing {v_noun(X = 1)}?
+Rung 1: Association,$P ( Y \vert X )$,Is the chance of {v_noun(Y = 1)} larger when observing {v_noun(X = 1)}?
+Rung 2: Intervention,,Will {v_noun(X = 1)} increase the chance of {v_noun(Y = 1)}?
+Rung 2: Intervention,$\mathbb{E} [ Y | do ( X = 1 ) ] - \mathbb{E} [ Y | do ( X = 0 ) ]$,Will {v_noun(X = 1)} increase the chance of {v_noun(Y = 1)}?
+Rung 2: Intervention,,"If S opens a backdoor path To understand how {v_overall(X)} affects {v_overall(Y)}, should we look directly at how {v_overall(X)} correlates with {v_overall(Y)} in general, or this correlation case by case according to {v_overall(S)}?"
+Rung 2: Intervention,"If S opens a backdoor path To understand how $\{ v_{overall}(X) \}$ affects $\{ v_{overall}(Y) \}$, should we look directly at how $\{ v_{overall}(X) \}$ correlates with $\{ v_{overall}(Y) \}$ in general, or this correlation case by case according to $\{ v_{overall}(S) \} \ ?$","If S opens a backdoor path To understand how {v_overall(X)} affects {v_overall(Y)}, should we look directly at how {v_overall(X)} correlates with {v_overall(Y)} in general, or this correlation case by case according to {v_overall(S)}?"
+Rung 3: Counterfactuals,,Can we infer that {v_sent(Y = 1)} had it been that {v_cond(X = 1)} instead of X=0?
+Rung 3: Counterfactuals,$P ( Y_x = y )$,Can we infer that {v_sent(Y = 1)} had it been that {v_cond(X = 1)} instead of X=0?
+Rung 3: Counterfactuals,,"For {v_attr(X = 1)}, would it be more likely to see {v_noun(Y = 1)} {v_cond(X = 0)}?"
+Rung 3: Counterfactuals,$\mathbb{E} [ Y_1 - Y_0 | X = 1 ]$,"For {v_attr(X = 1)}, would it be more likely to see {v_noun(Y = 1)} {v_cond(X = 0)}?"
+Rung 3: Counterfactuals,,"E[Y_1 - Y_0|X = 1] If we disregard the mediation effect through {v_overall(Y = 1)}, would {v_noun(X = 1)} still positively affect {v_noun(Y = 1)}?"
+Rung 3: Counterfactuals,"$\mathbb{E} [ Y_{1, M_0} - Y_{1, M_0} ]$","E[Y_1 - Y_0|X = 1] If we disregard the mediation effect through {v_overall(Y = 1)}, would {v_noun(X = 1)} still positively affect {v_noun(Y = 1)}?"
+Rung 3: Counterfactuals,,NDE
+Rung 3: Counterfactuals,,NIE
+Rung 3: Counterfactuals,"$\mathbb{E} [ Y_{0, M_1} - Y_{0, M_0} ]$",NIE
+Rung 3: Counterfactuals,,

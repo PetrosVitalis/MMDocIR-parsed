@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2019</td></tr><tr><td>Depreciation of property,plant and equipment</td><td>-42</td></tr><tr><td>Depreciation of right-of-use assets</td><td>-9</td></tr><tr><td>Amortization of intangible assets</td><td>-174</td></tr><tr><td>Equity-based compensation of Novartis equity plans</td><td>-9</td></tr></table>

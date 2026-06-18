@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">$inmillions</td></tr><tr><td>Estimated to be recognized in:</td><td></td><td></td></tr><tr><td>2021</td><td>$</td><td>680</td></tr><tr><td>2022</td><td></td><td>312</td></tr><tr><td>Thereafter</td><td></td><td>609</td></tr><tr><td>Total²</td><td>$</td><td>1,601</td></tr></table>

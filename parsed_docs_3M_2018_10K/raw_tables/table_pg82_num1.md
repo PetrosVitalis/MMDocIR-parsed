@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td>2018</td><td>2017</td><td>2016</td></tr><tr><td>Cash income tax payments, net of refunds</td><td>$ 1,560 $</td><td>1,604 $</td><td>1,888</td></tr><tr><td>Cash interest payments</td><td>328</td><td>214</td><td>194</td></tr></table>

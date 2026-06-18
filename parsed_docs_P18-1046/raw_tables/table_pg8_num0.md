@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>·</td><td>+DSGAN</td><td>p-value</td></tr><tr><td>CNN+ONE</td><td>0.177</td><td>0.189</td><td>4.37e-04</td></tr><tr><td>CNN+ATT</td><td>0.219</td><td>0.226</td><td>8.36e-03</td></tr><tr><td>PCNN+ONE</td><td>0.206</td><td>0.221</td><td>2.89e-06</td></tr><tr><td>PCNN+ATT</td><td>0.253</td><td>0.264</td><td>2.34e-03</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Year ended December 31 (in millions)</td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Benefit obligation</td><td>$ 4,002 $</td><td>3,648 $</td><td>3,273</td></tr><tr><td>Interest expense</td><td>$ 265$</td><td>293$</td><td>285</td></tr></table>

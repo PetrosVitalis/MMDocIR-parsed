@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Useful life</td></tr><tr><td>Buildings</td><td>20 to 40years</td></tr><tr><td>Machinery and other equipment</td><td></td></tr><tr><td>Machinery and equipment</td><td>7 to 20 years</td></tr><tr><td>Furniture and vehicles</td><td>5 to 10 years</td></tr><tr><td>Computer hardware</td><td>3 to 7 years</td></tr></table>

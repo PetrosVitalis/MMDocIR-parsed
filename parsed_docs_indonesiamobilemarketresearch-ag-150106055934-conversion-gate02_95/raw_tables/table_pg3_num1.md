@@ -1,0 +1,1 @@
+<table><tr><td>Composition</td><td>Muslims</td><td>Christians</td><td>Catholics</td><td>Buddhist</td><td>Hindus</td><td>Others</td></tr><tr><td>%total ofpopulation 2010</td><td>207,176,162 (87.18%)</td><td>16,528,513 (6.96%)</td><td>6,907,873 (2.91%)</td><td>4,012,116 (1.69%)</td><td>1,703,254 (0.71%)</td><td>1,313,408 (0.55%)</td></tr></table>

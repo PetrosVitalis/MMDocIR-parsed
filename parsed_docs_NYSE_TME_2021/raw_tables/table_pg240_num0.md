@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">As at December 31,</td></tr><tr><td></td><td>2020 RMB&#x27;million</td><td>2021 RMB&#x27;million</td></tr><tr><td>Investments in associates Investments in joint ventures</td><td>2,196</td><td>3,522</td></tr><tr><td></td><td>59</td><td>77</td></tr><tr><td></td><td>2,255</td><td>3,599</td></tr></table>

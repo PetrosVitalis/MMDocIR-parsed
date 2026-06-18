@@ -1,0 +1,1 @@
+<table><tr><td>DKK million</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Operating profit after tax</td><td>42,922</td><td>42,091</td><td>38,318</td></tr><tr><td>/ Average net operating assets</td><td>51,824</td><td>42,940</td><td>32,832</td></tr><tr><td>Operating profit after tax to net operating assets in %</td><td>82.8%</td><td>98.0%</td><td>116.7%</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Balance Sheet Location</td><td>January28,2023</td><td>January29,2022</td></tr><tr><td>Other assets</td><td>$ 4</td><td>$ 25</td></tr><tr><td>Long-term liabilities</td><td>(51)</td><td>(22)</td></tr><tr><td>Net deferred tax assets (liabilities)</td><td>$ (47)</td><td>3</td></tr></table>

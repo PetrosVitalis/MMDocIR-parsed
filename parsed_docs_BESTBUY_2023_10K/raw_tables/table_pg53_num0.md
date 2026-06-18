@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">January 28,2023</td><td rowspan="2"></td><td colspan="3">January 29,2022</td></tr><tr><td>FairValue</td><td></td><td>CarryingValue</td><td>FairValue</td><td></td><td>Carrying Value</td></tr><tr><td>Long-term debt(1)</td><td>$</td><td>1,019</td><td>$</td><td>1,143</td><td>$ 1,205</td><td>$</td><td>1,200</td></tr></table>

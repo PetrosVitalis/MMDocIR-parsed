@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Volume</td><td rowspan=1 colspan=1>Adjusts the level of volume- Decrease  + IncreaseValue: 0-100</td></tr><tr><td rowspan=1 colspan=1>Mute</td><td rowspan=1 colspan=1>ON/OFF</td></tr><tr><td rowspan=1 colspan=1>Audio Source</td><td rowspan=1 colspan=1>Select the Audio SourceAudio IN, Fiber, 1P,2P,3P, 4P</td></tr></table>

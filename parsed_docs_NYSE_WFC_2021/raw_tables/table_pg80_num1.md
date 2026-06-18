@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">TLAC requirement Greater of:</td></tr><tr><td>18.00% of RWAs</td><td>7.50% of total leverage exposure (the denominator of the SLR</td></tr><tr><td>+</td><td>calculation) +</td></tr><tr><td>TLAC buffer (equal to 2.50% of RWAs + method one G-SIB capital surcharge</td><td>External TLAC leverage buffer (equalto2.00%of total leverage</td></tr></table>

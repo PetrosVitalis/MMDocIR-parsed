@@ -1,0 +1,55 @@
+{
+  "image": "_page_120_Table_0.jpg",
+  "reason": "model_timeout",
+  "backend": "local",
+  "model": "qwen2.5vl:7b",
+  "timeout_seconds": 90.0,
+  "run_diagnostics": {
+    "image": "_page_120_Table_0.jpg",
+    "stages": [
+      {
+        "stage": "initial_extract",
+        "elapsed_seconds": 90.09,
+        "status": "failed"
+      },
+      {
+        "stage": "timeout_fast_retry",
+        "status": "started"
+      }
+    ],
+    "shape_hint": {
+      "expected_cols": 6,
+      "min_rows": 3,
+      "confidence": "high",
+      "source": "image_projection_heuristic",
+      "enforce": false,
+      "enforce_cols": true
+    },
+    "risk_profile": {
+      "risk": "medium",
+      "score": 4,
+      "width": 1509,
+      "height": 1528,
+      "area": 2305752,
+      "aspect": 0.988,
+      "expected_cols": 6,
+      "min_rows": 3,
+      "shape_confidence": "high"
+    },
+    "strategy": "staged_local_timeout_flow"
+  },
+  "details": {
+    "strict_repair": false,
+    "comma_safe_tsv": false,
+    "stutter_safe_tsv": false,
+    "fast_mode": true,
+    "ocr_text_only": false,
+    "max_dimension": 1200,
+    "join_timeout_seconds": 90.0,
+    "forced_kill": false,
+    "stage_context": {
+      "strategy": "timeout_fast_retry",
+      "risk": "medium"
+    }
+  }
+}

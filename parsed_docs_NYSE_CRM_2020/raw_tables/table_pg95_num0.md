@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">As of</td></tr><tr><td>January 31,2020</td><td>January 31,2019</td></tr><tr><td>Notional amount of foreign currency derivative contracts</td><td>$5,543</td><td>$4,496</td></tr><tr><td>Fair value of foreign currency derivative contracts</td><td>4</td><td>25</td></tr></table>

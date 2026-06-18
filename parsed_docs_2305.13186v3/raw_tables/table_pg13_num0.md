@@ -1,0 +1,1 @@
+<table><tr><td>Refuted Reasons</td><td>Prop. (%)</td></tr><tr><td>Negation (+not) and paraphrasing.</td><td>85</td></tr><tr><td>The calculation result is wrong.</td><td>6</td></tr><tr><td>The commonsense knowledge is wrong.</td><td>6</td></tr><tr><td>The open-domain knowledge is wrong.</td><td>3</td></tr></table>

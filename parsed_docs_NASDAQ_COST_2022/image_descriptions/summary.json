@@ -1,0 +1,64 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NASDAQ_COST_2022",
+  "total_images": 11,
+  "non_figure_images_skipped": 44,
+  "processed": 11,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_0_Figure_4.jpg",
+      "output": "image_descriptions/_page_0_Figure_4.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_5.jpg",
+      "output": "image_descriptions/_page_0_Figure_5.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_6.jpg",
+      "output": "image_descriptions/_page_0_Figure_6.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_2.jpg",
+      "output": "image_descriptions/_page_0_Figure_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_3.jpg",
+      "output": "image_descriptions/_page_0_Figure_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_1.jpg",
+      "output": "image_descriptions/_page_0_Figure_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_0_Figure_0.jpg",
+      "output": "image_descriptions/_page_0_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_25_Asset_0.jpg",
+      "output": "image_descriptions/_page_25_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_75_Figure_0.jpg",
+      "output": "image_descriptions/_page_75_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_2_Figure_0.jpg",
+      "output": "image_descriptions/_page_2_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_0.jpg",
+      "output": "image_descriptions/_page_4_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

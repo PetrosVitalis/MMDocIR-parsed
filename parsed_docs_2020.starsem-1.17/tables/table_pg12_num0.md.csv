@@ -1,0 +1,42 @@
+,User:,i am looking for a train from ely to cambridge .do you have such trains ?
+Turn 1,Ground Truths:,"<train, destination, cambridge>,<train, departure, ely>"
+Turn 1,DS-Span:,"<train, destination, cambridge>,<train,departure,ely>"
+Turn 1,DS-DST:,"<train,destination, cambridge>,<train,departure, ely>"
+Turn 1,System:,there are 7O trains do you have a date and time you would like to go ?
+Turn 1,User:,i would like to leave on a sunday and arrive by 11:30 .
+Turn 2,Ground Truths:,"<train,arrive by,11:3O>,<train,destination,cambridge>,<train,departure,ely>,<train,day,sunday>"
+Turn 2,DS-Span:,"<train,arrive by,11:3O>,<train,destination,cambridge>,<train,departure,ely>,<train,day,sunday>"
+Turn 2,DS-DST:,"<train,arrive by,11:3O>,<train,destination,cambridge>,<train,departure,ely},train,day,sunday>"
+Turn 2,System:,
+Turn 2,User:,tr4212 isarriving at9:52 would that work for you ?
+Turn 3,Ground Truths:,what time does that train depart ?
+Turn 3,DS-Span:,"<train,arrive by,11:30>,<train,destination,cambridge>,<train,departure,ely>,<train,day,sunday>"
+Turn 3,,"<train,arrive by,1:3O>,<train,destination,cambridge>,<train,departure,ely>,<train,day,sunday>"
+Turn 3,DS-DST:,"<train,arrive by,11:3O>,<train,destination,cambridge>,<train,departure,ely>,<train,day,sunday>"
+Turn 3,System:,
+Turn 3,User:,"the train leaves at 9:35. shall ibook it for you ? no,thank you.i would like to see if you could find a place for me to stay that would havea 4 star rating ."
+Turn 4,Ground Truths: DS-Span:,"<train,day,day>,otel,ars,4>rain,stination,mbridge>,ran,rrieby:>rain,prure,el>"
+Turn 4,DS-DST:,"<train,dayday>,tel,stars,4,ai,iio,mbidge>ran,veby:>ran,rre,el"
+Turn 4,,"<train,day,el,tas,4iiodge>aeby:a,e,l"
+Turn 4,System:,
+Turn 4,User:,"of course,there are many 4 star hotel-s to choose from.would you like me to book1for you ? not yet,thanks .are any of them guesthouses ?"
+Turn 5,Ground Truths:,"<train,"
+Turn 5,DS-Span: DS-DST:,"<train,yee tain"
+Turn 5,System:,
+Turn 5,User:,"there are18 guesthouses to choose from,do you havea preference to the area you would like to stay ?"
+Turn61,,"i needa 4 star,and in the east with free wifi for 4 people,5 nights .i'llneed areference number. <train,yee>e"
+Turn61,DS-Span:,"<train,arrive by,i1:3O>,<train,departure,ely>,<hotel,area, east>,<hotel,type,guest house> <train,yeeesde"
+Turn61,,"<train,arrive by,11:3O>,<train,departure,ely>,<hotel,area, east>,<hotel, type,hotel>"
+Turn61,DS-DST:,"<train,deleee>el"
+,System:,"<train,arrive by,1:3O>,<train,departure,ely>,<hotel,area,east>,<hotel, type,guesthoe>"
+,User:,do you want that guesthouse reservation to begin on sunday ? yes .i need 5 nights starting on sunday .
+,Ground Truths:,"<train,yee>e"
+,DS-Span:,"<hotel,type,uetouse>,rniveby:>,ran,deprtue,ely>tel,reaast>otel,bookd"
+Turn 7,,"<train,yeel,>e <hotel,type,hotel>,rainriveby:O>rain,deparure,ely>,otelarea,ast>otel,bookdayday>"
+Turn 7,DS-DST:,"<train,daeeeld>e <hotel,typeuethoue>,ainrieby:O,aindeprure,el,otel,east,tel,kd"
+Turn 7,System:,
+Turn 7,User:,ihaveconfidoueseatioatlbellartigosundayforigtsourfereeumerisiaucanihelpthingee？ that is all i need . thank you so much for all your help
+Turn81,Ground Truths:,"<trai,yeeles>el"
+Turn81,,"<hotel,type,uete>,ineby:>,indeprure,el>,oteleast>,tel,kd"
+Turn81,DS-Span:,"<train,yeelid>e"
+Turn81,DS-DST:,"<hotel,type,hotel>,riniveby:O>,ran,deparure,ely>,otel,eaeast>,otel,bokdayy> <train,yeeel>e <hotel,type,stose>veby3>raeaure,l,tel,east>otel,okd"

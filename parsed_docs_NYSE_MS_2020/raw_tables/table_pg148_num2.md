@@ -1,0 +1,1 @@
+<table><tr><td>$ in millions</td><td>2020</td><td>2019</td><td></td><td>2018</td></tr><tr><td>Recognized in income statements</td><td>$</td><td>56$</td><td>8$</td><td>(40)</td></tr><tr><td>Accrued at end of period</td><td></td><td>134</td><td>92</td><td>91</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td colspan="2">2018</td><td>2017</td><td>2016</td></tr><tr><td>United States $</td><td>3,487</td><td>$ 4,149</td><td>$</td><td>4,366</td></tr><tr><td>International</td><td>3,513</td><td></td><td>3,399</td><td>2,687</td></tr><tr><td>Total</td><td>$ 7,000</td><td>$</td><td>7,548 $</td><td>7,053</td></tr></table>

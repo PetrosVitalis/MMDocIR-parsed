@@ -1,0 +1,4 @@
+Dataset,Params,Safe,Unsafe,Unsure
+Crowdsourced,7B,99.2%,0.4%,0.4%
+Crowdsourced,34B,99.7%,0.1%,0.2%
+Red Team,34B,93.9%,1.6%,4.5%

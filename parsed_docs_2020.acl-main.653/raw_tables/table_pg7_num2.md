@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td> SQuAD</td><td>SQuAD*</td><td>MLQA-en</td></tr><tr><td>BERT-Large</td><td>91.0 / 80.8</td><td>84.8 / 72.9</td><td>80.2 / 67.4</td></tr><tr><td>M-BERT</td><td>88.5 / 81.2</td><td>83.0/71.1</td><td>77.7 / 65.1</td></tr><tr><td>XLM</td><td>87.6 / 80.5</td><td>82.1/69.7</td><td>74.9 / 62.4</td></tr></table>

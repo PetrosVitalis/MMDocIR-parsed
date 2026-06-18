@@ -1,0 +1,1 @@
+<table><tr><td>Word in Context</td></tr><tr><td>ELMot 57.7</td></tr><tr><td>BERT sense embeddings tt 67.7</td></tr><tr><td> $\mathrm { B E R T _ { L A R G E } } ^ { \ddagger }$  69.6</td></tr><tr><td> $\mathrm { R o B E R T a ^ { \ddagger \ddagger } }$  69.9</td></tr><tr><td> $\mathrm { K n o w B E R T - W + W ^ { \circ } }$  70.9 SenseBERT</td></tr><tr><td>72.1</td></tr></table>

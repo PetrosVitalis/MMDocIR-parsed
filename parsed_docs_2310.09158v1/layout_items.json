@@ -1,0 +1,2522 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.099,
+      0.102,
+      0.127,
+      0.895
+    ],
+    "text": "Learning To Teach Large Language Models Logical Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.137,
+      0.184,
+      0.325
+    ],
+    "text": "Meiqi Chen Peking University meiqichen@stu.pku.edu.cn",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.111,
+      0.228,
+      0.349
+    ],
+    "text": "Yixin Cao Singapore Management University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.38,
+      0.185,
+      0.619
+    ],
+    "text": "Yubo Ma S-Lab Nanyang Technological University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.436,
+      0.228,
+      0.562
+    ],
+    "text": "Yan Zhang Peking University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.137,
+      0.684,
+      0.169,
+      0.851
+    ],
+    "text": "Kaitao Song Microsoft Research Asia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.683,
+      0.227,
+      0.849
+    ],
+    "text": "Dongsheng Li Microsoft Research Asia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.083,
+      0.251,
+      0.186
+    ],
+    "text": "ABSTRACT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.081,
+      0.561,
+      0.485
+    ],
+    "text": "Large language models (LLMs) have gained enormous attention from both academia and industry, due to their exceptional ability in language generation and extremely powerful generalization. However, current LLMs still output unreliable content in practical reasoning tasks due to their inherent issues (e.g., hallucination). To better disentangle this problem, in this paper, we conduct an in-depth investigation to systematically explore the capability of LLMs in logical reasoning. More in detail, we first investigate the deficiency of LLMs in logical reasoning on different tasks, including event relation extraction and deductive reasoning. Our study demonstrates that LLMs are not good reasoners in solving tasks with rigorous reasoning and will produce counterfactual answers, which require us t",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.573,
+      0.083,
+      0.588,
+      0.222
+    ],
+    "text": "CCS CONCEPTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.083,
+      0.621,
+      0.482
+    ],
+    "text": "• Computing methodologies → Knowledge representation and reasoning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-12",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.083,
+      0.647,
+      0.191
+    ],
+    "text": "KEYWORDS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-13",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.651,
+      0.083,
+      0.681,
+      0.483
+    ],
+    "text": "Large Language Models, Event Relation Extraction, Logical Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-14",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.084,
+      0.712,
+      0.256
+    ],
+    "text": "1 INTRODUCTION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-15",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.081,
+      0.84,
+      0.483
+    ],
+    "text": "Recently, Large Language Models (LLMs) have made incredible progress in many different downstream tasks, such as GPT-3 [3], ChatGPT [32], and LLaMA [39]. These models are typically trained on a combination of filtered web data and curated high-quality corpora (e.g., social media conversations, books, or technical publications) [34]. Studies have indicated that the emergent abilities of LLMs can exhibit promising reasoning capabilities [45] and the curation process is necessary to produce their zero-shot generalization abilities [34].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-16",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.081,
+      0.897,
+      0.483
+    ],
+    "text": "Despite these notable achievements, current LLMs still have some issues in producing high-quality content with fluency and reliability. A good content generator should produce logically consistent answers that are reasonable for given or prior constraints.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-17",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.237,
+      0.524,
+      0.546,
+      0.885
+    ],
+    "text": "Figure 1: An example of LLM in generating logically inconsistent answers. We let LLM (e.g., ChatGPT) answer the relations between events “FIRE” and “collapsed” from the given passage. We can find that LLM predicts an incorrect answer (i.e., SIMULTANEOUS) because it ignores some prior logic in this scenario, leading to logical inconsistency.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-18",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.674,
+      0.513,
+      0.827,
+      0.915
+    ],
+    "text": "However, LLMs sometimes output counterfactuals when dealing with practical tasks that require rigorous logical reasoning. As showcased in Figure 1, ChatGPT predicts the temporal and causal relations between events “FIRE” and “collapsed” being “simultaneous” and “cause”. According to the prior logical constraints, we could readily claim the predictions are not fully correct even before reading the context, because \"simultaneous\" and \"cause\" conflict with each other in terms of semantics. Some works [26, 33, 48] attribute these phenomena to their inherent deficiencies (e.g., hallucination, unfaithfulness), however, how to disentangle and improve the capability of LLMs in these tasks is still an open problem.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-19",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.827,
+      0.513,
+      0.897,
+      0.916
+    ],
+    "text": "To deeply understand the deficiencies of LLMs in logical reasoning and explore the corresponding solutions, in this paper, we conduct an in-depth investigation of LLMs in solving reasoning tasks from multiple dimensions. We first evaluate the capacity of LLMs in two practical scenarios including event relation extraction and deductive reasoning tasks, both of which demand rigorous reasoning ability to infer [38, 42]. Our experimental results show that: 1) Even the cutting-edge LLMs still generate large amounts of inconsistent answers, e.g., over 60% of the answers from Chat-GPT on the MAVEN-ERE [42] dataset are logically inconsistent as shown in Figure 2; 2) Chain-of-thought (CoT) prompting [47], like “Let’s think step by step\" could stimulate the reasoning abilities for LLMs. However, som",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.081,
+      0.772,
+      0.485
+    ],
+    "text": "Based on these findings, we put forward a series of solutions to teach LLMs to generate answers with better logical consistency. Here, we divide the procedure for teaching LLMs logical reasoning into three different kinds of approaches according to the ways of logic acquisition: 1) Generative-based approach, which encourages LLMs to generate reasoning rationale themselves, inspired by CoT prompting. In this paradigm, we find that incorporating logical constraints into LLM instruction will bring substantial improvements, but the uncertainty of the generated rationales may also bring some biases, leading to an incorrect subsequent answer; 2) Retrieval-based approach, which provides our manually designed logical constraints, then retrieves relevant contents and adds them to the LLM instructio",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.771,
+      0.081,
+      0.897,
+      0.485
+    ],
+    "text": "Furthermore, based on the above framework, we also conduct extensive quantitative and qualitative analyses on different tasks to validate the effectiveness of teaching LLMs with logic and provide insights for future work: 1) We investigate whether to add logical constraints before obtaining results or later, and find that directly conveying constraints to LLMs is more effective than adding postprocessing operations based on the results; 2) Compared with the setting that uses more demonstrations, incorporating logical constraints into prompts can achieve better performance with fewer demonstrations. This phenomenon further indicates that it is important to teach LLMs to balance demonstrations and logical constraints; 3) Benefits from LLMs’ powerful interactive ability, we can further improv",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.258,
+      0.513,
+      0.286,
+      0.915
+    ],
+    "text": "Overall, the contributions of our paper can be summarized as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.514,
+      0.333,
+      0.915
+    ],
+    "text": "• We provide an in-depth investigation of the logical inconsistency problems of current LLMs in solving practical tasks, and indicate the deficiency of LLMs in utilizing logic.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.514,
+      0.416,
+      0.915
+    ],
+    "text": "• To enhance the reliability of the content generated by LLMs, we propose several solutions to incorporate relevant logic. Based on our approach, we construct a synthesized dataset (LLM-LR) involving multi-hop reasoning. By leveraging the LLM-LR, we endow specialized LLMs with logical reasoning ability, which enhances LLMs to generate more logically consistent answers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.514,
+      0.459,
+      0.915
+    ],
+    "text": "• Experimental results on different tasks with quantitative and qualitative analyses verify the importance of our investigation in empowering LLMs with logical reasoning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.47,
+      0.514,
+      0.486,
+      0.687
+    ],
+    "text": "2 PRELIMINARIES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.513,
+      0.518,
+      0.913
+    ],
+    "text": "In this section, we first introduce two tasks that this paper mainly explores.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-11",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.531,
+      0.514,
+      0.546,
+      0.771
+    ],
+    "text": "2.1 Event Relation Extraction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-12",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.513,
+      0.717,
+      0.916
+    ],
+    "text": "Event relation extraction (ERE) [21, 42] aims to identify relations (i.e., Coreference, Temporal, Causal, and Subevent) between two events in the text. Traditionally, it can be formulated as a multilabel classification problem, determining one label for each relation type. Compared with other common tasks, ERE tasks should take more considerations about the logical constraints between event relations (e.g., the constraints in Figure 1), and guarantee the predictions should conform to those constraints to avoid counterfactuals. Therefore, we need to rigorously consider the logical constraints between each event pair during the prediction. To better evaluate the capability of LLMs on the ERE task, we formulate the logical consistency for evaluation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-13",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.511,
+      0.897,
+      0.916
+    ],
+    "text": "Logical consistency plays a crucial role in understanding the relations between events. To assess the logical consistency, we collect a comprehensive set including 11 logical constraints for all relations between two events, as shown in Table 4. Based on these logical constraints, we introduce a logical inconsistency metric (i.e., LI) to measure LLMs’ ability on ERE tasks. Specifically, for the answers of LLMs, logical inconsistency is calculated as the ratio of the number of conflicts (i.e., the answers that conflict with the given logical constraints) to the total number of combinations (i.e., all combinations of each two relations). To better illustrate the computation of logical inconsistency, here we introduce an example (as shown in Figure 1): if an LLM outputs the relations between ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.28,
+      0.081,
+      0.433,
+      0.485
+    ],
+    "text": "Among these, \"SIMULTANEOUS\" and \"CAUSE\" are identified as conflicting with each other based on the logical constraints we have defined, resulting in a single conflict. Now, regarding the total number of combinations: for each pair of events, we have 4 types of relations to determine. The total combinations between these relations are calculated using the combinatorial formula: 4∗(4−1)/2 = 6. So, there are 6 possible combinations between the relations for two events. Hence, the logical inconsistency in this example is computed as LI = 1/6 (or approximately 16.7%). Obviously, given the logical constraints, an algorithm can be designed to automatically detect conflicts and calculate the value of logical inconsistency.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.433,
+      0.081,
+      0.474,
+      0.483
+    ],
+    "text": "Overall, intuitively, the smaller the value of logical inconsistency is, the more self-consistent and reasonable answer that LLM can produce. More descriptions about this task are in Appendix A.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.488,
+      0.083,
+      0.505,
+      0.3
+    ],
+    "text": "2.2 Deductive Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.507,
+      0.081,
+      0.703,
+      0.485
+    ],
+    "text": "Deductive reasoning typically begins with known facts and rules, then iteratively makes new inferences until the desired statement can be either confirmed or refuted [35]. To ensure the accuracy of these inferences, each step in deductive reasoning must adhere to the known logical constraints (rules). More specifically, the logical constraints in deductive reasoning are usually specific to individual cases rather than being universally applicable like that in the ERE task. Consequently, when engaging in deductive reasoning, it is essential to assess and apply logical constraints based on the distinct circumstances and known facts of each example to arrive at accurate conclusions. For the calculation of logical inconsistency of deductive reasoning, we need to manually count the number of re",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.083,
+      0.731,
+      0.482
+    ],
+    "text": "3 UNVEILING LLMS IN LOGICAL REASONING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.081,
+      0.763,
+      0.482
+    ],
+    "text": "In this section, we conduct a pilot study to investigate how current LLMs exhibit in reasoning tasks and how logic benefits LLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.777,
+      0.083,
+      0.81,
+      0.401
+    ],
+    "text": "3.1 How Is LLM Performing Practical Reasoning Tasks?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.813,
+      0.081,
+      0.897,
+      0.485
+    ],
+    "text": "3.1.1 Data Source. We conduct a manual evaluation on MAVEN-ERE [42] and ProofWriter [38]. MAVEN-ERE is a unified large-scale dataset for the ERE task, which needs to identify four types of relations. ProofWriter is a commonly used dataset for deductive logical reasoning, where each example is a pair of (problem, goal) and the label is selected from {Proved, Disproved, Unknown}. To employ our investigation, we randomly choose 100 samples (50 from MAVEN-ERE and 50 from ProofWriter).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.513,
+      0.513,
+      0.916
+    ],
+    "text": "3.1.2 Experimental Setup. Our experiments are conducted as a multi-turn conversation for zero-shot reasoning, to leverage LLM’s interaction ability. Given a task input (?? ), we also write a prompt (?? ) describing the task, and let LLM generate output (?? ) by answering the given query. We also add “Let’s think step by step” before each answer for prediction generation, which is a simple but effective trick to improve zero-shot reasoning for LLMs [19]. We adopt ChatGPT as the backbone and manually check its generated rationales under the following three settings:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.516,
+      0.514,
+      0.53,
+      0.915
+    ],
+    "text": "• Vanilla LLM (i.e., ChatGPT) without any additional information;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-16",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.514,
+      0.556,
+      0.915
+    ],
+    "text": "• LLM (i.e., ChatGPT) plus the most relevant (i.e., ground truth) logic;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-17",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.558,
+      0.514,
+      0.571,
+      0.861
+    ],
+    "text": "• LLM (i.e., ChatGPT) plus irrelevant logical constraints.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-18",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.575,
+      0.514,
+      0.59,
+      0.833
+    ],
+    "text": "The prompt examples can be found in Figure 10∼13.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-19",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.513,
+      0.723,
+      0.916
+    ],
+    "text": "3.1.3 Analysis. As shown in Figure 2, we visualize the micro-F1 and the proportion of logically inconsistent answers generated by ChatGPT. We find that no matter whether on MAVEN-ERE or ProofWriter, Vanilla ChatGPT always achieves a bad result with low micro-F1 scores and high inconsistency values (e.g., 15% micro-F1 and 63% inconsistent answers on MAVEN-ERE), which indicates the deficiency of LLM in solving complex reasoning tasks. To investigate this issue in depth, we conduct analyses from the following two aspects.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-20",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.729,
+      0.511,
+      0.898,
+      0.916
+    ],
+    "text": "What Is The Relation Between Logical Consistency And Model Performance? From Figure 2, we find that: 1) The model directly receives significant improvements on both MAVEN-ERE and ProofWriter when adding relevant logic; 2) When adding some irrelevant logic, the results show some fluctuations (exaltation in MAVEN-ERE and degeneration in ProofWriter). That means directly adding logic without any constraints will bring some uncertainty; 3) Typically, a higher logical inconsistency corresponds to a poorer micro-F1, however, rectifying logical inconsistency does not necessarily lead to the same degree of increase in micro-F1. Generally, an intuitive observation is that incorporating relevant logic into the LLM instruction will be very helpful in solving reasoning tasks. So, the challenges are ho",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.081,
+      0.41,
+      0.485
+    ],
+    "text": "What Types of Errors Does LLM Usually Make? To delve into a deep understanding of the failures that Vanilla LLM encounters in logical reasoning, we also conduct a detailed error analysis for this. Here, we divide the error types into two aspects: 1) Incorrectness to the Constraint (CE): whether the rationale generated by LLM is wrong (CE1), incomplete (CE2), or redundant (CE3) compared with the true logical constraints. 2) Unfaithfulness to the Reasoning Process (FE): where LLM does not correctly use the constraints. We define two types of errors upon FE, i.e., i) Wrong start, LLM begins with an irrelevant fact or focuses on an improper perspective for the correct answer (FE1). ii) Wrong process, LLM starts from a proper point, but makes mistakes during the reasoning process (FE2). Annotat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.421,
+      0.083,
+      0.454,
+      0.482
+    ],
+    "text": "3.2 How Is LLM Performing Abstract Multi-hop Reasoning?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.457,
+      0.081,
+      0.513,
+      0.485
+    ],
+    "text": "Based on the above analyses, we can confirm the deficiency of LLMs in solving complex reasoning tasks and the effectiveness of incorporating logical constraints. Nevertheless, we also want to explore how LLMs exhibit in more challenging settings.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.522,
+      0.081,
+      0.702,
+      0.485
+    ],
+    "text": "3.2.1 Data Source. Considering that existing datasets lack multihop instances, we construct a synthesized dataset (LLM-LR) to evaluate the ability of LLMs to perform multi-hop reasoning. Specifically, we first collect 39 additional logical constraints for all the high-order relations among three events, as outlined in Table 7. The collection is based on transitive dependency (i.e., one event may affect another through an intermediate event). For example, BEFORE(??, ??) ∧ BEFORE(??, ??) → BEFORE(??, ??) means that “If event ?? happens BEFORE event ??, and event ?? happens BEFORE event ??, then event ?? happens BEFORE event ??”. Thereby, we obtain a comprehensive set containing a total of 50 logical constraints (along with the 11 constraints between two events we introduced in Section 2.1).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.081,
+      0.897,
+      0.485
+    ],
+    "text": "As the number of events further increases $\\left( \\mathrm { i . e . , } > 3 \\right)$ , there are more complex interactions involved, and it is inefficient to list all the constraints manually at this time. To address this, we introduce logic programming [11, 22] to automatically generate new event relations by inputting the known constraints and relations. We employ a forward- and backward-chaining rule-based method utilizing Prolog [10] as the foundation for our logic programming approach. For instance, when dealing with temporal relations involving four events (??, ??, ??, and ??), given the known relations: “BEFORE(??, ??) ∧ SIMULTANEOUS(??, ??) ∧ OVERLAP(??, ??)”, our logic programming approach can deduce a “BEFORE(??, ??)” conclusion according to the constraints in Table 7. Then, we p",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.369,
+      0.513,
+      0.496,
+      0.916
+    ],
+    "text": "3.2.2 Experimental Setup. For evaluation, we randomly generate 50 samples for each 2∼10-hop reasoning. In addition to the three variants of ChatGPT (gpt-turbo, text-davinci-003, and $\\mathtt { g p t 4 } )$ , we employ another two open-source LLMs (Vicuna-$1 3 \\mathrm { B } \\mathrm { - } \\mathrm { v } 1 . 3 ^ { 1 }$ and Llama2-13B) for evaluation. Note that: 1) for 2-hop reasoning (i.e., high-order relations among three events), there are only 39 samples. 2) Our approach allows for the extension of the reasoning path, but we report results for clarity and due to the length limits of LLMs, covering only 2 to 10 hops.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-11",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.502,
+      0.513,
+      0.642,
+      0.916
+    ],
+    "text": "3.2.3 Analysis. As shown in Figure 4, we visualize the micro-F1 and the proportion of logically inconsistent answers generated by LLMs. We can see that: 1) When the number of hops is relatively small (i.e., 2 ∼ 5 hops), the performance of GPT-4 is outstanding compared with other models. 2) With the increase of hops, all the LLMs perform worse when the reasoning becomes more complicated, and the proportion of logically inconsistent answers is gradually increasing. Among them, Vicuna-13B fully fails after 6 hops and could not output any correct answers. This further demonstrates the necessity of teaching LLMs logical reasoning.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-12",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.514,
+      0.667,
+      0.885
+    ],
+    "text": "4 TEACHING LLMS LOGICAL REASONING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-13",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.513,
+      0.756,
+      0.916
+    ],
+    "text": "Based on the aforementioned analysis, we expect to explore how to empower LLMs’ capability with logical reasoning. Therefore, in this section, we first introduce the instruction-following technique we use in Section 4.1 and then propose three different approaches to instruct LLMs to generate answers with better logical consistency (Section 4.2 ∼ 4.4).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-14",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.767,
+      0.514,
+      0.782,
+      0.805
+    ],
+    "text": "4.1 In-Context Learning for LLMs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-15",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.513,
+      0.872,
+      0.915
+    ],
+    "text": "We deploy LLMs for event relation extraction and deductive reasoning tasks via in-context learning (ICL, [3, 32]). Given a task input (?? ), we also write a prompt (?? ) describing the task, then further provide several demonstrations ${ \\cal D } = \\{ D _ { i } \\} _ { i = 1 } ^ { \\vert { \\bar { D } } \\vert }$ ., where $D _ { i } = \\left( X _ { i } , Y _ { i } \\right)$ are used for few-shot learning. Then, the LLM generates output (?? ) by completing the prompt $( Y = \\mathcal { M } ( T , D , X ) )$ ), where M denotes the LLM. In such a setting, the LLM can follow the structure of the provided demonstrates to output the expected format of answers for subsequent automatic evaluation. Besides, the whole process does not require any gradient update, allowing LLMs to generate predictions withou",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-1",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.113,
+      0.143,
+      0.463,
+      0.87
+    ],
+    "text": "Figure 5: Incorporate logical constraints to LLMs by using generative, retrieval, and pretraining-based approaches. The dashed boxes indicate answers output by LLMs, and the underlined texts indicate the logical constraints.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.081,
+      0.702,
+      0.483
+    ],
+    "text": "Compared Models. We choose three variants of ChatGPT (gptturbo, text-davinci-003, and gpt4), Vicuna-13B-v1.3, and Llama2-13B as the main experimental LLMs for evaluation. We also provide two fine-tuning RoBERTa-large baselines (one-shot and fully fine-tuned) for comparison. The training details of RoBERTalarge can be found in Appendix B.2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.717,
+      0.081,
+      0.897,
+      0.485
+    ],
+    "text": "Dataset Construction. Our main experiments are evaluated on MAVEN-ERE, Causal-TimeBank [28], and ProofWriter. For the ERE task, we focus on relations between two events and conduct sampling at the sentence level. The samples of the two events that do not have any relations will be excluded. Here, we randomly sample 500 examples from the test set of MAVEN-ERE and 100 examples from the test set of Causal-TimeBank as our testbed. For the deductive reasoning task, we use the OWA subset of ProofWriter, which is divided into five parts, each part requiring 0, 1, 2, 3, and 5 hops of reasoning, respectively. We evaluate the hardest 5-hop subset. To reduce the computation cost, we randomly sample 200 examples in the test set and ensure a balanced label distribution. Other details can be found in Ap",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.513,
+      0.588,
+      0.915
+    ],
+    "text": "Evaluation Metrics. We adopt the averaged micro-F1 score as the evaluation metric and also report the logical inconsistency (defined in Section 2.1) on ERE datasets. The reported value is averaged by the results of three runs to reduce random fluctuation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.601,
+      0.514,
+      0.617,
+      0.802
+    ],
+    "text": "4.2 Generative-based Approaches",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.619,
+      0.513,
+      0.648,
+      0.913
+    ],
+    "text": "Generative-based approaches mean we let LLMs generate logic by using a form of one-shot ICL. Here, we study three variants:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.651,
+      0.514,
+      0.679,
+      0.915
+    ],
+    "text": "(1) Vanilla ICL: which utilizes the common prompts consisting of a task description, one demonstration, and the input case.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.679,
+      0.514,
+      0.734,
+      0.915
+    ],
+    "text": "(2) Vanilla ICL plus CoT: which first bootstraps rationales by using chain-of-thought as intermediate reasoning steps following the style of the given demonstration, then output answers. Rationales here do not involve the content of logical constraints.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.514,
+      0.847,
+      0.916
+    ],
+    "text": "(3) CoT with self-generated logical constraints: which teaches LLMs to generate and utilize logical constraints based on CoT (Figure 5 (a)). Specifically, it will first extract the obvious relations/facts and generate the relevant logical constraints according to the extracted relations/facts, then we enforce LLMs to infer the remaining relations/facts based on the constraints and the known relations/facts. The prompt example can be seen in Appendix H.2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.853,
+      0.513,
+      0.897,
+      0.915
+    ],
+    "text": "4.2.1 Results. From Table 1, We could observe that: 1) Compared with a smaller language model (SLM, i.e., RoBERTa-large), the generalization ability of vanilla LLMs on both two tasks under the one-shot setting is remarkable, but there is still a gap with the fullyfinetuned baseline. 2) Directly using CoT to infer logic does not help much for ERE tasks, a possible reason is that the inherent issues may lead to the failure of LLM in the precise rationale generation (i.e., a high ratio of logical inconsistency). We give a case study for this in Appendix E. 3) When using generative-based approaches to encourage LLMs to produce logical constraints in the reasoning process, LLMs can significantly improve their performance on both two tasks. It is worth mentioning that the performance of GPT-4 (C",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.124,
+      0.411,
+      0.872
+    ],
+    "text": "Table 1: ChatGPT (gpt-turbo, text-davinci-003, and gpt-4), Vicuna-13B, and Llama2-13B’s performance on MAVEN-ERE, Causal-TimeBank, and ProofWriter. We report averaged micro-F1 scores here and \"LI\" denotes the logical inconsistency metric. For each dataset, the best result of each LLM is in bold. RoBERTa-Large (one-shot) fails to output any correct answers on Causal-TimeBank.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.669,
+      0.083,
+      0.684,
+      0.356
+    ],
+    "text": "4.3 Retrieval-based Approaches",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.081,
+      0.8,
+      0.485
+    ],
+    "text": "Although generative-based approaches enable models to automatically generate and utilize logic, the prediction of LLMs is usually uncertain and inaccuracy. Therefore, we also provide retrieval-based approaches, which aim to obtain relevant logic from our pre-defined constraints (Figure 5 (b)). We mainly conduct experiments on the ERE task by utilizing the collected logical constraints. Specifically, We take the collected 11 constraints in Section 2.1 as the retrieval set, and our solutions include:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.811,
+      0.081,
+      0.84,
+      0.482
+    ],
+    "text": "(1) with all logical constraints: which directly adds all the 11 logical constraints in the set.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.083,
+      0.897,
+      0.483
+    ],
+    "text": "(2) with retrieved logical constraints: which means that we first detect logically inconsistent answers based on the prediction of LLMs, and then retrieve the corresponding information if we find any conflict. Finally, we add it to the LLM instruction and let LLMs re-generate the answers. Please see Appendix C.1 for details.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.514,
+      0.592,
+      0.915
+    ],
+    "text": "(3) with post-processing: which first obtains the answers of LLMs, then automatically generates some logically consistent candidates according to the constraints, and randomly selects one of them as the final answer. This approach ensures that there is no logical conflict (LI = 0%). Please see Appendix C.2 for details.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.603,
+      0.511,
+      0.772,
+      0.916
+    ],
+    "text": "4.3.1 Main Results. From Table 2, We could observe that: 1) When using retrieval-based approaches to obtain logic constraints and incorporate them into LLM instruction, the logical inconsistency of LLMs’ answers is greatly reduced and the overall performance on both two tasks is further improved. 2) Although our post-processing guarantees the absence of logical conflicts (resulting in LI of 0%), it may severely affect the quality of the whole generation. On one hand, the semantics of the post-processing answer may be far from the ground truth due to the random selection. On the other hand, the size of the candidate set for each case will also affect the performance. It may also need more operations at the post-processing stage, which we leave as future work.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.513,
+      0.813,
+      0.916
+    ],
+    "text": "4.3.2 Ablation Study. We conduct an ablation study using Chat-GPT (gpt-turbo) in this subsection.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.825,
+      0.511,
+      0.897,
+      0.916
+    ],
+    "text": "Demonstrations. Following previous experiences [3], we also append demonstrations into the prompt to investigate how logical constraints will affect when combined with different numbers of demonstrations. Here, we select different numbers of demonstration samples ?? from {1, 5, 10, 20}. The experiments are tested on vanilla",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.181,
+      0.378,
+      0.816
+    ],
+    "text": "Table 2: Retrieval-based approaches’ performance on MAVEN-ERE and Causal-TimeBank. For each dataset, the best result of each LLM is in bold and the second-best result is underlined.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.431,
+      0.081,
+      0.64,
+      0.485
+    ],
+    "text": "ICL and ICL plus all logical constraints. From Figure 6, we can observe that: 1) When the number of demonstrations increases from 1 to 5, we can observe an evident improvement, but the subsequent improvements are limited when continue to increase the number of demonstrations $( \\mathrm { e . g . } , \\geq 1 0 )$ ; 2) Adding logical constraints into LLM instructions can provide stable improvements, especially with more demonstrations. 3) The performance of incorporating logical constraints with a smaller number of demonstrations can even surpass that of prompts with only a larger number of demonstrations (e.g., the performance of using 5 demonstrations on MAVEN-ERE w. logical constraints, 25.7%, surpasses that of 10 demonstrations w/o. logical constraints, 24.5%). This indicates that it is i",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.641,
+      0.081,
+      0.837,
+      0.485
+    ],
+    "text": "Iterative Retrieval. Considering the outstanding ability of LLMs in interaction, we further explore whether we can introduce logical constraints into the multi-turn conversation (for the prompt design, please see Appendix H.3). Here, we adopt a retrieval-based approach to incorporate logical constraints iteratively and the results are shown in Figure 6. We find that the logical inconsistency of answers will gradually decrease with the increase of iterations, but the overall micro-F1 seems relatively stable. We guess the main reason for this phenomenon is the overthinking of LLMs, as although it can bring more reasoning rationale, it possibly produces correct but more useless or abundant information when inferring multiple iterations. Overall, instructing LLM with logic is beneficial for co",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.849,
+      0.083,
+      0.866,
+      0.359
+    ],
+    "text": "4.4 Pretraining-based Approach",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.867,
+      0.083,
+      0.897,
+      0.483
+    ],
+    "text": "Although the retrieval-based approach guarantees the correctness of logical constraints, it still needs to interact with an external set constantly. Therefore, we provide a pretraining-based approach to embed the logical constraints into LLMs themselves. We use the logic programming approach introduced in Section 3.2 to automatically generate 6776 instances containing all the 2 ∼ 5-hop reasoning data. We do not generate longer hops for training here considering the computation complexity and the length limitation of LLMs. The dataset statistic can be found in Table 5. Then, we train LLMs to perform complex logical reasoning based on the curated dataset LLM-LR. Finally, we conduct inference with the trained LLMs. An example of the training data can be seen in Figure 5 (c) or Figure 14.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.513,
+      0.819,
+      0.919
+    ],
+    "text": "4.4.1 Pretraining Details. We adopt Vicuna-13B-v1.3 and Llama2- 13B as the base models and employ the LoRA [14] technique. During pre-training, only LoRA parameters are optimized. Other Details can be found in Appendix G.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.825,
+      0.511,
+      0.897,
+      0.916
+    ],
+    "text": "4.4.2 Results. As shown in Table 3, we find that: 1) Once trained on LLM-LR, the performance of LlaMA2-13B and Vicuna-13B improves greatly compared with that of Table 1 and 2, especially on the baselines without logical constraints. 2) The performance of LlaMA2-13B-PT could even surpass that of some greater LLMs (e.g., vanilla ChatGPT, 175B), which further validates the importance of teaching LLM with logic in solving reasoning tasks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-1",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.151,
+      0.338,
+      0.846
+    ],
+    "text": "Table 3: Vicuna-13B and Llama2-13B’s performance on MAVEN-ERE and Causal-TimeBank after pre-training on LLM-LR.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:figure-2",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.373,
+      0.117,
+      0.641,
+      0.413
+    ],
+    "text": "Figure 7: Case study on Llama-2-13B before and after pretraining (PT).",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.734,
+      0.081,
+      0.805,
+      0.485
+    ],
+    "text": "4.4.3 Case Study. In Figure 7, We conduct a case study of Llama-2-13B’s answers to the same input before and after pre-training. From Figure 7 we can see that LlaMA2-13B-PT could output the correct answers after pre-training on LLM-LR, which validates the effectiveness of our pre-training approach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.815,
+      0.083,
+      0.83,
+      0.259
+    ],
+    "text": "5 RELATED WORK",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.083,
+      0.852,
+      0.379
+    ],
+    "text": "5.1 Large Language Models (LLMs)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.081,
+      0.897,
+      0.483
+    ],
+    "text": "We are fortunate to witness the surging development of Large Language Models (LLMs [3, 8, 9, 32]), and a series of work aiming to leverage the reasoning abilities of LLMs such as chain-of-thought prompting [19, 46, 51], self verification [18, 44], self learning [15, 49], etc. However, recent studies show LLMs still stumble across generating hallucination and logic inconsistency [2, 13, 16, 17, 20]. To solve such challenges, our work explores teaching LLMs logical reasoning through various approaches.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.465,
+      0.514,
+      0.481,
+      0.82
+    ],
+    "text": "5.2 Event Relation Extraction (ERE)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.513,
+      0.595,
+      0.915
+    ],
+    "text": "Events play crucial roles in comprehending narratives, and understanding the complex relationships between events is essential to understanding the text [37]. Thus Event Relation Extraction (ERE) tasks are fundamental information extraction (IE) tasks and support various downstream applications [5, 36, 50]. Extensive studies have been carried out on ERE tasks, including different kinds of relations such as coreference relations [24, 25], temporal relations [30, 40], causal relations [4, 6, 7], and subevent relations [1, 41].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.594,
+      0.513,
+      0.679,
+      0.916
+    ],
+    "text": "There also have been some recent explorations on how to leverage the power of LLMs on event-related information extraction tasks [12, 27, 43]. To the best of our knowledge, however, our work is the first to (1) design elaborate experiments to evaluate the performance of LLMs on the ERE task, and (2) analyze the logical reasoning abilities of LLMs using ERE as an intermediate task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.696,
+      0.514,
+      0.712,
+      0.665
+    ],
+    "text": "6 CONCLUSION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-13",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.511,
+      0.897,
+      0.916
+    ],
+    "text": "In this paper, we conduct a detailed investigation on how to enhance LLMs to produce more logically consistent answers. Specifically, we first investigate the existing issues of current LLMs in doing some complex reasoning tasks (e.g., event relation extraction and deductive reasoning). Then, we study multiple strategies to obtain and utilize logic for LLMs, including generative-based, retrievalbased, and pretraining-based approaches. Based on our approach, we also contribute a synthesized dataset (LLM-LR) involving multihop reasoning for evaluation and pre-training. We show that LLMs are not logically consistent reasoners, but their performance could be improved if we explicitly teach them the logical constraints. Comprehensive quantitative and qualitative analyses have been conducted to ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.083,
+      0.119,
+      0.202
+    ],
+    "text": "REFERENCES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.122,
+      0.089,
+      0.164,
+      0.482
+    ],
+    "text": "[1] Mohammed Aldawsari and Mark Finlayson. 2019. Detecting Subevents using Discourse and Narrative Features. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, Florence, Italy, 4780–4790. https://doi.org/10.18653/v1/P19-1471 [2] Yejin Bang, Samuel Cahyawijaya, Nayeon Lee, Wenliang Dai, Dan Su, Bryan Wilie, Holy Lovenia, Ziwei Ji, Tiezheng Yu, Willy Chung, et al. 2023. A multitask, multilingual, multimodal evaluation of chatgpt on reasoning, hallucination, and interactivity. arXiv preprint arXiv:2302.04023 (2023). [3] Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.084,
+      0.15,
+      0.482
+    ],
+    "text": "[39] Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. 2023. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288 (2023). [40] Haoyu Wang, Muhao Chen, Hongming Zhang, and Dan Roth. 2020. Joint Constrained Learning for Event-Event Relation Extraction. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). Association for Computational Linguistics, Online, 696–706. https://doi.org/10.18653/ v1/2020.emnlp-main.51 [41] Haoyu Wang, Hongming Zhang, Muhao Chen, and Dan Roth. 2021. Learning Constraints and Descriptive Segmentation for Subevent Detection. In Proceedings of the 2021 Conference on Empirical Methods",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.083,
+      0.119,
+      0.444
+    ],
+    "text": "A UNDERSTANDING EVENT RELATIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.125,
+      0.081,
+      0.154,
+      0.483
+    ],
+    "text": "There are four kinds of widely-used event relations: coreference, temporal, causal, and subevent relations [31, 42].",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.165,
+      0.083,
+      0.205,
+      0.482
+    ],
+    "text": "(1) Coreference relations between events occur when multiple event mentions in a text refer to the same underlying event. We call these event mentions cluster.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.207,
+      0.083,
+      0.247,
+      0.482
+    ],
+    "text": "(2) Temporal relations refer to the temporal ordering of events based on their occurrence in time. In this paper, we consider seven different types of temporal relations:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-5",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.247,
+      0.104,
+      0.273,
+      0.483
+    ],
+    "text": "• NO\\_TEMPORAL: if there is no clear temporal relation between event ?? and ??.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-6",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.275,
+      0.106,
+      0.289,
+      0.465
+    ],
+    "text": "• BEFORE: if event ?? happened completely before event ??.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-7",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.106,
+      0.303,
+      0.428
+    ],
+    "text": "• OVERLAP: if event ?? has an overlap with event ??.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-8",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.303,
+      0.106,
+      0.315,
+      0.447
+    ],
+    "text": "• CONTAINS: if event ??’s time contains event ??’s time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-9",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.318,
+      0.106,
+      0.343,
+      0.483
+    ],
+    "text": "• SIMULTANEOUS: if events A and ?? happen at the same time.   \n• ENDS-ON: if event ?? ends when event ?? starts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-10",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.344,
+      0.106,
+      0.372,
+      0.482
+    ],
+    "text": "• BEGINS-ON: if event ?? and event ?? start at the same time, but end at different times.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-11",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.104,
+      0.4,
+      0.483
+    ],
+    "text": "In Figure 8, we list all the types of temporal relations and illustrate their distinctions on a unified timeline.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-12",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.083,
+      0.482,
+      0.483
+    ],
+    "text": "(3) Causal relations refer to that one event (the cause) brings about or influences the occurrence of another event (the effect). They can be classified into two different types: CAUSE relation where the tail event is inevitable given the head event, and PRECON-DITION where the tail event would not have happened if the head event had not happened.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-13",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.083,
+      0.553,
+      0.483
+    ],
+    "text": "(4) Subevent relations refer to the connection where one event (the subevent) is a component or a smaller part of another event (the main event). Identifying and understanding subevent relations helps to reveal the underlying hierarchy and organizational structure of events in a given text.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-14",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.081,
+      0.709,
+      0.485
+    ],
+    "text": "Event Relation Extraction. Event Relation Extraction (ERE) includes identifying coreference, temporal, causal, and subevent relations between every two events in the text. We formulate ERE as a multi-classification problem, determining one label (relation) for each of these four relation types. For coreference relations, the labels ∈{NO\\_COREFERENCE, COREFERENCE}; for temporal relations, the labels ∈ {NO\\_TEMPORAL, BEFORE, OVERLAP, CONTAINS, SIMULTANEOUS, ENDS-ON, BEGINS-ON}; for causal relations, the labels ∈ {NO\\_CAUSAL, PRECONDITION, CAUSE}; for subevent relations, the labels ∈ {NO\\_SUBEVENT, SUBEVENT}.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-15",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.729,
+      0.083,
+      0.761,
+      0.47
+    ],
+    "text": "B TRAINING DETAILS OF ROBERTA-LARGE ON TWO TASKS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-16",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.083,
+      0.781,
+      0.303
+    ],
+    "text": "B.1 Dataset Construction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-17",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.785,
+      0.081,
+      0.896,
+      0.485
+    ],
+    "text": "MAVEN-ERE. contains 4,480 documents, 103,193 events coreference chains, 1,216,217 temporal relations, 57,992 causal relations, and 15,841 subevent relations, which is larger than existing datasets of all the ERE tasks by at least an order of magnitude [42]. MAVEN-ERE has released the train and valid set, but does not release the ground-truth test set, so we randomly split its train set into train/- valid sets with a ratio of 8:2, and then use its original valid set as the new test set.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:table-18",
+    "page_id": 10,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_10_Table_0.jpg",
+    "bbox_norm": [
+      0.104,
+      0.549,
+      0.267,
+      0.879
+    ],
+    "text": "Figure 8: Interpretations of the temporal relation between two events A and B. Brackets represent time intervals along the time axis.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-10:text-19",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.367,
+      0.511,
+      0.479,
+      0.916
+    ],
+    "text": "Causal-TimeBank. contains 184 documents, 6,813 events, and 7,608 event pairs [29]. Among them, 318 event pairs are annotated with causal relations, and 6,115 event pairs are annotated with temporal relations. Due to Causal-TimeBank does not split train/- valid/test sets, we randomly split it to train/valid/test sets with a ratio of 6:1:3. We do not evaluate coreference and subevent relations in the Causal-TimeBank dataset since there are no annotations for these two relation types.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-20",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.513,
+      0.534,
+      0.916
+    ],
+    "text": "ProofWriter. We use the OWA subset of ProofWriter and consider the hardest 5-hop subset. The training, valid, and test sets contain 3000, 600, and 600 samples, respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-21",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.514,
+      0.565,
+      0.723
+    ],
+    "text": "B.2 Experimental Setup",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-22",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.568,
+      0.513,
+      0.65,
+      0.916
+    ],
+    "text": "Our experiments include two settings. (1) fully fine-tuned: we finetune SLMs with complete and abundant samples. This setting is for reference to see the performance limit of SLMs. (2) one-shot: we sample only one example for each label and construct a tiny training set. This setting is for direct comparison with our experiments on LLMs (similar training/demonstration sample number).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-23",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.65,
+      0.513,
+      0.75,
+      0.916
+    ],
+    "text": "We implement vanilla fine-tuning approaches on three datasets and use RoBERTa-Large as backbones. We run each experiment on a single NVIDIA V100 GPU. We adopt the AdamW [23] optimizer with a linear scheduler and 0.1 warm-up steps. We set the weightdecay coefficient as 1e-5 and maximum gradient norms as 1.0. We set the batch size as 16 with 20 or 50 epochs. We set the maximum input length as 256 and the learning rate as 2e-5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-24",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.514,
+      0.794,
+      0.9
+    ],
+    "text": "C LOGICAL CONSTRAINTS BETWEEN TWO EVENTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-25",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.799,
+      0.511,
+      0.897,
+      0.916
+    ],
+    "text": "In Table 4, we provide a comprehensive set of logical constraints for the relations between two events to assess their logical consistency. We also manually design description text for each constraint to let LLMs follow the prompt. As shown in Table 6, COREFERENCE(??, ??) → ¬TEMPORAL(??, ??), ¬CAUSAL(??, ??), ¬SUBEVENT(??, ??) indicates that \"if event ?? and event ?? have a coreference relation, they will not have temporal, causal, and subevent relations\".",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:table-1",
+    "page_id": 11,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_11_Table_0.jpg",
+    "bbox_norm": [
+      0.104,
+      0.209,
+      0.265,
+      0.787
+    ],
+    "text": "Table 4: Logical Constraints of relations between two events, where ¬ denotes \"NOT\", ∨ denotes \"OR\".",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.318,
+      0.083,
+      0.349,
+      0.449
+    ],
+    "text": "C.1 An Example of Detecting Conflicts and Retrieving Relevant Constraints",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.353,
+      0.081,
+      0.409,
+      0.483
+    ],
+    "text": "As described above, for the ERE task, we meticulously collect 11 logical constraints covering all relations between two events. These constraints serve as our benchmark to identify inconsistencies in the predictions made by LLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.081,
+      0.478,
+      0.485
+    ],
+    "text": "Let us consider an illustrative example. If LLM produces an answer such as “NO\\_COREFERENCE, SIMULTANEOUS, CAUSE, NO\\_SUBEVENT” (refer to Figure 5), we could detect the inconsistency between “SIMULTANEOUS” and “CAUSE”, as shown in Table 4:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.487,
+      0.109,
+      0.515,
+      0.516
+    ],
+    "text": "• A “SIMULTANEOUS” relation implies a “NO\\_CAUSAL” (¬CAUSAL) relation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.515,
+      0.109,
+      0.542,
+      0.485
+    ],
+    "text": "• Conversely, a “CAUSE” relation suggests the presence of either a “BEFORE” or an “OVERLAP” relation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.553,
+      0.081,
+      0.665,
+      0.485
+    ],
+    "text": "Given this, “SIMULTANEOUS” and “CAUSE” are inherently contradictory, and they cannot coexist in a consistent prediction. To rectify this, we retrieve the associated textual description from Table 6. Specifically, the statements “If event ?? CAUSEs event ??, then event ?? happens BEFORE or OVERLAP event ?? ...” and “If event ?? and event ?? happen SIMULTANEOUSly, then they won’t have coreference, causal, and subevent relations ...” are integrated into the LLM’s instruction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.683,
+      0.083,
+      0.699,
+      0.387
+    ],
+    "text": "C.2 An Example of Post-processing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.081,
+      0.729,
+      0.485
+    ],
+    "text": "As shown in Figure 5, if LLMs predict the relations between two events as “NO\\_COREFERENCE, SIMULTANEOUS, CAUSE,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-10",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.728,
+      0.081,
+      0.897,
+      0.495
+    ],
+    "text": "NO\\_SUBEVENT”, we can detect that “SIMULTANEOUS” and “CAUSE” are in conflict according to the logical constraints. In order to eliminate conflicts, one relation can be fixed first, and then the other relation can be randomly decided by the candidates that do not conflict with the current relation. For example, when the fixed temporal relation is “SIMULTANEOUS”, the causal relations can only be “NO\\_CAUSAL”, while when the fixed causal relation is “CAUSE”, the temporal relation can be either “BEFORE” or “OVERLAP”. We also add a negative option “NO\\_COREFERENCE, NO\\_TEMPORAL, NO\\_CAUSAL, NO\\_SUBEVENT” to the candidate set because it is possible that neither relation exits. Finally, we randomly select one option from:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-11",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.319,
+      0.54,
+      0.345,
+      0.888
+    ],
+    "text": "• NO\\_COREFERENCE, SIMULTANEOUS, NO\\_CAUSAL, NO\\_SUBEVENT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-12",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.347,
+      0.54,
+      0.361,
+      0.911
+    ],
+    "text": "• NO\\_COREFERENCE, OVERLAP, CAUSE, NO\\_SUBEVENT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-13",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.54,
+      0.375,
+      0.9
+    ],
+    "text": "• NO\\_COREFERENCE, BEFORE, CAUSE, NO\\_SUBEVENT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-14",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.375,
+      0.54,
+      0.402,
+      0.883
+    ],
+    "text": "• NO\\_COREFERENCE, NO\\_TEMPORAL, NO\\_CAUSAL, NO\\_SUBEVENT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-15",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.513,
+      0.445,
+      0.913
+    ],
+    "text": "as the ultimate answer, thus ensuring that the results must be logically consistent (i.e., LI = 0).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-16",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.468,
+      0.514,
+      0.5,
+      0.9
+    ],
+    "text": "D LOGICAL CONSTRAINTS AMONG THREE L） EVENTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-17",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.503,
+      0.511,
+      0.546,
+      0.915
+    ],
+    "text": "We provide a comprehensive set of 39 logical constraints for the relations among three events in Table 7. We also manually design prompt for each constraint, as shown in Table 8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-18",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.514,
+      0.585,
+      0.856
+    ],
+    "text": "D.1 Pseudo Code of Logic Programming",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-19",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.588,
+      0.513,
+      0.657,
+      0.915
+    ],
+    "text": "Once obtain 11 constraints between two events and 39 constraints among three events, we apply logic programming to automatically reason new event relations by inputting known constraints and relations. The pseudo-code mentioned in the main context is shown in Algorithm 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-20",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.68,
+      0.514,
+      0.712,
+      0.848
+    ],
+    "text": "E CASE STUDY ON SELF-GENERATED LOGICAL CONSTRAINTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-21",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.511,
+      0.897,
+      0.916
+    ],
+    "text": "In the main context, we have found that directly using CoT to infer logic does not help much for ERE tasks. One possible reason is that the inherent issues may lead to the failure of LLM in the precise rationale generation. To further illustrate an intuitive impression, we conduct a case study on MAVEN-ERE and find that the logical constraints generated by LLMs themselves are often inaccurate in content. As shown in Figure 9, ChatGPT could follow the logical constraint provided in the demonstration to a certain extent. However, it wrongly applies this to other relations — knowing that event ?? is event ??’s precondition, it is wrong to think that event ?? will cause event ??. Actually, according to the logical constraints in Table 4, the relations between (??, ??) should be “NO\\_COREFERENC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-2",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.457,
+      0.116,
+      0.755,
+      0.441
+    ],
+    "text": "Figure 9: A case study that ChatGPT generates inaccurate logical constraints.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.848,
+      0.083,
+      0.863,
+      0.312
+    ],
+    "text": "F STATISTICS OF LLM-LR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.867,
+      0.083,
+      0.895,
+      0.482
+    ],
+    "text": "As shown in Table 5, we provide the statistics of our LLM-LR dataset.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:table-5",
+    "page_id": 12,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_12_Table_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.565,
+      0.185,
+      0.864
+    ],
+    "text": "Table 5: Statistics of LLM-LR.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-12:text-6",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.514,
+      0.267,
+      0.846
+    ],
+    "text": "G IMPLEMENTATION DETAILS OF PRETRAINING-BASED APPROACH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-7",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.271,
+      0.513,
+      0.356,
+      0.915
+    ],
+    "text": "We set the rank of LoRA modules to be 64. Our model is optimized with a learning rate of 2e-4 and a linear warm-up for the first 3% steps. We clip the gradients of model parameters to a max norm of 0.3. The batch size is 8 and the number of epochs is 3. All the LoRA parameters are trained on an NVIDIA A100 GPU with 80GB memory.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-1",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.104,
+      0.225,
+      0.672,
+      0.771
+    ],
+    "text": "Table 6: Prompt text of relations between two events.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.106,
+      0.147,
+      0.671,
+      0.857
+    ],
+    "text": "Table 7: Logical Constraints of relations among three events, where ∧ denotes \"AND\", ¬ denotes \"NOT\", ∨ denotes \"OR\".",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-15:table-1",
+    "page_id": 15,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_15_Table_0.jpg",
+    "bbox_norm": [
+      0.104,
+      0.199,
+      0.959,
+      0.799
+    ],
+    "text": "Table 8: Prompt text of relations among three events.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.075,
+      0.083,
+      0.088,
+      0.379
+    ],
+    "text": "Learning To Teach Large Language Models Logical Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.102,
+      0.083,
+      0.117,
+      0.295
+    ],
+    "text": "H PROMPT EXAMPLES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.083,
+      0.136,
+      0.575
+    ],
+    "text": "In this section, we provide examples of prompts used for each task and approach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.083,
+      0.161,
+      0.267
+    ],
+    "text": "H.1 Pilot Case Study",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.165,
+      0.083,
+      0.179,
+      0.341
+    ],
+    "text": "This section includes prompt examples of:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.181,
+      0.109,
+      0.195,
+      0.45
+    ],
+    "text": "• MAVEN-ERE w. relevant logic constraints (Figure 10);",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-7",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.195,
+      0.109,
+      0.208,
+      0.46
+    ],
+    "text": "• MAVEN-ERE w. irrelevant logic constraints (Figure 11);",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-8",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.209,
+      0.109,
+      0.223,
+      0.447
+    ],
+    "text": "• Proof Writer w. relevant logic constraints (Figure 12);",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-9",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.109,
+      0.237,
+      0.454
+    ],
+    "text": "• Proof Writer w. irrelevant logic constraints (Figure 13).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-10",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.111,
+      0.251,
+      0.32
+    ],
+    "text": "• Multi-hop reasoning (Figure 14)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-11",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.258,
+      0.093,
+      0.743,
+      0.825
+    ],
+    "text": "Figure 10: MAVEN-ERE w. relevant logic constraints",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-1",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.091,
+      0.633,
+      0.906
+    ],
+    "text": "Figure 11: MAVEN-ERE w. irrelevant logic constraints",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-18:figure-1",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.101,
+      0.093,
+      0.64,
+      0.906
+    ],
+    "text": "Figure 12: ProofWriter w. relevant logic constraints",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:figure-1",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.099,
+      0.089,
+      0.856,
+      0.908
+    ],
+    "text": "Figure 14: Abstract Multi-hop Reasoning",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.102,
+      0.083,
+      0.118,
+      0.401
+    ],
+    "text": "H.2 Incoporating Logical Constraints",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.171,
+      0.136,
+      0.825
+    ],
+    "text": "The highlighted parts represent the content generated by LLMs. We omit the demonstration here for clarity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.12,
+      0.157,
+      0.214
+    ],
+    "text": "Vanilla ICL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.4,
+      0.117,
+      0.416,
+      0.282
+    ],
+    "text": "Vanilla ICL plus CoT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-7",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.671,
+      0.114,
+      0.688,
+      0.423
+    ],
+    "text": "CoT w. self-generated logical constraints",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-9",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.171,
+      0.54,
+      0.189,
+      0.725
+    ],
+    "text": "w. all logical constraints",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-11",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.578,
+      0.54,
+      0.593,
+      0.774
+    ],
+    "text": "w. retrieved logical constraints",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:figure-1",
+    "page_id": 21,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_21_Figure_0.jpg",
+    "bbox_norm": [
+      0.103,
+      0.173,
+      0.698,
+      0.821
+    ],
+    "text": "Figure 15: Multi-turn conversation with ChatGPT. We retrieve relevant logical constraints and provide them to ChatGPT.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.757,
+      0.083,
+      0.773,
+      0.29
+    ],
+    "text": "H.3 Iterative Retrievals",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.081,
+      0.82,
+      0.485
+    ],
+    "text": "In this section, we present a prompt example used in Section 4.3.2. As shown in Figure 15, with iterative prompting, ChatGPT finally outputs the correct answers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.102,
+      0.083,
+      0.118,
+      0.307
+    ],
+    "text": "H.4 Deductive Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.171,
+      0.136,
+      0.825
+    ],
+    "text": "The highlighted parts represent the content generated by LLMs. We omit the demonstration here for clarity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.096,
+      0.159,
+      0.196
+    ],
+    "text": "Vanilla ICL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.096,
+      0.398,
+      0.272
+    ],
+    "text": "Vanilla ICL plus CoT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-7",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.539,
+      0.16,
+      0.874
+    ],
+    "text": "CoT w. self-generated logical constraints",
+    "source_type": "text"
+  }
+]

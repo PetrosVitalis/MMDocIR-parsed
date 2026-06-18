@@ -1,0 +1,4 @@
+Representation,Hyper parameters Filter size,Hyper parameters Num.Feature maps,Hyper parameters Activation func.,Hyper parameters L2 Reg.,Hyper parameters Learning rate,Hyper parameters Dropout Prob.,F1.(avg. in 5- fold) with default values,F1.(avg. in 5- fold) with optimal values
+CoNLL08,4-5,1000,Softplus,1.15e+01,1.13e-03,1,73.34,74.49
+SB,4-5,806,Sigmoid,8.13e-02,1.79e-03,0.87,72.83,75.05
+UD v1.3,5,716,Softplus,1.66e+00,9.63E-04,1,68.93,69.57

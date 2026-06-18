@@ -1,0 +1,4202 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.122,
+      0.439,
+      0.878
+    ],
+    "text": "BARIUMSWALLOW",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.348,
+      0.637,
+      0.651
+    ],
+    "text": "DR.SHAIKFARID",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.42,
+      0.722,
+      0.579
+    ],
+    "text": "RMMCH",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.3,
+      0.157,
+      0.695
+    ],
+    "text": "INTRODUCTION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-2",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.175,
+      0.049,
+      0.977,
+      0.506
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.381,
+      0.513,
+      0.881,
+      0.92
+    ],
+    "text": "Barium swallow is a radiological study of pharynx and esophagus upto the level of stomach with the help of contrast.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.157,
+      0.157,
+      0.843
+    ],
+    "text": "EMBRYOLOGY OFPHARYNX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.053,
+      0.413,
+      0.462
+    ],
+    "text": "Head&neckstructures arederivedfrom pharyngeal arches1&2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.43,
+      0.052,
+      0.652,
+      0.466
+    ],
+    "text": "Eacharch contain similar component derived from endoderm,ectoderm& mesoderm.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.673,
+      0.053,
+      0.84,
+      0.46
+    ],
+    "text": "·The cavity within the pharyngeal arches forms the pharynx.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-5",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.319,
+      0.509,
+      0.541,
+      0.998
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.041,
+      0.183,
+      0.109,
+      0.817
+    ],
+    "text": "BOUNDRIES OF PHARYNX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.054,
+      0.307,
+      0.721
+    ],
+    "text": "·Anteriorly-mouth&nasal choanae",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.42,
+      0.054,
+      0.479,
+      0.8
+    ],
+    "text": "·Superiorly-soft palate&portion of skull",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.054,
+      0.649,
+      0.565
+    ],
+    "text": "·Inferiorly- postr of tongue",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.762,
+      0.054,
+      0.821,
+      0.738
+    ],
+    "text": "·Posteriorly-pharnygeal constrictors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-1",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.423,
+      0.156,
+      0.576
+    ],
+    "text": "PARTS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.054,
+      0.394,
+      0.764
+    ],
+    "text": "·Naso-ant.pharynx joins nasal cavity",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.503,
+      0.054,
+      0.564,
+      0.886
+    ],
+    "text": "· Oro- midportion of pharynx joins oral cavity",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.675,
+      0.054,
+      0.736,
+      0.72
+    ],
+    "text": "·Hypo-inferiorpharynxjoinslarynx.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.079,
+      0.238,
+      0.168,
+      0.764
+    ],
+    "text": "NASOPHARYNX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:figure-2",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.203,
+      0.022,
+      0.996,
+      0.48
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.229,
+      0.511,
+      0.335,
+      0.886
+    ],
+    "text": "· Lies behind the nasal cavity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.345,
+      0.509,
+      0.744,
+      0.938
+    ],
+    "text": "Postero-superiorly this extendsfrom thelevel of the junction of the   \nhard and soft palates to the base of   \nskull, laterallyto include the fossa of   \nRosenmuller.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.753,
+      0.511,
+      0.958,
+      0.928
+    ],
+    "text": "The inferiorwall consists of the superior surface of the soft palate.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.055,
+      0.32,
+      0.125,
+      0.68
+    ],
+    "text": "OROPHARYNX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:figure-2",
+    "page_id": 6,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_6_Figure_0.jpg",
+    "bbox_norm": [
+      0.203,
+      0.061,
+      0.953,
+      0.472
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.175,
+      0.511,
+      0.282,
+      0.867
+    ],
+    "text": "· Lies behind the oral cavity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.35,
+      0.511,
+      0.508,
+      0.941
+    ],
+    "text": "· The anterior wall-the base of the tongue and the epiglottic valleculae.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.511,
+      0.782,
+      0.856
+    ],
+    "text": "·the lateral walltonsil,toillr fossa,and tonsillar (faucial) pillars;",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.85,
+      0.511,
+      1.0,
+      0.902
+    ],
+    "text": "· the superior wall - inferior surface of the soft palate and the",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.07,
+      0.157,
+      0.93
+    ],
+    "text": "LARYNGOPHARYNX/HYPOPHARYNX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-2",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.324,
+      0.082,
+      0.796,
+      0.424
+    ],
+    "text": "Figure 1-walowing Anatomy",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.51,
+      0.421,
+      0.941
+    ],
+    "text": "LevelsbetweenC4toC6,it includes the pharyngoesophageal junction (postcricoid area),thepiriformsinusandthe posteriorpharyngeal wall.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.47,
+      0.514,
+      0.55,
+      0.819
+    ],
+    "text": "Linedwithastratified squamous epithelium.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.513,
+      0.756,
+      0.934
+    ],
+    "text": "It lies inferior to the upright epiglottisand extendsto the larynx,where the respiratory and digestive pathways diverge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.807,
+      0.513,
+      0.925,
+      0.914
+    ],
+    "text": "At that point,the laryngopharynx is contunious with esophagus posteriorly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.122,
+      0.157,
+      0.878
+    ],
+    "text": "EMBRYOLOGY OF ESOPHAGUS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.331,
+      0.054,
+      0.463,
+      0.878
+    ],
+    "text": "Primitive gut tube forms during 4th week of gestation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.053,
+      0.779,
+      0.932
+    ],
+    "text": "Itisderived from incorporation of the dorsal part of the definitive yolk sac into embryo due to embryonic folding.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.239,
+      0.053,
+      0.355,
+      0.894
+    ],
+    "text": "· Primitive gut is divided into foregut,midgut and hindgut.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.053,
+      0.565,
+      0.843
+    ],
+    "text": "·Laryngotracheal diverticulum develop in the midline of the ventral wall of the foregut.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.053,
+      0.829,
+      0.906
+    ],
+    "text": "The distal end enlarges to form lung buds,which is separated from the foregut by tracheoesophageal folds.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.317,
+      0.157,
+      0.684
+    ],
+    "text": "PrimordialGut",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:figure-2",
+    "page_id": 10,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_10_Figure_0.jpg",
+    "bbox_norm": [
+      0.204,
+      0.164,
+      0.946,
+      0.863
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.239,
+      0.053,
+      0.359,
+      0.904
+    ],
+    "text": "·Tracheo-esophageal fold fuse in midline to form tracheo-esophageal septum.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.052,
+      0.626,
+      0.937
+    ],
+    "text": "The foregut divide into laryngotracheal tube(larynx,trachea,bronchi&lungs) ventrally and esophagus dorsally.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-3",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.713,
+      0.053,
+      0.829,
+      0.881
+    ],
+    "text": "· Esophagus is initially short,but lengthens with descent of heart and lungs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.041,
+      0.148,
+      0.119,
+      0.85
+    ],
+    "text": "CONGENITALANOMALIES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-2",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.052,
+      0.305,
+      0.414
+    ],
+    "text": "·esophageal atresia,EA,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.317,
+      0.052,
+      0.421,
+      0.359
+    ],
+    "text": "·tracheoesophageal fistula,TEF,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.437,
+      0.053,
+      0.487,
+      0.378
+    ],
+    "text": "·esophageal stenosis,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.052,
+      0.552,
+      0.324
+    ],
+    "text": "·esophageal cyst,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.562,
+      0.052,
+      0.612,
+      0.47
+    ],
+    "text": "·tracheobronchial remnant,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.05,
+      0.784,
+      0.412
+    ],
+    "text": "·esophagealatresia and tracheoesophageal fistula,EA-EF,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.536,
+      0.295,
+      0.817
+    ],
+    "text": "·esophageal web,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-9",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.536,
+      0.413,
+      0.878
+    ],
+    "text": "·esophageal muscular hypertrophy,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.537,
+      0.477,
+      0.916
+    ],
+    "text": "·esophageal duplications,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-11",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.487,
+      0.536,
+      0.593,
+      0.895
+    ],
+    "text": "·columnarepitheliumlined lower esophagus,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.605,
+      0.536,
+      0.762,
+      0.932
+    ],
+    "text": "·Barrett's esophagus,laryngotrache oesophageal cleft,LEC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.164,
+      0.157,
+      0.833
+    ],
+    "text": "ANATOMY OF ESOPHAGUS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.239,
+      0.052,
+      0.623,
+      0.46
+    ],
+    "text": "Flattenedmuscular tube,size18 to 26cm beginning atlower border of cricoid cartilage(opp 6th cervical vertebra) and ending at cardiac orifice of stomach(opp11th cervical vertebra)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.692,
+      0.052,
+      0.883,
+      0.442
+    ],
+    "text": "Dividedinto3anatomical   \nsegments   \ni.e.,cervical,thoracic&   \nabdominal",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-4",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.23,
+      0.549,
+      0.892,
+      0.93
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.053,
+      0.444,
+      0.882
+    ],
+    "text": "· Cervical esophagus extend from pharyngeal junction to suprasternal notch and is abt 4- 5cm.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.053,
+      0.763,
+      0.921
+    ],
+    "text": "·Atthis level,eosophagusborderedanteriorly by trachea,post by vetebral column and lat by carotid sheath and thyroid gland.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.053,
+      0.453,
+      0.917
+    ],
+    "text": "Thoracic esophagus extend from suprasternal notch(opp T1) to diaphragmatic hiatus(opp T10).18cm in length.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.052,
+      0.838,
+      0.94
+    ],
+    "text": "Anteriorly lies the trachea,rt pulmonary artery, left main bronchus & diaphragm.post it rest on vertebral column and closely related to thoracic duct, azygous & hemiazygous vein.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.053,
+      0.463,
+      0.867
+    ],
+    "text": "Abdominal esophagus extend from diaphragmatic hiatus to orifice of cardia of stomach.size abt1 cm.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.052,
+      0.852,
+      0.876
+    ],
+    "text": "Its right border is continuous with lesser curvature & left border is demarcated from fundus by esophagogastric angle of implantation(angle of His)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.13,
+      0.159,
+      0.868
+    ],
+    "text": "ESOPHAGEAL CONSTRICTION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:figure-2",
+    "page_id": 19,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_19_Figure_0.jpg",
+    "bbox_norm": [
+      0.189,
+      0.07,
+      0.958,
+      0.468
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.511,
+      0.487,
+      0.923
+    ],
+    "text": "Superiorly: level of   \nCricoid   \ncartilage, juncture with   \npharynx",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.581,
+      0.515,
+      0.697,
+      0.938
+    ],
+    "text": "·Middle:crossed byaorta and left main bronchi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-5",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.515,
+      0.911,
+      0.941
+    ],
+    "text": "·Inferiorly: diaphragmatic sphincter",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.078,
+      0.266,
+      0.173,
+      0.729
+    ],
+    "text": "SPHINCTERS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-2",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.054,
+      0.375,
+      0.895
+    ],
+    "text": "Two high pressure zones prevent the backflow of food:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-3",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.406,
+      0.054,
+      0.467,
+      0.61
+    ],
+    "text": "·Upper Esophageal sphincter.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-4",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.054,
+      0.55,
+      0.609
+    ],
+    "text": "·Lower Esophageal sphincter.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-5",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.574,
+      0.054,
+      0.704,
+      0.789
+    ],
+    "text": "· It is located at upper and lower end of esophagus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.078,
+      0.063,
+      0.173,
+      0.937
+    ],
+    "text": "LAYERS OF ESOPHAGUS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.053,
+      0.376,
+      0.841
+    ],
+    "text": "Structurally, esophagus wall composed of 4 layers:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.053,
+      0.463,
+      0.445
+    ],
+    "text": "·Innermostmucosa,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.491,
+      0.054,
+      0.546,
+      0.317
+    ],
+    "text": "·Submucosa,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-5",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.053,
+      0.635,
+      0.446
+    ],
+    "text": "·Muscularis propria",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-6",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.661,
+      0.054,
+      0.715,
+      0.294
+    ],
+    "text": "·Adventitia.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-7",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.054,
+      0.8,
+      0.287
+    ],
+    "text": "·No serosa.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.2,
+      0.177,
+      0.805
+    ],
+    "text": "BLOOD SUPPLY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-2",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.054,
+      0.309,
+      0.363
+    ],
+    "text": "·Arterial supply",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-3",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.418,
+      0.054,
+      0.55,
+      0.916
+    ],
+    "text": "Branches of inf thyroid artery - UES & cervical esophagus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-4",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.053,
+      0.708,
+      0.902
+    ],
+    "text": "Paired aortic esophageal arteries or terminal br.of bronchial artery-thoracic esophagus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-5",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.73,
+      0.053,
+      0.864,
+      0.842
+    ],
+    "text": "· Left gastric & br.of left phrenic art- LES& distal esophagus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:text-1",
+    "page_id": 23,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.029,
+      0.402,
+      0.052,
+      0.601
+    ],
+    "text": "Arteriesof Esophagus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-23:figure-2",
+    "page_id": 23,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_23_Figure_0.jpg",
+    "bbox_norm": [
+      0.074,
+      0.069,
+      0.965,
+      0.944
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.273,
+      0.111,
+      0.723
+    ],
+    "text": "VENOUSDRAINAGE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-2",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.053,
+      0.352,
+      0.915
+    ],
+    "text": "Proximal & distal esophagus drains into azygous veins.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-3",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.053,
+      0.565,
+      0.839
+    ],
+    "text": "Mid-esophagus drains into collaterals of left gastric vein,br. of portal vein.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-24:text-4",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.654,
+      0.053,
+      0.833,
+      0.921
+    ],
+    "text": "·Submucosal connection between portal and systemic venous system in distal esophagus form esophageal varices in portal hypertension.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:figure-1",
+    "page_id": 25,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_25_Figure_0.jpg",
+    "bbox_norm": [
+      0.06,
+      0.062,
+      0.963,
+      0.945
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-26:text-1",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.33,
+      0.112,
+      0.669
+    ],
+    "text": "NERVE SUPPLY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-2",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.052,
+      0.272,
+      0.751
+    ],
+    "text": "Extrinsic network -sympathetic& parasympathetic.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-3",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.288,
+      0.052,
+      0.494,
+      0.93
+    ],
+    "text": "SYMPATHETIC: -Neck - sup & inf cervical ganglion, -Thorax- upper thoracic and splanchnic nerve.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-4",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.506,
+      0.053,
+      0.562,
+      0.444
+    ],
+    "text": "·PARASYMPATHETIC:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-5",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.089,
+      0.697,
+      0.941
+    ],
+    "text": "\\- from recurrent laryngeal nerve&br of vagus in thorax&abdomen.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-6",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.053,
+      0.767,
+      0.238
+    ],
+    "text": "·Intrinsic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-7",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.786,
+      0.154,
+      0.845,
+      0.632
+    ],
+    "text": "-from 2 intramural plexuses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-8",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.861,
+      0.154,
+      0.918,
+      0.55
+    ],
+    "text": "\\- 1in submucous layer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:figure-1",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_0.jpg",
+    "bbox_norm": [
+      0.005,
+      0.115,
+      0.97,
+      0.906
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-28:text-1",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.218,
+      0.157,
+      0.781
+    ],
+    "text": "LYMPHATIC DRAINAGE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-2",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.054,
+      0.378,
+      0.885
+    ],
+    "text": "·Originate from 2 plexus-submucosal layer & other within the muscle layer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-3",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.054,
+      0.548,
+      0.727
+    ],
+    "text": "·Upper 2/3 flow in cranial direction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-28:text-4",
+    "page_id": 28,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.054,
+      0.717,
+      0.725
+    ],
+    "text": "·Lower1/3 flow in caudal direction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-29:figure-1",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_0.jpg",
+    "bbox_norm": [
+      0.032,
+      0.084,
+      0.965,
+      0.902
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:text-1",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.259,
+      0.157,
+      0.74
+    ],
+    "text": "BARIUM SWALLOW",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-2",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.053,
+      0.517,
+      0.881
+    ],
+    "text": "It is a medical imaging procedure used to examine upper gastrointestinal tract,which include the esophagus and to a lessr extent the stomach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-30:text-3",
+    "page_id": 30,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.054,
+      0.687,
+      0.738
+    ],
+    "text": "·The contrast used isbarium sulfate.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-1",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.364,
+      0.157,
+      0.635
+    ],
+    "text": "CONTRAST",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-2",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.055,
+      0.296,
+      0.6
+    ],
+    "text": "·TYPESOF CONTRAST STUDY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-3",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.395,
+      0.148,
+      0.456,
+      0.682
+    ],
+    "text": "(i)SINGLE CONTRAST STUDY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-31:text-4",
+    "page_id": 31,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.138,
+      0.689,
+      0.683
+    ],
+    "text": "(ii) DOUBLE CONTRAST STUDY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-1",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.081,
+      0.213,
+      0.17,
+      0.783
+    ],
+    "text": "CONTRAST USED",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-2",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.053,
+      0.295,
+      0.638
+    ],
+    "text": "·100% BARIUM SULPHATEPASTE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-3",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.053,
+      0.44,
+      0.73
+    ],
+    "text": "·80%BARIUMSULPHATESUSPENSION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-4",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.532,
+      0.053,
+      0.647,
+      0.907
+    ],
+    "text": "·30% BARIUM SULPHATE SUSPENSIONFOR HIGH KVTECHNIQUE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-32:text-5",
+    "page_id": 32,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.741,
+      0.053,
+      0.855,
+      0.867
+    ],
+    "text": "·200-250%HIGHDENSITY,OWVISCOSITOR DOUBLE CONTRAST STUDY",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-1",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.026,
+      0.356,
+      0.095,
+      0.656
+    ],
+    "text": "INDICATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-2",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.053,
+      0.171,
+      0.239
+    ],
+    "text": "·Dysphagia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-3",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.185,
+      0.053,
+      0.236,
+      0.91
+    ],
+    "text": "·Heartburn,retrosternal pain,regurgitation&odynophagia.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-4",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.053,
+      0.295,
+      0.281
+    ],
+    "text": "·Hiatus hernia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-5",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.053,
+      0.361,
+      0.363
+    ],
+    "text": "·Refluxoesophagitis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-6",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.053,
+      0.425,
+      0.367
+    ],
+    "text": "·Stricture formation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-7",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.053,
+      0.491,
+      0.416
+    ],
+    "text": "·Esophageal carcinoma.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-8",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.505,
+      0.053,
+      0.553,
+      0.381
+    ],
+    "text": "·Motilitydisorder like",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-9",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.565,
+      0.102,
+      0.605,
+      0.282
+    ],
+    "text": "i.Achalasia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-10",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.102,
+      0.661,
+      0.483
+    ],
+    "text": "ii.diffuse esophageal spasms.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-11",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.677,
+      0.053,
+      0.723,
+      0.674
+    ],
+    "text": "·Pressure or invasion from extrinsic lesions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-12",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.739,
+      0.053,
+      0.788,
+      0.505
+    ],
+    "text": "·Assessment of abnormality of",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-13",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.8,
+      0.101,
+      0.845,
+      0.851
+    ],
+    "text": "i.pharyngo esophageal junction including zenkers diverticulum",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-14",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.855,
+      0.102,
+      0.894,
+      0.305
+    ],
+    "text": "ii.cricoid webs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-15",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.907,
+      0.102,
+      0.949,
+      0.463
+    ],
+    "text": "iii.cricopharyngeal Achalasia.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-1",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.244,
+      0.157,
+      0.752
+    ],
+    "text": "CONTRAINDICATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-2",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.054,
+      0.444,
+      0.882
+    ],
+    "text": "Suspected leakage from esophagus into the mediasternum or pleura and peritoneal cavities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-3",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.562,
+      0.054,
+      0.619,
+      0.579
+    ],
+    "text": "·Tracheo-esophageal fistula",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-1",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.359,
+      0.157,
+      0.636
+    ],
+    "text": "XRAYVIEW",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-2",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.055,
+      0.387,
+      0.802
+    ],
+    "text": "·SOFT TISSUE NECK-AP& LAT-SCOUT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-3",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.505,
+      0.055,
+      0.557,
+      0.46
+    ],
+    "text": "·NECK-AP&LATERAL",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-4",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.677,
+      0.055,
+      0.727,
+      0.449
+    ],
+    "text": "·THORAX-RAOVIEW",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:text-1",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.132,
+      0.112,
+      0.865
+    ],
+    "text": "NORMAL-AP/LATVIEW-SCOUT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:figure-2",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_0.jpg",
+    "bbox_norm": [
+      0.197,
+      0.04,
+      0.954,
+      0.484
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:figure-3",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_1.jpg",
+    "bbox_norm": [
+      0.196,
+      0.501,
+      0.956,
+      0.983
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-37:text-1",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.179,
+      0.112,
+      0.816
+    ],
+    "text": "AP/LATVIEWWITHBARIUM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:figure-2",
+    "page_id": 37,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_37_Figure_0.jpg",
+    "bbox_norm": [
+      0.208,
+      0.026,
+      0.939,
+      0.498
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-37:figure-3",
+    "page_id": 37,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_37_Figure_1.jpg",
+    "bbox_norm": [
+      0.208,
+      0.533,
+      0.939,
+      0.98
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-38:text-1",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.026,
+      0.312,
+      0.119,
+      0.691
+    ],
+    "text": "RAO VIEW",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-1",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.242,
+      0.112,
+      0.756
+    ],
+    "text": "PATIENT PREPARATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-2",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.053,
+      0.347,
+      0.86
+    ],
+    "text": "· None in particular but advisable to be in NPO priorto the procedure.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-3",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.054,
+      0.534,
+      0.763
+    ],
+    "text": "·Ensured that no contraindication to the pharmacological agent used.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-4",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.611,
+      0.054,
+      0.664,
+      0.488
+    ],
+    "text": "·Check pregnancy state.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-5",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.053,
+      0.854,
+      0.916
+    ],
+    "text": "· Procedure should be explained to patient before undergoing the procedure.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-1",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.347,
+      0.161,
+      0.648
+    ],
+    "text": "TECHNIQUE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-2",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.054,
+      0.303,
+      0.273
+    ],
+    "text": "·PHARYNX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-3",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.053,
+      0.467,
+      0.819
+    ],
+    "text": "· -One mouthful contrast bolus with high density(250% w/v).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-4",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.489,
+      0.053,
+      0.621,
+      0.858
+    ],
+    "text": "· -Patient is asked to swallow once and stop swallowing there after.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-5",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.645,
+      0.084,
+      0.708,
+      0.829
+    ],
+    "text": "-This is to get optimum mucosal coating.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-6",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.729,
+      0.084,
+      0.791,
+      0.742
+    ],
+    "text": "-frontal and lateral view x-ray taken.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-1",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.248,
+      0.053,
+      0.305,
+      0.324
+    ],
+    "text": "·ESOPHAGUS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-2",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.335,
+      0.054,
+      0.394,
+      0.376
+    ],
+    "text": "·Single contrast",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-3",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.418,
+      0.053,
+      0.552,
+      0.766
+    ],
+    "text": "-Multiplemouthful 80%w/v barium suspension given.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-4",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.053,
+      0.703,
+      0.76
+    ],
+    "text": "·-prone swallow to assess esophageall contraction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-5",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.73,
+      0.05,
+      0.934,
+      0.876
+    ],
+    "text": "-useful in esophageal compression, displacement or disordered motility.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-1",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.241,
+      0.053,
+      0.295,
+      0.372
+    ],
+    "text": "·Double contrast",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-2",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.312,
+      0.053,
+      0.371,
+      0.893
+    ],
+    "text": "· -Contrast high density，low viscosity(20o-250%).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-3",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.053,
+      0.442,
+      0.704
+    ],
+    "text": "·-15-20 ml given& asked to swallow.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-4",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.053,
+      0.576,
+      0.882
+    ],
+    "text": "· -Then effervescent powder given with another mouthful of barium.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-5",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.053,
+      0.713,
+      0.765
+    ],
+    "text": "·-In erect posture,gas tend to stay up so adequate distention stays longer time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-6",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.725,
+      0.053,
+      0.847,
+      0.88
+    ],
+    "text": "· Inj.buscopan I.V given before the procedure to keep esophagus distended for longer time.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-1",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.383,
+      0.236,
+      0.454,
+      0.757
+    ],
+    "text": "SPECIFIC CONDITION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:figure-1",
+    "page_id": 44,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_44_Figure_0.jpg",
+    "bbox_norm": [
+      0.184,
+      0.058,
+      0.798,
+      0.389
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-44:text-2",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.225,
+      0.397,
+      0.281,
+      0.778
+    ],
+    "text": "·PHARYNGEALWEB",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-3",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.394,
+      0.395,
+      0.529,
+      0.91
+    ],
+    "text": "· 50/50 dilution of standard high density barium.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-4",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.552,
+      0.395,
+      0.682,
+      0.891
+    ],
+    "text": "·Film insupinefor frontal and erect for lateral view",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:figure-1",
+    "page_id": 45,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_45_Figure_0.jpg",
+    "bbox_norm": [
+      0.135,
+      0.046,
+      0.791,
+      0.376
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-45:text-2",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.118,
+      0.398,
+      0.961,
+      0.944
+    ],
+    "text": "Partially obstructing cervical esophageal web. Frontal view shows a   \ncircumferential,radiolucent ring (straight white arrows) in the proximal cervical   \nesophagus. Partial   \nobstruction is suggested by a jet phenomenon (black   \narrows), with barium   \nspurting through the   \nring,and by mild dilatation of the proximal cervical   \nesophagus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-1",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.187,
+      0.112,
+      0.809
+    ],
+    "text": "FOREIGNBODY IMPACTION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:figure-2",
+    "page_id": 46,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_46_Figure_0.jpg",
+    "bbox_norm": [
+      0.236,
+      0.101,
+      0.857,
+      0.423
+    ],
+    "text": "200EhI",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-46:text-3",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.51,
+      0.63,
+      0.898
+    ],
+    "text": "Todetectthe level of obstruction in case of radiolucent foreign body in esophagus,marsh mellow coated with bariumisswallowed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-4",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.645,
+      0.51,
+      0.864,
+      0.936
+    ],
+    "text": "·Passage ofmarsh mellowwill be hindered at the level of obstruction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-1",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.053,
+      0.394,
+      0.118,
+      0.881
+    ],
+    "text": "Xray showing foreign body",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:figure-2",
+    "page_id": 47,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_47_Figure_0.jpg",
+    "bbox_norm": [
+      0.043,
+      0.055,
+      0.531,
+      0.332
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-47:figure-3",
+    "page_id": 47,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_47_Figure_1.jpg",
+    "bbox_norm": [
+      0.552,
+      0.049,
+      0.921,
+      0.324
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-47:text-4",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.394,
+      0.715,
+      0.906
+    ],
+    "text": "· AP and lateral plain films showing a metallic foreign body in the upper esophagus. Most foreign bodies are found at the level of the cricopharyngeus muscle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-1",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.213,
+      0.118,
+      0.785
+    ],
+    "text": "Sceleroderma esophagus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:figure-2",
+    "page_id": 48,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_48_Figure_0.jpg",
+    "bbox_norm": [
+      0.22,
+      0.083,
+      0.899,
+      0.48
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-48:text-3",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.514,
+      0.842,
+      0.94
+    ],
+    "text": "Upright leftposterior   \noblique spot image from double-contrast   \nesophagography shows twowide-mouthed   \nsacculations en face   \n(black arrows) in upper   \nandmidthoracic   \nesophagus.Note how   \nuppersacculationextends superiorly justabovelevel of aortic arch (white   \narrow).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-1",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.356,
+      0.156,
+      0.644
+    ],
+    "text": "DYSPHAGIA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:figure-2",
+    "page_id": 49,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_49_Figure_0.jpg",
+    "bbox_norm": [
+      0.201,
+      0.095,
+      0.859,
+      0.434
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-49:text-3",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.511,
+      0.548,
+      0.928
+    ],
+    "text": "Post swallow oral (thick arrow) and pharyngeal (thin arrow) stasis in a patient with base of tongue cancer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-1",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.247,
+      0.157,
+      0.751
+    ],
+    "text": "MEDIASTINALMASS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:figure-2",
+    "page_id": 50,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_50_Figure_0.jpg",
+    "bbox_norm": [
+      0.229,
+      0.046,
+      0.894,
+      0.489
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-50:text-3",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.321,
+      0.513,
+      0.494,
+      0.929
+    ],
+    "text": "·Image showing anterior mediastinal mass in lateral view.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-1",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.341,
+      0.157,
+      0.658
+    ],
+    "text": "CARCINOMA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:figure-2",
+    "page_id": 51,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_51_Figure_0.jpg",
+    "bbox_norm": [
+      0.227,
+      0.115,
+      0.833,
+      0.449
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-51:text-3",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.513,
+      0.421,
+      0.937
+    ],
+    "text": "·Preferably high viscosity with normal density barium is used.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-4",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.52,
+      0.513,
+      0.697,
+      0.85
+    ],
+    "text": "·Classical finding in carcinoma-rat tail appearance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:figure-1",
+    "page_id": 52,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_52_Figure_0.jpg",
+    "bbox_norm": [
+      0.072,
+      0.165,
+      0.699,
+      0.832
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-52:text-2",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.201,
+      0.77,
+      0.39
+    ],
+    "text": "CA ESOPHAGUS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-3",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.772,
+      0.199,
+      0.897,
+      0.759
+    ],
+    "text": "With shouldering Thestenoticsegment islonggivinga\"\"\\*rat-tail\"appearance Bariumswallowshowsmilddilatationof theesophaguswith irregular stenoticlesion inthe lowerend oftheesophagus\"motheaten",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-4",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.902,
+      0.2,
+      0.925,
+      0.302
+    ],
+    "text": "appearance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-1",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.048,
+      0.321,
+      0.109,
+      0.675
+    ],
+    "text": "HIATUS HERNIA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:figure-2",
+    "page_id": 53,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_53_Figure_0.jpg",
+    "bbox_norm": [
+      0.23,
+      0.088,
+      0.876,
+      0.43
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-53:text-3",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.513,
+      0.324,
+      0.924
+    ],
+    "text": "High abdominal pressure is requiredtodemonstrate.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-4",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.514,
+      0.375,
+      0.768
+    ],
+    "text": "·Pt has to strain.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-5",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.514,
+      0.473,
+      0.915
+    ],
+    "text": "·Lie down,straighten legs& then raise themup.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-6",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.48,
+      0.514,
+      0.567,
+      0.877
+    ],
+    "text": "Manual compressionof abdomen.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-7",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.578,
+      0.514,
+      0.708,
+      0.934
+    ],
+    "text": "Pt stands upright,ask him to bend downward with leg straight.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-8",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.715,
+      0.513,
+      0.843,
+      0.91
+    ],
+    "text": "·Stomach should be distendedto demonstrate HH.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:figure-1",
+    "page_id": 54,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_54_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.256,
+      0.711,
+      0.748
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-54:text-2",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.201,
+      0.751,
+      0.39
+    ],
+    "text": "HIATUS HERNIA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:text-3",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.774,
+      0.199,
+      0.987,
+      0.721
+    ],
+    "text": "Bariummeal in Trendlenbergposition Displacementof thecardio-esophageal junction abovetheesophagealhiatus Partofthe stomach ispresent inthechest Reflux of barium into the esophagus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:text-1",
+    "page_id": 55,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.246,
+      0.159,
+      0.752
+    ],
+    "text": "ACHALASIA CARDIA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:text-2",
+    "page_id": 55,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.222,
+      0.053,
+      0.508,
+      0.479
+    ],
+    "text": "Eosophagus shouldbe cleaned thoroughly (aspirate &wash) - secondaryachalasia d/t Ca esophagus not missed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:text-3",
+    "page_id": 55,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.522,
+      0.054,
+      0.633,
+      0.46
+    ],
+    "text": "Barium 80%w/v used,pt erect position.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:text-4",
+    "page_id": 55,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.651,
+      0.052,
+      0.873,
+      0.483
+    ],
+    "text": "Mecholyl test  \nhyperperistalsis,pain&stre ak of contrast entering   \nstomach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:figure-5",
+    "page_id": 55,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_55_Figure_0.jpg",
+    "bbox_norm": [
+      0.208,
+      0.5,
+      0.965,
+      0.957
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-56:text-1",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.269,
+      0.157,
+      0.726
+    ],
+    "text": "ACHALSIA CARDIA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-2",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.18,
+      0.053,
+      0.361,
+      0.433
+    ],
+    "text": "·Bariumswallow showing dilatation of the esophageal body",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-3",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.44,
+      0.093,
+      0.555,
+      0.433
+    ],
+    "text": "\\*With short segment stricture.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-4",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.638,
+      0.091,
+      1.0,
+      0.419
+    ],
+    "text": "\\*A\"bird-peak \" like tapering of the   \nesophagusat the GE junction.OR   \n\\*A Sigmoid \"Mega esophagus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:figure-5",
+    "page_id": 56,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_56_Figure_0.jpg",
+    "bbox_norm": [
+      0.199,
+      0.477,
+      0.927,
+      0.979
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-57:text-1",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.055,
+      0.096,
+      0.135,
+      0.903
+    ],
+    "text": "DIFFUSE ESOPHAGEAL SPASM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:text-2",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.05,
+      0.864,
+      0.464
+    ],
+    "text": "· Barium swallow shows irregular areas of narrowing and dilatation ---- \"Shish kebab\"\"corkscrew\" \"rosary bead\" esophagus The esophageal muscle is hypertrophied,but histologically normal",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:figure-3",
+    "page_id": 57,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_57_Figure_0.jpg",
+    "bbox_norm": [
+      0.227,
+      0.498,
+      0.972,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-58:text-1",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.222,
+      0.157,
+      0.777
+    ],
+    "text": "ESOPHAGEAL VARICES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:figure-2",
+    "page_id": 58,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_58_Figure_0.jpg",
+    "bbox_norm": [
+      0.208,
+      0.072,
+      0.953,
+      0.48
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-58:text-3",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.51,
+      0.508,
+      0.915
+    ],
+    "text": "· Supine right side up position,high density thin barium should be used.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:text-4",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.526,
+      0.51,
+      0.906,
+      0.917
+    ],
+    "text": "·Varices are best demonstrated in mucosal relief study after using Buscopan/ valsalva maneuver.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-1",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.088,
+      0.175,
+      0.915
+    ],
+    "text": "ESOPHAGEAL VARICES",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-2",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.05,
+      0.887,
+      0.483
+    ],
+    "text": "· Mild dilatation of the esophagus with multiple persistent filling defects in the lower third of the esophagus and/or longitudinal furrows.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:figure-3",
+    "page_id": 59,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_59_Figure_0.jpg",
+    "bbox_norm": [
+      0.204,
+      0.488,
+      0.953,
+      0.993
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-60:text-1",
+    "page_id": 60,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.101,
+      0.161,
+      0.895
+    ],
+    "text": "TRACHEOESOPHAGEALFISTULA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-60:figure-2",
+    "page_id": 60,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_60_Figure_0.jpg",
+    "bbox_norm": [
+      0.21,
+      0.075,
+      0.96,
+      0.454
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-60:text-3",
+    "page_id": 60,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.189,
+      0.511,
+      0.244,
+      0.882
+    ],
+    "text": "·Congenital/Acquired",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-60:text-4",
+    "page_id": 60,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.511,
+      0.354,
+      0.928
+    ],
+    "text": "· Ideal contrast non ionic water soluble media",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-60:text-5",
+    "page_id": 60,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.364,
+      0.511,
+      0.47,
+      0.893
+    ],
+    "text": "·Barium fluid like & pt lying laterally.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-60:text-6",
+    "page_id": 60,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.511,
+      0.63,
+      0.921
+    ],
+    "text": "In case fistula not identifylaterally,utin prone.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-60:text-7",
+    "page_id": 60,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.51,
+      0.892,
+      0.885
+    ],
+    "text": "· If fistula seen, stop procedure as barium aspiration result in inflammation and granuloma.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-61:text-1",
+    "page_id": 61,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.039,
+      0.084,
+      0.109,
+      0.911
+    ],
+    "text": "TRACHEOESOPHAGEAL FIST(INFANT)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-61:text-2",
+    "page_id": 61,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.246,
+      0.053,
+      0.371,
+      0.86
+    ],
+    "text": "·ARyle's tube is introduced to the level of mid esophagus & contrast is injected.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-61:text-3",
+    "page_id": 61,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.473,
+      0.053,
+      0.529,
+      0.597
+    ],
+    "text": "·The tube is withdrawn slowly.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-61:text-4",
+    "page_id": 61,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.053,
+      0.689,
+      0.924
+    ],
+    "text": "·Thiswill force the contrast thro'anysmallfistula.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-61:text-5",
+    "page_id": 61,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.054,
+      0.848,
+      0.747
+    ],
+    "text": "·Both lat& prone views to be assessed.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-62:figure-1",
+    "page_id": 62,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_62_Figure_0.jpg",
+    "bbox_norm": [
+      0.085,
+      0.018,
+      0.923,
+      0.408
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-62:text-2",
+    "page_id": 62,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.43,
+      0.769,
+      0.932
+    ],
+    "text": "Oblique barium   \nesophagogram   \ndemonstratesa fistula (arrow) arising from the anterior esophagus and extending   \nanterosuperiorly to the trachea.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-1",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.229,
+      0.157,
+      0.77
+    ],
+    "text": "ESOPHAGEAL A-RING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:figure-2",
+    "page_id": 63,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_63_Figure_0.jpg",
+    "bbox_norm": [
+      0.222,
+      0.044,
+      0.935,
+      0.488
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-63:text-3",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.511,
+      0.887,
+      0.933
+    ],
+    "text": "Esophageal A-ring due to muscular contraction at junction of tubular and vestibular esophagus .It varies during examination and may not persist.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-1",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.092,
+      0.26,
+      0.156,
+      0.738
+    ],
+    "text": "ESOPHAGEAL B-RING",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:figure-2",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_0.jpg",
+    "bbox_norm": [
+      0.265,
+      0.078,
+      0.96,
+      0.5
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:text-3",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.511,
+      0.503,
+      0.938
+    ],
+    "text": "The esophageal B-ring is   \nlocatedat the   \nsquamocolumnar   \njunction,also termed the'Z' line.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-4",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.555,
+      0.511,
+      0.902,
+      0.923
+    ],
+    "text": "·On the left a patient with a 'B'ring(arrows) several cm above diaphragm at the apex of sliding hiatus hernia. Note unchanged appearance on thesetwo images.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-1",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.121,
+      0.159,
+      0.88
+    ],
+    "text": "GASTRO ESOPHAGEALREFLUX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-2",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.234,
+      0.053,
+      0.282,
+      0.3
+    ],
+    "text": "·SIPHONTEST",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-3",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.293,
+      0.053,
+      0.347,
+      0.794
+    ],
+    "text": "Fill the stomach with 50%barium(150-200ml)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-4",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.354,
+      0.053,
+      0.454,
+      0.915
+    ],
+    "text": "Followthis1-2mouthful ofwater toremove traces of barium in esophagus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-5",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.463,
+      0.053,
+      0.515,
+      0.707
+    ],
+    "text": "·Pt in supine with left side raised 15% up",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-6",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.524,
+      0.053,
+      0.576,
+      0.717
+    ],
+    "text": "·Keep one mouthful of water in pt mouth",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-7",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.053,
+      0.684,
+      0.928
+    ],
+    "text": "· Ask pt to swallow water-a jet of barium will shoot into water column as it enter GO junction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-8",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.053,
+      0.788,
+      0.881
+    ],
+    "text": "Alternatively with full stomach,ask pt to roll side to side",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-9",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.798,
+      0.053,
+      0.848,
+      0.382
+    ],
+    "text": "·Reflux will be seen",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-1",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.231,
+      0.157,
+      0.769
+    ],
+    "text": "ESOPHAGEALREFLUX",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:figure-2",
+    "page_id": 66,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_66_Figure_0.jpg",
+    "bbox_norm": [
+      0.229,
+      0.048,
+      0.953,
+      0.5
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-66:text-3",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.244,
+      0.51,
+      0.862,
+      0.923
+    ],
+    "text": "· Reflux oesophagitis with a deep ulcer (straight arrow).There is also asymmetric narrowing of the distal esophagus with a relatively abrupt cutoff (curvedarrow) at the proximal border of the narrowed segment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-67:text-1",
+    "page_id": 67,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.253,
+      0.166,
+      0.747
+    ],
+    "text": "Barrett's Esophagus",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-67:figure-2",
+    "page_id": 67,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_67_Figure_0.jpg",
+    "bbox_norm": [
+      0.213,
+      0.1,
+      0.946,
+      0.437
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-67:text-3",
+    "page_id": 67,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.511,
+      0.954,
+      0.933
+    ],
+    "text": "·Thereticular mucosa is characteristic of Barrett's columnar metaplasia, especi ally with the associated weblike (arrow) stricture.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-68:text-1",
+    "page_id": 68,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.229,
+      0.164,
+      0.77
+    ],
+    "text": "Candida Oesophagitis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-68:figure-2",
+    "page_id": 68,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_68_Figure_0.jpg",
+    "bbox_norm": [
+      0.201,
+      0.1,
+      0.947,
+      0.43
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-68:text-3",
+    "page_id": 68,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.326,
+      0.477,
+      0.876,
+      0.967
+    ],
+    "text": "The barium study shows numerous fine erosions and small plaques due to Candida albicans in immunocompromised patient.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-69:text-1",
+    "page_id": 69,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.034,
+      0.074,
+      0.116,
+      0.928
+    ],
+    "text": "LEFT ATRIAL ENLARGEMENT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-69:figure-2",
+    "page_id": 69,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_69_Figure_0.jpg",
+    "bbox_norm": [
+      0.222,
+      0.044,
+      0.947,
+      0.493
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-69:text-3",
+    "page_id": 69,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.513,
+      0.876,
+      0.93
+    ],
+    "text": "Right anterior oblique film and barium swallow demonstrates left atrial compression of the esophagus confirming left atrial dilation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:text-1",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.187,
+      0.159,
+      0.812
+    ],
+    "text": "COARCTATION OFAORTA",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-70:figure-2",
+    "page_id": 70,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_70_Figure_0.jpg",
+    "bbox_norm": [
+      0.197,
+      0.035,
+      0.961,
+      0.503
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-70:text-3",
+    "page_id": 70,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.513,
+      0.881,
+      0.92
+    ],
+    "text": "Bariuminthe   \nesophagus   \nexhibits the   \n'reverse 3 sign'   \noutlining the   \nmedial site of the   \naortic indentation   \nin the descending   \naorta",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:text-1",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.015,
+      0.235,
+      0.086,
+      0.859
+    ],
+    "text": "ZENKERS DIVERTICULUM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:figure-2",
+    "page_id": 71,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_71_Figure_0.jpg",
+    "bbox_norm": [
+      0.151,
+      0.023,
+      0.949,
+      0.453
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-71:text-3",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.144,
+      0.476,
+      0.619,
+      0.964
+    ],
+    "text": "AZenker'sdiverticulum isa pulsion hypopharyngeal false diverticulum with only mucosa and submucosa protruding through triangular posteriorwall weak site (Killian'sdehiscence) between horizontal and oblique components of cricopharyngeus muscle.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-71:text-4",
+    "page_id": 71,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.475,
+      0.953,
+      0.963
+    ],
+    "text": "·The esophagram shows collection with midline posterior origin just above cricopharyngeus protruding lateral,usually to left,and caudal with enlargement.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-72:text-1",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.088,
+      0.067,
+      0.161,
+      0.929
+    ],
+    "text": "KILLIAN JAMIESONDIVERTICULUM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-72:figure-2",
+    "page_id": 72,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_72_Figure_0.jpg",
+    "bbox_norm": [
+      0.21,
+      0.066,
+      0.911,
+      0.441
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-72:text-3",
+    "page_id": 72,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.513,
+      0.864,
+      0.944
+    ],
+    "text": "Killian-Jamieson diverticulum is a pulsion diverticulum,that protrudes througha lateralanatomic weaksite ofthe cervical esophagusbelowthe cricopharyngeusmuscle. APviewshowsdiverticulum (arrow) originating laterally. Lateralviewconfirms diverticulum doesnot originate posteriorlyasa Zenkersdiverticulum would.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-73:figure-1",
+    "page_id": 73,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_73_Figure_0.jpg",
+    "bbox_norm": [
+      0.081,
+      0.029,
+      0.944,
+      0.407
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-73:text-2",
+    "page_id": 73,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.429,
+      0.871,
+      0.97
+    ],
+    "text": "·An obliqueview of the pharynx shows Zenker's diverticulum (Z) with its opening (short arrow) above the prominent cricopharyngeus (C). The Killian-Jamieson diverticulum (K) has its opening (long arrow) below the prominent cricopharyngeus.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-74:text-1",
+    "page_id": 74,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.09,
+      0.305,
+      0.157,
+      0.691
+    ],
+    "text": "COMPLICATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-74:figure-2",
+    "page_id": 74,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_74_Figure_0.jpg",
+    "bbox_norm": [
+      0.184,
+      0.088,
+      0.967,
+      0.46
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-74:text-3",
+    "page_id": 74,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.406,
+      0.511,
+      0.746,
+      0.839
+    ],
+    "text": "· Leakage of barium from unsuspected perforation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-75:text-1",
+    "page_id": 75,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.078,
+      0.213,
+      0.171,
+      0.781
+    ],
+    "text": "COMPLICATION",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-75:figure-2",
+    "page_id": 75,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_75_Figure_0.jpg",
+    "bbox_norm": [
+      0.211,
+      0.029,
+      0.972,
+      0.593
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-75:text-3",
+    "page_id": 75,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.494,
+      0.623,
+      0.55,
+      0.847
+    ],
+    "text": "·Aspiration",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-76:text-1",
+    "page_id": 76,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.287,
+      0.128,
+      0.743
+    ],
+    "text": "Thank u very much.",
+    "source_type": "text"
+  }
+]

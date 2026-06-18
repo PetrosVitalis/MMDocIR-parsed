@@ -1,0 +1,1 @@
+<table><tr><td>DKK million</td><td>2020</td><td>2019</td></tr><tr><td>Statutory audit</td><td>8</td><td>8</td></tr><tr><td>Audit-related services</td><td>3</td><td>3</td></tr><tr><td>Tax advisory services</td><td>5</td><td>6</td></tr><tr><td> Other services</td><td>1</td><td>3</td></tr><tr><td>Total fee to statutory auditors</td><td>17</td><td>20</td></tr></table>

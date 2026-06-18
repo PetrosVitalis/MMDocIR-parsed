@@ -1,0 +1,7 @@
+name,N,task,output,premise,hypothesis,label
+SNLI,560k,NLI,3,A small girl wearing a pink jacket is riding on a carousel.,The carousel is moving.,entailment
+SICK-E,10k,NLI,3,A man is sitting on a chair and rubbing his eyes,There is no man sitting on a chair and rubbing his eyes,contradiction
+SICK-R,10k,STS,[0,5],A man is singing a song and playing the guitar,"A man is opening a package that contains headphones,1.6"
+STS14,4.5k,STS,[0,5],Liquid ammonia leak kills 15 in Shanghai,"Liquid ammonia leak kills at least 15 in Shanghai,4.6"
+MRPC,5.7k,PD,2,The procedure is generally performed in the second or third trimester.,"The technique is used during the second and, occasionally, third trimester of pregnancy.",paraphrase
+COCO,565k,ICR,sim,A group of people on some horses riding through the beach.,A group of people on some horses riding through the beach.,rank

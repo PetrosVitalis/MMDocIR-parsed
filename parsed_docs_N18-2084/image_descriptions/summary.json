@@ -1,0 +1,18 @@
+{
+  "folder": "/mnt/c/Users/OMEN/OneDrive/\u03a5\u03c0\u03bf\u03bb\u03bf\u03b3\u03b9\u03c3\u03c4\u03ae\u03c2/multi-agent-system/thesis-multi-agent/parsed_docs_N18-2084",
+  "total_images": 2,
+  "processed": 2,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_2_Figure_0.jpeg",
+      "output": "image_descriptions/_page_2_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_8.jpeg",
+      "output": "image_descriptions/_page_4_Figure_8.md",
+      "status": "success"
+    }
+  ]
+}

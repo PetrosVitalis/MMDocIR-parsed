@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Year Ended December 31,2019</td><td>%of consolidated net revenues</td><td>Year Ended December 31,2018</td><td>%of consolidated net revenues</td><td></td><td>Increase (Decrease)</td></tr><tr><td>Restructuring and related costs</td><td>$</td><td>132</td><td>2% $</td><td>10</td><td>%</td><td>122</td></tr></table>

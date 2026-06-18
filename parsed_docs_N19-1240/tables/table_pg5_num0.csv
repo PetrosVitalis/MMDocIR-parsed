@@ -1,0 +1,11 @@
+Model,Unmasked Test,Unmasked Dev,Masked Test,Masked Dev
+"Human (Welbl et al., 2018)",74.1,,"-,-",
+"FastQA (Welbl et al., 2018)",25.7,,"35.8,-",
+"BiDAF (Welbl et al., 2018)",42.9,,"54.5,-",
+"Coref-GRU (Dhingra et al., 2018)",59.3,56.0,"-,-",
+"MHPGM (Bauer et al., 2018)",-,58.2,"-,-",
+"Weaver / Jenga (Raison et al., 2018)",65.3,64.1,"-,-",
+"MHQA-GRN (Song et al., 2018)",65.4,62.8,"-,-",
+Entity-GCN without coreference (single model),67.6,64.8,-,70.5
+Entity-GCN with coreference (single model),66.4,65.3,,
+Entity-GCN* (ensemble 5 models),71.2,68.5,,71.6

@@ -1,0 +1,1 @@
+<table><tr><td>DECISION ON</td><td>DECISION-MAKING AUTHORITY</td></tr><tr><td>Compensation of Chairman and other Board members</td><td>Board of Directors</td></tr><tr><td>Compensation of CEO</td><td>Board of Directors</td></tr><tr><td>Compensation of other Executive Committee members</td><td>Compensation Committee</td></tr></table>

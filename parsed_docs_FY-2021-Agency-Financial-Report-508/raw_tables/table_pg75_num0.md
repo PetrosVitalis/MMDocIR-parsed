@@ -1,0 +1,1 @@
+<table><tr><td>Asset Category</td><td>Estimated Useful Life</td></tr><tr><td>Land Improvements</td><td>30 years</td></tr><tr><td>Buildings and Structures</td><td>10 to 50 years</td></tr><tr><td>Assets Under Capital Lease</td><td>Lease term or 30 years</td></tr><tr><td>Leasehold Improvements</td><td>Lesser of lease term or 10 years</td></tr></table>

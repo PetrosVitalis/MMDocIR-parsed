@@ -1,0 +1,99 @@
+{
+  "image": "_page_133_Table_0.jpg",
+  "reason": "model_timeout",
+  "backend": "local",
+  "model": "qwen2.5vl:7b",
+  "timeout_seconds": 90.0,
+  "run_diagnostics": {
+    "image": "_page_133_Table_0.jpg",
+    "stages": [
+      {
+        "stage": "initial_extract",
+        "elapsed_seconds": 90.08,
+        "status": "failed"
+      },
+      {
+        "stage": "timeout_fast_retry",
+        "elapsed_seconds": 82.06,
+        "status": "success"
+      },
+      {
+        "stage": "timeout_chunked_recovery",
+        "elapsed_seconds": 294.77,
+        "status": "failed"
+      },
+      {
+        "stage": "timeout_ocr_last_resort",
+        "status": "started"
+      }
+    ],
+    "shape_hint": {
+      "expected_cols": 9,
+      "min_rows": 26,
+      "confidence": "high",
+      "source": "image_projection_heuristic",
+      "enforce": true,
+      "enforce_cols": true
+    },
+    "risk_profile": {
+      "risk": "high",
+      "score": 7,
+      "width": 1390,
+      "height": 1873,
+      "area": 2603470,
+      "aspect": 0.742,
+      "expected_cols": 9,
+      "min_rows": 26,
+      "shape_confidence": "high"
+    },
+    "strategy": "staged_local_timeout_flow",
+    "chunked_band_count": 5,
+    "chunked_band_results": [
+      {
+        "band": 1,
+        "status": "success",
+        "elapsed_seconds": 110.97999999999999,
+        "mode": "fast_tsv_small"
+      },
+      {
+        "band": 2,
+        "status": "success",
+        "elapsed_seconds": 115.89999999999999,
+        "mode": "fast_tsv_small"
+      },
+      {
+        "band": 3,
+        "status": "success",
+        "elapsed_seconds": 35.65,
+        "mode": "fast_tsv"
+      },
+      {
+        "band": 4,
+        "status": "success",
+        "elapsed_seconds": 24.75,
+        "mode": "fast_tsv"
+      },
+      {
+        "band": 5,
+        "status": "success",
+        "elapsed_seconds": 7.47,
+        "mode": "fast_tsv"
+      }
+    ],
+    "chunked_stitch_status": "failed"
+  },
+  "details": {
+    "strict_repair": false,
+    "comma_safe_tsv": false,
+    "stutter_safe_tsv": false,
+    "fast_mode": false,
+    "ocr_text_only": true,
+    "max_dimension": 1400,
+    "join_timeout_seconds": 90.0,
+    "forced_kill": false,
+    "stage_context": {
+      "strategy": "timeout_ocr_last_resort",
+      "risk": "high"
+    }
+  }
+}

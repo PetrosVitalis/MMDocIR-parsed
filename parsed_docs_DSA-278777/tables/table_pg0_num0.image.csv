@@ -1,0 +1,10 @@
+Device,Internal Memory,Timers/,Event Counters,Interrupts,Program,Data
+8031AH,none,128 x 8 RAM,2 x 16-Bit,5,none,128 x 8 RAM
+8051AH,4K x 8 ROM,128 x 8 RAM,2 x 16-Bit,5,4K x 8 ROM,128 x 8 RAM
+8051AHP,4K x 8 ROM,128 x 8 RAM,2 x 16-Bit,5,4K x 8 ROM,128 x 8 RAM
+8751H,4K x 8 EPROM,128 x 8 RAM,2 x 16-Bit,5,4K x 8 EPROM,128 x 8 RAM
+8751H-8,4K x 8 EPROM,128 x 8 RAM,2 x 16-Bit,5,4K x 8 EPROM,128 x 8 RAM
+8751BH,4K x 8 EPROM,128 x 8 RAM,2 x 16-Bit,5,4K x 8 EPROM,128 x 8 RAM
+8032AH,none,256 x 8 RAM,3 x 16-Bit,6,none,256 x 8 RAM
+8052AH,8K x 8 ROM,256 x 8 RAM,3 x 16-Bit,6,8K x 8 ROM,256 x 8 RAM
+8752BH,8K x 8 EPROM,256 x 8 RAM,3 x 16-Bit,6,8K x 8 EPROM,256 x 8 RAM

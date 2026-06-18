@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">(crore)</td></tr><tr><td>Asat</td><td>Asat</td></tr><tr><td>March31, 202 238</td><td>March31,2019 184</td></tr><tr><td></td><td rowspan="3">55 239</td></tr><tr><td>55</td></tr><tr><td>293</td></tr></table>

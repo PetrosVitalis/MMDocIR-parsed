@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Number of direct shares</td><td rowspan=1 colspan=1>Number of indirect shares</td><td rowspan=1 colspan=1>Total percentage of share capital</td></tr><tr><td rowspan=1 colspan=1>4,226,305</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.136%</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>(Dollars in millions)</td><td>2022</td><td>2023</td><td>2024</td><td>2025</td><td></td><td></td><td></td><td>TOTAL</td></tr><tr><td>Net operating losses</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>65</td></tr></table>

@@ -1,0 +1,5 @@
+Task,Template,Label Words,Review: <S1>,Sentiment: <L>,Review: <S>,Sentiment:,,
+TREC,Question: <S1>,"Abbreviation, Entity",Question: <S>,Answer Type: <L>,Answer Type:,"Description, Person Location, Number",,
+AGNews,Article: <S1>,"World, Sports",Article: <S>,Answer: <L>,Answer:,"Business, Technology",,
+EmoC,Dialogue: <S1>,"Others, Happy",Dialogue: <S>,Emotion: <L>,Emotion:,"Sad, Angry",,
+SST-2,Review:<S1> Sentiment:<L> Review:<S> Sentiment:,,,,"Positive,Negative",,,

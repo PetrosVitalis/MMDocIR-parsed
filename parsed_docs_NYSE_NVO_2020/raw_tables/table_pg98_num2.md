@@ -1,0 +1,1 @@
+<table><tr><td>DKK million</td><td>2020</td><td>2019</td></tr><tr><td>Commitments</td><td></td><td></td></tr><tr><td>Leases1</td><td>137</td><td>175</td></tr><tr><td>Potential milestone payments2</td><td>6,794</td><td>4,464</td></tr><tr><td>Guarantees given for subsidiaries</td><td>8,490</td><td>10,011</td></tr><tr><td>Other guarantees</td><td>101</td><td>130</td></tr></table>

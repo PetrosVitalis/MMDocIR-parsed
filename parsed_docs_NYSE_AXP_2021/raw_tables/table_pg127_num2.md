@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td>Total</td></tr><tr><td>2022</td><td>3,216</td></tr><tr><td>2023</td><td>777</td></tr><tr><td>2024</td><td>287</td></tr><tr><td>2025</td><td>211</td></tr><tr><td>2026</td><td>19</td></tr><tr><td>After5years</td><td></td></tr><tr><td>Total</td><td>4,510</td></tr></table>

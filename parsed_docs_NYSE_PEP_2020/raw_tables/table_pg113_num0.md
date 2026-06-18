@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Operating lease cost (a) $</td><td>539 $</td><td>474</td></tr><tr><td>Variable lease cost (b) $</td><td>111 $</td><td>101</td></tr><tr><td>Short-term lease cost C) $</td><td>436 $</td><td>379</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>At December 31, 2020</td><td>At December 31, 2019</td></tr><tr><td>$in millions Senior</td><td>$ 202,305 $</td><td>179,519</td></tr><tr><td>Subordinated</td><td>11,083</td><td>10,541</td></tr><tr><td>Total</td><td>$ 213,388$</td><td>190,060</td></tr><tr><td>Weighted averagestated maturity,in years</td><td>7.3</td><td>6.9</td></tr></table>

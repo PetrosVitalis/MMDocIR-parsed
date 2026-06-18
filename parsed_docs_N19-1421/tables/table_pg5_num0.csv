@@ -1,0 +1,9 @@
+Model,Training,Context
+VecSIM,X,X
+LM1B,x<<,X
+QA BILINEAR,,X
+QA COMPAR E,,X
+ESIM,√,X
+GPT,√,X
+BERT,√,X
+BIDAF++,√,√

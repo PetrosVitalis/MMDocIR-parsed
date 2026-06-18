@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">PART I</td></tr><tr><td>Item 1. Business</td><td>2</td></tr><tr><td>Item1A.1 Risk Factors</td><td>11</td></tr><tr><td>Item 1B.Unresolved Staff Comments</td><td>22</td></tr><tr><td>Item 2. Properties</td><td>23</td></tr><tr><td>Item 3.</td><td>Legal Proceedings 23</td></tr><tr><td>Item 4.</td><td>Mine Safety Disclosures 23</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td> United States</td><td>Other Countries</td><td>Total</td></tr><tr><td>Owned facilities</td><td>4.5</td><td>0.3</td><td>4.8</td></tr><tr><td>Leased facilities</td><td>1.0</td><td>6.4</td><td>7.4</td></tr><tr><td>Total</td><td>5.5</td><td>6.7</td><td>12.2</td></tr></table>

@@ -1,0 +1,15 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_f1f5242528411b262be447e61e2eb10f",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_3_Table_0.jpg",
+      "raw_md": "table_pg3_num0.md",
+      "csv_base": "table_pg3_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

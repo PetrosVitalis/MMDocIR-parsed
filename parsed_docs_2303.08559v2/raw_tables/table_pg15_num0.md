@@ -1,0 +1,1 @@
+<table><tr><td></td><td>|FewNERD TACREV ACE05</td></tr><tr><td>t=0</td><td>48.5(1.9) 53.7(2.3)</td></tr><tr><td>+ 5-ensemble 53.5(1.3)</td><td>42.9(2.2) 58.6(1.5) 46.3(0.8)</td></tr><tr><td>t=0.7</td><td>40.9(2.3) 39.9(1.2)</td></tr><tr><td>+ self-consistency</td><td>35.6(1.0) 52.1(0.9) 53.4(1.3) 45.6(3.0)</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Financial Year</td><td rowspan=1 colspan=1>Date of declaration</td><td rowspan=1 colspan=1>Last date for claiming unpaiddividend</td></tr><tr><td rowspan=1 colspan=1>2012-13</td><td rowspan=1 colspan=1>May 30,2013</td><td rowspan=1 colspan=1>July 3,2020</td></tr></table>

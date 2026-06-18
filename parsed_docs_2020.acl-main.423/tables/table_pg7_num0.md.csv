@@ -1,0 +1,5 @@
+,SemEval-SSFrozen,SemEval-SS Fine-tuned,Word in Context
+$\mathbf { B E R T _ { B A S E } }$,65.1,79.2,1
+$\mathbf { B E R T _ { L A R G E } }$,67.3,81.1,69.6
+$\mathrm { S e n s e B E R T _ { B A S E } }$,75.6,83.0,70.3
+$\mathrm { S e n s e B E R T _ { L A R G E } }$,79.5,83.7,72.1

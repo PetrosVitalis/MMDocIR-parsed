@@ -1,0 +1,1 @@
+<table><tr><td colspan="2">(crore)</td></tr><tr><td>As at</td><td>As at</td></tr><tr><td>March31,22</td><td>March31,2019</td></tr><tr><td>186</td><td>177</td></tr><tr><td>=</td><td>491</td></tr><tr><td>36</td><td>36</td></tr></table>

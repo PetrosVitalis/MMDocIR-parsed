@@ -1,0 +1,12 @@
+Model,unmasked,masked
+full (ensemble),68.5,71.6
+full (single),65.1 ± 0.11,70.4 ± 0.12
+GloVe with R-GCN,59.2,11.1
+GloVe w/o R-GCN,51.2,11.6
+No R-GCN,62.4,63.2
+No relation types,62.7,63.9
+No DOC-BASED,62.9,65.8
+No MATCH,64.3,67.4
+No COREF,64.8,
+No COMPLEMENT,64.1,70.3
+Induced edges,61.5,56.4

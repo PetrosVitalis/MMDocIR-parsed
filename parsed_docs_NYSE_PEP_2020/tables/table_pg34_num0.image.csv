@@ -1,0 +1,22 @@
+PBNA,Tropicana plant,"Bradenton, Florida",Owned
+Property Type\tLocation\tOwned/ Leased,,,
+Research and development facility\tPlano,Texas\tOwned,,
+Food plant\tCedar Rapids,Iowa\tOwned,,
+Research and development facility\tValhalla,New York\tOwned,,
+Concentrate plant\tArlington,Texas\tOwned,,
+Tropicana plant\tBradenton,Florida\tOwned,,
+Snack plant\tCelaya,Mexico\tOwned,,
+LatAm,Snack plant,"Celaya, Mexico",Owned
+LatAm,Two snack plants,"Vallejo, Mexico",Owned
+Europe,Snack plant,"Kashira, Russia",Owned
+Europe,Manufacturing plant,"Lehavim, Israel",Owned
+Europe,Dairy plant,"Moscow, Russia","Owned,(a)"
+AMESA,Snack plant,"Riyadh, Saudi Arabia","Owned,(a)"
+APAC,Snack plant,"Wuhan, China","Owned,(a)"
+AMESA,Snack plant,"Riyadh, Saudi Arabia",Owned (a)
+APAC,Snack plant,"Wuhan, China",Owned (a)
+"FLNA, QFNA, PBNA",Shared service center,"Winston Salem, North Carolina",Leased
+"PBNA, LatAm",Concentrate plant,"Colonia, Uruguay",Owned (a)
+"PBNA, Europe, AMESA",Two concentrate plants,"Cork, Ireland",Owned
+"PBNA, AMESA, APAC",Concentrate plant,Singapore,Owned
+All divisions,Shared service center,"Hyderabad, India",Leased

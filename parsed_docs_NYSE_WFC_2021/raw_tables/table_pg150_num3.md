@@ -1,0 +1,1 @@
+<table><tr><td>(in millions)</td><td colspan="2">Dec 31,2021</td><td>Dec 31,2020</td></tr><tr><td>ROUassets</td><td>$</td><td>3,805</td><td>4,306</td></tr><tr><td>Lease liabilities</td><td></td><td>4,476</td><td>4,962</td></tr></table>

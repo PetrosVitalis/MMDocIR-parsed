@@ -1,0 +1,6 @@
+Symbol,Description,Min,Max,Units
+T_A,Ambient Temperature Under Bias,0,+70,°C
+T_A,Commercial,-40,+85,°C
+T_A,Express,-40,+85,°C
+V_CC,Supply Voltage,4.5,5.5,V
+FOSC,Oscillator Frequency,3.5,12,MHz

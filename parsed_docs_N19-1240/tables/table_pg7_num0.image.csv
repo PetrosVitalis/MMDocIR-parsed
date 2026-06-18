@@ -1,0 +1,9 @@
+Relation,Accuracy,P@2,P@5,Avg. |C_q|,Supports
+overall (ensemble),68.5,81.0,94.1,20.4 ± 16.6,5129
+overall (single model),65.3,79.7,92.9,20.4 ± 16.6,5129
+member_of_political_party,85.5,95.7,98.6,5.4 ± 2.4,70
+record_label,83.0,93.6,99.3,12.4 ± 6.1,283
+publisher,81.5,96.3,100.0,9.6 ± 5.1,54
+place_of_birth,51.0,67.2,86.8,27.2 ± 14.5,309
+place_of_death,50.0,67.3,89.1,25.1 ± 14.3,159
+inception,29.9,53.2,83.1,21.9 ± 11.0,77

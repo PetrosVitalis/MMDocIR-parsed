@@ -1,0 +1,23 @@
+Paragrafo,Riferimento,Parametro nazionale,-,valore o prescrizione,-,-
+- 2.3.1.2(1),Nota,"Si adottano i valori raccomandati (vedi nota al §2.3.1.2 e prospetto 2.2 dell'EN1995-1-1). Le azioni durante l'esecuzione si assumono di breve durata, come raccomandato.",,-,-,
+- 2.4.1,Nota,Si adottano i valori dei coefficienti γM della tabella seguente,,-,,
+Stati limite ultimi,γM,,-,-,-,
+Legno e derivati,,-,-,-,-,
+",- combinazioni fondamentali",,-,-,-,-,
+legno massiccio,γM=1.50,,-,-,-,"-,-"
+legno lamellare incollato,γM=1.45,,-,-,-,"-,-"
+pannelli di particelle o di fibre,γM=1.50,,-,-,-,"-,-"
+"compensato, pannelli di scaglie orientate",γM=1.40,,-,-,-,"-,-,-"
+",- stato limite di fatica","γM,sl=1.00",,-,-,-,"-,-,-"
+Unioni,,-,-,-,-,
+",- combinazioni fondamentali",γM=1.50,,-,-,-,"-,-"
+",- stato limite di fatica","γM,sl=1.00",,-,-,-,"-,-,-"
+Acciaio usato in elementi composti,"γM,a=1.15",,-,-,-,"-,-,-"
+Calcestruzzo usato in elementi composti,"γM,c=1.50",,-,-,-,"-,-,-"
+Unioni a taglio in elementi composti legno-calcestruzzo,,-,-,-,-,
+",- combinazioni fondamentali",γM=1.25,,-,-,-,"-,-"
+",- stato limite di fatica","γM,fc=1.00",,-,-,-,"-,-,-"
+Combinazioni eccezionali,γM=1.00,,-,-,-,"-,-,-"
+- 7.2,Nota,Si adottano i valori di inflessione limite raccomandati della tabella 7.1.,,-,,
+- 7.3.1(2),Nota I,"Valori del coefficiente di smorzamento diversi da quelli indicati possono essere adottati per specifiche strutture, previa adeguata giustificazione su base sperimentale.",,-,"-,-,-",
+Utilizzo appendici informative,,Le Appendici informative A e B mantengono il carattere informativo.,,-,"-,-",

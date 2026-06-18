@@ -1,0 +1,1851 @@
+{
+  "document_md_path": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_2023555933/document.md",
+  "index_version": 9,
+  "pages": [
+    {
+      "page_id": 0,
+      "unit_id": "page-0",
+      "text": "# China: Regulation of Artificial Intelligence\n\nJune 2023\n\nLL File No. 2023-022300   \nLRA-D-PUB-002640",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "China: Regulation of Artificial Intelligence"
+      ],
+      "table_context": "",
+      "retrieval_text": "# China: Regulation of Artificial Intelligence\n\nJune 2023\n\nLL File No. 2023-022300   \nLRA-D-PUB-002640"
+    },
+    {
+      "page_id": 1,
+      "unit_id": "page-1",
+      "text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated."
+    },
+    {
+      "page_id": 2,
+      "unit_id": "page-2",
+      "text": "## Contents\n\nI. Introduction ..   \nFigure 1: Timeline of China's AI Governance Initiatives . 3   \nII. AI Rules and Governance Principles .. 3   \nA. Algorithmic Recommendation Provisions .. 3   \nB. Deep Synthesis Provisions . 4   \nC. Draft Generative AI Measures . 5   \nD. AI Governance Principles .. 6   \nIII. Cybersecurity and Data Privacy Laws .. 7   \nA. Cybersecurity Law . 7   \nB. Data Security Law .. . 8   \nC. Personal Information Protection Law .. 9   \nD. Measures on Security Assessment for Cross-Border Data Transfer... . 10",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Contents"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Contents\n\nI. Introduction ..   \nFigure 1: Timeline of China's AI Governance Initiatives . 3   \nII. AI Rules and Governance Principles .. 3   \nA. Algorithmic Recommendation Provisions .. 3   \nB. Deep Synthesis Provisions . 4   \nC. Draft Generative AI Measures . 5   \nD. AI Governance Principles .. 6   \nIII. Cybersecurity and Data Privacy Laws .. 7   \nA. Cybersecurity Law . 7   \nB. Data Security Law .. . 8   \nC. Personal Information Protection Law .. 9   \nD. Measures on Security Assessment for Cross-Border Data Transfer... . 10"
+    },
+    {
+      "page_id": 3,
+      "unit_id": "page-3",
+      "text": "# China: Regulation of Artificial Intelligence\n\nLaney Zhang Foreign Law Specialist\n\n## SUMMARY\n\nChina has not enacted a comprehensive artificial intelligence (AI) law or state regulation, while three major laws governing cybersecurity, data security, and data privacy have been passed in recent years. Joined by other authorities, the Cyberspace Administration of China (CAC) has issued administrative rules regulating AI-related technologies and proposed draft measures regulating generative AI. The country plans to complete building the AI legal, ethical, and policy systems by 2030.\n\nThe CAC rules require recommendation algorithms “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the algorithm type and an algorithm self-assessment report. The CAC rules also set out comprehensive responsibilities for deep synthesis service providers concerning data security and personal information protection, transparency, and technical security.\n\nThe draft generative AI measures require service providers using generative AI products to undergo a security assessment before providing services to the public. Providers of generative AI services would be responsible for the legitimacy of the source of any pre-training data or optimization training data used for their generative AI product.\n\nThe Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data. The Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. Transferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers.\n\n## I. Introduction\n\nThis report provides a general overview of the current legal system of the People’s Republic of China (PRC or China) regulating artificial intelligence (AI), and addresses the measures ensuring the security of AI systems. In April 2023, the Cyberspace Administration of China (CAC), China’s primary cybersecurity authority, released draft measures to regulate the provision of generative AI services, for example, ChatGPT, to solicit comments from the public on the proposed measures. The measures state that China’s regulatory objective concerning generative AI is to promote its healthy development while ensuring its regulated application.1",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "China: Regulation of Artificial Intelligence",
+        "SUMMARY",
+        "I. Introduction"
+      ],
+      "table_context": "",
+      "retrieval_text": "# China: Regulation of Artificial Intelligence\n\nLaney Zhang Foreign Law Specialist\n\n## SUMMARY\n\nChina has not enacted a comprehensive artificial intelligence (AI) law or state regulation, while three major laws governing cybersecurity, data security, and data privacy have been passed in recent years. Joined by other authorities, the Cyberspace Administration of China (CAC) has issued administrative rules regulating AI-related technologies and proposed draft measures regulating generative AI. The country plans to complete building the AI legal, ethical, and policy systems by 2030.\n\nThe CAC rules require recommendation algorithms “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the algorithm type and an algorithm self-assessment report. The CAC rules also set out comprehensive responsibilities for deep synthesis service providers concerning data security and personal information protection, transparency, and technical security.\n\nThe draft generative AI measures require service providers using generative AI products to undergo a security assessment before providing services to the public. Providers of generative AI services would be responsible for the legitimacy of the source of any pre-training data or optimization training data used for their generative AI product.\n\nThe Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data. The Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. Transferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers.\n\n## I. Introduction\n\nThis report provides a general overview of the current legal system of the People’s Republic of China (PRC or China) regulating artificial intelligence (AI), and addresses the measures ensuring the security of AI systems. In April 2023, the Cyberspace Administration of China (CAC), China’s primary cybersecurity authority, released draft measures to regulate the provision of generative AI services, for example, ChatGPT, to solicit comments from the public on the proposed measures. The measures state that China’s regulatory objective concerning generative AI is to promote its healthy development while ensuring its regulated application.1"
+    },
+    {
+      "page_id": 4,
+      "unit_id": "page-4",
+      "text": "Joined by several other authorities, the CAC had previously issued two sets of administrative rules regulating deep-synthesis technology and algorithm recommendation technology (discussed below in Part II). The AI Governance Expert Committee established in the Ministry of Science and Technology has issued the AI governance principles for developing responsible AI.2 It has also promulgated ethical norms for AI activities in China.3 A nonmandatory national standard on the security framework for AI computing platforms is being formulated.4 Local governments, particularly the Shenzhen and Shanghai municipalities, have started issuing their own regulations and policies aimed at promoting the development of the AI industry within their jurisdictions.5\n\nWhile three major laws governing cybersecurity, data security, and data privacy have been passed in recent years (discussed below in Section III), until now, China has not enacted a comprehensive AI law or state regulation. According to the Next Generation Artificial Intelligence Development Plan, which was issued by the State Council in 2017 and sets forth the country’s long-term strategic goals for AI development, China seeks to become the world’s primary AI innovation center by 2030, when it will complete building the AI legal, ethical, and policy systems.6\n\nThe AI development plan states that China is to strengthen research on legal, ethical, and social issues related to AI. It is also to establish regulatory and ethical frameworks to ensure the healthy development of AI. Specifically, China is to conduct research on legal issues related to AI applications, including confirmation of civil and criminal responsibility, protection of privacy and property, and information security utilization. The plan also addresses tax incentives for AI enterprises, formulation of technical standards concerning network security and privacy protection, protection of intellectual property, and construction of the AI security supervision and evaluation system.7",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Joined by several other authorities, the CAC had previously issued two sets of administrative rules regulating deep-synthesis technology and algorithm recommendation technology (discussed below in Part II). The AI Governance Expert Committee established in the Ministry of Science and Technology has issued the AI governance principles for developing responsible AI.2 It has also promulgated ethical norms for AI activities in China.3 A nonmandatory national standard on the security framework for AI computing platforms is being formulated.4 Local governments, particularly the Shenzhen and Shanghai municipalities, have started issuing their own regulations and policies aimed at promoting the development of the AI industry within their jurisdictions.5\n\nWhile three major laws governing cybersecurity, data security, and data privacy have been passed in recent years (discussed below in Section III), until now, China has not enacted a comprehensive AI law or state regulation. According to the Next Generation Artificial Intelligence Development Plan, which was issued by the State Council in 2017 and sets forth the country’s long-term strategic goals for AI development, China seeks to become the world’s primary AI innovation center by 2030, when it will complete building the AI legal, ethical, and policy systems.6\n\nThe AI development plan states that China is to strengthen research on legal, ethical, and social issues related to AI. It is also to establish regulatory and ethical frameworks to ensure the healthy development of AI. Specifically, China is to conduct research on legal issues related to AI applications, including confirmation of civil and criminal responsibility, protection of privacy and property, and information security utilization. The plan also addresses tax incentives for AI enterprises, formulation of technical standards concerning network security and privacy protection, protection of intellectual property, and construction of the AI security supervision and evaluation system.7"
+    },
+    {
+      "page_id": 5,
+      "unit_id": "page-5",
+      "text": "Figure 1: Timeline of China's AI Governance Initiatives\n![](assets/_page_5_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_5_Figure_0.jpg`\n> \n> **Generated:** 2026-05-16 01:30:23\n> \n> ---\n> \n> The image is a timeline chart showing the development and implementation phases of various AI-related policies and regulations from 2017 to 2024. It includes key milestones such as the \"New Generation AI Development Plan\" (July 8, 2017), \"Ethical Norms for New Generation AI\" (September 25, 2021), and \"Administrative Provisions on Deep Synthesis in Internet-Based Information Services\" (November 25, 2022). The timeline is color-coded to distinguish different phases or categories of policy development, with each phase represented by a different color. The chart highlights the progression of AI policy development over the years, with specific dates marked for key policy documents and regulations.\n\n\n## II. AI Rules and Governance Principles\n\n## A. Algorithmic Recommendation Provisions\n\nIn December 2021, the CAC and the Ministry of Industry and Information Technology (MIIT), Ministry of Public Security (MPS), and the State Administration for Market Regulation (SAMR) jointly issued the Internet Information Service Algorithmic Recommendation Management Provisions (Algorithmic Recommendation Provisions). 8 The provisions apply to the use of algorithmic recommendation technology to provide internet information services within the territory of mainland China, unless otherwise stipulated by laws or regulations.9",
+      "image_refs": [
+        "assets/_page_5_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_5_Figure_0.jpg"
+      ],
+      "headings": [
+        "II. AI Rules and Governance Principles",
+        "A. Algorithmic Recommendation Provisions"
+      ],
+      "table_context": "",
+      "retrieval_text": "Figure 1: Timeline of China's AI Governance Initiatives\n![](assets/_page_5_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_5_Figure_0.jpg`\n> \n> **Generated:** 2026-05-16 01:30:23\n> \n> ---\n> \n> The image is a timeline chart showing the development and implementation phases of various AI-related policies and regulations from 2017 to 2024. It includes key milestones such as the \"New Generation AI Development Plan\" (July 8, 2017), \"Ethical Norms for New Generation AI\" (September 25, 2021), and \"Administrative Provisions on Deep Synthesis in Internet-Based Information Services\" (November 25, 2022). The timeline is color-coded to distinguish different phases or categories of policy development, with each phase represented by a different color. The chart highlights the progression of AI policy development over the years, with specific dates marked for key policy documents and regulations.\n\n\n## II. AI Rules and Governance Principles\n\n## A. Algorithmic Recommendation Provisions\n\nIn December 2021, the CAC and the Ministry of Industry and Information Technology (MIIT), Ministry of Public Security (MPS), and the State Administration for Market Regulation (SAMR) jointly issued the Internet Information Service Algorithmic Recommendation Management Provisions (Algorithmic Recommendation Provisions). 8 The provisions apply to the use of algorithmic recommendation technology to provide internet information services within the territory of mainland China, unless otherwise stipulated by laws or regulations.9"
+    },
+    {
+      "page_id": 6,
+      "unit_id": "page-6",
+      "text": "“Use of algorithmic recommendation technology” refers to “use of generative or synthetic–type, personalized recommendation–type, ranking and selection–type, search filter–type, dispatching and decision-making–type, and other such algorithmic technologies to provide information to users.”10\n\nAmong other things, the Algorithmic Recommendation Provisions require providers of algorithm recommendation services “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the service provider’s name, form of service, application field, algorithm type, algorithm self-assessment report, and content to be publicized.11\n\n## B. Deep Synthesis Provisions\n\nIn November 2022, the CAC, MIIT, and MPS jointly issued the Administrative Provisions on Deep Synthesis in Internet-Based Information Services (Deep Synthesis Provisions), which govern “deep synthesis technologies” that are “technologies that use generative sequencing algorithms, such as deep learning and virtual reality, to create text, images, audio, video, virtual scenes, or other information.”12\n\nThe Deep Synthesis Provisions set out comprehensive responsibilities for deep synthesis service (DSS) providers and DSS technical supporters concerning data security and personal information protection, transparency, and technical security. For example, DSS providers and DSS technical supporters that provide a function that edits face, voice, or other biometric information must prompt the users of their deep synthesis services to inform the individual whose information is to be edited and obtain the individual’s specific consent in accordance with the law.13\n\nThe Deep Synthesis Provisions further require DSS providers and DSS technical supporters to enhance technical management and to regularly review, evaluate, and validate the mechanism and logic of their generative or synthetic algorithms. If they provide any model, template, or other tool with the functions of generating or editing face, voice, other biometric information, or any special object, scene, or other non-biometric information that may involve national security, national image, national interests, or social and public interests, the DSS providers and DSS technical supporters must by law perform a security assessment or have one performed by a professional institution.14",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "B. Deep Synthesis Provisions"
+      ],
+      "table_context": "",
+      "retrieval_text": "“Use of algorithmic recommendation technology” refers to “use of generative or synthetic–type, personalized recommendation–type, ranking and selection–type, search filter–type, dispatching and decision-making–type, and other such algorithmic technologies to provide information to users.”10\n\nAmong other things, the Algorithmic Recommendation Provisions require providers of algorithm recommendation services “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the service provider’s name, form of service, application field, algorithm type, algorithm self-assessment report, and content to be publicized.11\n\n## B. Deep Synthesis Provisions\n\nIn November 2022, the CAC, MIIT, and MPS jointly issued the Administrative Provisions on Deep Synthesis in Internet-Based Information Services (Deep Synthesis Provisions), which govern “deep synthesis technologies” that are “technologies that use generative sequencing algorithms, such as deep learning and virtual reality, to create text, images, audio, video, virtual scenes, or other information.”12\n\nThe Deep Synthesis Provisions set out comprehensive responsibilities for deep synthesis service (DSS) providers and DSS technical supporters concerning data security and personal information protection, transparency, and technical security. For example, DSS providers and DSS technical supporters that provide a function that edits face, voice, or other biometric information must prompt the users of their deep synthesis services to inform the individual whose information is to be edited and obtain the individual’s specific consent in accordance with the law.13\n\nThe Deep Synthesis Provisions further require DSS providers and DSS technical supporters to enhance technical management and to regularly review, evaluate, and validate the mechanism and logic of their generative or synthetic algorithms. If they provide any model, template, or other tool with the functions of generating or editing face, voice, other biometric information, or any special object, scene, or other non-biometric information that may involve national security, national image, national interests, or social and public interests, the DSS providers and DSS technical supporters must by law perform a security assessment or have one performed by a professional institution.14"
+    },
+    {
+      "page_id": 7,
+      "unit_id": "page-7",
+      "text": "## C. Draft Generative AI Measures\n\nThe Deep Synthesis Provisions took effect in January 2023. In April 2023, the CAC published the Measures for the Management of Generative Artificial Intelligence Services, which aim to regulate the provision of generative AI services to the public of mainland China.15 “Generative AI” under the draft measures refers to “technologies generating text, image, audio, video, code, or other such content based on algorithms, models, or rules.”16\n\nAccording to the draft generative AI measures, before providing services to the public using generative AI products, the providers would be required to apply to the CAC for a security assessment. The requirements of algorithm filing under the Algorithmic Recommendation Provisions would also apply.17\n\nUnder the measures, providers of generative AI services would be responsible for the legitimacy of the source of any pretraining data or optimization training data used for their generative AI product. Any pretraining or optimization training data used for a generative AI product would be required to meet all of the following requirements:\n\n1. Conforming to the requirements of the Cybersecurity Law of the People’s Republic of China and other such laws and regulations;\n\n2. Not containing content infringing intellectual property rights;\n\n3. Where data includes personal information, the consent of the personal information subject shall be obtained, or other procedures conforming with the provisions of laws and administrative regulations followed;\n\n4. Be able to ensure the data’s veracity, accuracy, objectivity, and diversity;\n\n5. Other supervision requirements of the state cybersecurity and informatization department concerning generative AI functions and services.18\n\nFurthermore, when providing generative AI services, providers would be required to ask users to register their real identities in accordance with the Cybersecurity Law. 19 Under the Cybersecurity Law, the service providers are prohibited from providing services to any users who do not perform the identity authentication steps.20",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "C. Draft Generative AI Measures"
+      ],
+      "table_context": "",
+      "retrieval_text": "## C. Draft Generative AI Measures\n\nThe Deep Synthesis Provisions took effect in January 2023. In April 2023, the CAC published the Measures for the Management of Generative Artificial Intelligence Services, which aim to regulate the provision of generative AI services to the public of mainland China.15 “Generative AI” under the draft measures refers to “technologies generating text, image, audio, video, code, or other such content based on algorithms, models, or rules.”16\n\nAccording to the draft generative AI measures, before providing services to the public using generative AI products, the providers would be required to apply to the CAC for a security assessment. The requirements of algorithm filing under the Algorithmic Recommendation Provisions would also apply.17\n\nUnder the measures, providers of generative AI services would be responsible for the legitimacy of the source of any pretraining data or optimization training data used for their generative AI product. Any pretraining or optimization training data used for a generative AI product would be required to meet all of the following requirements:\n\n1. Conforming to the requirements of the Cybersecurity Law of the People’s Republic of China and other such laws and regulations;\n\n2. Not containing content infringing intellectual property rights;\n\n3. Where data includes personal information, the consent of the personal information subject shall be obtained, or other procedures conforming with the provisions of laws and administrative regulations followed;\n\n4. Be able to ensure the data’s veracity, accuracy, objectivity, and diversity;\n\n5. Other supervision requirements of the state cybersecurity and informatization department concerning generative AI functions and services.18\n\nFurthermore, when providing generative AI services, providers would be required to ask users to register their real identities in accordance with the Cybersecurity Law. 19 Under the Cybersecurity Law, the service providers are prohibited from providing services to any users who do not perform the identity authentication steps.20"
+    },
+    {
+      "page_id": 8,
+      "unit_id": "page-8",
+      "text": "In the process of providing services, providers would be obligated to protect users’ input information and usage records. It would be prohibited to unlawfully retain input information that could be used to deduce a user’s identity, profile users based on their input information and usage, or provide users’ input information to others.21\n\nViolation of the measures would be punished in accordance with the Cybersecurity Law, Data Security Law, and Personal Information Protection Law.22 The CAC and other relevant competent authorities would also be able to impose administrative penalties, including a fine ranging from 10,000 yuan to 100,000 yuan (CNY) (about US\\$1,392 to US\\$13,920).23 If the violation constitutes a violation of public security administration, punishment would be imposed in accordance with that law; if it constitutes a criminal offense, the offender could also be criminally prosecuted.24\n\n## D. AI Governance Principles\n\nThe following eight standards comprise China’s AI governance principles:\n\n• harmony and friendliness,\n\n• fairness and justice,\n\ninclusiveness and sharing,\n\n• respect for privacy,\n\nsecurity and controllability,\n\n• shared responsibility,\n\nopen cooperation, and\n\nagile governance.25\n\nRegarding security and controllability, the principles state,\n\nAI systems should continuously improve transparency, explainability, reliability, and controllability, and gradually achieve auditability, supervisability, traceability, and trustworthiness. Pay close attention to the safety/security of AI systems, improve the robustness and tamper-resistance of AI, and form AI security assessment and management capabilities.26",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "D. AI Governance Principles"
+      ],
+      "table_context": "",
+      "retrieval_text": "In the process of providing services, providers would be obligated to protect users’ input information and usage records. It would be prohibited to unlawfully retain input information that could be used to deduce a user’s identity, profile users based on their input information and usage, or provide users’ input information to others.21\n\nViolation of the measures would be punished in accordance with the Cybersecurity Law, Data Security Law, and Personal Information Protection Law.22 The CAC and other relevant competent authorities would also be able to impose administrative penalties, including a fine ranging from 10,000 yuan to 100,000 yuan (CNY) (about US\\$1,392 to US\\$13,920).23 If the violation constitutes a violation of public security administration, punishment would be imposed in accordance with that law; if it constitutes a criminal offense, the offender could also be criminally prosecuted.24\n\n## D. AI Governance Principles\n\nThe following eight standards comprise China’s AI governance principles:\n\n• harmony and friendliness,\n\n• fairness and justice,\n\ninclusiveness and sharing,\n\n• respect for privacy,\n\nsecurity and controllability,\n\n• shared responsibility,\n\nopen cooperation, and\n\nagile governance.25\n\nRegarding security and controllability, the principles state,\n\nAI systems should continuously improve transparency, explainability, reliability, and controllability, and gradually achieve auditability, supervisability, traceability, and trustworthiness. Pay close attention to the safety/security of AI systems, improve the robustness and tamper-resistance of AI, and form AI security assessment and management capabilities.26"
+    },
+    {
+      "page_id": 9,
+      "unit_id": "page-9",
+      "text": "Regarding data privacy, the principles state that AI development should respect and protect personal privacy and protect individuals’ right to know and right to choose. Standards should be established for the collection, storage, processing, and use of personal information. Mechanisms to revoke authorized access to personal information should be improved. The theft of, tampering with, illegal disclosure of, and any other illegal collection or use of personal information should be opposed.27\n\n## III. Cybersecurity and Data Privacy Laws\n\n## A. Cybersecurity Law\n\nThe PRC Cybersecurity Law was passed in November 2016 and entered into effect on June 1, 2017.28 The purposes of this law include ensuring cybersecurity and safeguarding cyberspace sovereignty and national security. 29 According to the law, the state takes measures for monitoring, preventing, and handling cybersecurity risks and threats arising inside and outside the PRC territory and protects critical information infrastructure against attacks, intrusions, interference, and destruction.30\n\nThe Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data.31 Network operators are required by the law to provide technical support and assistance to the public security organs and the national security organs in the authorities’ activities of protecting national security and investigating crimes.32 “Network operators” under the law include owners and administrators of a network and network service providers.33\n\nFor activities endangering cybersecurity that are not serious enough to constitute crimes, the Cybersecurity Law sets out administrative penalties, including confiscation of illegal gains, administrative detention for up to 15 days, and fines.34 A violation of the Cybersecurity Law that is serious enough to constitute a crime is criminally punishable in accordance with the PRC Criminal Law, China’s penal code that has national application.35\n\nThe Cybersecurity Law sets out general rules requiring data protection by network operators. Network operators are obligated by the law to establish network information security complaint and reporting systems, publicly disclose information such as the methods for making complaints or reports, and promptly accept and handle complaints and reports relevant to network information security. 36 The law requires network operators to cooperate in supervision and inspections conducted by the internet information authority and other relevant authorities in accordance with the law.37",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "III. Cybersecurity and Data Privacy Laws",
+        "A. Cybersecurity Law"
+      ],
+      "table_context": "",
+      "retrieval_text": "Regarding data privacy, the principles state that AI development should respect and protect personal privacy and protect individuals’ right to know and right to choose. Standards should be established for the collection, storage, processing, and use of personal information. Mechanisms to revoke authorized access to personal information should be improved. The theft of, tampering with, illegal disclosure of, and any other illegal collection or use of personal information should be opposed.27\n\n## III. Cybersecurity and Data Privacy Laws\n\n## A. Cybersecurity Law\n\nThe PRC Cybersecurity Law was passed in November 2016 and entered into effect on June 1, 2017.28 The purposes of this law include ensuring cybersecurity and safeguarding cyberspace sovereignty and national security. 29 According to the law, the state takes measures for monitoring, preventing, and handling cybersecurity risks and threats arising inside and outside the PRC territory and protects critical information infrastructure against attacks, intrusions, interference, and destruction.30\n\nThe Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data.31 Network operators are required by the law to provide technical support and assistance to the public security organs and the national security organs in the authorities’ activities of protecting national security and investigating crimes.32 “Network operators” under the law include owners and administrators of a network and network service providers.33\n\nFor activities endangering cybersecurity that are not serious enough to constitute crimes, the Cybersecurity Law sets out administrative penalties, including confiscation of illegal gains, administrative detention for up to 15 days, and fines.34 A violation of the Cybersecurity Law that is serious enough to constitute a crime is criminally punishable in accordance with the PRC Criminal Law, China’s penal code that has national application.35\n\nThe Cybersecurity Law sets out general rules requiring data protection by network operators. Network operators are obligated by the law to establish network information security complaint and reporting systems, publicly disclose information such as the methods for making complaints or reports, and promptly accept and handle complaints and reports relevant to network information security. 36 The law requires network operators to cooperate in supervision and inspections conducted by the internet information authority and other relevant authorities in accordance with the law.37"
+    },
+    {
+      "page_id": 10,
+      "unit_id": "page-10",
+      "text": "Network operators are also obliged to monitor the content disseminated by their users. Once a network operator discovers any information that is prohibited by laws or regulations from being published or transmitted, it must immediately stop the transmission of such information, delete the information, take measures to prevent the information from proliferating, keep relevant records, and report to the competent government authorities.38\n\nNetwork operators and their responsible persons will face fines for failing to authenticate users’ identities, refusing to provide the technical support and assistance to the public security, or rejecting or obstructing the supervision and inspections conducted by the authorities.39 The fine imposed on network operators is from CNY50,000 to CNY500,000 (about US\\$7,186 to US\\$71,863). The fine imposed on persons directly in charge and other persons who are directly liable is from CNY10,000 to CNY100,000 (about US\\$1,437 to \\$14,373).40\n\nWhere network operators fail to comply with such content monitoring obligations, the competent authorities may order them to rectify the wrongdoing, suspend relevant services, and shut down their websites. The authorities may also revoke relevant licenses and impose a fine on the network operators and their responsible persons.41\n\n## B. Data Security Law\n\nThe PRC Data Security Law was passed in June 2021 and entered into effect on September 1, 2021.42 The purposes of the law include ensuring data security, promoting data development and use, protecting the rights and interests of individuals, and “safeguarding national sovereignty, security, and development interests.”43\n\nThe Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. According to the law, security review decisions made under it are final decisions.44",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "B. Data Security Law"
+      ],
+      "table_context": "",
+      "retrieval_text": "Network operators are also obliged to monitor the content disseminated by their users. Once a network operator discovers any information that is prohibited by laws or regulations from being published or transmitted, it must immediately stop the transmission of such information, delete the information, take measures to prevent the information from proliferating, keep relevant records, and report to the competent government authorities.38\n\nNetwork operators and their responsible persons will face fines for failing to authenticate users’ identities, refusing to provide the technical support and assistance to the public security, or rejecting or obstructing the supervision and inspections conducted by the authorities.39 The fine imposed on network operators is from CNY50,000 to CNY500,000 (about US\\$7,186 to US\\$71,863). The fine imposed on persons directly in charge and other persons who are directly liable is from CNY10,000 to CNY100,000 (about US\\$1,437 to \\$14,373).40\n\nWhere network operators fail to comply with such content monitoring obligations, the competent authorities may order them to rectify the wrongdoing, suspend relevant services, and shut down their websites. The authorities may also revoke relevant licenses and impose a fine on the network operators and their responsible persons.41\n\n## B. Data Security Law\n\nThe PRC Data Security Law was passed in June 2021 and entered into effect on September 1, 2021.42 The purposes of the law include ensuring data security, promoting data development and use, protecting the rights and interests of individuals, and “safeguarding national sovereignty, security, and development interests.”43\n\nThe Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. According to the law, security review decisions made under it are final decisions.44"
+    },
+    {
+      "page_id": 11,
+      "unit_id": "page-11",
+      "text": "Under the Data Security Law, where public security organs and national security organs need to obtain data necessary to safeguard national security or investigate crimes in accordance with law, relevant entities and individuals must cooperate.45 The law provides fines to be imposed on the entities and their responsible persons for refusing to cooperate with the authorities in their obtaining of data.46\n\n## C. Personal Information Protection Law\n\nThe PRC Personal Information Protection Law (PIPL) was passed in August 2021 and entered into effect on November 1, 2021.47 The law is formulated to protect personal information rights and interests, standardize personal information processing activities, and promote the rational use of personal information.48\n\nThe PIPL applies to the activities of handling the personal information within the territory of mainland China. It may, however, also apply to activities of processing personal information of any individual within China that are carried out outside China, as long as one of the following circumstances is present:\n\n1. Where the purpose is to provide products or services to natural persons inside the borders;\n\n2. Where analyzing or assessing activities of natural persons inside the borders;\n\n3. Other circumstances provided in laws or administrative regulations.49\n\nAccording to the PIPL, personal information processors must follow the principles of openness and transparency when processing personal information. They must disclose the rules, purpose, method, and scope of processing of personal information.50 Unless laws or regulations stipulate otherwise, they can only retain personal information for the minimum period necessary for achieving the purpose of processing.51 Personal information processors are responsible for their activities of processing of personal information and must take necessary measures to ensure the security of the personal information processed.52",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "C. Personal Information Protection Law"
+      ],
+      "table_context": "",
+      "retrieval_text": "Under the Data Security Law, where public security organs and national security organs need to obtain data necessary to safeguard national security or investigate crimes in accordance with law, relevant entities and individuals must cooperate.45 The law provides fines to be imposed on the entities and their responsible persons for refusing to cooperate with the authorities in their obtaining of data.46\n\n## C. Personal Information Protection Law\n\nThe PRC Personal Information Protection Law (PIPL) was passed in August 2021 and entered into effect on November 1, 2021.47 The law is formulated to protect personal information rights and interests, standardize personal information processing activities, and promote the rational use of personal information.48\n\nThe PIPL applies to the activities of handling the personal information within the territory of mainland China. It may, however, also apply to activities of processing personal information of any individual within China that are carried out outside China, as long as one of the following circumstances is present:\n\n1. Where the purpose is to provide products or services to natural persons inside the borders;\n\n2. Where analyzing or assessing activities of natural persons inside the borders;\n\n3. Other circumstances provided in laws or administrative regulations.49\n\nAccording to the PIPL, personal information processors must follow the principles of openness and transparency when processing personal information. They must disclose the rules, purpose, method, and scope of processing of personal information.50 Unless laws or regulations stipulate otherwise, they can only retain personal information for the minimum period necessary for achieving the purpose of processing.51 Personal information processors are responsible for their activities of processing of personal information and must take necessary measures to ensure the security of the personal information processed.52"
+    },
+    {
+      "page_id": 12,
+      "unit_id": "page-12",
+      "text": "The PIPL allows installment of facial recognition equipment in public spaces that are necessary to maintain public security. The law states that such equipment must be accompanied with a prominent sign indicating the equipment. 53 Any personal image or personal identification information that has been collected can only be used for the purpose of maintaining public security, except where individuals’ separate consent is obtained.54\n\n## D. Measures on Security Assessment for Cross-Border Data Transfer\n\nTransferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers, which were issued by the CAC in July 2022.55 The measures aim to “regulate outbound data transfer activities,” “protect personal information rights and interests,” and “safeguard national security and the social public interest.”56 The measures provide detailed guidance on the security assessment for cross-border data transfer, which supplements the requirements under the Cybersecurity Law, Data Security Law, and PIPL.57\n\nThe security assessment is a combination of a self-assessment of security and a mandatory CAC security assessment. 58 The CAC assessment is required in the following three specific circumstances and in a catch-all situation:\n\n1. Where the data handler provides important data abroad;\n\n2. Critical information infrastructure operators and data handlers handling the personal information of over 1 million people providing personal information abroad;\n\n3. Data handlers providing abroad the personal information of more than 100,000 people or the sensitive personal information of more than 10,000 people since January 1 of the previous year;\n\n4. Other circumstances where the State cybersecurity and informatization department provides data export security assessment must be applied for.59",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "D. Measures on Security Assessment for Cross-Border Data Transfer"
+      ],
+      "table_context": "",
+      "retrieval_text": "The PIPL allows installment of facial recognition equipment in public spaces that are necessary to maintain public security. The law states that such equipment must be accompanied with a prominent sign indicating the equipment. 53 Any personal image or personal identification information that has been collected can only be used for the purpose of maintaining public security, except where individuals’ separate consent is obtained.54\n\n## D. Measures on Security Assessment for Cross-Border Data Transfer\n\nTransferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers, which were issued by the CAC in July 2022.55 The measures aim to “regulate outbound data transfer activities,” “protect personal information rights and interests,” and “safeguard national security and the social public interest.”56 The measures provide detailed guidance on the security assessment for cross-border data transfer, which supplements the requirements under the Cybersecurity Law, Data Security Law, and PIPL.57\n\nThe security assessment is a combination of a self-assessment of security and a mandatory CAC security assessment. 58 The CAC assessment is required in the following three specific circumstances and in a catch-all situation:\n\n1. Where the data handler provides important data abroad;\n\n2. Critical information infrastructure operators and data handlers handling the personal information of over 1 million people providing personal information abroad;\n\n3. Data handlers providing abroad the personal information of more than 100,000 people or the sensitive personal information of more than 10,000 people since January 1 of the previous year;\n\n4. Other circumstances where the State cybersecurity and informatization department provides data export security assessment must be applied for.59"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "page-0-chunk-0",
+      "page_id": 0,
+      "page_number": 0,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "# China: Regulation of Artificial Intelligence\n\nJune 2023\n\nLL File No. 2023-022300   \nLRA-D-PUB-002640",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "China: Regulation of Artificial Intelligence"
+      ],
+      "table_context": "",
+      "retrieval_text": "# China: Regulation of Artificial Intelligence\n\nJune 2023\n\nLL File No. 2023-022300   \nLRA-D-PUB-002640"
+    },
+    {
+      "chunk_id": "page-1-chunk-0",
+      "page_id": 1,
+      "page_number": 1,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated."
+    },
+    {
+      "chunk_id": "page-2-chunk-0",
+      "page_id": 2,
+      "page_number": 2,
+      "parent_section": "Contents",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## Contents\n\nI. Introduction ..   \nFigure 1: Timeline of China's AI Governance Initiatives . 3   \nII. AI Rules and Governance Principles .. 3   \nA. Algorithmic Recommendation Provisions .. 3   \nB. Deep Synthesis Provisions . 4   \nC. Draft Generative AI Measures . 5   \nD. AI Governance Principles .. 6   \nIII. Cybersecurity and Data Privacy Laws .. 7   \nA. Cybersecurity Law . 7   \nB. Data Security Law .. . 8   \nC. Personal Information Protection Law .. 9   \nD. Measures on Security Assessment for Cross-Border Data Transfer... . 10",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "Contents"
+      ],
+      "table_context": "",
+      "retrieval_text": "## Contents\n\nI. Introduction ..   \nFigure 1: Timeline of China's AI Governance Initiatives . 3   \nII. AI Rules and Governance Principles .. 3   \nA. Algorithmic Recommendation Provisions .. 3   \nB. Deep Synthesis Provisions . 4   \nC. Draft Generative AI Measures . 5   \nD. AI Governance Principles .. 6   \nIII. Cybersecurity and Data Privacy Laws .. 7   \nA. Cybersecurity Law . 7   \nB. Data Security Law .. . 8   \nC. Personal Information Protection Law .. 9   \nD. Measures on Security Assessment for Cross-Border Data Transfer... . 10"
+    },
+    {
+      "chunk_id": "page-3-chunk-0",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "# China: Regulation of Artificial Intelligence\n\nLaney Zhang Foreign Law Specialist",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "China: Regulation of Artificial Intelligence"
+      ],
+      "table_context": "",
+      "retrieval_text": "# China: Regulation of Artificial Intelligence\n\nLaney Zhang Foreign Law Specialist"
+    },
+    {
+      "chunk_id": "page-3-chunk-1",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "SUMMARY",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## SUMMARY\n\nChina has not enacted a comprehensive artificial intelligence (AI) law or state regulation, while three major laws governing cybersecurity, data security, and data privacy have been passed in recent years. Joined by other authorities, the Cyberspace Administration of China (CAC) has issued administrative rules regulating AI-related technologies and proposed draft measures regulating generative AI. The country plans to complete building the AI legal, ethical, and policy systems by 2030.\n\nThe CAC rules require recommendation algorithms “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the algorithm type and an algorithm self-assessment report. The CAC rules also set out comprehensive responsibilities for deep synthesis service providers concerning data security and personal information protection, transparency, and technical security.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "SUMMARY"
+      ],
+      "table_context": "",
+      "retrieval_text": "## SUMMARY\n\nChina has not enacted a comprehensive artificial intelligence (AI) law or state regulation, while three major laws governing cybersecurity, data security, and data privacy have been passed in recent years. Joined by other authorities, the Cyberspace Administration of China (CAC) has issued administrative rules regulating AI-related technologies and proposed draft measures regulating generative AI. The country plans to complete building the AI legal, ethical, and policy systems by 2030.\n\nThe CAC rules require recommendation algorithms “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the algorithm type and an algorithm self-assessment report. The CAC rules also set out comprehensive responsibilities for deep synthesis service providers concerning data security and personal information protection, transparency, and technical security."
+    },
+    {
+      "chunk_id": "page-3-chunk-2",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "SUMMARY",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "The draft generative AI measures require service providers using generative AI products to undergo a security assessment before providing services to the public. Providers of generative AI services would be responsible for the legitimacy of the source of any pre-training data or optimization training data used for their generative AI product.\n\nThe Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data. The Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. Transferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers.",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The draft generative AI measures require service providers using generative AI products to undergo a security assessment before providing services to the public. Providers of generative AI services would be responsible for the legitimacy of the source of any pre-training data or optimization training data used for their generative AI product.\n\nThe Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data. The Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. Transferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers."
+    },
+    {
+      "chunk_id": "page-3-chunk-3",
+      "page_id": 3,
+      "page_number": 3,
+      "parent_section": "I. Introduction",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## I. Introduction\n\nThis report provides a general overview of the current legal system of the People’s Republic of China (PRC or China) regulating artificial intelligence (AI), and addresses the measures ensuring the security of AI systems. In April 2023, the Cyberspace Administration of China (CAC), China’s primary cybersecurity authority, released draft measures to regulate the provision of generative AI services, for example, ChatGPT, to solicit comments from the public on the proposed measures. The measures state that China’s regulatory objective concerning generative AI is to promote its healthy development while ensuring its regulated application.1",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "I. Introduction"
+      ],
+      "table_context": "",
+      "retrieval_text": "## I. Introduction\n\nThis report provides a general overview of the current legal system of the People’s Republic of China (PRC or China) regulating artificial intelligence (AI), and addresses the measures ensuring the security of AI systems. In April 2023, the Cyberspace Administration of China (CAC), China’s primary cybersecurity authority, released draft measures to regulate the provision of generative AI services, for example, ChatGPT, to solicit comments from the public on the proposed measures. The measures state that China’s regulatory objective concerning generative AI is to promote its healthy development while ensuring its regulated application.1"
+    },
+    {
+      "chunk_id": "page-4-chunk-0",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Joined by several other authorities, the CAC had previously issued two sets of administrative rules regulating deep-synthesis technology and algorithm recommendation technology (discussed below in Part II). The AI Governance Expert Committee established in the Ministry of Science and Technology has issued the AI governance principles for developing responsible AI.2 It has also promulgated ethical norms for AI activities in China.3 A nonmandatory national standard on the security framework for AI computing platforms is being formulated.4 Local governments, particularly the Shenzhen and Shanghai municipalities, have started issuing their own regulations and policies aimed at promoting the development of the AI industry within their jurisdictions.5",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Joined by several other authorities, the CAC had previously issued two sets of administrative rules regulating deep-synthesis technology and algorithm recommendation technology (discussed below in Part II). The AI Governance Expert Committee established in the Ministry of Science and Technology has issued the AI governance principles for developing responsible AI.2 It has also promulgated ethical norms for AI activities in China.3 A nonmandatory national standard on the security framework for AI computing platforms is being formulated.4 Local governments, particularly the Shenzhen and Shanghai municipalities, have started issuing their own regulations and policies aimed at promoting the development of the AI industry within their jurisdictions.5"
+    },
+    {
+      "chunk_id": "page-4-chunk-1",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "While three major laws governing cybersecurity, data security, and data privacy have been passed in recent years (discussed below in Section III), until now, China has not enacted a comprehensive AI law or state regulation. According to the Next Generation Artificial Intelligence Development Plan, which was issued by the State Council in 2017 and sets forth the country’s long-term strategic goals for AI development, China seeks to become the world’s primary AI innovation center by 2030, when it will complete building the AI legal, ethical, and policy systems.6",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "While three major laws governing cybersecurity, data security, and data privacy have been passed in recent years (discussed below in Section III), until now, China has not enacted a comprehensive AI law or state regulation. According to the Next Generation Artificial Intelligence Development Plan, which was issued by the State Council in 2017 and sets forth the country’s long-term strategic goals for AI development, China seeks to become the world’s primary AI innovation center by 2030, when it will complete building the AI legal, ethical, and policy systems.6"
+    },
+    {
+      "chunk_id": "page-4-chunk-2",
+      "page_id": 4,
+      "page_number": 4,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "The AI development plan states that China is to strengthen research on legal, ethical, and social issues related to AI. It is also to establish regulatory and ethical frameworks to ensure the healthy development of AI. Specifically, China is to conduct research on legal issues related to AI applications, including confirmation of civil and criminal responsibility, protection of privacy and property, and information security utilization. The plan also addresses tax incentives for AI enterprises, formulation of technical standards concerning network security and privacy protection, protection of intellectual property, and construction of the AI security supervision and evaluation system.7",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The AI development plan states that China is to strengthen research on legal, ethical, and social issues related to AI. It is also to establish regulatory and ethical frameworks to ensure the healthy development of AI. Specifically, China is to conduct research on legal issues related to AI applications, including confirmation of civil and criminal responsibility, protection of privacy and property, and information security utilization. The plan also addresses tax incentives for AI enterprises, formulation of technical standards concerning network security and privacy protection, protection of intellectual property, and construction of the AI security supervision and evaluation system.7"
+    },
+    {
+      "chunk_id": "page-5-chunk-0",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Figure 1: Timeline of China's AI Governance Initiatives\n![](assets/_page_5_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_5_Figure_0.jpg`\n> \n> **Generated:** 2026-05-16 01:30:23\n> \n> ---\n> \n> The image is a timeline chart showing the development and implementation phases of various AI-related policies and regulations from 2017 to 2024. It includes key milestones such as the \"New Generation AI Development Plan\" (July 8, 2017), \"Ethical Norms for New Generation AI\" (September 25, 2021), and \"Administrative Provisions on Deep Synthesis in Internet-Based Information Services\" (November 25, 2022). The timeline is color-coded to distinguish different phases or categories of policy development, with each phase represented by a different color. The chart highlights the progression of AI policy development over the years, with specific dates marked for key policy documents and regulations.",
+      "image_refs": [
+        "assets/_page_5_Figure_0.jpg"
+      ],
+      "table_refs": [],
+      "asset_refs": [
+        "assets/_page_5_Figure_0.jpg"
+      ],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Figure 1: Timeline of China's AI Governance Initiatives\n![](assets/_page_5_Figure_0.jpg)\n\n> **AI Description:**\n> **Source:** `assets/_page_5_Figure_0.jpg`\n> \n> **Generated:** 2026-05-16 01:30:23\n> \n> ---\n> \n> The image is a timeline chart showing the development and implementation phases of various AI-related policies and regulations from 2017 to 2024. It includes key milestones such as the \"New Generation AI Development Plan\" (July 8, 2017), \"Ethical Norms for New Generation AI\" (September 25, 2021), and \"Administrative Provisions on Deep Synthesis in Internet-Based Information Services\" (November 25, 2022). The timeline is color-coded to distinguish different phases or categories of policy development, with each phase represented by a different color. The chart highlights the progression of AI policy development over the years, with specific dates marked for key policy documents and regulations."
+    },
+    {
+      "chunk_id": "page-5-chunk-1",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "II. AI Rules and Governance Principles",
+      "nearest_asset_above": "assets/_page_5_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "## II. AI Rules and Governance Principles",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "II. AI Rules and Governance Principles"
+      ],
+      "table_context": "",
+      "retrieval_text": "## II. AI Rules and Governance Principles"
+    },
+    {
+      "chunk_id": "page-5-chunk-2",
+      "page_id": 5,
+      "page_number": 5,
+      "parent_section": "A. Algorithmic Recommendation Provisions",
+      "nearest_asset_above": "assets/_page_5_Figure_0.jpg",
+      "nearest_asset_below": null,
+      "text": "## A. Algorithmic Recommendation Provisions\n\nIn December 2021, the CAC and the Ministry of Industry and Information Technology (MIIT), Ministry of Public Security (MPS), and the State Administration for Market Regulation (SAMR) jointly issued the Internet Information Service Algorithmic Recommendation Management Provisions (Algorithmic Recommendation Provisions). 8 The provisions apply to the use of algorithmic recommendation technology to provide internet information services within the territory of mainland China, unless otherwise stipulated by laws or regulations.9",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "A. Algorithmic Recommendation Provisions"
+      ],
+      "table_context": "",
+      "retrieval_text": "## A. Algorithmic Recommendation Provisions\n\nIn December 2021, the CAC and the Ministry of Industry and Information Technology (MIIT), Ministry of Public Security (MPS), and the State Administration for Market Regulation (SAMR) jointly issued the Internet Information Service Algorithmic Recommendation Management Provisions (Algorithmic Recommendation Provisions). 8 The provisions apply to the use of algorithmic recommendation technology to provide internet information services within the territory of mainland China, unless otherwise stipulated by laws or regulations.9"
+    },
+    {
+      "chunk_id": "page-6-chunk-0",
+      "page_id": 6,
+      "page_number": 6,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "“Use of algorithmic recommendation technology” refers to “use of generative or synthetic–type, personalized recommendation–type, ranking and selection–type, search filter–type, dispatching and decision-making–type, and other such algorithmic technologies to provide information to users.”10\n\nAmong other things, the Algorithmic Recommendation Provisions require providers of algorithm recommendation services “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the service provider’s name, form of service, application field, algorithm type, algorithm self-assessment report, and content to be publicized.11",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "“Use of algorithmic recommendation technology” refers to “use of generative or synthetic–type, personalized recommendation–type, ranking and selection–type, search filter–type, dispatching and decision-making–type, and other such algorithmic technologies to provide information to users.”10\n\nAmong other things, the Algorithmic Recommendation Provisions require providers of algorithm recommendation services “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the service provider’s name, form of service, application field, algorithm type, algorithm self-assessment report, and content to be publicized.11"
+    },
+    {
+      "chunk_id": "page-6-chunk-1",
+      "page_id": 6,
+      "page_number": 6,
+      "parent_section": "B. Deep Synthesis Provisions",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## B. Deep Synthesis Provisions\n\nIn November 2022, the CAC, MIIT, and MPS jointly issued the Administrative Provisions on Deep Synthesis in Internet-Based Information Services (Deep Synthesis Provisions), which govern “deep synthesis technologies” that are “technologies that use generative sequencing algorithms, such as deep learning and virtual reality, to create text, images, audio, video, virtual scenes, or other information.”12\n\nThe Deep Synthesis Provisions set out comprehensive responsibilities for deep synthesis service (DSS) providers and DSS technical supporters concerning data security and personal information protection, transparency, and technical security. For example, DSS providers and DSS technical supporters that provide a function that edits face, voice, or other biometric information must prompt the users of their deep synthesis services to inform the individual whose information is to be edited and obtain the individual’s specific consent in accordance with the law.13",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "B. Deep Synthesis Provisions"
+      ],
+      "table_context": "",
+      "retrieval_text": "## B. Deep Synthesis Provisions\n\nIn November 2022, the CAC, MIIT, and MPS jointly issued the Administrative Provisions on Deep Synthesis in Internet-Based Information Services (Deep Synthesis Provisions), which govern “deep synthesis technologies” that are “technologies that use generative sequencing algorithms, such as deep learning and virtual reality, to create text, images, audio, video, virtual scenes, or other information.”12\n\nThe Deep Synthesis Provisions set out comprehensive responsibilities for deep synthesis service (DSS) providers and DSS technical supporters concerning data security and personal information protection, transparency, and technical security. For example, DSS providers and DSS technical supporters that provide a function that edits face, voice, or other biometric information must prompt the users of their deep synthesis services to inform the individual whose information is to be edited and obtain the individual’s specific consent in accordance with the law.13"
+    },
+    {
+      "chunk_id": "page-6-chunk-2",
+      "page_id": 6,
+      "page_number": 6,
+      "parent_section": "B. Deep Synthesis Provisions",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "The Deep Synthesis Provisions further require DSS providers and DSS technical supporters to enhance technical management and to regularly review, evaluate, and validate the mechanism and logic of their generative or synthetic algorithms. If they provide any model, template, or other tool with the functions of generating or editing face, voice, other biometric information, or any special object, scene, or other non-biometric information that may involve national security, national image, national interests, or social and public interests, the DSS providers and DSS technical supporters must by law perform a security assessment or have one performed by a professional institution.14",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The Deep Synthesis Provisions further require DSS providers and DSS technical supporters to enhance technical management and to regularly review, evaluate, and validate the mechanism and logic of their generative or synthetic algorithms. If they provide any model, template, or other tool with the functions of generating or editing face, voice, other biometric information, or any special object, scene, or other non-biometric information that may involve national security, national image, national interests, or social and public interests, the DSS providers and DSS technical supporters must by law perform a security assessment or have one performed by a professional institution.14"
+    },
+    {
+      "chunk_id": "page-7-chunk-0",
+      "page_id": 7,
+      "page_number": 7,
+      "parent_section": "C. Draft Generative AI Measures",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## C. Draft Generative AI Measures\n\nThe Deep Synthesis Provisions took effect in January 2023. In April 2023, the CAC published the Measures for the Management of Generative Artificial Intelligence Services, which aim to regulate the provision of generative AI services to the public of mainland China.15 “Generative AI” under the draft measures refers to “technologies generating text, image, audio, video, code, or other such content based on algorithms, models, or rules.”16\n\nAccording to the draft generative AI measures, before providing services to the public using generative AI products, the providers would be required to apply to the CAC for a security assessment. The requirements of algorithm filing under the Algorithmic Recommendation Provisions would also apply.17\n\nUnder the measures, providers of generative AI services would be responsible for the legitimacy of the source of any pretraining data or optimization training data used for their generative AI product. Any pretraining or optimization training data used for a generative AI product would be required to meet all of the following requirements:",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "C. Draft Generative AI Measures"
+      ],
+      "table_context": "",
+      "retrieval_text": "## C. Draft Generative AI Measures\n\nThe Deep Synthesis Provisions took effect in January 2023. In April 2023, the CAC published the Measures for the Management of Generative Artificial Intelligence Services, which aim to regulate the provision of generative AI services to the public of mainland China.15 “Generative AI” under the draft measures refers to “technologies generating text, image, audio, video, code, or other such content based on algorithms, models, or rules.”16\n\nAccording to the draft generative AI measures, before providing services to the public using generative AI products, the providers would be required to apply to the CAC for a security assessment. The requirements of algorithm filing under the Algorithmic Recommendation Provisions would also apply.17\n\nUnder the measures, providers of generative AI services would be responsible for the legitimacy of the source of any pretraining data or optimization training data used for their generative AI product. Any pretraining or optimization training data used for a generative AI product would be required to meet all of the following requirements:"
+    },
+    {
+      "chunk_id": "page-7-chunk-1",
+      "page_id": 7,
+      "page_number": 7,
+      "parent_section": "C. Draft Generative AI Measures",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "1. Conforming to the requirements of the Cybersecurity Law of the People’s Republic of China and other such laws and regulations;\n\n2. Not containing content infringing intellectual property rights;\n\n3. Where data includes personal information, the consent of the personal information subject shall be obtained, or other procedures conforming with the provisions of laws and administrative regulations followed;\n\n4. Be able to ensure the data’s veracity, accuracy, objectivity, and diversity;\n\n5. Other supervision requirements of the state cybersecurity and informatization department concerning generative AI functions and services.18\n\nFurthermore, when providing generative AI services, providers would be required to ask users to register their real identities in accordance with the Cybersecurity Law. 19 Under the Cybersecurity Law, the service providers are prohibited from providing services to any users who do not perform the identity authentication steps.20",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "1. Conforming to the requirements of the Cybersecurity Law of the People’s Republic of China and other such laws and regulations;\n\n2. Not containing content infringing intellectual property rights;\n\n3. Where data includes personal information, the consent of the personal information subject shall be obtained, or other procedures conforming with the provisions of laws and administrative regulations followed;\n\n4. Be able to ensure the data’s veracity, accuracy, objectivity, and diversity;\n\n5. Other supervision requirements of the state cybersecurity and informatization department concerning generative AI functions and services.18\n\nFurthermore, when providing generative AI services, providers would be required to ask users to register their real identities in accordance with the Cybersecurity Law. 19 Under the Cybersecurity Law, the service providers are prohibited from providing services to any users who do not perform the identity authentication steps.20"
+    },
+    {
+      "chunk_id": "page-8-chunk-0",
+      "page_id": 8,
+      "page_number": 8,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "In the process of providing services, providers would be obligated to protect users’ input information and usage records. It would be prohibited to unlawfully retain input information that could be used to deduce a user’s identity, profile users based on their input information and usage, or provide users’ input information to others.21\n\nViolation of the measures would be punished in accordance with the Cybersecurity Law, Data Security Law, and Personal Information Protection Law.22 The CAC and other relevant competent authorities would also be able to impose administrative penalties, including a fine ranging from 10,000 yuan to 100,000 yuan (CNY) (about US\\$1,392 to US\\$13,920).23 If the violation constitutes a violation of public security administration, punishment would be imposed in accordance with that law; if it constitutes a criminal offense, the offender could also be criminally prosecuted.24",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "In the process of providing services, providers would be obligated to protect users’ input information and usage records. It would be prohibited to unlawfully retain input information that could be used to deduce a user’s identity, profile users based on their input information and usage, or provide users’ input information to others.21\n\nViolation of the measures would be punished in accordance with the Cybersecurity Law, Data Security Law, and Personal Information Protection Law.22 The CAC and other relevant competent authorities would also be able to impose administrative penalties, including a fine ranging from 10,000 yuan to 100,000 yuan (CNY) (about US\\$1,392 to US\\$13,920).23 If the violation constitutes a violation of public security administration, punishment would be imposed in accordance with that law; if it constitutes a criminal offense, the offender could also be criminally prosecuted.24"
+    },
+    {
+      "chunk_id": "page-8-chunk-1",
+      "page_id": 8,
+      "page_number": 8,
+      "parent_section": "D. AI Governance Principles",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## D. AI Governance Principles\n\nThe following eight standards comprise China’s AI governance principles:\n\n• harmony and friendliness,\n\n• fairness and justice,\n\ninclusiveness and sharing,\n\n• respect for privacy,\n\nsecurity and controllability,\n\n• shared responsibility,\n\nopen cooperation, and\n\nagile governance.25\n\nRegarding security and controllability, the principles state,\n\nAI systems should continuously improve transparency, explainability, reliability, and controllability, and gradually achieve auditability, supervisability, traceability, and trustworthiness. Pay close attention to the safety/security of AI systems, improve the robustness and tamper-resistance of AI, and form AI security assessment and management capabilities.26",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "D. AI Governance Principles"
+      ],
+      "table_context": "",
+      "retrieval_text": "## D. AI Governance Principles\n\nThe following eight standards comprise China’s AI governance principles:\n\n• harmony and friendliness,\n\n• fairness and justice,\n\ninclusiveness and sharing,\n\n• respect for privacy,\n\nsecurity and controllability,\n\n• shared responsibility,\n\nopen cooperation, and\n\nagile governance.25\n\nRegarding security and controllability, the principles state,\n\nAI systems should continuously improve transparency, explainability, reliability, and controllability, and gradually achieve auditability, supervisability, traceability, and trustworthiness. Pay close attention to the safety/security of AI systems, improve the robustness and tamper-resistance of AI, and form AI security assessment and management capabilities.26"
+    },
+    {
+      "chunk_id": "page-9-chunk-0",
+      "page_id": 9,
+      "page_number": 9,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Regarding data privacy, the principles state that AI development should respect and protect personal privacy and protect individuals’ right to know and right to choose. Standards should be established for the collection, storage, processing, and use of personal information. Mechanisms to revoke authorized access to personal information should be improved. The theft of, tampering with, illegal disclosure of, and any other illegal collection or use of personal information should be opposed.27",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Regarding data privacy, the principles state that AI development should respect and protect personal privacy and protect individuals’ right to know and right to choose. Standards should be established for the collection, storage, processing, and use of personal information. Mechanisms to revoke authorized access to personal information should be improved. The theft of, tampering with, illegal disclosure of, and any other illegal collection or use of personal information should be opposed.27"
+    },
+    {
+      "chunk_id": "page-9-chunk-1",
+      "page_id": 9,
+      "page_number": 9,
+      "parent_section": "III. Cybersecurity and Data Privacy Laws",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## III. Cybersecurity and Data Privacy Laws",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "III. Cybersecurity and Data Privacy Laws"
+      ],
+      "table_context": "",
+      "retrieval_text": "## III. Cybersecurity and Data Privacy Laws"
+    },
+    {
+      "chunk_id": "page-9-chunk-2",
+      "page_id": 9,
+      "page_number": 9,
+      "parent_section": "A. Cybersecurity Law",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## A. Cybersecurity Law\n\nThe PRC Cybersecurity Law was passed in November 2016 and entered into effect on June 1, 2017.28 The purposes of this law include ensuring cybersecurity and safeguarding cyberspace sovereignty and national security. 29 According to the law, the state takes measures for monitoring, preventing, and handling cybersecurity risks and threats arising inside and outside the PRC territory and protects critical information infrastructure against attacks, intrusions, interference, and destruction.30\n\nThe Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data.31 Network operators are required by the law to provide technical support and assistance to the public security organs and the national security organs in the authorities’ activities of protecting national security and investigating crimes.32 “Network operators” under the law include owners and administrators of a network and network service providers.33",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "A. Cybersecurity Law"
+      ],
+      "table_context": "",
+      "retrieval_text": "## A. Cybersecurity Law\n\nThe PRC Cybersecurity Law was passed in November 2016 and entered into effect on June 1, 2017.28 The purposes of this law include ensuring cybersecurity and safeguarding cyberspace sovereignty and national security. 29 According to the law, the state takes measures for monitoring, preventing, and handling cybersecurity risks and threats arising inside and outside the PRC territory and protects critical information infrastructure against attacks, intrusions, interference, and destruction.30\n\nThe Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data.31 Network operators are required by the law to provide technical support and assistance to the public security organs and the national security organs in the authorities’ activities of protecting national security and investigating crimes.32 “Network operators” under the law include owners and administrators of a network and network service providers.33"
+    },
+    {
+      "chunk_id": "page-9-chunk-3",
+      "page_id": 9,
+      "page_number": 9,
+      "parent_section": "A. Cybersecurity Law",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "For activities endangering cybersecurity that are not serious enough to constitute crimes, the Cybersecurity Law sets out administrative penalties, including confiscation of illegal gains, administrative detention for up to 15 days, and fines.34 A violation of the Cybersecurity Law that is serious enough to constitute a crime is criminally punishable in accordance with the PRC Criminal Law, China’s penal code that has national application.35\n\nThe Cybersecurity Law sets out general rules requiring data protection by network operators. Network operators are obligated by the law to establish network information security complaint and reporting systems, publicly disclose information such as the methods for making complaints or reports, and promptly accept and handle complaints and reports relevant to network information security. 36 The law requires network operators to cooperate in supervision and inspections conducted by the internet information authority and other relevant authorities in accordance with the law.37",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "For activities endangering cybersecurity that are not serious enough to constitute crimes, the Cybersecurity Law sets out administrative penalties, including confiscation of illegal gains, administrative detention for up to 15 days, and fines.34 A violation of the Cybersecurity Law that is serious enough to constitute a crime is criminally punishable in accordance with the PRC Criminal Law, China’s penal code that has national application.35\n\nThe Cybersecurity Law sets out general rules requiring data protection by network operators. Network operators are obligated by the law to establish network information security complaint and reporting systems, publicly disclose information such as the methods for making complaints or reports, and promptly accept and handle complaints and reports relevant to network information security. 36 The law requires network operators to cooperate in supervision and inspections conducted by the internet information authority and other relevant authorities in accordance with the law.37"
+    },
+    {
+      "chunk_id": "page-10-chunk-0",
+      "page_id": 10,
+      "page_number": 10,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Network operators are also obliged to monitor the content disseminated by their users. Once a network operator discovers any information that is prohibited by laws or regulations from being published or transmitted, it must immediately stop the transmission of such information, delete the information, take measures to prevent the information from proliferating, keep relevant records, and report to the competent government authorities.38\n\nNetwork operators and their responsible persons will face fines for failing to authenticate users’ identities, refusing to provide the technical support and assistance to the public security, or rejecting or obstructing the supervision and inspections conducted by the authorities.39 The fine imposed on network operators is from CNY50,000 to CNY500,000 (about US\\$7,186 to US\\$71,863). The fine imposed on persons directly in charge and other persons who are directly liable is from CNY10,000 to CNY100,000 (about US\\$1,437 to \\$14,373).40",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Network operators are also obliged to monitor the content disseminated by their users. Once a network operator discovers any information that is prohibited by laws or regulations from being published or transmitted, it must immediately stop the transmission of such information, delete the information, take measures to prevent the information from proliferating, keep relevant records, and report to the competent government authorities.38\n\nNetwork operators and their responsible persons will face fines for failing to authenticate users’ identities, refusing to provide the technical support and assistance to the public security, or rejecting or obstructing the supervision and inspections conducted by the authorities.39 The fine imposed on network operators is from CNY50,000 to CNY500,000 (about US\\$7,186 to US\\$71,863). The fine imposed on persons directly in charge and other persons who are directly liable is from CNY10,000 to CNY100,000 (about US\\$1,437 to \\$14,373).40"
+    },
+    {
+      "chunk_id": "page-10-chunk-1",
+      "page_id": 10,
+      "page_number": 10,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Where network operators fail to comply with such content monitoring obligations, the competent authorities may order them to rectify the wrongdoing, suspend relevant services, and shut down their websites. The authorities may also revoke relevant licenses and impose a fine on the network operators and their responsible persons.41",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Where network operators fail to comply with such content monitoring obligations, the competent authorities may order them to rectify the wrongdoing, suspend relevant services, and shut down their websites. The authorities may also revoke relevant licenses and impose a fine on the network operators and their responsible persons.41"
+    },
+    {
+      "chunk_id": "page-10-chunk-2",
+      "page_id": 10,
+      "page_number": 10,
+      "parent_section": "B. Data Security Law",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## B. Data Security Law\n\nThe PRC Data Security Law was passed in June 2021 and entered into effect on September 1, 2021.42 The purposes of the law include ensuring data security, promoting data development and use, protecting the rights and interests of individuals, and “safeguarding national sovereignty, security, and development interests.”43\n\nThe Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. According to the law, security review decisions made under it are final decisions.44",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "B. Data Security Law"
+      ],
+      "table_context": "",
+      "retrieval_text": "## B. Data Security Law\n\nThe PRC Data Security Law was passed in June 2021 and entered into effect on September 1, 2021.42 The purposes of the law include ensuring data security, promoting data development and use, protecting the rights and interests of individuals, and “safeguarding national sovereignty, security, and development interests.”43\n\nThe Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. According to the law, security review decisions made under it are final decisions.44"
+    },
+    {
+      "chunk_id": "page-11-chunk-0",
+      "page_id": 11,
+      "page_number": 11,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "Under the Data Security Law, where public security organs and national security organs need to obtain data necessary to safeguard national security or investigate crimes in accordance with law, relevant entities and individuals must cooperate.45 The law provides fines to be imposed on the entities and their responsible persons for refusing to cooperate with the authorities in their obtaining of data.46",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "Under the Data Security Law, where public security organs and national security organs need to obtain data necessary to safeguard national security or investigate crimes in accordance with law, relevant entities and individuals must cooperate.45 The law provides fines to be imposed on the entities and their responsible persons for refusing to cooperate with the authorities in their obtaining of data.46"
+    },
+    {
+      "chunk_id": "page-11-chunk-1",
+      "page_id": 11,
+      "page_number": 11,
+      "parent_section": "C. Personal Information Protection Law",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## C. Personal Information Protection Law\n\nThe PRC Personal Information Protection Law (PIPL) was passed in August 2021 and entered into effect on November 1, 2021.47 The law is formulated to protect personal information rights and interests, standardize personal information processing activities, and promote the rational use of personal information.48\n\nThe PIPL applies to the activities of handling the personal information within the territory of mainland China. It may, however, also apply to activities of processing personal information of any individual within China that are carried out outside China, as long as one of the following circumstances is present:\n\n1. Where the purpose is to provide products or services to natural persons inside the borders;\n\n2. Where analyzing or assessing activities of natural persons inside the borders;\n\n3. Other circumstances provided in laws or administrative regulations.49",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "C. Personal Information Protection Law"
+      ],
+      "table_context": "",
+      "retrieval_text": "## C. Personal Information Protection Law\n\nThe PRC Personal Information Protection Law (PIPL) was passed in August 2021 and entered into effect on November 1, 2021.47 The law is formulated to protect personal information rights and interests, standardize personal information processing activities, and promote the rational use of personal information.48\n\nThe PIPL applies to the activities of handling the personal information within the territory of mainland China. It may, however, also apply to activities of processing personal information of any individual within China that are carried out outside China, as long as one of the following circumstances is present:\n\n1. Where the purpose is to provide products or services to natural persons inside the borders;\n\n2. Where analyzing or assessing activities of natural persons inside the borders;\n\n3. Other circumstances provided in laws or administrative regulations.49"
+    },
+    {
+      "chunk_id": "page-11-chunk-2",
+      "page_id": 11,
+      "page_number": 11,
+      "parent_section": "C. Personal Information Protection Law",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "According to the PIPL, personal information processors must follow the principles of openness and transparency when processing personal information. They must disclose the rules, purpose, method, and scope of processing of personal information.50 Unless laws or regulations stipulate otherwise, they can only retain personal information for the minimum period necessary for achieving the purpose of processing.51 Personal information processors are responsible for their activities of processing of personal information and must take necessary measures to ensure the security of the personal information processed.52",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "According to the PIPL, personal information processors must follow the principles of openness and transparency when processing personal information. They must disclose the rules, purpose, method, and scope of processing of personal information.50 Unless laws or regulations stipulate otherwise, they can only retain personal information for the minimum period necessary for achieving the purpose of processing.51 Personal information processors are responsible for their activities of processing of personal information and must take necessary measures to ensure the security of the personal information processed.52"
+    },
+    {
+      "chunk_id": "page-12-chunk-0",
+      "page_id": 12,
+      "page_number": 12,
+      "parent_section": "Document",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "The PIPL allows installment of facial recognition equipment in public spaces that are necessary to maintain public security. The law states that such equipment must be accompanied with a prominent sign indicating the equipment. 53 Any personal image or personal identification information that has been collected can only be used for the purpose of maintaining public security, except where individuals’ separate consent is obtained.54",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "The PIPL allows installment of facial recognition equipment in public spaces that are necessary to maintain public security. The law states that such equipment must be accompanied with a prominent sign indicating the equipment. 53 Any personal image or personal identification information that has been collected can only be used for the purpose of maintaining public security, except where individuals’ separate consent is obtained.54"
+    },
+    {
+      "chunk_id": "page-12-chunk-1",
+      "page_id": 12,
+      "page_number": 12,
+      "parent_section": "D. Measures on Security Assessment for Cross-Border Data Transfer",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "## D. Measures on Security Assessment for Cross-Border Data Transfer\n\nTransferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers, which were issued by the CAC in July 2022.55 The measures aim to “regulate outbound data transfer activities,” “protect personal information rights and interests,” and “safeguard national security and the social public interest.”56 The measures provide detailed guidance on the security assessment for cross-border data transfer, which supplements the requirements under the Cybersecurity Law, Data Security Law, and PIPL.57\n\nThe security assessment is a combination of a self-assessment of security and a mandatory CAC security assessment. 58 The CAC assessment is required in the following three specific circumstances and in a catch-all situation:\n\n1. Where the data handler provides important data abroad;\n\n2. Critical information infrastructure operators and data handlers handling the personal information of over 1 million people providing personal information abroad;",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [
+        "D. Measures on Security Assessment for Cross-Border Data Transfer"
+      ],
+      "table_context": "",
+      "retrieval_text": "## D. Measures on Security Assessment for Cross-Border Data Transfer\n\nTransferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers, which were issued by the CAC in July 2022.55 The measures aim to “regulate outbound data transfer activities,” “protect personal information rights and interests,” and “safeguard national security and the social public interest.”56 The measures provide detailed guidance on the security assessment for cross-border data transfer, which supplements the requirements under the Cybersecurity Law, Data Security Law, and PIPL.57\n\nThe security assessment is a combination of a self-assessment of security and a mandatory CAC security assessment. 58 The CAC assessment is required in the following three specific circumstances and in a catch-all situation:\n\n1. Where the data handler provides important data abroad;\n\n2. Critical information infrastructure operators and data handlers handling the personal information of over 1 million people providing personal information abroad;"
+    },
+    {
+      "chunk_id": "page-12-chunk-2",
+      "page_id": 12,
+      "page_number": 12,
+      "parent_section": "D. Measures on Security Assessment for Cross-Border Data Transfer",
+      "nearest_asset_above": null,
+      "nearest_asset_below": null,
+      "text": "3. Data handlers providing abroad the personal information of more than 100,000 people or the sensitive personal information of more than 10,000 people since January 1 of the previous year;\n\n4. Other circumstances where the State cybersecurity and informatization department provides data export security assessment must be applied for.59",
+      "image_refs": [],
+      "table_refs": [],
+      "asset_refs": [],
+      "headings": [],
+      "table_context": "",
+      "retrieval_text": "3. Data handlers providing abroad the personal information of more than 100,000 people or the sensitive personal information of more than 10,000 people since January 1 of the previous year;\n\n4. Other circumstances where the State cybersecurity and informatization department provides data export security assessment must be applied for.59"
+    }
+  ],
+  "layouts": [
+    {
+      "layout_id": "page-0:text-1",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.383,
+        0.192,
+        0.462,
+        0.79
+      ],
+      "text": "China: Regulation of Artificial Intelligence",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-2",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.481,
+        0.441,
+        0.505,
+        0.555
+      ],
+      "text": "June 2023",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-0:text-3",
+      "page_id": 0,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.786,
+        0.398,
+        0.82,
+        0.598
+      ],
+      "text": "LL File No. 2023-022300   \nLRA-D-PUB-002640",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-1:text-1",
+      "page_id": 1,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.44,
+        0.227,
+        0.534,
+        0.771
+      ],
+      "text": "This report is provided for reference purposes only.   \nIt does not constitute legal advice and does not represent the official   \nopinion of the United States Government. The information provided reflects research undertaken as of the date of writing. It has not been updated.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-1",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.112,
+        0.112,
+        0.222
+      ],
+      "text": "Contents",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-2:text-2",
+      "page_id": 2,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.146,
+        0.112,
+        0.549,
+        0.885
+      ],
+      "text": "I. Introduction ..   \nFigure 1: Timeline of China's AI Governance Initiatives . 3   \nII. AI Rules and Governance Principles .. 3   \nA. Algorithmic Recommendation Provisions .. 3   \nB. Deep Synthesis Provisions . 4   \nC. Draft Generative AI Measures . 5   \nD. AI Governance Principles .. 6   \nIII. Cybersecurity and Data Privacy Laws .. 7   \nA. Cybersecurity Law . 7   \nB. Data Security Law .. . 8   \nC. Personal Information Protection Law .. 9   \nD. Measures on Security Assessment for Cross-Border Data Transfer... . 10",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-1",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.222,
+        0.116,
+        0.774
+      ],
+      "text": "China: Regulation of Artificial Intelligence",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-2",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.123,
+        0.413,
+        0.159,
+        0.586
+      ],
+      "text": "Laney Zhang Foreign Law Specialist",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-3",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.195,
+        0.112,
+        0.212,
+        0.205
+      ],
+      "text": "SUMMARY",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-4",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.195,
+        0.218,
+        0.299,
+        0.887
+      ],
+      "text": "China has not enacted a comprehensive artificial intelligence (AI) law or state regulation, while three major laws governing cybersecurity, data security, and data privacy have been passed in recent years. Joined by other authorities, the Cyberspace Administration of China (CAC) has issued administrative rules regulating AI-related technologies and proposed draft measures regulating generative AI. The country plans to complete building the AI legal, ethical, and policy systems by 2030.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-5",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.311,
+        0.217,
+        0.412,
+        0.885
+      ],
+      "text": "The CAC rules require recommendation algorithms “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the algorithm type and an algorithm self-assessment report. The CAC rules also set out comprehensive responsibilities for deep synthesis service providers concerning data security and personal information protection, transparency, and technical security.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-6",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.426,
+        0.218,
+        0.512,
+        0.885
+      ],
+      "text": "The draft generative AI measures require service providers using generative AI products to undergo a security assessment before providing services to the public. Providers of generative AI services would be responsible for the legitimacy of the source of any pre-training data or optimization training data used for their generative AI product.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-7",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.525,
+        0.218,
+        0.643,
+        0.885
+      ],
+      "text": "The Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data. The Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. Transferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers.",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-8",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.679,
+        0.112,
+        0.696,
+        0.254
+      ],
+      "text": "I. Introduction",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-3:text-9",
+      "page_id": 3,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.717,
+        0.111,
+        0.84,
+        0.887
+      ],
+      "text": "This report provides a general overview of the current legal system of the People’s Republic of China (PRC or China) regulating artificial intelligence (AI), and addresses the measures ensuring the security of AI systems. In April 2023, the Cyberspace Administration of China (CAC), China’s primary cybersecurity authority, released draft measures to regulate the provision of generative AI services, for example, ChatGPT, to solicit comments from the public on the proposed measures. The measures state that China’s regulatory objective concerning generative AI is to promote its healthy development while ensuring its regulated application.1",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-1",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.109,
+        0.247,
+        0.887
+      ],
+      "text": "Joined by several other authorities, the CAC had previously issued two sets of administrative rules regulating deep-synthesis technology and algorithm recommendation technology (discussed below in Part II). The AI Governance Expert Committee established in the Ministry of Science and Technology has issued the AI governance principles for developing responsible AI.2 It has also promulgated ethical norms for AI activities in China.3 A nonmandatory national standard on the security framework for AI computing platforms is being formulated.4 Local governments, particularly the Shenzhen and Shanghai municipalities, have started issuing their own regulations and policies aimed at promoting the development of the AI industry within their jurisdictions.5",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-2",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.262,
+        0.109,
+        0.387,
+        0.887
+      ],
+      "text": "While three major laws governing cybersecurity, data security, and data privacy have been passed in recent years (discussed below in Section III), until now, China has not enacted a comprehensive AI law or state regulation. According to the Next Generation Artificial Intelligence Development Plan, which was issued by the State Council in 2017 and sets forth the country’s long-term strategic goals for AI development, China seeks to become the world’s primary AI innovation center by 2030, when it will complete building the AI legal, ethical, and policy systems.6",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-4:text-3",
+      "page_id": 4,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.401,
+        0.109,
+        0.489,
+        0.887
+      ],
+      "text": "The AI development plan states that China is to strengthen research on legal, ethical, and social issues related to AI. It is also to establish regulatory and ethical frameworks to ensure the healthy development of AI. Specifically, China is to conduct research on legal issues related to AI applications, including confirmation of civil and criminal responsibility, protection of privacy and property, and information security utilization. The plan also addresses tax incentives for AI enterprises, formulation of technical standards concerning network security and privacy protection, protection of intellectual property, and construction of the AI security supervision and evaluation system.7",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:figure-2",
+      "page_id": 5,
+      "layout_type": "figure",
+      "asset_ref": "assets/_page_5_Figure_0.jpg",
+      "bbox_norm": [
+        0.247,
+        0.117,
+        0.621,
+        0.879
+      ],
+      "text": "Figure 1: Timeline of China's AI Governance Initiatives",
+      "source_type": "image"
+    },
+    {
+      "layout_id": "page-5:text-3",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.656,
+        0.111,
+        0.676,
+        0.475
+      ],
+      "text": "II. AI Rules and Governance Principles",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-4",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.693,
+        0.111,
+        0.712,
+        0.488
+      ],
+      "text": "A. Algorithmic Recommendation Provisions",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-5:text-5",
+      "page_id": 5,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.729,
+        0.109,
+        0.8,
+        0.887
+      ],
+      "text": "In December 2021, the CAC and the Ministry of Industry and Information Technology (MIIT), Ministry of Public Security (MPS), and the State Administration for Market Regulation (SAMR) jointly issued the Internet Information Service Algorithmic Recommendation Management Provisions (Algorithmic Recommendation Provisions). 8 The provisions apply to the use of algorithmic recommendation technology to provide internet information services within the territory of mainland China, unless otherwise stipulated by laws or regulations.9",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:text-2",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.142,
+        0.111,
+        0.212,
+        0.887
+      ],
+      "text": "“Use of algorithmic recommendation technology” refers to “use of generative or synthetic–type, personalized recommendation–type, ranking and selection–type, search filter–type, dispatching and decision-making–type, and other such algorithmic technologies to provide information to users.”10",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:text-3",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.228,
+        0.109,
+        0.316,
+        0.887
+      ],
+      "text": "Among other things, the Algorithmic Recommendation Provisions require providers of algorithm recommendation services “with public opinion attributes or social mobilization capabilities” to complete a filing with the CAC by providing information including the service provider’s name, form of service, application field, algorithm type, algorithm self-assessment report, and content to be publicized.11",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:text-4",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.333,
+        0.111,
+        0.352,
+        0.366
+      ],
+      "text": "B. Deep Synthesis Provisions",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:text-5",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.368,
+        0.111,
+        0.457,
+        0.887
+      ],
+      "text": "In November 2022, the CAC, MIIT, and MPS jointly issued the Administrative Provisions on Deep Synthesis in Internet-Based Information Services (Deep Synthesis Provisions), which govern “deep synthesis technologies” that are “technologies that use generative sequencing algorithms, such as deep learning and virtual reality, to create text, images, audio, video, virtual scenes, or other information.”12",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:text-6",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.472,
+        0.111,
+        0.579,
+        0.887
+      ],
+      "text": "The Deep Synthesis Provisions set out comprehensive responsibilities for deep synthesis service (DSS) providers and DSS technical supporters concerning data security and personal information protection, transparency, and technical security. For example, DSS providers and DSS technical supporters that provide a function that edits face, voice, or other biometric information must prompt the users of their deep synthesis services to inform the individual whose information is to be edited and obtain the individual’s specific consent in accordance with the law.13",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-6:text-7",
+      "page_id": 6,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.593,
+        0.109,
+        0.734,
+        0.887
+      ],
+      "text": "The Deep Synthesis Provisions further require DSS providers and DSS technical supporters to enhance technical management and to regularly review, evaluate, and validate the mechanism and logic of their generative or synthetic algorithms. If they provide any model, template, or other tool with the functions of generating or editing face, voice, other biometric information, or any special object, scene, or other non-biometric information that may involve national security, national image, national interests, or social and public interests, the DSS providers and DSS technical supporters must by law perform a security assessment or have one performed by a professional institution.14",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-1",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.111,
+        0.108,
+        0.395
+      ],
+      "text": "C. Draft Generative AI Measures",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-2",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.126,
+        0.109,
+        0.214,
+        0.887
+      ],
+      "text": "The Deep Synthesis Provisions took effect in January 2023. In April 2023, the CAC published the Measures for the Management of Generative Artificial Intelligence Services, which aim to regulate the provision of generative AI services to the public of mainland China.15 “Generative AI” under the draft measures refers to “technologies generating text, image, audio, video, code, or other such content based on algorithms, models, or rules.”16",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-3",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.229,
+        0.109,
+        0.3,
+        0.887
+      ],
+      "text": "According to the draft generative AI measures, before providing services to the public using generative AI products, the providers would be required to apply to the CAC for a security assessment. The requirements of algorithm filing under the Algorithmic Recommendation Provisions would also apply.17",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-4",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.315,
+        0.109,
+        0.387,
+        0.887
+      ],
+      "text": "Under the measures, providers of generative AI services would be responsible for the legitimacy of the source of any pretraining data or optimization training data used for their generative AI product. Any pretraining or optimization training data used for a generative AI product would be required to meet all of the following requirements:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-5",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.401,
+        0.169,
+        0.435,
+        0.826
+      ],
+      "text": "1. Conforming to the requirements of the Cybersecurity Law of the People’s Republic of China and other such laws and regulations;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-6",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.449,
+        0.169,
+        0.467,
+        0.655
+      ],
+      "text": "2. Not containing content infringing intellectual property rights;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-7",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.479,
+        0.169,
+        0.529,
+        0.826
+      ],
+      "text": "3. Where data includes personal information, the consent of the personal information subject shall be obtained, or other procedures conforming with the provisions of laws and administrative regulations followed;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-8",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.542,
+        0.169,
+        0.56,
+        0.732
+      ],
+      "text": "4. Be able to ensure the data’s veracity, accuracy, objectivity, and diversity;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-9",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.574,
+        0.169,
+        0.608,
+        0.826
+      ],
+      "text": "5. Other supervision requirements of the state cybersecurity and informatization department concerning generative AI functions and services.18",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-7:text-10",
+      "page_id": 7,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.623,
+        0.111,
+        0.694,
+        0.887
+      ],
+      "text": "Furthermore, when providing generative AI services, providers would be required to ask users to register their real identities in accordance with the Cybersecurity Law. 19 Under the Cybersecurity Law, the service providers are prohibited from providing services to any users who do not perform the identity authentication steps.20",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-1",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.111,
+        0.161,
+        0.885
+      ],
+      "text": "In the process of providing services, providers would be obligated to protect users’ input information and usage records. It would be prohibited to unlawfully retain input information that could be used to deduce a user’s identity, profile users based on their input information and usage, or provide users’ input information to others.21",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-2",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.176,
+        0.109,
+        0.281,
+        0.887
+      ],
+      "text": "Violation of the measures would be punished in accordance with the Cybersecurity Law, Data Security Law, and Personal Information Protection Law.22 The CAC and other relevant competent authorities would also be able to impose administrative penalties, including a fine ranging from 10,000 yuan to 100,000 yuan (CNY) (about US\\$1,392 to US\\$13,920).23 If the violation constitutes a violation of public security administration, punishment would be imposed in accordance with that law; if it constitutes a criminal offense, the offender could also be criminally prosecuted.24",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-3",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.297,
+        0.112,
+        0.316,
+        0.361
+      ],
+      "text": "D. AI Governance Principles",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-4",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.334,
+        0.111,
+        0.353,
+        0.71
+      ],
+      "text": "The following eight standards comprise China’s AI governance principles:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-5",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.369,
+        0.111,
+        0.387,
+        0.359
+      ],
+      "text": "• harmony and friendliness,",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-6",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.395,
+        0.112,
+        0.412,
+        0.305
+      ],
+      "text": "• fairness and justice,",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-7",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.421,
+        0.112,
+        0.439,
+        0.359
+      ],
+      "text": "inclusiveness and sharing,",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-8",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.446,
+        0.112,
+        0.464,
+        0.302
+      ],
+      "text": "• respect for privacy,",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-9",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.472,
+        0.112,
+        0.489,
+        0.367
+      ],
+      "text": "security and controllability,",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-10",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.497,
+        0.112,
+        0.515,
+        0.321
+      ],
+      "text": "• shared responsibility,",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-11",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.523,
+        0.112,
+        0.54,
+        0.326
+      ],
+      "text": "open cooperation, and",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-12",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.547,
+        0.112,
+        0.566,
+        0.302
+      ],
+      "text": "agile governance.25",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-13",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.582,
+        0.111,
+        0.602,
+        0.586
+      ],
+      "text": "Regarding security and controllability, the principles state,",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-8:text-14",
+      "page_id": 8,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.616,
+        0.168,
+        0.698,
+        0.826
+      ],
+      "text": "AI systems should continuously improve transparency, explainability, reliability, and controllability, and gradually achieve auditability, supervisability, traceability, and trustworthiness. Pay close attention to the safety/security of AI systems, improve the robustness and tamper-resistance of AI, and form AI security assessment and management capabilities.26",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-1",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.109,
+        0.195,
+        0.887
+      ],
+      "text": "Regarding data privacy, the principles state that AI development should respect and protect personal privacy and protect individuals’ right to know and right to choose. Standards should be established for the collection, storage, processing, and use of personal information. Mechanisms to revoke authorized access to personal information should be improved. The theft of, tampering with, illegal disclosure of, and any other illegal collection or use of personal information should be opposed.27",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-2",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.212,
+        0.111,
+        0.232,
+        0.493
+      ],
+      "text": "III. Cybersecurity and Data Privacy Laws",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-3",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.25,
+        0.111,
+        0.268,
+        0.302
+      ],
+      "text": "A. Cybersecurity Law",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-4",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.285,
+        0.111,
+        0.39,
+        0.887
+      ],
+      "text": "The PRC Cybersecurity Law was passed in November 2016 and entered into effect on June 1, 2017.28 The purposes of this law include ensuring cybersecurity and safeguarding cyberspace sovereignty and national security. 29 According to the law, the state takes measures for monitoring, preventing, and handling cybersecurity risks and threats arising inside and outside the PRC territory and protects critical information infrastructure against attacks, intrusions, interference, and destruction.30",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-5",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.406,
+        0.109,
+        0.512,
+        0.887
+      ],
+      "text": "The Cybersecurity Law prohibits various activities endangering cybersecurity, including invading networks, disrupting the normal functioning of networks, or stealing network data.31 Network operators are required by the law to provide technical support and assistance to the public security organs and the national security organs in the authorities’ activities of protecting national security and investigating crimes.32 “Network operators” under the law include owners and administrators of a network and network service providers.33",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-6",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.526,
+        0.111,
+        0.616,
+        0.887
+      ],
+      "text": "For activities endangering cybersecurity that are not serious enough to constitute crimes, the Cybersecurity Law sets out administrative penalties, including confiscation of illegal gains, administrative detention for up to 15 days, and fines.34 A violation of the Cybersecurity Law that is serious enough to constitute a crime is criminally punishable in accordance with the PRC Criminal Law, China’s penal code that has national application.35",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-9:text-7",
+      "page_id": 9,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.631,
+        0.111,
+        0.685,
+        0.885
+      ],
+      "text": "The Cybersecurity Law sets out general rules requiring data protection by network operators. Network operators are obligated by the law to establish network information security complaint and reporting systems, publicly disclose information such as the methods for making complaints or reports, and promptly accept and handle complaints and reports relevant to network information security. 36 The law requires network operators to cooperate in supervision and inspections conducted by the internet information authority and other relevant authorities in accordance with the law.37",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-2",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.176,
+        0.109,
+        0.265,
+        0.887
+      ],
+      "text": "Network operators are also obliged to monitor the content disseminated by their users. Once a network operator discovers any information that is prohibited by laws or regulations from being published or transmitted, it must immediately stop the transmission of such information, delete the information, take measures to prevent the information from proliferating, keep relevant records, and report to the competent government authorities.38",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-3",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.28,
+        0.109,
+        0.386,
+        0.887
+      ],
+      "text": "Network operators and their responsible persons will face fines for failing to authenticate users’ identities, refusing to provide the technical support and assistance to the public security, or rejecting or obstructing the supervision and inspections conducted by the authorities.39 The fine imposed on network operators is from CNY50,000 to CNY500,000 (about US\\$7,186 to US\\$71,863). The fine imposed on persons directly in charge and other persons who are directly liable is from CNY10,000 to CNY100,000 (about US\\$1,437 to \\$14,373).40",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-4",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.398,
+        0.111,
+        0.47,
+        0.887
+      ],
+      "text": "Where network operators fail to comply with such content monitoring obligations, the competent authorities may order them to rectify the wrongdoing, suspend relevant services, and shut down their websites. The authorities may also revoke relevant licenses and impose a fine on the network operators and their responsible persons.41",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-5",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.486,
+        0.111,
+        0.503,
+        0.297
+      ],
+      "text": "B. Data Security Law",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-6",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.521,
+        0.111,
+        0.593,
+        0.885
+      ],
+      "text": "The PRC Data Security Law was passed in June 2021 and entered into effect on September 1, 2021.42 The purposes of the law include ensuring data security, promoting data development and use, protecting the rights and interests of individuals, and “safeguarding national sovereignty, security, and development interests.”43",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-10:text-7",
+      "page_id": 10,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.608,
+        0.109,
+        0.662,
+        0.885
+      ],
+      "text": "The Data Security Law provides that the state is to establish a data security review system and conduct national security reviews for data handling activities that affect or may affect national security. According to the law, security review decisions made under it are final decisions.44",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-1",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.107,
+        0.111,
+        0.195,
+        0.887
+      ],
+      "text": "Under the Data Security Law, where public security organs and national security organs need to obtain data necessary to safeguard national security or investigate crimes in accordance with law, relevant entities and individuals must cooperate.45 The law provides fines to be imposed on the entities and their responsible persons for refusing to cooperate with the authorities in their obtaining of data.46",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-2",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.212,
+        0.111,
+        0.229,
+        0.449
+      ],
+      "text": "C. Personal Information Protection Law",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-3",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.247,
+        0.111,
+        0.319,
+        0.885
+      ],
+      "text": "The PRC Personal Information Protection Law (PIPL) was passed in August 2021 and entered into effect on November 1, 2021.47 The law is formulated to protect personal information rights and interests, standardize personal information processing activities, and promote the rational use of personal information.48",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-4",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.334,
+        0.111,
+        0.405,
+        0.885
+      ],
+      "text": "The PIPL applies to the activities of handling the personal information within the territory of mainland China. It may, however, also apply to activities of processing personal information of any individual within China that are carried out outside China, as long as one of the following circumstances is present:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-5",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.42,
+        0.169,
+        0.453,
+        0.826
+      ],
+      "text": "1. Where the purpose is to provide products or services to natural persons inside the borders;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-6",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.467,
+        0.169,
+        0.484,
+        0.764
+      ],
+      "text": "2. Where analyzing or assessing activities of natural persons inside the borders;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-7",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.498,
+        0.169,
+        0.516,
+        0.714
+      ],
+      "text": "3. Other circumstances provided in laws or administrative regulations.49",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-11:text-8",
+      "page_id": 11,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.532,
+        0.111,
+        0.656,
+        0.887
+      ],
+      "text": "According to the PIPL, personal information processors must follow the principles of openness and transparency when processing personal information. They must disclose the rules, purpose, method, and scope of processing of personal information.50 Unless laws or regulations stipulate otherwise, they can only retain personal information for the minimum period necessary for achieving the purpose of processing.51 Personal information processors are responsible for their activities of processing of personal information and must take necessary measures to ensure the security of the personal information processed.52",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-1",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.09,
+        0.109,
+        0.179,
+        0.885
+      ],
+      "text": "The PIPL allows installment of facial recognition equipment in public spaces that are necessary to maintain public security. The law states that such equipment must be accompanied with a prominent sign indicating the equipment. 53 Any personal image or personal identification information that has been collected can only be used for the purpose of maintaining public security, except where individuals’ separate consent is obtained.54",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-2",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.195,
+        0.111,
+        0.213,
+        0.686
+      ],
+      "text": "D. Measures on Security Assessment for Cross-Border Data Transfer",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-3",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.231,
+        0.111,
+        0.354,
+        0.887
+      ],
+      "text": "Transferring important data or personal information abroad that was collected or produced through operations in China is subject to the security assessment measures on outbound data transfers, which were issued by the CAC in July 2022.55 The measures aim to “regulate outbound data transfer activities,” “protect personal information rights and interests,” and “safeguard national security and the social public interest.”56 The measures provide detailed guidance on the security assessment for cross-border data transfer, which supplements the requirements under the Cybersecurity Law, Data Security Law, and PIPL.57",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-4",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.368,
+        0.111,
+        0.422,
+        0.885
+      ],
+      "text": "The security assessment is a combination of a self-assessment of security and a mandatory CAC security assessment. 58 The CAC assessment is required in the following three specific circumstances and in a catch-all situation:",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-5",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.438,
+        0.169,
+        0.455,
+        0.619
+      ],
+      "text": "1. Where the data handler provides important data abroad;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-6",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.468,
+        0.168,
+        0.502,
+        0.825
+      ],
+      "text": "2. Critical information infrastructure operators and data handlers handling the personal information of over 1 million people providing personal information abroad;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-7",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.515,
+        0.169,
+        0.566,
+        0.826
+      ],
+      "text": "3. Data handlers providing abroad the personal information of more than 100,000 people or the sensitive personal information of more than 10,000 people since January 1 of the previous year;",
+      "source_type": "text"
+    },
+    {
+      "layout_id": "page-12:text-8",
+      "page_id": 12,
+      "layout_type": "text",
+      "asset_ref": null,
+      "bbox_norm": [
+        0.579,
+        0.169,
+        0.613,
+        0.826
+      ],
+      "text": "4. Other circumstances where the State cybersecurity and informatization department provides data export security assessment must be applied for.59",
+      "source_type": "text"
+    }
+  ],
+  "stats": {
+    "num_pages": 13,
+    "num_chunks": 33,
+    "num_layouts": 81
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "table_id": "table_22",
+    "reason": "numeric_token_coverage_low(0.06)",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.06)"
+        ],
+        "raw_llm_output": "{\"header\":[\"Liabilities Not Covered by Budgetary Resources 2023\"],\"rows\":[[\"Intragovernmental Liabilities\",\"\"],[\"Unfunded FECA Liability $\",\"\",\" 20 $ 20\"],[\"Total Intragovernmental Liabilities\",\"\",\" 20 20\"],[\"International Organizations Liability\",\"\",\" 2,881 2,236\"],[\"Unfunded Actuarial Liabilities:\",\"\"],[\"Foreign Service Retirement Actuarial Liability\",\"\",\" 12,857 11,228\"],[\"Foreign Service Nationals:\",\"\"],[\"Defined Contributions Fund\",\"\",\" 7 4\"],[\"Defined Benefit Plans\",\"\",\" 1 49\"],[\"Lump Sum Retirement and Voluntary Severance\",\"\",\" 326 322\"],[\"Total Unfunded Actuarial Liabilities\",\"\",\" 13,190 11,603\"],[\"Unfunded Leave\",\"\",\" 528 522\"],[\"Environmental and Disposal Liabilities\",\"\",\" 52 52\"],[\"Capital Lease Liability\",\"\",\" 44 42\"],[\"Contingent Liability\",\"\",\" 222 66\"],[\"Other Liabilities\",\"\",\" 225 220\"],[\"Total Liabilities Not Covered by Budgetary Resources\",\"\",\" 17,162 14,761\"],[\"\",\" 26,356 25,653\"],[\"Total Liabilities Covered by Budgetary Resources\",\"\"],[\"Total Liabilities Not Requiring Budgetary Resources Total Liabilities $\",\"\",\" 134 359 Total Liabilities $43,652 $ 40,773\"]]}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.06)"
+        ],
+        "raw_llm_output": "{\n  \"table\": [\n    [\"Liabilities Not Covered by Budgetary Resources 2023\"],\n    [\"Intragovernmental Liabilities\"],\n    [\"Unfunded FECA Liability\", \"$ 20\", \"$ 20\"],\n    [\"Total Intragovernmental Liabilities\", \"20\", \"20\"],\n    [\"International Organizations Liability\", \"2,881\", \"2,236\"],\n    [\"Unfunded Actuarial Liabilities:\"],\n    [\"Foreign Service Retirement Actuarial Liability\", \"12,857\", \"11,228\"],\n    [\"Foreign Service Nationals:\"],\n    [\"Defined Contributions Fund\", \"7\", \"4\"],\n    [\"Defined Benefit Plans\", \"1\", \"49\"],\n    [\"Lump Sum Retirement and Voluntary Severance\", \"326\", \"322\"],\n    [\"Total Unfunded Actuarial Liabilities\", \"13,190\", \"11,603\"],\n    [\"Unfunded Leave\", \"528\", \"522\"],\n    [\"Environmental and Disposal Liabilities\", \"52\", \"52\"],\n    [\"Capital Lease Liability\", \"44\", \"42\"],\n    [\"Contingent Liability\", \"222\", \"66\"],\n    [\"Other Liabilities\", \"225\", \"220\"],\n    [\"Total Liabilities Not Covered by Budgetary Resources\", \"17,162\", \"14,761\"],\n    [\"\", \"26,356 25,653\"],\n    [\"Total Liabilities Covered by Budgetary Resources\"],\n    [\"Total Liabilities Not Requiring Budgetary Resources Total Liabilities $\", \"\", \"\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_57",
+    "reason": "LLM repair returned empty/non-table JSON",
+    "method": "llm_repair",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "validator_rejected",
+        "validation_errors": [
+          "column_count_out_of_bounds(expected~1, got=6)"
+        ],
+        "raw_llm_output": "{\n  \"rows\": [\n    [\"COMBINING STATEMENT OF BUDGETARY RESOURCES For the Year Ended September 30,2023 (dollars in millions)\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Administration of Foreign International International Foreign Affairs Organizations Commissions Assistance Other Total\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Budgetary Resources: Unobligated Balance from Prior Year\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Budget Authority, Net\", \"16,113\", \"827\", \"153\", \"1,551\", \"15,454\", \"34,098\"],\n    [\"Appropriations (Discretionary and Mandatory)\", \"19,715\", \"2,820\", \"199\", \"2,010\", \"17,495\", \"42,239\"],\n    [\"Borrowing Authority (Discretionary and Mandatory)\", \"2\", \"2\", \"1\", \"1\", \"1\", \"1\"],\n    [\"Spending Authority from Offsetting Collections (Discretionary\", \"\", \"\", \"\", \"\", \"\"],\n    [\"and Mandatory)\", \"8,050\", \"17\", \"69\", \"36\", \"8,172\", \"\\u4e00\\u6761\\u603b\"],\n    [\"Total Budgetary Resources\", \"$ 43,880\", \"$ 3,647\", \"$ 369\", \"3,630\", \"$32,985\", \"$84,511\"],\n    [\"Status of Budgetary Resources:\", \"\", \"\", \"\", \"\", \"\"],\n    [\"New Obligations and Upward Adjustments (Total)\", \"$ 29,415\", \"$ 2,949\", \"$ 274\", \"$ 2,093\", \"$17,054\", \"$ 51,785\"],\n    [\"Unobligated Balance, End of Year:\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Apportioned, Unexpired Accounts\", \"13,273\", \"672\", \"88\", \"1,297\", \"15,466\", \"30,796\"],\n    [\"Exempt from Apportionment,\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Unexpired Accounts\", \"450\", \"27\", \"2\", \"479\", \"1\", \"1\"],\n    [\"Unapportioned, Unexpired\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Accounts\", \"225\", \"6\", \"1\", \"212\", \"444\", \"1\"],\n    [\"Expired Unobligated Balance,\", \"\", \"\", \"\", \"\", \"\"],\n    [\"End of Year\", \"517\", \"20\", \"6\", \"213\", \"251\", \"1,007\"],\n    [\"Unobligated Balance,\", \"\", \"\", \"\", \"\", \"\"],\n    [\"End of Year (Total)\", \"14,465\", \"698\", \"95\", \"1,537\", \"15,931\", \"32,726\"],\n    [\"Total Budgetary Resources\", \"$ 43,880\", \"$ 3,647\", \"$ 369\", \"3,630\", \"$32,985\", \"$84,511\"],\n    [\"Outlays, Net:\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Outlays, Net (Total) (Discretionary\", \"\", \"\", \"\", \"\", \"\"],\n    [\"and Mandatory)\", \"$ 19,647\", \"$ 2,926\", \"$ 168\", \"$1,877\", \"$16,179\", \"$40,797\"],\n    [\"Distributed Offsetting Receipts\", \"(6,166)\", \"\", \"\", \"\", \"-6,166\", \"\"],\n    [\"Agency Outlays, Net (Discretionary and Mandatory)\", \"$ 13,481\", \"$ 2,926\", \"$ 168\", \"$1,877\", \"$16,179\", \"\"]\n  ]\n}"
+      },
+      {
+        "stage": "llm_repair",
+        "method": "llm_repair",
+        "success": false,
+        "error": "LLM repair returned empty/non-table JSON",
+        "validation_errors": [
+          "column_count_out_of_bounds(expected~1, got=6)"
+        ],
+        "raw_llm_output": "{\n  \"table_data\": [\n    [\"COMBINING STATEMENT OF BUDGETARY RESOURCES For the Year Ended September 30,2023 (dollars in millions)\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Administration of Foreign International International Foreign Affairs Organizations Commissions Assistance Other Total\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Budgetary Resources: Unobligated Balance from Prior Year\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Budget Authority, Net\", \"16,113\", \"827\", \"153\", \"1,551\", \"15,454\"],\n    [\"Appropriations (Discretionary and Mandatory)\", \"19,715\", \"2,820\", \"199\", \"2,010\", \"17,495\"],\n    [\"Borrowing Authority (Discretionary and Mandatory)\", \"2\", \"2\", \"1\", \"1\", \"1\"],\n    [\"Spending Authority from Offsetting Collections (Discretionary\", \"\", \"\", \"\", \"\", \"\"],\n    [\"and Mandatory)\", \"8,050\", \"17\", \"69\", \"36\", \"8,172\"],\n    [\"Total Budgetary Resources\", \"$ 43,880\", \"$ 3,647\", \"$ 369\", \"3,630\", \"$32,985\"],\n    [\"Status of Budgetary Resources:\", \"\", \"\", \"\", \"\", \"\"],\n    [\"New Obligations and Upward Adjustments (Total)\", \"$ 29,415\", \"$ 2,949\", \"$ 274\", \"$ 2,093\", \"$17,054\"],\n    [\"Unobligated Balance, End of Year:\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Apportioned, Unexpired Accounts\", \"13,273\", \"672\", \"88\", \"1,297\", \"15,466\"],\n    [\"Exempt from Apportionment,\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Unexpired Accounts\", \"450\", \"27\", \"2\", \"479\", \"1\"],\n    [\"Unapportioned, Unexpired\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Accounts\", \"225\", \"6\", \"1\", \"212\", \"444\"],\n    [\"Expired Unobligated Balance,\", \"\", \"\", \"\", \"\", \"\"],\n    [\"End of Year\", \"517\", \"20\", \"6\", \"213\", \"251\"],\n    [\"Unobligated Balance,\", \"\", \"\", \"\", \"\", \"\"],\n    [\"End of Year (Total)\", \"14,465\", \"698\", \"95\", \"1,537\", \"15,931\"],\n    [\"Total Budgetary Resources\", \"$ 43,880\", \"$ 3,647\", \"$ 369\", \"3,630\", \"$32,985\"],\n    [\"Outlays, Net:\", \"\", \"\", \"\", \"\", \"\"],\n    [\"Outlays, Net (Total) (Discretionary\", \"\", \"\", \"\", \"\", \"\"],\n    [\"and Mandatory)\", \"$ 19,647\", \"$ 2,926\", \"$ 168\", \"$1,877\", \"$16,179\"],\n    [\"Distributed Offsetting Receipts\", \"(6,166)\", \"\", \"\", \"\", \"-6,166\"],\n    [\"Agency Outlays, Net (Discretionary and Mandatory)\", \"$ 13,481\", \"$ 2,926\", \"$ 168\", \"$1,877\", \"$16,179\"]\n  ]\n}"
+      }
+    ]
+  },
+  {
+    "table_id": "table_63",
+    "reason": "LLM parsing failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "confidence:0.60",
+          "too_few_columns"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM parse failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  }
+]

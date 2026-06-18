@@ -1,0 +1,45 @@
+[
+  {
+    "table_id": "table_1",
+    "status": "success",
+    "method": "deterministic",
+    "validation_status": "validated",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": true,
+        "error": null,
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  },
+  {
+    "table_id": "table_2",
+    "status": "failed",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_candidate",
+        "method": "deterministic",
+        "success": false,
+        "error": "deterministic_not_accepted",
+        "validation_errors": [
+          "numeric_token_coverage_low(0.00)",
+          "confidence:1.00"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM returned empty/non-table JSON",
+        "validation_errors": [],
+        "raw_llm_output": "{\"json\": [[\"Issue\", \"Question\", \"Explanation\"], [\"Identity\", \"What is your name?\", \"This will enable the BSO toidentify the person. The nameshould be verified against thereferralcard,identitydocuments and airline ticket.\"], [\"Citizenship\", \"What is your countryofcitizenship?\", \"The BSO should ask this ofeach person being examinedto ensure that the person's stated citizenship matches theidentitydocumenttheypresent. This response willhelpthe BSOdeterminepassport，visa，oreTArequirements. If satisfied thatthe person is a Canadiancitizen, the BSO will allow the\"], [\"\", \"\", \"persontoenter Canadawithout further questioning.\"], [\"Residency\", \"Where do you reside?\", \"Establishing   whether    aperson is a  permanentresident may enable the BSOtoauthorizeentryintoCanada with minimal furtherdelay. This question will alsohelp the BSO to determinepassport，visa，oreTArequirements and to verifywhether the person can returnto the country of residence if it is different from the countryof citizenship. For example, ifthe person claims to be aresident of the United Statesbut has a passport of anothercountry, the BSO may want tosee their Resident Alien cardbefore authorizing entry intoCanada.\"], [\"Intentions\", \"What is the purpose of yourtrip? How long do you intendto stay in Canada? Where inCanada are you planning to go? Do you intend to look forwork in Canada? Do youintend to study in Canada?\", \"If the person is not someonewho may enter Canada byright，theBSOshouldestablishtheperson'sintention in seeking entry.Questions such as these mayassist in this determination.\"], [\"Funds Available\", \"May I see your ticket, please? What sources of funds do youhave access to whileinCanada?\", \"Questions such as these are appropriate for determining ifa foreign national possessesthe financial means to carryout their intended travelplans and to depart at the endof their authorized time. TheBSO should be satisfied thatthe foreign national will nottake              unauthorizedemployment or have to rely on social assistance while inCanada.             Additionalquestioning may be requiredif foreign nationals cannot\"], [\"\", \"\", \"establishhowtheywillsupport themselves while inCanada. If they indicate that afriend or relative will supportthem, it may be advisable tocontact the support person toverify this information.\"], [\"Personal History\", \"What is your occupation? Doyou intend to visit anyone inCanada? Do you have anyfamily or friends in Canada?\", \"If the BSO is concerned that aforeign national maynotleave Canada at the end of theauthorizedtime，furtherquestioning may be necessaryto establish ties to the foreignnational's homeland. In thesecases， questions concerningthe foreign national's familyboth abroad and in Canadamay     be     appropriate,including             questionsconcerning marital status.\"], [\"Background\", \"Do you or have you had anyhealth problems? Have youever been convicted of a crimeor an offence? Have you everbeen refused entry into orremoved from Canada?\", \"The person's past may berelevanttoadmissibility.Questions such as these maybe       appropriate       fordeterminingwhethertheperson is inadmissible due toillhealth, criminalityorprevious     non-compliancewith                immigrationrequirements.\"]]}"
+      }
+    ]
+  }
+]

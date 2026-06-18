@@ -1,0 +1,1 @@
+<table><tr><td>Foreign currency amount</td><td>Applicable exchange rate</td></tr><tr><td>Income and expenses</td><td>Date of underlying transaction</td></tr><tr><td>Assets and liabilities</td><td>Period-end rate</td></tr><tr><td>Equity</td><td>Historical rate</td></tr><tr><td>Reserves</td><td>Historical rate</td></tr></table>

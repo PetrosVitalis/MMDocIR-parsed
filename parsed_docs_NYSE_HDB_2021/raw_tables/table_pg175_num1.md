@@ -1,0 +1,1 @@
+<table><tr><td>Particulars</td><td>Number of votes</td><td>Numberof shares</td><td>% to valid votes</td></tr><tr><td>Invalid e-voting</td><td>10</td><td>6,736,940</td><td>0.18</td></tr><tr><td>Valid e-voting considered</td><td>3,202</td><td>36,808,227,884</td><td>99.82</td></tr></table>

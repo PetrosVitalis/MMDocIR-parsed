@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Inventory provisions</td><td>-573</td><td>-702</td><td>-752</td></tr><tr><td>Reversals of inventory provisions</td><td>158</td><td>255</td><td>218</td></tr></table>

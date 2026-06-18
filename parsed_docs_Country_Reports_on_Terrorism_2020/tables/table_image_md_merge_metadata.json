@@ -1,0 +1,55 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_Country_Reports_on_Terrorism_2020",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_234_Table_0.jpg",
+      "raw_md": "table_pg234_num0.md",
+      "csv_base": "table_pg234_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_316_Table_0.jpg",
+      "raw_md": "table_pg316_num0.md",
+      "csv_base": "table_pg316_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_316_Table_1.jpg",
+      "raw_md": "table_pg316_num1.md",
+      "csv_base": "table_pg316_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_317_Table_0.jpg",
+      "raw_md": "table_pg317_num0.md",
+      "csv_base": "table_pg317_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_317_Table_1.jpg",
+      "raw_md": "table_pg317_num1.md",
+      "csv_base": "table_pg317_num1",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    }
+  ]
+}

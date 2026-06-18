@@ -1,0 +1,1 @@
+<table><tr><td></td><td>(crore)</td></tr><tr><td>Year ending March 31,</td><td>Amortisationexpense</td></tr><tr><td>2021 2022</td><td>103 98</td></tr><tr><td>2023</td><td>65</td></tr><tr><td>2024</td><td>17</td></tr><tr><td>Thereafter</td><td>■</td></tr><tr><td></td><td></td></tr><tr><td></td><td>283</td></tr></table>

@@ -1,0 +1,11 @@
+Model,Distractor F1,Open F1
+Single-paragraph BERT*,67.08,38.40
+BiDAF*,58.28,34.36
+BiDAF,58.99,32.89
+GRN,66.71,36.48
+QFE,68.06,38.06
+DFGN+BERT,68.49,=
+MultiQA,-,40.23
+DecompRC,69.63,40.65
+BERTPlus,69.76,=
+Cognitive Graph,1,48.87

@@ -1,0 +1,51 @@
+{
+  "parsed_docs": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_mmdetection-readthedocs-io-en-v2.18.0",
+  "entries": [
+    {
+      "table_id": "table_1",
+      "image": "_page_38_Table_0.jpg",
+      "raw_md": "table_pg38_num0.md",
+      "csv_base": "table_pg38_num0",
+      "status": "md_convert_failed",
+      "error": "column_count_out_of_bounds(expected~2, got=14); numeric_token_coverage_low(0.17)"
+    },
+    {
+      "table_id": "table_2",
+      "image": "_page_116_Table_0.jpg",
+      "raw_md": "table_pg116_num0.md",
+      "csv_base": "table_pg116_num0",
+      "status": "md_convert_failed",
+      "error": "LLM extract failed: llm_error: No valid JSON object/array found: line 1 column 1 (char 0)"
+    },
+    {
+      "table_id": "table_3",
+      "image": "_page_441_Table_0.jpg",
+      "raw_md": "table_pg213_num0.md",
+      "csv_base": "table_pg441_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merged_ok",
+      "merge_method": "llm_json"
+    },
+    {
+      "table_id": "table_4",
+      "image": "_page_454_Table_0.jpg",
+      "raw_md": "table_pg441_num0.md",
+      "csv_base": "table_pg454_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "vision_ok": true,
+      "status": "merge_failed_fallback",
+      "merge_error": "merge_llm_failed:timeout: total timeout exceeded (90.0s)",
+      "fallback": "kept_existing_table_csv"
+    },
+    {
+      "table_id": "table_5",
+      "image": "_page_458_Table_0.jpg",
+      "raw_md": "table_pg442_num0.md",
+      "csv_base": "table_pg458_num0",
+      "md_snapshot_source": "existing_pg_table_csv",
+      "status": "vision_failed",
+      "vision_error": "Model timeout after 90s"
+    }
+  ]
+}

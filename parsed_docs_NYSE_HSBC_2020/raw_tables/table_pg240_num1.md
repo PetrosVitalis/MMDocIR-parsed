@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Noel Quinn</td><td></td></tr><tr><td>(£000)</td><td>2020</td><td>2019</td></tr><tr><td>Insurance benefit (non-taxable)</td><td>51</td><td></td></tr><tr><td>Car and driver(UKand Hong Kong)</td><td>139</td><td></td></tr></table>

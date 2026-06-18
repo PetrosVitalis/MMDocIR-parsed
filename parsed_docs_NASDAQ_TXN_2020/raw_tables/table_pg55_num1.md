@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">December 31,</td></tr><tr><td>2020</td><td></td><td>2019</td></tr><tr><td>Other long-term assets.. ·</td><td>$</td><td>319</td><td>$337</td></tr><tr><td>Accrued expenses and other liabilities</td><td>$</td><td>72</td><td>$73</td></tr><tr><td>Other long-term liabilities </td><td></td><td>249</td><td>259</td></tr></table>

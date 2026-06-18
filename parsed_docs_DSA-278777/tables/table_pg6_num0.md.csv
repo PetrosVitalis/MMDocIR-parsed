@@ -1,0 +1,4 @@
+Symbol,Description,Min,Max,Units
+TA,Ambient Temperature Under BiasCommercialExpress,0-40,+70+85,℃℃
+Vcc,SupplyVoltage,4.5,5.5,V
+FosC,Oscillator Frequency,3.5,12,MHz

@@ -1,0 +1,1 @@
+<table><tr><td>Foreigncurrency item</td><td>Applicable exchange rate</td></tr><tr><td>Transactions</td><td>Date of underlying transaction</td></tr><tr><td>Monetaryassetsand liabilities</td><td>Period-end rate</td></tr></table>

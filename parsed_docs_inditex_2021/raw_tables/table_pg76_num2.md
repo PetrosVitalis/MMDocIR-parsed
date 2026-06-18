@@ -1,0 +1,1 @@
+<table><tr><td>2021</td><td>2020</td></tr><tr><td>Amortisation Right of Use (Note 7) 1,454</td><td>1,532</td></tr><tr><td>Lease finance cost (Note 8) 92</td><td>120</td></tr><tr><td>Variable rent payments (Note 5) 450</td><td>294</td></tr><tr><td>Others *(Note 5) 69</td><td>(113)</td></tr></table>

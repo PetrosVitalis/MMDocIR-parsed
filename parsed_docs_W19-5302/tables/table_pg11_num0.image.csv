@@ -1,0 +1,4 @@
+Human,s1<s2,s1=s2,s1>s2
+Metric,s1<s2,Conc,"Disc,Disc"
+Metric,s1=s2,"—""—""—""—""",
+Metric,s1>s2,Disc,"Disc,Conc"

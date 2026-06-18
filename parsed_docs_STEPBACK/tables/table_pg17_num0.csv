@@ -1,0 +1,4 @@
+Knowledge QA Final-Answer Prompt
+"You are an expert of world knowledge. I am going to ask you a question. Your response should be comprehensive and not contradicted with the following context if they are relevant. Otherwise,ignore them if they are not relevant."
+<Passage from original retrieval augmentation> <Passage from step-back retrieval augmentation>
+Original Question: <Original Question> Answer:

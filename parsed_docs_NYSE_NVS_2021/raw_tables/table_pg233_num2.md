@@ -1,0 +1,1 @@
+<table><tr><td>(USD millions)</td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Tax losses carried forward</td><td></td><td></td><td></td></tr><tr><td>that expired</td><td>18</td><td>14</td><td>9</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>

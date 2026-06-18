@@ -1,0 +1,44 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_2023.acl-long.386",
+  "total_images": 7,
+  "non_figure_images_skipped": 3,
+  "processed": 7,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_15_Figure_0.jpg",
+      "output": "image_descriptions/_page_15_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_0.jpg",
+      "output": "image_descriptions/_page_1_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_2.jpg",
+      "output": "image_descriptions/_page_6_Asset_2.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_3.jpg",
+      "output": "image_descriptions/_page_6_Asset_3.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_1.jpg",
+      "output": "image_descriptions/_page_6_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_6_Asset_0.jpg",
+      "output": "image_descriptions/_page_6_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_4_Figure_0.jpg",
+      "output": "image_descriptions/_page_4_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Measurement,"Value 2,254"
+#CONCEPTNET distinct question nodes #CONCEPTNET distinct answer nodes #CONCEPTNET distinct nodes #CONCEPTNET distinct relation lables # of distinct words in questions,"12.094 12,107 14,754 4,911"
+average question length (tokens) long questions (more than 20 tokens),22 13.41 10.3%
+average answer length (tokens) # answers with more than 1 token,1.5 44%

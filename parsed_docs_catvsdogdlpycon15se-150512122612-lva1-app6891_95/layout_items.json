@@ -1,0 +1,5350 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.14,
+      0.343,
+      0.858
+    ],
+    "text": "Deep Learning: and Deep Data-Science",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-2",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.567,
+      0.108,
+      0.711,
+      0.216
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:figure-3",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_1.jpg",
+    "bbox_norm": [
+      0.352,
+      0.309,
+      0.647,
+      0.657
+    ],
+    "text": "ROYAL INSTITUTE OFTECHNOLOGY 12 May 2015",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.77,
+      0.02,
+      0.861,
+      0.335
+    ],
+    "text": "roelof@kth.se www.csc.kth.se/-roelof/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.746,
+      0.546,
+      0.861,
+      0.976
+    ],
+    "text": "Graph Technologies R&D roelof@graph-technologies.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.887,
+      0.071,
+      0.973,
+      0.96
+    ],
+    "text": "slides online at: https://www.slideshare.net/roelofp/deep-learning-as-a-catdog-detector",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.067,
+      0.278,
+      0.159,
+      0.679
+    ],
+    "text": "BUT FIRST...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.189,
+      0.385,
+      0.232,
+      0.569
+    ],
+    "text": "are youa...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.127,
+      0.307,
+      0.35
+    ],
+    "text": "CAT PERSON?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-4",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.342,
+      0.045,
+      0.954,
+      0.428
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.632,
+      0.305,
+      0.864
+    ],
+    "text": "DOG PERSON?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-6",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_1.jpg",
+    "bbox_norm": [
+      0.352,
+      0.529,
+      0.951,
+      0.966
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.019,
+      0.231,
+      0.149,
+      0.723
+    ],
+    "text": "in the next few minutes we'llbe making a",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.68,
+      0.246,
+      0.96,
+      0.755
+    ],
+    "text": "CAT VS DOG DETECTOR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.031,
+      0.242,
+      0.199,
+      0.945
+    ],
+    "text": "main Libraries",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:figure-2",
+    "page_id": 3,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_3_Figure_0.jpg",
+    "bbox_norm": [
+      0.031,
+      0.815,
+      0.199,
+      0.944
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.074,
+      0.359,
+      0.606
+    ],
+    "text": "·sckikit-learn (machine learning) http://scikit-learn.org",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.072,
+      0.588,
+      0.92
+    ],
+    "text": "·caffe (deep learning) - for training deep neural nets   \n(for today: loading a pre-trained one)   \nhttp://caffe.berkeleyvision.org",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.074,
+      0.753,
+      0.856
+    ],
+    "text": "otheano (efficient gpu-powered math) http://www.deeplearning.net/software/theano/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.8,
+      0.074,
+      0.923,
+      0.639
+    ],
+    "text": "•ipython notebookhttp://ipython.org/notebook.html",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-1",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.135,
+      0.115,
+      0.402,
+      0.501
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.13,
+      0.51,
+      0.194,
+      0.841
+    ],
+    "text": "scikit-learn",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.196,
+      0.509,
+      0.225,
+      0.73
+    ],
+    "text": "Machine Leaming inPython",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.515,
+      0.298,
+      0.899
+    ],
+    "text": "·Simple and efficient tools for data mining and data analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.3,
+      0.515,
+      0.328,
+      0.957
+    ],
+    "text": "·Accessible toeverybodyandreusable invariouscontexts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.515,
+      0.355,
+      0.815
+    ],
+    "text": "·Built on NumPy，SciPy，and matploib",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.355,
+      0.515,
+      0.385,
+      0.891
+    ],
+    "text": "·Open source,commercially usable-BSD license",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.046,
+      0.505,
+      0.195
+    ],
+    "text": "Classification",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.065,
+      0.583,
+      0.321
+    ],
+    "text": "ldentifying towhichcategoryanobject belongsto.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.065,
+      0.64,
+      0.32
+    ],
+    "text": "Applications:Spamdetection,Image recognition.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.065,
+      0.696,
+      0.338
+    ],
+    "text": "Algorithms:SVM,nearestneighbors, random forest,... -Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-12",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.354,
+      0.508,
+      0.48
+    ],
+    "text": "Regression",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-13",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.371,
+      0.583,
+      0.636
+    ],
+    "text": "Predictingacontinuous-valuedattribute associated withanobject.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-14",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.372,
+      0.64,
+      0.618
+    ],
+    "text": "Applications:Drug response,Stock prices.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-15",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.372,
+      0.696,
+      0.645
+    ],
+    "text": "Algorithms:SVR,ridgeregression, Lasso,.. -Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-16",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.472,
+      0.661,
+      0.508,
+      0.777
+    ],
+    "text": "Clustering",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-17",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.679,
+      0.583,
+      0.928
+    ],
+    "text": "Automatic grouping of similar objects into sets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-18",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.679,
+      0.696,
+      0.951
+    ],
+    "text": "Applications:Customersegmentation, Grouping experiment outcomes Algorithms:k-Means,spectral clustering，mean-shit... -Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-19",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.046,
+      0.786,
+      0.313
+    ],
+    "text": "Dimensionality reduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-20",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.805,
+      0.065,
+      0.862,
+      0.283
+    ],
+    "text": "Reducing thenumberof random variablestoconsider.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-21",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.871,
+      0.065,
+      0.92,
+      0.322
+    ],
+    "text": "Applications:Visualization,Increased efficiency",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-22",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.92,
+      0.066,
+      0.975,
+      0.308
+    ],
+    "text": "Algorithms:PCA,featureselection, non-negativematrixfactorization.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-23",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.977,
+      0.26,
+      0.998,
+      0.337
+    ],
+    "text": "-Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-24",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.354,
+      0.786,
+      0.524
+    ],
+    "text": "Model selection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-25",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.805,
+      0.372,
+      0.862,
+      0.613
+    ],
+    "text": "Comparing,validatingand choosing parametersandmodels.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-26",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.871,
+      0.372,
+      0.92,
+      0.638
+    ],
+    "text": "Goal:Improved accuracy viaparameter tuning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-27",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.92,
+      0.372,
+      0.973,
+      0.645
+    ],
+    "text": "Modules:grid search,cross validation, metrics. -Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-28",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.751,
+      0.661,
+      0.788,
+      0.82
+    ],
+    "text": "Preprocessing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-29",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.805,
+      0.679,
+      0.833,
+      0.928
+    ],
+    "text": "Featureextraction and normalization.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-30",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.843,
+      0.68,
+      0.914,
+      0.929
+    ],
+    "text": "Application:Transforming inputdata suchastext forusewithmachine learningalgorithms.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-31",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.914,
+      0.68,
+      0.97,
+      0.902
+    ],
+    "text": "Modules:preprocessing,feature extraction.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-1",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.05,
+      0.027,
+      0.093,
+      0.104
+    ],
+    "text": "Caffe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.026,
+      0.184,
+      0.203
+    ],
+    "text": "Deep learningframework by the BVLC",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.217,
+      0.026,
+      0.244,
+      0.106
+    ],
+    "text": "Created by",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.027,
+      0.277,
+      0.114
+    ],
+    "text": "Yangqing Jia",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.281,
+      0.027,
+      0.31,
+      0.138
+    ],
+    "text": "Lead Developer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.027,
+      0.342,
+      0.14
+    ],
+    "text": "EvanShelhamer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.38,
+      0.037,
+      0.407,
+      0.167
+    ],
+    "text": "View OnGitHub",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.05,
+      0.291,
+      0.093,
+      0.368
+    ],
+    "text": "Caffe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.121,
+      0.289,
+      0.25,
+      0.944
+    ],
+    "text": "Caffeisadeeplearningframeworkmadewithexpression,speed,andmodularityinmind.Itis developedbythe BerkeleyVisionand Learning Center(BVLC)andby community contributors. YangqingJiacreatedtheprojectduringhisPhDat UCBerkeley.Caffeisreleasedunder the BSD2- Clause license.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.281,
+      0.29,
+      0.31,
+      0.6
+    ],
+    "text": "Check out our web image classification demo!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.29,
+      0.402,
+      0.421
+    ],
+    "text": "Why Caffe?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.428,
+      0.289,
+      0.524,
+      0.955
+    ],
+    "text": "Expressivearchitectureencouragesapplicationandinnovation.Modelsand optimizationare definedbyconfiguration withouthard-coding.SwitchbetweenCPUandGPUbysetingasingleflag totrainonaGPUmachine then deploy to commodity clusters ormobile devices.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-13",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.555,
+      0.289,
+      0.651,
+      0.94
+    ],
+    "text": "Extensible code fostersactivedevelopment.In Caffe'sfirstyear,it hasbeenforkedbyover1,000 developersand had many significantchangescontributed back.Thanksto these contributors the framework tracksthe state-of-the-artin both codeand models.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-14",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.684,
+      0.289,
+      0.779,
+      0.942
+    ],
+    "text": "Speedmakes Cafe perfectforresearch experimentsand industrydeployment.Caffecan process over60Mimagesperday withasingle NviDlAK40GPU\\*.That's1ms/imagefor inferenceand4 ms/imageforlearning.Webelievethat Cafeisthefastest convnetimplementationavailable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-15",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.81,
+      0.289,
+      0.906,
+      0.951
+    ],
+    "text": "Community:Caffealreadypowersacademicresearch projects,startupprototypes,andeven largescaleindustrialapplications in vision,speech,andmultimedia.Joinourcommunityof brewerson thecaffe-users group and Github.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-16",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.939,
+      0.29,
+      0.965,
+      0.842
+    ],
+    "text": "\\*WiththeILSVRC2012-winningSuperVision modeland caching IO.Consult performance details.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-1",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.014,
+      0.119,
+      0.131
+    ],
+    "text": "Welcome",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.147,
+      0.013,
+      0.243,
+      0.651
+    ],
+    "text": "Theano isaPython library thatallowsyoutodefine,optimize,and evaluate mathematical expressions involving multi-dimensional arrays efficiently.Theano features:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.267,
+      0.041,
+      0.331,
+      0.635
+    ],
+    "text": "·tightintegrationwith NumPy-Usenumpy.ndarray in Theano-compiled functions.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.336,
+      0.041,
+      0.397,
+      0.66
+    ],
+    "text": "·transparent use of a GPU-Performdata-intensive calculations up to 140x fasterthanwith CPU.(float32only)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.041,
+      0.461,
+      0.68
+    ],
+    "text": "·efficient symbolicdifferentiation-Theano doesyourderivatives forfunction withone ormany inputs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.041,
+      0.531,
+      0.662
+    ],
+    "text": "·speedand stability optimizations-Get the rightanswer forlog(1+x)even whenx is really tiny.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.536,
+      0.041,
+      0.565,
+      0.527
+    ],
+    "text": "·dynamicCcode generation-Evaluateexpressions faster.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-8",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.571,
+      0.041,
+      0.631,
+      0.697
+    ],
+    "text": "·extensive unit-testing and self-verification-Detect and diagnose many types ofmistake.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.656,
+      0.013,
+      0.753,
+      0.635
+    ],
+    "text": "Theano has been powering large-scale computationally intensive scientific investigations since 2oo7.But it isalsoapproachable enough tobeused inthe classroom (IFT6266 at the University ofMontreal).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.015,
+      0.819,
+      0.088
+    ],
+    "text": "News",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.852,
+      0.04,
+      0.88,
+      0.432
+    ],
+    "text": "·Wesupport cuDNNif itis installedbythe user.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-12",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.885,
+      0.04,
+      0.914,
+      0.486
+    ],
+    "text": "·Open Machine Learning Workshop2014 presentation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.918,
+      0.04,
+      0.944,
+      0.312
+    ],
+    "text": "·Colin Raffel tutorial on Theano.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-14",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.949,
+      0.04,
+      0.979,
+      0.513
+    ],
+    "text": "·lan Goodfellow did a12h class with exerciseson Theano.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-15",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.074,
+      0.735,
+      0.157,
+      0.977
+    ],
+    "text": "theano",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-16",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.744,
+      0.208,
+      0.903
+    ],
+    "text": "Table Of Contents",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-17",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.734,
+      0.423,
+      0.864
+    ],
+    "text": "Welcome   \nNews   \nDownload   \nStatus   \nCiting Theano   \nDocumentation   \nCommunity",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-18",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.447,
+      0.744,
+      0.477,
+      0.838
+    ],
+    "text": "Next topic",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-19",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.736,
+      0.531,
+      0.851
+    ],
+    "text": "ReleaseNotes",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-20",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.559,
+      0.744,
+      0.588,
+      0.833
+    ],
+    "text": "This Page",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-21",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.735,
+      0.633,
+      0.841
+    ],
+    "text": "Show Source",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-22",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.746,
+      0.689,
+      0.859
+    ],
+    "text": "Quick search",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-23",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.713,
+      0.953,
+      0.739,
+      0.98
+    ],
+    "text": "Go",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-24",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.763,
+      0.735,
+      0.824,
+      0.967
+    ],
+    "text": "Enter search terms oramodule, class or function name.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-1",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.142,
+      0.02,
+      0.175,
+      0.589
+    ],
+    "text": "Install·Docs·Videos·News·Cite·Sponsors·Donate",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.203,
+      0.005,
+      0.255,
+      0.395
+    ],
+    "text": "The IPython Notebook",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.286,
+      0.002,
+      0.381,
+      0.75
+    ],
+    "text": "TheIPython Notebook isan interactivecomputational environment,inwhich you can combinecodeexecution，richtext，mathematics，plotsand richmedia,asshownin thisexample session:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-4",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_0.jpg",
+    "bbox_norm": [
+      0.39,
+      0.188,
+      0.85,
+      0.563
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.854,
+      0.002,
+      0.951,
+      0.748
+    ],
+    "text": "Itaimstobeanagiletool forboth exploratorycomputationanddataanalysis,and providesaplatformto supportreproducibleresearch,sinceallinputsandoutputs maybe stored ina one-to-oneway in notebook documents.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.204,
+      0.76,
+      0.23,
+      0.888
+    ],
+    "text": "GoogleCustom Search",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-7",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.206,
+      0.902,
+      0.23,
+      0.951
+    ],
+    "text": "Search",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.262,
+      0.756,
+      0.298,
+      0.889
+    ],
+    "text": "VERSIONS",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.321,
+      0.764,
+      0.416,
+      0.904
+    ],
+    "text": "Stable   \n3.1-April 2015   \nInstall   \nDevelopment   \n4.0.dev   \nGitHub",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.555,
+      0.764,
+      0.651,
+      0.881
+    ],
+    "text": "Offline Docs All Versions GitHub",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.697,
+      0.756,
+      0.765,
+      0.898
+    ],
+    "text": "NOTEBOOK VIEWER",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-13",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.756,
+      0.807,
+      0.94
+    ],
+    "text": "Shareyour notebooks",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:figure-14",
+    "page_id": 7,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_7_Figure_1.jpg",
+    "bbox_norm": [
+      0.817,
+      0.768,
+      0.98,
+      0.97
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.226,
+      0.899,
+      0.852
+    ],
+    "text": "BEAR WITH L 古",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.24,
+      0.151,
+      0.759
+    ],
+    "text": "Data Science?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.072,
+      0.546,
+      0.821
+    ],
+    "text": "“Data science is clearly a blend of the hackers'art, statistics and machine learning...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.618,
+      0.272,
+      0.673,
+      0.924
+    ],
+    "text": "-Hilary Mason&ChrisWiggins,2010",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.454,
+      0.388,
+      0.541
+    ],
+    "text": "Machine Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-2",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.432,
+      0.459,
+      0.489,
+      0.537
+    ],
+    "text": "Data Science",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-3",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.625,
+      0.417,
+      0.706,
+      0.582
+    ],
+    "text": "Substantive Expertise",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-10:text-4",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.857,
+      0.298,
+      0.913,
+      0.701
+    ],
+    "text": "(Drew Connoway 2010)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.161,
+      0.385,
+      0.299
+    ],
+    "text": "1 feature",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:figure-1",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.44,
+      0.019,
+      0.828,
+      0.444
+    ],
+    "text": "1 feature 2 features",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-1",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.05,
+      0.309,
+      0.47
+    ],
+    "text": "1 feature",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-13:figure-2",
+    "page_id": 13,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_13_Figure_1.jpg",
+    "bbox_norm": [
+      0.442,
+      0.023,
+      0.821,
+      0.437
+    ],
+    "text": "2 features too few features/dimensions = overfiting",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:figure-1",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.05,
+      0.309,
+      0.47
+    ],
+    "text": "1 feature",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:figure-2",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_1.jpg",
+    "bbox_norm": [
+      0.439,
+      0.022,
+      0.822,
+      0.44
+    ],
+    "text": "2 features",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:figure-3",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_2.jpg",
+    "bbox_norm": [
+      0.215,
+      0.558,
+      0.904,
+      0.925
+    ],
+    "text": "too few features/dimensions = overfitting",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:figure-1",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_0.jpg",
+    "bbox_norm": [
+      0.0,
+      0.05,
+      0.31,
+      0.471
+    ],
+    "text": "1 feature",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:figure-2",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_1.jpg",
+    "bbox_norm": [
+      0.439,
+      0.023,
+      0.822,
+      0.438
+    ],
+    "text": "2 features",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:figure-3",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_2.jpg",
+    "bbox_norm": [
+      0.22,
+      0.554,
+      0.836,
+      0.945
+    ],
+    "text": "3 features",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.055,
+      0.131,
+      0.144,
+      0.865
+    ],
+    "text": "++ Data Needs also grow!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:figure-2",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_0.jpg",
+    "bbox_norm": [
+      0.206,
+      0.061,
+      0.541,
+      0.296
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-3",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_1.jpg",
+    "bbox_norm": [
+      0.208,
+      0.308,
+      0.541,
+      0.566
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-16:figure-4",
+    "page_id": 16,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_16_Figure_2.jpg",
+    "bbox_norm": [
+      0.161,
+      0.582,
+      0.552,
+      0.934
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-17:figure-1",
+    "page_id": 17,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_17_Figure_0.jpg",
+    "bbox_norm": [
+      0.071,
+      0.229,
+      0.888,
+      0.744
+    ],
+    "text": "(picture by Dato)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-19:text-1",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.225,
+      0.154,
+      0.773
+    ],
+    "text": "Deep Learning?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.072,
+      0.423,
+      0.839
+    ],
+    "text": "A host of statistical machine learning techniques",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-3",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.074,
+      0.621,
+      0.923
+    ],
+    "text": "·Enablesthe automatic learning of feature hierarchies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-4",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.678,
+      0.074,
+      0.817,
+      0.791
+    ],
+    "text": "Generally based onartificial neural networks",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:text-1",
+    "page_id": 20,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.01,
+      0.243,
+      0.119,
+      0.76
+    ],
+    "text": "Deep Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-20:figure-2",
+    "page_id": 20,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_20_Figure_0.jpg",
+    "bbox_norm": [
+      0.133,
+      0.117,
+      0.932,
+      0.72
+    ],
+    "text": "(picture by Dato)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.032,
+      0.222,
+      0.142,
+      0.774
+    ],
+    "text": "Deep Learning?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-2",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.18,
+      0.028,
+      0.305,
+      0.951
+    ],
+    "text": "·Manually designed features are often over-specified, incomplete and takea long time to design and validate",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.333,
+      0.028,
+      0.39,
+      0.893
+    ],
+    "text": "·Learned Features are easy toadapt,fast to learn",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.482,
+      0.027,
+      0.671,
+      0.867
+    ],
+    "text": "·Deep learning providesavery flexible,(almost?) universal, learnable framework for representing world,visualand linguistic information.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-5",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.703,
+      0.027,
+      0.953,
+      0.88
+    ],
+    "text": "·Deep learning can learn unsupervised (from raw text/audio/images/whatever content) and supervised (with specific labels like positive/ negative)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-6",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.942,
+      0.519,
+      0.984,
+      0.988
+    ],
+    "text": "(as summarised by Richard Socher 2014)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:text-1",
+    "page_id": 22,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.001,
+      0.01,
+      0.079,
+      0.972
+    ],
+    "text": "2006+:The Deep Learning Conspirators",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-22:figure-2",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.083,
+      0.13,
+      0.998,
+      1.0
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-24:text-1",
+    "page_id": 24,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.27,
+      0.13,
+      0.727
+    ],
+    "text": "Image Recognition",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-25:text-1",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.046,
+      0.14,
+      0.126,
+      0.86
+    ],
+    "text": "Natural Langauge Processing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-1",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.138,
+      0.128,
+      0.861
+    ],
+    "text": "Natural Langauge Processing",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:text-2",
+    "page_id": 26,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.309,
+      0.266,
+      0.383,
+      0.8
+    ],
+    "text": "cloudy days don't last forever.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:text-1",
+    "page_id": 27,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.026,
+      0.299,
+      0.128,
+      0.669
+    ],
+    "text": "DL? How ?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-27:figure-2",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_0.jpg",
+    "bbox_norm": [
+      0.184,
+      0.05,
+      0.902,
+      0.597
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-27:figure-3",
+    "page_id": 27,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_27_Figure_1.jpg",
+    "bbox_norm": [
+      0.13,
+      0.609,
+      0.921,
+      0.996
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-28:figure-1",
+    "page_id": 28,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_28_Figure_0.jpg",
+    "bbox_norm": [
+      0.439,
+      0.031,
+      0.821,
+      0.911
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:figure-1",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_0.jpg",
+    "bbox_norm": [
+      0.177,
+      0.298,
+      0.446,
+      0.967
+    ],
+    "text": "Deep neural networks learn hierarchicalfeature representations",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:figure-2",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_1.jpg",
+    "bbox_norm": [
+      0.449,
+      0.031,
+      0.821,
+      0.311
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-29:figure-3",
+    "page_id": 29,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_29_Figure_2.jpg",
+    "bbox_norm": [
+      0.449,
+      0.316,
+      0.821,
+      0.912
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-1",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_0.jpg",
+    "bbox_norm": [
+      0.034,
+      0.565,
+      0.269,
+      0.825
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-2",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_1.jpg",
+    "bbox_norm": [
+      0.343,
+      0.546,
+      0.59,
+      0.843
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-30:figure-3",
+    "page_id": 30,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_30_Figure_2.jpg",
+    "bbox_norm": [
+      0.649,
+      0.569,
+      0.934,
+      0.825
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-31:figure-1",
+    "page_id": 31,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_31_Figure_0.jpg",
+    "bbox_norm": [
+      0.034,
+      0.055,
+      0.939,
+      0.841
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-32:figure-1",
+    "page_id": 32,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_32_Figure_0.jpg",
+    "bbox_norm": [
+      0.069,
+      0.111,
+      0.868,
+      0.933
+    ],
+    "text": "(picture by Dato)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-33:text-1",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.031,
+      0.522,
+      0.284,
+      0.975
+    ],
+    "text": "Kaggle's Cat vs Dog dataset (25k dog/cat pictures)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-33:text-2",
+    "page_id": 33,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.913,
+      0.71,
+      0.972,
+      0.973
+    ],
+    "text": "(picture by Dato)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:figure-1",
+    "page_id": 34,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_34_Figure_0.jpg",
+    "bbox_norm": [
+      0.015,
+      0.061,
+      0.123,
+      0.213
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-34:text-2",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.071,
+      0.187,
+      0.139
+    ],
+    "text": "Dashboard",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-3",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.163,
+      0.259,
+      0.189,
+      0.604
+    ],
+    "text": "Competition Details》Getthe Data 》Makea submission",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-4",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.206,
+      0.071,
+      0.225,
+      0.106
+    ],
+    "text": "Home",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-5",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.232,
+      0.079,
+      0.25,
+      0.108
+    ],
+    "text": "Data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-6",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.078,
+      0.272,
+      0.178
+    ],
+    "text": "Makeasubmission",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-7",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.071,
+      0.31,
+      0.218
+    ],
+    "text": "Information",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-8",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.314,
+      0.078,
+      0.406,
+      0.134
+    ],
+    "text": "Description Evaluation Rules   \nPrizes   \nWinners",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-9",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.42,
+      0.071,
+      0.44,
+      0.218
+    ],
+    "text": "Forum",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-10",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.454,
+      0.071,
+      0.517,
+      0.22
+    ],
+    "text": "Leaderboard Public Private",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-11",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.531,
+      0.07,
+      0.553,
+      0.218
+    ],
+    "text": "Visualization",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-12",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.565,
+      0.071,
+      0.612,
+      0.218
+    ],
+    "text": "MyTeam GitHub",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-13",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.07,
+      0.651,
+      0.156
+    ],
+    "text": "My Submissions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-14",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.223,
+      0.257,
+      0.302,
+      0.707
+    ],
+    "text": "Createan algorithm to distinguish dogs from cats",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-15",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.331,
+      0.257,
+      0.406,
+      0.753
+    ],
+    "text": "Inthiscompetition,you'llwriteanalgorithmtoclassifywhetherimagescontain eithera dog oracat.This iseasy for humans,dogs,and cats.Your computer willfind ita bit more difficult.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-16",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.687,
+      0.071,
+      0.711,
+      0.149
+    ],
+    "text": "Leaderboard",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:figure-17",
+    "page_id": 34,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_34_Figure_1.jpg",
+    "bbox_norm": [
+      0.432,
+      0.337,
+      0.685,
+      0.677
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-34:text-18",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.67,
+      0.483,
+      0.692,
+      0.544
+    ],
+    "text": "Data Files",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-19",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.49,
+      0.741,
+      0.546
+    ],
+    "text": "FileName",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-20",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.074,
+      0.756,
+      0.164
+    ],
+    "text": "1.Pierre Sermanet",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-21",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.76,
+      0.072,
+      0.779,
+      0.122
+    ],
+    "text": "2.orchid",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-22",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.782,
+      0.074,
+      0.802,
+      0.119
+    ],
+    "text": "3.Owen",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-23",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.805,
+      0.074,
+      0.824,
+      0.157
+    ],
+    "text": "4.Paul Covington",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-24",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.746,
+      0.339,
+      0.819,
+      0.477
+    ],
+    "text": "Deep Blue beat Watson beat the brighte Can you tellFi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-25",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.77,
+      0.741,
+      0.868
+    ],
+    "text": "Available Formats",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-26",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.76,
+      0.489,
+      0.782,
+      0.584
+    ],
+    "text": "sampleSubmission",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-27",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.798,
+      0.489,
+      0.817,
+      0.518
+    ],
+    "text": "test1",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-28",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.836,
+      0.489,
+      0.855,
+      0.518
+    ],
+    "text": "train",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-29",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.76,
+      0.772,
+      0.782,
+      0.847
+    ],
+    "text": "csv (86.82kb)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-30",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.798,
+      0.772,
+      0.819,
+      0.855
+    ],
+    "text": "zip (271.15mb)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-31",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.833,
+      0.772,
+      0.855,
+      0.855
+    ],
+    "text": "zip(543.16mb)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-32",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.897,
+      0.096,
+      0.954,
+      0.901
+    ],
+    "text": "https://www.kaggle.com/c/dogs-vs-cats/data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-34:text-33",
+    "page_id": 34,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.892,
+      0.911,
+      0.911,
+      0.949
+    ],
+    "text": "hm on",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-35:text-1",
+    "page_id": 35,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.225,
+      0.544,
+      0.47,
+      0.979
+    ],
+    "text": "Pretrained Convolutional Neural Net (CNN)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-36:figure-1",
+    "page_id": 36,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_36_Figure_0.jpg",
+    "bbox_norm": [
+      0.079,
+      0.057,
+      0.866,
+      0.938
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-36:text-2",
+    "page_id": 36,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.911,
+      0.71,
+      0.972,
+      0.975
+    ],
+    "text": "(picture by Dato)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-1",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.026,
+      0.467,
+      0.109,
+      0.972
+    ],
+    "text": "Cooking Instructions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-2",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.018,
+      0.137,
+      0.363
+    ],
+    "text": "1 Load Pretrained Net",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:figure-3",
+    "page_id": 37,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_37_Figure_0.jpg",
+    "bbox_norm": [
+      0.135,
+      0.002,
+      0.376,
+      0.964
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-37:text-4",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.076,
+      0.434,
+      0.686
+    ],
+    "text": "2 Extract features for all training images",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-5",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.002,
+      0.668,
+      0.102
+    ],
+    "text": "image",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:text-6",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.467,
+      0.186,
+      0.522,
+      0.319
+    ],
+    "text": "features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:equation-7",
+    "page_id": 37,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_37_Equation_0.jpg",
+    "bbox_norm": [
+      0.534,
+      0.113,
+      0.814,
+      0.416
+    ],
+    "text": "$$\n\\left( \\begin{array} { c c c c } { { a _ { 1 1 } } } & { { a _ { 1 2 } } } & { { a _ { 1 3 } } } & { { \\cdots } } \\\\ { { a _ { 2 1 } } } & { { a _ { 2 2 } } } & { { a _ { 2 3 } } } & { { \\cdots } } \\\\ { { a _ { 3 1 } } } & { { a _ { 3 2 } } } & { { a _ { 3 3 } } } & { { \\cdots } } \\\\ { { \\vdots } } & { { \\vdots } } & { { \\vdots } } & { { \\ddots } } \\end{array} \\right)\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-37:text-8",
+    "page_id": 37,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.567,
+      0.468,
+      0.625,
+      0.936
+    ],
+    "text": "3. train MLP on those features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-37:figure-9",
+    "page_id": 37,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_37_Figure_1.jpg",
+    "bbox_norm": [
+      0.63,
+      0.468,
+      0.928,
+      0.923
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-38:text-1",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.076,
+      0.007,
+      0.126,
+      0.393
+    ],
+    "text": "1 Load Pretrained Net",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:text-2",
+    "page_id": 38,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.027,
+      0.468,
+      0.109,
+      0.971
+    ],
+    "text": "Cooking Instructions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-38:figure-3",
+    "page_id": 38,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_38_Figure_0.jpg",
+    "bbox_norm": [
+      0.14,
+      0.0,
+      0.48,
+      0.983
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-39:text-1",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.032,
+      0.089,
+      0.105,
+      0.869
+    ],
+    "text": "No Free Lunch...But Free Models!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:figure-2",
+    "page_id": 39,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_39_Figure_0.jpg",
+    "bbox_norm": [
+      0.156,
+      0.057,
+      0.197,
+      0.08
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-39:text-3",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.085,
+      0.19,
+      0.194
+    ],
+    "text": "BVLC/caffe",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-4",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.163,
+      0.605,
+      0.187,
+      0.707
+    ],
+    "text": "Watch-625",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-5",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.727,
+      0.187,
+      0.786
+    ],
+    "text": "Unstar",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-6",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.796,
+      0.187,
+      0.826
+    ],
+    "text": "3,481",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-7",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.847,
+      0.187,
+      0.893
+    ],
+    "text": "YFork",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-8",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.164,
+      0.903,
+      0.187,
+      0.932
+    ],
+    "text": "2,037",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-9",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.243,
+      0.055,
+      0.281,
+      0.188
+    ],
+    "text": "Model Zoo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-10",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.288,
+      0.055,
+      0.314,
+      0.36
+    ],
+    "text": "LiweiWang edited this page3daysago·18revisions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-11",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.357,
+      0.054,
+      0.411,
+      0.588
+    ],
+    "text": "Trained modelsareposted hereas links to Github Gists.Check out themodel zoo documentation fordetails.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-12",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.434,
+      0.055,
+      0.46,
+      0.188
+    ],
+    "text": "Toacquire a model:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-13",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.484,
+      0.062,
+      0.571,
+      0.63
+    ],
+    "text": "1.download themodel gist by./scripts/download\\_model\\_from\\_gist.sh <gist\\_id> <dirname>to load themodel metadata,architecture,solver configuration,and soon. (<dirname>isoptional and defaultstocaffe/models).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-14",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.576,
+      0.061,
+      0.633,
+      0.613
+    ],
+    "text": "2.download themodel weights by./scripts/download\\_model\\_binary.py <model\\_dir> where<model\\_dir>is thegistdirectory fromthefirst step.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-15",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.666,
+      0.055,
+      0.699,
+      0.313
+    ],
+    "text": "Berkeley-trained models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-16",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.725,
+      0.066,
+      0.781,
+      0.63
+    ],
+    "text": "·Finetuning on FlickrStyle:sameasprovidedin models/,butlisted hereasaGist for anexample.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-17",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.784,
+      0.066,
+      0.81,
+      0.2
+    ],
+    "text": "·BVLCGoogleNet",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-18",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.769,
+      0.272,
+      0.798
+    ],
+    "text": "Edit",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-19",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.25,
+      0.815,
+      0.274,
+      0.876
+    ],
+    "text": "New Page",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-20",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.845,
+      0.055,
+      0.876,
+      0.335
+    ],
+    "text": "Network in Networkmodel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-21",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.364,
+      0.683,
+      0.39,
+      0.764
+    ],
+    "text": "Pages",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-22",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.406,
+      0.683,
+      0.428,
+      0.723
+    ],
+    "text": "Home",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-23",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.44,
+      0.683,
+      0.484,
+      0.872
+    ],
+    "text": "Caffe on EC2 Ubuntu 14.04 Cuda",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-24",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.5,
+      0.683,
+      0.524,
+      0.765
+    ],
+    "text": "Development",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-25",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.534,
+      0.683,
+      0.559,
+      0.752
+    ],
+    "text": "Installation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-26",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.683,
+      0.593,
+      0.787
+    ],
+    "text": "Installation (OSx)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-27",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.605,
+      0.684,
+      0.628,
+      0.75
+    ],
+    "text": "Model Zoo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-28",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.683,
+      0.685,
+      0.859
+    ],
+    "text": "Modelsaccuracy on ImageNet 2012val",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-29",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.697,
+      0.684,
+      0.722,
+      0.759
+    ],
+    "text": "Publications",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-30",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.732,
+      0.684,
+      0.756,
+      0.782
+    ],
+    "text": "Related Projects",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-31",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.769,
+      0.683,
+      0.791,
+      0.838
+    ],
+    "text": "Ubuntu14.04 ec2instance",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-32",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.803,
+      0.683,
+      0.828,
+      0.846
+    ],
+    "text": "Ubuntu14.04VirtualBoxVM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-33",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.869,
+      0.674,
+      0.89,
+      0.791
+    ],
+    "text": "Clone this wiki locally",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-39:text-34",
+    "page_id": 39,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.93,
+      0.097,
+      0.979,
+      0.819
+    ],
+    "text": "https://github.com/BVLC/caffe/wiki/Model-Zoo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-1",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.022,
+      0.049,
+      0.067,
+      0.953
+    ],
+    "text": "/scripts/download\\_model\\_binary.py../models/bvlc\\_reference\\_caffenet",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-2",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.095,
+      0.058,
+      0.144,
+      0.197
+    ],
+    "text": "Cjupyter",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-3",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.182,
+      0.076,
+      0.206,
+      0.109
+    ],
+    "text": "Files",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-4",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.182,
+      0.138,
+      0.208,
+      0.192
+    ],
+    "text": "Running",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-5",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.182,
+      0.221,
+      0.206,
+      0.276
+    ],
+    "text": "Clusters",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-6",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.227,
+      0.059,
+      0.255,
+      0.451
+    ],
+    "text": "Toimportanotebook,drag thefileonto thelisting beloworclick",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-7",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.359,
+      0.082,
+      0.392,
+      0.342
+    ],
+    "text": "bvlc\\_reference\\_caffenet.caffemodel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-8",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.402,
+      0.082,
+      0.435,
+      0.223
+    ],
+    "text": "deploy.prototxt",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-9",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.446,
+      0.082,
+      0.477,
+      0.201
+    ],
+    "text": "readme.md",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-10",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.066,
+      0.552,
+      0.372
+    ],
+    "text": "Jupytersolver.prototxt03//2015",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-11",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.559,
+      0.067,
+      0.583,
+      0.113
+    ],
+    "text": "三Menu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-12",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.562,
+      0.361,
+      0.583,
+      0.43
+    ],
+    "text": "current mode",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-40:text-14",
+    "page_id": 40,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.095,
+      0.514,
+      0.142,
+      0.901
+    ],
+    "text": "Jupyterdeploy.prototxt/015",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-41:text-1",
+    "page_id": 41,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.039,
+      0.018,
+      0.1,
+      0.179
+    ],
+    "text": "#imports",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-1",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.026,
+      0.01,
+      0.088,
+      0.529
+    ],
+    "text": "# load pretrained deep neural net",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:text-2",
+    "page_id": 42,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.015,
+      0.59,
+      0.979
+    ],
+    "text": "1 MODEL\\_FILE='../models/bvlc\\_reference\\_caffenet/deploy.prototxt' 2 PRETRAINED='../models/bvlc\\_reference\\_caffenet/bvlc\\_reference\\_caffenet. caffemodel' 3 4 defpng\\_to\\_np(basedir,fetch\\_target=False): 5 logging.getLogger().setLevel(logging.INFO) 6 caffe.set\\_mode\\_gpu() net=caffe.Classifier(MODEL\\_FILE,PRETRAINED, 8 mean=np.load(caffe\\_root+'python/caffe/imagenet/ ilsvrc\\_2012\\_mean.npy').mean(1).mean(1), 9 channel\\_swap=(2,1,0）, 10 raw\\_scale=255, 11 image\\_dims=(256,256))",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-42:figure-3",
+    "page_id": 42,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_42_Figure_0.jpg",
+    "bbox_norm": [
+      0.604,
+      0.111,
+      0.928,
+      0.89
+    ],
+    "text": "(convnet from Krizhevsky et al.'s NIPS o12 ImageNet clasification paper)",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-43:text-1",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.01,
+      0.135,
+      0.352
+    ],
+    "text": "1 Load Pretrained Net",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-43:text-2",
+    "page_id": 43,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.026,
+      0.467,
+      0.109,
+      0.972
+    ],
+    "text": "Cooking Instructions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-1",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.036,
+      0.016,
+      0.168,
+      0.917
+    ],
+    "text": "#feed image into tbe network and return internal feature representation of layer fc6 de",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-2",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.88,
+      0.159,
+      0.976
+    ],
+    "text": "demo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-44:text-3",
+    "page_id": 44,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.189,
+      0.023,
+      0.717,
+      0.979
+    ],
+    "text": "1 def activate(net,im):   \n23 input\\_image=caffe.io.load\\_image(im) #Resize the image to the standard (256,256) and oversample net input sized crops. 4 input\\_oversampled=caffe.io.oversample([caffe.io.resize\\_image(input\\_image ,net.image\\_dims)],net.crop\\_dims) 5 #'data' is the input blob name in the model definition,so we preprocess for that input. 6 caffe\\_input=np.asarray([net.transformer.preprocess('data',in\\_)forin\\_ ininput\\_oversampled]) 7 #forward() takes keyword args for the input blobs with preprocessed input arrays.   \n8 predicted=net.forward(data=caffe\\_input)   \n9 #Activation of all convolutional layers and first fully connected   \n10 feat=net.blobs['fc6'].data[0]   \n11 return feat",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-1",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.018,
+      0.109,
+      0.486
+    ],
+    "text": "#extract features from images",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-45:text-2",
+    "page_id": 45,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.454,
+      0.019,
+      0.494,
+      0.46
+    ],
+    "text": "24returndata,target,files",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-46:text-1",
+    "page_id": 46,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.018,
+      0.109,
+      0.464
+    ],
+    "text": "#dump features as pickle file",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-1",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.026,
+      0.466,
+      0.109,
+      0.972
+    ],
+    "text": "Cooking Instructions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-2",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.018,
+      0.135,
+      0.363
+    ],
+    "text": "1 Load Pretrained Net",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:figure-3",
+    "page_id": 47,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_47_Figure_0.jpg",
+    "bbox_norm": [
+      0.135,
+      0.003,
+      0.376,
+      0.96
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-47:text-4",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.076,
+      0.434,
+      0.686
+    ],
+    "text": "2 Extract features for all training images",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-5",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.002,
+      0.668,
+      0.102
+    ],
+    "text": "image",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:text-6",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.468,
+      0.186,
+      0.522,
+      0.319
+    ],
+    "text": "features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:equation-7",
+    "page_id": 47,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_47_Equation_0.jpg",
+    "bbox_norm": [
+      0.534,
+      0.113,
+      0.814,
+      0.416
+    ],
+    "text": "$$\n\\left( \\begin{array} { c c c c } { { a _ { 1 1 } } } & { { a _ { 1 2 } } } & { { a _ { 1 3 } } } & { { \\cdots } } \\\\ { { a _ { 2 1 } } } & { { a _ { 2 2 } } } & { { a _ { 2 3 } } } & { { \\cdots } } \\\\ { { a _ { 3 1 } } } & { { a _ { 3 2 } } } & { { a _ { 3 3 } } } & { { \\cdots } } \\\\ { { \\vdots } } & { { \\vdots } } & { { \\vdots } } & { { \\ddots } } \\end{array} \\right)\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-47:text-8",
+    "page_id": 47,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.567,
+      0.437,
+      0.625,
+      0.966
+    ],
+    "text": "3. train MLP on those features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-47:figure-9",
+    "page_id": 47,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_47_Figure_1.jpg",
+    "bbox_norm": [
+      0.628,
+      0.464,
+      0.928,
+      0.925
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-48:text-1",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.045,
+      0.093,
+      0.262,
+      0.907
+    ],
+    "text": "Pylearn2: Multilayer Perceptron (MLP) on top of extracted features",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-2",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.295,
+      0.013,
+      0.359,
+      0.167
+    ],
+    "text": "#imports",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-3",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.298,
+      0.88,
+      0.348,
+      0.979
+    ],
+    "text": "demo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-4",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.02,
+      0.713,
+      0.828
+    ],
+    "text": "1 from·pylearn2.modelsimport·mlp   \n2from pylearn2.costs.mlp.dropoutimportDropout   \n3 frompylearn2.training\\_algorithms import sgd,learning\\_rule   \n4from pylearn2.termination\\_criteria import EpochCounter   \n5frompylearn2.datasetsimport DenseDesignMatrix   \n6from pylearn2.train import Train   \n7frompylearn2.train\\_extensions importbest\\_params   \n8 from pylearn2.space import VectorSpace   \n9",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-5",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.718,
+      0.018,
+      0.758,
+      0.235
+    ],
+    "text": "10import pickle",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-48:text-6",
+    "page_id": 48,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.758,
+      0.016,
+      0.796,
+      0.298
+    ],
+    "text": "11import numpyasnp",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-1",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.027,
+      0.011,
+      0.159,
+      0.69
+    ],
+    "text": "#load earlier extracted features and labels #convert to input that pylearn understands",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-2",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.102,
+      0.871,
+      0.151,
+      0.968
+    ],
+    "text": "demo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-3",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.22,
+      0.031,
+      0.265,
+      0.734
+    ],
+    "text": "2y=pickle.load(open('saved\\_y\\_v2.pkl'，'rb'))",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-49:text-4",
+    "page_id": 49,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.39,
+      0.031,
+      0.434,
+      0.571
+    ],
+    "text": "6full =DenseDesignMatrix(X=x,y=y)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-1",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.027,
+      0.014,
+      0.442,
+      0.23
+    ],
+    "text": "#create   \nlayers of   \nMLP   \n#with   \nsoftmax   \nas final layer",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-50:text-2",
+    "page_id": 50,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.654,
+      0.02,
+      0.984,
+      0.217
+    ],
+    "text": "#trainer initialized with SGD, momentum, dropout",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-1",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.064,
+      0.013,
+      0.126,
+      0.287
+    ],
+    "text": "# train/test splits",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-51:text-2",
+    "page_id": 51,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.151,
+      0.011,
+      0.609,
+      0.986
+    ],
+    "text": "1 #no sklearn.cross\\_validation > train\\_test\\_split   \n2 # own test/train split so we can also link filenames   \n3 splitter= round(len(x)\\*0.8)   \n4X\\_train,X\\_test=x[:splitter],x[splitter:]   \n5 y\\_train,y\\_test=y[:splitter],y[splitter:]   \n6filenames\\_train,filenames\\_test=filenames[:splitter],filenames[splitter:]   \n7   \n8pickle.dump(X\\_train,open('saved\\_feat\\_x\\_train\\_v2.pkl','wb'))   \n9 pickle.dump(X\\_test,open('saved\\_feat\\_X\\_test\\_v2.pkl','wb'))   \n10pickle.dump(y\\_train,open('saved\\_feat\\_y\\_train\\_v2.pkl','wb'))   \n11pickle.dump(y\\_test,open('saved\\_feat\\_y\\_test\\_v2.pkl','wb'))   \n12pickle.dump(filenames\\_train,open('saved\\_feat\\_filenames\\_train\\_v2.pkl','wb'))   \n13pickle.dump(filenames\\_test,open('saved\\_feat\\_filenames\\_test\\_v2.pkl','wb'))",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-1",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.062,
+      0.013,
+      0.128,
+      0.734
+    ],
+    "text": "#start our MLP (pylearn experiment method)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-4",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.887,
+      0.019,
+      0.927,
+      0.058
+    ],
+    "text": "（.）",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-52:text-5",
+    "page_id": 52,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.925,
+      0.126,
+      0.986,
+      0.962
+    ],
+    "text": "already after 5 min: valid\\_y\\_misclass: 0.061999989867",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-53:text-1",
+    "page_id": 53,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.052,
+      0.197,
+      0.584
+    ],
+    "text": "In [319]: plt.plot(score\\_train[2:]) plt.plot(score\\_test[2:1)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-54:text-1",
+    "page_id": 54,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.052,
+      0.197,
+      0.584
+    ],
+    "text": "In [319]: plt.plot(score\\_train[2:]) plt.plot(score\\_test[2:])",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-55:figure-1",
+    "page_id": 55,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_55_Figure_0.jpg",
+    "bbox_norm": [
+      0.184,
+      0.151,
+      0.609,
+      0.518
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-56:text-1",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.02,
+      0.109,
+      0.081,
+      0.846
+    ],
+    "text": "So are YoU more like a Dog or Cat?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-56:text-2",
+    "page_id": 56,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.68,
+      0.246,
+      0.96,
+      0.756
+    ],
+    "text": "CAT VS DOG DETECTOR",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:text-1",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.043,
+      0.054,
+      0.213,
+      0.161
+    ],
+    "text": "What about me?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-57:figure-2",
+    "page_id": 57,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_57_Figure_0.jpg",
+    "bbox_norm": [
+      0.161,
+      0.239,
+      0.734,
+      0.809
+    ],
+    "text": "Requiresawebcamandamodern browser with WebRTC support suchasFirefoxorChrome.Bui",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-57:text-3",
+    "page_id": 57,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.89,
+      0.059,
+      0.996,
+      0.938
+    ],
+    "text": "(I might put it up as a Flask site online, if people are interested?)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-58:figure-1",
+    "page_id": 58,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_58_Figure_0.jpg",
+    "bbox_norm": [
+      0.114,
+      0.074,
+      0.878,
+      0.908
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-58:text-2",
+    "page_id": 58,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.906,
+      0.216,
+      0.937,
+      0.462
+    ],
+    "text": "2secondsago·Oviews·stats",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:text-3",
+    "page_id": 59,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.423,
+      0.079,
+      0.461,
+      0.808
+    ],
+    "text": "Out[393]:<matplotlib.image.AxesImage at 0x7f5laefe5e50>",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-59:figure-4",
+    "page_id": 59,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_59_Figure_0.jpg",
+    "bbox_norm": [
+      0.489,
+      0.222,
+      0.991,
+      0.734
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-60:text-2",
+    "page_id": 60,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.175,
+      0.416,
+      0.401
+    ],
+    "text": "WOOF I'ma Dog！",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-61:text-2",
+    "page_id": 61,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.376,
+      0.175,
+      0.416,
+      0.401
+    ],
+    "text": "WOOF I'ma Dog！",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-61:figure-3",
+    "page_id": 61,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_61_Figure_0.jpg",
+    "bbox_norm": [
+      0.428,
+      0.199,
+      0.979,
+      0.921
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-62:text-1",
+    "page_id": 62,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.026,
+      0.372,
+      0.102,
+      0.695
+    ],
+    "text": "THATS ALL!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-62:text-2",
+    "page_id": 62,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.906,
+      0.312,
+      0.977,
+      0.688
+    ],
+    "text": "EASY PIEZY..",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-1",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.031,
+      0.334,
+      0.119,
+      0.598
+    ],
+    "text": "In Touch!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-2",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.168,
+      0.076,
+      0.223,
+      0.427
+    ],
+    "text": "Academic/Research",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-3",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.27,
+      0.049,
+      0.508,
+      0.471
+    ],
+    "text": "asPhDcandidateKTH/CSC:   \n\"Always interested in discussing   \nMachine Learning,Deep   \nArchitectures,Graphs,and   \nLanguageTechnology\"",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:figure-4",
+    "page_id": 63,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_63_Figure_0.jpg",
+    "bbox_norm": [
+      0.552,
+      0.175,
+      0.756,
+      0.329
+    ],
+    "text": "ROYALINSTITUTE OFTECHNOLOGY",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-63:figure-5",
+    "page_id": 63,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_63_Figure_1.jpg",
+    "bbox_norm": [
+      0.546,
+      0.411,
+      0.779,
+      0.587
+    ],
+    "text": "roelof@kth.se www.csc.kth.se/\\~roelof/",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-63:text-6",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.17,
+      0.549,
+      0.223,
+      0.958
+    ],
+    "text": "Data Science Consultancy",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:text-7",
+    "page_id": 63,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.251,
+      0.638,
+      0.364,
+      0.958
+    ],
+    "text": "Gve Systems Graph Technologies",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-63:figure-8",
+    "page_id": 63,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_63_Figure_2.jpg",
+    "bbox_norm": [
+      0.39,
+      0.657,
+      0.807,
+      0.899
+    ],
+    "text": "roelof@graph-systems.com www.graph-technologies.com",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:text-1",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.213,
+      0.277,
+      0.262,
+      0.717
+    ],
+    "text": "Stockholm Deep Learning Meetup",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-2",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.151,
+      0.314,
+      0.19
+    ],
+    "text": "Home",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-3",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.201,
+      0.314,
+      0.26
+    ],
+    "text": "Members",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-4",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.272,
+      0.314,
+      0.329
+    ],
+    "text": "Sponsors",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-5",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.341,
+      0.314,
+      0.384
+    ],
+    "text": "Photos",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-6",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.395,
+      0.315,
+      0.433
+    ],
+    "text": "Pages",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-7",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.445,
+      0.314,
+      0.516
+    ],
+    "text": "Discussions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-8",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.528,
+      0.314,
+      0.563
+    ],
+    "text": "More",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-9",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.291,
+      0.682,
+      0.315,
+      0.755
+    ],
+    "text": "Group tools",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:figure-10",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_0.jpg",
+    "bbox_norm": [
+      0.289,
+      0.763,
+      0.315,
+      0.781
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:text-11",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.289,
+      0.782,
+      0.315,
+      0.845
+    ],
+    "text": "Myprofile",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-12",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.152,
+      0.409,
+      0.239
+    ],
+    "text": "Stockholm, Sweden",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-13",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.416,
+      0.153,
+      0.437,
+      0.256
+    ],
+    "text": "Founded Feb21,2015",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-14",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.187,
+      0.48,
+      0.243
+    ],
+    "text": "About us...",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-15",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.153,
+      0.532,
+      0.22
+    ],
+    "text": "Datamaniacs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-16",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.255,
+      0.532,
+      0.277
+    ],
+    "text": "295",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-17",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.548,
+      0.153,
+      0.567,
+      0.277
+    ],
+    "text": "Group reviews",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-18",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.581,
+      0.153,
+      0.602,
+      0.278
+    ],
+    "text": "PastMeetups 2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-19",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.616,
+      0.153,
+      0.637,
+      0.22
+    ],
+    "text": "Our calendar",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:figure-20",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_1.jpg",
+    "bbox_norm": [
+      0.616,
+      0.261,
+      0.637,
+      0.277
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:text-21",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.663,
+      0.153,
+      0.685,
+      0.22
+    ],
+    "text": "Organizer:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-22",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.687,
+      0.153,
+      0.706,
+      0.19
+    ],
+    "text": "Roelof",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-23",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.71,
+      0.153,
+      0.729,
+      0.191
+    ],
+    "text": "Pieters",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:figure-24",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_2.jpg",
+    "bbox_norm": [
+      0.684,
+      0.214,
+      0.765,
+      0.276
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:text-25",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.789,
+      0.152,
+      0.98,
+      0.268
+    ],
+    "text": "We're about: Big Data Analytics Artificial Intelligence. Open Source·Software Development-New Technology·Big Data. Natural Language Processing·Machine Learning·Data",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-26",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.308,
+      0.394,
+      0.416
+    ],
+    "text": "Welcome!",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:figure-27",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_3.jpg",
+    "bbox_norm": [
+      0.411,
+      0.315,
+      0.432,
+      0.329
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:text-28",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.313,
+      0.437,
+      0.494
+    ],
+    "text": "+SCHEDULEANEWMEETUP",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-29",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.322,
+      0.48,
+      0.377
+    ],
+    "text": "Upcoming",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-30",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.461,
+      0.399,
+      0.479,
+      0.424
+    ],
+    "text": "Past",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-31",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.447,
+      0.479,
+      0.496
+    ],
+    "text": "Calendar",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-32",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.311,
+      0.522,
+      0.401
+    ],
+    "text": "April20-6:00PM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-33",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.524,
+      0.311,
+      0.55,
+      0.541
+    ],
+    "text": "DeepLearningfor Bioinformatics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:figure-34",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_4.jpg",
+    "bbox_norm": [
+      0.55,
+      0.311,
+      0.586,
+      0.552
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:text-35",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.597,
+      0.311,
+      0.621,
+      0.546
+    ],
+    "text": "103Datamaniacs||40Photos",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-36",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.635,
+      0.309,
+      0.703,
+      0.673
+    ],
+    "text": "Agenda:·18:00-18:15Grabacoffee/beerand getreadyto rumble..·18:15-18:30Welcome·18:30-19:00RoelofPieters: DeepLearning,abirdseyeview·19:OO-..LEARNMORE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-37",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.729,
+      0.311,
+      0.75,
+      0.407
+    ],
+    "text": "March10·6:00PM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-38",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.753,
+      0.309,
+      0.8,
+      0.666
+    ],
+    "text": "Kickoff!Deep Learning:Revolutionor Hype in Data-Science？",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-40",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.847,
+      0.309,
+      0.873,
+      0.545
+    ],
+    "text": "144 Datamaniacs||35Photos",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-41",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.887,
+      0.308,
+      0.954,
+      0.69
+    ],
+    "text": "Deep Learningis kicking offeverywhere (seethis front page article inthe New York Timesforexample)!There isgood reason tobe excited about deep learning,as it's...LEARN MORE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-42",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.716,
+      0.387,
+      0.808
+    ],
+    "text": "What'snew",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:figure-43",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_5.jpg",
+    "bbox_norm": [
+      0.399,
+      0.718,
+      0.527,
+      0.838
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:figure-44",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_6.jpg",
+    "bbox_norm": [
+      0.531,
+      0.718,
+      0.659,
+      0.838
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:figure-45",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_7.jpg",
+    "bbox_norm": [
+      0.661,
+      0.718,
+      0.791,
+      0.839
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:text-46",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.796,
+      0.763,
+      0.814,
+      0.794
+    ],
+    "text": "MORE",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-47",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.717,
+      0.902,
+      0.804
+    ],
+    "text": "NEWMEMBER Stefan Avesand joined 4 daysago",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:text-48",
+    "page_id": 64,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.916,
+      0.717,
+      0.972,
+      0.815
+    ],
+    "text": "NEWMEMBER MansMagnusson joined",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-64:figure-49",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_8.jpg",
+    "bbox_norm": [
+      0.84,
+      0.815,
+      0.873,
+      0.839
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-64:figure-50",
+    "page_id": 64,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_64_Figure_9.jpg",
+    "bbox_norm": [
+      0.932,
+      0.816,
+      0.965,
+      0.841
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-65:text-1",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.038,
+      0.041,
+      0.112,
+      0.888
+    ],
+    "text": "Wanna Play ? General Deep Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-2",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.069,
+      0.329,
+      0.906
+    ],
+    "text": "· Theano - CPU/GPU symbolic expression compiler in python (from LISA lab at University of Montreal). http://deeplearning.net/software/theano/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-3",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.34,
+      0.07,
+      0.508,
+      0.899
+    ],
+    "text": "·Pylearn2 - library designed to make machine learning research easy. http://deeplearning.net/software/ pylearn2/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-4",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.069,
+      0.741,
+      0.901
+    ],
+    "text": "·Torch -Matlab-like environment for state-of-the-art machine learning algorithms in lua (from Ronan Collobert,Clement Farabetand Koray Kavukcuoglu) http://torch.ch/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-65:text-5",
+    "page_id": 65,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.753,
+      0.07,
+      0.807,
+      0.847
+    ],
+    "text": ": more info: http://deeplearning.net/software links/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-1",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.015,
+      0.205,
+      0.104,
+      0.725
+    ],
+    "text": "Wanna Play ？ NLP",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-2",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.112,
+      0.071,
+      0.21,
+      0.358
+    ],
+    "text": "·RNNLM (Mikolov) http://rnlm.org",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-3",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.237,
+      0.071,
+      0.333,
+      0.545
+    ],
+    "text": "·NB-SVM https://github.com/mesnilgr/nbsvm",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-4",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.071,
+      0.505,
+      0.917
+    ],
+    "text": "Word2Vec (skipgrams/cbow)   \nhttps://code.google.com/p/word2vec/ (original)   \nhttp://radimrehurek.com/gensim/models/word2vec.html (python)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-5",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.531,
+      0.071,
+      0.675,
+      0.768
+    ],
+    "text": "·GloVe http://nlp.stanford.edu/projects/glove/(original) https://github.com/maciejkula/glove-python (python)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-6",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.701,
+      0.071,
+      0.796,
+      0.675
+    ],
+    "text": "·Socher etal/Stanford RNN Sentiment code: http://nlp.stanford.edu/sentiment/code.html",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-66:text-7",
+    "page_id": 66,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.07,
+      0.92,
+      0.673
+    ],
+    "text": "·Deep Learning without Magic Tutorial: http://nlp.stanford.edu/courses/NAACL2013/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-67:text-1",
+    "page_id": 67,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.031,
+      0.041,
+      0.118,
+      0.888
+    ],
+    "text": "Wanna Play ? Computer Vision",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-67:text-2",
+    "page_id": 67,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.069,
+      0.331,
+      0.816
+    ],
+    "text": "·cuda-convnet2 (AlexKrizhevsky, Toronto) (c++/ CUDA,optimized for GTX 580) https://code.google.com/p/cuda-convnet2/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-67:text-3",
+    "page_id": 67,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.07,
+      0.479,
+      0.856
+    ],
+    "text": "·Caffe (Berkeley) (Cuda/OpenCL,Theano, Python) http://caffe.berkeleyvision.org/",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-67:text-4",
+    "page_id": 67,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.512,
+      0.07,
+      0.625,
+      0.752
+    ],
+    "text": "·OverFeat (NYU) http://cilvr.nyu.edu/doku.php?id=code:start",
+    "source_type": "text"
+  }
+]

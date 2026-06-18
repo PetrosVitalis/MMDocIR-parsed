@@ -1,0 +1,6 @@
+Task,Entity Rec.,Relation,Coref.
+Multi Task (SCIIE),68.1,39.5,58.0
+Single Task,65.7,37.9,55.3
++Entity Rec.,-,38.9,57.1
++Relation,66.8,-,57.6
++Coreference,67.5,39.5,-

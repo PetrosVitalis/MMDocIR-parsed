@@ -1,0 +1,34 @@
+Task,Sub Task,Dataset,Method
+QA,Single-hop,Natural Qustion(NQ) [111],"[26],[30],[34],[42],[45],[50],[52],[59],[64],[82] [3],[4],[22],[27],[40],[43],[54],[62],[71],[112]"
+,,,"[20], [44], [72] [13],[30],[34],[45],[50],[64]"
+,,TriviaQA(TQA) [113],"[4],[27],[59], [62],[112]"
+,,SQuAD [114],"[22],[25],[43],[44],[71],[72]"
+,,Web Questions(WebQ) [115],"[20],[23],[30],[32],[45], [69],[112]"
+,,PopQA [116],"[3],[4],[13],[30],[50],[68] [7], [25], [67]"
+Multi-hop,,MS MARCO [117] HotpotQA [118],"[4],[40], [52] [23],[26],[31],[34],[47],[51], [61],[82] [7],[14], [22],[27],[59], [62],[69],[71], [91]"
+,Long-form QA,2WikiMultiHopQA [119] MuSiQue [120] ELI5 [121],"[14],[24],[48],[59],[61],[91] [14],[51], [61], [91] [27],[34],[43],[49],[51]"
+,Domain QA,NarrativeQA(NQA) [122] ASQA [124] QMSum(QM) [125] Qasper [126],"[45],[60],[63],[123] [24], [57] [60],[123] [60],[63]"
+,Multi-Choice QA,"COVID-QA [127] CMB[128],MMCU_Medical [129] QuALITY[130]","[35], [46] [81]"
+,,ARC [131] CommonsenseQA [132],"[60], [63] [25], [67] [58], [66]"
+Dialog,Graph QA,GraphQA [84],[84]
+Dialog,Dialog Generation Personal Dialog,Wizard of Wikipedia (WoW) [133] KBP[134],"[13],[27],[34],[42]"
+Dialog,,DuleMon [136],"[74], [135] [74]"
+Dialog,Task-oriented Dialog,CamRest [137],"[78], [79]"
+Dialog,Recommendation,"Amazon(Toys,Sport,Beauty） [138]","[39], [40]"
+IE,Event Argument Extraction,WikiEvent [139],"[13], [27], [37],[42]"
+IE,,RAMS [140],"[36], [37]"
+Reasoning,Relation Extraction Commonsense Reasoning,"T-REx [141],ZsRE [142]","[27], [51]"
+Reasoning,CoT Reasoning,HellaSwag [143] CoT Reasoning [144],"[20], [66] [27]"
+Others,Complex Reasoning Language Understanding,CSQA [145],[55]
+Others,Language Modeling,MMLU [146] WikiText-103 [147],"[7],[27], [28], [42], [43], [47],[72] [5], [29], [64], [71]"
+Others,Fact Checking/Verification,StrategyQA [148],"[14],[24],[48], [51],[55], [58]"
+Others,,FEVER[149] PubHealth [150],"[4],[13],[27],[34],[42], [50] [25], [67]"
+Others,Text Generation Text Summarization,Biography [151] WikiASP[152],[67]
+Others,,XSum [153],[24] [17]
+Others,Text Classification,VioLens [154],[19]
+Others,,TREC[155],[33]
+Others,Sentiment,SST-2 [156],"[20],[33],[38]"
+Code Search,,CodeSearchNet [157] [76],
+Robustness Evaluation,NoMIRACL [56],[56],
+Math,GSM8K[158],[73],
+Machine Translation,,JRC-Acquis [159],[17]

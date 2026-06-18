@@ -1,0 +1,6 @@
+,Test,Test,Test
+,Mean,Median,Max
+BERT,$\overline { { { \bf 0 . 5 0 4 } \pm 0 . 0 1 } }$,0.505,0.533
+BERT (W),$0 . 5 0 1 \pm 0 . 0 0$,0.501,0.502
+"BERT (R,W)",$0 . 5 0 0 \pm 0 . 0 0$,0.500,0.502
+"BERT (C,W)",$0 . 5 0 1 \pm 0 . 0 1$,0.500,0.518

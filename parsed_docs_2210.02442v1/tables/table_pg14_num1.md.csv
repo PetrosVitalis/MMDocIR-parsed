@@ -1,0 +1,10 @@
+config,value
+backbone,Inception-ResNet-v2
+optimizer,SGD
+learning rate learning rate schedule,0.1
+early stopping patience,"reduce learning rate on plateau,factor=O.5,patience=8 50"
+max epochs,10000
+,"flip, p=0.5"
+augmentation,"rotation,p=0.5,in 90,180,or 270 degrees"
+augmentation,"reverse color, p=0.1 fade color, p=0.1,80% random noises + 2O% original image"
+batch size,128

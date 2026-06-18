@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>Parameters</td><td>Speed</td></tr><tr><td>CNN</td><td>541K</td><td>171s</td></tr><tr><td>LSTM</td><td>1.8M</td><td>598s</td></tr><tr><td>SWEM</td><td>61K</td><td>63s</td></tr></table>

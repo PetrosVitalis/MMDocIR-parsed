@@ -1,0 +1,13 @@
+dataset,example
+StrategyQA,Original Question: Could you drive a Rowe 550 to the 2008 Summer Olympics?
+StrategyQA,"Original Answer [Incorrect]: The 2008 Summer Olympics was held in Beijing, China. The Rowe 550 is an all-electric car. The Rowe 550 has a range of 70 miles on a single charge and a top speed of about 30 mph. The distance between Beijing and the U.K. is about 4000 miles."
+StrategyQA,Stepback Question: What kind of vehicle is a Rowe 550?
+StrategyQA,"Final Answer [Correct]: The Roewe 550 was released in 2008; the 2008 Summer Olympics were held from August 8-24, 2008. So you could drive a Rowe 550 to the 2008 Summer Olympics."
+StrategyQA,Original Question: what channel does thursday night football come on regular tv as of 2017?
+StrategyQA,"Original Answer [Incorrect]: Thursday Night Football is a weekly series of National Football League (NFL) games broadcast on Thursday nights. It started in 2006 on NFL Network. Under a new agreement between the NFL and CBS, CBS will air 50% of the Thursday Night Football games and NFL Network will air the other 50%."
+StrategyQA,Stepback Question: which channel is thursday night football on as of 2017?
+StrategyQA,"Final Answer [Correct]: In 2017, Thursday Night Football was aired on CBS, NBC, and NFL Network."
+StrategyQA,Original Question: who is the present president of assam sahitya sabha as of 2018?
+StrategyQA,Original Answer [Incorrect]: Dr. Nagen Saikia
+StrategyQA,Stepback Question: who lead assam sahitya sabha as of 2018?
+StrategyQA,"Final Answer [Correct]: The answer is Paramananda Rajbongshi. As per a news from 2019, The Asam Sahitya Sabha, which was established in 1917, in Sibsagar, Assam, had got Paramananda Rajbongshi as its president. So, as of 2018, the president of assam sahitya sabha is Paramananda Rajbongshi."

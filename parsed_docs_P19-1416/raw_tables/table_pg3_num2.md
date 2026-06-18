@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2">Evaluation Data</td><td colspan="2">Training Data</td></tr><tr><td>Original</td><td>Adversarial</td></tr><tr><td>Original</td><td>67.08</td><td>59.12</td></tr><tr><td>Adversarial</td><td>46.84</td><td>60.10</td></tr><tr><td>+ Type</td><td>40.73</td><td>58.42</td></tr></table>

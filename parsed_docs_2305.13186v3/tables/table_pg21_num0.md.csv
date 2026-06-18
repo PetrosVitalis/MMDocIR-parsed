@@ -1,0 +1,4 @@
+Model,T,#P,B,C
+"Seq2SeqB (Beck et al.,2018) GGNN2Seq (Beck et al.,2018)",S S,"28,4M 28.3M",21.7 23.3,49.1 50.4
+"Seq2SeqB(Beck et al.,2018)",E,142M,26.6,52.5
+"GGNN2Seq (Beck et al.,2018) DCGCN (ours) E",E S,141M 19.1M,27.5 27.9,53.5 57.3

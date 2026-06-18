@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">( crore)</td></tr><tr><td>Particulars</td><td>March 31, 2021</td><td>March 31,2020</td></tr><tr><td>Opening provision</td><td>445.35</td><td>398.43</td></tr><tr><td>Movement during the year (net)</td><td>58.20</td><td>46.92</td></tr><tr><td>Closing provision</td><td>503.55</td><td>445.35</td></tr></table>

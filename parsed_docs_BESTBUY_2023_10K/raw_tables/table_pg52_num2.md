@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Statementof</td><td>2023</td><td></td><td>2022</td><td></td><td>2021</td></tr><tr><td>Amortization expense</td><td>SG&amp;A</td><td>$</td><td>86</td><td>$</td><td>82 $</td><td>80</td></tr></table>

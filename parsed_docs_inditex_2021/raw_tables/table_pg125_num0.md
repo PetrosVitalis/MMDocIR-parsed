@@ -1,0 +1,1 @@
+<table><tr><td>Area</td><td>2021 2020</td></tr><tr><td>Europe ex-Spain</td><td>48.4% 48.7%</td></tr><tr><td>Asia&amp; RoW</td><td>19.7% 23.2%</td></tr><tr><td>Spain</td><td>14.4% 14.6%</td></tr><tr><td>Americas</td><td>17.5% 13.5%</td></tr><tr><td>Total</td><td>100% 100%</td></tr></table>

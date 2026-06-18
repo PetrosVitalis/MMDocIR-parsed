@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td>Second Quarter 2017 $</td></tr><tr><td>Cost of sales</td><td>86</td></tr><tr><td>Selling, general and administrative expenses</td><td>5</td></tr><tr><td>Research, development and related expenses</td><td>8</td></tr><tr><td>Total</td><td>$ 99</td></tr></table>

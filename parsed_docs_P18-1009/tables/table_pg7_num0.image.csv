@@ -1,0 +1,4 @@
+AttentiveNER++,51.7,70.9,64.9
+"AFET (Ren et al., 2016a)",55.1,71.1,64.7
+"LNR (Ren et al., 2016b)",57.2,71.5,66.1
+Ours (ONTO+WIKI+HEAD),59.5,76.8,71.8

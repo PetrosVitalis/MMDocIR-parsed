@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">HSBC Holdings</td></tr><tr><td></td><td>2020</td><td>2019</td></tr><tr><td></td><td>$m</td><td>$m</td></tr><tr><td>Debt securities in issue (Note 25)</td><td>19,624</td><td>24,687</td></tr><tr><td>Subordinated liabilities (Note 28)</td><td>6,040</td><td>5,616</td></tr><tr><td>At31Dec</td><td>25,664</td><td>30,303</td></tr></table>

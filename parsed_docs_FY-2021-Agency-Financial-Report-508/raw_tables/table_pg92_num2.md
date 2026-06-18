@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td>Insurance Policies</td><td>30%</td><td>32%</td></tr><tr><td>Equity Securities</td><td>42%</td><td>41%</td></tr><tr><td>Money Market and Cash</td><td>0%</td><td>4%</td></tr><tr><td>Debt Securities</td><td>28%</td><td>23%</td></tr><tr><td>Total</td><td>100%</td><td>100%</td></tr></table>

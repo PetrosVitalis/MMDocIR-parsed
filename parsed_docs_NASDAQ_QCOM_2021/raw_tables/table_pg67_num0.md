@@ -1,0 +1,1 @@
+<table><tr><td></td><td colspan="2">September 26, 2021</td><td>September 27, 2020</td></tr><tr><td>Forwards</td><td>$</td><td>2,449 $</td><td>1,096</td></tr><tr><td>Options</td><td></td><td>870</td><td>789</td></tr><tr><td> Swaps</td><td></td><td>2,600</td><td></td></tr><tr><td></td><td>$</td><td>5.919 $</td><td>1,885</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>Model</td><td>SST-2</td><td>TREC</td><td>AGNews</td><td>EmoC</td></tr><tr><td>GPT2-XL</td><td>1.1×</td><td>1.5×</td><td>2.5×</td><td>1.4×</td></tr><tr><td>GPT-J</td><td>1.5×</td><td>2.2×</td><td>2.9×</td><td>1.9×</td></tr></table>

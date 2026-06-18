@@ -1,0 +1,1906 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.132,
+      0.13,
+      0.863
+    ],
+    "text": "SnapNTell: Enhancing Entity-Centric Visual Question Answering with Retrieval Augmented Multimodal LLM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.148,
+      0.121,
+      0.199,
+      0.885
+    ],
+    "text": "Jielin Qiu1,2∗, Andrea Madotto1, Zhaojiang Lin1, Paul A. Crook1, Yifan Ethan Xu1, Xin Luna Dong1, Christos Faloutsos2, Lei Li2, Babak Damavandi1, Seungwhan Moon1 1 Meta Reality Labs & FAIR, Meta 2Carnegie Mellon University",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.202,
+      0.157,
+      0.216,
+      0.847
+    ],
+    "text": "{jielinq,leili,christos}@cs.cmu.edu, {andreamad8,zhaojiang,pacrook,ethanxu,lunadong,shanemoon}@meta.com",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.262,
+      0.268,
+      0.342
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.141,
+      0.695,
+      0.462
+    ],
+    "text": "Vision-extended LLMs have made significant strides in Visual Question Answering (VQA). Despite these advancements, VLLMs still encounter substantial difficulties in handling queries involving long-tail entities, with a tendency to produce erroneous or hallucinated responses. In this work, we introduce a novel evaluative benchmark named SnapNTell, specifically tailored for entity-centric VQA. This task aims to test the models’ capabilities in identifying entities and providing detailed, entity-specific knowledge. We have developed the SnapNTell Dataset, distinct from traditional VQA datasets: (1) It encompasses a wide range of categorized entities, each represented by images and explicitly named in the answers; (2) It features QA pairs that require extensive knowledge for accurate responses",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.712,
+      0.115,
+      0.727,
+      0.258
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.738,
+      0.112,
+      0.9,
+      0.49
+    ],
+    "text": "Vision-extended LLMs have shown significant advancements, excelling at capturing complex semantics and context-aware attributes needed for intricate tasks. However, their abilities in factual VQA tasks, which demand accurate, concrete answers about real-world entities and phenomena, expose certain limitations. Particularly, torso-to-tail or long-tail entities, which constitute a large proportion of real-world data but appear infrequently in training datasets, pose a challenge. This scarcity in representation often leads to VLLMs resorting to generating plausible but incorrect or imaginative content in their outputs, a problem that manifests as “hallucinations\" within the context of model responses. To ensure the confident deployment of VLLMs in practical scenarios, there is an urgent need ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-8",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.252,
+      0.529,
+      0.36,
+      0.86
+    ],
+    "text": "Figure 1: Comparing SnapNTell with existing methods reveals a distinctive focus. In the SnapNTell benchmark, the answers are predominantly entity-centric, characterized by a greater depth of knowledgeable information pertaining to the specific entity depicted in the image as the answer.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.507,
+      0.922,
+      0.887
+    ],
+    "text": "The lack of publicly available evaluation datasets specifically tailored to assess models’ ability in recognizing real-world long-tailed entities presents a notable gap in VQA. Existing datasets fall short in serving this purpose due to a narrow range of entity categories, the prevalence of overly simplistic yes/no QA pairs, and a general lack of entity specificity, often using broad terms like “Tiger\" instead of more specific ones like “Siberian Tiger\". To address this gap, we introduce a novel evaluation task called SnapNTell, which focuses on entity-centric knowledge-based VQA. The Snap-NTell benchmark has been designed to evaluate models’ abilities in accurately identifying entities and generating responses that showcase a deep understanding of these entities. To support this task, we ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.112,
+      0.198,
+      0.49
+    ],
+    "text": "It includes a wide range of fine-grained and categorized entities, each accompanied by corresponding images and clear mention of the entity name within the answer sets. (2) It features QA pairs designed to prompt knowledge-intensive responses, moving beyond the binary yes/no format to challenge and assess the depth of the model’s comprehension.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.198,
+      0.112,
+      0.441,
+      0.49
+    ],
+    "text": "Furthermore, the limitations identified in factual query generation underscore the need for new solutions to address the problem of hallucinations. Recent advancements suggest that retrieval-based approaches hold significant promise in this regard (Guu et al., 2020; Srinivasan et al., 2022; Yang et al., 2023a,b). These methods enhance LLMs by integrating external knowledge sources or incorporating retrieval mechanisms to access relevant information from extensive knowledge bases. The synergy between the advanced inference capabilities of LLMs and the wealth of external knowledge has the potential to significantly reduce issues related to long-tail entities and, consequently, decrease the occurrence of hallucinatory responses.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.442,
+      0.112,
+      0.554,
+      0.49
+    ],
+    "text": "In this work, we aim to propose an evaluation task to investigate the model’s ability to recognize real-world long-tailed entities and provide knowledge-intensive answers. We also propose a retrieval-augmented method to reduce hallucinations and enhance the precision and trustworthiness of generated responses.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.555,
+      0.132,
+      0.57,
+      0.457
+    ],
+    "text": "Our contribution is summarized as follows:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.58,
+      0.136,
+      0.676,
+      0.489
+    ],
+    "text": "• SnapNTell task. We propose a novel task for entity-centric VQA, specifically designed to assess the proficiency of models in accurately identifying and generating responses that exhibit a deep comprehension of these identified entities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.686,
+      0.136,
+      0.768,
+      0.49
+    ],
+    "text": "• SnapNTell model. We proposed a retrievalaugmented multimodal LLM, devised as a baseline model capable of undertaking the SnapNTell task, which is scalable, effective, and explainable.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.136,
+      0.921,
+      0.492
+    ],
+    "text": "• SnapNTell dataset. We collected a new evaluation dataset with distinctive characteristics, which stands out for two key features: (1) It encompasses a diverse range of fine-grained entities, each accompanied by corresponding representative images. (2) The questionanswer pairs contain knowledge-intensive responses with entity names specifically mentioned in the answer sets.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.531,
+      0.149,
+      0.887
+    ],
+    "text": "• Our model demonstrates superior performance on the SnapNTell dataset, surpassing current methodologies with a 66.5% improvement in BELURT score.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.161,
+      0.509,
+      0.178,
+      0.675
+    ],
+    "text": "2 Related Works",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.187,
+      0.507,
+      0.558,
+      0.889
+    ],
+    "text": "Knowledge-based VQA Research in visionlanguage tasks, which necessitate understanding image content to answer questions, has seen significant advancements over recent years. Beginning with datasets like FVQA (Wang et al., 2016), which extracted facts from pre-established knowledge bases, the field has progressed to more challenging ones like the OK-VQA dataset (Marino et al., 2019), encompassing diverse knowledge categories. MultiModalQA (Talmor et al., 2021) introduced complexity with questions demanding crossmodal reasoning over snippets, tables, and images. The successor of OK-VQA, AOK-VQA (Schwenk et al., 2022), raises the bar by providing questions that transcend simple knowledge base queries. ManyModalQA (Hannan et al., 2020) shifts the focus to answer modality selection, MIMOQA (Sin",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-11",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.562,
+      0.507,
+      0.725,
+      0.887
+    ],
+    "text": "Multimodal LLMs Integrating visual understanding into text-based LLM typically combines them with a visual encoder and uses image captioning datasets for alignment (Koh et al., 2023; Wu et al., 2023; Chowdhery et al., 2022). Techniques like adapter-based tuning (Alayrac et al., 2022) and prefix tuning (Tsimpoukelli et al., 2021) allow these models to process visual inputs while maintaining their linguistic capabilities, without requiring full model retraining (Yin et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-12",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.727,
+      0.507,
+      0.922,
+      0.889
+    ],
+    "text": "Retrieval-augmented LLM Previous studies have explored retrieval augmentation in text-only settings or image captioning tasks. Guu et al. (2020) introduced a retriever for language models to access large corpus during various stages. Srinivasan et al. (2022) showed retrieval-augmented queries enhance LLMs’ context understanding. Yasunaga et al. (2023) and Yang et al. (2023a) developed methods for integrating multimodal documents and speeding up LLM inference, respectively. Yang et al. (2023b) created a visual language model, inspired by Flamingo (Alayrac et al.,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-1",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.112,
+      0.149,
+      0.489
+    ],
+    "text": "2022), for image captioning with external database retrieval. Similarly, Gui et al. (2021) combined implicit and explicit knowledge in an encoder-decoder setup to improve answer generation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-2",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.152,
+      0.11,
+      0.347,
+      0.49
+    ],
+    "text": "Open-domain visual entity recognition Hu et al. (2023) developed OVEN for associating images with Wikipedia entities via text queries, while Chen et al. (2023) introduced INFOSEEK, a dataset for Visual Question Answering focused on informational queries. While OVEN is proficient in entity recognition using a knowledge base, INFOSEEK mainly supplies factual responses. Our study seeks to merge these strengths, creating detailed paragraphs that provide context for a more comprehensive understanding beyond basic facts. More related work can be found in Appendix E.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.357,
+      0.114,
+      0.374,
+      0.31
+    ],
+    "text": "3 SnapNTell Dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-4",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.384,
+      0.114,
+      0.399,
+      0.332
+    ],
+    "text": "3.1 Entity Categorization",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.405,
+      0.112,
+      0.678,
+      0.49
+    ],
+    "text": "To tackle the challenge of the new SnapNTell task, the first step involves creating a comprehensive dataset that represents a wide array of real-world entities. Our dataset creation methodology entails selecting a diverse set of entity names from various categories that mirror the diversity of the real world. This selection encompasses both commonly encountered entities and less frequently encountered ones. We have identified 22 categories that adequately represent a cross-section of entities one might encounter in daily life. These categories include landmark, painting, sculpture, food, fruit, vegetable, mammal, amphibian, insect, fish, bird, reptile, celebrity, instrument, plant, electronics, tool, transportation, sport, book, household, and car. More details about the categories can be ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.678,
+      0.112,
+      0.922,
+      0.492
+    ],
+    "text": "To populate each category with specific entities, we leveraged Wikipedia as a primary resource due to its extensive and detailed entries. (See Appendix A for more details.) Our selection criteria are heavily biased towards specificity; for instance, in the category of mammals, we deliberately opted for precise names such as “German Shepherd” or “Alaskan Malamute” instead of the generic “Dog”. This level of specificity is critical as it enables the model to demonstrate its capacity for fine-grained recognition and its ability to generate detailed, accurate information about each entity. This datasetbuilding approach is what distinguishes our dataset from existing VQA datasets, which often lack finegrained entities and specificity.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.509,
+      0.101,
+      0.685
+    ],
+    "text": "3.2 Image collection",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.107,
+      0.507,
+      0.186,
+      0.885
+    ],
+    "text": "The dataset comprises 22 primary categories, encapsulating a total of 7,568 unique entities. For each individual entity, a set of 10 images has been curated, where the statistic of the entity list is shown in Table 10 in the Appendix.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-9",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.19,
+      0.507,
+      0.481,
+      0.887
+    ],
+    "text": "Filtering Initially, a comprehensive list of entities, encompassing 22 primary categories, was compiled, in a total of 14,910 diverse entities. Then the entity list underwent filtering by cross-referencing each entry with its corresponding Wikipedia page. Entities lacking valid Wikipedia pages were subsequently removed from the list. For each corresponding entity, images were sourced from Creative Commons (CC). Further filtering was conducted by removing entities that didn’t have a sufficient number of images obtained via Google Image Search engine. The collected metadata was stored in a CSV file containing essential information such as image URLs, source page URLs, renamed image names, and the corresponding Wikipedia page URLs. After filtering, the final number of entities in the SnapNTel",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-10",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.491,
+      0.509,
+      0.521,
+      0.862
+    ],
+    "text": "3.3 Knowledge-intensive Question-Answer Pairs",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-11",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.509,
+      0.56,
+      0.884
+    ],
+    "text": "In our SnapNTell dataset, we considered five types of questions:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-12",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.565,
+      0.531,
+      0.646,
+      0.887
+    ],
+    "text": "• Static facts (absolute facts, discrete facts). These are objective facts that are concrete and are not contingent on other conditions. They can usually be answered with a unique answer. i.e., “When was he (Barack Obama) born?\"",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-13",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.652,
+      0.531,
+      0.781,
+      0.887
+    ],
+    "text": "• Narrative facts. These facts encompass comprehension of larger contexts (e.g., song lyrics, movie plot). They are factual in the sense that the content of the narrative should accurately reflect the source material or events, but a correct answer is usually not unique, as they can vary in their level of detail and focus. i.e., “What is the plot of that (‘The Godfather’)?\"",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-14",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.787,
+      0.531,
+      0.851,
+      0.887
+    ],
+    "text": "• Dynamic facts. These are facts that are subject to change over time. i.e., “What is the Yelp customer rating of it (the Eleven Madison Park restaurant) in NYC?\"",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-15",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.531,
+      0.921,
+      0.887
+    ],
+    "text": "• Procedural facts. These are usually answers to “how” questions, outlining a sequence of steps to accomplish a task. While the steps may not be unique and could be subjective, the answer can still be classified as logical or nonsensical. Note that these facts may sometimes overlap with dynamic facts or narrative facts, i.e., “How do you check the battery level of my item (Ray-Ban Stories Glasses)?\"",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.171,
+      0.134,
+      0.335,
+      0.492
+    ],
+    "text": "• Subjective facts. (opinion-based facts). These “facts” are not objective indisputable facts, but based on individual perspectives or experience. Recommendations fall in this category. While there’s generally no single correct answer to questions seeking subjective facts, it still requires the system to understand the topic and provide reasonable answers grounded by world facts. i.e., “Why do you like it (Niagara Falls)?\"",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.346,
+      0.11,
+      0.766,
+      0.49
+    ],
+    "text": "To construct a comprehensive and knowledgeintensive QA dataset, we employ a three-step process. Firstly, we extracted and condensed pertinent information from Wikipedia for each entity, i.e., the summary of the introduction, the caption of the image, etc. (See Appendix A for more details). Following similar approaches proposed by LLaVA (Liu et al., 2023b), Dettmers et al. (2023) is utilized to generate QA pairs for each entity automatically based on five pre-defined question types, ensuring diversity and informativeness. Then, we enlisted three annotators (2 male and 1 female) from Amazon SageMaker to assess QA pair quality and make necessary revisions to meet specific criteria. The responsibilities of these annotators include: (1) ensuring that the images and QA pairs are semantically ali",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.11,
+      0.921,
+      0.492
+    ],
+    "text": "Quality and consistency In order to verify the quality of the QA pairs, we conducted a quality evaluation by randomly choosing 1,000 QA pairs from our dataset. We assigned three independent human evaluators (1 male, 2 female) from Amazon SageMaker to review these pairs for accuracy [accurate, inaccurate] and agreement on whether to save the QA pair by Fleiss’ Kappa (Fleiss, 1971). The outcome of this assessment revealed 98% accuracy and κ = 0.95 agreement rate among the evaluators, demonstrating a significant degree of uniformity in the quality of the QA pairs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.145,
+      0.509,
+      0.161,
+      0.855
+    ],
+    "text": "3.4 Statistics and Analysis of Our Dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.167,
+      0.507,
+      0.313,
+      0.885
+    ],
+    "text": "Entity statistics To provide a clear summary of this comprehensive dataset, we have condensed the details of the entity list into Table 10 and Figure 9 (in Appendix F). Our analysis indicates that the dataset displays a well-balanced distribution across different categories, enhancing its balanced and diverse characteristics. Such a balanced and diverse composition enhances the representativeness of our proposed evaluation dataset.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.507,
+      0.631,
+      0.887
+    ],
+    "text": "Popularity The importance of entity popularity in search engines is a key aspect to consider, similar to examining the head, torso, and tail sections of knowledge bases within search engine frameworks. As demonstrated in Figure 11 in Appendix F, we use the average Wikipedia pageviews per entity over the last 60 days as the metric. This average is calculated by summing up the pageviews and then dividing by the number of entities. The insights from Figure 11 reveal that entities in the celebrity category have the highest average popularity. For a broader comparison among different categories, we also present a comprehensive analysis of total pageviews for all categories in Figure 10 in Appendix F, which shows that the celebrity category remains at the forefront in terms of overall entity pop",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.64,
+      0.509,
+      0.657,
+      0.88
+    ],
+    "text": "3.5 Comparison with Existing VQA Datasets",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.507,
+      0.922,
+      0.889
+    ],
+    "text": "In Table 2 and Figure 2, we present a comparison with existing VQA datasets. It is evident that some existing VQA datasets lack categorization, fine-grained entities, and knowledge-intensive answers, as observed in VQA 2.0 (Goyal et al., 2016) and GQA (Hudson and Manning, 2019). OK-VQA (Marino et al., 2019) contains images that may not be sufficient to answer the questions, encouraging reliance on external knowledge resources. However, the answers in OK-VQA are often simplistic binary (yes/no) responses or selections from the questions. A-OKVQA (Schwenk et al., 2022), the successor of OK-VQA, aims to provide questions that require commonsense reasoning about the depicted scene but use general object names in the answers. MultiModalQA (Talmor et al., 2021) focuses on cross-modal knowledge e",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:table-1",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.117,
+      0.117,
+      0.167,
+      0.873
+    ],
+    "text": "Table 1: More detailed comparison with existing knowledge-based VQA datasets. Anonymity means whether the question already contains a knowledge clue related to the entity in question. (\\* Unclear)",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:table-2",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_1.jpg",
+    "bbox_norm": [
+      0.275,
+      0.115,
+      0.381,
+      0.48
+    ],
+    "text": "Table 2: Comparison with existing VQA datasets Knowledge means the QA pairs are knowledgeable, not simple yes/no answers or selection questions. Entities means whether there are fine-grained entities specifically contained in answers. Categorization means the entities are categorized, not randomly crawled online.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.677,
+      0.11,
+      0.922,
+      0.492
+    ],
+    "text": "ViQuAE (Lerner et al., 2022) and Encyclopedic VQA (Mensink et al., 2023) both incorporate entity-level knowledge-based information along with categorization. Therefore, we performed a more in-depth analysis comparing them in Table 1. Our dataset surpasses these in terms of the variety of categories, the number of distinct entities, and the overall number of QA pairs. Additionally, our dataset boasts a higher count of images and a longer average length for answers. Specifically, our dataset is structured to include 10 images for each entity, whereas the exact number of images per entity in ViQuAE and Encyclopedic VQA remains unspecified. Most notably, our dataset’s questions are highly anonymous, implying that they do not reveal any knowledge hints about the entity. This design ensures that",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:figure-5",
+    "page_id": 4,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_4_Figure_0.jpg",
+    "bbox_norm": [
+      0.184,
+      0.529,
+      0.363,
+      0.857
+    ],
+    "text": "Figure 2: Comparison with existing datasets, where previous VQA datasets mostly focus on freeform answers (such as yes/no for verification questions and choice for selection questions).",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.535,
+      0.509,
+      0.551,
+      0.615
+    ],
+    "text": "4 Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.562,
+      0.507,
+      0.756,
+      0.887
+    ],
+    "text": "In this section, we will introduce the details of our proposed retrieval-augmented multimodal LLM model. The architecture of our model is shown in Figure 3 (larger figure in Appendix D due to space limit). Our model can be considered twofold: (1) Retrieval augmentation. Given the input image-question pair, we retrieve useful entitycentric information within knowledge sources. (2) Entity-centric knowledge-based answer generation. The retrieved information will be combined with the image and question together to generate a knowledgeable answer.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.509,
+      0.782,
+      0.746
+    ],
+    "text": "4.1 Retrieval Augmentation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.788,
+      0.507,
+      0.869,
+      0.887
+    ],
+    "text": "The retrieval augmentation process can be subdivided into: (i) Semantic region extraction via language-guided object detection, (ii) Entity recognition via image retrieval, and (iii) Knowledge retrieval via multi-source aggregation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.872,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Semantic Region Extraction via Language-Guided Object Detection To improve recognition performance, we focus on extracting specific image regions containing the entity, rather than general image-level recognition. We employ a language-guided object detection model, i.e., GLIP (Li et al., 2021), for language-guided object detection, extracting regions relevant to textual queries by understanding the query context. This targeted approach ensures precise region extraction, enhancing the system’s accuracy and contextual relevance.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:figure-1",
+    "page_id": 5,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_5_Figure_0.jpg",
+    "bbox_norm": [
+      0.08,
+      0.121,
+      0.223,
+      0.484
+    ],
+    "text": "Figure 3: Our SnapNTell model architecture takes an image-question pair as input. It begins with retrieval augmentation to source relevant information about the entity in the image. This information, along with the question, feeds into the word embedding layer. Text embeddings merge with image-projected embeddings before entering the LLM, culminating in a knowledgeable answer as the output.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.493,
+      0.11,
+      0.785,
+      0.49
+    ],
+    "text": "Entity Recognition via Image Retrieval We construct a similarity index using CLIP embeddings (Radford et al., 2021) and Faiss (Johnson et al., 2017) for indexing. Our database, built on the WIT dataset (Srinivasan et al., 2021), maps CLIP image embeddings to their text descriptions, leveraging Faiss’s robust similarity search capabilities. After setting up the indexing database, given an input query image I, we perform a knearest neighbor retrieval based on cosine similarity. The retrieval outcomes are represented as $\\mathcal { R } ( I ) = \\{ ( i _ { 1 } , c _ { 1 } ) , \\cdots , ( i _ { k } , c _ { k } ) \\}$ , where for each j within the range of 1 to k, $i _ { j }$ and $c _ { j }$ correspond to the retrieved image and its associated caption, respectively. By comparing I with similar imag",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Knowledge Retrieval via Multi-Source Aggregation Facing diverse user queries, we gather extra information to compile resources for accurate responses. Some queries require up-to-date information, not present in existing databases. We then turn to external sources to collect critical data like “year built,\" “description,\" and more. By using Knowledge Graph (KG) and web searches, we access relevant knowledge links, enriching our understanding of the specified image region, and improving our ability to comprehend and contextualize the extracted content. More details of the method can be found in Appendix D.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.509,
+      0.206,
+      0.875
+    ],
+    "text": "4.2 Entity-centric Knowledge-based Answer Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.212,
+      0.507,
+      0.373,
+      0.885
+    ],
+    "text": "Following information collection, we enter the integration phase, blending the input image, question, and retrieved data to generate a knowledgeable response, which is illustrated in Figure 3. Our method enhances multimodal understanding by pre-training a LLM with image-text paired data. Taking cues from Moon et al. (2023), we employ lightweight adapters for each modality, converting inputs into the text token embedding space of the chosen LLM.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-8",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.373,
+      0.507,
+      0.599,
+      0.887
+    ],
+    "text": "In our method, the LLM’s text token embedding space morphs into a unified space, representing both text and image content, with each modality assigned 64 to 256 token embeddings. We freeze the LLM’s parameters during alignment training to quicken convergence and retain the LLM’s reasoning skills for inference. To ensure feature alignment, we use an image encoder, g(·), previously synchronized with a text embedding space, like in CLIP (Radford et al., 2021; Schuhmann et al., 2022). For text-image pairs $\\left( { \\bf { X } } _ { t e x t } , { \\bf { X } } _ { i m a g e } \\right)$ , we align them using specific objectives and a projection module, like the Perceiver Resampler (Alayrac et al., 2022), applied to the vision encoder as:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:equation-9",
+    "page_id": 5,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_5_Equation_0.jpg",
+    "bbox_norm": [
+      0.601,
+      0.547,
+      0.636,
+      0.842
+    ],
+    "text": "$$\np ( \\mathbf { X } _ { t e x t } \\vert \\mathbf { X } _ { i m a g e } ) = \\prod _ { i = 1 } ^ { L } p _ { \\theta } ( \\mathbf { X } _ { t e x t } ^ { [ i ] } \\vert \\mathbf { Z } _ { i m a g e } , \\mathbf { Z } _ { t e x t } ^ { [ 1 : i - 1 ] } )\\tag{1}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-5:equation-10",
+    "page_id": 5,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_5_Equation_1.jpg",
+    "bbox_norm": [
+      0.642,
+      0.591,
+      0.658,
+      0.801
+    ],
+    "text": "$$\n{ \\bf { Z } } _ { i m a g e } = P r o j _ { \\theta } ( h _ { l a t e n t s } , g ( { \\bf { X } } _ { i m a g e } ) )\\tag{2}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.668,
+      0.509,
+      0.684,
+      0.761
+    ],
+    "text": "5 Experiments and Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.693,
+      0.509,
+      0.709,
+      0.715
+    ],
+    "text": "5.1 Experimental Setup",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-13",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.714,
+      0.507,
+      0.925,
+      0.887
+    ],
+    "text": "Evaluation Metrics (1) In our evaluation process, the quality of the answers is first assessed using established NLP metrics such as BLEU (Papineni et al., 2002), METEOR (Denkowski and Lavie, 2014), ROUGE (Lin, 2004), and BLEURT (Sellam et al., 2020; Pu et al., 2021). (2) Additionally, we incorporate accuracy and hallucination rate metrics from (Sun et al., 2023). These metrics used GPT4 to automatically measure the proportion of questions for which the model provides correct answers or incorrect/partially incorrect answers, respectively. (3) We conduct human evaluation following Ye et al. (2023); Moon et al. (2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.117,
+      0.117,
+      0.209,
+      0.484
+    ],
+    "text": "Table 3: Performance comparison of different approaches on the SnapNTell dataset.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.219,
+      0.112,
+      0.332,
+      0.49
+    ],
+    "text": "Model Setting We chose LLaMA2 (70B) (Touvron et al., 2023) as our LLM. For image encoding, the CLIP image encoder (ViT-B/32) is employed (Radford et al., 2021; Schuhmann et al., 2022). Additional configurations comprise a batch size of 2,048, the integration of two resampler layers, and the use of 64 modality tokens.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.336,
+      0.11,
+      0.676,
+      0.49
+    ],
+    "text": "Model Training We used a cleaned subset of the LAION-2B dataset, filtered using the CAT method (Radenovic et al., 2023b) and with any detectable faces blurred (Radenovic et al., 2023a). Significant resources are essential to scale pre-training to 70 billion parameter models on a substantial dataset of over 200 million instances. Often, this necessitates the utilization of an FSDP wrapper, as outlined in Dettmers et al. (2023), to distribute the model across multiple GPUs efficiently. To optimize our training process, we employ quantization strategies, specifically 4-bit and 8-bit quantization techniques (Dettmers et al., 2023), within our multimodal framework. In this approach, we maintain the LLM component of our model in a frozen state, allowing only the image modality tokenizers to be t",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.688,
+      0.114,
+      0.703,
+      0.341
+    ],
+    "text": "5.2 Results and Discussion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.709,
+      0.112,
+      0.871,
+      0.49
+    ],
+    "text": "Table 3 displays the comparative results between the baseline models and our proposed method. Analysis of this table indicates that for every metric assessed, our retrieval-augmented multimodal LLM surpasses the performance of all existing baseline models. This strong performance emphasizes the efficiency of retrieval augmentation in producing responses enriched with entity-centric information, thereby illustrating its substantial impact on the task at hand.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.872,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Moreover, to gain deeper insights into which evaluation metric more accurately reflects the outcomes, we computed the Kendall correlation coefficient (Kendall, 1938; Knight, 1966; Kendall et al., 1995), comparing the results with those from the human evaluation in Section 5.4. Kendall’s τ is a measure of the correspondence between two rankings. Values close to 1 indicate strong agreement, values close to -1 indicate strong disagreement. Table 4 revealed that both the ROUGE and BLEURT scores were more indicative in distinguishing the differences among various models. This finding suggests that these two metrics are particularly significant in evaluating model performance in a way that aligns closely with human judgment.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-7",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.102,
+      0.546,
+      0.147,
+      0.843
+    ],
+    "text": "Table 4: Effectiveness of evaluation metrics.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.363,
+      0.509,
+      0.38,
+      0.677
+    ],
+    "text": "5.3 Ablation Study",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.507,
+      0.434,
+      0.885
+    ],
+    "text": "For a more in-depth understanding, we conducted several ablation studies to delve into the finer details of our approach.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-11",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.436,
+      0.507,
+      0.598,
+      0.887
+    ],
+    "text": "Effectiveness of Entity Detection To assess the impact of entity detection (ED) in our model, we performed an ablation study. This involved comparing the performance of our approach with and without the ED component. As indicated in Table 5, our approach incorporating entity detection markedly surpasses the variant lacking this feature. This highlights the significant contribution and necessity of the entity detection step in our model’s overall effectiveness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-12",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_2.jpg",
+    "bbox_norm": [
+      0.639,
+      0.526,
+      0.686,
+      0.862
+    ],
+    "text": "Table 5: Ablation study on the effectiveness of entity detection (ED).",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-13",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.507,
+      0.888,
+      0.887
+    ],
+    "text": "Head/Torso/Tail Entities Head knowledge pertains to well-established entities for which there is a wealth of available training data. Ideally, LLMs could be trained to possess this knowledge, facilitating efficient retrieval. On the other hand, torso-to-tail knowledge pertains to less-known or obscure entities, often characterized by scarce or non-existent training data. Providing access to such knowledge involves effectively determining when external information is necessary, retrieving the relevant knowledge efficiently, and seamlessly integrating it into responses.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-14",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "To assess the performance improvement for head/torso/tail entities, we randomly selected 10% entities for each category, where head/torso/tail entities are defined based on pageview statistics (popularity) in Section 3.4. The results presented in Table 6 clearly demonstrate that retrieval augmentation can significantly enhance performance across various entity types. Notably, the performance improvement for torso-to-tail entities far exceeds that of head entities, effectively addressing the challenge of hallucinations in long-tailed entities through retrieval augmentation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-1",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.13,
+      0.131,
+      0.271,
+      0.462
+    ],
+    "text": "Table 6: Ablation study on head/torso/tail entities, where RA is short for Retrieval Augmentation and ∆ is the performance difference of with and without RA.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.451,
+      0.112,
+      0.693,
+      0.49
+    ],
+    "text": "Performance of Different VQA Datasets To demonstrate the uniqueness of our SnapNTell dataset compared to existing VQA datasets, we analyzed the performance of various baseline models on both traditional VQA datasets and our SnapN-Tell dataset. According to the findings presented in Table 7, the performance disparities among baseline models on existing datasets are not particularly marked. In contrast, on the SnapNTell dataset, we observed significantly larger differences and notably lower performance. This indicates that our SnapNTell dataset is particularly effective in evaluating the capabilities of different models to recognize entities and produce responses centered around these entities.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-4",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_1.jpg",
+    "bbox_norm": [
+      0.731,
+      0.117,
+      0.78,
+      0.484
+    ],
+    "text": "Table 7: Ablation on the accuracy performance of different VQA datasets.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.802,
+      0.114,
+      0.816,
+      0.373
+    ],
+    "text": "5.4 Human Evaluation Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.11,
+      0.921,
+      0.489
+    ],
+    "text": "In alignment with the methodology presented in Ye et al. (2023); Moon et al. (2023), we involved a human evaluation process conducted by a panel of five human judges (3 male, 2 female). These judges were given specific instructions for their assessment, which encompassed three key aspects:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.282,
+      0.507,
+      0.46,
+      0.887
+    ],
+    "text": "(1) Recognition Accuracy, where they evaluated whether the model correctly identified the entity in the image relevant to the question; (2) Response Accuracy, in which they assessed the factual correctness of the model’s responses while checking for any signs of hallucination (Rawte et al., 2023); and (3) Pairwise Comparison, where judges selected the response that better addressed the given question in terms of contextual appropriateness and accuracy, categorizing responses as winning, tying, or losing.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.46,
+      0.507,
+      0.574,
+      0.887
+    ],
+    "text": "In our study, we conducted pairwise comparisons for each baseline model against ground-truth data across 1,000 samples. As depicted in Figure 4, our model outperforms the baselines by displaying a significantly smaller difference when measured against manually annotated ground-truth samples, highlighting its robustness.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.583,
+      0.509,
+      0.6,
+      0.643
+    ],
+    "text": "6 Conclusion",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.507,
+      0.916,
+      0.887
+    ],
+    "text": "In this work, we tackle the significant challenge VLLMs face with long-tail entity queries, which often lead to inaccurate or hallucinated responses. To address these issues, we introduce an entity-centric VQA task named SnapNTell. This task is designed to test models on entity recognition and their ability to provide detailed, entity-specific knowledge in their responses. We collected a unique evaluation dataset for this task, which distinguishes itself from existing VQA datasets by including a wide array of fine-grained categorized entities, supported by images and explicit entity mentions in the answers. This dataset emphasizes knowledgeintensive responses over simple binary answers. In addition, we propose a retrieval-augmented multimodal LLM solution for the SnapNTell task as an effec",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.099,
+      0.22
+    ],
+    "text": "Limitations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.112,
+      0.399,
+      0.492
+    ],
+    "text": "In this study, we introduce a novel SnapNTell task and its accompanying dataset, which features five unique types of questions, each paired with meticulously formulated answers. It’s important to recognize that in cases involving human preferences, which are subjective by nature, the given answers might not represent the only correct options. Furthermore, the relevancy of some answers may diminish over time, highlighting the need for periodic updates to the dataset to ensure its ongoing relevance and accuracy. Our proposed method exhibited superior performance over existing baselines. However, human evaluation results suggest significant potential for further improvement. Although our approach often neared human-level performance, it did not consistently outperform human annotations, showi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.114,
+      0.425,
+      0.267
+    ],
+    "text": "Ethics Statement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.434,
+      0.112,
+      0.595,
+      0.489
+    ],
+    "text": "In this study, the dataset was sourced from publicly accessible databases, and all author details remain anonymous. We conscientiously excluded any content from our dataset that could be considered ethically sensitive or related to personal privacy, such as images depicting human faces. To our understanding, and with careful consideration, we do not anticipate any detrimental applications arising from the findings or methodologies presented in this research.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.606,
+      0.114,
+      0.623,
+      0.258
+    ],
+    "text": "Broader Impact",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.631,
+      0.112,
+      0.888,
+      0.489
+    ],
+    "text": "Current models have made commendable progress in grasping the nuanced semantics and contextsensitive aspects of Visual Question Answering (VQA). However, their efficacy in factual VQA tasks, which require precise and factual answers about tangible entities and events, reveals certain deficiencies. This is especially true for torso-to-tail or long-tail entities. Despite their prevalence in the real world, these entities are underrepresented in training datasets, leading to a common issue where models produce plausible yet inaccurate or invented responses, a phenomenon often termed “hallucinations\" in the realm of model-generated content. Tackling and minimizing these hallucinations is vital for enhancing the trustworthiness and applicability of these models in practical scenarios.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.889,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "The existing VQA datasets, however, are inadequate for evaluating a model’s ability to recognize entities, as they do not explicitly highlight these entities within the dataset. Our newly introduced dataset bridges this gap. It is designed to test models’ capabilities not just in identifying entities but also in generating informed and entity-aware responses. Furthermore, our proposed dataset might serve as resources for either pre-training or finetuning existing models, to improve their ability in recognizing entity-level real-world objects.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.256,
+      0.509,
+      0.273,
+      0.61
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-10",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.28,
+      0.512,
+      0.424,
+      0.885
+    ],
+    "text": "Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katie Millican, Malcolm Reynolds, Roman Ring, Eliza Rutherford, Serkan Cabi, Tengda Han, Zhitao Gong, Sina Samangooei, Marianne Monteiro, Jacob Menick, Sebastian Borgeaud, Andy Brock, Aida Nematzadeh, Sahand Sharifzadeh, Mikolaj Binkowski, Ricardo Barreira, Oriol Vinyals, Andrew Zisserman, and Karen Simonyan. 2022. Flamingo: a visual language model for few-shot learning. ArXiv, abs/2204.14198. Anas Awadalla, Irena Gao, Josh Gardner, Jack Hessel, Yusuf Hanafy, Wanrong Zhu, Kalyani Marathe, Yonatan Bitton, Samir Yitzhak Gadre, Shiori Sagawa, Jenia Jitsev, Simon Kornblith, Pang Wei Koh, Gabriel Ilharco, Mitchell Wortsman, and Ludwig Schmidt. 2023. Openflamingo: An open-source fr",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.114,
+      0.126,
+      0.489
+    ],
+    "text": "Joseph L. Fleiss. 1971. Measuring nominal scale agreement among many raters. Psychological Bulletin, 76:378–382. Yash Goyal, Tejas Khot, Douglas Summers-Stay, Dhruv Batra, and Devi Parikh. 2016. Making the v in vqa matter: Elevating the role of image understanding in visual question answering. International Journal of Computer Vision, 127:398 – 414. Liangke Gui, Borui Wang, Qiuyuan Huang, Alexander G. Hauptmann, Yonatan Bisk, and Jianfeng Gao. 2021. Kat: A knowledge augmented transformer for vision-and-language. In North American Chapter of the Association for Computational Linguistics. Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. 2020. Realm: Retrievalaugmented language model pre-training. ArXiv, abs/2002.08909. Darryl Hannan, Akshay Jain, and Mohit Bansal. 202",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.114,
+      0.179,
+      0.489
+    ],
+    "text": "Filip Radenovic, Abhimanyu Dubey, Abhishek Kadian, Todor Mihaylov, Simon Vandenhende, Yash J. Patel, Yi Wen, Vignesh Ramanathan, and Dhruv Kumar Mahajan. 2023b. Filtering, distillation, and hard negatives for vision-language pre-training. 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 6967–6977. Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever. 2021. Learning transferable visual models from natural language supervision. In International Conference on Machine Learning. Vipula Rawte, A. Sheth, and Amitava Das. 2023. A survey of hallucination in large foundation models. ArXiv, abs/2309.05922. Christoph Schuhmann, Romain Beau",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.114,
+      0.101,
+      0.5
+    ],
+    "text": "A More Details about the Dataset Building",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-2",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.108,
+      0.114,
+      0.126,
+      0.633
+    ],
+    "text": "More details about the dataset building process are shown in Figure 5.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:figure-3",
+    "page_id": 11,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_11_Figure_0.jpg",
+    "bbox_norm": [
+      0.146,
+      0.142,
+      0.551,
+      0.847
+    ],
+    "text": "Figure 5: The pertinent information collected during dataset building, i.e., from Wikipedia for each entity, which includes the summary of the general introduction, toponym, lococation information, and so on.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-11:text-4",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.114,
+      0.649,
+      0.502
+    ],
+    "text": "B More Details about the Filtering Process",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-5",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.658,
+      0.112,
+      0.674,
+      0.568
+    ],
+    "text": "More details about the filtering process are shown in Table 8.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-6",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.684,
+      0.114,
+      0.701,
+      0.319
+    ],
+    "text": "C Types of Questions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-7",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.708,
+      0.112,
+      0.725,
+      0.796
+    ],
+    "text": "More introduction of different types of question in the SnapNTell dataset are shown Table 9.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-8",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.736,
+      0.114,
+      0.751,
+      0.223
+    ],
+    "text": "D Method",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-9",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.76,
+      0.11,
+      0.858,
+      0.885
+    ],
+    "text": "In this section, we will introduce the details of our proposed retrieval-augmented multimodal LLM model. The architecture of our model is shown in Figure 7. Our model can be considered twofold: (1) Retrieval augmentation. Given the input image-question pair, we retrieve useful entity-centric information within knowledge sources. (2) Entity-centric knowledge-based answer generation. The retrieved information will be combined with the image and question together to generate the answer. More details are introduced in the following sections.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-10",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.868,
+      0.114,
+      0.883,
+      0.354
+    ],
+    "text": "D.1 Retrieval Augmentation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-11:text-11",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.112,
+      0.921,
+      0.885
+    ],
+    "text": "The retrieval augmentation process can be subdivided into three distinct steps: (i) Semantic region extraction via language-guided object detection, (ii) Entity recognition via image retrieval, and (iii)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:table-1",
+    "page_id": 12,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_12_Table_0.jpg",
+    "bbox_norm": [
+      0.136,
+      0.151,
+      0.431,
+      0.842
+    ],
+    "text": "Table 8: Filtering statistics of the entity dataset. [1st Wiki filtering]: removing ones without wiki page. [2nd Google filtering]: removing ones without enough images via google search API. [3rd Wiki filtering]: removing entity name with ambiguous wiki pages.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-12:figure-2",
+    "page_id": 12,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_12_Figure_0.jpg",
+    "bbox_norm": [
+      0.451,
+      0.121,
+      0.68,
+      0.875
+    ],
+    "text": "Figure 6: Collecting images for building the evaluation dataset. Licenses: CC Publicdomain, CC Attribute, AA Sharealike, CC Noncommercial, or CC Nonderived licenses. Metadata: image URLs, source page URLs, renamed image names, and the corresponding Wikipedia page URL.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.764,
+      0.114,
+      0.781,
+      0.489
+    ],
+    "text": "Knowledge retrieval via multi-source aggregation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.11,
+      0.922,
+      0.885
+    ],
+    "text": "Semantic Region Extraction via Language-Guided Object Detection Due to the presence of entities within the image that occupy only a portion of the available space, employing a comprehensive image-level entity recognition approach may lead to a decrease in recognition performance. Instead, we opt to initially extract the image region containing the entity and utilize this specific region in subsequent recognition processes to enhance accuracy. During this phase, we leverage a language-guided object detection model, i.e., GLIP (Li et al., 2021), to extract meaningful regions from complex images. This approach helps precisely identify and extract image regions directly relevant to specific textual queries. It accomplishes this by understanding the context of the query and adjusting its object",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-1",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.107,
+      0.117,
+      0.418,
+      0.872
+    ],
+    "text": "Table 9: Types of questions.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.511,
+      0.112,
+      0.608,
+      0.885
+    ],
+    "text": "Entity Recognition via Image Retrieval To accomplish this goal, we begin by constructing a similarity index using CLIP embeddings, specifically employing Faiss (Johnson et al., 2017) as our indexing tool. Our indexing database is established based on the WIT dataset (Srinivasan et al., 2021). This database follows a key-value mapping structure, where the keys represent CLIP ViT-B/32 image embeddings, and the corresponding text descriptions serve as the values. Faiss, known for its efficiency in similarity search, is utilized for indexing (Johnson et al., 2017).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.612,
+      0.112,
+      0.758,
+      0.885
+    ],
+    "text": "Once the indexing database is set up, we are ready to proceed with the query process. Given an input query image, denoted as I (which is the entity image region extracted in the preceding step), we perform a k-nearest neighbor retrieval based on cosine similarity between the embeddings of the query image and those of the database images. The retrieval outcomes are represented as $\\mathcal { R } ( I ) = \\{ ( i _ { 1 } , c _ { 1 } ) , \\cdots , ( i _ { k } , c _ { k } ) \\}$ ， where for each $j$ within the range of 1 to $k , i _ { j }$ and $c _ { j }$ correspond to the retrieved image and its associated caption, respectively. Subsequently, by using the extracted image region as input for a search in the indexing database, we identify the entity within the extracted image region. This identific",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.11,
+      0.921,
+      0.887
+    ],
+    "text": "Knowledge Retrieval via Multi-Source Aggregation Given the wide array of questions users may pose, we need to obtain additional information to compile the necessary resources for crafting accurate responses. Furthermore, certain queries may demand the latest information, which is not readily available within pre-existing databases or knowledge graphs. In such cases, we rely on external sources of knowledge, such as online references, to gather essential data, encompassing elements like “year built,\" “description,\" and other pertinent details. To accomplish this, we leverage Knowledge Graph (KG) and conduct web searches to access relevant knowledge connections. This approach enables us to acquire a wealth of information concerning the specified image region, thereby bolstering our capacity ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-1",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.126,
+      0.37,
+      0.877
+    ],
+    "text": "Figure 7: The architecture of our SnapNTell model. The input to the model is an image-question pair, and our model first uses retrieval augmentation to retrieve useful information regarding the entity in the image. Then, the retrieved information is combined with the question as input to the word embedding layer, where the text embeddings will be combined with image-projected embeddings as the input to LLM, which finally generates a knowledgeable answer as the output.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.483,
+      0.112,
+      0.499,
+      0.576
+    ],
+    "text": "D.2 Entity-centric Knowledge-based Answer Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-3",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.112,
+      0.557,
+      0.884
+    ],
+    "text": "Following the preceding step, where we’ve gathered insightful information from diverse sources, we now proceed to the second phase: determining how to integrate the input image, the question, and the retrieved information in order to produce a knowledge-driven response.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.56,
+      0.112,
+      0.64,
+      0.885
+    ],
+    "text": "Our approach is illustrated in Figure 7. Our strategy for improving the model’s multimodal comprehension entails pre-training a LLM using paired multimodal data, which comprises images alongside corresponding textual descriptions. To achieve this, we draw inspiration from Moon et al. (2023) and create lightweight adapters for each modality. These adapters facilitate the transformation of inputs into the text token embedding space of a designated LLM.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.642,
+      0.11,
+      0.82,
+      0.885
+    ],
+    "text": "Our approach transforms the text token embedding space of the LLM into a unified token embedding space, where tokens can represent either textual or image content. The number of token embeddings allocated to each input modality is predetermined for each adapter, ranging from 64 to 256. Throughout the alignment training process, we keep the model parameters of the underlying LLM frozen. This approach not only accelerates convergence compared to training the model from scratch but also allows the model to inherit the reasoning capabilities of the LLM during inference. Additionally, to maximize feature compatibility, we employ an encoder denoted as $g ( \\cdot )$ for the image modality. This encoder has previously been aligned with a text embedding space, for instance, in the case of CLIP (Rad",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:equation-6",
+    "page_id": 14,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_14_Equation_0.jpg",
+    "bbox_norm": [
+      0.84,
+      0.299,
+      0.883,
+      0.695
+    ],
+    "text": "$$\np ( \\mathbf { X } _ { \\mathrm { t e x t } } | \\mathbf { X } _ { \\mathrm { i m a g e } } ) = \\prod _ { i = 1 } ^ { L } p _ { \\theta } ( \\mathbf { X } _ { \\mathrm { t e x t } } ^ { [ i ] } | \\mathbf { Z } _ { \\mathrm { i m a g e } } , \\mathbf { Z } _ { \\mathrm { t e x t } } ^ { [ 1 : i - 1 ] } )\\tag{3}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-14:equation-7",
+    "page_id": 14,
+    "layout_type": "equation",
+    "asset_ref": "assets/_page_14_Equation_1.jpg",
+    "bbox_norm": [
+      0.903,
+      0.344,
+      0.921,
+      0.652
+    ],
+    "text": "$$\n\\mathbf { Z } _ { \\mathrm { i m a g e } } = \\operatorname { P r o j } _ { \\theta } ( h _ { \\mathrm { 1 a t e n t s } } , g ( \\mathbf { X } _ { \\mathrm { i m a g e } } ) )\\tag{4}\n$$",
+    "source_type": "equation"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.114,
+      0.099,
+      0.334
+    ],
+    "text": "E More Related Works",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.11,
+      0.288,
+      0.885
+    ],
+    "text": "Knowledge-based VQA Various vision-language tasks often require knowledge to answer questions based on image content and have evolved in recent years. Beginning with datasets like FVQA (Wang et al., 2016), which extracted facts from pre-established knowledge bases, the field has progressed to more challenging ones like the OK-VQA dataset (Marino et al., 2019), encompassing diverse knowledge categories. MultiModalQA (Talmor et al., 2021) introduced complexity with questions demanding cross-modal reasoning over snippets, tables, and images. The successor of OK-VQA, AOK-VQA (Schwenk et al., 2022), raises the bar by providing questions that transcend simple knowledge base queries. ManyModalQA (Hannan et al., 2020) shifts the focus to answer modality selection, MIMOQA (Singh et al., 2021) empha",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.294,
+      0.11,
+      0.425,
+      0.887
+    ],
+    "text": "Multimodal LLMs Expanding text-only LLMs to interpret visual information typically involves integrating a visual encoder with a frozen LLM, using extensive image captioning datasets for alignment (Koh et al., 2023; Wu et al., 2023; Chowdhery et al., 2022). This integration can be accomplished through methods such as adapter-based tuning (Alayrac et al., 2022), which fine-tunes a small portion of the model to process visual inputs, or prefix tuning (Tsimpoukelli et al., 2021), where trained prefixed vectors are inputted to guide the frozen LLM towards contextually relevant text outputs based on the visual data. These techniques allow LLMs to maintain their linguistic prowess while gaining visual understanding without full model retraining (Yin et al., 2023).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.434,
+      0.11,
+      0.644,
+      0.887
+    ],
+    "text": "Retrieval augmented LLM Several prior approaches have investigated retrieval-augmented in the text-only setting or image captioning tasks. Guu et al. (2020) augmented language model pretraining with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pretraining, fine-tuning, and inference. Srinivasan et al. (2022) demonstrated that retrieval augmentation of queries provides LLMs with valuable additional context, enabling improved understanding. Yasunaga et al. (2023) proposed a retriever to retrieve relevant multimodal documents from external memory and use the generator to make predictions for the input. Yang et al. (2023a) proposed an accelerator to losslessly speed up LLM inference with references",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-5",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.651,
+      0.11,
+      0.75,
+      0.885
+    ],
+    "text": "Open-domain visual entity recognition Hu et al. (2023) introduced Open-domain Visual Entity Recognition (OVEN) for linking images to Wikipedia entities through text queries. Chen et al. (2023) presented INFOSEEK, a Visual Question Answering dataset designed for information-seeking queries. OVEN excels at entity recognition but relies on a knowledge base for entity names, while INFOSEEK primarily provides factual answers. Our research aims to bridge these gaps by generating informative paragraphs that offer context, enabling a deeper understanding beyond mere facts.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-6",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.112,
+      0.776,
+      0.5
+    ],
+    "text": "F More Statistics of the SnapNTell Dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-7",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.784,
+      0.112,
+      0.802,
+      0.719
+    ],
+    "text": "In Table 10 and Figure 9,10,11, we show more statistics of the SnapNTell dataset.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:table-1",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_0.jpg",
+    "bbox_norm": [
+      0.123,
+      0.157,
+      0.419,
+      0.836
+    ],
+    "text": "Figure 8: Examples from our SnapNTell dataset.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-16:table-2",
+    "page_id": 16,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_16_Table_1.jpg",
+    "bbox_norm": [
+      0.557,
+      0.342,
+      0.882,
+      0.65
+    ],
+    "text": "Table 10: Category statistics of the SnapNTell dataset.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-18:text-1",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.114,
+      0.101,
+      0.559
+    ],
+    "text": "G Some Result Examples and Human Evaluation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.112,
+      0.141,
+      0.884
+    ],
+    "text": "In Table 11, we showed several example result by different models, and the corresponding human evaluation results.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-3",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.149,
+      0.112,
+      0.181,
+      0.885
+    ],
+    "text": "Table 11: Examples of answers generated by different models, where Ground-truth, BLIP2, MiniGPT4, Open-Flamingo, InstructBLIP, LLaVA, SnapNTell are assigned as M0, M1, ..., M6 in rating.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:table-4",
+    "page_id": 18,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_18_Table_0.jpg",
+    "bbox_norm": [
+      0.192,
+      0.171,
+      0.882,
+      0.82
+    ],
+    "text": "",
+    "source_type": "table"
+  }
+]

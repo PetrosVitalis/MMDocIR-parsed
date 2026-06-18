@@ -1,0 +1,1 @@
+<table><tr><td>Configuration</td><td>Accuracy</td></tr><tr><td>RAPTOR + SBERT embeddings +UnifiedQA</td><td>56.6%</td></tr><tr><td>Recency-based tree + SBERT embeddings + UnifiedQA</td><td>55.8%</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>10-shot train set</td><td>FewNERD TACREV (NER) (RE)</td><td>ACE05 (ED)</td></tr><tr><td>wo.Auto-CoT w. Auto-CoT</td><td>54.0(1.4) 36.6(1.7)</td><td>57.3(1.8) 47.7(2.8) 22.0(1.2) 43.1(3.4)</td></tr></table>

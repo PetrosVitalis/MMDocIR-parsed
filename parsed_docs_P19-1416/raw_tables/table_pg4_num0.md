@@ -1,0 +1,1 @@
+<table><tr><td>Setting</td><td>F1</td></tr><tr><td>Distractor</td><td>67.08</td></tr><tr><td>Open-domain 10 Paragraphs</td><td>38.40</td></tr><tr><td>Open-domain 500 Paragraphs</td><td>39.12</td></tr><tr><td>+ Gold Paragraph</td><td>53.12</td></tr></table>

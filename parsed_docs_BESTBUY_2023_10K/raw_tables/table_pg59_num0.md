@@ -1,0 +1,1 @@
+<table><tr><td>Fiscal Year</td><td>Amount</td></tr><tr><td>Fiscal 2024</td><td>$ 25</td></tr><tr><td>Fiscal 2025</td><td>30</td></tr><tr><td>Fiscal 2026</td><td>25</td></tr><tr><td>Fiscal 2027</td><td>24</td></tr><tr><td>Fiscal 2028</td><td>24</td></tr><tr><td>Thereafter</td><td>137</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>2019</td></tr><tr><td>Total</td><td> 406,000</td><td>530,000</td></tr><tr><td>From energy</td><td>363,000</td><td>414,000</td></tr><tr><td>Included energy UK</td><td>8,000</td><td>10,400</td></tr><tr><td>From travel</td><td>43,000</td><td>116,000</td></tr></table>

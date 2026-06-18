@@ -1,0 +1,31 @@
+Domain,Slot,Train,,,
+Hotel,price range,3381,,,
+Hotel,type,3103,,,
+Hotel,parking,3813,,,
+Hotel,book stay,2717,,,
+Hotel,book day,1654,,,
+Hotel,book people,416,,,
+Hotel,area,484,,,
+Hotel,stars,438,,,
+Hotel,internet,401,,,
+Hotel,name,207,,,
+Train,destination,,394,,
+Train,day,,494,,
+Train,departure,,437,,
+Train,arrive by,,395,,
+Train,book people,,195,,
+Taxi,leave at,,,3381,
+Taxi,destination,,,3103,
+Taxi,departure,,,3813,
+Taxi,arrive by,,,2717,
+Taxi,type,,,1654,
+Taxi,area,,,416,
+Taxi,name,,,484,
+Taxi,book time,,,438,
+Taxi,book day,,,401,
+Taxi,book people,,,207,
+Restaurant,food,,,,394
+Restaurant,price range,,,,494
+Restaurant,area,,,,437
+Restaurant,name,,,,395
+Restaurant,type,,,,195

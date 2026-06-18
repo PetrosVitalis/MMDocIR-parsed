@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Individual</td><td rowspan=1 colspan=1>Consolidated</td></tr><tr><td rowspan=1 colspan=1>Number of consecutive years</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>10</td></tr></table>

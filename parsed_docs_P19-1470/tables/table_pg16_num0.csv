@@ -1,0 +1,19 @@
+Event,Description,Example Completion:,oEffect,oReact
+oEffect,The effect the event has on others besides Person X,,is considered trustworthy,trusted
+oReact,The reaction of others besides Person X to the event,,is believed,honored
+oWant,What others besides Person X may want to do after the event,,gains Person X's loyalty,trustworthy
+xAttr,How Person X might be described given their part in the event,Person X puts Person X's trust in Person Y,,faithful
+xAttr,,work with Person X,,hopeful
+xAttr,,partner with Person X,,trusting
+xAttr,,to help Person X,,
+xEffect,The effect that the event would have on Person X,,gets relieved,stays faithful
+xEffect,,Is betrayed,Is betrayed,Is betrayed
+xIntent,The reason why X would cause the event,,to be trusting,his or her help/guidance/advice
+xIntent,,to be friends,to be friends,to be friends
+xNeed,What Person X might need to do before the event,,to be friends with Person Y,to have heard a lot of good things about Person Y
+xNeed,,to get to know Person Y,to get to know Person Y,
+xReact,The reaction that Person X would have to the event,to be friends,"""trusting""","""safe, not alone"""
+xReact,,to have heard a lot of good things about Person Y,"""safe, not alone""",understood
+xReact,,to get to know Person Y,understood,understood
+xWant,What Person X may want to do after the event,to rely on Person Y,to rely on Person Y,to go into business with Person Y
+xWant,,to make sure that their heart feeling is right,to make sure that their heart feeling is right,to make sure that their heart feeling is right

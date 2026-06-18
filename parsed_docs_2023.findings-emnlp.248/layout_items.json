@@ -1,0 +1,1724 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.089,
+      0.208,
+      0.13,
+      0.789
+    ],
+    "text": "LOGIC-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.151,
+      0.186,
+      0.168,
+      0.816
+    ],
+    "text": "Liangming Pan Alon Albalak Xinyi Wang William Yang Wang",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.177,
+      0.337,
+      0.193,
+      0.66
+    ],
+    "text": "University of California, Santa Barbara",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.197,
+      0.168,
+      0.215,
+      0.836
+    ],
+    "text": "{liangmingpan, alon\\_albalak, xinyi\\_wang, wangwilliamyang}@ucsb.edu",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.26,
+      0.268,
+      0.342
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.141,
+      0.623,
+      0.462
+    ],
+    "text": "Large Language Models (LLMs) have shown human-like reasoning abilities but still struggle with complex logical problems. This paper introduces a novel framework, LOGIC-LM, which integrates LLMs with symbolic solvers to improve logical problem-solving. Our method first utilizes LLMs to translate a natural language problem into a symbolic formulation. Afterward, a deterministic symbolic solver performs inference on the formulated problem. We also introduce a selfrefinement module, which utilizes the symbolic solver’s error messages to revise symbolic formalizations. We demonstrate LOGIC-LM’s effectiveness on five logical reasoning datasets: ProofWriter, PrOntoQA, FOLIO, LogicalDeduction, and AR-LSAT. On average, LOGIC-LM achieves a significant performance boost of 39.2% over using LLM alone ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.634,
+      0.114,
+      0.65,
+      0.26
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.659,
+      0.11,
+      0.885,
+      0.49
+    ],
+    "text": "Logical reasoning is a cognitive process that involves using evidence, arguments, and logic to arrive at conclusions or make judgments (Huang and Chang, 2023). It plays a central role in intelligent systems for problem-solving, decision-making, and critical thinking. Recently, large language models (LLMs) (Brown et al., 2020; Ouyang et al., 2022a; OpenAI, 2023) have exhibited emergent ability to “reason” like human (Wei et al., 2022a). When prompted with step-wise explanations of reasoning (“chain of thoughts”), or a simple prompt “Let’s think step by step.”, these models are able to answer questions with explicit reasoning steps (Wei et al., 2022b; Kojima et al., 2022).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:figure-9",
+    "page_id": 0,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_0_Figure_0.jpg",
+    "bbox_norm": [
+      0.253,
+      0.517,
+      0.472,
+      0.875
+    ],
+    "text": "Figure 1: Overview of our LOGIC-LM framework.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.514,
+      0.507,
+      0.87,
+      0.887
+    ],
+    "text": "Despite the advances of LLMs, they still struggle with complex logical reasoning problems (Liu et al., 2023b). Recent studies (Golovneva et al., 2023; Ribeiro et al., 2023b; Lyu et al., 2023) found that LLMs occasionally make unfaithful reasoning, i.e., the derived conclusion does not follow the previously generated reasoning chain. While chain-of-thought may imitate human reasoning processes, the fundamental nature of LLMs remains that of black-box probabilistic models, lacking a mechanism to guarantee the faithfulness of reasoning (Shanahan, 2022). In contrast, symbolic inference engines, such as expert systems (Metaxiotis et al., 2002), are faithful and transparent because the reasoning is based on symbolic-represented knowledge and follows well-defined inference rules that adhere to lo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.872,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "This drives our exploration of neuro-symbolic methods that integrate LLMs with symbolic reasoning. As illustrated in Figure 1, we present LOGIC-",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-1",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.112,
+      0.439,
+      0.49
+    ],
+    "text": "LM, a novel framework that decomposes a logical reasoning problem into three stages: Problem Formulation, Symbolic Reasoning, and Result Interpretation. During problem formulation, an LLM converts the natural language description of the problem into an appropriate symbolic formulation, identifying key entities, facts, and rules present in the problem statement. Subsequently, at the symbolic reasoning stage, a deterministic symbolic solver performs inference on the symbolic formulation. Lastly, a result interpreter explains the output and maps it to the correct answer. By incorporating LLMs with symbolic solvers, we can exploit the robust natural language understanding capabilities of LLMs to precisely represent the problem using symbolic representations, while also taking advantage of the ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-2",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.441,
+      0.112,
+      0.57,
+      0.49
+    ],
+    "text": "We showcase the adaptability and effectiveness of LOGIC-LM on five logical reasoning datasets: ProofWriter (Tafjord et al., 2021), PrOntoQA (Saparov and He, 2023), FOLIO (Han et al., 2022), AR-LSAT (Zhong et al., 2022), and the LogicalDeduction dataset from BigBench (Srivastava et al., 2022). These datasets cover a wide range of logical reasoning problems, including:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.573,
+      0.132,
+      0.588,
+      0.383
+    ],
+    "text": "• Deductive Reasoning problems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.59,
+      0.132,
+      0.606,
+      0.484
+    ],
+    "text": "• First-Order Logic (FOL) reasoning problems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.608,
+      0.132,
+      0.624,
+      0.445
+    ],
+    "text": "• Constraint Satisfaction Problems (CSP)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.627,
+      0.132,
+      0.642,
+      0.426
+    ],
+    "text": "• Analytical Reasoning (AR) problems",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.644,
+      0.112,
+      0.79,
+      0.489
+    ],
+    "text": "We integrate four types of symbolic inference tools tailored to these problems: 1) logic programming engine that supports deductive reasoning through forward/backward chaining; 2) FOL inference engine that derives new conclusions based on FOL rules and facts, 3) constraint optimization engine that provides solvers for CSP over finite domains, and 4) boolean satisfiability problem (SAT) solver that solves analytical reasoning problems.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Our evaluations show that the strategy of integrating LLMs with symbolic solvers performs significantly better than purely relying on LLMs for logical reasoning, with an average improvement of 39.2% over the standard prompting and 18.4% over the chain-of-thought prompting (§ 4.1). We also find that LOGIC-LM becomes increasingly effective as the required reasoning depth increases (§ 4.3). Finally, by analyzing the impact of selfrefinement, we highlight the effectiveness of incrementally revising symbolic formalizations when interacting with the symbolic solver (§ 4.4).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.16,
+      0.509,
+      0.177,
+      0.667
+    ],
+    "text": "2 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-11",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.186,
+      0.507,
+      0.508,
+      0.887
+    ],
+    "text": "Language Models for Logical Reasoning. Recent works in adapting LLMs for logical reasoning tasks can be broadly categorized into two groups: 1) fine-tuning approaches that optimize LLMs’ reasoning ability through fine-tuning or training specialized modules (Clark et al., 2020; Tafjord et al., 2022; Yang et al., 2022), and 2) in-context learning approaches that design special prompts to elicit LLMs’ step-by-step reasoning capabilities. Typical methods include chain-of-thought prompting (Wei et al., 2022b; Wang et al., 2023) that generates explanations before the final answer and the least-tomost prompting (Zhou et al., 2023) that breaks the problem down into simpler components that can be solved individually. Both the above approaches perform reasoning directly over natural language (NL), p",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-12",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.51,
+      0.507,
+      0.653,
+      0.887
+    ],
+    "text": "Different from prior works, we use symbolic language as the basic unit of reasoning. This effectively transfers the burden of executing complex, precise reasoning from LLMs to more reliable, interpretable external symbolic solvers. Simultaneously, we leverage the strong in-context learning ability of LLMs to formulate the NL-based problem into suitable symbolic representations, thus maintaining the benefit of flexibility.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-13",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.653,
+      0.507,
+      0.848,
+      0.887
+    ],
+    "text": "Although prior works (Mao et al., 2019; Gupta et al., 2020; Manhaeve et al., 2021; Cai et al., 2021; Tian et al., 2022; Pryor et al., 2023) also propose neuro-symbolic methods to combine neural networks with symbolic reasoning, these methods suffer from limitations such as hand-crafted or specialized module designs that are not easily generalizable, or brittleness due to the difficulty of optimization. In contrast, we propose a more generalizable framework that integrates modern LLMs with symbolic logic without the need for training or designing complex problem-specific modules.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-14",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Tool-augmented Language Models. Language models have inherent limitations such as the inability to access up-to-date information, take actions, or perform precise mathematical reasoning. To address this, recent work has begun to augment language models with access to external tools and resources, such as the information retriever (Nakano et al., 2021; Shi et al., 2023; Lazaridou et al., 2022), calculator (Cobbe et al., 2021), code interpreter (Wang et al., 2022), planner (Liu et al., 2023a), and other pre-trained models (Shen et al., 2023). Recent works (Gao et al., 2023; Chen et al., 2022) have achieved improved performance on arithmetic reasoning tasks by generating Python programs that specify the reasoning procedure as chained commands in the order of execution. However, this idea has ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-1",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.083,
+      0.121,
+      0.399,
+      0.878
+    ],
+    "text": "Figure 2: Overview of our LOGIC-LM model, which consists of three modules: (1) Problem Formulator generates a symbolic representation for the input problem with LLMs via in-context learning (2) Symbolic Reasoner performs logical inference on the formulated problem, and (3) Result Interpreter interprets the symbolic answer.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.856,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Auto-Formalization. The concept of converting natural language into symbolic representations has been widely adopted in auto-formalization for mathematical reasoning (Wu et al., 2022; Drori et al., 2022; He-Yueya et al., 2023; Jiang et al., 2023). These works demonstrate the proficiency of LLMs in translating a considerable fraction of mathematical problems into formal specifications defined in tools like SymPy (Meurer et al., 2017), Isabelle/HOL (Paulson, 1994), and Lean (de Moura et al., 2015). Mathematical reasoning can be considered a specialized subset of logical reasoning, primarily focused on numeric deductions. Due to this numeric specificity, mathematical problems are often more readily translatable to symbolic forms. In contrast, logical reasoning covers a wider array of problem ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.509,
+      0.812,
+      0.65
+    ],
+    "text": "3 LOGIC-LM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.507,
+      0.921,
+      0.885
+    ],
+    "text": "As shown in Figure 2, the inputs of our model are a logical reasoning problem P described in natural language, along with a goal G in the form of a multiple-choice or free-form question. LOGIC-LM then follows a problem formulation-and-reasoning paradigm to solve the problem.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-1",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.112,
+      0.376,
+      0.489
+    ],
+    "text": "In the Problem Formulation stage, we prompt an LLM to translate the problem and the goal into a task-specific symbolic language. In the Symbolic Reasoning stage, we call a deterministic symbolic solver, e.g., a logic programming engine, to obtain a symbolic-represented answer. Finally, an LLM- or rule-based Result Interpreter is responsible for translating the answer back to natural language. Using this approach, the reasoning is guaranteed to be faithful as long as the problem formulation is correct since the answer A is the result of executing deterministic algorithms (e.g., forward/backward-chaining) embedded within the symbolic reasoner. Compared to previous methods based on chain-of-thought, our framework reduces the burden of LLMs by shifting their focus from “solving the problem by ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.392,
+      0.114,
+      0.407,
+      0.326
+    ],
+    "text": "3.1 Problem Formulator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.418,
+      0.112,
+      0.725,
+      0.489
+    ],
+    "text": "Intuitively, LLMs may struggle with directly solving complex reasoning problems. However, they have demonstrated a notable ability to comprehend textual inputs and translate them into formal programs, such as mathematical equations (He-Yueya et al., 2023) or Python codes (Gao et al., 2023). We posit that this capability to formulate problems into different languages can be extended to symbolic languages as well. We leverage the few-shot generalization ability of LLMs to achieve this. By providing the LLM with detailed instructions about the grammar of the symbolic language, alongside a few demonstrations as in-context examples, we observe that LLMs, like InstructGPT (Ouyang et al., 2022b) and GPT-4 (OpenAI, 2023), can effectively follow the instructions to identify key entities, facts, and",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.727,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Specifically, we use four different symbolic formulations to cover four common types of logical reasoning problems: deductive reasoning, firstorder logic reasoning, constraint satisfaction problem, and analytical reasoning. These formulations provide a foundation for translating natural language-based problem statements. By defining additional problem-specific formulations, our framework retains the flexibility to accommodate a wider range of reasoning tasks. Next, we will delve into the grammar of each symbolic formulation. Examples of each problem type are in Figure 2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.507,
+      0.247,
+      0.885
+    ],
+    "text": "Logic Programming (LP) Language. Deductive reasoning typically starts from known facts and rules, and iteratively makes new inferences until the goal statement can be proved or disproved (Poole and Mackworth, 2010). The Prolog logic programming language (Clocksin and Mellish, 2003; Körner et al., 2022) is arguably the most prominent symbolic language to describe deductive reasoning problems. We adopt its grammar to represent a problem as facts, rules, and queries.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.249,
+      0.507,
+      0.361,
+      0.885
+    ],
+    "text": "Facts: a fact F is a simple statement with a predicate and a set of arguments, formulated as $P ( a _ { 1 } , \\cdots , a _ { n } )$ , where P is the predicate name and each argument $a _ { i }$ can be a variable, entity, number, or bool. For example, Age(Peter, 31) means “Peter’s age is $3 1 ^ { \\circ }$ , and MadeOfIron(Nails, True) represents the fact “Nails are made of iron”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.366,
+      0.509,
+      0.466,
+      0.885
+    ],
+    "text": "Rules: rules are written in the form of clauses: $F _ { 1 } \\wedge \\cdot \\cdot \\cdot \\wedge F _ { m } \\to F _ { m + 1 } \\wedge \\cdot \\cdot \\cdot \\wedge F _ { n }$ , where each $F _ { i }$ is a fact and the rule means “if the facts $F _ { 1 } , \\cdots , F _ { m }$ are true, then the facts $F _ { m + 1 } \\cdots F _ { n }$ are also true.” • Queries: a query $Q$ is simply another fact required to be proved based on known facts and rules.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-8",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.473,
+      0.507,
+      0.652,
+      0.887
+    ],
+    "text": "First-Order Logic (FOL). While the logic programming language efficiently represents common deductive reasoning problems, it may fail to represent more complex first-order logic (FOL) problems. To address this, we also include the FOL grammar (Enderton, 2001) in Appendix A. A problem is then parsed into a list of FOL formulas, which are divided into Premises (the known information from the problem) and Conclusion (the unknown formula to be proved). An example sentence and its FOL formula are given in Table 1.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.662,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Constraint Satisfaction (CSP). Constraint satisfaction problems (CSPs) (Kumar, 1992) aims to find the value assignment of a set of objects that satisfy a number of constraints. A CSP is often defined as a triple $( X , D , C )$ , where $X ~ = ~ \\{ x _ { 1 } , \\cdot \\cdot \\cdot ~ , x _ { n } \\}$ is a set of variables, $D =$ $\\{ D _ { 1 } , \\cdots , D _ { n } \\}$ is a set of their respective domains of values, and $C = \\{ C _ { 1 } , \\cdots , C _ { m } \\}$ is a set of constraints. Each variable xi can take on the values in the nonempty domain $D _ { i }$ . Every constraint $C _ { j }$ is a pair $\\langle t _ { j } , R _ { j } \\rangle$ , where $t _ { j } \\subset X$ is a subset of k variables and $R _ { j }$ is a k-ary relation on the corresponding subset of domains $D _ { j }$ . We use the abo",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:table-1",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.117,
+      0.263,
+      0.878
+    ],
+    "text": "Table 1: A summary of the symbolic formulations (with examples) and symbolic solvers we use for the five datasets in our study, representing four different types of logical reasoning problems.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:text-2",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.112,
+      0.474,
+      0.489
+    ],
+    "text": "Boolean Satisfiability (SAT) Formulation. SAT is the problem of deciding if there is an assignment to the variables of a Boolean formula such that the formula is satisfied. Many analytical reasoning problems can be formulated as SAT problems. We adopt the grammar defined in Ye et al. (2023) to formulate an SAT problem  as (Φ,  , ), where Φ is a set of constraints defined under the theory  , and Q is the query of interest.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-3",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.11,
+      0.658,
+      0.49
+    ],
+    "text": "Table 1 summarizes the four types of logical reasoning problems, their typical datasets, and the symbolic formulation used to represent each type of problem. We also give an example of a natural language statement with its corresponding symbolic formulation for each type. Appendix C shows the full prompts we use for the problem formulator. To teach LLMs to better align each statement with its corresponding symbolic form, we use the format SYMBOLIC\\_FORMULA ::: NL\\_STATEMENT in in-context examples to enable better grounding.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.665,
+      0.114,
+      0.681,
+      0.314
+    ],
+    "text": "3.2 Symbolic Reasoner",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.687,
+      0.112,
+      0.784,
+      0.49
+    ],
+    "text": "After the problem formulator parses the problem P and the goal G into symbolic representations Pˆ and Gˆ, we call a deterministic external solver depending on the task, to obtain the answer A. Table 1 summarizes the symbolic solvers we use for each type of logical reasoning problem.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-6",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.11,
+      0.921,
+      0.492
+    ],
+    "text": "LP System. For deductive reasoning, we incorporate the Pyke expert system (Frederiksen, 2008), which makes inferences based on the logic programming language. In response to a query, Pyke first creates a knowledge base, populating it with known facts and rules. Subsequently, it applies forward- and backward-chaining algorithms to infer new facts and substantiate the goal.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.507,
+      0.442,
+      0.887
+    ],
+    "text": "FOL Prover. We use $\\mathsf { P r o v e r } 9 ^ { 2 }$ as the FOL inference engine. Prover9 is an automated theorem prover that supports first-order logic and equational logic. It initially converts FOL statements to conjunctive normal form (CNF) and then performs resolution (Robinson, 1965) on the CNF to deduce whether a conclusion is true, false, or unknown.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.449,
+      0.507,
+      0.563,
+      0.887
+    ],
+    "text": "CSP Solver. Solving a CSP is to find value assignments for all variables that satisfy all given constraints. Commonly used algorithms for this task include backtracking, constraint propagation, and local search variants. To this end, we incorporate the python-constraint3 package which offers solvers for CSPs over finite domains.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.571,
+      0.507,
+      0.766,
+      0.887
+    ],
+    "text": "SAT Solver. For solving SAT problems, we use the Z3 theorem prover (de Moura and Bjørner, 2008), a satisfiability modulo theories (SMT) solver developed by Microsoft4. The SMT solver provides algorithms to determine whether a set of mathematical formulas is satisfiable. It generalizes the SAT problems to more complex formulas involving real numbers, integers, and various data structures such as lists, arrays, bit vectors, and strings. A lot of real-world analytical reasoning problems can be represented as problems of solving a system of equations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-10",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.509,
+      0.791,
+      0.652
+    ],
+    "text": "3.3 Self-Refiner",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-11",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.795,
+      0.507,
+      0.862,
+      0.889
+    ],
+    "text": "For complex problems, generating the correct logical form may become challenging for LLMs. To address this, we introduce a self-refinement module that learns to modify inaccurate logical formulations using the error messages from the symbolic reasoner as feedback. Recent works (Chen et al., 2023; Madaan et al., 2023) have adopted similar ideas to improve code generation, by teaching LLMs to debug their predicted programs via fewshot demonstrations. Here we extend this idea to refine generated logic representations. If the symbolic solver returns an execution error, we instruct the LLM to refine the incorrect logical form, by prompting it with the erroneous logic form, the solver’s error message, and a set of demonstrations showing common error cases (e.g., a free variable is not bounded to",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.355,
+      0.114,
+      0.37,
+      0.305
+    ],
+    "text": "3.4 Result Interpreter",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.378,
+      0.112,
+      0.556,
+      0.489
+    ],
+    "text": "Finally, the result interpreter translates the results returned from the symbolic solver back to a natural language answer. For certain problems, this can be achieved through predefined rules; for example, mapping Entailment to true. However, this process can be more complex for CSPs, e.g., translating {convertible: 1, tractor: 2, minivan: 3} to “the convertible is the oldest.”. To handle these varying levels of complexity, we designed both rule-based and LLM-based result interpreters. Details of the result interpreter are given in Appendix D.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.569,
+      0.114,
+      0.586,
+      0.26
+    ],
+    "text": "4 Experiments",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.596,
+      0.112,
+      0.629,
+      0.489
+    ],
+    "text": "Datasets. We evaluate LOGIC-LM on five common logical reasoning datasets, as follows.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.63,
+      0.112,
+      0.79,
+      0.489
+    ],
+    "text": "PrOntoQA (Saparov and He, 2023) is a recent synthetic dataset created to analyze the capacity of LLMs for deductive reasoning. We use the hardest fictional characters version of the dataset, based on the results in Saparov and He (2023). Each version is divided into different subsets depending on the number of reasoning hops required. We use the hardest 5-hop subset for evaluation. Each question in PrOntoQA aims to validate a new fact’s veracity, such as “True or false: Alex is not shy.”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "ProofWriter (Tafjord et al., 2021) is another commonly used dataset for deductive logical reasoning. Compared with PrOntoQA, the problems are expressed in a more naturalistic language form. We use the open-world assumption (OWA) subset in which each example is a (problem, goal) pair and the label is one of {PROVED, DISPROVED, UNKNOWN}. The dataset is divided into five parts, each part requiring 0, ≤ 1, ≤ 2, ≤ 3, and ≤ 5 hops of reasoning, respectively. We evaluate the hardest depth-5 subset. To reduce overall experimentation costs, we randomly sample 600 examples in the test set and ensure a balanced label distribution.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.166,
+      0.507,
+      0.278,
+      0.887
+    ],
+    "text": "FOLIO (Han et al., 2022) is a challenging expert-written dataset for logical reasoning. The problems are mostly aligned with real-world knowledge and use highly natural wordings, and the questions require complex first-order logic reasoning to solve. We use the entire FOLIO test set for evaluation, consisting of 204 examples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.279,
+      0.507,
+      0.374,
+      0.887
+    ],
+    "text": "LogicalDeduction is a challenging logical reasoning task from the BigBench (Srivastava et al., 2022) collaborative benchmark. The problems are mostly about deducing the order of a sequence of objects from a minimal set of conditions. We use the full test set consisting of 300 examples.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.375,
+      0.507,
+      0.505,
+      0.887
+    ],
+    "text": "AR-LSAT (Zhong et al., 2022) is a dataset that collects all analytical logic reasoning questions from the Law School Admission Test from 1991 to 2016. We use the test set which has 231 multiplechoice questions. AR-LSAT is particularly challenging, with state-of-the-art models only achieving performance slightly better than random guessing (Liang et al., 2022; Ribeiro et al., 2023a).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-12",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.508,
+      0.507,
+      0.605,
+      0.887
+    ],
+    "text": "We convert all examples into a standard multiplechoice format, comprising a problem statement, a question, and potential answers, as shown in Figure 2. We also select 1-5 examples from the training set of each dataset as in-context examples. Detailed data statistics are in Appendix B.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-13",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.614,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Baselines. We compare our model against two baselines that depend solely on LLMs for logical reasoning: 1) Standard LLMs, which leverage incontext learning to directly answer the question; and 2) Chain-of-Thought (CoT) (Wei et al., 2022b), which adopts a step-by-step problem-solving approach, generating explanations before providing the final answer. We separately evaluate the settings that ChatGPT (gpt-3.5-turbo), GPT-3.5 (text-davinci-003) (Ouyang et al., 2022a) and GPT-4 (gpt-4) (OpenAI, 2023) serve as the underlying LLMs for all models. To ensure fair comparisons, we use the same in-context examples for all models. For reproducible results, we set the temperature to 0 and select the response with the highest probability from LLMs. Since all examples are formed as multiple-choice questi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.117,
+      0.21,
+      0.878
+    ],
+    "text": "Table 2: Accuracy of standard promoting (Standard), chain-of-thought promoting (CoT), and our method (LOGIC-LM, without self-refinement) on five reasoning datasets. The best results within each base LLM are highlighted.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.275,
+      0.114,
+      0.291,
+      0.267
+    ],
+    "text": "4.1 Main Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.112,
+      0.413,
+      0.49
+    ],
+    "text": "We report the results of LOGIC-LM (without selfrefinement) and baselines in Table 2. For LOGIC-LM, a symbolic solver does not return an answer when there are grammar errors in the symbolic formulation. For these un-executable cases, we fall back on using chain-of-thought to predict the answer. We have three major observations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.417,
+      0.112,
+      0.594,
+      0.49
+    ],
+    "text": "1. Logic-LM significantly outperforms standard LLMs and CoT across all datasets. With GPT-3.5, our method outperforms standard LLM on all datasets, with an average improvement of 39.2%. This highlights the benefit of combining LLMs with external symbolic solvers for logical reasoning. LOGIC-LM also improves CoT by a large margin of 18.4% on average, showing that offloading the reasoning to symbolic solvers greatly improves faithfulness compared with pure language-based reasoning with CoT.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.595,
+      0.112,
+      0.79,
+      0.489
+    ],
+    "text": "2. GPT-4 outperforms GPT-3.5 by a large margin of 48.46% on average for the standard prompting. This aligns with the assertion that the main enhancement of GPT-4 lies in its ability to carry out complex reasoning (OpenAI, 2023). Although this may indicate that the logical reasoning capability can be boosted by scaling up the LLM, we observe that GPT-4 still makes numerous unfaithful reasoning errors. By delegating the reasoning to symbolic solvers, our method can further improve GPT-4 by an average of 24.98% and 10.44% for standard prompting and CoT prompting, respectively.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "3. While integrating CoT generally enhances LLM performance, we find its benefits comparatively less substantial or even negative on FOLIO, LogicalDeduction, and AR-LSAT, with a modest improvement of 11.75%, 9.41%, and -3.2%, respectively. On the contrary, the benefits of CoT on ProntoQA and ProofWriter are 51.59% and 33.82%, respectively. A plausible explanation is that CoT emulates human forward-chain reasoning: beginning with known facts and sequentially deriving new conclusions until the goal is met. This reasoning style aligns well with problems in the PrOntoQA and ProofWriter datasets. However, FOL and CSP problems often necessitate more sophisticated reasoning strategies that are “nonlinear” compared to standard forward-chain reasoning. These include hypothesizing, conditioning, rec",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-7",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_1.jpg",
+    "bbox_norm": [
+      0.273,
+      0.509,
+      0.445,
+      0.882
+    ],
+    "text": "Table 3: Analysis of accuracy and execution status of LOGIC-LM. We present the percentage of executable logical formulations (Exe\\_Rate) together with the accuracy of the execution (Exe\\_Acc). SR represents before ( ) and after (+) self-refinement.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-9",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.815,
+      0.509,
+      0.831,
+      0.847
+    ],
+    "text": "4.2 Effectiveness of Problem Formulator",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-10",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.84,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "We then evaluate how well LLM can translate a given problem into the symbolic formulation used by each symbolic solver. In Table 3, we report the percentage of symbolic formulations that are executable by the corresponding symbolic solver for each dataset (Exe\\_Rate). Generally, LLM demonstrates high proficiency in transcribing problems into symbolic formats, evidenced by its near 100% Exe\\_Rate on ProntoQA, ProofWriter, and LogicalDeduction. However, the high performance on these datasets is somewhat anticipated, given that their problems are mostly synthetically generated, limiting language variability. When it comes to datasets comprising real-world, expertly crafted problems, such as FOLIO and AR-LSAT, GPT-4’s performance is notably less promising, with Exe\\_Rate scores of 79.9% and 32",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.548,
+      0.11,
+      0.709,
+      0.49
+    ],
+    "text": "Exe\\_Rate only reflects the grammar correctness of the logical form. We also report the accuracy of the executable samples (Exe\\_Acc) to measure the semantic correctness. We find that logical forms generated by GPT-4 generally achieve high Exe\\_Acc, even for the most challenging AR-LSAT dataset. Such performance accentuates the potential of symbolic solvers in bolstering the model’s logical reasoning prowess, contingent on the precise translation of problems into symbolic forms.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.72,
+      0.112,
+      0.737,
+      0.357
+    ],
+    "text": "4.3 Robustness of Reasoning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "Incorporating symbolic solvers also leads to more robust reasoning. To illustrate this, we report the performance of LOGIC-LM and baselines for questions of varying complexity levels. We randomly selected 300 examples from each subset of ProofWriter, ensuring a balanced label distribution. The problems in these subsets require 0, <=1, <=2, <=3, and <=5 hops of reasoning, respectively. The results, shown in Figure 3, indicate that LOGIC-LM becomes increasingly effective as the required reasoning depth increases. For example, LOGIC-LM outperforms CoT by 7.1%, 5.0%, 12.7%, 20.0%, and 39.4% on depth-0, depth-1, depth-2, depth-4, and depth-5 problems, respectively. In LOGIC-LM, multi-step logical reasoning is delegated to external symbolic solvers, thereby transitioning the challenge of LLM fro",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-8",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.625,
+      0.509,
+      0.642,
+      0.766
+    ],
+    "text": "4.4 Impact of Self-Refinement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-9",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.646,
+      0.507,
+      0.759,
+      0.887
+    ],
+    "text": "In Table 3, we find that self-refinement is effective in fixing the in-executable symbolic formulations, increasing the Exe\\_Rate by 5.01 on average. For an in-depth analysis, we then evaluate the accuracy and Exe\\_Rate across different rounds of selfrefinement on FOLIO, namely, 0 (no refinement), 1, 2, and 3 rounds. The results are in Figure 4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-10",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.759,
+      0.507,
+      0.921,
+      0.889
+    ],
+    "text": "We find that as the rounds of self-refinement increase, the percentage of executable formulations consistently increases, leading to an enhancement in the final performance. This suggests that selfrefinement serves as an effective tool in aiding the LLM to accurately frame the problem. However, the accuracy tends to stagnate in subsequent rounds, even though the Exe\\_Rate continues to increase. This can be attributed to the type of feedback received by the self-refiner, which is the error message from the symbolic solver. This feedback aids in converting “invalid” symbolic representations into valid ones. However, a valid symbolic representation does not necessarily equate to a “correct” problem formulation that accurately represents the problem. This issue could be tackled by enhancing th",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-1",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.117,
+      0.286,
+      0.878
+    ],
+    "text": "Figure 5: An example of the generated symbolic representation and the predicted answer by LOGIC-LM.",
+    "source_type": "code"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.527,
+      0.114,
+      0.543,
+      0.25
+    ],
+    "text": "4.5 Case Study",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.112,
+      0.662,
+      0.489
+    ],
+    "text": "In Figure 5, we show an example of the symbolic representations generated by GPT-4, together with the predicted answer. In general, LOGIC-LM has demonstrated a potent capacity to interpret complex problems into symbolic forms. Nonetheless, there remain certain difficulties in accurately understanding the semantics of the problem.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-5",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.663,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "We further analyze some error cases in Figure 6 of Appendix E. Example 1 shows a case where GPT-4 generates an incorrect FOL representation, stemming from its inability to define appropriate predicates. Here, instead of creating the predicate EasternWildTurkey, the model generates a constant, WildTurkey(eastern), in which WildTurkey is the predicate and eastern is the constant. While this representation is valid in isolation, it does not interact well with subsequent constants. This inconsistency is a recurring issue in GPT-4’s symbolic form generation, illustrating that the model sometimes struggles to maintain an overarching understanding of the problem when forming logical symbols. Example 3 highlights a case where GPT-4 struggles to interpret specific expressions accurately. In this ca",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.549,
+      0.509,
+      0.565,
+      0.798
+    ],
+    "text": "5 Conclusion and Future Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.58,
+      0.507,
+      0.693,
+      0.885
+    ],
+    "text": "In this work, we propose a novel approach to address logical reasoning problems by combining large language models with symbolic solvers. We introduce Logic-LM, one instantiation of such a framework, and demonstrate how it significantly improves performance over pure LLMs and chainof-thought prompting techniques.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "While Logic-LM has proven to be a capable system, it can be further improved with extension to more flexible and powerful logic systems. For example, statistical relational learning (SRL) systems such as Markov logic networks (Richardson and Domingos, 2006) and probabilistic soft logic (Bach et al., 2017) have demonstrated great promise in reasoning under uncertainty and integration with our framework would enable even more adaptive problem-solving capabilities. Additionally, our method can be extended to reasoning problems requiring commonsense, which remains a significant challenge as they often require reasoning over complex and ambiguous rules.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-1",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.099,
+      0.22
+    ],
+    "text": "Limitations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.111,
+      0.112,
+      0.321,
+      0.49
+    ],
+    "text": "We identify two main limitations of LOGIC-LM. First, LOGIC-LM relies on translating reasoning problems into logical formats that can be tackled by symbolic solvers. As a consequence, the model’s applicability is inherently bounded by the expressiveness of the symbolic solver, for example, not all problems can be easily encoded in first-order logic. Nevertheless, this limitation can be mitigated by integrating a more diverse set of symbolic solvers. The flexible design of LOGIC-LM facilitates this integration. The wide range of reasoning tasks that we can instantiate our LOGIC-LM framework on shows its general applicability.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.112,
+      0.564,
+      0.489
+    ],
+    "text": "Second, LOGIC-LM depends on in-context learning coupled with self-refinement to convert a natural language (NL) problem into the symbolic representation. While this method has proven to be effective, it may face difficulties when dealing with logical representations with intricate grammar structures, such as probabilistic soft logic. This arises from the difficulty in conveying complex grammatical rules to the language model through a limited number of demonstrations within a constrained context size. As a potential solution, future works could explore the development of specialized modules to enhance the mapping between NL and symbolic language, e.g., fine-tuning LLMs with synthetic data generated via symbolic solvers.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.577,
+      0.114,
+      0.593,
+      0.267
+    ],
+    "text": "Ethics Statement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.605,
+      0.112,
+      0.734,
+      0.49
+    ],
+    "text": "The use of large language models requires a significant amount of energy for computation for training, which contributes to global warming (Strubell et al., 2019). Our work performs few-shot in-context learning instead of training models from scratch, so the energy footprint of our work is less. The large language models whose API we use for inference, especially GPT-4, consume significant energy.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-6",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.747,
+      0.114,
+      0.764,
+      0.287
+    ],
+    "text": "Acknowledgements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-7",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.774,
+      0.112,
+      0.84,
+      0.489
+    ],
+    "text": "This work was supported by the National Science Foundation Award #2048122. The views expressed are those of the authors and do not reflect the official policy or position of the US government.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-8",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.868,
+      0.114,
+      0.883,
+      0.215
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-9",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.891,
+      0.115,
+      0.919,
+      0.487
+    ],
+    "text": "Stephen Bach, Matthias Broecheler, Bert Huang, and Lise Getoor. 2017. Hinge-loss markov random fields and probabilistic soft logic. Journal of Machine Learning Research (JMLR), 18(1):1–67. Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. Language models are few-shot learners. In Proceedings of the Annual Conference on Neural Information Processing Systems (N",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.14,
+      0.489
+    ],
+    "text": "neural network solves, explains, and generates university math problems by program synthesis and fewshot learning at human level. Proceedings of the National Academy of Sciences, 119(32):e2123433119. Herbert B Enderton. 2001. A mathematical introduction to logic. Elsevier. Bruce Frederiksen. 2008. Applying expert system technology to code reuse with pyke. PyCon: Chicago. Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie Callan, and Graham Neubig. 2023. PAL: program-aided language models. In Proceedings of the International Conference on Machine Learning (ICML), volume 202, pages 10764–10799. Olga Golovneva, Moya Chen, Spencer Poff, Martin Corredor, Luke Zettlemoyer, Maryam Fazel-Zarandi, and Asli Celikyilmaz. 2023. ROSCOE: A suite of metrics for scoring step-by-",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.115,
+      0.166,
+      0.489
+    ],
+    "text": "Jiayuan Mao, Chuang Gan, Pushmeet Kohli, Joshua B. Tenenbaum, and Jiajun Wu. 2019. The neurosymbolic concept learner: Interpreting scenes, words, and sentences from natural supervision. In Proceedings of the 7th International Conference on Learning Representations (ICLR). Kostas S. Metaxiotis, Dimitris Askounis, and John E. Psarras. 2002. Expert systems in production planning and scheduling: A state-of-the-art survey. Journal of Intelligent Manufacturing, 13(4):253–260. Aaron Meurer, Christopher P. Smith, Mateusz Paprocki, Ondrej Certík, Sergey B. Kirpichev, Matthew Rocklin, Amit Kumar, Sergiu Ivanov, Jason Keith Moore, Sartaj Singh, Thilina Rathnayake, Sean Vig, Brian E. Granger, Richard P. Muller, Francesco Bonazzi, Harsh Gupta, Shivam Vats, Fredrik Johansson, Fabian Pedregosa, Matthew J",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.165,
+      0.489
+    ],
+    "text": "Arfa Tabassum, Arul Menezes, Arun Kirubarajan, Asher Mullokandov, Ashish Sabharwal, Austin Herrick, Avia Efrat, Aykut Erdem, Ayla Karakas, and et al. 2022. Beyond the imitation game: Quantifying and extrapolating the capabilities of language models. CoRR, abs/2206.04615. Emma Strubell, Ananya Ganesh, and Andrew McCallum. 2019. Energy and policy considerations for deep learning in NLP. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL), pages 3645–3650. Oyvind Tafjord, Bhavana Dalvi, and Peter Clark. 2021. Proofwriter: Generating implications, proofs, and abductive statements over natural language. In Findings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL), pages 3621–3634. Oyvind Tafjord, Bhavana Dalvi Mishra,",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-13:text-1",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.114,
+      0.101,
+      0.458
+    ],
+    "text": "A Syntax for First-order Logic (FOL)",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-2",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.121,
+      0.151,
+      0.393,
+      0.455
+    ],
+    "text": "Table 4: First-Order Logic Grammar.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.445,
+      0.114,
+      0.462,
+      0.3
+    ],
+    "text": "B Dataset Statistics",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-4",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_1.jpg",
+    "bbox_norm": [
+      0.481,
+      0.121,
+      0.583,
+      0.48
+    ],
+    "text": "Table 5: Statistics of the logical reasoning datasets.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.642,
+      0.114,
+      0.658,
+      0.31
+    ],
+    "text": "C Prompt Examples",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.667,
+      0.112,
+      0.878,
+      0.492
+    ],
+    "text": "In this section we provide examples of the prompts used for each dataset and method. Prompts for standard in-context learning contain 2 demonstrations consisting of 3 parts each: a context, a question, and options. Prompts for chain-of-thought prompting contain 2 demonstrations consisting of 5 parts each: a task description, a context, a question, options, and a chain of reasoning. Prompts for Logic-LM contain 2 demonstrations with 5 parts each: a task description, a context, a question, options, and a domain-specific symbolic program. For brevity, we show only a single demonstration for each setting in the following sections.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.509,
+      0.101,
+      0.721
+    ],
+    "text": "C.1 PrOntoQA Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.509,
+      0.121,
+      0.757
+    ],
+    "text": "Standard In-Context Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.529,
+      0.271,
+      0.766
+    ],
+    "text": "Chain-of-Thought Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.48,
+      0.527,
+      0.495,
+      0.615
+    ],
+    "text": "Logic-LM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-1",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.115,
+      0.101,
+      0.336
+    ],
+    "text": "C.2 ProofWriter Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.114,
+      0.121,
+      0.361
+    ],
+    "text": "Standard In-Context Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.282,
+      0.134,
+      0.299,
+      0.371
+    ],
+    "text": "Chain-of-Thought Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-6",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.529,
+      0.101,
+      0.615
+    ],
+    "text": "Logic-LM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-1",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.115,
+      0.101,
+      0.297
+    ],
+    "text": "C.3 FOLIO Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-2",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.105,
+      0.114,
+      0.121,
+      0.361
+    ],
+    "text": "Standard In-Context Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.322,
+      0.134,
+      0.337,
+      0.371
+    ],
+    "text": "Chain-of-Thought Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-6",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.529,
+      0.101,
+      0.615
+    ],
+    "text": "Logic-LM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.102,
+      0.376
+    ],
+    "text": "C.4 LogicalDeduction Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.114,
+      0.121,
+      0.363
+    ],
+    "text": "Standard In-Context Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.132,
+      0.318,
+      0.371
+    ],
+    "text": "Chain-of-Thought Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.527,
+      0.102,
+      0.615
+    ],
+    "text": "Logic-LM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.101,
+      0.317
+    ],
+    "text": "C.5 AR-LSAT Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.104,
+      0.114,
+      0.121,
+      0.361
+    ],
+    "text": "Standard In-Context Learning",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.375,
+      0.132,
+      0.392,
+      0.371
+    ],
+    "text": "Chain-of-Thought Prompting",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-6",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.527,
+      0.101,
+      0.615
+    ],
+    "text": "Logic-LM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-8",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.556,
+      0.509,
+      0.573,
+      0.848
+    ],
+    "text": "D Result Interpreter Implementation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-9",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.581,
+      0.507,
+      0.873,
+      0.887
+    ],
+    "text": "For PrOntoQA and ProofWriter, the Pyke logic programming engine returns the inferred value of the variable in the query or Unknown if the variable cannot be determined. For example, for the query ConductElectricity(Nail, x), Pyke may return x =True. By comparing with the goal statement ConductElectricity(Nail, False), we can know that goal to be proved is False. For FOLIO, the FOL inference engine directly returns the veracity label of the goal as ENTAILMENT, CONTRADICTION, and CONTINGENT, which can be mapped to True, False, and Unknown, respectively. For LogicalDeduction, the solver returns all the possible value assignments in an array. We write rules to parse each option into the corresponding value and check it is in the generated array. For AR-LSAT, we attempt to separately prove each",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-10",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.882,
+      0.509,
+      0.9,
+      0.865
+    ],
+    "text": "E Example Generations of LOGIC-LM",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:figure-1",
+    "page_id": 18,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_18_Figure_0.jpg",
+    "bbox_norm": [
+      0.172,
+      0.119,
+      0.784,
+      0.88
+    ],
+    "text": "Figure 6: Examples of generated symbolic representations and predicted answers. The incorrect segment(s) and their correspondence in the problem are marked in red, and the correct revisions are marked in green.",
+    "source_type": "image"
+  }
+]

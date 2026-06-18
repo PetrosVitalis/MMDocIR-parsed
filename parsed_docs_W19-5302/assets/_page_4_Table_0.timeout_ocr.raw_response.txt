@@ -1,0 +1,31 @@
+Metric | Features | Learned? | Scoring Level | Sys | Citation/Participant | Availability
+--- | --- | --- | --- | --- | --- | ---
+SENTBLEU | n-grams |  |  |  |  | (mosesdecoder) mert/sentence-bleru
+BLEU | n-grams |  |  |  |  | (mosesdecoder) scripts/generic/enteval-v13a.pl
+NIST | n-grams |  |  |  |  | (mosesdecoder) scripts/generic/enteval-v13a.pl
+WER | Levenshtein distance |  |  |  |  | Deddington (2002)
+TER | edit distance, edit types |  |  |  |  | Lesch et al. (2006)
+PER | edit distance, edit types |  |  |  |  | Lesch et al. (2006)
+CDER | edit distance, edit types |  |  |  |  | Lesch et al. (2003)
+CHRFL | character n-grams |  |  |  |  | Popović (2017)
+CHRFL+ | character n-grams |  |  |  |  | Post (2018a)
+SACREBLEU-CHRFL | n-grams |  |  |  |  | Post (2018a)
+BEER | char: n-grams, permutation trees | yes |  |  |  | Univ. of Amsterdam, ILCC (Stanjević and Sima'an, 2015)
+BERTIR | contextual word embeddings |  |  |  |  | Univ. of Melbourne (Mathur et al., 2019)
+CHARACTER | char: edit distance, edit types |  |  |  |  | RWTH Aachen Univ. (Wang et al., 2016a)
+EED | learned neural representations |  |  |  |  | RWTH Aachen Univ. (Stanjević et al., 2019)
+ESMIR | surface linguistic features |  |  |  |  | Univ. of Melbourne (Mathur et al., 2012, 2013)
+LEPORA | word alignments |  |  |  |  | Dublin City University: ADAPT (Han et al., 2012, 2013)
+LEPORA+ | pseudo-references, paraphrases |  |  |  |  | Peking University (Guo and Hu, 2019)
+WMDO | word mover distance |  |  |  |  | Tokyo Metropolitan Univ. (Yoshimura et al., 2019)
+PREP | semantic similarity |  |  |  |  | Imperial College London (Chew et al., 2019)
+YISI-0 | semantic similarity |  |  |  |  | NRC (Lo, 2019)
+YISI-1 | semantic similarity |  |  |  |  | NRC (Lo, 2019)
+IBM1-MORPHEME | LM log probs, IBM1 lexicon |  |  |  |  | Dublin City University: ADAPT (Popović, 2012)
+IBM1-POS/GRAM | LM log probs, IBM1 lexicon |  |  |  |  | Dublin City University: ADAPT (Popović, 2012)
+LP | contextual word emb., MT log prob. |  |  |  |  | Univ. of Tartu (Yankovskaya et al., 2019)
+LASIM | contextual word embeddings |  |  |  |  | Univ. of Tartu (Yankovskaya et al., 2019)
+UNI |  |  |  |  |  | Univ. of Sheffield
+USFD |  |  |  |  |  | Univ. of Sheffield
+USFD-TL | semantic similarity |  |  |  |  | NRC (Lo, 2019)
+YISI-2_srl | semantic similarity |  |  |  |  | NRC (Lo, 2019)

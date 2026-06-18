@@ -1,0 +1,1 @@
+<table><tr><td>Intermediates</td><td>Description</td></tr><tr><td>Various cephalosporin intermediates</td><td>Anti-infectives</td></tr><tr><td>Macrolide base intermediates</td><td>Anti-infectives</td></tr><tr><td>Various crude compounds produced by fermentation</td><td>Cyclosporine,ascomycin,rapamycin, mycophenolic acid,etc.</td></tr></table>

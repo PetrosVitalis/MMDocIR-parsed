@@ -1,0 +1,1 @@
+<table><tr><td>E&amp;M</td><td>F&amp;R</td></tr><tr><td>(2.03*)Reference (2.47) PBMT (2.48) NMT Combined (2.54) Rule-based</td><td>(2.13*) Reference (2.38*) PBMT (2.38*) NMT Combined (2.56) Rule-based</td></tr></table>

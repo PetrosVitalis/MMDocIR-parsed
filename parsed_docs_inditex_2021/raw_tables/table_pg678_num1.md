@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Yes</td><td rowspan=1 colspan=1>No</td></tr><tr><td rowspan=1 colspan=1>Are these clauses notified to the General Meeting of Shareholders?</td><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1></td></tr></table>

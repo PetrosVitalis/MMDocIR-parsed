@@ -1,0 +1,5 @@
+BoW Vocabulary,STA,CS,WO,PPL,GM
+Full corpus vocabulary,0.822,0.896,0.344,30,0.21
+Vocabulary without sentiment words,0.872,0.901,0.359,30,0.22
+Vocabulary without stopwords,0.836,0.894,0.429,33,0.22
+Vocabulary without stopwords and sentiment words,0.934,0.904,0.473,32,0.24

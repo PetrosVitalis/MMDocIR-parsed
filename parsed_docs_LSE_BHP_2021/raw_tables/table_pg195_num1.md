@@ -1,0 +1,1 @@
+<table><tr><td></td><td rowspan=1 colspan=1>2021Number</td><td rowspan=1 colspan=1>2020Number</td></tr><tr><td rowspan=1 colspan=1>Average number of employees during the year including Executive Directors</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>1</td></tr></table>

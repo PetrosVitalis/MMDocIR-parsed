@@ -1,0 +1,64 @@
+{
+  "folder": "/Users/petros/Desktop/uni/mas/thesis-multi-agent/parsed_docs_NYSE_WFC_2021",
+  "total_images": 11,
+  "non_figure_images_skipped": 183,
+  "processed": 11,
+  "failed": 0,
+  "descriptions": [
+    {
+      "image": "_page_15_Figure_0.jpg",
+      "output": "image_descriptions/_page_15_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_79_Asset_0.jpg",
+      "output": "image_descriptions/_page_79_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_1_Figure_0.jpg",
+      "output": "image_descriptions/_page_1_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_75_Asset_0.jpg",
+      "output": "image_descriptions/_page_75_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_75_Asset_1.jpg",
+      "output": "image_descriptions/_page_75_Asset_1.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_107_Figure_0.jpg",
+      "output": "image_descriptions/_page_107_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_218_Figure_0.jpg",
+      "output": "image_descriptions/_page_218_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_51_Figure_0.jpg",
+      "output": "image_descriptions/_page_51_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_32_Figure_0.jpg",
+      "output": "image_descriptions/_page_32_Figure_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_222_Asset_0.jpg",
+      "output": "image_descriptions/_page_222_Asset_0.md",
+      "status": "success"
+    },
+    {
+      "image": "_page_225_Figure_0.jpg",
+      "output": "image_descriptions/_page_225_Figure_0.md",
+      "status": "success"
+    }
+  ]
+}

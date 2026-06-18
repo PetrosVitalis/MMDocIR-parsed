@@ -1,0 +1,2480 @@
+[
+  {
+    "layout_id": "page-0:text-1",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.077,
+      0.156,
+      0.118,
+      0.842
+    ],
+    "text": "SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-2",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.124,
+      0.299,
+      0.159,
+      0.702
+    ],
+    "text": "Xinyuan Lu∗1,2 Liangming Pan∗3 Qian Liu4 Preslav Nakov5 Min-Yen Kan2",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-3",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.165,
+      0.191,
+      0.199,
+      0.811
+    ],
+    "text": "1ISEP Program, NUS Graduate School 2 National University of Singapore 3University of California, Santa Barbara 4Sea AI Lab 5MBZUAI",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-4",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.206,
+      0.201,
+      0.24,
+      0.803
+    ],
+    "text": "luxinyuan@u.nus.edu liangmingpan@ucsb.edu liuqian@sea.com preslav.nakov@mbzuai.ac.ae kanmy@comp.nus.edu.sg",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-5",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.252,
+      0.26,
+      0.268,
+      0.342
+    ],
+    "text": "Abstract",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-6",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.278,
+      0.141,
+      0.621,
+      0.462
+    ],
+    "text": "Current scientific fact-checking benchmarks exhibit several shortcomings, such as biases arising from crowd-sourced claims and an overreliance on text-based evidence. We present SCITAB, a challenging evaluation dataset consisting of 1.2K expert-verified scientific claims that 1) originate from authentic scientific publications and 2) require compositional reasoning for verification. The claims are paired with evidence-containing scientific tables annotated with labels. Through extensive evaluations, we demonstrate that SCITAB poses a significant challenge to state-of-the-art models, including table-based pretraining models and large language models. All models except GPT-4 achieved performance barely above random guessing. Popular prompting techniques, such as Chain-of-Thought, do not achi",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-7",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.632,
+      0.115,
+      0.648,
+      0.26
+    ],
+    "text": "1 Introduction",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-8",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.657,
+      0.112,
+      0.834,
+      0.49
+    ],
+    "text": "Scientific fact-checking is a crucial process that involves validating the accuracy of scientific claims by cross-referencing them with established scientific literature, research, or data (Guo et al., 2022). This process is crucial for preserving the integrity of scientific information, preventing the spread of misinformation, and fostering public trust in research findings. However, the sheer volume of scientific data and claims can be overwhelming for manual fact-checking, making automated scientific fact-checking an imperative research area of NLP.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-9",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.834,
+      0.112,
+      0.9,
+      0.49
+    ],
+    "text": "Scientific fact-checking has advanced significantly with benchmarks including Sci-Fact (Wadden et al., 2020), Sci-Fact Open (Wadden et al., 2022), and COVID-Fact (Saakyan et al., 2021).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-10",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.253,
+      0.507,
+      0.575,
+      0.887
+    ],
+    "text": "However, these datasets still exhibit several limitations. First, the claims are crowd-sourced rather than collected from real scientific papers. This leads to problems such as bias in human annotation, a lack of diversity, and shallow claims that do not reflect the complexity of scientific reasoning. For example, most claims in Sci-Fact can be validated by a single sentence in a paper’s abstract, which oversimplifies the scientific discourse. Second, the claims in the existing benchmarks are solely validated against text-based evidence, primarily paper abstracts. However, in many scientific processes, claims are intrinsically tied to quantitative experimental data, commonly presented in tables and figures. This disparity highlights a significant gap between the existing benchmarks and rea",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-0:text-11",
+    "page_id": 0,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.582,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "In this paper, we propose a novel dataset SC-ITAB, which fulfills these stated criteria. It contains 1,225 challenging scientific claims, each demanding compositional reasoning for verification using scientific tables. Our data is derived from the Sci-Gen dataset (Moosavi et al., 2021), a resource that includes scientific tables and claims crawled from arXiv.org. We first manually filter out the checkworthy scientific claims from the raw data. Following this, we employ a strategy of human–model collaboration, as depicted in Figure 2, to generate claims that are either contradicted or unverifiable based on the table’s content. Figure 1 shows a claim from SCITAB and the corresponding reasoning process to verify it. Compared with existing benchmarks, SCITAB is closer to real-world scientific ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:figure-1",
+    "page_id": 1,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_1_Figure_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.124,
+      0.319,
+      0.873
+    ],
+    "text": "Figure 1: An example of our SCITAB dataset (left) and its corresponding reasoning graph (right). Each data entry contains paper name, paper id, table, one claim, and its corresponding label (Supported, Refuted, Not Enough Info).",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-1:text-3",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.406,
+      0.11,
+      0.73,
+      0.492
+    ],
+    "text": "We employ SCITAB as a diagnostic dataset for benchmarking the zero-shot and in-context learning performance for a wide range of state-of-theart models, including table-based pretraining models, encoder–decoder models, open source language models, and API-based language models. We observe that all models, with the exception of GPT-4, can only achieve marginally superior $F _ { 1 }$ scores than random guessing, which underscores the challenging nature of SCITAB. Additionally, established prompting methods like Chainof-Thought (Wei et al., 2022) and Program-of-Thought (Chen et al., 2022) which typically enhance performance across most reasoning tasks, do not bring performance gain on SCITAB. Our error analysis sheds light on several unique challenges in SCITAB that may lead to this, such as t",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-4",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.743,
+      0.114,
+      0.759,
+      0.329
+    ],
+    "text": "2 The SCITAB Dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-5",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.771,
+      0.11,
+      0.852,
+      0.49
+    ],
+    "text": "We adopt a human–model collaboration strategy to construct SCITAB, as shown in Figure 2. We describe the steps involved in data preparation (Section 2.1), automatic claim generation (Section 2.2), and manual claim verification (Section 2.3).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-6",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.865,
+      0.114,
+      0.881,
+      0.3
+    ],
+    "text": "2.1 Data Preparation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-7",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "We use the publicly available SciGen (Moosavi et al., 2021) dataset as our primary data source.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-8",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.388,
+      0.507,
+      0.809,
+      0.887
+    ],
+    "text": "The dataset was created by crawling computer science papers from arXiv. The tables and the texts explaining the tables are extracted from the papers to create (table, description) pairs for the task of data-to-text generation. From all the table descriptions of SciGen, we first filter the check-worthy scientific claims following the criteria established by Lee et al. (2009) for academic writing1. We focus on the descriptions that serve the purpose of “highlighting and commenting on key data”, i.e., describing research findings based on the data presented in scientific tables. Given the task’s objective nature and to save the cost of human labor, we hire a graduate student majoring in computer science to manually select scientific claims based on the aforementioned criteria using the user i",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-9",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.821,
+      0.509,
+      0.838,
+      0.786
+    ],
+    "text": "2.2 Automatic Claim Generation",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-1:text-10",
+    "page_id": 1,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.845,
+      0.507,
+      0.894,
+      0.887
+    ],
+    "text": "False Claims. A fact-checking dataset requires both true and false claims. However, acquiring false claims that naturally occur within wellverified scientific publications is a challenging task. Following SciFact (Wadden et al., 2020) and COVID-Fact (Saakyan et al., 2021), we seek to create false claims by generating counter-claims of the original true claims. Unlike previous works that purely rely on crowd-workers to compose counter-claims — a process that is costly and prone to annotation artifacts — we leverage the strong instruction-following capabilities of large language models (LLMs) to assist humans in generating candidate counter-claims. Specifically, we prompt InstructGPT (Ouyang et al., 2022) with the original claim and the instruction: Please modify the original claims to conve",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:figure-1",
+    "page_id": 2,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_2_Figure_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.142,
+      0.26,
+      0.858
+    ],
+    "text": "Figure 2: The human–model collaboration construction process of SCITAB, which contains three steps: 1) data preparation (including data preprocessing and claim extraction) 2) automatic claim generation (including refuted and Not Enough Info claim generation) and 3) manual claim verification.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-2:text-3",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.11,
+      0.922,
+      0.49
+    ],
+    "text": "Unverifiable Claims. To construct a more challenging dataset, we also integrate claims that are unverifiable with the table information (labeled as Not Enough Info, NEI). We leverage InstructGPT to generate candidate NEI claims by prompting the model with the original table and the instruction: Please generate 5 relevant scientific claims based on the information in the table. This process yields a diverse set of free-formed claims that enrich the diversity of SCITAB. However, as LLMs tend to generate content that might not always be grounded in the provided data, many of the generated claims turn out to be relevant but unverifiable with respect to the table. We adopt manual verification (elaborated in Section 2.3) to select them as NEI claims.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-5",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.386,
+      0.509,
+      0.401,
+      0.768
+    ],
+    "text": "2.3 Manual Claim Verification",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-6",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.507,
+      0.554,
+      0.887
+    ],
+    "text": "We subsequently employ a human verification process for two purposes: first, to verify the quality of the 872 false claims and 900 NEI claims that were generated by InstructGPT; second, to critically review the 872 real-world scientific claims obtained in Section 2.1. This task involves selecting claims that can be verified exclusively based on the information presented in the table, without the need for additional context from the associated paper.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-7",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.554,
+      0.507,
+      0.717,
+      0.887
+    ],
+    "text": "For each pair of the true claim c and its corresponding generated counter-claim c′, we ask the annotator to choose one of the following three options: (A) c is not exclusively supported by the table, (B) c is exclusively supported by the table, but c′ is not refuted by the table, and (C) c is not exclusively supported by the table, and c′ is not refuted by the table. For each candidate NEI claim, we ask the annotator to judge whether it is unverifiable with respect to the table.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-2:text-8",
+    "page_id": 2,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.727,
+      0.505,
+      0.922,
+      0.887
+    ],
+    "text": "Annotator Recruitment. Given that our data source is from computer science papers, we recruit university students majoring in computer science with basic math and programming backgrounds for annotation. We ask each annotator to fill in a questionnaire, including their age, department, maximum workload per week, etc. After that, we provide a training session to ensure they understand the task and can use the annotation interfaces (Appendix B.2 and B.3). We also give them three samples to test their understanding. We recruit twelve annotators that passed the training session.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:table-1",
+    "page_id": 3,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_3_Table_0.jpg",
+    "bbox_norm": [
+      0.08,
+      0.188,
+      0.204,
+      0.81
+    ],
+    "text": "Table 1: Comparison of SCITAB to three recent table fact verification datasets: TabFact (Chen et al., 2020), FEVEROUS (Aly et al., 2021), and SEM-TAB-FACTS (Wang et al., 2021). The table presents statistics related to the domain, annotator (AMT represents Amazon Mechanical Turk), maximum reasoning hops, veracity labels percentage of each dataset, the total number of claims, and average claims per table.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-3:text-2",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.288,
+      0.112,
+      0.354,
+      0.489
+    ],
+    "text": "In compliance with ethical guidelines, we ensure fair compensation for the annotators. Each claim annotation is reimbursed at a rate of 0.37 USD, resulting in an hourly wage of 11.2 USD2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-3",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.362,
+      0.11,
+      0.589,
+      0.49
+    ],
+    "text": "Quality Control and Annotator Agreement. To ensure the quality of the annotation, we apply strict quality control procedures following the guidelines outlined in the Dataset Statement (Bender and Friedman, 2018). We assign two different annotators to perform a two-round annotation for each claim, while two authors review and resolve any identified errors or issues. To measure the interannotator agreement, we use Cohen’s Kappa (Cohen, 1960). Our inter-annotator agreement is 0.630 for the false claim verification task (872 claims in total) and 0.719 for the NEI claim verification task (900 claims in total). Both values indicate substantial agreement among the annotators.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-4",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.112,
+      0.617,
+      0.272
+    ],
+    "text": "3 Data Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-5",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.626,
+      0.11,
+      0.821,
+      0.492
+    ],
+    "text": "Table 1 shows the statistics of our SCITAB dataset and the comparison with three existing table factchecking datasets: TabFact (Chen et al., 2020), FEVEROUS (Aly et al., 2021), and SEM-TAB-FACTS (Wang et al., 2021). Compared with these datasets, SCITAB is 1) annotated by domain experts rather than crowd-sourced workers, 2) contains more challenging claims that require up to 11 reasoning steps for verification, and 3) has a more balanced distribution of veracity labels and a higher percentage of NEI claims. We conduct a more in-depth analysis of SCITAB as follows.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-6",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.831,
+      0.114,
+      0.847,
+      0.317
+    ],
+    "text": "3.1 Reasoning Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-7",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.852,
+      0.112,
+      0.885,
+      0.49
+    ],
+    "text": "Reasoning Types. To study the nature of reasoning involved in fact-checking claims in SCITAB, we adapt the set of table-based reasoning categories from INFOTABS (Gupta et al., 2020) to define 14 atomic reasoning types, as shown in Table 2. Among them, “closed-domain knowledge” and “open-domain knowledge” are specially designed for SCITAB. Closed-domain knowledge refers to obtaining background information from the table caption or title, e.g., knowing that “Prod.” refers to “Productivity” from the table caption in Figure 1. Open-domain knowledge refers to commonsense knowledge not presented in the table, e.g., the relationship between precision and recall. Given the designed reasoning types, we manually analyze 100 samples in SCITAB, by annotating the graph of reasoning steps for verifying ",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-9",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.637,
+      0.507,
+      0.768,
+      0.887
+    ],
+    "text": "Reasoning Depth. We further measure the reasoning depth (the number of required reasoning steps) for each claim and show the reasoning depth distribution in Figure 3. We find that the analyzed claims have an average depth of 4.76 and a maximum depth of 11. Moreover, 86% of the claims requiring 3 or more reasoning steps, which demonstrates the complexity of reasoning in SCITAB.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-3:text-10",
+    "page_id": 3,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.507,
+      0.922,
+      0.889
+    ],
+    "text": "Reasoning Graph. We showcase the reasoning graph for the example in Figure 1 on the right side of the figure. Verifying this claim requires various types of reasoning including: 1) background knowledge from the table caption: “productivity” corresponds to the “Prod.” column in the table; 2) commonsense knowledge: “random chance” means 50% accuracy; 3) simple lookup: “A’s productivity” refers to the cell located at the last row and the “Prod.” column; and 4) numerical reasoning: the difference between 57.5% and 50% is 7.5%. This case study provides further insights into the complexity and variety of reasoning involved in SCITAB, revealing the difficulty of the dataset.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:table-1",
+    "page_id": 4,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_4_Table_0.jpg",
+    "bbox_norm": [
+      0.083,
+      0.121,
+      0.285,
+      0.877
+    ],
+    "text": "Table 2: The function names, descriptions, and their proportions in our SCITAB dataset.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-4:text-4",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.69,
+      0.112,
+      0.706,
+      0.426
+    ],
+    "text": "3.2 Refuted and NEI Claims Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-5",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.711,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "One potential risk of model-generated claims is that they may lack diversity and exhibit the same pattern. For example, in the Sci-Fact (Wadden et al., 2020) dataset where the refuted claims are generated by flapping the meaning of the original true claims, we found that out of 100 randomly sampled refuted claims, 85 simply negated the original claim by adding negation words such as “not” (more details in Appendix C). To evaluate the diversity of claims for our SCITAB dataset, we randomly select 60 refuted claims and then manually annotate their reasons for refutation. Results are shown in Table 3 (top half). We find that SCITAB exhibits a greater diversity in refuted claims compared to Sci-Fact. Besides common error types such as “incorrect calculation results” (41.7%), there are also uni",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-7",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.513,
+      0.507,
+      0.74,
+      0.887
+    ],
+    "text": "The NEI claims (bottom half; Table 3) also exhibit diverse reasoning patterns. The two most common features for unverifiable claims are insufficient evidence in the table and the lack of background knowledge. The lack of closed-domain knowledge is another reason for NEI, where additional information in the paper is necessary to verify the claim. Other reasons include the use of vague pronouns (e.g., “it”, “this”) brings ambiguity to the claim. These distinct refuted and NEI reasoning types highlight the unique features of SCITAB, making it a more comprehensive and realistic representation of the challenges faced in real-world scientific fact-checking.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-8",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.509,
+      0.766,
+      0.65
+    ],
+    "text": "4 Experiment",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-4:text-9",
+    "page_id": 4,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.507,
+      0.921,
+      0.885
+    ],
+    "text": "We formally define the task of scientific table-based fact-checking as follows. A scientific table T consists of a table caption P and the table content $( \\{ T _ { i , j } | i \\le R _ { T } , j \\le C _ { T } \\}$ with $R _ { T }$ rows and $C _ { T }$ columns, where $T _ { i , j }$ is the content in the $( i , j ) \\mathrm { t h }$ cell. Given a claim C describing a fact to be verified against the table T , a table fact-checking model F predicts a label Y to verify whether C is supported, refuted, or can not be verified by the",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:table-1",
+    "page_id": 5,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_5_Table_0.jpg",
+    "bbox_norm": [
+      0.083,
+      0.119,
+      0.25,
+      0.482
+    ],
+    "text": "Table 3: Refuted and NEI reasons and their estimated proportions (Prop.) in SCITAB.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-5:text-2",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.114,
+      0.323,
+      0.248
+    ],
+    "text": "information in $\\tau .$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-3",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.324,
+      0.112,
+      0.487,
+      0.49
+    ],
+    "text": "Considering the real-world situation that largescale training data is either not available or expensive to collect, we focus on the zero-shot/in-context evaluation where the model can only access zero/few in-domain data from SCITAB. To this end, we randomly hold out 5 tables with 25 claims as model-accessible data and use the rest of the data as the unseen test set. This also prevents the model from learning spurious features that lead to overestimated performance (Schuster et al., 2019).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-4",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.498,
+      0.114,
+      0.513,
+      0.221
+    ],
+    "text": "4.1 Models",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-5",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.519,
+      0.112,
+      0.617,
+      0.489
+    ],
+    "text": "We conduct a comprehensive evaluation of SCITAB for various models, including table-based pretraining models, encoder–decoder models, open source LLMs, and closed source LLMs. We also study the human performance to analyze the upper bounds on SCITAB.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-6",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.623,
+      0.11,
+      0.834,
+      0.49
+    ],
+    "text": "Table-based LLMs. These are pre-trained transformer models fine-tuned on tabular data. We choose three different models: 1) TAPAS (Herzig et al., 2020), a BERT-based model fine-tuned on millions of tables from English Wikipedia and corresponding texts, 2) TAPEX (Liu et al., 2022b), a model that fine-tunes BART (Lewis et al., 2020) on a large-scale synthetic dataset generated by synthesizing executable SQL queries and their execution outputs, and 3) TAPEX-Zero (Liu et al., 2023b), an enlarged version of TAPEX. For TAPAS and TAPEX, we use their fine-tuned version on TabFact (Chen et al., 2020) for table fact-checking.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-7",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Encoder–Decoder LLMs. We also use encoder–decoder models where both the input and output are sequences of tokens. To adapt the model to take the table as input, we flatten the table as a sequence following Chen et al. (2020). The input is then formulated as $[ \\tilde { T } ; P ; C ; Q ]$ , where $\\tilde { T }$ is the linearized table, and Q is a question template “Based on the information in the table, is the above claim true? A) True B) False C) Unknown?”. We choose FLAN-T5 (Chung et al., 2022), an improved T5 model (Raffel et al., 2020) pre-trained on more than 1.8K tasks with instruction tuning, which has achieved strong zero-shot/in-context performance on other fact-checking benchmarks.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-9",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.239,
+      0.507,
+      0.401,
+      0.887
+    ],
+    "text": "Open Source LLMs. We also evaluate the performance of state-of-the-art open source LLMs, including 1) LLaMA (Touvron et al., 2023), the first open-source model by Meta AI; 2) Alpaca (Taori et al., 2023), an instruction-following language model fine-tuned on LLaMA; and 3) Vicuna (Chiang et al., 2023), the arguably best-performed opensource LLMs that claimed to achieve 90% quality compared to OpenAI ChatGPT. We use the same input format as in the encoder-decoder model.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-10",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.407,
+      0.507,
+      0.684,
+      0.889
+    ],
+    "text": "Closed Source LLMs. These are closed-source LLMs that require API calls for inference, including InstructGPT (text-davinci-003) (Ouyang et al., 2022) and GPT-4 (OpenAI, 2023). We evaluate the setting that directly predicts the label and the Chain-of-Thought (CoT) (Wei et al., 2022) setting, which generates explanations before predicting the final label. We also include the Program-of-Thoughts (PoT) (Chen et al., 2022) model that has shown strong ability in solving complex numerical reasoning tasks. It first parses the reasoning steps as Python programs and then executes them on a Python interpreter to derive accurate answers. Since most claims in SCITAB also require numerical reasoning, we want to test whether program-guided reasoning can be extended to tablebased fact-checking.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-5:text-11",
+    "page_id": 5,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.507,
+      0.921,
+      0.889
+    ],
+    "text": "Human Performance. To examine how humans perform on our SCITAB dataset, we hired an annotator from our candidate annotators pool, following the same training procedure as other annotators. In the case of 2-class classification, we randomly selected 40 samples: 20 each for supported and refuted claims. For 3-class classification, we randomly selected 60 random samples, ensuring an even distribution of 20 samples across the three label categories (supported, refuted, and not enough information). The annotator took approximately 1.5 hours for the 2-class fact-checking task and 2 hours for the 3-class setting. We report the Macro-F1 scores at the bottom of Table 4.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:table-1",
+    "page_id": 6,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_6_Table_0.jpg",
+    "bbox_norm": [
+      0.082,
+      0.122,
+      0.407,
+      0.882
+    ],
+    "text": "Table 4: Macro- $F _ { 1 }$ of baselines on SCITAB for different settings. The # of Para. indicates the number of parameters in the models. The TAPAS and TAPEX models are fine-tuned on the TabFact dataset, while others perform zero-shot learning. The bold text indicates the best performance among I to III, while the underlined text indicates the overall best performance among all the models.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-6:text-2",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.114,
+      0.517,
+      0.267
+    ],
+    "text": "4.2 Main Results",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-3",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.53,
+      0.112,
+      0.692,
+      0.489
+    ],
+    "text": "We evaluate all models under both zero-shot and in-context settings. In the zero-shot setting, the model does not have access to any in-domain data. In the in-context setting, we provide three holdout examples as demonstrations. We report two sets of results: the 2-class case, where examples labeled as NEI are excluded (since some models cannot process NEI claims), and the 3-class case including all three labels. The results are shown in Table 4. We have five major observations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-4",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.694,
+      0.11,
+      0.921,
+      0.492
+    ],
+    "text": "1. In general, all open source LLMs, including encoder–decoder models and decoder-only models, do not achieve very promising results on SCITAB and they still have a large gap from human performance. The best result is 63.62 for the 2-class setting (Vicuna-7B and 38.05 for the 3-class setting (FLAN-T5-XL). Both results are only moderately better (+13.62 and +4.72) than random guessing. In contrast, a well-trained human annotator can achieve 92.46 and 84.73 F1 scores in the 2- class and 3-class settings, respectively. This reveals the challenging nature of SCITAB and its potential to be the future benchmark for scientific fact-checking.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-5",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.501,
+      0.507,
+      0.68,
+      0.887
+    ],
+    "text": "2. Counter-intuitively, table-based LLMs do not outperform models pre-trained on pure texts, for example, FLAN-T5. This discrepancy may be attributed to the dissimilarity between the distribution of tables in scientific literature and publicly available table corpus. For example, scientific tables commonly include both row and column headers, whereas most tables in Wikipedia lack row headers. Meanwhile, the claims in our dataset are usually much longer than those in previous works, raising challenges to table-based LLMs.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-6",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.687,
+      0.507,
+      0.882,
+      0.887
+    ],
+    "text": "3. The results in the 3-class setting are notably poorer than those in the 2-class setting. This discrepancy reveals the challenges that most models face when confronted with the NEI class. One plausible explanation could be the inherent difficulty in distinguishing between ‘refuted’ and ‘NEI’ claims — a task that even trained human annotators struggle with, as noted by Jiang et al. (2020). Our forthcoming error analysis will further demonstrate that the inclusion of the NEI class tends to diminish the models’ confidence, causing a shift in their predictions from ‘supported/refuted’ to ‘NEI’.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-6:text-7",
+    "page_id": 6,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.509,
+      0.921,
+      0.887
+    ],
+    "text": "4. Interestingly, the provision of in-context examples does not result in improved performance for the majority of models. This observation is somewhat expected for open source LLMs as they have not been reported to possess in-context learning capabilities. Nonetheless, it is surprising to find that even with chain-of-thought prompting, in-context demonstrations do not yield positive effects for InstructGPT and GPT-4. Our error analysis on the PoT offers some insight into this phenomenon and will be discussed in the next section.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-2",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.23,
+      0.112,
+      0.375,
+      0.49
+    ],
+    "text": "5. Closed source LLMs perform better than open source LLMs, with GPT-4 achieving 78.22 macro-F1 for the 2-class setting and 64.80 for the 3-class setting. This aligns with the assertion that GPT-4 has a strong ability to perform complex reasoning (OpenAI, 2023) and we show that this ability can generalize to tabular data as well. However, the black-box nature of OpenAI models restricts our further analysis of its behavior.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-3",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.387,
+      0.114,
+      0.403,
+      0.28
+    ],
+    "text": "4.3 Error Analysis",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-4",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.409,
+      0.11,
+      0.602,
+      0.49
+    ],
+    "text": "InstructGPT and GPT-4. We show the confusion matrices for InstructGPT and GPT-4 under the zero-shot 3-class setting in Figure 4. We find that both models have difficulty in accurately predicting the NEI class. InstructGPT displays a pattern of “less confident”, frequently classifying supported and refuted claims as ‘NEI’. In contrast, GPT-4 exhibits overconfidence, incorrectly categorizing NEI claims as either supported or refuted. This corroborates our earlier observation that distinguishing whether a claim is verifiable is one of the key challenges for SCITAB.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-5",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.604,
+      0.11,
+      0.862,
+      0.492
+    ],
+    "text": "Further, we also examine individual error instances, with typical examples provided in Figures 11 and 12 of Appendix F. The majority of ‘supported’ claims that were incorrectly classified as ‘refuted’ (Case 6) involve numerical reasoning or comparison. Conversely, when ‘refuted’ claims are inaccurately predicted as ‘supported’ (Case 3), we find that LLMs often overlook claims containing negation, indicating a lack of deep comprehension. For cases where ‘supported’ or ‘refuted’ claims are erroneously predicted as ‘NEI’ (Cases 1 and 2), such claims typically demand extensive reasoning and a deep understanding of the research findings. Interestingly, when faced with these complex cases, the model tends to default to the safer choice of ‘uncertain’ (NEI).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-6",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.871,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "PoT. Unexpectedly, incorporating a Python interpreter does not confer any advantage on our dataset (as shown in Table 4), despite its positive impacts on other numerical reasoning tasks. In order to understand this, we randomly selected 50 claims wherein the PoT incorrectly predicted the final veracity labels and evaluated the quality of the generated Python programs. We divide the errors into four categories, as assessed by human annotators: (i) Grounding errors, where the program incorrectly associates data with the respective cells in the table; (ii) Ambiguity errors, where the claim contains ambiguous expressions that the program fails to represent; (iii) Calculation errors, where incorrect floating point arithmetic calculation in Python lead to inaccurate results and (iv) Program erro",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:table-9",
+    "page_id": 7,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_7_Table_0.jpg",
+    "bbox_norm": [
+      0.241,
+      0.515,
+      0.316,
+      0.878
+    ],
+    "text": "Table 5: The error types and their estimated proportions for incorrectly-predicted samples in PoT.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-7:text-11",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.862,
+      0.507,
+      0.878,
+      0.667
+    ],
+    "text": "5 Related Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-7:text-12",
+    "page_id": 7,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Scientific Fact-Checking Datasets. Existing datasets for scientific fact-checking are summarized in a recent survey from Vladika and Matthes (2023). These datasets differ in: 1) domain: biology (Wadden et al., 2020; Akhtar et al., 2022), COVID-19 (Saakyan et al., 2021; Sarrouti et al., 2021; Mohr et al., 2022; Wang et al., 2023), and climate (Diggelmann et al., 2020), 2) claim creation: crowd-sourced claims v.s. natural claims, and 3) evidence source: Wikipedia articles (Diggelmann et al., 2020) or research papers (Wadden et al., 2020, 2022; Sarrouti et al., 2021). However, most of these datasets rely on text evidence to verify claims. SEM-TAB-FACTS (Wang et al., 2021) is the only existing dataset based on scientific tables, but it is limited to simple, crowd-sourced claims. To bridge this",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-2",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.367,
+      0.11,
+      0.739,
+      0.492
+    ],
+    "text": "Table-based Reasoning. Table-based reasoning requires reasoning over both free-form natural language queries and (semi-)structured tables. Early works either rely on executable languages (e.g., SQL and SPARQL) to access the tabular data (Yin et al., 2016; Yu et al., 2018) or employ graph neural networks to capture logical structure in statements, e.g., LogicFactChecker (Zhong et al., 2020) and ProgVGAT (Yang et al., 2020). However, these approaches often struggle with generalization, as they are tightly bound to specific table formats and language patterns. To address this, we have seen a shift toward table pre-training, with the advent of Table-BERT (Chen et al., 2020), TAPAS (Herzig et al., 2020), SaMoE (Zhou et al., 2022), PASTA (Gu et al., 2022), and DATER (Ye et al., 2023). These meth",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-3",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.75,
+      0.112,
+      0.766,
+      0.403
+    ],
+    "text": "6 Conclusion and Future Work",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-4",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.775,
+      0.11,
+      0.921,
+      0.492
+    ],
+    "text": "We present SCITAB, a novel dataset for scientific fact-checking that addresses the limitations of existing benchmarks. By incorporating realworld scientific claims and their corresponding evidence in the form of tables, SCITAB offers a more comprehensive and fine-grained representation of scientific reasoning. The challenging nature of SCITAB is evident from the performance of the state-of-the-art, highlighting the need for further research. For example, we believe that addressing the challenges posed by ambiguous claims represents a crucial direction for research in scientific fact-checking (Glockner et al., 2023; Liu et al., 2023a). One potential approach is to enhance the disambiguation of ambiguous claims by leveraging contextual information or external knowledge sources. Additionally,",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-6",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.45,
+      0.509,
+      0.467,
+      0.663
+    ],
+    "text": "Ethics Statement",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-7",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.476,
+      0.507,
+      0.607,
+      0.885
+    ],
+    "text": "We have received approval from the Institutional Review Board (IRB)3 for our data collection. The IRB reviewed our experimental design and research procedures to ensure that they do not pose more than minimal risks to research participants. We take steps to protect research participants’ privacy and the confidentiality of their data. The review process took two months to complete.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-8",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.617,
+      0.509,
+      0.633,
+      0.616
+    ],
+    "text": "Limitations",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-8:text-9",
+    "page_id": 8,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.643,
+      0.507,
+      0.887,
+      0.889
+    ],
+    "text": "Firstly, the method and dataset are primarily designed for languages with limited morphology, such as English. Secondly, our SCITAB dataset is specifically focused on fact-checking scientific claims based on tables, which represents only one aspect of scientific fact-checking. Further research can explore the integration of other forms of evidence, including textual evidence and figure evidence, to enhance the fact-checking process. Thirdly, our SCITAB dataset is primarily focused on numerical reasoning types, as it is derived from the SciGen dataset, which also emphasizes numerical reasoning. It would be beneficial for future studies to incorporate a wider range of reasoning types to provide a more comprehensive fact-checking framework. Lastly, it would be valuable to explore additional a",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-2",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.178,
+      0.114,
+      0.195,
+      0.287
+    ],
+    "text": "Acknowledgements",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-3",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.204,
+      0.112,
+      0.302,
+      0.49
+    ],
+    "text": "This research is supported by the Ministry of Education, Singapore, under its MOE AcRF Tier 3 Grant (MOE-MOET32022-0001). The computational work for this article was partially performed on resources of the National Supercomputing Centre, Singapore (https://www.nscc.sg).",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-4",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.114,
+      0.344,
+      0.215
+    ],
+    "text": "References",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-9:text-5",
+    "page_id": 9,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.353,
+      0.115,
+      0.431,
+      0.489
+    ],
+    "text": "Mubashara Akhtar, Oana Cocarascu, and Elena Simperl. 2022. Pubhealthtab: A public health table-based dataset for evidence-based fact checking. In Findings of the 2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), pages 1–16. Rami Aly, Zhijiang Guo, Michael Sejr Schlichtkrull, James Thorne, Andreas Vlachos, Christos Christodoulopoulos, Oana Cocarascu, and Arpit Mittal. 2021. FEVEROUS: fact extraction and verification over unstructured and structured information. In Proceedings of the Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks. Emily M. Bender and Batya Friedman. 2018. Data statements for natural language processing: Toward mitigating system bias and enabling better science. Transactions of the ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-10:text-1",
+    "page_id": 10,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.131,
+      0.14,
+      0.489
+    ],
+    "text": "for natural language generation, translation, and comprehension. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), pages 7871–7880. Alisa Liu, Swabha Swayamdipta, Noah A. Smith, and Yejin Choi. 2022a. WANLI: worker and AI collaboration for natural language inference dataset creation. In Findings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 6826–6847. Alisa Liu, Zhaofeng Wu, Julian Michael, Alane Suhr, Peter West, Alexander Koller, Swabha Swayamdipta, Noah A. Smith, and Yejin Choi. 2023a. We’re afraid language models aren’t modeling ambiguity. CoRR, abs/2304.14399. Qian Liu, Bei Chen, Jiaqi Guo, Morteza Ziyadi, Zeqi Lin, Weizhu Chen, and Jian-Guang Lou. 2022b. TAPEX: table pre-training via learning ",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-11:text-1",
+    "page_id": 11,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.085,
+      0.115,
+      0.166,
+      0.489
+    ],
+    "text": "David Wadden, Kyle Lo, Bailey Kuehl, Arman Cohan, Iz Beltagy, Lucy Lu Wang, and Hannaneh Hajishirzi. 2022. Scifact-open: Towards open-domain scientific claim verification. In Findings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 4719–4734. Gengyu Wang, Kate Harwood, Lawrence Chillrud, Amith Ananthram, Melanie Subbiah, and Kathleen R. McKeown. 2023. Check-covid: Fact-checking COVID-19 news claims with scientific evidence. In Findings of the 61st Association for Computational Linguistics (ACL), pages 14114–14127. Nancy Xin Ru Wang, Diwakar Mahajan, Marina Danilevsky, and Sara Rosenthal. 2021. Semeval-2021 task 9: Fact verification and evidence finding for tabular data in scientific documents (SEM-TAB-FACTS). In Proceedings of the 15th Internationa",
+    "source_type": "list"
+  },
+  {
+    "layout_id": "page-12:text-1",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.084,
+      0.114,
+      0.099,
+      0.398
+    ],
+    "text": "A Claim Extraction Procedure",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-2",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.11,
+      0.114,
+      0.126,
+      0.297
+    ],
+    "text": "A.1 Claim Definition",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-3",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.133,
+      0.112,
+      0.246,
+      0.49
+    ],
+    "text": "In academic writing (Lee et al., 2009), the accompanying text for data, presented as tables and figures), typically includes three fundamental elements as outlined below. These elements encompass the definition of claims, which involve highlighting key data (KD) and commenting on key data (COM) that emphasizes and comments on the key data.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-4",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.255,
+      0.112,
+      0.305,
+      0.489
+    ],
+    "text": "Location of results (LOC). Statements that locate where the figure/table is found, e.g., Figure 7 displays the mean percentile scores.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-5",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.315,
+      0.11,
+      0.412,
+      0.489
+    ],
+    "text": "Highlighting of key data (KD). Statements that highlight the important data, e.g.,(1) Highest or lowest values (2) Overall trend or pattern in the data (3) Points that do not seem to fit the pattern or trend, etc. (4) Results which provide answers to your research questions",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-6",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.422,
+      0.11,
+      0.568,
+      0.49
+    ],
+    "text": "Commenting on key data (COM). Statements that interpret the data. There are three types of comments: (1) Generalization (deductions and implications drawn from the results), e.g., “This indicates that ...” (2) Comparison of results with those from prior studies, e.g., “Different from ...” (3) Explanation or speculation (possible reasons or cause-effect relationships for the results), e.g., “The possible reason is that ...”",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-7",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.579,
+      0.114,
+      0.594,
+      0.379
+    ],
+    "text": "A.2 Claim Extraction Interface",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-8",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.6,
+      0.112,
+      0.632,
+      0.487
+    ],
+    "text": "Figure 5 shows the user interface for the claim extraction task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-9",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.645,
+      0.114,
+      0.663,
+      0.477
+    ],
+    "text": "B Manual Claim Verification Procedure",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-10",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.673,
+      0.114,
+      0.688,
+      0.383
+    ],
+    "text": "B.1 Annotator Training Process",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-11",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.695,
+      0.112,
+      0.921,
+      0.49
+    ],
+    "text": "Our annotator selection and training process is systematic and thorough to ensure the highest quality annotations. We initiate the process by advertising on our university’s platform. Interested candidates are then required to complete a registration form. From these responses, the authors identify suitable annotators based on set criteria. Once shortlisted, the potential annotators are invited for a training session, which can be conducted either in-person or via Zoom, lasting approximately one hour. This session is divided into three parts. Firstly, the authors provide a comprehensive overview of the task definition, ensuring clarity on what is expected. Similar to WANLI (Liu et al., 2022a), during our training sessions4, commonsense interpretations and a minimum amount of logical infere",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-13",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.34,
+      0.509,
+      0.355,
+      0.818
+    ],
+    "text": "B.2 NEI Claim Verification Interface",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-14",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.361,
+      0.507,
+      0.393,
+      0.884
+    ],
+    "text": "Figure 6 shows the user interface for the NEI claim verification task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-15",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.407,
+      0.509,
+      0.423,
+      0.847
+    ],
+    "text": "B.3 Refuted Claim Verification Interface",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-16",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.429,
+      0.507,
+      0.462,
+      0.884
+    ],
+    "text": "Figure 7 shows the user interface for the refuted claim verification task.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-17",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.474,
+      0.509,
+      0.489,
+      0.749
+    ],
+    "text": "B.4 Annotation Post-Survey",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-18",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.497,
+      0.507,
+      0.53,
+      0.884
+    ],
+    "text": "Figure 8 shows the examples of post-annotation survey questions and the answers of annotators.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-19",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.543,
+      0.509,
+      0.575,
+      0.848
+    ],
+    "text": "C Analysis of Refuted Reasons in the Sci-Fact dataset",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-20",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.587,
+      0.507,
+      0.782,
+      0.887
+    ],
+    "text": "Table 6 provides an analysis of the reasons for refuted claims in the Sci-Fact dataset, along with their estimated proportions. A random sample of 100 refuted claims was selected, and the results indicate that 85% of claims were simply negated using terms like “not” or paraphrased based on the evidence sentences. Additionally, 6% of the refuted claims were attributed to incorrect calculation results, while 6% were identified as having wrong commonsense knowledge. A smaller proportion of refuted claims (3%) were found to have incorrect open-domain knowledge.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-21",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.794,
+      0.509,
+      0.827,
+      0.826
+    ],
+    "text": "D Discussions on Human-Machine Collaboration",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-12:text-22",
+    "page_id": 12,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.838,
+      0.507,
+      0.871,
+      0.887
+    ],
+    "text": "Our final data creation pipeline undergoes repetitive testing and revision until it reaches its current form. In our pilot annotation, we found that manual verification played the most essential role in the validation of claims marked as “Not Enough Information(NEI)”. Initially, we planned to rely solely on LLMs for generating NEI claims. Our criteria for the NEI claim is that “the claim should be fluent, logical, and relevant to the table. However, the claim cannot be verified as true or false solely based on the information in the table.” However, after a careful examination of the LLM output, we found that LLM tends to generate claims that are either not logical or irrelevant to the table content. Therefore, human efforts are required to further select NEI claims that meet our criteria.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:table-1",
+    "page_id": 13,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_13_Table_0.jpg",
+    "bbox_norm": [
+      0.083,
+      0.121,
+      0.162,
+      0.48
+    ],
+    "text": "Table 6: The refuted reasons and their estimated proportions (Prop.) in the Sci-Fact dataset.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-13:text-3",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.621,
+      0.112,
+      0.639,
+      0.421
+    ],
+    "text": "E Case Study for Refuted Claims",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-4",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.649,
+      0.11,
+      0.699,
+      0.49
+    ],
+    "text": "Figure 9 and Figure 10 show five examples of refuted cases. Below, we provide explanations for each of these error cases.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-5",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.708,
+      0.112,
+      0.758,
+      0.49
+    ],
+    "text": "Case A The calculation result is wrong. It produces incorrect calculation results. The accurate result should be 27.9-21.7 = 6.2.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-6",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.768,
+      0.112,
+      0.819,
+      0.489
+    ],
+    "text": "Case B The approximation word is wrong. It generates incorrect approximation words, as 19.4 is not significantly lower compared to 23.3.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-7",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.827,
+      0.112,
+      0.878,
+      0.489
+    ],
+    "text": "Case C The claim is partially right. The claim is generally correct, with the exception of the BShift column which does not fulfill the claim.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-8",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.11,
+      0.921,
+      0.492
+    ],
+    "text": "Case D The values in the claim do not match. The value in the claim does not align with the corresponding value in the table. The correct value should be 27.9.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-10",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.124,
+      0.505,
+      0.206,
+      0.885
+    ],
+    "text": "Case E The operation type is wrong. It applies the incorrect operation type. For instance, in the case of GCN+RC+LA (9), it is not accurate to claim that it is better than DCGCN1 because 22.9 > 22.0 and 53.0 > 52.6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-11",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.216,
+      0.507,
+      0.234,
+      0.801
+    ],
+    "text": "F Error Cases for InstructGPT",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-12",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.242,
+      0.507,
+      0.292,
+      0.885
+    ],
+    "text": "Figure 11 and Figure 12 show six error examples of InstructGPT in the zero-shot setting when applied to our SCITAB dataset.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-13",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.299,
+      0.507,
+      0.365,
+      0.887
+    ],
+    "text": "Error Type 1: Supported predicted as NEI. This error type indicates a discrepancy between the gold label, which is Supported, and the predicted label, which is NEI.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-14",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.372,
+      0.507,
+      0.438,
+      0.887
+    ],
+    "text": "Error Type 2: Refuted predicted as NEI. This error type indicates a discrepancy between the gold label, which is Refuted, and the predicted label, which is NEI.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-15",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.445,
+      0.507,
+      0.512,
+      0.887
+    ],
+    "text": "Error Type 3: Refuted predicted as Supported. This error type indicates a discrepancy between the gold label, which is Refuted, and the predicted label, which is Supported.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-16",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.519,
+      0.507,
+      0.585,
+      0.887
+    ],
+    "text": "Error Type 4: NEI predicted as Supported. This error type indicates a discrepancy between the gold label, which is NEI, and the predicted label, which is Supported.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-17",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.592,
+      0.507,
+      0.657,
+      0.885
+    ],
+    "text": "Error Type 5: NEI predicted as Refuted. This error type indicates a discrepancy between the gold label, which is NEI, and the predicted label, which is Refuted.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-18",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.664,
+      0.507,
+      0.731,
+      0.887
+    ],
+    "text": "Error Type 6: Supported predicted as Refuted. This error type indicates a discrepancy between the gold label, which is Supported, and the predicted label, which is Refuted.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-19",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.74,
+      0.507,
+      0.759,
+      0.882
+    ],
+    "text": "G Error Cases for Program-of-Thoughts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-20",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.766,
+      0.505,
+      0.832,
+      0.887
+    ],
+    "text": "Figure 13 and Figure 14 show five error examples of Program-of-Thoughts when applied to our SC-ITAB dataset. Below, we provide explanations for each of the error cases.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-13:text-21",
+    "page_id": 13,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.839,
+      0.505,
+      0.921,
+      0.889
+    ],
+    "text": "Error Case 1. It exhibits incorrect entity linking (Grounding error) and incorrect operation (Program error). The codes “winograd\\_baseline = 73.06” and “winocoref\\_baseline = 88.48” should be “IlliCons\\_winograd = 53.26” and",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:table-1",
+    "page_id": 14,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_14_Table_0.jpg",
+    "bbox_norm": [
+      0.127,
+      0.142,
+      0.218,
+      0.85
+    ],
+    "text": "Paper Name: Syntactic Dependency Representations in Neural Relation Classification Captiabai variations.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-14:text-2",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.274,
+      0.141,
+      0.297,
+      0.836
+    ],
+    "text": "Theresults furthermore show that the sdps based onthe Stanford Basic (SB)representation provide the best performance, followed by the CoNLL08 representation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:figure-3",
+    "page_id": 14,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_14_Figure_0.jpg",
+    "bbox_norm": [
+      0.45,
+      0.147,
+      0.766,
+      0.847
+    ],
+    "text": "Figure 5: The user interface for the claim extraction task. Figure 6: The user interface for the NEI claim verification task.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-14:text-4",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.824,
+      0.11,
+      0.87,
+      0.49
+    ],
+    "text": "“IlliCons\\_winocore $\\mathsf { f } = 7 4 . 3 2 ^ { \\circ }$ respectively. Additionally, the “>” operation should be changed to “>=”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-5",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.888,
+      0.11,
+      0.921,
+      0.49
+    ],
+    "text": "Error Case 2. It exhibits incomplete entity linking (Grounding error). The program should also parse other baseline results, such as ‘SFEGAN\\_WER $= ~ 1 4 . 9 ^ { \\prime \\prime }$",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-14:text-7",
+    "page_id": 14,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.872,
+      0.507,
+      0.921,
+      0.887
+    ],
+    "text": "Error Case 3. It fails to generate a correct program (Program error). The variables and logical functions in the programs are incorrect. For instance, “G2S\\_GAT\\_BLEU\\_LDC2015E86” should be “G2S\\_GIN\\_BLEU\\_LDC2015E86”. The logical function “and” should be replaced with “or”.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:figure-1",
+    "page_id": 15,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_15_Figure_0.jpg",
+    "bbox_norm": [
+      0.143,
+      0.174,
+      0.467,
+      0.825
+    ],
+    "text": "Figure 7: The user interface for the refuted claim verification task",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-15:text-3",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.58,
+      0.112,
+      0.662,
+      0.49
+    ],
+    "text": "Error Case 4. It fails to generate a precise program for the approximation word “comparable” (Ambiguity error). Currently, the program defines “comparable” as “larger than”, which is not accurate enough.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-15:text-4",
+    "page_id": 15,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.669,
+      0.112,
+      0.751,
+      0.492
+    ],
+    "text": "Error Case 5. It generates the correct program, but the calculation result is inaccurate due to incorrect float digits in the Python code (Calculation error). For instance, Python may output ’1.9499999’, which is not equal to ’1.95’.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-1",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.153,
+      0.361,
+      0.173,
+      0.643
+    ],
+    "text": "Annotation Post Survey",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-2",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.174,
+      0.173,
+      0.189,
+      0.284
+    ],
+    "text": "Annotator 1:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-3",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.189,
+      0.198,
+      0.215,
+      0.505
+    ],
+    "text": "Is the task demonstration clear to you? Yes, clear.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-4",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.215,
+      0.2,
+      0.253,
+      0.8
+    ],
+    "text": "What do you think is the difficulty of this task? (1-10 points, 10 points is the most difficult)   \n5-6.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-5",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.254,
+      0.2,
+      0.269,
+      0.551
+    ],
+    "text": "Which part is the most difficult for you? Why?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-6",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.281,
+      0.2,
+      0.309,
+      0.778
+    ],
+    "text": "Do you think the annotation batch is appropriate? What is the maximum batch amount for you in a week?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-7",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.307,
+      0.225,
+      0.322,
+      0.705
+    ],
+    "text": "Yes. 2 batches in a week during the examination. 4 during vacation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-8",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.321,
+      0.2,
+      0.349,
+      0.763
+    ],
+    "text": "Could you provide some advice on how to improve the annotation platform? Looping for multiple operations.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-9",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.37,
+      0.173,
+      0.385,
+      0.284
+    ],
+    "text": "Annotator 2:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-10",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.385,
+      0.198,
+      0.412,
+      0.504
+    ],
+    "text": "Is the task demonstration clear to you? Yes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-11",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.411,
+      0.2,
+      0.444,
+      0.8
+    ],
+    "text": "What do you think is the difficulty of this task? (1-10 points, 10 points is the most   \ndifficult)   \n6",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-12",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.451,
+      0.2,
+      0.466,
+      0.551
+    ],
+    "text": "Which part is the most difficult for you? Why?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-13",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.464,
+      0.201,
+      0.48,
+      0.645
+    ],
+    "text": "Table understanding; different parameters in the attributes.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-14",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.479,
+      0.2,
+      0.513,
+      0.778
+    ],
+    "text": "Do you think the annotation batch is appropriate? What is the maximum batch   \namount for you in a week?   \nOk. 2-3 batches",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-15",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.517,
+      0.2,
+      0.543,
+      0.721
+    ],
+    "text": "Would you like to attend this session again as a 2-week participation? ok.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-16",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.544,
+      0.2,
+      0.573,
+      0.763
+    ],
+    "text": "Could you provide some advice on how to improve the annotation platform? I preferred to write down the annotations on the platform.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-17",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.594,
+      0.174,
+      0.609,
+      0.284
+    ],
+    "text": "Annotator 3:",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-18",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.609,
+      0.198,
+      0.623,
+      0.505
+    ],
+    "text": "• Is the task demonstration clear to you?",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-19",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.623,
+      0.215,
+      0.637,
+      0.726
+    ],
+    "text": "Yes, clear. the difficulty is different between demo and real annotation.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-20",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.636,
+      0.2,
+      0.674,
+      0.8
+    ],
+    "text": "What do you think is the difficulty of this task? (1-10 points, 10 points is the most   \ndifficult)   \n7",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-21",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.675,
+      0.2,
+      0.702,
+      0.549
+    ],
+    "text": "Which part is the most difficult for you? Why? Table understanding-vocabulary.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-22",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.702,
+      0.2,
+      0.743,
+      0.826
+    ],
+    "text": "Do you think the sample amount is appropriate? What is the maximum batch amount for you in a week (1 batch contains 20 samples)?   \n10-15 samples for an hour. 50 samples a week.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-23",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.752,
+      0.2,
+      0.782,
+      0.721
+    ],
+    "text": "Would you like to attend this session again as a 2-week participation? Maybe not. But 15 samples offline for a week is ok.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-24",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.791,
+      0.2,
+      0.82,
+      0.763
+    ],
+    "text": "Could you provide some advice on how to improve the annotation platform? I think the current platform is fine for me.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-16:text-25",
+    "page_id": 16,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.835,
+      0.189,
+      0.852,
+      0.805
+    ],
+    "text": "Figure 8: The examples of post-annotation survey questions and the answers of annotators.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-1",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.083,
+      0.114,
+      0.101,
+      0.23
+    ],
+    "text": "H Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-2",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.109,
+      0.114,
+      0.126,
+      0.314
+    ],
+    "text": "H.1 Zero-shot Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-17:text-4",
+    "page_id": 17,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.236,
+      0.114,
+      0.252,
+      0.309
+    ],
+    "text": "H.2 Few-shot Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-18:text-2",
+    "page_id": 18,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.302,
+      0.114,
+      0.318,
+      0.381
+    ],
+    "text": "H.3 Chain-of-Thought Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-19:text-2",
+    "page_id": 19,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.776,
+      0.114,
+      0.793,
+      0.41
+    ],
+    "text": "H.4 Program-of-Thoughts Prompts",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-1",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.14,
+      0.213,
+      0.155,
+      0.433
+    ],
+    "text": "A. The calculation result is wrong.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:table-2",
+    "page_id": 21,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_21_Table_0.jpg",
+    "bbox_norm": [
+      0.164,
+      0.341,
+      0.258,
+      0.673
+    ],
+    "text": "Table2: Main results on AMR17. GCNSEQ(Damonte andCohen,2019)achieves24.5BLEUpoints.#P showsthe model size in terms of parameters;\"S”and “E\"denote singleand ensemblemodels,respectively.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-21:text-3",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.328,
+      0.211,
+      0.359,
+      0.769
+    ],
+    "text": "Claim: For example, the single DCGCN model gains 5.9 more BLEU points than the single models of Seq2SeqB on AMR17.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:text-4",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.401,
+      0.216,
+      0.417,
+      0.46
+    ],
+    "text": "B. The approximation word is wrong.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:table-5",
+    "page_id": 21,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_21_Table_1.jpg",
+    "bbox_norm": [
+      0.42,
+      0.341,
+      0.517,
+      0.635
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-21:text-7",
+    "page_id": 21,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.667,
+      0.213,
+      0.682,
+      0.403
+    ],
+    "text": "C. The claim is partially right.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-21:table-8",
+    "page_id": 21,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_21_Table_2.jpg",
+    "bbox_norm": [
+      0.707,
+      0.211,
+      0.772,
+      0.784
+    ],
+    "text": "Table 4: Scores for different training objectives on the linguistic probing tasks. Figure 9: The refuted claims cases A to C. Case A represents the calculation result is wrong. Case B represents the approximation word is wrong. Case C represents the claim is partially right.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-22:table-1",
+    "page_id": 22,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_22_Table_0.jpg",
+    "bbox_norm": [
+      0.277,
+      0.317,
+      0.369,
+      0.65
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-22:figure-2",
+    "page_id": 22,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_22_Figure_0.jpg",
+    "bbox_norm": [
+      0.258,
+      0.194,
+      0.719,
+      0.796
+    ],
+    "text": "",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-22:table-3",
+    "page_id": 22,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_22_Table_1.jpg",
+    "bbox_norm": [
+      0.514,
+      0.332,
+      0.613,
+      0.628
+    ],
+    "text": "Figure 10: The refuted claims cases D and E. Case D represents the values in the claim do not match. Case E represents the operation type is wrong.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-23:table-1",
+    "page_id": 23,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_23_Table_0.jpg",
+    "bbox_norm": [
+      0.131,
+      0.186,
+      0.319,
+      0.803
+    ],
+    "text": "Error case 1 (43.9%) : Gold Label: Supported Prediction Label: NEI Claim: Analyzing Table 3, we can observe that all values of precision using the Portuguese corpora have higher scores when compared with the English corpora.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-23:table-2",
+    "page_id": 23,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_23_Table_1.jpg",
+    "bbox_norm": [
+      0.387,
+      0.188,
+      0.6,
+      0.81
+    ],
+    "text": "Claim: Analyzing Table 3, we can observe that all values of precision using the English corpora have higher scores when compared with the Portuguese corpora.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-23:table-3",
+    "page_id": 23,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_23_Table_2.jpg",
+    "bbox_norm": [
+      0.692,
+      0.334,
+      0.807,
+      0.593
+    ],
+    "text": "Claim: With the coverage mechanism, the result drops by 1.7/2.4 points for B/C scores. Figure 11: Error Cases 1-3 for InstructGPT in the zero-shot setting.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-24:figure-1",
+    "page_id": 24,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_24_Figure_0.jpg",
+    "bbox_norm": [
+      0.123,
+      0.178,
+      0.837,
+      0.818
+    ],
+    "text": "Figure 12: Error Cases 4-6 for InstructGPT in the zero-shot setting.",
+    "source_type": "image"
+  },
+  {
+    "layout_id": "page-25:table-1",
+    "page_id": 25,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_25_Table_0.jpg",
+    "bbox_norm": [
+      0.107,
+      0.196,
+      0.135,
+      0.677
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-25:table-2",
+    "page_id": 25,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_25_Table_1.jpg",
+    "bbox_norm": [
+      0.312,
+      0.188,
+      0.409,
+      0.467
+    ],
+    "text": "",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-25:table-3",
+    "page_id": 25,
+    "layout_type": "table",
+    "asset_ref": "assets/_page_25_Table_2.jpg",
+    "bbox_norm": [
+      0.453,
+      0.171,
+      0.751,
+      0.48
+    ],
+    "text": "gold: supports, prediction: refutes claim: This suggests that graph encoders based on gating mechanisms are very effective in text generation models.",
+    "source_type": "table"
+  },
+  {
+    "layout_id": "page-25:text-4",
+    "page_id": 25,
+    "layout_type": "text",
+    "asset_ref": null,
+    "bbox_norm": [
+      0.869,
+      0.11,
+      0.914,
+      0.885
+    ],
+    "text": "Figure 13: Error Cases 1-3 for Program-of-Thoughts. Error Case 1 exhibits incorrect entity linking (Grounding error) and incorrect operation (Program error). Error Case 2 exhibits incomplete entity linking (Grounding error). Error Case 3 exhibits Program error since it fails to generate a correct program.",
+    "source_type": "text"
+  },
+  {
+    "layout_id": "page-26:figure-1",
+    "page_id": 26,
+    "layout_type": "figure",
+    "asset_ref": "assets/_page_26_Figure_0.jpg",
+    "bbox_norm": [
+      0.19,
+      0.178,
+      0.722,
+      0.816
+    ],
+    "text": "Figure 14: Error Cases 4 and 5 for Program-of-Thoughts. Error Case 4 exhibits Ambiguity error since it fails to generate a precise program for the approximation word “comparable”. Error Case 5 exhibits Calculation error since it generates the correct program, but the calculation result is inaccurate due to incorrect float digits in the Python code.",
+    "source_type": "image"
+  }
+]

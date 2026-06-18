@@ -1,0 +1,6 @@
+```csv
+Entertainment & Music,Original Informal,Reference Formal,Rule-based,PBMT,NMT Baseline,NMT Copy,NMT Combined
+Entertainment & Music,"Wow , I am very dumb in my observation skills ......","I do not have good observation skills .","Wow , I am very dumb in my observation skills .","Wow , I am very dumb in my observation skills .","I am very foolish in my observation skills .","Wow , I am very foolish in my observation skills .","I am very unintelligent in my observation skills ."
+Family & Relationship,Original Informal,Reference Formal,Rule-based,PBMT,NMT Baseline,NMT Copy,NMT Combined
+Family & Relationship,"i hardly everrr see him in school either usually i see hima t my brothers basketball games .","I hardly ever see him in school . I usually see him with my brothers playing basketball .","i hardly everrr see him in school either usually i see hima t my brothers basketball games .","I hardly see him in school as well, but my brothers basketball games .","I rarely see him in school , either I see him at my brother 's basketball games .","I hardly see him in school either , usually I see him at my brother 's basketball games .","I rarely see him in school either usually I see him at my brothers basketball games ."
+```

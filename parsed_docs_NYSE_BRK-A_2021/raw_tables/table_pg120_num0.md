@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Less than 12 months</td><td>Greater than 12 months</td><td>Total</td></tr><tr><td> Electricity and natural gas</td><td>$ 2,607</td><td>$ 21,038</td><td>$ 23,645</td></tr><tr><td>Other sales and service contracts</td><td>1,411</td><td>2,236</td><td>3,647</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="3">Fiscal Year Ended January 31,</td></tr><tr><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Employee stockawards</td><td>7</td><td>4</td><td>7</td></tr></table>

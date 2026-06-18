@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td>December 31,2018</td></tr><tr><td>Due in one year or less</td><td>380</td></tr><tr><td>Due after one year through five years</td><td>$ 13</td></tr><tr><td> Due after five years through ten years</td><td>15</td></tr><tr><td>Due after ten years</td><td>9</td></tr><tr><td>Total marketable securities</td><td>$ 417</td></tr></table>

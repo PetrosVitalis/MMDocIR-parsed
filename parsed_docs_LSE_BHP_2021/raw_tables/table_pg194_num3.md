@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td></tr><tr><td>Present value offunded defined benefit obligation</td><td>US$M 17</td><td>14</td></tr><tr><td>Fair value of defined benefit scheme assets</td><td>(7)</td><td>(6)</td></tr><tr><td>Scheme deficit</td><td>10</td><td>8</td></tr><tr><td>Net liability recognised in the Balance Sheet</td><td>10</td><td>8</td></tr></table>

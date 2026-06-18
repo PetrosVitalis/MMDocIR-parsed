@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Taxable Income</td><td rowspan=1 colspan=1>Net Capital Gain Tax Rate</td></tr><tr><td rowspan=1 colspan=1>$0 to $44,625</td><td rowspan=1 colspan=1>0%</td></tr><tr><td rowspan=1 colspan=1>$44,626 to $492,300</td><td rowspan=1 colspan=1>15%</td></tr><tr><td rowspan=1 colspan=1>Over $492,300</td><td rowspan=1 colspan=1>20%</td></tr></table>

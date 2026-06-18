@@ -1,0 +1,1 @@
+<table><tr><td rowspan="2"></td><td colspan="2">December 31,</td></tr><tr><td>2021</td><td>2020</td></tr><tr><td>Notes payable to banks</td><td>4.4%</td><td>3.7%</td></tr><tr><td>Commercial paper</td><td>0.1%</td><td>0.1%</td></tr><tr><td>Demand notes</td><td>0.2%</td><td>0.3%</td></tr></table>

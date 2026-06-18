@@ -1,0 +1,1 @@
+<table><tr><td>Retriever</td><td>GPT-3F-1Match</td><td>GPT-4F-1Match</td><td>UnifiedQAF-1Match</td></tr><tr><td>Title + Abstract</td><td>25.2</td><td>22.2</td><td>17.5</td></tr><tr><td>BM25</td><td>46.6</td><td>50.2</td><td>26.4</td></tr><tr><td>DPR</td><td>51.3</td><td>53.0</td><td>32.1</td></tr><tr><td>RAPTOR</td><td>53.1</td><td>55.7</td><td>36.6</td></tr></table>

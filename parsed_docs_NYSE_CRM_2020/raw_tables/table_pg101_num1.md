@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Fair Value</td><td>Useful Life</td></tr><tr><td>Developed technology</td><td>$215</td><td>4 years</td></tr><tr><td>Customer relationships</td><td>61</td><td>8 years</td></tr><tr><td>Total intangible assets subject to</td><td></td><td></td></tr><tr><td>amortization</td><td>$276</td><td></td></tr></table>

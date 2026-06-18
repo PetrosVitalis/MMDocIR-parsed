@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>2021</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1>2019</td><td rowspan=1 colspan=1>2018</td></tr><tr><td rowspan=1 colspan=1>96.74%</td><td rowspan=1 colspan=1>99.26%</td><td rowspan=1 colspan=1>99.39%</td><td rowspan=1 colspan=1>99.36%</td></tr></table>

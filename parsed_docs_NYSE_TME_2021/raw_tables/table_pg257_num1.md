@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2019 RMB&#x27;million</td><td>2020 RMB&#x27;million</td><td>2021 RMB&#x27;million</td></tr><tr><td>Equity interests in certain subsidiaries as consideration for business combination</td><td></td><td>101</td><td></td></tr></table>

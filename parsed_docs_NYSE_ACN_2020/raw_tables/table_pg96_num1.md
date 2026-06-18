@@ -1,0 +1,1 @@
+<table><tr><td>Level 3 Assets</td><td>Fiscal 2020</td></tr><tr><td>Beginning balance</td><td>$ 133,421</td></tr><tr><td>Changes in fair value</td><td>6,884</td></tr><tr><td>Ending Balance</td><td>$ 140,305</td></tr></table>

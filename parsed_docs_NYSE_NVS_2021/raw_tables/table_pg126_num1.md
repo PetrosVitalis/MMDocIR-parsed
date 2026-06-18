@@ -1,0 +1,1 @@
+<table><tr><td>As of December 31,2021</td><td>Shareholders in %</td><td>Shares in %</td></tr><tr><td>Individual shareholders</td><td>96.72</td><td>15.06</td></tr><tr><td>Legal entities </td><td>3.24</td><td>35.71</td></tr><tr><td>Nominees,fiduciaries and ADS depositary</td><td>0.04</td><td>49.23</td></tr><tr><td>Total</td><td>100.00</td><td>100.00</td></tr></table>

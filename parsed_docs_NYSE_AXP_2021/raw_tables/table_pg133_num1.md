@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Expected volatility(a)</td><td>41 %</td><td>19%</td><td>20%</td></tr><tr><td>Risk-free interest rate</td><td>0.2%</td><td>1.4 %</td><td>2.5%</td></tr><tr><td>Remaining performance period (in years)</td><td>2.9</td><td>2.9</td><td>2.9</td></tr></table>

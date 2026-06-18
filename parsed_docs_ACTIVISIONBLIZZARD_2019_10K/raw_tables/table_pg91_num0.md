@@ -1,0 +1,1 @@
+<table><tr><td>2020 $</td><td>75</td></tr><tr><td>2021</td><td>11</td></tr><tr><td>2022</td><td>7</td></tr><tr><td>2023</td><td>2</td></tr><tr><td>2024</td><td>1</td></tr><tr><td> Thereafter</td><td>2</td></tr><tr><td>Total</td><td>$ 98</td></tr></table>

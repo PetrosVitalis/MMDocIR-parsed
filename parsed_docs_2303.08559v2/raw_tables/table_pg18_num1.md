@@ -1,0 +1,1 @@
+<table><tr><td></td><td>FewNERD TACREV (NER)</td><td>(RE)</td><td>ACE ACE (ED) (EAE)</td></tr><tr><td>Text</td><td> $5 7 . 6 ( 2 . 3 )$ </td><td> $4 9 . 6 ( 1 . 2 ) $   $4 2 . 9 ( 1 . 3 )$ </td><td>51.5(1.1)</td></tr><tr><td>Code</td><td> $5 3 . 2 ( 0 . 9 )$ </td><td> ${ \bar { \bf 5 0 . } } 2 ( 1 . 8 )$ </td><td>44.3(2.0) 47.3(1.5)</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td>(Millions)</td><td>Second Quarter 2018</td><td>Fourth Quarter 2018</td></tr><tr><td>Cost of sales</td><td>$ 12</td><td>$ 15</td></tr><tr><td>Selling, general and administrative expenses</td><td>89</td><td>16</td></tr><tr><td>Research, development and related expenses</td><td>4</td><td></td></tr><tr><td>Total</td><td>$ 105</td><td>$ 32</td></tr></table>

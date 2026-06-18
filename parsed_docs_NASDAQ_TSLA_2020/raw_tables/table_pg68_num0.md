@@ -1,0 +1,1 @@
+<table><tr><td></td><td>2020</td><td>YearEndedDecember31, 2019</td><td>2018</td></tr><tr><td>Stock-based awards</td><td>2</td><td>50</td><td>50</td></tr><tr><td>Convertible senior notes</td><td>1</td><td>5</td><td>7</td></tr><tr><td>Warrants</td><td></td><td></td><td>1</td></tr></table>

@@ -1,0 +1,1 @@
+<table><tr><td></td><td>December 31,2019</td><td>Additions (1)</td><td></td><td>Reductions (2)</td><td>December 31,2020</td></tr><tr><td>Deferred revenue - third parties</td><td>$</td><td>$</td><td>8 $</td><td>(4) $</td><td>4</td></tr><tr><td>Deferred revenue-related parties</td><td></td><td></td><td>21</td><td>(2)</td><td>19</td></tr></table>

@@ -1,0 +1,28 @@
+[
+  {
+    "table_id": "table_2",
+    "reason": "LLM parsing failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+    "method": "llm_from_table",
+    "validation_status": "failed",
+    "attempts": [
+      {
+        "stage": "deterministic_parse",
+        "method": "deterministic",
+        "success": false,
+        "error": "Parsed HTML table has no non-empty rows",
+        "validation_errors": [
+          "deterministic_parse_failed"
+        ],
+        "raw_llm_output": null
+      },
+      {
+        "stage": "llm_from_table",
+        "method": "llm_from_table",
+        "success": false,
+        "error": "LLM parse failed: No valid JSON object/array found: line 1 column 1 (char 0)",
+        "validation_errors": [],
+        "raw_llm_output": null
+      }
+    ]
+  }
+]

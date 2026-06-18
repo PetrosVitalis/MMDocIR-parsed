@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Pin No.</td><td rowspan=1 colspan=1> Signal Name</td><td rowspan=1 colspan=1> Pin No.</td><td rowspan=1 colspan=1> Signal Name</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>+5V</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>GND</td></tr></table>

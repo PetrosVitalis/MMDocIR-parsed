@@ -1,0 +1,4 @@
+Source,[Target lang.] Predicted translation,Phenomenon
+The janitor does not like the baker because she always messes up the kitchen.,[ES] Al conserje no le gusta el panadero porque ella siempre desordena la cocina.,"Biased translation, giving \baker\"" a male inflection,with a mismatched pronoun reference."""
+The janitor does not like the pretty baker because she always messes up the kitchen.,[ES] Al conserje no le gusta la panadera bonita porque ella siempre desordena la cocina.,"Adding a stereotypically female adjective \fixes\"" the translation."""
+The counselor asked the guard a few questions and praised her for the good work.,[FR] Le conseiller a posé quelques questions à la garde et l'a louée pour le bon travail.,"French uses \garde\"" for both male and female guards,allowing for a more direct translation from English."""

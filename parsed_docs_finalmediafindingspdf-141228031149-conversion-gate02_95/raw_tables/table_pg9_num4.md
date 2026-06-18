@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=3>Population (%)Sep-14</td></tr><tr><td rowspan=1 colspan=1>Rural</td><td rowspan=1 colspan=1>83</td><td rowspan=1 colspan=1>83</td></tr><tr><td rowspan=1 colspan=1>Urban</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>17</td></tr><tr><td rowspan=1 colspan=3>Total             100           100</td></tr></table>

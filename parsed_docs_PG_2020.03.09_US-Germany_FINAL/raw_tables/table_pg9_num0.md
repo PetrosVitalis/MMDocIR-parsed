@@ -1,0 +1,1 @@
+<table><tr><td>18-29</td><td>Not important</td><td>Important</td></tr><tr><td>30-49</td><td>62%</td><td>33%</td></tr><tr><td>50-64</td><td>45</td><td>52</td></tr><tr><td>65+</td><td>37 38</td><td>61</td></tr></table>

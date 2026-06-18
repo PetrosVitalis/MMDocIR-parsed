@@ -1,0 +1,1 @@
+<table><tr><td>Selling, general and administration</td><td>-2 076</td><td></td><td>30</td><td>-2 046</td></tr><tr><td>Research and development</td><td>-862</td><td>14</td><td></td><td>-848</td></tr><tr><td>Other income</td><td>176</td><td>-5</td><td>-62</td><td>109</td></tr><tr><td>Other expense</td><td>-831</td><td>119</td><td>552</td><td>-160</td></tr></table>

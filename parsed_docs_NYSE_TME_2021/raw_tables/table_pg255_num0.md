@@ -1,0 +1,1 @@
+<table><tr><td colspan="3">As at December 31,</td></tr><tr><td></td><td>2020 RMB&#x27;million</td><td>2021 RMB&#x27;million</td></tr><tr><td>Non-current Current</td><td>78</td><td>86</td></tr><tr><td></td><td>1,608</td><td>1,834</td></tr><tr><td></td><td>1,686</td><td>1,920</td></tr></table>

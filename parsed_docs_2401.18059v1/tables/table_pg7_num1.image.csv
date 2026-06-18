@@ -1,0 +1,5 @@
+Retriever,GPT-3 F-1 Match,GPT-4 F-1 Match,UnifiedQA F-1 Match
+Title + Abstract,25.2,22.2,17.5
+BM25,46.6,50.2,26.4
+DPR,51.3,53.0,32.1
+RAPTOR,53.1,55.7,36.6

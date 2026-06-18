@@ -1,0 +1,1 @@
+<table><tr><td>In millions</td><td>2020</td><td>2019</td><td>2018</td></tr><tr><td>Restaurants</td><td>$1,399.5</td><td>$1,530.4</td><td>$1,433.9</td></tr><tr><td>Other</td><td>79.8</td><td>76.4</td><td>87.9</td></tr><tr><td>Totalrentexpense</td><td>$1,479.3</td><td>$1,606.8 $1,521.8</td><td></td></tr></table>

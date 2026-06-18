@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Total % of voting rights held by the board of directors</td><td rowspan=1 colspan=1>59.3756%</td></tr><tr><td></td><td></td></tr><tr><td rowspan=1 colspan=1>Total % of voting rights represented on the board of directors</td><td rowspan=1 colspan=1>59.3756%</td></tr></table>

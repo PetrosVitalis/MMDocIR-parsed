@@ -1,0 +1,1 @@
+<table><tr><td colspan="4">Fees</td></tr><tr><td></td><td>Earned or Paid Option</td><td></td><td>Stock</td></tr><tr><td>Name</td><td>in Cash Awards</td><td>Awards</td><td>Total</td></tr><tr><td>($）</td><td>($)(1)</td><td>($)</td><td>($)</td></tr><tr><td></td><td>$ 50,000</td><td></td><td>$ 50,000</td></tr></table>

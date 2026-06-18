@@ -1,0 +1,1 @@
+<table><tr><td></td><td>Productivity</td><td>Coverage</td></tr><tr><td rowspan="3">Train Validation</td><td>0.65</td><td>0.66</td></tr><tr><td>0.62</td><td>0.44</td></tr><tr><td>0.52</td><td>0.77</td></tr><tr><td>All</td><td>0.61</td><td>0.64</td></tr></table>

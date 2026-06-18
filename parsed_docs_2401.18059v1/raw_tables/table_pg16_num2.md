@@ -1,0 +1,1 @@
+<table><tr><td rowspan=1 colspan=1>Role</td><td rowspan=1 colspan=1>Content</td></tr><tr><td rowspan=1 colspan=1>system</td><td rowspan=1 colspan=1>You are a Summarizing Text Portal</td></tr><tr><td rowspan=1 colspan=1>user</td><td rowspan=1 colspan=1>Write a summary of the following, including as many key details aspossible: {context}:</td></tr></table>

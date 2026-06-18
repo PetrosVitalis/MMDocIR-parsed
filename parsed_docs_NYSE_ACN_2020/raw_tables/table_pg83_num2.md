@@ -1,0 +1,1 @@
+<table><tr><td>Fiscal Year</td><td>Estimated Amortization</td></tr><tr><td>2021</td><td>$ 214,120</td></tr><tr><td>2022</td><td>172,641</td></tr><tr><td>2023</td><td>154,297</td></tr><tr><td>2024</td><td>127,673</td></tr><tr><td>2025</td><td>108,068</td></tr><tr><td>Thereafter</td><td>252,419</td></tr><tr><td>Total</td><td>$ 1,029,218</td></tr></table>

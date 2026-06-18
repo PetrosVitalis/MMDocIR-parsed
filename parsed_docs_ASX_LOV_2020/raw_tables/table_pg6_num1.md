@@ -1,0 +1,1 @@
+<table><tr><td>Franchise</td><td>FY20</td><td>FY19</td></tr><tr><td>Asia</td><td>7</td><td>8</td></tr><tr><td>Middle East</td><td>34</td><td>28</td></tr><tr><td>Total Franchise</td><td>41</td><td>36</td></tr><tr><td>TOTAL STORES</td><td>435</td><td>390</td></tr></table>
